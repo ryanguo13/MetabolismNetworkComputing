@@ -1,0 +1,256 @@
+{
+  "sha256": "e33de2097944e44903f125f180c7833c062cab48b8f0f48b82dc62584d7652f8",
+  "inner_zip_sha256": "2be5c1161757b5f6e97d348ad744c0fcf837928b4a8a74d786b5c8a8f6bffc8d",
+  "files": [
+    "k-ecoli457/",
+    "k-ecoli457/Data.mat",
+    "k-ecoli457/event_function.m",
+    "k-ecoli457/get_Vnet.m",
+    "k-ecoli457/jacobFun_Big_447_Model.m",
+    "k-ecoli457/Main_Module.m",
+    "k-ecoli457/mass_balance_ode.m",
+    "k-ecoli457/parallel_automated.m",
+    "k-ecoli457/perturbModel.m",
+    "k-ecoli457/solve_ode.m"
+  ],
+  "mat_variables": {
+    "elementary_kinetic_parameter": {
+      "type": "ndarray",
+      "shape": [
+        5239
+      ],
+      "fields": null
+    },
+    "anaerobic_id": {
+      "type": "ndarray",
+      "shape": [
+        81
+      ],
+      "fields": null
+    },
+    "acetate_id": {
+      "type": "ndarray",
+      "shape": [
+        5
+      ],
+      "fields": null
+    },
+    "pyr_id": {
+      "type": "ndarray",
+      "shape": [
+        35
+      ],
+      "fields": null
+    },
+    "metabolite_and_enzyme_conc": {
+      "type": "ndarray",
+      "shape": [
+        3003
+      ],
+      "fields": null
+    },
+    "network_data": {
+      "type": "dict",
+      "shape": null,
+      "fields": [
+        "metab",
+        "rxn",
+        "rxn_f_b",
+        "S",
+        "S_f_b",
+        "Enzyme",
+        "rev",
+        "LB_rxn",
+        "UB_rxn",
+        "isElementary",
+        "isMassAction",
+        "enz_enzComplex",
+        "metab_enzComplex",
+        "metabIndexInfo",
+        "enzIndexInfo",
+        "cof_metab_index",
+        "cof_rxn_index",
+        "unexp_rxn_info",
+        "rxn_f_bInd_rxnInd",
+        "Perturbations",
+        "perturb_names",
+        "model_name",
+        "unexpanded_model"
+      ]
+    },
+    "acetate_enzyme_fraction": {
+      "type": "ndarray",
+      "shape": [
+        5
+      ],
+      "fields": null
+    },
+    "aerobic_enzyme_fraction": {
+      "type": "ndarray",
+      "shape": [
+        21
+      ],
+      "fields": null
+    },
+    "anaerobic_enzyme_fraction": {
+      "type": "ndarray",
+      "shape": [
+        81
+      ],
+      "fields": null
+    },
+    "pyr_enzyme_fraction": {
+      "type": "ndarray",
+      "shape": [
+        35
+      ],
+      "fields": null
+    }
+  },
+  "status": "source available; original MATLAB execution/port parity not yet verified",
+  "expanded_fields": {
+    "metab": {
+      "type": "ndarray",
+      "shape": [
+        3003
+      ]
+    },
+    "rxn": {
+      "type": "ndarray",
+      "shape": [
+        2666
+      ]
+    },
+    "rxn_f_b": {
+      "type": "ndarray",
+      "shape": [
+        5239
+      ]
+    },
+    "S": {
+      "type": "ndarray",
+      "shape": [
+        3003,
+        2666
+      ]
+    },
+    "S_f_b": {
+      "type": "ndarray",
+      "shape": [
+        3003,
+        5239
+      ]
+    },
+    "Enzyme": {
+      "type": "ndarray",
+      "shape": [
+        457
+      ]
+    },
+    "rev": {
+      "type": "ndarray",
+      "shape": [
+        2666
+      ]
+    },
+    "LB_rxn": {
+      "type": "ndarray",
+      "shape": [
+        2666
+      ]
+    },
+    "UB_rxn": {
+      "type": "ndarray",
+      "shape": [
+        2666
+      ]
+    },
+    "isElementary": {
+      "type": "ndarray",
+      "shape": [
+        2666
+      ]
+    },
+    "isMassAction": {
+      "type": "ndarray",
+      "shape": [
+        2666
+      ]
+    },
+    "enz_enzComplex": {
+      "type": "ndarray",
+      "shape": [
+        3003,
+        457
+      ]
+    },
+    "metab_enzComplex": {
+      "type": "ndarray",
+      "shape": [
+        3003,
+        337
+      ]
+    },
+    "metabIndexInfo": {
+      "type": "ndarray",
+      "shape": [
+        3,
+        3
+      ]
+    },
+    "enzIndexInfo": {
+      "type": "ndarray",
+      "shape": [
+        457,
+        2
+      ]
+    },
+    "cof_metab_index": {
+      "type": "ndarray",
+      "shape": [
+        24
+      ]
+    },
+    "cof_rxn_index": {
+      "type": "ndarray",
+      "shape": [
+        8
+      ]
+    },
+    "unexp_rxn_info": {
+      "type": "ndarray",
+      "shape": [
+        786,
+        7
+      ]
+    },
+    "rxn_f_bInd_rxnInd": {
+      "type": "ndarray",
+      "shape": [
+        5239
+      ]
+    },
+    "Perturbations": {
+      "type": "ndarray",
+      "shape": [
+        457
+      ]
+    },
+    "perturb_names": {
+      "type": "str",
+      "shape": null
+    },
+    "model_name": {
+      "type": "str",
+      "shape": null
+    },
+    "unexpanded_model": {
+      "type": "dict",
+      "shape": null
+    }
+  },
+  "expanded_ode_dimension": 3003,
+  "elementary_directional_reactions": 5239,
+  "unexpanded_metabolites": 337,
+  "unexpanded_reactions": 457
+}

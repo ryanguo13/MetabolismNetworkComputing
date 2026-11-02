@@ -2,7 +2,7 @@
 
 面向刚性代谢动力学 ODE 的**自适应快—慢反应算子分裂**研究。
 
-**当前阶段：项目规划完成，实施尚未开始。** 本仓库当前只有原始构想、文献阅读笔记和研究计划，没有算法实现、模型运行结果或性能结论。调研／规划日期：2026-11-01 至 2026-11-02（Asia/Shanghai）。
+**当前阶段：M1 模型与基线已启动。** 已取得两个公开 SBML 模型及 k-ecoli457 原始补充包，实现有限 SBML 语义适配器，并运行 BDF／Radau／CVODE 基线试验。M1 验收尚未全部完成；尚无分裂算法或算法加速结论。调研及实施记录日期：2026-11-01 至 2026-11-02（Asia/Shanghai）。
 
 ## 研究问题
 
@@ -20,10 +20,22 @@
 | [基准与评估协议](docs/benchmark-protocol.md) | 候选模型、基线、指标、消融、鲁棒性、公平计时 |
 | [检索与证据记录](docs/research-log.md) | 检索范围、来源、全文阅读定位、未解决问题 |
 | [进度记录](docs/progress.md) | 本轮已完成项及明确未执行项 |
+| [M1 首轮实施报告](docs/m1-baseline-report.md) | 模型语义、参考解核验、基线结果与剩余验收项 |
 | [BibTeX 文献库](references.bib) | 与综述编号对应的可引用条目 |
 
-## 开始实施之前
+## 运行 M1
 
-下一步是项目规划中的 M1：核验模型、建立参考解和基线。**本轮停在 M0，不自动进入 M1。** 时间安排均为未来启动后的工作量估计，不代表已排期或已运行。
+需要 [uv](https://docs.astral.sh/uv/)；依赖由 `uv.lock` 锁定，Python 3.12、CPU float64：
+
+```powershell
+uv sync --locked
+uv run python -m metabolism.fetch_models
+uv run python -m unittest discover -s tests -v
+uv run python -m metabolism.benchmark
+```
+
+下载器核对 [模型清单](models/manifest.json) 中的 SHA-256；已有文件也必须通过核验。两个 CC0 SBML 随仓库保存；k-ecoli457 原始 ZIP 留作本地缓存，可按清单重新下载。运行结果保存在 [results/m1](results/m1)，含参考轨迹、完整重复记录、语义审计、环境版本及工作量—精度图。完整基线需数分钟；重复次数下限为 7，短轨迹按所有方法相同的批大小计时。
+
+当前不支持任意 SBML：适配器对未支持的语义明确报错。Chassagnole 的显式时间规则用于完整系统基线，暂不纳入首版自治分裂。CVODE 使用 RoadRunner 编译 RHS 和默认稠密线性代数，图中与 SciPy 的差异包含软件实现成本。M2–M6 仍按验收门推进。
 
 关键近期对照：Zeng、Xie、Wang 的 [2026 年 CLE 快—慢分裂预印本](https://arxiv.org/abs/2604.00140v1)。它研究随机系统；本项目首先研究确定性 ODE，不直接沿用其随机误差公式或性能结论。

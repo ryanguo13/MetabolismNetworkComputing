@@ -1,6 +1,6 @@
 # 基准模型与评估协议
 
-规划版本 v0.1，2026-11-02（Asia/Shanghai）。**本文件全部实验均为未来任务；当前没有实验结果。**
+规划版本 v0.2，2026-11-02（Asia/Shanghai）。**M1 的 E3 已完成首轮开发试验，其余实验仍为计划。** 实际配置和限制见 [M1 报告](m1-baseline-report.md) 与 `results/m1`；本协议的正式验收要求保持有效。
 
 ## 1. 候选模型与准入条件
 
@@ -14,7 +14,7 @@
 | B3a | k-ecoli457 论文所述前序 core model，93 metabolites / 138 reactions | 中等规模核心代谢候选 | [R12] 正文报告规模；独立模型包、参数和来源链待 M1 核验 |
 | B3b | k-ecoli457，337 metabolites / 457 model reactions | 覆盖核心碳代谢与氨基酸等通路的规模验证 | [论文及补充材料入口](https://www.nature.com/articles/ncomms13806)，[R12]；MATLAB/MAT 分发，转换成本未知 |
 
-B1 的第三方目录列出 26 species / 17 reactions，**不能把 26 当作独立动态浓度数**。B3 数字是论文给出的网络计数，显式酶机制展开后的 ODE 维度可能不同。M1 应以实际模型解析结果替换所有目录级数字。
+B1 实际 SBML 为 26 species / 17 reactions，独立动态浓度为 **14**；3 个赋值物种、2 个常量物种和 7 个边界物种不积分。B2 为 **18** 动态浓度、48 反应、7 条显式时间赋值规则，无事件；完整系统基线保留规则，首版自治分裂暂不准入。B3b 原始 MAT 为 **3003** 个展开状态、5239 个单向反应，未展开网络仍为 337 metabolites / 457 reactions；其原执行器一致性尚待核验。详见模型审计 JSON。
 
 首选 B1 与 B2 验证模型语义，B3a 或 B3b 至少一个通过准入后才开展中等规模性能主张。若 B3a 不可获得，核验 B3b；两者都不合格则重新选公开动力学模型，记录原因。不可拿缺少速率律的 FBA 网络直接替代动力学 ODE。
 
@@ -121,6 +121,6 @@ $$
 
 ## 6. 结果模板与决策
 
-未来每次运行至少保存：`model_id, model_hash, case_id, seed, method, config, accuracy_target, observed_error, invariant_or_balance_error, min_raw_concentration, status, failure_reason, runtime_breakdown, solver_counts, software_versions, hardware`。本轮不创建这些结果文件，也不填入任何虚构数据。
+每次运行至少保存：`model_id, model_hash, case_id, seed, method, config, accuracy_target, observed_error, invariant_or_balance_error, min_raw_concentration, status, failure_reason, runtime_breakdown, solver_counts, software_versions, hardware`。M1 首轮已保存可取得的字段；未取得的内部统计和峰值内存显式记为 null，不填入推测数据。
 
 主报告必须含：工作量—精度图、守恒／收支与最小浓度、长期轨迹、分组与 PE 历史、耗时分解、扰动失败率、所有消融和负结果。达到 [项目规划](project-plan.md) 的性能目标后，仍仅针对测试过的模型与参数域作结论。

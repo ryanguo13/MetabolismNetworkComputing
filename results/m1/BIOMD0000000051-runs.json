@@ -1,0 +1,3166 @@
+[
+  {
+    "model_id": "BIOMD0000000051",
+    "model_hash": "167e78583aa85b49c0e283543f5c80e826a16d23cc06bb34e60c6dfbeb67f3fc",
+    "case_id": "original_initial_values",
+    "seed": 20261102,
+    "method": "BDF",
+    "rtol": 0.001,
+    "repeat": 0,
+    "implementation": "Python shared RHS/SciPy",
+    "status": "success",
+    "failure_reason": null,
+    "integration_and_output_seconds": 0.013490029999957187,
+    "batch_seconds": 0.13490029999957187,
+    "trajectories_per_batch": 10,
+    "observed_error": {
+      "0.001": 4.907217383188229,
+      "1e-05": 490.7217383188229,
+      "1e-07": 49072.17383188229
+    },
+    "flux_error": {
+      "0.001": 85.86568426423293,
+      "1e-05": 8586.568426423293,
+      "1e-07": 858656.8426423293
+    },
+    "invariant_error": null,
+    "min_raw_output_concentration": 0.001993288171823051,
+    "significant_negative_output_count": 0,
+    "solver_counts": {
+      "nfev": 141,
+      "njev": 5,
+      "nlu": 21,
+      "observed_rhs_calls_including_fd": 191,
+      "accepted_steps": 55,
+      "min_accepted_state": 0.0019932966369948088,
+      "min_rhs_argument_including_newton_and_fd": 0.0019932447943663317,
+      "significant_negative_rhs_components": 0
+    }
+  },
+  {
+    "model_id": "BIOMD0000000051",
+    "model_hash": "167e78583aa85b49c0e283543f5c80e826a16d23cc06bb34e60c6dfbeb67f3fc",
+    "case_id": "original_initial_values",
+    "seed": 20261102,
+    "method": "CVODE",
+    "rtol": 1e-09,
+    "repeat": 0,
+    "implementation": "compiled SBML/RoadRunner",
+    "status": "success",
+    "failure_reason": null,
+    "integration_and_output_seconds": 0.005918630000087433,
+    "batch_seconds": 0.059186300000874326,
+    "trajectories_per_batch": 10,
+    "observed_error": {
+      "0.001": 0.00017245638545521368,
+      "1e-05": 0.01724563854552137,
+      "1e-07": 1.724563854552137
+    },
+    "flux_error": {
+      "0.001": 0.0005528657222241283,
+      "1e-05": 0.05528657222241283,
+      "1e-07": 5.528657222241284
+    },
+    "invariant_error": null,
+    "min_raw_output_concentration": 0.0019935058082168745,
+    "significant_negative_output_count": 0,
+    "solver_counts": {
+      "nfev": null,
+      "njev": null,
+      "nlu": null,
+      "accepted_steps": null,
+      "min_accepted_state": null,
+      "min_rhs_argument_including_newton_and_fd": null,
+      "note": "RoadRunner public API here does not expose internal steps/counters; dense default CVODE, compiled RHS. Scalar atol uses smallest common species scale."
+    }
+  },
+  {
+    "model_id": "BIOMD0000000051",
+    "model_hash": "167e78583aa85b49c0e283543f5c80e826a16d23cc06bb34e60c6dfbeb67f3fc",
+    "case_id": "original_initial_values",
+    "seed": 20261102,
+    "method": "Radau",
+    "rtol": 1e-05,
+    "repeat": 0,
+    "implementation": "Python shared RHS/SciPy",
+    "status": "success",
+    "failure_reason": null,
+    "integration_and_output_seconds": 0.051104029999987685,
+    "batch_seconds": 0.5110402999998769,
+    "trajectories_per_batch": 10,
+    "observed_error": {
+      "0.001": 0.010285572082599708,
+      "1e-05": 1.0285572082599705,
+      "1e-07": 102.85572082599708
+    },
+    "flux_error": {
+      "0.001": 0.20375216093937795,
+      "1e-05": 20.375216093937794,
+      "1e-07": 2037.5216093937797
+    },
+    "invariant_error": null,
+    "min_raw_output_concentration": 0.0019935053110686756,
+    "significant_negative_output_count": 0,
+    "solver_counts": {
+      "nfev": 503,
+      "njev": 30,
+      "nlu": 98,
+      "observed_rhs_calls_including_fd": 773,
+      "accepted_steps": 56,
+      "min_accepted_state": 0.0019940215874399885,
+      "min_rhs_argument_including_newton_and_fd": 0.001993564470639509,
+      "significant_negative_rhs_components": 0
+    }
+  },
+  {
+    "model_id": "BIOMD0000000051",
+    "model_hash": "167e78583aa85b49c0e283543f5c80e826a16d23cc06bb34e60c6dfbeb67f3fc",
+    "case_id": "original_initial_values",
+    "seed": 20261102,
+    "method": "BDF",
+    "rtol": 1e-09,
+    "repeat": 0,
+    "implementation": "Python shared RHS/SciPy",
+    "status": "success",
+    "failure_reason": null,
+    "integration_and_output_seconds": 0.11317457999975886,
+    "batch_seconds": 1.1317457999975886,
+    "trajectories_per_batch": 10,
+    "observed_error": {
+      "0.001": 3.683091336279444e-05,
+      "1e-05": 0.003683091336279444,
+      "1e-07": 0.36830913362794443
+    },
+    "flux_error": {
+      "0.001": 0.00047253962089353674,
+      "1e-05": 0.047253962089353674,
+      "1e-07": 4.725396208935368
+    },
+    "invariant_error": null,
+    "min_raw_output_concentration": 0.001993505810416509,
+    "significant_negative_output_count": 0,
+    "solver_counts": {
+      "nfev": 1688,
+      "njev": 15,
+      "nlu": 110,
+      "observed_rhs_calls_including_fd": 1838,
+      "accepted_steps": 549,
+      "min_accepted_state": 0.0019934991618953267,
+      "min_rhs_argument_including_newton_and_fd": 0.0019934991583696877,
+      "significant_negative_rhs_components": 0
+    }
+  },
+  {
+    "model_id": "BIOMD0000000051",
+    "model_hash": "167e78583aa85b49c0e283543f5c80e826a16d23cc06bb34e60c6dfbeb67f3fc",
+    "case_id": "original_initial_values",
+    "seed": 20261102,
+    "method": "BDF",
+    "rtol": 1e-05,
+    "repeat": 0,
+    "implementation": "Python shared RHS/SciPy",
+    "status": "success",
+    "failure_reason": null,
+    "integration_and_output_seconds": 0.02893407000010484,
+    "batch_seconds": 0.2893407000010484,
+    "trajectories_per_batch": 10,
+    "observed_error": {
+      "0.001": 0.1385455294660965,
+      "1e-05": 13.854552946609648,
+      "1e-07": 1385.455294660965
+    },
+    "flux_error": {
+      "0.001": 1.7757793842648177,
+      "1e-05": 177.57793842648178,
+      "1e-07": 17757.79384264818
+    },
+    "invariant_error": null,
+    "min_raw_output_concentration": 0.0019935093353184523,
+    "significant_negative_output_count": 0,
+    "solver_counts": {
+      "nfev": 371,
+      "njev": 7,
+      "nlu": 34,
+      "observed_rhs_calls_including_fd": 441,
+      "accepted_steps": 134,
+      "min_accepted_state": 0.0019935843018656367,
+      "min_rhs_argument_including_newton_and_fd": 0.0019935411309531764,
+      "significant_negative_rhs_components": 0
+    }
+  },
+  {
+    "model_id": "BIOMD0000000051",
+    "model_hash": "167e78583aa85b49c0e283543f5c80e826a16d23cc06bb34e60c6dfbeb67f3fc",
+    "case_id": "original_initial_values",
+    "seed": 20261102,
+    "method": "Radau",
+    "rtol": 1e-09,
+    "repeat": 0,
+    "implementation": "Python shared RHS/SciPy",
+    "status": "success",
+    "failure_reason": null,
+    "integration_and_output_seconds": 0.3588009499995678,
+    "batch_seconds": 3.588009499995678,
+    "trajectories_per_batch": 10,
+    "observed_error": {
+      "0.001": 8.328108847347685e-07,
+      "1e-05": 8.328108847347681e-05,
+      "1e-07": 0.008328108847347684
+    },
+    "flux_error": {
+      "0.001": 5.151867110062872e-05,
+      "1e-05": 0.005151867110062872,
+      "1e-07": 0.5151867110062872
+    },
+    "invariant_error": null,
+    "min_raw_output_concentration": 0.001993505809814686,
+    "significant_negative_output_count": 0,
+    "solver_counts": {
+      "nfev": 4386,
+      "njev": 219,
+      "nlu": 482,
+      "observed_rhs_calls_including_fd": 6357,
+      "accepted_steps": 526,
+      "min_accepted_state": 0.0019935016825296118,
+      "min_rhs_argument_including_newton_and_fd": 0.001993499413352586,
+      "significant_negative_rhs_components": 0
+    }
+  },
+  {
+    "model_id": "BIOMD0000000051",
+    "model_hash": "167e78583aa85b49c0e283543f5c80e826a16d23cc06bb34e60c6dfbeb67f3fc",
+    "case_id": "original_initial_values",
+    "seed": 20261102,
+    "method": "Radau",
+    "rtol": 1e-07,
+    "repeat": 0,
+    "implementation": "Python shared RHS/SciPy",
+    "status": "success",
+    "failure_reason": null,
+    "integration_and_output_seconds": 0.13569569000028422,
+    "batch_seconds": 1.3569569000028423,
+    "trajectories_per_batch": 10,
+    "observed_error": {
+      "0.001": 0.00011210381394109445,
+      "1e-05": 0.011210381394109441,
+      "1e-07": 1.1210381394109445
+    },
+    "flux_error": {
+      "0.001": 0.0031174634663009046,
+      "1e-05": 0.3117463466300905,
+      "1e-07": 31.17463466300905
+    },
+    "invariant_error": null,
+    "min_raw_output_concentration": 0.001993505814238314,
+    "significant_negative_output_count": 0,
+    "solver_counts": {
+      "nfev": 1435,
+      "njev": 81,
+      "nlu": 202,
+      "observed_rhs_calls_including_fd": 2164,
+      "accepted_steps": 169,
+      "min_accepted_state": 0.0019935156988027153,
+      "min_rhs_argument_including_newton_and_fd": 0.001993505664563061,
+      "significant_negative_rhs_components": 0
+    }
+  },
+  {
+    "model_id": "BIOMD0000000051",
+    "model_hash": "167e78583aa85b49c0e283543f5c80e826a16d23cc06bb34e60c6dfbeb67f3fc",
+    "case_id": "original_initial_values",
+    "seed": 20261102,
+    "method": "CVODE",
+    "rtol": 0.001,
+    "repeat": 0,
+    "implementation": "compiled SBML/RoadRunner",
+    "status": "success",
+    "failure_reason": null,
+    "integration_and_output_seconds": 0.002443360000324901,
+    "batch_seconds": 0.024433600003249012,
+    "trajectories_per_batch": 10,
+    "observed_error": {
+      "0.001": 8.649659575014807,
+      "1e-05": 864.9659575014806,
+      "1e-07": 86496.59575014807
+    },
+    "flux_error": {
+      "0.001": 110.46449913445636,
+      "1e-05": 11046.449913445636,
+      "1e-07": 1104644.9913445637
+    },
+    "invariant_error": null,
+    "min_raw_output_concentration": 0.001994021653315652,
+    "significant_negative_output_count": 0,
+    "solver_counts": {
+      "nfev": null,
+      "njev": null,
+      "nlu": null,
+      "accepted_steps": null,
+      "min_accepted_state": null,
+      "min_rhs_argument_including_newton_and_fd": null,
+      "note": "RoadRunner public API here does not expose internal steps/counters; dense default CVODE, compiled RHS. Scalar atol uses smallest common species scale."
+    }
+  },
+  {
+    "model_id": "BIOMD0000000051",
+    "model_hash": "167e78583aa85b49c0e283543f5c80e826a16d23cc06bb34e60c6dfbeb67f3fc",
+    "case_id": "original_initial_values",
+    "seed": 20261102,
+    "method": "Radau",
+    "rtol": 0.001,
+    "repeat": 0,
+    "implementation": "Python shared RHS/SciPy",
+    "status": "success",
+    "failure_reason": null,
+    "integration_and_output_seconds": 0.023060999999870546,
+    "batch_seconds": 0.23060999999870546,
+    "trajectories_per_batch": 10,
+    "observed_error": {
+      "0.001": 2.65697651658361,
+      "1e-05": 265.69765165836094,
+      "1e-07": 26569.7651658361
+    },
+    "flux_error": {
+      "0.001": 39.27433997054473,
+      "1e-05": 3927.433997054473,
+      "1e-07": 392743.3997054473
+    },
+    "invariant_error": null,
+    "min_raw_output_concentration": 0.001993470152632431,
+    "significant_negative_output_count": 0,
+    "solver_counts": {
+      "nfev": 200,
+      "njev": 12,
+      "nlu": 40,
+      "observed_rhs_calls_including_fd": 308,
+      "accepted_steps": 20,
+      "min_accepted_state": 0.00199919604603084,
+      "min_rhs_argument_including_newton_and_fd": 0.0018881931801351575,
+      "significant_negative_rhs_components": 0
+    }
+  },
+  {
+    "model_id": "BIOMD0000000051",
+    "model_hash": "167e78583aa85b49c0e283543f5c80e826a16d23cc06bb34e60c6dfbeb67f3fc",
+    "case_id": "original_initial_values",
+    "seed": 20261102,
+    "method": "CVODE",
+    "rtol": 1e-07,
+    "repeat": 0,
+    "implementation": "compiled SBML/RoadRunner",
+    "status": "success",
+    "failure_reason": null,
+    "integration_and_output_seconds": 0.004644800000096439,
+    "batch_seconds": 0.046448000000964385,
+    "trajectories_per_batch": 10,
+    "observed_error": {
+      "0.001": 0.003988050135311861,
+      "1e-05": 0.3988050135311861,
+      "1e-07": 39.88050135311861
+    },
+    "flux_error": {
+      "0.001": 0.04848216078793437,
+      "1e-05": 4.8482160787934365,
+      "1e-07": 484.8216078793437
+    },
+    "invariant_error": null,
+    "min_raw_output_concentration": 0.0019935057141562316,
+    "significant_negative_output_count": 0,
+    "solver_counts": {
+      "nfev": null,
+      "njev": null,
+      "nlu": null,
+      "accepted_steps": null,
+      "min_accepted_state": null,
+      "min_rhs_argument_including_newton_and_fd": null,
+      "note": "RoadRunner public API here does not expose internal steps/counters; dense default CVODE, compiled RHS. Scalar atol uses smallest common species scale."
+    }
+  },
+  {
+    "model_id": "BIOMD0000000051",
+    "model_hash": "167e78583aa85b49c0e283543f5c80e826a16d23cc06bb34e60c6dfbeb67f3fc",
+    "case_id": "original_initial_values",
+    "seed": 20261102,
+    "method": "BDF",
+    "rtol": 1e-07,
+    "repeat": 0,
+    "implementation": "Python shared RHS/SciPy",
+    "status": "success",
+    "failure_reason": null,
+    "integration_and_output_seconds": 0.05733249999975669,
+    "batch_seconds": 0.5733249999975669,
+    "trajectories_per_batch": 10,
+    "observed_error": {
+      "0.001": 0.0027799170882547766,
+      "1e-05": 0.27799170882547763,
+      "1e-07": 27.799170882547767
+    },
+    "flux_error": {
+      "0.001": 0.03392838909177079,
+      "1e-05": 3.392838909177079,
+      "1e-07": 339.28389091770794
+    },
+    "invariant_error": null,
+    "min_raw_output_concentration": 0.001993505844180125,
+    "significant_negative_output_count": 0,
+    "solver_counts": {
+      "nfev": 790,
+      "njev": 10,
+      "nlu": 59,
+      "observed_rhs_calls_including_fd": 890,
+      "accepted_steps": 272,
+      "min_accepted_state": 0.001993576296422585,
+      "min_rhs_argument_including_newton_and_fd": 0.0019935760109645304,
+      "significant_negative_rhs_components": 0
+    }
+  },
+  {
+    "model_id": "BIOMD0000000051",
+    "model_hash": "167e78583aa85b49c0e283543f5c80e826a16d23cc06bb34e60c6dfbeb67f3fc",
+    "case_id": "original_initial_values",
+    "seed": 20261102,
+    "method": "CVODE",
+    "rtol": 1e-05,
+    "repeat": 0,
+    "implementation": "compiled SBML/RoadRunner",
+    "status": "success",
+    "failure_reason": null,
+    "integration_and_output_seconds": 0.003358730000036303,
+    "batch_seconds": 0.03358730000036303,
+    "trajectories_per_batch": 10,
+    "observed_error": {
+      "0.001": 0.17397328944794874,
+      "1e-05": 17.39732894479487,
+      "1e-07": 1739.7328944794874
+    },
+    "flux_error": {
+      "0.001": 3.053607552059053,
+      "1e-05": 305.3607552059053,
+      "1e-07": 30536.075520590533
+    },
+    "invariant_error": null,
+    "min_raw_output_concentration": 0.001993502797592578,
+    "significant_negative_output_count": 0,
+    "solver_counts": {
+      "nfev": null,
+      "njev": null,
+      "nlu": null,
+      "accepted_steps": null,
+      "min_accepted_state": null,
+      "min_rhs_argument_including_newton_and_fd": null,
+      "note": "RoadRunner public API here does not expose internal steps/counters; dense default CVODE, compiled RHS. Scalar atol uses smallest common species scale."
+    }
+  },
+  {
+    "model_id": "BIOMD0000000051",
+    "model_hash": "167e78583aa85b49c0e283543f5c80e826a16d23cc06bb34e60c6dfbeb67f3fc",
+    "case_id": "original_initial_values",
+    "seed": 20261102,
+    "method": "Radau",
+    "rtol": 1e-09,
+    "repeat": 1,
+    "implementation": "Python shared RHS/SciPy",
+    "status": "success",
+    "failure_reason": null,
+    "integration_and_output_seconds": 0.36308829999979936,
+    "batch_seconds": 3.6308829999979935,
+    "trajectories_per_batch": 10,
+    "observed_error": {
+      "0.001": 8.328108847347685e-07,
+      "1e-05": 8.328108847347681e-05,
+      "1e-07": 0.008328108847347684
+    },
+    "flux_error": {
+      "0.001": 5.151867110062872e-05,
+      "1e-05": 0.005151867110062872,
+      "1e-07": 0.5151867110062872
+    },
+    "invariant_error": null,
+    "min_raw_output_concentration": 0.001993505809814686,
+    "significant_negative_output_count": 0,
+    "solver_counts": {
+      "nfev": 4386,
+      "njev": 219,
+      "nlu": 482,
+      "observed_rhs_calls_including_fd": 6357,
+      "accepted_steps": 526,
+      "min_accepted_state": 0.0019935016825296118,
+      "min_rhs_argument_including_newton_and_fd": 0.001993499413352586,
+      "significant_negative_rhs_components": 0
+    }
+  },
+  {
+    "model_id": "BIOMD0000000051",
+    "model_hash": "167e78583aa85b49c0e283543f5c80e826a16d23cc06bb34e60c6dfbeb67f3fc",
+    "case_id": "original_initial_values",
+    "seed": 20261102,
+    "method": "BDF",
+    "rtol": 1e-09,
+    "repeat": 1,
+    "implementation": "Python shared RHS/SciPy",
+    "status": "success",
+    "failure_reason": null,
+    "integration_and_output_seconds": 0.10942938000007416,
+    "batch_seconds": 1.0942938000007416,
+    "trajectories_per_batch": 10,
+    "observed_error": {
+      "0.001": 3.683091336279444e-05,
+      "1e-05": 0.003683091336279444,
+      "1e-07": 0.36830913362794443
+    },
+    "flux_error": {
+      "0.001": 0.00047253962089353674,
+      "1e-05": 0.047253962089353674,
+      "1e-07": 4.725396208935368
+    },
+    "invariant_error": null,
+    "min_raw_output_concentration": 0.001993505810416509,
+    "significant_negative_output_count": 0,
+    "solver_counts": {
+      "nfev": 1688,
+      "njev": 15,
+      "nlu": 110,
+      "observed_rhs_calls_including_fd": 1838,
+      "accepted_steps": 549,
+      "min_accepted_state": 0.0019934991618953267,
+      "min_rhs_argument_including_newton_and_fd": 0.0019934991583696877,
+      "significant_negative_rhs_components": 0
+    }
+  },
+  {
+    "model_id": "BIOMD0000000051",
+    "model_hash": "167e78583aa85b49c0e283543f5c80e826a16d23cc06bb34e60c6dfbeb67f3fc",
+    "case_id": "original_initial_values",
+    "seed": 20261102,
+    "method": "CVODE",
+    "rtol": 1e-05,
+    "repeat": 1,
+    "implementation": "compiled SBML/RoadRunner",
+    "status": "success",
+    "failure_reason": null,
+    "integration_and_output_seconds": 0.0033160300001327412,
+    "batch_seconds": 0.033160300001327414,
+    "trajectories_per_batch": 10,
+    "observed_error": {
+      "0.001": 0.17397328944794874,
+      "1e-05": 17.39732894479487,
+      "1e-07": 1739.7328944794874
+    },
+    "flux_error": {
+      "0.001": 3.053607552059053,
+      "1e-05": 305.3607552059053,
+      "1e-07": 30536.075520590533
+    },
+    "invariant_error": null,
+    "min_raw_output_concentration": 0.001993502797592578,
+    "significant_negative_output_count": 0,
+    "solver_counts": {
+      "nfev": null,
+      "njev": null,
+      "nlu": null,
+      "accepted_steps": null,
+      "min_accepted_state": null,
+      "min_rhs_argument_including_newton_and_fd": null,
+      "note": "RoadRunner public API here does not expose internal steps/counters; dense default CVODE, compiled RHS. Scalar atol uses smallest common species scale."
+    }
+  },
+  {
+    "model_id": "BIOMD0000000051",
+    "model_hash": "167e78583aa85b49c0e283543f5c80e826a16d23cc06bb34e60c6dfbeb67f3fc",
+    "case_id": "original_initial_values",
+    "seed": 20261102,
+    "method": "BDF",
+    "rtol": 0.001,
+    "repeat": 1,
+    "implementation": "Python shared RHS/SciPy",
+    "status": "success",
+    "failure_reason": null,
+    "integration_and_output_seconds": 0.013857209999696352,
+    "batch_seconds": 0.13857209999696352,
+    "trajectories_per_batch": 10,
+    "observed_error": {
+      "0.001": 4.907217383188229,
+      "1e-05": 490.7217383188229,
+      "1e-07": 49072.17383188229
+    },
+    "flux_error": {
+      "0.001": 85.86568426423293,
+      "1e-05": 8586.568426423293,
+      "1e-07": 858656.8426423293
+    },
+    "invariant_error": null,
+    "min_raw_output_concentration": 0.001993288171823051,
+    "significant_negative_output_count": 0,
+    "solver_counts": {
+      "nfev": 141,
+      "njev": 5,
+      "nlu": 21,
+      "observed_rhs_calls_including_fd": 191,
+      "accepted_steps": 55,
+      "min_accepted_state": 0.0019932966369948088,
+      "min_rhs_argument_including_newton_and_fd": 0.0019932447943663317,
+      "significant_negative_rhs_components": 0
+    }
+  },
+  {
+    "model_id": "BIOMD0000000051",
+    "model_hash": "167e78583aa85b49c0e283543f5c80e826a16d23cc06bb34e60c6dfbeb67f3fc",
+    "case_id": "original_initial_values",
+    "seed": 20261102,
+    "method": "CVODE",
+    "rtol": 0.001,
+    "repeat": 1,
+    "implementation": "compiled SBML/RoadRunner",
+    "status": "success",
+    "failure_reason": null,
+    "integration_and_output_seconds": 0.002115819999744417,
+    "batch_seconds": 0.02115819999744417,
+    "trajectories_per_batch": 10,
+    "observed_error": {
+      "0.001": 8.649659575014807,
+      "1e-05": 864.9659575014806,
+      "1e-07": 86496.59575014807
+    },
+    "flux_error": {
+      "0.001": 110.46449913445636,
+      "1e-05": 11046.449913445636,
+      "1e-07": 1104644.9913445637
+    },
+    "invariant_error": null,
+    "min_raw_output_concentration": 0.001994021653315652,
+    "significant_negative_output_count": 0,
+    "solver_counts": {
+      "nfev": null,
+      "njev": null,
+      "nlu": null,
+      "accepted_steps": null,
+      "min_accepted_state": null,
+      "min_rhs_argument_including_newton_and_fd": null,
+      "note": "RoadRunner public API here does not expose internal steps/counters; dense default CVODE, compiled RHS. Scalar atol uses smallest common species scale."
+    }
+  },
+  {
+    "model_id": "BIOMD0000000051",
+    "model_hash": "167e78583aa85b49c0e283543f5c80e826a16d23cc06bb34e60c6dfbeb67f3fc",
+    "case_id": "original_initial_values",
+    "seed": 20261102,
+    "method": "Radau",
+    "rtol": 0.001,
+    "repeat": 1,
+    "implementation": "Python shared RHS/SciPy",
+    "status": "success",
+    "failure_reason": null,
+    "integration_and_output_seconds": 0.01915937999947346,
+    "batch_seconds": 0.19159379999473458,
+    "trajectories_per_batch": 10,
+    "observed_error": {
+      "0.001": 2.65697651658361,
+      "1e-05": 265.69765165836094,
+      "1e-07": 26569.7651658361
+    },
+    "flux_error": {
+      "0.001": 39.27433997054473,
+      "1e-05": 3927.433997054473,
+      "1e-07": 392743.3997054473
+    },
+    "invariant_error": null,
+    "min_raw_output_concentration": 0.001993470152632431,
+    "significant_negative_output_count": 0,
+    "solver_counts": {
+      "nfev": 200,
+      "njev": 12,
+      "nlu": 40,
+      "observed_rhs_calls_including_fd": 308,
+      "accepted_steps": 20,
+      "min_accepted_state": 0.00199919604603084,
+      "min_rhs_argument_including_newton_and_fd": 0.0018881931801351575,
+      "significant_negative_rhs_components": 0
+    }
+  },
+  {
+    "model_id": "BIOMD0000000051",
+    "model_hash": "167e78583aa85b49c0e283543f5c80e826a16d23cc06bb34e60c6dfbeb67f3fc",
+    "case_id": "original_initial_values",
+    "seed": 20261102,
+    "method": "CVODE",
+    "rtol": 1e-09,
+    "repeat": 1,
+    "implementation": "compiled SBML/RoadRunner",
+    "status": "success",
+    "failure_reason": null,
+    "integration_and_output_seconds": 0.005787029999919468,
+    "batch_seconds": 0.057870299999194685,
+    "trajectories_per_batch": 10,
+    "observed_error": {
+      "0.001": 0.00017245638545521368,
+      "1e-05": 0.01724563854552137,
+      "1e-07": 1.724563854552137
+    },
+    "flux_error": {
+      "0.001": 0.0005528657222241283,
+      "1e-05": 0.05528657222241283,
+      "1e-07": 5.528657222241284
+    },
+    "invariant_error": null,
+    "min_raw_output_concentration": 0.0019935058082168745,
+    "significant_negative_output_count": 0,
+    "solver_counts": {
+      "nfev": null,
+      "njev": null,
+      "nlu": null,
+      "accepted_steps": null,
+      "min_accepted_state": null,
+      "min_rhs_argument_including_newton_and_fd": null,
+      "note": "RoadRunner public API here does not expose internal steps/counters; dense default CVODE, compiled RHS. Scalar atol uses smallest common species scale."
+    }
+  },
+  {
+    "model_id": "BIOMD0000000051",
+    "model_hash": "167e78583aa85b49c0e283543f5c80e826a16d23cc06bb34e60c6dfbeb67f3fc",
+    "case_id": "original_initial_values",
+    "seed": 20261102,
+    "method": "Radau",
+    "rtol": 1e-07,
+    "repeat": 1,
+    "implementation": "Python shared RHS/SciPy",
+    "status": "success",
+    "failure_reason": null,
+    "integration_and_output_seconds": 0.12640176999993855,
+    "batch_seconds": 1.2640176999993855,
+    "trajectories_per_batch": 10,
+    "observed_error": {
+      "0.001": 0.00011210381394109445,
+      "1e-05": 0.011210381394109441,
+      "1e-07": 1.1210381394109445
+    },
+    "flux_error": {
+      "0.001": 0.0031174634663009046,
+      "1e-05": 0.3117463466300905,
+      "1e-07": 31.17463466300905
+    },
+    "invariant_error": null,
+    "min_raw_output_concentration": 0.001993505814238314,
+    "significant_negative_output_count": 0,
+    "solver_counts": {
+      "nfev": 1435,
+      "njev": 81,
+      "nlu": 202,
+      "observed_rhs_calls_including_fd": 2164,
+      "accepted_steps": 169,
+      "min_accepted_state": 0.0019935156988027153,
+      "min_rhs_argument_including_newton_and_fd": 0.001993505664563061,
+      "significant_negative_rhs_components": 0
+    }
+  },
+  {
+    "model_id": "BIOMD0000000051",
+    "model_hash": "167e78583aa85b49c0e283543f5c80e826a16d23cc06bb34e60c6dfbeb67f3fc",
+    "case_id": "original_initial_values",
+    "seed": 20261102,
+    "method": "CVODE",
+    "rtol": 1e-07,
+    "repeat": 1,
+    "implementation": "compiled SBML/RoadRunner",
+    "status": "success",
+    "failure_reason": null,
+    "integration_and_output_seconds": 0.004275110000162385,
+    "batch_seconds": 0.042751100001623854,
+    "trajectories_per_batch": 10,
+    "observed_error": {
+      "0.001": 0.003988050135311861,
+      "1e-05": 0.3988050135311861,
+      "1e-07": 39.88050135311861
+    },
+    "flux_error": {
+      "0.001": 0.04848216078793437,
+      "1e-05": 4.8482160787934365,
+      "1e-07": 484.8216078793437
+    },
+    "invariant_error": null,
+    "min_raw_output_concentration": 0.0019935057141562316,
+    "significant_negative_output_count": 0,
+    "solver_counts": {
+      "nfev": null,
+      "njev": null,
+      "nlu": null,
+      "accepted_steps": null,
+      "min_accepted_state": null,
+      "min_rhs_argument_including_newton_and_fd": null,
+      "note": "RoadRunner public API here does not expose internal steps/counters; dense default CVODE, compiled RHS. Scalar atol uses smallest common species scale."
+    }
+  },
+  {
+    "model_id": "BIOMD0000000051",
+    "model_hash": "167e78583aa85b49c0e283543f5c80e826a16d23cc06bb34e60c6dfbeb67f3fc",
+    "case_id": "original_initial_values",
+    "seed": 20261102,
+    "method": "BDF",
+    "rtol": 1e-07,
+    "repeat": 1,
+    "implementation": "Python shared RHS/SciPy",
+    "status": "success",
+    "failure_reason": null,
+    "integration_and_output_seconds": 0.05739504000011948,
+    "batch_seconds": 0.5739504000011948,
+    "trajectories_per_batch": 10,
+    "observed_error": {
+      "0.001": 0.0027799170882547766,
+      "1e-05": 0.27799170882547763,
+      "1e-07": 27.799170882547767
+    },
+    "flux_error": {
+      "0.001": 0.03392838909177079,
+      "1e-05": 3.392838909177079,
+      "1e-07": 339.28389091770794
+    },
+    "invariant_error": null,
+    "min_raw_output_concentration": 0.001993505844180125,
+    "significant_negative_output_count": 0,
+    "solver_counts": {
+      "nfev": 790,
+      "njev": 10,
+      "nlu": 59,
+      "observed_rhs_calls_including_fd": 890,
+      "accepted_steps": 272,
+      "min_accepted_state": 0.001993576296422585,
+      "min_rhs_argument_including_newton_and_fd": 0.0019935760109645304,
+      "significant_negative_rhs_components": 0
+    }
+  },
+  {
+    "model_id": "BIOMD0000000051",
+    "model_hash": "167e78583aa85b49c0e283543f5c80e826a16d23cc06bb34e60c6dfbeb67f3fc",
+    "case_id": "original_initial_values",
+    "seed": 20261102,
+    "method": "BDF",
+    "rtol": 1e-05,
+    "repeat": 1,
+    "implementation": "Python shared RHS/SciPy",
+    "status": "success",
+    "failure_reason": null,
+    "integration_and_output_seconds": 0.02971462000059546,
+    "batch_seconds": 0.2971462000059546,
+    "trajectories_per_batch": 10,
+    "observed_error": {
+      "0.001": 0.1385455294660965,
+      "1e-05": 13.854552946609648,
+      "1e-07": 1385.455294660965
+    },
+    "flux_error": {
+      "0.001": 1.7757793842648177,
+      "1e-05": 177.57793842648178,
+      "1e-07": 17757.79384264818
+    },
+    "invariant_error": null,
+    "min_raw_output_concentration": 0.0019935093353184523,
+    "significant_negative_output_count": 0,
+    "solver_counts": {
+      "nfev": 371,
+      "njev": 7,
+      "nlu": 34,
+      "observed_rhs_calls_including_fd": 441,
+      "accepted_steps": 134,
+      "min_accepted_state": 0.0019935843018656367,
+      "min_rhs_argument_including_newton_and_fd": 0.0019935411309531764,
+      "significant_negative_rhs_components": 0
+    }
+  },
+  {
+    "model_id": "BIOMD0000000051",
+    "model_hash": "167e78583aa85b49c0e283543f5c80e826a16d23cc06bb34e60c6dfbeb67f3fc",
+    "case_id": "original_initial_values",
+    "seed": 20261102,
+    "method": "Radau",
+    "rtol": 1e-05,
+    "repeat": 1,
+    "implementation": "Python shared RHS/SciPy",
+    "status": "success",
+    "failure_reason": null,
+    "integration_and_output_seconds": 0.04777073000004748,
+    "batch_seconds": 0.4777073000004748,
+    "trajectories_per_batch": 10,
+    "observed_error": {
+      "0.001": 0.010285572082599708,
+      "1e-05": 1.0285572082599705,
+      "1e-07": 102.85572082599708
+    },
+    "flux_error": {
+      "0.001": 0.20375216093937795,
+      "1e-05": 20.375216093937794,
+      "1e-07": 2037.5216093937797
+    },
+    "invariant_error": null,
+    "min_raw_output_concentration": 0.0019935053110686756,
+    "significant_negative_output_count": 0,
+    "solver_counts": {
+      "nfev": 503,
+      "njev": 30,
+      "nlu": 98,
+      "observed_rhs_calls_including_fd": 773,
+      "accepted_steps": 56,
+      "min_accepted_state": 0.0019940215874399885,
+      "min_rhs_argument_including_newton_and_fd": 0.001993564470639509,
+      "significant_negative_rhs_components": 0
+    }
+  },
+  {
+    "model_id": "BIOMD0000000051",
+    "model_hash": "167e78583aa85b49c0e283543f5c80e826a16d23cc06bb34e60c6dfbeb67f3fc",
+    "case_id": "original_initial_values",
+    "seed": 20261102,
+    "method": "BDF",
+    "rtol": 0.001,
+    "repeat": 2,
+    "implementation": "Python shared RHS/SciPy",
+    "status": "success",
+    "failure_reason": null,
+    "integration_and_output_seconds": 0.014143830000102752,
+    "batch_seconds": 0.14143830000102753,
+    "trajectories_per_batch": 10,
+    "observed_error": {
+      "0.001": 4.907217383188229,
+      "1e-05": 490.7217383188229,
+      "1e-07": 49072.17383188229
+    },
+    "flux_error": {
+      "0.001": 85.86568426423293,
+      "1e-05": 8586.568426423293,
+      "1e-07": 858656.8426423293
+    },
+    "invariant_error": null,
+    "min_raw_output_concentration": 0.001993288171823051,
+    "significant_negative_output_count": 0,
+    "solver_counts": {
+      "nfev": 141,
+      "njev": 5,
+      "nlu": 21,
+      "observed_rhs_calls_including_fd": 191,
+      "accepted_steps": 55,
+      "min_accepted_state": 0.0019932966369948088,
+      "min_rhs_argument_including_newton_and_fd": 0.0019932447943663317,
+      "significant_negative_rhs_components": 0
+    }
+  },
+  {
+    "model_id": "BIOMD0000000051",
+    "model_hash": "167e78583aa85b49c0e283543f5c80e826a16d23cc06bb34e60c6dfbeb67f3fc",
+    "case_id": "original_initial_values",
+    "seed": 20261102,
+    "method": "CVODE",
+    "rtol": 0.001,
+    "repeat": 2,
+    "implementation": "compiled SBML/RoadRunner",
+    "status": "success",
+    "failure_reason": null,
+    "integration_and_output_seconds": 0.0022226000000955537,
+    "batch_seconds": 0.022226000000955537,
+    "trajectories_per_batch": 10,
+    "observed_error": {
+      "0.001": 8.649659575014807,
+      "1e-05": 864.9659575014806,
+      "1e-07": 86496.59575014807
+    },
+    "flux_error": {
+      "0.001": 110.46449913445636,
+      "1e-05": 11046.449913445636,
+      "1e-07": 1104644.9913445637
+    },
+    "invariant_error": null,
+    "min_raw_output_concentration": 0.001994021653315652,
+    "significant_negative_output_count": 0,
+    "solver_counts": {
+      "nfev": null,
+      "njev": null,
+      "nlu": null,
+      "accepted_steps": null,
+      "min_accepted_state": null,
+      "min_rhs_argument_including_newton_and_fd": null,
+      "note": "RoadRunner public API here does not expose internal steps/counters; dense default CVODE, compiled RHS. Scalar atol uses smallest common species scale."
+    }
+  },
+  {
+    "model_id": "BIOMD0000000051",
+    "model_hash": "167e78583aa85b49c0e283543f5c80e826a16d23cc06bb34e60c6dfbeb67f3fc",
+    "case_id": "original_initial_values",
+    "seed": 20261102,
+    "method": "CVODE",
+    "rtol": 1e-07,
+    "repeat": 2,
+    "implementation": "compiled SBML/RoadRunner",
+    "status": "success",
+    "failure_reason": null,
+    "integration_and_output_seconds": 0.004183999999804655,
+    "batch_seconds": 0.04183999999804655,
+    "trajectories_per_batch": 10,
+    "observed_error": {
+      "0.001": 0.003988050135311861,
+      "1e-05": 0.3988050135311861,
+      "1e-07": 39.88050135311861
+    },
+    "flux_error": {
+      "0.001": 0.04848216078793437,
+      "1e-05": 4.8482160787934365,
+      "1e-07": 484.8216078793437
+    },
+    "invariant_error": null,
+    "min_raw_output_concentration": 0.0019935057141562316,
+    "significant_negative_output_count": 0,
+    "solver_counts": {
+      "nfev": null,
+      "njev": null,
+      "nlu": null,
+      "accepted_steps": null,
+      "min_accepted_state": null,
+      "min_rhs_argument_including_newton_and_fd": null,
+      "note": "RoadRunner public API here does not expose internal steps/counters; dense default CVODE, compiled RHS. Scalar atol uses smallest common species scale."
+    }
+  },
+  {
+    "model_id": "BIOMD0000000051",
+    "model_hash": "167e78583aa85b49c0e283543f5c80e826a16d23cc06bb34e60c6dfbeb67f3fc",
+    "case_id": "original_initial_values",
+    "seed": 20261102,
+    "method": "Radau",
+    "rtol": 1e-07,
+    "repeat": 2,
+    "implementation": "Python shared RHS/SciPy",
+    "status": "success",
+    "failure_reason": null,
+    "integration_and_output_seconds": 0.12855387000017798,
+    "batch_seconds": 1.28553870000178,
+    "trajectories_per_batch": 10,
+    "observed_error": {
+      "0.001": 0.00011210381394109445,
+      "1e-05": 0.011210381394109441,
+      "1e-07": 1.1210381394109445
+    },
+    "flux_error": {
+      "0.001": 0.0031174634663009046,
+      "1e-05": 0.3117463466300905,
+      "1e-07": 31.17463466300905
+    },
+    "invariant_error": null,
+    "min_raw_output_concentration": 0.001993505814238314,
+    "significant_negative_output_count": 0,
+    "solver_counts": {
+      "nfev": 1435,
+      "njev": 81,
+      "nlu": 202,
+      "observed_rhs_calls_including_fd": 2164,
+      "accepted_steps": 169,
+      "min_accepted_state": 0.0019935156988027153,
+      "min_rhs_argument_including_newton_and_fd": 0.001993505664563061,
+      "significant_negative_rhs_components": 0
+    }
+  },
+  {
+    "model_id": "BIOMD0000000051",
+    "model_hash": "167e78583aa85b49c0e283543f5c80e826a16d23cc06bb34e60c6dfbeb67f3fc",
+    "case_id": "original_initial_values",
+    "seed": 20261102,
+    "method": "Radau",
+    "rtol": 0.001,
+    "repeat": 2,
+    "implementation": "Python shared RHS/SciPy",
+    "status": "success",
+    "failure_reason": null,
+    "integration_and_output_seconds": 0.019047869999485555,
+    "batch_seconds": 0.19047869999485556,
+    "trajectories_per_batch": 10,
+    "observed_error": {
+      "0.001": 2.65697651658361,
+      "1e-05": 265.69765165836094,
+      "1e-07": 26569.7651658361
+    },
+    "flux_error": {
+      "0.001": 39.27433997054473,
+      "1e-05": 3927.433997054473,
+      "1e-07": 392743.3997054473
+    },
+    "invariant_error": null,
+    "min_raw_output_concentration": 0.001993470152632431,
+    "significant_negative_output_count": 0,
+    "solver_counts": {
+      "nfev": 200,
+      "njev": 12,
+      "nlu": 40,
+      "observed_rhs_calls_including_fd": 308,
+      "accepted_steps": 20,
+      "min_accepted_state": 0.00199919604603084,
+      "min_rhs_argument_including_newton_and_fd": 0.0018881931801351575,
+      "significant_negative_rhs_components": 0
+    }
+  },
+  {
+    "model_id": "BIOMD0000000051",
+    "model_hash": "167e78583aa85b49c0e283543f5c80e826a16d23cc06bb34e60c6dfbeb67f3fc",
+    "case_id": "original_initial_values",
+    "seed": 20261102,
+    "method": "Radau",
+    "rtol": 1e-09,
+    "repeat": 2,
+    "implementation": "Python shared RHS/SciPy",
+    "status": "success",
+    "failure_reason": null,
+    "integration_and_output_seconds": 0.36029964999979713,
+    "batch_seconds": 3.602996499997971,
+    "trajectories_per_batch": 10,
+    "observed_error": {
+      "0.001": 8.328108847347685e-07,
+      "1e-05": 8.328108847347681e-05,
+      "1e-07": 0.008328108847347684
+    },
+    "flux_error": {
+      "0.001": 5.151867110062872e-05,
+      "1e-05": 0.005151867110062872,
+      "1e-07": 0.5151867110062872
+    },
+    "invariant_error": null,
+    "min_raw_output_concentration": 0.001993505809814686,
+    "significant_negative_output_count": 0,
+    "solver_counts": {
+      "nfev": 4386,
+      "njev": 219,
+      "nlu": 482,
+      "observed_rhs_calls_including_fd": 6357,
+      "accepted_steps": 526,
+      "min_accepted_state": 0.0019935016825296118,
+      "min_rhs_argument_including_newton_and_fd": 0.001993499413352586,
+      "significant_negative_rhs_components": 0
+    }
+  },
+  {
+    "model_id": "BIOMD0000000051",
+    "model_hash": "167e78583aa85b49c0e283543f5c80e826a16d23cc06bb34e60c6dfbeb67f3fc",
+    "case_id": "original_initial_values",
+    "seed": 20261102,
+    "method": "CVODE",
+    "rtol": 1e-05,
+    "repeat": 2,
+    "implementation": "compiled SBML/RoadRunner",
+    "status": "success",
+    "failure_reason": null,
+    "integration_and_output_seconds": 0.0032125000005180484,
+    "batch_seconds": 0.03212500000518048,
+    "trajectories_per_batch": 10,
+    "observed_error": {
+      "0.001": 0.17397328944794874,
+      "1e-05": 17.39732894479487,
+      "1e-07": 1739.7328944794874
+    },
+    "flux_error": {
+      "0.001": 3.053607552059053,
+      "1e-05": 305.3607552059053,
+      "1e-07": 30536.075520590533
+    },
+    "invariant_error": null,
+    "min_raw_output_concentration": 0.001993502797592578,
+    "significant_negative_output_count": 0,
+    "solver_counts": {
+      "nfev": null,
+      "njev": null,
+      "nlu": null,
+      "accepted_steps": null,
+      "min_accepted_state": null,
+      "min_rhs_argument_including_newton_and_fd": null,
+      "note": "RoadRunner public API here does not expose internal steps/counters; dense default CVODE, compiled RHS. Scalar atol uses smallest common species scale."
+    }
+  },
+  {
+    "model_id": "BIOMD0000000051",
+    "model_hash": "167e78583aa85b49c0e283543f5c80e826a16d23cc06bb34e60c6dfbeb67f3fc",
+    "case_id": "original_initial_values",
+    "seed": 20261102,
+    "method": "BDF",
+    "rtol": 1e-07,
+    "repeat": 2,
+    "implementation": "Python shared RHS/SciPy",
+    "status": "success",
+    "failure_reason": null,
+    "integration_and_output_seconds": 0.05471246999950381,
+    "batch_seconds": 0.5471246999950381,
+    "trajectories_per_batch": 10,
+    "observed_error": {
+      "0.001": 0.0027799170882547766,
+      "1e-05": 0.27799170882547763,
+      "1e-07": 27.799170882547767
+    },
+    "flux_error": {
+      "0.001": 0.03392838909177079,
+      "1e-05": 3.392838909177079,
+      "1e-07": 339.28389091770794
+    },
+    "invariant_error": null,
+    "min_raw_output_concentration": 0.001993505844180125,
+    "significant_negative_output_count": 0,
+    "solver_counts": {
+      "nfev": 790,
+      "njev": 10,
+      "nlu": 59,
+      "observed_rhs_calls_including_fd": 890,
+      "accepted_steps": 272,
+      "min_accepted_state": 0.001993576296422585,
+      "min_rhs_argument_including_newton_and_fd": 0.0019935760109645304,
+      "significant_negative_rhs_components": 0
+    }
+  },
+  {
+    "model_id": "BIOMD0000000051",
+    "model_hash": "167e78583aa85b49c0e283543f5c80e826a16d23cc06bb34e60c6dfbeb67f3fc",
+    "case_id": "original_initial_values",
+    "seed": 20261102,
+    "method": "BDF",
+    "rtol": 1e-05,
+    "repeat": 2,
+    "implementation": "Python shared RHS/SciPy",
+    "status": "success",
+    "failure_reason": null,
+    "integration_and_output_seconds": 0.02840293000044767,
+    "batch_seconds": 0.2840293000044767,
+    "trajectories_per_batch": 10,
+    "observed_error": {
+      "0.001": 0.1385455294660965,
+      "1e-05": 13.854552946609648,
+      "1e-07": 1385.455294660965
+    },
+    "flux_error": {
+      "0.001": 1.7757793842648177,
+      "1e-05": 177.57793842648178,
+      "1e-07": 17757.79384264818
+    },
+    "invariant_error": null,
+    "min_raw_output_concentration": 0.0019935093353184523,
+    "significant_negative_output_count": 0,
+    "solver_counts": {
+      "nfev": 371,
+      "njev": 7,
+      "nlu": 34,
+      "observed_rhs_calls_including_fd": 441,
+      "accepted_steps": 134,
+      "min_accepted_state": 0.0019935843018656367,
+      "min_rhs_argument_including_newton_and_fd": 0.0019935411309531764,
+      "significant_negative_rhs_components": 0
+    }
+  },
+  {
+    "model_id": "BIOMD0000000051",
+    "model_hash": "167e78583aa85b49c0e283543f5c80e826a16d23cc06bb34e60c6dfbeb67f3fc",
+    "case_id": "original_initial_values",
+    "seed": 20261102,
+    "method": "CVODE",
+    "rtol": 1e-09,
+    "repeat": 2,
+    "implementation": "compiled SBML/RoadRunner",
+    "status": "success",
+    "failure_reason": null,
+    "integration_and_output_seconds": 0.005801229999633506,
+    "batch_seconds": 0.05801229999633506,
+    "trajectories_per_batch": 10,
+    "observed_error": {
+      "0.001": 0.00017245638545521368,
+      "1e-05": 0.01724563854552137,
+      "1e-07": 1.724563854552137
+    },
+    "flux_error": {
+      "0.001": 0.0005528657222241283,
+      "1e-05": 0.05528657222241283,
+      "1e-07": 5.528657222241284
+    },
+    "invariant_error": null,
+    "min_raw_output_concentration": 0.0019935058082168745,
+    "significant_negative_output_count": 0,
+    "solver_counts": {
+      "nfev": null,
+      "njev": null,
+      "nlu": null,
+      "accepted_steps": null,
+      "min_accepted_state": null,
+      "min_rhs_argument_including_newton_and_fd": null,
+      "note": "RoadRunner public API here does not expose internal steps/counters; dense default CVODE, compiled RHS. Scalar atol uses smallest common species scale."
+    }
+  },
+  {
+    "model_id": "BIOMD0000000051",
+    "model_hash": "167e78583aa85b49c0e283543f5c80e826a16d23cc06bb34e60c6dfbeb67f3fc",
+    "case_id": "original_initial_values",
+    "seed": 20261102,
+    "method": "Radau",
+    "rtol": 1e-05,
+    "repeat": 2,
+    "implementation": "Python shared RHS/SciPy",
+    "status": "success",
+    "failure_reason": null,
+    "integration_and_output_seconds": 0.04783975000027567,
+    "batch_seconds": 0.4783975000027567,
+    "trajectories_per_batch": 10,
+    "observed_error": {
+      "0.001": 0.010285572082599708,
+      "1e-05": 1.0285572082599705,
+      "1e-07": 102.85572082599708
+    },
+    "flux_error": {
+      "0.001": 0.20375216093937795,
+      "1e-05": 20.375216093937794,
+      "1e-07": 2037.5216093937797
+    },
+    "invariant_error": null,
+    "min_raw_output_concentration": 0.0019935053110686756,
+    "significant_negative_output_count": 0,
+    "solver_counts": {
+      "nfev": 503,
+      "njev": 30,
+      "nlu": 98,
+      "observed_rhs_calls_including_fd": 773,
+      "accepted_steps": 56,
+      "min_accepted_state": 0.0019940215874399885,
+      "min_rhs_argument_including_newton_and_fd": 0.001993564470639509,
+      "significant_negative_rhs_components": 0
+    }
+  },
+  {
+    "model_id": "BIOMD0000000051",
+    "model_hash": "167e78583aa85b49c0e283543f5c80e826a16d23cc06bb34e60c6dfbeb67f3fc",
+    "case_id": "original_initial_values",
+    "seed": 20261102,
+    "method": "BDF",
+    "rtol": 1e-09,
+    "repeat": 2,
+    "implementation": "Python shared RHS/SciPy",
+    "status": "success",
+    "failure_reason": null,
+    "integration_and_output_seconds": 0.10942178999976022,
+    "batch_seconds": 1.0942178999976022,
+    "trajectories_per_batch": 10,
+    "observed_error": {
+      "0.001": 3.683091336279444e-05,
+      "1e-05": 0.003683091336279444,
+      "1e-07": 0.36830913362794443
+    },
+    "flux_error": {
+      "0.001": 0.00047253962089353674,
+      "1e-05": 0.047253962089353674,
+      "1e-07": 4.725396208935368
+    },
+    "invariant_error": null,
+    "min_raw_output_concentration": 0.001993505810416509,
+    "significant_negative_output_count": 0,
+    "solver_counts": {
+      "nfev": 1688,
+      "njev": 15,
+      "nlu": 110,
+      "observed_rhs_calls_including_fd": 1838,
+      "accepted_steps": 549,
+      "min_accepted_state": 0.0019934991618953267,
+      "min_rhs_argument_including_newton_and_fd": 0.0019934991583696877,
+      "significant_negative_rhs_components": 0
+    }
+  },
+  {
+    "model_id": "BIOMD0000000051",
+    "model_hash": "167e78583aa85b49c0e283543f5c80e826a16d23cc06bb34e60c6dfbeb67f3fc",
+    "case_id": "original_initial_values",
+    "seed": 20261102,
+    "method": "BDF",
+    "rtol": 0.001,
+    "repeat": 3,
+    "implementation": "Python shared RHS/SciPy",
+    "status": "success",
+    "failure_reason": null,
+    "integration_and_output_seconds": 0.014275529999576975,
+    "batch_seconds": 0.14275529999576975,
+    "trajectories_per_batch": 10,
+    "observed_error": {
+      "0.001": 4.907217383188229,
+      "1e-05": 490.7217383188229,
+      "1e-07": 49072.17383188229
+    },
+    "flux_error": {
+      "0.001": 85.86568426423293,
+      "1e-05": 8586.568426423293,
+      "1e-07": 858656.8426423293
+    },
+    "invariant_error": null,
+    "min_raw_output_concentration": 0.001993288171823051,
+    "significant_negative_output_count": 0,
+    "solver_counts": {
+      "nfev": 141,
+      "njev": 5,
+      "nlu": 21,
+      "observed_rhs_calls_including_fd": 191,
+      "accepted_steps": 55,
+      "min_accepted_state": 0.0019932966369948088,
+      "min_rhs_argument_including_newton_and_fd": 0.0019932447943663317,
+      "significant_negative_rhs_components": 0
+    }
+  },
+  {
+    "model_id": "BIOMD0000000051",
+    "model_hash": "167e78583aa85b49c0e283543f5c80e826a16d23cc06bb34e60c6dfbeb67f3fc",
+    "case_id": "original_initial_values",
+    "seed": 20261102,
+    "method": "CVODE",
+    "rtol": 1e-09,
+    "repeat": 3,
+    "implementation": "compiled SBML/RoadRunner",
+    "status": "success",
+    "failure_reason": null,
+    "integration_and_output_seconds": 0.0060420000001613515,
+    "batch_seconds": 0.060420000001613516,
+    "trajectories_per_batch": 10,
+    "observed_error": {
+      "0.001": 0.00017245638545521368,
+      "1e-05": 0.01724563854552137,
+      "1e-07": 1.724563854552137
+    },
+    "flux_error": {
+      "0.001": 0.0005528657222241283,
+      "1e-05": 0.05528657222241283,
+      "1e-07": 5.528657222241284
+    },
+    "invariant_error": null,
+    "min_raw_output_concentration": 0.0019935058082168745,
+    "significant_negative_output_count": 0,
+    "solver_counts": {
+      "nfev": null,
+      "njev": null,
+      "nlu": null,
+      "accepted_steps": null,
+      "min_accepted_state": null,
+      "min_rhs_argument_including_newton_and_fd": null,
+      "note": "RoadRunner public API here does not expose internal steps/counters; dense default CVODE, compiled RHS. Scalar atol uses smallest common species scale."
+    }
+  },
+  {
+    "model_id": "BIOMD0000000051",
+    "model_hash": "167e78583aa85b49c0e283543f5c80e826a16d23cc06bb34e60c6dfbeb67f3fc",
+    "case_id": "original_initial_values",
+    "seed": 20261102,
+    "method": "CVODE",
+    "rtol": 0.001,
+    "repeat": 3,
+    "implementation": "compiled SBML/RoadRunner",
+    "status": "success",
+    "failure_reason": null,
+    "integration_and_output_seconds": 0.002206350000051316,
+    "batch_seconds": 0.02206350000051316,
+    "trajectories_per_batch": 10,
+    "observed_error": {
+      "0.001": 8.649659575014807,
+      "1e-05": 864.9659575014806,
+      "1e-07": 86496.59575014807
+    },
+    "flux_error": {
+      "0.001": 110.46449913445636,
+      "1e-05": 11046.449913445636,
+      "1e-07": 1104644.9913445637
+    },
+    "invariant_error": null,
+    "min_raw_output_concentration": 0.001994021653315652,
+    "significant_negative_output_count": 0,
+    "solver_counts": {
+      "nfev": null,
+      "njev": null,
+      "nlu": null,
+      "accepted_steps": null,
+      "min_accepted_state": null,
+      "min_rhs_argument_including_newton_and_fd": null,
+      "note": "RoadRunner public API here does not expose internal steps/counters; dense default CVODE, compiled RHS. Scalar atol uses smallest common species scale."
+    }
+  },
+  {
+    "model_id": "BIOMD0000000051",
+    "model_hash": "167e78583aa85b49c0e283543f5c80e826a16d23cc06bb34e60c6dfbeb67f3fc",
+    "case_id": "original_initial_values",
+    "seed": 20261102,
+    "method": "BDF",
+    "rtol": 1e-05,
+    "repeat": 3,
+    "implementation": "Python shared RHS/SciPy",
+    "status": "success",
+    "failure_reason": null,
+    "integration_and_output_seconds": 0.029244780000590255,
+    "batch_seconds": 0.29244780000590254,
+    "trajectories_per_batch": 10,
+    "observed_error": {
+      "0.001": 0.1385455294660965,
+      "1e-05": 13.854552946609648,
+      "1e-07": 1385.455294660965
+    },
+    "flux_error": {
+      "0.001": 1.7757793842648177,
+      "1e-05": 177.57793842648178,
+      "1e-07": 17757.79384264818
+    },
+    "invariant_error": null,
+    "min_raw_output_concentration": 0.0019935093353184523,
+    "significant_negative_output_count": 0,
+    "solver_counts": {
+      "nfev": 371,
+      "njev": 7,
+      "nlu": 34,
+      "observed_rhs_calls_including_fd": 441,
+      "accepted_steps": 134,
+      "min_accepted_state": 0.0019935843018656367,
+      "min_rhs_argument_including_newton_and_fd": 0.0019935411309531764,
+      "significant_negative_rhs_components": 0
+    }
+  },
+  {
+    "model_id": "BIOMD0000000051",
+    "model_hash": "167e78583aa85b49c0e283543f5c80e826a16d23cc06bb34e60c6dfbeb67f3fc",
+    "case_id": "original_initial_values",
+    "seed": 20261102,
+    "method": "CVODE",
+    "rtol": 1e-07,
+    "repeat": 3,
+    "implementation": "compiled SBML/RoadRunner",
+    "status": "success",
+    "failure_reason": null,
+    "integration_and_output_seconds": 0.004254999999830034,
+    "batch_seconds": 0.042549999998300336,
+    "trajectories_per_batch": 10,
+    "observed_error": {
+      "0.001": 0.003988050135311861,
+      "1e-05": 0.3988050135311861,
+      "1e-07": 39.88050135311861
+    },
+    "flux_error": {
+      "0.001": 0.04848216078793437,
+      "1e-05": 4.8482160787934365,
+      "1e-07": 484.8216078793437
+    },
+    "invariant_error": null,
+    "min_raw_output_concentration": 0.0019935057141562316,
+    "significant_negative_output_count": 0,
+    "solver_counts": {
+      "nfev": null,
+      "njev": null,
+      "nlu": null,
+      "accepted_steps": null,
+      "min_accepted_state": null,
+      "min_rhs_argument_including_newton_and_fd": null,
+      "note": "RoadRunner public API here does not expose internal steps/counters; dense default CVODE, compiled RHS. Scalar atol uses smallest common species scale."
+    }
+  },
+  {
+    "model_id": "BIOMD0000000051",
+    "model_hash": "167e78583aa85b49c0e283543f5c80e826a16d23cc06bb34e60c6dfbeb67f3fc",
+    "case_id": "original_initial_values",
+    "seed": 20261102,
+    "method": "BDF",
+    "rtol": 1e-07,
+    "repeat": 3,
+    "implementation": "Python shared RHS/SciPy",
+    "status": "success",
+    "failure_reason": null,
+    "integration_and_output_seconds": 0.056147719999717086,
+    "batch_seconds": 0.5614771999971708,
+    "trajectories_per_batch": 10,
+    "observed_error": {
+      "0.001": 0.0027799170882547766,
+      "1e-05": 0.27799170882547763,
+      "1e-07": 27.799170882547767
+    },
+    "flux_error": {
+      "0.001": 0.03392838909177079,
+      "1e-05": 3.392838909177079,
+      "1e-07": 339.28389091770794
+    },
+    "invariant_error": null,
+    "min_raw_output_concentration": 0.001993505844180125,
+    "significant_negative_output_count": 0,
+    "solver_counts": {
+      "nfev": 790,
+      "njev": 10,
+      "nlu": 59,
+      "observed_rhs_calls_including_fd": 890,
+      "accepted_steps": 272,
+      "min_accepted_state": 0.001993576296422585,
+      "min_rhs_argument_including_newton_and_fd": 0.0019935760109645304,
+      "significant_negative_rhs_components": 0
+    }
+  },
+  {
+    "model_id": "BIOMD0000000051",
+    "model_hash": "167e78583aa85b49c0e283543f5c80e826a16d23cc06bb34e60c6dfbeb67f3fc",
+    "case_id": "original_initial_values",
+    "seed": 20261102,
+    "method": "Radau",
+    "rtol": 0.001,
+    "repeat": 3,
+    "implementation": "Python shared RHS/SciPy",
+    "status": "success",
+    "failure_reason": null,
+    "integration_and_output_seconds": 0.01884737000000314,
+    "batch_seconds": 0.18847370000003139,
+    "trajectories_per_batch": 10,
+    "observed_error": {
+      "0.001": 2.65697651658361,
+      "1e-05": 265.69765165836094,
+      "1e-07": 26569.7651658361
+    },
+    "flux_error": {
+      "0.001": 39.27433997054473,
+      "1e-05": 3927.433997054473,
+      "1e-07": 392743.3997054473
+    },
+    "invariant_error": null,
+    "min_raw_output_concentration": 0.001993470152632431,
+    "significant_negative_output_count": 0,
+    "solver_counts": {
+      "nfev": 200,
+      "njev": 12,
+      "nlu": 40,
+      "observed_rhs_calls_including_fd": 308,
+      "accepted_steps": 20,
+      "min_accepted_state": 0.00199919604603084,
+      "min_rhs_argument_including_newton_and_fd": 0.0018881931801351575,
+      "significant_negative_rhs_components": 0
+    }
+  },
+  {
+    "model_id": "BIOMD0000000051",
+    "model_hash": "167e78583aa85b49c0e283543f5c80e826a16d23cc06bb34e60c6dfbeb67f3fc",
+    "case_id": "original_initial_values",
+    "seed": 20261102,
+    "method": "BDF",
+    "rtol": 1e-09,
+    "repeat": 3,
+    "implementation": "Python shared RHS/SciPy",
+    "status": "success",
+    "failure_reason": null,
+    "integration_and_output_seconds": 0.10959943999987445,
+    "batch_seconds": 1.0959943999987445,
+    "trajectories_per_batch": 10,
+    "observed_error": {
+      "0.001": 3.683091336279444e-05,
+      "1e-05": 0.003683091336279444,
+      "1e-07": 0.36830913362794443
+    },
+    "flux_error": {
+      "0.001": 0.00047253962089353674,
+      "1e-05": 0.047253962089353674,
+      "1e-07": 4.725396208935368
+    },
+    "invariant_error": null,
+    "min_raw_output_concentration": 0.001993505810416509,
+    "significant_negative_output_count": 0,
+    "solver_counts": {
+      "nfev": 1688,
+      "njev": 15,
+      "nlu": 110,
+      "observed_rhs_calls_including_fd": 1838,
+      "accepted_steps": 549,
+      "min_accepted_state": 0.0019934991618953267,
+      "min_rhs_argument_including_newton_and_fd": 0.0019934991583696877,
+      "significant_negative_rhs_components": 0
+    }
+  },
+  {
+    "model_id": "BIOMD0000000051",
+    "model_hash": "167e78583aa85b49c0e283543f5c80e826a16d23cc06bb34e60c6dfbeb67f3fc",
+    "case_id": "original_initial_values",
+    "seed": 20261102,
+    "method": "Radau",
+    "rtol": 1e-09,
+    "repeat": 3,
+    "implementation": "Python shared RHS/SciPy",
+    "status": "success",
+    "failure_reason": null,
+    "integration_and_output_seconds": 0.36660835000002406,
+    "batch_seconds": 3.6660835000002407,
+    "trajectories_per_batch": 10,
+    "observed_error": {
+      "0.001": 8.328108847347685e-07,
+      "1e-05": 8.328108847347681e-05,
+      "1e-07": 0.008328108847347684
+    },
+    "flux_error": {
+      "0.001": 5.151867110062872e-05,
+      "1e-05": 0.005151867110062872,
+      "1e-07": 0.5151867110062872
+    },
+    "invariant_error": null,
+    "min_raw_output_concentration": 0.001993505809814686,
+    "significant_negative_output_count": 0,
+    "solver_counts": {
+      "nfev": 4386,
+      "njev": 219,
+      "nlu": 482,
+      "observed_rhs_calls_including_fd": 6357,
+      "accepted_steps": 526,
+      "min_accepted_state": 0.0019935016825296118,
+      "min_rhs_argument_including_newton_and_fd": 0.001993499413352586,
+      "significant_negative_rhs_components": 0
+    }
+  },
+  {
+    "model_id": "BIOMD0000000051",
+    "model_hash": "167e78583aa85b49c0e283543f5c80e826a16d23cc06bb34e60c6dfbeb67f3fc",
+    "case_id": "original_initial_values",
+    "seed": 20261102,
+    "method": "CVODE",
+    "rtol": 1e-05,
+    "repeat": 3,
+    "implementation": "compiled SBML/RoadRunner",
+    "status": "success",
+    "failure_reason": null,
+    "integration_and_output_seconds": 0.0032144700002390892,
+    "batch_seconds": 0.03214470000239089,
+    "trajectories_per_batch": 10,
+    "observed_error": {
+      "0.001": 0.17397328944794874,
+      "1e-05": 17.39732894479487,
+      "1e-07": 1739.7328944794874
+    },
+    "flux_error": {
+      "0.001": 3.053607552059053,
+      "1e-05": 305.3607552059053,
+      "1e-07": 30536.075520590533
+    },
+    "invariant_error": null,
+    "min_raw_output_concentration": 0.001993502797592578,
+    "significant_negative_output_count": 0,
+    "solver_counts": {
+      "nfev": null,
+      "njev": null,
+      "nlu": null,
+      "accepted_steps": null,
+      "min_accepted_state": null,
+      "min_rhs_argument_including_newton_and_fd": null,
+      "note": "RoadRunner public API here does not expose internal steps/counters; dense default CVODE, compiled RHS. Scalar atol uses smallest common species scale."
+    }
+  },
+  {
+    "model_id": "BIOMD0000000051",
+    "model_hash": "167e78583aa85b49c0e283543f5c80e826a16d23cc06bb34e60c6dfbeb67f3fc",
+    "case_id": "original_initial_values",
+    "seed": 20261102,
+    "method": "Radau",
+    "rtol": 1e-07,
+    "repeat": 3,
+    "implementation": "Python shared RHS/SciPy",
+    "status": "success",
+    "failure_reason": null,
+    "integration_and_output_seconds": 0.12557235999993283,
+    "batch_seconds": 1.2557235999993281,
+    "trajectories_per_batch": 10,
+    "observed_error": {
+      "0.001": 0.00011210381394109445,
+      "1e-05": 0.011210381394109441,
+      "1e-07": 1.1210381394109445
+    },
+    "flux_error": {
+      "0.001": 0.0031174634663009046,
+      "1e-05": 0.3117463466300905,
+      "1e-07": 31.17463466300905
+    },
+    "invariant_error": null,
+    "min_raw_output_concentration": 0.001993505814238314,
+    "significant_negative_output_count": 0,
+    "solver_counts": {
+      "nfev": 1435,
+      "njev": 81,
+      "nlu": 202,
+      "observed_rhs_calls_including_fd": 2164,
+      "accepted_steps": 169,
+      "min_accepted_state": 0.0019935156988027153,
+      "min_rhs_argument_including_newton_and_fd": 0.001993505664563061,
+      "significant_negative_rhs_components": 0
+    }
+  },
+  {
+    "model_id": "BIOMD0000000051",
+    "model_hash": "167e78583aa85b49c0e283543f5c80e826a16d23cc06bb34e60c6dfbeb67f3fc",
+    "case_id": "original_initial_values",
+    "seed": 20261102,
+    "method": "Radau",
+    "rtol": 1e-05,
+    "repeat": 3,
+    "implementation": "Python shared RHS/SciPy",
+    "status": "success",
+    "failure_reason": null,
+    "integration_and_output_seconds": 0.04719187000009697,
+    "batch_seconds": 0.4719187000009697,
+    "trajectories_per_batch": 10,
+    "observed_error": {
+      "0.001": 0.010285572082599708,
+      "1e-05": 1.0285572082599705,
+      "1e-07": 102.85572082599708
+    },
+    "flux_error": {
+      "0.001": 0.20375216093937795,
+      "1e-05": 20.375216093937794,
+      "1e-07": 2037.5216093937797
+    },
+    "invariant_error": null,
+    "min_raw_output_concentration": 0.0019935053110686756,
+    "significant_negative_output_count": 0,
+    "solver_counts": {
+      "nfev": 503,
+      "njev": 30,
+      "nlu": 98,
+      "observed_rhs_calls_including_fd": 773,
+      "accepted_steps": 56,
+      "min_accepted_state": 0.0019940215874399885,
+      "min_rhs_argument_including_newton_and_fd": 0.001993564470639509,
+      "significant_negative_rhs_components": 0
+    }
+  },
+  {
+    "model_id": "BIOMD0000000051",
+    "model_hash": "167e78583aa85b49c0e283543f5c80e826a16d23cc06bb34e60c6dfbeb67f3fc",
+    "case_id": "original_initial_values",
+    "seed": 20261102,
+    "method": "CVODE",
+    "rtol": 1e-09,
+    "repeat": 4,
+    "implementation": "compiled SBML/RoadRunner",
+    "status": "success",
+    "failure_reason": null,
+    "integration_and_output_seconds": 0.005804170000192244,
+    "batch_seconds": 0.058041700001922436,
+    "trajectories_per_batch": 10,
+    "observed_error": {
+      "0.001": 0.00017245638545521368,
+      "1e-05": 0.01724563854552137,
+      "1e-07": 1.724563854552137
+    },
+    "flux_error": {
+      "0.001": 0.0005528657222241283,
+      "1e-05": 0.05528657222241283,
+      "1e-07": 5.528657222241284
+    },
+    "invariant_error": null,
+    "min_raw_output_concentration": 0.0019935058082168745,
+    "significant_negative_output_count": 0,
+    "solver_counts": {
+      "nfev": null,
+      "njev": null,
+      "nlu": null,
+      "accepted_steps": null,
+      "min_accepted_state": null,
+      "min_rhs_argument_including_newton_and_fd": null,
+      "note": "RoadRunner public API here does not expose internal steps/counters; dense default CVODE, compiled RHS. Scalar atol uses smallest common species scale."
+    }
+  },
+  {
+    "model_id": "BIOMD0000000051",
+    "model_hash": "167e78583aa85b49c0e283543f5c80e826a16d23cc06bb34e60c6dfbeb67f3fc",
+    "case_id": "original_initial_values",
+    "seed": 20261102,
+    "method": "Radau",
+    "rtol": 0.001,
+    "repeat": 4,
+    "implementation": "Python shared RHS/SciPy",
+    "status": "success",
+    "failure_reason": null,
+    "integration_and_output_seconds": 0.01878807000030065,
+    "batch_seconds": 0.1878807000030065,
+    "trajectories_per_batch": 10,
+    "observed_error": {
+      "0.001": 2.65697651658361,
+      "1e-05": 265.69765165836094,
+      "1e-07": 26569.7651658361
+    },
+    "flux_error": {
+      "0.001": 39.27433997054473,
+      "1e-05": 3927.433997054473,
+      "1e-07": 392743.3997054473
+    },
+    "invariant_error": null,
+    "min_raw_output_concentration": 0.001993470152632431,
+    "significant_negative_output_count": 0,
+    "solver_counts": {
+      "nfev": 200,
+      "njev": 12,
+      "nlu": 40,
+      "observed_rhs_calls_including_fd": 308,
+      "accepted_steps": 20,
+      "min_accepted_state": 0.00199919604603084,
+      "min_rhs_argument_including_newton_and_fd": 0.0018881931801351575,
+      "significant_negative_rhs_components": 0
+    }
+  },
+  {
+    "model_id": "BIOMD0000000051",
+    "model_hash": "167e78583aa85b49c0e283543f5c80e826a16d23cc06bb34e60c6dfbeb67f3fc",
+    "case_id": "original_initial_values",
+    "seed": 20261102,
+    "method": "Radau",
+    "rtol": 1e-05,
+    "repeat": 4,
+    "implementation": "Python shared RHS/SciPy",
+    "status": "success",
+    "failure_reason": null,
+    "integration_and_output_seconds": 0.04786134999958449,
+    "batch_seconds": 0.4786134999958449,
+    "trajectories_per_batch": 10,
+    "observed_error": {
+      "0.001": 0.010285572082599708,
+      "1e-05": 1.0285572082599705,
+      "1e-07": 102.85572082599708
+    },
+    "flux_error": {
+      "0.001": 0.20375216093937795,
+      "1e-05": 20.375216093937794,
+      "1e-07": 2037.5216093937797
+    },
+    "invariant_error": null,
+    "min_raw_output_concentration": 0.0019935053110686756,
+    "significant_negative_output_count": 0,
+    "solver_counts": {
+      "nfev": 503,
+      "njev": 30,
+      "nlu": 98,
+      "observed_rhs_calls_including_fd": 773,
+      "accepted_steps": 56,
+      "min_accepted_state": 0.0019940215874399885,
+      "min_rhs_argument_including_newton_and_fd": 0.001993564470639509,
+      "significant_negative_rhs_components": 0
+    }
+  },
+  {
+    "model_id": "BIOMD0000000051",
+    "model_hash": "167e78583aa85b49c0e283543f5c80e826a16d23cc06bb34e60c6dfbeb67f3fc",
+    "case_id": "original_initial_values",
+    "seed": 20261102,
+    "method": "BDF",
+    "rtol": 1e-05,
+    "repeat": 4,
+    "implementation": "Python shared RHS/SciPy",
+    "status": "success",
+    "failure_reason": null,
+    "integration_and_output_seconds": 0.029444869999861113,
+    "batch_seconds": 0.2944486999986111,
+    "trajectories_per_batch": 10,
+    "observed_error": {
+      "0.001": 0.1385455294660965,
+      "1e-05": 13.854552946609648,
+      "1e-07": 1385.455294660965
+    },
+    "flux_error": {
+      "0.001": 1.7757793842648177,
+      "1e-05": 177.57793842648178,
+      "1e-07": 17757.79384264818
+    },
+    "invariant_error": null,
+    "min_raw_output_concentration": 0.0019935093353184523,
+    "significant_negative_output_count": 0,
+    "solver_counts": {
+      "nfev": 371,
+      "njev": 7,
+      "nlu": 34,
+      "observed_rhs_calls_including_fd": 441,
+      "accepted_steps": 134,
+      "min_accepted_state": 0.0019935843018656367,
+      "min_rhs_argument_including_newton_and_fd": 0.0019935411309531764,
+      "significant_negative_rhs_components": 0
+    }
+  },
+  {
+    "model_id": "BIOMD0000000051",
+    "model_hash": "167e78583aa85b49c0e283543f5c80e826a16d23cc06bb34e60c6dfbeb67f3fc",
+    "case_id": "original_initial_values",
+    "seed": 20261102,
+    "method": "BDF",
+    "rtol": 1e-07,
+    "repeat": 4,
+    "implementation": "Python shared RHS/SciPy",
+    "status": "success",
+    "failure_reason": null,
+    "integration_and_output_seconds": 0.0587831599994388,
+    "batch_seconds": 0.5878315999943879,
+    "trajectories_per_batch": 10,
+    "observed_error": {
+      "0.001": 0.0027799170882547766,
+      "1e-05": 0.27799170882547763,
+      "1e-07": 27.799170882547767
+    },
+    "flux_error": {
+      "0.001": 0.03392838909177079,
+      "1e-05": 3.392838909177079,
+      "1e-07": 339.28389091770794
+    },
+    "invariant_error": null,
+    "min_raw_output_concentration": 0.001993505844180125,
+    "significant_negative_output_count": 0,
+    "solver_counts": {
+      "nfev": 790,
+      "njev": 10,
+      "nlu": 59,
+      "observed_rhs_calls_including_fd": 890,
+      "accepted_steps": 272,
+      "min_accepted_state": 0.001993576296422585,
+      "min_rhs_argument_including_newton_and_fd": 0.0019935760109645304,
+      "significant_negative_rhs_components": 0
+    }
+  },
+  {
+    "model_id": "BIOMD0000000051",
+    "model_hash": "167e78583aa85b49c0e283543f5c80e826a16d23cc06bb34e60c6dfbeb67f3fc",
+    "case_id": "original_initial_values",
+    "seed": 20261102,
+    "method": "Radau",
+    "rtol": 1e-09,
+    "repeat": 4,
+    "implementation": "Python shared RHS/SciPy",
+    "status": "success",
+    "failure_reason": null,
+    "integration_and_output_seconds": 0.36664893999986814,
+    "batch_seconds": 3.6664893999986816,
+    "trajectories_per_batch": 10,
+    "observed_error": {
+      "0.001": 8.328108847347685e-07,
+      "1e-05": 8.328108847347681e-05,
+      "1e-07": 0.008328108847347684
+    },
+    "flux_error": {
+      "0.001": 5.151867110062872e-05,
+      "1e-05": 0.005151867110062872,
+      "1e-07": 0.5151867110062872
+    },
+    "invariant_error": null,
+    "min_raw_output_concentration": 0.001993505809814686,
+    "significant_negative_output_count": 0,
+    "solver_counts": {
+      "nfev": 4386,
+      "njev": 219,
+      "nlu": 482,
+      "observed_rhs_calls_including_fd": 6357,
+      "accepted_steps": 526,
+      "min_accepted_state": 0.0019935016825296118,
+      "min_rhs_argument_including_newton_and_fd": 0.001993499413352586,
+      "significant_negative_rhs_components": 0
+    }
+  },
+  {
+    "model_id": "BIOMD0000000051",
+    "model_hash": "167e78583aa85b49c0e283543f5c80e826a16d23cc06bb34e60c6dfbeb67f3fc",
+    "case_id": "original_initial_values",
+    "seed": 20261102,
+    "method": "CVODE",
+    "rtol": 1e-07,
+    "repeat": 4,
+    "implementation": "compiled SBML/RoadRunner",
+    "status": "success",
+    "failure_reason": null,
+    "integration_and_output_seconds": 0.004124640000372892,
+    "batch_seconds": 0.04124640000372892,
+    "trajectories_per_batch": 10,
+    "observed_error": {
+      "0.001": 0.003988050135311861,
+      "1e-05": 0.3988050135311861,
+      "1e-07": 39.88050135311861
+    },
+    "flux_error": {
+      "0.001": 0.04848216078793437,
+      "1e-05": 4.8482160787934365,
+      "1e-07": 484.8216078793437
+    },
+    "invariant_error": null,
+    "min_raw_output_concentration": 0.0019935057141562316,
+    "significant_negative_output_count": 0,
+    "solver_counts": {
+      "nfev": null,
+      "njev": null,
+      "nlu": null,
+      "accepted_steps": null,
+      "min_accepted_state": null,
+      "min_rhs_argument_including_newton_and_fd": null,
+      "note": "RoadRunner public API here does not expose internal steps/counters; dense default CVODE, compiled RHS. Scalar atol uses smallest common species scale."
+    }
+  },
+  {
+    "model_id": "BIOMD0000000051",
+    "model_hash": "167e78583aa85b49c0e283543f5c80e826a16d23cc06bb34e60c6dfbeb67f3fc",
+    "case_id": "original_initial_values",
+    "seed": 20261102,
+    "method": "BDF",
+    "rtol": 0.001,
+    "repeat": 4,
+    "implementation": "Python shared RHS/SciPy",
+    "status": "success",
+    "failure_reason": null,
+    "integration_and_output_seconds": 0.013412360000074841,
+    "batch_seconds": 0.1341236000007484,
+    "trajectories_per_batch": 10,
+    "observed_error": {
+      "0.001": 4.907217383188229,
+      "1e-05": 490.7217383188229,
+      "1e-07": 49072.17383188229
+    },
+    "flux_error": {
+      "0.001": 85.86568426423293,
+      "1e-05": 8586.568426423293,
+      "1e-07": 858656.8426423293
+    },
+    "invariant_error": null,
+    "min_raw_output_concentration": 0.001993288171823051,
+    "significant_negative_output_count": 0,
+    "solver_counts": {
+      "nfev": 141,
+      "njev": 5,
+      "nlu": 21,
+      "observed_rhs_calls_including_fd": 191,
+      "accepted_steps": 55,
+      "min_accepted_state": 0.0019932966369948088,
+      "min_rhs_argument_including_newton_and_fd": 0.0019932447943663317,
+      "significant_negative_rhs_components": 0
+    }
+  },
+  {
+    "model_id": "BIOMD0000000051",
+    "model_hash": "167e78583aa85b49c0e283543f5c80e826a16d23cc06bb34e60c6dfbeb67f3fc",
+    "case_id": "original_initial_values",
+    "seed": 20261102,
+    "method": "BDF",
+    "rtol": 1e-09,
+    "repeat": 4,
+    "implementation": "Python shared RHS/SciPy",
+    "status": "success",
+    "failure_reason": null,
+    "integration_and_output_seconds": 0.11246041999984299,
+    "batch_seconds": 1.12460419999843,
+    "trajectories_per_batch": 10,
+    "observed_error": {
+      "0.001": 3.683091336279444e-05,
+      "1e-05": 0.003683091336279444,
+      "1e-07": 0.36830913362794443
+    },
+    "flux_error": {
+      "0.001": 0.00047253962089353674,
+      "1e-05": 0.047253962089353674,
+      "1e-07": 4.725396208935368
+    },
+    "invariant_error": null,
+    "min_raw_output_concentration": 0.001993505810416509,
+    "significant_negative_output_count": 0,
+    "solver_counts": {
+      "nfev": 1688,
+      "njev": 15,
+      "nlu": 110,
+      "observed_rhs_calls_including_fd": 1838,
+      "accepted_steps": 549,
+      "min_accepted_state": 0.0019934991618953267,
+      "min_rhs_argument_including_newton_and_fd": 0.0019934991583696877,
+      "significant_negative_rhs_components": 0
+    }
+  },
+  {
+    "model_id": "BIOMD0000000051",
+    "model_hash": "167e78583aa85b49c0e283543f5c80e826a16d23cc06bb34e60c6dfbeb67f3fc",
+    "case_id": "original_initial_values",
+    "seed": 20261102,
+    "method": "CVODE",
+    "rtol": 0.001,
+    "repeat": 4,
+    "implementation": "compiled SBML/RoadRunner",
+    "status": "success",
+    "failure_reason": null,
+    "integration_and_output_seconds": 0.0022415799998270814,
+    "batch_seconds": 0.022415799998270813,
+    "trajectories_per_batch": 10,
+    "observed_error": {
+      "0.001": 8.649659575014807,
+      "1e-05": 864.9659575014806,
+      "1e-07": 86496.59575014807
+    },
+    "flux_error": {
+      "0.001": 110.46449913445636,
+      "1e-05": 11046.449913445636,
+      "1e-07": 1104644.9913445637
+    },
+    "invariant_error": null,
+    "min_raw_output_concentration": 0.001994021653315652,
+    "significant_negative_output_count": 0,
+    "solver_counts": {
+      "nfev": null,
+      "njev": null,
+      "nlu": null,
+      "accepted_steps": null,
+      "min_accepted_state": null,
+      "min_rhs_argument_including_newton_and_fd": null,
+      "note": "RoadRunner public API here does not expose internal steps/counters; dense default CVODE, compiled RHS. Scalar atol uses smallest common species scale."
+    }
+  },
+  {
+    "model_id": "BIOMD0000000051",
+    "model_hash": "167e78583aa85b49c0e283543f5c80e826a16d23cc06bb34e60c6dfbeb67f3fc",
+    "case_id": "original_initial_values",
+    "seed": 20261102,
+    "method": "CVODE",
+    "rtol": 1e-05,
+    "repeat": 4,
+    "implementation": "compiled SBML/RoadRunner",
+    "status": "success",
+    "failure_reason": null,
+    "integration_and_output_seconds": 0.003232840000418946,
+    "batch_seconds": 0.03232840000418946,
+    "trajectories_per_batch": 10,
+    "observed_error": {
+      "0.001": 0.17397328944794874,
+      "1e-05": 17.39732894479487,
+      "1e-07": 1739.7328944794874
+    },
+    "flux_error": {
+      "0.001": 3.053607552059053,
+      "1e-05": 305.3607552059053,
+      "1e-07": 30536.075520590533
+    },
+    "invariant_error": null,
+    "min_raw_output_concentration": 0.001993502797592578,
+    "significant_negative_output_count": 0,
+    "solver_counts": {
+      "nfev": null,
+      "njev": null,
+      "nlu": null,
+      "accepted_steps": null,
+      "min_accepted_state": null,
+      "min_rhs_argument_including_newton_and_fd": null,
+      "note": "RoadRunner public API here does not expose internal steps/counters; dense default CVODE, compiled RHS. Scalar atol uses smallest common species scale."
+    }
+  },
+  {
+    "model_id": "BIOMD0000000051",
+    "model_hash": "167e78583aa85b49c0e283543f5c80e826a16d23cc06bb34e60c6dfbeb67f3fc",
+    "case_id": "original_initial_values",
+    "seed": 20261102,
+    "method": "Radau",
+    "rtol": 1e-07,
+    "repeat": 4,
+    "implementation": "Python shared RHS/SciPy",
+    "status": "success",
+    "failure_reason": null,
+    "integration_and_output_seconds": 0.12940502999990713,
+    "batch_seconds": 1.2940502999990713,
+    "trajectories_per_batch": 10,
+    "observed_error": {
+      "0.001": 0.00011210381394109445,
+      "1e-05": 0.011210381394109441,
+      "1e-07": 1.1210381394109445
+    },
+    "flux_error": {
+      "0.001": 0.0031174634663009046,
+      "1e-05": 0.3117463466300905,
+      "1e-07": 31.17463466300905
+    },
+    "invariant_error": null,
+    "min_raw_output_concentration": 0.001993505814238314,
+    "significant_negative_output_count": 0,
+    "solver_counts": {
+      "nfev": 1435,
+      "njev": 81,
+      "nlu": 202,
+      "observed_rhs_calls_including_fd": 2164,
+      "accepted_steps": 169,
+      "min_accepted_state": 0.0019935156988027153,
+      "min_rhs_argument_including_newton_and_fd": 0.001993505664563061,
+      "significant_negative_rhs_components": 0
+    }
+  },
+  {
+    "model_id": "BIOMD0000000051",
+    "model_hash": "167e78583aa85b49c0e283543f5c80e826a16d23cc06bb34e60c6dfbeb67f3fc",
+    "case_id": "original_initial_values",
+    "seed": 20261102,
+    "method": "Radau",
+    "rtol": 1e-05,
+    "repeat": 5,
+    "implementation": "Python shared RHS/SciPy",
+    "status": "success",
+    "failure_reason": null,
+    "integration_and_output_seconds": 0.048163919999933566,
+    "batch_seconds": 0.4816391999993357,
+    "trajectories_per_batch": 10,
+    "observed_error": {
+      "0.001": 0.010285572082599708,
+      "1e-05": 1.0285572082599705,
+      "1e-07": 102.85572082599708
+    },
+    "flux_error": {
+      "0.001": 0.20375216093937795,
+      "1e-05": 20.375216093937794,
+      "1e-07": 2037.5216093937797
+    },
+    "invariant_error": null,
+    "min_raw_output_concentration": 0.0019935053110686756,
+    "significant_negative_output_count": 0,
+    "solver_counts": {
+      "nfev": 503,
+      "njev": 30,
+      "nlu": 98,
+      "observed_rhs_calls_including_fd": 773,
+      "accepted_steps": 56,
+      "min_accepted_state": 0.0019940215874399885,
+      "min_rhs_argument_including_newton_and_fd": 0.001993564470639509,
+      "significant_negative_rhs_components": 0
+    }
+  },
+  {
+    "model_id": "BIOMD0000000051",
+    "model_hash": "167e78583aa85b49c0e283543f5c80e826a16d23cc06bb34e60c6dfbeb67f3fc",
+    "case_id": "original_initial_values",
+    "seed": 20261102,
+    "method": "BDF",
+    "rtol": 1e-05,
+    "repeat": 5,
+    "implementation": "Python shared RHS/SciPy",
+    "status": "success",
+    "failure_reason": null,
+    "integration_and_output_seconds": 0.029559190000145463,
+    "batch_seconds": 0.29559190000145463,
+    "trajectories_per_batch": 10,
+    "observed_error": {
+      "0.001": 0.1385455294660965,
+      "1e-05": 13.854552946609648,
+      "1e-07": 1385.455294660965
+    },
+    "flux_error": {
+      "0.001": 1.7757793842648177,
+      "1e-05": 177.57793842648178,
+      "1e-07": 17757.79384264818
+    },
+    "invariant_error": null,
+    "min_raw_output_concentration": 0.0019935093353184523,
+    "significant_negative_output_count": 0,
+    "solver_counts": {
+      "nfev": 371,
+      "njev": 7,
+      "nlu": 34,
+      "observed_rhs_calls_including_fd": 441,
+      "accepted_steps": 134,
+      "min_accepted_state": 0.0019935843018656367,
+      "min_rhs_argument_including_newton_and_fd": 0.0019935411309531764,
+      "significant_negative_rhs_components": 0
+    }
+  },
+  {
+    "model_id": "BIOMD0000000051",
+    "model_hash": "167e78583aa85b49c0e283543f5c80e826a16d23cc06bb34e60c6dfbeb67f3fc",
+    "case_id": "original_initial_values",
+    "seed": 20261102,
+    "method": "BDF",
+    "rtol": 1e-09,
+    "repeat": 5,
+    "implementation": "Python shared RHS/SciPy",
+    "status": "success",
+    "failure_reason": null,
+    "integration_and_output_seconds": 0.11244604999956209,
+    "batch_seconds": 1.124460499995621,
+    "trajectories_per_batch": 10,
+    "observed_error": {
+      "0.001": 3.683091336279444e-05,
+      "1e-05": 0.003683091336279444,
+      "1e-07": 0.36830913362794443
+    },
+    "flux_error": {
+      "0.001": 0.00047253962089353674,
+      "1e-05": 0.047253962089353674,
+      "1e-07": 4.725396208935368
+    },
+    "invariant_error": null,
+    "min_raw_output_concentration": 0.001993505810416509,
+    "significant_negative_output_count": 0,
+    "solver_counts": {
+      "nfev": 1688,
+      "njev": 15,
+      "nlu": 110,
+      "observed_rhs_calls_including_fd": 1838,
+      "accepted_steps": 549,
+      "min_accepted_state": 0.0019934991618953267,
+      "min_rhs_argument_including_newton_and_fd": 0.0019934991583696877,
+      "significant_negative_rhs_components": 0
+    }
+  },
+  {
+    "model_id": "BIOMD0000000051",
+    "model_hash": "167e78583aa85b49c0e283543f5c80e826a16d23cc06bb34e60c6dfbeb67f3fc",
+    "case_id": "original_initial_values",
+    "seed": 20261102,
+    "method": "Radau",
+    "rtol": 1e-09,
+    "repeat": 5,
+    "implementation": "Python shared RHS/SciPy",
+    "status": "success",
+    "failure_reason": null,
+    "integration_and_output_seconds": 0.37006777000060537,
+    "batch_seconds": 3.700677700006054,
+    "trajectories_per_batch": 10,
+    "observed_error": {
+      "0.001": 8.328108847347685e-07,
+      "1e-05": 8.328108847347681e-05,
+      "1e-07": 0.008328108847347684
+    },
+    "flux_error": {
+      "0.001": 5.151867110062872e-05,
+      "1e-05": 0.005151867110062872,
+      "1e-07": 0.5151867110062872
+    },
+    "invariant_error": null,
+    "min_raw_output_concentration": 0.001993505809814686,
+    "significant_negative_output_count": 0,
+    "solver_counts": {
+      "nfev": 4386,
+      "njev": 219,
+      "nlu": 482,
+      "observed_rhs_calls_including_fd": 6357,
+      "accepted_steps": 526,
+      "min_accepted_state": 0.0019935016825296118,
+      "min_rhs_argument_including_newton_and_fd": 0.001993499413352586,
+      "significant_negative_rhs_components": 0
+    }
+  },
+  {
+    "model_id": "BIOMD0000000051",
+    "model_hash": "167e78583aa85b49c0e283543f5c80e826a16d23cc06bb34e60c6dfbeb67f3fc",
+    "case_id": "original_initial_values",
+    "seed": 20261102,
+    "method": "Radau",
+    "rtol": 1e-07,
+    "repeat": 5,
+    "implementation": "Python shared RHS/SciPy",
+    "status": "success",
+    "failure_reason": null,
+    "integration_and_output_seconds": 0.12930435999951442,
+    "batch_seconds": 1.2930435999951442,
+    "trajectories_per_batch": 10,
+    "observed_error": {
+      "0.001": 0.00011210381394109445,
+      "1e-05": 0.011210381394109441,
+      "1e-07": 1.1210381394109445
+    },
+    "flux_error": {
+      "0.001": 0.0031174634663009046,
+      "1e-05": 0.3117463466300905,
+      "1e-07": 31.17463466300905
+    },
+    "invariant_error": null,
+    "min_raw_output_concentration": 0.001993505814238314,
+    "significant_negative_output_count": 0,
+    "solver_counts": {
+      "nfev": 1435,
+      "njev": 81,
+      "nlu": 202,
+      "observed_rhs_calls_including_fd": 2164,
+      "accepted_steps": 169,
+      "min_accepted_state": 0.0019935156988027153,
+      "min_rhs_argument_including_newton_and_fd": 0.001993505664563061,
+      "significant_negative_rhs_components": 0
+    }
+  },
+  {
+    "model_id": "BIOMD0000000051",
+    "model_hash": "167e78583aa85b49c0e283543f5c80e826a16d23cc06bb34e60c6dfbeb67f3fc",
+    "case_id": "original_initial_values",
+    "seed": 20261102,
+    "method": "CVODE",
+    "rtol": 1e-09,
+    "repeat": 5,
+    "implementation": "compiled SBML/RoadRunner",
+    "status": "success",
+    "failure_reason": null,
+    "integration_and_output_seconds": 0.005917130000307224,
+    "batch_seconds": 0.05917130000307225,
+    "trajectories_per_batch": 10,
+    "observed_error": {
+      "0.001": 0.00017245638545521368,
+      "1e-05": 0.01724563854552137,
+      "1e-07": 1.724563854552137
+    },
+    "flux_error": {
+      "0.001": 0.0005528657222241283,
+      "1e-05": 0.05528657222241283,
+      "1e-07": 5.528657222241284
+    },
+    "invariant_error": null,
+    "min_raw_output_concentration": 0.0019935058082168745,
+    "significant_negative_output_count": 0,
+    "solver_counts": {
+      "nfev": null,
+      "njev": null,
+      "nlu": null,
+      "accepted_steps": null,
+      "min_accepted_state": null,
+      "min_rhs_argument_including_newton_and_fd": null,
+      "note": "RoadRunner public API here does not expose internal steps/counters; dense default CVODE, compiled RHS. Scalar atol uses smallest common species scale."
+    }
+  },
+  {
+    "model_id": "BIOMD0000000051",
+    "model_hash": "167e78583aa85b49c0e283543f5c80e826a16d23cc06bb34e60c6dfbeb67f3fc",
+    "case_id": "original_initial_values",
+    "seed": 20261102,
+    "method": "CVODE",
+    "rtol": 1e-07,
+    "repeat": 5,
+    "implementation": "compiled SBML/RoadRunner",
+    "status": "success",
+    "failure_reason": null,
+    "integration_and_output_seconds": 0.004184309999982361,
+    "batch_seconds": 0.04184309999982361,
+    "trajectories_per_batch": 10,
+    "observed_error": {
+      "0.001": 0.003988050135311861,
+      "1e-05": 0.3988050135311861,
+      "1e-07": 39.88050135311861
+    },
+    "flux_error": {
+      "0.001": 0.04848216078793437,
+      "1e-05": 4.8482160787934365,
+      "1e-07": 484.8216078793437
+    },
+    "invariant_error": null,
+    "min_raw_output_concentration": 0.0019935057141562316,
+    "significant_negative_output_count": 0,
+    "solver_counts": {
+      "nfev": null,
+      "njev": null,
+      "nlu": null,
+      "accepted_steps": null,
+      "min_accepted_state": null,
+      "min_rhs_argument_including_newton_and_fd": null,
+      "note": "RoadRunner public API here does not expose internal steps/counters; dense default CVODE, compiled RHS. Scalar atol uses smallest common species scale."
+    }
+  },
+  {
+    "model_id": "BIOMD0000000051",
+    "model_hash": "167e78583aa85b49c0e283543f5c80e826a16d23cc06bb34e60c6dfbeb67f3fc",
+    "case_id": "original_initial_values",
+    "seed": 20261102,
+    "method": "CVODE",
+    "rtol": 1e-05,
+    "repeat": 5,
+    "implementation": "compiled SBML/RoadRunner",
+    "status": "success",
+    "failure_reason": null,
+    "integration_and_output_seconds": 0.003262199999880977,
+    "batch_seconds": 0.03262199999880977,
+    "trajectories_per_batch": 10,
+    "observed_error": {
+      "0.001": 0.17397328944794874,
+      "1e-05": 17.39732894479487,
+      "1e-07": 1739.7328944794874
+    },
+    "flux_error": {
+      "0.001": 3.053607552059053,
+      "1e-05": 305.3607552059053,
+      "1e-07": 30536.075520590533
+    },
+    "invariant_error": null,
+    "min_raw_output_concentration": 0.001993502797592578,
+    "significant_negative_output_count": 0,
+    "solver_counts": {
+      "nfev": null,
+      "njev": null,
+      "nlu": null,
+      "accepted_steps": null,
+      "min_accepted_state": null,
+      "min_rhs_argument_including_newton_and_fd": null,
+      "note": "RoadRunner public API here does not expose internal steps/counters; dense default CVODE, compiled RHS. Scalar atol uses smallest common species scale."
+    }
+  },
+  {
+    "model_id": "BIOMD0000000051",
+    "model_hash": "167e78583aa85b49c0e283543f5c80e826a16d23cc06bb34e60c6dfbeb67f3fc",
+    "case_id": "original_initial_values",
+    "seed": 20261102,
+    "method": "CVODE",
+    "rtol": 0.001,
+    "repeat": 5,
+    "implementation": "compiled SBML/RoadRunner",
+    "status": "success",
+    "failure_reason": null,
+    "integration_and_output_seconds": 0.0021835100000316744,
+    "batch_seconds": 0.021835100000316743,
+    "trajectories_per_batch": 10,
+    "observed_error": {
+      "0.001": 8.649659575014807,
+      "1e-05": 864.9659575014806,
+      "1e-07": 86496.59575014807
+    },
+    "flux_error": {
+      "0.001": 110.46449913445636,
+      "1e-05": 11046.449913445636,
+      "1e-07": 1104644.9913445637
+    },
+    "invariant_error": null,
+    "min_raw_output_concentration": 0.001994021653315652,
+    "significant_negative_output_count": 0,
+    "solver_counts": {
+      "nfev": null,
+      "njev": null,
+      "nlu": null,
+      "accepted_steps": null,
+      "min_accepted_state": null,
+      "min_rhs_argument_including_newton_and_fd": null,
+      "note": "RoadRunner public API here does not expose internal steps/counters; dense default CVODE, compiled RHS. Scalar atol uses smallest common species scale."
+    }
+  },
+  {
+    "model_id": "BIOMD0000000051",
+    "model_hash": "167e78583aa85b49c0e283543f5c80e826a16d23cc06bb34e60c6dfbeb67f3fc",
+    "case_id": "original_initial_values",
+    "seed": 20261102,
+    "method": "Radau",
+    "rtol": 0.001,
+    "repeat": 5,
+    "implementation": "Python shared RHS/SciPy",
+    "status": "success",
+    "failure_reason": null,
+    "integration_and_output_seconds": 0.019836229999782518,
+    "batch_seconds": 0.19836229999782518,
+    "trajectories_per_batch": 10,
+    "observed_error": {
+      "0.001": 2.65697651658361,
+      "1e-05": 265.69765165836094,
+      "1e-07": 26569.7651658361
+    },
+    "flux_error": {
+      "0.001": 39.27433997054473,
+      "1e-05": 3927.433997054473,
+      "1e-07": 392743.3997054473
+    },
+    "invariant_error": null,
+    "min_raw_output_concentration": 0.001993470152632431,
+    "significant_negative_output_count": 0,
+    "solver_counts": {
+      "nfev": 200,
+      "njev": 12,
+      "nlu": 40,
+      "observed_rhs_calls_including_fd": 308,
+      "accepted_steps": 20,
+      "min_accepted_state": 0.00199919604603084,
+      "min_rhs_argument_including_newton_and_fd": 0.0018881931801351575,
+      "significant_negative_rhs_components": 0
+    }
+  },
+  {
+    "model_id": "BIOMD0000000051",
+    "model_hash": "167e78583aa85b49c0e283543f5c80e826a16d23cc06bb34e60c6dfbeb67f3fc",
+    "case_id": "original_initial_values",
+    "seed": 20261102,
+    "method": "BDF",
+    "rtol": 0.001,
+    "repeat": 5,
+    "implementation": "Python shared RHS/SciPy",
+    "status": "success",
+    "failure_reason": null,
+    "integration_and_output_seconds": 0.01388541999986046,
+    "batch_seconds": 0.1388541999986046,
+    "trajectories_per_batch": 10,
+    "observed_error": {
+      "0.001": 4.907217383188229,
+      "1e-05": 490.7217383188229,
+      "1e-07": 49072.17383188229
+    },
+    "flux_error": {
+      "0.001": 85.86568426423293,
+      "1e-05": 8586.568426423293,
+      "1e-07": 858656.8426423293
+    },
+    "invariant_error": null,
+    "min_raw_output_concentration": 0.001993288171823051,
+    "significant_negative_output_count": 0,
+    "solver_counts": {
+      "nfev": 141,
+      "njev": 5,
+      "nlu": 21,
+      "observed_rhs_calls_including_fd": 191,
+      "accepted_steps": 55,
+      "min_accepted_state": 0.0019932966369948088,
+      "min_rhs_argument_including_newton_and_fd": 0.0019932447943663317,
+      "significant_negative_rhs_components": 0
+    }
+  },
+  {
+    "model_id": "BIOMD0000000051",
+    "model_hash": "167e78583aa85b49c0e283543f5c80e826a16d23cc06bb34e60c6dfbeb67f3fc",
+    "case_id": "original_initial_values",
+    "seed": 20261102,
+    "method": "BDF",
+    "rtol": 1e-07,
+    "repeat": 5,
+    "implementation": "Python shared RHS/SciPy",
+    "status": "success",
+    "failure_reason": null,
+    "integration_and_output_seconds": 0.05805183999982546,
+    "batch_seconds": 0.5805183999982546,
+    "trajectories_per_batch": 10,
+    "observed_error": {
+      "0.001": 0.0027799170882547766,
+      "1e-05": 0.27799170882547763,
+      "1e-07": 27.799170882547767
+    },
+    "flux_error": {
+      "0.001": 0.03392838909177079,
+      "1e-05": 3.392838909177079,
+      "1e-07": 339.28389091770794
+    },
+    "invariant_error": null,
+    "min_raw_output_concentration": 0.001993505844180125,
+    "significant_negative_output_count": 0,
+    "solver_counts": {
+      "nfev": 790,
+      "njev": 10,
+      "nlu": 59,
+      "observed_rhs_calls_including_fd": 890,
+      "accepted_steps": 272,
+      "min_accepted_state": 0.001993576296422585,
+      "min_rhs_argument_including_newton_and_fd": 0.0019935760109645304,
+      "significant_negative_rhs_components": 0
+    }
+  },
+  {
+    "model_id": "BIOMD0000000051",
+    "model_hash": "167e78583aa85b49c0e283543f5c80e826a16d23cc06bb34e60c6dfbeb67f3fc",
+    "case_id": "original_initial_values",
+    "seed": 20261102,
+    "method": "BDF",
+    "rtol": 1e-05,
+    "repeat": 6,
+    "implementation": "Python shared RHS/SciPy",
+    "status": "success",
+    "failure_reason": null,
+    "integration_and_output_seconds": 0.029870880000089528,
+    "batch_seconds": 0.2987088000008953,
+    "trajectories_per_batch": 10,
+    "observed_error": {
+      "0.001": 0.1385455294660965,
+      "1e-05": 13.854552946609648,
+      "1e-07": 1385.455294660965
+    },
+    "flux_error": {
+      "0.001": 1.7757793842648177,
+      "1e-05": 177.57793842648178,
+      "1e-07": 17757.79384264818
+    },
+    "invariant_error": null,
+    "min_raw_output_concentration": 0.0019935093353184523,
+    "significant_negative_output_count": 0,
+    "solver_counts": {
+      "nfev": 371,
+      "njev": 7,
+      "nlu": 34,
+      "observed_rhs_calls_including_fd": 441,
+      "accepted_steps": 134,
+      "min_accepted_state": 0.0019935843018656367,
+      "min_rhs_argument_including_newton_and_fd": 0.0019935411309531764,
+      "significant_negative_rhs_components": 0
+    }
+  },
+  {
+    "model_id": "BIOMD0000000051",
+    "model_hash": "167e78583aa85b49c0e283543f5c80e826a16d23cc06bb34e60c6dfbeb67f3fc",
+    "case_id": "original_initial_values",
+    "seed": 20261102,
+    "method": "Radau",
+    "rtol": 1e-09,
+    "repeat": 6,
+    "implementation": "Python shared RHS/SciPy",
+    "status": "success",
+    "failure_reason": null,
+    "integration_and_output_seconds": 0.36664118000044255,
+    "batch_seconds": 3.6664118000044255,
+    "trajectories_per_batch": 10,
+    "observed_error": {
+      "0.001": 8.328108847347685e-07,
+      "1e-05": 8.328108847347681e-05,
+      "1e-07": 0.008328108847347684
+    },
+    "flux_error": {
+      "0.001": 5.151867110062872e-05,
+      "1e-05": 0.005151867110062872,
+      "1e-07": 0.5151867110062872
+    },
+    "invariant_error": null,
+    "min_raw_output_concentration": 0.001993505809814686,
+    "significant_negative_output_count": 0,
+    "solver_counts": {
+      "nfev": 4386,
+      "njev": 219,
+      "nlu": 482,
+      "observed_rhs_calls_including_fd": 6357,
+      "accepted_steps": 526,
+      "min_accepted_state": 0.0019935016825296118,
+      "min_rhs_argument_including_newton_and_fd": 0.001993499413352586,
+      "significant_negative_rhs_components": 0
+    }
+  },
+  {
+    "model_id": "BIOMD0000000051",
+    "model_hash": "167e78583aa85b49c0e283543f5c80e826a16d23cc06bb34e60c6dfbeb67f3fc",
+    "case_id": "original_initial_values",
+    "seed": 20261102,
+    "method": "Radau",
+    "rtol": 1e-07,
+    "repeat": 6,
+    "implementation": "Python shared RHS/SciPy",
+    "status": "success",
+    "failure_reason": null,
+    "integration_and_output_seconds": 0.13013423000011243,
+    "batch_seconds": 1.3013423000011244,
+    "trajectories_per_batch": 10,
+    "observed_error": {
+      "0.001": 0.00011210381394109445,
+      "1e-05": 0.011210381394109441,
+      "1e-07": 1.1210381394109445
+    },
+    "flux_error": {
+      "0.001": 0.0031174634663009046,
+      "1e-05": 0.3117463466300905,
+      "1e-07": 31.17463466300905
+    },
+    "invariant_error": null,
+    "min_raw_output_concentration": 0.001993505814238314,
+    "significant_negative_output_count": 0,
+    "solver_counts": {
+      "nfev": 1435,
+      "njev": 81,
+      "nlu": 202,
+      "observed_rhs_calls_including_fd": 2164,
+      "accepted_steps": 169,
+      "min_accepted_state": 0.0019935156988027153,
+      "min_rhs_argument_including_newton_and_fd": 0.001993505664563061,
+      "significant_negative_rhs_components": 0
+    }
+  },
+  {
+    "model_id": "BIOMD0000000051",
+    "model_hash": "167e78583aa85b49c0e283543f5c80e826a16d23cc06bb34e60c6dfbeb67f3fc",
+    "case_id": "original_initial_values",
+    "seed": 20261102,
+    "method": "BDF",
+    "rtol": 1e-09,
+    "repeat": 6,
+    "implementation": "Python shared RHS/SciPy",
+    "status": "success",
+    "failure_reason": null,
+    "integration_and_output_seconds": 0.11325008999992861,
+    "batch_seconds": 1.132500899999286,
+    "trajectories_per_batch": 10,
+    "observed_error": {
+      "0.001": 3.683091336279444e-05,
+      "1e-05": 0.003683091336279444,
+      "1e-07": 0.36830913362794443
+    },
+    "flux_error": {
+      "0.001": 0.00047253962089353674,
+      "1e-05": 0.047253962089353674,
+      "1e-07": 4.725396208935368
+    },
+    "invariant_error": null,
+    "min_raw_output_concentration": 0.001993505810416509,
+    "significant_negative_output_count": 0,
+    "solver_counts": {
+      "nfev": 1688,
+      "njev": 15,
+      "nlu": 110,
+      "observed_rhs_calls_including_fd": 1838,
+      "accepted_steps": 549,
+      "min_accepted_state": 0.0019934991618953267,
+      "min_rhs_argument_including_newton_and_fd": 0.0019934991583696877,
+      "significant_negative_rhs_components": 0
+    }
+  },
+  {
+    "model_id": "BIOMD0000000051",
+    "model_hash": "167e78583aa85b49c0e283543f5c80e826a16d23cc06bb34e60c6dfbeb67f3fc",
+    "case_id": "original_initial_values",
+    "seed": 20261102,
+    "method": "BDF",
+    "rtol": 0.001,
+    "repeat": 6,
+    "implementation": "Python shared RHS/SciPy",
+    "status": "success",
+    "failure_reason": null,
+    "integration_and_output_seconds": 0.013652249999722699,
+    "batch_seconds": 0.136522499997227,
+    "trajectories_per_batch": 10,
+    "observed_error": {
+      "0.001": 4.907217383188229,
+      "1e-05": 490.7217383188229,
+      "1e-07": 49072.17383188229
+    },
+    "flux_error": {
+      "0.001": 85.86568426423293,
+      "1e-05": 8586.568426423293,
+      "1e-07": 858656.8426423293
+    },
+    "invariant_error": null,
+    "min_raw_output_concentration": 0.001993288171823051,
+    "significant_negative_output_count": 0,
+    "solver_counts": {
+      "nfev": 141,
+      "njev": 5,
+      "nlu": 21,
+      "observed_rhs_calls_including_fd": 191,
+      "accepted_steps": 55,
+      "min_accepted_state": 0.0019932966369948088,
+      "min_rhs_argument_including_newton_and_fd": 0.0019932447943663317,
+      "significant_negative_rhs_components": 0
+    }
+  },
+  {
+    "model_id": "BIOMD0000000051",
+    "model_hash": "167e78583aa85b49c0e283543f5c80e826a16d23cc06bb34e60c6dfbeb67f3fc",
+    "case_id": "original_initial_values",
+    "seed": 20261102,
+    "method": "CVODE",
+    "rtol": 1e-09,
+    "repeat": 6,
+    "implementation": "compiled SBML/RoadRunner",
+    "status": "success",
+    "failure_reason": null,
+    "integration_and_output_seconds": 0.005880990000150632,
+    "batch_seconds": 0.05880990000150632,
+    "trajectories_per_batch": 10,
+    "observed_error": {
+      "0.001": 0.00017245638545521368,
+      "1e-05": 0.01724563854552137,
+      "1e-07": 1.724563854552137
+    },
+    "flux_error": {
+      "0.001": 0.0005528657222241283,
+      "1e-05": 0.05528657222241283,
+      "1e-07": 5.528657222241284
+    },
+    "invariant_error": null,
+    "min_raw_output_concentration": 0.0019935058082168745,
+    "significant_negative_output_count": 0,
+    "solver_counts": {
+      "nfev": null,
+      "njev": null,
+      "nlu": null,
+      "accepted_steps": null,
+      "min_accepted_state": null,
+      "min_rhs_argument_including_newton_and_fd": null,
+      "note": "RoadRunner public API here does not expose internal steps/counters; dense default CVODE, compiled RHS. Scalar atol uses smallest common species scale."
+    }
+  },
+  {
+    "model_id": "BIOMD0000000051",
+    "model_hash": "167e78583aa85b49c0e283543f5c80e826a16d23cc06bb34e60c6dfbeb67f3fc",
+    "case_id": "original_initial_values",
+    "seed": 20261102,
+    "method": "Radau",
+    "rtol": 0.001,
+    "repeat": 6,
+    "implementation": "Python shared RHS/SciPy",
+    "status": "success",
+    "failure_reason": null,
+    "integration_and_output_seconds": 0.019437079999624983,
+    "batch_seconds": 0.19437079999624984,
+    "trajectories_per_batch": 10,
+    "observed_error": {
+      "0.001": 2.65697651658361,
+      "1e-05": 265.69765165836094,
+      "1e-07": 26569.7651658361
+    },
+    "flux_error": {
+      "0.001": 39.27433997054473,
+      "1e-05": 3927.433997054473,
+      "1e-07": 392743.3997054473
+    },
+    "invariant_error": null,
+    "min_raw_output_concentration": 0.001993470152632431,
+    "significant_negative_output_count": 0,
+    "solver_counts": {
+      "nfev": 200,
+      "njev": 12,
+      "nlu": 40,
+      "observed_rhs_calls_including_fd": 308,
+      "accepted_steps": 20,
+      "min_accepted_state": 0.00199919604603084,
+      "min_rhs_argument_including_newton_and_fd": 0.0018881931801351575,
+      "significant_negative_rhs_components": 0
+    }
+  },
+  {
+    "model_id": "BIOMD0000000051",
+    "model_hash": "167e78583aa85b49c0e283543f5c80e826a16d23cc06bb34e60c6dfbeb67f3fc",
+    "case_id": "original_initial_values",
+    "seed": 20261102,
+    "method": "Radau",
+    "rtol": 1e-05,
+    "repeat": 6,
+    "implementation": "Python shared RHS/SciPy",
+    "status": "success",
+    "failure_reason": null,
+    "integration_and_output_seconds": 0.04871941000019433,
+    "batch_seconds": 0.4871941000019433,
+    "trajectories_per_batch": 10,
+    "observed_error": {
+      "0.001": 0.010285572082599708,
+      "1e-05": 1.0285572082599705,
+      "1e-07": 102.85572082599708
+    },
+    "flux_error": {
+      "0.001": 0.20375216093937795,
+      "1e-05": 20.375216093937794,
+      "1e-07": 2037.5216093937797
+    },
+    "invariant_error": null,
+    "min_raw_output_concentration": 0.0019935053110686756,
+    "significant_negative_output_count": 0,
+    "solver_counts": {
+      "nfev": 503,
+      "njev": 30,
+      "nlu": 98,
+      "observed_rhs_calls_including_fd": 773,
+      "accepted_steps": 56,
+      "min_accepted_state": 0.0019940215874399885,
+      "min_rhs_argument_including_newton_and_fd": 0.001993564470639509,
+      "significant_negative_rhs_components": 0
+    }
+  },
+  {
+    "model_id": "BIOMD0000000051",
+    "model_hash": "167e78583aa85b49c0e283543f5c80e826a16d23cc06bb34e60c6dfbeb67f3fc",
+    "case_id": "original_initial_values",
+    "seed": 20261102,
+    "method": "CVODE",
+    "rtol": 1e-07,
+    "repeat": 6,
+    "implementation": "compiled SBML/RoadRunner",
+    "status": "success",
+    "failure_reason": null,
+    "integration_and_output_seconds": 0.004372410000360105,
+    "batch_seconds": 0.04372410000360105,
+    "trajectories_per_batch": 10,
+    "observed_error": {
+      "0.001": 0.003988050135311861,
+      "1e-05": 0.3988050135311861,
+      "1e-07": 39.88050135311861
+    },
+    "flux_error": {
+      "0.001": 0.04848216078793437,
+      "1e-05": 4.8482160787934365,
+      "1e-07": 484.8216078793437
+    },
+    "invariant_error": null,
+    "min_raw_output_concentration": 0.0019935057141562316,
+    "significant_negative_output_count": 0,
+    "solver_counts": {
+      "nfev": null,
+      "njev": null,
+      "nlu": null,
+      "accepted_steps": null,
+      "min_accepted_state": null,
+      "min_rhs_argument_including_newton_and_fd": null,
+      "note": "RoadRunner public API here does not expose internal steps/counters; dense default CVODE, compiled RHS. Scalar atol uses smallest common species scale."
+    }
+  },
+  {
+    "model_id": "BIOMD0000000051",
+    "model_hash": "167e78583aa85b49c0e283543f5c80e826a16d23cc06bb34e60c6dfbeb67f3fc",
+    "case_id": "original_initial_values",
+    "seed": 20261102,
+    "method": "CVODE",
+    "rtol": 1e-05,
+    "repeat": 6,
+    "implementation": "compiled SBML/RoadRunner",
+    "status": "success",
+    "failure_reason": null,
+    "integration_and_output_seconds": 0.003335299999889685,
+    "batch_seconds": 0.03335299999889685,
+    "trajectories_per_batch": 10,
+    "observed_error": {
+      "0.001": 0.17397328944794874,
+      "1e-05": 17.39732894479487,
+      "1e-07": 1739.7328944794874
+    },
+    "flux_error": {
+      "0.001": 3.053607552059053,
+      "1e-05": 305.3607552059053,
+      "1e-07": 30536.075520590533
+    },
+    "invariant_error": null,
+    "min_raw_output_concentration": 0.001993502797592578,
+    "significant_negative_output_count": 0,
+    "solver_counts": {
+      "nfev": null,
+      "njev": null,
+      "nlu": null,
+      "accepted_steps": null,
+      "min_accepted_state": null,
+      "min_rhs_argument_including_newton_and_fd": null,
+      "note": "RoadRunner public API here does not expose internal steps/counters; dense default CVODE, compiled RHS. Scalar atol uses smallest common species scale."
+    }
+  },
+  {
+    "model_id": "BIOMD0000000051",
+    "model_hash": "167e78583aa85b49c0e283543f5c80e826a16d23cc06bb34e60c6dfbeb67f3fc",
+    "case_id": "original_initial_values",
+    "seed": 20261102,
+    "method": "BDF",
+    "rtol": 1e-07,
+    "repeat": 6,
+    "implementation": "Python shared RHS/SciPy",
+    "status": "success",
+    "failure_reason": null,
+    "integration_and_output_seconds": 0.05809272999977111,
+    "batch_seconds": 0.5809272999977111,
+    "trajectories_per_batch": 10,
+    "observed_error": {
+      "0.001": 0.0027799170882547766,
+      "1e-05": 0.27799170882547763,
+      "1e-07": 27.799170882547767
+    },
+    "flux_error": {
+      "0.001": 0.03392838909177079,
+      "1e-05": 3.392838909177079,
+      "1e-07": 339.28389091770794
+    },
+    "invariant_error": null,
+    "min_raw_output_concentration": 0.001993505844180125,
+    "significant_negative_output_count": 0,
+    "solver_counts": {
+      "nfev": 790,
+      "njev": 10,
+      "nlu": 59,
+      "observed_rhs_calls_including_fd": 890,
+      "accepted_steps": 272,
+      "min_accepted_state": 0.001993576296422585,
+      "min_rhs_argument_including_newton_and_fd": 0.0019935760109645304,
+      "significant_negative_rhs_components": 0
+    }
+  },
+  {
+    "model_id": "BIOMD0000000051",
+    "model_hash": "167e78583aa85b49c0e283543f5c80e826a16d23cc06bb34e60c6dfbeb67f3fc",
+    "case_id": "original_initial_values",
+    "seed": 20261102,
+    "method": "CVODE",
+    "rtol": 0.001,
+    "repeat": 6,
+    "implementation": "compiled SBML/RoadRunner",
+    "status": "success",
+    "failure_reason": null,
+    "integration_and_output_seconds": 0.0022090799997386058,
+    "batch_seconds": 0.022090799997386057,
+    "trajectories_per_batch": 10,
+    "observed_error": {
+      "0.001": 8.649659575014807,
+      "1e-05": 864.9659575014806,
+      "1e-07": 86496.59575014807
+    },
+    "flux_error": {
+      "0.001": 110.46449913445636,
+      "1e-05": 11046.449913445636,
+      "1e-07": 1104644.9913445637
+    },
+    "invariant_error": null,
+    "min_raw_output_concentration": 0.001994021653315652,
+    "significant_negative_output_count": 0,
+    "solver_counts": {
+      "nfev": null,
+      "njev": null,
+      "nlu": null,
+      "accepted_steps": null,
+      "min_accepted_state": null,
+      "min_rhs_argument_including_newton_and_fd": null,
+      "note": "RoadRunner public API here does not expose internal steps/counters; dense default CVODE, compiled RHS. Scalar atol uses smallest common species scale."
+    }
+  }
+]

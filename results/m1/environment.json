@@ -1,0 +1,28 @@
+{
+  "date": "2026-11-02T10:23:15.135233+08:00",
+  "python": "3.12.14",
+  "platform": "Windows-11-10.0.26300-SP0",
+  "cpu": "Intel64 Family 6 Model 151 Stepping 2, GenuineIntel",
+  "logical_cpu_count": 16,
+  "threads": {
+    "OMP_NUM_THREADS": "1",
+    "OPENBLAS_NUM_THREADS": "1",
+    "MKL_NUM_THREADS": "1"
+  },
+  "versions": {
+    "numpy": "2.5.4",
+    "scipy": "1.18.1",
+    "python-libsbml": "5.21.2",
+    "libroadrunner": "2.11.0",
+    "matplotlib": "3.11.2"
+  },
+  "repeats": 7,
+  "peak_memory": null,
+  "limitations": [
+    "Pilot, not a speedup claim",
+    "CVODE uses compiled RHS and default dense linear algebra",
+    "No exposed CVODE internal negativity or solver counters",
+    "No measured peak memory or detailed factorization timing",
+    "Chassagnole publication-figure digitization still pending"
+  ]
+}

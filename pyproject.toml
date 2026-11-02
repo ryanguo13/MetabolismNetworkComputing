@@ -1,0 +1,12 @@
+[project]
+name = "metabolism-network-computing"
+version = "0.1.0"
+description = "Auditable stiff metabolic ODE benchmarks"
+requires-python = ">=3.12,<3.13"
+dependencies = [
+    "numpy>=2.2,<3",
+    "scipy>=1.15,<2",
+    "python-libsbml>=5.20,<6",
+    "libroadrunner>=2.8,<3",
+    "matplotlib>=3.10,<4",
+]
