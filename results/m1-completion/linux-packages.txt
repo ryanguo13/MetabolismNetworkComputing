@@ -1,0 +1,7 @@
+libsundials-cvode6:amd64	6.4.1+dfsg1-3build4
+libsundials-nvecserial6:amd64	6.4.1+dfsg1-3build4
+libsundials-sunlinsol3:amd64	6.4.1+dfsg1-3build4
+libsundials-sunmatrix4:amd64	6.4.1+dfsg1-3build4
+octave	8.4.0-1build5
+python3-numpy	1:1.26.4+ds-6ubuntu1
+python3-scipy	1.11.4-6build1

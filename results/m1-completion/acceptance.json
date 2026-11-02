@@ -1,0 +1,49 @@
+{
+  "M1": "complete",
+  "M2_admission": "pass",
+  "checks": {
+    "pinned_public_artifacts_verified": true,
+    "two_public_models_independent_rhs_semantics": true,
+    "two_public_models_curated_reproduction": true,
+    "small_concentration_and_flux_1e7_calibrated": true,
+    "medium_or_larger_source_and_original_executor": true,
+    "large_reference_concentration_and_elementary_flux": true,
+    "large_original_net_flux_reference_and_source_steady_state": true,
+    "three_sparse_baselines_have_valid_configs": true,
+    "all_repeats_saved_with_memory_and_costs": true,
+    "open_system_ledger": true,
+    "local_fast_modes_exist_on_multiple_states": true,
+    "large_complete_reversible_groups_and_separable_modes": true,
+    "nonautonomous_model_explicitly_excluded_from_autonomous_split": true
+  },
+  "scope": [
+    "B0 linear reversible chains and enzyme mechanism: Lie/Strang exact-flow checks",
+    "Fixed complete-reaction splitting without PE on admitted autonomous models",
+    "Measure restart and fast-block costs before any M3 efficiency claim"
+  ],
+  "limits": [
+    "Chassagnole autonomous splitting",
+    "PE/QSSA",
+    "Claimed performance gains",
+    "93-metabolite core model not obtained"
+  ],
+  "evidence_sha256": {
+    "results/m1-completion/BIOMD0000000051-strict-reference.json": "fa61b0489b662e279bb5515c6d1b6264f6b02b164daa260a961a408abdf7ad9f",
+    "results/m1-completion/BIOMD0000000064-strict-reference.json": "597c889253eed7c1c520adf8e07f7495b38b1d82ba549ec15ba9196707236bee",
+    "results/m1-completion/chassagnole-curation.json": "c20eb8000fd1db22f0012414be0a1b446d893d809cf3bb7fbe54d1544a590923",
+    "results/m1-completion/kecoli-audit.json": "e83d8fdb6467ac1d43773af4a9df69077c8d96a1d701bd4f807339db122a0ddb",
+    "results/m1-completion/kecoli-net-flux.json": "f1350bbbd667376ed071bd63f3eb00c511b4d505438a51f6881a75120f13cbfc",
+    "results/m1-completion/kecoli-runs.json": "b7b5ccc792337989e81f553d11256a5e53dc9791a2b2855f08ba4a45a7e5b0ac",
+    "results/m1-completion/kecoli-summary.json": "def8337b97ee81b4db57a97600be3e07cb89d85fc8cd9176e891325a4e22a034",
+    "results/m1-completion/kecoli-warmups.json": "b74aa33194bb1ddb839f870a1cca7f5cf14c3778f8e448bc425151abbc55d00f",
+    "results/m1-completion/large-reaction-structure.json": "55a0c4398619df1b55c54489d33b4aa5ae29dd5f94cc40289a24a25995211790",
+    "results/m1-completion/linux-environment.json": "bf424b0af3b5a36042ef2d90e5af0e0660c59881ce4a87bd80b2b481ee5a521f",
+    "results/m1-completion/open-balance.json": "65596d17d1b3b241b963a2e9b1933e049aa4139a6e0a9500670117bf69e29c8c",
+    "results/m1-completion/reaction-structure.json": "6a939cd7c172241ad6cd11dd2baa48b93dc2df7c1f233291a04ea18017b52e41",
+    "results/m1-completion/strict-calibration-runs.json": "d67008cd1b08ca9015e82dce80604866861fc8ae110e15a6cf9ce30f446a19af",
+    "results/m1-completion/kecoli-reference.npz": "2351ef24ff471d0bffd54bc30270183363eb592bb838f6f972aae90544c3e172",
+    "results/m1-completion/kecoli-octave.mat": "5650c6ff6d584ced422e734089514327b707368ddbdb2d57934dd66695cc793f",
+    "results/m1-completion/kecoli-source-inputs.npz": "b6e5cc147f19b4b18433d181c7bcba3afd32b5ac16ac608d6acd3cbc5341b536"
+  },
+  "registration_sha256": "a22b146894ca6153a79421cb572af818c50e2a9b08ee0c84bb399f26feaaeb1a"
+}

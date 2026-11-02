@@ -1,0 +1,122 @@
+{
+  "model_hash": "e33de2097944e44903f125f180c7833c062cab48b8f0f48b82dc62584d7652f8",
+  "dimension": 3003,
+  "directional_reactions": 5239,
+  "case": "aerobic_glucose, reaction 1 ACALD 2x overexpression, original deterministic perturbModel semantics",
+  "window": [
+    0,
+    1
+  ],
+  "time_unit": "original MATLAB integration coordinate; not independently assigned physical seconds",
+  "event_policy": "Fixed registered window; original steady-state and CPU-time stop conditions replaced for every solver, not chemical forcing events",
+  "target_levels": [
+    0.001,
+    1e-05
+  ],
+  "strictest_target_reason": "At 1e-7, cross-reference differences exceed the 5% reference budget; 1e-5 has verified margin. No 1e-7 accuracy claim on this model.",
+  "reference_checks_at_1e-5": {
+    "CVODE-KLU-1e-10": 0.0020776237847076363,
+    "CVODE-KLU-1e-11": 0.0,
+    "BDF-1e-10": 0.0029181575256815033,
+    "Radau-1e-09": 0.003627394203405386,
+    "original_Octave_ode15s": 0.0022919624149520305
+  },
+  "elementary_flux_reference_checks_at_1e-5": {
+    "CVODE-KLU-1e-10": 0.0010562272128457055,
+    "CVODE-KLU-1e-11": 0.0,
+    "BDF-1e-10": 0.0008521843367812169,
+    "Radau-1e-09": 0.0036273942038071686,
+    "original_Octave_ode15s": 0.0005385186993906037
+  },
+  "reference_stats": {
+    "CVODE-KLU-1e-10": {
+      "seconds": 2.238274627999999,
+      "counts": {
+        "accepted_steps": 738,
+        "nfev": 779,
+        "njev": 12,
+        "linear_solver_setups": 62,
+        "error_test_failures": 1,
+        "nonlinear_iterations": 776,
+        "nonlinear_convergence_failures": 0,
+        "rhs_seconds": 0.12131423899994331,
+        "jacobian_seconds": 0.01263524600003052,
+        "min_rhs_argument": 0.0,
+        "observed_rhs_calls": 779,
+        "linear_solver": "SUNDIALS 6.4.1 KLU sparse CSC, default COLAMD ordering"
+      }
+    },
+    "CVODE-KLU-1e-11": {
+      "seconds": 3.0039064730000007,
+      "counts": {
+        "accepted_steps": 1072,
+        "nfev": 1123,
+        "njev": 19,
+        "linear_solver_setups": 83,
+        "error_test_failures": 2,
+        "nonlinear_iterations": 1120,
+        "nonlinear_convergence_failures": 0,
+        "rhs_seconds": 0.17107499000010762,
+        "jacobian_seconds": 0.01978264499999227,
+        "min_rhs_argument": 0.0,
+        "observed_rhs_calls": 1123,
+        "linear_solver": "SUNDIALS 6.4.1 KLU sparse CSC, default COLAMD ordering"
+      }
+    },
+    "BDF-1e-10": {
+      "seconds": 6.657021075000003,
+      "counts": {
+        "rhs_seconds": 0.23933921900005828,
+        "jacobian_seconds": 0.01484879699998487,
+        "lu_factor_seconds": 5.570933859999997,
+        "linear_solve_seconds": 0.6543588919997774,
+        "rhs_calls": 1786,
+        "nfev": 1786,
+        "njev": 22,
+        "nlu": 169,
+        "accepted_steps": 732,
+        "min_rhs_argument": -5.769265921047674e-29,
+        "min_accepted_state": -8.536803862519295e-33,
+        "error_test_failures": null
+      }
+    },
+    "Radau-1e-09": {
+      "seconds": 12.010982310000003,
+      "counts": {
+        "rhs_seconds": 0.3144511040001987,
+        "jacobian_seconds": 0.01607855399993241,
+        "lu_factor_seconds": 10.427333321000006,
+        "linear_solve_seconds": 1.0335131219995333,
+        "rhs_calls": 2640,
+        "nfev": 2640,
+        "njev": 25,
+        "nlu": 190,
+        "accepted_steps": 350,
+        "min_rhs_argument": -1.740478827997384e-21,
+        "min_accepted_state": -1.2275143742905125e-23,
+        "error_test_failures": null
+      }
+    }
+  },
+  "source_octave_version": "8.4.0",
+  "source_initial_condition_max_difference": 0.0,
+  "original_rhs_max_absolute_difference": 0.0,
+  "optimized_Octave_rhs_max_absolute_difference": 4.656612873077393e-10,
+  "original_jacobian_max_scaled_difference": 1.1057975007109175e-10,
+  "closed_enzyme_pools": 456,
+  "excluded_pseudo_pool": "Biomass_Bulk (reaction 457); algebraically not conserved",
+  "reference_max_enzyme_pool_drift_absolute": 1.2548028935355227e-10,
+  "reference_relative_enzyme_pool_drift": 6.274014467677612e-11,
+  "pool_normalization": 2.0000000000000004,
+  "reference_min_raw_output": 0.0,
+  "jacobian_structure_nonzeros": 16588,
+  "status": "pass",
+  "accuracy_limit_probes": [
+    {
+      "method": "Radau",
+      "rtol": 1e-10,
+      "atol": "1e-12*scale",
+      "status": "manually stopped after >120s; exploratory, not included as a successful reference"
+    }
+  ]
+}

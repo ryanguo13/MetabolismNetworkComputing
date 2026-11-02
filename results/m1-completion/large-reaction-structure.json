@@ -1,0 +1,246 @@
+{
+  "model": "k-ecoli457",
+  "group_policy": "Original rxn_f_bInd_rxnInd; each elementary forward/reverse pair remains together",
+  "groups": 2666,
+  "pair_groups": 2573,
+  "single_groups": 93,
+  "snapshots": [
+    {
+      "time": 0.0,
+      "group_jacobian_inf_norm_min": 9.705605471318603e-15,
+      "group_jacobian_inf_norm_max": 2932346694.9849677,
+      "diagnostic_seconds": 0.4973483710000002,
+      "classifications": [
+        {
+          "h": 1e-07,
+          "fast_groups": 18,
+          "total_groups": 2666,
+          "fast_directional_reactions": 36,
+          "updated_states": 41,
+          "rate_dependency_states": 41,
+          "connected_blocks": 5,
+          "largest_connected_block": 27
+        },
+        {
+          "h": 1e-05,
+          "fast_groups": 145,
+          "total_groups": 2666,
+          "fast_directional_reactions": 290,
+          "updated_states": 267,
+          "rate_dependency_states": 267,
+          "connected_blocks": 14,
+          "largest_connected_block": 202,
+          "full_largest_mode_magnitudes": [
+            171906703.50862062,
+            223738819.92421764,
+            2704961871.157349
+          ],
+          "slow_largest_mode_magnitudes": [
+            76341.45941634486,
+            84621.41082041245,
+            142770.83974411298
+          ],
+          "largest_mode_reduction": 18946.17889763365
+        },
+        {
+          "h": 0.001,
+          "fast_groups": 725,
+          "total_groups": 2666,
+          "fast_directional_reactions": 1439,
+          "updated_states": 999,
+          "rate_dependency_states": 994,
+          "connected_blocks": 21,
+          "largest_connected_block": 942
+        },
+        {
+          "h": 0.1,
+          "fast_groups": 1641,
+          "total_groups": 2666,
+          "fast_directional_reactions": 3239,
+          "updated_states": 1946,
+          "rate_dependency_states": 1945,
+          "connected_blocks": 15,
+          "largest_connected_block": 1903
+        }
+      ]
+    },
+    {
+      "time": 0.00011497569953977356,
+      "group_jacobian_inf_norm_min": 9.705605471318603e-15,
+      "group_jacobian_inf_norm_max": 2934341714.513939,
+      "diagnostic_seconds": 0.5075740409999998,
+      "classifications": [
+        {
+          "h": 1e-07,
+          "fast_groups": 18,
+          "total_groups": 2666,
+          "fast_directional_reactions": 36,
+          "updated_states": 41,
+          "rate_dependency_states": 41,
+          "connected_blocks": 5,
+          "largest_connected_block": 27
+        },
+        {
+          "h": 1e-05,
+          "fast_groups": 145,
+          "total_groups": 2666,
+          "fast_directional_reactions": 290,
+          "updated_states": 267,
+          "rate_dependency_states": 267,
+          "connected_blocks": 14,
+          "largest_connected_block": 202,
+          "full_largest_mode_magnitudes": [
+            172024335.3028028,
+            223738868.02865517,
+            2689318942.0528793
+          ],
+          "slow_largest_mode_magnitudes": [
+            76772.23806871446,
+            84618.684357346,
+            142770.78500751845
+          ],
+          "largest_mode_reduction": 18836.619424003708
+        },
+        {
+          "h": 0.001,
+          "fast_groups": 725,
+          "total_groups": 2666,
+          "fast_directional_reactions": 1439,
+          "updated_states": 999,
+          "rate_dependency_states": 994,
+          "connected_blocks": 21,
+          "largest_connected_block": 942
+        },
+        {
+          "h": 0.1,
+          "fast_groups": 1641,
+          "total_groups": 2666,
+          "fast_directional_reactions": 3239,
+          "updated_states": 1946,
+          "rate_dependency_states": 1945,
+          "connected_blocks": 15,
+          "largest_connected_block": 1903
+        }
+      ]
+    },
+    {
+      "time": 0.01,
+      "group_jacobian_inf_norm_min": 9.705605471318603e-15,
+      "group_jacobian_inf_norm_max": 2932878049.7084947,
+      "diagnostic_seconds": 0.46063549199999976,
+      "classifications": [
+        {
+          "h": 1e-07,
+          "fast_groups": 18,
+          "total_groups": 2666,
+          "fast_directional_reactions": 36,
+          "updated_states": 41,
+          "rate_dependency_states": 41,
+          "connected_blocks": 5,
+          "largest_connected_block": 27
+        },
+        {
+          "h": 1e-05,
+          "fast_groups": 145,
+          "total_groups": 2666,
+          "fast_directional_reactions": 290,
+          "updated_states": 267,
+          "rate_dependency_states": 267,
+          "connected_blocks": 14,
+          "largest_connected_block": 202,
+          "full_largest_mode_magnitudes": [
+            172136678.34363502,
+            223726684.2471772,
+            2670702473.2706304
+          ],
+          "slow_largest_mode_magnitudes": [
+            77152.86388664396,
+            84627.25672533875,
+            142755.6206297984
+          ],
+          "largest_mode_reduction": 18708.212408647927
+        },
+        {
+          "h": 0.001,
+          "fast_groups": 724,
+          "total_groups": 2666,
+          "fast_directional_reactions": 1437,
+          "updated_states": 998,
+          "rate_dependency_states": 993,
+          "connected_blocks": 21,
+          "largest_connected_block": 941
+        },
+        {
+          "h": 0.1,
+          "fast_groups": 1641,
+          "total_groups": 2666,
+          "fast_directional_reactions": 3239,
+          "updated_states": 1946,
+          "rate_dependency_states": 1945,
+          "connected_blocks": 15,
+          "largest_connected_block": 1903
+        }
+      ]
+    },
+    {
+      "time": 1.0,
+      "group_jacobian_inf_norm_min": 9.705605471318603e-15,
+      "group_jacobian_inf_norm_max": 2932853488.7954807,
+      "diagnostic_seconds": 0.47567777799999966,
+      "classifications": [
+        {
+          "h": 1e-07,
+          "fast_groups": 18,
+          "total_groups": 2666,
+          "fast_directional_reactions": 36,
+          "updated_states": 41,
+          "rate_dependency_states": 41,
+          "connected_blocks": 5,
+          "largest_connected_block": 27
+        },
+        {
+          "h": 1e-05,
+          "fast_groups": 145,
+          "total_groups": 2666,
+          "fast_directional_reactions": 290,
+          "updated_states": 267,
+          "rate_dependency_states": 267,
+          "connected_blocks": 14,
+          "largest_connected_block": 202,
+          "full_largest_mode_magnitudes": [
+            171904154.5246138,
+            223747605.53461012,
+            2708971548.476527
+          ],
+          "slow_largest_mode_magnitudes": [
+            76227.24100437238,
+            84636.43094792846,
+            143005.14913522563
+          ],
+          "largest_mode_reduction": 18943.174877674683
+        },
+        {
+          "h": 0.001,
+          "fast_groups": 725,
+          "total_groups": 2666,
+          "fast_directional_reactions": 1439,
+          "updated_states": 999,
+          "rate_dependency_states": 994,
+          "connected_blocks": 21,
+          "largest_connected_block": 942
+        },
+        {
+          "h": 0.1,
+          "fast_groups": 1641,
+          "total_groups": 2666,
+          "fast_directional_reactions": 3239,
+          "updated_states": 1946,
+          "rate_dependency_states": 1945,
+          "connected_blocks": 15,
+          "largest_connected_block": 1903
+        }
+      ]
+    }
+  ],
+  "interpretation": "Scaled Jacobian norm screening is conservative. At larger macro steps fast coverage can be broad; complete updated coordinates and all rate dependencies are retained. Not an eigenvalue proof or a speedup claim."
+}

@@ -20,6 +20,7 @@ def main():
                 content = response.read()
             if hashlib.sha256(content).hexdigest() != entry['sha256']:
                 raise ValueError(f"Upstream content changed: {entry['file']}; review before updating pin")
+            path.parent.mkdir(parents=True, exist_ok=True)
             path.write_bytes(content)
         if not path.exists() or hashlib.sha256(path.read_bytes()).hexdigest() != entry['sha256']:
             raise ValueError(f"Missing or changed artifact: {path}")

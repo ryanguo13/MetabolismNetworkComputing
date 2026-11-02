@@ -2,7 +2,7 @@
 
 面向刚性代谢动力学 ODE 的**自适应快—慢反应算子分裂**研究。
 
-**当前阶段：M1 模型与基线已启动。** 已取得两个公开 SBML 模型及 k-ecoli457 原始补充包，实现有限 SBML 语义适配器，并运行 BDF／Radau／CVODE 基线试验。M1 验收尚未全部完成；尚无分裂算法或算法加速结论。调研及实施记录日期：2026-11-01 至 2026-11-02（Asia/Shanghai）。
+**当前阶段：M1 已完成，M2 准入通过。** 两个 SBML 的公开执行结果已复现；k-ecoli457 的 3003 维原包方程、Octave 轨迹与同 RHS 稀疏基线已核验。13 项验收检查通过，M2 尚未实施；当前没有分裂算法加速结论。调研及实施记录日期：2026-11-01 至 2026-11-02（Asia/Shanghai）。
 
 ## 研究问题
 
@@ -21,6 +21,7 @@
 | [检索与证据记录](docs/research-log.md) | 检索范围、来源、全文阅读定位、未解决问题 |
 | [进度记录](docs/progress.md) | 本轮已完成项及明确未执行项 |
 | [M1 首轮实施报告](docs/m1-baseline-report.md) | 模型语义、参考解核验、基线结果与剩余验收项 |
+| [M1 验收与 M2 准入报告](docs/m1-completion-report.md) | 补齐证据、实际精度上限、规模基线、准入范围及复现命令 |
 | [BibTeX 文献库](references.bib) | 与综述编号对应的可引用条目 |
 
 ## 运行 M1
@@ -36,6 +37,12 @@ uv run python -m metabolism.benchmark
 
 下载器核对 [模型清单](models/manifest.json) 中的 SHA-256；已有文件也必须通过核验。两个 CC0 SBML 随仓库保存；k-ecoli457 原始 ZIP 留作本地缓存，可按清单重新下载。运行结果保存在 [results/m1](results/m1)，含参考轨迹、完整重复记录、语义审计、环境版本及工作量—精度图。完整基线需数分钟；重复次数下限为 7，短轨迹按所有方法相同的批大小计时。
 
-当前不支持任意 SBML：适配器对未支持的语义明确报错。Chassagnole 的显式时间规则用于完整系统基线，暂不纳入首版自治分裂。CVODE 使用 RoadRunner 编译 RHS 和默认稠密线性代数，图中与 SciPy 的差异包含软件实现成本。M2–M6 仍按验收门推进。
+首轮 CVODE 使用 RoadRunner 编译 RHS，不能从首轮图推断纯算法优势。已补齐的大模型比较使用相同 Python RHS／解析稀疏 Jacobian 的 BDF、Radau 与 CVODE-KLU；其结果及全部复现步骤见 [M1 验收报告](docs/m1-completion-report.md)。336 个正式计时批次全部运行成功，精度不达标的粗容差配置仍保留。
+
+```powershell
+uv run python -m metabolism.acceptance
+```
+
+该命令核验保存证据并输出 `M1: complete`、`M2_admission: pass`。M2 准入对象为合成正确性样例及 Teusink／k-ecoli457 自治模型；Chassagnole 含显式时间规则，只保留完整系统基线。大模型浓度／单向通量最严格档为 `10^-5`，原始净通量为 `10^-3`，小模型仍保留浓度及通量 `10^-7`。适配器对不支持的 SBML 语义明确报错。
 
 关键近期对照：Zeng、Xie、Wang 的 [2026 年 CLE 快—慢分裂预印本](https://arxiv.org/abs/2604.00140v1)。它研究随机系统；本项目首先研究确定性 ODE，不直接沿用其随机误差公式或性能结论。

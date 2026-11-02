@@ -1,0 +1,18 @@
+{
+  "python": "3.12.3",
+  "numpy": "1.26.4",
+  "scipy": "1.11.4",
+  "sundials": "6.4.1+dfsg1-3build4, double/int64",
+  "octave": "8.4.0",
+  "platform": "Linux-6.18.54.1-microsoft-standard-WSL2-x86_64-with-glibc2.39",
+  "processor": "x86_64",
+  "setup_seconds": 0.39016455400000893,
+  "threads": {
+    "OPENBLAS_NUM_THREADS": "1",
+    "OMP_NUM_THREADS": "1",
+    "MKL_NUM_THREADS": "1"
+  },
+  "timing": "Identical Python RHS and sparse analytic Jacobian; isolated fork worker for each run; 1 warmup + 7 interleaved runs; minimum trajectory duration >20ms",
+  "memory": "Isolated worker ru_maxrss includes inherited model/reference arrays, integration and postprocessing, not incremental solver-only memory",
+  "native_linear_cost": "SciPy LU/solve instrumented; CVODE linear algebra is included in total minus callbacks, not separately exposed as nlu"
+}

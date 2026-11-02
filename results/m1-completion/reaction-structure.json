@@ -1,0 +1,672 @@
+{
+  "model": "BIOMD0000000064",
+  "snapshots": [
+    {
+      "time": 0.0,
+      "kappa": {
+        "vGLK": 1516.0855125101825,
+        "vPGI": 416.2141866322358,
+        "vGLYCO": 0.0,
+        "vTreha": 0.0,
+        "vPFK": 472.2714853169034,
+        "vALD": 179.40981858666,
+        "vGAPDH": 358871.58758812596,
+        "vPGK": 1341994.8427989269,
+        "vPGM": 8600.287345582892,
+        "vENO": 1777.7749327154872,
+        "vPYK": 3038.9742933251687,
+        "vPDC": 1355.6444000239128,
+        "vSUC": 42.800000000000004,
+        "vGLT": 65.58037745506246,
+        "vADH": 14587.390674491497,
+        "vG3PDH": 77.00703945057802,
+        "vATP": 24.10430708225604
+      },
+      "classifications": [
+        {
+          "h": 1e-05,
+          "fast_reactions": [
+            "vGAPDH",
+            "vPGK"
+          ],
+          "updated_state_count": 6,
+          "rate_dependency_state_count": 6,
+          "connected_block_states": [
+            [
+              "TRIO",
+              "BPG",
+              "P3G",
+              "P",
+              "NAD",
+              "NADH"
+            ]
+          ],
+          "fast_spectral_radius": 1034374.3734022977,
+          "slow_spectral_radius": 9767.287054550783,
+          "full_spectral_radius": 1034374.5069317659,
+          "spectral_radius_reduction": 105.90192559660969,
+          "fast_max_real_eigenvalue": 2.160690234378863e-12,
+          "h_times_slow_spectral_radius": 0.09767287054550784,
+          "note": "Proxy screening and linearized local modes, not nonlinear stability or global error guarantees"
+        },
+        {
+          "h": 0.0001,
+          "fast_reactions": [
+            "vGAPDH",
+            "vPGK",
+            "vADH"
+          ],
+          "updated_state_count": 7,
+          "rate_dependency_state_count": 7,
+          "connected_block_states": [
+            [
+              "TRIO",
+              "BPG",
+              "P3G",
+              "ACE",
+              "P",
+              "NAD",
+              "NADH"
+            ]
+          ],
+          "fast_spectral_radius": 1034374.4133217593,
+          "slow_spectral_radius": 5433.179079724989,
+          "full_spectral_radius": 1034374.5069317659,
+          "spectral_radius_reduction": 190.38108108597865,
+          "fast_max_real_eigenvalue": 1.0012208344194145e-12,
+          "h_times_slow_spectral_radius": 0.5433179079724989,
+          "note": "Proxy screening and linearized local modes, not nonlinear stability or global error guarantees"
+        },
+        {
+          "h": 0.001,
+          "fast_reactions": [
+            "vGLK",
+            "vGAPDH",
+            "vPGK",
+            "vPGM",
+            "vENO",
+            "vPYK",
+            "vPDC",
+            "vADH"
+          ],
+          "updated_state_count": 12,
+          "rate_dependency_state_count": 12,
+          "connected_block_states": [
+            [
+              "GLCi",
+              "G6P",
+              "TRIO",
+              "BPG",
+              "P3G",
+              "P2G",
+              "PEP",
+              "PYR",
+              "ACE",
+              "P",
+              "NAD",
+              "NADH"
+            ]
+          ],
+          "fast_spectral_radius": 1034374.5047859161,
+          "slow_spectral_radius": 294.66389530398976,
+          "full_spectral_radius": 1034374.5069317659,
+          "spectral_radius_reduction": 3510.3537400286327,
+          "fast_max_real_eigenvalue": 2.870636254428454e-12,
+          "h_times_slow_spectral_radius": 0.2946638953039898,
+          "note": "Proxy screening and linearized local modes, not nonlinear stability or global error guarantees"
+        },
+        {
+          "h": 0.01,
+          "fast_reactions": [
+            "vGLK",
+            "vPGI",
+            "vPFK",
+            "vALD",
+            "vGAPDH",
+            "vPGK",
+            "vPGM",
+            "vENO",
+            "vPYK",
+            "vPDC",
+            "vADH"
+          ],
+          "updated_state_count": 14,
+          "rate_dependency_state_count": 14,
+          "connected_block_states": [
+            [
+              "GLCi",
+              "G6P",
+              "F6P",
+              "F16P",
+              "TRIO",
+              "BPG",
+              "P3G",
+              "P2G",
+              "PEP",
+              "PYR",
+              "ACE",
+              "P",
+              "NAD",
+              "NADH"
+            ]
+          ],
+          "fast_spectral_radius": 1034374.5046845012,
+          "slow_spectral_radius": 65.58037745506246,
+          "full_spectral_radius": 1034374.5069317659,
+          "spectral_radius_reduction": 15772.62204141092,
+          "fast_max_real_eigenvalue": 1.7921568441392818e-11,
+          "h_times_slow_spectral_radius": 0.6558037745506247,
+          "note": "Proxy screening and linearized local modes, not nonlinear stability or global error guarantees"
+        }
+      ],
+      "gradient_and_classification_seconds": 0.0022140000000945292
+    },
+    {
+      "time": 0.00010697657836811517,
+      "kappa": {
+        "vGLK": 1514.272852709827,
+        "vPGI": 419.09518187512026,
+        "vGLYCO": 0.0,
+        "vTreha": 0.0,
+        "vPFK": 477.9442680867656,
+        "vALD": 188.37500253931026,
+        "vGAPDH": 408520.1312771826,
+        "vPGK": 1897403.7791419623,
+        "vPGM": 8867.86046421323,
+        "vENO": 1878.063469665979,
+        "vPYK": 3023.403353780587,
+        "vPDC": 1358.5437206220518,
+        "vSUC": 42.800000000000004,
+        "vGLT": 65.50254422587942,
+        "vADH": 13713.274978438365,
+        "vG3PDH": 81.602126220511,
+        "vATP": 24.06070533122058
+      },
+      "classifications": [
+        {
+          "h": 1e-05,
+          "fast_reactions": [
+            "vGAPDH",
+            "vPGK"
+          ],
+          "updated_state_count": 6,
+          "rate_dependency_state_count": 6,
+          "connected_block_states": [
+            [
+              "TRIO",
+              "BPG",
+              "P3G",
+              "P",
+              "NAD",
+              "NADH"
+            ]
+          ],
+          "fast_spectral_radius": 874473.88625899,
+          "slow_spectral_radius": 10147.555254519742,
+          "full_spectral_radius": 874474.289500383,
+          "spectral_radius_reduction": 86.17585887111974,
+          "fast_max_real_eigenvalue": 3.5812820006437694e-13,
+          "h_times_slow_spectral_radius": 0.10147555254519744,
+          "note": "Proxy screening and linearized local modes, not nonlinear stability or global error guarantees"
+        },
+        {
+          "h": 0.0001,
+          "fast_reactions": [
+            "vGAPDH",
+            "vPGK",
+            "vADH"
+          ],
+          "updated_state_count": 7,
+          "rate_dependency_state_count": 7,
+          "connected_block_states": [
+            [
+              "TRIO",
+              "BPG",
+              "P3G",
+              "ACE",
+              "P",
+              "NAD",
+              "NADH"
+            ]
+          ],
+          "fast_spectral_radius": 874473.9756859861,
+          "slow_spectral_radius": 5690.548409029121,
+          "full_spectral_radius": 874474.289500383,
+          "spectral_radius_reduction": 153.67135584206008,
+          "fast_max_real_eigenvalue": 3.324561418903365e-12,
+          "h_times_slow_spectral_radius": 0.5690548409029121,
+          "note": "Proxy screening and linearized local modes, not nonlinear stability or global error guarantees"
+        },
+        {
+          "h": 0.001,
+          "fast_reactions": [
+            "vGLK",
+            "vGAPDH",
+            "vPGK",
+            "vPGM",
+            "vENO",
+            "vPYK",
+            "vPDC",
+            "vADH"
+          ],
+          "updated_state_count": 12,
+          "rate_dependency_state_count": 12,
+          "connected_block_states": [
+            [
+              "GLCi",
+              "G6P",
+              "TRIO",
+              "BPG",
+              "P3G",
+              "P2G",
+              "PEP",
+              "PYR",
+              "ACE",
+              "P",
+              "NAD",
+              "NADH"
+            ]
+          ],
+          "fast_spectral_radius": 874474.2871462167,
+          "slow_spectral_radius": 300.01827666947594,
+          "full_spectral_radius": 874474.289500383,
+          "spectral_radius_reduction": 2914.7367260687706,
+          "fast_max_real_eigenvalue": 3.5821561769893264e-11,
+          "h_times_slow_spectral_radius": 0.30001827666947595,
+          "note": "Proxy screening and linearized local modes, not nonlinear stability or global error guarantees"
+        },
+        {
+          "h": 0.01,
+          "fast_reactions": [
+            "vGLK",
+            "vPGI",
+            "vPFK",
+            "vALD",
+            "vGAPDH",
+            "vPGK",
+            "vPGM",
+            "vENO",
+            "vPYK",
+            "vPDC",
+            "vADH"
+          ],
+          "updated_state_count": 14,
+          "rate_dependency_state_count": 14,
+          "connected_block_states": [
+            [
+              "GLCi",
+              "G6P",
+              "F6P",
+              "F16P",
+              "TRIO",
+              "BPG",
+              "P3G",
+              "P2G",
+              "PEP",
+              "PYR",
+              "ACE",
+              "P",
+              "NAD",
+              "NADH"
+            ]
+          ],
+          "fast_spectral_radius": 874474.282733684,
+          "slow_spectral_radius": 65.50254422587942,
+          "full_spectral_radius": 874474.2895003837,
+          "spectral_radius_reduction": 13350.233946407343,
+          "fast_max_real_eigenvalue": 4.258540158730751e-13,
+          "h_times_slow_spectral_radius": 0.6550254422587942,
+          "note": "Proxy screening and linearized local modes, not nonlinear stability or global error guarantees"
+        }
+      ],
+      "gradient_and_classification_seconds": 0.001505599997472018
+    },
+    {
+      "time": 0.010595088837115579,
+      "kappa": {
+        "vGLK": 1558.052908805339,
+        "vPGI": 503.19252493578057,
+        "vGLYCO": 0.0,
+        "vTreha": 0.0,
+        "vPFK": 892.647393490006,
+        "vALD": 513.7741544413551,
+        "vGAPDH": 422571.5919775056,
+        "vPGK": 2278329.228128975,
+        "vPGM": 14161.139100364418,
+        "vENO": 3851.8027358643267,
+        "vPYK": 2996.7787877479573,
+        "vPDC": 1300.0685457861173,
+        "vSUC": 42.800000000000004,
+        "vGLT": 64.63478228063242,
+        "vADH": 13265.392850988628,
+        "vG3PDH": 30.03047557907215,
+        "vATP": 24.968794512485076
+      },
+      "classifications": [
+        {
+          "h": 1e-05,
+          "fast_reactions": [
+            "vGAPDH",
+            "vPGK"
+          ],
+          "updated_state_count": 6,
+          "rate_dependency_state_count": 6,
+          "connected_block_states": [
+            [
+              "TRIO",
+              "BPG",
+              "P3G",
+              "P",
+              "NAD",
+              "NADH"
+            ]
+          ],
+          "fast_spectral_radius": 1213889.7269730335,
+          "slow_spectral_radius": 12400.919333707072,
+          "full_spectral_radius": 1213890.3556355927,
+          "spectral_radius_reduction": 97.88712618556467,
+          "fast_max_real_eigenvalue": 0.0,
+          "h_times_slow_spectral_radius": 0.12400919333707074,
+          "note": "Proxy screening and linearized local modes, not nonlinear stability or global error guarantees"
+        },
+        {
+          "h": 0.0001,
+          "fast_reactions": [
+            "vGAPDH",
+            "vPGK",
+            "vPGM",
+            "vADH"
+          ],
+          "updated_state_count": 8,
+          "rate_dependency_state_count": 8,
+          "connected_block_states": [
+            [
+              "TRIO",
+              "BPG",
+              "P3G",
+              "P2G",
+              "ACE",
+              "P",
+              "NAD",
+              "NADH"
+            ]
+          ],
+          "fast_spectral_radius": 1213890.3455389705,
+          "slow_spectral_radius": 3446.2429123903567,
+          "full_spectral_radius": 1213890.3556355927,
+          "spectral_radius_reduction": 352.2358656934091,
+          "fast_max_real_eigenvalue": 9.21168021181618e-12,
+          "h_times_slow_spectral_radius": 0.3446242912390357,
+          "note": "Proxy screening and linearized local modes, not nonlinear stability or global error guarantees"
+        },
+        {
+          "h": 0.001,
+          "fast_reactions": [
+            "vGLK",
+            "vGAPDH",
+            "vPGK",
+            "vPGM",
+            "vENO",
+            "vPYK",
+            "vPDC",
+            "vADH"
+          ],
+          "updated_state_count": 12,
+          "rate_dependency_state_count": 12,
+          "connected_block_states": [
+            [
+              "GLCi",
+              "G6P",
+              "TRIO",
+              "BPG",
+              "P3G",
+              "P2G",
+              "PEP",
+              "PYR",
+              "ACE",
+              "P",
+              "NAD",
+              "NADH"
+            ]
+          ],
+          "fast_spectral_radius": 1213890.3568478024,
+          "slow_spectral_radius": 507.0467124097462,
+          "full_spectral_radius": 1213890.3556355927,
+          "spectral_radius_reduction": 2394.040481727143,
+          "fast_max_real_eigenvalue": 1.1264238264366685e-11,
+          "h_times_slow_spectral_radius": 0.5070467124097462,
+          "note": "Proxy screening and linearized local modes, not nonlinear stability or global error guarantees"
+        },
+        {
+          "h": 0.01,
+          "fast_reactions": [
+            "vGLK",
+            "vPGI",
+            "vPFK",
+            "vALD",
+            "vGAPDH",
+            "vPGK",
+            "vPGM",
+            "vENO",
+            "vPYK",
+            "vPDC",
+            "vADH"
+          ],
+          "updated_state_count": 14,
+          "rate_dependency_state_count": 14,
+          "connected_block_states": [
+            [
+              "GLCi",
+              "G6P",
+              "F6P",
+              "F16P",
+              "TRIO",
+              "BPG",
+              "P3G",
+              "P2G",
+              "PEP",
+              "PYR",
+              "ACE",
+              "P",
+              "NAD",
+              "NADH"
+            ]
+          ],
+          "fast_spectral_radius": 1213890.3510228752,
+          "slow_spectral_radius": 64.63478228063242,
+          "full_spectral_radius": 1213890.3556355927,
+          "spectral_radius_reduction": 18780.76033992197,
+          "fast_max_real_eigenvalue": 4.7238858207922836e-11,
+          "h_times_slow_spectral_radius": 0.6463478228063242,
+          "note": "Proxy screening and linearized local modes, not nonlinear stability or global error guarantees"
+        }
+      ],
+      "gradient_and_classification_seconds": 0.001467899994167965
+    },
+    {
+      "time": 10.0,
+      "kappa": {
+        "vGLK": 1535.7806280831953,
+        "vPGI": 940.3088520674493,
+        "vGLYCO": 0.0,
+        "vTreha": 0.0,
+        "vPFK": 1579.1991571862625,
+        "vALD": 1754.9212091873387,
+        "vGAPDH": 297855.14585127146,
+        "vPGK": 2287973.738138661,
+        "vPGM": 14921.019902257918,
+        "vENO": 4192.8788266508445,
+        "vPYK": 2656.1080115058517,
+        "vPDC": 360.7760735387633,
+        "vSUC": 42.800000000000004,
+        "vGLT": 64.48758910161185,
+        "vADH": 31348.903473279603,
+        "vG3PDH": 285.9950641002081,
+        "vATP": 24.100092204190037
+      },
+      "classifications": [
+        {
+          "h": 1e-05,
+          "fast_reactions": [
+            "vGAPDH",
+            "vPGK"
+          ],
+          "updated_state_count": 6,
+          "rate_dependency_state_count": 6,
+          "connected_block_states": [
+            [
+              "TRIO",
+              "BPG",
+              "P3G",
+              "P",
+              "NAD",
+              "NADH"
+            ]
+          ],
+          "fast_spectral_radius": 1213810.7260258044,
+          "slow_spectral_radius": 12125.750473572434,
+          "full_spectral_radius": 1213811.5570346476,
+          "spectral_radius_reduction": 100.10197386793494,
+          "fast_max_real_eigenvalue": 1.872095453214329e-28,
+          "h_times_slow_spectral_radius": 0.12125750473572436,
+          "note": "Proxy screening and linearized local modes, not nonlinear stability or global error guarantees"
+        },
+        {
+          "h": 0.0001,
+          "fast_reactions": [
+            "vGAPDH",
+            "vPGK",
+            "vPGM",
+            "vADH"
+          ],
+          "updated_state_count": 8,
+          "rate_dependency_state_count": 8,
+          "connected_block_states": [
+            [
+              "TRIO",
+              "BPG",
+              "P3G",
+              "P2G",
+              "ACE",
+              "P",
+              "NAD",
+              "NADH"
+            ]
+          ],
+          "fast_spectral_radius": 1213811.547576527,
+          "slow_spectral_radius": 3704.6858708885716,
+          "full_spectral_radius": 1213811.5570346476,
+          "spectral_radius_reduction": 327.6422345475445,
+          "fast_max_real_eigenvalue": 7.941002005433978e-12,
+          "h_times_slow_spectral_radius": 0.37046858708885716,
+          "note": "Proxy screening and linearized local modes, not nonlinear stability or global error guarantees"
+        },
+        {
+          "h": 0.001,
+          "fast_reactions": [
+            "vGLK",
+            "vPFK",
+            "vALD",
+            "vGAPDH",
+            "vPGK",
+            "vPGM",
+            "vENO",
+            "vPYK",
+            "vADH"
+          ],
+          "updated_state_count": 14,
+          "rate_dependency_state_count": 14,
+          "connected_block_states": [
+            [
+              "GLCi",
+              "G6P",
+              "F6P",
+              "F16P",
+              "TRIO",
+              "BPG",
+              "P3G",
+              "P2G",
+              "PEP",
+              "PYR",
+              "ACE",
+              "P",
+              "NAD",
+              "NADH"
+            ]
+          ],
+          "fast_spectral_radius": 1213811.5522828905,
+          "slow_spectral_radius": 576.0930829682218,
+          "full_spectral_radius": 1213811.5570346476,
+          "spectral_radius_reduction": 2106.9712394057738,
+          "fast_max_real_eigenvalue": 4.991912406093337e-13,
+          "h_times_slow_spectral_radius": 0.5760930829682218,
+          "note": "Proxy screening and linearized local modes, not nonlinear stability or global error guarantees"
+        },
+        {
+          "h": 0.01,
+          "fast_reactions": [
+            "vGLK",
+            "vPGI",
+            "vPFK",
+            "vALD",
+            "vGAPDH",
+            "vPGK",
+            "vPGM",
+            "vENO",
+            "vPYK",
+            "vPDC",
+            "vADH",
+            "vG3PDH"
+          ],
+          "updated_state_count": 14,
+          "rate_dependency_state_count": 14,
+          "connected_block_states": [
+            [
+              "GLCi",
+              "G6P",
+              "F6P",
+              "F16P",
+              "TRIO",
+              "BPG",
+              "P3G",
+              "P2G",
+              "PEP",
+              "PYR",
+              "ACE",
+              "P",
+              "NAD",
+              "NADH"
+            ]
+          ],
+          "fast_spectral_radius": 1213811.553016231,
+          "slow_spectral_radius": 64.48758910161186,
+          "full_spectral_radius": 1213811.5570346476,
+          "spectral_radius_reduction": 18822.405581360283,
+          "fast_max_real_eigenvalue": 9.102997088684266e-13,
+          "h_times_slow_spectral_radius": 0.6448758910161186,
+          "note": "Proxy screening and linearized local modes, not nonlinear stability or global error guarantees"
+        }
+      ],
+      "gradient_and_classification_seconds": 0.0017624000029172748
+    }
+  ],
+  "rhs_seconds_samples": [
+    3.276469999400433e-05,
+    2.852310000162106e-05,
+    2.6325099999667146e-05,
+    2.5591500001610258e-05,
+    2.625080000143498e-05,
+    2.6813899996341205e-05,
+    2.518279999640072e-05
+  ],
+  "full_Radau_restart_seconds_samples": [
+    0.002171799998905044,
+    0.002578600004198961,
+    0.001668900004005991,
+    0.0015839999978197739,
+    0.002059699996607378,
+    0.0016826999999466352,
+    0.0015548000010312535
+  ],
+  "decision": "Allow bounded M2 correctness experiments; local fast blocks exist only at small h. Do not infer net speedup; global blocks appear at h>=1e-3 min."
+}

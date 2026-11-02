@@ -28,5 +28,25 @@
     "download_date": "2026-11-02",
     "license": "Publisher supplementary software; no separate software license found inside archives. Retain attribution and verify redistribution terms before publication.",
     "citation_doi": "10.1038/ncomms13806"
+  },
+  {
+    "file": "evidence/BIOMD0000000051-curation.jpeg",
+    "model_id": "BIOMD0000000051",
+    "download_url": "https://www.ebi.ac.uk/biomodels/model/download/BIOMD0000000051?filename=curation_image.jpeg",
+    "source_page": "https://www.ebi.ac.uk/biomodels/model/files/BIOMD0000000051?format=json",
+    "sha256": "e7365ba6b98f268987c55be7f124eaba8138da323ce6b1a60119d4a8adba18b2",
+    "download_date": "2026-11-02",
+    "license": "BioModels original curation artifact; retained with repository provenance and citation",
+    "citation_doi": "10.1002/bit.10288"
+  },
+  {
+    "file": "evidence/BIOMD0000000051-curation-notes.txt",
+    "model_id": "BIOMD0000000051",
+    "download_url": "https://www.ebi.ac.uk/biomodels/model/download/BIOMD0000000051?filename=curation_notes.txt",
+    "source_page": "https://www.ebi.ac.uk/biomodels/model/files/BIOMD0000000051?format=json",
+    "sha256": "3e6d9a2717e57e2d5504431098001a1f8eaca28d2566675bdc31899ac566abf5",
+    "download_date": "2026-11-02",
+    "license": "BioModels original curation artifact; retained with repository provenance and citation",
+    "citation_doi": "10.1002/bit.10288"
   }
 ]

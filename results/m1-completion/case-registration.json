@@ -1,0 +1,107 @@
+{
+  "date": "2026-11-02 Asia/Shanghai",
+  "seed": 20261102,
+  "models": [
+    {
+      "id": "BIOMD0000000064",
+      "autonomous_split": true,
+      "window": [
+        0,
+        10
+      ],
+      "time_unit": "min",
+      "reference": "results/m1/BIOMD0000000064-reference.npz",
+      "concentration_and_flux_targets": [
+        0.001,
+        1e-05,
+        1e-07
+      ]
+    },
+    {
+      "id": "BIOMD0000000051",
+      "autonomous_split": false,
+      "window": [
+        0,
+        20
+      ],
+      "curation_window": [
+        0,
+        40
+      ],
+      "time_unit": "s",
+      "reason": "Seven explicit time-dependent cofactor rules; retained unchanged for full-system validation"
+    },
+    {
+      "id": "k-ecoli457",
+      "autonomous_split": true,
+      "window": [
+        0,
+        1
+      ],
+      "time_unit": "source coordinate",
+      "case": "Original aerobic glucose wrapper, ACALD 2x overexpression",
+      "reference": "results/m1-completion/kecoli-reference.npz",
+      "concentration_targets": [
+        0.001,
+        1e-05
+      ],
+      "elementary_flux_targets": [
+        0.001,
+        1e-05
+      ],
+      "net_flux_targets": [
+        0.01,
+        0.001
+      ],
+      "event_policy": "Fixed registered window; original steady-state and CPU-time stop conditions replaced for every solver, not chemical forcing events"
+    }
+  ],
+  "grid_policy": "Use saved reference times and species scales, plus the previously audited 2x dense small-model grid; no per-method output-grid or scaling adjustment",
+  "future_holdout": {
+    "status": "registered, not executed in M1",
+    "rng": "NumPy PCG64 seed 20261102",
+    "cases": 20,
+    "parameter_factors": "log-uniform [0.9,1.1], one common multiplier per complete forward/reverse group; preserve equilibrium ratios",
+    "initial_conditions": "nonnegative, keep registered invariant pools; no observation noise in ODE"
+  },
+  "frozen_large_baselines": [
+    {
+      "method": "BDF",
+      "rtol": 1e-08,
+      "median_seconds": 2.5289111989999924,
+      "concentration_target": 1e-05,
+      "elementary_flux_target": 1e-05,
+      "net_flux_target": 0.001,
+      "reference": "Frozen development configuration, not held-out validation"
+    },
+    {
+      "method": "Radau",
+      "rtol": 1e-08,
+      "median_seconds": 7.596513444999971,
+      "concentration_target": 1e-05,
+      "elementary_flux_target": 1e-05,
+      "net_flux_target": 0.001,
+      "reference": "Frozen development configuration, not held-out validation"
+    },
+    {
+      "method": "CVODE-KLU",
+      "rtol": 1e-08,
+      "median_seconds": 1.2301825659999963,
+      "concentration_target": 1e-05,
+      "elementary_flux_target": 1e-05,
+      "net_flux_target": 0.001,
+      "reference": "Frozen development configuration, not held-out validation"
+    }
+  ],
+  "allowed_M2_work": [
+    "B0 linear reversible chains and enzyme mechanism: Lie/Strang exact-flow checks",
+    "Fixed complete-reaction splitting without PE on admitted autonomous models",
+    "Measure restart and fast-block costs before any M3 efficiency claim"
+  ],
+  "excluded": [
+    "Chassagnole autonomous splitting",
+    "PE/QSSA",
+    "Claimed performance gains",
+    "93-metabolite core model not obtained"
+  ]
+}

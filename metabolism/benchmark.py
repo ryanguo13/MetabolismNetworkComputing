@@ -36,7 +36,7 @@ TOLERANCES = (1e-3, 1e-5, 1e-7, 1e-9)
 
 
 def write_json(path, value):
-    path.write_text(json.dumps(value, ensure_ascii=False, indent=2, allow_nan=False) + "\n", encoding="utf-8")
+    path.write_text(json.dumps(value, ensure_ascii=False, indent=2, allow_nan=False) + "\n", encoding="utf-8", newline="\n")
 
 
 def grid(end, density=1):

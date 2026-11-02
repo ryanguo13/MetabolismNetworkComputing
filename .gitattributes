@@ -1,0 +1,13 @@
+* text=auto
+*.sh text eol=lf
+models/*.xml -text
+models/*.zip -text
+models/evidence/** binary
+models/*.json text eol=lf
+results/m1-completion/*.json text eol=lf
+results/m1-completion/*.md text eol=lf
+results/m1-completion/*.txt text eol=lf
+*.npz -text
+*.mat -text
+*.png -text
+*.jpeg -text

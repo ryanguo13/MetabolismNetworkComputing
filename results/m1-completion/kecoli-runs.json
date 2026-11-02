@@ -1,0 +1,3026 @@
+[
+  {
+    "method": "Radau",
+    "rtol": 1e-09,
+    "model_id": "k-ecoli457",
+    "case_id": "aerobic_ACALD_2x",
+    "status": "success",
+    "failure_reason": null,
+    "integration_output_seconds": 11.841755255999999,
+    "concentration_error": {
+      "0.001": 3.627394203405386e-05,
+      "1e-05": 0.003627394203405386
+    },
+    "elementary_flux_error": {
+      "0.001": 3.6273942038071685e-05,
+      "1e-05": 0.0036273942038071686
+    },
+    "pool_drift": 2.1469945613028507e-11,
+    "min_raw_output": -1.4755849803767734e-23,
+    "significant_negative_output_count": 0,
+    "counts_and_costs": {
+      "rhs_seconds": 0.32282380600051397,
+      "jacobian_seconds": 0.017116801999890185,
+      "lu_factor_seconds": 10.170142906999843,
+      "linear_solve_seconds": 1.095499508000188,
+      "rhs_calls": 2640,
+      "nfev": 2640,
+      "njev": 25,
+      "nlu": 190,
+      "accepted_steps": 350,
+      "min_rhs_argument": -1.740478827997384e-21,
+      "min_accepted_state": -1.2275143742905125e-23,
+      "error_test_failures": null
+    },
+    "isolated_worker_peak_rss_bytes": 307183616,
+    "repeat": 0
+  },
+  {
+    "method": "BDF",
+    "rtol": 1e-09,
+    "model_id": "k-ecoli457",
+    "case_id": "aerobic_ACALD_2x",
+    "status": "success",
+    "failure_reason": null,
+    "integration_output_seconds": 3.470593827000016,
+    "concentration_error": {
+      "0.001": 0.00020344761368727493,
+      "1e-05": 0.02034476136872749
+    },
+    "elementary_flux_error": {
+      "0.001": 5.707187615731124e-05,
+      "1e-05": 0.005707187615731124
+    },
+    "pool_drift": 8.391223826897942e-11,
+    "min_raw_output": -4.546820163312199e-25,
+    "significant_negative_output_count": 0,
+    "counts_and_costs": {
+      "rhs_seconds": 0.15446288900022864,
+      "jacobian_seconds": 0.004275649999982534,
+      "lu_factor_seconds": 2.806699916000042,
+      "linear_solve_seconds": 0.39369703400035405,
+      "rhs_calls": 1191,
+      "nfev": 1191,
+      "njev": 5,
+      "nlu": 92,
+      "accepted_steps": 480,
+      "min_rhs_argument": -4.821191715900485e-23,
+      "min_accepted_state": -3.267642871467521e-25,
+      "error_test_failures": null
+    },
+    "isolated_worker_peak_rss_bytes": 309559296,
+    "repeat": 0
+  },
+  {
+    "method": "CVODE-KLU",
+    "rtol": 1e-06,
+    "model_id": "k-ecoli457",
+    "case_id": "aerobic_ACALD_2x",
+    "status": "success",
+    "failure_reason": null,
+    "integration_output_seconds": 0.8466763979999996,
+    "concentration_error": {
+      "0.001": 0.061350369596831225,
+      "1e-05": 6.135036959683122
+    },
+    "elementary_flux_error": {
+      "0.001": 0.02283706193540524,
+      "1e-05": 2.283706193540524
+    },
+    "pool_drift": 1.7101076631165224e-10,
+    "min_raw_output": 0.0,
+    "significant_negative_output_count": 0,
+    "counts_and_costs": {
+      "accepted_steps": 187,
+      "nfev": 206,
+      "njev": 4,
+      "linear_solver_setups": 30,
+      "error_test_failures": 0,
+      "nonlinear_iterations": 203,
+      "nonlinear_convergence_failures": 0,
+      "rhs_seconds": 0.027612601999834396,
+      "jacobian_seconds": 0.005085654000026807,
+      "min_rhs_argument": 0.0,
+      "observed_rhs_calls": 206,
+      "linear_solver": "SUNDIALS 6.4.1 KLU sparse CSC, default COLAMD ordering"
+    },
+    "isolated_worker_peak_rss_bytes": 303149056,
+    "repeat": 0
+  },
+  {
+    "method": "BDF",
+    "rtol": 0.0001,
+    "model_id": "k-ecoli457",
+    "case_id": "aerobic_ACALD_2x",
+    "status": "success",
+    "failure_reason": null,
+    "integration_output_seconds": 0.9081243200000131,
+    "concentration_error": {
+      "0.001": 4.646387986605473,
+      "1e-05": 464.63879866054725
+    },
+    "elementary_flux_error": {
+      "0.001": 1.4178037699667874,
+      "1e-05": 141.7803769966787
+    },
+    "pool_drift": 1.5689472117330627e-10,
+    "min_raw_output": -1.3817161830359276e-17,
+    "significant_negative_output_count": 0,
+    "counts_and_costs": {
+      "rhs_seconds": 0.019033777000259988,
+      "jacobian_seconds": 0.0011378749999835236,
+      "lu_factor_seconds": 0.8105455440000071,
+      "linear_solve_seconds": 0.053228996999934,
+      "rhs_calls": 137,
+      "nfev": 137,
+      "njev": 1,
+      "nlu": 22,
+      "accepted_steps": 67,
+      "min_rhs_argument": -1.1742387660244953e-16,
+      "min_accepted_state": -1.3768271071059954e-17,
+      "error_test_failures": null
+    },
+    "isolated_worker_peak_rss_bytes": 306839552,
+    "repeat": 0
+  },
+  {
+    "method": "CVODE-KLU",
+    "rtol": 0.0001,
+    "model_id": "k-ecoli457",
+    "case_id": "aerobic_ACALD_2x",
+    "status": "success",
+    "failure_reason": null,
+    "integration_output_seconds": 0.6755260580000026,
+    "concentration_error": {
+      "0.001": 2.273624133923305,
+      "1e-05": 227.36241339233047
+    },
+    "elementary_flux_error": {
+      "0.001": 1.9607017031873542,
+      "1e-05": 196.07017031873542
+    },
+    "pool_drift": 9.024031175086655e-11,
+    "min_raw_output": 0.0,
+    "significant_negative_output_count": 0,
+    "counts_and_costs": {
+      "accepted_steps": 93,
+      "nfev": 101,
+      "njev": 2,
+      "linear_solver_setups": 25,
+      "error_test_failures": 0,
+      "nonlinear_iterations": 98,
+      "nonlinear_convergence_failures": 0,
+      "rhs_seconds": 0.01593336600001294,
+      "jacobian_seconds": 0.0034246099999961643,
+      "min_rhs_argument": 0.0,
+      "observed_rhs_calls": 101,
+      "linear_solver": "SUNDIALS 6.4.1 KLU sparse CSC, default COLAMD ordering"
+    },
+    "isolated_worker_peak_rss_bytes": 303161344,
+    "repeat": 0
+  },
+  {
+    "method": "Radau",
+    "rtol": 0.0001,
+    "model_id": "k-ecoli457",
+    "case_id": "aerobic_ACALD_2x",
+    "status": "success",
+    "failure_reason": null,
+    "integration_output_seconds": 2.406552170000026,
+    "concentration_error": {
+      "0.001": 0.5468976070359598,
+      "1e-05": 54.68976070359598
+    },
+    "elementary_flux_error": {
+      "0.001": 0.5468976068158936,
+      "1e-05": 54.689760681589355
+    },
+    "pool_drift": 1.3662733444608222e-10,
+    "min_raw_output": -1.4673873786951504e-17,
+    "significant_negative_output_count": 0,
+    "counts_and_costs": {
+      "rhs_seconds": 0.02077703700007305,
+      "jacobian_seconds": 0.0017867999999907624,
+      "lu_factor_seconds": 2.286348080999801,
+      "linear_solve_seconds": 0.07131607700020481,
+      "rhs_calls": 159,
+      "nfev": 159,
+      "njev": 2,
+      "nlu": 38,
+      "accepted_steps": 22,
+      "min_rhs_argument": -2.828920767816483e-16,
+      "min_accepted_state": -1.46738737869515e-17,
+      "error_test_failures": null
+    },
+    "isolated_worker_peak_rss_bytes": 308240384,
+    "repeat": 0
+  },
+  {
+    "method": "CVODE-KLU",
+    "rtol": 1e-09,
+    "model_id": "k-ecoli457",
+    "case_id": "aerobic_ACALD_2x",
+    "status": "success",
+    "failure_reason": null,
+    "integration_output_seconds": 1.6152290349999987,
+    "concentration_error": {
+      "0.001": 0.00020330824099697056,
+      "1e-05": 0.020330824099697054
+    },
+    "elementary_flux_error": {
+      "0.001": 5.785716046885835e-05,
+      "1e-05": 0.005785716046885834
+    },
+    "pool_drift": 6.524024723231214e-11,
+    "min_raw_output": 0.0,
+    "significant_negative_output_count": 0,
+    "counts_and_costs": {
+      "accepted_steps": 510,
+      "nfev": 546,
+      "njev": 9,
+      "linear_solver_setups": 52,
+      "error_test_failures": 0,
+      "nonlinear_iterations": 543,
+      "nonlinear_convergence_failures": 0,
+      "rhs_seconds": 0.07652338199986275,
+      "jacobian_seconds": 0.009998332999970216,
+      "min_rhs_argument": 0.0,
+      "observed_rhs_calls": 546,
+      "linear_solver": "SUNDIALS 6.4.1 KLU sparse CSC, default COLAMD ordering"
+    },
+    "isolated_worker_peak_rss_bytes": 303230976,
+    "repeat": 0
+  },
+  {
+    "method": "Radau",
+    "rtol": 1e-08,
+    "model_id": "k-ecoli457",
+    "case_id": "aerobic_ACALD_2x",
+    "status": "success",
+    "failure_reason": null,
+    "integration_output_seconds": 7.5504324949999955,
+    "concentration_error": {
+      "0.001": 0.0009274931736988208,
+      "1e-05": 0.09274931736988208
+    },
+    "elementary_flux_error": {
+      "0.001": 0.0009274931735554365,
+      "1e-05": 0.09274931735554365
+    },
+    "pool_drift": 9.095504731326809e-11,
+    "min_raw_output": -4.0252102405396077e-22,
+    "significant_negative_output_count": 0,
+    "counts_and_costs": {
+      "rhs_seconds": 0.16722648299955267,
+      "jacobian_seconds": 0.009235858000039343,
+      "lu_factor_seconds": 6.7073165510000194,
+      "linear_solve_seconds": 0.5428659690000757,
+      "rhs_calls": 1441,
+      "nfev": 1441,
+      "njev": 14,
+      "nlu": 128,
+      "accepted_steps": 196,
+      "min_rhs_argument": -1.9937364142888527e-20,
+      "min_accepted_state": -4.097155142319221e-22,
+      "error_test_failures": null
+    },
+    "isolated_worker_peak_rss_bytes": 302424064,
+    "repeat": 0
+  },
+  {
+    "method": "CVODE-KLU",
+    "rtol": 1e-08,
+    "model_id": "k-ecoli457",
+    "case_id": "aerobic_ACALD_2x",
+    "status": "success",
+    "failure_reason": null,
+    "integration_output_seconds": 1.201058388000007,
+    "concentration_error": {
+      "0.001": 0.0010482241589282455,
+      "1e-05": 0.10482241589282454
+    },
+    "elementary_flux_error": {
+      "0.001": 0.00043428166539457983,
+      "1e-05": 0.04342816653945798
+    },
+    "pool_drift": 1.2106623169250152e-10,
+    "min_raw_output": 0.0,
+    "significant_negative_output_count": 0,
+    "counts_and_costs": {
+      "accepted_steps": 360,
+      "nfev": 389,
+      "njev": 6,
+      "linear_solver_setups": 40,
+      "error_test_failures": 0,
+      "nonlinear_iterations": 386,
+      "nonlinear_convergence_failures": 0,
+      "rhs_seconds": 0.0532326650002517,
+      "jacobian_seconds": 0.007314731999997548,
+      "min_rhs_argument": 0.0,
+      "observed_rhs_calls": 389,
+      "linear_solver": "SUNDIALS 6.4.1 KLU sparse CSC, default COLAMD ordering"
+    },
+    "isolated_worker_peak_rss_bytes": 303235072,
+    "repeat": 0
+  },
+  {
+    "method": "BDF",
+    "rtol": 1e-08,
+    "model_id": "k-ecoli457",
+    "case_id": "aerobic_ACALD_2x",
+    "status": "success",
+    "failure_reason": null,
+    "integration_output_seconds": 2.489809123000015,
+    "concentration_error": {
+      "0.001": 0.0009834768090201337,
+      "1e-05": 0.09834768090201335
+    },
+    "elementary_flux_error": {
+      "0.001": 0.000386911654793948,
+      "1e-05": 0.0386911654793948
+    },
+    "pool_drift": 6.67308309304504e-11,
+    "min_raw_output": -1.0968628535791767e-23,
+    "significant_negative_output_count": 0,
+    "counts_and_costs": {
+      "rhs_seconds": 0.10372682599970062,
+      "jacobian_seconds": 0.0011389160000021548,
+      "lu_factor_seconds": 2.018934584999954,
+      "linear_solve_seconds": 0.2848473070003763,
+      "rhs_calls": 848,
+      "nfev": 848,
+      "njev": 1,
+      "nlu": 65,
+      "accepted_steps": 341,
+      "min_rhs_argument": -2.2217745018818707e-22,
+      "min_accepted_state": -1.081728555257086e-23,
+      "error_test_failures": null
+    },
+    "isolated_worker_peak_rss_bytes": 310341632,
+    "repeat": 0
+  },
+  {
+    "method": "BDF",
+    "rtol": 1e-06,
+    "model_id": "k-ecoli457",
+    "case_id": "aerobic_ACALD_2x",
+    "status": "success",
+    "failure_reason": null,
+    "integration_output_seconds": 1.5326240949999885,
+    "concentration_error": {
+      "0.001": 0.09734299633253614,
+      "1e-05": 9.734299633253613
+    },
+    "elementary_flux_error": {
+      "0.001": 0.020867628291111818,
+      "1e-05": 2.0867628291111817
+    },
+    "pool_drift": 2.3357639607202163e-10,
+    "min_raw_output": -3.512837336021289e-20,
+    "significant_negative_output_count": 0,
+    "counts_and_costs": {
+      "rhs_seconds": 0.04633402099983641,
+      "jacobian_seconds": 0.0011786280000194438,
+      "lu_factor_seconds": 1.3135767059999637,
+      "linear_solve_seconds": 0.12779620799972236,
+      "rhs_calls": 364,
+      "nfev": 364,
+      "njev": 1,
+      "nlu": 39,
+      "accepted_steps": 161,
+      "min_rhs_argument": -6.48503871123457e-19,
+      "min_accepted_state": -3.50447240600259e-20,
+      "error_test_failures": null
+    },
+    "isolated_worker_peak_rss_bytes": 306454528,
+    "repeat": 0
+  },
+  {
+    "method": "Radau",
+    "rtol": 1e-06,
+    "model_id": "k-ecoli457",
+    "case_id": "aerobic_ACALD_2x",
+    "status": "success",
+    "failure_reason": null,
+    "integration_output_seconds": 4.928904738,
+    "concentration_error": {
+      "0.001": 0.023154931089514042,
+      "1e-05": 2.315493108951404
+    },
+    "elementary_flux_error": {
+      "0.001": 0.023154931088197134,
+      "1e-05": 2.3154931088197133
+    },
+    "pool_drift": 7.037810959009683e-11,
+    "min_raw_output": -1.226203297438825e-19,
+    "significant_negative_output_count": 0,
+    "counts_and_costs": {
+      "rhs_seconds": 0.05964825399993856,
+      "jacobian_seconds": 0.003853616999975884,
+      "lu_factor_seconds": 4.601159348000067,
+      "linear_solve_seconds": 0.20528065500002413,
+      "rhs_calls": 469,
+      "nfev": 469,
+      "njev": 5,
+      "nlu": 80,
+      "accepted_steps": 63,
+      "min_rhs_argument": -4.098339946643229e-18,
+      "min_accepted_state": -1.1885985088742271e-19,
+      "error_test_failures": null
+    },
+    "isolated_worker_peak_rss_bytes": 302510080,
+    "repeat": 0
+  },
+  {
+    "method": "BDF",
+    "rtol": 0.0001,
+    "model_id": "k-ecoli457",
+    "case_id": "aerobic_ACALD_2x",
+    "status": "success",
+    "failure_reason": null,
+    "integration_output_seconds": 0.8728917689999776,
+    "concentration_error": {
+      "0.001": 4.646387986605473,
+      "1e-05": 464.63879866054725
+    },
+    "elementary_flux_error": {
+      "0.001": 1.4178037699667874,
+      "1e-05": 141.7803769966787
+    },
+    "pool_drift": 1.5689472117330627e-10,
+    "min_raw_output": -1.3817161830359276e-17,
+    "significant_negative_output_count": 0,
+    "counts_and_costs": {
+      "rhs_seconds": 0.018774100999848997,
+      "jacobian_seconds": 0.0012020849999885286,
+      "lu_factor_seconds": 0.7790930529999684,
+      "linear_solve_seconds": 0.05012765599988711,
+      "rhs_calls": 137,
+      "nfev": 137,
+      "njev": 1,
+      "nlu": 22,
+      "accepted_steps": 67,
+      "min_rhs_argument": -1.1742387660244953e-16,
+      "min_accepted_state": -1.3768271071059954e-17,
+      "error_test_failures": null
+    },
+    "isolated_worker_peak_rss_bytes": 306888704,
+    "repeat": 1
+  },
+  {
+    "method": "CVODE-KLU",
+    "rtol": 0.0001,
+    "model_id": "k-ecoli457",
+    "case_id": "aerobic_ACALD_2x",
+    "status": "success",
+    "failure_reason": null,
+    "integration_output_seconds": 0.7120818249999843,
+    "concentration_error": {
+      "0.001": 2.273624133923305,
+      "1e-05": 227.36241339233047
+    },
+    "elementary_flux_error": {
+      "0.001": 1.9607017031873542,
+      "1e-05": 196.07017031873542
+    },
+    "pool_drift": 9.024031175086655e-11,
+    "min_raw_output": 0.0,
+    "significant_negative_output_count": 0,
+    "counts_and_costs": {
+      "accepted_steps": 93,
+      "nfev": 101,
+      "njev": 2,
+      "linear_solver_setups": 25,
+      "error_test_failures": 0,
+      "nonlinear_iterations": 98,
+      "nonlinear_convergence_failures": 0,
+      "rhs_seconds": 0.017317055999853892,
+      "jacobian_seconds": 0.0035628299999928004,
+      "min_rhs_argument": 0.0,
+      "observed_rhs_calls": 101,
+      "linear_solver": "SUNDIALS 6.4.1 KLU sparse CSC, default COLAMD ordering"
+    },
+    "isolated_worker_peak_rss_bytes": 303194112,
+    "repeat": 1
+  },
+  {
+    "method": "CVODE-KLU",
+    "rtol": 1e-08,
+    "model_id": "k-ecoli457",
+    "case_id": "aerobic_ACALD_2x",
+    "status": "success",
+    "failure_reason": null,
+    "integration_output_seconds": 1.2251340349999964,
+    "concentration_error": {
+      "0.001": 0.0010482241589282455,
+      "1e-05": 0.10482241589282454
+    },
+    "elementary_flux_error": {
+      "0.001": 0.00043428166539457983,
+      "1e-05": 0.04342816653945798
+    },
+    "pool_drift": 1.2106623169250152e-10,
+    "min_raw_output": 0.0,
+    "significant_negative_output_count": 0,
+    "counts_and_costs": {
+      "accepted_steps": 360,
+      "nfev": 389,
+      "njev": 6,
+      "linear_solver_setups": 40,
+      "error_test_failures": 0,
+      "nonlinear_iterations": 386,
+      "nonlinear_convergence_failures": 0,
+      "rhs_seconds": 0.055458059000415005,
+      "jacobian_seconds": 0.006899786999980506,
+      "min_rhs_argument": 0.0,
+      "observed_rhs_calls": 389,
+      "linear_solver": "SUNDIALS 6.4.1 KLU sparse CSC, default COLAMD ordering"
+    },
+    "isolated_worker_peak_rss_bytes": 303263744,
+    "repeat": 1
+  },
+  {
+    "method": "Radau",
+    "rtol": 1e-08,
+    "model_id": "k-ecoli457",
+    "case_id": "aerobic_ACALD_2x",
+    "status": "success",
+    "failure_reason": null,
+    "integration_output_seconds": 7.500466743000004,
+    "concentration_error": {
+      "0.001": 0.0009274931736988208,
+      "1e-05": 0.09274931736988208
+    },
+    "elementary_flux_error": {
+      "0.001": 0.0009274931735554365,
+      "1e-05": 0.09274931735554365
+    },
+    "pool_drift": 9.095504731326809e-11,
+    "min_raw_output": -4.0252102405396077e-22,
+    "significant_negative_output_count": 0,
+    "counts_and_costs": {
+      "rhs_seconds": 0.16650295100032508,
+      "jacobian_seconds": 0.009077079000093136,
+      "lu_factor_seconds": 6.656600947000186,
+      "linear_solve_seconds": 0.5462374970002486,
+      "rhs_calls": 1441,
+      "nfev": 1441,
+      "njev": 14,
+      "nlu": 128,
+      "accepted_steps": 196,
+      "min_rhs_argument": -1.9937364142888527e-20,
+      "min_accepted_state": -4.097155142319221e-22,
+      "error_test_failures": null
+    },
+    "isolated_worker_peak_rss_bytes": 302563328,
+    "repeat": 1
+  },
+  {
+    "method": "Radau",
+    "rtol": 0.0001,
+    "model_id": "k-ecoli457",
+    "case_id": "aerobic_ACALD_2x",
+    "status": "success",
+    "failure_reason": null,
+    "integration_output_seconds": 2.4009162449999906,
+    "concentration_error": {
+      "0.001": 0.5468976070359598,
+      "1e-05": 54.68976070359598
+    },
+    "elementary_flux_error": {
+      "0.001": 0.5468976068158936,
+      "1e-05": 54.689760681589355
+    },
+    "pool_drift": 1.3662733444608222e-10,
+    "min_raw_output": -1.4673873786951504e-17,
+    "significant_negative_output_count": 0,
+    "counts_and_costs": {
+      "rhs_seconds": 0.020414245000097253,
+      "jacobian_seconds": 0.0017543749999902047,
+      "lu_factor_seconds": 2.2818259469999305,
+      "linear_solve_seconds": 0.0711623270000814,
+      "rhs_calls": 159,
+      "nfev": 159,
+      "njev": 2,
+      "nlu": 38,
+      "accepted_steps": 22,
+      "min_rhs_argument": -2.828920767816483e-16,
+      "min_accepted_state": -1.46738737869515e-17,
+      "error_test_failures": null
+    },
+    "isolated_worker_peak_rss_bytes": 308297728,
+    "repeat": 1
+  },
+  {
+    "method": "Radau",
+    "rtol": 1e-09,
+    "model_id": "k-ecoli457",
+    "case_id": "aerobic_ACALD_2x",
+    "status": "success",
+    "failure_reason": null,
+    "integration_output_seconds": 11.246052410999994,
+    "concentration_error": {
+      "0.001": 3.627394203405386e-05,
+      "1e-05": 0.003627394203405386
+    },
+    "elementary_flux_error": {
+      "0.001": 3.6273942038071685e-05,
+      "1e-05": 0.0036273942038071686
+    },
+    "pool_drift": 2.1469945613028507e-11,
+    "min_raw_output": -1.4755849803767734e-23,
+    "significant_negative_output_count": 0,
+    "counts_and_costs": {
+      "rhs_seconds": 0.298876044999588,
+      "jacobian_seconds": 0.0161851309998724,
+      "lu_factor_seconds": 9.754913569000081,
+      "linear_solve_seconds": 0.9739393360004556,
+      "rhs_calls": 2640,
+      "nfev": 2640,
+      "njev": 25,
+      "nlu": 190,
+      "accepted_steps": 350,
+      "min_rhs_argument": -1.740478827997384e-21,
+      "min_accepted_state": -1.2275143742905125e-23,
+      "error_test_failures": null
+    },
+    "isolated_worker_peak_rss_bytes": 312823808,
+    "repeat": 1
+  },
+  {
+    "method": "CVODE-KLU",
+    "rtol": 1e-06,
+    "model_id": "k-ecoli457",
+    "case_id": "aerobic_ACALD_2x",
+    "status": "success",
+    "failure_reason": null,
+    "integration_output_seconds": 0.8502360349999947,
+    "concentration_error": {
+      "0.001": 0.061350369596831225,
+      "1e-05": 6.135036959683122
+    },
+    "elementary_flux_error": {
+      "0.001": 0.02283706193540524,
+      "1e-05": 2.283706193540524
+    },
+    "pool_drift": 1.7101076631165224e-10,
+    "min_raw_output": 0.0,
+    "significant_negative_output_count": 0,
+    "counts_and_costs": {
+      "accepted_steps": 187,
+      "nfev": 206,
+      "njev": 4,
+      "linear_solver_setups": 30,
+      "error_test_failures": 0,
+      "nonlinear_iterations": 203,
+      "nonlinear_convergence_failures": 0,
+      "rhs_seconds": 0.028278531000012208,
+      "jacobian_seconds": 0.0047879489999900215,
+      "min_rhs_argument": 0.0,
+      "observed_rhs_calls": 206,
+      "linear_solver": "SUNDIALS 6.4.1 KLU sparse CSC, default COLAMD ordering"
+    },
+    "isolated_worker_peak_rss_bytes": 303239168,
+    "repeat": 1
+  },
+  {
+    "method": "BDF",
+    "rtol": 1e-08,
+    "model_id": "k-ecoli457",
+    "case_id": "aerobic_ACALD_2x",
+    "status": "success",
+    "failure_reason": null,
+    "integration_output_seconds": 2.4893058410000037,
+    "concentration_error": {
+      "0.001": 0.0009834768090201337,
+      "1e-05": 0.09834768090201335
+    },
+    "elementary_flux_error": {
+      "0.001": 0.000386911654793948,
+      "1e-05": 0.0386911654793948
+    },
+    "pool_drift": 6.67308309304504e-11,
+    "min_raw_output": -1.0968628535791767e-23,
+    "significant_negative_output_count": 0,
+    "counts_and_costs": {
+      "rhs_seconds": 0.10392284399921436,
+      "jacobian_seconds": 0.0014493120000054205,
+      "lu_factor_seconds": 2.013762712000158,
+      "linear_solve_seconds": 0.2887899300004335,
+      "rhs_calls": 848,
+      "nfev": 848,
+      "njev": 1,
+      "nlu": 65,
+      "accepted_steps": 341,
+      "min_rhs_argument": -2.2217745018818707e-22,
+      "min_accepted_state": -1.081728555257086e-23,
+      "error_test_failures": null
+    },
+    "isolated_worker_peak_rss_bytes": 310403072,
+    "repeat": 1
+  },
+  {
+    "method": "BDF",
+    "rtol": 1e-06,
+    "model_id": "k-ecoli457",
+    "case_id": "aerobic_ACALD_2x",
+    "status": "success",
+    "failure_reason": null,
+    "integration_output_seconds": 1.5304305580000062,
+    "concentration_error": {
+      "0.001": 0.09734299633253614,
+      "1e-05": 9.734299633253613
+    },
+    "elementary_flux_error": {
+      "0.001": 0.020867628291111818,
+      "1e-05": 2.0867628291111817
+    },
+    "pool_drift": 2.3357639607202163e-10,
+    "min_raw_output": -3.512837336021289e-20,
+    "significant_negative_output_count": 0,
+    "counts_and_costs": {
+      "rhs_seconds": 0.048446977000082825,
+      "jacobian_seconds": 0.0012431109999795353,
+      "lu_factor_seconds": 1.3061035500000173,
+      "linear_solve_seconds": 0.13056041700011178,
+      "rhs_calls": 364,
+      "nfev": 364,
+      "njev": 1,
+      "nlu": 39,
+      "accepted_steps": 161,
+      "min_rhs_argument": -6.48503871123457e-19,
+      "min_accepted_state": -3.50447240600259e-20,
+      "error_test_failures": null
+    },
+    "isolated_worker_peak_rss_bytes": 306491392,
+    "repeat": 1
+  },
+  {
+    "method": "CVODE-KLU",
+    "rtol": 1e-09,
+    "model_id": "k-ecoli457",
+    "case_id": "aerobic_ACALD_2x",
+    "status": "success",
+    "failure_reason": null,
+    "integration_output_seconds": 1.639777371000008,
+    "concentration_error": {
+      "0.001": 0.00020330824099697056,
+      "1e-05": 0.020330824099697054
+    },
+    "elementary_flux_error": {
+      "0.001": 5.785716046885835e-05,
+      "1e-05": 0.005785716046885834
+    },
+    "pool_drift": 6.524024723231214e-11,
+    "min_raw_output": 0.0,
+    "significant_negative_output_count": 0,
+    "counts_and_costs": {
+      "accepted_steps": 510,
+      "nfev": 546,
+      "njev": 9,
+      "linear_solver_setups": 52,
+      "error_test_failures": 0,
+      "nonlinear_iterations": 543,
+      "nonlinear_convergence_failures": 0,
+      "rhs_seconds": 0.07920855400044502,
+      "jacobian_seconds": 0.010173481999999012,
+      "min_rhs_argument": 0.0,
+      "observed_rhs_calls": 546,
+      "linear_solver": "SUNDIALS 6.4.1 KLU sparse CSC, default COLAMD ordering"
+    },
+    "isolated_worker_peak_rss_bytes": 303124480,
+    "repeat": 1
+  },
+  {
+    "method": "Radau",
+    "rtol": 1e-06,
+    "model_id": "k-ecoli457",
+    "case_id": "aerobic_ACALD_2x",
+    "status": "success",
+    "failure_reason": null,
+    "integration_output_seconds": 4.781232356000004,
+    "concentration_error": {
+      "0.001": 0.023154931089514042,
+      "1e-05": 2.315493108951404
+    },
+    "elementary_flux_error": {
+      "0.001": 0.023154931088197134,
+      "1e-05": 2.3154931088197133
+    },
+    "pool_drift": 7.037810959009683e-11,
+    "min_raw_output": -1.226203297438825e-19,
+    "significant_negative_output_count": 0,
+    "counts_and_costs": {
+      "rhs_seconds": 0.0574845620002975,
+      "jacobian_seconds": 0.00356098600005339,
+      "lu_factor_seconds": 4.464714961999903,
+      "linear_solve_seconds": 0.19699168800048028,
+      "rhs_calls": 469,
+      "nfev": 469,
+      "njev": 5,
+      "nlu": 80,
+      "accepted_steps": 63,
+      "min_rhs_argument": -4.098339946643229e-18,
+      "min_accepted_state": -1.1885985088742271e-19,
+      "error_test_failures": null
+    },
+    "isolated_worker_peak_rss_bytes": 308207616,
+    "repeat": 1
+  },
+  {
+    "method": "BDF",
+    "rtol": 1e-09,
+    "model_id": "k-ecoli457",
+    "case_id": "aerobic_ACALD_2x",
+    "status": "success",
+    "failure_reason": null,
+    "integration_output_seconds": 3.4879026450000197,
+    "concentration_error": {
+      "0.001": 0.00020344761368727493,
+      "1e-05": 0.02034476136872749
+    },
+    "elementary_flux_error": {
+      "0.001": 5.707187615731124e-05,
+      "1e-05": 0.005707187615731124
+    },
+    "pool_drift": 8.391223826897942e-11,
+    "min_raw_output": -4.546820163312199e-25,
+    "significant_negative_output_count": 0,
+    "counts_and_costs": {
+      "rhs_seconds": 0.14753255699994838,
+      "jacobian_seconds": 0.0035811650000141526,
+      "lu_factor_seconds": 2.842232462000055,
+      "linear_solve_seconds": 0.3877312729993605,
+      "rhs_calls": 1191,
+      "nfev": 1191,
+      "njev": 5,
+      "nlu": 92,
+      "accepted_steps": 480,
+      "min_rhs_argument": -4.821191715900485e-23,
+      "min_accepted_state": -3.267642871467521e-25,
+      "error_test_failures": null
+    },
+    "isolated_worker_peak_rss_bytes": 309805056,
+    "repeat": 1
+  },
+  {
+    "method": "BDF",
+    "rtol": 0.0001,
+    "model_id": "k-ecoli457",
+    "case_id": "aerobic_ACALD_2x",
+    "status": "success",
+    "failure_reason": null,
+    "integration_output_seconds": 0.8746729400000106,
+    "concentration_error": {
+      "0.001": 4.646387986605473,
+      "1e-05": 464.63879866054725
+    },
+    "elementary_flux_error": {
+      "0.001": 1.4178037699667874,
+      "1e-05": 141.7803769966787
+    },
+    "pool_drift": 1.5689472117330627e-10,
+    "min_raw_output": -1.3817161830359276e-17,
+    "significant_negative_output_count": 0,
+    "counts_and_costs": {
+      "rhs_seconds": 0.018941282000014326,
+      "jacobian_seconds": 0.0011924730000032469,
+      "lu_factor_seconds": 0.7817971690000434,
+      "linear_solve_seconds": 0.05022369799979742,
+      "rhs_calls": 137,
+      "nfev": 137,
+      "njev": 1,
+      "nlu": 22,
+      "accepted_steps": 67,
+      "min_rhs_argument": -1.1742387660244953e-16,
+      "min_accepted_state": -1.3768271071059954e-17,
+      "error_test_failures": null
+    },
+    "isolated_worker_peak_rss_bytes": 306950144,
+    "repeat": 2
+  },
+  {
+    "method": "CVODE-KLU",
+    "rtol": 1e-09,
+    "model_id": "k-ecoli457",
+    "case_id": "aerobic_ACALD_2x",
+    "status": "success",
+    "failure_reason": null,
+    "integration_output_seconds": 1.7692328939999982,
+    "concentration_error": {
+      "0.001": 0.00020330824099697056,
+      "1e-05": 0.020330824099697054
+    },
+    "elementary_flux_error": {
+      "0.001": 5.785716046885835e-05,
+      "1e-05": 0.005785716046885834
+    },
+    "pool_drift": 6.524024723231214e-11,
+    "min_raw_output": 0.0,
+    "significant_negative_output_count": 0,
+    "counts_and_costs": {
+      "accepted_steps": 510,
+      "nfev": 546,
+      "njev": 9,
+      "linear_solver_setups": 52,
+      "error_test_failures": 0,
+      "nonlinear_iterations": 543,
+      "nonlinear_convergence_failures": 0,
+      "rhs_seconds": 0.08911650899975143,
+      "jacobian_seconds": 0.01037913199996865,
+      "min_rhs_argument": 0.0,
+      "observed_rhs_calls": 546,
+      "linear_solver": "SUNDIALS 6.4.1 KLU sparse CSC, default COLAMD ordering"
+    },
+    "isolated_worker_peak_rss_bytes": 303353856,
+    "repeat": 2
+  },
+  {
+    "method": "CVODE-KLU",
+    "rtol": 0.0001,
+    "model_id": "k-ecoli457",
+    "case_id": "aerobic_ACALD_2x",
+    "status": "success",
+    "failure_reason": null,
+    "integration_output_seconds": 0.7169008660000031,
+    "concentration_error": {
+      "0.001": 2.273624133923305,
+      "1e-05": 227.36241339233047
+    },
+    "elementary_flux_error": {
+      "0.001": 1.9607017031873542,
+      "1e-05": 196.07017031873542
+    },
+    "pool_drift": 9.024031175086655e-11,
+    "min_raw_output": 0.0,
+    "significant_negative_output_count": 0,
+    "counts_and_costs": {
+      "accepted_steps": 93,
+      "nfev": 101,
+      "njev": 2,
+      "linear_solver_setups": 25,
+      "error_test_failures": 0,
+      "nonlinear_iterations": 98,
+      "nonlinear_convergence_failures": 0,
+      "rhs_seconds": 0.01675924799988593,
+      "jacobian_seconds": 0.0034212879999984125,
+      "min_rhs_argument": 0.0,
+      "observed_rhs_calls": 101,
+      "linear_solver": "SUNDIALS 6.4.1 KLU sparse CSC, default COLAMD ordering"
+    },
+    "isolated_worker_peak_rss_bytes": 303263744,
+    "repeat": 2
+  },
+  {
+    "method": "BDF",
+    "rtol": 1e-06,
+    "model_id": "k-ecoli457",
+    "case_id": "aerobic_ACALD_2x",
+    "status": "success",
+    "failure_reason": null,
+    "integration_output_seconds": 1.5599537900000087,
+    "concentration_error": {
+      "0.001": 0.09734299633253614,
+      "1e-05": 9.734299633253613
+    },
+    "elementary_flux_error": {
+      "0.001": 0.020867628291111818,
+      "1e-05": 2.0867628291111817
+    },
+    "pool_drift": 2.3357639607202163e-10,
+    "min_raw_output": -3.512837336021289e-20,
+    "significant_negative_output_count": 0,
+    "counts_and_costs": {
+      "rhs_seconds": 0.04672687800024278,
+      "jacobian_seconds": 0.0012491670000258637,
+      "lu_factor_seconds": 1.3342885000000138,
+      "linear_solve_seconds": 0.13142007900000863,
+      "rhs_calls": 364,
+      "nfev": 364,
+      "njev": 1,
+      "nlu": 39,
+      "accepted_steps": 161,
+      "min_rhs_argument": -6.48503871123457e-19,
+      "min_accepted_state": -3.50447240600259e-20,
+      "error_test_failures": null
+    },
+    "isolated_worker_peak_rss_bytes": 306466816,
+    "repeat": 2
+  },
+  {
+    "method": "CVODE-KLU",
+    "rtol": 1e-08,
+    "model_id": "k-ecoli457",
+    "case_id": "aerobic_ACALD_2x",
+    "status": "success",
+    "failure_reason": null,
+    "integration_output_seconds": 1.2301825659999963,
+    "concentration_error": {
+      "0.001": 0.0010482241589282455,
+      "1e-05": 0.10482241589282454
+    },
+    "elementary_flux_error": {
+      "0.001": 0.00043428166539457983,
+      "1e-05": 0.04342816653945798
+    },
+    "pool_drift": 1.2106623169250152e-10,
+    "min_raw_output": 0.0,
+    "significant_negative_output_count": 0,
+    "counts_and_costs": {
+      "accepted_steps": 360,
+      "nfev": 389,
+      "njev": 6,
+      "linear_solver_setups": 40,
+      "error_test_failures": 0,
+      "nonlinear_iterations": 386,
+      "nonlinear_convergence_failures": 0,
+      "rhs_seconds": 0.05499299300058169,
+      "jacobian_seconds": 0.006824957999981507,
+      "min_rhs_argument": 0.0,
+      "observed_rhs_calls": 389,
+      "linear_solver": "SUNDIALS 6.4.1 KLU sparse CSC, default COLAMD ordering"
+    },
+    "isolated_worker_peak_rss_bytes": 303296512,
+    "repeat": 2
+  },
+  {
+    "method": "BDF",
+    "rtol": 1e-08,
+    "model_id": "k-ecoli457",
+    "case_id": "aerobic_ACALD_2x",
+    "status": "success",
+    "failure_reason": null,
+    "integration_output_seconds": 2.5289111989999924,
+    "concentration_error": {
+      "0.001": 0.0009834768090201337,
+      "1e-05": 0.09834768090201335
+    },
+    "elementary_flux_error": {
+      "0.001": 0.000386911654793948,
+      "1e-05": 0.0386911654793948
+    },
+    "pool_drift": 6.67308309304504e-11,
+    "min_raw_output": -1.0968628535791767e-23,
+    "significant_negative_output_count": 0,
+    "counts_and_costs": {
+      "rhs_seconds": 0.10809640800042075,
+      "jacobian_seconds": 0.0014190839999912441,
+      "lu_factor_seconds": 2.0434985590001133,
+      "linear_solve_seconds": 0.2917688690000091,
+      "rhs_calls": 848,
+      "nfev": 848,
+      "njev": 1,
+      "nlu": 65,
+      "accepted_steps": 341,
+      "min_rhs_argument": -2.2217745018818707e-22,
+      "min_accepted_state": -1.081728555257086e-23,
+      "error_test_failures": null
+    },
+    "isolated_worker_peak_rss_bytes": 310460416,
+    "repeat": 2
+  },
+  {
+    "method": "Radau",
+    "rtol": 0.0001,
+    "model_id": "k-ecoli457",
+    "case_id": "aerobic_ACALD_2x",
+    "status": "success",
+    "failure_reason": null,
+    "integration_output_seconds": 2.4179350009999894,
+    "concentration_error": {
+      "0.001": 0.5468976070359598,
+      "1e-05": 54.68976070359598
+    },
+    "elementary_flux_error": {
+      "0.001": 0.5468976068158936,
+      "1e-05": 54.689760681589355
+    },
+    "pool_drift": 1.3662733444608222e-10,
+    "min_raw_output": -1.4673873786951504e-17,
+    "significant_negative_output_count": 0,
+    "counts_and_costs": {
+      "rhs_seconds": 0.020646313000128202,
+      "jacobian_seconds": 0.0017953940000268176,
+      "lu_factor_seconds": 2.2980045930000017,
+      "linear_solve_seconds": 0.07142373400003521,
+      "rhs_calls": 159,
+      "nfev": 159,
+      "njev": 2,
+      "nlu": 38,
+      "accepted_steps": 22,
+      "min_rhs_argument": -2.828920767816483e-16,
+      "min_accepted_state": -1.46738737869515e-17,
+      "error_test_failures": null
+    },
+    "isolated_worker_peak_rss_bytes": 308338688,
+    "repeat": 2
+  },
+  {
+    "method": "BDF",
+    "rtol": 1e-09,
+    "model_id": "k-ecoli457",
+    "case_id": "aerobic_ACALD_2x",
+    "status": "success",
+    "failure_reason": null,
+    "integration_output_seconds": 3.480054843999966,
+    "concentration_error": {
+      "0.001": 0.00020344761368727493,
+      "1e-05": 0.02034476136872749
+    },
+    "elementary_flux_error": {
+      "0.001": 5.707187615731124e-05,
+      "1e-05": 0.005707187615731124
+    },
+    "pool_drift": 8.391223826897942e-11,
+    "min_raw_output": -4.546820163312199e-25,
+    "significant_negative_output_count": 0,
+    "counts_and_costs": {
+      "rhs_seconds": 0.14655729500017856,
+      "jacobian_seconds": 0.0036569560000145884,
+      "lu_factor_seconds": 2.820102628999962,
+      "linear_solve_seconds": 0.3995378659995765,
+      "rhs_calls": 1191,
+      "nfev": 1191,
+      "njev": 5,
+      "nlu": 92,
+      "accepted_steps": 480,
+      "min_rhs_argument": -4.821191715900485e-23,
+      "min_accepted_state": -3.267642871467521e-25,
+      "error_test_failures": null
+    },
+    "isolated_worker_peak_rss_bytes": 309858304,
+    "repeat": 2
+  },
+  {
+    "method": "Radau",
+    "rtol": 1e-09,
+    "model_id": "k-ecoli457",
+    "case_id": "aerobic_ACALD_2x",
+    "status": "success",
+    "failure_reason": null,
+    "integration_output_seconds": 11.27404349599999,
+    "concentration_error": {
+      "0.001": 3.627394203405386e-05,
+      "1e-05": 0.003627394203405386
+    },
+    "elementary_flux_error": {
+      "0.001": 3.6273942038071685e-05,
+      "1e-05": 0.0036273942038071686
+    },
+    "pool_drift": 2.1469945613028507e-11,
+    "min_raw_output": -1.4755849803767734e-23,
+    "significant_negative_output_count": 0,
+    "counts_and_costs": {
+      "rhs_seconds": 0.30065753799976846,
+      "jacobian_seconds": 0.015885888999775943,
+      "lu_factor_seconds": 9.76902150300009,
+      "linear_solve_seconds": 0.9849233859979449,
+      "rhs_calls": 2640,
+      "nfev": 2640,
+      "njev": 25,
+      "nlu": 190,
+      "accepted_steps": 350,
+      "min_rhs_argument": -1.740478827997384e-21,
+      "min_accepted_state": -1.2275143742905125e-23,
+      "error_test_failures": null
+    },
+    "isolated_worker_peak_rss_bytes": 307380224,
+    "repeat": 2
+  },
+  {
+    "method": "CVODE-KLU",
+    "rtol": 1e-06,
+    "model_id": "k-ecoli457",
+    "case_id": "aerobic_ACALD_2x",
+    "status": "success",
+    "failure_reason": null,
+    "integration_output_seconds": 0.8748160629999688,
+    "concentration_error": {
+      "0.001": 0.061350369596831225,
+      "1e-05": 6.135036959683122
+    },
+    "elementary_flux_error": {
+      "0.001": 0.02283706193540524,
+      "1e-05": 2.283706193540524
+    },
+    "pool_drift": 1.7101076631165224e-10,
+    "min_raw_output": 0.0,
+    "significant_negative_output_count": 0,
+    "counts_and_costs": {
+      "accepted_steps": 187,
+      "nfev": 206,
+      "njev": 4,
+      "linear_solver_setups": 30,
+      "error_test_failures": 0,
+      "nonlinear_iterations": 203,
+      "nonlinear_convergence_failures": 0,
+      "rhs_seconds": 0.030901224999695387,
+      "jacobian_seconds": 0.004915025000002515,
+      "min_rhs_argument": 0.0,
+      "observed_rhs_calls": 206,
+      "linear_solver": "SUNDIALS 6.4.1 KLU sparse CSC, default COLAMD ordering"
+    },
+    "isolated_worker_peak_rss_bytes": 303308800,
+    "repeat": 2
+  },
+  {
+    "method": "Radau",
+    "rtol": 1e-08,
+    "model_id": "k-ecoli457",
+    "case_id": "aerobic_ACALD_2x",
+    "status": "success",
+    "failure_reason": null,
+    "integration_output_seconds": 7.604560389000028,
+    "concentration_error": {
+      "0.001": 0.0009274931736988208,
+      "1e-05": 0.09274931736988208
+    },
+    "elementary_flux_error": {
+      "0.001": 0.0009274931735554365,
+      "1e-05": 0.09274931735554365
+    },
+    "pool_drift": 9.095504731326809e-11,
+    "min_raw_output": -4.0252102405396077e-22,
+    "significant_negative_output_count": 0,
+    "counts_and_costs": {
+      "rhs_seconds": 0.16988710900022852,
+      "jacobian_seconds": 0.009710281000081977,
+      "lu_factor_seconds": 6.738986005999948,
+      "linear_solve_seconds": 0.5604319509996003,
+      "rhs_calls": 1441,
+      "nfev": 1441,
+      "njev": 14,
+      "nlu": 128,
+      "accepted_steps": 196,
+      "min_rhs_argument": -1.9937364142888527e-20,
+      "min_accepted_state": -4.097155142319221e-22,
+      "error_test_failures": null
+    },
+    "isolated_worker_peak_rss_bytes": 302538752,
+    "repeat": 2
+  },
+  {
+    "method": "Radau",
+    "rtol": 1e-06,
+    "model_id": "k-ecoli457",
+    "case_id": "aerobic_ACALD_2x",
+    "status": "success",
+    "failure_reason": null,
+    "integration_output_seconds": 4.723188913000001,
+    "concentration_error": {
+      "0.001": 0.023154931089514042,
+      "1e-05": 2.315493108951404
+    },
+    "elementary_flux_error": {
+      "0.001": 0.023154931088197134,
+      "1e-05": 2.3154931088197133
+    },
+    "pool_drift": 7.037810959009683e-11,
+    "min_raw_output": -1.226203297438825e-19,
+    "significant_negative_output_count": 0,
+    "counts_and_costs": {
+      "rhs_seconds": 0.057661198999312546,
+      "jacobian_seconds": 0.0036330900000507427,
+      "lu_factor_seconds": 4.408764207000161,
+      "linear_solve_seconds": 0.19742951500035133,
+      "rhs_calls": 469,
+      "nfev": 469,
+      "njev": 5,
+      "nlu": 80,
+      "accepted_steps": 63,
+      "min_rhs_argument": -4.098339946643229e-18,
+      "min_accepted_state": -1.1885985088742271e-19,
+      "error_test_failures": null
+    },
+    "isolated_worker_peak_rss_bytes": 302784512,
+    "repeat": 2
+  },
+  {
+    "method": "CVODE-KLU",
+    "rtol": 1e-09,
+    "model_id": "k-ecoli457",
+    "case_id": "aerobic_ACALD_2x",
+    "status": "success",
+    "failure_reason": null,
+    "integration_output_seconds": 1.6458428259999778,
+    "concentration_error": {
+      "0.001": 0.00020330824099697056,
+      "1e-05": 0.020330824099697054
+    },
+    "elementary_flux_error": {
+      "0.001": 5.785716046885835e-05,
+      "1e-05": 0.005785716046885834
+    },
+    "pool_drift": 6.524024723231214e-11,
+    "min_raw_output": 0.0,
+    "significant_negative_output_count": 0,
+    "counts_and_costs": {
+      "accepted_steps": 510,
+      "nfev": 546,
+      "njev": 9,
+      "linear_solver_setups": 52,
+      "error_test_failures": 0,
+      "nonlinear_iterations": 543,
+      "nonlinear_convergence_failures": 0,
+      "rhs_seconds": 0.07923816900046177,
+      "jacobian_seconds": 0.00994760300005737,
+      "min_rhs_argument": 0.0,
+      "observed_rhs_calls": 546,
+      "linear_solver": "SUNDIALS 6.4.1 KLU sparse CSC, default COLAMD ordering"
+    },
+    "isolated_worker_peak_rss_bytes": 303386624,
+    "repeat": 3
+  },
+  {
+    "method": "Radau",
+    "rtol": 0.0001,
+    "model_id": "k-ecoli457",
+    "case_id": "aerobic_ACALD_2x",
+    "status": "success",
+    "failure_reason": null,
+    "integration_output_seconds": 2.4150758739999674,
+    "concentration_error": {
+      "0.001": 0.5468976070359598,
+      "1e-05": 54.68976070359598
+    },
+    "elementary_flux_error": {
+      "0.001": 0.5468976068158936,
+      "1e-05": 54.689760681589355
+    },
+    "pool_drift": 1.3662733444608222e-10,
+    "min_raw_output": -1.4673873786951504e-17,
+    "significant_negative_output_count": 0,
+    "counts_and_costs": {
+      "rhs_seconds": 0.02025621900003216,
+      "jacobian_seconds": 0.001736533000041618,
+      "lu_factor_seconds": 2.294766566000021,
+      "linear_solve_seconds": 0.0724220059994991,
+      "rhs_calls": 159,
+      "nfev": 159,
+      "njev": 2,
+      "nlu": 38,
+      "accepted_steps": 22,
+      "min_rhs_argument": -2.828920767816483e-16,
+      "min_accepted_state": -1.46738737869515e-17,
+      "error_test_failures": null
+    },
+    "isolated_worker_peak_rss_bytes": 308473856,
+    "repeat": 3
+  },
+  {
+    "method": "Radau",
+    "rtol": 1e-06,
+    "model_id": "k-ecoli457",
+    "case_id": "aerobic_ACALD_2x",
+    "status": "success",
+    "failure_reason": null,
+    "integration_output_seconds": 4.849678359999984,
+    "concentration_error": {
+      "0.001": 0.023154931089514042,
+      "1e-05": 2.315493108951404
+    },
+    "elementary_flux_error": {
+      "0.001": 0.023154931088197134,
+      "1e-05": 2.3154931088197133
+    },
+    "pool_drift": 7.037810959009683e-11,
+    "min_raw_output": -1.226203297438825e-19,
+    "significant_negative_output_count": 0,
+    "counts_and_costs": {
+      "rhs_seconds": 0.05838049999994155,
+      "jacobian_seconds": 0.004016669999998612,
+      "lu_factor_seconds": 4.522895049000624,
+      "linear_solve_seconds": 0.2051905050005871,
+      "rhs_calls": 469,
+      "nfev": 469,
+      "njev": 5,
+      "nlu": 80,
+      "accepted_steps": 63,
+      "min_rhs_argument": -4.098339946643229e-18,
+      "min_accepted_state": -1.1885985088742271e-19,
+      "error_test_failures": null
+    },
+    "isolated_worker_peak_rss_bytes": 308277248,
+    "repeat": 3
+  },
+  {
+    "method": "BDF",
+    "rtol": 1e-06,
+    "model_id": "k-ecoli457",
+    "case_id": "aerobic_ACALD_2x",
+    "status": "success",
+    "failure_reason": null,
+    "integration_output_seconds": 1.5943162099999881,
+    "concentration_error": {
+      "0.001": 0.09734299633253614,
+      "1e-05": 9.734299633253613
+    },
+    "elementary_flux_error": {
+      "0.001": 0.020867628291111818,
+      "1e-05": 2.0867628291111817
+    },
+    "pool_drift": 2.3357639607202163e-10,
+    "min_raw_output": -3.512837336021289e-20,
+    "significant_negative_output_count": 0,
+    "counts_and_costs": {
+      "rhs_seconds": 0.04953197800000453,
+      "jacobian_seconds": 0.0011642929999879925,
+      "lu_factor_seconds": 1.35744686299995,
+      "linear_solve_seconds": 0.1380267539997817,
+      "rhs_calls": 364,
+      "nfev": 364,
+      "njev": 1,
+      "nlu": 39,
+      "accepted_steps": 161,
+      "min_rhs_argument": -6.48503871123457e-19,
+      "min_accepted_state": -3.50447240600259e-20,
+      "error_test_failures": null
+    },
+    "isolated_worker_peak_rss_bytes": 306552832,
+    "repeat": 3
+  },
+  {
+    "method": "BDF",
+    "rtol": 1e-08,
+    "model_id": "k-ecoli457",
+    "case_id": "aerobic_ACALD_2x",
+    "status": "success",
+    "failure_reason": null,
+    "integration_output_seconds": 2.6041088979999927,
+    "concentration_error": {
+      "0.001": 0.0009834768090201337,
+      "1e-05": 0.09834768090201335
+    },
+    "elementary_flux_error": {
+      "0.001": 0.000386911654793948,
+      "1e-05": 0.0386911654793948
+    },
+    "pool_drift": 6.67308309304504e-11,
+    "min_raw_output": -1.0968628535791767e-23,
+    "significant_negative_output_count": 0,
+    "counts_and_costs": {
+      "rhs_seconds": 0.11045004099901234,
+      "jacobian_seconds": 0.0013360129999568926,
+      "lu_factor_seconds": 2.098889700000143,
+      "linear_solve_seconds": 0.30366290500001014,
+      "rhs_calls": 848,
+      "nfev": 848,
+      "njev": 1,
+      "nlu": 65,
+      "accepted_steps": 341,
+      "min_rhs_argument": -2.2217745018818707e-22,
+      "min_accepted_state": -1.081728555257086e-23,
+      "error_test_failures": null
+    },
+    "isolated_worker_peak_rss_bytes": 310489088,
+    "repeat": 3
+  },
+  {
+    "method": "Radau",
+    "rtol": 1e-09,
+    "model_id": "k-ecoli457",
+    "case_id": "aerobic_ACALD_2x",
+    "status": "success",
+    "failure_reason": null,
+    "integration_output_seconds": 11.891704662999985,
+    "concentration_error": {
+      "0.001": 3.627394203405386e-05,
+      "1e-05": 0.003627394203405386
+    },
+    "elementary_flux_error": {
+      "0.001": 3.6273942038071685e-05,
+      "1e-05": 0.0036273942038071686
+    },
+    "pool_drift": 2.1469945613028507e-11,
+    "min_raw_output": -1.4755849803767734e-23,
+    "significant_negative_output_count": 0,
+    "counts_and_costs": {
+      "rhs_seconds": 0.32200672899978144,
+      "jacobian_seconds": 0.017014870999901177,
+      "lu_factor_seconds": 10.24470465900032,
+      "linear_solve_seconds": 1.0761514129986836,
+      "rhs_calls": 2640,
+      "nfev": 2640,
+      "njev": 25,
+      "nlu": 190,
+      "accepted_steps": 350,
+      "min_rhs_argument": -1.740478827997384e-21,
+      "min_accepted_state": -1.2275143742905125e-23,
+      "error_test_failures": null
+    },
+    "isolated_worker_peak_rss_bytes": 312938496,
+    "repeat": 3
+  },
+  {
+    "method": "CVODE-KLU",
+    "rtol": 1e-08,
+    "model_id": "k-ecoli457",
+    "case_id": "aerobic_ACALD_2x",
+    "status": "success",
+    "failure_reason": null,
+    "integration_output_seconds": 1.2898771129999886,
+    "concentration_error": {
+      "0.001": 0.0010482241589282455,
+      "1e-05": 0.10482241589282454
+    },
+    "elementary_flux_error": {
+      "0.001": 0.00043428166539457983,
+      "1e-05": 0.04342816653945798
+    },
+    "pool_drift": 1.2106623169250152e-10,
+    "min_raw_output": 0.0,
+    "significant_negative_output_count": 0,
+    "counts_and_costs": {
+      "accepted_steps": 360,
+      "nfev": 389,
+      "njev": 6,
+      "linear_solver_setups": 40,
+      "error_test_failures": 0,
+      "nonlinear_iterations": 386,
+      "nonlinear_convergence_failures": 0,
+      "rhs_seconds": 0.059732216000611515,
+      "jacobian_seconds": 0.0074882789999719535,
+      "min_rhs_argument": 0.0,
+      "observed_rhs_calls": 389,
+      "linear_solver": "SUNDIALS 6.4.1 KLU sparse CSC, default COLAMD ordering"
+    },
+    "isolated_worker_peak_rss_bytes": 303218688,
+    "repeat": 3
+  },
+  {
+    "method": "BDF",
+    "rtol": 0.0001,
+    "model_id": "k-ecoli457",
+    "case_id": "aerobic_ACALD_2x",
+    "status": "success",
+    "failure_reason": null,
+    "integration_output_seconds": 0.9338639110000031,
+    "concentration_error": {
+      "0.001": 4.646387986605473,
+      "1e-05": 464.63879866054725
+    },
+    "elementary_flux_error": {
+      "0.001": 1.4178037699667874,
+      "1e-05": 141.7803769966787
+    },
+    "pool_drift": 1.5689472117330627e-10,
+    "min_raw_output": -1.3817161830359276e-17,
+    "significant_negative_output_count": 0,
+    "counts_and_costs": {
+      "rhs_seconds": 0.02026496900020902,
+      "jacobian_seconds": 0.0012019270000109827,
+      "lu_factor_seconds": 0.8323094490002632,
+      "linear_solve_seconds": 0.05415912000046319,
+      "rhs_calls": 137,
+      "nfev": 137,
+      "njev": 1,
+      "nlu": 22,
+      "accepted_steps": 67,
+      "min_rhs_argument": -1.1742387660244953e-16,
+      "min_accepted_state": -1.3768271071059954e-17,
+      "error_test_failures": null
+    },
+    "isolated_worker_peak_rss_bytes": 306995200,
+    "repeat": 3
+  },
+  {
+    "method": "BDF",
+    "rtol": 1e-09,
+    "model_id": "k-ecoli457",
+    "case_id": "aerobic_ACALD_2x",
+    "status": "success",
+    "failure_reason": null,
+    "integration_output_seconds": 3.719903133999992,
+    "concentration_error": {
+      "0.001": 0.00020344761368727493,
+      "1e-05": 0.02034476136872749
+    },
+    "elementary_flux_error": {
+      "0.001": 5.707187615731124e-05,
+      "1e-05": 0.005707187615731124
+    },
+    "pool_drift": 8.391223826897942e-11,
+    "min_raw_output": -4.546820163312199e-25,
+    "significant_negative_output_count": 0,
+    "counts_and_costs": {
+      "rhs_seconds": 0.16084611800079074,
+      "jacobian_seconds": 0.0038781230001063705,
+      "lu_factor_seconds": 3.001956743999756,
+      "linear_solve_seconds": 0.42548349800034657,
+      "rhs_calls": 1191,
+      "nfev": 1191,
+      "njev": 5,
+      "nlu": 92,
+      "accepted_steps": 480,
+      "min_rhs_argument": -4.821191715900485e-23,
+      "min_accepted_state": -3.267642871467521e-25,
+      "error_test_failures": null
+    },
+    "isolated_worker_peak_rss_bytes": 309956608,
+    "repeat": 3
+  },
+  {
+    "method": "CVODE-KLU",
+    "rtol": 0.0001,
+    "model_id": "k-ecoli457",
+    "case_id": "aerobic_ACALD_2x",
+    "status": "success",
+    "failure_reason": null,
+    "integration_output_seconds": 0.7110559559999956,
+    "concentration_error": {
+      "0.001": 2.273624133923305,
+      "1e-05": 227.36241339233047
+    },
+    "elementary_flux_error": {
+      "0.001": 1.9607017031873542,
+      "1e-05": 196.07017031873542
+    },
+    "pool_drift": 9.024031175086655e-11,
+    "min_raw_output": 0.0,
+    "significant_negative_output_count": 0,
+    "counts_and_costs": {
+      "accepted_steps": 93,
+      "nfev": 101,
+      "njev": 2,
+      "linear_solver_setups": 25,
+      "error_test_failures": 0,
+      "nonlinear_iterations": 98,
+      "nonlinear_convergence_failures": 0,
+      "rhs_seconds": 0.016952617999663744,
+      "jacobian_seconds": 0.003311841999959597,
+      "min_rhs_argument": 0.0,
+      "observed_rhs_calls": 101,
+      "linear_solver": "SUNDIALS 6.4.1 KLU sparse CSC, default COLAMD ordering"
+    },
+    "isolated_worker_peak_rss_bytes": 303194112,
+    "repeat": 3
+  },
+  {
+    "method": "CVODE-KLU",
+    "rtol": 1e-06,
+    "model_id": "k-ecoli457",
+    "case_id": "aerobic_ACALD_2x",
+    "status": "success",
+    "failure_reason": null,
+    "integration_output_seconds": 0.9469598600000495,
+    "concentration_error": {
+      "0.001": 0.061350369596831225,
+      "1e-05": 6.135036959683122
+    },
+    "elementary_flux_error": {
+      "0.001": 0.02283706193540524,
+      "1e-05": 2.283706193540524
+    },
+    "pool_drift": 1.7101076631165224e-10,
+    "min_raw_output": 0.0,
+    "significant_negative_output_count": 0,
+    "counts_and_costs": {
+      "accepted_steps": 187,
+      "nfev": 206,
+      "njev": 4,
+      "linear_solver_setups": 30,
+      "error_test_failures": 0,
+      "nonlinear_iterations": 203,
+      "nonlinear_convergence_failures": 0,
+      "rhs_seconds": 0.034373207999806255,
+      "jacobian_seconds": 0.006022515000040585,
+      "min_rhs_argument": 0.0,
+      "observed_rhs_calls": 206,
+      "linear_solver": "SUNDIALS 6.4.1 KLU sparse CSC, default COLAMD ordering"
+    },
+    "isolated_worker_peak_rss_bytes": 303366144,
+    "repeat": 3
+  },
+  {
+    "method": "Radau",
+    "rtol": 1e-08,
+    "model_id": "k-ecoli457",
+    "case_id": "aerobic_ACALD_2x",
+    "status": "success",
+    "failure_reason": null,
+    "integration_output_seconds": 7.966110609999987,
+    "concentration_error": {
+      "0.001": 0.0009274931736988208,
+      "1e-05": 0.09274931736988208
+    },
+    "elementary_flux_error": {
+      "0.001": 0.0009274931735554365,
+      "1e-05": 0.09274931735554365
+    },
+    "pool_drift": 9.095504731326809e-11,
+    "min_raw_output": -4.0252102405396077e-22,
+    "significant_negative_output_count": 0,
+    "counts_and_costs": {
+      "rhs_seconds": 0.1789421569999945,
+      "jacobian_seconds": 0.00948761399996556,
+      "lu_factor_seconds": 7.033622488000333,
+      "linear_solve_seconds": 0.6048535269997615,
+      "rhs_calls": 1441,
+      "nfev": 1441,
+      "njev": 14,
+      "nlu": 128,
+      "accepted_steps": 196,
+      "min_rhs_argument": -1.9937364142888527e-20,
+      "min_accepted_state": -4.097155142319221e-22,
+      "error_test_failures": null
+    },
+    "isolated_worker_peak_rss_bytes": 302608384,
+    "repeat": 3
+  },
+  {
+    "method": "Radau",
+    "rtol": 1e-06,
+    "model_id": "k-ecoli457",
+    "case_id": "aerobic_ACALD_2x",
+    "status": "success",
+    "failure_reason": null,
+    "integration_output_seconds": 4.9740968550000275,
+    "concentration_error": {
+      "0.001": 0.023154931089514042,
+      "1e-05": 2.315493108951404
+    },
+    "elementary_flux_error": {
+      "0.001": 0.023154931088197134,
+      "1e-05": 2.3154931088197133
+    },
+    "pool_drift": 7.037810959009683e-11,
+    "min_raw_output": -1.226203297438825e-19,
+    "significant_negative_output_count": 0,
+    "counts_and_costs": {
+      "rhs_seconds": 0.06053347100072415,
+      "jacobian_seconds": 0.004102546999945389,
+      "lu_factor_seconds": 4.637777934000155,
+      "linear_solve_seconds": 0.2101784769997721,
+      "rhs_calls": 469,
+      "nfev": 469,
+      "njev": 5,
+      "nlu": 80,
+      "accepted_steps": 63,
+      "min_rhs_argument": -4.098339946643229e-18,
+      "min_accepted_state": -1.1885985088742271e-19,
+      "error_test_failures": null
+    },
+    "isolated_worker_peak_rss_bytes": 302817280,
+    "repeat": 4
+  },
+  {
+    "method": "BDF",
+    "rtol": 1e-06,
+    "model_id": "k-ecoli457",
+    "case_id": "aerobic_ACALD_2x",
+    "status": "success",
+    "failure_reason": null,
+    "integration_output_seconds": 1.6614493609999954,
+    "concentration_error": {
+      "0.001": 0.09734299633253614,
+      "1e-05": 9.734299633253613
+    },
+    "elementary_flux_error": {
+      "0.001": 0.020867628291111818,
+      "1e-05": 2.0867628291111817
+    },
+    "pool_drift": 2.3357639607202163e-10,
+    "min_raw_output": -3.512837336021289e-20,
+    "significant_negative_output_count": 0,
+    "counts_and_costs": {
+      "rhs_seconds": 0.05243505199939591,
+      "jacobian_seconds": 0.0012019440000017312,
+      "lu_factor_seconds": 1.4112225670000385,
+      "linear_solve_seconds": 0.1445273069998052,
+      "rhs_calls": 364,
+      "nfev": 364,
+      "njev": 1,
+      "nlu": 39,
+      "accepted_steps": 161,
+      "min_rhs_argument": -6.48503871123457e-19,
+      "min_accepted_state": -3.50447240600259e-20,
+      "error_test_failures": null
+    },
+    "isolated_worker_peak_rss_bytes": 306720768,
+    "repeat": 4
+  },
+  {
+    "method": "BDF",
+    "rtol": 1e-09,
+    "model_id": "k-ecoli457",
+    "case_id": "aerobic_ACALD_2x",
+    "status": "success",
+    "failure_reason": null,
+    "integration_output_seconds": 3.698789223999995,
+    "concentration_error": {
+      "0.001": 0.00020344761368727493,
+      "1e-05": 0.02034476136872749
+    },
+    "elementary_flux_error": {
+      "0.001": 5.707187615731124e-05,
+      "1e-05": 0.005707187615731124
+    },
+    "pool_drift": 8.391223826897942e-11,
+    "min_raw_output": -4.546820163312199e-25,
+    "significant_negative_output_count": 0,
+    "counts_and_costs": {
+      "rhs_seconds": 0.15949722999914684,
+      "jacobian_seconds": 0.004640910000148324,
+      "lu_factor_seconds": 2.9830600740000364,
+      "linear_solve_seconds": 0.4276815520007631,
+      "rhs_calls": 1191,
+      "nfev": 1191,
+      "njev": 5,
+      "nlu": 92,
+      "accepted_steps": 480,
+      "min_rhs_argument": -4.821191715900485e-23,
+      "min_accepted_state": -3.267642871467521e-25,
+      "error_test_failures": null
+    },
+    "isolated_worker_peak_rss_bytes": 309940224,
+    "repeat": 4
+  },
+  {
+    "method": "Radau",
+    "rtol": 1e-09,
+    "model_id": "k-ecoli457",
+    "case_id": "aerobic_ACALD_2x",
+    "status": "success",
+    "failure_reason": null,
+    "integration_output_seconds": 11.60953235300002,
+    "concentration_error": {
+      "0.001": 3.627394203405386e-05,
+      "1e-05": 0.003627394203405386
+    },
+    "elementary_flux_error": {
+      "0.001": 3.6273942038071685e-05,
+      "1e-05": 0.0036273942038071686
+    },
+    "pool_drift": 2.1469945613028507e-11,
+    "min_raw_output": -1.4755849803767734e-23,
+    "significant_negative_output_count": 0,
+    "counts_and_costs": {
+      "rhs_seconds": 0.3179688979990942,
+      "jacobian_seconds": 0.01635383899997578,
+      "lu_factor_seconds": 10.055411812999864,
+      "linear_solve_seconds": 1.0029338319999965,
+      "rhs_calls": 2640,
+      "nfev": 2640,
+      "njev": 25,
+      "nlu": 190,
+      "accepted_steps": 350,
+      "min_rhs_argument": -1.740478827997384e-21,
+      "min_accepted_state": -1.2275143742905125e-23,
+      "error_test_failures": null
+    },
+    "isolated_worker_peak_rss_bytes": 307154944,
+    "repeat": 4
+  },
+  {
+    "method": "Radau",
+    "rtol": 1e-08,
+    "model_id": "k-ecoli457",
+    "case_id": "aerobic_ACALD_2x",
+    "status": "success",
+    "failure_reason": null,
+    "integration_output_seconds": 7.646755867999957,
+    "concentration_error": {
+      "0.001": 0.0009274931736988208,
+      "1e-05": 0.09274931736988208
+    },
+    "elementary_flux_error": {
+      "0.001": 0.0009274931735554365,
+      "1e-05": 0.09274931735554365
+    },
+    "pool_drift": 9.095504731326809e-11,
+    "min_raw_output": -4.0252102405396077e-22,
+    "significant_negative_output_count": 0,
+    "counts_and_costs": {
+      "rhs_seconds": 0.17045778299802805,
+      "jacobian_seconds": 0.009120220999932371,
+      "lu_factor_seconds": 6.762961080000025,
+      "linear_solve_seconds": 0.5740451549993963,
+      "rhs_calls": 1441,
+      "nfev": 1441,
+      "njev": 14,
+      "nlu": 128,
+      "accepted_steps": 196,
+      "min_rhs_argument": -1.9937364142888527e-20,
+      "min_accepted_state": -4.097155142319221e-22,
+      "error_test_failures": null
+    },
+    "isolated_worker_peak_rss_bytes": 302821376,
+    "repeat": 4
+  },
+  {
+    "method": "CVODE-KLU",
+    "rtol": 1e-09,
+    "model_id": "k-ecoli457",
+    "case_id": "aerobic_ACALD_2x",
+    "status": "success",
+    "failure_reason": null,
+    "integration_output_seconds": 1.6433643099999813,
+    "concentration_error": {
+      "0.001": 0.00020330824099697056,
+      "1e-05": 0.020330824099697054
+    },
+    "elementary_flux_error": {
+      "0.001": 5.785716046885835e-05,
+      "1e-05": 0.005785716046885834
+    },
+    "pool_drift": 6.524024723231214e-11,
+    "min_raw_output": 0.0,
+    "significant_negative_output_count": 0,
+    "counts_and_costs": {
+      "accepted_steps": 510,
+      "nfev": 546,
+      "njev": 9,
+      "linear_solver_setups": 52,
+      "error_test_failures": 0,
+      "nonlinear_iterations": 543,
+      "nonlinear_convergence_failures": 0,
+      "rhs_seconds": 0.07945064699930526,
+      "jacobian_seconds": 0.010012699000071734,
+      "min_rhs_argument": 0.0,
+      "observed_rhs_calls": 546,
+      "linear_solver": "SUNDIALS 6.4.1 KLU sparse CSC, default COLAMD ordering"
+    },
+    "isolated_worker_peak_rss_bytes": 303464448,
+    "repeat": 4
+  },
+  {
+    "method": "CVODE-KLU",
+    "rtol": 1e-08,
+    "model_id": "k-ecoli457",
+    "case_id": "aerobic_ACALD_2x",
+    "status": "success",
+    "failure_reason": null,
+    "integration_output_seconds": 1.2429809760000126,
+    "concentration_error": {
+      "0.001": 0.0010482241589282455,
+      "1e-05": 0.10482241589282454
+    },
+    "elementary_flux_error": {
+      "0.001": 0.00043428166539457983,
+      "1e-05": 0.04342816653945798
+    },
+    "pool_drift": 1.2106623169250152e-10,
+    "min_raw_output": 0.0,
+    "significant_negative_output_count": 0,
+    "counts_and_costs": {
+      "accepted_steps": 360,
+      "nfev": 389,
+      "njev": 6,
+      "linear_solver_setups": 40,
+      "error_test_failures": 0,
+      "nonlinear_iterations": 386,
+      "nonlinear_convergence_failures": 0,
+      "rhs_seconds": 0.05602094800019586,
+      "jacobian_seconds": 0.007321504999993067,
+      "min_rhs_argument": 0.0,
+      "observed_rhs_calls": 389,
+      "linear_solver": "SUNDIALS 6.4.1 KLU sparse CSC, default COLAMD ordering"
+    },
+    "isolated_worker_peak_rss_bytes": 303448064,
+    "repeat": 4
+  },
+  {
+    "method": "CVODE-KLU",
+    "rtol": 1e-06,
+    "model_id": "k-ecoli457",
+    "case_id": "aerobic_ACALD_2x",
+    "status": "success",
+    "failure_reason": null,
+    "integration_output_seconds": 0.9091731949999939,
+    "concentration_error": {
+      "0.001": 0.061350369596831225,
+      "1e-05": 6.135036959683122
+    },
+    "elementary_flux_error": {
+      "0.001": 0.02283706193540524,
+      "1e-05": 2.283706193540524
+    },
+    "pool_drift": 1.7101076631165224e-10,
+    "min_raw_output": 0.0,
+    "significant_negative_output_count": 0,
+    "counts_and_costs": {
+      "accepted_steps": 187,
+      "nfev": 206,
+      "njev": 4,
+      "linear_solver_setups": 30,
+      "error_test_failures": 0,
+      "nonlinear_iterations": 203,
+      "nonlinear_convergence_failures": 0,
+      "rhs_seconds": 0.032838336999418516,
+      "jacobian_seconds": 0.005229403000043931,
+      "min_rhs_argument": 0.0,
+      "observed_rhs_calls": 206,
+      "linear_solver": "SUNDIALS 6.4.1 KLU sparse CSC, default COLAMD ordering"
+    },
+    "isolated_worker_peak_rss_bytes": 303448064,
+    "repeat": 4
+  },
+  {
+    "method": "CVODE-KLU",
+    "rtol": 0.0001,
+    "model_id": "k-ecoli457",
+    "case_id": "aerobic_ACALD_2x",
+    "status": "success",
+    "failure_reason": null,
+    "integration_output_seconds": 0.7130478650000214,
+    "concentration_error": {
+      "0.001": 2.273624133923305,
+      "1e-05": 227.36241339233047
+    },
+    "elementary_flux_error": {
+      "0.001": 1.9607017031873542,
+      "1e-05": 196.07017031873542
+    },
+    "pool_drift": 9.024031175086655e-11,
+    "min_raw_output": 0.0,
+    "significant_negative_output_count": 0,
+    "counts_and_costs": {
+      "accepted_steps": 93,
+      "nfev": 101,
+      "njev": 2,
+      "linear_solver_setups": 25,
+      "error_test_failures": 0,
+      "nonlinear_iterations": 98,
+      "nonlinear_convergence_failures": 0,
+      "rhs_seconds": 0.018429451999736557,
+      "jacobian_seconds": 0.003977789000032317,
+      "min_rhs_argument": 0.0,
+      "observed_rhs_calls": 101,
+      "linear_solver": "SUNDIALS 6.4.1 KLU sparse CSC, default COLAMD ordering"
+    },
+    "isolated_worker_peak_rss_bytes": 303443968,
+    "repeat": 4
+  },
+  {
+    "method": "Radau",
+    "rtol": 0.0001,
+    "model_id": "k-ecoli457",
+    "case_id": "aerobic_ACALD_2x",
+    "status": "success",
+    "failure_reason": null,
+    "integration_output_seconds": 2.42925797700002,
+    "concentration_error": {
+      "0.001": 0.5468976070359598,
+      "1e-05": 54.68976070359598
+    },
+    "elementary_flux_error": {
+      "0.001": 0.5468976068158936,
+      "1e-05": 54.689760681589355
+    },
+    "pool_drift": 1.3662733444608222e-10,
+    "min_raw_output": -1.4673873786951504e-17,
+    "significant_negative_output_count": 0,
+    "counts_and_costs": {
+      "rhs_seconds": 0.02053118599968684,
+      "jacobian_seconds": 0.0019218579999460417,
+      "lu_factor_seconds": 2.3057179390001465,
+      "linear_solve_seconds": 0.07499751900002138,
+      "rhs_calls": 159,
+      "nfev": 159,
+      "njev": 2,
+      "nlu": 38,
+      "accepted_steps": 22,
+      "min_rhs_argument": -2.828920767816483e-16,
+      "min_accepted_state": -1.46738737869515e-17,
+      "error_test_failures": null
+    },
+    "isolated_worker_peak_rss_bytes": 308621312,
+    "repeat": 4
+  },
+  {
+    "method": "BDF",
+    "rtol": 0.0001,
+    "model_id": "k-ecoli457",
+    "case_id": "aerobic_ACALD_2x",
+    "status": "success",
+    "failure_reason": null,
+    "integration_output_seconds": 0.8804297640000414,
+    "concentration_error": {
+      "0.001": 4.646387986605473,
+      "1e-05": 464.63879866054725
+    },
+    "elementary_flux_error": {
+      "0.001": 1.4178037699667874,
+      "1e-05": 141.7803769966787
+    },
+    "pool_drift": 1.5689472117330627e-10,
+    "min_raw_output": -1.3817161830359276e-17,
+    "significant_negative_output_count": 0,
+    "counts_and_costs": {
+      "rhs_seconds": 0.019596920999731537,
+      "jacobian_seconds": 0.001129654000010305,
+      "lu_factor_seconds": 0.7836803770001666,
+      "linear_solve_seconds": 0.053166064000208735,
+      "rhs_calls": 137,
+      "nfev": 137,
+      "njev": 1,
+      "nlu": 22,
+      "accepted_steps": 67,
+      "min_rhs_argument": -1.1742387660244953e-16,
+      "min_accepted_state": -1.3768271071059954e-17,
+      "error_test_failures": null
+    },
+    "isolated_worker_peak_rss_bytes": 307232768,
+    "repeat": 4
+  },
+  {
+    "method": "BDF",
+    "rtol": 1e-08,
+    "model_id": "k-ecoli457",
+    "case_id": "aerobic_ACALD_2x",
+    "status": "success",
+    "failure_reason": null,
+    "integration_output_seconds": 2.5671428270000547,
+    "concentration_error": {
+      "0.001": 0.0009834768090201337,
+      "1e-05": 0.09834768090201335
+    },
+    "elementary_flux_error": {
+      "0.001": 0.000386911654793948,
+      "1e-05": 0.0386911654793948
+    },
+    "pool_drift": 6.67308309304504e-11,
+    "min_raw_output": -1.0968628535791767e-23,
+    "significant_negative_output_count": 0,
+    "counts_and_costs": {
+      "rhs_seconds": 0.11099955199995293,
+      "jacobian_seconds": 0.00127503699997078,
+      "lu_factor_seconds": 2.0634103340002525,
+      "linear_solve_seconds": 0.30284438099914723,
+      "rhs_calls": 848,
+      "nfev": 848,
+      "njev": 1,
+      "nlu": 65,
+      "accepted_steps": 341,
+      "min_rhs_argument": -2.2217745018818707e-22,
+      "min_accepted_state": -1.081728555257086e-23,
+      "error_test_failures": null
+    },
+    "isolated_worker_peak_rss_bytes": 310693888,
+    "repeat": 4
+  },
+  {
+    "method": "BDF",
+    "rtol": 1e-06,
+    "model_id": "k-ecoli457",
+    "case_id": "aerobic_ACALD_2x",
+    "status": "success",
+    "failure_reason": null,
+    "integration_output_seconds": 1.5529644709999957,
+    "concentration_error": {
+      "0.001": 0.09734299633253614,
+      "1e-05": 9.734299633253613
+    },
+    "elementary_flux_error": {
+      "0.001": 0.020867628291111818,
+      "1e-05": 2.0867628291111817
+    },
+    "pool_drift": 2.3357639607202163e-10,
+    "min_raw_output": -3.512837336021289e-20,
+    "significant_negative_output_count": 0,
+    "counts_and_costs": {
+      "rhs_seconds": 0.04700636900037125,
+      "jacobian_seconds": 0.001122517999988304,
+      "lu_factor_seconds": 1.324290676999965,
+      "linear_solve_seconds": 0.135030476000793,
+      "rhs_calls": 364,
+      "nfev": 364,
+      "njev": 1,
+      "nlu": 39,
+      "accepted_steps": 161,
+      "min_rhs_argument": -6.48503871123457e-19,
+      "min_accepted_state": -3.50447240600259e-20,
+      "error_test_failures": null
+    },
+    "isolated_worker_peak_rss_bytes": 306806784,
+    "repeat": 5
+  },
+  {
+    "method": "Radau",
+    "rtol": 1e-09,
+    "model_id": "k-ecoli457",
+    "case_id": "aerobic_ACALD_2x",
+    "status": "success",
+    "failure_reason": null,
+    "integration_output_seconds": 11.504746761000035,
+    "concentration_error": {
+      "0.001": 3.627394203405386e-05,
+      "1e-05": 0.003627394203405386
+    },
+    "elementary_flux_error": {
+      "0.001": 3.6273942038071685e-05,
+      "1e-05": 0.0036273942038071686
+    },
+    "pool_drift": 2.1469945613028507e-11,
+    "min_raw_output": -1.4755849803767734e-23,
+    "significant_negative_output_count": 0,
+    "counts_and_costs": {
+      "rhs_seconds": 0.30641316800102913,
+      "jacobian_seconds": 0.01641380900008471,
+      "lu_factor_seconds": 9.925895784999966,
+      "linear_solve_seconds": 1.0382313349999208,
+      "rhs_calls": 2640,
+      "nfev": 2640,
+      "njev": 25,
+      "nlu": 190,
+      "accepted_steps": 350,
+      "min_rhs_argument": -1.740478827997384e-21,
+      "min_accepted_state": -1.2275143742905125e-23,
+      "error_test_failures": null
+    },
+    "isolated_worker_peak_rss_bytes": 313110528,
+    "repeat": 5
+  },
+  {
+    "method": "Radau",
+    "rtol": 1e-08,
+    "model_id": "k-ecoli457",
+    "case_id": "aerobic_ACALD_2x",
+    "status": "success",
+    "failure_reason": null,
+    "integration_output_seconds": 7.596513444999971,
+    "concentration_error": {
+      "0.001": 0.0009274931736988208,
+      "1e-05": 0.09274931736988208
+    },
+    "elementary_flux_error": {
+      "0.001": 0.0009274931735554365,
+      "1e-05": 0.09274931735554365
+    },
+    "pool_drift": 9.095504731326809e-11,
+    "min_raw_output": -4.0252102405396077e-22,
+    "significant_negative_output_count": 0,
+    "counts_and_costs": {
+      "rhs_seconds": 0.16874194900009343,
+      "jacobian_seconds": 0.008982298000205446,
+      "lu_factor_seconds": 6.724729183000079,
+      "linear_solve_seconds": 0.5653919930002189,
+      "rhs_calls": 1441,
+      "nfev": 1441,
+      "njev": 14,
+      "nlu": 128,
+      "accepted_steps": 196,
+      "min_rhs_argument": -1.9937364142888527e-20,
+      "min_accepted_state": -4.097155142319221e-22,
+      "error_test_failures": null
+    },
+    "isolated_worker_peak_rss_bytes": 302895104,
+    "repeat": 5
+  },
+  {
+    "method": "BDF",
+    "rtol": 1e-09,
+    "model_id": "k-ecoli457",
+    "case_id": "aerobic_ACALD_2x",
+    "status": "success",
+    "failure_reason": null,
+    "integration_output_seconds": 3.5124548829999753,
+    "concentration_error": {
+      "0.001": 0.00020344761368727493,
+      "1e-05": 0.02034476136872749
+    },
+    "elementary_flux_error": {
+      "0.001": 5.707187615731124e-05,
+      "1e-05": 0.005707187615731124
+    },
+    "pool_drift": 8.391223826897942e-11,
+    "min_raw_output": -4.546820163312199e-25,
+    "significant_negative_output_count": 0,
+    "counts_and_costs": {
+      "rhs_seconds": 0.14832105599936085,
+      "jacobian_seconds": 0.003898450000065168,
+      "lu_factor_seconds": 2.8428171419999444,
+      "linear_solve_seconds": 0.40360576000028914,
+      "rhs_calls": 1191,
+      "nfev": 1191,
+      "njev": 5,
+      "nlu": 92,
+      "accepted_steps": 480,
+      "min_rhs_argument": -4.821191715900485e-23,
+      "min_accepted_state": -3.267642871467521e-25,
+      "error_test_failures": null
+    },
+    "isolated_worker_peak_rss_bytes": 310112256,
+    "repeat": 5
+  },
+  {
+    "method": "BDF",
+    "rtol": 0.0001,
+    "model_id": "k-ecoli457",
+    "case_id": "aerobic_ACALD_2x",
+    "status": "success",
+    "failure_reason": null,
+    "integration_output_seconds": 0.8575354100000254,
+    "concentration_error": {
+      "0.001": 4.646387986605473,
+      "1e-05": 464.63879866054725
+    },
+    "elementary_flux_error": {
+      "0.001": 1.4178037699667874,
+      "1e-05": 141.7803769966787
+    },
+    "pool_drift": 1.5689472117330627e-10,
+    "min_raw_output": -1.3817161830359276e-17,
+    "significant_negative_output_count": 0,
+    "counts_and_costs": {
+      "rhs_seconds": 0.01836708599961412,
+      "jacobian_seconds": 0.0011960389999785548,
+      "lu_factor_seconds": 0.7644351130000473,
+      "linear_solve_seconds": 0.0509945940000307,
+      "rhs_calls": 137,
+      "nfev": 137,
+      "njev": 1,
+      "nlu": 22,
+      "accepted_steps": 67,
+      "min_rhs_argument": -1.1742387660244953e-16,
+      "min_accepted_state": -1.3768271071059954e-17,
+      "error_test_failures": null
+    },
+    "isolated_worker_peak_rss_bytes": 307290112,
+    "repeat": 5
+  },
+  {
+    "method": "CVODE-KLU",
+    "rtol": 1e-09,
+    "model_id": "k-ecoli457",
+    "case_id": "aerobic_ACALD_2x",
+    "status": "success",
+    "failure_reason": null,
+    "integration_output_seconds": 1.7145601940000006,
+    "concentration_error": {
+      "0.001": 0.00020330824099697056,
+      "1e-05": 0.020330824099697054
+    },
+    "elementary_flux_error": {
+      "0.001": 5.785716046885835e-05,
+      "1e-05": 0.005785716046885834
+    },
+    "pool_drift": 6.524024723231214e-11,
+    "min_raw_output": 0.0,
+    "significant_negative_output_count": 0,
+    "counts_and_costs": {
+      "accepted_steps": 510,
+      "nfev": 546,
+      "njev": 9,
+      "linear_solver_setups": 52,
+      "error_test_failures": 0,
+      "nonlinear_iterations": 543,
+      "nonlinear_convergence_failures": 0,
+      "rhs_seconds": 0.08458261399925959,
+      "jacobian_seconds": 0.011187221000000136,
+      "min_rhs_argument": 0.0,
+      "observed_rhs_calls": 546,
+      "linear_solver": "SUNDIALS 6.4.1 KLU sparse CSC, default COLAMD ordering"
+    },
+    "isolated_worker_peak_rss_bytes": 303546368,
+    "repeat": 5
+  },
+  {
+    "method": "Radau",
+    "rtol": 0.0001,
+    "model_id": "k-ecoli457",
+    "case_id": "aerobic_ACALD_2x",
+    "status": "success",
+    "failure_reason": null,
+    "integration_output_seconds": 2.4402238530000204,
+    "concentration_error": {
+      "0.001": 0.5468976070359598,
+      "1e-05": 54.68976070359598
+    },
+    "elementary_flux_error": {
+      "0.001": 0.5468976068158936,
+      "1e-05": 54.689760681589355
+    },
+    "pool_drift": 1.3662733444608222e-10,
+    "min_raw_output": -1.4673873786951504e-17,
+    "significant_negative_output_count": 0,
+    "counts_and_costs": {
+      "rhs_seconds": 0.02049014999931842,
+      "jacobian_seconds": 0.001992170000050919,
+      "lu_factor_seconds": 2.3160680650000245,
+      "linear_solve_seconds": 0.07486466899996458,
+      "rhs_calls": 159,
+      "nfev": 159,
+      "njev": 2,
+      "nlu": 38,
+      "accepted_steps": 22,
+      "min_rhs_argument": -2.828920767816483e-16,
+      "min_accepted_state": -1.46738737869515e-17,
+      "error_test_failures": null
+    },
+    "isolated_worker_peak_rss_bytes": 305258496,
+    "repeat": 5
+  },
+  {
+    "method": "Radau",
+    "rtol": 1e-06,
+    "model_id": "k-ecoli457",
+    "case_id": "aerobic_ACALD_2x",
+    "status": "success",
+    "failure_reason": null,
+    "integration_output_seconds": 4.843990952000013,
+    "concentration_error": {
+      "0.001": 0.023154931089514042,
+      "1e-05": 2.315493108951404
+    },
+    "elementary_flux_error": {
+      "0.001": 0.023154931088197134,
+      "1e-05": 2.3154931088197133
+    },
+    "pool_drift": 7.037810959009683e-11,
+    "min_raw_output": -1.226203297438825e-19,
+    "significant_negative_output_count": 0,
+    "counts_and_costs": {
+      "rhs_seconds": 0.0580015129999083,
+      "jacobian_seconds": 0.003699735999987297,
+      "lu_factor_seconds": 4.516136768000138,
+      "linear_solve_seconds": 0.20810273999973106,
+      "rhs_calls": 469,
+      "nfev": 469,
+      "njev": 5,
+      "nlu": 80,
+      "accepted_steps": 63,
+      "min_rhs_argument": -4.098339946643229e-18,
+      "min_accepted_state": -1.1885985088742271e-19,
+      "error_test_failures": null
+    },
+    "isolated_worker_peak_rss_bytes": 305643520,
+    "repeat": 5
+  },
+  {
+    "method": "CVODE-KLU",
+    "rtol": 1e-08,
+    "model_id": "k-ecoli457",
+    "case_id": "aerobic_ACALD_2x",
+    "status": "success",
+    "failure_reason": null,
+    "integration_output_seconds": 1.241554031000021,
+    "concentration_error": {
+      "0.001": 0.0010482241589282455,
+      "1e-05": 0.10482241589282454
+    },
+    "elementary_flux_error": {
+      "0.001": 0.00043428166539457983,
+      "1e-05": 0.04342816653945798
+    },
+    "pool_drift": 1.2106623169250152e-10,
+    "min_raw_output": 0.0,
+    "significant_negative_output_count": 0,
+    "counts_and_costs": {
+      "accepted_steps": 360,
+      "nfev": 389,
+      "njev": 6,
+      "linear_solver_setups": 40,
+      "error_test_failures": 0,
+      "nonlinear_iterations": 386,
+      "nonlinear_convergence_failures": 0,
+      "rhs_seconds": 0.0573199949998866,
+      "jacobian_seconds": 0.007115976000022783,
+      "min_rhs_argument": 0.0,
+      "observed_rhs_calls": 389,
+      "linear_solver": "SUNDIALS 6.4.1 KLU sparse CSC, default COLAMD ordering"
+    },
+    "isolated_worker_peak_rss_bytes": 303546368,
+    "repeat": 5
+  },
+  {
+    "method": "CVODE-KLU",
+    "rtol": 1e-06,
+    "model_id": "k-ecoli457",
+    "case_id": "aerobic_ACALD_2x",
+    "status": "success",
+    "failure_reason": null,
+    "integration_output_seconds": 0.9020536889999562,
+    "concentration_error": {
+      "0.001": 0.061350369596831225,
+      "1e-05": 6.135036959683122
+    },
+    "elementary_flux_error": {
+      "0.001": 0.02283706193540524,
+      "1e-05": 2.283706193540524
+    },
+    "pool_drift": 1.7101076631165224e-10,
+    "min_raw_output": 0.0,
+    "significant_negative_output_count": 0,
+    "counts_and_costs": {
+      "accepted_steps": 187,
+      "nfev": 206,
+      "njev": 4,
+      "linear_solver_setups": 30,
+      "error_test_failures": 0,
+      "nonlinear_iterations": 203,
+      "nonlinear_convergence_failures": 0,
+      "rhs_seconds": 0.030466361000776487,
+      "jacobian_seconds": 0.005113407999999708,
+      "min_rhs_argument": 0.0,
+      "observed_rhs_calls": 206,
+      "linear_solver": "SUNDIALS 6.4.1 KLU sparse CSC, default COLAMD ordering"
+    },
+    "isolated_worker_peak_rss_bytes": 303570944,
+    "repeat": 5
+  },
+  {
+    "method": "BDF",
+    "rtol": 1e-08,
+    "model_id": "k-ecoli457",
+    "case_id": "aerobic_ACALD_2x",
+    "status": "success",
+    "failure_reason": null,
+    "integration_output_seconds": 2.563518926000029,
+    "concentration_error": {
+      "0.001": 0.0009834768090201337,
+      "1e-05": 0.09834768090201335
+    },
+    "elementary_flux_error": {
+      "0.001": 0.000386911654793948,
+      "1e-05": 0.0386911654793948
+    },
+    "pool_drift": 6.67308309304504e-11,
+    "min_raw_output": -1.0968628535791767e-23,
+    "significant_negative_output_count": 0,
+    "counts_and_costs": {
+      "rhs_seconds": 0.1066433020003501,
+      "jacobian_seconds": 0.0012592829999675814,
+      "lu_factor_seconds": 2.072954851000077,
+      "linear_solve_seconds": 0.2963281510002389,
+      "rhs_calls": 848,
+      "nfev": 848,
+      "njev": 1,
+      "nlu": 65,
+      "accepted_steps": 341,
+      "min_rhs_argument": -2.2217745018818707e-22,
+      "min_accepted_state": -1.081728555257086e-23,
+      "error_test_failures": null
+    },
+    "isolated_worker_peak_rss_bytes": 310796288,
+    "repeat": 5
+  },
+  {
+    "method": "CVODE-KLU",
+    "rtol": 0.0001,
+    "model_id": "k-ecoli457",
+    "case_id": "aerobic_ACALD_2x",
+    "status": "success",
+    "failure_reason": null,
+    "integration_output_seconds": 0.6834073320000016,
+    "concentration_error": {
+      "0.001": 2.273624133923305,
+      "1e-05": 227.36241339233047
+    },
+    "elementary_flux_error": {
+      "0.001": 1.9607017031873542,
+      "1e-05": 196.07017031873542
+    },
+    "pool_drift": 9.024031175086655e-11,
+    "min_raw_output": 0.0,
+    "significant_negative_output_count": 0,
+    "counts_and_costs": {
+      "accepted_steps": 93,
+      "nfev": 101,
+      "njev": 2,
+      "linear_solver_setups": 25,
+      "error_test_failures": 0,
+      "nonlinear_iterations": 98,
+      "nonlinear_convergence_failures": 0,
+      "rhs_seconds": 0.016122801000051368,
+      "jacobian_seconds": 0.0031124490000138394,
+      "min_rhs_argument": 0.0,
+      "observed_rhs_calls": 101,
+      "linear_solver": "SUNDIALS 6.4.1 KLU sparse CSC, default COLAMD ordering"
+    },
+    "isolated_worker_peak_rss_bytes": 303587328,
+    "repeat": 5
+  },
+  {
+    "method": "BDF",
+    "rtol": 1e-08,
+    "model_id": "k-ecoli457",
+    "case_id": "aerobic_ACALD_2x",
+    "status": "success",
+    "failure_reason": null,
+    "integration_output_seconds": 2.5274776100000054,
+    "concentration_error": {
+      "0.001": 0.0009834768090201337,
+      "1e-05": 0.09834768090201335
+    },
+    "elementary_flux_error": {
+      "0.001": 0.000386911654793948,
+      "1e-05": 0.0386911654793948
+    },
+    "pool_drift": 6.67308309304504e-11,
+    "min_raw_output": -1.0968628535791767e-23,
+    "significant_negative_output_count": 0,
+    "counts_and_costs": {
+      "rhs_seconds": 0.10634164199939278,
+      "jacobian_seconds": 0.0011231990000055703,
+      "lu_factor_seconds": 2.041912460000219,
+      "linear_solve_seconds": 0.29217087199941716,
+      "rhs_calls": 848,
+      "nfev": 848,
+      "njev": 1,
+      "nlu": 65,
+      "accepted_steps": 341,
+      "min_rhs_argument": -2.2217745018818707e-22,
+      "min_accepted_state": -1.081728555257086e-23,
+      "error_test_failures": null
+    },
+    "isolated_worker_peak_rss_bytes": 310816768,
+    "repeat": 6
+  },
+  {
+    "method": "Radau",
+    "rtol": 1e-06,
+    "model_id": "k-ecoli457",
+    "case_id": "aerobic_ACALD_2x",
+    "status": "success",
+    "failure_reason": null,
+    "integration_output_seconds": 4.772900283000013,
+    "concentration_error": {
+      "0.001": 0.023154931089514042,
+      "1e-05": 2.315493108951404
+    },
+    "elementary_flux_error": {
+      "0.001": 0.023154931088197134,
+      "1e-05": 2.3154931088197133
+    },
+    "pool_drift": 7.037810959009683e-11,
+    "min_raw_output": -1.226203297438825e-19,
+    "significant_negative_output_count": 0,
+    "counts_and_costs": {
+      "rhs_seconds": 0.05757670000031112,
+      "jacobian_seconds": 0.003924421999954575,
+      "lu_factor_seconds": 4.447320153000078,
+      "linear_solve_seconds": 0.2049216229992794,
+      "rhs_calls": 469,
+      "nfev": 469,
+      "njev": 5,
+      "nlu": 80,
+      "accepted_steps": 63,
+      "min_rhs_argument": -4.098339946643229e-18,
+      "min_accepted_state": -1.1885985088742271e-19,
+      "error_test_failures": null
+    },
+    "isolated_worker_peak_rss_bytes": 305561600,
+    "repeat": 6
+  },
+  {
+    "method": "BDF",
+    "rtol": 0.0001,
+    "model_id": "k-ecoli457",
+    "case_id": "aerobic_ACALD_2x",
+    "status": "success",
+    "failure_reason": null,
+    "integration_output_seconds": 0.8665336460000503,
+    "concentration_error": {
+      "0.001": 4.646387986605473,
+      "1e-05": 464.63879866054725
+    },
+    "elementary_flux_error": {
+      "0.001": 1.4178037699667874,
+      "1e-05": 141.7803769966787
+    },
+    "pool_drift": 1.5689472117330627e-10,
+    "min_raw_output": -1.3817161830359276e-17,
+    "significant_negative_output_count": 0,
+    "counts_and_costs": {
+      "rhs_seconds": 0.01905415900017715,
+      "jacobian_seconds": 0.0013661329999763439,
+      "lu_factor_seconds": 0.7718090740000321,
+      "linear_solve_seconds": 0.05116297699981942,
+      "rhs_calls": 137,
+      "nfev": 137,
+      "njev": 1,
+      "nlu": 22,
+      "accepted_steps": 67,
+      "min_rhs_argument": -1.1742387660244953e-16,
+      "min_accepted_state": -1.3768271071059954e-17,
+      "error_test_failures": null
+    },
+    "isolated_worker_peak_rss_bytes": 307388416,
+    "repeat": 6
+  },
+  {
+    "method": "Radau",
+    "rtol": 1e-09,
+    "model_id": "k-ecoli457",
+    "case_id": "aerobic_ACALD_2x",
+    "status": "success",
+    "failure_reason": null,
+    "integration_output_seconds": 11.438999439999975,
+    "concentration_error": {
+      "0.001": 3.627394203405386e-05,
+      "1e-05": 0.003627394203405386
+    },
+    "elementary_flux_error": {
+      "0.001": 3.6273942038071685e-05,
+      "1e-05": 0.0036273942038071686
+    },
+    "pool_drift": 2.1469945613028507e-11,
+    "min_raw_output": -1.4755849803767734e-23,
+    "significant_negative_output_count": 0,
+    "counts_and_costs": {
+      "rhs_seconds": 0.30197427600211313,
+      "jacobian_seconds": 0.015865121999979692,
+      "lu_factor_seconds": 9.873788801999638,
+      "linear_solve_seconds": 1.0308039840001584,
+      "rhs_calls": 2640,
+      "nfev": 2640,
+      "njev": 25,
+      "nlu": 190,
+      "accepted_steps": 350,
+      "min_rhs_argument": -1.740478827997384e-21,
+      "min_accepted_state": -1.2275143742905125e-23,
+      "error_test_failures": null
+    },
+    "isolated_worker_peak_rss_bytes": 312328192,
+    "repeat": 6
+  },
+  {
+    "method": "CVODE-KLU",
+    "rtol": 1e-06,
+    "model_id": "k-ecoli457",
+    "case_id": "aerobic_ACALD_2x",
+    "status": "success",
+    "failure_reason": null,
+    "integration_output_seconds": 0.8770536100000186,
+    "concentration_error": {
+      "0.001": 0.061350369596831225,
+      "1e-05": 6.135036959683122
+    },
+    "elementary_flux_error": {
+      "0.001": 0.02283706193540524,
+      "1e-05": 2.283706193540524
+    },
+    "pool_drift": 1.7101076631165224e-10,
+    "min_raw_output": 0.0,
+    "significant_negative_output_count": 0,
+    "counts_and_costs": {
+      "accepted_steps": 187,
+      "nfev": 206,
+      "njev": 4,
+      "linear_solver_setups": 30,
+      "error_test_failures": 0,
+      "nonlinear_iterations": 203,
+      "nonlinear_convergence_failures": 0,
+      "rhs_seconds": 0.02927111499974444,
+      "jacobian_seconds": 0.004998048999937055,
+      "min_rhs_argument": 0.0,
+      "observed_rhs_calls": 206,
+      "linear_solver": "SUNDIALS 6.4.1 KLU sparse CSC, default COLAMD ordering"
+    },
+    "isolated_worker_peak_rss_bytes": 303632384,
+    "repeat": 6
+  },
+  {
+    "method": "Radau",
+    "rtol": 0.0001,
+    "model_id": "k-ecoli457",
+    "case_id": "aerobic_ACALD_2x",
+    "status": "success",
+    "failure_reason": null,
+    "integration_output_seconds": 2.470585746999973,
+    "concentration_error": {
+      "0.001": 0.5468976070359598,
+      "1e-05": 54.68976070359598
+    },
+    "elementary_flux_error": {
+      "0.001": 0.5468976068158936,
+      "1e-05": 54.689760681589355
+    },
+    "pool_drift": 1.3662733444608222e-10,
+    "min_raw_output": -1.4673873786951504e-17,
+    "significant_negative_output_count": 0,
+    "counts_and_costs": {
+      "rhs_seconds": 0.021074565999811057,
+      "jacobian_seconds": 0.002047094000033667,
+      "lu_factor_seconds": 2.344259897999791,
+      "linear_solve_seconds": 0.0767181139996751,
+      "rhs_calls": 159,
+      "nfev": 159,
+      "njev": 2,
+      "nlu": 38,
+      "accepted_steps": 22,
+      "min_rhs_argument": -2.828920767816483e-16,
+      "min_accepted_state": -1.46738737869515e-17,
+      "error_test_failures": null
+    },
+    "isolated_worker_peak_rss_bytes": 303038464,
+    "repeat": 6
+  },
+  {
+    "method": "CVODE-KLU",
+    "rtol": 0.0001,
+    "model_id": "k-ecoli457",
+    "case_id": "aerobic_ACALD_2x",
+    "status": "success",
+    "failure_reason": null,
+    "integration_output_seconds": 0.6796496250000246,
+    "concentration_error": {
+      "0.001": 2.273624133923305,
+      "1e-05": 227.36241339233047
+    },
+    "elementary_flux_error": {
+      "0.001": 1.9607017031873542,
+      "1e-05": 196.07017031873542
+    },
+    "pool_drift": 9.024031175086655e-11,
+    "min_raw_output": 0.0,
+    "significant_negative_output_count": 0,
+    "counts_and_costs": {
+      "accepted_steps": 93,
+      "nfev": 101,
+      "njev": 2,
+      "linear_solver_setups": 25,
+      "error_test_failures": 0,
+      "nonlinear_iterations": 98,
+      "nonlinear_convergence_failures": 0,
+      "rhs_seconds": 0.015546174000235169,
+      "jacobian_seconds": 0.003114499999981035,
+      "min_rhs_argument": 0.0,
+      "observed_rhs_calls": 101,
+      "linear_solver": "SUNDIALS 6.4.1 KLU sparse CSC, default COLAMD ordering"
+    },
+    "isolated_worker_peak_rss_bytes": 303648768,
+    "repeat": 6
+  },
+  {
+    "method": "BDF",
+    "rtol": 1e-06,
+    "model_id": "k-ecoli457",
+    "case_id": "aerobic_ACALD_2x",
+    "status": "success",
+    "failure_reason": null,
+    "integration_output_seconds": 1.5503833660000055,
+    "concentration_error": {
+      "0.001": 0.09734299633253614,
+      "1e-05": 9.734299633253613
+    },
+    "elementary_flux_error": {
+      "0.001": 0.020867628291111818,
+      "1e-05": 2.0867628291111817
+    },
+    "pool_drift": 2.3357639607202163e-10,
+    "min_raw_output": -3.512837336021289e-20,
+    "significant_negative_output_count": 0,
+    "counts_and_costs": {
+      "rhs_seconds": 0.04784321099992894,
+      "jacobian_seconds": 0.0012091190000091956,
+      "lu_factor_seconds": 1.3236805500002902,
+      "linear_solve_seconds": 0.13224797399965382,
+      "rhs_calls": 364,
+      "nfev": 364,
+      "njev": 1,
+      "nlu": 39,
+      "accepted_steps": 161,
+      "min_rhs_argument": -6.48503871123457e-19,
+      "min_accepted_state": -3.50447240600259e-20,
+      "error_test_failures": null
+    },
+    "isolated_worker_peak_rss_bytes": 306982912,
+    "repeat": 6
+  },
+  {
+    "method": "CVODE-KLU",
+    "rtol": 1e-09,
+    "model_id": "k-ecoli457",
+    "case_id": "aerobic_ACALD_2x",
+    "status": "success",
+    "failure_reason": null,
+    "integration_output_seconds": 1.6794580160000123,
+    "concentration_error": {
+      "0.001": 0.00020330824099697056,
+      "1e-05": 0.020330824099697054
+    },
+    "elementary_flux_error": {
+      "0.001": 5.785716046885835e-05,
+      "1e-05": 0.005785716046885834
+    },
+    "pool_drift": 6.524024723231214e-11,
+    "min_raw_output": 0.0,
+    "significant_negative_output_count": 0,
+    "counts_and_costs": {
+      "accepted_steps": 510,
+      "nfev": 546,
+      "njev": 9,
+      "linear_solver_setups": 52,
+      "error_test_failures": 0,
+      "nonlinear_iterations": 543,
+      "nonlinear_convergence_failures": 0,
+      "rhs_seconds": 0.08089136100079486,
+      "jacobian_seconds": 0.010012928999913129,
+      "min_rhs_argument": 0.0,
+      "observed_rhs_calls": 546,
+      "linear_solver": "SUNDIALS 6.4.1 KLU sparse CSC, default COLAMD ordering"
+    },
+    "isolated_worker_peak_rss_bytes": 303665152,
+    "repeat": 6
+  },
+  {
+    "method": "CVODE-KLU",
+    "rtol": 1e-08,
+    "model_id": "k-ecoli457",
+    "case_id": "aerobic_ACALD_2x",
+    "status": "success",
+    "failure_reason": null,
+    "integration_output_seconds": 1.2184507249999683,
+    "concentration_error": {
+      "0.001": 0.0010482241589282455,
+      "1e-05": 0.10482241589282454
+    },
+    "elementary_flux_error": {
+      "0.001": 0.00043428166539457983,
+      "1e-05": 0.04342816653945798
+    },
+    "pool_drift": 1.2106623169250152e-10,
+    "min_raw_output": 0.0,
+    "significant_negative_output_count": 0,
+    "counts_and_costs": {
+      "accepted_steps": 360,
+      "nfev": 389,
+      "njev": 6,
+      "linear_solver_setups": 40,
+      "error_test_failures": 0,
+      "nonlinear_iterations": 386,
+      "nonlinear_convergence_failures": 0,
+      "rhs_seconds": 0.05568642100075749,
+      "jacobian_seconds": 0.007015241000033257,
+      "min_rhs_argument": 0.0,
+      "observed_rhs_calls": 389,
+      "linear_solver": "SUNDIALS 6.4.1 KLU sparse CSC, default COLAMD ordering"
+    },
+    "isolated_worker_peak_rss_bytes": 303673344,
+    "repeat": 6
+  },
+  {
+    "method": "BDF",
+    "rtol": 1e-09,
+    "model_id": "k-ecoli457",
+    "case_id": "aerobic_ACALD_2x",
+    "status": "success",
+    "failure_reason": null,
+    "integration_output_seconds": 3.50993956100001,
+    "concentration_error": {
+      "0.001": 0.00020344761368727493,
+      "1e-05": 0.02034476136872749
+    },
+    "elementary_flux_error": {
+      "0.001": 5.707187615731124e-05,
+      "1e-05": 0.005707187615731124
+    },
+    "pool_drift": 8.391223826897942e-11,
+    "min_raw_output": -4.546820163312199e-25,
+    "significant_negative_output_count": 0,
+    "counts_and_costs": {
+      "rhs_seconds": 0.14705448600068394,
+      "jacobian_seconds": 0.0037936840000156735,
+      "lu_factor_seconds": 2.844026604000021,
+      "linear_solve_seconds": 0.40452097000098775,
+      "rhs_calls": 1191,
+      "nfev": 1191,
+      "njev": 5,
+      "nlu": 92,
+      "accepted_steps": 480,
+      "min_rhs_argument": -4.821191715900485e-23,
+      "min_accepted_state": -3.267642871467521e-25,
+      "error_test_failures": null
+    },
+    "isolated_worker_peak_rss_bytes": 309661696,
+    "repeat": 6
+  },
+  {
+    "method": "Radau",
+    "rtol": 1e-08,
+    "model_id": "k-ecoli457",
+    "case_id": "aerobic_ACALD_2x",
+    "status": "success",
+    "failure_reason": null,
+    "integration_output_seconds": 7.569103028000029,
+    "concentration_error": {
+      "0.001": 0.0009274931736988208,
+      "1e-05": 0.09274931736988208
+    },
+    "elementary_flux_error": {
+      "0.001": 0.0009274931735554365,
+      "1e-05": 0.09274931735554365
+    },
+    "pool_drift": 9.095504731326809e-11,
+    "min_raw_output": -4.0252102405396077e-22,
+    "significant_negative_output_count": 0,
+    "counts_and_costs": {
+      "rhs_seconds": 0.16800592299944128,
+      "jacobian_seconds": 0.009669384000062564,
+      "lu_factor_seconds": 6.7007443630000125,
+      "linear_solve_seconds": 0.5645597649998422,
+      "rhs_calls": 1441,
+      "nfev": 1441,
+      "njev": 14,
+      "nlu": 128,
+      "accepted_steps": 196,
+      "min_rhs_argument": -1.9937364142888527e-20,
+      "min_accepted_state": -4.097155142319221e-22,
+      "error_test_failures": null
+    },
+    "isolated_worker_peak_rss_bytes": 303087616,
+    "repeat": 6
+  }
+]

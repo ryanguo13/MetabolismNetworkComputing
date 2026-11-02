@@ -90,6 +90,7 @@ class SBMLModel:
         # Exact structural dependencies, including rules, user functions and modifiers.
         dependencies = np.array([[f"y[{i}]" in expr for i in range(len(self.species))]
                                  for expr in expressions], dtype=int)
+        self.dependencies = dependencies.astype(bool)
         self.sparsity = ((self.S != 0).astype(int) @ dependencies) != 0
         self.L = null_space((self.S / self.volumes[:, None]).T)
 

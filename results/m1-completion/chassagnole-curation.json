@@ -1,0 +1,796 @@
+{
+  "source_url": "https://www.ebi.ac.uk/biomodels/model/download/BIOMD0000000051?filename=curation_image.jpeg",
+  "sha256": "e7365ba6b98f268987c55be7f124eaba8138da323ce6b1a60119d4a8adba18b2",
+  "source_description": "BioModels original curation: figures 4,5,6 reproduced using MathSBML; not digitized experimental measurements",
+  "calibration": {
+    "cglcex": [
+      32,
+      210,
+      123,
+      38.666666666666664
+    ],
+    "cfdp": [
+      325,
+      502,
+      123,
+      38.666666666666664
+    ],
+    "cg1p": [
+      609,
+      787,
+      123,
+      38.666666666666664
+    ],
+    "cg6p": [
+      29,
+      210,
+      269,
+      19.666666666666668
+    ],
+    "cpep": [
+      325,
+      502,
+      269,
+      19.666666666666668
+    ],
+    "cpyr": [
+      610,
+      787,
+      267,
+      19.666666666666668
+    ],
+    "cf6p": [
+      29,
+      215,
+      422,
+      100
+    ],
+    "cgap": [
+      325,
+      502,
+      422,
+      100
+    ],
+    "cpg": [
+      610,
+      787,
+      423,
+      100
+    ]
+  },
+  "samples": [
+    {
+      "species": "cglcex",
+      "time": 2.0224719101123596,
+      "x_pixel": 41,
+      "y_pixel": 47.0,
+      "digitized_mM": 1.9655172413793105,
+      "computed_mM": 1.957371429138014,
+      "residual_pixels": 0.3149714066634651
+    },
+    {
+      "species": "cglcex",
+      "time": 4.943820224719101,
+      "x_pixel": 54,
+      "y_pixel": 49.0,
+      "digitized_mM": 1.913793103448276,
+      "computed_mM": 1.922339445857816,
+      "residual_pixels": 0.3304585731688799
+    },
+    {
+      "species": "cglcex",
+      "time": 9.887640449438202,
+      "x_pixel": 76,
+      "y_pixel": 51.0,
+      "digitized_mM": 1.8620689655172415,
+      "computed_mM": 1.8711983847511764,
+      "residual_pixels": 0.3530042103788139
+    },
+    {
+      "species": "cglcex",
+      "time": 15.0561797752809,
+      "x_pixel": 99,
+      "y_pixel": 53.0,
+      "digitized_mM": 1.810344827586207,
+      "computed_mM": 1.819863944561597,
+      "residual_pixels": 0.36807252304840843
+    },
+    {
+      "species": "cglcex",
+      "time": 20.0,
+      "x_pixel": 121,
+      "y_pixel": 55.0,
+      "digitized_mM": 1.7586206896551726,
+      "computed_mM": 1.7726033120168587,
+      "residual_pixels": 0.5406613979851969
+    },
+    {
+      "species": "cglcex",
+      "time": 24.9438202247191,
+      "x_pixel": 143,
+      "y_pixel": 57.0,
+      "digitized_mM": 1.7068965517241381,
+      "computed_mM": 1.723066898652373,
+      "residual_pixels": 0.6252534145584132
+    },
+    {
+      "species": "cglcex",
+      "time": 30.1123595505618,
+      "x_pixel": 166,
+      "y_pixel": 59.0,
+      "digitized_mM": 1.6551724137931036,
+      "computed_mM": 1.6638061676204443,
+      "residual_pixels": 0.3338384813238389
+    },
+    {
+      "species": "cglcex",
+      "time": 35.056179775280896,
+      "x_pixel": 188,
+      "y_pixel": 61.0,
+      "digitized_mM": 1.6034482758620692,
+      "computed_mM": 1.608679422237176,
+      "residual_pixels": 0.2022709931708005
+    },
+    {
+      "species": "cglcex",
+      "time": 39.10112359550562,
+      "x_pixel": 206,
+      "y_pixel": 63.0,
+      "digitized_mM": 1.5517241379310345,
+      "computed_mM": 1.5616536749579149,
+      "residual_pixels": 0.3839420983727078
+    },
+    {
+      "species": "cfdp",
+      "time": 2.0338983050847457,
+      "x_pixel": 334,
+      "y_pixel": 99.0,
+      "digitized_mM": 0.6206896551724138,
+      "computed_mM": 0.6365760299094245,
+      "residual_pixels": 0.6142731564977475
+    },
+    {
+      "species": "cfdp",
+      "time": 4.971751412429379,
+      "x_pixel": 347,
+      "y_pixel": 106.0,
+      "digitized_mM": 0.43965517241379315,
+      "computed_mM": 0.45768571222668286,
+      "residual_pixels": 0.6971808727650688
+    },
+    {
+      "species": "cfdp",
+      "time": 9.943502824858758,
+      "x_pixel": 369,
+      "y_pixel": 99.0,
+      "digitized_mM": 0.6206896551724138,
+      "computed_mM": 0.6052913454252695,
+      "residual_pixels": 0.5954013102229125
+    },
+    {
+      "species": "cfdp",
+      "time": 14.915254237288135,
+      "x_pixel": 391,
+      "y_pixel": 83.0,
+      "digitized_mM": 1.0344827586206897,
+      "computed_mM": 1.0245335437750556,
+      "residual_pixels": 0.3847029740311874
+    },
+    {
+      "species": "cfdp",
+      "time": 20.112994350282484,
+      "x_pixel": 414,
+      "y_pixel": 51.0,
+      "digitized_mM": 1.8620689655172415,
+      "computed_mM": 1.8292766602816748,
+      "residual_pixels": 1.2679691357752478
+    },
+    {
+      "species": "cfdp",
+      "time": 25.084745762711865,
+      "x_pixel": 436,
+      "y_pixel": 70.0,
+      "digitized_mM": 1.370689655172414,
+      "computed_mM": 1.3700595792959807,
+      "residual_pixels": 0.02436293388875299
+    },
+    {
+      "species": "cfdp",
+      "time": 30.056497175141242,
+      "x_pixel": 458,
+      "y_pixel": 61.0,
+      "digitized_mM": 1.6034482758620692,
+      "computed_mM": 1.5834961232999816,
+      "residual_pixels": 0.7714832324007205
+    },
+    {
+      "species": "cfdp",
+      "time": 35.02824858757062,
+      "x_pixel": 480,
+      "y_pixel": 61.0,
+      "digitized_mM": 1.6034482758620692,
+      "computed_mM": 1.610304970712024,
+      "residual_pixels": 0.26512553419825535
+    },
+    {
+      "species": "cfdp",
+      "time": 39.09604519774011,
+      "x_pixel": 498,
+      "y_pixel": 61.0,
+      "digitized_mM": 1.6034482758620692,
+      "computed_mM": 1.593338544008633,
+      "residual_pixels": 0.3909096316662005
+    },
+    {
+      "species": "cg1p",
+      "time": 2.0224719101123596,
+      "x_pixel": 618,
+      "y_pixel": 96.0,
+      "digitized_mM": 0.6982758620689655,
+      "computed_mM": 0.675829147619432,
+      "residual_pixels": 0.867939625381962
+    },
+    {
+      "species": "cg1p",
+      "time": 4.943820224719101,
+      "x_pixel": 631,
+      "y_pixel": 94.0,
+      "digitized_mM": 0.75,
+      "computed_mM": 0.720205613206583,
+      "residual_pixels": 1.1520496226787886
+    },
+    {
+      "species": "cg1p",
+      "time": 10.112359550561798,
+      "x_pixel": 654,
+      "y_pixel": 91.0,
+      "digitized_mM": 0.8275862068965518,
+      "computed_mM": 0.8014501456637289,
+      "residual_pixels": 1.010594367669155
+    },
+    {
+      "species": "cg1p",
+      "time": 15.0561797752809,
+      "x_pixel": 676,
+      "y_pixel": 89.0,
+      "digitized_mM": 0.8793103448275863,
+      "computed_mM": 0.855039745589608,
+      "residual_pixels": 0.938463170535159
+    },
+    {
+      "species": "cg1p",
+      "time": 20.0,
+      "x_pixel": 698,
+      "y_pixel": 89.0,
+      "digitized_mM": 0.8793103448275863,
+      "computed_mM": 0.8636881253229265,
+      "residual_pixels": 0.6040591541801792
+    },
+    {
+      "species": "cg1p",
+      "time": 24.9438202247191,
+      "x_pixel": 720,
+      "y_pixel": 91.0,
+      "digitized_mM": 0.8275862068965518,
+      "computed_mM": 0.8074725938885802,
+      "residual_pixels": 0.7777263696415706
+    },
+    {
+      "species": "cg1p",
+      "time": 29.8876404494382,
+      "x_pixel": 742,
+      "y_pixel": 92.0,
+      "digitized_mM": 0.8017241379310346,
+      "computed_mM": 0.776981359948924,
+      "residual_pixels": 0.9567207486416079
+    },
+    {
+      "species": "cg1p",
+      "time": 35.056179775280896,
+      "x_pixel": 765,
+      "y_pixel": 94.0,
+      "digitized_mM": 0.75,
+      "computed_mM": 0.7310630740912708,
+      "residual_pixels": 0.7322278018041956
+    },
+    {
+      "species": "cg1p",
+      "time": 39.10112359550562,
+      "x_pixel": 783,
+      "y_pixel": 95.0,
+      "digitized_mM": 0.7241379310344828,
+      "computed_mM": 0.7012727946542222,
+      "residual_pixels": 0.884118606703408
+    },
+    {
+      "species": "cg6p",
+      "time": 1.988950276243094,
+      "x_pixel": 38,
+      "y_pixel": 180.0,
+      "digitized_mM": 4.525423728813559,
+      "computed_mM": 4.564464124821819,
+      "residual_pixels": 0.7677944548291119
+    },
+    {
+      "species": "cg6p",
+      "time": 5.082872928176796,
+      "x_pixel": 52,
+      "y_pixel": 170.0,
+      "digitized_mM": 5.033898305084746,
+      "computed_mM": 5.086124416091166,
+      "residual_pixels": 1.0271135164595966
+    },
+    {
+      "species": "cg6p",
+      "time": 9.94475138121547,
+      "x_pixel": 74,
+      "y_pixel": 162.0,
+      "digitized_mM": 5.440677966101695,
+      "computed_mM": 5.501782349903244,
+      "residual_pixels": 1.201719548097131
+    },
+    {
+      "species": "cg6p",
+      "time": 15.027624309392266,
+      "x_pixel": 97,
+      "y_pixel": 159.0,
+      "digitized_mM": 5.59322033898305,
+      "computed_mM": 5.663458605936175,
+      "residual_pixels": 1.381352583411462
+    },
+    {
+      "species": "cg6p",
+      "time": 20.11049723756906,
+      "x_pixel": 120,
+      "y_pixel": 172.0,
+      "digitized_mM": 4.932203389830508,
+      "computed_mM": 5.085107182427308,
+      "residual_pixels": 3.0071079210704
+    },
+    {
+      "species": "cg6p",
+      "time": 24.972375690607734,
+      "x_pixel": 142,
+      "y_pixel": 183.0,
+      "digitized_mM": 4.372881355932203,
+      "computed_mM": 4.387958784385256,
+      "residual_pixels": 0.29652275957669677
+    },
+    {
+      "species": "cg6p",
+      "time": 30.055248618784532,
+      "x_pixel": 165,
+      "y_pixel": 184.0,
+      "digitized_mM": 4.322033898305085,
+      "computed_mM": 4.370268696264186,
+      "residual_pixels": 0.9486176931956599
+    },
+    {
+      "species": "cg6p",
+      "time": 34.9171270718232,
+      "x_pixel": 187,
+      "y_pixel": 190.0,
+      "digitized_mM": 4.016949152542373,
+      "computed_mM": 4.043209973254528,
+      "residual_pixels": 0.5164628073390455
+    },
+    {
+      "species": "cg6p",
+      "time": 38.89502762430939,
+      "x_pixel": 205,
+      "y_pixel": 191.0,
+      "digitized_mM": 3.966101694915254,
+      "computed_mM": 3.979985082271562,
+      "residual_pixels": 0.27303995134072856
+    },
+    {
+      "species": "cpep",
+      "time": 2.0338983050847457,
+      "x_pixel": 334,
+      "y_pixel": 228.0,
+      "digitized_mM": 2.084745762711864,
+      "computed_mM": 2.0063604573416502,
+      "residual_pixels": 1.541577672280874
+    },
+    {
+      "species": "cpep",
+      "time": 4.971751412429379,
+      "x_pixel": 347,
+      "y_pixel": 218.0,
+      "digitized_mM": 2.5932203389830506,
+      "computed_mM": 2.531226584842602,
+      "residual_pixels": 1.2192104980954872
+    },
+    {
+      "species": "cpep",
+      "time": 9.943502824858758,
+      "x_pixel": 369,
+      "y_pixel": 207.0,
+      "digitized_mM": 3.1525423728813555,
+      "computed_mM": 3.1463470717776274,
+      "residual_pixels": 0.1218409217066531
+    },
+    {
+      "species": "cpep",
+      "time": 14.915254237288135,
+      "x_pixel": 391,
+      "y_pixel": 201.0,
+      "digitized_mM": 3.4576271186440675,
+      "computed_mM": 3.5006104582460473,
+      "residual_pixels": 0.8453390121722707
+    },
+    {
+      "species": "cpep",
+      "time": 20.112994350282484,
+      "x_pixel": 414,
+      "y_pixel": 226.0,
+      "digitized_mM": 2.1864406779661016,
+      "computed_mM": 2.222677574969298,
+      "residual_pixels": 0.7126589743961944
+    },
+    {
+      "species": "cpep",
+      "time": 25.084745762711865,
+      "x_pixel": 436,
+      "y_pixel": 235.0,
+      "digitized_mM": 1.7288135593220337,
+      "computed_mM": 1.7110147064813215,
+      "residual_pixels": 0.350044105867341
+    },
+    {
+      "species": "cpep",
+      "time": 30.056497175141242,
+      "x_pixel": 458,
+      "y_pixel": 236.0,
+      "digitized_mM": 1.6779661016949152,
+      "computed_mM": 1.6721972549588224,
+      "residual_pixels": 0.11345398580982491
+    },
+    {
+      "species": "cpep",
+      "time": 35.02824858757062,
+      "x_pixel": 480,
+      "y_pixel": 243.0,
+      "digitized_mM": 1.3220338983050848,
+      "computed_mM": 1.3334076309817973,
+      "residual_pixels": 0.22368340930867897
+    },
+    {
+      "species": "cpep",
+      "time": 39.09604519774011,
+      "x_pixel": 498,
+      "y_pixel": 243.0,
+      "digitized_mM": 1.3220338983050848,
+      "computed_mM": 1.3108258391617558,
+      "residual_pixels": 0.22042516315213717
+    },
+    {
+      "species": "cpyr",
+      "time": 2.0338983050847457,
+      "x_pixel": 619,
+      "y_pixel": 182.0,
+      "digitized_mM": 4.322033898305085,
+      "computed_mM": 4.311737614349392,
+      "residual_pixels": 0.20249358446196317
+    },
+    {
+      "species": "cpyr",
+      "time": 4.971751412429379,
+      "x_pixel": 632,
+      "y_pixel": 183.0,
+      "digitized_mM": 4.271186440677966,
+      "computed_mM": 4.2929845869483385,
+      "residual_pixels": 0.42869687665065415
+    },
+    {
+      "species": "cpyr",
+      "time": 9.943502824858758,
+      "x_pixel": 654,
+      "y_pixel": 186.0,
+      "digitized_mM": 4.11864406779661,
+      "computed_mM": 4.155286737805919,
+      "residual_pixels": 0.7206391768497434
+    },
+    {
+      "species": "cpyr",
+      "time": 14.915254237288135,
+      "x_pixel": 676,
+      "y_pixel": 187.0,
+      "digitized_mM": 4.067796610169491,
+      "computed_mM": 4.124785345939655,
+      "residual_pixels": 1.1207784701465489
+    },
+    {
+      "species": "cpyr",
+      "time": 19.887005649717516,
+      "x_pixel": 698,
+      "y_pixel": 188.0,
+      "digitized_mM": 4.016949152542373,
+      "computed_mM": 4.072879986345417,
+      "residual_pixels": 1.0999730647932071
+    },
+    {
+      "species": "cpyr",
+      "time": 25.084745762711865,
+      "x_pixel": 721,
+      "y_pixel": 184.0,
+      "digitized_mM": 4.220338983050847,
+      "computed_mM": 4.219626770332599,
+      "residual_pixels": 0.014006850125534303
+    },
+    {
+      "species": "cpyr",
+      "time": 30.056497175141242,
+      "x_pixel": 743,
+      "y_pixel": 184.0,
+      "digitized_mM": 4.220338983050847,
+      "computed_mM": 4.2529836514684165,
+      "residual_pixels": 0.6420118122122028
+    },
+    {
+      "species": "cpyr",
+      "time": 35.02824858757062,
+      "x_pixel": 765,
+      "y_pixel": 184.0,
+      "digitized_mM": 4.220338983050847,
+      "computed_mM": 4.249523763338867,
+      "residual_pixels": 0.5739673456643904
+    },
+    {
+      "species": "cpyr",
+      "time": 39.09604519774011,
+      "x_pixel": 783,
+      "y_pixel": 184.0,
+      "digitized_mM": 4.220338983050847,
+      "computed_mM": 4.279795940613135,
+      "residual_pixels": 1.1693201653916656
+    },
+    {
+      "species": "cf6p",
+      "time": 1.935483870967742,
+      "x_pixel": 38,
+      "y_pixel": 345.0,
+      "digitized_mM": 0.77,
+      "computed_mM": 0.7816747233961475,
+      "residual_pixels": 1.1674723396147502
+    },
+    {
+      "species": "cf6p",
+      "time": 4.946236559139785,
+      "x_pixel": 52,
+      "y_pixel": 336.0,
+      "digitized_mM": 0.86,
+      "computed_mM": 0.8704946354016774,
+      "residual_pixels": 1.0494635401677388
+    },
+    {
+      "species": "cf6p",
+      "time": 10.10752688172043,
+      "x_pixel": 76,
+      "y_pixel": 328.0,
+      "digitized_mM": 0.94,
+      "computed_mM": 0.946225462185092,
+      "residual_pixels": 0.6225462185092012
+    },
+    {
+      "species": "cf6p",
+      "time": 15.053763440860216,
+      "x_pixel": 99,
+      "y_pixel": 326.0,
+      "digitized_mM": 0.96,
+      "computed_mM": 0.9719363445300894,
+      "residual_pixels": 1.1936344530089404
+    },
+    {
+      "species": "cf6p",
+      "time": 20.0,
+      "x_pixel": 122,
+      "y_pixel": 335.0,
+      "digitized_mM": 0.87,
+      "computed_mM": 0.8763862863405947,
+      "residual_pixels": 0.6386286340594682
+    },
+    {
+      "species": "cf6p",
+      "time": 24.946236559139784,
+      "x_pixel": 145,
+      "y_pixel": 348.0,
+      "digitized_mM": 0.74,
+      "computed_mM": 0.7513656304111962,
+      "residual_pixels": 1.1365630411196204
+    },
+    {
+      "species": "cf6p",
+      "time": 29.892473118279568,
+      "x_pixel": 168,
+      "y_pixel": 348.0,
+      "digitized_mM": 0.74,
+      "computed_mM": 0.7501811280816587,
+      "residual_pixels": 1.018112808165872
+    },
+    {
+      "species": "cf6p",
+      "time": 35.053763440860216,
+      "x_pixel": 192,
+      "y_pixel": 354.0,
+      "digitized_mM": 0.68,
+      "computed_mM": 0.6916164485308877,
+      "residual_pixels": 1.1616448530887613
+    },
+    {
+      "species": "cf6p",
+      "time": 38.924731182795696,
+      "x_pixel": 210,
+      "y_pixel": 355.0,
+      "digitized_mM": 0.67,
+      "computed_mM": 0.6811825507066281,
+      "residual_pixels": 1.1182550706628103
+    },
+    {
+      "species": "cgap",
+      "time": 2.0338983050847457,
+      "x_pixel": 334,
+      "y_pixel": 396.0,
+      "digitized_mM": 0.26,
+      "computed_mM": 0.27781466241929215,
+      "residual_pixels": 1.7814662419292138
+    },
+    {
+      "species": "cgap",
+      "time": 4.971751412429379,
+      "x_pixel": 347,
+      "y_pixel": 401.0,
+      "digitized_mM": 0.21,
+      "computed_mM": 0.23553781578552693,
+      "residual_pixels": 2.553781578552694
+    },
+    {
+      "species": "cgap",
+      "time": 9.943502824858758,
+      "x_pixel": 369,
+      "y_pixel": 396.0,
+      "digitized_mM": 0.26,
+      "computed_mM": 0.28189315915628893,
+      "residual_pixels": 2.1893159156288924
+    },
+    {
+      "species": "cgap",
+      "time": 14.915254237288135,
+      "x_pixel": 391,
+      "y_pixel": 387.0,
+      "digitized_mM": 0.35,
+      "computed_mM": 0.37824790931250235,
+      "residual_pixels": 2.824790931250237
+    },
+    {
+      "species": "cgap",
+      "time": 20.112994350282484,
+      "x_pixel": 414,
+      "y_pixel": 377.0,
+      "digitized_mM": 0.45,
+      "computed_mM": 0.4789252033021601,
+      "residual_pixels": 2.8925203302160085
+    },
+    {
+      "species": "cgap",
+      "time": 25.084745762711865,
+      "x_pixel": 436,
+      "y_pixel": 382.0,
+      "digitized_mM": 0.4,
+      "computed_mM": 0.41244851861462745,
+      "residual_pixels": 1.2448518614627424
+    },
+    {
+      "species": "cgap",
+      "time": 30.056497175141242,
+      "x_pixel": 458,
+      "y_pixel": 380.0,
+      "digitized_mM": 0.42,
+      "computed_mM": 0.44937792861433157,
+      "residual_pixels": 2.9377928614331585
+    },
+    {
+      "species": "cgap",
+      "time": 35.02824858757062,
+      "x_pixel": 480,
+      "y_pixel": 379.0,
+      "digitized_mM": 0.43,
+      "computed_mM": 0.44532653252292426,
+      "residual_pixels": 1.5326532522924263
+    },
+    {
+      "species": "cgap",
+      "time": 39.09604519774011,
+      "x_pixel": 498,
+      "y_pixel": 380.0,
+      "digitized_mM": 0.42,
+      "computed_mM": 0.4473782934155442,
+      "residual_pixels": 2.737829341554421
+    },
+    {
+      "species": "cpg",
+      "time": 2.0338983050847457,
+      "x_pixel": 619,
+      "y_pixel": 336.0,
+      "digitized_mM": 0.87,
+      "computed_mM": 0.8532727407223663,
+      "residual_pixels": 1.6727259277633744
+    },
+    {
+      "species": "cpg",
+      "time": 4.971751412429379,
+      "x_pixel": 632,
+      "y_pixel": 329.0,
+      "digitized_mM": 0.94,
+      "computed_mM": 0.9277829679554985,
+      "residual_pixels": 1.221703204450142
+    },
+    {
+      "species": "cpg",
+      "time": 9.943502824858758,
+      "x_pixel": 654,
+      "y_pixel": 318.0,
+      "digitized_mM": 1.05,
+      "computed_mM": 1.0390702285050315,
+      "residual_pixels": 1.0929771494968543
+    },
+    {
+      "species": "cpg",
+      "time": 14.915254237288135,
+      "x_pixel": 676,
+      "y_pixel": 311.0,
+      "digitized_mM": 1.12,
+      "computed_mM": 1.1210135373589731,
+      "residual_pixels": 0.10135373589730268
+    },
+    {
+      "species": "cpg",
+      "time": 19.887005649717516,
+      "x_pixel": 698,
+      "y_pixel": 305.0,
+      "digitized_mM": 1.18,
+      "computed_mM": 1.1701882968979287,
+      "residual_pixels": 0.9811703102071245
+    },
+    {
+      "species": "cpg",
+      "time": 25.084745762711865,
+      "x_pixel": 721,
+      "y_pixel": 307.0,
+      "digitized_mM": 1.16,
+      "computed_mM": 1.1366004074756224,
+      "residual_pixels": 2.339959252437751
+    },
+    {
+      "species": "cpg",
+      "time": 30.056497175141242,
+      "x_pixel": 743,
+      "y_pixel": 310.0,
+      "digitized_mM": 1.13,
+      "computed_mM": 1.1078003346854923,
+      "residual_pixels": 2.2199665314507566
+    },
+    {
+      "species": "cpg",
+      "time": 35.02824858757062,
+      "x_pixel": 765,
+      "y_pixel": 314.0,
+      "digitized_mM": 1.09,
+      "computed_mM": 1.0645800943660284,
+      "residual_pixels": 2.5419905633971673
+    },
+    {
+      "species": "cpg",
+      "time": 39.09604519774011,
+      "x_pixel": 783,
+      "y_pixel": 318.0,
+      "digitized_mM": 1.05,
+      "computed_mM": 1.027047154675763,
+      "residual_pixels": 2.2952845324237137
+    }
+  ],
+  "tolerance_pixels": 5.0,
+  "uncertainty": "Approximate raster axis/curve calibration; one x pixel ≈0.22 seconds. No claim of high-precision validation from a JPEG.",
+  "max_residual_pixels": 3.0071079210704,
+  "pass": true
+}
