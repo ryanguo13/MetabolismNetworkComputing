@@ -1,0 +1,5630 @@
+[
+  {
+    "method": "Lie",
+    "steps": 16,
+    "inner_rtol": 1e-09,
+    "repeat": 0,
+    "partition_setup_seconds": 0.000985999999102205,
+    "status": "success",
+    "observed_error": {
+      "0.001": 11.516818855381732,
+      "1e-05": 1151.681885538173,
+      "1e-07": 115168.18855381732
+    },
+    "common_grid_error": {
+      "0.001": 11.516818855381732,
+      "1e-05": 1151.681885538173,
+      "1e-07": 115168.18855381732
+    },
+    "flux_error": {
+      "0.001": 40.707861352267436,
+      "1e-05": 4070.786135226743,
+      "1e-07": 407078.6135226744
+    },
+    "invariant_error": 5.060832610537321e-16,
+    "min_raw_concentration": 0.0,
+    "stats": {
+      "method": "Lie",
+      "macro_steps_completed": 16,
+      "subflow_calls": 32,
+      "nfev": 8943,
+      "njev": 19,
+      "nlu": 706,
+      "accepted_substeps": 1193,
+      "rhs_calls_including_fd": 9058,
+      "fast_seconds": 0.9199815000465605,
+      "slow_seconds": 0.07797280000522733,
+      "rhs_seconds": 0.26011419959831983,
+      "jacobian_seconds": 0.0,
+      "ledger_seconds": 0.4638989998784382,
+      "significant_negative_rhs_components": 0,
+      "min_rhs_argument": 0.0,
+      "min_accepted_state": 0.0,
+      "min_subflow_endpoint": 0.0,
+      "min_macro_state": 0.0,
+      "clipping_count": 0,
+      "projection_count": 0,
+      "fallback_count": 0,
+      "fast_columns": [
+        6,
+        7
+      ],
+      "fast_updated_states": [
+        4,
+        5,
+        6,
+        11,
+        12,
+        13
+      ],
+      "slow_updated_state_count": 13,
+      "max_substep_invariant_error": 6.343398801851087e-16,
+      "ledger_increment": -0.045257843110750026,
+      "ledger_quadrature_difference": 4.0766001685454967e-17,
+      "ledger_residual": 2.2267214461191287e-10,
+      "integration_seconds": 0.9985149999847636
+    },
+    "partition_and_integration_seconds": 0.9995009999838658
+  },
+  {
+    "method": "Strang",
+    "steps": 16,
+    "inner_rtol": 1e-09,
+    "repeat": 0,
+    "partition_setup_seconds": 0.000821699999505654,
+    "status": "success",
+    "observed_error": {
+      "0.001": 0.31642220094337004,
+      "1e-05": 31.642220094337,
+      "1e-07": 3164.2220094337004
+    },
+    "common_grid_error": {
+      "0.001": 0.31642220094337004,
+      "1e-05": 31.642220094337,
+      "1e-07": 3164.2220094337004
+    },
+    "flux_error": {
+      "0.001": 0.7437660904547068,
+      "1e-05": 74.37660904547066,
+      "1e-07": 7437.660904547068
+    },
+    "invariant_error": 3.4068043914836605e-15,
+    "min_raw_concentration": 0.0,
+    "stats": {
+      "method": "Strang",
+      "macro_steps_completed": 16,
+      "subflow_calls": 48,
+      "nfev": 9476,
+      "njev": 45,
+      "nlu": 744,
+      "accepted_substeps": 1248,
+      "rhs_calls_including_fd": 9747,
+      "fast_seconds": 1.0133445000101347,
+      "slow_seconds": 0.08132759990985505,
+      "rhs_seconds": 0.28748220138368197,
+      "jacobian_seconds": 0.0,
+      "ledger_seconds": 0.49407690000953153,
+      "significant_negative_rhs_components": 0,
+      "min_rhs_argument": 0.0,
+      "min_accepted_state": 0.0,
+      "min_subflow_endpoint": 0.0,
+      "min_macro_state": 0.0,
+      "clipping_count": 0,
+      "projection_count": 0,
+      "fallback_count": 0,
+      "fast_columns": [
+        6,
+        7
+      ],
+      "fast_updated_states": [
+        4,
+        5,
+        6,
+        11,
+        12,
+        13
+      ],
+      "slow_updated_state_count": 13,
+      "max_substep_invariant_error": 3.4490422856036175e-15,
+      "ledger_increment": -0.04516042185556719,
+      "ledger_quadrature_difference": 4.336808689942018e-17,
+      "ledger_residual": 2.227198009352449e-10,
+      "integration_seconds": 1.0953693999908864
+    },
+    "partition_and_integration_seconds": 1.096191099990392
+  },
+  {
+    "method": "Lie",
+    "steps": 32,
+    "inner_rtol": 1e-09,
+    "repeat": 0,
+    "partition_setup_seconds": 0.0008947000023908913,
+    "status": "success",
+    "observed_error": {
+      "0.001": 6.45626714979964,
+      "1e-05": 645.6267149799638,
+      "1e-07": 64562.671497996394
+    },
+    "common_grid_error": {
+      "0.001": 4.824701153198971,
+      "1e-05": 482.47011531989705,
+      "1e-07": 48247.01153198971
+    },
+    "flux_error": {
+      "0.001": 23.19399107572213,
+      "1e-05": 2319.399107572213,
+      "1e-07": 231939.9107572213
+    },
+    "invariant_error": 1.080692309401897e-15,
+    "min_raw_concentration": 0.0,
+    "stats": {
+      "method": "Lie",
+      "macro_steps_completed": 32,
+      "subflow_calls": 64,
+      "nfev": 13875,
+      "njev": 34,
+      "nlu": 1264,
+      "accepted_substeps": 1825,
+      "rhs_calls_including_fd": 14080,
+      "fast_seconds": 2.3404490999528207,
+      "slow_seconds": 0.16541760010295548,
+      "rhs_seconds": 0.5862335976853501,
+      "jacobian_seconds": 0.0,
+      "ledger_seconds": 1.1194801000528969,
+      "significant_negative_rhs_components": 0,
+      "min_rhs_argument": 0.0,
+      "min_accepted_state": 0.0,
+      "min_subflow_endpoint": 0.0,
+      "min_macro_state": 0.0,
+      "clipping_count": 0,
+      "projection_count": 0,
+      "fallback_count": 0,
+      "fast_columns": [
+        6,
+        7
+      ],
+      "fast_updated_states": [
+        4,
+        5,
+        6,
+        11,
+        12,
+        13
+      ],
+      "slow_updated_state_count": 13,
+      "max_substep_invariant_error": 1.243341845575654e-15,
+      "ledger_increment": -0.04527747158957034,
+      "ledger_quadrature_difference": 5.2583805365546965e-17,
+      "ledger_residual": 2.099749679684848e-10,
+      "integration_seconds": 2.5072038999933284
+    },
+    "partition_and_integration_seconds": 2.5080985999957193
+  },
+  {
+    "method": "Strang",
+    "steps": 32,
+    "inner_rtol": 1e-09,
+    "repeat": 0,
+    "partition_setup_seconds": 0.002237400010926649,
+    "status": "success",
+    "observed_error": {
+      "0.001": 0.20570387155452327,
+      "1e-05": 20.570387155452323,
+      "1e-07": 2057.0387155452327
+    },
+    "common_grid_error": {
+      "0.001": 0.15072064111047193,
+      "1e-05": 15.07206411104719,
+      "1e-07": 1507.2064111047193
+    },
+    "flux_error": {
+      "0.001": 0.7598948281523333,
+      "1e-05": 75.98948281523333,
+      "1e-07": 7598.948281523333
+    },
+    "invariant_error": 9.075503920903446e-16,
+    "min_raw_concentration": 0.0,
+    "stats": {
+      "method": "Strang",
+      "macro_steps_completed": 32,
+      "subflow_calls": 96,
+      "nfev": 14074,
+      "njev": 71,
+      "nlu": 1198,
+      "accepted_substeps": 1816,
+      "rhs_calls_including_fd": 14501,
+      "fast_seconds": 3.2395401000685524,
+      "slow_seconds": 0.20062840002356097,
+      "rhs_seconds": 0.7958579005207866,
+      "jacobian_seconds": 0.0,
+      "ledger_seconds": 1.4453459999349434,
+      "significant_negative_rhs_components": 0,
+      "min_rhs_argument": 0.0,
+      "min_accepted_state": 0.0,
+      "min_subflow_endpoint": 0.0,
+      "min_macro_state": 0.0,
+      "clipping_count": 0,
+      "projection_count": 0,
+      "fallback_count": 0,
+      "fast_columns": [
+        6,
+        7
+      ],
+      "fast_updated_states": [
+        4,
+        5,
+        6,
+        11,
+        12,
+        13
+      ],
+      "slow_updated_state_count": 13,
+      "max_substep_invariant_error": 1.2114163140183748e-15,
+      "ledger_increment": -0.04522866634864626,
+      "ledger_quadrature_difference": 6.906367838732663e-17,
+      "ledger_residual": 2.101109911056831e-10,
+      "integration_seconds": 3.4422526999842376
+    },
+    "partition_and_integration_seconds": 3.444490099995164
+  },
+  {
+    "method": "Lie",
+    "steps": 64,
+    "inner_rtol": 1e-09,
+    "repeat": 0,
+    "partition_setup_seconds": 0.0019441999902483076,
+    "status": "success",
+    "observed_error": {
+      "0.001": 3.3203418858876548,
+      "1e-05": 332.03418858876546,
+      "1e-07": 33203.41885887655
+    },
+    "common_grid_error": {
+      "0.001": 2.141608669213772,
+      "1e-05": 214.1608669213772,
+      "1e-07": 21416.086692137724
+    },
+    "flux_error": {
+      "0.001": 12.015195607917658,
+      "1e-05": 1201.5195607917656,
+      "1e-07": 120151.95607917658
+    },
+    "invariant_error": 2.7581850397163265e-15,
+    "min_raw_concentration": 0.0,
+    "stats": {
+      "method": "Lie",
+      "macro_steps_completed": 64,
+      "subflow_calls": 128,
+      "nfev": 21297,
+      "njev": 66,
+      "nlu": 2066,
+      "accepted_substeps": 2753,
+      "rhs_calls_including_fd": 21694,
+      "fast_seconds": 5.018262400117237,
+      "slow_seconds": 0.2826998000673484,
+      "rhs_seconds": 1.2089016998943407,
+      "jacobian_seconds": 0.0,
+      "ledger_seconds": 2.292341400112491,
+      "significant_negative_rhs_components": 0,
+      "min_rhs_argument": 0.0,
+      "min_accepted_state": 0.0,
+      "min_subflow_endpoint": 0.0,
+      "min_macro_state": 0.0,
+      "clipping_count": 0,
+      "projection_count": 0,
+      "fallback_count": 0,
+      "fast_columns": [
+        6,
+        7
+      ],
+      "fast_updated_states": [
+        4,
+        5,
+        6,
+        11,
+        12,
+        13
+      ],
+      "slow_updated_state_count": 13,
+      "max_substep_invariant_error": 2.848936315036282e-15,
+      "ledger_increment": -0.04527023104092276,
+      "ledger_quadrature_difference": 5.980730233973164e-17,
+      "ledger_residual": 2.3905810664359706e-10,
+      "integration_seconds": 5.304245799983619
+    },
+    "partition_and_integration_seconds": 5.306189999973867
+  },
+  {
+    "method": "Strang",
+    "steps": 64,
+    "inner_rtol": 1e-09,
+    "repeat": 0,
+    "partition_setup_seconds": 0.0017549000040162355,
+    "status": "success",
+    "observed_error": {
+      "0.001": 0.2342053203562932,
+      "1e-05": 23.420532035629318,
+      "1e-07": 2342.053203562932
+    },
+    "common_grid_error": {
+      "0.001": 0.15027586826003508,
+      "1e-05": 15.027586826003507,
+      "1e-07": 1502.758682600351
+    },
+    "flux_error": {
+      "0.001": 0.8544123973100988,
+      "1e-05": 85.44123973100986,
+      "1e-07": 8544.123973100988
+    },
+    "invariant_error": 3.3268922965845473e-15,
+    "min_raw_concentration": 0.0,
+    "stats": {
+      "method": "Strang",
+      "macro_steps_completed": 64,
+      "subflow_calls": 192,
+      "nfev": 22795,
+      "njev": 167,
+      "nlu": 2266,
+      "accepted_substeps": 2761,
+      "rhs_calls_including_fd": 23798,
+      "fast_seconds": 5.626995800266741,
+      "slow_seconds": 0.3009824999899138,
+      "rhs_seconds": 1.404947000584798,
+      "jacobian_seconds": 0.0,
+      "ledger_seconds": 2.343925300083356,
+      "significant_negative_rhs_components": 0,
+      "min_rhs_argument": 0.0,
+      "min_accepted_state": 0.0,
+      "min_subflow_endpoint": 0.0,
+      "min_macro_state": 0.0,
+      "clipping_count": 0,
+      "projection_count": 0,
+      "fallback_count": 0,
+      "fast_columns": [
+        6,
+        7
+      ],
+      "fast_updated_states": [
+        4,
+        5,
+        6,
+        11,
+        12,
+        13
+      ],
+      "slow_updated_state_count": 13,
+      "max_substep_invariant_error": 3.363409294785074e-15,
+      "ledger_increment": -0.04524578597795888,
+      "ledger_quadrature_difference": 5.4047478298402396e-17,
+      "ledger_residual": 2.3728592701832696e-10,
+      "integration_seconds": 5.931620899995323
+    },
+    "partition_and_integration_seconds": 5.9333757999993395
+  },
+  {
+    "method": "Lie",
+    "steps": 16,
+    "inner_rtol": 1e-10,
+    "repeat": 0,
+    "partition_setup_seconds": 0.0020488000009208918,
+    "status": "success",
+    "observed_error": {
+      "0.001": 11.516818855378569,
+      "1e-05": 1151.6818855378567,
+      "1e-07": 115168.1885537857
+    },
+    "common_grid_error": {
+      "0.001": 11.516818855378569,
+      "1e-05": 1151.6818855378567,
+      "1e-07": 115168.1885537857
+    },
+    "flux_error": {
+      "0.001": 40.70786135213339,
+      "1e-05": 4070.7861352133386,
+      "1e-07": 407078.61352133396
+    },
+    "invariant_error": 2.6922069706885353e-15,
+    "min_raw_concentration": 0.0,
+    "stats": {
+      "method": "Lie",
+      "macro_steps_completed": 16,
+      "subflow_calls": 32,
+      "nfev": 15074,
+      "njev": 25,
+      "nlu": 818,
+      "accepted_substeps": 2062,
+      "rhs_calls_including_fd": 15225,
+      "fast_seconds": 3.0827156000304967,
+      "slow_seconds": 0.22461990002193488,
+      "rhs_seconds": 0.7962566973874345,
+      "jacobian_seconds": 0.0,
+      "ledger_seconds": 1.494558699982008,
+      "significant_negative_rhs_components": 0,
+      "min_rhs_argument": 0.0,
+      "min_accepted_state": 0.0,
+      "min_subflow_endpoint": 0.0,
+      "min_macro_state": 0.0,
+      "clipping_count": 0,
+      "projection_count": 0,
+      "fallback_count": 0,
+      "fast_columns": [
+        6,
+        7
+      ],
+      "fast_updated_states": [
+        4,
+        5,
+        6,
+        11,
+        12,
+        13
+      ],
+      "slow_updated_state_count": 13,
+      "max_substep_invariant_error": 2.795620617064658e-15,
+      "ledger_increment": -0.045257842935980286,
+      "ledger_quadrature_difference": 1.5612511283791264e-17,
+      "ledger_residual": 2.3726187681205602e-11,
+      "integration_seconds": 3.3094062999880407
+    },
+    "partition_and_integration_seconds": 3.3114550999889616
+  },
+  {
+    "method": "Strang",
+    "steps": 16,
+    "inner_rtol": 1e-10,
+    "repeat": 0,
+    "partition_setup_seconds": 0.0018871999927796423,
+    "status": "success",
+    "observed_error": {
+      "0.001": 0.31642218156313096,
+      "1e-05": 31.642218156313092,
+      "1e-07": 3164.2218156313097
+    },
+    "common_grid_error": {
+      "0.001": 0.31642218156313096,
+      "1e-05": 31.642218156313092,
+      "1e-07": 3164.2218156313097
+    },
+    "flux_error": {
+      "0.001": 0.7437660472105775,
+      "1e-05": 74.37660472105773,
+      "1e-07": 7437.660472105775
+    },
+    "invariant_error": 4.53672510983957e-15,
+    "min_raw_concentration": 0.0,
+    "stats": {
+      "method": "Strang",
+      "macro_steps_completed": 16,
+      "subflow_calls": 48,
+      "nfev": 16151,
+      "njev": 48,
+      "nlu": 900,
+      "accepted_substeps": 2166,
+      "rhs_calls_including_fd": 16440,
+      "fast_seconds": 3.6329566000204068,
+      "slow_seconds": 0.24122810002882034,
+      "rhs_seconds": 0.9135686002264265,
+      "jacobian_seconds": 0.0,
+      "ledger_seconds": 1.747618000023067,
+      "significant_negative_rhs_components": 0,
+      "min_rhs_argument": 0.0,
+      "min_accepted_state": 0.0,
+      "min_subflow_endpoint": 0.0,
+      "min_macro_state": 0.0,
+      "clipping_count": 0,
+      "projection_count": 0,
+      "fallback_count": 0,
+      "fast_columns": [
+        6,
+        7
+      ],
+      "fast_updated_states": [
+        4,
+        5,
+        6,
+        11,
+        12,
+        13
+      ],
+      "slow_updated_state_count": 13,
+      "max_substep_invariant_error": 4.753643542685442e-15,
+      "ledger_increment": -0.04516042168067625,
+      "ledger_quadrature_difference": 3.729655473350135e-17,
+      "ledger_residual": 2.3910214086431125e-11,
+      "integration_seconds": 3.875885000015842
+    },
+    "partition_and_integration_seconds": 3.8777722000086214
+  },
+  {
+    "method": "Lie",
+    "steps": 32,
+    "inner_rtol": 1e-10,
+    "repeat": 0,
+    "partition_setup_seconds": 0.0021898999984841794,
+    "status": "success",
+    "observed_error": {
+      "0.001": 6.4562671494186,
+      "1e-05": 645.6267149418599,
+      "1e-07": 64562.671494186
+    },
+    "common_grid_error": {
+      "0.001": 4.82470114877826,
+      "1e-05": 482.47011487782595,
+      "1e-07": 48247.0114877826
+    },
+    "flux_error": {
+      "0.001": 23.193991074249183,
+      "1e-05": 2319.399107424918,
+      "1e-07": 231939.91074249183
+    },
+    "invariant_error": 2.240943468045646e-15,
+    "min_raw_concentration": 0.0,
+    "stats": {
+      "method": "Lie",
+      "macro_steps_completed": 32,
+      "subflow_calls": 64,
+      "nfev": 23146,
+      "njev": 34,
+      "nlu": 1446,
+      "accepted_substeps": 3150,
+      "rhs_calls_including_fd": 23351,
+      "fast_seconds": 4.877471700019669,
+      "slow_seconds": 0.2683204999775626,
+      "rhs_seconds": 1.23387150108465,
+      "jacobian_seconds": 0.0,
+      "ledger_seconds": 2.3362824000942055,
+      "significant_negative_rhs_components": 0,
+      "min_rhs_argument": 0.0,
+      "min_accepted_state": 0.0,
+      "min_subflow_endpoint": 0.0,
+      "min_macro_state": 0.0,
+      "clipping_count": 0,
+      "projection_count": 0,
+      "fallback_count": 0,
+      "fast_columns": [
+        6,
+        7
+      ],
+      "fast_updated_states": [
+        4,
+        5,
+        6,
+        11,
+        12,
+        13
+      ],
+      "slow_updated_state_count": 13,
+      "max_substep_invariant_error": 2.46551652731722e-15,
+      "ledger_increment": -0.04527747142859553,
+      "ledger_quadrature_difference": 3.69712940817557e-17,
+      "ledger_residual": 2.250712810569766e-11,
+      "integration_seconds": 5.147872700006701
+    },
+    "partition_and_integration_seconds": 5.150062600005185
+  },
+  {
+    "method": "Strang",
+    "steps": 32,
+    "inner_rtol": 1e-10,
+    "repeat": 0,
+    "partition_setup_seconds": 0.0020696999854408205,
+    "status": "success",
+    "observed_error": {
+      "0.001": 0.20570388017063512,
+      "1e-05": 20.57038801706351,
+      "1e-07": 2057.0388017063515
+    },
+    "common_grid_error": {
+      "0.001": 0.15072065175969823,
+      "1e-05": 15.072065175969822,
+      "1e-07": 1507.2065175969824
+    },
+    "flux_error": {
+      "0.001": 0.7598948594672152,
+      "1e-05": 75.98948594672152,
+      "1e-07": 7598.948594672153
+    },
+    "invariant_error": 3.1171079840744325e-15,
+    "min_raw_concentration": 0.0,
+    "stats": {
+      "method": "Strang",
+      "macro_steps_completed": 32,
+      "subflow_calls": 96,
+      "nfev": 24142,
+      "njev": 86,
+      "nlu": 1412,
+      "accepted_substeps": 3183,
+      "rhs_calls_including_fd": 24659,
+      "fast_seconds": 5.4808805000793654,
+      "slow_seconds": 0.27464750001672655,
+      "rhs_seconds": 1.364672500116285,
+      "jacobian_seconds": 0.0,
+      "ledger_seconds": 2.5213172000076156,
+      "significant_negative_rhs_components": 0,
+      "min_rhs_argument": 0.0,
+      "min_accepted_state": 0.0,
+      "min_subflow_endpoint": 0.0,
+      "min_macro_state": 0.0,
+      "clipping_count": 0,
+      "projection_count": 0,
+      "fallback_count": 0,
+      "fast_columns": [
+        6,
+        7
+      ],
+      "fast_updated_states": [
+        4,
+        5,
+        6,
+        11,
+        12,
+        13
+      ],
+      "slow_updated_state_count": 13,
+      "max_substep_invariant_error": 3.2319221517883586e-15,
+      "ledger_increment": -0.04522866618763257,
+      "ledger_quadrature_difference": 2.45029690981724e-17,
+      "ledger_residual": 2.260116399588341e-11,
+      "integration_seconds": 5.758194199996069
+    },
+    "partition_and_integration_seconds": 5.76026389998151
+  },
+  {
+    "method": "Lie",
+    "steps": 64,
+    "inner_rtol": 1e-10,
+    "repeat": 0,
+    "partition_setup_seconds": 0.0029189999913796782,
+    "status": "success",
+    "observed_error": {
+      "0.001": 3.320341884184172,
+      "1e-05": 332.03418841841716,
+      "1e-07": 33203.418841841725
+    },
+    "common_grid_error": {
+      "0.001": 2.1416086591547305,
+      "1e-05": 214.16086591547304,
+      "1e-07": 21416.086591547308
+    },
+    "flux_error": {
+      "0.001": 12.01519560165104,
+      "1e-05": 1201.519560165104,
+      "1e-07": 120151.9560165104
+    },
+    "invariant_error": 1.9184051624632466e-15,
+    "min_raw_concentration": 0.0,
+    "stats": {
+      "method": "Lie",
+      "macro_steps_completed": 64,
+      "subflow_calls": 128,
+      "nfev": 35763,
+      "njev": 67,
+      "nlu": 2306,
+      "accepted_substeps": 4797,
+      "rhs_calls_including_fd": 36166,
+      "fast_seconds": 7.500208000070415,
+      "slow_seconds": 0.3293956999259535,
+      "rhs_seconds": 1.8541942018200643,
+      "jacobian_seconds": 0.0,
+      "ledger_seconds": 3.470526999939466,
+      "significant_negative_rhs_components": 0,
+      "min_rhs_argument": 0.0,
+      "min_accepted_state": 0.0,
+      "min_subflow_endpoint": 0.0,
+      "min_macro_state": 0.0,
+      "clipping_count": 0,
+      "projection_count": 0,
+      "fallback_count": 0,
+      "fast_columns": [
+        6,
+        7
+      ],
+      "fast_updated_states": [
+        4,
+        5,
+        6,
+        11,
+        12,
+        13
+      ],
+      "slow_updated_state_count": 13,
+      "max_substep_invariant_error": 2.101865616983069e-15,
+      "ledger_increment": -0.045270230871687404,
+      "ledger_quadrature_difference": 4.9751327189928585e-17,
+      "ledger_residual": 2.0855255022933505e-11,
+      "integration_seconds": 7.833529600000475
+    },
+    "partition_and_integration_seconds": 7.836448599991854
+  },
+  {
+    "method": "Strang",
+    "steps": 64,
+    "inner_rtol": 1e-10,
+    "repeat": 0,
+    "partition_setup_seconds": 0.0018014000088442117,
+    "status": "success",
+    "observed_error": {
+      "0.001": 0.23420532439727007,
+      "1e-05": 23.420532439727,
+      "1e-07": 2342.053243972701
+    },
+    "common_grid_error": {
+      "0.001": 0.15027587706596388,
+      "1e-05": 15.027587706596385,
+      "1e-07": 1502.758770659639
+    },
+    "flux_error": {
+      "0.001": 0.8544124120312777,
+      "1e-05": 85.44124120312776,
+      "1e-07": 8544.124120312777
+    },
+    "invariant_error": 4.752245256236266e-15,
+    "min_raw_concentration": 0.0,
+    "stats": {
+      "method": "Strang",
+      "macro_steps_completed": 64,
+      "subflow_calls": 192,
+      "nfev": 37696,
+      "njev": 161,
+      "nlu": 2724,
+      "accepted_substeps": 4824,
+      "rhs_calls_including_fd": 38663,
+      "fast_seconds": 8.730305999866687,
+      "slow_seconds": 0.33955420000711456,
+      "rhs_seconds": 2.222417602868518,
+      "jacobian_seconds": 0.0,
+      "ledger_seconds": 3.7891603000171017,
+      "significant_negative_rhs_components": 0,
+      "min_rhs_argument": 0.0,
+      "min_accepted_state": 0.0,
+      "min_subflow_endpoint": 0.0,
+      "min_macro_state": 0.0,
+      "clipping_count": 0,
+      "projection_count": 0,
+      "fallback_count": 0,
+      "fast_columns": [
+        6,
+        7
+      ],
+      "fast_updated_states": [
+        4,
+        5,
+        6,
+        11,
+        12,
+        13
+      ],
+      "slow_updated_state_count": 13,
+      "max_substep_invariant_error": 4.8590996547597694e-15,
+      "ledger_increment": -0.04524578581025344,
+      "ledger_quadrature_difference": 5.082197683525802e-17,
+      "ledger_residual": 2.1101488612007557e-11,
+      "integration_seconds": 9.074637900019297
+    },
+    "partition_and_integration_seconds": 9.076439300028142
+  },
+  {
+    "method": "Strang",
+    "steps": 16,
+    "inner_rtol": 1e-09,
+    "repeat": 1,
+    "partition_setup_seconds": 0.0018404999864287674,
+    "status": "success",
+    "observed_error": {
+      "0.001": 0.31642220094337004,
+      "1e-05": 31.642220094337,
+      "1e-07": 3164.2220094337004
+    },
+    "common_grid_error": {
+      "0.001": 0.31642220094337004,
+      "1e-05": 31.642220094337,
+      "1e-07": 3164.2220094337004
+    },
+    "flux_error": {
+      "0.001": 0.7437660904547068,
+      "1e-05": 74.37660904547066,
+      "1e-07": 7437.660904547068
+    },
+    "invariant_error": 3.4068043914836605e-15,
+    "min_raw_concentration": 0.0,
+    "stats": {
+      "method": "Strang",
+      "macro_steps_completed": 16,
+      "subflow_calls": 48,
+      "nfev": 9476,
+      "njev": 45,
+      "nlu": 744,
+      "accepted_substeps": 1248,
+      "rhs_calls_including_fd": 9747,
+      "fast_seconds": 2.179605000128504,
+      "slow_seconds": 0.17312949994811788,
+      "rhs_seconds": 0.5540323003951926,
+      "jacobian_seconds": 0.0,
+      "ledger_seconds": 1.0096524999826215,
+      "significant_negative_rhs_components": 0,
+      "min_rhs_argument": 0.0,
+      "min_accepted_state": 0.0,
+      "min_subflow_endpoint": 0.0,
+      "min_macro_state": 0.0,
+      "clipping_count": 0,
+      "projection_count": 0,
+      "fallback_count": 0,
+      "fast_columns": [
+        6,
+        7
+      ],
+      "fast_updated_states": [
+        4,
+        5,
+        6,
+        11,
+        12,
+        13
+      ],
+      "slow_updated_state_count": 13,
+      "max_substep_invariant_error": 3.4490422856036175e-15,
+      "ledger_increment": -0.04516042185556719,
+      "ledger_quadrature_difference": 4.336808689942018e-17,
+      "ledger_residual": 2.227198009352449e-10,
+      "integration_seconds": 2.3539292000059504
+    },
+    "partition_and_integration_seconds": 2.355769699992379
+  },
+  {
+    "method": "Lie",
+    "steps": 32,
+    "inner_rtol": 1e-09,
+    "repeat": 1,
+    "partition_setup_seconds": 0.0017733999993652105,
+    "status": "success",
+    "observed_error": {
+      "0.001": 6.45626714979964,
+      "1e-05": 645.6267149799638,
+      "1e-07": 64562.671497996394
+    },
+    "common_grid_error": {
+      "0.001": 4.824701153198971,
+      "1e-05": 482.47011531989705,
+      "1e-07": 48247.01153198971
+    },
+    "flux_error": {
+      "0.001": 23.19399107572213,
+      "1e-05": 2319.399107572213,
+      "1e-07": 231939.9107572213
+    },
+    "invariant_error": 1.080692309401897e-15,
+    "min_raw_concentration": 0.0,
+    "stats": {
+      "method": "Lie",
+      "macro_steps_completed": 32,
+      "subflow_calls": 64,
+      "nfev": 13875,
+      "njev": 34,
+      "nlu": 1264,
+      "accepted_substeps": 1825,
+      "rhs_calls_including_fd": 14080,
+      "fast_seconds": 3.2789616999507416,
+      "slow_seconds": 0.21876760001759976,
+      "rhs_seconds": 0.8225500982371159,
+      "jacobian_seconds": 0.0,
+      "ledger_seconds": 1.5048053000646178,
+      "significant_negative_rhs_components": 0,
+      "min_rhs_argument": 0.0,
+      "min_accepted_state": 0.0,
+      "min_subflow_endpoint": 0.0,
+      "min_macro_state": 0.0,
+      "clipping_count": 0,
+      "projection_count": 0,
+      "fallback_count": 0,
+      "fast_columns": [
+        6,
+        7
+      ],
+      "fast_updated_states": [
+        4,
+        5,
+        6,
+        11,
+        12,
+        13
+      ],
+      "slow_updated_state_count": 13,
+      "max_substep_invariant_error": 1.243341845575654e-15,
+      "ledger_increment": -0.04527747158957034,
+      "ledger_quadrature_difference": 5.2583805365546965e-17,
+      "ledger_residual": 2.099749679684848e-10,
+      "integration_seconds": 3.5001846000086516
+    },
+    "partition_and_integration_seconds": 3.501958000008017
+  },
+  {
+    "method": "Strang",
+    "steps": 32,
+    "inner_rtol": 1e-09,
+    "repeat": 1,
+    "partition_setup_seconds": 0.001982799993129447,
+    "status": "success",
+    "observed_error": {
+      "0.001": 0.20570387155452327,
+      "1e-05": 20.570387155452323,
+      "1e-07": 2057.0387155452327
+    },
+    "common_grid_error": {
+      "0.001": 0.15072064111047193,
+      "1e-05": 15.07206411104719,
+      "1e-07": 1507.2064111047193
+    },
+    "flux_error": {
+      "0.001": 0.7598948281523333,
+      "1e-05": 75.98948281523333,
+      "1e-07": 7598.948281523333
+    },
+    "invariant_error": 9.075503920903446e-16,
+    "min_raw_concentration": 0.0,
+    "stats": {
+      "method": "Strang",
+      "macro_steps_completed": 32,
+      "subflow_calls": 96,
+      "nfev": 14074,
+      "njev": 71,
+      "nlu": 1198,
+      "accepted_substeps": 1816,
+      "rhs_calls_including_fd": 14501,
+      "fast_seconds": 3.1830437999160495,
+      "slow_seconds": 0.2101564999029506,
+      "rhs_seconds": 0.783896901353728,
+      "jacobian_seconds": 0.0,
+      "ledger_seconds": 1.4433680000365712,
+      "significant_negative_rhs_components": 0,
+      "min_rhs_argument": 0.0,
+      "min_accepted_state": 0.0,
+      "min_subflow_endpoint": 0.0,
+      "min_macro_state": 0.0,
+      "clipping_count": 0,
+      "projection_count": 0,
+      "fallback_count": 0,
+      "fast_columns": [
+        6,
+        7
+      ],
+      "fast_updated_states": [
+        4,
+        5,
+        6,
+        11,
+        12,
+        13
+      ],
+      "slow_updated_state_count": 13,
+      "max_substep_invariant_error": 1.2114163140183748e-15,
+      "ledger_increment": -0.04522866634864626,
+      "ledger_quadrature_difference": 6.906367838732663e-17,
+      "ledger_residual": 2.101109911056831e-10,
+      "integration_seconds": 3.3955884000170045
+    },
+    "partition_and_integration_seconds": 3.397571200010134
+  },
+  {
+    "method": "Lie",
+    "steps": 64,
+    "inner_rtol": 1e-09,
+    "repeat": 1,
+    "partition_setup_seconds": 0.002092599985189736,
+    "status": "success",
+    "observed_error": {
+      "0.001": 3.3203418858876548,
+      "1e-05": 332.03418858876546,
+      "1e-07": 33203.41885887655
+    },
+    "common_grid_error": {
+      "0.001": 2.141608669213772,
+      "1e-05": 214.1608669213772,
+      "1e-07": 21416.086692137724
+    },
+    "flux_error": {
+      "0.001": 12.015195607917658,
+      "1e-05": 1201.5195607917656,
+      "1e-07": 120151.95607917658
+    },
+    "invariant_error": 2.7581850397163265e-15,
+    "min_raw_concentration": 0.0,
+    "stats": {
+      "method": "Lie",
+      "macro_steps_completed": 64,
+      "subflow_calls": 128,
+      "nfev": 21297,
+      "njev": 66,
+      "nlu": 2066,
+      "accepted_substeps": 2753,
+      "rhs_calls_including_fd": 21694,
+      "fast_seconds": 4.711324399948353,
+      "slow_seconds": 0.27178499998990446,
+      "rhs_seconds": 1.1462568995775655,
+      "jacobian_seconds": 0.0,
+      "ledger_seconds": 2.131894200196257,
+      "significant_negative_rhs_components": 0,
+      "min_rhs_argument": 0.0,
+      "min_accepted_state": 0.0,
+      "min_subflow_endpoint": 0.0,
+      "min_macro_state": 0.0,
+      "clipping_count": 0,
+      "projection_count": 0,
+      "fallback_count": 0,
+      "fast_columns": [
+        6,
+        7
+      ],
+      "fast_updated_states": [
+        4,
+        5,
+        6,
+        11,
+        12,
+        13
+      ],
+      "slow_updated_state_count": 13,
+      "max_substep_invariant_error": 2.848936315036282e-15,
+      "ledger_increment": -0.04527023104092276,
+      "ledger_quadrature_difference": 5.980730233973164e-17,
+      "ledger_residual": 2.3905810664359706e-10,
+      "integration_seconds": 4.985928600013722
+    },
+    "partition_and_integration_seconds": 4.9880211999989115
+  },
+  {
+    "method": "Strang",
+    "steps": 64,
+    "inner_rtol": 1e-09,
+    "repeat": 1,
+    "partition_setup_seconds": 0.0023392000002786517,
+    "status": "success",
+    "observed_error": {
+      "0.001": 0.2342053203562932,
+      "1e-05": 23.420532035629318,
+      "1e-07": 2342.053203562932
+    },
+    "common_grid_error": {
+      "0.001": 0.15027586826003508,
+      "1e-05": 15.027586826003507,
+      "1e-07": 1502.758682600351
+    },
+    "flux_error": {
+      "0.001": 0.8544123973100988,
+      "1e-05": 85.44123973100986,
+      "1e-07": 8544.123973100988
+    },
+    "invariant_error": 3.3268922965845473e-15,
+    "min_raw_concentration": 0.0,
+    "stats": {
+      "method": "Strang",
+      "macro_steps_completed": 64,
+      "subflow_calls": 192,
+      "nfev": 22795,
+      "njev": 167,
+      "nlu": 2266,
+      "accepted_substeps": 2761,
+      "rhs_calls_including_fd": 23798,
+      "fast_seconds": 5.336858399736229,
+      "slow_seconds": 0.2894428000727203,
+      "rhs_seconds": 1.3304141000262462,
+      "jacobian_seconds": 0.0,
+      "ledger_seconds": 2.2230859001283534,
+      "significant_negative_rhs_components": 0,
+      "min_rhs_argument": 0.0,
+      "min_accepted_state": 0.0,
+      "min_subflow_endpoint": 0.0,
+      "min_macro_state": 0.0,
+      "clipping_count": 0,
+      "projection_count": 0,
+      "fallback_count": 0,
+      "fast_columns": [
+        6,
+        7
+      ],
+      "fast_updated_states": [
+        4,
+        5,
+        6,
+        11,
+        12,
+        13
+      ],
+      "slow_updated_state_count": 13,
+      "max_substep_invariant_error": 3.363409294785074e-15,
+      "ledger_increment": -0.04524578597795888,
+      "ledger_quadrature_difference": 5.4047478298402396e-17,
+      "ledger_residual": 2.3728592701832696e-10,
+      "integration_seconds": 5.629745999991428
+    },
+    "partition_and_integration_seconds": 5.632085199991707
+  },
+  {
+    "method": "Lie",
+    "steps": 16,
+    "inner_rtol": 1e-10,
+    "repeat": 1,
+    "partition_setup_seconds": 0.0019115000031888485,
+    "status": "success",
+    "observed_error": {
+      "0.001": 11.516818855378569,
+      "1e-05": 1151.6818855378567,
+      "1e-07": 115168.1885537857
+    },
+    "common_grid_error": {
+      "0.001": 11.516818855378569,
+      "1e-05": 1151.6818855378567,
+      "1e-07": 115168.1885537857
+    },
+    "flux_error": {
+      "0.001": 40.70786135213339,
+      "1e-05": 4070.7861352133386,
+      "1e-07": 407078.61352133396
+    },
+    "invariant_error": 2.6922069706885353e-15,
+    "min_raw_concentration": 0.0,
+    "stats": {
+      "method": "Lie",
+      "macro_steps_completed": 16,
+      "subflow_calls": 32,
+      "nfev": 15074,
+      "njev": 25,
+      "nlu": 818,
+      "accepted_substeps": 2062,
+      "rhs_calls_including_fd": 15225,
+      "fast_seconds": 3.3904687000031117,
+      "slow_seconds": 0.25278809998417273,
+      "rhs_seconds": 0.8700394003826659,
+      "jacobian_seconds": 0.0,
+      "ledger_seconds": 1.6205567000433803,
+      "significant_negative_rhs_components": 0,
+      "min_rhs_argument": 0.0,
+      "min_accepted_state": 0.0,
+      "min_subflow_endpoint": 0.0,
+      "min_macro_state": 0.0,
+      "clipping_count": 0,
+      "projection_count": 0,
+      "fallback_count": 0,
+      "fast_columns": [
+        6,
+        7
+      ],
+      "fast_updated_states": [
+        4,
+        5,
+        6,
+        11,
+        12,
+        13
+      ],
+      "slow_updated_state_count": 13,
+      "max_substep_invariant_error": 2.795620617064658e-15,
+      "ledger_increment": -0.045257842935980286,
+      "ledger_quadrature_difference": 1.5612511283791264e-17,
+      "ledger_residual": 2.3726187681205602e-11,
+      "integration_seconds": 3.644731399981538
+    },
+    "partition_and_integration_seconds": 3.6466428999847267
+  },
+  {
+    "method": "Strang",
+    "steps": 16,
+    "inner_rtol": 1e-10,
+    "repeat": 1,
+    "partition_setup_seconds": 0.0019256999948993325,
+    "status": "success",
+    "observed_error": {
+      "0.001": 0.31642218156313096,
+      "1e-05": 31.642218156313092,
+      "1e-07": 3164.2218156313097
+    },
+    "common_grid_error": {
+      "0.001": 0.31642218156313096,
+      "1e-05": 31.642218156313092,
+      "1e-07": 3164.2218156313097
+    },
+    "flux_error": {
+      "0.001": 0.7437660472105775,
+      "1e-05": 74.37660472105773,
+      "1e-07": 7437.660472105775
+    },
+    "invariant_error": 4.53672510983957e-15,
+    "min_raw_concentration": 0.0,
+    "stats": {
+      "method": "Strang",
+      "macro_steps_completed": 16,
+      "subflow_calls": 48,
+      "nfev": 16151,
+      "njev": 48,
+      "nlu": 900,
+      "accepted_substeps": 2166,
+      "rhs_calls_including_fd": 16440,
+      "fast_seconds": 3.517413600056898,
+      "slow_seconds": 0.22716310003306717,
+      "rhs_seconds": 0.8912121025496162,
+      "jacobian_seconds": 0.0,
+      "ledger_seconds": 1.6712134999688715,
+      "significant_negative_rhs_components": 0,
+      "min_rhs_argument": 0.0,
+      "min_accepted_state": 0.0,
+      "min_subflow_endpoint": 0.0,
+      "min_macro_state": 0.0,
+      "clipping_count": 0,
+      "projection_count": 0,
+      "fallback_count": 0,
+      "fast_columns": [
+        6,
+        7
+      ],
+      "fast_updated_states": [
+        4,
+        5,
+        6,
+        11,
+        12,
+        13
+      ],
+      "slow_updated_state_count": 13,
+      "max_substep_invariant_error": 4.753643542685442e-15,
+      "ledger_increment": -0.04516042168067625,
+      "ledger_quadrature_difference": 3.729655473350135e-17,
+      "ledger_residual": 2.3910214086431125e-11,
+      "integration_seconds": 3.7460577999881934
+    },
+    "partition_and_integration_seconds": 3.7479834999830928
+  },
+  {
+    "method": "Lie",
+    "steps": 32,
+    "inner_rtol": 1e-10,
+    "repeat": 1,
+    "partition_setup_seconds": 0.0019191000028513372,
+    "status": "success",
+    "observed_error": {
+      "0.001": 6.4562671494186,
+      "1e-05": 645.6267149418599,
+      "1e-07": 64562.671494186
+    },
+    "common_grid_error": {
+      "0.001": 4.82470114877826,
+      "1e-05": 482.47011487782595,
+      "1e-07": 48247.0114877826
+    },
+    "flux_error": {
+      "0.001": 23.193991074249183,
+      "1e-05": 2319.399107424918,
+      "1e-07": 231939.91074249183
+    },
+    "invariant_error": 2.240943468045646e-15,
+    "min_raw_concentration": 0.0,
+    "stats": {
+      "method": "Lie",
+      "macro_steps_completed": 32,
+      "subflow_calls": 64,
+      "nfev": 23146,
+      "njev": 34,
+      "nlu": 1446,
+      "accepted_substeps": 3150,
+      "rhs_calls_including_fd": 23351,
+      "fast_seconds": 5.1027835000131745,
+      "slow_seconds": 0.278323099919362,
+      "rhs_seconds": 1.2533406981092412,
+      "jacobian_seconds": 0.0,
+      "ledger_seconds": 2.4369575998571236,
+      "significant_negative_rhs_components": 0,
+      "min_rhs_argument": 0.0,
+      "min_accepted_state": 0.0,
+      "min_subflow_endpoint": 0.0,
+      "min_macro_state": 0.0,
+      "clipping_count": 0,
+      "projection_count": 0,
+      "fallback_count": 0,
+      "fast_columns": [
+        6,
+        7
+      ],
+      "fast_updated_states": [
+        4,
+        5,
+        6,
+        11,
+        12,
+        13
+      ],
+      "slow_updated_state_count": 13,
+      "max_substep_invariant_error": 2.46551652731722e-15,
+      "ledger_increment": -0.04527747142859553,
+      "ledger_quadrature_difference": 3.69712940817557e-17,
+      "ledger_residual": 2.250712810569766e-11,
+      "integration_seconds": 5.383539800008293
+    },
+    "partition_and_integration_seconds": 5.385458900011145
+  },
+  {
+    "method": "Strang",
+    "steps": 32,
+    "inner_rtol": 1e-10,
+    "repeat": 1,
+    "partition_setup_seconds": 0.0019317999831400812,
+    "status": "success",
+    "observed_error": {
+      "0.001": 0.20570388017063512,
+      "1e-05": 20.57038801706351,
+      "1e-07": 2057.0388017063515
+    },
+    "common_grid_error": {
+      "0.001": 0.15072065175969823,
+      "1e-05": 15.072065175969822,
+      "1e-07": 1507.2065175969824
+    },
+    "flux_error": {
+      "0.001": 0.7598948594672152,
+      "1e-05": 75.98948594672152,
+      "1e-07": 7598.948594672153
+    },
+    "invariant_error": 3.1171079840744325e-15,
+    "min_raw_concentration": 0.0,
+    "stats": {
+      "method": "Strang",
+      "macro_steps_completed": 32,
+      "subflow_calls": 96,
+      "nfev": 24142,
+      "njev": 86,
+      "nlu": 1412,
+      "accepted_substeps": 3183,
+      "rhs_calls_including_fd": 24659,
+      "fast_seconds": 5.207891600060975,
+      "slow_seconds": 0.2766047999903094,
+      "rhs_seconds": 1.3144952985458076,
+      "jacobian_seconds": 0.0,
+      "ledger_seconds": 2.4325767001137137,
+      "significant_negative_rhs_components": 0,
+      "min_rhs_argument": 0.0,
+      "min_accepted_state": 0.0,
+      "min_subflow_endpoint": 0.0,
+      "min_macro_state": 0.0,
+      "clipping_count": 0,
+      "projection_count": 0,
+      "fallback_count": 0,
+      "fast_columns": [
+        6,
+        7
+      ],
+      "fast_updated_states": [
+        4,
+        5,
+        6,
+        11,
+        12,
+        13
+      ],
+      "slow_updated_state_count": 13,
+      "max_substep_invariant_error": 3.2319221517883586e-15,
+      "ledger_increment": -0.04522866618763257,
+      "ledger_quadrature_difference": 2.45029690981724e-17,
+      "ledger_residual": 2.260116399588341e-11,
+      "integration_seconds": 5.487172000022838
+    },
+    "partition_and_integration_seconds": 5.489103800005978
+  },
+  {
+    "method": "Lie",
+    "steps": 64,
+    "inner_rtol": 1e-10,
+    "repeat": 1,
+    "partition_setup_seconds": 0.002382000006036833,
+    "status": "success",
+    "observed_error": {
+      "0.001": 3.320341884184172,
+      "1e-05": 332.03418841841716,
+      "1e-07": 33203.418841841725
+    },
+    "common_grid_error": {
+      "0.001": 2.1416086591547305,
+      "1e-05": 214.16086591547304,
+      "1e-07": 21416.086591547308
+    },
+    "flux_error": {
+      "0.001": 12.01519560165104,
+      "1e-05": 1201.519560165104,
+      "1e-07": 120151.9560165104
+    },
+    "invariant_error": 1.9184051624632466e-15,
+    "min_raw_concentration": 0.0,
+    "stats": {
+      "method": "Lie",
+      "macro_steps_completed": 64,
+      "subflow_calls": 128,
+      "nfev": 35763,
+      "njev": 67,
+      "nlu": 2306,
+      "accepted_substeps": 4797,
+      "rhs_calls_including_fd": 36166,
+      "fast_seconds": 8.613528099929681,
+      "slow_seconds": 0.38804769996204413,
+      "rhs_seconds": 2.145980297442293,
+      "jacobian_seconds": 0.0,
+      "ledger_seconds": 3.9646228999772575,
+      "significant_negative_rhs_components": 0,
+      "min_rhs_argument": 0.0,
+      "min_accepted_state": 0.0,
+      "min_subflow_endpoint": 0.0,
+      "min_macro_state": 0.0,
+      "clipping_count": 0,
+      "projection_count": 0,
+      "fallback_count": 0,
+      "fast_columns": [
+        6,
+        7
+      ],
+      "fast_updated_states": [
+        4,
+        5,
+        6,
+        11,
+        12,
+        13
+      ],
+      "slow_updated_state_count": 13,
+      "max_substep_invariant_error": 2.101865616983069e-15,
+      "ledger_increment": -0.045270230871687404,
+      "ledger_quadrature_difference": 4.9751327189928585e-17,
+      "ledger_residual": 2.0855255022933505e-11,
+      "integration_seconds": 9.0062040000048
+    },
+    "partition_and_integration_seconds": 9.008586000010837
+  },
+  {
+    "method": "Strang",
+    "steps": 64,
+    "inner_rtol": 1e-10,
+    "repeat": 1,
+    "partition_setup_seconds": 0.0019691000052262098,
+    "status": "success",
+    "observed_error": {
+      "0.001": 0.23420532439727007,
+      "1e-05": 23.420532439727,
+      "1e-07": 2342.053243972701
+    },
+    "common_grid_error": {
+      "0.001": 0.15027587706596388,
+      "1e-05": 15.027587706596385,
+      "1e-07": 1502.758770659639
+    },
+    "flux_error": {
+      "0.001": 0.8544124120312777,
+      "1e-05": 85.44124120312776,
+      "1e-07": 8544.124120312777
+    },
+    "invariant_error": 4.752245256236266e-15,
+    "min_raw_concentration": 0.0,
+    "stats": {
+      "method": "Strang",
+      "macro_steps_completed": 64,
+      "subflow_calls": 192,
+      "nfev": 37696,
+      "njev": 161,
+      "nlu": 2724,
+      "accepted_substeps": 4824,
+      "rhs_calls_including_fd": 38663,
+      "fast_seconds": 8.97535119994427,
+      "slow_seconds": 0.37192659988068044,
+      "rhs_seconds": 2.2109919050126337,
+      "jacobian_seconds": 0.0,
+      "ledger_seconds": 3.8990853997238446,
+      "significant_negative_rhs_components": 0,
+      "min_rhs_argument": 0.0,
+      "min_accepted_state": 0.0,
+      "min_subflow_endpoint": 0.0,
+      "min_macro_state": 0.0,
+      "clipping_count": 0,
+      "projection_count": 0,
+      "fallback_count": 0,
+      "fast_columns": [
+        6,
+        7
+      ],
+      "fast_updated_states": [
+        4,
+        5,
+        6,
+        11,
+        12,
+        13
+      ],
+      "slow_updated_state_count": 13,
+      "max_substep_invariant_error": 4.8590996547597694e-15,
+      "ledger_increment": -0.04524578581025344,
+      "ledger_quadrature_difference": 5.082197683525802e-17,
+      "ledger_residual": 2.1101488612007557e-11,
+      "integration_seconds": 9.352205400005914
+    },
+    "partition_and_integration_seconds": 9.35417450001114
+  },
+  {
+    "method": "Lie",
+    "steps": 16,
+    "inner_rtol": 1e-09,
+    "repeat": 1,
+    "partition_setup_seconds": 0.0018644999945536256,
+    "status": "success",
+    "observed_error": {
+      "0.001": 11.516818855381732,
+      "1e-05": 1151.681885538173,
+      "1e-07": 115168.18855381732
+    },
+    "common_grid_error": {
+      "0.001": 11.516818855381732,
+      "1e-05": 1151.681885538173,
+      "1e-07": 115168.18855381732
+    },
+    "flux_error": {
+      "0.001": 40.707861352267436,
+      "1e-05": 4070.786135226743,
+      "1e-07": 407078.6135226744
+    },
+    "invariant_error": 5.060832610537321e-16,
+    "min_raw_concentration": 0.0,
+    "stats": {
+      "method": "Lie",
+      "macro_steps_completed": 16,
+      "subflow_calls": 32,
+      "nfev": 8943,
+      "njev": 19,
+      "nlu": 706,
+      "accepted_substeps": 1193,
+      "rhs_calls_including_fd": 9058,
+      "fast_seconds": 2.0153124000353273,
+      "slow_seconds": 0.1815283999312669,
+      "rhs_seconds": 0.5307059992919676,
+      "jacobian_seconds": 0.0,
+      "ledger_seconds": 0.9448953999090008,
+      "significant_negative_rhs_components": 0,
+      "min_rhs_argument": 0.0,
+      "min_accepted_state": 0.0,
+      "min_subflow_endpoint": 0.0,
+      "min_macro_state": 0.0,
+      "clipping_count": 0,
+      "projection_count": 0,
+      "fallback_count": 0,
+      "fast_columns": [
+        6,
+        7
+      ],
+      "fast_updated_states": [
+        4,
+        5,
+        6,
+        11,
+        12,
+        13
+      ],
+      "slow_updated_state_count": 13,
+      "max_substep_invariant_error": 6.343398801851087e-16,
+      "ledger_increment": -0.045257843110750026,
+      "ledger_quadrature_difference": 4.0766001685454967e-17,
+      "ledger_residual": 2.2267214461191287e-10,
+      "integration_seconds": 2.1978405000118073
+    },
+    "partition_and_integration_seconds": 2.199705000006361
+  },
+  {
+    "method": "Lie",
+    "steps": 32,
+    "inner_rtol": 1e-09,
+    "repeat": 2,
+    "partition_setup_seconds": 0.0023469000007025898,
+    "status": "success",
+    "observed_error": {
+      "0.001": 6.45626714979964,
+      "1e-05": 645.6267149799638,
+      "1e-07": 64562.671497996394
+    },
+    "common_grid_error": {
+      "0.001": 4.824701153198971,
+      "1e-05": 482.47011531989705,
+      "1e-07": 48247.01153198971
+    },
+    "flux_error": {
+      "0.001": 23.19399107572213,
+      "1e-05": 2319.399107572213,
+      "1e-07": 231939.9107572213
+    },
+    "invariant_error": 1.080692309401897e-15,
+    "min_raw_concentration": 0.0,
+    "stats": {
+      "method": "Lie",
+      "macro_steps_completed": 32,
+      "subflow_calls": 64,
+      "nfev": 13875,
+      "njev": 34,
+      "nlu": 1264,
+      "accepted_substeps": 1825,
+      "rhs_calls_including_fd": 14080,
+      "fast_seconds": 3.307555500068702,
+      "slow_seconds": 0.22238619995187037,
+      "rhs_seconds": 0.8139945989532862,
+      "jacobian_seconds": 0.0,
+      "ledger_seconds": 1.5343180999625474,
+      "significant_negative_rhs_components": 0,
+      "min_rhs_argument": 0.0,
+      "min_accepted_state": 0.0,
+      "min_subflow_endpoint": 0.0,
+      "min_macro_state": 0.0,
+      "clipping_count": 0,
+      "projection_count": 0,
+      "fallback_count": 0,
+      "fast_columns": [
+        6,
+        7
+      ],
+      "fast_updated_states": [
+        4,
+        5,
+        6,
+        11,
+        12,
+        13
+      ],
+      "slow_updated_state_count": 13,
+      "max_substep_invariant_error": 1.243341845575654e-15,
+      "ledger_increment": -0.04527747158957034,
+      "ledger_quadrature_difference": 5.2583805365546965e-17,
+      "ledger_residual": 2.099749679684848e-10,
+      "integration_seconds": 3.531768799992278
+    },
+    "partition_and_integration_seconds": 3.534115699992981
+  },
+  {
+    "method": "Strang",
+    "steps": 32,
+    "inner_rtol": 1e-09,
+    "repeat": 2,
+    "partition_setup_seconds": 0.002185300021665171,
+    "status": "success",
+    "observed_error": {
+      "0.001": 0.20570387155452327,
+      "1e-05": 20.570387155452323,
+      "1e-07": 2057.0387155452327
+    },
+    "common_grid_error": {
+      "0.001": 0.15072064111047193,
+      "1e-05": 15.07206411104719,
+      "1e-07": 1507.2064111047193
+    },
+    "flux_error": {
+      "0.001": 0.7598948281523333,
+      "1e-05": 75.98948281523333,
+      "1e-07": 7598.948281523333
+    },
+    "invariant_error": 9.075503920903446e-16,
+    "min_raw_concentration": 0.0,
+    "stats": {
+      "method": "Strang",
+      "macro_steps_completed": 32,
+      "subflow_calls": 96,
+      "nfev": 14074,
+      "njev": 71,
+      "nlu": 1198,
+      "accepted_substeps": 1816,
+      "rhs_calls_including_fd": 14501,
+      "fast_seconds": 3.301993699889863,
+      "slow_seconds": 0.21959250001236796,
+      "rhs_seconds": 0.8270396013977006,
+      "jacobian_seconds": 0.0,
+      "ledger_seconds": 1.5010396001453046,
+      "significant_negative_rhs_components": 0,
+      "min_rhs_argument": 0.0,
+      "min_accepted_state": 0.0,
+      "min_subflow_endpoint": 0.0,
+      "min_macro_state": 0.0,
+      "clipping_count": 0,
+      "projection_count": 0,
+      "fallback_count": 0,
+      "fast_columns": [
+        6,
+        7
+      ],
+      "fast_updated_states": [
+        4,
+        5,
+        6,
+        11,
+        12,
+        13
+      ],
+      "slow_updated_state_count": 13,
+      "max_substep_invariant_error": 1.2114163140183748e-15,
+      "ledger_increment": -0.04522866634864626,
+      "ledger_quadrature_difference": 6.906367838732663e-17,
+      "ledger_residual": 2.101109911056831e-10,
+      "integration_seconds": 3.523619699990377
+    },
+    "partition_and_integration_seconds": 3.525805000012042
+  },
+  {
+    "method": "Lie",
+    "steps": 64,
+    "inner_rtol": 1e-09,
+    "repeat": 2,
+    "partition_setup_seconds": 0.0017522999842185527,
+    "status": "success",
+    "observed_error": {
+      "0.001": 3.3203418858876548,
+      "1e-05": 332.03418858876546,
+      "1e-07": 33203.41885887655
+    },
+    "common_grid_error": {
+      "0.001": 2.141608669213772,
+      "1e-05": 214.1608669213772,
+      "1e-07": 21416.086692137724
+    },
+    "flux_error": {
+      "0.001": 12.015195607917658,
+      "1e-05": 1201.5195607917656,
+      "1e-07": 120151.95607917658
+    },
+    "invariant_error": 2.7581850397163265e-15,
+    "min_raw_concentration": 0.0,
+    "stats": {
+      "method": "Lie",
+      "macro_steps_completed": 64,
+      "subflow_calls": 128,
+      "nfev": 21297,
+      "njev": 66,
+      "nlu": 2066,
+      "accepted_substeps": 2753,
+      "rhs_calls_including_fd": 21694,
+      "fast_seconds": 5.072587799892062,
+      "slow_seconds": 0.29498480007168837,
+      "rhs_seconds": 1.23779910011217,
+      "jacobian_seconds": 0.0,
+      "ledger_seconds": 2.2512402000720613,
+      "significant_negative_rhs_components": 0,
+      "min_rhs_argument": 0.0,
+      "min_accepted_state": 0.0,
+      "min_subflow_endpoint": 0.0,
+      "min_macro_state": 0.0,
+      "clipping_count": 0,
+      "projection_count": 0,
+      "fallback_count": 0,
+      "fast_columns": [
+        6,
+        7
+      ],
+      "fast_updated_states": [
+        4,
+        5,
+        6,
+        11,
+        12,
+        13
+      ],
+      "slow_updated_state_count": 13,
+      "max_substep_invariant_error": 2.848936315036282e-15,
+      "ledger_increment": -0.04527023104092276,
+      "ledger_quadrature_difference": 5.980730233973164e-17,
+      "ledger_residual": 2.3905810664359706e-10,
+      "integration_seconds": 5.370708600006765
+    },
+    "partition_and_integration_seconds": 5.372460899990983
+  },
+  {
+    "method": "Strang",
+    "steps": 64,
+    "inner_rtol": 1e-09,
+    "repeat": 2,
+    "partition_setup_seconds": 0.0019157000060658902,
+    "status": "success",
+    "observed_error": {
+      "0.001": 0.2342053203562932,
+      "1e-05": 23.420532035629318,
+      "1e-07": 2342.053203562932
+    },
+    "common_grid_error": {
+      "0.001": 0.15027586826003508,
+      "1e-05": 15.027586826003507,
+      "1e-07": 1502.758682600351
+    },
+    "flux_error": {
+      "0.001": 0.8544123973100988,
+      "1e-05": 85.44123973100986,
+      "1e-07": 8544.123973100988
+    },
+    "invariant_error": 3.3268922965845473e-15,
+    "min_raw_concentration": 0.0,
+    "stats": {
+      "method": "Strang",
+      "macro_steps_completed": 64,
+      "subflow_calls": 192,
+      "nfev": 22795,
+      "njev": 167,
+      "nlu": 2266,
+      "accepted_substeps": 2761,
+      "rhs_calls_including_fd": 23798,
+      "fast_seconds": 5.794210199965164,
+      "slow_seconds": 0.30967419999069534,
+      "rhs_seconds": 1.4360475977009628,
+      "jacobian_seconds": 0.0,
+      "ledger_seconds": 2.4285009000450373,
+      "significant_negative_rhs_components": 0,
+      "min_rhs_argument": 0.0,
+      "min_accepted_state": 0.0,
+      "min_subflow_endpoint": 0.0,
+      "min_macro_state": 0.0,
+      "clipping_count": 0,
+      "projection_count": 0,
+      "fallback_count": 0,
+      "fast_columns": [
+        6,
+        7
+      ],
+      "fast_updated_states": [
+        4,
+        5,
+        6,
+        11,
+        12,
+        13
+      ],
+      "slow_updated_state_count": 13,
+      "max_substep_invariant_error": 3.363409294785074e-15,
+      "ledger_increment": -0.04524578597795888,
+      "ledger_quadrature_difference": 5.4047478298402396e-17,
+      "ledger_residual": 2.3728592701832696e-10,
+      "integration_seconds": 6.1078737000061665
+    },
+    "partition_and_integration_seconds": 6.109789400012232
+  },
+  {
+    "method": "Lie",
+    "steps": 16,
+    "inner_rtol": 1e-10,
+    "repeat": 2,
+    "partition_setup_seconds": 0.0019352000090293586,
+    "status": "success",
+    "observed_error": {
+      "0.001": 11.516818855378569,
+      "1e-05": 1151.6818855378567,
+      "1e-07": 115168.1885537857
+    },
+    "common_grid_error": {
+      "0.001": 11.516818855378569,
+      "1e-05": 1151.6818855378567,
+      "1e-07": 115168.1885537857
+    },
+    "flux_error": {
+      "0.001": 40.70786135213339,
+      "1e-05": 4070.7861352133386,
+      "1e-07": 407078.61352133396
+    },
+    "invariant_error": 2.6922069706885353e-15,
+    "min_raw_concentration": 0.0,
+    "stats": {
+      "method": "Lie",
+      "macro_steps_completed": 16,
+      "subflow_calls": 32,
+      "nfev": 15074,
+      "njev": 25,
+      "nlu": 818,
+      "accepted_substeps": 2062,
+      "rhs_calls_including_fd": 15225,
+      "fast_seconds": 3.4139071000972763,
+      "slow_seconds": 0.25793230000999756,
+      "rhs_seconds": 0.8593856999359559,
+      "jacobian_seconds": 0.0,
+      "ledger_seconds": 1.713569200161146,
+      "significant_negative_rhs_components": 0,
+      "min_rhs_argument": 0.0,
+      "min_accepted_state": 0.0,
+      "min_subflow_endpoint": 0.0,
+      "min_macro_state": 0.0,
+      "clipping_count": 0,
+      "projection_count": 0,
+      "fallback_count": 0,
+      "fast_columns": [
+        6,
+        7
+      ],
+      "fast_updated_states": [
+        4,
+        5,
+        6,
+        11,
+        12,
+        13
+      ],
+      "slow_updated_state_count": 13,
+      "max_substep_invariant_error": 2.795620617064658e-15,
+      "ledger_increment": -0.045257842935980286,
+      "ledger_quadrature_difference": 1.5612511283791264e-17,
+      "ledger_residual": 2.3726187681205602e-11,
+      "integration_seconds": 3.6731719999806955
+    },
+    "partition_and_integration_seconds": 3.675107199989725
+  },
+  {
+    "method": "Strang",
+    "steps": 16,
+    "inner_rtol": 1e-10,
+    "repeat": 2,
+    "partition_setup_seconds": 0.002088399982312694,
+    "status": "success",
+    "observed_error": {
+      "0.001": 0.31642218156313096,
+      "1e-05": 31.642218156313092,
+      "1e-07": 3164.2218156313097
+    },
+    "common_grid_error": {
+      "0.001": 0.31642218156313096,
+      "1e-05": 31.642218156313092,
+      "1e-07": 3164.2218156313097
+    },
+    "flux_error": {
+      "0.001": 0.7437660472105775,
+      "1e-05": 74.37660472105773,
+      "1e-07": 7437.660472105775
+    },
+    "invariant_error": 4.53672510983957e-15,
+    "min_raw_concentration": 0.0,
+    "stats": {
+      "method": "Strang",
+      "macro_steps_completed": 16,
+      "subflow_calls": 48,
+      "nfev": 16151,
+      "njev": 48,
+      "nlu": 900,
+      "accepted_substeps": 2166,
+      "rhs_calls_including_fd": 16440,
+      "fast_seconds": 3.596867800108157,
+      "slow_seconds": 0.2279171000700444,
+      "rhs_seconds": 0.9207461011828855,
+      "jacobian_seconds": 0.0,
+      "ledger_seconds": 1.7097301000612788,
+      "significant_negative_rhs_components": 0,
+      "min_rhs_argument": 0.0,
+      "min_accepted_state": 0.0,
+      "min_subflow_endpoint": 0.0,
+      "min_macro_state": 0.0,
+      "clipping_count": 0,
+      "projection_count": 0,
+      "fallback_count": 0,
+      "fast_columns": [
+        6,
+        7
+      ],
+      "fast_updated_states": [
+        4,
+        5,
+        6,
+        11,
+        12,
+        13
+      ],
+      "slow_updated_state_count": 13,
+      "max_substep_invariant_error": 4.753643542685442e-15,
+      "ledger_increment": -0.04516042168067625,
+      "ledger_quadrature_difference": 3.729655473350135e-17,
+      "ledger_residual": 2.3910214086431125e-11,
+      "integration_seconds": 3.826367300003767
+    },
+    "partition_and_integration_seconds": 3.8284556999860797
+  },
+  {
+    "method": "Lie",
+    "steps": 32,
+    "inner_rtol": 1e-10,
+    "repeat": 2,
+    "partition_setup_seconds": 0.0018091000092681497,
+    "status": "success",
+    "observed_error": {
+      "0.001": 6.4562671494186,
+      "1e-05": 645.6267149418599,
+      "1e-07": 64562.671494186
+    },
+    "common_grid_error": {
+      "0.001": 4.82470114877826,
+      "1e-05": 482.47011487782595,
+      "1e-07": 48247.0114877826
+    },
+    "flux_error": {
+      "0.001": 23.193991074249183,
+      "1e-05": 2319.399107424918,
+      "1e-07": 231939.91074249183
+    },
+    "invariant_error": 2.240943468045646e-15,
+    "min_raw_concentration": 0.0,
+    "stats": {
+      "method": "Lie",
+      "macro_steps_completed": 32,
+      "subflow_calls": 64,
+      "nfev": 23146,
+      "njev": 34,
+      "nlu": 1446,
+      "accepted_substeps": 3150,
+      "rhs_calls_including_fd": 23351,
+      "fast_seconds": 5.292431500041857,
+      "slow_seconds": 0.2955521998810582,
+      "rhs_seconds": 1.328609301475808,
+      "jacobian_seconds": 0.0,
+      "ledger_seconds": 2.507062499935273,
+      "significant_negative_rhs_components": 0,
+      "min_rhs_argument": 0.0,
+      "min_accepted_state": 0.0,
+      "min_subflow_endpoint": 0.0,
+      "min_macro_state": 0.0,
+      "clipping_count": 0,
+      "projection_count": 0,
+      "fallback_count": 0,
+      "fast_columns": [
+        6,
+        7
+      ],
+      "fast_updated_states": [
+        4,
+        5,
+        6,
+        11,
+        12,
+        13
+      ],
+      "slow_updated_state_count": 13,
+      "max_substep_invariant_error": 2.46551652731722e-15,
+      "ledger_increment": -0.04527747142859553,
+      "ledger_quadrature_difference": 3.69712940817557e-17,
+      "ledger_residual": 2.250712810569766e-11,
+      "integration_seconds": 5.5904057000007015
+    },
+    "partition_and_integration_seconds": 5.59221480000997
+  },
+  {
+    "method": "Strang",
+    "steps": 32,
+    "inner_rtol": 1e-10,
+    "repeat": 2,
+    "partition_setup_seconds": 0.002122799982316792,
+    "status": "success",
+    "observed_error": {
+      "0.001": 0.20570388017063512,
+      "1e-05": 20.57038801706351,
+      "1e-07": 2057.0388017063515
+    },
+    "common_grid_error": {
+      "0.001": 0.15072065175969823,
+      "1e-05": 15.072065175969822,
+      "1e-07": 1507.2065175969824
+    },
+    "flux_error": {
+      "0.001": 0.7598948594672152,
+      "1e-05": 75.98948594672152,
+      "1e-07": 7598.948594672153
+    },
+    "invariant_error": 3.1171079840744325e-15,
+    "min_raw_concentration": 0.0,
+    "stats": {
+      "method": "Strang",
+      "macro_steps_completed": 32,
+      "subflow_calls": 96,
+      "nfev": 24142,
+      "njev": 86,
+      "nlu": 1412,
+      "accepted_substeps": 3183,
+      "rhs_calls_including_fd": 24659,
+      "fast_seconds": 5.331088900013128,
+      "slow_seconds": 0.26452790008625016,
+      "rhs_seconds": 1.3800533016037662,
+      "jacobian_seconds": 0.0,
+      "ledger_seconds": 2.4327291001100093,
+      "significant_negative_rhs_components": 0,
+      "min_rhs_argument": 0.0,
+      "min_accepted_state": 0.0,
+      "min_subflow_endpoint": 0.0,
+      "min_macro_state": 0.0,
+      "clipping_count": 0,
+      "projection_count": 0,
+      "fallback_count": 0,
+      "fast_columns": [
+        6,
+        7
+      ],
+      "fast_updated_states": [
+        4,
+        5,
+        6,
+        11,
+        12,
+        13
+      ],
+      "slow_updated_state_count": 13,
+      "max_substep_invariant_error": 3.2319221517883586e-15,
+      "ledger_increment": -0.04522866618763257,
+      "ledger_quadrature_difference": 2.45029690981724e-17,
+      "ledger_residual": 2.260116399588341e-11,
+      "integration_seconds": 5.598228500020923
+    },
+    "partition_and_integration_seconds": 5.60035130000324
+  },
+  {
+    "method": "Lie",
+    "steps": 64,
+    "inner_rtol": 1e-10,
+    "repeat": 2,
+    "partition_setup_seconds": 0.0019173000182490796,
+    "status": "success",
+    "observed_error": {
+      "0.001": 3.320341884184172,
+      "1e-05": 332.03418841841716,
+      "1e-07": 33203.418841841725
+    },
+    "common_grid_error": {
+      "0.001": 2.1416086591547305,
+      "1e-05": 214.16086591547304,
+      "1e-07": 21416.086591547308
+    },
+    "flux_error": {
+      "0.001": 12.01519560165104,
+      "1e-05": 1201.519560165104,
+      "1e-07": 120151.9560165104
+    },
+    "invariant_error": 1.9184051624632466e-15,
+    "min_raw_concentration": 0.0,
+    "stats": {
+      "method": "Lie",
+      "macro_steps_completed": 64,
+      "subflow_calls": 128,
+      "nfev": 35763,
+      "njev": 67,
+      "nlu": 2306,
+      "accepted_substeps": 4797,
+      "rhs_calls_including_fd": 36166,
+      "fast_seconds": 8.49100370000815,
+      "slow_seconds": 0.3511913000838831,
+      "rhs_seconds": 2.1153934997564647,
+      "jacobian_seconds": 0.0,
+      "ledger_seconds": 3.872411199932685,
+      "significant_negative_rhs_components": 0,
+      "min_rhs_argument": 0.0,
+      "min_accepted_state": 0.0,
+      "min_subflow_endpoint": 0.0,
+      "min_macro_state": 0.0,
+      "clipping_count": 0,
+      "projection_count": 0,
+      "fallback_count": 0,
+      "fast_columns": [
+        6,
+        7
+      ],
+      "fast_updated_states": [
+        4,
+        5,
+        6,
+        11,
+        12,
+        13
+      ],
+      "slow_updated_state_count": 13,
+      "max_substep_invariant_error": 2.101865616983069e-15,
+      "ledger_increment": -0.045270230871687404,
+      "ledger_quadrature_difference": 4.9751327189928585e-17,
+      "ledger_residual": 2.0855255022933505e-11,
+      "integration_seconds": 8.846212999982527
+    },
+    "partition_and_integration_seconds": 8.848130300000776
+  },
+  {
+    "method": "Strang",
+    "steps": 64,
+    "inner_rtol": 1e-10,
+    "repeat": 2,
+    "partition_setup_seconds": 0.0017970000044442713,
+    "status": "success",
+    "observed_error": {
+      "0.001": 0.23420532439727007,
+      "1e-05": 23.420532439727,
+      "1e-07": 2342.053243972701
+    },
+    "common_grid_error": {
+      "0.001": 0.15027587706596388,
+      "1e-05": 15.027587706596385,
+      "1e-07": 1502.758770659639
+    },
+    "flux_error": {
+      "0.001": 0.8544124120312777,
+      "1e-05": 85.44124120312776,
+      "1e-07": 8544.124120312777
+    },
+    "invariant_error": 4.752245256236266e-15,
+    "min_raw_concentration": 0.0,
+    "stats": {
+      "method": "Strang",
+      "macro_steps_completed": 64,
+      "subflow_calls": 192,
+      "nfev": 37696,
+      "njev": 161,
+      "nlu": 2724,
+      "accepted_substeps": 4824,
+      "rhs_calls_including_fd": 38663,
+      "fast_seconds": 9.244568299705861,
+      "slow_seconds": 0.36755440005799755,
+      "rhs_seconds": 2.2871186989650596,
+      "jacobian_seconds": 0.0,
+      "ledger_seconds": 3.9955351999378763,
+      "significant_negative_rhs_components": 0,
+      "min_rhs_argument": 0.0,
+      "min_accepted_state": 0.0,
+      "min_subflow_endpoint": 0.0,
+      "min_macro_state": 0.0,
+      "clipping_count": 0,
+      "projection_count": 0,
+      "fallback_count": 0,
+      "fast_columns": [
+        6,
+        7
+      ],
+      "fast_updated_states": [
+        4,
+        5,
+        6,
+        11,
+        12,
+        13
+      ],
+      "slow_updated_state_count": 13,
+      "max_substep_invariant_error": 4.8590996547597694e-15,
+      "ledger_increment": -0.04524578581025344,
+      "ledger_quadrature_difference": 5.082197683525802e-17,
+      "ledger_residual": 2.1101488612007557e-11,
+      "integration_seconds": 9.617357099981746
+    },
+    "partition_and_integration_seconds": 9.61915409998619
+  },
+  {
+    "method": "Lie",
+    "steps": 16,
+    "inner_rtol": 1e-09,
+    "repeat": 2,
+    "partition_setup_seconds": 0.002212599996710196,
+    "status": "success",
+    "observed_error": {
+      "0.001": 11.516818855381732,
+      "1e-05": 1151.681885538173,
+      "1e-07": 115168.18855381732
+    },
+    "common_grid_error": {
+      "0.001": 11.516818855381732,
+      "1e-05": 1151.681885538173,
+      "1e-07": 115168.18855381732
+    },
+    "flux_error": {
+      "0.001": 40.707861352267436,
+      "1e-05": 4070.786135226743,
+      "1e-07": 407078.6135226744
+    },
+    "invariant_error": 5.060832610537321e-16,
+    "min_raw_concentration": 0.0,
+    "stats": {
+      "method": "Lie",
+      "macro_steps_completed": 16,
+      "subflow_calls": 32,
+      "nfev": 8943,
+      "njev": 19,
+      "nlu": 706,
+      "accepted_substeps": 1193,
+      "rhs_calls_including_fd": 9058,
+      "fast_seconds": 2.1117089000181295,
+      "slow_seconds": 0.18439469995792024,
+      "rhs_seconds": 0.5395657000190113,
+      "jacobian_seconds": 0.0,
+      "ledger_seconds": 0.9727886999608018,
+      "significant_negative_rhs_components": 0,
+      "min_rhs_argument": 0.0,
+      "min_accepted_state": 0.0,
+      "min_subflow_endpoint": 0.0,
+      "min_macro_state": 0.0,
+      "clipping_count": 0,
+      "projection_count": 0,
+      "fallback_count": 0,
+      "fast_columns": [
+        6,
+        7
+      ],
+      "fast_updated_states": [
+        4,
+        5,
+        6,
+        11,
+        12,
+        13
+      ],
+      "slow_updated_state_count": 13,
+      "max_substep_invariant_error": 6.343398801851087e-16,
+      "ledger_increment": -0.045257843110750026,
+      "ledger_quadrature_difference": 4.0766001685454967e-17,
+      "ledger_residual": 2.2267214461191287e-10,
+      "integration_seconds": 2.297328100015875
+    },
+    "partition_and_integration_seconds": 2.299540700012585
+  },
+  {
+    "method": "Strang",
+    "steps": 16,
+    "inner_rtol": 1e-09,
+    "repeat": 2,
+    "partition_setup_seconds": 0.002139299991540611,
+    "status": "success",
+    "observed_error": {
+      "0.001": 0.31642220094337004,
+      "1e-05": 31.642220094337,
+      "1e-07": 3164.2220094337004
+    },
+    "common_grid_error": {
+      "0.001": 0.31642220094337004,
+      "1e-05": 31.642220094337,
+      "1e-07": 3164.2220094337004
+    },
+    "flux_error": {
+      "0.001": 0.7437660904547068,
+      "1e-05": 74.37660904547066,
+      "1e-07": 7437.660904547068
+    },
+    "invariant_error": 3.4068043914836605e-15,
+    "min_raw_concentration": 0.0,
+    "stats": {
+      "method": "Strang",
+      "macro_steps_completed": 16,
+      "subflow_calls": 48,
+      "nfev": 9476,
+      "njev": 45,
+      "nlu": 744,
+      "accepted_substeps": 1248,
+      "rhs_calls_including_fd": 9747,
+      "fast_seconds": 2.356401300057769,
+      "slow_seconds": 0.18774489997304045,
+      "rhs_seconds": 0.5918778973864391,
+      "jacobian_seconds": 0.0,
+      "ledger_seconds": 1.068084500002442,
+      "significant_negative_rhs_components": 0,
+      "min_rhs_argument": 0.0,
+      "min_accepted_state": 0.0,
+      "min_subflow_endpoint": 0.0,
+      "min_macro_state": 0.0,
+      "clipping_count": 0,
+      "projection_count": 0,
+      "fallback_count": 0,
+      "fast_columns": [
+        6,
+        7
+      ],
+      "fast_updated_states": [
+        4,
+        5,
+        6,
+        11,
+        12,
+        13
+      ],
+      "slow_updated_state_count": 13,
+      "max_substep_invariant_error": 3.4490422856036175e-15,
+      "ledger_increment": -0.04516042185556719,
+      "ledger_quadrature_difference": 4.336808689942018e-17,
+      "ledger_residual": 2.227198009352449e-10,
+      "integration_seconds": 2.545611999987159
+    },
+    "partition_and_integration_seconds": 2.5477512999786995
+  },
+  {
+    "method": "Strang",
+    "steps": 32,
+    "inner_rtol": 1e-09,
+    "repeat": 3,
+    "partition_setup_seconds": 0.00201349999406375,
+    "status": "success",
+    "observed_error": {
+      "0.001": 0.20570387155452327,
+      "1e-05": 20.570387155452323,
+      "1e-07": 2057.0387155452327
+    },
+    "common_grid_error": {
+      "0.001": 0.15072064111047193,
+      "1e-05": 15.07206411104719,
+      "1e-07": 1507.2064111047193
+    },
+    "flux_error": {
+      "0.001": 0.7598948281523333,
+      "1e-05": 75.98948281523333,
+      "1e-07": 7598.948281523333
+    },
+    "invariant_error": 9.075503920903446e-16,
+    "min_raw_concentration": 0.0,
+    "stats": {
+      "method": "Strang",
+      "macro_steps_completed": 32,
+      "subflow_calls": 96,
+      "nfev": 14074,
+      "njev": 71,
+      "nlu": 1198,
+      "accepted_substeps": 1816,
+      "rhs_calls_including_fd": 14501,
+      "fast_seconds": 3.3448064998956397,
+      "slow_seconds": 0.23162360006244853,
+      "rhs_seconds": 0.8449905014422256,
+      "jacobian_seconds": 0.0,
+      "ledger_seconds": 1.486645199911436,
+      "significant_negative_rhs_components": 0,
+      "min_rhs_argument": 0.0,
+      "min_accepted_state": 0.0,
+      "min_subflow_endpoint": 0.0,
+      "min_macro_state": 0.0,
+      "clipping_count": 0,
+      "projection_count": 0,
+      "fallback_count": 0,
+      "fast_columns": [
+        6,
+        7
+      ],
+      "fast_updated_states": [
+        4,
+        5,
+        6,
+        11,
+        12,
+        13
+      ],
+      "slow_updated_state_count": 13,
+      "max_substep_invariant_error": 1.2114163140183748e-15,
+      "ledger_increment": -0.04522866634864626,
+      "ledger_quadrature_difference": 6.906367838732663e-17,
+      "ledger_residual": 2.101109911056831e-10,
+      "integration_seconds": 3.578490399988368
+    },
+    "partition_and_integration_seconds": 3.580503899982432
+  },
+  {
+    "method": "Lie",
+    "steps": 64,
+    "inner_rtol": 1e-09,
+    "repeat": 3,
+    "partition_setup_seconds": 0.001962700014701113,
+    "status": "success",
+    "observed_error": {
+      "0.001": 3.3203418858876548,
+      "1e-05": 332.03418858876546,
+      "1e-07": 33203.41885887655
+    },
+    "common_grid_error": {
+      "0.001": 2.141608669213772,
+      "1e-05": 214.1608669213772,
+      "1e-07": 21416.086692137724
+    },
+    "flux_error": {
+      "0.001": 12.015195607917658,
+      "1e-05": 1201.5195607917656,
+      "1e-07": 120151.95607917658
+    },
+    "invariant_error": 2.7581850397163265e-15,
+    "min_raw_concentration": 0.0,
+    "stats": {
+      "method": "Lie",
+      "macro_steps_completed": 64,
+      "subflow_calls": 128,
+      "nfev": 21297,
+      "njev": 66,
+      "nlu": 2066,
+      "accepted_substeps": 2753,
+      "rhs_calls_including_fd": 21694,
+      "fast_seconds": 4.98723270004848,
+      "slow_seconds": 0.32208809987059794,
+      "rhs_seconds": 1.2290327995142434,
+      "jacobian_seconds": 0.0,
+      "ledger_seconds": 2.2288496998371556,
+      "significant_negative_rhs_components": 0,
+      "min_rhs_argument": 0.0,
+      "min_accepted_state": 0.0,
+      "min_subflow_endpoint": 0.0,
+      "min_macro_state": 0.0,
+      "clipping_count": 0,
+      "projection_count": 0,
+      "fallback_count": 0,
+      "fast_columns": [
+        6,
+        7
+      ],
+      "fast_updated_states": [
+        4,
+        5,
+        6,
+        11,
+        12,
+        13
+      ],
+      "slow_updated_state_count": 13,
+      "max_substep_invariant_error": 2.848936315036282e-15,
+      "ledger_increment": -0.04527023104092276,
+      "ledger_quadrature_difference": 5.980730233973164e-17,
+      "ledger_residual": 2.3905810664359706e-10,
+      "integration_seconds": 5.31234430000768
+    },
+    "partition_and_integration_seconds": 5.3143070000223815
+  },
+  {
+    "method": "Strang",
+    "steps": 64,
+    "inner_rtol": 1e-09,
+    "repeat": 3,
+    "partition_setup_seconds": 0.0021855999948456883,
+    "status": "success",
+    "observed_error": {
+      "0.001": 0.2342053203562932,
+      "1e-05": 23.420532035629318,
+      "1e-07": 2342.053203562932
+    },
+    "common_grid_error": {
+      "0.001": 0.15027586826003508,
+      "1e-05": 15.027586826003507,
+      "1e-07": 1502.758682600351
+    },
+    "flux_error": {
+      "0.001": 0.8544123973100988,
+      "1e-05": 85.44123973100986,
+      "1e-07": 8544.123973100988
+    },
+    "invariant_error": 3.3268922965845473e-15,
+    "min_raw_concentration": 0.0,
+    "stats": {
+      "method": "Strang",
+      "macro_steps_completed": 64,
+      "subflow_calls": 192,
+      "nfev": 22795,
+      "njev": 167,
+      "nlu": 2266,
+      "accepted_substeps": 2761,
+      "rhs_calls_including_fd": 23798,
+      "fast_seconds": 5.4134227997856215,
+      "slow_seconds": 0.2900812000443693,
+      "rhs_seconds": 1.3360993995447643,
+      "jacobian_seconds": 0.0,
+      "ledger_seconds": 2.2566760002519004,
+      "significant_negative_rhs_components": 0,
+      "min_rhs_argument": 0.0,
+      "min_accepted_state": 0.0,
+      "min_subflow_endpoint": 0.0,
+      "min_macro_state": 0.0,
+      "clipping_count": 0,
+      "projection_count": 0,
+      "fallback_count": 0,
+      "fast_columns": [
+        6,
+        7
+      ],
+      "fast_updated_states": [
+        4,
+        5,
+        6,
+        11,
+        12,
+        13
+      ],
+      "slow_updated_state_count": 13,
+      "max_substep_invariant_error": 3.363409294785074e-15,
+      "ledger_increment": -0.04524578597795888,
+      "ledger_quadrature_difference": 5.4047478298402396e-17,
+      "ledger_residual": 2.3728592701832696e-10,
+      "integration_seconds": 5.707230200001504
+    },
+    "partition_and_integration_seconds": 5.70941579999635
+  },
+  {
+    "method": "Lie",
+    "steps": 16,
+    "inner_rtol": 1e-10,
+    "repeat": 3,
+    "partition_setup_seconds": 0.0021983999758958817,
+    "status": "success",
+    "observed_error": {
+      "0.001": 11.516818855378569,
+      "1e-05": 1151.6818855378567,
+      "1e-07": 115168.1885537857
+    },
+    "common_grid_error": {
+      "0.001": 11.516818855378569,
+      "1e-05": 1151.6818855378567,
+      "1e-07": 115168.1885537857
+    },
+    "flux_error": {
+      "0.001": 40.70786135213339,
+      "1e-05": 4070.7861352133386,
+      "1e-07": 407078.61352133396
+    },
+    "invariant_error": 2.6922069706885353e-15,
+    "min_raw_concentration": 0.0,
+    "stats": {
+      "method": "Lie",
+      "macro_steps_completed": 16,
+      "subflow_calls": 32,
+      "nfev": 15074,
+      "njev": 25,
+      "nlu": 818,
+      "accepted_substeps": 2062,
+      "rhs_calls_including_fd": 15225,
+      "fast_seconds": 3.490219900122611,
+      "slow_seconds": 0.25894819997483864,
+      "rhs_seconds": 0.8686775996466167,
+      "jacobian_seconds": 0.0,
+      "ledger_seconds": 1.722022000089055,
+      "significant_negative_rhs_components": 0,
+      "min_rhs_argument": 0.0,
+      "min_accepted_state": 0.0,
+      "min_subflow_endpoint": 0.0,
+      "min_macro_state": 0.0,
+      "clipping_count": 0,
+      "projection_count": 0,
+      "fallback_count": 0,
+      "fast_columns": [
+        6,
+        7
+      ],
+      "fast_updated_states": [
+        4,
+        5,
+        6,
+        11,
+        12,
+        13
+      ],
+      "slow_updated_state_count": 13,
+      "max_substep_invariant_error": 2.795620617064658e-15,
+      "ledger_increment": -0.045257842935980286,
+      "ledger_quadrature_difference": 1.5612511283791264e-17,
+      "ledger_residual": 2.3726187681205602e-11,
+      "integration_seconds": 3.750827700016089
+    },
+    "partition_and_integration_seconds": 3.7530260999919847
+  },
+  {
+    "method": "Strang",
+    "steps": 16,
+    "inner_rtol": 1e-10,
+    "repeat": 3,
+    "partition_setup_seconds": 0.002410699991742149,
+    "status": "success",
+    "observed_error": {
+      "0.001": 0.31642218156313096,
+      "1e-05": 31.642218156313092,
+      "1e-07": 3164.2218156313097
+    },
+    "common_grid_error": {
+      "0.001": 0.31642218156313096,
+      "1e-05": 31.642218156313092,
+      "1e-07": 3164.2218156313097
+    },
+    "flux_error": {
+      "0.001": 0.7437660472105775,
+      "1e-05": 74.37660472105773,
+      "1e-07": 7437.660472105775
+    },
+    "invariant_error": 4.53672510983957e-15,
+    "min_raw_concentration": 0.0,
+    "stats": {
+      "method": "Strang",
+      "macro_steps_completed": 16,
+      "subflow_calls": 48,
+      "nfev": 16151,
+      "njev": 48,
+      "nlu": 900,
+      "accepted_substeps": 2166,
+      "rhs_calls_including_fd": 16440,
+      "fast_seconds": 3.769119300006423,
+      "slow_seconds": 0.268214599986095,
+      "rhs_seconds": 0.9535973987658508,
+      "jacobian_seconds": 0.0,
+      "ledger_seconds": 1.7881214998778887,
+      "significant_negative_rhs_components": 0,
+      "min_rhs_argument": 0.0,
+      "min_accepted_state": 0.0,
+      "min_subflow_endpoint": 0.0,
+      "min_macro_state": 0.0,
+      "clipping_count": 0,
+      "projection_count": 0,
+      "fallback_count": 0,
+      "fast_columns": [
+        6,
+        7
+      ],
+      "fast_updated_states": [
+        4,
+        5,
+        6,
+        11,
+        12,
+        13
+      ],
+      "slow_updated_state_count": 13,
+      "max_substep_invariant_error": 4.753643542685442e-15,
+      "ledger_increment": -0.04516042168067625,
+      "ledger_quadrature_difference": 3.729655473350135e-17,
+      "ledger_residual": 2.3910214086431125e-11,
+      "integration_seconds": 4.039326199999778
+    },
+    "partition_and_integration_seconds": 4.04173689999152
+  },
+  {
+    "method": "Lie",
+    "steps": 32,
+    "inner_rtol": 1e-10,
+    "repeat": 3,
+    "partition_setup_seconds": 0.0019438999879639596,
+    "status": "success",
+    "observed_error": {
+      "0.001": 6.4562671494186,
+      "1e-05": 645.6267149418599,
+      "1e-07": 64562.671494186
+    },
+    "common_grid_error": {
+      "0.001": 4.82470114877826,
+      "1e-05": 482.47011487782595,
+      "1e-07": 48247.0114877826
+    },
+    "flux_error": {
+      "0.001": 23.193991074249183,
+      "1e-05": 2319.399107424918,
+      "1e-07": 231939.91074249183
+    },
+    "invariant_error": 2.240943468045646e-15,
+    "min_raw_concentration": 0.0,
+    "stats": {
+      "method": "Lie",
+      "macro_steps_completed": 32,
+      "subflow_calls": 64,
+      "nfev": 23146,
+      "njev": 34,
+      "nlu": 1446,
+      "accepted_substeps": 3150,
+      "rhs_calls_including_fd": 23351,
+      "fast_seconds": 4.9366971000272315,
+      "slow_seconds": 0.25723200003267266,
+      "rhs_seconds": 1.2160054995620158,
+      "jacobian_seconds": 0.0,
+      "ledger_seconds": 2.3599067999166436,
+      "significant_negative_rhs_components": 0,
+      "min_rhs_argument": 0.0,
+      "min_accepted_state": 0.0,
+      "min_subflow_endpoint": 0.0,
+      "min_macro_state": 0.0,
+      "clipping_count": 0,
+      "projection_count": 0,
+      "fallback_count": 0,
+      "fast_columns": [
+        6,
+        7
+      ],
+      "fast_updated_states": [
+        4,
+        5,
+        6,
+        11,
+        12,
+        13
+      ],
+      "slow_updated_state_count": 13,
+      "max_substep_invariant_error": 2.46551652731722e-15,
+      "ledger_increment": -0.04527747142859553,
+      "ledger_quadrature_difference": 3.69712940817557e-17,
+      "ledger_residual": 2.250712810569766e-11,
+      "integration_seconds": 5.196220900019398
+    },
+    "partition_and_integration_seconds": 5.198164800007362
+  },
+  {
+    "method": "Strang",
+    "steps": 32,
+    "inner_rtol": 1e-10,
+    "repeat": 3,
+    "partition_setup_seconds": 0.0007897000177763402,
+    "status": "success",
+    "observed_error": {
+      "0.001": 0.20570388017063512,
+      "1e-05": 20.57038801706351,
+      "1e-07": 2057.0388017063515
+    },
+    "common_grid_error": {
+      "0.001": 0.15072065175969823,
+      "1e-05": 15.072065175969822,
+      "1e-07": 1507.2065175969824
+    },
+    "flux_error": {
+      "0.001": 0.7598948594672152,
+      "1e-05": 75.98948594672152,
+      "1e-07": 7598.948594672153
+    },
+    "invariant_error": 3.1171079840744325e-15,
+    "min_raw_concentration": 0.0,
+    "stats": {
+      "method": "Strang",
+      "macro_steps_completed": 32,
+      "subflow_calls": 96,
+      "nfev": 24142,
+      "njev": 86,
+      "nlu": 1412,
+      "accepted_substeps": 3183,
+      "rhs_calls_including_fd": 24659,
+      "fast_seconds": 4.861274399998365,
+      "slow_seconds": 0.23615249985596165,
+      "rhs_seconds": 1.2373576000973117,
+      "jacobian_seconds": 0.0,
+      "ledger_seconds": 2.258059200044954,
+      "significant_negative_rhs_components": 0,
+      "min_rhs_argument": 0.0,
+      "min_accepted_state": 0.0,
+      "min_subflow_endpoint": 0.0,
+      "min_macro_state": 0.0,
+      "clipping_count": 0,
+      "projection_count": 0,
+      "fallback_count": 0,
+      "fast_columns": [
+        6,
+        7
+      ],
+      "fast_updated_states": [
+        4,
+        5,
+        6,
+        11,
+        12,
+        13
+      ],
+      "slow_updated_state_count": 13,
+      "max_substep_invariant_error": 3.2319221517883586e-15,
+      "ledger_increment": -0.04522866618763257,
+      "ledger_quadrature_difference": 2.45029690981724e-17,
+      "ledger_residual": 2.260116399588341e-11,
+      "integration_seconds": 5.1007209999952465
+    },
+    "partition_and_integration_seconds": 5.101510700013023
+  },
+  {
+    "method": "Lie",
+    "steps": 64,
+    "inner_rtol": 1e-10,
+    "repeat": 3,
+    "partition_setup_seconds": 0.0017632000090088695,
+    "status": "success",
+    "observed_error": {
+      "0.001": 3.320341884184172,
+      "1e-05": 332.03418841841716,
+      "1e-07": 33203.418841841725
+    },
+    "common_grid_error": {
+      "0.001": 2.1416086591547305,
+      "1e-05": 214.16086591547304,
+      "1e-07": 21416.086591547308
+    },
+    "flux_error": {
+      "0.001": 12.01519560165104,
+      "1e-05": 1201.519560165104,
+      "1e-07": 120151.9560165104
+    },
+    "invariant_error": 1.9184051624632466e-15,
+    "min_raw_concentration": 0.0,
+    "stats": {
+      "method": "Lie",
+      "macro_steps_completed": 64,
+      "subflow_calls": 128,
+      "nfev": 35763,
+      "njev": 67,
+      "nlu": 2306,
+      "accepted_substeps": 4797,
+      "rhs_calls_including_fd": 36166,
+      "fast_seconds": 8.241133399889804,
+      "slow_seconds": 0.36416279996046796,
+      "rhs_seconds": 2.049455400032457,
+      "jacobian_seconds": 0.0,
+      "ledger_seconds": 3.820669900305802,
+      "significant_negative_rhs_components": 0,
+      "min_rhs_argument": 0.0,
+      "min_accepted_state": 0.0,
+      "min_subflow_endpoint": 0.0,
+      "min_macro_state": 0.0,
+      "clipping_count": 0,
+      "projection_count": 0,
+      "fallback_count": 0,
+      "fast_columns": [
+        6,
+        7
+      ],
+      "fast_updated_states": [
+        4,
+        5,
+        6,
+        11,
+        12,
+        13
+      ],
+      "slow_updated_state_count": 13,
+      "max_substep_invariant_error": 2.101865616983069e-15,
+      "ledger_increment": -0.045270230871687404,
+      "ledger_quadrature_difference": 4.9751327189928585e-17,
+      "ledger_residual": 2.0855255022933505e-11,
+      "integration_seconds": 8.61125320001156
+    },
+    "partition_and_integration_seconds": 8.61301640002057
+  },
+  {
+    "method": "Strang",
+    "steps": 64,
+    "inner_rtol": 1e-10,
+    "repeat": 3,
+    "partition_setup_seconds": 0.001719399995636195,
+    "status": "success",
+    "observed_error": {
+      "0.001": 0.23420532439727007,
+      "1e-05": 23.420532439727,
+      "1e-07": 2342.053243972701
+    },
+    "common_grid_error": {
+      "0.001": 0.15027587706596388,
+      "1e-05": 15.027587706596385,
+      "1e-07": 1502.758770659639
+    },
+    "flux_error": {
+      "0.001": 0.8544124120312777,
+      "1e-05": 85.44124120312776,
+      "1e-07": 8544.124120312777
+    },
+    "invariant_error": 4.752245256236266e-15,
+    "min_raw_concentration": 0.0,
+    "stats": {
+      "method": "Strang",
+      "macro_steps_completed": 64,
+      "subflow_calls": 192,
+      "nfev": 37696,
+      "njev": 161,
+      "nlu": 2724,
+      "accepted_substeps": 4824,
+      "rhs_calls_including_fd": 38663,
+      "fast_seconds": 9.196697299921652,
+      "slow_seconds": 0.36718030011979863,
+      "rhs_seconds": 2.2645013024448417,
+      "jacobian_seconds": 0.0,
+      "ledger_seconds": 4.0487809001642745,
+      "significant_negative_rhs_components": 0,
+      "min_rhs_argument": 0.0,
+      "min_accepted_state": 0.0,
+      "min_subflow_endpoint": 0.0,
+      "min_macro_state": 0.0,
+      "clipping_count": 0,
+      "projection_count": 0,
+      "fallback_count": 0,
+      "fast_columns": [
+        6,
+        7
+      ],
+      "fast_updated_states": [
+        4,
+        5,
+        6,
+        11,
+        12,
+        13
+      ],
+      "slow_updated_state_count": 13,
+      "max_substep_invariant_error": 4.8590996547597694e-15,
+      "ledger_increment": -0.04524578581025344,
+      "ledger_quadrature_difference": 5.082197683525802e-17,
+      "ledger_residual": 2.1101488612007557e-11,
+      "integration_seconds": 9.569905300013488
+    },
+    "partition_and_integration_seconds": 9.571624700009124
+  },
+  {
+    "method": "Lie",
+    "steps": 16,
+    "inner_rtol": 1e-09,
+    "repeat": 3,
+    "partition_setup_seconds": 0.002437999995891005,
+    "status": "success",
+    "observed_error": {
+      "0.001": 11.516818855381732,
+      "1e-05": 1151.681885538173,
+      "1e-07": 115168.18855381732
+    },
+    "common_grid_error": {
+      "0.001": 11.516818855381732,
+      "1e-05": 1151.681885538173,
+      "1e-07": 115168.18855381732
+    },
+    "flux_error": {
+      "0.001": 40.707861352267436,
+      "1e-05": 4070.786135226743,
+      "1e-07": 407078.6135226744
+    },
+    "invariant_error": 5.060832610537321e-16,
+    "min_raw_concentration": 0.0,
+    "stats": {
+      "method": "Lie",
+      "macro_steps_completed": 16,
+      "subflow_calls": 32,
+      "nfev": 8943,
+      "njev": 19,
+      "nlu": 706,
+      "accepted_substeps": 1193,
+      "rhs_calls_including_fd": 9058,
+      "fast_seconds": 2.080638499959605,
+      "slow_seconds": 0.18368270009523258,
+      "rhs_seconds": 0.52016549941618,
+      "jacobian_seconds": 0.0,
+      "ledger_seconds": 1.0051708999963012,
+      "significant_negative_rhs_components": 0,
+      "min_rhs_argument": 0.0,
+      "min_accepted_state": 0.0,
+      "min_subflow_endpoint": 0.0,
+      "min_macro_state": 0.0,
+      "clipping_count": 0,
+      "projection_count": 0,
+      "fallback_count": 0,
+      "fast_columns": [
+        6,
+        7
+      ],
+      "fast_updated_states": [
+        4,
+        5,
+        6,
+        11,
+        12,
+        13
+      ],
+      "slow_updated_state_count": 13,
+      "max_substep_invariant_error": 6.343398801851087e-16,
+      "ledger_increment": -0.045257843110750026,
+      "ledger_quadrature_difference": 4.0766001685454967e-17,
+      "ledger_residual": 2.2267214461191287e-10,
+      "integration_seconds": 2.266134500008775
+    },
+    "partition_and_integration_seconds": 2.268572500004666
+  },
+  {
+    "method": "Strang",
+    "steps": 16,
+    "inner_rtol": 1e-09,
+    "repeat": 3,
+    "partition_setup_seconds": 0.0019240000110585243,
+    "status": "success",
+    "observed_error": {
+      "0.001": 0.31642220094337004,
+      "1e-05": 31.642220094337,
+      "1e-07": 3164.2220094337004
+    },
+    "common_grid_error": {
+      "0.001": 0.31642220094337004,
+      "1e-05": 31.642220094337,
+      "1e-07": 3164.2220094337004
+    },
+    "flux_error": {
+      "0.001": 0.7437660904547068,
+      "1e-05": 74.37660904547066,
+      "1e-07": 7437.660904547068
+    },
+    "invariant_error": 3.4068043914836605e-15,
+    "min_raw_concentration": 0.0,
+    "stats": {
+      "method": "Strang",
+      "macro_steps_completed": 16,
+      "subflow_calls": 48,
+      "nfev": 9476,
+      "njev": 45,
+      "nlu": 744,
+      "accepted_substeps": 1248,
+      "rhs_calls_including_fd": 9747,
+      "fast_seconds": 2.3388179000176024,
+      "slow_seconds": 0.18169589998433366,
+      "rhs_seconds": 0.594872698537074,
+      "jacobian_seconds": 0.0,
+      "ledger_seconds": 1.0629434001166373,
+      "significant_negative_rhs_components": 0,
+      "min_rhs_argument": 0.0,
+      "min_accepted_state": 0.0,
+      "min_subflow_endpoint": 0.0,
+      "min_macro_state": 0.0,
+      "clipping_count": 0,
+      "projection_count": 0,
+      "fallback_count": 0,
+      "fast_columns": [
+        6,
+        7
+      ],
+      "fast_updated_states": [
+        4,
+        5,
+        6,
+        11,
+        12,
+        13
+      ],
+      "slow_updated_state_count": 13,
+      "max_substep_invariant_error": 3.4490422856036175e-15,
+      "ledger_increment": -0.04516042185556719,
+      "ledger_quadrature_difference": 4.336808689942018e-17,
+      "ledger_residual": 2.227198009352449e-10,
+      "integration_seconds": 2.5219465999980457
+    },
+    "partition_and_integration_seconds": 2.5238706000091042
+  },
+  {
+    "method": "Lie",
+    "steps": 32,
+    "inner_rtol": 1e-09,
+    "repeat": 3,
+    "partition_setup_seconds": 0.0024877999967429787,
+    "status": "success",
+    "observed_error": {
+      "0.001": 6.45626714979964,
+      "1e-05": 645.6267149799638,
+      "1e-07": 64562.671497996394
+    },
+    "common_grid_error": {
+      "0.001": 4.824701153198971,
+      "1e-05": 482.47011531989705,
+      "1e-07": 48247.01153198971
+    },
+    "flux_error": {
+      "0.001": 23.19399107572213,
+      "1e-05": 2319.399107572213,
+      "1e-07": 231939.9107572213
+    },
+    "invariant_error": 1.080692309401897e-15,
+    "min_raw_concentration": 0.0,
+    "stats": {
+      "method": "Lie",
+      "macro_steps_completed": 32,
+      "subflow_calls": 64,
+      "nfev": 13875,
+      "njev": 34,
+      "nlu": 1264,
+      "accepted_substeps": 1825,
+      "rhs_calls_including_fd": 14080,
+      "fast_seconds": 3.35493540004245,
+      "slow_seconds": 0.21951210004044697,
+      "rhs_seconds": 0.86239910198492,
+      "jacobian_seconds": 0.0,
+      "ledger_seconds": 1.5202114999701735,
+      "significant_negative_rhs_components": 0,
+      "min_rhs_argument": 0.0,
+      "min_accepted_state": 0.0,
+      "min_subflow_endpoint": 0.0,
+      "min_macro_state": 0.0,
+      "clipping_count": 0,
+      "projection_count": 0,
+      "fallback_count": 0,
+      "fast_columns": [
+        6,
+        7
+      ],
+      "fast_updated_states": [
+        4,
+        5,
+        6,
+        11,
+        12,
+        13
+      ],
+      "slow_updated_state_count": 13,
+      "max_substep_invariant_error": 1.243341845575654e-15,
+      "ledger_increment": -0.04527747158957034,
+      "ledger_quadrature_difference": 5.2583805365546965e-17,
+      "ledger_residual": 2.099749679684848e-10,
+      "integration_seconds": 3.5761769999808166
+    },
+    "partition_and_integration_seconds": 3.5786647999775596
+  },
+  {
+    "method": "Lie",
+    "steps": 64,
+    "inner_rtol": 1e-09,
+    "repeat": 4,
+    "partition_setup_seconds": 0.002291099983267486,
+    "status": "success",
+    "observed_error": {
+      "0.001": 3.3203418858876548,
+      "1e-05": 332.03418858876546,
+      "1e-07": 33203.41885887655
+    },
+    "common_grid_error": {
+      "0.001": 2.141608669213772,
+      "1e-05": 214.1608669213772,
+      "1e-07": 21416.086692137724
+    },
+    "flux_error": {
+      "0.001": 12.015195607917658,
+      "1e-05": 1201.5195607917656,
+      "1e-07": 120151.95607917658
+    },
+    "invariant_error": 2.7581850397163265e-15,
+    "min_raw_concentration": 0.0,
+    "stats": {
+      "method": "Lie",
+      "macro_steps_completed": 64,
+      "subflow_calls": 128,
+      "nfev": 21297,
+      "njev": 66,
+      "nlu": 2066,
+      "accepted_substeps": 2753,
+      "rhs_calls_including_fd": 21694,
+      "fast_seconds": 5.021813400031533,
+      "slow_seconds": 0.28970639998442493,
+      "rhs_seconds": 1.2232284002820961,
+      "jacobian_seconds": 0.0,
+      "ledger_seconds": 2.274200700223446,
+      "significant_negative_rhs_components": 0,
+      "min_rhs_argument": 0.0,
+      "min_accepted_state": 0.0,
+      "min_subflow_endpoint": 0.0,
+      "min_macro_state": 0.0,
+      "clipping_count": 0,
+      "projection_count": 0,
+      "fallback_count": 0,
+      "fast_columns": [
+        6,
+        7
+      ],
+      "fast_updated_states": [
+        4,
+        5,
+        6,
+        11,
+        12,
+        13
+      ],
+      "slow_updated_state_count": 13,
+      "max_substep_invariant_error": 2.848936315036282e-15,
+      "ledger_increment": -0.04527023104092276,
+      "ledger_quadrature_difference": 5.980730233973164e-17,
+      "ledger_residual": 2.3905810664359706e-10,
+      "integration_seconds": 5.314333100017393
+    },
+    "partition_and_integration_seconds": 5.3166242000006605
+  },
+  {
+    "method": "Strang",
+    "steps": 64,
+    "inner_rtol": 1e-09,
+    "repeat": 4,
+    "partition_setup_seconds": 0.002505100012058392,
+    "status": "success",
+    "observed_error": {
+      "0.001": 0.2342053203562932,
+      "1e-05": 23.420532035629318,
+      "1e-07": 2342.053203562932
+    },
+    "common_grid_error": {
+      "0.001": 0.15027586826003508,
+      "1e-05": 15.027586826003507,
+      "1e-07": 1502.758682600351
+    },
+    "flux_error": {
+      "0.001": 0.8544123973100988,
+      "1e-05": 85.44123973100986,
+      "1e-07": 8544.123973100988
+    },
+    "invariant_error": 3.3268922965845473e-15,
+    "min_raw_concentration": 0.0,
+    "stats": {
+      "method": "Strang",
+      "macro_steps_completed": 64,
+      "subflow_calls": 192,
+      "nfev": 22795,
+      "njev": 167,
+      "nlu": 2266,
+      "accepted_substeps": 2761,
+      "rhs_calls_including_fd": 23798,
+      "fast_seconds": 5.557438500109129,
+      "slow_seconds": 0.2822404000617098,
+      "rhs_seconds": 1.3854489964141976,
+      "jacobian_seconds": 0.0,
+      "ledger_seconds": 2.3488700999878347,
+      "significant_negative_rhs_components": 0,
+      "min_rhs_argument": 0.0,
+      "min_accepted_state": 0.0,
+      "min_subflow_endpoint": 0.0,
+      "min_macro_state": 0.0,
+      "clipping_count": 0,
+      "projection_count": 0,
+      "fallback_count": 0,
+      "fast_columns": [
+        6,
+        7
+      ],
+      "fast_updated_states": [
+        4,
+        5,
+        6,
+        11,
+        12,
+        13
+      ],
+      "slow_updated_state_count": 13,
+      "max_substep_invariant_error": 3.363409294785074e-15,
+      "ledger_increment": -0.04524578597795888,
+      "ledger_quadrature_difference": 5.4047478298402396e-17,
+      "ledger_residual": 2.3728592701832696e-10,
+      "integration_seconds": 5.843215900007635
+    },
+    "partition_and_integration_seconds": 5.845721000019694
+  },
+  {
+    "method": "Lie",
+    "steps": 16,
+    "inner_rtol": 1e-10,
+    "repeat": 4,
+    "partition_setup_seconds": 0.0020794000010937452,
+    "status": "success",
+    "observed_error": {
+      "0.001": 11.516818855378569,
+      "1e-05": 1151.6818855378567,
+      "1e-07": 115168.1885537857
+    },
+    "common_grid_error": {
+      "0.001": 11.516818855378569,
+      "1e-05": 1151.6818855378567,
+      "1e-07": 115168.1885537857
+    },
+    "flux_error": {
+      "0.001": 40.70786135213339,
+      "1e-05": 4070.7861352133386,
+      "1e-07": 407078.61352133396
+    },
+    "invariant_error": 2.6922069706885353e-15,
+    "min_raw_concentration": 0.0,
+    "stats": {
+      "method": "Lie",
+      "macro_steps_completed": 16,
+      "subflow_calls": 32,
+      "nfev": 15074,
+      "njev": 25,
+      "nlu": 818,
+      "accepted_substeps": 2062,
+      "rhs_calls_including_fd": 15225,
+      "fast_seconds": 2.856005000008736,
+      "slow_seconds": 0.21865209998213686,
+      "rhs_seconds": 0.7661817995249294,
+      "jacobian_seconds": 0.0,
+      "ledger_seconds": 1.3624703999084886,
+      "significant_negative_rhs_components": 0,
+      "min_rhs_argument": 0.0,
+      "min_accepted_state": 0.0,
+      "min_subflow_endpoint": 0.0,
+      "min_macro_state": 0.0,
+      "clipping_count": 0,
+      "projection_count": 0,
+      "fallback_count": 0,
+      "fast_columns": [
+        6,
+        7
+      ],
+      "fast_updated_states": [
+        4,
+        5,
+        6,
+        11,
+        12,
+        13
+      ],
+      "slow_updated_state_count": 13,
+      "max_substep_invariant_error": 2.795620617064658e-15,
+      "ledger_increment": -0.045257842935980286,
+      "ledger_quadrature_difference": 1.5612511283791264e-17,
+      "ledger_residual": 2.3726187681205602e-11,
+      "integration_seconds": 3.0763564000080805
+    },
+    "partition_and_integration_seconds": 3.0784358000091743
+  },
+  {
+    "method": "Strang",
+    "steps": 16,
+    "inner_rtol": 1e-10,
+    "repeat": 4,
+    "partition_setup_seconds": 0.0022302000143099576,
+    "status": "success",
+    "observed_error": {
+      "0.001": 0.31642218156313096,
+      "1e-05": 31.642218156313092,
+      "1e-07": 3164.2218156313097
+    },
+    "common_grid_error": {
+      "0.001": 0.31642218156313096,
+      "1e-05": 31.642218156313092,
+      "1e-07": 3164.2218156313097
+    },
+    "flux_error": {
+      "0.001": 0.7437660472105775,
+      "1e-05": 74.37660472105773,
+      "1e-07": 7437.660472105775
+    },
+    "invariant_error": 4.53672510983957e-15,
+    "min_raw_concentration": 0.0,
+    "stats": {
+      "method": "Strang",
+      "macro_steps_completed": 16,
+      "subflow_calls": 48,
+      "nfev": 16151,
+      "njev": 48,
+      "nlu": 900,
+      "accepted_substeps": 2166,
+      "rhs_calls_including_fd": 16440,
+      "fast_seconds": 3.5941406998899765,
+      "slow_seconds": 0.2524262998776976,
+      "rhs_seconds": 0.9538220002432354,
+      "jacobian_seconds": 0.0,
+      "ledger_seconds": 1.6523592001758516,
+      "significant_negative_rhs_components": 0,
+      "min_rhs_argument": 0.0,
+      "min_accepted_state": 0.0,
+      "min_subflow_endpoint": 0.0,
+      "min_macro_state": 0.0,
+      "clipping_count": 0,
+      "projection_count": 0,
+      "fallback_count": 0,
+      "fast_columns": [
+        6,
+        7
+      ],
+      "fast_updated_states": [
+        4,
+        5,
+        6,
+        11,
+        12,
+        13
+      ],
+      "slow_updated_state_count": 13,
+      "max_substep_invariant_error": 4.753643542685442e-15,
+      "ledger_increment": -0.04516042168067625,
+      "ledger_quadrature_difference": 3.729655473350135e-17,
+      "ledger_residual": 2.3910214086431125e-11,
+      "integration_seconds": 3.8487818999856245
+    },
+    "partition_and_integration_seconds": 3.8510120999999344
+  },
+  {
+    "method": "Lie",
+    "steps": 32,
+    "inner_rtol": 1e-10,
+    "repeat": 4,
+    "partition_setup_seconds": 0.001800300000468269,
+    "status": "success",
+    "observed_error": {
+      "0.001": 6.4562671494186,
+      "1e-05": 645.6267149418599,
+      "1e-07": 64562.671494186
+    },
+    "common_grid_error": {
+      "0.001": 4.82470114877826,
+      "1e-05": 482.47011487782595,
+      "1e-07": 48247.0114877826
+    },
+    "flux_error": {
+      "0.001": 23.193991074249183,
+      "1e-05": 2319.399107424918,
+      "1e-07": 231939.91074249183
+    },
+    "invariant_error": 2.240943468045646e-15,
+    "min_raw_concentration": 0.0,
+    "stats": {
+      "method": "Lie",
+      "macro_steps_completed": 32,
+      "subflow_calls": 64,
+      "nfev": 23146,
+      "njev": 34,
+      "nlu": 1446,
+      "accepted_substeps": 3150,
+      "rhs_calls_including_fd": 23351,
+      "fast_seconds": 5.493308899982367,
+      "slow_seconds": 0.2908175000047777,
+      "rhs_seconds": 1.376135201600846,
+      "jacobian_seconds": 0.0,
+      "ledger_seconds": 2.5903862002305686,
+      "significant_negative_rhs_components": 0,
+      "min_rhs_argument": 0.0,
+      "min_accepted_state": 0.0,
+      "min_subflow_endpoint": 0.0,
+      "min_macro_state": 0.0,
+      "clipping_count": 0,
+      "projection_count": 0,
+      "fallback_count": 0,
+      "fast_columns": [
+        6,
+        7
+      ],
+      "fast_updated_states": [
+        4,
+        5,
+        6,
+        11,
+        12,
+        13
+      ],
+      "slow_updated_state_count": 13,
+      "max_substep_invariant_error": 2.46551652731722e-15,
+      "ledger_increment": -0.04527747142859553,
+      "ledger_quadrature_difference": 3.69712940817557e-17,
+      "ledger_residual": 2.250712810569766e-11,
+      "integration_seconds": 5.7881529000005685
+    },
+    "partition_and_integration_seconds": 5.789953200001037
+  },
+  {
+    "method": "Strang",
+    "steps": 32,
+    "inner_rtol": 1e-10,
+    "repeat": 4,
+    "partition_setup_seconds": 0.0017488000157754868,
+    "status": "success",
+    "observed_error": {
+      "0.001": 0.20570388017063512,
+      "1e-05": 20.57038801706351,
+      "1e-07": 2057.0388017063515
+    },
+    "common_grid_error": {
+      "0.001": 0.15072065175969823,
+      "1e-05": 15.072065175969822,
+      "1e-07": 1507.2065175969824
+    },
+    "flux_error": {
+      "0.001": 0.7598948594672152,
+      "1e-05": 75.98948594672152,
+      "1e-07": 7598.948594672153
+    },
+    "invariant_error": 3.1171079840744325e-15,
+    "min_raw_concentration": 0.0,
+    "stats": {
+      "method": "Strang",
+      "macro_steps_completed": 32,
+      "subflow_calls": 96,
+      "nfev": 24142,
+      "njev": 86,
+      "nlu": 1412,
+      "accepted_substeps": 3183,
+      "rhs_calls_including_fd": 24659,
+      "fast_seconds": 5.660047100041993,
+      "slow_seconds": 0.30867930001113564,
+      "rhs_seconds": 1.5063762995996512,
+      "jacobian_seconds": 0.0,
+      "ledger_seconds": 2.5415868002164643,
+      "significant_negative_rhs_components": 0,
+      "min_rhs_argument": 0.0,
+      "min_accepted_state": 0.0,
+      "min_subflow_endpoint": 0.0,
+      "min_macro_state": 0.0,
+      "clipping_count": 0,
+      "projection_count": 0,
+      "fallback_count": 0,
+      "fast_columns": [
+        6,
+        7
+      ],
+      "fast_updated_states": [
+        4,
+        5,
+        6,
+        11,
+        12,
+        13
+      ],
+      "slow_updated_state_count": 13,
+      "max_substep_invariant_error": 3.2319221517883586e-15,
+      "ledger_increment": -0.04522866618763257,
+      "ledger_quadrature_difference": 2.45029690981724e-17,
+      "ledger_residual": 2.260116399588341e-11,
+      "integration_seconds": 5.97151329999906
+    },
+    "partition_and_integration_seconds": 5.973262100014836
+  },
+  {
+    "method": "Lie",
+    "steps": 64,
+    "inner_rtol": 1e-10,
+    "repeat": 4,
+    "partition_setup_seconds": 0.0018237000040244311,
+    "status": "success",
+    "observed_error": {
+      "0.001": 3.320341884184172,
+      "1e-05": 332.03418841841716,
+      "1e-07": 33203.418841841725
+    },
+    "common_grid_error": {
+      "0.001": 2.1416086591547305,
+      "1e-05": 214.16086591547304,
+      "1e-07": 21416.086591547308
+    },
+    "flux_error": {
+      "0.001": 12.01519560165104,
+      "1e-05": 1201.519560165104,
+      "1e-07": 120151.9560165104
+    },
+    "invariant_error": 1.9184051624632466e-15,
+    "min_raw_concentration": 0.0,
+    "stats": {
+      "method": "Lie",
+      "macro_steps_completed": 64,
+      "subflow_calls": 128,
+      "nfev": 35763,
+      "njev": 67,
+      "nlu": 2306,
+      "accepted_substeps": 4797,
+      "rhs_calls_including_fd": 36166,
+      "fast_seconds": 7.714726300037,
+      "slow_seconds": 0.341253000049619,
+      "rhs_seconds": 1.9313760994118638,
+      "jacobian_seconds": 0.0,
+      "ledger_seconds": 3.579094999935478,
+      "significant_negative_rhs_components": 0,
+      "min_rhs_argument": 0.0,
+      "min_accepted_state": 0.0,
+      "min_subflow_endpoint": 0.0,
+      "min_macro_state": 0.0,
+      "clipping_count": 0,
+      "projection_count": 0,
+      "fallback_count": 0,
+      "fast_columns": [
+        6,
+        7
+      ],
+      "fast_updated_states": [
+        4,
+        5,
+        6,
+        11,
+        12,
+        13
+      ],
+      "slow_updated_state_count": 13,
+      "max_substep_invariant_error": 2.101865616983069e-15,
+      "ledger_increment": -0.045270230871687404,
+      "ledger_quadrature_difference": 4.9751327189928585e-17,
+      "ledger_residual": 2.0855255022933505e-11,
+      "integration_seconds": 8.059421000012662
+    },
+    "partition_and_integration_seconds": 8.061244700016687
+  },
+  {
+    "method": "Strang",
+    "steps": 64,
+    "inner_rtol": 1e-10,
+    "repeat": 4,
+    "partition_setup_seconds": 0.0017380999925080687,
+    "status": "success",
+    "observed_error": {
+      "0.001": 0.23420532439727007,
+      "1e-05": 23.420532439727,
+      "1e-07": 2342.053243972701
+    },
+    "common_grid_error": {
+      "0.001": 0.15027587706596388,
+      "1e-05": 15.027587706596385,
+      "1e-07": 1502.758770659639
+    },
+    "flux_error": {
+      "0.001": 0.8544124120312777,
+      "1e-05": 85.44124120312776,
+      "1e-07": 8544.124120312777
+    },
+    "invariant_error": 4.752245256236266e-15,
+    "min_raw_concentration": 0.0,
+    "stats": {
+      "method": "Strang",
+      "macro_steps_completed": 64,
+      "subflow_calls": 192,
+      "nfev": 37696,
+      "njev": 161,
+      "nlu": 2724,
+      "accepted_substeps": 4824,
+      "rhs_calls_including_fd": 38663,
+      "fast_seconds": 8.987243299809052,
+      "slow_seconds": 0.3575018000265118,
+      "rhs_seconds": 2.2354616983502638,
+      "jacobian_seconds": 0.0,
+      "ledger_seconds": 3.9693186998192687,
+      "significant_negative_rhs_components": 0,
+      "min_rhs_argument": 0.0,
+      "min_accepted_state": 0.0,
+      "min_subflow_endpoint": 0.0,
+      "min_macro_state": 0.0,
+      "clipping_count": 0,
+      "projection_count": 0,
+      "fallback_count": 0,
+      "fast_columns": [
+        6,
+        7
+      ],
+      "fast_updated_states": [
+        4,
+        5,
+        6,
+        11,
+        12,
+        13
+      ],
+      "slow_updated_state_count": 13,
+      "max_substep_invariant_error": 4.8590996547597694e-15,
+      "ledger_increment": -0.04524578581025344,
+      "ledger_quadrature_difference": 5.082197683525802e-17,
+      "ledger_residual": 2.1101488612007557e-11,
+      "integration_seconds": 9.349243400007254
+    },
+    "partition_and_integration_seconds": 9.350981499999762
+  },
+  {
+    "method": "Lie",
+    "steps": 16,
+    "inner_rtol": 1e-09,
+    "repeat": 4,
+    "partition_setup_seconds": 0.0021573000121861696,
+    "status": "success",
+    "observed_error": {
+      "0.001": 11.516818855381732,
+      "1e-05": 1151.681885538173,
+      "1e-07": 115168.18855381732
+    },
+    "common_grid_error": {
+      "0.001": 11.516818855381732,
+      "1e-05": 1151.681885538173,
+      "1e-07": 115168.18855381732
+    },
+    "flux_error": {
+      "0.001": 40.707861352267436,
+      "1e-05": 4070.786135226743,
+      "1e-07": 407078.6135226744
+    },
+    "invariant_error": 5.060832610537321e-16,
+    "min_raw_concentration": 0.0,
+    "stats": {
+      "method": "Lie",
+      "macro_steps_completed": 16,
+      "subflow_calls": 32,
+      "nfev": 8943,
+      "njev": 19,
+      "nlu": 706,
+      "accepted_substeps": 1193,
+      "rhs_calls_including_fd": 9058,
+      "fast_seconds": 2.1111347999831196,
+      "slow_seconds": 0.17689690002589487,
+      "rhs_seconds": 0.5367264008964412,
+      "jacobian_seconds": 0.0,
+      "ledger_seconds": 1.00145509999129,
+      "significant_negative_rhs_components": 0,
+      "min_rhs_argument": 0.0,
+      "min_accepted_state": 0.0,
+      "min_subflow_endpoint": 0.0,
+      "min_macro_state": 0.0,
+      "clipping_count": 0,
+      "projection_count": 0,
+      "fallback_count": 0,
+      "fast_columns": [
+        6,
+        7
+      ],
+      "fast_updated_states": [
+        4,
+        5,
+        6,
+        11,
+        12,
+        13
+      ],
+      "slow_updated_state_count": 13,
+      "max_substep_invariant_error": 6.343398801851087e-16,
+      "ledger_increment": -0.045257843110750026,
+      "ledger_quadrature_difference": 4.0766001685454967e-17,
+      "ledger_residual": 2.2267214461191287e-10,
+      "integration_seconds": 2.2890738999994937
+    },
+    "partition_and_integration_seconds": 2.29123120001168
+  },
+  {
+    "method": "Strang",
+    "steps": 16,
+    "inner_rtol": 1e-09,
+    "repeat": 4,
+    "partition_setup_seconds": 0.001974300015717745,
+    "status": "success",
+    "observed_error": {
+      "0.001": 0.31642220094337004,
+      "1e-05": 31.642220094337,
+      "1e-07": 3164.2220094337004
+    },
+    "common_grid_error": {
+      "0.001": 0.31642220094337004,
+      "1e-05": 31.642220094337,
+      "1e-07": 3164.2220094337004
+    },
+    "flux_error": {
+      "0.001": 0.7437660904547068,
+      "1e-05": 74.37660904547066,
+      "1e-07": 7437.660904547068
+    },
+    "invariant_error": 3.4068043914836605e-15,
+    "min_raw_concentration": 0.0,
+    "stats": {
+      "method": "Strang",
+      "macro_steps_completed": 16,
+      "subflow_calls": 48,
+      "nfev": 9476,
+      "njev": 45,
+      "nlu": 744,
+      "accepted_substeps": 1248,
+      "rhs_calls_including_fd": 9747,
+      "fast_seconds": 2.142480499984231,
+      "slow_seconds": 0.16476530011277646,
+      "rhs_seconds": 0.5540115005569533,
+      "jacobian_seconds": 0.0,
+      "ledger_seconds": 0.9789532999857329,
+      "significant_negative_rhs_components": 0,
+      "min_rhs_argument": 0.0,
+      "min_accepted_state": 0.0,
+      "min_subflow_endpoint": 0.0,
+      "min_macro_state": 0.0,
+      "clipping_count": 0,
+      "projection_count": 0,
+      "fallback_count": 0,
+      "fast_columns": [
+        6,
+        7
+      ],
+      "fast_updated_states": [
+        4,
+        5,
+        6,
+        11,
+        12,
+        13
+      ],
+      "slow_updated_state_count": 13,
+      "max_substep_invariant_error": 3.4490422856036175e-15,
+      "ledger_increment": -0.04516042185556719,
+      "ledger_quadrature_difference": 4.336808689942018e-17,
+      "ledger_residual": 2.227198009352449e-10,
+      "integration_seconds": 2.308438499982003
+    },
+    "partition_and_integration_seconds": 2.310412799997721
+  },
+  {
+    "method": "Lie",
+    "steps": 32,
+    "inner_rtol": 1e-09,
+    "repeat": 4,
+    "partition_setup_seconds": 0.0021393000206444412,
+    "status": "success",
+    "observed_error": {
+      "0.001": 6.45626714979964,
+      "1e-05": 645.6267149799638,
+      "1e-07": 64562.671497996394
+    },
+    "common_grid_error": {
+      "0.001": 4.824701153198971,
+      "1e-05": 482.47011531989705,
+      "1e-07": 48247.01153198971
+    },
+    "flux_error": {
+      "0.001": 23.19399107572213,
+      "1e-05": 2319.399107572213,
+      "1e-07": 231939.9107572213
+    },
+    "invariant_error": 1.080692309401897e-15,
+    "min_raw_concentration": 0.0,
+    "stats": {
+      "method": "Lie",
+      "macro_steps_completed": 32,
+      "subflow_calls": 64,
+      "nfev": 13875,
+      "njev": 34,
+      "nlu": 1264,
+      "accepted_substeps": 1825,
+      "rhs_calls_including_fd": 14080,
+      "fast_seconds": 3.23575460005668,
+      "slow_seconds": 0.21942839992698282,
+      "rhs_seconds": 0.7970730998495128,
+      "jacobian_seconds": 0.0,
+      "ledger_seconds": 1.5224184001854155,
+      "significant_negative_rhs_components": 0,
+      "min_rhs_argument": 0.0,
+      "min_accepted_state": 0.0,
+      "min_subflow_endpoint": 0.0,
+      "min_macro_state": 0.0,
+      "clipping_count": 0,
+      "projection_count": 0,
+      "fallback_count": 0,
+      "fast_columns": [
+        6,
+        7
+      ],
+      "fast_updated_states": [
+        4,
+        5,
+        6,
+        11,
+        12,
+        13
+      ],
+      "slow_updated_state_count": 13,
+      "max_substep_invariant_error": 1.243341845575654e-15,
+      "ledger_increment": -0.04527747158957034,
+      "ledger_quadrature_difference": 5.2583805365546965e-17,
+      "ledger_residual": 2.099749679684848e-10,
+      "integration_seconds": 3.4569663000002038
+    },
+    "partition_and_integration_seconds": 3.459105600020848
+  },
+  {
+    "method": "Strang",
+    "steps": 32,
+    "inner_rtol": 1e-09,
+    "repeat": 4,
+    "partition_setup_seconds": 0.0020523999992292374,
+    "status": "success",
+    "observed_error": {
+      "0.001": 0.20570387155452327,
+      "1e-05": 20.570387155452323,
+      "1e-07": 2057.0387155452327
+    },
+    "common_grid_error": {
+      "0.001": 0.15072064111047193,
+      "1e-05": 15.07206411104719,
+      "1e-07": 1507.2064111047193
+    },
+    "flux_error": {
+      "0.001": 0.7598948281523333,
+      "1e-05": 75.98948281523333,
+      "1e-07": 7598.948281523333
+    },
+    "invariant_error": 9.075503920903446e-16,
+    "min_raw_concentration": 0.0,
+    "stats": {
+      "method": "Strang",
+      "macro_steps_completed": 32,
+      "subflow_calls": 96,
+      "nfev": 14074,
+      "njev": 71,
+      "nlu": 1198,
+      "accepted_substeps": 1816,
+      "rhs_calls_including_fd": 14501,
+      "fast_seconds": 3.3753249001165386,
+      "slow_seconds": 0.2158548998995684,
+      "rhs_seconds": 0.8409149984945543,
+      "jacobian_seconds": 0.0,
+      "ledger_seconds": 1.5060554001538549,
+      "significant_negative_rhs_components": 0,
+      "min_rhs_argument": 0.0,
+      "min_accepted_state": 0.0,
+      "min_subflow_endpoint": 0.0,
+      "min_macro_state": 0.0,
+      "clipping_count": 0,
+      "projection_count": 0,
+      "fallback_count": 0,
+      "fast_columns": [
+        6,
+        7
+      ],
+      "fast_updated_states": [
+        4,
+        5,
+        6,
+        11,
+        12,
+        13
+      ],
+      "slow_updated_state_count": 13,
+      "max_substep_invariant_error": 1.2114163140183748e-15,
+      "ledger_increment": -0.04522866634864626,
+      "ledger_quadrature_difference": 6.906367838732663e-17,
+      "ledger_residual": 2.101109911056831e-10,
+      "integration_seconds": 3.59329630000866
+    },
+    "partition_and_integration_seconds": 3.5953487000078894
+  },
+  {
+    "method": "Strang",
+    "steps": 64,
+    "inner_rtol": 1e-09,
+    "repeat": 5,
+    "partition_setup_seconds": 0.0018339999951422215,
+    "status": "success",
+    "observed_error": {
+      "0.001": 0.2342053203562932,
+      "1e-05": 23.420532035629318,
+      "1e-07": 2342.053203562932
+    },
+    "common_grid_error": {
+      "0.001": 0.15027586826003508,
+      "1e-05": 15.027586826003507,
+      "1e-07": 1502.758682600351
+    },
+    "flux_error": {
+      "0.001": 0.8544123973100988,
+      "1e-05": 85.44123973100986,
+      "1e-07": 8544.123973100988
+    },
+    "invariant_error": 3.3268922965845473e-15,
+    "min_raw_concentration": 0.0,
+    "stats": {
+      "method": "Strang",
+      "macro_steps_completed": 64,
+      "subflow_calls": 192,
+      "nfev": 22795,
+      "njev": 167,
+      "nlu": 2266,
+      "accepted_substeps": 2761,
+      "rhs_calls_including_fd": 23798,
+      "fast_seconds": 5.448585200123489,
+      "slow_seconds": 0.27950999993481673,
+      "rhs_seconds": 1.38073880088632,
+      "jacobian_seconds": 0.0,
+      "ledger_seconds": 2.2653986000223085,
+      "significant_negative_rhs_components": 0,
+      "min_rhs_argument": 0.0,
+      "min_accepted_state": 0.0,
+      "min_subflow_endpoint": 0.0,
+      "min_macro_state": 0.0,
+      "clipping_count": 0,
+      "projection_count": 0,
+      "fallback_count": 0,
+      "fast_columns": [
+        6,
+        7
+      ],
+      "fast_updated_states": [
+        4,
+        5,
+        6,
+        11,
+        12,
+        13
+      ],
+      "slow_updated_state_count": 13,
+      "max_substep_invariant_error": 3.363409294785074e-15,
+      "ledger_increment": -0.04524578597795888,
+      "ledger_quadrature_difference": 5.4047478298402396e-17,
+      "ledger_residual": 2.3728592701832696e-10,
+      "integration_seconds": 5.73149080001167
+    },
+    "partition_and_integration_seconds": 5.733324800006812
+  },
+  {
+    "method": "Lie",
+    "steps": 16,
+    "inner_rtol": 1e-10,
+    "repeat": 5,
+    "partition_setup_seconds": 0.002030499977990985,
+    "status": "success",
+    "observed_error": {
+      "0.001": 11.516818855378569,
+      "1e-05": 1151.6818855378567,
+      "1e-07": 115168.1885537857
+    },
+    "common_grid_error": {
+      "0.001": 11.516818855378569,
+      "1e-05": 1151.6818855378567,
+      "1e-07": 115168.1885537857
+    },
+    "flux_error": {
+      "0.001": 40.70786135213339,
+      "1e-05": 4070.7861352133386,
+      "1e-07": 407078.61352133396
+    },
+    "invariant_error": 2.6922069706885353e-15,
+    "min_raw_concentration": 0.0,
+    "stats": {
+      "method": "Lie",
+      "macro_steps_completed": 16,
+      "subflow_calls": 32,
+      "nfev": 15074,
+      "njev": 25,
+      "nlu": 818,
+      "accepted_substeps": 2062,
+      "rhs_calls_including_fd": 15225,
+      "fast_seconds": 3.3828842000220902,
+      "slow_seconds": 0.2538445999380201,
+      "rhs_seconds": 0.8768335990025662,
+      "jacobian_seconds": 0.0,
+      "ledger_seconds": 1.6199138000083622,
+      "significant_negative_rhs_components": 0,
+      "min_rhs_argument": 0.0,
+      "min_accepted_state": 0.0,
+      "min_subflow_endpoint": 0.0,
+      "min_macro_state": 0.0,
+      "clipping_count": 0,
+      "projection_count": 0,
+      "fallback_count": 0,
+      "fast_columns": [
+        6,
+        7
+      ],
+      "fast_updated_states": [
+        4,
+        5,
+        6,
+        11,
+        12,
+        13
+      ],
+      "slow_updated_state_count": 13,
+      "max_substep_invariant_error": 2.795620617064658e-15,
+      "ledger_increment": -0.045257842935980286,
+      "ledger_quadrature_difference": 1.5612511283791264e-17,
+      "ledger_residual": 2.3726187681205602e-11,
+      "integration_seconds": 3.638194900006056
+    },
+    "partition_and_integration_seconds": 3.640225399984047
+  },
+  {
+    "method": "Strang",
+    "steps": 16,
+    "inner_rtol": 1e-10,
+    "repeat": 5,
+    "partition_setup_seconds": 0.002488800004357472,
+    "status": "success",
+    "observed_error": {
+      "0.001": 0.31642218156313096,
+      "1e-05": 31.642218156313092,
+      "1e-07": 3164.2218156313097
+    },
+    "common_grid_error": {
+      "0.001": 0.31642218156313096,
+      "1e-05": 31.642218156313092,
+      "1e-07": 3164.2218156313097
+    },
+    "flux_error": {
+      "0.001": 0.7437660472105775,
+      "1e-05": 74.37660472105773,
+      "1e-07": 7437.660472105775
+    },
+    "invariant_error": 4.53672510983957e-15,
+    "min_raw_concentration": 0.0,
+    "stats": {
+      "method": "Strang",
+      "macro_steps_completed": 16,
+      "subflow_calls": 48,
+      "nfev": 16151,
+      "njev": 48,
+      "nlu": 900,
+      "accepted_substeps": 2166,
+      "rhs_calls_including_fd": 16440,
+      "fast_seconds": 3.73944830003893,
+      "slow_seconds": 0.25050499994540587,
+      "rhs_seconds": 1.0120266997255385,
+      "jacobian_seconds": 0.0,
+      "ledger_seconds": 1.7456604999897536,
+      "significant_negative_rhs_components": 0,
+      "min_rhs_argument": 0.0,
+      "min_accepted_state": 0.0,
+      "min_subflow_endpoint": 0.0,
+      "min_macro_state": 0.0,
+      "clipping_count": 0,
+      "projection_count": 0,
+      "fallback_count": 0,
+      "fast_columns": [
+        6,
+        7
+      ],
+      "fast_updated_states": [
+        4,
+        5,
+        6,
+        11,
+        12,
+        13
+      ],
+      "slow_updated_state_count": 13,
+      "max_substep_invariant_error": 4.753643542685442e-15,
+      "ledger_increment": -0.04516042168067625,
+      "ledger_quadrature_difference": 3.729655473350135e-17,
+      "ledger_residual": 2.3910214086431125e-11,
+      "integration_seconds": 3.992418900015764
+    },
+    "partition_and_integration_seconds": 3.9949077000201214
+  },
+  {
+    "method": "Lie",
+    "steps": 32,
+    "inner_rtol": 1e-10,
+    "repeat": 5,
+    "partition_setup_seconds": 0.0021665999956894666,
+    "status": "success",
+    "observed_error": {
+      "0.001": 6.4562671494186,
+      "1e-05": 645.6267149418599,
+      "1e-07": 64562.671494186
+    },
+    "common_grid_error": {
+      "0.001": 4.82470114877826,
+      "1e-05": 482.47011487782595,
+      "1e-07": 48247.0114877826
+    },
+    "flux_error": {
+      "0.001": 23.193991074249183,
+      "1e-05": 2319.399107424918,
+      "1e-07": 231939.91074249183
+    },
+    "invariant_error": 2.240943468045646e-15,
+    "min_raw_concentration": 0.0,
+    "stats": {
+      "method": "Lie",
+      "macro_steps_completed": 32,
+      "subflow_calls": 64,
+      "nfev": 23146,
+      "njev": 34,
+      "nlu": 1446,
+      "accepted_substeps": 3150,
+      "rhs_calls_including_fd": 23351,
+      "fast_seconds": 5.150830499973381,
+      "slow_seconds": 0.28962080003111623,
+      "rhs_seconds": 1.3349856969725806,
+      "jacobian_seconds": 0.0,
+      "ledger_seconds": 2.403824000095483,
+      "significant_negative_rhs_components": 0,
+      "min_rhs_argument": 0.0,
+      "min_accepted_state": 0.0,
+      "min_subflow_endpoint": 0.0,
+      "min_macro_state": 0.0,
+      "clipping_count": 0,
+      "projection_count": 0,
+      "fallback_count": 0,
+      "fast_columns": [
+        6,
+        7
+      ],
+      "fast_updated_states": [
+        4,
+        5,
+        6,
+        11,
+        12,
+        13
+      ],
+      "slow_updated_state_count": 13,
+      "max_substep_invariant_error": 2.46551652731722e-15,
+      "ledger_increment": -0.04527747142859553,
+      "ledger_quadrature_difference": 3.69712940817557e-17,
+      "ledger_residual": 2.250712810569766e-11,
+      "integration_seconds": 5.442739799997071
+    },
+    "partition_and_integration_seconds": 5.44490639999276
+  },
+  {
+    "method": "Strang",
+    "steps": 32,
+    "inner_rtol": 1e-10,
+    "repeat": 5,
+    "partition_setup_seconds": 0.0017782000068109483,
+    "status": "success",
+    "observed_error": {
+      "0.001": 0.20570388017063512,
+      "1e-05": 20.57038801706351,
+      "1e-07": 2057.0388017063515
+    },
+    "common_grid_error": {
+      "0.001": 0.15072065175969823,
+      "1e-05": 15.072065175969822,
+      "1e-07": 1507.2065175969824
+    },
+    "flux_error": {
+      "0.001": 0.7598948594672152,
+      "1e-05": 75.98948594672152,
+      "1e-07": 7598.948594672153
+    },
+    "invariant_error": 3.1171079840744325e-15,
+    "min_raw_concentration": 0.0,
+    "stats": {
+      "method": "Strang",
+      "macro_steps_completed": 32,
+      "subflow_calls": 96,
+      "nfev": 24142,
+      "njev": 86,
+      "nlu": 1412,
+      "accepted_substeps": 3183,
+      "rhs_calls_including_fd": 24659,
+      "fast_seconds": 5.361599000025308,
+      "slow_seconds": 0.26982319995295256,
+      "rhs_seconds": 1.3667039012070745,
+      "jacobian_seconds": 0.0,
+      "ledger_seconds": 2.467963799892459,
+      "significant_negative_rhs_components": 0,
+      "min_rhs_argument": 0.0,
+      "min_accepted_state": 0.0,
+      "min_subflow_endpoint": 0.0,
+      "min_macro_state": 0.0,
+      "clipping_count": 0,
+      "projection_count": 0,
+      "fallback_count": 0,
+      "fast_columns": [
+        6,
+        7
+      ],
+      "fast_updated_states": [
+        4,
+        5,
+        6,
+        11,
+        12,
+        13
+      ],
+      "slow_updated_state_count": 13,
+      "max_substep_invariant_error": 3.2319221517883586e-15,
+      "ledger_increment": -0.04522866618763257,
+      "ledger_quadrature_difference": 2.45029690981724e-17,
+      "ledger_residual": 2.260116399588341e-11,
+      "integration_seconds": 5.633886600000551
+    },
+    "partition_and_integration_seconds": 5.635664800007362
+  },
+  {
+    "method": "Lie",
+    "steps": 64,
+    "inner_rtol": 1e-10,
+    "repeat": 5,
+    "partition_setup_seconds": 0.002162600023439154,
+    "status": "success",
+    "observed_error": {
+      "0.001": 3.320341884184172,
+      "1e-05": 332.03418841841716,
+      "1e-07": 33203.418841841725
+    },
+    "common_grid_error": {
+      "0.001": 2.1416086591547305,
+      "1e-05": 214.16086591547304,
+      "1e-07": 21416.086591547308
+    },
+    "flux_error": {
+      "0.001": 12.01519560165104,
+      "1e-05": 1201.519560165104,
+      "1e-07": 120151.9560165104
+    },
+    "invariant_error": 1.9184051624632466e-15,
+    "min_raw_concentration": 0.0,
+    "stats": {
+      "method": "Lie",
+      "macro_steps_completed": 64,
+      "subflow_calls": 128,
+      "nfev": 35763,
+      "njev": 67,
+      "nlu": 2306,
+      "accepted_substeps": 4797,
+      "rhs_calls_including_fd": 36166,
+      "fast_seconds": 8.437800499988953,
+      "slow_seconds": 0.38019429994164966,
+      "rhs_seconds": 2.079072700551478,
+      "jacobian_seconds": 0.0,
+      "ledger_seconds": 3.939384000026621,
+      "significant_negative_rhs_components": 0,
+      "min_rhs_argument": 0.0,
+      "min_accepted_state": 0.0,
+      "min_subflow_endpoint": 0.0,
+      "min_macro_state": 0.0,
+      "clipping_count": 0,
+      "projection_count": 0,
+      "fallback_count": 0,
+      "fast_columns": [
+        6,
+        7
+      ],
+      "fast_updated_states": [
+        4,
+        5,
+        6,
+        11,
+        12,
+        13
+      ],
+      "slow_updated_state_count": 13,
+      "max_substep_invariant_error": 2.101865616983069e-15,
+      "ledger_increment": -0.045270230871687404,
+      "ledger_quadrature_difference": 4.9751327189928585e-17,
+      "ledger_residual": 2.0855255022933505e-11,
+      "integration_seconds": 8.82225080000353
+    },
+    "partition_and_integration_seconds": 8.82441340002697
+  },
+  {
+    "method": "Strang",
+    "steps": 64,
+    "inner_rtol": 1e-10,
+    "repeat": 5,
+    "partition_setup_seconds": 0.002458799979649484,
+    "status": "success",
+    "observed_error": {
+      "0.001": 0.23420532439727007,
+      "1e-05": 23.420532439727,
+      "1e-07": 2342.053243972701
+    },
+    "common_grid_error": {
+      "0.001": 0.15027587706596388,
+      "1e-05": 15.027587706596385,
+      "1e-07": 1502.758770659639
+    },
+    "flux_error": {
+      "0.001": 0.8544124120312777,
+      "1e-05": 85.44124120312776,
+      "1e-07": 8544.124120312777
+    },
+    "invariant_error": 4.752245256236266e-15,
+    "min_raw_concentration": 0.0,
+    "stats": {
+      "method": "Strang",
+      "macro_steps_completed": 64,
+      "subflow_calls": 192,
+      "nfev": 37696,
+      "njev": 161,
+      "nlu": 2724,
+      "accepted_substeps": 4824,
+      "rhs_calls_including_fd": 38663,
+      "fast_seconds": 8.721515700075543,
+      "slow_seconds": 0.3567081001820043,
+      "rhs_seconds": 2.1637996018107515,
+      "jacobian_seconds": 0.0,
+      "ledger_seconds": 3.851796699804254,
+      "significant_negative_rhs_components": 0,
+      "min_rhs_argument": 0.0,
+      "min_accepted_state": 0.0,
+      "min_subflow_endpoint": 0.0,
+      "min_macro_state": 0.0,
+      "clipping_count": 0,
+      "projection_count": 0,
+      "fallback_count": 0,
+      "fast_columns": [
+        6,
+        7
+      ],
+      "fast_updated_states": [
+        4,
+        5,
+        6,
+        11,
+        12,
+        13
+      ],
+      "slow_updated_state_count": 13,
+      "max_substep_invariant_error": 4.8590996547597694e-15,
+      "ledger_increment": -0.04524578581025344,
+      "ledger_quadrature_difference": 5.082197683525802e-17,
+      "ledger_residual": 2.1101488612007557e-11,
+      "integration_seconds": 9.08283610001672
+    },
+    "partition_and_integration_seconds": 9.08529489999637
+  },
+  {
+    "method": "Lie",
+    "steps": 16,
+    "inner_rtol": 1e-09,
+    "repeat": 5,
+    "partition_setup_seconds": 0.0019115000031888485,
+    "status": "success",
+    "observed_error": {
+      "0.001": 11.516818855381732,
+      "1e-05": 1151.681885538173,
+      "1e-07": 115168.18855381732
+    },
+    "common_grid_error": {
+      "0.001": 11.516818855381732,
+      "1e-05": 1151.681885538173,
+      "1e-07": 115168.18855381732
+    },
+    "flux_error": {
+      "0.001": 40.707861352267436,
+      "1e-05": 4070.786135226743,
+      "1e-07": 407078.6135226744
+    },
+    "invariant_error": 5.060832610537321e-16,
+    "min_raw_concentration": 0.0,
+    "stats": {
+      "method": "Lie",
+      "macro_steps_completed": 16,
+      "subflow_calls": 32,
+      "nfev": 8943,
+      "njev": 19,
+      "nlu": 706,
+      "accepted_substeps": 1193,
+      "rhs_calls_including_fd": 9058,
+      "fast_seconds": 2.043356500013033,
+      "slow_seconds": 0.1729116999777034,
+      "rhs_seconds": 0.5334407022164669,
+      "jacobian_seconds": 0.0,
+      "ledger_seconds": 0.961120399995707,
+      "significant_negative_rhs_components": 0,
+      "min_rhs_argument": 0.0,
+      "min_accepted_state": 0.0,
+      "min_subflow_endpoint": 0.0,
+      "min_macro_state": 0.0,
+      "clipping_count": 0,
+      "projection_count": 0,
+      "fallback_count": 0,
+      "fast_columns": [
+        6,
+        7
+      ],
+      "fast_updated_states": [
+        4,
+        5,
+        6,
+        11,
+        12,
+        13
+      ],
+      "slow_updated_state_count": 13,
+      "max_substep_invariant_error": 6.343398801851087e-16,
+      "ledger_increment": -0.045257843110750026,
+      "ledger_quadrature_difference": 4.0766001685454967e-17,
+      "ledger_residual": 2.2267214461191287e-10,
+      "integration_seconds": 2.217309599975124
+    },
+    "partition_and_integration_seconds": 2.219221099978313
+  },
+  {
+    "method": "Strang",
+    "steps": 16,
+    "inner_rtol": 1e-09,
+    "repeat": 5,
+    "partition_setup_seconds": 0.0020660999871324748,
+    "status": "success",
+    "observed_error": {
+      "0.001": 0.31642220094337004,
+      "1e-05": 31.642220094337,
+      "1e-07": 3164.2220094337004
+    },
+    "common_grid_error": {
+      "0.001": 0.31642220094337004,
+      "1e-05": 31.642220094337,
+      "1e-07": 3164.2220094337004
+    },
+    "flux_error": {
+      "0.001": 0.7437660904547068,
+      "1e-05": 74.37660904547066,
+      "1e-07": 7437.660904547068
+    },
+    "invariant_error": 3.4068043914836605e-15,
+    "min_raw_concentration": 0.0,
+    "stats": {
+      "method": "Strang",
+      "macro_steps_completed": 16,
+      "subflow_calls": 48,
+      "nfev": 9476,
+      "njev": 45,
+      "nlu": 744,
+      "accepted_substeps": 1248,
+      "rhs_calls_including_fd": 9747,
+      "fast_seconds": 1.7971989000216126,
+      "slow_seconds": 0.12795799996820278,
+      "rhs_seconds": 0.49420860249665566,
+      "jacobian_seconds": 0.0,
+      "ledger_seconds": 0.7657126999110915,
+      "significant_negative_rhs_components": 0,
+      "min_rhs_argument": 0.0,
+      "min_accepted_state": 0.0,
+      "min_subflow_endpoint": 0.0,
+      "min_macro_state": 0.0,
+      "clipping_count": 0,
+      "projection_count": 0,
+      "fallback_count": 0,
+      "fast_columns": [
+        6,
+        7
+      ],
+      "fast_updated_states": [
+        4,
+        5,
+        6,
+        11,
+        12,
+        13
+      ],
+      "slow_updated_state_count": 13,
+      "max_substep_invariant_error": 3.4490422856036175e-15,
+      "ledger_increment": -0.04516042185556719,
+      "ledger_quadrature_difference": 4.336808689942018e-17,
+      "ledger_residual": 2.227198009352449e-10,
+      "integration_seconds": 1.9261400999967009
+    },
+    "partition_and_integration_seconds": 1.9282061999838334
+  },
+  {
+    "method": "Lie",
+    "steps": 32,
+    "inner_rtol": 1e-09,
+    "repeat": 5,
+    "partition_setup_seconds": 0.0019037000020034611,
+    "status": "success",
+    "observed_error": {
+      "0.001": 6.45626714979964,
+      "1e-05": 645.6267149799638,
+      "1e-07": 64562.671497996394
+    },
+    "common_grid_error": {
+      "0.001": 4.824701153198971,
+      "1e-05": 482.47011531989705,
+      "1e-07": 48247.01153198971
+    },
+    "flux_error": {
+      "0.001": 23.19399107572213,
+      "1e-05": 2319.399107572213,
+      "1e-07": 231939.9107572213
+    },
+    "invariant_error": 1.080692309401897e-15,
+    "min_raw_concentration": 0.0,
+    "stats": {
+      "method": "Lie",
+      "macro_steps_completed": 32,
+      "subflow_calls": 64,
+      "nfev": 13875,
+      "njev": 34,
+      "nlu": 1264,
+      "accepted_substeps": 1825,
+      "rhs_calls_including_fd": 14080,
+      "fast_seconds": 3.2421082000946626,
+      "slow_seconds": 0.21352940000360832,
+      "rhs_seconds": 0.8157310993410647,
+      "jacobian_seconds": 0.0,
+      "ledger_seconds": 1.476736400014488,
+      "significant_negative_rhs_components": 0,
+      "min_rhs_argument": 0.0,
+      "min_accepted_state": 0.0,
+      "min_subflow_endpoint": 0.0,
+      "min_macro_state": 0.0,
+      "clipping_count": 0,
+      "projection_count": 0,
+      "fallback_count": 0,
+      "fast_columns": [
+        6,
+        7
+      ],
+      "fast_updated_states": [
+        4,
+        5,
+        6,
+        11,
+        12,
+        13
+      ],
+      "slow_updated_state_count": 13,
+      "max_substep_invariant_error": 1.243341845575654e-15,
+      "ledger_increment": -0.04527747158957034,
+      "ledger_quadrature_difference": 5.2583805365546965e-17,
+      "ledger_residual": 2.099749679684848e-10,
+      "integration_seconds": 3.457333900005324
+    },
+    "partition_and_integration_seconds": 3.4592376000073273
+  },
+  {
+    "method": "Strang",
+    "steps": 32,
+    "inner_rtol": 1e-09,
+    "repeat": 5,
+    "partition_setup_seconds": 0.0019927000103052706,
+    "status": "success",
+    "observed_error": {
+      "0.001": 0.20570387155452327,
+      "1e-05": 20.570387155452323,
+      "1e-07": 2057.0387155452327
+    },
+    "common_grid_error": {
+      "0.001": 0.15072064111047193,
+      "1e-05": 15.07206411104719,
+      "1e-07": 1507.2064111047193
+    },
+    "flux_error": {
+      "0.001": 0.7598948281523333,
+      "1e-05": 75.98948281523333,
+      "1e-07": 7598.948281523333
+    },
+    "invariant_error": 9.075503920903446e-16,
+    "min_raw_concentration": 0.0,
+    "stats": {
+      "method": "Strang",
+      "macro_steps_completed": 32,
+      "subflow_calls": 96,
+      "nfev": 14074,
+      "njev": 71,
+      "nlu": 1198,
+      "accepted_substeps": 1816,
+      "rhs_calls_including_fd": 14501,
+      "fast_seconds": 3.3266555002483074,
+      "slow_seconds": 0.22998460012604482,
+      "rhs_seconds": 0.8468870994402096,
+      "jacobian_seconds": 0.0,
+      "ledger_seconds": 1.5065641000983305,
+      "significant_negative_rhs_components": 0,
+      "min_rhs_argument": 0.0,
+      "min_accepted_state": 0.0,
+      "min_subflow_endpoint": 0.0,
+      "min_macro_state": 0.0,
+      "clipping_count": 0,
+      "projection_count": 0,
+      "fallback_count": 0,
+      "fast_columns": [
+        6,
+        7
+      ],
+      "fast_updated_states": [
+        4,
+        5,
+        6,
+        11,
+        12,
+        13
+      ],
+      "slow_updated_state_count": 13,
+      "max_substep_invariant_error": 1.2114163140183748e-15,
+      "ledger_increment": -0.04522866634864626,
+      "ledger_quadrature_difference": 6.906367838732663e-17,
+      "ledger_residual": 2.101109911056831e-10,
+      "integration_seconds": 3.5593004999973346
+    },
+    "partition_and_integration_seconds": 3.56129320000764
+  },
+  {
+    "method": "Lie",
+    "steps": 64,
+    "inner_rtol": 1e-09,
+    "repeat": 5,
+    "partition_setup_seconds": 0.003271199995651841,
+    "status": "success",
+    "observed_error": {
+      "0.001": 3.3203418858876548,
+      "1e-05": 332.03418858876546,
+      "1e-07": 33203.41885887655
+    },
+    "common_grid_error": {
+      "0.001": 2.141608669213772,
+      "1e-05": 214.1608669213772,
+      "1e-07": 21416.086692137724
+    },
+    "flux_error": {
+      "0.001": 12.015195607917658,
+      "1e-05": 1201.5195607917656,
+      "1e-07": 120151.95607917658
+    },
+    "invariant_error": 2.7581850397163265e-15,
+    "min_raw_concentration": 0.0,
+    "stats": {
+      "method": "Lie",
+      "macro_steps_completed": 64,
+      "subflow_calls": 128,
+      "nfev": 21297,
+      "njev": 66,
+      "nlu": 2066,
+      "accepted_substeps": 2753,
+      "rhs_calls_including_fd": 21694,
+      "fast_seconds": 5.037232300033793,
+      "slow_seconds": 0.29682650000904687,
+      "rhs_seconds": 1.2575742020271719,
+      "jacobian_seconds": 0.0,
+      "ledger_seconds": 2.2336636002291925,
+      "significant_negative_rhs_components": 0,
+      "min_rhs_argument": 0.0,
+      "min_accepted_state": 0.0,
+      "min_subflow_endpoint": 0.0,
+      "min_macro_state": 0.0,
+      "clipping_count": 0,
+      "projection_count": 0,
+      "fallback_count": 0,
+      "fast_columns": [
+        6,
+        7
+      ],
+      "fast_updated_states": [
+        4,
+        5,
+        6,
+        11,
+        12,
+        13
+      ],
+      "slow_updated_state_count": 13,
+      "max_substep_invariant_error": 2.848936315036282e-15,
+      "ledger_increment": -0.04527023104092276,
+      "ledger_quadrature_difference": 5.980730233973164e-17,
+      "ledger_residual": 2.3905810664359706e-10,
+      "integration_seconds": 5.3369574999960605
+    },
+    "partition_and_integration_seconds": 5.340228699991712
+  },
+  {
+    "method": "Lie",
+    "steps": 16,
+    "inner_rtol": 1e-10,
+    "repeat": 6,
+    "partition_setup_seconds": 0.001969800010556355,
+    "status": "success",
+    "observed_error": {
+      "0.001": 11.516818855378569,
+      "1e-05": 1151.6818855378567,
+      "1e-07": 115168.1885537857
+    },
+    "common_grid_error": {
+      "0.001": 11.516818855378569,
+      "1e-05": 1151.6818855378567,
+      "1e-07": 115168.1885537857
+    },
+    "flux_error": {
+      "0.001": 40.70786135213339,
+      "1e-05": 4070.7861352133386,
+      "1e-07": 407078.61352133396
+    },
+    "invariant_error": 2.6922069706885353e-15,
+    "min_raw_concentration": 0.0,
+    "stats": {
+      "method": "Lie",
+      "macro_steps_completed": 16,
+      "subflow_calls": 32,
+      "nfev": 15074,
+      "njev": 25,
+      "nlu": 818,
+      "accepted_substeps": 2062,
+      "rhs_calls_including_fd": 15225,
+      "fast_seconds": 3.358867400093004,
+      "slow_seconds": 0.25733239998226054,
+      "rhs_seconds": 0.8810372997832019,
+      "jacobian_seconds": 0.0,
+      "ledger_seconds": 1.6123265998903662,
+      "significant_negative_rhs_components": 0,
+      "min_rhs_argument": 0.0,
+      "min_accepted_state": 0.0,
+      "min_subflow_endpoint": 0.0,
+      "min_macro_state": 0.0,
+      "clipping_count": 0,
+      "projection_count": 0,
+      "fallback_count": 0,
+      "fast_columns": [
+        6,
+        7
+      ],
+      "fast_updated_states": [
+        4,
+        5,
+        6,
+        11,
+        12,
+        13
+      ],
+      "slow_updated_state_count": 13,
+      "max_substep_invariant_error": 2.795620617064658e-15,
+      "ledger_increment": -0.045257842935980286,
+      "ledger_quadrature_difference": 1.5612511283791264e-17,
+      "ledger_residual": 2.3726187681205602e-11,
+      "integration_seconds": 3.6176448999904096
+    },
+    "partition_and_integration_seconds": 3.619614700000966
+  },
+  {
+    "method": "Strang",
+    "steps": 16,
+    "inner_rtol": 1e-10,
+    "repeat": 6,
+    "partition_setup_seconds": 0.0017629000067245215,
+    "status": "success",
+    "observed_error": {
+      "0.001": 0.31642218156313096,
+      "1e-05": 31.642218156313092,
+      "1e-07": 3164.2218156313097
+    },
+    "common_grid_error": {
+      "0.001": 0.31642218156313096,
+      "1e-05": 31.642218156313092,
+      "1e-07": 3164.2218156313097
+    },
+    "flux_error": {
+      "0.001": 0.7437660472105775,
+      "1e-05": 74.37660472105773,
+      "1e-07": 7437.660472105775
+    },
+    "invariant_error": 4.53672510983957e-15,
+    "min_raw_concentration": 0.0,
+    "stats": {
+      "method": "Strang",
+      "macro_steps_completed": 16,
+      "subflow_calls": 48,
+      "nfev": 16151,
+      "njev": 48,
+      "nlu": 900,
+      "accepted_substeps": 2166,
+      "rhs_calls_including_fd": 16440,
+      "fast_seconds": 3.656890400015982,
+      "slow_seconds": 0.24079810004332103,
+      "rhs_seconds": 0.943244598194724,
+      "jacobian_seconds": 0.0,
+      "ledger_seconds": 1.7051195000240114,
+      "significant_negative_rhs_components": 0,
+      "min_rhs_argument": 0.0,
+      "min_accepted_state": 0.0,
+      "min_subflow_endpoint": 0.0,
+      "min_macro_state": 0.0,
+      "clipping_count": 0,
+      "projection_count": 0,
+      "fallback_count": 0,
+      "fast_columns": [
+        6,
+        7
+      ],
+      "fast_updated_states": [
+        4,
+        5,
+        6,
+        11,
+        12,
+        13
+      ],
+      "slow_updated_state_count": 13,
+      "max_substep_invariant_error": 4.753643542685442e-15,
+      "ledger_increment": -0.04516042168067625,
+      "ledger_quadrature_difference": 3.729655473350135e-17,
+      "ledger_residual": 2.3910214086431125e-11,
+      "integration_seconds": 3.899265699990792
+    },
+    "partition_and_integration_seconds": 3.9010285999975167
+  },
+  {
+    "method": "Lie",
+    "steps": 32,
+    "inner_rtol": 1e-10,
+    "repeat": 6,
+    "partition_setup_seconds": 0.002251600002637133,
+    "status": "success",
+    "observed_error": {
+      "0.001": 6.4562671494186,
+      "1e-05": 645.6267149418599,
+      "1e-07": 64562.671494186
+    },
+    "common_grid_error": {
+      "0.001": 4.82470114877826,
+      "1e-05": 482.47011487782595,
+      "1e-07": 48247.0114877826
+    },
+    "flux_error": {
+      "0.001": 23.193991074249183,
+      "1e-05": 2319.399107424918,
+      "1e-07": 231939.91074249183
+    },
+    "invariant_error": 2.240943468045646e-15,
+    "min_raw_concentration": 0.0,
+    "stats": {
+      "method": "Lie",
+      "macro_steps_completed": 32,
+      "subflow_calls": 64,
+      "nfev": 23146,
+      "njev": 34,
+      "nlu": 1446,
+      "accepted_substeps": 3150,
+      "rhs_calls_including_fd": 23351,
+      "fast_seconds": 5.346277500124415,
+      "slow_seconds": 0.28750599996419623,
+      "rhs_seconds": 1.322041601932142,
+      "jacobian_seconds": 0.0,
+      "ledger_seconds": 2.5073774999182206,
+      "significant_negative_rhs_components": 0,
+      "min_rhs_argument": 0.0,
+      "min_accepted_state": 0.0,
+      "min_subflow_endpoint": 0.0,
+      "min_macro_state": 0.0,
+      "clipping_count": 0,
+      "projection_count": 0,
+      "fallback_count": 0,
+      "fast_columns": [
+        6,
+        7
+      ],
+      "fast_updated_states": [
+        4,
+        5,
+        6,
+        11,
+        12,
+        13
+      ],
+      "slow_updated_state_count": 13,
+      "max_substep_invariant_error": 2.46551652731722e-15,
+      "ledger_increment": -0.04527747142859553,
+      "ledger_quadrature_difference": 3.69712940817557e-17,
+      "ledger_residual": 2.250712810569766e-11,
+      "integration_seconds": 5.63630449998891
+    },
+    "partition_and_integration_seconds": 5.638556099991547
+  },
+  {
+    "method": "Strang",
+    "steps": 32,
+    "inner_rtol": 1e-10,
+    "repeat": 6,
+    "partition_setup_seconds": 0.0018974999838974327,
+    "status": "success",
+    "observed_error": {
+      "0.001": 0.20570388017063512,
+      "1e-05": 20.57038801706351,
+      "1e-07": 2057.0388017063515
+    },
+    "common_grid_error": {
+      "0.001": 0.15072065175969823,
+      "1e-05": 15.072065175969822,
+      "1e-07": 1507.2065175969824
+    },
+    "flux_error": {
+      "0.001": 0.7598948594672152,
+      "1e-05": 75.98948594672152,
+      "1e-07": 7598.948594672153
+    },
+    "invariant_error": 3.1171079840744325e-15,
+    "min_raw_concentration": 0.0,
+    "stats": {
+      "method": "Strang",
+      "macro_steps_completed": 32,
+      "subflow_calls": 96,
+      "nfev": 24142,
+      "njev": 86,
+      "nlu": 1412,
+      "accepted_substeps": 3183,
+      "rhs_calls_including_fd": 24659,
+      "fast_seconds": 5.508318900043378,
+      "slow_seconds": 0.2948509001871571,
+      "rhs_seconds": 1.3889679005369544,
+      "jacobian_seconds": 0.0,
+      "ledger_seconds": 2.53842769988114,
+      "significant_negative_rhs_components": 0,
+      "min_rhs_argument": 0.0,
+      "min_accepted_state": 0.0,
+      "min_subflow_endpoint": 0.0,
+      "min_macro_state": 0.0,
+      "clipping_count": 0,
+      "projection_count": 0,
+      "fallback_count": 0,
+      "fast_columns": [
+        6,
+        7
+      ],
+      "fast_updated_states": [
+        4,
+        5,
+        6,
+        11,
+        12,
+        13
+      ],
+      "slow_updated_state_count": 13,
+      "max_substep_invariant_error": 3.2319221517883586e-15,
+      "ledger_increment": -0.04522866618763257,
+      "ledger_quadrature_difference": 2.45029690981724e-17,
+      "ledger_residual": 2.260116399588341e-11,
+      "integration_seconds": 5.806241900019813
+    },
+    "partition_and_integration_seconds": 5.808139400003711
+  },
+  {
+    "method": "Lie",
+    "steps": 64,
+    "inner_rtol": 1e-10,
+    "repeat": 6,
+    "partition_setup_seconds": 0.0020389000128488988,
+    "status": "success",
+    "observed_error": {
+      "0.001": 3.320341884184172,
+      "1e-05": 332.03418841841716,
+      "1e-07": 33203.418841841725
+    },
+    "common_grid_error": {
+      "0.001": 2.1416086591547305,
+      "1e-05": 214.16086591547304,
+      "1e-07": 21416.086591547308
+    },
+    "flux_error": {
+      "0.001": 12.01519560165104,
+      "1e-05": 1201.519560165104,
+      "1e-07": 120151.9560165104
+    },
+    "invariant_error": 1.9184051624632466e-15,
+    "min_raw_concentration": 0.0,
+    "stats": {
+      "method": "Lie",
+      "macro_steps_completed": 64,
+      "subflow_calls": 128,
+      "nfev": 35763,
+      "njev": 67,
+      "nlu": 2306,
+      "accepted_substeps": 4797,
+      "rhs_calls_including_fd": 36166,
+      "fast_seconds": 5.042742099991301,
+      "slow_seconds": 0.21355620000394993,
+      "rhs_seconds": 1.3293752977915574,
+      "jacobian_seconds": 0.0,
+      "ledger_seconds": 2.4160299997311085,
+      "significant_negative_rhs_components": 0,
+      "min_rhs_argument": 0.0,
+      "min_accepted_state": 0.0,
+      "min_subflow_endpoint": 0.0,
+      "min_macro_state": 0.0,
+      "clipping_count": 0,
+      "projection_count": 0,
+      "fallback_count": 0,
+      "fast_columns": [
+        6,
+        7
+      ],
+      "fast_updated_states": [
+        4,
+        5,
+        6,
+        11,
+        12,
+        13
+      ],
+      "slow_updated_state_count": 13,
+      "max_substep_invariant_error": 2.101865616983069e-15,
+      "ledger_increment": -0.045270230871687404,
+      "ledger_quadrature_difference": 4.9751327189928585e-17,
+      "ledger_residual": 2.0855255022933505e-11,
+      "integration_seconds": 5.259060000011232
+    },
+    "partition_and_integration_seconds": 5.261098900024081
+  },
+  {
+    "method": "Strang",
+    "steps": 64,
+    "inner_rtol": 1e-10,
+    "repeat": 6,
+    "partition_setup_seconds": 0.0007900000200606883,
+    "status": "success",
+    "observed_error": {
+      "0.001": 0.23420532439727007,
+      "1e-05": 23.420532439727,
+      "1e-07": 2342.053243972701
+    },
+    "common_grid_error": {
+      "0.001": 0.15027587706596388,
+      "1e-05": 15.027587706596385,
+      "1e-07": 1502.758770659639
+    },
+    "flux_error": {
+      "0.001": 0.8544124120312777,
+      "1e-05": 85.44124120312776,
+      "1e-07": 8544.124120312777
+    },
+    "invariant_error": 4.752245256236266e-15,
+    "min_raw_concentration": 0.0,
+    "stats": {
+      "method": "Strang",
+      "macro_steps_completed": 64,
+      "subflow_calls": 192,
+      "nfev": 37696,
+      "njev": 161,
+      "nlu": 2724,
+      "accepted_substeps": 4824,
+      "rhs_calls_including_fd": 38663,
+      "fast_seconds": 4.277198399824556,
+      "slow_seconds": 0.17777000009664334,
+      "rhs_seconds": 1.1722092000127304,
+      "jacobian_seconds": 0.0,
+      "ledger_seconds": 1.9896345000015572,
+      "significant_negative_rhs_components": 0,
+      "min_rhs_argument": 0.0,
+      "min_accepted_state": 0.0,
+      "min_subflow_endpoint": 0.0,
+      "min_macro_state": 0.0,
+      "clipping_count": 0,
+      "projection_count": 0,
+      "fallback_count": 0,
+      "fast_columns": [
+        6,
+        7
+      ],
+      "fast_updated_states": [
+        4,
+        5,
+        6,
+        11,
+        12,
+        13
+      ],
+      "slow_updated_state_count": 13,
+      "max_substep_invariant_error": 4.8590996547597694e-15,
+      "ledger_increment": -0.04524578581025344,
+      "ledger_quadrature_difference": 5.082197683525802e-17,
+      "ledger_residual": 2.1101488612007557e-11,
+      "integration_seconds": 4.458577000012156
+    },
+    "partition_and_integration_seconds": 4.459367000032216
+  },
+  {
+    "method": "Lie",
+    "steps": 16,
+    "inner_rtol": 1e-09,
+    "repeat": 6,
+    "partition_setup_seconds": 0.0009926999919116497,
+    "status": "success",
+    "observed_error": {
+      "0.001": 11.516818855381732,
+      "1e-05": 1151.681885538173,
+      "1e-07": 115168.18855381732
+    },
+    "common_grid_error": {
+      "0.001": 11.516818855381732,
+      "1e-05": 1151.681885538173,
+      "1e-07": 115168.18855381732
+    },
+    "flux_error": {
+      "0.001": 40.707861352267436,
+      "1e-05": 4070.786135226743,
+      "1e-07": 407078.6135226744
+    },
+    "invariant_error": 5.060832610537321e-16,
+    "min_raw_concentration": 0.0,
+    "stats": {
+      "method": "Lie",
+      "macro_steps_completed": 16,
+      "subflow_calls": 32,
+      "nfev": 8943,
+      "njev": 19,
+      "nlu": 706,
+      "accepted_substeps": 1193,
+      "rhs_calls_including_fd": 9058,
+      "fast_seconds": 0.9666025000042282,
+      "slow_seconds": 0.0893986000737641,
+      "rhs_seconds": 0.2710627996711992,
+      "jacobian_seconds": 0.0,
+      "ledger_seconds": 0.49469720001798123,
+      "significant_negative_rhs_components": 0,
+      "min_rhs_argument": 0.0,
+      "min_accepted_state": 0.0,
+      "min_subflow_endpoint": 0.0,
+      "min_macro_state": 0.0,
+      "clipping_count": 0,
+      "projection_count": 0,
+      "fallback_count": 0,
+      "fast_columns": [
+        6,
+        7
+      ],
+      "fast_updated_states": [
+        4,
+        5,
+        6,
+        11,
+        12,
+        13
+      ],
+      "slow_updated_state_count": 13,
+      "max_substep_invariant_error": 6.343398801851087e-16,
+      "ledger_increment": -0.045257843110750026,
+      "ledger_quadrature_difference": 4.0766001685454967e-17,
+      "ledger_residual": 2.2267214461191287e-10,
+      "integration_seconds": 1.0566933999944013
+    },
+    "partition_and_integration_seconds": 1.057686099986313
+  },
+  {
+    "method": "Strang",
+    "steps": 16,
+    "inner_rtol": 1e-09,
+    "repeat": 6,
+    "partition_setup_seconds": 0.0007533000025432557,
+    "status": "success",
+    "observed_error": {
+      "0.001": 0.31642220094337004,
+      "1e-05": 31.642220094337,
+      "1e-07": 3164.2220094337004
+    },
+    "common_grid_error": {
+      "0.001": 0.31642220094337004,
+      "1e-05": 31.642220094337,
+      "1e-07": 3164.2220094337004
+    },
+    "flux_error": {
+      "0.001": 0.7437660904547068,
+      "1e-05": 74.37660904547066,
+      "1e-07": 7437.660904547068
+    },
+    "invariant_error": 3.4068043914836605e-15,
+    "min_raw_concentration": 0.0,
+    "stats": {
+      "method": "Strang",
+      "macro_steps_completed": 16,
+      "subflow_calls": 48,
+      "nfev": 9476,
+      "njev": 45,
+      "nlu": 744,
+      "accepted_substeps": 1248,
+      "rhs_calls_including_fd": 9747,
+      "fast_seconds": 1.0688205999904312,
+      "slow_seconds": 0.08432239998364821,
+      "rhs_seconds": 0.29631439922377467,
+      "jacobian_seconds": 0.0,
+      "ledger_seconds": 0.525923800189048,
+      "significant_negative_rhs_components": 0,
+      "min_rhs_argument": 0.0,
+      "min_accepted_state": 0.0,
+      "min_subflow_endpoint": 0.0,
+      "min_macro_state": 0.0,
+      "clipping_count": 0,
+      "projection_count": 0,
+      "fallback_count": 0,
+      "fast_columns": [
+        6,
+        7
+      ],
+      "fast_updated_states": [
+        4,
+        5,
+        6,
+        11,
+        12,
+        13
+      ],
+      "slow_updated_state_count": 13,
+      "max_substep_invariant_error": 3.4490422856036175e-15,
+      "ledger_increment": -0.04516042185556719,
+      "ledger_quadrature_difference": 4.336808689942018e-17,
+      "ledger_residual": 2.227198009352449e-10,
+      "integration_seconds": 1.1539248999906704
+    },
+    "partition_and_integration_seconds": 1.1546781999932136
+  },
+  {
+    "method": "Lie",
+    "steps": 32,
+    "inner_rtol": 1e-09,
+    "repeat": 6,
+    "partition_setup_seconds": 0.0012058000138495117,
+    "status": "success",
+    "observed_error": {
+      "0.001": 6.45626714979964,
+      "1e-05": 645.6267149799638,
+      "1e-07": 64562.671497996394
+    },
+    "common_grid_error": {
+      "0.001": 4.824701153198971,
+      "1e-05": 482.47011531989705,
+      "1e-07": 48247.01153198971
+    },
+    "flux_error": {
+      "0.001": 23.19399107572213,
+      "1e-05": 2319.399107572213,
+      "1e-07": 231939.9107572213
+    },
+    "invariant_error": 1.080692309401897e-15,
+    "min_raw_concentration": 0.0,
+    "stats": {
+      "method": "Lie",
+      "macro_steps_completed": 32,
+      "subflow_calls": 64,
+      "nfev": 13875,
+      "njev": 34,
+      "nlu": 1264,
+      "accepted_substeps": 1825,
+      "rhs_calls_including_fd": 14080,
+      "fast_seconds": 1.5348527999594808,
+      "slow_seconds": 0.10615890004555695,
+      "rhs_seconds": 0.4204935996385757,
+      "jacobian_seconds": 0.0,
+      "ledger_seconds": 0.7492524001281708,
+      "significant_negative_rhs_components": 0,
+      "min_rhs_argument": 0.0,
+      "min_accepted_state": 0.0,
+      "min_subflow_endpoint": 0.0,
+      "min_macro_state": 0.0,
+      "clipping_count": 0,
+      "projection_count": 0,
+      "fallback_count": 0,
+      "fast_columns": [
+        6,
+        7
+      ],
+      "fast_updated_states": [
+        4,
+        5,
+        6,
+        11,
+        12,
+        13
+      ],
+      "slow_updated_state_count": 13,
+      "max_substep_invariant_error": 1.243341845575654e-15,
+      "ledger_increment": -0.04527747158957034,
+      "ledger_quadrature_difference": 5.2583805365546965e-17,
+      "ledger_residual": 2.099749679684848e-10,
+      "integration_seconds": 1.6421023999864701
+    },
+    "partition_and_integration_seconds": 1.6433082000003196
+  },
+  {
+    "method": "Strang",
+    "steps": 32,
+    "inner_rtol": 1e-09,
+    "repeat": 6,
+    "partition_setup_seconds": 0.0007438999891746789,
+    "status": "success",
+    "observed_error": {
+      "0.001": 0.20570387155452327,
+      "1e-05": 20.570387155452323,
+      "1e-07": 2057.0387155452327
+    },
+    "common_grid_error": {
+      "0.001": 0.15072064111047193,
+      "1e-05": 15.07206411104719,
+      "1e-07": 1507.2064111047193
+    },
+    "flux_error": {
+      "0.001": 0.7598948281523333,
+      "1e-05": 75.98948281523333,
+      "1e-07": 7598.948281523333
+    },
+    "invariant_error": 9.075503920903446e-16,
+    "min_raw_concentration": 0.0,
+    "stats": {
+      "method": "Strang",
+      "macro_steps_completed": 32,
+      "subflow_calls": 96,
+      "nfev": 14074,
+      "njev": 71,
+      "nlu": 1198,
+      "accepted_substeps": 1816,
+      "rhs_calls_including_fd": 14501,
+      "fast_seconds": 1.5536110999528319,
+      "slow_seconds": 0.09866780004813336,
+      "rhs_seconds": 0.42999340035021305,
+      "jacobian_seconds": 0.0,
+      "ledger_seconds": 0.7246932999987621,
+      "significant_negative_rhs_components": 0,
+      "min_rhs_argument": 0.0,
+      "min_accepted_state": 0.0,
+      "min_subflow_endpoint": 0.0,
+      "min_macro_state": 0.0,
+      "clipping_count": 0,
+      "projection_count": 0,
+      "fallback_count": 0,
+      "fast_columns": [
+        6,
+        7
+      ],
+      "fast_updated_states": [
+        4,
+        5,
+        6,
+        11,
+        12,
+        13
+      ],
+      "slow_updated_state_count": 13,
+      "max_substep_invariant_error": 1.2114163140183748e-15,
+      "ledger_increment": -0.04522866634864626,
+      "ledger_quadrature_difference": 6.906367838732663e-17,
+      "ledger_residual": 2.101109911056831e-10,
+      "integration_seconds": 1.6533902999944985
+    },
+    "partition_and_integration_seconds": 1.6541341999836732
+  },
+  {
+    "method": "Lie",
+    "steps": 64,
+    "inner_rtol": 1e-09,
+    "repeat": 6,
+    "partition_setup_seconds": 0.0010811999964062124,
+    "status": "success",
+    "observed_error": {
+      "0.001": 3.3203418858876548,
+      "1e-05": 332.03418858876546,
+      "1e-07": 33203.41885887655
+    },
+    "common_grid_error": {
+      "0.001": 2.141608669213772,
+      "1e-05": 214.1608669213772,
+      "1e-07": 21416.086692137724
+    },
+    "flux_error": {
+      "0.001": 12.015195607917658,
+      "1e-05": 1201.5195607917656,
+      "1e-07": 120151.95607917658
+    },
+    "invariant_error": 2.7581850397163265e-15,
+    "min_raw_concentration": 0.0,
+    "stats": {
+      "method": "Lie",
+      "macro_steps_completed": 64,
+      "subflow_calls": 128,
+      "nfev": 21297,
+      "njev": 66,
+      "nlu": 2066,
+      "accepted_substeps": 2753,
+      "rhs_calls_including_fd": 21694,
+      "fast_seconds": 2.3860466999176424,
+      "slow_seconds": 0.13908090005861595,
+      "rhs_seconds": 0.6502785966731608,
+      "jacobian_seconds": 0.0,
+      "ledger_seconds": 1.1232616999768652,
+      "significant_negative_rhs_components": 0,
+      "min_rhs_argument": 0.0,
+      "min_accepted_state": 0.0,
+      "min_subflow_endpoint": 0.0,
+      "min_macro_state": 0.0,
+      "clipping_count": 0,
+      "projection_count": 0,
+      "fallback_count": 0,
+      "fast_columns": [
+        6,
+        7
+      ],
+      "fast_updated_states": [
+        4,
+        5,
+        6,
+        11,
+        12,
+        13
+      ],
+      "slow_updated_state_count": 13,
+      "max_substep_invariant_error": 2.848936315036282e-15,
+      "ledger_increment": -0.04527023104092276,
+      "ledger_quadrature_difference": 5.980730233973164e-17,
+      "ledger_residual": 2.3905810664359706e-10,
+      "integration_seconds": 2.5268623999727424
+    },
+    "partition_and_integration_seconds": 2.5279435999691486
+  },
+  {
+    "method": "Strang",
+    "steps": 64,
+    "inner_rtol": 1e-09,
+    "repeat": 6,
+    "partition_setup_seconds": 0.0009437999979127198,
+    "status": "success",
+    "observed_error": {
+      "0.001": 0.2342053203562932,
+      "1e-05": 23.420532035629318,
+      "1e-07": 2342.053203562932
+    },
+    "common_grid_error": {
+      "0.001": 0.15027586826003508,
+      "1e-05": 15.027586826003507,
+      "1e-07": 1502.758682600351
+    },
+    "flux_error": {
+      "0.001": 0.8544123973100988,
+      "1e-05": 85.44123973100986,
+      "1e-07": 8544.123973100988
+    },
+    "invariant_error": 3.3268922965845473e-15,
+    "min_raw_concentration": 0.0,
+    "stats": {
+      "method": "Strang",
+      "macro_steps_completed": 64,
+      "subflow_calls": 192,
+      "nfev": 22795,
+      "njev": 167,
+      "nlu": 2266,
+      "accepted_substeps": 2761,
+      "rhs_calls_including_fd": 23798,
+      "fast_seconds": 2.5704045000311453,
+      "slow_seconds": 0.13246450008591637,
+      "rhs_seconds": 0.705764299724251,
+      "jacobian_seconds": 0.0,
+      "ledger_seconds": 1.1325790000555571,
+      "significant_negative_rhs_components": 0,
+      "min_rhs_argument": 0.0,
+      "min_accepted_state": 0.0,
+      "min_subflow_endpoint": 0.0,
+      "min_macro_state": 0.0,
+      "clipping_count": 0,
+      "projection_count": 0,
+      "fallback_count": 0,
+      "fast_columns": [
+        6,
+        7
+      ],
+      "fast_updated_states": [
+        4,
+        5,
+        6,
+        11,
+        12,
+        13
+      ],
+      "slow_updated_state_count": 13,
+      "max_substep_invariant_error": 3.363409294785074e-15,
+      "ledger_increment": -0.04524578597795888,
+      "ledger_quadrature_difference": 5.4047478298402396e-17,
+      "ledger_residual": 2.3728592701832696e-10,
+      "integration_seconds": 2.7048800000047777
+    },
+    "partition_and_integration_seconds": 2.7058238000026904
+  }
+]

@@ -2,7 +2,7 @@
 
 面向刚性代谢动力学 ODE 的**自适应快—慢反应算子分裂**研究。
 
-**当前阶段：M1 已完成，M2 准入通过。** 两个 SBML 的公开执行结果已复现；k-ecoli457 的 3003 维原包方程、Octave 轨迹与同 RHS 稀疏基线已核验。13 项验收检查通过，M2 尚未实施；当前没有分裂算法加速结论。调研及实施记录日期：2026-11-01 至 2026-11-02（Asia/Shanghai）。
+**当前阶段：M2 已完成，22 项验收检查通过；M3 尚未开始。** 固定 Lie／Strang、精确小系统、守恒／开放收支和负值检测已验证，真实模型短窗保留全部 168 次正式运行及精度负结果。强刚性下出现阶降低，大模型当前宏步未达到精度目标；没有分裂算法加速结论。调研及实施记录日期：2026-11-01 至 2026-11-03（Asia/Shanghai）。
 
 ## 研究问题
 
@@ -22,6 +22,7 @@
 | [进度记录](docs/progress.md) | 本轮已完成项及明确未执行项 |
 | [M1 首轮实施报告](docs/m1-baseline-report.md) | 模型语义、参考解核验、基线结果与剩余验收项 |
 | [M1 验收与 M2 准入报告](docs/m1-completion-report.md) | 补齐证据、实际精度上限、规模基线、准入范围及复现命令 |
+| [M2 固定分裂验收报告](docs/m2-completion-report.md) | 基础阶数、刚性阶降低、守恒／开放收支、负值检测及真实模型短窗成本 |
 | [BibTeX 文献库](references.bib) | 与综述编号对应的可引用条目 |
 
 ## 运行 M1
@@ -44,5 +45,21 @@ uv run python -m metabolism.acceptance
 ```
 
 该命令核验保存证据并输出 `M1: complete`、`M2_admission: pass`。M2 准入对象为合成正确性样例及 Teusink／k-ecoli457 自治模型；Chassagnole 含显式时间规则，只保留完整系统基线。大模型浓度／单向通量最严格档为 `10^-5`，原始净通量为 `10^-3`，小模型仍保留浓度及通量 `10^-7`。适配器对不支持的 SBML 语义明确报错。
+
+## 运行 M2
+
+```powershell
+uv run python -m metabolism.m2_experiments --case b0
+uv run python -m metabolism.m2_experiments --case teusink
+```
+
+在 M1 的 Ubuntu／WSL 环境运行 `python3 -m metabolism.m2_experiments --case kecoli`，最后回到 Windows：
+
+```powershell
+uv run python -m metabolism.m2_report --run-tests
+uv run python -m metabolism.m2_report --check
+```
+
+[M2 结果](results/m2)保留全部重复、原始轨迹、负结果和指纹。真实模型只运行登记窗口内的短窗探针；没有全窗口精度或加速结论。动态分组、外层误差控制和回退属于 M3；PE 仍未准入。
 
 关键近期对照：Zeng、Xie、Wang 的 [2026 年 CLE 快—慢分裂预印本](https://arxiv.org/abs/2604.00140v1)。它研究随机系统；本项目首先研究确定性 ODE，不直接沿用其随机误差公式或性能结论。

@@ -1,0 +1,62 @@
+{
+  "date": "2026-11-03 Asia/Shanghai",
+  "model": "teusink",
+  "model_sha256": "d6a75df939d6707fdb904b44c1f530c8dc3600fd44267ff8e8f38dac560b4361",
+  "window": [
+    0.0,
+    0.001
+  ],
+  "time_unit": "min",
+  "initial_state": "Same initial state as M1; start of transient, no equilibration",
+  "scope": "Bounded subwindow inside the M1 registered window; not a full-window trajectory qualification",
+  "fast_groups": [
+    6,
+    7
+  ],
+  "fast_directional_columns": [
+    6,
+    7
+  ],
+  "group_policy": "Indivisible original net SBML reactions",
+  "partition_policy": "Frozen GAPDH+PGK from M1",
+  "steps": [
+    16,
+    32,
+    64
+  ],
+  "inner_rtol": [
+    1e-09,
+    1e-10
+  ],
+  "inner_atol": ".01 * inner_rtol * frozen M1 species scale",
+  "concentration_and_elementary_flux_targets": [
+    0.001,
+    1e-05,
+    1e-07
+  ],
+  "net_flux_targets": [],
+  "reference_checks_at_strictest_targets": {
+    "concentration": 0.00016943229754771491,
+    "flux": 0.00025426295457867213
+  },
+  "reference_stats": {
+    "nfev": 15763,
+    "njev": 3,
+    "nlu": 96
+  },
+  "reference_grid": "Twice finest macro mesh; error reported at macro endpoints and common coarsest mesh, no composition interpolation",
+  "repeats": 7,
+  "setup_seconds": 0.3102280999883078,
+  "runtime": {
+    "python": "3.12.14",
+    "numpy": "2.5.4",
+    "scipy": "1.18.1",
+    "platform": "Windows-11-10.0.26300-SP0",
+    "threads": {
+      "OPENBLAS_NUM_THREADS": "1",
+      "OMP_NUM_THREADS": "1",
+      "MKL_NUM_THREADS": "1"
+    }
+  },
+  "ledger": "Independent 4/8-point Gauss quadrature on each accepted subflow, included in timings"
+}

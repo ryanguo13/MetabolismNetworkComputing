@@ -1,0 +1,88 @@
+[
+  {
+    "command": [
+      "C:\\Users\\jguo121\\Documents\\MetabolismNetworkComputing\\.venv\\Scripts\\python.exe",
+      "-m",
+      "unittest",
+      "discover",
+      "-s",
+      "tests",
+      "-v"
+    ],
+    "returncode": 0,
+    "source_sha256_LF": {
+      "metabolism/cvode.py": "6733fb499c0262bf87dc2040dd6aec44a91085f1dbe1b12f0056f8eb277e05c2",
+      "metabolism/kecoli.py": "73f46ac5ceebe3242c8dc313fa80fb1588a32c82a58527b305f69fcd0fd4d851",
+      "metabolism/sbml.py": "329df467e990958ee5373055020baadfed301dcbe32c0243d6a37b2aae6c5c2a",
+      "metabolism/splitting.py": "12ccc9526113e7080d9b56c7763c56a79d37a7fd9c2bacb9b25b2e7f6d1164a3",
+      "tests/test_cvode.py": "9e3ef93dde0f77bf148df321e93e1d088d11be56d1c9c63b2b38a16ad3702837",
+      "tests/test_kecoli.py": "c243a31f16f495c560060a07b9cddbd2640d42a0301d49db4222758c4629da4d",
+      "tests/test_models.py": "8c4120e97a112356df6e40076d486d0b1c8e7879eb2ef394f96eb9a3ef4ea33f",
+      "tests/test_splitting.py": "e858582d8fbe94500be6b4319d0dd131319bf1321a7762801177625552527aeb"
+    }
+  },
+  {
+    "command": [
+      "wsl",
+      "-d",
+      "Ubuntu-24.04",
+      "-u",
+      "root",
+      "--cd",
+      "C:\\Users\\jguo121\\Documents\\MetabolismNetworkComputing",
+      "--",
+      "python3",
+      "-m",
+      "unittest",
+      "discover",
+      "-s",
+      "tests",
+      "-p",
+      "test_cvode.py",
+      "-v"
+    ],
+    "returncode": 0,
+    "source_sha256_LF": {
+      "metabolism/cvode.py": "6733fb499c0262bf87dc2040dd6aec44a91085f1dbe1b12f0056f8eb277e05c2",
+      "metabolism/kecoli.py": "73f46ac5ceebe3242c8dc313fa80fb1588a32c82a58527b305f69fcd0fd4d851",
+      "metabolism/sbml.py": "329df467e990958ee5373055020baadfed301dcbe32c0243d6a37b2aae6c5c2a",
+      "metabolism/splitting.py": "12ccc9526113e7080d9b56c7763c56a79d37a7fd9c2bacb9b25b2e7f6d1164a3",
+      "tests/test_cvode.py": "9e3ef93dde0f77bf148df321e93e1d088d11be56d1c9c63b2b38a16ad3702837",
+      "tests/test_kecoli.py": "c243a31f16f495c560060a07b9cddbd2640d42a0301d49db4222758c4629da4d",
+      "tests/test_models.py": "8c4120e97a112356df6e40076d486d0b1c8e7879eb2ef394f96eb9a3ef4ea33f",
+      "tests/test_splitting.py": "e858582d8fbe94500be6b4319d0dd131319bf1321a7762801177625552527aeb"
+    }
+  },
+  {
+    "command": [
+      "wsl",
+      "-d",
+      "Ubuntu-24.04",
+      "-u",
+      "root",
+      "--cd",
+      "C:\\Users\\jguo121\\Documents\\MetabolismNetworkComputing",
+      "--",
+      "python3",
+      "-m",
+      "unittest",
+      "discover",
+      "-s",
+      "tests",
+      "-p",
+      "test_kecoli.py",
+      "-v"
+    ],
+    "returncode": 0,
+    "source_sha256_LF": {
+      "metabolism/cvode.py": "6733fb499c0262bf87dc2040dd6aec44a91085f1dbe1b12f0056f8eb277e05c2",
+      "metabolism/kecoli.py": "73f46ac5ceebe3242c8dc313fa80fb1588a32c82a58527b305f69fcd0fd4d851",
+      "metabolism/sbml.py": "329df467e990958ee5373055020baadfed301dcbe32c0243d6a37b2aae6c5c2a",
+      "metabolism/splitting.py": "12ccc9526113e7080d9b56c7763c56a79d37a7fd9c2bacb9b25b2e7f6d1164a3",
+      "tests/test_cvode.py": "9e3ef93dde0f77bf148df321e93e1d088d11be56d1c9c63b2b38a16ad3702837",
+      "tests/test_kecoli.py": "c243a31f16f495c560060a07b9cddbd2640d42a0301d49db4222758c4629da4d",
+      "tests/test_models.py": "8c4120e97a112356df6e40076d486d0b1c8e7879eb2ef394f96eb9a3ef4ea33f",
+      "tests/test_splitting.py": "e858582d8fbe94500be6b4319d0dd131319bf1321a7762801177625552527aeb"
+    }
+  }
+]

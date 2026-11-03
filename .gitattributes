@@ -7,6 +7,11 @@ models/*.json text eol=lf
 results/m1-completion/*.json text eol=lf
 results/m1-completion/*.md text eol=lf
 results/m1-completion/*.txt text eol=lf
+results/m2/*.json text eol=lf
+results/m2/*.md text eol=lf
+results/m2/*.txt text eol=lf
+docs/m2-completion-report.md text eol=lf
+*.py text eol=lf
 *.npz -text
 *.mat -text
 *.png -text

@@ -1,0 +1,2068 @@
+{
+  "date": "2026-11-03 Asia/Shanghai",
+  "linear": [
+    {
+      "case": "terminal_chain",
+      "fast_slow_ratio": 1.0,
+      "initial": "far",
+      "method": "Lie",
+      "rate_constants": [
+        3.0,
+        2.0,
+        0.4,
+        0.0
+      ],
+      "isolated_group_relaxation_ratio": 12.5,
+      "steps": [
+        8,
+        16,
+        32,
+        64,
+        128
+      ],
+      "trajectory_errors": [
+        0.012030506868849206,
+        0.006110569023534767,
+        0.003079694223943624,
+        0.0015460077738823222,
+        0.0007745503929329654
+      ],
+      "orders": [
+        0.9773187904569185,
+        0.9885196157787244,
+        0.9942395423479713,
+        0.9971165634746356
+      ],
+      "invariant_errors": [
+        1.1102230246251565e-16,
+        1.1102230246251565e-16,
+        2.220446049250313e-16,
+        4.440892098500626e-16,
+        4.440892098500626e-16
+      ],
+      "min_raw_concentrations": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reference": "Independent full matrix exponential at every macro endpoint",
+      "subflows": "Exact reversible pair maps; no PE"
+    },
+    {
+      "case": "terminal_chain",
+      "fast_slow_ratio": 1.0,
+      "initial": "far",
+      "method": "Strang",
+      "rate_constants": [
+        3.0,
+        2.0,
+        0.4,
+        0.0
+      ],
+      "isolated_group_relaxation_ratio": 12.5,
+      "steps": [
+        8,
+        16,
+        32,
+        64,
+        128
+      ],
+      "trajectory_errors": [
+        0.0004591758746380653,
+        0.00011620929146877976,
+        2.9113117881592028e-05,
+        7.284343539024376e-06,
+        1.821324623606359e-06
+      ],
+      "orders": [
+        1.9823214205098914,
+        1.9969841645969912,
+        1.9987984853779595,
+        1.9998108794409377
+      ],
+      "invariant_errors": [
+        1.1102230246251565e-16,
+        4.440892098500626e-16,
+        3.3306690738754696e-16,
+        2.220446049250313e-16,
+        4.440892098500626e-16
+      ],
+      "min_raw_concentrations": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reference": "Independent full matrix exponential at every macro endpoint",
+      "subflows": "Exact reversible pair maps; no PE"
+    },
+    {
+      "case": "terminal_chain",
+      "fast_slow_ratio": 1.0,
+      "initial": "fast_equilibrium",
+      "method": "Lie",
+      "rate_constants": [
+        3.0,
+        2.0,
+        0.4,
+        0.0
+      ],
+      "isolated_group_relaxation_ratio": 12.5,
+      "steps": [
+        8,
+        16,
+        32,
+        64,
+        128
+      ],
+      "trajectory_errors": [
+        0.005007166271305632,
+        0.0023696858302370213,
+        0.001151212817779466,
+        0.0005671968209127556,
+        0.00028149823387769275
+      ],
+      "orders": [
+        1.0792985620798807,
+        1.0415412407644273,
+        1.021233208930779,
+        1.0107235755709718
+      ],
+      "invariant_errors": [
+        2.220446049250313e-16,
+        2.220446049250313e-16,
+        2.220446049250313e-16,
+        4.440892098500626e-16,
+        2.220446049250313e-16
+      ],
+      "min_raw_concentrations": [
+        0.1,
+        0.1,
+        0.1,
+        0.1,
+        0.1
+      ],
+      "reference": "Independent full matrix exponential at every macro endpoint",
+      "subflows": "Exact reversible pair maps; no PE"
+    },
+    {
+      "case": "terminal_chain",
+      "fast_slow_ratio": 1.0,
+      "initial": "fast_equilibrium",
+      "method": "Strang",
+      "rate_constants": [
+        3.0,
+        2.0,
+        0.4,
+        0.0
+      ],
+      "isolated_group_relaxation_ratio": 12.5,
+      "steps": [
+        8,
+        16,
+        32,
+        64,
+        128
+      ],
+      "trajectory_errors": [
+        0.00033781054964025683,
+        8.506968368978497e-05,
+        2.130634899314168e-05,
+        5.329025974129349e-06,
+        1.3324090038112207e-06
+      ],
+      "orders": [
+        1.9894973885036802,
+        1.9973616924079496,
+        1.9993396273552508,
+        1.9998348567026598
+      ],
+      "invariant_errors": [
+        2.220446049250313e-16,
+        2.220446049250313e-16,
+        5.551115123125783e-16,
+        2.220446049250313e-16,
+        4.440892098500626e-16
+      ],
+      "min_raw_concentrations": [
+        0.1,
+        0.1,
+        0.1,
+        0.1,
+        0.1
+      ],
+      "reference": "Independent full matrix exponential at every macro endpoint",
+      "subflows": "Exact reversible pair maps; no PE"
+    },
+    {
+      "case": "terminal_chain",
+      "fast_slow_ratio": 100.0,
+      "initial": "far",
+      "method": "Lie",
+      "rate_constants": [
+        300.0,
+        200.0,
+        0.4,
+        0.0
+      ],
+      "isolated_group_relaxation_ratio": 1250.0,
+      "steps": [
+        8,
+        16,
+        32,
+        64,
+        128
+      ],
+      "trajectory_errors": [
+        0.011513124484846152,
+        0.005919266136469293,
+        0.0030363331274273386,
+        0.0015720435995153768,
+        0.0008259565131005258
+      ],
+      "orders": [
+        0.9597891833945328,
+        0.9630882404480999,
+        0.9496888526123431,
+        0.928503499918031
+      ],
+      "invariant_errors": [
+        2.220446049250313e-16,
+        4.440892098500626e-16,
+        4.440892098500626e-16,
+        8.881784197001252e-16,
+        3.3306690738754696e-16
+      ],
+      "min_raw_concentrations": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reference": "Independent full matrix exponential at every macro endpoint",
+      "subflows": "Exact reversible pair maps; no PE"
+    },
+    {
+      "case": "terminal_chain",
+      "fast_slow_ratio": 100.0,
+      "initial": "far",
+      "method": "Strang",
+      "rate_constants": [
+        300.0,
+        200.0,
+        0.4,
+        0.0
+      ],
+      "isolated_group_relaxation_ratio": 1250.0,
+      "steps": [
+        8,
+        16,
+        32,
+        64,
+        128
+      ],
+      "trajectory_errors": [
+        0.0014438936538475214,
+        0.0005030698553531504,
+        0.00045255361031934125,
+        0.0003953052915532268,
+        0.00020434947053723368
+      ],
+      "orders": [
+        1.5211338392376383,
+        0.1526700373320477,
+        0.19512143939364515,
+        0.951928761802221
+      ],
+      "invariant_errors": [
+        2.220446049250313e-16,
+        2.220446049250313e-16,
+        6.661338147750939e-16,
+        6.661338147750939e-16,
+        6.661338147750939e-16
+      ],
+      "min_raw_concentrations": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reference": "Independent full matrix exponential at every macro endpoint",
+      "subflows": "Exact reversible pair maps; no PE"
+    },
+    {
+      "case": "terminal_chain",
+      "fast_slow_ratio": 100.0,
+      "initial": "fast_equilibrium",
+      "method": "Lie",
+      "rate_constants": [
+        300.0,
+        200.0,
+        0.4,
+        0.0
+      ],
+      "isolated_group_relaxation_ratio": 1250.0,
+      "steps": [
+        8,
+        16,
+        32,
+        64,
+        128
+      ],
+      "trajectory_errors": [
+        0.010364936443268033,
+        0.005136433994775185,
+        0.002492634513541247,
+        0.0011633518677077528,
+        0.0005095009339445124
+      ],
+      "orders": [
+        1.0128722590827877,
+        1.0430957449149927,
+        1.0993838401740494,
+        1.19113082468217
+      ],
+      "invariant_errors": [
+        2.220446049250313e-16,
+        2.220446049250313e-16,
+        1.1102230246251565e-16,
+        2.220446049250313e-16,
+        4.440892098500626e-16
+      ],
+      "min_raw_concentrations": [
+        0.1,
+        0.1,
+        0.1,
+        0.1,
+        0.1
+      ],
+      "reference": "Independent full matrix exponential at every macro endpoint",
+      "subflows": "Exact reversible pair maps; no PE"
+    },
+    {
+      "case": "terminal_chain",
+      "fast_slow_ratio": 100.0,
+      "initial": "fast_equilibrium",
+      "method": "Strang",
+      "rate_constants": [
+        300.0,
+        200.0,
+        0.4,
+        0.0
+      ],
+      "isolated_group_relaxation_ratio": 1250.0,
+      "steps": [
+        8,
+        16,
+        32,
+        64,
+        128
+      ],
+      "trajectory_errors": [
+        0.0016360425258129232,
+        0.0007892993792756001,
+        0.0003673115661796939,
+        0.00020753901138979036,
+        9.19191340669047e-05
+      ],
+      "orders": [
+        1.0515657291126734,
+        1.1035682892156933,
+        0.8236217781427474,
+        1.174945435183709
+      ],
+      "invariant_errors": [
+        1.1102230246251565e-16,
+        2.220446049250313e-16,
+        2.220446049250313e-16,
+        2.220446049250313e-16,
+        8.881784197001252e-16
+      ],
+      "min_raw_concentrations": [
+        0.1,
+        0.1,
+        0.1,
+        0.1,
+        0.1
+      ],
+      "reference": "Independent full matrix exponential at every macro endpoint",
+      "subflows": "Exact reversible pair maps; no PE"
+    },
+    {
+      "case": "terminal_chain",
+      "fast_slow_ratio": 10000.0,
+      "initial": "far",
+      "method": "Lie",
+      "rate_constants": [
+        30000.0,
+        20000.0,
+        0.4,
+        0.0
+      ],
+      "isolated_group_relaxation_ratio": 125000.0,
+      "steps": [
+        8,
+        16,
+        32,
+        64,
+        128
+      ],
+      "trajectory_errors": [
+        0.01170101266858295,
+        0.005892497431170867,
+        0.002955403195137483,
+        0.001478695713316411,
+        0.0007416724441534177
+      ],
+      "orders": [
+        0.9896822641553313,
+        0.9955242589552291,
+        0.9990297610486878,
+        0.9954711308094115
+      ],
+      "invariant_errors": [
+        2.220446049250313e-16,
+        2.220446049250313e-16,
+        5.551115123125783e-16,
+        8.881784197001252e-16,
+        4.440892098500626e-16
+      ],
+      "min_raw_concentrations": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reference": "Independent full matrix exponential at every macro endpoint",
+      "subflows": "Exact reversible pair maps; no PE"
+    },
+    {
+      "case": "terminal_chain",
+      "fast_slow_ratio": 10000.0,
+      "initial": "far",
+      "method": "Strang",
+      "rate_constants": [
+        30000.0,
+        20000.0,
+        0.4,
+        0.0
+      ],
+      "isolated_group_relaxation_ratio": 125000.0,
+      "steps": [
+        8,
+        16,
+        32,
+        64,
+        128
+      ],
+      "trajectory_errors": [
+        0.0018731955067268773,
+        0.0009323697883519976,
+        0.0004634942917627976,
+        0.00022944736402873763,
+        0.00011252240665788826
+      ],
+      "orders": [
+        1.0065273199496394,
+        1.0083506862473792,
+        1.0143883385593373,
+        1.0279509178379256
+      ],
+      "invariant_errors": [
+        2.220446049250313e-16,
+        2.220446049250313e-16,
+        5.551115123125783e-16,
+        1.1102230246251565e-15,
+        4.440892098500626e-16
+      ],
+      "min_raw_concentrations": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reference": "Independent full matrix exponential at every macro endpoint",
+      "subflows": "Exact reversible pair maps; no PE"
+    },
+    {
+      "case": "terminal_chain",
+      "fast_slow_ratio": 10000.0,
+      "initial": "fast_equilibrium",
+      "method": "Lie",
+      "rate_constants": [
+        30000.0,
+        20000.0,
+        0.4,
+        0.0
+      ],
+      "isolated_group_relaxation_ratio": 125000.0,
+      "steps": [
+        8,
+        16,
+        32,
+        64,
+        128
+      ],
+      "trajectory_errors": [
+        0.010532571739125906,
+        0.0053049331181606076,
+        0.00266156099393701,
+        0.0013324218592665347,
+        0.0006659808579984765
+      ],
+      "orders": [
+        0.9894512747552094,
+        0.9950619341935669,
+        0.998221700621476,
+        1.0004983114487624
+      ],
+      "invariant_errors": [
+        0.0,
+        4.440892098500626e-16,
+        2.220446049250313e-16,
+        4.440892098500626e-16,
+        2.220446049250313e-16
+      ],
+      "min_raw_concentrations": [
+        0.1,
+        0.1,
+        0.1,
+        0.1,
+        0.1
+      ],
+      "reference": "Independent full matrix exponential at every macro endpoint",
+      "subflows": "Exact reversible pair maps; no PE"
+    },
+    {
+      "case": "terminal_chain",
+      "fast_slow_ratio": 10000.0,
+      "initial": "fast_equilibrium",
+      "method": "Strang",
+      "rate_constants": [
+        30000.0,
+        20000.0,
+        0.4,
+        0.0
+      ],
+      "isolated_group_relaxation_ratio": 125000.0,
+      "steps": [
+        8,
+        16,
+        32,
+        64,
+        128
+      ],
+      "trajectory_errors": [
+        0.0016892405505163476,
+        0.0008424974039788595,
+        0.0004205094570487005,
+        0.00020986722208784042,
+        0.00010463476045437552
+      ],
+      "orders": [
+        1.0036306388358658,
+        1.0025339945273501,
+        1.0026613880659694,
+        1.0041146529190184
+      ],
+      "invariant_errors": [
+        0.0,
+        4.440892098500626e-16,
+        2.220446049250313e-16,
+        2.220446049250313e-16,
+        4.440892098500626e-16
+      ],
+      "min_raw_concentrations": [
+        0.1,
+        0.1,
+        0.1,
+        0.1,
+        0.1
+      ],
+      "reference": "Independent full matrix exponential at every macro endpoint",
+      "subflows": "Exact reversible pair maps; no PE"
+    },
+    {
+      "case": "terminal_chain",
+      "fast_slow_ratio": 1000000.0,
+      "initial": "far",
+      "method": "Lie",
+      "rate_constants": [
+        3000000.0,
+        2000000.0,
+        0.4,
+        0.0
+      ],
+      "isolated_group_relaxation_ratio": 12500000.0,
+      "steps": [
+        8,
+        16,
+        32,
+        64,
+        128
+      ],
+      "trajectory_errors": [
+        0.01170470192051528,
+        0.005896223900745203,
+        0.0029591483793931636,
+        0.001482329413703805,
+        0.0007418405564589573
+      ],
+      "orders": [
+        0.9892249794306842,
+        0.9946092709467153,
+        0.997315949679309,
+        0.9986850418294402
+      ],
+      "invariant_errors": [
+        2.220446049250313e-16,
+        2.220446049250313e-16,
+        2.220446049250313e-16,
+        2.220446049250313e-16,
+        1.1102230246251565e-15
+      ],
+      "min_raw_concentrations": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reference": "Independent full matrix exponential at every macro endpoint",
+      "subflows": "Exact reversible pair maps; no PE"
+    },
+    {
+      "case": "terminal_chain",
+      "fast_slow_ratio": 1000000.0,
+      "initial": "far",
+      "method": "Strang",
+      "rate_constants": [
+        3000000.0,
+        2000000.0,
+        0.4,
+        0.0
+      ],
+      "isolated_group_relaxation_ratio": 12500000.0,
+      "steps": [
+        8,
+        16,
+        32,
+        64,
+        128
+      ],
+      "trajectory_errors": [
+        0.0018774887236659283,
+        0.0009366630052910485,
+        0.00046778750870184855,
+        0.0002337405809676787,
+        0.00011681562359713161
+      ],
+      "orders": [
+        1.0032022525311655,
+        1.001676747173478,
+        1.0009451080539542,
+        1.0006749884613535
+      ],
+      "invariant_errors": [
+        2.220446049250313e-16,
+        3.3306690738754696e-16,
+        8.881784197001252e-16,
+        2.220446049250313e-16,
+        1.1102230246251565e-15
+      ],
+      "min_raw_concentrations": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reference": "Independent full matrix exponential at every macro endpoint",
+      "subflows": "Exact reversible pair maps; no PE"
+    },
+    {
+      "case": "terminal_chain",
+      "fast_slow_ratio": 1000000.0,
+      "initial": "fast_equilibrium",
+      "method": "Lie",
+      "rate_constants": [
+        3000000.0,
+        2000000.0,
+        0.4,
+        0.0
+      ],
+      "isolated_group_relaxation_ratio": 12500000.0,
+      "steps": [
+        8,
+        16,
+        32,
+        64,
+        128
+      ],
+      "trajectory_errors": [
+        0.010534248331730809,
+        0.005306618364864015,
+        0.002663250522528793,
+        0.0013341135172069954,
+        0.0006676735776757742
+      ],
+      "orders": [
+        0.9892226711885176,
+        0.9946046542993368,
+        0.9973067161865918,
+        0.9986665742796725
+      ],
+      "invariant_errors": [
+        2.220446049250313e-16,
+        2.220446049250313e-16,
+        4.440892098500626e-16,
+        4.440892098500626e-16,
+        4.440892098500626e-16
+      ],
+      "min_raw_concentrations": [
+        0.1,
+        0.1,
+        0.1,
+        0.1,
+        0.1
+      ],
+      "reference": "Independent full matrix exponential at every macro endpoint",
+      "subflows": "Exact reversible pair maps; no PE"
+    },
+    {
+      "case": "terminal_chain",
+      "fast_slow_ratio": 1000000.0,
+      "initial": "fast_equilibrium",
+      "method": "Strang",
+      "rate_constants": [
+        3000000.0,
+        2000000.0,
+        0.4,
+        0.0
+      ],
+      "isolated_group_relaxation_ratio": 12500000.0,
+      "steps": [
+        8,
+        16,
+        32,
+        64,
+        128
+      ],
+      "trajectory_errors": [
+        0.0016897734971650412,
+        0.0008430303506276631,
+        0.00042104240369755905,
+        0.00021040016873664403,
+        0.000105167707103399
+      ],
+      "orders": [
+        1.003173398983274,
+        1.0016190355528047,
+        1.0008296745552776,
+        1.0004440843304387
+      ],
+      "invariant_errors": [
+        4.440892098500626e-16,
+        2.220446049250313e-16,
+        4.440892098500626e-16,
+        4.440892098500626e-16,
+        8.881784197001252e-16
+      ],
+      "min_raw_concentrations": [
+        0.1,
+        0.1,
+        0.1,
+        0.1,
+        0.1
+      ],
+      "reference": "Independent full matrix exponential at every macro endpoint",
+      "subflows": "Exact reversible pair maps; no PE"
+    },
+    {
+      "case": "reversible_chain",
+      "fast_slow_ratio": 1.0,
+      "initial": "far",
+      "method": "Lie",
+      "rate_constants": [
+        3.0,
+        2.0,
+        0.4,
+        0.2
+      ],
+      "isolated_group_relaxation_ratio": 8.333333333333332,
+      "steps": [
+        8,
+        16,
+        32,
+        64,
+        128
+      ],
+      "trajectory_errors": [
+        0.011100488776062335,
+        0.005638013644283941,
+        0.002844219322272476,
+        0.0014280779011449035,
+        0.0007155642160132163
+      ],
+      "orders": [
+        0.9773643282146736,
+        0.9871542515545896,
+        0.9939580377361218,
+        0.9969215321093157
+      ],
+      "invariant_errors": [
+        2.220446049250313e-16,
+        2.220446049250313e-16,
+        2.220446049250313e-16,
+        2.220446049250313e-16,
+        6.661338147750939e-16
+      ],
+      "min_raw_concentrations": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reference": "Independent full matrix exponential at every macro endpoint",
+      "subflows": "Exact reversible pair maps; no PE"
+    },
+    {
+      "case": "reversible_chain",
+      "fast_slow_ratio": 1.0,
+      "initial": "far",
+      "method": "Strang",
+      "rate_constants": [
+        3.0,
+        2.0,
+        0.4,
+        0.2
+      ],
+      "isolated_group_relaxation_ratio": 8.333333333333332,
+      "steps": [
+        8,
+        16,
+        32,
+        64,
+        128
+      ],
+      "trajectory_errors": [
+        0.00041117711456860724,
+        0.00010432368172553763,
+        2.6132146112534557e-05,
+        6.53624492039013e-06,
+        1.634261860877399e-06
+      ],
+      "orders": [
+        1.978693278507161,
+        1.9971691737427153,
+        1.9992916624056367,
+        1.9998228761211976
+      ],
+      "invariant_errors": [
+        1.1102230246251565e-16,
+        2.220446049250313e-16,
+        4.440892098500626e-16,
+        3.3306690738754696e-16,
+        8.881784197001252e-16
+      ],
+      "min_raw_concentrations": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reference": "Independent full matrix exponential at every macro endpoint",
+      "subflows": "Exact reversible pair maps; no PE"
+    },
+    {
+      "case": "reversible_chain",
+      "fast_slow_ratio": 1.0,
+      "initial": "fast_equilibrium",
+      "method": "Lie",
+      "rate_constants": [
+        3.0,
+        2.0,
+        0.4,
+        0.2
+      ],
+      "isolated_group_relaxation_ratio": 8.333333333333332,
+      "steps": [
+        8,
+        16,
+        32,
+        64,
+        128
+      ],
+      "trajectory_errors": [
+        0.004208988284096353,
+        0.001988053687300497,
+        0.0009659041422045258,
+        0.0004757059275273806,
+        0.00023604889556437812
+      ],
+      "orders": [
+        1.082116776538563,
+        1.0414047913124322,
+        1.0218100188212198,
+        1.010984269280009
+      ],
+      "invariant_errors": [
+        2.220446049250313e-16,
+        2.220446049250313e-16,
+        2.220446049250313e-16,
+        2.220446049250313e-16,
+        2.220446049250313e-16
+      ],
+      "min_raw_concentrations": [
+        0.1,
+        0.1,
+        0.1,
+        0.1,
+        0.1
+      ],
+      "reference": "Independent full matrix exponential at every macro endpoint",
+      "subflows": "Exact reversible pair maps; no PE"
+    },
+    {
+      "case": "reversible_chain",
+      "fast_slow_ratio": 1.0,
+      "initial": "fast_equilibrium",
+      "method": "Strang",
+      "rate_constants": [
+        3.0,
+        2.0,
+        0.4,
+        0.2
+      ],
+      "isolated_group_relaxation_ratio": 8.333333333333332,
+      "steps": [
+        8,
+        16,
+        32,
+        64,
+        128
+      ],
+      "trajectory_errors": [
+        0.00024914730596695,
+        6.272253013600955e-05,
+        1.5708691954424866e-05,
+        3.928802680051267e-06,
+        9.823191069699778e-07
+      ],
+      "orders": [
+        1.9899433122578885,
+        1.9974207028576672,
+        1.9994014370973525,
+        1.9998260456189207
+      ],
+      "invariant_errors": [
+        0.0,
+        0.0,
+        2.220446049250313e-16,
+        2.220446049250313e-16,
+        4.440892098500626e-16
+      ],
+      "min_raw_concentrations": [
+        0.1,
+        0.1,
+        0.1,
+        0.1,
+        0.1
+      ],
+      "reference": "Independent full matrix exponential at every macro endpoint",
+      "subflows": "Exact reversible pair maps; no PE"
+    },
+    {
+      "case": "reversible_chain",
+      "fast_slow_ratio": 100.0,
+      "initial": "far",
+      "method": "Lie",
+      "rate_constants": [
+        300.0,
+        200.0,
+        0.4,
+        0.2
+      ],
+      "isolated_group_relaxation_ratio": 833.3333333333333,
+      "steps": [
+        8,
+        16,
+        32,
+        64,
+        128
+      ],
+      "trajectory_errors": [
+        0.01137106569648539,
+        0.005882034158653861,
+        0.0030265604865292784,
+        0.0015694087085103244,
+        0.0008239589832597599
+      ],
+      "orders": [
+        0.950980402467664,
+        0.9586359784529777,
+        0.9474580732156882,
+        0.9295766838823405
+      ],
+      "invariant_errors": [
+        0.0,
+        2.220446049250313e-16,
+        3.3306690738754696e-16,
+        3.3306690738754696e-16,
+        8.881784197001252e-16
+      ],
+      "min_raw_concentrations": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reference": "Independent full matrix exponential at every macro endpoint",
+      "subflows": "Exact reversible pair maps; no PE"
+    },
+    {
+      "case": "reversible_chain",
+      "fast_slow_ratio": 100.0,
+      "initial": "far",
+      "method": "Strang",
+      "rate_constants": [
+        300.0,
+        200.0,
+        0.4,
+        0.2
+      ],
+      "isolated_group_relaxation_ratio": 833.3333333333333,
+      "steps": [
+        8,
+        16,
+        32,
+        64,
+        128
+      ],
+      "trajectory_errors": [
+        0.0011963610317225124,
+        0.00041529690314621743,
+        0.00044987563217556247,
+        0.0003941398267589996,
+        0.00020368237284578434
+      ],
+      "orders": [
+        1.5264378055913579,
+        -0.11538311078082053,
+        0.1908186872025233,
+        0.9523864057915381
+      ],
+      "invariant_errors": [
+        2.220446049250313e-16,
+        3.3306690738754696e-16,
+        2.220446049250313e-16,
+        2.220446049250313e-16,
+        1.1102230246251565e-15
+      ],
+      "min_raw_concentrations": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reference": "Independent full matrix exponential at every macro endpoint",
+      "subflows": "Exact reversible pair maps; no PE"
+    },
+    {
+      "case": "reversible_chain",
+      "fast_slow_ratio": 100.0,
+      "initial": "fast_equilibrium",
+      "method": "Lie",
+      "rate_constants": [
+        300.0,
+        200.0,
+        0.4,
+        0.2
+      ],
+      "isolated_group_relaxation_ratio": 833.3333333333333,
+      "steps": [
+        8,
+        16,
+        32,
+        64,
+        128
+      ],
+      "trajectory_errors": [
+        0.009291046295494002,
+        0.004632799446325159,
+        0.002255210913953206,
+        0.0010541674741323095,
+        0.0004613213337392702
+      ],
+      "orders": [
+        1.003956842902097,
+        1.0386218646500853,
+        1.0971582807167946,
+        1.1922601678688742
+      ],
+      "invariant_errors": [
+        1.1102230246251565e-16,
+        1.1102230246251565e-16,
+        2.220446049250313e-16,
+        6.661338147750939e-16,
+        2.220446049250313e-16
+      ],
+      "min_raw_concentrations": [
+        0.1,
+        0.1,
+        0.1,
+        0.1,
+        0.1
+      ],
+      "reference": "Independent full matrix exponential at every macro endpoint",
+      "subflows": "Exact reversible pair maps; no PE"
+    },
+    {
+      "case": "reversible_chain",
+      "fast_slow_ratio": 100.0,
+      "initial": "fast_equilibrium",
+      "method": "Strang",
+      "rate_constants": [
+        300.0,
+        200.0,
+        0.4,
+        0.2
+      ],
+      "isolated_group_relaxation_ratio": 833.3333333333333,
+      "steps": [
+        8,
+        16,
+        32,
+        64,
+        128
+      ],
+      "trajectory_errors": [
+        0.001227165979610763,
+        0.0005892956482685875,
+        0.0002735968902749695,
+        0.00015430259491222784,
+        6.964476056530122e-05
+      ],
+      "orders": [
+        1.0582668754952382,
+        1.1069397799320426,
+        0.8262895085585854,
+        1.1476755971225254
+      ],
+      "invariant_errors": [
+        1.1102230246251565e-16,
+        1.1102230246251565e-16,
+        2.220446049250313e-16,
+        4.440892098500626e-16,
+        6.661338147750939e-16
+      ],
+      "min_raw_concentrations": [
+        0.1,
+        0.1,
+        0.1,
+        0.1,
+        0.1
+      ],
+      "reference": "Independent full matrix exponential at every macro endpoint",
+      "subflows": "Exact reversible pair maps; no PE"
+    },
+    {
+      "case": "reversible_chain",
+      "fast_slow_ratio": 10000.0,
+      "initial": "far",
+      "method": "Lie",
+      "rate_constants": [
+        30000.0,
+        20000.0,
+        0.4,
+        0.2
+      ],
+      "isolated_group_relaxation_ratio": 83333.33333333331,
+      "steps": [
+        8,
+        16,
+        32,
+        64,
+        128
+      ],
+      "trajectory_errors": [
+        0.011556729544310355,
+        0.005855937157821027,
+        0.00294621004443656,
+        0.001476390011626,
+        0.0007410930494359555
+      ],
+      "orders": [
+        0.9807612084943095,
+        0.9910397833860228,
+        0.9967864059216394,
+        0.994347282806522
+      ],
+      "invariant_errors": [
+        2.220446049250313e-16,
+        2.220446049250313e-16,
+        4.440892098500626e-16,
+        2.220446049250313e-16,
+        6.661338147750939e-16
+      ],
+      "min_raw_concentrations": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reference": "Independent full matrix exponential at every macro endpoint",
+      "subflows": "Exact reversible pair maps; no PE"
+    },
+    {
+      "case": "reversible_chain",
+      "fast_slow_ratio": 10000.0,
+      "initial": "far",
+      "method": "Strang",
+      "rate_constants": [
+        30000.0,
+        20000.0,
+        0.4,
+        0.2
+      ],
+      "isolated_group_relaxation_ratio": 83333.33333333331,
+      "steps": [
+        8,
+        16,
+        32,
+        64,
+        128
+      ],
+      "trajectory_errors": [
+        0.0015480067996234664,
+        0.0007669410877758686,
+        0.0003803710574561755,
+        0.00018807894422200993,
+        9.218135479742992e-05
+      ],
+      "orders": [
+        1.0132241413914271,
+        1.0117082867419378,
+        1.0160691297096045,
+        1.028791469223804
+      ],
+      "invariant_errors": [
+        2.220446049250313e-16,
+        2.220446049250313e-16,
+        4.440892098500626e-16,
+        2.220446049250313e-16,
+        4.440892098500626e-16
+      ],
+      "min_raw_concentrations": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reference": "Independent full matrix exponential at every macro endpoint",
+      "subflows": "Exact reversible pair maps; no PE"
+    },
+    {
+      "case": "reversible_chain",
+      "fast_slow_ratio": 10000.0,
+      "initial": "fast_equilibrium",
+      "method": "Lie",
+      "rate_constants": [
+        30000.0,
+        20000.0,
+        0.4,
+        0.2
+      ],
+      "isolated_group_relaxation_ratio": 83333.33333333331,
+      "steps": [
+        8,
+        16,
+        32,
+        64,
+        128
+      ],
+      "trajectory_errors": [
+        0.009439465210692936,
+        0.004783859064628188,
+        0.002407602833205226,
+        0.0012071658832488751,
+        0.000603845440133478
+      ],
+      "orders": [
+        0.9805302390676887,
+        0.9905774679171268,
+        0.9959734812687917,
+        0.9993727076339742
+      ],
+      "invariant_errors": [
+        0.0,
+        1.1102230246251565e-16,
+        2.220446049250313e-16,
+        2.220446049250313e-16,
+        4.440892098500626e-16
+      ],
+      "min_raw_concentrations": [
+        0.1,
+        0.1,
+        0.1,
+        0.1,
+        0.1
+      ],
+      "reference": "Independent full matrix exponential at every macro endpoint",
+      "subflows": "Exact reversible pair maps; no PE"
+    },
+    {
+      "case": "reversible_chain",
+      "fast_slow_ratio": 10000.0,
+      "initial": "fast_equilibrium",
+      "method": "Strang",
+      "rate_constants": [
+        30000.0,
+        20000.0,
+        0.4,
+        0.2
+      ],
+      "isolated_group_relaxation_ratio": 83333.33333333331,
+      "steps": [
+        8,
+        16,
+        32,
+        64,
+        128
+      ],
+      "trajectory_errors": [
+        0.0012667051971448906,
+        0.000628834865802715,
+        0.00031313600770825633,
+        0.00015609744856709352,
+        7.778108387033211e-05
+      ],
+      "orders": [
+        1.0103276869412587,
+        1.0058917957296745,
+        1.0043424579616962,
+        1.0049557126602697
+      ],
+      "invariant_errors": [
+        0.0,
+        1.1102230246251565e-16,
+        2.220446049250313e-16,
+        2.220446049250313e-16,
+        5.551115123125783e-16
+      ],
+      "min_raw_concentrations": [
+        0.1,
+        0.1,
+        0.1,
+        0.1,
+        0.1
+      ],
+      "reference": "Independent full matrix exponential at every macro endpoint",
+      "subflows": "Exact reversible pair maps; no PE"
+    },
+    {
+      "case": "reversible_chain",
+      "fast_slow_ratio": 1000000.0,
+      "initial": "far",
+      "method": "Lie",
+      "rate_constants": [
+        3000000.0,
+        2000000.0,
+        0.4,
+        0.2
+      ],
+      "isolated_group_relaxation_ratio": 8333333.333333332,
+      "steps": [
+        8,
+        16,
+        32,
+        64,
+        128
+      ],
+      "trajectory_errors": [
+        0.011560327724695904,
+        0.005859617356030461,
+        0.0029499319154768556,
+        0.0014800171885288361,
+        0.0007412615055132057
+      ],
+      "orders": [
+        0.9803039353480986,
+        0.9901247996288162,
+        0.9950677263801605,
+        0.9975594332503716
+      ],
+      "invariant_errors": [
+        2.220446049250313e-16,
+        2.220446049250313e-16,
+        4.440892098500626e-16,
+        2.220446049250313e-16,
+        3.3306690738754696e-16
+      ],
+      "min_raw_concentrations": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reference": "Independent full matrix exponential at every macro endpoint",
+      "subflows": "Exact reversible pair maps; no PE"
+    },
+    {
+      "case": "reversible_chain",
+      "fast_slow_ratio": 1000000.0,
+      "initial": "far",
+      "method": "Strang",
+      "rate_constants": [
+        3000000.0,
+        2000000.0,
+        0.4,
+        0.2
+      ],
+      "isolated_group_relaxation_ratio": 8333333.333333332,
+      "steps": [
+        8,
+        16,
+        32,
+        64,
+        128
+      ],
+      "trajectory_errors": [
+        0.001551521819896115,
+        0.0007704561080484345,
+        0.00038388607772887884,
+        0.00019159396449471328,
+        9.569637507002334e-05
+      ],
+      "orders": [
+        1.0098993108110565,
+        1.0050345311081752,
+        1.0026261247115742,
+        1.00151593236658
+      ],
+      "invariant_errors": [
+        2.220446049250313e-16,
+        2.220446049250313e-16,
+        5.551115123125783e-16,
+        9.992007221626409e-16,
+        4.440892098500626e-16
+      ],
+      "min_raw_concentrations": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reference": "Independent full matrix exponential at every macro endpoint",
+      "subflows": "Exact reversible pair maps; no PE"
+    },
+    {
+      "case": "reversible_chain",
+      "fast_slow_ratio": 1000000.0,
+      "initial": "fast_equilibrium",
+      "method": "Lie",
+      "rate_constants": [
+        3000000.0,
+        2000000.0,
+        0.4,
+        0.2
+      ],
+      "isolated_group_relaxation_ratio": 8333333.333333332,
+      "steps": [
+        8,
+        16,
+        32,
+        64,
+        128
+      ],
+      "trajectory_errors": [
+        0.009440949001711151,
+        0.004785369277360065,
+        0.0024091263768696116,
+        0.0012086961222597928,
+        0.0006053790342689348
+      ],
+      "orders": [
+        0.9803016273093443,
+        0.9901201830830287,
+        0.9950584929380986,
+        0.9975409657256821
+      ],
+      "invariant_errors": [
+        1.1102230246251565e-16,
+        1.1102230246251565e-16,
+        2.220446049250313e-16,
+        4.440892098500626e-16,
+        4.440892098500626e-16
+      ],
+      "min_raw_concentrations": [
+        0.1,
+        0.1,
+        0.1,
+        0.1,
+        0.1
+      ],
+      "reference": "Independent full matrix exponential at every macro endpoint",
+      "subflows": "Exact reversible pair maps; no PE"
+    },
+    {
+      "case": "reversible_chain",
+      "fast_slow_ratio": 1000000.0,
+      "initial": "fast_equilibrium",
+      "method": "Strang",
+      "rate_constants": [
+        3000000.0,
+        2000000.0,
+        0.4,
+        0.2
+      ],
+      "isolated_group_relaxation_ratio": 8333333.333333332,
+      "steps": [
+        8,
+        16,
+        32,
+        64,
+        128
+      ],
+      "trajectory_errors": [
+        0.0012671011540138883,
+        0.0006292308226717128,
+        0.00031353196457725415,
+        0.0001564934054359814,
+        7.817704073927494e-05
+      ],
+      "orders": [
+        1.009870453379254,
+        1.0049768091875222,
+        1.002510669357271,
+        1.0012849839244933
+      ],
+      "invariant_errors": [
+        1.1102230246251565e-16,
+        2.220446049250313e-16,
+        2.220446049250313e-16,
+        6.661338147750939e-16,
+        4.440892098500626e-16
+      ],
+      "min_raw_concentrations": [
+        0.1,
+        0.1,
+        0.1,
+        0.1,
+        0.1
+      ],
+      "reference": "Independent full matrix exponential at every macro endpoint",
+      "subflows": "Exact reversible pair maps; no PE"
+    }
+  ],
+  "enzyme": [
+    {
+      "method": "Lie",
+      "steps": [
+        8,
+        16,
+        32,
+        64,
+        128
+      ],
+      "exact_flow_errors": [
+        0.005972828917266116,
+        0.0028507740986305676,
+        0.0013893385846569324,
+        0.0006854084859981285,
+        0.00034036676263321134
+      ],
+      "numerical_flow_errors": [
+        0.005972828917240353,
+        0.0028507740986116747,
+        0.0013893385846498424,
+        0.0006854084859980324,
+        0.00034036676263325254
+      ],
+      "orders": [
+        1.0670606769352473,
+        1.0369554916964907,
+        1.0193622709078465,
+        1.009873891491805
+      ],
+      "numerical_vs_exact_split": [
+        1.0677569939332443e-13,
+        9.028888747764086e-14,
+        3.9995784462121264e-14,
+        3.774758283725532e-15,
+        1.7763568394002505e-15
+      ],
+      "two_pool_errors": [
+        3.164135620181696e-15,
+        3.094746681142624e-15,
+        1.2906342661267445e-15,
+        4.121702978920894e-15,
+        2.1788126858268697e-15
+      ],
+      "min_raw_concentrations": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "method": "Strang",
+      "steps": [
+        8,
+        16,
+        32,
+        64,
+        128
+      ],
+      "exact_flow_errors": [
+        0.000507907590243962,
+        0.00013046417581332324,
+        3.286300950190163e-05,
+        8.22916205271008e-06,
+        2.0583916497676284e-06
+      ],
+      "numerical_flow_errors": [
+        0.0005079075902243756,
+        0.00013046417580558732,
+        3.286300949792309e-05,
+        8.229162051008384e-06,
+        2.058391648064215e-06
+      ],
+      "orders": [
+        1.960912322730995,
+        1.9891172018254868,
+        1.9976471657278885,
+        1.9992280238012068
+      ],
+      "numerical_vs_exact_split": [
+        1.0408340855860843e-13,
+        8.762435221854048e-14,
+        3.9440672949808686e-14,
+        3.1086244689504383e-15,
+        3.1086244689504383e-15
+      ],
+      "two_pool_errors": [
+        1.915134717478395e-15,
+        1.4155343563970746e-15,
+        3.608224830031759e-15,
+        3.1780134079895106e-15,
+        3.066991105526995e-15
+      ],
+      "min_raw_concentrations": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    }
+  ],
+  "linear_ratio_definition": "fast_slow_ratio is the nominal fast-rate multiplier. Fast rates=(3,2)*multiplier; slow rates=(0.4,0.2) or (0.4,0). The exact isolated nonzero group-mode ratio is separately saved.",
+  "enzyme_independent_reference_max_difference": 1.111610803405938e-13,
+  "robertson": [
+    {
+      "method": "Lie",
+      "steps": 8,
+      "status": "success",
+      "error": 0.32410507136972894,
+      "invariant_error": 1.5543122344752192e-15,
+      "stats": {
+        "method": "Lie",
+        "macro_steps_completed": 8,
+        "subflow_calls": 16,
+        "nfev": 23488,
+        "njev": 15,
+        "nlu": 166,
+        "accepted_substeps": 3327,
+        "rhs_calls_including_fd": 23532,
+        "fast_seconds": 1.945932200003881,
+        "slow_seconds": 0.007315700000617653,
+        "rhs_seconds": 0.3491756987350527,
+        "jacobian_seconds": 0.0,
+        "ledger_seconds": 0.0,
+        "significant_negative_rhs_components": 0,
+        "min_rhs_argument": 0.0,
+        "min_accepted_state": 0.0,
+        "min_subflow_endpoint": 0.0,
+        "min_macro_state": 0.0,
+        "clipping_count": 0,
+        "projection_count": 0,
+        "fallback_count": 0,
+        "fast_columns": [
+          1,
+          2
+        ],
+        "fast_updated_states": [
+          0,
+          1,
+          2
+        ],
+        "slow_updated_state_count": 2,
+        "max_substep_invariant_error": 0.0,
+        "ledger_increment": 0.0,
+        "ledger_quadrature_difference": 0.0,
+        "integration_seconds": 1.9534772000042722
+      }
+    },
+    {
+      "method": "Lie",
+      "steps": 16,
+      "status": "success",
+      "error": 0.14434566667495113,
+      "invariant_error": 3.1086244689504383e-15,
+      "stats": {
+        "method": "Lie",
+        "macro_steps_completed": 16,
+        "subflow_calls": 32,
+        "nfev": 26315,
+        "njev": 31,
+        "nlu": 236,
+        "accepted_substeps": 3696,
+        "rhs_calls_including_fd": 26407,
+        "fast_seconds": 2.187797099875752,
+        "slow_seconds": 0.011509999894769862,
+        "rhs_seconds": 0.38857029817881994,
+        "jacobian_seconds": 0.0,
+        "ledger_seconds": 0.0,
+        "significant_negative_rhs_components": 0,
+        "min_rhs_argument": 0.0,
+        "min_accepted_state": 0.0,
+        "min_subflow_endpoint": 0.0,
+        "min_macro_state": 0.0,
+        "clipping_count": 0,
+        "projection_count": 0,
+        "fallback_count": 0,
+        "fast_columns": [
+          1,
+          2
+        ],
+        "fast_updated_states": [
+          0,
+          1,
+          2
+        ],
+        "slow_updated_state_count": 2,
+        "max_substep_invariant_error": 0.0,
+        "ledger_increment": 0.0,
+        "ledger_quadrature_difference": 0.0,
+        "integration_seconds": 2.199665299995104
+      }
+    },
+    {
+      "method": "Lie",
+      "steps": 32,
+      "status": "success",
+      "error": 0.06713372649838949,
+      "invariant_error": 1.9984014443252818e-15,
+      "stats": {
+        "method": "Lie",
+        "macro_steps_completed": 32,
+        "subflow_calls": 64,
+        "nfev": 27790,
+        "njev": 63,
+        "nlu": 368,
+        "accepted_substeps": 3839,
+        "rhs_calls_including_fd": 27978,
+        "fast_seconds": 2.3468997000018135,
+        "slow_seconds": 0.019774000014876947,
+        "rhs_seconds": 0.40709709806833416,
+        "jacobian_seconds": 0.0,
+        "ledger_seconds": 0.0,
+        "significant_negative_rhs_components": 0,
+        "min_rhs_argument": 0.0,
+        "min_accepted_state": 0.0,
+        "min_subflow_endpoint": 0.0,
+        "min_macro_state": 0.0,
+        "clipping_count": 0,
+        "projection_count": 0,
+        "fallback_count": 0,
+        "fast_columns": [
+          1,
+          2
+        ],
+        "fast_updated_states": [
+          0,
+          1,
+          2
+        ],
+        "slow_updated_state_count": 2,
+        "max_substep_invariant_error": 0.0,
+        "ledger_increment": 0.0,
+        "ledger_quadrature_difference": 0.0,
+        "integration_seconds": 2.3673044000170194
+      }
+    },
+    {
+      "method": "Lie",
+      "steps": 64,
+      "status": "success",
+      "error": 0.03225997736094243,
+      "invariant_error": 1.3322676295501878e-15,
+      "stats": {
+        "method": "Lie",
+        "macro_steps_completed": 64,
+        "subflow_calls": 128,
+        "nfev": 29322,
+        "njev": 127,
+        "nlu": 600,
+        "accepted_substeps": 3921,
+        "rhs_calls_including_fd": 29702,
+        "fast_seconds": 2.5704275999742094,
+        "slow_seconds": 0.036966900050174445,
+        "rhs_seconds": 0.42814849704154767,
+        "jacobian_seconds": 0.0,
+        "ledger_seconds": 0.0,
+        "significant_negative_rhs_components": 0,
+        "min_rhs_argument": 0.0,
+        "min_accepted_state": 0.0,
+        "min_subflow_endpoint": 0.0,
+        "min_macro_state": 0.0,
+        "clipping_count": 0,
+        "projection_count": 0,
+        "fallback_count": 0,
+        "fast_columns": [
+          1,
+          2
+        ],
+        "fast_updated_states": [
+          0,
+          1,
+          2
+        ],
+        "slow_updated_state_count": 2,
+        "max_substep_invariant_error": 0.0,
+        "ledger_increment": 0.0,
+        "ledger_quadrature_difference": 0.0,
+        "integration_seconds": 2.6085730999766383
+      }
+    },
+    {
+      "method": "Strang",
+      "steps": 8,
+      "status": "success",
+      "error": 0.06375167901622646,
+      "invariant_error": 1.1102230246251565e-15,
+      "stats": {
+        "method": "Strang",
+        "macro_steps_completed": 8,
+        "subflow_calls": 24,
+        "nfev": 25661,
+        "njev": 31,
+        "nlu": 196,
+        "accepted_substeps": 3611,
+        "rhs_calls_including_fd": 25753,
+        "fast_seconds": 2.0281625000061467,
+        "slow_seconds": 0.007449400029145181,
+        "rhs_seconds": 0.3569708998838905,
+        "jacobian_seconds": 0.0,
+        "ledger_seconds": 0.0,
+        "significant_negative_rhs_components": 0,
+        "min_rhs_argument": 0.0,
+        "min_accepted_state": 0.0,
+        "min_subflow_endpoint": 0.0,
+        "min_macro_state": 0.0,
+        "clipping_count": 0,
+        "projection_count": 0,
+        "fallback_count": 0,
+        "fast_columns": [
+          1,
+          2
+        ],
+        "fast_updated_states": [
+          0,
+          1,
+          2
+        ],
+        "slow_updated_state_count": 2,
+        "max_substep_invariant_error": 0.0,
+        "ledger_increment": 0.0,
+        "ledger_quadrature_difference": 0.0,
+        "integration_seconds": 2.035952600010205
+      }
+    },
+    {
+      "method": "Strang",
+      "steps": 16,
+      "status": "success",
+      "error": 0.019717922060510644,
+      "invariant_error": 4.218847493575595e-15,
+      "stats": {
+        "method": "Strang",
+        "macro_steps_completed": 16,
+        "subflow_calls": 48,
+        "nfev": 26636,
+        "njev": 63,
+        "nlu": 286,
+        "accepted_substeps": 3690,
+        "rhs_calls_including_fd": 26824,
+        "fast_seconds": 2.1824093999457546,
+        "slow_seconds": 0.01098749999073334,
+        "rhs_seconds": 0.37140369930421,
+        "jacobian_seconds": 0.0,
+        "ledger_seconds": 0.0,
+        "significant_negative_rhs_components": 0,
+        "min_rhs_argument": 0.0,
+        "min_accepted_state": 0.0,
+        "min_subflow_endpoint": 0.0,
+        "min_macro_state": 0.0,
+        "clipping_count": 0,
+        "projection_count": 0,
+        "fallback_count": 0,
+        "fast_columns": [
+          1,
+          2
+        ],
+        "fast_updated_states": [
+          0,
+          1,
+          2
+        ],
+        "slow_updated_state_count": 2,
+        "max_substep_invariant_error": 0.0,
+        "ledger_increment": 0.0,
+        "ledger_quadrature_difference": 0.0,
+        "integration_seconds": 2.193849200004479
+      }
+    },
+    {
+      "method": "Strang",
+      "steps": 32,
+      "status": "success",
+      "error": 0.005241249790311422,
+      "invariant_error": 2.4424906541753444e-15,
+      "stats": {
+        "method": "Strang",
+        "macro_steps_completed": 32,
+        "subflow_calls": 96,
+        "nfev": 28982,
+        "njev": 125,
+        "nlu": 568,
+        "accepted_substeps": 3883,
+        "rhs_calls_including_fd": 29356,
+        "fast_seconds": 2.6060469999792986,
+        "slow_seconds": 0.019886899914126843,
+        "rhs_seconds": 0.42537450115196407,
+        "jacobian_seconds": 0.0,
+        "ledger_seconds": 0.0,
+        "significant_negative_rhs_components": 0,
+        "min_rhs_argument": 0.0,
+        "min_accepted_state": 0.0,
+        "min_subflow_endpoint": 0.0,
+        "min_macro_state": 0.0,
+        "clipping_count": 0,
+        "projection_count": 0,
+        "fallback_count": 0,
+        "fast_columns": [
+          1,
+          2
+        ],
+        "fast_updated_states": [
+          0,
+          1,
+          2
+        ],
+        "slow_updated_state_count": 2,
+        "max_substep_invariant_error": 0.0,
+        "ledger_increment": 0.0,
+        "ledger_quadrature_difference": 0.0,
+        "integration_seconds": 2.6267425999976695
+      }
+    },
+    {
+      "method": "Strang",
+      "steps": 64,
+      "status": "success",
+      "error": 0.0013315545650757065,
+      "invariant_error": 1.7763568394002505e-15,
+      "stats": {
+        "method": "Strang",
+        "macro_steps_completed": 64,
+        "subflow_calls": 192,
+        "nfev": 31573,
+        "njev": 254,
+        "nlu": 956,
+        "accepted_substeps": 3983,
+        "rhs_calls_including_fd": 32334,
+        "fast_seconds": 3.2289311999629717,
+        "slow_seconds": 0.03929350010002963,
+        "rhs_seconds": 0.5057169969659299,
+        "jacobian_seconds": 0.0,
+        "ledger_seconds": 0.0,
+        "significant_negative_rhs_components": 0,
+        "min_rhs_argument": 0.0,
+        "min_accepted_state": 0.0,
+        "min_subflow_endpoint": 0.0,
+        "min_macro_state": 0.0,
+        "clipping_count": 0,
+        "projection_count": 0,
+        "fallback_count": 0,
+        "fast_columns": [
+          1,
+          2
+        ],
+        "fast_updated_states": [
+          0,
+          1,
+          2
+        ],
+        "slow_updated_state_count": 2,
+        "max_substep_invariant_error": 0.0,
+        "ledger_increment": 0.0,
+        "ledger_quadrature_difference": 0.0,
+        "integration_seconds": 3.269793900020886
+      }
+    }
+  ],
+  "negative_detection": {
+    "detected": true,
+    "reason": "Significant negative slow RHS argument (including Newton/FD probes); no clipping",
+    "stats": {
+      "method": "Strang",
+      "macro_steps_completed": 0,
+      "subflow_calls": 1,
+      "nfev": 0,
+      "njev": 0,
+      "nlu": 0,
+      "accepted_substeps": 0,
+      "rhs_calls_including_fd": 11,
+      "fast_seconds": 0.0,
+      "slow_seconds": 0.0008888999873306602,
+      "rhs_seconds": 0.00021829994511790574,
+      "jacobian_seconds": 0.0,
+      "ledger_seconds": 0.0,
+      "significant_negative_rhs_components": 1,
+      "min_rhs_argument": -0.006385077827234711,
+      "min_accepted_state": 0.01,
+      "min_subflow_endpoint": 0.01,
+      "min_macro_state": 0.01,
+      "clipping_count": 0,
+      "projection_count": 0,
+      "fallback_count": 0,
+      "fast_columns": [],
+      "fast_updated_states": [],
+      "slow_updated_state_count": 1,
+      "max_substep_invariant_error": 0.0,
+      "ledger_increment": 0.0,
+      "ledger_quadrature_difference": 0.0,
+      "integration_seconds": 0.000990000000456348
+    }
+  },
+  "interpretation": "Expected orders apply only in the weak-stiffness asymptotic regime. High ratios expose order reduction; no adaptive estimator or fallback is implemented in M2."
+}
