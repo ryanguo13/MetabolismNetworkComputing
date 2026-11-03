@@ -1,0 +1,84 @@
+[
+  {
+    "config": "full-only-0.001",
+    "target": 0.001,
+    "successes": 7,
+    "failures": 0,
+    "all_seconds": [
+      3.410768588000792,
+      3.7057605719965068,
+      3.724976172001334,
+      3.5477192720063613,
+      3.441317673998128,
+      3.456156901003851,
+      3.4393964460032294
+    ],
+    "median_seconds": 3.456156901003851,
+    "iqr_seconds": 0.18638286200075527,
+    "observed_error": 0.0,
+    "flux_errors": {
+      "0.001": 0.0,
+      "1e-05": 0.0
+    },
+    "net_flux_errors": {
+      "0.01": 0.0,
+      "0.001": 0.0
+    },
+    "accepted_steps": 0.0,
+    "rejected_steps": 0.0,
+    "partition_switches": 0.0,
+    "group_evaluations": 0.0,
+    "gradient_evaluations": 1.0,
+    "false_acceptances_prevented": 0.0,
+    "split_seconds": 0.0,
+    "audit_seconds": 0.0,
+    "fallback_seconds": 2.9094103449970135,
+    "classification_seconds": 0.0006492570028058253,
+    "partition_seconds": 0.0,
+    "fallback_fraction": 1.0,
+    "fallback_reasons": [
+      "all_groups_fast"
+    ]
+  },
+  {
+    "config": "full-only-1e-05",
+    "target": 1e-05,
+    "successes": 7,
+    "failures": 0,
+    "all_seconds": [
+      3.4367528639995726,
+      3.404023564005911,
+      3.8211731249975855,
+      3.824080825004785,
+      3.4672945340062142,
+      3.479295890996582,
+      3.479410995001672
+    ],
+    "median_seconds": 3.479295890996582,
+    "iqr_seconds": 0.19826836099673528,
+    "observed_error": 0.0,
+    "flux_errors": {
+      "0.001": 0.0,
+      "1e-05": 0.0
+    },
+    "net_flux_errors": {
+      "0.01": 0.0,
+      "0.001": 0.0
+    },
+    "accepted_steps": 0.0,
+    "rejected_steps": 0.0,
+    "partition_switches": 0.0,
+    "group_evaluations": 0.0,
+    "gradient_evaluations": 1.0,
+    "false_acceptances_prevented": 0.0,
+    "split_seconds": 0.0,
+    "audit_seconds": 0.0,
+    "fallback_seconds": 2.9294294829960563,
+    "classification_seconds": 0.0006445929975598119,
+    "partition_seconds": 0.0,
+    "fallback_fraction": 1.0,
+    "fallback_reasons": [
+      "all_groups_fast"
+    ]
+  }
+]

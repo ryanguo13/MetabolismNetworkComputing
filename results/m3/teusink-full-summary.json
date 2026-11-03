@@ -1,0 +1,78 @@
+[
+  {
+    "config": "full-only-0.001",
+    "target": 0.001,
+    "successes": 7,
+    "failures": 0,
+    "all_seconds": [
+      2.704569800000172,
+      2.7004041000036523,
+      2.6879980000085197,
+      2.633082899992587,
+      2.8736663999734446,
+      2.716123999998672,
+      3.6958809999923687
+    ],
+    "median_seconds": 2.704569800000172,
+    "iqr_seconds": 0.10069414997997228,
+    "observed_error": 1.7232888149184194e-08,
+    "flux_errors": {
+      "0.001": 4.6498814384132756e-08,
+      "1e-05": 4.649881438413275e-06
+    },
+    "relative_open_ledger_error": 1.2886681987087623e-11,
+    "accepted_steps": 0.0,
+    "rejected_steps": 0.0,
+    "partition_switches": 0.0,
+    "group_evaluations": 0.0,
+    "gradient_evaluations": 1.0,
+    "false_acceptances_prevented": 0.0,
+    "split_seconds": 0.0,
+    "audit_seconds": 0.0,
+    "fallback_seconds": 2.7013119000184815,
+    "classification_seconds": 0.0005222999898251146,
+    "partition_seconds": 0.0,
+    "fallback_fraction": 1.0,
+    "fallback_reasons": [
+      "all_groups_fast"
+    ]
+  },
+  {
+    "config": "full-only-1e-05",
+    "target": 1e-05,
+    "successes": 7,
+    "failures": 0,
+    "all_seconds": [
+      2.7593135999923106,
+      2.673897600005148,
+      2.6320858000253793,
+      2.7107278000039514,
+      2.726974599994719,
+      2.6902437999960966,
+      3.5576297000225168
+    ],
+    "median_seconds": 2.7107278000039514,
+    "iqr_seconds": 0.06107339999289252,
+    "observed_error": 1.7232888149184194e-06,
+    "flux_errors": {
+      "0.001": 4.6498814384132756e-08,
+      "1e-05": 4.649881438413275e-06
+    },
+    "relative_open_ledger_error": 1.2886681987087623e-11,
+    "accepted_steps": 0.0,
+    "rejected_steps": 0.0,
+    "partition_switches": 0.0,
+    "group_evaluations": 0.0,
+    "gradient_evaluations": 1.0,
+    "false_acceptances_prevented": 0.0,
+    "split_seconds": 0.0,
+    "audit_seconds": 0.0,
+    "fallback_seconds": 2.7078029999975115,
+    "classification_seconds": 0.0004943999811075628,
+    "partition_seconds": 0.0,
+    "fallback_fraction": 1.0,
+    "fallback_reasons": [
+      "all_groups_fast"
+    ]
+  }
+]

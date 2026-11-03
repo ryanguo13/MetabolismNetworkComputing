@@ -11,6 +11,10 @@ results/m2/*.json text eol=lf
 results/m2/*.md text eol=lf
 results/m2/*.txt text eol=lf
 docs/m2-completion-report.md text eol=lf
+results/m3/*.json text eol=lf
+results/m3/*.md text eol=lf
+results/m3/*.txt text eol=lf
+docs/m3-completion-report.md text eol=lf
 *.py text eol=lf
 *.npz -text
 *.mat -text

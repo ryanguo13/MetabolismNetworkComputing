@@ -1,0 +1,534 @@
+[
+  {
+    "config": "fixed-0.001",
+    "target": 0.001,
+    "successes": 7,
+    "failures": 0,
+    "all_seconds": [
+      5.751337399997283,
+      2.94176270000753,
+      2.8917749999964144,
+      2.964308299997356,
+      2.9779087000060827,
+      3.0162333000043873,
+      2.9129523999872617
+    ],
+    "median_seconds": 2.964308299997356,
+    "iqr_seconds": 0.06971345000783913,
+    "observed_error": 1.2833142712571819e-08,
+    "flux_errors": {
+      "0.001": 4.595773428585009e-08,
+      "1e-05": 4.595773428585008e-06
+    },
+    "relative_open_ledger_error": 1.2804456749530196e-11,
+    "accepted_steps": 8.0,
+    "rejected_steps": 0.0,
+    "partition_switches": 1.0,
+    "group_evaluations": 0.0,
+    "gradient_evaluations": 8.0,
+    "false_acceptances_prevented": 0.0,
+    "split_seconds": 0.15291970004909672,
+    "audit_seconds": 0.026303400052711368,
+    "fallback_seconds": 2.768588400009321,
+    "classification_seconds": 0.005975799955194816,
+    "partition_seconds": 0.006356199999572709,
+    "fallback_fraction": 0.9999999981651595,
+    "fallback_reasons": [
+      "registered_split_work_budget"
+    ]
+  },
+  {
+    "config": "dynamic-1-hysteresis-0.001",
+    "target": 0.001,
+    "successes": 7,
+    "failures": 0,
+    "all_seconds": [
+      6.00711579999188,
+      2.856505300005665,
+      2.774667199992109,
+      2.758711200003745,
+      2.836421699990751,
+      2.77757860001293,
+      2.8313240999996196
+    ],
+    "median_seconds": 2.8313240999996196,
+    "iqr_seconds": 0.07034059999568854,
+    "observed_error": 1.283181617202946e-08,
+    "flux_errors": {
+      "0.001": 4.65610204982651e-08,
+      "1e-05": 4.65610204982651e-06
+    },
+    "relative_open_ledger_error": 1.25018095336869e-11,
+    "accepted_steps": 8.0,
+    "rejected_steps": 0.0,
+    "partition_switches": 0.0,
+    "group_evaluations": 8.0,
+    "gradient_evaluations": 8.0,
+    "false_acceptances_prevented": 0.0,
+    "split_seconds": 0.03185910001047887,
+    "audit_seconds": 0.02610119996825233,
+    "fallback_seconds": 2.756846999982372,
+    "classification_seconds": 0.006430599954910576,
+    "partition_seconds": 0.005413500010035932,
+    "fallback_fraction": 0.9999999981651595,
+    "fallback_reasons": [
+      "registered_split_work_budget"
+    ]
+  },
+  {
+    "config": "dynamic-1-single-threshold-0.001",
+    "target": 0.001,
+    "successes": 7,
+    "failures": 0,
+    "all_seconds": [
+      5.094130299985409,
+      2.80743290000828,
+      2.8764402999950107,
+      2.89458600000944,
+      2.7946200000005774,
+      2.7417408999754116,
+      2.7707330999837723
+    ],
+    "median_seconds": 2.80743290000828,
+    "iqr_seconds": 0.10283660001005046,
+    "observed_error": 1.283181617202946e-08,
+    "flux_errors": {
+      "0.001": 4.65610204982651e-08,
+      "1e-05": 4.65610204982651e-06
+    },
+    "relative_open_ledger_error": 1.25018095336869e-11,
+    "accepted_steps": 8.0,
+    "rejected_steps": 0.0,
+    "partition_switches": 0.0,
+    "group_evaluations": 8.0,
+    "gradient_evaluations": 8.0,
+    "false_acceptances_prevented": 0.0,
+    "split_seconds": 0.031253799999831244,
+    "audit_seconds": 0.026529300026595592,
+    "fallback_seconds": 2.735518500005128,
+    "classification_seconds": 0.006691600050544366,
+    "partition_seconds": 0.005240600003162399,
+    "fallback_fraction": 0.9999999981651595,
+    "fallback_reasons": [
+      "registered_split_work_budget"
+    ]
+  },
+  {
+    "config": "dynamic-5-hysteresis-0.001",
+    "target": 0.001,
+    "successes": 7,
+    "failures": 0,
+    "all_seconds": [
+      5.905285200016806,
+      2.774401600006968,
+      2.778554099990288,
+      2.776688000012655,
+      2.8370315000065602,
+      2.87142050001421,
+      2.8862947000015993
+    ],
+    "median_seconds": 2.8370315000065602,
+    "iqr_seconds": 0.10123655000643339,
+    "observed_error": 1.283181617202946e-08,
+    "flux_errors": {
+      "0.001": 4.65610204982651e-08,
+      "1e-05": 4.65610204982651e-06
+    },
+    "relative_open_ledger_error": 1.25018095336869e-11,
+    "accepted_steps": 8.0,
+    "rejected_steps": 0.0,
+    "partition_switches": 0.0,
+    "group_evaluations": 2.0,
+    "gradient_evaluations": 8.0,
+    "false_acceptances_prevented": 0.0,
+    "split_seconds": 0.03183540006284602,
+    "audit_seconds": 0.026478499959921464,
+    "fallback_seconds": 2.764756300020963,
+    "classification_seconds": 0.006214400025783107,
+    "partition_seconds": 0.005246600019745529,
+    "fallback_fraction": 0.9999999981651595,
+    "fallback_reasons": [
+      "registered_split_work_budget"
+    ]
+  },
+  {
+    "config": "dynamic-5-single-threshold-0.001",
+    "target": 0.001,
+    "successes": 7,
+    "failures": 0,
+    "all_seconds": [
+      5.17942969998694,
+      2.789304900012212,
+      2.8416517000005115,
+      2.732325499993749,
+      2.7441497999825515,
+      2.7457401999854483,
+      2.7425905999843962
+    ],
+    "median_seconds": 2.7457401999854483,
+    "iqr_seconds": 0.07210810002288781,
+    "observed_error": 1.283181617202946e-08,
+    "flux_errors": {
+      "0.001": 4.65610204982651e-08,
+      "1e-05": 4.65610204982651e-06
+    },
+    "relative_open_ledger_error": 1.25018095336869e-11,
+    "accepted_steps": 8.0,
+    "rejected_steps": 0.0,
+    "partition_switches": 0.0,
+    "group_evaluations": 2.0,
+    "gradient_evaluations": 8.0,
+    "false_acceptances_prevented": 0.0,
+    "split_seconds": 0.032118999952217564,
+    "audit_seconds": 0.02667360004852526,
+    "fallback_seconds": 2.673138700018171,
+    "classification_seconds": 0.005992300022626296,
+    "partition_seconds": 0.005226299981586635,
+    "fallback_fraction": 0.9999999981651595,
+    "fallback_reasons": [
+      "registered_split_work_budget"
+    ]
+  },
+  {
+    "config": "dynamic-20-hysteresis-0.001",
+    "target": 0.001,
+    "successes": 7,
+    "failures": 0,
+    "all_seconds": [
+      5.830275300017092,
+      2.7373566000023857,
+      2.8020427000010386,
+      2.8029769000131637,
+      2.7547380999894813,
+      2.7823419999913312,
+      2.77696499999729
+    ],
+    "median_seconds": 2.7823419999913312,
+    "iqr_seconds": 0.03665825001371559,
+    "observed_error": 1.283181617202946e-08,
+    "flux_errors": {
+      "0.001": 4.65610204982651e-08,
+      "1e-05": 4.65610204982651e-06
+    },
+    "relative_open_ledger_error": 1.25018095336869e-11,
+    "accepted_steps": 8.0,
+    "rejected_steps": 0.0,
+    "partition_switches": 0.0,
+    "group_evaluations": 1.0,
+    "gradient_evaluations": 8.0,
+    "false_acceptances_prevented": 0.0,
+    "split_seconds": 0.03216709999833256,
+    "audit_seconds": 0.02654139991500415,
+    "fallback_seconds": 2.7086471999937203,
+    "classification_seconds": 0.0062346000340767205,
+    "partition_seconds": 0.005328799976268783,
+    "fallback_fraction": 0.9999999981651595,
+    "fallback_reasons": [
+      "registered_split_work_budget"
+    ]
+  },
+  {
+    "config": "dynamic-20-single-threshold-0.001",
+    "target": 0.001,
+    "successes": 7,
+    "failures": 0,
+    "all_seconds": [
+      5.591462499985937,
+      2.833061999990605,
+      2.855754499993054,
+      2.729042999999365,
+      2.796105300018098,
+      2.7682778000016697,
+      2.7359016000118572
+    ],
+    "median_seconds": 2.796105300018098,
+    "iqr_seconds": 0.09231854998506606,
+    "observed_error": 1.283181617202946e-08,
+    "flux_errors": {
+      "0.001": 4.65610204982651e-08,
+      "1e-05": 4.65610204982651e-06
+    },
+    "relative_open_ledger_error": 1.25018095336869e-11,
+    "accepted_steps": 8.0,
+    "rejected_steps": 0.0,
+    "partition_switches": 0.0,
+    "group_evaluations": 1.0,
+    "gradient_evaluations": 8.0,
+    "false_acceptances_prevented": 0.0,
+    "split_seconds": 0.03194640003493987,
+    "audit_seconds": 0.026949499995680526,
+    "fallback_seconds": 2.723056999995606,
+    "classification_seconds": 0.006074699980672449,
+    "partition_seconds": 0.005186100024729967,
+    "fallback_fraction": 0.9999999981651595,
+    "fallback_reasons": [
+      "registered_split_work_budget"
+    ]
+  },
+  {
+    "config": "fixed-1e-05",
+    "target": 1e-05,
+    "successes": 7,
+    "failures": 0,
+    "all_seconds": [
+      5.665734800015343,
+      2.878843099984806,
+      2.947268299991265,
+      2.941155099979369,
+      2.91595949998009,
+      2.9187956000096165,
+      2.905065699975239
+    ],
+    "median_seconds": 2.9187956000096165,
+    "iqr_seconds": 0.033699100007652305,
+    "observed_error": 1.283314271257182e-06,
+    "flux_errors": {
+      "0.001": 4.595773428585009e-08,
+      "1e-05": 4.595773428585008e-06
+    },
+    "relative_open_ledger_error": 1.2804456749530196e-11,
+    "accepted_steps": 8.0,
+    "rejected_steps": 0.0,
+    "partition_switches": 1.0,
+    "group_evaluations": 0.0,
+    "gradient_evaluations": 8.0,
+    "false_acceptances_prevented": 0.0,
+    "split_seconds": 0.15234079997753724,
+    "audit_seconds": 0.02576960000442341,
+    "fallback_seconds": 2.727818200015463,
+    "classification_seconds": 0.00588350000907667,
+    "partition_seconds": 0.005968199955532327,
+    "fallback_fraction": 0.9999999981651595,
+    "fallback_reasons": [
+      "registered_split_work_budget"
+    ]
+  },
+  {
+    "config": "dynamic-1-hysteresis-1e-05",
+    "target": 1e-05,
+    "successes": 7,
+    "failures": 0,
+    "all_seconds": [
+      5.736143399990397,
+      2.8646263999980874,
+      2.79713679998531,
+      2.8172930000000633,
+      2.8109739999927115,
+      2.845935500023188,
+      2.8254755999951158
+    ],
+    "median_seconds": 2.8254755999951158,
+    "iqr_seconds": 0.04114745001425035,
+    "observed_error": 1.283181617202946e-06,
+    "flux_errors": {
+      "0.001": 4.65610204982651e-08,
+      "1e-05": 4.65610204982651e-06
+    },
+    "relative_open_ledger_error": 1.25018095336869e-11,
+    "accepted_steps": 8.0,
+    "rejected_steps": 0.0,
+    "partition_switches": 0.0,
+    "group_evaluations": 8.0,
+    "gradient_evaluations": 8.0,
+    "false_acceptances_prevented": 0.0,
+    "split_seconds": 0.03153780000866391,
+    "audit_seconds": 0.026442600006703287,
+    "fallback_seconds": 2.7520835000032093,
+    "classification_seconds": 0.006475000031059608,
+    "partition_seconds": 0.005354999942937866,
+    "fallback_fraction": 0.9999999981651595,
+    "fallback_reasons": [
+      "registered_split_work_budget"
+    ]
+  },
+  {
+    "config": "dynamic-1-single-threshold-1e-05",
+    "target": 1e-05,
+    "successes": 7,
+    "failures": 0,
+    "all_seconds": [
+      5.662049300008221,
+      2.7757201999775134,
+      2.8267928999848664,
+      2.7960239999811165,
+      2.7691660999844316,
+      2.7599487000261433,
+      2.7373708000232
+    ],
+    "median_seconds": 2.7757201999775134,
+    "iqr_seconds": 0.04685104997770395,
+    "observed_error": 1.283181617202946e-06,
+    "flux_errors": {
+      "0.001": 4.65610204982651e-08,
+      "1e-05": 4.65610204982651e-06
+    },
+    "relative_open_ledger_error": 1.25018095336869e-11,
+    "accepted_steps": 8.0,
+    "rejected_steps": 0.0,
+    "partition_switches": 0.0,
+    "group_evaluations": 8.0,
+    "gradient_evaluations": 8.0,
+    "false_acceptances_prevented": 0.0,
+    "split_seconds": 0.03222629998344928,
+    "audit_seconds": 0.02647220005746931,
+    "fallback_seconds": 2.6989135000039823,
+    "classification_seconds": 0.006456800037994981,
+    "partition_seconds": 0.0051534999802242965,
+    "fallback_fraction": 0.9999999981651595,
+    "fallback_reasons": [
+      "registered_split_work_budget"
+    ]
+  },
+  {
+    "config": "dynamic-5-hysteresis-1e-05",
+    "target": 1e-05,
+    "successes": 7,
+    "failures": 0,
+    "all_seconds": [
+      5.631323400011752,
+      2.792005600000266,
+      2.746046699990984,
+      2.8045535999990534,
+      2.827095399989048,
+      2.7877495999855455,
+      2.811198699986562
+    ],
+    "median_seconds": 2.8045535999990534,
+    "iqr_seconds": 0.029269449994899333,
+    "observed_error": 1.283181617202946e-06,
+    "flux_errors": {
+      "0.001": 4.65610204982651e-08,
+      "1e-05": 4.65610204982651e-06
+    },
+    "relative_open_ledger_error": 1.25018095336869e-11,
+    "accepted_steps": 8.0,
+    "rejected_steps": 0.0,
+    "partition_switches": 0.0,
+    "group_evaluations": 2.0,
+    "gradient_evaluations": 8.0,
+    "false_acceptances_prevented": 0.0,
+    "split_seconds": 0.03184680000413209,
+    "audit_seconds": 0.02667309995740652,
+    "fallback_seconds": 2.7333595999807585,
+    "classification_seconds": 0.006142300029750913,
+    "partition_seconds": 0.00516319993766956,
+    "fallback_fraction": 0.9999999981651595,
+    "fallback_reasons": [
+      "registered_split_work_budget"
+    ]
+  },
+  {
+    "config": "dynamic-5-single-threshold-1e-05",
+    "target": 1e-05,
+    "successes": 7,
+    "failures": 0,
+    "all_seconds": [
+      4.995904500014149,
+      2.9468794999993406,
+      2.754412100010086,
+      2.734289299987722,
+      2.8003819000150543,
+      2.8175189000030514,
+      2.8979912000067998
+    ],
+    "median_seconds": 2.8175189000030514,
+    "iqr_seconds": 0.14503834999050014,
+    "observed_error": 1.283181617202946e-06,
+    "flux_errors": {
+      "0.001": 4.65610204982651e-08,
+      "1e-05": 4.65610204982651e-06
+    },
+    "relative_open_ledger_error": 1.25018095336869e-11,
+    "accepted_steps": 8.0,
+    "rejected_steps": 0.0,
+    "partition_switches": 0.0,
+    "group_evaluations": 2.0,
+    "gradient_evaluations": 8.0,
+    "false_acceptances_prevented": 0.0,
+    "split_seconds": 0.03234909998718649,
+    "audit_seconds": 0.027328599971951917,
+    "fallback_seconds": 2.7429742999956943,
+    "classification_seconds": 0.006086899986257777,
+    "partition_seconds": 0.005386100092437118,
+    "fallback_fraction": 0.9999999981651595,
+    "fallback_reasons": [
+      "registered_split_work_budget"
+    ]
+  },
+  {
+    "config": "dynamic-20-hysteresis-1e-05",
+    "target": 1e-05,
+    "successes": 7,
+    "failures": 0,
+    "all_seconds": [
+      5.32876460000989,
+      2.8314341000223067,
+      2.7712214999774005,
+      2.7167711000074632,
+      2.769158499984769,
+      2.7804328000056557,
+      2.755502100015292
+    ],
+    "median_seconds": 2.7712214999774005,
+    "iqr_seconds": 0.04360315001395065,
+    "observed_error": 1.283181617202946e-06,
+    "flux_errors": {
+      "0.001": 4.65610204982651e-08,
+      "1e-05": 4.65610204982651e-06
+    },
+    "relative_open_ledger_error": 1.25018095336869e-11,
+    "accepted_steps": 8.0,
+    "rejected_steps": 0.0,
+    "partition_switches": 0.0,
+    "group_evaluations": 1.0,
+    "gradient_evaluations": 8.0,
+    "false_acceptances_prevented": 0.0,
+    "split_seconds": 0.0318071999354288,
+    "audit_seconds": 0.026057599956402555,
+    "fallback_seconds": 2.698872000008123,
+    "classification_seconds": 0.005986000061966479,
+    "partition_seconds": 0.005456300015794113,
+    "fallback_fraction": 0.9999999981651595,
+    "fallback_reasons": [
+      "registered_split_work_budget"
+    ]
+  },
+  {
+    "config": "dynamic-20-single-threshold-1e-05",
+    "target": 1e-05,
+    "successes": 7,
+    "failures": 0,
+    "all_seconds": [
+      2.9451533000101335,
+      2.841885900008492,
+      2.75976840002113,
+      2.789104399998905,
+      2.792798100010259,
+      2.9932268999982625,
+      2.780220599990571
+    ],
+    "median_seconds": 2.792798100010259,
+    "iqr_seconds": 0.10885710001457483,
+    "observed_error": 1.283181617202946e-06,
+    "flux_errors": {
+      "0.001": 4.65610204982651e-08,
+      "1e-05": 4.65610204982651e-06
+    },
+    "relative_open_ledger_error": 1.25018095336869e-11,
+    "accepted_steps": 8.0,
+    "rejected_steps": 0.0,
+    "partition_switches": 0.0,
+    "group_evaluations": 1.0,
+    "gradient_evaluations": 8.0,
+    "false_acceptances_prevented": 0.0,
+    "split_seconds": 0.032065599953057244,
+    "audit_seconds": 0.026462000008905306,
+    "fallback_seconds": 2.719891499989899,
+    "classification_seconds": 0.006068400020012632,
+    "partition_seconds": 0.0053915999887976795,
+    "fallback_fraction": 0.9999999981651595,
+    "fallback_reasons": [
+      "registered_split_work_budget"
+    ]
+  }
+]

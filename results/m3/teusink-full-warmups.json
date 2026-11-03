@@ -1,0 +1,128 @@
+[
+  {
+    "config": "full-only-0.001",
+    "repeat": -1,
+    "status": "success",
+    "seconds": 2.8022668000194244,
+    "observed_error": 1.7232888149184194e-08,
+    "concentration_errors": {
+      "0.001": 1.7232888149184194e-08,
+      "1e-05": 1.7232888149184194e-06
+    },
+    "stats": {
+      "attempts": [],
+      "partition_history": [],
+      "accepted_steps": 0,
+      "rejected_steps": 0,
+      "group_evaluations": 0,
+      "gradient_evaluations": 1,
+      "partition_switches": 0,
+      "controller_resets": 0,
+      "fallbacks": [
+        {
+          "time": 0.0,
+          "reason": "all_groups_fast",
+          "from_accepted_state": true,
+          "remaining_fraction": 1.0
+        }
+      ],
+      "split_seconds": 0.0,
+      "audit_seconds": 0.0,
+      "fallback_seconds": 2.7981487000070047,
+      "classification_seconds": 0.0005437000072561204,
+      "partition_seconds": 0.0,
+      "diagnostic_seconds": 2.0099614001228474,
+      "nfev": 8085,
+      "njev": 15,
+      "nlu": 552,
+      "observed_rhs_calls": 8251,
+      "min_rhs_argument": 0.0,
+      "min_accepted_internal": 0.0,
+      "min_output": 0.0,
+      "negative_trial_failures": 0,
+      "max_committed_pool_error": 1.7774631607740837e-15,
+      "max_trial_pool_error": 2.1724549742794354e-15,
+      "ledger_increment": -23.29357204217866,
+      "ledger_quadrature_difference": 5.583922923922727e-13,
+      "clipping_count": 0,
+      "projection_count": 0,
+      "false_acceptances_prevented": 0,
+      "rollback_checks": 0,
+      "full_ode_calls": 1,
+      "native_linear_setups": 0,
+      "native_accepted_internal_states_exposed": null,
+      "ledger_residual": 1.2555751993659214e-09,
+      "status": "success",
+      "total_seconds": 2.798768300010124
+    },
+    "flux_errors": {
+      "0.001": 4.6498814384132756e-08,
+      "1e-05": 4.649881438413275e-06
+    },
+    "invariant_error": 1.883563549404965e-15,
+    "relative_open_ledger_error": 1.2886681987087623e-11
+  },
+  {
+    "config": "full-only-1e-05",
+    "repeat": -1,
+    "status": "success",
+    "seconds": 2.7248120000003837,
+    "observed_error": 1.7232888149184194e-06,
+    "concentration_errors": {
+      "0.001": 1.7232888149184194e-08,
+      "1e-05": 1.7232888149184194e-06
+    },
+    "stats": {
+      "attempts": [],
+      "partition_history": [],
+      "accepted_steps": 0,
+      "rejected_steps": 0,
+      "group_evaluations": 0,
+      "gradient_evaluations": 1,
+      "partition_switches": 0,
+      "controller_resets": 0,
+      "fallbacks": [
+        {
+          "time": 0.0,
+          "reason": "all_groups_fast",
+          "from_accepted_state": true,
+          "remaining_fraction": 1.0
+        }
+      ],
+      "split_seconds": 0.0,
+      "audit_seconds": 0.0,
+      "fallback_seconds": 2.7215576999878976,
+      "classification_seconds": 0.0005046000005677342,
+      "partition_seconds": 0.0,
+      "diagnostic_seconds": 1.968747400213033,
+      "nfev": 8085,
+      "njev": 15,
+      "nlu": 552,
+      "observed_rhs_calls": 8251,
+      "min_rhs_argument": 0.0,
+      "min_accepted_internal": 0.0,
+      "min_output": 0.0,
+      "negative_trial_failures": 0,
+      "max_committed_pool_error": 1.7774631607740837e-15,
+      "max_trial_pool_error": 2.1724549742794354e-15,
+      "ledger_increment": -23.29357204217866,
+      "ledger_quadrature_difference": 5.583922923922727e-13,
+      "clipping_count": 0,
+      "projection_count": 0,
+      "false_acceptances_prevented": 0,
+      "rollback_checks": 0,
+      "full_ode_calls": 1,
+      "native_linear_setups": 0,
+      "native_accepted_internal_states_exposed": null,
+      "ledger_residual": 1.2555751993659214e-09,
+      "status": "success",
+      "total_seconds": 2.7221239999926183
+    },
+    "flux_errors": {
+      "0.001": 4.6498814384132756e-08,
+      "1e-05": 4.649881438413275e-06
+    },
+    "invariant_error": 1.883563549404965e-15,
+    "relative_open_ledger_error": 1.2886681987087623e-11
+  }
+]
