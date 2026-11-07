@@ -84,7 +84,7 @@ def verify():
             selected={}
             for method in ('endpoint','full'):
                 options=[(k,v) for k,v in timing.items() if k.startswith(prefix+method+'/') and v['all_pass'] and v['repeats']==3]
-                selected[method]=min(options,key=lambda kv:kv[1]['median_seconds']) if options else None
+                selected[method]=list(min(options,key=lambda kv:kv[1]['median_seconds'])) if options else None
             speedup=selected['full'][1]['median_seconds']/selected['endpoint'][1]['median_seconds'] if all(selected.values()) else None
             decision.append(dict(path=path,target=target,selected=selected,unaudited_local_speedup=speedup,
                 reaches_1p5_development_screen=bool(speedup is not None and speedup>=1.5)))
