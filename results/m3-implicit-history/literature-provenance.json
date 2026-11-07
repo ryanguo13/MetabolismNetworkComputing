@@ -1,0 +1,244 @@
+{
+  "access_date": "2026-11-08",
+  "scope": "Targeted lookup; not systematic review",
+  "query": {
+    "endpoint": "https://export.arxiv.org/api/query",
+    "params": {
+      "search_query": "all:multirate AND all:implicit AND (all:infinitesimal OR all:multistep)",
+      "max_results": 8
+    },
+    "total": 8,
+    "returned": 8
+  },
+  "records": [
+    {
+      "arxiv_id": "2007.09776",
+      "arxiv_id_versioned": "2007.09776v3",
+      "version": "3",
+      "title": "Implicit-explicit multirate infinitesimal GARK methods",
+      "abstract": "This work focuses on the development of a new class of high-order accurate methods for multirate time integration of systems of ordinary differential equations. Unlike other recent work in this area, the proposed methods support mixed implicit-explicit (IMEX) treatment of the slow time scale. In addition to allowing this slow time scale flexibility, the proposed methods utilize a so-called `infinitesimal' formulation for the fast time scale through definition of a sequence of modified `fast' initial-value problems, that may be solved using any viable algorithm. We name the proposed class as implicit-explicit multirate infinitesimal generalized-structure additive Runge--Kutta (IMEX-MRI-GARK) methods. In addition to defining these methods, we prove that they may be viewed as specific instances of GARK methods, and derive a set of order conditions on the IMEX-MRI-GARK coefficients to guarantee both third and fourth order accuracy for the overall multirate method. Additionally, we provide three specific IMEX-MRI-GARK methods, two of order three and one of order four. We conclude with numerical simulations on two multirate test problems, demonstrating the methods' predicted convergence rates and comparing their efficiency against both legacy IMEX multirate schemes and recent third and fourth order implicit MRI-GARK methods.",
+      "authors": [
+        "Rujeko Chinomona",
+        "Daniel R. Reynolds"
+      ],
+      "published": "2020-07-19T20:24:57Z",
+      "updated": "2021-05-03T17:19:34Z",
+      "primary_category": "math.NA",
+      "categories": [
+        "math.NA"
+      ],
+      "doi": "10.1137/20M1354349",
+      "journal_ref": null,
+      "comment": null,
+      "abstract_url": "https://arxiv.org/abs/2007.09776v3",
+      "pdf_url": "https://arxiv.org/pdf/2007.09776v3"
+    },
+    {
+      "arxiv_id": "2301.00865",
+      "arxiv_id_versioned": "2301.00865v1",
+      "version": "1",
+      "title": "Implicit-Explicit Multirate Infinitesimal Stage-Restart Methods",
+      "abstract": "Implicit-Explicit (IMEX) methods are flexible numerical time integration methods which solve an initial-value problem (IVP) that is partitioned into stiff and nonstiff processes with the goal of lower computational costs than a purely implicit or explicit approach. A complementary form of flexible IVP solvers are multirate infinitesimal methods for problems partitioned into fast- and slow-changing dynamics, that solve a multirate IVP by evolving a sequence of ``fast'' IVPs using any suitably accurate algorithm. This article introduces a new class of high-order implicit-explicit multirate methods that are designed for multirate IVPs in which the slow-changing dynamics are further partitioned in an IMEX fashion. This new class, which we call implicit-explicit multirate stage-restart (IMEX-MRI-SR), both improves upon the previous implicit-explicit multirate generalized-structure additive Runge Kutta (IMEX-MRI-GARK) methods, and extends multirate exponential Runge Kutta (MERK) methods into the IMEX context. We leverage GARK theory to derive conditions guaranteeing orders of accuracy up to four. We provide second-, third-, and fourth-order accurate example methods and perform numerical simulations demonstrating convergence rates and computational performance in both fixed-step and adaptive-step settings.",
+      "authors": [
+        "Alex C. Fish",
+        "Daniel R. Reynolds",
+        "Steven B. Roberts"
+      ],
+      "published": "2023-01-02T20:16:35Z",
+      "updated": "2023-01-02T20:16:35Z",
+      "primary_category": "math.NA",
+      "categories": [
+        "math.NA"
+      ],
+      "doi": "10.1016/j.cam.2023.115534",
+      "journal_ref": null,
+      "comment": null,
+      "abstract_url": "https://arxiv.org/abs/2301.00865v1",
+      "pdf_url": "https://arxiv.org/pdf/2301.00865v1"
+    },
+    {
+      "arxiv_id": "2102.10203",
+      "arxiv_id_versioned": "2102.10203v1",
+      "version": "1",
+      "title": "Multirate Linearly-Implicit GARK Schemes",
+      "abstract": "Many complex applications require the solution of initial-value problems where some components change fast, while others vary slowly. Multirate schemes apply different step sizes to resolve different components of the system, according to their dynamics, in order to achieve increased computational efficiency. The stiff components of the system, fast or slow, are best discretized with implicit base methods in order to ensure numerical stability. To this end, linearly implicit methods are particularly attractive as they solve only linear systems of equations at each step. This paper develops the Multirate GARK-ROS/ROW (MR-GARK-ROS/ROW) framework for linearly-implicit multirate time integration. The order conditions theory considers both exact and approximative Jacobians. The effectiveness of implicit multirate methods depends on the coupling between the slow and fast computations; an array of efficient coupling strategies and the resulting numerical schemes are analyzed. Multirate infinitesimal step linearly-implicit methods, that allow arbitrarily small micro-steps and offer extreme computational flexibility, are constructed. The new unifying framework includes existing multirate Rosenbrock(-W) methods as particular cases, and opens the possibility to develop new classes of highly effective linearly implicit multirate integrators.",
+      "authors": [
+        "Michael Guenther",
+        "Adrian Sandu"
+      ],
+      "published": "2021-02-19T23:24:15Z",
+      "updated": "2021-02-19T23:24:15Z",
+      "primary_category": "math.NA",
+      "categories": [
+        "math.NA"
+      ],
+      "doi": null,
+      "journal_ref": null,
+      "comment": null,
+      "abstract_url": "https://arxiv.org/abs/2102.10203v1",
+      "pdf_url": "https://arxiv.org/pdf/2102.10203v1"
+    },
+    {
+      "arxiv_id": "1808.02759",
+      "arxiv_id_versioned": "1808.02759v3",
+      "version": "3",
+      "title": "A Class of Multirate Infinitesimal GARK Methods",
+      "abstract": "Differential equations arising in many practical applications are characterized by multiple time scales. Multirate time integration seeks to solve them efficiently by discretizing each scale with a different, appropriate time step, while ensuring the overall accuracy and stability of the numerical solution. In a seminal paper Knoth and Wolke (APNUM, 1998) proposed a hybrid solution approach: discretize the slow component with an explicit Runge-Kutta method, and advance the fast component via a modified fast differential equation. The idea led to the development of multirate infinitesimal step (MIS) methods by Wensch et al. (BIT, 2009.)Günther and Sandu (BIT, 2016) explained MIS schemes as a particular case of multirate General-structure Additive Runge-Kutta (MR-GARK) methods. The hybrid approach offers extreme flexibility in the choice of the numerical solution process for the fast component. This work constructs a family of multirate infinitesimal GARK schemes (MRI-GARK) that extends the hybrid dynamics approachin multiple ways. Order conditions theory and stability analyses are developed, and practical explicit and implicit methods of up to order four are constructed. Numerical results confirm the theoretical findings. We expect the new MRI-GARK family to be most useful for systems of equations with widely disparate time scales, where the fast process is dispersive, and where the influence of the fast component on the slow dynamics is weak.",
+      "authors": [
+        "Adrian Sandu"
+      ],
+      "published": "2018-08-07T14:43:45Z",
+      "updated": "2022-02-01T20:30:32Z",
+      "primary_category": "math.NA",
+      "categories": [
+        "math.NA"
+      ],
+      "doi": "10.1137/18M1205492",
+      "journal_ref": null,
+      "comment": null,
+      "abstract_url": "https://arxiv.org/abs/1808.02759v3",
+      "pdf_url": "https://arxiv.org/pdf/1808.02759v3"
+    },
+    {
+      "arxiv_id": "1812.00808",
+      "arxiv_id_versioned": "1812.00808v5",
+      "version": "5",
+      "title": "Coupled Multirate Infinitesimal GARK Schemes for Stiff Systems with Multiple Time Scales",
+      "abstract": "Traditional time discretization methods use a single timestep for the entire system of interest and can perform poorly when the dynamics of the system exhibits a wide range of time scales. Multirate infinitesimal step (MIS) methods (Knoth and Wolke, 1998) offer an elegant and flexible approach to efficiently integrate such systems. The slow components are discretized by a Runge-Kutta method, and the fast components are resolved by solving modified fast differential equations. Sandu (2018) developed the Multirate Infinitesimal General-structure Additive Runge-Kutta (MRI-GARK) family of methods that includes traditional MIS schemes as a subset. The MRI-GARK framework allowed the construction of the first fourth order MIS schemes. This framework also enabled the introduction of implicit methods, which are decoupled in the sense that any implicitness lies entirely within the fast or slow integrations. It was shown by Sandu that the stability of decoupled implicit MRI-GARK methods has limitations when both the fast and slow components are stiff and interact strongly. This work extends the MRI-GARK framework by introducing coupled implicit methods to solve stiff multiscale systems. The coupled approach has the potential to considerably improve the overall stability of the scheme, at the price of requiring implicit stage calculations over the entire system. Two coupling strategies are considered. The first computes coupled Runge-Kutta stages before solving a single differential equation to refine the fast solution. The second alternates between computing coupled Runge-Kutta stages and solving fast differential equations. We derive order conditions and perform the stability analysis for both strategies. The new coupled methods offer improved stability compared to the decoupled MRI-GARK schemes. The theoretical properties of the new methods are validated with numerical experiments.",
+      "authors": [
+        "Steven Roberts",
+        "Arash Sarshar",
+        "Adrian Sandu"
+      ],
+      "published": "2018-11-30T09:36:26Z",
+      "updated": "2020-03-02T18:26:00Z",
+      "primary_category": "math.NA",
+      "categories": [
+        "math.NA"
+      ],
+      "doi": "10.1137/19M1266952",
+      "journal_ref": null,
+      "comment": "arXiv admin note: substantial text overlap with arXiv:1808.02759",
+      "abstract_url": "https://arxiv.org/abs/1812.00808v5",
+      "pdf_url": "https://arxiv.org/pdf/1812.00808v5"
+    },
+    {
+      "arxiv_id": "2211.03293",
+      "arxiv_id_versioned": "2211.03293v1",
+      "version": "1",
+      "title": "Performance of explicit and IMEX MRI multirate methods on complex reactive flow problems within modern parallel adaptive structured grid frameworks",
+      "abstract": "Large-scale multiphysics simulations are computationally challenging due to the coupling of multiple processes with widely disparate time scales. The advent of exascale computing systems exacerbates these challenges, since these enable ever increasing size and complexity. Recently, there has been renewed interest in developing multirate methods as a means to handle the large range of time scales, as these methods may afford greater accuracy and efficiency than more traditional approaches of using IMEX and low-order operator splitting schemes. However, there have been few performance studies that compare different classes of multirate integrators on complex application problems. We study the performance of several newly developed multirate infinitesimal (MRI) methods, implemented in the SUNDIALS solver package, on two reacting flow model problems built on structured mesh frameworks. The first model revisits the work of Emmet et al. (2014) on a compressible reacting flow problem with complex chemistry that is implemented using BoxLib but where we now include comparisons between a new explicit MRI scheme with the multirate spectral deferred correction (SDC) methods in the original paper. The second problem uses the same complex chemistry as the first problem, combined with a simplified flow model, but run at a large spatial scale where explicit methods become infeasible due to stability constraints. Two recently developed implicit-explicit MRI multirate methods are tested. These methods rely on advanced features of the AMReX framework on which the model is built, such as multilevel grids and multilevel preconditioners. The results from these two problems show that MRI multirate methods can offer significant performance benefits on complex multiphysics application problems and that these methods may be combined with advanced spatial discretization to compound the advantages of both.",
+      "authors": [
+        "John J. Loffeld",
+        "Andy Nonaka",
+        "Daniel R. Reynolds",
+        "David J. Gardner",
+        "Carol S. Woodward"
+      ],
+      "published": "2022-11-07T04:20:43Z",
+      "updated": "2022-11-07T04:20:43Z",
+      "primary_category": "math.NA",
+      "categories": [
+        "math.NA",
+        "cs.MS"
+      ],
+      "doi": "10.1177/10943420241227914",
+      "journal_ref": null,
+      "comment": null,
+      "abstract_url": "https://arxiv.org/abs/2211.03293v1",
+      "pdf_url": "https://arxiv.org/pdf/2211.03293v1"
+    },
+    {
+      "arxiv_id": "2608.02823",
+      "arxiv_id_versioned": "2608.02823v1",
+      "version": "1",
+      "title": "Implicit-explicit and split-explicit super-time-stepping methods",
+      "abstract": "Multiphysics initial-value problems couple processes with distinct stability properties, such as advection, diffusion, and stiff local reactions. Standard implicit-explicit (ImEx) additive Runge--Kutta (ARK) methods can treat these processes accurately, but require globally coupled implicit solves when diffusion is grouped with reaction; operator splitting avoids such solves but typically provides weaker coupling and no inexpensive temporal error estimate; and PIROCK is tied to a specific Runge--Kutta--Chebyshev super-time-stepping (STS) construction. We introduce extended super-time-stepping (ExtSTS) methods, a family of time integration schemes that combine super-time-stepping methods for diffusive terms with explicit, implicit, or ImEx Runge--Kutta treatment of the remaining terms. The coupling is based on multirate infinitesimal techniques, yielding solve-decoupled methods that retain localized implicit solves, support embedded error estimation for adaptive time stepping, and allow flexible use of modern STS methods. We present the ExtSTS method family, provide a robust technique for ExtSTS method creation, formulate the corresponding linear stability theory, and construct embedded ImEx, explicit, and implicit ExtSTS methods. Numerical experiments on one- and two-dimensional advection-diffusion-reaction problems show that ExtSTS methods are robust across parameter regimes and boundary conditions, and are often more efficient than ARK, Strang splitting, and PIROCK methods, especially when strong coupling between operators is important.",
+      "authors": [
+        "Daniel R. Reynolds",
+        "Sylvia Amihere",
+        "Mustafa Aggul"
+      ],
+      "published": "2026-08-03T19:35:34Z",
+      "updated": "2026-08-03T19:35:34Z",
+      "primary_category": "math.NA",
+      "categories": [
+        "math.NA"
+      ],
+      "doi": null,
+      "journal_ref": null,
+      "comment": null,
+      "abstract_url": "https://arxiv.org/abs/2608.02823v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.02823v1"
+    },
+    {
+      "arxiv_id": "2205.14077",
+      "arxiv_id_versioned": "2205.14077v2",
+      "version": "2",
+      "title": "ARKODE: a flexible IVP solver infrastructure for one-step methods",
+      "abstract": "We describe the ARKODE library of one-step time integration methods for ordinary differential equation (ODE) initial-value problems (IVPs). In addition to providing standard explicit and diagonally implicit Runge--Kutta methods, ARKODE also supports one-step methods designed to treat additive splittings of the IVP, including implicit-explicit (ImEx) additive Runge--Kutta methods and multirate infinitesimal (MRI) methods. We present the role of ARKODE within the SUNDIALS suite of time integration and nonlinear solver libraries, the core ARKODE infrastructure for utilities common to large classes of one-step methods, as well as its use of ``time stepper'' modules enabling easy incorporation of novel algorithms into the library. Numerical results show example problems of increasing complexity, highlighting the algorithmic flexibility afforded through this infrastructure, and include a larger multiphysics application leveraging multiple algorithmic features from ARKODE and SUNDIALS.",
+      "authors": [
+        "Daniel R. Reynolds",
+        "David J. Gardner",
+        "Carol S. Woodward",
+        "Rujeko Chinomona"
+      ],
+      "published": "2022-05-27T16:16:19Z",
+      "updated": "2022-12-21T21:50:25Z",
+      "primary_category": "cs.MS",
+      "categories": [
+        "cs.MS",
+        "math.NA"
+      ],
+      "doi": "10.1145/3594632",
+      "journal_ref": "ACM Transactions on Mathematical Software, Volume 49, Issue 2, June 2023, Article No.: 19",
+      "comment": null,
+      "abstract_url": "https://arxiv.org/abs/2205.14077v2",
+      "pdf_url": "https://arxiv.org/pdf/2205.14077v2"
+    }
+  ],
+  "reading": [
+    {
+      "arxiv_id": "1812.00808v5",
+      "sections": "Introduction, definition2.1/eq2.2 and conclusion5; no claim of implementing its coefficient tables",
+      "pdf_sha256": "9d1d38216b93df07d35da1dc6e69943df3b0e0caf045507d8cf028ea5ebac696"
+    },
+    {
+      "arxiv_id": "2505.20062v1",
+      "sections": "Additional reading6.4-6.5: coupled implicit and compound-step formulations; component-partition theory is inspiration, not proof for this additive prototype",
+      "pdf_sha256": "2c3f64159b0d18c9c4b70611703a24b5f8b6f2a18be922217d9c782607c31301"
+    }
+  ],
+  "metadata_only": [
+    "2102.10203v1",
+    "2301.00865v1",
+    "2608.02823v1"
+  ],
+  "retrieval_skill_paper": {
+    "arxiv_id": "2609.00065",
+    "arxiv_id_versioned": "2609.00065v2",
+    "version": "2",
+    "title": "Scientific Agent Skills: A Library of Procedural Knowledge for Research Agents",
+    "abstract": "A language-model agent asked to analyse an experiment will usually return working code. Whether the analysis is defensible is a different question. A defensible analysis depends on procedural choices: which test the field accepts, which identifier namespace is authoritative, and which caveats must accompany a result. We present Scientific Agent Skills, an open library of 163 such procedures in 16 areas of practice, including genomics, cheminformatics, medical imaging, study design and scientific communication. Each skill is a directory built around a versioned, human-readable instruction file. An agent loads the file only when a task calls for it; the directory often also contains reference material and runnable scripts. We report no task-level evaluation and no host selection rate. We measure two properties of the documentation corpus: the always-resident descriptions of all 163 skills cost 7.1% of a 200,000-token window, and the median documented workflow fits within 23.9% of it, although 29 of 46 would overflow if every reference file were loaded. Openly licensed and available at https://github.com/K-Dense-AI/scientific-agent-skills.",
+    "authors": [
+      "Timothy Kassis",
+      "Vinayak Agarwal",
+      "Yuhuan He",
+      "Darshil Patel",
+      "Aubrey M. Brueckner"
+    ],
+    "published": "2026-08-30T15:40:35Z",
+    "updated": "2026-09-02T21:50:40Z",
+    "primary_category": "cs.CL",
+    "categories": [
+      "cs.CL",
+      "cs.AI"
+    ],
+    "doi": null,
+    "journal_ref": null,
+    "comment": "31 pages, 16 figures, 2 tables, 1 listing. v2: adds a figure of how the documented workflows compose skills, quotes the skill clauses behind the introduction's examples, replaces the appendix listing with a procedural skill, names supported hosts and the pinned install path, and reports the two corpus findings in the abstract",
+    "abstract_url": "https://arxiv.org/abs/2609.00065v2",
+    "pdf_url": "https://arxiv.org/pdf/2609.00065v2"
+  },
+  "retrieval_skill_reading": "Metadata/abstract only, methodological provenance not evidence for integration performance"
+}

@@ -1,0 +1,51 @@
+{
+  "date": "2026-11-08",
+  "model": "teusink",
+  "origin_time": 1.0,
+  "steps": [
+    0.001,
+    0.003,
+    0.01
+  ],
+  "thresholds": [
+    0.3,
+    3.0,
+    10.0
+  ],
+  "orders": [
+    2,
+    3,
+    4
+  ],
+  "iterations": [
+    "fixed",
+    "newton"
+  ],
+  "tolerances": [
+    1e-08,
+    1e-10
+  ],
+  "maxiter": 12,
+  "residual_tolerance": 1e-11,
+  "scope": "108 local candidates and18 complete controls; one-shot development timings, no M4 coverage or speed claim.",
+  "history": "One real guarded full solve over2h at1e-10 from known t=1 prefix; sample actual curve at0,h,2h. All orders use same current state. History generation excluded from local timings and recorded separately; no reference history injection.",
+  "iteration": "Euler endpoint predictor (fallback to current state if invalid); fixed point or frozen slow-only Jacobian I-beta*h*J_s, positivity damping, convergence required. All repeated fast solves counted.",
+  "audits": "Independent full1e-12/1e-11 on65 points plus public observations; strict reference budget<=.05. Original positivity/pools/physical and modified ledger/net flux gates.",
+  "cost": "Includes current and future slow RHS, endpoint factorization/solves, all fast solves and continuous guards; excludes cached grouping/history, independent audits and accuracy scoring. Final ledger audited on returned curve, not rejected iterates.",
+  "failures": "Preserve all failures and iteration residuals. Work counters on interrupted inner solves may be partial; their measured time is retained and failures cannot qualify.",
+  "source_sha256": {
+    "research/implicit_flow.py": "77688bda8180ac8d819d0ba22816947be588dcc2d92c8597cfe679d7af3c7c5e",
+    "research/test_implicit_flow.py": "9651ee7c1c9be519fc6bd3d14f4a596c2fee368a19b291b1065f1b78569bc9cc",
+    "research/implicit_history.py": "34cbe990c9826f2d5259e1e532694cd7aa1bff345b1c66cffdac147afa0968be",
+    "research/m3_implicit_local.py": "6f8d7fb24cc0e7bcec16f40c2ebc71f89b53a24bffbb97f98dcc22c178c4108c",
+    "research/fullstep_radau.py": "ec224519a31b512359d1645b4d2211e80b9d436a7cd6e7ff8dfca568d9439f32",
+    "research/inner_dense.py": "e19b0221a27f5fa861c7a0877d64f9e04b638a3fc514326c7968541f13ec133b",
+    "research/m3_extrapolated_paths.py": "7ce2742d48adf31bb1b73372cb09f7085e18e1507d32b8543ac3c8217f9b64cf",
+    "research/m3_growth_study.py": "ef440e9984b74ff8440d0c6d4e1ec9e79e1ce32ac997535847e5ddf6a3e05955"
+  },
+  "input_sha256": {
+    "results/m3-priority/p0.npz": "8be94525b6c3caa007123f284101ab165b725d38ab1567a121f4923993ed4243",
+    "results/m3-implicit-history/stability.json": "0de1e5765322ebf2d710fd3e1d5eebb5752c590301b2d50107274376a2159fc6",
+    "results/m3-growth-history/manifest.json": "c42c18082d27f29df01aef6d235deb8c78b4a805b55cdccdf36548581f1918aa"
+  }
+}

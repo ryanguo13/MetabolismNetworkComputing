@@ -1,0 +1,4691 @@
+{
+  "runs": [
+    {
+      "name": "0.001-0.3-2-fixed-1e-08",
+      "h": 0.001,
+      "threshold": 0.3,
+      "order": 2,
+      "iteration": "fixed",
+      "tolerance": 1e-08,
+      "active": 14,
+      "groups": [
+        0,
+        1,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        14,
+        15
+      ],
+      "setup_seconds": 0.0017807499971240759,
+      "history_rhs_seconds": 6.737490184605122e-05,
+      "status": "success",
+      "seconds": 0.007210209034383297,
+      "stats": {
+        "subflows": 5,
+        "nfev": 55,
+        "njev": 5,
+        "nlu": 10,
+        "endpoint_njev": 0,
+        "endpoint_nlu": 0,
+        "endpoint_solves": 0,
+        "accepted_steps": 5,
+        "pool_error": 1.9749590675267642e-16,
+        "min_rhs": 0.0003797856860990092,
+        "min_internal": 0.0003797857623827733,
+        "iteration_residuals": [
+          3.269617706295051e-07,
+          4.240968202334024e-08,
+          1.7702415694789896e-09,
+          7.056847978884287e-11,
+          2.8070289337026745e-12
+        ],
+        "endpoint_residual": 2.8070289337026745e-12,
+        "continuous_nonnegative": true,
+        "dense_join_error": 0.0,
+        "physical_ledger_residual": 1.1438272629006567e-11,
+        "physical_ledger_quadrature": 2.883253882743779e-19,
+        "modified_ledger_residual": 3.6794755319014835e-17,
+        "modified_ledger_quadrature": 7.319029086964976e-19,
+        "seconds": 0.00714579108171165
+      },
+      "guard": {
+        "nonnegative": true,
+        "pool": 6.9888388465246e-17
+      },
+      "targets": {
+        "0.0001": {
+          "actual": {
+            "concentration": 8.52486805104392e-05,
+            "flux": 8.52486789182801e-05
+          },
+          "passes": true
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 0.00852486805104392,
+            "flux": 0.008524867891828011
+          },
+          "passes": true
+        }
+      }
+    },
+    {
+      "name": "0.001-0.3-2-fixed-1e-10",
+      "h": 0.001,
+      "threshold": 0.3,
+      "order": 2,
+      "iteration": "fixed",
+      "tolerance": 1e-10,
+      "active": 14,
+      "groups": [
+        0,
+        1,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        14,
+        15
+      ],
+      "setup_seconds": 0.0017807499971240759,
+      "history_rhs_seconds": 6.737490184605122e-05,
+      "status": "success",
+      "seconds": 0.007768374867737293,
+      "stats": {
+        "subflows": 5,
+        "nfev": 70,
+        "njev": 5,
+        "nlu": 10,
+        "endpoint_njev": 0,
+        "endpoint_nlu": 0,
+        "endpoint_solves": 0,
+        "accepted_steps": 5,
+        "pool_error": 0.0,
+        "min_rhs": 0.0003797856860990092,
+        "min_internal": 0.0003797857623827839,
+        "iteration_residuals": [
+          3.269617707681882e-07,
+          4.240968216212344e-08,
+          1.7702415694789896e-09,
+          7.056847978884287e-11,
+          2.8070289337026745e-12
+        ],
+        "endpoint_residual": 2.8070289337026745e-12,
+        "continuous_nonnegative": true,
+        "dense_join_error": 0.0,
+        "physical_ledger_residual": 1.1438292146417466e-11,
+        "physical_ledger_quadrature": 8.427972888020276e-19,
+        "modified_ledger_residual": 1.8341930469454653e-17,
+        "modified_ledger_quadrature": 1.5303424454563132e-18,
+        "seconds": 0.007701209047809243
+      },
+      "guard": {
+        "nonnegative": true,
+        "pool": 6.98921393390396e-17
+      },
+      "targets": {
+        "0.0001": {
+          "actual": {
+            "concentration": 8.524868188453025e-05,
+            "flux": 8.524868097299569e-05
+          },
+          "passes": true
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 0.008524868188453025,
+            "flux": 0.00852486809729957
+          },
+          "passes": true
+        }
+      }
+    },
+    {
+      "name": "0.001-0.3-2-newton-1e-08",
+      "h": 0.001,
+      "threshold": 0.3,
+      "order": 2,
+      "iteration": "newton",
+      "tolerance": 1e-08,
+      "active": 14,
+      "groups": [
+        0,
+        1,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        14,
+        15
+      ],
+      "setup_seconds": 0.0017807499971240759,
+      "history_rhs_seconds": 6.737490184605122e-05,
+      "status": "success",
+      "seconds": 0.007740708068013191,
+      "stats": {
+        "subflows": 4,
+        "nfev": 44,
+        "njev": 4,
+        "nlu": 8,
+        "endpoint_njev": 1,
+        "endpoint_nlu": 1,
+        "endpoint_solves": 3,
+        "accepted_steps": 4,
+        "pool_error": 0.0,
+        "min_rhs": 0.00037978568609455703,
+        "min_internal": 0.00037978576237832415,
+        "iteration_residuals": [
+          3.269617706295051e-07,
+          3.809813720852206e-09,
+          6.792327206233377e-11,
+          1.2172674170625015e-12
+        ],
+        "endpoint_residual": 1.2172674170625015e-12,
+        "continuous_nonnegative": true,
+        "dense_join_error": 0.0,
+        "physical_ledger_residual": 1.1438516463569544e-11,
+        "physical_ledger_quadrature": 9.536916689075575e-19,
+        "modified_ledger_residual": 5.322930245065438e-18,
+        "modified_ledger_quadrature": 1.2641959332030415e-18,
+        "seconds": 0.007671792060136795
+      },
+      "guard": {
+        "nonnegative": true,
+        "pool": 6.979137262751304e-17
+      },
+      "targets": {
+        "0.0001": {
+          "actual": {
+            "concentration": 8.524924526186283e-05,
+            "flux": 8.52492439650691e-05
+          },
+          "passes": true
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 0.008524924526186283,
+            "flux": 0.008524924396506912
+          },
+          "passes": true
+        }
+      }
+    },
+    {
+      "name": "0.001-0.3-2-newton-1e-10",
+      "h": 0.001,
+      "threshold": 0.3,
+      "order": 2,
+      "iteration": "newton",
+      "tolerance": 1e-10,
+      "active": 14,
+      "groups": [
+        0,
+        1,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        14,
+        15
+      ],
+      "setup_seconds": 0.0017807499971240759,
+      "history_rhs_seconds": 6.737490184605122e-05,
+      "status": "success",
+      "seconds": 0.007075541885569692,
+      "stats": {
+        "subflows": 4,
+        "nfev": 56,
+        "njev": 4,
+        "nlu": 8,
+        "endpoint_njev": 1,
+        "endpoint_nlu": 1,
+        "endpoint_solves": 3,
+        "accepted_steps": 4,
+        "pool_error": 0.0,
+        "min_rhs": 0.00037978568609455703,
+        "min_internal": 0.0003797857623783348,
+        "iteration_residuals": [
+          3.269617707681882e-07,
+          3.809813582069009e-09,
+          6.792327206233377e-11,
+          1.2172674170625015e-12
+        ],
+        "endpoint_residual": 1.2172674170625015e-12,
+        "continuous_nonnegative": true,
+        "dense_join_error": 0.0,
+        "physical_ledger_residual": 1.1438529260781007e-11,
+        "physical_ledger_quadrature": 4.879352724643318e-19,
+        "modified_ledger_residual": 7.0307036986906e-18,
+        "modified_ledger_quadrature": 8.871550408442396e-20,
+        "seconds": 0.007011499954387546
+      },
+      "guard": {
+        "nonnegative": true,
+        "pool": 6.981451035154181e-17
+      },
+      "targets": {
+        "0.0001": {
+          "actual": {
+            "concentration": 8.52492466359539e-05,
+            "flux": 8.52492460197847e-05
+          },
+          "passes": true
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 0.00852492466359539,
+            "flux": 0.008524924601978472
+          },
+          "passes": true
+        }
+      }
+    },
+    {
+      "name": "0.001-0.3-3-fixed-1e-08",
+      "h": 0.001,
+      "threshold": 0.3,
+      "order": 3,
+      "iteration": "fixed",
+      "tolerance": 1e-08,
+      "active": 14,
+      "groups": [
+        0,
+        1,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        14,
+        15
+      ],
+      "setup_seconds": 0.0017807499971240759,
+      "history_rhs_seconds": 6.737490184605122e-05,
+      "status": "failed",
+      "seconds": 6.4999330788850784e-06,
+      "reason": "Invalid implicit controls/history",
+      "stats": {}
+    },
+    {
+      "name": "0.001-0.3-3-fixed-1e-10",
+      "h": 0.001,
+      "threshold": 0.3,
+      "order": 3,
+      "iteration": "fixed",
+      "tolerance": 1e-10,
+      "active": 14,
+      "groups": [
+        0,
+        1,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        14,
+        15
+      ],
+      "setup_seconds": 0.0017807499971240759,
+      "history_rhs_seconds": 6.737490184605122e-05,
+      "status": "failed",
+      "seconds": 4.792120307683945e-06,
+      "reason": "Invalid implicit controls/history",
+      "stats": {}
+    },
+    {
+      "name": "0.001-0.3-3-newton-1e-08",
+      "h": 0.001,
+      "threshold": 0.3,
+      "order": 3,
+      "iteration": "newton",
+      "tolerance": 1e-08,
+      "active": 14,
+      "groups": [
+        0,
+        1,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        14,
+        15
+      ],
+      "setup_seconds": 0.0017807499971240759,
+      "history_rhs_seconds": 6.737490184605122e-05,
+      "status": "failed",
+      "seconds": 3.834022209048271e-06,
+      "reason": "Invalid implicit controls/history",
+      "stats": {}
+    },
+    {
+      "name": "0.001-0.3-3-newton-1e-10",
+      "h": 0.001,
+      "threshold": 0.3,
+      "order": 3,
+      "iteration": "newton",
+      "tolerance": 1e-10,
+      "active": 14,
+      "groups": [
+        0,
+        1,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        14,
+        15
+      ],
+      "setup_seconds": 0.0017807499971240759,
+      "history_rhs_seconds": 6.737490184605122e-05,
+      "status": "failed",
+      "seconds": 5.708076059818268e-06,
+      "reason": "Invalid implicit controls/history",
+      "stats": {}
+    },
+    {
+      "name": "0.001-0.3-4-fixed-1e-08",
+      "h": 0.001,
+      "threshold": 0.3,
+      "order": 4,
+      "iteration": "fixed",
+      "tolerance": 1e-08,
+      "active": 14,
+      "groups": [
+        0,
+        1,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        14,
+        15
+      ],
+      "setup_seconds": 0.0017807499971240759,
+      "history_rhs_seconds": 6.737490184605122e-05,
+      "status": "failed",
+      "seconds": 4.166970029473305e-06,
+      "reason": "Invalid implicit controls/history",
+      "stats": {}
+    },
+    {
+      "name": "0.001-0.3-4-fixed-1e-10",
+      "h": 0.001,
+      "threshold": 0.3,
+      "order": 4,
+      "iteration": "fixed",
+      "tolerance": 1e-10,
+      "active": 14,
+      "groups": [
+        0,
+        1,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        14,
+        15
+      ],
+      "setup_seconds": 0.0017807499971240759,
+      "history_rhs_seconds": 6.737490184605122e-05,
+      "status": "failed",
+      "seconds": 4.541128873825073e-06,
+      "reason": "Invalid implicit controls/history",
+      "stats": {}
+    },
+    {
+      "name": "0.001-0.3-4-newton-1e-08",
+      "h": 0.001,
+      "threshold": 0.3,
+      "order": 4,
+      "iteration": "newton",
+      "tolerance": 1e-08,
+      "active": 14,
+      "groups": [
+        0,
+        1,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        14,
+        15
+      ],
+      "setup_seconds": 0.0017807499971240759,
+      "history_rhs_seconds": 6.737490184605122e-05,
+      "status": "failed",
+      "seconds": 6.375135853886604e-06,
+      "reason": "Invalid implicit controls/history",
+      "stats": {}
+    },
+    {
+      "name": "0.001-0.3-4-newton-1e-10",
+      "h": 0.001,
+      "threshold": 0.3,
+      "order": 4,
+      "iteration": "newton",
+      "tolerance": 1e-10,
+      "active": 14,
+      "groups": [
+        0,
+        1,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        14,
+        15
+      ],
+      "setup_seconds": 0.0017807499971240759,
+      "history_rhs_seconds": 6.737490184605122e-05,
+      "status": "failed",
+      "seconds": 4.958128556609154e-06,
+      "reason": "Invalid implicit controls/history",
+      "stats": {}
+    },
+    {
+      "name": "0.001-3.0-2-fixed-1e-08",
+      "h": 0.001,
+      "threshold": 3.0,
+      "order": 2,
+      "iteration": "fixed",
+      "tolerance": 1e-08,
+      "active": 9,
+      "groups": [
+        6,
+        7,
+        8,
+        9,
+        14
+      ],
+      "setup_seconds": 0.0013650411274284124,
+      "history_rhs_seconds": 8.241692557930946e-05,
+      "status": "failed",
+      "seconds": 0.015245874878019094,
+      "reason": "Implicit endpoint iteration did not converge",
+      "stats": {
+        "subflows": 12,
+        "nfev": 132,
+        "njev": 12,
+        "nlu": 24,
+        "endpoint_njev": 0,
+        "endpoint_nlu": 0,
+        "endpoint_solves": 0,
+        "accepted_steps": 12,
+        "pool_error": 1.9749590675267642e-16,
+        "min_rhs": 0.000379785685581319,
+        "min_internal": 0.00037978576212677537,
+        "iteration_residuals": [
+          3.58374919894291e-07,
+          8.184925756174518e-08,
+          4.344603968658082e-08,
+          2.390059926459579e-08,
+          1.3137484233381111e-08,
+          7.215249749415816e-09,
+          3.9592111723933735e-09,
+          2.170444185866818e-09,
+          1.188618692531607e-09,
+          6.502292862957565e-10,
+          3.553024110292353e-10,
+          1.9391655911552957e-10
+        ],
+        "seconds": 0.015240250155329704
+      }
+    },
+    {
+      "name": "0.001-3.0-2-fixed-1e-10",
+      "h": 0.001,
+      "threshold": 3.0,
+      "order": 2,
+      "iteration": "fixed",
+      "tolerance": 1e-10,
+      "active": 9,
+      "groups": [
+        6,
+        7,
+        8,
+        9,
+        14
+      ],
+      "setup_seconds": 0.0013650411274284124,
+      "history_rhs_seconds": 8.241692557930946e-05,
+      "status": "failed",
+      "seconds": 0.039791708113625646,
+      "reason": "Implicit endpoint iteration did not converge",
+      "stats": {
+        "subflows": 12,
+        "nfev": 438,
+        "njev": 24,
+        "nlu": 70,
+        "endpoint_njev": 0,
+        "endpoint_nlu": 0,
+        "endpoint_solves": 0,
+        "accepted_steps": 24,
+        "pool_error": 1.9749590675267642e-16,
+        "min_rhs": 0.00037978568558139216,
+        "min_internal": 0.0003797857621262813,
+        "iteration_residuals": [
+          3.5837543445851626e-07,
+          8.184527361228223e-08,
+          4.3441601538801914e-08,
+          2.389690541243452e-08,
+          1.3134753478189815e-08,
+          7.213358802348163e-09,
+          3.957955671782977e-09,
+          2.1696347111112234e-09,
+          1.1881079387790372e-09,
+          6.499121647207094e-10,
+          3.55108026784736e-10,
+          1.9379868515142906e-10
+        ],
+        "seconds": 0.03978474996984005
+      }
+    },
+    {
+      "name": "0.001-3.0-2-newton-1e-08",
+      "h": 0.001,
+      "threshold": 3.0,
+      "order": 2,
+      "iteration": "newton",
+      "tolerance": 1e-08,
+      "active": 9,
+      "groups": [
+        6,
+        7,
+        8,
+        9,
+        14
+      ],
+      "setup_seconds": 0.0013650411274284124,
+      "history_rhs_seconds": 8.241692557930946e-05,
+      "status": "success",
+      "seconds": 0.009643082972615957,
+      "stats": {
+        "subflows": 5,
+        "nfev": 55,
+        "njev": 5,
+        "nlu": 10,
+        "endpoint_njev": 1,
+        "endpoint_nlu": 1,
+        "endpoint_solves": 4,
+        "accepted_steps": 5,
+        "pool_error": 0.0,
+        "min_rhs": 0.0003797856859529226,
+        "min_internal": 0.00037978576249783847,
+        "iteration_residuals": [
+          3.58374919894291e-07,
+          9.444124625844386e-09,
+          5.598866892403585e-10,
+          3.3438452042334316e-11,
+          2.0002822120763693e-12
+        ],
+        "endpoint_residual": 2.0002822120763693e-12,
+        "continuous_nonnegative": true,
+        "dense_join_error": 0.0,
+        "physical_ledger_residual": 1.546781847543914e-11,
+        "physical_ledger_quadrature": 4.435775204221198e-19,
+        "modified_ledger_residual": 1.7077734536251612e-17,
+        "modified_ledger_quadrature": 6.653662806331797e-19,
+        "seconds": 0.009550167014822364
+      },
+      "guard": {
+        "nonnegative": true,
+        "pool": 6.98361915809657e-17
+      },
+      "targets": {
+        "0.0001": {
+          "actual": {
+            "concentration": 0.00010547452447989906,
+            "flux": 0.00010547452462146449
+          },
+          "passes": true
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 0.010547452447989906,
+            "flux": 0.01054745246214645
+          },
+          "passes": true
+        }
+      }
+    },
+    {
+      "name": "0.001-3.0-2-newton-1e-10",
+      "h": 0.001,
+      "threshold": 3.0,
+      "order": 2,
+      "iteration": "newton",
+      "tolerance": 1e-10,
+      "active": 9,
+      "groups": [
+        6,
+        7,
+        8,
+        9,
+        14
+      ],
+      "setup_seconds": 0.0013650411274284124,
+      "history_rhs_seconds": 8.241692557930946e-05,
+      "status": "success",
+      "seconds": 0.017686666920781136,
+      "stats": {
+        "subflows": 5,
+        "nfev": 180,
+        "njev": 10,
+        "nlu": 30,
+        "endpoint_njev": 1,
+        "endpoint_nlu": 1,
+        "endpoint_solves": 4,
+        "accepted_steps": 10,
+        "pool_error": 1.9749590675267642e-16,
+        "min_rhs": 0.0003797856859529239,
+        "min_internal": 0.0003797857624973644,
+        "iteration_residuals": [
+          3.5837543445851626e-07,
+          9.446736755004605e-09,
+          5.602045628823821e-10,
+          3.3467431689824795e-11,
+          2.0059723231354916e-12
+        ],
+        "endpoint_residual": 2.0059723231354916e-12,
+        "continuous_nonnegative": true,
+        "dense_join_error": 0.0,
+        "physical_ledger_residual": 1.5476573564569593e-11,
+        "physical_ledger_quadrature": 2.439676362321659e-19,
+        "modified_ledger_residual": 6.190124297490682e-17,
+        "modified_ledger_quadrature": 1.3529114372874654e-18,
+        "seconds": 0.017564750043675303
+      },
+      "guard": {
+        "nonnegative": true,
+        "pool": 1.2227204613468e-16
+      },
+      "targets": {
+        "0.0001": {
+          "actual": {
+            "concentration": 0.00010556855215670773,
+            "flux": 0.00010556855046187136
+          },
+          "passes": true
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 0.010556855215670773,
+            "flux": 0.010556855046187138
+          },
+          "passes": true
+        }
+      }
+    },
+    {
+      "name": "0.001-3.0-3-fixed-1e-08",
+      "h": 0.001,
+      "threshold": 3.0,
+      "order": 3,
+      "iteration": "fixed",
+      "tolerance": 1e-08,
+      "active": 9,
+      "groups": [
+        6,
+        7,
+        8,
+        9,
+        14
+      ],
+      "setup_seconds": 0.0013650411274284124,
+      "history_rhs_seconds": 8.241692557930946e-05,
+      "status": "failed",
+      "seconds": 6.708083674311638e-06,
+      "reason": "Invalid implicit controls/history",
+      "stats": {}
+    },
+    {
+      "name": "0.001-3.0-3-fixed-1e-10",
+      "h": 0.001,
+      "threshold": 3.0,
+      "order": 3,
+      "iteration": "fixed",
+      "tolerance": 1e-10,
+      "active": 9,
+      "groups": [
+        6,
+        7,
+        8,
+        9,
+        14
+      ],
+      "setup_seconds": 0.0013650411274284124,
+      "history_rhs_seconds": 8.241692557930946e-05,
+      "status": "failed",
+      "seconds": 4.792120307683945e-06,
+      "reason": "Invalid implicit controls/history",
+      "stats": {}
+    },
+    {
+      "name": "0.001-3.0-3-newton-1e-08",
+      "h": 0.001,
+      "threshold": 3.0,
+      "order": 3,
+      "iteration": "newton",
+      "tolerance": 1e-08,
+      "active": 9,
+      "groups": [
+        6,
+        7,
+        8,
+        9,
+        14
+      ],
+      "setup_seconds": 0.0013650411274284124,
+      "history_rhs_seconds": 8.241692557930946e-05,
+      "status": "failed",
+      "seconds": 3.832858055830002e-06,
+      "reason": "Invalid implicit controls/history",
+      "stats": {}
+    },
+    {
+      "name": "0.001-3.0-3-newton-1e-10",
+      "h": 0.001,
+      "threshold": 3.0,
+      "order": 3,
+      "iteration": "newton",
+      "tolerance": 1e-10,
+      "active": 9,
+      "groups": [
+        6,
+        7,
+        8,
+        9,
+        14
+      ],
+      "setup_seconds": 0.0013650411274284124,
+      "history_rhs_seconds": 8.241692557930946e-05,
+      "status": "failed",
+      "seconds": 3.6249402910470963e-06,
+      "reason": "Invalid implicit controls/history",
+      "stats": {}
+    },
+    {
+      "name": "0.001-3.0-4-fixed-1e-08",
+      "h": 0.001,
+      "threshold": 3.0,
+      "order": 4,
+      "iteration": "fixed",
+      "tolerance": 1e-08,
+      "active": 9,
+      "groups": [
+        6,
+        7,
+        8,
+        9,
+        14
+      ],
+      "setup_seconds": 0.0013650411274284124,
+      "history_rhs_seconds": 8.241692557930946e-05,
+      "status": "failed",
+      "seconds": 3.00002284348011e-06,
+      "reason": "Invalid implicit controls/history",
+      "stats": {}
+    },
+    {
+      "name": "0.001-3.0-4-fixed-1e-10",
+      "h": 0.001,
+      "threshold": 3.0,
+      "order": 4,
+      "iteration": "fixed",
+      "tolerance": 1e-10,
+      "active": 9,
+      "groups": [
+        6,
+        7,
+        8,
+        9,
+        14
+      ],
+      "setup_seconds": 0.0013650411274284124,
+      "history_rhs_seconds": 8.241692557930946e-05,
+      "status": "failed",
+      "seconds": 3.4580007195472717e-06,
+      "reason": "Invalid implicit controls/history",
+      "stats": {}
+    },
+    {
+      "name": "0.001-3.0-4-newton-1e-08",
+      "h": 0.001,
+      "threshold": 3.0,
+      "order": 4,
+      "iteration": "newton",
+      "tolerance": 1e-08,
+      "active": 9,
+      "groups": [
+        6,
+        7,
+        8,
+        9,
+        14
+      ],
+      "setup_seconds": 0.0013650411274284124,
+      "history_rhs_seconds": 8.241692557930946e-05,
+      "status": "failed",
+      "seconds": 3.917142748832703e-06,
+      "reason": "Invalid implicit controls/history",
+      "stats": {}
+    },
+    {
+      "name": "0.001-3.0-4-newton-1e-10",
+      "h": 0.001,
+      "threshold": 3.0,
+      "order": 4,
+      "iteration": "newton",
+      "tolerance": 1e-10,
+      "active": 9,
+      "groups": [
+        6,
+        7,
+        8,
+        9,
+        14
+      ],
+      "setup_seconds": 0.0013650411274284124,
+      "history_rhs_seconds": 8.241692557930946e-05,
+      "status": "failed",
+      "seconds": 3.1669624149799347e-06,
+      "reason": "Invalid implicit controls/history",
+      "stats": {}
+    },
+    {
+      "name": "0.001-10.0-2-fixed-1e-08",
+      "h": 0.001,
+      "threshold": 10.0,
+      "order": 2,
+      "iteration": "fixed",
+      "tolerance": 1e-08,
+      "active": 8,
+      "groups": [
+        6,
+        7,
+        8,
+        14
+      ],
+      "setup_seconds": 0.001294500194489956,
+      "history_rhs_seconds": 7.041613571345806e-05,
+      "status": "failed",
+      "seconds": 0.014112332835793495,
+      "reason": "Implicit endpoint iteration did not converge",
+      "stats": {
+        "subflows": 12,
+        "nfev": 132,
+        "njev": 12,
+        "nlu": 24,
+        "endpoint_njev": 0,
+        "endpoint_nlu": 0,
+        "endpoint_solves": 0,
+        "accepted_steps": 12,
+        "pool_error": 1.9749590675267642e-16,
+        "min_rhs": 0.00037978568017787,
+        "min_internal": 0.0003797857564490893,
+        "iteration_residuals": [
+          3.4133405337830454e-07,
+          4.991012659451928e-08,
+          3.434353581919327e-08,
+          3.52380672440308e-08,
+          3.985275352029369e-08,
+          4.604506478166463e-08,
+          5.344163943336136e-08,
+          6.209125939732748e-08,
+          7.216160657951408e-08,
+          8.38736033616787e-08,
+          9.749055927216e-08,
+          1.1332043144851972e-07
+        ],
+        "seconds": 0.014108709059655666
+      }
+    },
+    {
+      "name": "0.001-10.0-2-fixed-1e-10",
+      "h": 0.001,
+      "threshold": 10.0,
+      "order": 2,
+      "iteration": "fixed",
+      "tolerance": 1e-10,
+      "active": 8,
+      "groups": [
+        6,
+        7,
+        8,
+        14
+      ],
+      "setup_seconds": 0.001294500194489956,
+      "history_rhs_seconds": 7.041613571345806e-05,
+      "status": "failed",
+      "seconds": 0.03419716702774167,
+      "reason": "Implicit endpoint iteration did not converge",
+      "stats": {
+        "subflows": 12,
+        "nfev": 478,
+        "njev": 18,
+        "nlu": 70,
+        "endpoint_njev": 0,
+        "endpoint_nlu": 0,
+        "endpoint_solves": 0,
+        "accepted_steps": 32,
+        "pool_error": 1.9749590675267642e-16,
+        "min_rhs": 0.000379785680190268,
+        "min_internal": 0.00037978575644532657,
+        "iteration_residuals": [
+          3.4133405337830454e-07,
+          4.9904068394197616e-08,
+          3.438539611778848e-08,
+          3.5292351638938285e-08,
+          3.9899142916634165e-08,
+          4.607174661385322e-08,
+          5.343876082180251e-08,
+          6.204793472405362e-08,
+          7.206473368462702e-08,
+          8.37069473252212e-08,
+          9.723411937427276e-08,
+          1.1294924964466186e-07
+        ],
+        "seconds": 0.03419341589324176
+      }
+    },
+    {
+      "name": "0.001-10.0-2-newton-1e-08",
+      "h": 0.001,
+      "threshold": 10.0,
+      "order": 2,
+      "iteration": "newton",
+      "tolerance": 1e-08,
+      "active": 8,
+      "groups": [
+        6,
+        7,
+        8,
+        14
+      ],
+      "setup_seconds": 0.001294500194489956,
+      "history_rhs_seconds": 7.041613571345806e-05,
+      "status": "success",
+      "seconds": 0.017434332985430956,
+      "stats": {
+        "subflows": 10,
+        "nfev": 110,
+        "njev": 10,
+        "nlu": 20,
+        "endpoint_njev": 1,
+        "endpoint_nlu": 1,
+        "endpoint_solves": 9,
+        "accepted_steps": 10,
+        "pool_error": 1.9749590675267642e-16,
+        "min_rhs": 0.0003797856852170062,
+        "min_internal": 0.0003797857614855527,
+        "iteration_residuals": [
+          3.4133405337830454e-07,
+          3.594789934474596e-08,
+          1.1901655240046754e-08,
+          3.9348860396877984e-09,
+          1.3009644866020706e-09,
+          4.301304682800359e-10,
+          1.4221164755060894e-10,
+          4.701869680638164e-11,
+          1.554555095761856e-11,
+          5.13969653873995e-12
+        ],
+        "endpoint_residual": 5.13969653873995e-12,
+        "continuous_nonnegative": true,
+        "dense_join_error": 0.0,
+        "physical_ledger_residual": 1.547756449457134e-11,
+        "physical_ledger_quadrature": 6.653662806331797e-20,
+        "modified_ledger_residual": 1.2220560687629401e-17,
+        "modified_ledger_quadrature": 5.544719005276497e-19,
+        "seconds": 0.017333708005025983
+      },
+      "guard": {
+        "nonnegative": true,
+        "pool": 6.978310853839109e-17
+      },
+      "targets": {
+        "0.0001": {
+          "actual": {
+            "concentration": 0.00010506009449541114,
+            "flux": 0.00015349303049529782
+          },
+          "passes": true
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 0.010506009449541115,
+            "flux": 0.015349303049529783
+          },
+          "passes": true
+        }
+      }
+    },
+    {
+      "name": "0.001-10.0-2-newton-1e-10",
+      "h": 0.001,
+      "threshold": 10.0,
+      "order": 2,
+      "iteration": "newton",
+      "tolerance": 1e-10,
+      "active": 8,
+      "groups": [
+        6,
+        7,
+        8,
+        14
+      ],
+      "setup_seconds": 0.001294500194489956,
+      "history_rhs_seconds": 7.041613571345806e-05,
+      "status": "success",
+      "seconds": 0.03312904201447964,
+      "stats": {
+        "subflows": 10,
+        "nfev": 377,
+        "njev": 12,
+        "nlu": 58,
+        "endpoint_njev": 1,
+        "endpoint_nlu": 1,
+        "endpoint_solves": 9,
+        "accepted_steps": 28,
+        "pool_error": 1.9749590675267642e-16,
+        "min_rhs": 0.00037978568521295387,
+        "min_internal": 0.0003797857614713471,
+        "iteration_residuals": [
+          3.4133405337830454e-07,
+          3.601254167558595e-08,
+          1.1943642313586949e-08,
+          3.955643509504873e-09,
+          1.3101029520494005e-09,
+          4.3390528438787734e-10,
+          1.4370934997565143e-10,
+          4.759641754799778e-11,
+          1.5764010467359906e-11,
+          5.2210550697632625e-12
+        ],
+        "endpoint_residual": 5.2210550697632625e-12,
+        "continuous_nonnegative": true,
+        "dense_join_error": 1.6211783152802124e-16,
+        "physical_ledger_residual": 1.5486705473965687e-11,
+        "physical_ledger_quadrature": 1.1089438010552995e-19,
+        "modified_ledger_residual": 5.491489702825843e-17,
+        "modified_ledger_quadrature": 3.5486201633769583e-19,
+        "seconds": 0.0329567501321435
+      },
+      "guard": {
+        "nonnegative": true,
+        "pool": 1.3971451778774651e-16
+      },
+      "targets": {
+        "0.0001": {
+          "actual": {
+            "concentration": 0.0001051583200203931,
+            "flux": 0.00016188878206379402
+          },
+          "passes": true
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 0.01051583200203931,
+            "flux": 0.016188878206379403
+          },
+          "passes": true
+        }
+      }
+    },
+    {
+      "name": "0.001-10.0-3-fixed-1e-08",
+      "h": 0.001,
+      "threshold": 10.0,
+      "order": 3,
+      "iteration": "fixed",
+      "tolerance": 1e-08,
+      "active": 8,
+      "groups": [
+        6,
+        7,
+        8,
+        14
+      ],
+      "setup_seconds": 0.001294500194489956,
+      "history_rhs_seconds": 7.041613571345806e-05,
+      "status": "failed",
+      "seconds": 9.542098268866539e-06,
+      "reason": "Invalid implicit controls/history",
+      "stats": {}
+    },
+    {
+      "name": "0.001-10.0-3-fixed-1e-10",
+      "h": 0.001,
+      "threshold": 10.0,
+      "order": 3,
+      "iteration": "fixed",
+      "tolerance": 1e-10,
+      "active": 8,
+      "groups": [
+        6,
+        7,
+        8,
+        14
+      ],
+      "setup_seconds": 0.001294500194489956,
+      "history_rhs_seconds": 7.041613571345806e-05,
+      "status": "failed",
+      "seconds": 4.541827365756035e-06,
+      "reason": "Invalid implicit controls/history",
+      "stats": {}
+    },
+    {
+      "name": "0.001-10.0-3-newton-1e-08",
+      "h": 0.001,
+      "threshold": 10.0,
+      "order": 3,
+      "iteration": "newton",
+      "tolerance": 1e-08,
+      "active": 8,
+      "groups": [
+        6,
+        7,
+        8,
+        14
+      ],
+      "setup_seconds": 0.001294500194489956,
+      "history_rhs_seconds": 7.041613571345806e-05,
+      "status": "failed",
+      "seconds": 3.958120942115784e-06,
+      "reason": "Invalid implicit controls/history",
+      "stats": {}
+    },
+    {
+      "name": "0.001-10.0-3-newton-1e-10",
+      "h": 0.001,
+      "threshold": 10.0,
+      "order": 3,
+      "iteration": "newton",
+      "tolerance": 1e-10,
+      "active": 8,
+      "groups": [
+        6,
+        7,
+        8,
+        14
+      ],
+      "setup_seconds": 0.001294500194489956,
+      "history_rhs_seconds": 7.041613571345806e-05,
+      "status": "failed",
+      "seconds": 3.707828000187874e-06,
+      "reason": "Invalid implicit controls/history",
+      "stats": {}
+    },
+    {
+      "name": "0.001-10.0-4-fixed-1e-08",
+      "h": 0.001,
+      "threshold": 10.0,
+      "order": 4,
+      "iteration": "fixed",
+      "tolerance": 1e-08,
+      "active": 8,
+      "groups": [
+        6,
+        7,
+        8,
+        14
+      ],
+      "setup_seconds": 0.001294500194489956,
+      "history_rhs_seconds": 7.041613571345806e-05,
+      "status": "failed",
+      "seconds": 3.1248200684785843e-06,
+      "reason": "Invalid implicit controls/history",
+      "stats": {}
+    },
+    {
+      "name": "0.001-10.0-4-fixed-1e-10",
+      "h": 0.001,
+      "threshold": 10.0,
+      "order": 4,
+      "iteration": "fixed",
+      "tolerance": 1e-10,
+      "active": 8,
+      "groups": [
+        6,
+        7,
+        8,
+        14
+      ],
+      "setup_seconds": 0.001294500194489956,
+      "history_rhs_seconds": 7.041613571345806e-05,
+      "status": "failed",
+      "seconds": 3.250082954764366e-06,
+      "reason": "Invalid implicit controls/history",
+      "stats": {}
+    },
+    {
+      "name": "0.001-10.0-4-newton-1e-08",
+      "h": 0.001,
+      "threshold": 10.0,
+      "order": 4,
+      "iteration": "newton",
+      "tolerance": 1e-08,
+      "active": 8,
+      "groups": [
+        6,
+        7,
+        8,
+        14
+      ],
+      "setup_seconds": 0.001294500194489956,
+      "history_rhs_seconds": 7.041613571345806e-05,
+      "status": "failed",
+      "seconds": 3.0838418751955032e-06,
+      "reason": "Invalid implicit controls/history",
+      "stats": {}
+    },
+    {
+      "name": "0.001-10.0-4-newton-1e-10",
+      "h": 0.001,
+      "threshold": 10.0,
+      "order": 4,
+      "iteration": "newton",
+      "tolerance": 1e-10,
+      "active": 8,
+      "groups": [
+        6,
+        7,
+        8,
+        14
+      ],
+      "setup_seconds": 0.001294500194489956,
+      "history_rhs_seconds": 7.041613571345806e-05,
+      "status": "failed",
+      "seconds": 2.874992787837982e-06,
+      "reason": "Invalid implicit controls/history",
+      "stats": {}
+    },
+    {
+      "name": "0.003-0.3-2-fixed-1e-08",
+      "h": 0.003,
+      "threshold": 0.3,
+      "order": 2,
+      "iteration": "fixed",
+      "tolerance": 1e-08,
+      "active": 14,
+      "groups": [
+        0,
+        1,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        14,
+        15
+      ],
+      "setup_seconds": 0.001314207911491394,
+      "history_rhs_seconds": 6.916699931025505e-05,
+      "status": "success",
+      "seconds": 0.011584457941353321,
+      "stats": {
+        "subflows": 8,
+        "nfev": 88,
+        "njev": 8,
+        "nlu": 16,
+        "endpoint_njev": 0,
+        "endpoint_nlu": 0,
+        "endpoint_solves": 0,
+        "accepted_steps": 8,
+        "pool_error": 1.9749590675267642e-16,
+        "min_rhs": 0.00037843773310055413,
+        "min_internal": 0.0003784383914416735,
+        "iteration_residuals": [
+          3.0011057795859755e-06,
+          1.1292306114987924e-06,
+          1.3988844873227997e-07,
+          1.663413065140684e-08,
+          1.9764249642374348e-09,
+          2.349599517827859e-10,
+          2.7938861649880672e-11,
+          3.322608508937789e-12
+        ],
+        "endpoint_residual": 3.322608508937789e-12,
+        "continuous_nonnegative": true,
+        "dense_join_error": 0.0,
+        "physical_ledger_residual": 2.7048320091046236e-10,
+        "physical_ledger_quadrature": 3.551163148457984e-19,
+        "modified_ledger_residual": 7.501832151117492e-16,
+        "modified_ledger_quadrature": 2.0419188103633406e-18,
+        "seconds": 0.011466750176623464
+      },
+      "guard": {
+        "nonnegative": true,
+        "pool": 6.990467132192775e-17
+      },
+      "targets": {
+        "0.0001": {
+          "actual": {
+            "concentration": 0.001955328160897253,
+            "flux": 0.0019553281605689927
+          },
+          "passes": false
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 0.1955328160897253,
+            "flux": 0.1955328160568993
+          },
+          "passes": false
+        }
+      }
+    },
+    {
+      "name": "0.003-0.3-2-fixed-1e-10",
+      "h": 0.003,
+      "threshold": 0.3,
+      "order": 2,
+      "iteration": "fixed",
+      "tolerance": 1e-10,
+      "active": 14,
+      "groups": [
+        0,
+        1,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        14,
+        15
+      ],
+      "setup_seconds": 0.001314207911491394,
+      "history_rhs_seconds": 6.916699931025505e-05,
+      "status": "success",
+      "seconds": 0.036466124933212996,
+      "stats": {
+        "subflows": 8,
+        "nfev": 368,
+        "njev": 16,
+        "nlu": 48,
+        "endpoint_njev": 0,
+        "endpoint_nlu": 0,
+        "endpoint_solves": 0,
+        "accepted_steps": 24,
+        "pool_error": 3.9499181350535284e-16,
+        "min_rhs": 0.0003784377331006412,
+        "min_internal": 0.00037843839144753464,
+        "iteration_residuals": [
+          3.0011480422783913e-06,
+          1.1292233885273272e-06,
+          1.398913913523967e-07,
+          1.6635016782116903e-08,
+          1.976596361485191e-09,
+          2.34988263554885e-10,
+          2.794302514577759e-11,
+          3.322608508937789e-12
+        ],
+        "endpoint_residual": 3.322608508937789e-12,
+        "continuous_nonnegative": true,
+        "dense_join_error": 0.0,
+        "physical_ledger_residual": 2.7062903546213114e-10,
+        "physical_ledger_quadrature": 1.331686180671744e-18,
+        "modified_ledger_residual": 1.553633877450368e-17,
+        "modified_ledger_quadrature": 1.5092443380946432e-18,
+        "seconds": 0.03629541699774563
+      },
+      "guard": {
+        "nonnegative": true,
+        "pool": 1.1797095878853625e-16
+      },
+      "targets": {
+        "0.0001": {
+          "actual": {
+            "concentration": 0.001956247139253986,
+            "flux": 0.0019562471382836293
+          },
+          "passes": false
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 0.1956247139253986,
+            "flux": 0.19562471382836297
+          },
+          "passes": false
+        }
+      }
+    },
+    {
+      "name": "0.003-0.3-2-newton-1e-08",
+      "h": 0.003,
+      "threshold": 0.3,
+      "order": 2,
+      "iteration": "newton",
+      "tolerance": 1e-08,
+      "active": 14,
+      "groups": [
+        0,
+        1,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        14,
+        15
+      ],
+      "setup_seconds": 0.001314207911491394,
+      "history_rhs_seconds": 6.916699931025505e-05,
+      "status": "success",
+      "seconds": 0.01452412479557097,
+      "stats": {
+        "subflows": 6,
+        "nfev": 66,
+        "njev": 6,
+        "nlu": 12,
+        "endpoint_njev": 1,
+        "endpoint_nlu": 1,
+        "endpoint_solves": 5,
+        "accepted_steps": 6,
+        "pool_error": 1.9749590675267642e-16,
+        "min_rhs": 0.00037843773284087264,
+        "min_internal": 0.0003784383911824382,
+        "iteration_residuals": [
+          3.0011057795859755e-06,
+          2.0342148701760936e-07,
+          1.02374426960085e-08,
+          5.203373407797206e-10,
+          2.644236244133148e-11,
+          1.34369890913227e-12
+        ],
+        "endpoint_residual": 1.34369890913227e-12,
+        "continuous_nonnegative": true,
+        "dense_join_error": 0.0,
+        "physical_ledger_residual": 2.7048185786055964e-10,
+        "physical_ledger_quadrature": 3.5511631484579836e-18,
+        "modified_ledger_residual": 7.814334508181793e-16,
+        "modified_ledger_quadrature": 2.840930518766387e-18,
+        "seconds": 0.014407125068828464
+      },
+      "guard": {
+        "nonnegative": true,
+        "pool": 6.554832256161899e-17
+      },
+      "targets": {
+        "0.0001": {
+          "actual": {
+            "concentration": 0.001955323971293626,
+            "flux": 0.0019553239710038916
+          },
+          "passes": false
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 0.19553239712936263,
+            "flux": 0.19553239710038917
+          },
+          "passes": false
+        }
+      }
+    },
+    {
+      "name": "0.003-0.3-2-newton-1e-10",
+      "h": 0.003,
+      "threshold": 0.3,
+      "order": 2,
+      "iteration": "newton",
+      "tolerance": 1e-10,
+      "active": 14,
+      "groups": [
+        0,
+        1,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        14,
+        15
+      ],
+      "setup_seconds": 0.001314207911491394,
+      "history_rhs_seconds": 6.916699931025505e-05,
+      "status": "success",
+      "seconds": 0.025228791870176792,
+      "stats": {
+        "subflows": 6,
+        "nfev": 276,
+        "njev": 12,
+        "nlu": 36,
+        "endpoint_njev": 1,
+        "endpoint_nlu": 1,
+        "endpoint_solves": 5,
+        "accepted_steps": 18,
+        "pool_error": 3.9499181350535284e-16,
+        "min_rhs": 0.0003784377328409029,
+        "min_internal": 0.00037843839118825923,
+        "iteration_residuals": [
+          3.0011480422783913e-06,
+          2.0343305418069339e-07,
+          1.0238635537582967e-08,
+          5.204329624021533e-10,
+          2.644930160115968e-11,
+          1.3441152587219618e-12
+        ],
+        "endpoint_residual": 1.3441152587219618e-12,
+        "continuous_nonnegative": true,
+        "dense_join_error": 0.0,
+        "physical_ledger_residual": 2.7062775278200194e-10,
+        "physical_ledger_quadrature": 1.775581574228992e-19,
+        "modified_ledger_residual": 4.163738791566986e-17,
+        "modified_ledger_quadrature": 1.4204652593831936e-18,
+        "seconds": 0.025109083158895373
+      },
+      "guard": {
+        "nonnegative": true,
+        "pool": 1.0452854586709825e-16
+      },
+      "targets": {
+        "0.0001": {
+          "actual": {
+            "concentration": 0.001956242955146723,
+            "flux": 0.001956242954882675
+          },
+          "passes": false
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 0.19562429551467234,
+            "flux": 0.19562429548826754
+          },
+          "passes": false
+        }
+      }
+    },
+    {
+      "name": "0.003-0.3-3-fixed-1e-08",
+      "h": 0.003,
+      "threshold": 0.3,
+      "order": 3,
+      "iteration": "fixed",
+      "tolerance": 1e-08,
+      "active": 14,
+      "groups": [
+        0,
+        1,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        14,
+        15
+      ],
+      "setup_seconds": 0.001314207911491394,
+      "history_rhs_seconds": 6.916699931025505e-05,
+      "status": "failed",
+      "seconds": 6.542075425386429e-06,
+      "reason": "Invalid implicit controls/history",
+      "stats": {}
+    },
+    {
+      "name": "0.003-0.3-3-fixed-1e-10",
+      "h": 0.003,
+      "threshold": 0.3,
+      "order": 3,
+      "iteration": "fixed",
+      "tolerance": 1e-10,
+      "active": 14,
+      "groups": [
+        0,
+        1,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        14,
+        15
+      ],
+      "setup_seconds": 0.001314207911491394,
+      "history_rhs_seconds": 6.916699931025505e-05,
+      "status": "failed",
+      "seconds": 4.292000085115433e-06,
+      "reason": "Invalid implicit controls/history",
+      "stats": {}
+    },
+    {
+      "name": "0.003-0.3-3-newton-1e-08",
+      "h": 0.003,
+      "threshold": 0.3,
+      "order": 3,
+      "iteration": "newton",
+      "tolerance": 1e-08,
+      "active": 14,
+      "groups": [
+        0,
+        1,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        14,
+        15
+      ],
+      "setup_seconds": 0.001314207911491394,
+      "history_rhs_seconds": 6.916699931025505e-05,
+      "status": "failed",
+      "seconds": 3.95788811147213e-06,
+      "reason": "Invalid implicit controls/history",
+      "stats": {}
+    },
+    {
+      "name": "0.003-0.3-3-newton-1e-10",
+      "h": 0.003,
+      "threshold": 0.3,
+      "order": 3,
+      "iteration": "newton",
+      "tolerance": 1e-10,
+      "active": 14,
+      "groups": [
+        0,
+        1,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        14,
+        15
+      ],
+      "setup_seconds": 0.001314207911491394,
+      "history_rhs_seconds": 6.916699931025505e-05,
+      "status": "failed",
+      "seconds": 3.708992153406143e-06,
+      "reason": "Invalid implicit controls/history",
+      "stats": {}
+    },
+    {
+      "name": "0.003-0.3-4-fixed-1e-08",
+      "h": 0.003,
+      "threshold": 0.3,
+      "order": 4,
+      "iteration": "fixed",
+      "tolerance": 1e-08,
+      "active": 14,
+      "groups": [
+        0,
+        1,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        14,
+        15
+      ],
+      "setup_seconds": 0.001314207911491394,
+      "history_rhs_seconds": 6.916699931025505e-05,
+      "status": "failed",
+      "seconds": 2.9169023036956787e-06,
+      "reason": "Invalid implicit controls/history",
+      "stats": {}
+    },
+    {
+      "name": "0.003-0.3-4-fixed-1e-10",
+      "h": 0.003,
+      "threshold": 0.3,
+      "order": 4,
+      "iteration": "fixed",
+      "tolerance": 1e-10,
+      "active": 14,
+      "groups": [
+        0,
+        1,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        14,
+        15
+      ],
+      "setup_seconds": 0.001314207911491394,
+      "history_rhs_seconds": 6.916699931025505e-05,
+      "status": "failed",
+      "seconds": 3.6249402910470963e-06,
+      "reason": "Invalid implicit controls/history",
+      "stats": {}
+    },
+    {
+      "name": "0.003-0.3-4-newton-1e-08",
+      "h": 0.003,
+      "threshold": 0.3,
+      "order": 4,
+      "iteration": "newton",
+      "tolerance": 1e-08,
+      "active": 14,
+      "groups": [
+        0,
+        1,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        14,
+        15
+      ],
+      "setup_seconds": 0.001314207911491394,
+      "history_rhs_seconds": 6.916699931025505e-05,
+      "status": "failed",
+      "seconds": 3.0831433832645416e-06,
+      "reason": "Invalid implicit controls/history",
+      "stats": {}
+    },
+    {
+      "name": "0.003-0.3-4-newton-1e-10",
+      "h": 0.003,
+      "threshold": 0.3,
+      "order": 4,
+      "iteration": "newton",
+      "tolerance": 1e-10,
+      "active": 14,
+      "groups": [
+        0,
+        1,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        14,
+        15
+      ],
+      "setup_seconds": 0.001314207911491394,
+      "history_rhs_seconds": 6.916699931025505e-05,
+      "status": "failed",
+      "seconds": 6.166985258460045e-06,
+      "reason": "Invalid implicit controls/history",
+      "stats": {}
+    },
+    {
+      "name": "0.003-3.0-2-fixed-1e-08",
+      "h": 0.003,
+      "threshold": 3.0,
+      "order": 2,
+      "iteration": "fixed",
+      "tolerance": 1e-08,
+      "active": 9,
+      "groups": [
+        6,
+        7,
+        8,
+        9,
+        14
+      ],
+      "setup_seconds": 0.001268582884222269,
+      "history_rhs_seconds": 6.633298471570015e-05,
+      "status": "failed",
+      "seconds": 0.03263733419589698,
+      "reason": "Implicit endpoint iteration did not converge",
+      "stats": {
+        "subflows": 12,
+        "nfev": 399,
+        "njev": 22,
+        "nlu": 60,
+        "endpoint_njev": 0,
+        "endpoint_nlu": 0,
+        "endpoint_solves": 0,
+        "accepted_steps": 27,
+        "pool_error": 1.9749590675267642e-16,
+        "min_rhs": 0.0003784229489508611,
+        "min_internal": 0.00037842362417947023,
+        "iteration_residuals": [
+          3.7444714013863663e-06,
+          2.4276963826214197e-06,
+          3.1155368322643957e-06,
+          4.118408982255342e-06,
+          5.432757232203334e-06,
+          7.147818316116358e-06,
+          9.685163259716098e-06,
+          1.6534296461727876e-05,
+          2.810135838880958e-05,
+          4.759359086679983e-05,
+          8.038817179479188e-05,
+          0.0001354797398398437
+        ],
+        "seconds": 0.032633166993036866
+      }
+    },
+    {
+      "name": "0.003-3.0-2-fixed-1e-10",
+      "h": 0.003,
+      "threshold": 3.0,
+      "order": 2,
+      "iteration": "fixed",
+      "tolerance": 1e-10,
+      "active": 9,
+      "groups": [
+        6,
+        7,
+        8,
+        9,
+        14
+      ],
+      "setup_seconds": 0.001268582884222269,
+      "history_rhs_seconds": 6.633298471570015e-05,
+      "status": "failed",
+      "seconds": 0.06642433302477002,
+      "reason": "Implicit endpoint iteration did not converge",
+      "stats": {
+        "subflows": 12,
+        "nfev": 1068,
+        "njev": 20,
+        "nlu": 140,
+        "endpoint_njev": 0,
+        "endpoint_nlu": 0,
+        "endpoint_solves": 0,
+        "accepted_steps": 97,
+        "pool_error": 3.9499181350535284e-16,
+        "min_rhs": 0.00037842295050889523,
+        "min_internal": 0.00037842362571785114,
+        "iteration_residuals": [
+          3.744387232306569e-06,
+          2.4274111762118228e-06,
+          3.1144546379179026e-06,
+          4.116296203456683e-06,
+          5.429761278742696e-06,
+          7.143589995124139e-06,
+          9.684453617738301e-06,
+          1.6532878915159396e-05,
+          2.809867102747701e-05,
+          4.75886656523297e-05,
+          8.037935139216227e-05,
+          0.00013546420556286514
+        ],
+        "seconds": 0.06642016698606312
+      }
+    },
+    {
+      "name": "0.003-3.0-2-newton-1e-08",
+      "h": 0.003,
+      "threshold": 3.0,
+      "order": 2,
+      "iteration": "newton",
+      "tolerance": 1e-08,
+      "active": 9,
+      "groups": [
+        6,
+        7,
+        8,
+        9,
+        14
+      ],
+      "setup_seconds": 0.001268582884222269,
+      "history_rhs_seconds": 6.633298471570015e-05,
+      "status": "success",
+      "seconds": 0.024671583203598857,
+      "stats": {
+        "subflows": 9,
+        "nfev": 253,
+        "njev": 16,
+        "nlu": 46,
+        "endpoint_njev": 1,
+        "endpoint_nlu": 1,
+        "endpoint_solves": 8,
+        "accepted_steps": 16,
+        "pool_error": 1.9749590675267642e-16,
+        "min_rhs": 0.00037843773219083045,
+        "min_internal": 0.00037843838723490157,
+        "iteration_residuals": [
+          3.7444714013863663e-06,
+          4.402272585741629e-07,
+          9.284424161038566e-08,
+          1.9563300007162508e-08,
+          4.1253327399196486e-09,
+          8.701407396236364e-10,
+          1.8355402879895755e-10,
+          3.8722274067301583e-11,
+          8.169402737803329e-12
+        ],
+        "endpoint_residual": 8.169402737803329e-12,
+        "continuous_nonnegative": true,
+        "dense_join_error": 1.3868306217344164e-16,
+        "physical_ledger_residual": 4.339838081452215e-10,
+        "physical_ledger_quadrature": 2.663372361343488e-19,
+        "modified_ledger_residual": 1.9504763592905477e-16,
+        "modified_ledger_quadrature": 5.326744722686976e-19,
+        "seconds": 0.02456641593016684
+      },
+      "guard": {
+        "nonnegative": true,
+        "pool": 7.835767364664969e-17
+      },
+      "targets": {
+        "0.0001": {
+          "actual": {
+            "concentration": 0.002270036305322867,
+            "flux": 0.002270036305804557
+          },
+          "passes": false
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 0.2270036305322867,
+            "flux": 0.22700363058045572
+          },
+          "passes": false
+        }
+      }
+    },
+    {
+      "name": "0.003-3.0-2-newton-1e-10",
+      "h": 0.003,
+      "threshold": 3.0,
+      "order": 2,
+      "iteration": "newton",
+      "tolerance": 1e-10,
+      "active": 9,
+      "groups": [
+        6,
+        7,
+        8,
+        9,
+        14
+      ],
+      "setup_seconds": 0.001268582884222269,
+      "history_rhs_seconds": 6.633298471570015e-05,
+      "status": "success",
+      "seconds": 0.04233083385042846,
+      "stats": {
+        "subflows": 9,
+        "nfev": 515,
+        "njev": 18,
+        "nlu": 54,
+        "endpoint_njev": 1,
+        "endpoint_nlu": 1,
+        "endpoint_solves": 8,
+        "accepted_steps": 44,
+        "pool_error": 1.9749590675267642e-16,
+        "min_rhs": 0.000378437732192641,
+        "min_internal": 0.0003784383871572222,
+        "iteration_residuals": [
+          3.744387232306569e-06,
+          4.4073955777423157e-07,
+          9.260818623720465e-08,
+          1.9513692616505638e-08,
+          4.1148929472557015e-09,
+          8.679424979894282e-10,
+          1.8309140733287692e-10,
+          3.86251571517496e-11,
+          8.148344862464229e-12
+        ],
+        "endpoint_residual": 8.148344862464229e-12,
+        "continuous_nonnegative": true,
+        "dense_join_error": 1.6211783152802124e-16,
+        "physical_ledger_residual": 4.339935802359734e-10,
+        "physical_ledger_quadrature": 1.6868024955175424e-18,
+        "modified_ledger_residual": 5.0781633022949174e-17,
+        "modified_ledger_quadrature": 6.214535509801472e-19,
+        "seconds": 0.042191917076706886
+      },
+      "guard": {
+        "nonnegative": true,
+        "pool": 1.3070217733096908e-16
+      },
+      "targets": {
+        "0.0001": {
+          "actual": {
+            "concentration": 0.0022699885817664325,
+            "flux": 0.002269988582980115
+          },
+          "passes": false
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 0.22699885817664328,
+            "flux": 0.22699885829801153
+          },
+          "passes": false
+        }
+      }
+    },
+    {
+      "name": "0.003-3.0-3-fixed-1e-08",
+      "h": 0.003,
+      "threshold": 3.0,
+      "order": 3,
+      "iteration": "fixed",
+      "tolerance": 1e-08,
+      "active": 9,
+      "groups": [
+        6,
+        7,
+        8,
+        9,
+        14
+      ],
+      "setup_seconds": 0.001268582884222269,
+      "history_rhs_seconds": 6.633298471570015e-05,
+      "status": "failed",
+      "seconds": 6.20819628238678e-06,
+      "reason": "Invalid implicit controls/history",
+      "stats": {}
+    },
+    {
+      "name": "0.003-3.0-3-fixed-1e-10",
+      "h": 0.003,
+      "threshold": 3.0,
+      "order": 3,
+      "iteration": "fixed",
+      "tolerance": 1e-10,
+      "active": 9,
+      "groups": [
+        6,
+        7,
+        8,
+        9,
+        14
+      ],
+      "setup_seconds": 0.001268582884222269,
+      "history_rhs_seconds": 6.633298471570015e-05,
+      "status": "failed",
+      "seconds": 4.249857738614082e-06,
+      "reason": "Invalid implicit controls/history",
+      "stats": {}
+    },
+    {
+      "name": "0.003-3.0-3-newton-1e-08",
+      "h": 0.003,
+      "threshold": 3.0,
+      "order": 3,
+      "iteration": "newton",
+      "tolerance": 1e-08,
+      "active": 9,
+      "groups": [
+        6,
+        7,
+        8,
+        9,
+        14
+      ],
+      "setup_seconds": 0.001268582884222269,
+      "history_rhs_seconds": 6.633298471570015e-05,
+      "status": "failed",
+      "seconds": 4.249857738614082e-06,
+      "reason": "Invalid implicit controls/history",
+      "stats": {}
+    },
+    {
+      "name": "0.003-3.0-3-newton-1e-10",
+      "h": 0.003,
+      "threshold": 3.0,
+      "order": 3,
+      "iteration": "newton",
+      "tolerance": 1e-10,
+      "active": 9,
+      "groups": [
+        6,
+        7,
+        8,
+        9,
+        14
+      ],
+      "setup_seconds": 0.001268582884222269,
+      "history_rhs_seconds": 6.633298471570015e-05,
+      "status": "failed",
+      "seconds": 3.4580007195472717e-06,
+      "reason": "Invalid implicit controls/history",
+      "stats": {}
+    },
+    {
+      "name": "0.003-3.0-4-fixed-1e-08",
+      "h": 0.003,
+      "threshold": 3.0,
+      "order": 4,
+      "iteration": "fixed",
+      "tolerance": 1e-08,
+      "active": 9,
+      "groups": [
+        6,
+        7,
+        8,
+        9,
+        14
+      ],
+      "setup_seconds": 0.001268582884222269,
+      "history_rhs_seconds": 6.633298471570015e-05,
+      "status": "failed",
+      "seconds": 3.0419323593378067e-06,
+      "reason": "Invalid implicit controls/history",
+      "stats": {}
+    },
+    {
+      "name": "0.003-3.0-4-fixed-1e-10",
+      "h": 0.003,
+      "threshold": 3.0,
+      "order": 4,
+      "iteration": "fixed",
+      "tolerance": 1e-10,
+      "active": 9,
+      "groups": [
+        6,
+        7,
+        8,
+        9,
+        14
+      ],
+      "setup_seconds": 0.001268582884222269,
+      "history_rhs_seconds": 6.633298471570015e-05,
+      "status": "failed",
+      "seconds": 5.37489540874958e-06,
+      "reason": "Invalid implicit controls/history",
+      "stats": {}
+    },
+    {
+      "name": "0.003-3.0-4-newton-1e-08",
+      "h": 0.003,
+      "threshold": 3.0,
+      "order": 4,
+      "iteration": "newton",
+      "tolerance": 1e-08,
+      "active": 9,
+      "groups": [
+        6,
+        7,
+        8,
+        9,
+        14
+      ],
+      "setup_seconds": 0.001268582884222269,
+      "history_rhs_seconds": 6.633298471570015e-05,
+      "status": "failed",
+      "seconds": 3.3748801797628403e-06,
+      "reason": "Invalid implicit controls/history",
+      "stats": {}
+    },
+    {
+      "name": "0.003-3.0-4-newton-1e-10",
+      "h": 0.003,
+      "threshold": 3.0,
+      "order": 4,
+      "iteration": "newton",
+      "tolerance": 1e-10,
+      "active": 9,
+      "groups": [
+        6,
+        7,
+        8,
+        9,
+        14
+      ],
+      "setup_seconds": 0.001268582884222269,
+      "history_rhs_seconds": 6.633298471570015e-05,
+      "status": "failed",
+      "seconds": 3.250082954764366e-06,
+      "reason": "Invalid implicit controls/history",
+      "stats": {}
+    },
+    {
+      "name": "0.003-10.0-2-fixed-1e-08",
+      "h": 0.003,
+      "threshold": 10.0,
+      "order": 2,
+      "iteration": "fixed",
+      "tolerance": 1e-08,
+      "active": 8,
+      "groups": [
+        6,
+        7,
+        8,
+        14
+      ],
+      "setup_seconds": 0.0012927919160574675,
+      "history_rhs_seconds": 6.858306005597115e-05,
+      "status": "failed",
+      "seconds": 0.06810841686092317,
+      "reason": "Implicit endpoint iteration did not converge",
+      "stats": {
+        "subflows": 12,
+        "nfev": 1054,
+        "njev": 22,
+        "nlu": 186,
+        "endpoint_njev": 0,
+        "endpoint_nlu": 0,
+        "endpoint_solves": 0,
+        "accepted_steps": 101,
+        "pool_error": 3.9499181350535284e-16,
+        "min_rhs": 0.0003710719348049751,
+        "min_internal": 0.0003711257730619401,
+        "iteration_residuals": [
+          3.5432861711985754e-06,
+          2.663575625877988e-06,
+          7.474846115872458e-06,
+          2.3905701884255254e-05,
+          7.768330582637048e-05,
+          0.0002531261547816299,
+          0.000825517789958935,
+          0.0026923855093597716,
+          0.008791829538100692,
+          0.0286171371792855,
+          0.09418240672007494,
+          0.29948147179632906
+        ],
+        "seconds": 0.06810429110191762
+      }
+    },
+    {
+      "name": "0.003-10.0-2-fixed-1e-10",
+      "h": 0.003,
+      "threshold": 10.0,
+      "order": 2,
+      "iteration": "fixed",
+      "tolerance": 1e-10,
+      "active": 8,
+      "groups": [
+        6,
+        7,
+        8,
+        14
+      ],
+      "setup_seconds": 0.0012927919160574675,
+      "history_rhs_seconds": 6.858306005597115e-05,
+      "status": "failed",
+      "seconds": 0.16402604198083282,
+      "reason": "Implicit endpoint iteration did not converge",
+      "stats": {
+        "subflows": 12,
+        "nfev": 2753,
+        "njev": 39,
+        "nlu": 320,
+        "endpoint_njev": 0,
+        "endpoint_nlu": 0,
+        "endpoint_solves": 0,
+        "accepted_steps": 313,
+        "pool_error": 7.899836270107057e-16,
+        "min_rhs": 0.0003710713533382858,
+        "min_internal": 0.00037112519920423463,
+        "iteration_residuals": [
+          3.5432861711985754e-06,
+          2.663557432024108e-06,
+          7.475249933723032e-06,
+          2.3907602588339033e-05,
+          7.768945562143057e-05,
+          0.0002531460163153007,
+          0.0008255825460476332,
+          0.002692596728058234,
+          0.008792519976267685,
+          0.028619379187029524,
+          0.0941898493387631,
+          0.2995045537117999
+        ],
+        "seconds": 0.16402083402499557
+      }
+    },
+    {
+      "name": "0.003-10.0-2-newton-1e-08",
+      "h": 0.003,
+      "threshold": 10.0,
+      "order": 2,
+      "iteration": "newton",
+      "tolerance": 1e-08,
+      "active": 8,
+      "groups": [
+        6,
+        7,
+        8,
+        14
+      ],
+      "setup_seconds": 0.0012927919160574675,
+      "history_rhs_seconds": 6.858306005597115e-05,
+      "status": "failed",
+      "seconds": 0.014823124976828694,
+      "reason": "Implicit endpoint iteration did not converge",
+      "stats": {
+        "subflows": 12,
+        "nfev": 132,
+        "njev": 12,
+        "nlu": 24,
+        "endpoint_njev": 1,
+        "endpoint_nlu": 1,
+        "endpoint_solves": 12,
+        "accepted_steps": 12,
+        "pool_error": 1.9749590675267642e-16,
+        "min_rhs": 0.0003784377241030979,
+        "min_internal": 0.0003784383717817718,
+        "iteration_residuals": [
+          3.5432861711985754e-06,
+          7.235294384455582e-07,
+          4.172979581676395e-07,
+          2.393985047815147e-07,
+          1.3732987530721646e-07,
+          7.878192531211396e-08,
+          4.5195670816955413e-08,
+          2.5928064325183207e-08,
+          1.4874566856004634e-08,
+          8.533336074793379e-09,
+          4.8954594429144e-09,
+          2.8084591365458897e-09
+        ],
+        "seconds": 0.014818000141531229
+      }
+    },
+    {
+      "name": "0.003-10.0-2-newton-1e-10",
+      "h": 0.003,
+      "threshold": 10.0,
+      "order": 2,
+      "iteration": "newton",
+      "tolerance": 1e-10,
+      "active": 8,
+      "groups": [
+        6,
+        7,
+        8,
+        14
+      ],
+      "setup_seconds": 0.0012927919160574675,
+      "history_rhs_seconds": 6.858306005597115e-05,
+      "status": "failed",
+      "seconds": 0.0632266248576343,
+      "reason": "Implicit endpoint iteration did not converge",
+      "stats": {
+        "subflows": 12,
+        "nfev": 975,
+        "njev": 23,
+        "nlu": 152,
+        "endpoint_njev": 1,
+        "endpoint_nlu": 1,
+        "endpoint_solves": 12,
+        "accepted_steps": 69,
+        "pool_error": 1.9749590675267642e-16,
+        "min_rhs": 0.000378437724064405,
+        "min_internal": 0.0003784383717217996,
+        "iteration_residuals": [
+          3.5432861711985754e-06,
+          7.237127166067244e-07,
+          4.175083413831179e-07,
+          2.3957964160002215e-07,
+          1.374684523621402e-07,
+          7.888132034135817e-08,
+          4.526410849146438e-08,
+          2.5973876984404974e-08,
+          1.4904607814151632e-08,
+          8.552727449873121e-09,
+          4.907822007590065e-09,
+          2.81626169144437e-09
+        ],
+        "seconds": 0.0632212080527097
+      }
+    },
+    {
+      "name": "0.003-10.0-3-fixed-1e-08",
+      "h": 0.003,
+      "threshold": 10.0,
+      "order": 3,
+      "iteration": "fixed",
+      "tolerance": 1e-08,
+      "active": 8,
+      "groups": [
+        6,
+        7,
+        8,
+        14
+      ],
+      "setup_seconds": 0.0012927919160574675,
+      "history_rhs_seconds": 6.858306005597115e-05,
+      "status": "failed",
+      "seconds": 5.20818866789341e-06,
+      "reason": "Invalid implicit controls/history",
+      "stats": {}
+    },
+    {
+      "name": "0.003-10.0-3-fixed-1e-10",
+      "h": 0.003,
+      "threshold": 10.0,
+      "order": 3,
+      "iteration": "fixed",
+      "tolerance": 1e-10,
+      "active": 8,
+      "groups": [
+        6,
+        7,
+        8,
+        14
+      ],
+      "setup_seconds": 0.0012927919160574675,
+      "history_rhs_seconds": 6.858306005597115e-05,
+      "status": "failed",
+      "seconds": 4.00003045797348e-06,
+      "reason": "Invalid implicit controls/history",
+      "stats": {}
+    },
+    {
+      "name": "0.003-10.0-3-newton-1e-08",
+      "h": 0.003,
+      "threshold": 10.0,
+      "order": 3,
+      "iteration": "newton",
+      "tolerance": 1e-08,
+      "active": 8,
+      "groups": [
+        6,
+        7,
+        8,
+        14
+      ],
+      "setup_seconds": 0.0012927919160574675,
+      "history_rhs_seconds": 6.858306005597115e-05,
+      "status": "failed",
+      "seconds": 3.5830307751893997e-06,
+      "reason": "Invalid implicit controls/history",
+      "stats": {}
+    },
+    {
+      "name": "0.003-10.0-3-newton-1e-10",
+      "h": 0.003,
+      "threshold": 10.0,
+      "order": 3,
+      "iteration": "newton",
+      "tolerance": 1e-10,
+      "active": 8,
+      "groups": [
+        6,
+        7,
+        8,
+        14
+      ],
+      "setup_seconds": 0.0012927919160574675,
+      "history_rhs_seconds": 6.858306005597115e-05,
+      "status": "failed",
+      "seconds": 2.959044650197029e-06,
+      "reason": "Invalid implicit controls/history",
+      "stats": {}
+    },
+    {
+      "name": "0.003-10.0-4-fixed-1e-08",
+      "h": 0.003,
+      "threshold": 10.0,
+      "order": 4,
+      "iteration": "fixed",
+      "tolerance": 1e-08,
+      "active": 8,
+      "groups": [
+        6,
+        7,
+        8,
+        14
+      ],
+      "setup_seconds": 0.0012927919160574675,
+      "history_rhs_seconds": 6.858306005597115e-05,
+      "status": "failed",
+      "seconds": 2.8330832719802856e-06,
+      "reason": "Invalid implicit controls/history",
+      "stats": {}
+    },
+    {
+      "name": "0.003-10.0-4-fixed-1e-10",
+      "h": 0.003,
+      "threshold": 10.0,
+      "order": 4,
+      "iteration": "fixed",
+      "tolerance": 1e-10,
+      "active": 8,
+      "groups": [
+        6,
+        7,
+        8,
+        14
+      ],
+      "setup_seconds": 0.0012927919160574675,
+      "history_rhs_seconds": 6.858306005597115e-05,
+      "status": "failed",
+      "seconds": 3.2498501241207123e-06,
+      "reason": "Invalid implicit controls/history",
+      "stats": {}
+    },
+    {
+      "name": "0.003-10.0-4-newton-1e-08",
+      "h": 0.003,
+      "threshold": 10.0,
+      "order": 4,
+      "iteration": "newton",
+      "tolerance": 1e-08,
+      "active": 8,
+      "groups": [
+        6,
+        7,
+        8,
+        14
+      ],
+      "setup_seconds": 0.0012927919160574675,
+      "history_rhs_seconds": 6.858306005597115e-05,
+      "status": "failed",
+      "seconds": 2.7918722480535507e-06,
+      "reason": "Invalid implicit controls/history",
+      "stats": {}
+    },
+    {
+      "name": "0.003-10.0-4-newton-1e-10",
+      "h": 0.003,
+      "threshold": 10.0,
+      "order": 4,
+      "iteration": "newton",
+      "tolerance": 1e-10,
+      "active": 8,
+      "groups": [
+        6,
+        7,
+        8,
+        14
+      ],
+      "setup_seconds": 0.0012927919160574675,
+      "history_rhs_seconds": 6.858306005597115e-05,
+      "status": "failed",
+      "seconds": 2.874992787837982e-06,
+      "reason": "Invalid implicit controls/history",
+      "stats": {}
+    },
+    {
+      "name": "0.01-0.3-2-fixed-1e-08",
+      "h": 0.01,
+      "threshold": 0.3,
+      "order": 2,
+      "iteration": "fixed",
+      "tolerance": 1e-08,
+      "active": 14,
+      "groups": [
+        0,
+        1,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        14,
+        15
+      ],
+      "setup_seconds": 0.0012135000433772802,
+      "history_rhs_seconds": 6.849993951618671e-05,
+      "status": "failed",
+      "seconds": 0.040527458069846034,
+      "reason": "Implicit endpoint iteration did not converge",
+      "stats": {
+        "subflows": 12,
+        "nfev": 516,
+        "njev": 25,
+        "nlu": 74,
+        "endpoint_njev": 0,
+        "endpoint_nlu": 0,
+        "endpoint_solves": 0,
+        "accepted_steps": 36,
+        "pool_error": 1.9749590675267642e-16,
+        "min_rhs": 0.00037401752946580446,
+        "min_internal": 0.00037402383462713885,
+        "iteration_residuals": [
+          3.440414452525594e-05,
+          3.864407928187432e-05,
+          1.3622213093561339e-05,
+          4.657226065631453e-06,
+          1.600328022483443e-06,
+          5.516172749325764e-07,
+          1.9037457738348414e-07,
+          6.573367777357246e-08,
+          2.270109651692615e-08,
+          7.8403739124111e-09,
+          2.7079392579711684e-09,
+          9.35288273416632e-10
+        ],
+        "seconds": 0.04052083380520344
+      }
+    },
+    {
+      "name": "0.01-0.3-2-fixed-1e-10",
+      "h": 0.01,
+      "threshold": 0.3,
+      "order": 2,
+      "iteration": "fixed",
+      "tolerance": 1e-10,
+      "active": 14,
+      "groups": [
+        0,
+        1,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        14,
+        15
+      ],
+      "setup_seconds": 0.0012135000433772802,
+      "history_rhs_seconds": 6.849993951618671e-05,
+      "status": "failed",
+      "seconds": 0.08053925004787743,
+      "reason": "Implicit endpoint iteration did not converge",
+      "stats": {
+        "subflows": 12,
+        "nfev": 1256,
+        "njev": 23,
+        "nlu": 104,
+        "endpoint_njev": 0,
+        "endpoint_nlu": 0,
+        "endpoint_solves": 0,
+        "accepted_steps": 109,
+        "pool_error": 3.9499181350535284e-16,
+        "min_rhs": 0.0003740175294664776,
+        "min_internal": 0.0003740238346295356,
+        "iteration_residuals": [
+          3.4404169728960925e-05,
+          3.864408997095612e-05,
+          1.3622213314920536e-05,
+          4.657224247710361e-06,
+          1.600326699324447e-06,
+          5.51616549512808e-07,
+          1.9037422529051446e-07,
+          6.573352552840582e-08,
+          2.2701033925704497e-08,
+          7.840348376302931e-09,
+          2.7079287104482298e-09,
+          9.352854977527006e-10
+        ],
+        "seconds": 0.08053304185159504
+      }
+    },
+    {
+      "name": "0.01-0.3-2-newton-1e-08",
+      "h": 0.01,
+      "threshold": 0.3,
+      "order": 2,
+      "iteration": "newton",
+      "tolerance": 1e-08,
+      "active": 14,
+      "groups": [
+        0,
+        1,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        14,
+        15
+      ],
+      "setup_seconds": 0.0012135000433772802,
+      "history_rhs_seconds": 6.849993951618671e-05,
+      "status": "success",
+      "seconds": 0.033738458063453436,
+      "stats": {
+        "subflows": 9,
+        "nfev": 387,
+        "njev": 19,
+        "nlu": 56,
+        "endpoint_njev": 1,
+        "endpoint_nlu": 1,
+        "endpoint_solves": 8,
+        "accepted_steps": 27,
+        "pool_error": 1.9749590675267642e-16,
+        "min_rhs": 0.00037401753016225457,
+        "min_internal": 0.00037402383512410563,
+        "iteration_residuals": [
+          3.440414452525594e-05,
+          1.752649985975584e-05,
+          1.7194117033004517e-06,
+          1.7804837860393934e-07,
+          1.8192302614411517e-08,
+          1.8738189386545877e-09,
+          3.177653324563799e-10,
+          4.610532270262285e-11,
+          7.5711244132347e-12
+        ],
+        "endpoint_residual": 7.5711244132347e-12,
+        "continuous_nonnegative": true,
+        "dense_join_error": 6.167905692361981e-17,
+        "physical_ledger_residual": 6.3624289476781e-09,
+        "physical_ledger_quadrature": 3.5598651268324633e-19,
+        "modified_ledger_residual": 9.287332129393213e-15,
+        "modified_ledger_quadrature": 5.339797690248695e-18,
+        "seconds": 0.033623124938458204
+      },
+      "guard": {
+        "nonnegative": true,
+        "pool": 1.0089469742978955e-16
+      },
+      "targets": {
+        "0.0001": {
+          "actual": {
+            "concentration": 0.04827536701739018,
+            "flux": 0.048275367016784365
+          },
+          "passes": false
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 4.827536701739018,
+            "flux": 4.827536701678437
+          },
+          "passes": false
+        }
+      }
+    },
+    {
+      "name": "0.01-0.3-2-newton-1e-10",
+      "h": 0.01,
+      "threshold": 0.3,
+      "order": 2,
+      "iteration": "newton",
+      "tolerance": 1e-10,
+      "active": 14,
+      "groups": [
+        0,
+        1,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        14,
+        15
+      ],
+      "setup_seconds": 0.0012135000433772802,
+      "history_rhs_seconds": 6.849993951618671e-05,
+      "status": "success",
+      "seconds": 0.07100812485441566,
+      "stats": {
+        "subflows": 9,
+        "nfev": 940,
+        "njev": 17,
+        "nlu": 78,
+        "endpoint_njev": 1,
+        "endpoint_nlu": 1,
+        "endpoint_solves": 8,
+        "accepted_steps": 81,
+        "pool_error": 3.9499181350535284e-16,
+        "min_rhs": 0.00037401753016306875,
+        "min_internal": 0.0003740238351265972,
+        "iteration_residuals": [
+          3.4404169728960925e-05,
+          1.7526492259016513e-05,
+          1.71940948290809e-06,
+          1.7804782777343218e-07,
+          1.8192219760843168e-08,
+          1.8738078359988625e-09,
+          3.177798941779081e-10,
+          4.6108789779177184e-11,
+          7.571679145483395e-12
+        ],
+        "endpoint_residual": 7.571679145483395e-12,
+        "continuous_nonnegative": true,
+        "dense_join_error": 0.0,
+        "physical_ledger_residual": 6.3626936774042435e-09,
+        "physical_ledger_quadrature": 2.4919055887827244e-18,
+        "modified_ledger_residual": 1.181875222108378e-16,
+        "modified_ledger_quadrature": 2.1359190760994778e-18,
+        "seconds": 0.07078474992886186
+      },
+      "guard": {
+        "nonnegative": true,
+        "pool": 1.7838987645245644e-16
+      },
+      "targets": {
+        "0.0001": {
+          "actual": {
+            "concentration": 0.0482722588193013,
+            "flux": 0.048272258819735674
+          },
+          "passes": false
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 4.82722588193013,
+            "flux": 4.827225881973567
+          },
+          "passes": false
+        }
+      }
+    },
+    {
+      "name": "0.01-0.3-3-fixed-1e-08",
+      "h": 0.01,
+      "threshold": 0.3,
+      "order": 3,
+      "iteration": "fixed",
+      "tolerance": 1e-08,
+      "active": 14,
+      "groups": [
+        0,
+        1,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        14,
+        15
+      ],
+      "setup_seconds": 0.0012135000433772802,
+      "history_rhs_seconds": 6.849993951618671e-05,
+      "status": "failed",
+      "seconds": 9.458046406507492e-06,
+      "reason": "Invalid implicit controls/history",
+      "stats": {}
+    },
+    {
+      "name": "0.01-0.3-3-fixed-1e-10",
+      "h": 0.01,
+      "threshold": 0.3,
+      "order": 3,
+      "iteration": "fixed",
+      "tolerance": 1e-10,
+      "active": 14,
+      "groups": [
+        0,
+        1,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        14,
+        15
+      ],
+      "setup_seconds": 0.0012135000433772802,
+      "history_rhs_seconds": 6.849993951618671e-05,
+      "status": "failed",
+      "seconds": 4.583969712257385e-06,
+      "reason": "Invalid implicit controls/history",
+      "stats": {}
+    },
+    {
+      "name": "0.01-0.3-3-newton-1e-08",
+      "h": 0.01,
+      "threshold": 0.3,
+      "order": 3,
+      "iteration": "newton",
+      "tolerance": 1e-08,
+      "active": 14,
+      "groups": [
+        0,
+        1,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        14,
+        15
+      ],
+      "setup_seconds": 0.0012135000433772802,
+      "history_rhs_seconds": 6.849993951618671e-05,
+      "status": "failed",
+      "seconds": 3.7918798625469208e-06,
+      "reason": "Invalid implicit controls/history",
+      "stats": {}
+    },
+    {
+      "name": "0.01-0.3-3-newton-1e-10",
+      "h": 0.01,
+      "threshold": 0.3,
+      "order": 3,
+      "iteration": "newton",
+      "tolerance": 1e-10,
+      "active": 14,
+      "groups": [
+        0,
+        1,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        14,
+        15
+      ],
+      "setup_seconds": 0.0012135000433772802,
+      "history_rhs_seconds": 6.849993951618671e-05,
+      "status": "failed",
+      "seconds": 3.583962097764015e-06,
+      "reason": "Invalid implicit controls/history",
+      "stats": {}
+    },
+    {
+      "name": "0.01-0.3-4-fixed-1e-08",
+      "h": 0.01,
+      "threshold": 0.3,
+      "order": 4,
+      "iteration": "fixed",
+      "tolerance": 1e-08,
+      "active": 14,
+      "groups": [
+        0,
+        1,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        14,
+        15
+      ],
+      "setup_seconds": 0.0012135000433772802,
+      "history_rhs_seconds": 6.849993951618671e-05,
+      "status": "failed",
+      "seconds": 3.0419323593378067e-06,
+      "reason": "Invalid implicit controls/history",
+      "stats": {}
+    },
+    {
+      "name": "0.01-0.3-4-fixed-1e-10",
+      "h": 0.01,
+      "threshold": 0.3,
+      "order": 4,
+      "iteration": "fixed",
+      "tolerance": 1e-10,
+      "active": 14,
+      "groups": [
+        0,
+        1,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        14,
+        15
+      ],
+      "setup_seconds": 0.0012135000433772802,
+      "history_rhs_seconds": 6.849993951618671e-05,
+      "status": "failed",
+      "seconds": 3.459164872765541e-06,
+      "reason": "Invalid implicit controls/history",
+      "stats": {}
+    },
+    {
+      "name": "0.01-0.3-4-newton-1e-08",
+      "h": 0.01,
+      "threshold": 0.3,
+      "order": 4,
+      "iteration": "newton",
+      "tolerance": 1e-08,
+      "active": 14,
+      "groups": [
+        0,
+        1,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        14,
+        15
+      ],
+      "setup_seconds": 0.0012135000433772802,
+      "history_rhs_seconds": 6.849993951618671e-05,
+      "status": "failed",
+      "seconds": 3.4580007195472717e-06,
+      "reason": "Invalid implicit controls/history",
+      "stats": {}
+    },
+    {
+      "name": "0.01-0.3-4-newton-1e-10",
+      "h": 0.01,
+      "threshold": 0.3,
+      "order": 4,
+      "iteration": "newton",
+      "tolerance": 1e-10,
+      "active": 14,
+      "groups": [
+        0,
+        1,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        14,
+        15
+      ],
+      "setup_seconds": 0.0012135000433772802,
+      "history_rhs_seconds": 6.849993951618671e-05,
+      "status": "failed",
+      "seconds": 3.375113010406494e-06,
+      "reason": "Invalid implicit controls/history",
+      "stats": {}
+    },
+    {
+      "name": "0.01-3.0-2-fixed-1e-08",
+      "h": 0.01,
+      "threshold": 3.0,
+      "order": 2,
+      "iteration": "fixed",
+      "tolerance": 1e-08,
+      "active": 9,
+      "groups": [
+        6,
+        7,
+        8,
+        9,
+        14
+      ],
+      "setup_seconds": 0.0016340839210897684,
+      "history_rhs_seconds": 7.499987259507179e-05,
+      "status": "failed",
+      "seconds": 0.06656666588969529,
+      "reason": "Invalid implicit state; no clipping",
+      "stats": {
+        "subflows": 8,
+        "nfev": 935,
+        "njev": 16,
+        "nlu": 120,
+        "endpoint_njev": 0,
+        "endpoint_nlu": 0,
+        "endpoint_solves": 0,
+        "accepted_steps": 96,
+        "pool_error": 3.9499181350535284e-16,
+        "min_rhs": 0.0003660197855164883,
+        "min_internal": 0.0003661107352131963,
+        "iteration_residuals": [
+          5.0403967590770593e-05,
+          8.913006096844204e-05,
+          0.0002852659058918647,
+          0.0016387617505089053,
+          0.009298157354814965,
+          0.0518107272602871,
+          0.30530308909832976
+        ],
+        "seconds": 0.06656104186549783
+      }
+    },
+    {
+      "name": "0.01-3.0-2-fixed-1e-10",
+      "h": 0.01,
+      "threshold": 3.0,
+      "order": 2,
+      "iteration": "fixed",
+      "tolerance": 1e-10,
+      "active": 9,
+      "groups": [
+        6,
+        7,
+        8,
+        9,
+        14
+      ],
+      "setup_seconds": 0.0016340839210897684,
+      "history_rhs_seconds": 7.499987259507179e-05,
+      "status": "failed",
+      "seconds": 0.15328391594812274,
+      "reason": "Invalid implicit state; no clipping",
+      "stats": {
+        "subflows": 8,
+        "nfev": 2574,
+        "njev": 22,
+        "nlu": 200,
+        "endpoint_njev": 0,
+        "endpoint_nlu": 0,
+        "endpoint_solves": 0,
+        "accepted_steps": 307,
+        "pool_error": 7.899836270107057e-16,
+        "min_rhs": 0.0003660197873049188,
+        "min_internal": 0.0003661107369919373,
+        "iteration_residuals": [
+          5.040396839468005e-05,
+          8.913003853644005e-05,
+          0.000285265888943012,
+          0.0016387616362430728,
+          0.009298156615202294,
+          0.0518107228443874,
+          0.30530306071998725
+        ],
+        "seconds": 0.15327699994668365
+      }
+    },
+    {
+      "name": "0.01-3.0-2-newton-1e-08",
+      "h": 0.01,
+      "threshold": 3.0,
+      "order": 2,
+      "iteration": "newton",
+      "tolerance": 1e-08,
+      "active": 9,
+      "groups": [
+        6,
+        7,
+        8,
+        9,
+        14
+      ],
+      "setup_seconds": 0.0016340839210897684,
+      "history_rhs_seconds": 7.499987259507179e-05,
+      "status": "failed",
+      "seconds": 0.044485332909971476,
+      "reason": "Implicit endpoint iteration did not converge",
+      "stats": {
+        "subflows": 12,
+        "nfev": 702,
+        "njev": 12,
+        "nlu": 112,
+        "endpoint_njev": 1,
+        "endpoint_nlu": 1,
+        "endpoint_solves": 12,
+        "accepted_steps": 57,
+        "pool_error": 3.9499181350535284e-16,
+        "min_rhs": 0.0003740180633605544,
+        "min_internal": 0.00037402415688400783,
+        "iteration_residuals": [
+          5.0403967590770593e-05,
+          1.764345220535434e-05,
+          8.152244179273312e-06,
+          3.686485038813009e-06,
+          1.6478229679257144e-06,
+          7.323963927815906e-07,
+          3.246993118538246e-07,
+          1.438242848574572e-07,
+          6.370346557517959e-08,
+          2.822576001061664e-08,
+          1.2512608027340048e-08,
+          5.549874291431018e-09
+        ],
+        "seconds": 0.044479832984507084
+      }
+    },
+    {
+      "name": "0.01-3.0-2-newton-1e-10",
+      "h": 0.01,
+      "threshold": 3.0,
+      "order": 2,
+      "iteration": "newton",
+      "tolerance": 1e-10,
+      "active": 9,
+      "groups": [
+        6,
+        7,
+        8,
+        9,
+        14
+      ],
+      "setup_seconds": 0.0016340839210897684,
+      "history_rhs_seconds": 7.499987259507179e-05,
+      "status": "failed",
+      "seconds": 0.10263587487861514,
+      "reason": "Implicit endpoint iteration did not converge",
+      "stats": {
+        "subflows": 12,
+        "nfev": 1697,
+        "njev": 23,
+        "nlu": 188,
+        "endpoint_njev": 1,
+        "endpoint_nlu": 1,
+        "endpoint_solves": 12,
+        "accepted_steps": 168,
+        "pool_error": 1.9749590675267642e-16,
+        "min_rhs": 0.00037401806336183466,
+        "min_internal": 0.00037402415688757,
+        "iteration_residuals": [
+          5.040396839468005e-05,
+          1.7643492418225157e-05,
+          8.152252446695446e-06,
+          3.6864852229691426e-06,
+          1.6478211475225292e-06,
+          7.323947693196776e-07,
+          3.2469824050934787e-07,
+          1.4382364615204304e-07,
+          6.370311666624034e-08,
+          2.8225577158065776e-08,
+          1.2512514069105797e-08,
+          5.549828615896651e-09
+        ],
+        "seconds": 0.10263033304363489
+      }
+    },
+    {
+      "name": "0.01-3.0-3-fixed-1e-08",
+      "h": 0.01,
+      "threshold": 3.0,
+      "order": 3,
+      "iteration": "fixed",
+      "tolerance": 1e-08,
+      "active": 9,
+      "groups": [
+        6,
+        7,
+        8,
+        9,
+        14
+      ],
+      "setup_seconds": 0.0016340839210897684,
+      "history_rhs_seconds": 7.499987259507179e-05,
+      "status": "failed",
+      "seconds": 5.58304600417614e-06,
+      "reason": "Invalid implicit controls/history",
+      "stats": {}
+    },
+    {
+      "name": "0.01-3.0-3-fixed-1e-10",
+      "h": 0.01,
+      "threshold": 3.0,
+      "order": 3,
+      "iteration": "fixed",
+      "tolerance": 1e-10,
+      "active": 9,
+      "groups": [
+        6,
+        7,
+        8,
+        9,
+        14
+      ],
+      "setup_seconds": 0.0016340839210897684,
+      "history_rhs_seconds": 7.499987259507179e-05,
+      "status": "failed",
+      "seconds": 4.084082320332527e-06,
+      "reason": "Invalid implicit controls/history",
+      "stats": {}
+    },
+    {
+      "name": "0.01-3.0-3-newton-1e-08",
+      "h": 0.01,
+      "threshold": 3.0,
+      "order": 3,
+      "iteration": "newton",
+      "tolerance": 1e-08,
+      "active": 9,
+      "groups": [
+        6,
+        7,
+        8,
+        9,
+        14
+      ],
+      "setup_seconds": 0.0016340839210897684,
+      "history_rhs_seconds": 7.499987259507179e-05,
+      "status": "failed",
+      "seconds": 3.250082954764366e-06,
+      "reason": "Invalid implicit controls/history",
+      "stats": {}
+    },
+    {
+      "name": "0.01-3.0-3-newton-1e-10",
+      "h": 0.01,
+      "threshold": 3.0,
+      "order": 3,
+      "iteration": "newton",
+      "tolerance": 1e-10,
+      "active": 9,
+      "groups": [
+        6,
+        7,
+        8,
+        9,
+        14
+      ],
+      "setup_seconds": 0.0016340839210897684,
+      "history_rhs_seconds": 7.499987259507179e-05,
+      "status": "failed",
+      "seconds": 3.2081734389066696e-06,
+      "reason": "Invalid implicit controls/history",
+      "stats": {}
+    },
+    {
+      "name": "0.01-3.0-4-fixed-1e-08",
+      "h": 0.01,
+      "threshold": 3.0,
+      "order": 4,
+      "iteration": "fixed",
+      "tolerance": 1e-08,
+      "active": 9,
+      "groups": [
+        6,
+        7,
+        8,
+        9,
+        14
+      ],
+      "setup_seconds": 0.0016340839210897684,
+      "history_rhs_seconds": 7.499987259507179e-05,
+      "status": "failed",
+      "seconds": 2.7080532163381577e-06,
+      "reason": "Invalid implicit controls/history",
+      "stats": {}
+    },
+    {
+      "name": "0.01-3.0-4-fixed-1e-10",
+      "h": 0.01,
+      "threshold": 3.0,
+      "order": 4,
+      "iteration": "fixed",
+      "tolerance": 1e-10,
+      "active": 9,
+      "groups": [
+        6,
+        7,
+        8,
+        9,
+        14
+      ],
+      "setup_seconds": 0.0016340839210897684,
+      "history_rhs_seconds": 7.499987259507179e-05,
+      "status": "failed",
+      "seconds": 3.0829105526208878e-06,
+      "reason": "Invalid implicit controls/history",
+      "stats": {}
+    },
+    {
+      "name": "0.01-3.0-4-newton-1e-08",
+      "h": 0.01,
+      "threshold": 3.0,
+      "order": 4,
+      "iteration": "newton",
+      "tolerance": 1e-08,
+      "active": 9,
+      "groups": [
+        6,
+        7,
+        8,
+        9,
+        14
+      ],
+      "setup_seconds": 0.0016340839210897684,
+      "history_rhs_seconds": 7.499987259507179e-05,
+      "status": "failed",
+      "seconds": 2.874992787837982e-06,
+      "reason": "Invalid implicit controls/history",
+      "stats": {}
+    },
+    {
+      "name": "0.01-3.0-4-newton-1e-10",
+      "h": 0.01,
+      "threshold": 3.0,
+      "order": 4,
+      "iteration": "newton",
+      "tolerance": 1e-10,
+      "active": 9,
+      "groups": [
+        6,
+        7,
+        8,
+        9,
+        14
+      ],
+      "setup_seconds": 0.0016340839210897684,
+      "history_rhs_seconds": 7.499987259507179e-05,
+      "status": "failed",
+      "seconds": 3.125052899122238e-06,
+      "reason": "Invalid implicit controls/history",
+      "stats": {}
+    },
+    {
+      "name": "0.01-10.0-2-fixed-1e-08",
+      "h": 0.01,
+      "threshold": 10.0,
+      "order": 2,
+      "iteration": "fixed",
+      "tolerance": 1e-08,
+      "active": 8,
+      "groups": [
+        6,
+        7,
+        8,
+        14
+      ],
+      "setup_seconds": 0.0012871248181909323,
+      "history_rhs_seconds": 6.866711191833019e-05,
+      "status": "failed",
+      "seconds": 0.037647166987881064,
+      "reason": "Invalid implicit state; no clipping",
+      "stats": {
+        "subflows": 6,
+        "nfev": 578,
+        "njev": 10,
+        "nlu": 92,
+        "endpoint_njev": 0,
+        "endpoint_nlu": 0,
+        "endpoint_solves": 0,
+        "accepted_steps": 56,
+        "pool_error": 3.9499181350535284e-16,
+        "min_rhs": 0.00034761785032506605,
+        "min_internal": 0.00034833135597349017,
+        "iteration_residuals": [
+          5.47167042101458e-05,
+          0.0002560815379218414,
+          0.0026194189380845346,
+          0.02768378719937472,
+          0.2981041759664833
+        ],
+        "seconds": 0.03764395788311958
+      }
+    },
+    {
+      "name": "0.01-10.0-2-fixed-1e-10",
+      "h": 0.01,
+      "threshold": 10.0,
+      "order": 2,
+      "iteration": "fixed",
+      "tolerance": 1e-10,
+      "active": 8,
+      "groups": [
+        6,
+        7,
+        8,
+        14
+      ],
+      "setup_seconds": 0.0012871248181909323,
+      "history_rhs_seconds": 6.866711191833019e-05,
+      "status": "failed",
+      "seconds": 0.08814537501893938,
+      "reason": "Invalid implicit state; no clipping",
+      "stats": {
+        "subflows": 6,
+        "nfev": 1497,
+        "njev": 13,
+        "nlu": 148,
+        "endpoint_njev": 0,
+        "endpoint_nlu": 0,
+        "endpoint_solves": 0,
+        "accepted_steps": 174,
+        "pool_error": 5.924877202580293e-16,
+        "min_rhs": 0.0003476178646446629,
+        "min_internal": 0.0003483313695821599,
+        "iteration_residuals": [
+          5.47167042101458e-05,
+          0.0002560813927271392,
+          0.0026194174654244847,
+          0.027683772065416893,
+          0.298104011705938
+        ],
+        "seconds": 0.0881406250409782
+      }
+    },
+    {
+      "name": "0.01-10.0-2-newton-1e-08",
+      "h": 0.01,
+      "threshold": 10.0,
+      "order": 2,
+      "iteration": "newton",
+      "tolerance": 1e-08,
+      "active": 8,
+      "groups": [
+        6,
+        7,
+        8,
+        14
+      ],
+      "setup_seconds": 0.0012871248181909323,
+      "history_rhs_seconds": 6.866711191833019e-05,
+      "status": "failed",
+      "seconds": 0.0381995839998126,
+      "reason": "Implicit endpoint iteration did not converge",
+      "stats": {
+        "subflows": 12,
+        "nfev": 537,
+        "njev": 14,
+        "nlu": 74,
+        "endpoint_njev": 1,
+        "endpoint_nlu": 1,
+        "endpoint_solves": 12,
+        "accepted_steps": 47,
+        "pool_error": 1.9749590675267642e-16,
+        "min_rhs": 0.0003740181469542783,
+        "min_internal": 0.0003740240900339807,
+        "iteration_residuals": [
+          5.47167042101458e-05,
+          1.566151125448103e-05,
+          1.2306592660794407e-05,
+          9.31797488051602e-06,
+          6.993403018663857e-06,
+          5.237320087915036e-06,
+          3.9207669763619e-06,
+          2.9353258433270635e-06,
+          2.1977910219170282e-06,
+          1.6456947597489244e-06,
+          1.2323433895451246e-06,
+          9.228367215073179e-07
+        ],
+        "seconds": 0.03819387499243021
+      }
+    },
+    {
+      "name": "0.01-10.0-2-newton-1e-10",
+      "h": 0.01,
+      "threshold": 10.0,
+      "order": 2,
+      "iteration": "newton",
+      "tolerance": 1e-10,
+      "active": 8,
+      "groups": [
+        6,
+        7,
+        8,
+        14
+      ],
+      "setup_seconds": 0.0012871248181909323,
+      "history_rhs_seconds": 6.866711191833019e-05,
+      "status": "failed",
+      "seconds": 0.1070381251629442,
+      "reason": "Implicit endpoint iteration did not converge",
+      "stats": {
+        "subflows": 12,
+        "nfev": 1828,
+        "njev": 21,
+        "nlu": 238,
+        "endpoint_njev": 1,
+        "endpoint_nlu": 1,
+        "endpoint_solves": 12,
+        "accepted_steps": 168,
+        "pool_error": 3.9499181350535284e-16,
+        "min_rhs": 0.00037401814695588333,
+        "min_internal": 0.0003740240900543216,
+        "iteration_residuals": [
+          5.47167042101458e-05,
+          1.5661543399832223e-05,
+          1.2306616598301475e-05,
+          9.317992335419283e-06,
+          6.993415769343999e-06,
+          5.237329438652813e-06,
+          3.920773847775061e-06,
+          2.9353309027059056e-06,
+          2.1977947475248136e-06,
+          1.6456975036766945e-06,
+          1.2323454098619089e-06,
+          9.22838208801402e-07
+        ],
+        "seconds": 0.10703283292241395
+      }
+    },
+    {
+      "name": "0.01-10.0-3-fixed-1e-08",
+      "h": 0.01,
+      "threshold": 10.0,
+      "order": 3,
+      "iteration": "fixed",
+      "tolerance": 1e-08,
+      "active": 8,
+      "groups": [
+        6,
+        7,
+        8,
+        14
+      ],
+      "setup_seconds": 0.0012871248181909323,
+      "history_rhs_seconds": 6.866711191833019e-05,
+      "status": "failed",
+      "seconds": 5.124835297465324e-06,
+      "reason": "Invalid implicit controls/history",
+      "stats": {}
+    },
+    {
+      "name": "0.01-10.0-3-fixed-1e-10",
+      "h": 0.01,
+      "threshold": 10.0,
+      "order": 3,
+      "iteration": "fixed",
+      "tolerance": 1e-10,
+      "active": 8,
+      "groups": [
+        6,
+        7,
+        8,
+        14
+      ],
+      "setup_seconds": 0.0012871248181909323,
+      "history_rhs_seconds": 6.866711191833019e-05,
+      "status": "failed",
+      "seconds": 3.959052264690399e-06,
+      "reason": "Invalid implicit controls/history",
+      "stats": {}
+    },
+    {
+      "name": "0.01-10.0-3-newton-1e-08",
+      "h": 0.01,
+      "threshold": 10.0,
+      "order": 3,
+      "iteration": "newton",
+      "tolerance": 1e-08,
+      "active": 8,
+      "groups": [
+        6,
+        7,
+        8,
+        14
+      ],
+      "setup_seconds": 0.0012871248181909323,
+      "history_rhs_seconds": 6.866711191833019e-05,
+      "status": "failed",
+      "seconds": 3.583962097764015e-06,
+      "reason": "Invalid implicit controls/history",
+      "stats": {}
+    },
+    {
+      "name": "0.01-10.0-3-newton-1e-10",
+      "h": 0.01,
+      "threshold": 10.0,
+      "order": 3,
+      "iteration": "newton",
+      "tolerance": 1e-10,
+      "active": 8,
+      "groups": [
+        6,
+        7,
+        8,
+        14
+      ],
+      "setup_seconds": 0.0012871248181909323,
+      "history_rhs_seconds": 6.866711191833019e-05,
+      "status": "failed",
+      "seconds": 3.2088719308376312e-06,
+      "reason": "Invalid implicit controls/history",
+      "stats": {}
+    },
+    {
+      "name": "0.01-10.0-4-fixed-1e-08",
+      "h": 0.01,
+      "threshold": 10.0,
+      "order": 4,
+      "iteration": "fixed",
+      "tolerance": 1e-08,
+      "active": 8,
+      "groups": [
+        6,
+        7,
+        8,
+        14
+      ],
+      "setup_seconds": 0.0012871248181909323,
+      "history_rhs_seconds": 6.866711191833019e-05,
+      "status": "failed",
+      "seconds": 2.834014594554901e-06,
+      "reason": "Invalid implicit controls/history",
+      "stats": {}
+    },
+    {
+      "name": "0.01-10.0-4-fixed-1e-10",
+      "h": 0.01,
+      "threshold": 10.0,
+      "order": 4,
+      "iteration": "fixed",
+      "tolerance": 1e-10,
+      "active": 8,
+      "groups": [
+        6,
+        7,
+        8,
+        14
+      ],
+      "setup_seconds": 0.0012871248181909323,
+      "history_rhs_seconds": 6.866711191833019e-05,
+      "status": "failed",
+      "seconds": 2.9578804969787598e-06,
+      "reason": "Invalid implicit controls/history",
+      "stats": {}
+    },
+    {
+      "name": "0.01-10.0-4-newton-1e-08",
+      "h": 0.01,
+      "threshold": 10.0,
+      "order": 4,
+      "iteration": "newton",
+      "tolerance": 1e-08,
+      "active": 8,
+      "groups": [
+        6,
+        7,
+        8,
+        14
+      ],
+      "setup_seconds": 0.0012871248181909323,
+      "history_rhs_seconds": 6.866711191833019e-05,
+      "status": "failed",
+      "seconds": 2.834014594554901e-06,
+      "reason": "Invalid implicit controls/history",
+      "stats": {}
+    },
+    {
+      "name": "0.01-10.0-4-newton-1e-10",
+      "h": 0.01,
+      "threshold": 10.0,
+      "order": 4,
+      "iteration": "newton",
+      "tolerance": 1e-10,
+      "active": 8,
+      "groups": [
+        6,
+        7,
+        8,
+        14
+      ],
+      "setup_seconds": 0.0012871248181909323,
+      "history_rhs_seconds": 6.866711191833019e-05,
+      "status": "failed",
+      "seconds": 3.00002284348011e-06,
+      "reason": "Invalid implicit controls/history",
+      "stats": {}
+    }
+  ],
+  "baselines": [
+    {
+      "h": 0.001,
+      "key": "full-1e-06-False",
+      "tolerance": 1e-06,
+      "whole": false,
+      "status": "success",
+      "seconds": 0.0016415829304605722,
+      "stats": {
+        "nfev": 9,
+        "njev": 1,
+        "nlu": 2,
+        "accepted_steps": 1,
+        "pool_error": 0.0,
+        "continuous_nonnegative": true,
+        "dense_join_error": 0.0,
+        "physical_ledger_residual": 2.6491491926781988e-14,
+        "physical_ledger_quadrature": 1.5525213214774194e-19,
+        "seconds": 0.0015827910974621773
+      },
+      "guard": {
+        "nonnegative": true,
+        "pool": 6.9898853248073e-17
+      },
+      "targets": {
+        "0.0001": {
+          "actual": {
+            "concentration": 1.3084365056944985e-07,
+            "flux": 7.012856764678893e-07
+          },
+          "passes": true
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 1.3084365056944987e-05,
+            "flux": 7.012856764678894e-05
+          },
+          "passes": true
+        }
+      }
+    },
+    {
+      "h": 0.001,
+      "key": "full-1e-06-True",
+      "tolerance": 1e-06,
+      "whole": true,
+      "status": "success",
+      "seconds": 0.0015792499762028456,
+      "stats": {
+        "nfev": 8,
+        "njev": 1,
+        "nlu": 2,
+        "accepted_steps": 1,
+        "pool_error": 0.0,
+        "continuous_nonnegative": true,
+        "dense_join_error": 0.0,
+        "physical_ledger_residual": 2.6491491926781988e-14,
+        "physical_ledger_quadrature": 1.5525213214774194e-19,
+        "jacobian_seeds": 0,
+        "lu_cache_hits": 0,
+        "lu_cache_misses": 2,
+        "actual_jacobians": 1,
+        "actual_factorizations": 2,
+        "seconds": 0.0015276658814400434
+      },
+      "guard": {
+        "nonnegative": true,
+        "pool": 6.9898853248073e-17
+      },
+      "targets": {
+        "0.0001": {
+          "actual": {
+            "concentration": 1.3084365056944985e-07,
+            "flux": 7.012856764678893e-07
+          },
+          "passes": true
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 1.3084365056944987e-05,
+            "flux": 7.012856764678894e-05
+          },
+          "passes": true
+        }
+      }
+    },
+    {
+      "h": 0.001,
+      "key": "full-1e-08-False",
+      "tolerance": 1e-08,
+      "whole": false,
+      "status": "success",
+      "seconds": 0.0017045419663190842,
+      "stats": {
+        "nfev": 12,
+        "njev": 1,
+        "nlu": 2,
+        "accepted_steps": 1,
+        "pool_error": 0.0,
+        "continuous_nonnegative": true,
+        "dense_join_error": 0.0,
+        "physical_ledger_residual": 9.936136457455484e-18,
+        "physical_ledger_quadrature": 9.980494209497695e-19,
+        "seconds": 0.0016559578943997622
+      },
+      "guard": {
+        "nonnegative": true,
+        "pool": 6.982413603473631e-17
+      },
+      "targets": {
+        "0.0001": {
+          "actual": {
+            "concentration": 4.136014075817054e-10,
+            "flux": 4.1505255047285414e-10
+          },
+          "passes": true
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 4.136014075817054e-08,
+            "flux": 4.150525504728542e-08
+          },
+          "passes": true
+        }
+      }
+    },
+    {
+      "h": 0.001,
+      "key": "full-1e-08-True",
+      "tolerance": 1e-08,
+      "whole": true,
+      "status": "success",
+      "seconds": 0.0016705410089343786,
+      "stats": {
+        "nfev": 11,
+        "njev": 1,
+        "nlu": 2,
+        "accepted_steps": 1,
+        "pool_error": 0.0,
+        "continuous_nonnegative": true,
+        "dense_join_error": 0.0,
+        "physical_ledger_residual": 9.936136457455484e-18,
+        "physical_ledger_quadrature": 9.980494209497695e-19,
+        "jacobian_seeds": 0,
+        "lu_cache_hits": 0,
+        "lu_cache_misses": 2,
+        "actual_jacobians": 1,
+        "actual_factorizations": 2,
+        "seconds": 0.001622792100533843
+      },
+      "guard": {
+        "nonnegative": true,
+        "pool": 6.982413603473631e-17
+      },
+      "targets": {
+        "0.0001": {
+          "actual": {
+            "concentration": 4.136014075817054e-10,
+            "flux": 4.1505255047285414e-10
+          },
+          "passes": true
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 4.136014075817054e-08,
+            "flux": 4.150525504728542e-08
+          },
+          "passes": true
+        }
+      }
+    },
+    {
+      "h": 0.001,
+      "key": "full-1e-10-False",
+      "tolerance": 1e-10,
+      "whole": false,
+      "status": "success",
+      "seconds": 0.002807165961712599,
+      "stats": {
+        "nfev": 19,
+        "njev": 1,
+        "nlu": 4,
+        "accepted_steps": 2,
+        "pool_error": 0.0,
+        "continuous_nonnegative": true,
+        "dense_join_error": 0.0,
+        "physical_ledger_residual": 2.903214871162774e-17,
+        "physical_ledger_quadrature": 4.435775204221198e-20,
+        "seconds": 0.0026229170616716146
+      },
+      "guard": {
+        "nonnegative": true,
+        "pool": 1.2212754601059654e-16
+      },
+      "targets": {
+        "0.0001": {
+          "actual": {
+            "concentration": 7.832319014005717e-11,
+            "flux": 7.807919266321018e-11
+          },
+          "passes": true
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 7.832319014005717e-09,
+            "flux": 7.807919266321019e-09
+          },
+          "passes": true
+        }
+      }
+    },
+    {
+      "h": 0.001,
+      "key": "full-1e-10-True",
+      "tolerance": 1e-10,
+      "whole": true,
+      "status": "success",
+      "seconds": 0.0018728331197053194,
+      "stats": {
+        "nfev": 14,
+        "njev": 1,
+        "nlu": 2,
+        "accepted_steps": 1,
+        "pool_error": 0.0,
+        "continuous_nonnegative": true,
+        "dense_join_error": 0.0,
+        "physical_ledger_residual": 1.2464528323861566e-17,
+        "physical_ledger_quadrature": 1.5968790735196314e-18,
+        "jacobian_seeds": 0,
+        "lu_cache_hits": 0,
+        "lu_cache_misses": 2,
+        "actual_jacobians": 1,
+        "actual_factorizations": 2,
+        "seconds": 0.0018187500536441803
+      },
+      "guard": {
+        "nonnegative": true,
+        "pool": 6.989754619890397e-17
+      },
+      "targets": {
+        "0.0001": {
+          "actual": {
+            "concentration": 4.136014075817054e-10,
+            "flux": 4.389448896527734e-10
+          },
+          "passes": true
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 4.136014075817054e-08,
+            "flux": 4.389448896527734e-08
+          },
+          "passes": true
+        }
+      }
+    },
+    {
+      "h": 0.003,
+      "key": "full-1e-06-False",
+      "tolerance": 1e-06,
+      "whole": false,
+      "status": "success",
+      "seconds": 0.003085291013121605,
+      "stats": {
+        "nfev": 16,
+        "njev": 1,
+        "nlu": 4,
+        "accepted_steps": 2,
+        "pool_error": 1.9749590675267642e-16,
+        "continuous_nonnegative": true,
+        "dense_join_error": 0.0,
+        "physical_ledger_residual": 2.3628417742643455e-12,
+        "physical_ledger_quadrature": 2.663372361343488e-19,
+        "seconds": 0.002975958865135908
+      },
+      "guard": {
+        "nonnegative": true,
+        "pool": 7.004094066088251e-17
+      },
+      "targets": {
+        "0.0001": {
+          "actual": {
+            "concentration": 2.5381790624419748e-06,
+            "flux": 1.3776840193272105e-05
+          },
+          "passes": true
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 0.0002538179062441975,
+            "flux": 0.0013776840193272105
+          },
+          "passes": true
+        }
+      }
+    },
+    {
+      "h": 0.003,
+      "key": "full-1e-06-True",
+      "tolerance": 1e-06,
+      "whole": true,
+      "status": "success",
+      "seconds": 0.0018918330315500498,
+      "stats": {
+        "nfev": 8,
+        "njev": 1,
+        "nlu": 2,
+        "accepted_steps": 1,
+        "pool_error": 0.0,
+        "continuous_nonnegative": true,
+        "dense_join_error": 0.0,
+        "physical_ledger_residual": 3.2957171521417984e-12,
+        "physical_ledger_quadrature": 8.87790787114496e-20,
+        "jacobian_seeds": 0,
+        "lu_cache_hits": 0,
+        "lu_cache_misses": 2,
+        "actual_jacobians": 1,
+        "actual_factorizations": 2,
+        "seconds": 0.0018176250159740448
+      },
+      "guard": {
+        "nonnegative": true,
+        "pool": 6.9955274158242e-17
+      },
+      "targets": {
+        "0.0001": {
+          "actual": {
+            "concentration": 3.2290938310542926e-06,
+            "flux": 1.754056861772042e-05
+          },
+          "passes": true
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 0.0003229093831054293,
+            "flux": 0.001754056861772042
+          },
+          "passes": true
+        }
+      }
+    },
+    {
+      "h": 0.003,
+      "key": "full-1e-08-False",
+      "tolerance": 1e-08,
+      "whole": false,
+      "status": "success",
+      "seconds": 0.003096416825428605,
+      "stats": {
+        "nfev": 19,
+        "njev": 1,
+        "nlu": 4,
+        "accepted_steps": 2,
+        "pool_error": 1.9749590675267642e-16,
+        "continuous_nonnegative": true,
+        "dense_join_error": 0.0,
+        "physical_ledger_residual": 7.359785625179172e-17,
+        "physical_ledger_quadrature": 7.102326296915968e-19,
+        "seconds": 0.0030040829442441463
+      },
+      "guard": {
+        "nonnegative": true,
+        "pool": 9.612246599256697e-17
+      },
+      "targets": {
+        "0.0001": {
+          "actual": {
+            "concentration": 8.622421370681733e-09,
+            "flux": 8.623641358091925e-09
+          },
+          "passes": true
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 8.622421370681733e-07,
+            "flux": 8.623641358091926e-07
+          },
+          "passes": true
+        }
+      }
+    },
+    {
+      "h": 0.003,
+      "key": "full-1e-08-True",
+      "tolerance": 1e-08,
+      "whole": true,
+      "status": "success",
+      "seconds": 0.001969916047528386,
+      "stats": {
+        "nfev": 11,
+        "njev": 1,
+        "nlu": 2,
+        "accepted_steps": 1,
+        "pool_error": 1.9749590675267642e-16,
+        "continuous_nonnegative": true,
+        "dense_join_error": 0.0,
+        "physical_ledger_residual": 1.609120801645024e-15,
+        "physical_ledger_quadrature": 2.5745932826320383e-18,
+        "jacobian_seeds": 0,
+        "lu_cache_hits": 0,
+        "lu_cache_misses": 2,
+        "actual_jacobians": 1,
+        "actual_factorizations": 2,
+        "seconds": 0.0018908330239355564
+      },
+      "guard": {
+        "nonnegative": true,
+        "pool": 7.000912801600199e-17
+      },
+      "targets": {
+        "0.0001": {
+          "actual": {
+            "concentration": 3.475351096530396e-08,
+            "flux": 3.475345959751413e-08
+          },
+          "passes": true
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 3.4753510965303966e-06,
+            "flux": 3.475345959751414e-06
+          },
+          "passes": true
+        }
+      }
+    },
+    {
+      "h": 0.003,
+      "key": "full-1e-10-False",
+      "tolerance": 1e-10,
+      "whole": false,
+      "status": "success",
+      "seconds": 0.002997084055095911,
+      "stats": {
+        "nfev": 19,
+        "njev": 1,
+        "nlu": 4,
+        "accepted_steps": 2,
+        "pool_error": 1.9749590675267642e-16,
+        "continuous_nonnegative": true,
+        "dense_join_error": 0.0,
+        "physical_ledger_residual": 4.971628407841177e-18,
+        "physical_ledger_quadrature": 7.102326296915968e-19,
+        "seconds": 0.0029177910182625055
+      },
+      "guard": {
+        "nonnegative": true,
+        "pool": 7.83451600429493e-17
+      },
+      "targets": {
+        "0.0001": {
+          "actual": {
+            "concentration": 2.324962065210118e-08,
+            "flux": 2.3249106973269033e-08
+          },
+          "passes": true
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 2.324962065210118e-06,
+            "flux": 2.3249106973269036e-06
+          },
+          "passes": true
+        }
+      }
+    },
+    {
+      "h": 0.003,
+      "key": "full-1e-10-True",
+      "tolerance": 1e-10,
+      "whole": true,
+      "status": "success",
+      "seconds": 0.002687833970412612,
+      "stats": {
+        "nfev": 14,
+        "njev": 2,
+        "nlu": 2,
+        "accepted_steps": 1,
+        "pool_error": 1.9749590675267642e-16,
+        "continuous_nonnegative": true,
+        "dense_join_error": 0.0,
+        "physical_ledger_residual": 2.3171339543688344e-17,
+        "physical_ledger_quadrature": 1.953139731651891e-18,
+        "jacobian_seeds": 0,
+        "lu_cache_hits": 0,
+        "lu_cache_misses": 2,
+        "actual_jacobians": 2,
+        "actual_factorizations": 2,
+        "seconds": 0.0026004579849541187
+      },
+      "guard": {
+        "nonnegative": true,
+        "pool": 6.999526761355149e-17
+      },
+      "targets": {
+        "0.0001": {
+          "actual": {
+            "concentration": 3.4742518236863255e-08,
+            "flux": 3.474318601953213e-08
+          },
+          "passes": true
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 3.4742518236863256e-06,
+            "flux": 3.4743186019532136e-06
+          },
+          "passes": true
+        }
+      }
+    },
+    {
+      "h": 0.01,
+      "key": "full-1e-06-False",
+      "tolerance": 1e-06,
+      "whole": false,
+      "status": "success",
+      "seconds": 0.0026835838798433542,
+      "stats": {
+        "nfev": 16,
+        "njev": 1,
+        "nlu": 4,
+        "accepted_steps": 2,
+        "pool_error": 1.974959067526764e-16,
+        "continuous_nonnegative": true,
+        "dense_join_error": 0.0,
+        "physical_ledger_residual": 7.659021341459029e-13,
+        "physical_ledger_quadrature": 6.763743740981679e-18,
+        "seconds": 0.002613124903291464
+      },
+      "guard": {
+        "nonnegative": true,
+        "pool": 8.77232336576106e-17
+      },
+      "targets": {
+        "0.0001": {
+          "actual": {
+            "concentration": 1.7293581751087462e-06,
+            "flux": 4.856510860749268e-06
+          },
+          "passes": true
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 0.00017293581751087463,
+            "flux": 0.00048565108607492684
+          },
+          "passes": true
+        }
+      }
+    },
+    {
+      "h": 0.01,
+      "key": "full-1e-06-True",
+      "tolerance": 1e-06,
+      "whole": true,
+      "status": "success",
+      "seconds": 0.0021265409886837006,
+      "stats": {
+        "nfev": 11,
+        "njev": 2,
+        "nlu": 2,
+        "accepted_steps": 1,
+        "pool_error": 0.0,
+        "continuous_nonnegative": true,
+        "dense_join_error": 0.0,
+        "physical_ledger_residual": 1.1923857238953505e-12,
+        "physical_ledger_quadrature": 1.0679595380497387e-17,
+        "jacobian_seeds": 0,
+        "lu_cache_hits": 0,
+        "lu_cache_misses": 2,
+        "actual_jacobians": 2,
+        "actual_factorizations": 2,
+        "seconds": 0.002075625117868185
+      },
+      "guard": {
+        "nonnegative": true,
+        "pool": 7.008830848444085e-17
+      },
+      "targets": {
+        "0.0001": {
+          "actual": {
+            "concentration": 4.793768104340089e-06,
+            "flux": 4.793766550475223e-06
+          },
+          "passes": true
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 0.0004793768104340089,
+            "flux": 0.0004793766550475224
+          },
+          "passes": true
+        }
+      }
+    },
+    {
+      "h": 0.01,
+      "key": "full-1e-08-False",
+      "tolerance": 1e-08,
+      "whole": false,
+      "status": "success",
+      "seconds": 0.003724333131685853,
+      "stats": {
+        "nfev": 23,
+        "njev": 1,
+        "nlu": 6,
+        "accepted_steps": 3,
+        "pool_error": 1.974959067526764e-16,
+        "continuous_nonnegative": true,
+        "dense_join_error": 0.0,
+        "physical_ledger_residual": 5.828567172162791e-15,
+        "physical_ledger_quadrature": 4.983811177565447e-18,
+        "seconds": 0.003649249905720353
+      },
+      "guard": {
+        "nonnegative": true,
+        "pool": 1.4905361981547655e-16
+      },
+      "targets": {
+        "0.0001": {
+          "actual": {
+            "concentration": 9.31871453102684e-07,
+            "flux": 9.318710550042207e-07
+          },
+          "passes": true
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 9.318714531026842e-05,
+            "flux": 9.318710550042209e-05
+          },
+          "passes": true
+        }
+      }
+    },
+    {
+      "h": 0.01,
+      "key": "full-1e-08-True",
+      "tolerance": 1e-08,
+      "whole": true,
+      "status": "success",
+      "seconds": 0.002231542021036148,
+      "stats": {
+        "nfev": 14,
+        "njev": 2,
+        "nlu": 2,
+        "accepted_steps": 1,
+        "pool_error": 1.974959067526764e-16,
+        "continuous_nonnegative": true,
+        "dense_join_error": 0.0,
+        "physical_ledger_residual": 6.740248631144584e-15,
+        "physical_ledger_quadrature": 2.8478921014659703e-18,
+        "jacobian_seeds": 0,
+        "lu_cache_hits": 0,
+        "lu_cache_misses": 2,
+        "actual_jacobians": 2,
+        "actual_factorizations": 2,
+        "seconds": 0.002183416858315468
+      },
+      "guard": {
+        "nonnegative": true,
+        "pool": 7.044579655623868e-17
+      },
+      "targets": {
+        "0.0001": {
+          "actual": {
+            "concentration": 4.793263812922871e-06,
+            "flux": 4.793263145154106e-06
+          },
+          "passes": true
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 0.00047932638129228716,
+            "flux": 0.00047932631451541065
+          },
+          "passes": true
+        }
+      }
+    },
+    {
+      "h": 0.01,
+      "key": "full-1e-10-False",
+      "tolerance": 1e-10,
+      "whole": false,
+      "status": "success",
+      "seconds": 0.005316874943673611,
+      "stats": {
+        "nfev": 39,
+        "njev": 2,
+        "nlu": 8,
+        "accepted_steps": 4,
+        "pool_error": 0.0,
+        "continuous_nonnegative": true,
+        "dense_join_error": 0.0,
+        "physical_ledger_residual": 7.831703279031417e-18,
+        "physical_ledger_quadrature": 4.983811177565447e-18,
+        "seconds": 0.005235791206359863
+      },
+      "guard": {
+        "nonnegative": true,
+        "pool": 1.522336175757307e-16
+      },
+      "targets": {
+        "0.0001": {
+          "actual": {
+            "concentration": 1.7049859220646375e-07,
+            "flux": 1.7049824547369784e-07
+          },
+          "passes": true
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 1.7049859220646376e-05,
+            "flux": 1.7049824547369787e-05
+          },
+          "passes": true
+        }
+      }
+    },
+    {
+      "h": 0.01,
+      "key": "full-1e-10-True",
+      "tolerance": 1e-10,
+      "whole": true,
+      "status": "success",
+      "seconds": 0.005444416077807546,
+      "stats": {
+        "nfev": 49,
+        "njev": 3,
+        "nlu": 8,
+        "accepted_steps": 3,
+        "pool_error": 1.974959067526764e-16,
+        "continuous_nonnegative": true,
+        "dense_join_error": 0.0,
+        "physical_ledger_residual": 9.398043934837701e-17,
+        "physical_ledger_quadrature": 2.1359190760994774e-18,
+        "jacobian_seeds": 0,
+        "lu_cache_hits": 0,
+        "lu_cache_misses": 8,
+        "actual_jacobians": 3,
+        "actual_factorizations": 8,
+        "seconds": 0.005375667009502649
+      },
+      "guard": {
+        "nonnegative": true,
+        "pool": 1.1419814364809194e-16
+      },
+      "targets": {
+        "0.0001": {
+          "actual": {
+            "concentration": 1.0229695677819011e-07,
+            "flux": 1.0229607068238374e-07
+          },
+          "passes": true
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 1.0229695677819011e-05,
+            "flux": 1.0229607068238375e-05
+          },
+          "passes": true
+        }
+      }
+    }
+  ],
+  "histories": [
+    {
+      "h": 0.001,
+      "history_seconds": 0.004080292070284486,
+      "stats": {
+        "nfev": 14,
+        "njev": 1,
+        "nlu": 2,
+        "accepted_steps": 1,
+        "pool_error": 0.0,
+        "continuous_nonnegative": true,
+        "dense_join_error": 0.0,
+        "physical_ledger_residual": 2.811266305722885e-17,
+        "physical_ledger_quadrature": 2.1284035122192193e-18,
+        "jacobian_seeds": 0,
+        "lu_cache_hits": 0,
+        "lu_cache_misses": 2,
+        "actual_jacobians": 1,
+        "actual_factorizations": 2,
+        "seconds": 0.003414958016946912
+      },
+      "budget": {
+        "concentration": 1.73135472941179e-08,
+        "flux": 1.754484735927752e-08
+      },
+      "audit_pair_seconds": 0.002747083082795143
+    },
+    {
+      "h": 0.003,
+      "history_seconds": 0.00433499994687736,
+      "stats": {
+        "nfev": 36,
+        "njev": 2,
+        "nlu": 6,
+        "accepted_steps": 2,
+        "pool_error": 0.0,
+        "continuous_nonnegative": true,
+        "dense_join_error": 0.0,
+        "physical_ledger_residual": 3.1926052683288288e-18,
+        "physical_ledger_quadrature": 5.143641821196446e-18,
+        "jacobian_seeds": 0,
+        "lu_cache_hits": 0,
+        "lu_cache_misses": 6,
+        "actual_jacobians": 2,
+        "actual_factorizations": 6,
+        "seconds": 0.004267374984920025
+      },
+      "budget": {
+        "concentration": 3.7251608503455263e-07,
+        "flux": 4.2431339333101433e-07
+      },
+      "audit_pair_seconds": 0.0043827088084071875
+    },
+    {
+      "h": 0.01,
+      "history_seconds": 0.008571458049118519,
+      "stats": {
+        "nfev": 69,
+        "njev": 4,
+        "nlu": 8,
+        "accepted_steps": 5,
+        "pool_error": 1.9749590675267642e-16,
+        "continuous_nonnegative": true,
+        "dense_join_error": 0.0,
+        "physical_ledger_residual": 1.78076427189008e-16,
+        "physical_ledger_quadrature": 1.3479888910721722e-17,
+        "jacobian_seeds": 0,
+        "lu_cache_hits": 0,
+        "lu_cache_misses": 8,
+        "actual_jacobians": 4,
+        "actual_factorizations": 8,
+        "seconds": 0.008476374903693795
+      },
+      "budget": {
+        "concentration": 1.4933621586704235e-06,
+        "flux": 1.493367295463715e-06
+      },
+      "audit_pair_seconds": 0.0070046670734882355
+    }
+  ]
+}

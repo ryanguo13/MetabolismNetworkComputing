@@ -1,0 +1,22 @@
+{
+  "date": "2026-11-08",
+  "orders": [
+    2,
+    3,
+    4
+  ],
+  "configurations": 300,
+  "forcing": "Lagrange slow RHS through future endpoint and current/past states; exact fast flow; endpoint equation solved exactly for frozen linear model.",
+  "screen": "rho(companion)<=1+1e-9 only; no nonlinear, variable-step, positivity, accuracy or speed certification.",
+  "fixed_point": "rho of future forcing response times slow Jacobian diagnoses naive fixed-point convergence.",
+  "source_sha256": {
+    "research/implicit_history.py": "34cbe990c9826f2d5259e1e532694cd7aa1bff345b1c66cffdac147afa0968be",
+    "research/test_implicit_history.py": "3a99fb693f9f5a6444c0e48ae38f89dbde67d6272439a3dd172451d5727425d6",
+    "research/m3_implicit_stability.py": "e89f77cb20e3f6b4415eda013754be47424bb704d5f3ca8927e3e09800bb7ab5"
+  },
+  "input_sha256": {
+    "results/m3-growth-history/manifest.json": "c42c18082d27f29df01aef6d235deb8c78b4a805b55cdccdf36548581f1918aa",
+    "results/m3-growth-history/stability.json": "66702f67fc70566bf726a6b62e64bc7fc1a84a0bb4d6a464797762e88a782243",
+    "results/m3-growth-history/stability.npz": "60911c215d215b66452170d082b34c6bfa9ea2602c7e3b9bd00173ca718d5df0"
+  }
+}

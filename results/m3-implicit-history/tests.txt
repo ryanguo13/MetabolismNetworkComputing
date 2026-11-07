@@ -1,0 +1,10 @@
+test_adams_moulton_and_exact_fast_limits (research.test_implicit_history.ImplicitHistoryChecks.test_adams_moulton_and_exact_fast_limits) ... ok
+test_coupled_linear_endpoint_and_order (research.test_implicit_history.ImplicitHistoryChecks.test_coupled_linear_endpoint_and_order) ... ok
+test_converged_nonlinear_iteration_matches_linear_companion (research.test_implicit_flow.ImplicitFlowChecks.test_converged_nonlinear_iteration_matches_linear_companion) ... ok
+test_nonlinear_pure_slow_trapezoid (research.test_implicit_flow.ImplicitFlowChecks.test_nonlinear_pure_slow_trapezoid) ... ok
+test_selected_samples_have_expected_ages (research.test_implicit_local_inputs.HistoryInputChecks.test_selected_samples_have_expected_ages) ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.232s
+
+OK

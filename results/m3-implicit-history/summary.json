@@ -1,0 +1,354 @@
+{
+  "date": "2026-11-08",
+  "stability": {
+    "configurations": 300,
+    "minimum_dimension": [
+      {
+        "state": "early",
+        "h": 0.0001,
+        "order": 2,
+        "minimum_fast_active": 6
+      },
+      {
+        "state": "early",
+        "h": 0.0001,
+        "order": 3,
+        "minimum_fast_active": 6
+      },
+      {
+        "state": "early",
+        "h": 0.0001,
+        "order": 4,
+        "minimum_fast_active": 6
+      },
+      {
+        "state": "early",
+        "h": 0.0003,
+        "order": 2,
+        "minimum_fast_active": 6
+      },
+      {
+        "state": "early",
+        "h": 0.0003,
+        "order": 3,
+        "minimum_fast_active": 6
+      },
+      {
+        "state": "early",
+        "h": 0.0003,
+        "order": 4,
+        "minimum_fast_active": 7
+      },
+      {
+        "state": "early",
+        "h": 0.001,
+        "order": 2,
+        "minimum_fast_active": 6
+      },
+      {
+        "state": "early",
+        "h": 0.001,
+        "order": 3,
+        "minimum_fast_active": 8
+      },
+      {
+        "state": "early",
+        "h": 0.001,
+        "order": 4,
+        "minimum_fast_active": 8
+      },
+      {
+        "state": "early",
+        "h": 0.003,
+        "order": 2,
+        "minimum_fast_active": 6
+      },
+      {
+        "state": "early",
+        "h": 0.003,
+        "order": 3,
+        "minimum_fast_active": 8
+      },
+      {
+        "state": "early",
+        "h": 0.003,
+        "order": 4,
+        "minimum_fast_active": 12
+      },
+      {
+        "state": "early",
+        "h": 0.01,
+        "order": 2,
+        "minimum_fast_active": 6
+      },
+      {
+        "state": "early",
+        "h": 0.01,
+        "order": 3,
+        "minimum_fast_active": 12
+      },
+      {
+        "state": "early",
+        "h": 0.01,
+        "order": 4,
+        "minimum_fast_active": 14
+      },
+      {
+        "state": "late",
+        "h": 0.0001,
+        "order": 2,
+        "minimum_fast_active": 6
+      },
+      {
+        "state": "late",
+        "h": 0.0001,
+        "order": 3,
+        "minimum_fast_active": 6
+      },
+      {
+        "state": "late",
+        "h": 0.0001,
+        "order": 4,
+        "minimum_fast_active": 6
+      },
+      {
+        "state": "late",
+        "h": 0.0003,
+        "order": 2,
+        "minimum_fast_active": 6
+      },
+      {
+        "state": "late",
+        "h": 0.0003,
+        "order": 3,
+        "minimum_fast_active": 6
+      },
+      {
+        "state": "late",
+        "h": 0.0003,
+        "order": 4,
+        "minimum_fast_active": 7
+      },
+      {
+        "state": "late",
+        "h": 0.001,
+        "order": 2,
+        "minimum_fast_active": 6
+      },
+      {
+        "state": "late",
+        "h": 0.001,
+        "order": 3,
+        "minimum_fast_active": 8
+      },
+      {
+        "state": "late",
+        "h": 0.001,
+        "order": 4,
+        "minimum_fast_active": 8
+      },
+      {
+        "state": "late",
+        "h": 0.003,
+        "order": 2,
+        "minimum_fast_active": 6
+      },
+      {
+        "state": "late",
+        "h": 0.003,
+        "order": 3,
+        "minimum_fast_active": 8
+      },
+      {
+        "state": "late",
+        "h": 0.003,
+        "order": 4,
+        "minimum_fast_active": 14
+      },
+      {
+        "state": "late",
+        "h": 0.01,
+        "order": 2,
+        "minimum_fast_active": 6
+      },
+      {
+        "state": "late",
+        "h": 0.01,
+        "order": 3,
+        "minimum_fast_active": 14
+      },
+      {
+        "state": "late",
+        "h": 0.01,
+        "order": 4,
+        "minimum_fast_active": 14
+      }
+    ],
+    "scope": "Exact fast flow, frozen constant-step linear analysis only."
+  },
+  "local": {
+    "candidates": 108,
+    "baselines": 18,
+    "converged": 48,
+    "qualified": {
+      "0.0001": 38,
+      "1e-06": 38
+    },
+    "failures": {
+      "Implicit endpoint iteration did not converge": 48,
+      "Invalid implicit state; no clipping": 12
+    },
+    "decisions": [
+      {
+        "h": 0.001,
+        "target": "0.0001",
+        "qualified": 24,
+        "candidate": {
+          "name": "0.001-0.3-4-newton-1e-08",
+          "seconds": 0.007332040928304195,
+          "active": 14,
+          "work": {
+            "subflows": 4,
+            "nfev": 44,
+            "njev": 4,
+            "nlu": 8,
+            "endpoint_njev": 1,
+            "endpoint_nlu": 1,
+            "endpoint_solves": 3
+          }
+        },
+        "baseline": {
+          "key": "full-1e-06-True",
+          "seconds": 0.0018205840606242418
+        },
+        "optimistic_single_run_ratio": 0.2483052233923248
+      },
+      {
+        "h": 0.001,
+        "target": "1e-06",
+        "qualified": 24,
+        "candidate": {
+          "name": "0.001-0.3-4-newton-1e-08",
+          "seconds": 0.007332040928304195,
+          "active": 14,
+          "work": {
+            "subflows": 4,
+            "nfev": 44,
+            "njev": 4,
+            "nlu": 8,
+            "endpoint_njev": 1,
+            "endpoint_nlu": 1,
+            "endpoint_solves": 3
+          }
+        },
+        "baseline": {
+          "key": "full-1e-06-True",
+          "seconds": 0.0018205840606242418
+        },
+        "optimistic_single_run_ratio": 0.2483052233923248
+      },
+      {
+        "h": 0.003,
+        "target": "0.0001",
+        "qualified": 12,
+        "candidate": {
+          "name": "0.003-0.3-4-newton-1e-08",
+          "seconds": 0.008458750089630485,
+          "active": 14,
+          "work": {
+            "subflows": 5,
+            "nfev": 55,
+            "njev": 5,
+            "nlu": 10,
+            "endpoint_njev": 1,
+            "endpoint_nlu": 1,
+            "endpoint_solves": 4
+          }
+        },
+        "baseline": {
+          "key": "full-1e-06-True",
+          "seconds": 0.0016259578987956047
+        },
+        "optimistic_single_run_ratio": 0.19222200461849012
+      },
+      {
+        "h": 0.003,
+        "target": "1e-06",
+        "qualified": 12,
+        "candidate": {
+          "name": "0.003-0.3-4-newton-1e-08",
+          "seconds": 0.008458750089630485,
+          "active": 14,
+          "work": {
+            "subflows": 5,
+            "nfev": 55,
+            "njev": 5,
+            "nlu": 10,
+            "endpoint_njev": 1,
+            "endpoint_nlu": 1,
+            "endpoint_solves": 4
+          }
+        },
+        "baseline": {
+          "key": "full-1e-06-True",
+          "seconds": 0.0016259578987956047
+        },
+        "optimistic_single_run_ratio": 0.19222200461849012
+      },
+      {
+        "h": 0.01,
+        "target": "0.0001",
+        "qualified": 2,
+        "candidate": {
+          "name": "0.01-0.3-4-newton-1e-08",
+          "seconds": 0.018520541954785585,
+          "active": 14,
+          "work": {
+            "subflows": 8,
+            "nfev": 131,
+            "njev": 16,
+            "nlu": 20,
+            "endpoint_njev": 1,
+            "endpoint_nlu": 1,
+            "endpoint_solves": 7
+          }
+        },
+        "baseline": {
+          "key": "full-1e-08-True",
+          "seconds": 0.0022018339950591326
+        },
+        "optimistic_single_run_ratio": 0.11888604558303399
+      },
+      {
+        "h": 0.01,
+        "target": "1e-06",
+        "qualified": 2,
+        "candidate": {
+          "name": "0.01-0.3-4-newton-1e-08",
+          "seconds": 0.018520541954785585,
+          "active": 14,
+          "work": {
+            "subflows": 8,
+            "nfev": 131,
+            "njev": 16,
+            "nlu": 20,
+            "endpoint_njev": 1,
+            "endpoint_nlu": 1,
+            "endpoint_solves": 7
+          }
+        },
+        "baseline": {
+          "key": "full-1e-08-True",
+          "seconds": 0.0022018339950591326
+        },
+        "optimistic_single_run_ratio": 0.11888604558303399
+      }
+    ],
+    "max_absolute_piecewise_modified_quadrature": 9.967622355130898e-18,
+    "excluded_original_records": 108,
+    "input_shape_failures_in_original": 72
+  },
+  "M4_admission": false,
+  "previous_manifest_unchanged": true,
+  "scope": "Small-model local development, single timings excluding history/grouping/independent audit; no full-window evidence."
+}
