@@ -1,0 +1,48 @@
+{
+  "date": "2026-11-08",
+  "paths": [
+    2,
+    4,
+    5
+  ],
+  "steps": 16,
+  "orders": [
+    2,
+    3,
+    4
+  ],
+  "tolerance": 1e-06,
+  "whole_step": true,
+  "baselines": {
+    "tolerances": [
+      1e-06,
+      1e-08,
+      1e-10
+    ],
+    "initial_steps": [
+      "automatic",
+      "whole"
+    ]
+  },
+  "selection": "After local screen: nonconstant small model plus large H=.001/.003. All orders retained, not independent confirmation.",
+  "history": "First q-1 intervals solved with actual guarded full Radau; thereafter own computed endpoints/slow RHS only. Startup, current slow RHS and output guards counted.",
+  "scope": "Forced 16-step diagnostic: failed accuracy steps are not accepted coverage. Stop on negative output/integration failure. No formal performance claim from one run.",
+  "reference": "Independent local and whole-path full references at1e-12/1e-11; error budget<=.05 at strict local target. 65 uniform points per macro plus public observation points.",
+  "timing": "Candidate includes startup and all guards, excludes independent audits/error scoring; full controls integrate entire same window without macro-boundary restarts. Group setup separately recorded.",
+  "source_sha256": {
+    "research/m3_extrapolated_paths.py": "7ce2742d48adf31bb1b73372cb09f7085e18e1507d32b8543ac3c8217f9b64cf",
+    "research/extrapolated_flow.py": "2e5586c85464c8c49a6a55084ddadcf9cdac681d0459676f4c59397ae1af9d89",
+    "research/inner_dense.py": "e19b0221a27f5fa861c7a0877d64f9e04b638a3fc514326c7968541f13ec133b",
+    "research/fullstep_radau.py": "ec224519a31b512359d1645b4d2211e80b9d436a7cd6e7ff8dfca568d9439f32",
+    "research/shared_radau.py": "0174d7d91eb1a3d59d514493a730af52b1e1a1d10b764bb892716c9da666edef",
+    "research/m3_priority.py": "6cc6821a1ac9a811f16d25c20c067b9d0516d1cb3bf60b9d144bdc93adc43856",
+    "research/m3_ordered_cost.py": "65f4695f8bd500897bbc6b29afb7d935d4b0f500fc7d53cd99633835631ac5e5"
+  },
+  "input_sha256": {
+    "results/m3-extrapolated-flow/runs.json": "f4991d8591826ca581bb91a8e78a0d2d42ef2f5970406a938062576e1d13ea58",
+    "results/m3-inner-dense/history.json": "f045bc9ab29c5a3a7fa5ec9a54c9a84f81d3ca48cd22b9ae3084caabc6277ae3",
+    "results/m3-inner-dense/history-2.npz": "6263791a538866c0a84d00ce048da7d70c8e218a9b45e9d41acf3b020c246167",
+    "results/m3-inner-dense/history-4.npz": "32be3c3e826c56f70059eac62d88b9e06aac08245161895f43d3c34cc5aa5bd3",
+    "results/m3-inner-dense/history-5.npz": "96f2c95572fc3b052a826cd3b5a1f4bbae8339ef812db0dfb3d8356a919fbad5"
+  }
+}

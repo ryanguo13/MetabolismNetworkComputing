@@ -1,0 +1,118 @@
+{
+  "access_date": "2026-11-08",
+  "scope": "Targeted lookup, not systematic review",
+  "queries": [
+    {
+      "endpoint": "https://export.arxiv.org/api/query",
+      "params": {
+        "search_query": "all:multirate AND (all:Adams OR all:multistep)",
+        "max_results": 8
+      },
+      "total": 3,
+      "returned": 3
+    },
+    {
+      "endpoint": "https://api.crossref.org/works",
+      "params": {
+        "query.bibliographic": "multirate infinitesimal multistep Adams extrapolation",
+        "rows": 6
+      },
+      "returned": 6
+    }
+  ],
+  "survey": {
+    "arxiv_id": "2505.20062",
+    "arxiv_id_versioned": "2505.20062v1",
+    "version": "1",
+    "title": "Multirate methods for ordinary differential equations",
+    "abstract": "This survey provides an overview of state-of-the art multirate schemes, which exploit the different time scales in the dynamics of a differential equation model by adapting the computational costs to different activity levels of the system. We start the discussion with the straightforward approach based on interpolating and extrapolating the slow--fast coupling variables; the multirate Euler scheme, used as a base example, falls into this class. Next we discuss higher order multirate schemes that generalize classical singlerate linear multistep, Runge-Kutta, and extrapolation methods.",
+    "authors": [
+      "Michael Günther",
+      "Adrian Sandu"
+    ],
+    "published": "2025-05-26T14:47:32Z",
+    "updated": "2025-05-26T14:47:32Z",
+    "primary_category": "math.NA",
+    "categories": [
+      "math.NA"
+    ],
+    "doi": null,
+    "journal_ref": null,
+    "comment": "73 pages",
+    "abstract_url": "https://arxiv.org/abs/2505.20062v1",
+    "pdf_url": "https://arxiv.org/pdf/2505.20062v1"
+  },
+  "survey_reading": "v1 sections3 and6.1-6.3, especially initialization/stability caveats; component-partition results are inspiration, not a theorem for the present additive prototype.",
+  "survey_pdf_sha256": "2c3f64159b0d18c9c4b70611703a24b5f8b6f2a18be922217d9c782607c31301",
+  "gear_wells_metadata": {
+    "DOI": "10.1007/bf01934907",
+    "title": [
+      "Multirate linear multistep methods"
+    ],
+    "author": [
+      {
+        "given": "C. W.",
+        "family": "Gear",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "D. R.",
+        "family": "Wells",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "published": {
+      "date-parts": [
+        [
+          1984,
+          12
+        ]
+      ]
+    },
+    "container-title": [
+      "BIT"
+    ]
+  },
+  "gear_reading": "Crossref metadata only, not full text",
+  "retrieval_skill_paper": {
+    "arxiv_id": "2609.00065",
+    "arxiv_id_versioned": "2609.00065v2",
+    "version": "2",
+    "title": "Scientific Agent Skills: A Library of Procedural Knowledge for Research Agents",
+    "abstract": "A language-model agent asked to analyse an experiment will usually return working code. Whether the analysis is defensible is a different question. A defensible analysis depends on procedural choices: which test the field accepts, which identifier namespace is authoritative, and which caveats must accompany a result. We present Scientific Agent Skills, an open library of 163 such procedures in 16 areas of practice, including genomics, cheminformatics, medical imaging, study design and scientific communication. Each skill is a directory built around a versioned, human-readable instruction file. An agent loads the file only when a task calls for it; the directory often also contains reference material and runnable scripts. We report no task-level evaluation and no host selection rate. We measure two properties of the documentation corpus: the always-resident descriptions of all 163 skills cost 7.1% of a 200,000-token window, and the median documented workflow fits within 23.9% of it, although 29 of 46 would overflow if every reference file were loaded. Openly licensed and available at https://github.com/K-Dense-AI/scientific-agent-skills.",
+    "authors": [
+      "Timothy Kassis",
+      "Vinayak Agarwal",
+      "Yuhuan He",
+      "Darshil Patel",
+      "Aubrey M. Brueckner"
+    ],
+    "published": "2026-08-30T15:40:35Z",
+    "updated": "2026-09-02T21:50:40Z",
+    "primary_category": "cs.CL",
+    "categories": [
+      "cs.CL",
+      "cs.AI"
+    ],
+    "doi": null,
+    "journal_ref": null,
+    "comment": "31 pages, 16 figures, 2 tables, 1 listing. v2: adds a figure of how the documented workflows compose skills, quotes the skill clauses behind the introduction's examples, replaces the appendix listing with a procedural skill, names supported hosts and the pinned install path, and reports the two corpus findings in the abstract",
+    "abstract_url": "https://arxiv.org/abs/2609.00065v2",
+    "pdf_url": "https://arxiv.org/pdf/2609.00065v2"
+  },
+  "retrieval_skill_reading": "Metadata/abstract only; workflow provenance, no numerical-method evidence"
+}

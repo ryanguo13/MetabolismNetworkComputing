@@ -1,0 +1,66 @@
+{
+  "date": "2026-11-08",
+  "model": "teusink",
+  "states": {
+    "early": 2,
+    "late": 3
+  },
+  "state_times": {
+    "early": 0.001,
+    "late": 1.0
+  },
+  "partitions": {
+    "constant": 0,
+    "nonconstant": 2
+  },
+  "h_values": [
+    0.008,
+    0.004,
+    0.002,
+    0.001,
+    0.0005,
+    0.00025,
+    0.000125,
+    6.25e-05,
+    3.125e-05
+  ],
+  "methods": [
+    "MRI2",
+    "MRI3"
+  ],
+  "inner_tolerances": [
+    1e-10,
+    1e-12
+  ],
+  "reference_tolerances": [
+    1e-12,
+    1e-13
+  ],
+  "reference_budget": 0.05,
+  "local_targets": [
+    0.0001,
+    1e-06
+  ],
+  "ledger_limit": 1e-10,
+  "scope": "Frozen existing groups at two known prefix states; one-step endpoint/Hermite error diagnosis, not an online policy or full-window validation.",
+  "decomposition": "signed ledger = weighted endpoint error + reference signed ledger - integral bias along output; same Gauss quadrature on candidate/reference.",
+  "oracle": "Hermite with accurate reference endpoint is only an output-error diagnostic; never a candidate or free history.",
+  "stopping": "Determine whether nonconstant-ledger failure is dominated by endpoint coupling or output before implementing fewer-stage cost candidates.",
+  "source_sha256": {
+    "research/m3_ledger_order.py": "ca5d784cddc16db44c8576e7ab2f154e312cab849e82c1485429a0c978b13309",
+    "research/ledger_diagnostic.py": "725a2dd8e871c6674d7aa567da2ab03c1d483655464dcc88221ed019bbf18f1c",
+    "research/test_ledger_diagnostic.py": "11e6d07cea81a152fc433ac3ab33fe626ac001c89dba1652e45e473444ecb218",
+    "research/mri_single.py": "ded2ee5a4c4c12ec6c4819edb73164a78e1f908195cb07c368563de598e24f2c",
+    "research/mri_third.py": "d621ea01e664f316974425cfb4496fb42a1ccbda5cfcc32b7f4b62df63ae6ae4",
+    "research/mri_kernel.py": "e0dae63ea82d025f63f6ed9b78b5d581b92f036df3cddb67d52e9450a40872c3",
+    "research/inner_dense.py": "e19b0221a27f5fa861c7a0877d64f9e04b638a3fc514326c7968541f13ec133b",
+    "research/m3_priority.py": "6cc6821a1ac9a811f16d25c20c067b9d0516d1cb3bf60b9d144bdc93adc43856",
+    "research/m3_ordered_cost.py": "65f4695f8bd500897bbc6b29afb7d935d4b0f500fc7d53cd99633835631ac5e5"
+  },
+  "input_sha256": {
+    "results/m3-priority/p0.npz": "8be94525b6c3caa007123f284101ab165b725d38ab1567a121f4923993ed4243",
+    "results/m3-inner-dense/history-0.npz": "aaa10e57f83084e1869e31a37e96a4c5939be057a5c832c7b5c9d1bfcb3ba4bc",
+    "results/m3-inner-dense/history-2.npz": "6263791a538866c0a84d00ce048da7d70c8e218a9b45e9d41acf3b020c246167",
+    "results/m3-shared-radau/manifest.json": "30b92a6896d6cc60ab2b2ba1f96824115fa46e7d728000d304b4428a8ced1ed8"
+  }
+}

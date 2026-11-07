@@ -1,0 +1,9 @@
+test_endpoint_and_output_error_are_distinguishable (research.test_ledger_diagnostic.LedgerDiagnosticChecks.test_endpoint_and_output_error_are_distinguishable) ... ok
+test_exact_inactive_forcing_and_both_ledgers (research.test_extrapolated_flow.ExtrapolatedFlowChecks.test_exact_inactive_forcing_and_both_ledgers) ... ok
+test_global_orders_and_pool_with_computed_startup (research.test_extrapolated_flow.ExtrapolatedFlowChecks.test_global_orders_and_pool_with_computed_startup) ... ok
+test_nonuniform_history_and_inactive_dense_integral (research.test_extrapolated_flow.ExtrapolatedFlowChecks.test_nonuniform_history_and_inactive_dense_integral) ... ok
+
+----------------------------------------------------------------------
+Ran 4 tests in 2.814s
+
+OK

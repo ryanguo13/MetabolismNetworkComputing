@@ -1,0 +1,53 @@
+{
+  "date": "2026-11-08",
+  "paths": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "step": 4,
+  "orders": [
+    2,
+    3,
+    4
+  ],
+  "tolerances": [
+    1e-06,
+    1e-08,
+    1e-10
+  ],
+  "initial_steps": [
+    "automatic",
+    "whole"
+  ],
+  "repeats": 1,
+  "scope": "One-run correctness/development screen, not formal cost evidence.",
+  "history": "Previous slow RHS from actual MRI3 endpoints; current slow RHS computed in timer. No reference-history injection. Method-generated history still requires separate trajectory validation.",
+  "formula": "P(s) interpolates q slow RHS samples at prior normalized times; solve vdot=f_fast(v)+P(t/H) once over H, inactive coordinates use exact integrated polynomial.",
+  "timing": "All output/internal/pool/modified and original physical ledger guards; independent error outside timer. Cached previous slow samples and grouping supplied, no startup, estimator or audit charged.",
+  "baseline": "Full Radau automatic and whole-interval initial attempt; all three tolerances and same guards.",
+  "source_sha256": {
+    "research/m3_extrapolated_study.py": "60234a1bdfaa972241a588e77aa2e239b5ea11cef3bc01e0d2ecc7405d74360a",
+    "research/extrapolated_flow.py": "2e5586c85464c8c49a6a55084ddadcf9cdac681d0459676f4c59397ae1af9d89",
+    "research/test_extrapolated_flow.py": "66e87649e0eb6dc612633981469959c92f27d11c6d4c4f9a38e0c4b7d57eadab",
+    "research/history_polynomial.py": "d583184d522d24b058862b57e891a42f8e670ede022045837191781ce95acf4e",
+    "research/shared_radau.py": "0174d7d91eb1a3d59d514493a730af52b1e1a1d10b764bb892716c9da666edef",
+    "research/fullstep_radau.py": "ec224519a31b512359d1645b4d2211e80b9d436a7cd6e7ff8dfca568d9439f32",
+    "research/inner_dense.py": "e19b0221a27f5fa861c7a0877d64f9e04b638a3fc514326c7968541f13ec133b",
+    "research/m3_priority.py": "6cc6821a1ac9a811f16d25c20c067b9d0516d1cb3bf60b9d144bdc93adc43856",
+    "research/m3_ordered_cost.py": "65f4695f8bd500897bbc6b29afb7d935d4b0f500fc7d53cd99633835631ac5e5"
+  },
+  "input_sha256": {
+    "results/m3-inner-dense/history.json": "f045bc9ab29c5a3a7fa5ec9a54c9a84f81d3ca48cd22b9ae3084caabc6277ae3",
+    "results/m3-shared-radau/manifest.json": "30b92a6896d6cc60ab2b2ba1f96824115fa46e7d728000d304b4428a8ced1ed8",
+    "results/m3-inner-dense/history-0.npz": "aaa10e57f83084e1869e31a37e96a4c5939be057a5c832c7b5c9d1bfcb3ba4bc",
+    "results/m3-inner-dense/history-1.npz": "0e5cc915916606ec14af6c35d9595e12117800aba04bc1043c2dc80b31e04d56",
+    "results/m3-inner-dense/history-2.npz": "6263791a538866c0a84d00ce048da7d70c8e218a9b45e9d41acf3b020c246167",
+    "results/m3-inner-dense/history-3.npz": "113e224efa72142a025a8548c8dc261d95f21c6b47bcc4003741dbdcd4913560",
+    "results/m3-inner-dense/history-4.npz": "32be3c3e826c56f70059eac62d88b9e06aac08245161895f43d3c34cc5aa5bd3",
+    "results/m3-inner-dense/history-5.npz": "96f2c95572fc3b052a826cd3b5a1f4bbae8339ef812db0dfb3d8356a919fbad5"
+  }
+}
