@@ -1,0 +1,11 @@
+{
+  "source_sha256": {
+    "research/cache_refinement_diagnostic.py": "1b1e95baf43bfd89cf99b0427e9c6f6f8494f4a3ddc0381e2b17475502eb85a0",
+    "research/refined_lu.py": "14b61486784acf73b02a4820ca4f50da4822f549a882c569199e7870e04b22cb"
+  },
+  "input_sha256": {
+    "results/m3-cached-row/0-original.npz": "e0d5aed428722578bb0805ba9b76657ce73cadf7f69c0598e61049f87261fe08",
+    "results/m3-cached-row/2-original.npz": "bd3420340820563f55e9223b51561f286e57752cf746a1caf70ace1204f987d0"
+  },
+  "motivation": "Initial component-relative refinement refreshes every subsequent predictor despite unchanged H. Compare original norm, weighted-infinity norm, current residual and fresh-LU forward discrepancy; eight iterations retained."
+}

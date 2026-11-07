@@ -1,0 +1,35 @@
+{
+  "date": "2026-11-08",
+  "paths": [
+    0,
+    1,
+    2,
+    3
+  ],
+  "grids": [
+    [
+      4,
+      8
+    ],
+    [
+      8,
+      16
+    ]
+  ],
+  "motivation": "All local strict steps can pass while global strict concentration error reaches1.465. Test existing frozen linearized cumulative defect estimator on own ROW output; no tuning of its factor4 score.",
+  "scope": "Eight post-hoc diagnostics on previously accepted original-ROW-SPC paths/prefix. Not independent prospective validation, not replacement for full ODE audits or cumulative ledger checks.",
+  "source_sha256": {
+    "research/m3_row_cumulative_shadow.py": "a678ec2df6ccd408051554305b51a5ad30efec683025e600e039a02a7cf242ce",
+    "research/defect_compact.py": "9663cdc526fa69d66f465988aaffbd1d6e2adb37952c300026f45a35a9a64000",
+    "research/defect_fast.py": "faaaafcb2cf069123bbacae3307c751dc6dce8dd0eb4e33f896981f39700e479",
+    "research/defect_shadow.py": "9197ca77f0143937c3169088ab7b8185f04598b75f1325f68d38016344de2265",
+    "research/m3_priority.py": "6cc6821a1ac9a811f16d25c20c067b9d0516d1cb3bf60b9d144bdc93adc43856"
+  },
+  "input_sha256": {
+    "results/m3-cached-row/runs.json": "896124036dbd2ddce14faba6e1a651bc18fe9e5693c6523b361d51fc9b220c4b",
+    "results/m3-cached-row/0-original.npz": "e0d5aed428722578bb0805ba9b76657ce73cadf7f69c0598e61049f87261fe08",
+    "results/m3-cached-row/1-original.npz": "38d135b7128be672eba5b5e784b91fcf87da53453b7f3bcc3f04e1df3a4f9baa",
+    "results/m3-cached-row/2-original.npz": "bd3420340820563f55e9223b51561f286e57752cf746a1caf70ace1204f987d0",
+    "results/m3-cached-row/3-original.npz": "24510e2cde43e5c4a163b16479d1d8ab1bc23a21e657a82ddfd6e4b09b99204b"
+  }
+}

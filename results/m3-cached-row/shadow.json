@@ -1,0 +1,720 @@
+{
+  "runs": [
+    {
+      "path": 0,
+      "model": "teusink",
+      "steps": 16,
+      "duration": 0.048,
+      "full_path": true,
+      "grids": [
+        4,
+        8
+      ],
+      "reference_budget": {
+        "concentration": 1.5722349852325162e-06,
+        "flux": 1.5722683743654852e-06
+      },
+      "reference_seconds": 0.020303375087678432,
+      "estimate": {
+        "status": "success",
+        "targets": {
+          "0.0001": {
+            "central": {
+              "concentration": 2.68327046096237e-05,
+              "flux": 2.6832705624216795e-05
+            },
+            "refinement": {
+              "concentration": 1.912720771757385e-06,
+              "flux": 4.600262214659275e-06
+            },
+            "score": {
+              "concentration": 0.00011498170152552433,
+              "flux": 0.0001257318713555043
+            },
+            "would_accept": true
+          },
+          "1e-06": {
+            "central": {
+              "concentration": 0.00268327046096237,
+              "flux": 0.0026832705624216797
+            },
+            "refinement": {
+              "concentration": 0.00019127207717573852,
+              "flux": 0.00046002622146592745
+            },
+            "score": {
+              "concentration": 0.011498170152552434,
+              "flux": 0.012573187135550428
+            },
+            "would_accept": true
+          }
+        },
+        "counts": [
+          {
+            "factorizations": 16,
+            "linear_solves": 128,
+            "defect_rhs_batches": 16
+          },
+          {
+            "factorizations": 16,
+            "linear_solves": 256,
+            "defect_rhs_batches": 16
+          }
+        ],
+        "seconds": 0.019739832961931825
+      },
+      "comparison": {
+        "0.0001": {
+          "actual_error": {
+            "concentration": 2.705606311062837e-05,
+            "flux": 2.7056063483123485e-05
+          },
+          "actual_error_pass": true,
+          "estimator_would_accept": true,
+          "false_accept": false
+        },
+        "1e-06": {
+          "actual_error": {
+            "concentration": 0.002705606311062837,
+            "flux": 0.0027056063483123487
+          },
+          "actual_error_pass": true,
+          "estimator_would_accept": true,
+          "false_accept": false
+        }
+      },
+      "scope": "Error estimate only; previously failed ledger/full-path gates cannot be overridden. Linearized error carried across every piece, never reset to zero per macro."
+    },
+    {
+      "path": 0,
+      "model": "teusink",
+      "steps": 16,
+      "duration": 0.048,
+      "full_path": true,
+      "grids": [
+        8,
+        16
+      ],
+      "reference_budget": {
+        "concentration": 1.5722349852325162e-06,
+        "flux": 1.5722683743654852e-06
+      },
+      "reference_seconds": 0.020303375087678432,
+      "estimate": {
+        "status": "success",
+        "targets": {
+          "0.0001": {
+            "central": {
+              "concentration": 2.701056145943016e-05,
+              "flux": 2.70105618062412e-05
+            },
+            "refinement": {
+              "concentration": 5.220709954266851e-07,
+              "flux": 1.2927134171903512e-06
+            },
+            "score": {
+              "concentration": 0.00011013052981942739,
+              "flux": 0.00011321310089372621
+            },
+            "would_accept": true
+          },
+          "1e-06": {
+            "central": {
+              "concentration": 0.002701056145943016,
+              "flux": 0.0027010561806241206
+            },
+            "refinement": {
+              "concentration": 5.220709954266851e-05,
+              "flux": 0.00012927134171903512
+            },
+            "score": {
+              "concentration": 0.01101305298194274,
+              "flux": 0.011321310089372623
+            },
+            "would_accept": true
+          }
+        },
+        "counts": [
+          {
+            "factorizations": 16,
+            "linear_solves": 256,
+            "defect_rhs_batches": 16
+          },
+          {
+            "factorizations": 16,
+            "linear_solves": 512,
+            "defect_rhs_batches": 16
+          }
+        ],
+        "seconds": 0.02273341710679233
+      },
+      "comparison": {
+        "0.0001": {
+          "actual_error": {
+            "concentration": 2.705606311062837e-05,
+            "flux": 2.7056063483123485e-05
+          },
+          "actual_error_pass": true,
+          "estimator_would_accept": true,
+          "false_accept": false
+        },
+        "1e-06": {
+          "actual_error": {
+            "concentration": 0.002705606311062837,
+            "flux": 0.0027056063483123487
+          },
+          "actual_error_pass": true,
+          "estimator_would_accept": true,
+          "false_accept": false
+        }
+      },
+      "scope": "Error estimate only; previously failed ledger/full-path gates cannot be overridden. Linearized error carried across every piece, never reset to zero per macro."
+    },
+    {
+      "path": 1,
+      "model": "teusink",
+      "steps": 11,
+      "duration": 0.11,
+      "full_path": false,
+      "grids": [
+        4,
+        8
+      ],
+      "reference_budget": {
+        "concentration": 1.5664638028011434e-06,
+        "flux": 1.5663096991359245e-06
+      },
+      "reference_seconds": 0.041615416994318366,
+      "estimate": {
+        "status": "success",
+        "targets": {
+          "0.0001": {
+            "central": {
+              "concentration": 0.001465401128809551,
+              "flux": 0.0014654011285826153
+            },
+            "refinement": {
+              "concentration": 0.00012940598560262794,
+              "flux": 0.000207645407294291
+            },
+            "score": {
+              "concentration": 0.006379228457648716,
+              "flux": 0.006692186143507625
+            },
+            "would_accept": true
+          },
+          "1e-06": {
+            "central": {
+              "concentration": 0.14654011288095511,
+              "flux": 0.14654011285826155
+            },
+            "refinement": {
+              "concentration": 0.012940598560262794,
+              "flux": 0.020764540729429102
+            },
+            "score": {
+              "concentration": 0.6379228457648717,
+              "flux": 0.6692186143507626
+            },
+            "would_accept": true
+          }
+        },
+        "counts": [
+          {
+            "factorizations": 11,
+            "linear_solves": 88,
+            "defect_rhs_batches": 11
+          },
+          {
+            "factorizations": 11,
+            "linear_solves": 176,
+            "defect_rhs_batches": 11
+          }
+        ],
+        "seconds": 0.014037417015060782
+      },
+      "comparison": {
+        "0.0001": {
+          "actual_error": {
+            "concentration": 0.0014865765177912642,
+            "flux": 0.0014865765179496485
+          },
+          "actual_error_pass": true,
+          "estimator_would_accept": true,
+          "false_accept": false
+        },
+        "1e-06": {
+          "actual_error": {
+            "concentration": 0.1486576517791264,
+            "flux": 0.14865765179496487
+          },
+          "actual_error_pass": true,
+          "estimator_would_accept": true,
+          "false_accept": false
+        }
+      },
+      "scope": "Error estimate only; previously failed ledger/full-path gates cannot be overridden. Linearized error carried across every piece, never reset to zero per macro."
+    },
+    {
+      "path": 1,
+      "model": "teusink",
+      "steps": 11,
+      "duration": 0.11,
+      "full_path": false,
+      "grids": [
+        8,
+        16
+      ],
+      "reference_budget": {
+        "concentration": 1.5664638028011434e-06,
+        "flux": 1.5663096991359245e-06
+      },
+      "reference_seconds": 0.041615416994318366,
+      "estimate": {
+        "status": "success",
+        "targets": {
+          "0.0001": {
+            "central": {
+              "concentration": 0.001485763241388944,
+              "flux": 0.0014857632409694375
+            },
+            "refinement": {
+              "concentration": 3.9554203114470644e-05,
+              "flux": 5.59450993056556e-05
+            },
+            "score": {
+              "concentration": 0.006101269778013658,
+              "flux": 0.006166833361100373
+            },
+            "would_accept": true
+          },
+          "1e-06": {
+            "central": {
+              "concentration": 0.1485763241388944,
+              "flux": 0.14857632409694377
+            },
+            "refinement": {
+              "concentration": 0.003955420311447065,
+              "flux": 0.005594509930565561
+            },
+            "score": {
+              "concentration": 0.6101269778013659,
+              "flux": 0.6166833361100373
+            },
+            "would_accept": true
+          }
+        },
+        "counts": [
+          {
+            "factorizations": 11,
+            "linear_solves": 176,
+            "defect_rhs_batches": 11
+          },
+          {
+            "factorizations": 11,
+            "linear_solves": 352,
+            "defect_rhs_batches": 11
+          }
+        ],
+        "seconds": 0.01591637497767806
+      },
+      "comparison": {
+        "0.0001": {
+          "actual_error": {
+            "concentration": 0.0014865765177912642,
+            "flux": 0.0014865765179496485
+          },
+          "actual_error_pass": true,
+          "estimator_would_accept": true,
+          "false_accept": false
+        },
+        "1e-06": {
+          "actual_error": {
+            "concentration": 0.1486576517791264,
+            "flux": 0.14865765179496487
+          },
+          "actual_error_pass": true,
+          "estimator_would_accept": true,
+          "false_accept": false
+        }
+      },
+      "scope": "Error estimate only; previously failed ledger/full-path gates cannot be overridden. Linearized error carried across every piece, never reset to zero per macro."
+    },
+    {
+      "path": 2,
+      "model": "kecoli",
+      "steps": 16,
+      "duration": 0.048,
+      "full_path": true,
+      "grids": [
+        4,
+        8
+      ],
+      "reference_budget": {
+        "concentration": 0.0014712485119823442,
+        "flux": 0.0005140359645334161,
+        "net_flux": 8.553913213574962e-05
+      },
+      "reference_seconds": 0.8565217920113355,
+      "estimate": {
+        "status": "success",
+        "targets": {
+          "0.0001": {
+            "central": {
+              "concentration": 0.014581794883726526,
+              "flux": 0.004496051252836652,
+              "net_flux": 0.09120604558359141
+            },
+            "refinement": {
+              "concentration": 0.0003304166111801867,
+              "flux": 0.0003304447337154976,
+              "net_flux": 0.0052640045865931925
+            },
+            "score": {
+              "concentration": 0.05964884597962685,
+              "flux": 0.019305983946208596,
+              "net_flux": 0.3858802006807384
+            },
+            "would_accept": true
+          },
+          "1e-06": {
+            "central": {
+              "concentration": 1.4581794883726529,
+              "flux": 0.44960512528366525,
+              "net_flux": 0.09120604558359141
+            },
+            "refinement": {
+              "concentration": 0.03304166111801867,
+              "flux": 0.03304447337154976,
+              "net_flux": 0.0052640045865931925
+            },
+            "score": {
+              "concentration": 5.964884597962686,
+              "flux": 1.93059839462086,
+              "net_flux": 0.3858802006807384
+            },
+            "would_accept": false
+          }
+        },
+        "counts": [
+          {
+            "factorizations": 16,
+            "linear_solves": 128,
+            "defect_rhs_batches": 16
+          },
+          {
+            "factorizations": 16,
+            "linear_solves": 256,
+            "defect_rhs_batches": 16
+          }
+        ],
+        "seconds": 0.6534879999235272
+      },
+      "comparison": {
+        "0.0001": {
+          "actual_error": {
+            "concentration": 0.01464960658914859,
+            "flux": 0.004517154776402955,
+            "net_flux": 0.09162162548141552
+          },
+          "actual_error_pass": true,
+          "estimator_would_accept": true,
+          "false_accept": false
+        },
+        "1e-06": {
+          "actual_error": {
+            "concentration": 1.4649606589148592,
+            "flux": 0.45171547764029546,
+            "net_flux": 0.09162162548141552
+          },
+          "actual_error_pass": false,
+          "estimator_would_accept": false,
+          "false_accept": false
+        }
+      },
+      "scope": "Error estimate only; previously failed ledger/full-path gates cannot be overridden. Linearized error carried across every piece, never reset to zero per macro."
+    },
+    {
+      "path": 2,
+      "model": "kecoli",
+      "steps": 16,
+      "duration": 0.048,
+      "full_path": true,
+      "grids": [
+        8,
+        16
+      ],
+      "reference_budget": {
+        "concentration": 0.0014712485119823442,
+        "flux": 0.0005140359645334161,
+        "net_flux": 8.553913213574962e-05
+      },
+      "reference_seconds": 0.8565217920113355,
+      "estimate": {
+        "status": "success",
+        "targets": {
+          "0.0001": {
+            "central": {
+              "concentration": 0.014632474458099887,
+              "flux": 0.004511843116748474,
+              "net_flux": 0.09151360725961291
+            },
+            "refinement": {
+              "concentration": 9.705077437587111e-05,
+              "flux": 9.705835650483717e-05,
+              "net_flux": 0.0015730688435738054
+            },
+            "score": {
+              "concentration": 0.05891810092990303,
+              "flux": 0.018435605893013247,
+              "net_flux": 0.37234670441274687
+            },
+            "would_accept": true
+          },
+          "1e-06": {
+            "central": {
+              "concentration": 1.463247445809989,
+              "flux": 0.45118431167484746,
+              "net_flux": 0.09151360725961291
+            },
+            "refinement": {
+              "concentration": 0.009705077437587114,
+              "flux": 0.009705835650483718,
+              "net_flux": 0.0015730688435738054
+            },
+            "score": {
+              "concentration": 5.891810092990304,
+              "flux": 1.8435605893013247,
+              "net_flux": 0.37234670441274687
+            },
+            "would_accept": false
+          }
+        },
+        "counts": [
+          {
+            "factorizations": 16,
+            "linear_solves": 256,
+            "defect_rhs_batches": 16
+          },
+          {
+            "factorizations": 16,
+            "linear_solves": 512,
+            "defect_rhs_batches": 16
+          }
+        ],
+        "seconds": 0.7287699170410633
+      },
+      "comparison": {
+        "0.0001": {
+          "actual_error": {
+            "concentration": 0.01464960658914859,
+            "flux": 0.004517154776402955,
+            "net_flux": 0.09162162548141552
+          },
+          "actual_error_pass": true,
+          "estimator_would_accept": true,
+          "false_accept": false
+        },
+        "1e-06": {
+          "actual_error": {
+            "concentration": 1.4649606589148592,
+            "flux": 0.45171547764029546,
+            "net_flux": 0.09162162548141552
+          },
+          "actual_error_pass": false,
+          "estimator_would_accept": false,
+          "false_accept": false
+        }
+      },
+      "scope": "Error estimate only; previously failed ledger/full-path gates cannot be overridden. Linearized error carried across every piece, never reset to zero per macro."
+    },
+    {
+      "path": 3,
+      "model": "kecoli",
+      "steps": 16,
+      "duration": 0.16,
+      "full_path": true,
+      "grids": [
+        4,
+        8
+      ],
+      "reference_budget": {
+        "concentration": 0.0019925613533951433,
+        "flux": 0.0008430740807456391,
+        "net_flux": 9.856485906984006e-05
+      },
+      "reference_seconds": 1.2078834590502083,
+      "estimate": {
+        "status": "success",
+        "targets": {
+          "0.0001": {
+            "central": {
+              "concentration": 0.00917372204350045,
+              "flux": 0.009173722035317128,
+              "net_flux": 0.5508959536856679
+            },
+            "refinement": {
+              "concentration": 0.005072739726135478,
+              "flux": 0.0027930613436483744,
+              "net_flux": 0.0367815304609386
+            },
+            "score": {
+              "concentration": 0.05698584707854371,
+              "flux": 0.04786713351586201,
+              "net_flux": 2.350709936586426
+            },
+            "would_accept": false
+          },
+          "1e-06": {
+            "central": {
+              "concentration": 0.9173722043500451,
+              "flux": 0.9173722035317128,
+              "net_flux": 0.5508959536856679
+            },
+            "refinement": {
+              "concentration": 0.5072739726135479,
+              "flux": 0.2793061343648375,
+              "net_flux": 0.0367815304609386
+            },
+            "score": {
+              "concentration": 5.698584707854372,
+              "flux": 4.786713351586201,
+              "net_flux": 2.350709936586426
+            },
+            "would_accept": false
+          }
+        },
+        "counts": [
+          {
+            "factorizations": 16,
+            "linear_solves": 128,
+            "defect_rhs_batches": 16
+          },
+          {
+            "factorizations": 16,
+            "linear_solves": 256,
+            "defect_rhs_batches": 16
+          }
+        ],
+        "seconds": 0.6351644159294665
+      },
+      "comparison": {
+        "0.0001": {
+          "actual_error": {
+            "concentration": 0.009231125496958734,
+            "flux": 0.009231125487266059,
+            "net_flux": 0.5534985837598351
+          },
+          "actual_error_pass": true,
+          "estimator_would_accept": false,
+          "false_accept": false
+        },
+        "1e-06": {
+          "actual_error": {
+            "concentration": 0.9231125496958736,
+            "flux": 0.9231125487266059,
+            "net_flux": 0.5534985837598351
+          },
+          "actual_error_pass": true,
+          "estimator_would_accept": false,
+          "false_accept": false
+        }
+      },
+      "scope": "Error estimate only; previously failed ledger/full-path gates cannot be overridden. Linearized error carried across every piece, never reset to zero per macro."
+    },
+    {
+      "path": 3,
+      "model": "kecoli",
+      "steps": 16,
+      "duration": 0.16,
+      "full_path": true,
+      "grids": [
+        8,
+        16
+      ],
+      "reference_budget": {
+        "concentration": 0.0019925613533951433,
+        "flux": 0.0008430740807456391,
+        "net_flux": 9.856485906984006e-05
+      },
+      "reference_seconds": 1.2078834590502083,
+      "estimate": {
+        "status": "success",
+        "targets": {
+          "0.0001": {
+            "central": {
+              "concentration": 0.00921250355941169,
+              "flux": 0.009212503550675757,
+              "net_flux": 0.5527526023096792
+            },
+            "refinement": {
+              "concentration": 0.0016965135551964075,
+              "flux": 0.0009915560544250823,
+              "net_flux": 0.012145736154511111
+            },
+            "score": {
+              "concentration": 0.04363606845843239,
+              "flux": 0.040816238420403356,
+              "net_flux": 2.259593353856761
+            },
+            "would_accept": false
+          },
+          "1e-06": {
+            "central": {
+              "concentration": 0.921250355941169,
+              "flux": 0.9212503550675757,
+              "net_flux": 0.5527526023096792
+            },
+            "refinement": {
+              "concentration": 0.16965135551964078,
+              "flux": 0.09915560544250825,
+              "net_flux": 0.012145736154511111
+            },
+            "score": {
+              "concentration": 4.363606845843239,
+              "flux": 4.081623842040336,
+              "net_flux": 2.259593353856761
+            },
+            "would_accept": false
+          }
+        },
+        "counts": [
+          {
+            "factorizations": 16,
+            "linear_solves": 256,
+            "defect_rhs_batches": 16
+          },
+          {
+            "factorizations": 16,
+            "linear_solves": 512,
+            "defect_rhs_batches": 16
+          }
+        ],
+        "seconds": 0.6687728329561651
+      },
+      "comparison": {
+        "0.0001": {
+          "actual_error": {
+            "concentration": 0.009231125496958734,
+            "flux": 0.009231125487266059,
+            "net_flux": 0.5534985837598351
+          },
+          "actual_error_pass": true,
+          "estimator_would_accept": false,
+          "false_accept": false
+        },
+        "1e-06": {
+          "actual_error": {
+            "concentration": 0.9231125496958736,
+            "flux": 0.9231125487266059,
+            "net_flux": 0.5534985837598351
+          },
+          "actual_error_pass": true,
+          "estimator_would_accept": false,
+          "false_accept": false
+        }
+      },
+      "scope": "Error estimate only; previously failed ledger/full-path gates cannot be overridden. Linearized error carried across every piece, never reset to zero per macro."
+    }
+  ]
+}

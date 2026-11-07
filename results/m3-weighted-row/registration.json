@@ -1,0 +1,67 @@
+{
+  "date": "2026-11-08",
+  "steps": 16,
+  "paths": [
+    {
+      "model": "teusink",
+      "start": 1.0,
+      "h": 0.003,
+      "threshold": 3.0
+    },
+    {
+      "model": "teusink",
+      "start": 1.0,
+      "h": 0.01,
+      "threshold": 3.0
+    },
+    {
+      "model": "kecoli",
+      "start": 0.1,
+      "h": 0.003,
+      "threshold": 1.0
+    },
+    {
+      "model": "kecoli",
+      "start": 0.1,
+      "h": 0.01,
+      "threshold": 0.01
+    }
+  ],
+  "variants": [
+    "original",
+    "cached",
+    "row-cached"
+  ],
+  "tolerance": 1e-06,
+  "selection": "Post-ROW screen: strict-qualified partitions at H=.003/.01, one per model/step. Not an independent confirmation or full original window.",
+  "cache": "Current Jacobian every macro; old LU only preconditions CURRENT matrices. At most8 corrections, weighted-infinity relative increment correction<=1e-12 with1e-14 denominator floor. Original component policy and all failed tests/data preserved. Predictor residual/scale<=1e-10; fast residual uses weighted current-matrix row norm. Failure refreshes current LU. No stale-Jacobian formula.",
+  "transactions": "Fresh local cache fork per trial. Commit only after independent strict local accuracy and structural gates; failed attempt discarded and path stops. Never mark failed steps as accepted coverage.",
+  "guards": "Batch only admitted generated SBML expression assembly, same scalar rates and complex-step derivative. Modified Gauss4/8 and physical Gauss8/16 share Gauss8 rates; all residual and quadrature checks retained. Aggregate modified defects are absolute sums.",
+  "baselines": "Uninterrupted mature Radau over the same16-step duration, original/shared/refined, tolerance1e-6/1e-8/1e-10, automatic/whole initial step. Full ROW receives both shared and refined options on identical macro grid.",
+  "audit": "Original scalar full ODE1e-12/1e-11 locally from actual candidate state and globally from prefix.65 points per macro plus public observations, budget<=.05. No reference history passed to algorithm.",
+  "timing": "Kernel+observation guards measured; cached grouping/setup separate. Optimistic cost excludes local audits; audited cost adds every local reference pair, setup and grouping. Global reference/accuracy scoring outside both. Single runs only, no formal repeats.",
+  "source_sha256": {
+    "research/weighted_row.py": "5aef0847a41bd73fd763b0b14cb223ef7419ec62fa9c7aa99a8a700566de7617",
+    "research/weighted_lu.py": "ddcbc3f951e333bab45268130c804ffc0109d36c226d458eb07aebef143b2a0f",
+    "research/test_weighted_row.py": "f66ad83a394d5da23d91add595748965546bb3340b03a9add40b6c856692524e",
+    "research/cached_row.py": "6cb850089a22e51ad2642a9ecb7ae8c93a7dc3f969785fce15e1cece39cbdcb8",
+    "research/refined_lu.py": "14b61486784acf73b02a4820ca4f50da4822f549a882c569199e7870e04b22cb",
+    "research/shared_ledger.py": "46a00d4ad74072c6044124c3ac220a87e3a89f7e444a992eaf4ef4b39bba979a",
+    "research/cached_full.py": "2fb0b45ae0c8fa9c32a3a83dc6ae432ae0dbc41f4bcf1b1b48fa518aeb69a4e1",
+    "research/test_cached_row.py": "b63e45ed67aab39eb3df0aae02eec3ffe433efd398638be229991232c9169fc3",
+    "research/m3_weighted_row_study.py": "5be2b26c880ca3836195d2ed4f7b103988980f5b458a7baf30a5187b0ca38410",
+    "research/row_continuous.py": "90260109dfa6238da79641594c00c3e1abe3f6d55dd4a578b3f0f7cc4a5cf2f7",
+    "research/row_spc.py": "aa52aeb6b469c5d5ff0ec28bcc148256c3b5f22fbce87b3e4f8cce2aa9cc07b7",
+    "research/shared_radau.py": "0174d7d91eb1a3d59d514493a730af52b1e1a1d10b764bb892716c9da666edef",
+    "research/ordered_radau.py": "f41f628d6575babc57ddf949706372357f379ad1ca9093f229826572c4a1c423",
+    "research/inner_dense.py": "e19b0221a27f5fa861c7a0877d64f9e04b638a3fc514326c7968541f13ec133b",
+    "research/m3_growth_study.py": "ef440e9984b74ff8440d0c6d4e1ec9e79e1ce32ac997535847e5ddf6a3e05955",
+    "research/m3_extrapolated_paths.py": "7ce2742d48adf31bb1b73372cb09f7085e18e1507d32b8543ac3c8217f9b64cf"
+  },
+  "input_sha256": {
+    "results/m3-row-spc/manifest.json": "6761b36dc1d748310dfa1725f285d3b4e4f30b3b0c0e2b7821b17f888c5f18e6",
+    "results/m3-cached-row/runs.json": "896124036dbd2ddce14faba6e1a651bc18fe9e5693c6523b361d51fc9b220c4b",
+    "results/m3-cached-row/refinement-diagnostic.json": "a2c26de91504a116357c74eaf5e3fd759a2c8bda20e06f5932e86933e7f1ad3d",
+    "results/m3-priority/p0.npz": "8be94525b6c3caa007123f284101ab165b725d38ab1567a121f4923993ed4243"
+  }
+}
