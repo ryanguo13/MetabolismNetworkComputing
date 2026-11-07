@@ -1366,6 +1366,35 @@
       "physical_ledger_residual": null
     }
   ],
+  "default_slow_structure": {
+    "model": "teusink",
+    "start": 1.0,
+    "fast_groups": [
+      0,
+      1,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16
+    ],
+    "slow_columns_zero_based": [
+      2,
+      3
+    ],
+    "slow_dependency_nonzeros": 0,
+    "slow_gradient_nonzeros": 0,
+    "time_dependent": false,
+    "consequence": "For this autonomous model and default grouping, slow forcing is constant; all MRI stages solve the same full vector field. A merged solve is a full-system control, not evidence of multirate acceleration."
+  },
   "M4_admission": false,
   "scope": "Local development only; no fresh-state promotion, online controller, full-window speed claim or reduced audit."
 }

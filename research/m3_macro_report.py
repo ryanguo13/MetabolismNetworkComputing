@@ -9,6 +9,8 @@ import numpy as np
 import scipy
 from metabolism.m2_experiments import save
 from metabolism.m3_continuation import prepare
+from metabolism.adaptive import GroupScreen
+from scipy.sparse import csc_matrix
 from research.mri_kernel import Hermite,GAUSS
 from research.m3_priority import metrics
 from research.m3_shadow_study import ROOT,digest,compare
@@ -112,14 +114,24 @@ def verify():
     for manifest in ('results/m3-ordered-cost/manifest.json','results/m3-shadow-fast/manifest.json'):
         for path,sha in read(ROOT/manifest).items():assert digest(ROOT/path)==sha,path
     checks['historical_manifests_unchanged']=2
+    small=cases['teusink'];state=np.load(SINGLE/'dev-teusink-3.npz')['initial']
+    screen=GroupScreen(small['system'],small['scale']);kappa,_=screen.evaluate(state)
+    fast_groups=np.flatnonzero(1e-3*kappa>=.01)
+    fast=np.concatenate([small['system'].groups[i] for i in fast_groups])
+    slow=np.setdiff1d(np.arange(small['system'].S.shape[1]),fast)
+    structure=dict(model='teusink',start=1.,fast_groups=fast_groups.tolist(),slow_columns_zero_based=slow.tolist(),
+        slow_dependency_nonzeros=csc_matrix(small['system'].dependencies)[slow].nnz,
+        slow_gradient_nonzeros=screen.gradient(state)[slow].nnz,time_dependent=small['system'].time_dependent,
+        consequence='For this autonomous model and default grouping, slow forcing is constant; all MRI stages solve the same full vector field. A merged solve is a full-system control, not evidence of multirate acceleration.')
+    assert structure['slow_dependency_nonzeros']==0 and not structure['time_dependent']
     return dict(date='2026-11-08',checks=dict(checks),counts=summary,timings=timings,third_output_diagnostics=diagnostics,
-        M4_admission=False,scope='Local development only; no fresh-state promotion, online controller, full-window speed claim or reduced audit.')
+        default_slow_structure=structure,M4_admission=False,scope='Local development only; no fresh-state promotion, online controller, full-window speed claim or reduced audit.')
 
 if __name__=='__main__':
     p=argparse.ArgumentParser();p.add_argument('--write',action='store_true');args=p.parse_args();result=verify()
     if args.write:
         save(SINGLE/'summary.json',result)
-        save(SINGLE/'environment.json',dict(python=sys.version,numpy=np.__version__,scipy=scipy.__version__,platform=platform.platform(),
+        if not (SINGLE/'environment.json').exists():save(SINGLE/'environment.json',dict(python=sys.version,numpy=np.__version__,scipy=scipy.__version__,platform=platform.platform(),
             parent_commit=subprocess.check_output(['git','rev-parse','HEAD'],text=True).strip(),execution='scripts/run-macos.sh; single-thread BLAS/OpenMP'))
         files=[p for directory in (SINGLE,THIRD) for p in directory.iterdir() if p.is_file() and p.name!='manifest.json']
         files += [ROOT/'research'/p for p in ('mri_single.py','mri_third.py','defect_compact.py','test_mri_single.py','test_mri_third.py','m3_single_study.py','m3_single_partitions.py','m3_third_study.py','m3_macro_report.py')]

@@ -1,5 +1,5 @@
 {
-  "results/m3-single/summary.json": "997383ea94af0a002fcf2dd8103dbfdb6dee45da22668249c814c89740c31ac1",
+  "results/m3-single/summary.json": "b876af4f503a2ef88b84e5b1db4f6645e95bfef1e6eb8338e9a285e144d2dbea",
   "results/m3-single/tests.txt": "38504e45c5d9d70ce88d1d55069868938c98fc9c3671ce4845397bb867ecf53c",
   "results/m3-single/cost-2.npz": "488b5ac3594146d8bdb8b06d1f74a8db649474462dfb5abc5360565eb895dbac",
   "results/m3-single/cost.json": "4c158898dff82c6e08480841f5cb01d7756466be552e05ef081794cc7a72de1b",
@@ -42,6 +42,6 @@
   "research/m3_single_study.py": "e16a24fd4b2b48133cedc3cffc3a65337cd29324155d34b176924dddb654efb5",
   "research/m3_single_partitions.py": "614c767e7e6fd817334c8cd12f9bcd252e77489183ccf91883f538086bc8b23e",
   "research/m3_third_study.py": "db04a61205f3886c919f9bb47216571030ab6e34f7263368ea3c60b78f2069e3",
-  "research/m3_macro_report.py": "8f6b35f40f9e8209ada48195cb3c2a39d82d3bd6a513be7ebb3fc81116ca1271",
-  "docs/m3-macro-redesign.md": "c05d1ff93da2e0a798336fb6c8ba9c0b4551140643e937a3fda438e6fec0db0f"
+  "research/m3_macro_report.py": "3c7fdd743cad3de1907e5b3a9994acabb48deda09cd7383dca17fb628b5ba863",
+  "docs/m3-macro-redesign.md": "9c70ece6f73dda84b2f81e52892a73b969f875e0ff96e2afad28fe50789a133e"
 }
