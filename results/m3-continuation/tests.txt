@@ -1,0 +1,50 @@
+$ /Users/guojunhua/Documents/MetabolismNetworkComputing/.venv/bin/python3 -m unittest discover -s tests -v
+test_accepts_fine_map_without_richardson_extrapolation (m3.test_adaptive.AdaptiveChecks.test_accepts_fine_map_without_richardson_extrapolation) ... ok
+test_adaptive_weak_chain_against_exponential (m3.test_adaptive.AdaptiveChecks.test_adaptive_weak_chain_against_exponential) ... ok
+test_coupled_slow_guard_and_no_clipping_on_invalid_model (m3.test_adaptive.AdaptiveChecks.test_coupled_slow_guard_and_no_clipping_on_invalid_model) ... ok
+test_group_norm_matches_explicit_shared_column_jacobians (m3.test_adaptive.AdaptiveChecks.test_group_norm_matches_explicit_shared_column_jacobians) ... ok
+test_hysteresis_band_and_equal_threshold_ablation (m3.test_adaptive.AdaptiveChecks.test_hysteresis_band_and_equal_threshold_ablation) ... ok
+test_native_fallback_from_accepted_state_with_shifted_times (m3.test_adaptive.AdaptiveChecks.test_native_fallback_from_accepted_state_with_shifted_times) ... ok
+test_piecewise_constant_event_lands_and_resets_history (m3.test_adaptive.AdaptiveChecks.test_piecewise_constant_event_lands_and_resets_history) ... ok
+test_rejections_leave_accepted_state_and_ledger_unchanged (m3.test_adaptive.AdaptiveChecks.test_rejections_leave_accepted_state_and_ledger_unchanged) ... ok
+test_timeout_is_a_recorded_failure_not_partial_success (m3.test_adaptive.AdaptiveChecks.test_timeout_is_a_recorded_failure_not_partial_success) ... ok
+test_unreliable_stiff_estimator_triggers_audit_fallback (m3.test_adaptive.AdaptiveChecks.test_unreliable_stiff_estimator_triggers_audit_fallback) ... ok
+test_stiff_reversible_chain_zero_initial_and_invariant (test_cvode.NativeChecks.test_stiff_reversible_chain_zero_initial_and_invariant) ... skipped 'Native SUNDIALS runtime is Linux/WSL'
+test_analytic_jacobian_directional_difference (test_kecoli.KEcoliChecks.test_analytic_jacobian_directional_difference) ... ok
+test_original_matlab_algebra_and_pools (test_kecoli.KEcoliChecks.test_original_matlab_algebra_and_pools) ... /Users/guojunhua/Documents/MetabolismNetworkComputing/tests/test_kecoli.py:29: DeprecationWarning: The default value for `spmatrix` is changing to `False` in v1.20.
+        That means the default return type will be a sparse array.
+        Unless you use * instead of @, ** for matrix power, or you depend
+        on 2D shapes from e.g. `A.sum(axis=0)` it may not matter to you.
+        See the spmatrix to sparray migration guide for details.
+        https://docs.scipy.org/doc/scipy/reference/sparse.migration_to_sparray.html
+        
+  data = loadmat(source)
+ok
+test_sparse_matrix_is_not_mutated_by_dependency_construction (test_kecoli.KEcoliChecks.test_sparse_matrix_is_not_mutated_by_dependency_construction) ... ok
+test_constant_volume_linear_flow (test_models.ModelChecks.test_constant_volume_linear_flow) ... ok
+test_public_models_against_independent_executor (test_models.ModelChecks.test_public_models_against_independent_executor) ... ok
+test_unknown_math_rejected (test_models.ModelChecks.test_unknown_math_rejected) ... ok
+test_binding_exact_flow_two_pools_and_numeric_composition (test_splitting.SplittingChecks.test_binding_exact_flow_two_pools_and_numeric_composition) ... ok
+test_chronological_flow_order_and_durations (test_splitting.SplittingChecks.test_chronological_flow_order_and_durations) ... ok
+test_exact_shared_chain_global_orders (test_splitting.SplittingChecks.test_exact_shared_chain_global_orders) ... ok
+test_full_modifier_dependency_survives_coordinate_reduction (test_splitting.SplittingChecks.test_full_modifier_dependency_survives_coordinate_reduction) ... ok
+test_negative_domain_and_nonautonomous_inputs_fail_explicitly (test_splitting.SplittingChecks.test_negative_domain_and_nonautonomous_inputs_fail_explicitly) ... ok
+test_numerical_flows_keep_shared_species_and_whole_pairs (test_splitting.SplittingChecks.test_numerical_flows_keep_shared_species_and_whole_pairs) ... ok
+test_open_balance_is_integrated_not_projected (test_splitting.SplittingChecks.test_open_balance_is_integrated_not_projected) ... ok
+
+----------------------------------------------------------------------
+Ran 24 tests in 3.330s
+
+OK (skipped=1)
+
+$ /Users/guojunhua/Documents/MetabolismNetworkComputing/.venv/bin/python3 -m unittest discover -s checks -v
+test_audited_interpolation_rejects_hidden_initial_layer (test_continuation.ContinuationChecks.test_audited_interpolation_rejects_hidden_initial_layer) ... ok
+test_failure_never_returns_partial_success (test_continuation.ContinuationChecks.test_failure_never_returns_partial_success) ... ok
+test_mac_native_runtime_against_matrix_exponential (test_continuation.ContinuationChecks.test_mac_native_runtime_against_matrix_exponential) ... ok
+test_output_grid_does_not_force_macro_landings_and_keeps_fine_map (test_continuation.ContinuationChecks.test_output_grid_does_not_force_macro_landings_and_keeps_fine_map) ... ok
+test_startup_is_computed_and_fallback_is_explicit (test_continuation.ContinuationChecks.test_startup_is_computed_and_fallback_is_explicit) ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 2.633s
+
+OK

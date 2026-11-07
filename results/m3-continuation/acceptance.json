@@ -1,0 +1,566 @@
+{
+  "checks": {
+    "complete_16_development_probes": true,
+    "complete_25_baseline_calibrations": true,
+    "teusink_probes_original_model_grid_scale_reference": true,
+    "teusink_probes_finite_failures_recorded": true,
+    "teusink_probes_saved_metrics_recompute": true,
+    "teusink_baselines_original_model_grid_scale_reference": true,
+    "teusink_baselines_finite_failures_recorded": true,
+    "teusink_baselines_saved_metrics_recompute": true,
+    "teusink_0.001_repeated_qualified_strong_baseline": true,
+    "teusink_1e-05_repeated_qualified_strong_baseline": true,
+    "kecoli_probes_original_model_grid_scale_reference": true,
+    "kecoli_probes_finite_failures_recorded": true,
+    "kecoli_probes_saved_metrics_recompute": true,
+    "kecoli_baselines_original_model_grid_scale_reference": true,
+    "kecoli_baselines_finite_failures_recorded": true,
+    "kecoli_baselines_saved_metrics_recompute": true,
+    "kecoli_0.001_repeated_qualified_strong_baseline": true,
+    "kecoli_1e-05_repeated_qualified_strong_baseline": true,
+    "accepted_splits_all_audited": true,
+    "rejections_rollback_and_no_clipping": true,
+    "mac_tests_pass_on_current_sources": true,
+    "historical_M3_evidence_unchanged": true,
+    "nine_inner_sensitivities_with_identical_frozen_maps": true,
+    "inner_sensitivity_metrics_recompute": true,
+    "local_reference_tightening_budget": true,
+    "candidate_selection_accounts_for_all_model_targets": true,
+    "candidate_repeats_preserve_audits_and_rollback": true
+  },
+  "evidence_integrity": "pass",
+  "M4_admission": "not_admitted",
+  "summaries": [
+    {
+      "model": "teusink",
+      "target": 0.001,
+      "config": "macro-dynamic-1-0.001",
+      "status": "success",
+      "seconds": 22.83560683298856,
+      "passes": true,
+      "split_coverage": 2.1669158916295158e-05,
+      "accepted_steps": 497,
+      "rejected_steps": 15,
+      "audit_seconds": 6.7843590506818146,
+      "split_seconds": 13.750998924253508,
+      "full_intervals": [
+        {
+          "start": 0.00021669158916295156,
+          "end": 10.0,
+          "reason": "registered_work_budget"
+        }
+      ],
+      "fastest_baseline": {
+        "config": "Radau-0.001",
+        "median": 0.7178068750072271,
+        "iqr": 0.015589187503792346
+      },
+      "exploratory_baseline_over_probe": 0.03143366761641191
+    },
+    {
+      "model": "teusink",
+      "target": 0.001,
+      "config": "startup-dynamic-1-0.001",
+      "status": "success",
+      "seconds": 39.51611041696742,
+      "passes": true,
+      "split_coverage": 0.00043147636838331287,
+      "accepted_steps": 506,
+      "rejected_steps": 6,
+      "audit_seconds": 13.380111711332574,
+      "split_seconds": 23.526550989365205,
+      "full_intervals": [
+        {
+          "start": 0.0,
+          "end": 0.001,
+          "reason": "registered_initial_layer"
+        },
+        {
+          "start": 0.005314763683833134,
+          "end": 10.0,
+          "reason": "registered_work_budget"
+        }
+      ],
+      "fastest_baseline": {
+        "config": "Radau-0.001",
+        "median": 0.7178068750072271,
+        "iqr": 0.015589187503792346
+      },
+      "exploratory_baseline_over_probe": 0.01816491723079646
+    },
+    {
+      "model": "teusink",
+      "target": 0.001,
+      "config": "startup-dynamic-5-0.001",
+      "status": "success",
+      "seconds": 46.21066283294931,
+      "passes": true,
+      "split_coverage": 0.00043147636838331287,
+      "accepted_steps": 506,
+      "rejected_steps": 6,
+      "audit_seconds": 15.536921380087733,
+      "split_seconds": 27.704301964957267,
+      "full_intervals": [
+        {
+          "start": 0.0,
+          "end": 0.001,
+          "reason": "registered_initial_layer"
+        },
+        {
+          "start": 0.005314763683833134,
+          "end": 10.0,
+          "reason": "registered_work_budget"
+        }
+      ],
+      "fastest_baseline": {
+        "config": "Radau-0.001",
+        "median": 0.7178068750072271,
+        "iqr": 0.015589187503792346
+      },
+      "exploratory_baseline_over_probe": 0.015533360289638901
+    },
+    {
+      "model": "teusink",
+      "target": 0.001,
+      "config": "startup-promoted-fast-0.001",
+      "status": "failed",
+      "seconds": 60.08071454218589,
+      "passes": false,
+      "split_coverage": 0.041295142939152554,
+      "accepted_steps": 335,
+      "rejected_steps": 4,
+      "audit_seconds": 17.09356658044271,
+      "split_seconds": 41.92413691803813,
+      "full_intervals": [
+        {
+          "start": 0.0,
+          "end": 0.001,
+          "reason": "registered_initial_layer"
+        }
+      ],
+      "fastest_baseline": {
+        "config": "Radau-0.001",
+        "median": 0.7178068750072271,
+        "iqr": 0.015589187503792346
+      },
+      "exploratory_baseline_over_probe": 0.011947375800652577
+    },
+    {
+      "model": "teusink",
+      "target": 1e-05,
+      "config": "macro-dynamic-1-1e-05",
+      "status": "success",
+      "seconds": 9.569936499930918,
+      "passes": true,
+      "split_coverage": 0.0,
+      "accepted_steps": 0,
+      "rejected_steps": 16,
+      "audit_seconds": 4.331853251438588,
+      "split_seconds": 2.965511792106554,
+      "full_intervals": [
+        {
+          "start": 0.0,
+          "end": 10.0,
+          "reason": "consecutive_rejections"
+        }
+      ],
+      "fastest_baseline": {
+        "config": "Radau-1e-05",
+        "median": 0.7278831670992076,
+        "iqr": 0.03055137488991022
+      },
+      "exploratory_baseline_over_probe": 0.07605935181539208
+    },
+    {
+      "model": "teusink",
+      "target": 1e-05,
+      "config": "startup-dynamic-1-1e-05",
+      "status": "success",
+      "seconds": 16.835124166915193,
+      "passes": true,
+      "split_coverage": 1.2255859374999953e-05,
+      "accepted_steps": 251,
+      "rejected_steps": 261,
+      "audit_seconds": 1.005727662704885,
+      "split_seconds": 12.667180468561128,
+      "full_intervals": [
+        {
+          "start": 0.0,
+          "end": 0.001,
+          "reason": "registered_initial_layer"
+        },
+        {
+          "start": 0.0011225585937499865,
+          "end": 10.0,
+          "reason": "registered_work_budget"
+        }
+      ],
+      "fastest_baseline": {
+        "config": "Radau-1e-05",
+        "median": 0.7278831670992076,
+        "iqr": 0.03055137488991022
+      },
+      "exploratory_baseline_over_probe": 0.04323598447403565
+    },
+    {
+      "model": "teusink",
+      "target": 1e-05,
+      "config": "startup-dynamic-5-1e-05",
+      "status": "success",
+      "seconds": 17.53447095886804,
+      "passes": true,
+      "split_coverage": 1.2255859374999953e-05,
+      "accepted_steps": 251,
+      "rejected_steps": 261,
+      "audit_seconds": 1.0334681237582117,
+      "split_seconds": 13.169492372078821,
+      "full_intervals": [
+        {
+          "start": 0.0,
+          "end": 0.001,
+          "reason": "registered_initial_layer"
+        },
+        {
+          "start": 0.0011225585937499865,
+          "end": 10.0,
+          "reason": "registered_work_budget"
+        }
+      ],
+      "fastest_baseline": {
+        "config": "Radau-1e-05",
+        "median": 0.7278831670992076,
+        "iqr": 0.03055137488991022
+      },
+      "exploratory_baseline_over_probe": 0.041511555655523294
+    },
+    {
+      "model": "teusink",
+      "target": 1e-05,
+      "config": "startup-promoted-fast-1e-05",
+      "status": "success",
+      "seconds": 15.298188375076279,
+      "passes": true,
+      "split_coverage": 4.757384428502281e-05,
+      "accepted_steps": 502,
+      "rejected_steps": 10,
+      "audit_seconds": 3.04578199214302,
+      "split_seconds": 9.249784503132105,
+      "full_intervals": [
+        {
+          "start": 0.0,
+          "end": 0.001,
+          "reason": "registered_initial_layer"
+        },
+        {
+          "start": 0.0014757384428502295,
+          "end": 10.0,
+          "reason": "registered_work_budget"
+        }
+      ],
+      "fastest_baseline": {
+        "config": "Radau-1e-05",
+        "median": 0.7278831670992076,
+        "iqr": 0.03055137488991022
+      },
+      "exploratory_baseline_over_probe": 0.047579696971510085
+    },
+    {
+      "model": "kecoli",
+      "target": 0.001,
+      "config": "macro-dynamic-1-0.001",
+      "status": "success",
+      "seconds": 11.02882287511602,
+      "passes": true,
+      "split_coverage": 0.0,
+      "accepted_steps": 0,
+      "rejected_steps": 4,
+      "audit_seconds": 3.384192501194775,
+      "split_seconds": 4.709744792897254,
+      "full_intervals": [
+        {
+          "start": 0.0,
+          "end": 1.0,
+          "reason": "coupled_slow_norm_bound"
+        }
+      ],
+      "fastest_baseline": {
+        "config": "CVODE-KLU-0.001",
+        "median": 1.4079387921374291,
+        "iqr": 0.07165524957235903
+      },
+      "exploratory_baseline_over_probe": 0.12765993325671376
+    },
+    {
+      "model": "kecoli",
+      "target": 0.001,
+      "config": "startup-dynamic-1-0.001",
+      "status": "success",
+      "seconds": 10.207324708113447,
+      "passes": true,
+      "split_coverage": 0.0,
+      "accepted_steps": 0,
+      "rejected_steps": 4,
+      "audit_seconds": 1.592793666291982,
+      "split_seconds": 4.972035999875516,
+      "full_intervals": [
+        {
+          "start": 0.0,
+          "end": 0.001,
+          "reason": "registered_initial_layer"
+        },
+        {
+          "start": 0.001,
+          "end": 1.0,
+          "reason": "coupled_slow_norm_bound"
+        }
+      ],
+      "fastest_baseline": {
+        "config": "CVODE-KLU-0.001",
+        "median": 1.4079387921374291,
+        "iqr": 0.07165524957235903
+      },
+      "exploratory_baseline_over_probe": 0.13793416320128501
+    },
+    {
+      "model": "kecoli",
+      "target": 0.001,
+      "config": "startup-dynamic-5-0.001",
+      "status": "success",
+      "seconds": 9.864346041111276,
+      "passes": true,
+      "split_coverage": 0.0,
+      "accepted_steps": 0,
+      "rejected_steps": 4,
+      "audit_seconds": 1.5602773332502693,
+      "split_seconds": 4.730898750945926,
+      "full_intervals": [
+        {
+          "start": 0.0,
+          "end": 0.001,
+          "reason": "registered_initial_layer"
+        },
+        {
+          "start": 0.001,
+          "end": 1.0,
+          "reason": "coupled_slow_norm_bound"
+        }
+      ],
+      "fastest_baseline": {
+        "config": "CVODE-KLU-0.001",
+        "median": 1.4079387921374291,
+        "iqr": 0.07165524957235903
+      },
+      "exploratory_baseline_over_probe": 0.14273006910641758
+    },
+    {
+      "model": "kecoli",
+      "target": 0.001,
+      "config": "startup-promoted-fast-0.001",
+      "status": "success",
+      "seconds": 33.62965466687456,
+      "passes": true,
+      "split_coverage": 0.0,
+      "accepted_steps": 0,
+      "rejected_steps": 16,
+      "audit_seconds": 3.887026962125674,
+      "split_seconds": 26.044446914456785,
+      "full_intervals": [
+        {
+          "start": 0.0,
+          "end": 0.001,
+          "reason": "registered_initial_layer"
+        },
+        {
+          "start": 0.001,
+          "end": 1.0,
+          "reason": "consecutive_rejections"
+        }
+      ],
+      "fastest_baseline": {
+        "config": "CVODE-KLU-0.001",
+        "median": 1.4079387921374291,
+        "iqr": 0.07165524957235903
+      },
+      "exploratory_baseline_over_probe": 0.04186599018289232
+    },
+    {
+      "model": "kecoli",
+      "target": 1e-05,
+      "config": "macro-dynamic-1-1e-05",
+      "status": "success",
+      "seconds": 11.051204917021096,
+      "passes": true,
+      "split_coverage": 0.0,
+      "accepted_steps": 0,
+      "rejected_steps": 4,
+      "audit_seconds": 3.366158291231841,
+      "split_seconds": 4.747710541123524,
+      "full_intervals": [
+        {
+          "start": 0.0,
+          "end": 1.0,
+          "reason": "coupled_slow_norm_bound"
+        }
+      ],
+      "fastest_baseline": {
+        "config": "CVODE-KLU-1e-05",
+        "median": 1.3920109998434782,
+        "iqr": 0.20584322954528034
+      },
+      "exploratory_baseline_over_probe": 0.12596011116394187
+    },
+    {
+      "model": "kecoli",
+      "target": 1e-05,
+      "config": "startup-dynamic-1-1e-05",
+      "status": "success",
+      "seconds": 9.817509750137106,
+      "passes": true,
+      "split_coverage": 0.0,
+      "accepted_steps": 0,
+      "rejected_steps": 4,
+      "audit_seconds": 1.5405493329744786,
+      "split_seconds": 4.714502125047147,
+      "full_intervals": [
+        {
+          "start": 0.0,
+          "end": 0.001,
+          "reason": "registered_initial_layer"
+        },
+        {
+          "start": 0.001,
+          "end": 1.0,
+          "reason": "coupled_slow_norm_bound"
+        }
+      ],
+      "fastest_baseline": {
+        "config": "CVODE-KLU-1e-05",
+        "median": 1.3920109998434782,
+        "iqr": 0.20584322954528034
+      },
+      "exploratory_baseline_over_probe": 0.1417886037570819
+    },
+    {
+      "model": "kecoli",
+      "target": 1e-05,
+      "config": "startup-dynamic-5-1e-05",
+      "status": "success",
+      "seconds": 9.802417083177716,
+      "passes": true,
+      "split_coverage": 0.0,
+      "accepted_steps": 0,
+      "rejected_steps": 4,
+      "audit_seconds": 1.5374024987686425,
+      "split_seconds": 4.75586183485575,
+      "full_intervals": [
+        {
+          "start": 0.0,
+          "end": 0.001,
+          "reason": "registered_initial_layer"
+        },
+        {
+          "start": 0.001,
+          "end": 1.0,
+          "reason": "coupled_slow_norm_bound"
+        }
+      ],
+      "fastest_baseline": {
+        "config": "CVODE-KLU-1e-05",
+        "median": 1.3920109998434782,
+        "iqr": 0.20584322954528034
+      },
+      "exploratory_baseline_over_probe": 0.1420069140122959
+    },
+    {
+      "model": "kecoli",
+      "target": 1e-05,
+      "config": "startup-promoted-fast-1e-05",
+      "status": "success",
+      "seconds": 37.64027112512849,
+      "passes": true,
+      "split_coverage": 0.0,
+      "accepted_steps": 0,
+      "rejected_steps": 16,
+      "audit_seconds": 4.50674216542393,
+      "split_seconds": 29.399850667454302,
+      "full_intervals": [
+        {
+          "start": 0.0,
+          "end": 0.001,
+          "reason": "registered_initial_layer"
+        },
+        {
+          "start": 0.001,
+          "end": 1.0,
+          "reason": "consecutive_rejections"
+        }
+      ],
+      "fastest_baseline": {
+        "config": "CVODE-KLU-1e-05",
+        "median": 1.3920109998434782,
+        "iqr": 0.20584322954528034
+      },
+      "exploratory_baseline_over_probe": 0.03698195996559061
+    }
+  ],
+  "efficiency": [
+    {
+      "model": "teusink",
+      "target": 0.001,
+      "qualified": false,
+      "median_speedup": null,
+      "passes": false
+    },
+    {
+      "model": "teusink",
+      "target": 1e-05,
+      "qualified": false,
+      "median_speedup": null,
+      "passes": false
+    },
+    {
+      "model": "kecoli",
+      "target": 0.001,
+      "qualified": false,
+      "median_speedup": null,
+      "passes": false
+    },
+    {
+      "model": "kecoli",
+      "target": 1e-05,
+      "qualified": false,
+      "median_speedup": null,
+      "passes": false
+    }
+  ],
+  "reason": "Independent audits remain mandatory; no repeated qualifying split advantage demonstrated.",
+  "limits": [
+    "Probes are single development runs, not formal speedup claims.",
+    "Piecewise-linear split outputs are independently audited only on the registered grid and quarter points.",
+    "No PE, M5, M6 or held-out validation performed."
+  ],
+  "evidence_sha256": {
+    "checks/test_continuation.py": "f65453d9834e8eb38463bdb39497a391e0273efb4d5c197533643fead7e5af52",
+    "docs/m3-macos-continuation.md": "86d807f8dc5e9639704d5134062fe5fa4d0925c8dd530a50c898cb0402c06538",
+    "metabolism/__init__.py": "741ff9b36f011f5cbb72e2a148f9b67c30dbdfaac866116b971f5255826801da",
+    "metabolism/continuation.py": "5ab80a104e33f8a37160fb4ab113de62d00e5a4b60afc4d30517e78d5e98f210",
+    "metabolism/m3_continuation.py": "90b539d8f7ce2dae6d574b6285bcd66fcb4b95b3950f96ff81fed6301bd65401",
+    "results/m3-continuation/README.md": "fb66ecd4a61c4f4fb3086ea19461a69549cce618bdcb4ba9f51952e9a5de1370",
+    "results/m3-continuation/baseline-calibration.json": "140cbc081902927540e07501e71ebd9ded6bd242ca2425ed40a378dc75975c9c",
+    "results/m3-continuation/baselines.json": "a3b53a728c7738fb520967e3d565df5ba3f9cc524ddf884ebdae1bce53a6a543",
+    "results/m3-continuation/candidates.json": "8d2dcb054e566dd6fefe5d9ec0345cfc088d963dc15e6a22937bc8fd9d9491d5",
+    "results/m3-continuation/environment.json": "3c9891459eef6ca0bf919edcc797481dbc1549d54f9eb20f7232175c553dbbf0",
+    "results/m3-continuation/inner-sensitivity.json": "287977252572686341c4a0e18141870f6db076fa247cc67f01570cb85e243338",
+    "results/m3-continuation/inner-sensitivity.npz": "d862490bfac29cbb4b06a92cfd330036bc0c4ec911e02356381f58b7a5f34dc7",
+    "results/m3-continuation/kecoli-baselines.npz": "51142a385c4e1cbfad0b07eeefd34ba6e951afdf360e213baaae9bd89ffb8616",
+    "results/m3-continuation/kecoli-probes.npz": "60d9db221f008beb80ba9ce6a6ac87d1a30e66df25675b878451c82128a5812d",
+    "results/m3-continuation/probes.json": "4f22bf6ac7463d43a8d390b1baadb06a2f162d65e140f78eb3896c71df28dcb1",
+    "results/m3-continuation/summary.json": "deec38d4a6d5493182edf5d80cccf1724a922ec412e9b94924bdbf6f5a8d6d7c",
+    "results/m3-continuation/tests.json": "cddb3999507286a132edc1cc16b76a082d0c6c250fc721ac8a5c2a206e93d31d",
+    "results/m3-continuation/tests.txt": "3e0480a380a86a69579fdffa83d20ef8ec07c0446cc6e7b25ea57b7912fd92c9",
+    "results/m3-continuation/teusink-baselines.npz": "9a4382396c00afa22ab41f978350e30e5d8e8fe305166717dba258bb701eadd8",
+    "results/m3-continuation/teusink-probes.npz": "d65fff2cb35e2dc8285a1330bd0ecd440250d1544a63e426da8cfb8dc32f880e",
+    "scripts/run-macos.sh": "269f1fbf63366932a827d4e712450f2b3f02e43e8d23eb475eeb7732dd3a2dfe",
+    "scripts/setup-macos.sh": "1da5b4782d451abd921fe794332f15e3585180e6c47a2a988c19994744b7550a"
+  }
+}

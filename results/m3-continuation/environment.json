@@ -1,0 +1,13 @@
+{
+  "date": "2026-11-07 Asia/Shanghai",
+  "python": "3.12.10",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1",
+  "platform": "macOS-26.6.2-arm64-arm-64bit",
+  "threads": {
+    "OPENBLAS_NUM_THREADS": "1",
+    "OMP_NUM_THREADS": "1",
+    "MKL_NUM_THREADS": "1"
+  },
+  "native": "Project-local SUNDIALS 6.4.1, double/int64, SuiteSparse KLU; see scripts/setup-macos.sh"
+}

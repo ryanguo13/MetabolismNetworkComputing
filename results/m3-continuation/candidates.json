@@ -1,0 +1,27 @@
+{
+  "selection_rule": "Accurate single probe, split coverage >= 0.5, faster than qualified repeated baseline; select the fastest prospect per model/target, then warmup + 7 repeats.",
+  "selected": [],
+  "skipped": [
+    {
+      "model": "teusink",
+      "target": 0.001,
+      "reason": "No accurate probe with at least half-window split coverage is faster than a qualified repeated baseline."
+    },
+    {
+      "model": "teusink",
+      "target": 1e-05,
+      "reason": "No accurate probe with at least half-window split coverage is faster than a qualified repeated baseline."
+    },
+    {
+      "model": "kecoli",
+      "target": 0.001,
+      "reason": "No accurate probe with at least half-window split coverage is faster than a qualified repeated baseline."
+    },
+    {
+      "model": "kecoli",
+      "target": 1e-05,
+      "reason": "No accurate probe with at least half-window split coverage is faster than a qualified repeated baseline."
+    }
+  ],
+  "runs": []
+}

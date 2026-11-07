@@ -1,0 +1,473 @@
+[
+  {
+    "model": "teusink",
+    "target": 0.001,
+    "config": "macro-dynamic-1-0.001",
+    "status": "success",
+    "seconds": 22.83560683298856,
+    "passes": true,
+    "split_coverage": 2.1669158916295158e-05,
+    "accepted_steps": 497,
+    "rejected_steps": 15,
+    "audit_seconds": 6.7843590506818146,
+    "split_seconds": 13.750998924253508,
+    "full_intervals": [
+      {
+        "start": 0.00021669158916295156,
+        "end": 10.0,
+        "reason": "registered_work_budget"
+      }
+    ],
+    "fastest_baseline": {
+      "config": "Radau-0.001",
+      "median": 0.7178068750072271,
+      "iqr": 0.015589187503792346
+    },
+    "exploratory_baseline_over_probe": 0.03143366761641191
+  },
+  {
+    "model": "teusink",
+    "target": 0.001,
+    "config": "startup-dynamic-1-0.001",
+    "status": "success",
+    "seconds": 39.51611041696742,
+    "passes": true,
+    "split_coverage": 0.00043147636838331287,
+    "accepted_steps": 506,
+    "rejected_steps": 6,
+    "audit_seconds": 13.380111711332574,
+    "split_seconds": 23.526550989365205,
+    "full_intervals": [
+      {
+        "start": 0.0,
+        "end": 0.001,
+        "reason": "registered_initial_layer"
+      },
+      {
+        "start": 0.005314763683833134,
+        "end": 10.0,
+        "reason": "registered_work_budget"
+      }
+    ],
+    "fastest_baseline": {
+      "config": "Radau-0.001",
+      "median": 0.7178068750072271,
+      "iqr": 0.015589187503792346
+    },
+    "exploratory_baseline_over_probe": 0.01816491723079646
+  },
+  {
+    "model": "teusink",
+    "target": 0.001,
+    "config": "startup-dynamic-5-0.001",
+    "status": "success",
+    "seconds": 46.21066283294931,
+    "passes": true,
+    "split_coverage": 0.00043147636838331287,
+    "accepted_steps": 506,
+    "rejected_steps": 6,
+    "audit_seconds": 15.536921380087733,
+    "split_seconds": 27.704301964957267,
+    "full_intervals": [
+      {
+        "start": 0.0,
+        "end": 0.001,
+        "reason": "registered_initial_layer"
+      },
+      {
+        "start": 0.005314763683833134,
+        "end": 10.0,
+        "reason": "registered_work_budget"
+      }
+    ],
+    "fastest_baseline": {
+      "config": "Radau-0.001",
+      "median": 0.7178068750072271,
+      "iqr": 0.015589187503792346
+    },
+    "exploratory_baseline_over_probe": 0.015533360289638901
+  },
+  {
+    "model": "teusink",
+    "target": 0.001,
+    "config": "startup-promoted-fast-0.001",
+    "status": "failed",
+    "seconds": 60.08071454218589,
+    "passes": false,
+    "split_coverage": 0.041295142939152554,
+    "accepted_steps": 335,
+    "rejected_steps": 4,
+    "audit_seconds": 17.09356658044271,
+    "split_seconds": 41.92413691803813,
+    "full_intervals": [
+      {
+        "start": 0.0,
+        "end": 0.001,
+        "reason": "registered_initial_layer"
+      }
+    ],
+    "fastest_baseline": {
+      "config": "Radau-0.001",
+      "median": 0.7178068750072271,
+      "iqr": 0.015589187503792346
+    },
+    "exploratory_baseline_over_probe": 0.011947375800652577
+  },
+  {
+    "model": "teusink",
+    "target": 1e-05,
+    "config": "macro-dynamic-1-1e-05",
+    "status": "success",
+    "seconds": 9.569936499930918,
+    "passes": true,
+    "split_coverage": 0.0,
+    "accepted_steps": 0,
+    "rejected_steps": 16,
+    "audit_seconds": 4.331853251438588,
+    "split_seconds": 2.965511792106554,
+    "full_intervals": [
+      {
+        "start": 0.0,
+        "end": 10.0,
+        "reason": "consecutive_rejections"
+      }
+    ],
+    "fastest_baseline": {
+      "config": "Radau-1e-05",
+      "median": 0.7278831670992076,
+      "iqr": 0.03055137488991022
+    },
+    "exploratory_baseline_over_probe": 0.07605935181539208
+  },
+  {
+    "model": "teusink",
+    "target": 1e-05,
+    "config": "startup-dynamic-1-1e-05",
+    "status": "success",
+    "seconds": 16.835124166915193,
+    "passes": true,
+    "split_coverage": 1.2255859374999953e-05,
+    "accepted_steps": 251,
+    "rejected_steps": 261,
+    "audit_seconds": 1.005727662704885,
+    "split_seconds": 12.667180468561128,
+    "full_intervals": [
+      {
+        "start": 0.0,
+        "end": 0.001,
+        "reason": "registered_initial_layer"
+      },
+      {
+        "start": 0.0011225585937499865,
+        "end": 10.0,
+        "reason": "registered_work_budget"
+      }
+    ],
+    "fastest_baseline": {
+      "config": "Radau-1e-05",
+      "median": 0.7278831670992076,
+      "iqr": 0.03055137488991022
+    },
+    "exploratory_baseline_over_probe": 0.04323598447403565
+  },
+  {
+    "model": "teusink",
+    "target": 1e-05,
+    "config": "startup-dynamic-5-1e-05",
+    "status": "success",
+    "seconds": 17.53447095886804,
+    "passes": true,
+    "split_coverage": 1.2255859374999953e-05,
+    "accepted_steps": 251,
+    "rejected_steps": 261,
+    "audit_seconds": 1.0334681237582117,
+    "split_seconds": 13.169492372078821,
+    "full_intervals": [
+      {
+        "start": 0.0,
+        "end": 0.001,
+        "reason": "registered_initial_layer"
+      },
+      {
+        "start": 0.0011225585937499865,
+        "end": 10.0,
+        "reason": "registered_work_budget"
+      }
+    ],
+    "fastest_baseline": {
+      "config": "Radau-1e-05",
+      "median": 0.7278831670992076,
+      "iqr": 0.03055137488991022
+    },
+    "exploratory_baseline_over_probe": 0.041511555655523294
+  },
+  {
+    "model": "teusink",
+    "target": 1e-05,
+    "config": "startup-promoted-fast-1e-05",
+    "status": "success",
+    "seconds": 15.298188375076279,
+    "passes": true,
+    "split_coverage": 4.757384428502281e-05,
+    "accepted_steps": 502,
+    "rejected_steps": 10,
+    "audit_seconds": 3.04578199214302,
+    "split_seconds": 9.249784503132105,
+    "full_intervals": [
+      {
+        "start": 0.0,
+        "end": 0.001,
+        "reason": "registered_initial_layer"
+      },
+      {
+        "start": 0.0014757384428502295,
+        "end": 10.0,
+        "reason": "registered_work_budget"
+      }
+    ],
+    "fastest_baseline": {
+      "config": "Radau-1e-05",
+      "median": 0.7278831670992076,
+      "iqr": 0.03055137488991022
+    },
+    "exploratory_baseline_over_probe": 0.047579696971510085
+  },
+  {
+    "model": "kecoli",
+    "target": 0.001,
+    "config": "macro-dynamic-1-0.001",
+    "status": "success",
+    "seconds": 11.02882287511602,
+    "passes": true,
+    "split_coverage": 0.0,
+    "accepted_steps": 0,
+    "rejected_steps": 4,
+    "audit_seconds": 3.384192501194775,
+    "split_seconds": 4.709744792897254,
+    "full_intervals": [
+      {
+        "start": 0.0,
+        "end": 1.0,
+        "reason": "coupled_slow_norm_bound"
+      }
+    ],
+    "fastest_baseline": {
+      "config": "CVODE-KLU-0.001",
+      "median": 1.4079387921374291,
+      "iqr": 0.07165524957235903
+    },
+    "exploratory_baseline_over_probe": 0.12765993325671376
+  },
+  {
+    "model": "kecoli",
+    "target": 0.001,
+    "config": "startup-dynamic-1-0.001",
+    "status": "success",
+    "seconds": 10.207324708113447,
+    "passes": true,
+    "split_coverage": 0.0,
+    "accepted_steps": 0,
+    "rejected_steps": 4,
+    "audit_seconds": 1.592793666291982,
+    "split_seconds": 4.972035999875516,
+    "full_intervals": [
+      {
+        "start": 0.0,
+        "end": 0.001,
+        "reason": "registered_initial_layer"
+      },
+      {
+        "start": 0.001,
+        "end": 1.0,
+        "reason": "coupled_slow_norm_bound"
+      }
+    ],
+    "fastest_baseline": {
+      "config": "CVODE-KLU-0.001",
+      "median": 1.4079387921374291,
+      "iqr": 0.07165524957235903
+    },
+    "exploratory_baseline_over_probe": 0.13793416320128501
+  },
+  {
+    "model": "kecoli",
+    "target": 0.001,
+    "config": "startup-dynamic-5-0.001",
+    "status": "success",
+    "seconds": 9.864346041111276,
+    "passes": true,
+    "split_coverage": 0.0,
+    "accepted_steps": 0,
+    "rejected_steps": 4,
+    "audit_seconds": 1.5602773332502693,
+    "split_seconds": 4.730898750945926,
+    "full_intervals": [
+      {
+        "start": 0.0,
+        "end": 0.001,
+        "reason": "registered_initial_layer"
+      },
+      {
+        "start": 0.001,
+        "end": 1.0,
+        "reason": "coupled_slow_norm_bound"
+      }
+    ],
+    "fastest_baseline": {
+      "config": "CVODE-KLU-0.001",
+      "median": 1.4079387921374291,
+      "iqr": 0.07165524957235903
+    },
+    "exploratory_baseline_over_probe": 0.14273006910641758
+  },
+  {
+    "model": "kecoli",
+    "target": 0.001,
+    "config": "startup-promoted-fast-0.001",
+    "status": "success",
+    "seconds": 33.62965466687456,
+    "passes": true,
+    "split_coverage": 0.0,
+    "accepted_steps": 0,
+    "rejected_steps": 16,
+    "audit_seconds": 3.887026962125674,
+    "split_seconds": 26.044446914456785,
+    "full_intervals": [
+      {
+        "start": 0.0,
+        "end": 0.001,
+        "reason": "registered_initial_layer"
+      },
+      {
+        "start": 0.001,
+        "end": 1.0,
+        "reason": "consecutive_rejections"
+      }
+    ],
+    "fastest_baseline": {
+      "config": "CVODE-KLU-0.001",
+      "median": 1.4079387921374291,
+      "iqr": 0.07165524957235903
+    },
+    "exploratory_baseline_over_probe": 0.04186599018289232
+  },
+  {
+    "model": "kecoli",
+    "target": 1e-05,
+    "config": "macro-dynamic-1-1e-05",
+    "status": "success",
+    "seconds": 11.051204917021096,
+    "passes": true,
+    "split_coverage": 0.0,
+    "accepted_steps": 0,
+    "rejected_steps": 4,
+    "audit_seconds": 3.366158291231841,
+    "split_seconds": 4.747710541123524,
+    "full_intervals": [
+      {
+        "start": 0.0,
+        "end": 1.0,
+        "reason": "coupled_slow_norm_bound"
+      }
+    ],
+    "fastest_baseline": {
+      "config": "CVODE-KLU-1e-05",
+      "median": 1.3920109998434782,
+      "iqr": 0.20584322954528034
+    },
+    "exploratory_baseline_over_probe": 0.12596011116394187
+  },
+  {
+    "model": "kecoli",
+    "target": 1e-05,
+    "config": "startup-dynamic-1-1e-05",
+    "status": "success",
+    "seconds": 9.817509750137106,
+    "passes": true,
+    "split_coverage": 0.0,
+    "accepted_steps": 0,
+    "rejected_steps": 4,
+    "audit_seconds": 1.5405493329744786,
+    "split_seconds": 4.714502125047147,
+    "full_intervals": [
+      {
+        "start": 0.0,
+        "end": 0.001,
+        "reason": "registered_initial_layer"
+      },
+      {
+        "start": 0.001,
+        "end": 1.0,
+        "reason": "coupled_slow_norm_bound"
+      }
+    ],
+    "fastest_baseline": {
+      "config": "CVODE-KLU-1e-05",
+      "median": 1.3920109998434782,
+      "iqr": 0.20584322954528034
+    },
+    "exploratory_baseline_over_probe": 0.1417886037570819
+  },
+  {
+    "model": "kecoli",
+    "target": 1e-05,
+    "config": "startup-dynamic-5-1e-05",
+    "status": "success",
+    "seconds": 9.802417083177716,
+    "passes": true,
+    "split_coverage": 0.0,
+    "accepted_steps": 0,
+    "rejected_steps": 4,
+    "audit_seconds": 1.5374024987686425,
+    "split_seconds": 4.75586183485575,
+    "full_intervals": [
+      {
+        "start": 0.0,
+        "end": 0.001,
+        "reason": "registered_initial_layer"
+      },
+      {
+        "start": 0.001,
+        "end": 1.0,
+        "reason": "coupled_slow_norm_bound"
+      }
+    ],
+    "fastest_baseline": {
+      "config": "CVODE-KLU-1e-05",
+      "median": 1.3920109998434782,
+      "iqr": 0.20584322954528034
+    },
+    "exploratory_baseline_over_probe": 0.1420069140122959
+  },
+  {
+    "model": "kecoli",
+    "target": 1e-05,
+    "config": "startup-promoted-fast-1e-05",
+    "status": "success",
+    "seconds": 37.64027112512849,
+    "passes": true,
+    "split_coverage": 0.0,
+    "accepted_steps": 0,
+    "rejected_steps": 16,
+    "audit_seconds": 4.50674216542393,
+    "split_seconds": 29.399850667454302,
+    "full_intervals": [
+      {
+        "start": 0.0,
+        "end": 0.001,
+        "reason": "registered_initial_layer"
+      },
+      {
+        "start": 0.001,
+        "end": 1.0,
+        "reason": "consecutive_rejections"
+      }
+    ],
+    "fastest_baseline": {
+      "config": "CVODE-KLU-1e-05",
+      "median": 1.3920109998434782,
+      "iqr": 0.20584322954528034
+    },
+    "exploratory_baseline_over_probe": 0.03698195996559061
+  }
+]

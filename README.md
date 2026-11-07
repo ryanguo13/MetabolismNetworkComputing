@@ -2,7 +2,7 @@
 
 面向刚性代谢动力学 ODE 的**自适应快—慢反应算子分裂**研究。
 
-**当前阶段：M3 已完成，43 项正确性检查通过；效率继续条件未得到支持，M4／PE 不准入。** 动态分组、滞回、步长控制、逐候选独立审计及拒步回滚已验证。273 次正式运行保留全部结果；真实模型完整窗口精度达标主要依赖完整系统回退，没有分裂加速结论。按规划停止当前以加速为目标的 PE 扩展；M5／M6 未执行。调研及实施记录日期：2026-11-01 至 2026-11-04（Asia/Shanghai）。
+**当前阶段：已完成 M3 的 macOS 续作，M4／PE 仍不准入。** 历史 43 项正确性检查及 273 次正式运行证据保留。新运行时、输出解耦和分区缓存已验证；16 个开发探针、9 个固定分组容差补查及 70 次同机强基线正式重复仍未展示分裂效率前景。真实模型完整窗口成功主要依赖完整系统回退，不能认定分裂加速。M5／M6 未执行。记录日期：2026-11-01 至 2026-11-07（Asia/Shanghai）。
 
 ## 研究问题
 
@@ -24,9 +24,12 @@
 | [M1 验收与 M2 准入报告](docs/m1-completion-report.md) | 补齐证据、实际精度上限、规模基线、准入范围及复现命令 |
 | [M2 固定分裂验收报告](docs/m2-completion-report.md) | 基础阶数、刚性阶降低、守恒／开放收支、负值检测及真实模型短窗成本 |
 | [M3 动态分裂阶段报告](docs/m3-completion-report.md) | 估计器反例、独立审计、回滚、完整窗口消融及停止扩展的证据 |
+| [M3 macOS 续作报告](docs/m3-macos-continuation.md) | Mac 适配、输出／缓存策略、512 次尝试预算、同机强基线与 M4 再准入核验 |
 | [BibTeX 文献库](references.bib) | 与综述编号对应的可引用条目 |
 
 ## 运行 M1
+
+macOS 首次运行先执行 `bash scripts/setup-macos.sh`（需要 uv、Homebrew 和 CMake）。它按锁文件安装 Python 依赖，从固定指纹源码构建本项目的 SUNDIALS 6.4.1 + KLU 并验证模型及测试。项目会自动发现 `.runtime/` 内的运行时，之后可直接使用下列 `uv run python` 命令；Homebrew SUNDIALS 7 不适用于旧原生绑定。
 
 需要 [uv](https://docs.astral.sh/uv/)；依赖由 `uv.lock` 锁定，Python 3.12、CPU float64：
 
@@ -64,6 +67,14 @@ uv run python -m metabolism.m2_report --check
 [M2 结果](results/m2)保留全部重复、原始轨迹、负结果和指纹。M2 真实模型只运行登记窗口内的短窗探针；没有全窗口精度或加速结论。
 
 ## 运行 M3
+
+2026-11-07 的 Mac 续作单独保存，避免覆盖历史 Windows／WSL 数据：
+
+```bash
+uv run python -m metabolism.m3_continuation --case check
+```
+
+该命令复核新增轨迹、基线、局部容差敏感性与源码指纹；完整复现命令见 [续作报告](docs/m3-macos-continuation.md)。原始 M3 的只读验收仍可运行：
 
 ```powershell
 uv run python -m metabolism.m3_report --check
