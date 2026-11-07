@@ -1,0 +1,50 @@
+{
+  "date": "2026-11-08",
+  "configs": [
+    {
+      "key": "teusink-0.003-9",
+      "model": "teusink",
+      "method": "row-spc",
+      "iterations": 20
+    },
+    {
+      "key": "teusink-0.003-6",
+      "model": "teusink",
+      "method": "row",
+      "iterations": 20
+    },
+    {
+      "key": "teusink-0.003-3",
+      "model": "teusink",
+      "method": "radau",
+      "iterations": 20
+    },
+    {
+      "key": "kecoli-0.003-11",
+      "model": "kecoli",
+      "method": "row-spc",
+      "iterations": 5
+    },
+    {
+      "key": "kecoli-0.003-6",
+      "model": "kecoli",
+      "method": "row",
+      "iterations": 5
+    },
+    {
+      "key": "kecoli-0.003-1",
+      "model": "kecoli",
+      "method": "radau",
+      "iterations": 5
+    }
+  ],
+  "scope": "Post-screen cProfile hotspots at H=.003 for best observed strict candidate,full ROW and mature Radau. Instrumentation changes costs; not formal repeats, not a speed comparison. Complete kernel guards included; setup outside.",
+  "source_sha256": {
+    "research/m3_row_profile.py": "7ce38e99ae3816f362532a8d22aad106769f775356da59fbe294b7c1579c3393",
+    "research/row_continuous.py": "90260109dfa6238da79641594c00c3e1abe3f6d55dd4a578b3f0f7cc4a5cf2f7"
+  },
+  "input_sha256": {
+    "results/m3-row-continuous/runs.json": "d82c3d23e6e6051c0dfac2554ced6efce48fc69d894b635fb49ee9cefbd4b315",
+    "results/m3-row-continuous/registration.json": "303de0ce4bf90954900996662c4868bc80fb459b70433b584a1f2ec92f78c970"
+  }
+}

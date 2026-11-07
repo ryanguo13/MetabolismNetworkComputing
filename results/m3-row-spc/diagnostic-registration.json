@@ -1,0 +1,44 @@
+{
+  "date": "2026-11-08",
+  "states": [
+    "early",
+    "late"
+  ],
+  "thresholds": [
+    0.01,
+    0.03,
+    0.1,
+    0.3,
+    1.0,
+    3.0,
+    10.0,
+    30.0,
+    100.0,
+    300.0
+  ],
+  "steps": [
+    0.0001,
+    0.0003,
+    0.001,
+    0.003,
+    0.01
+  ],
+  "theta": [
+    0.0,
+    0.5,
+    1.0
+  ],
+  "motivation": "No qualified initial ROW-SPC candidate; distinguish endpoint/coupling error from dense output. Theta=.5 coarse nonlinear order cancellation requires a finer asymptotic range.",
+  "scope": "300 frozen-linear exact-fast maps, two stored actual small-model Jacobians. Spectral radius is diagnostic only, not a nonlinear/variable-step claim. Nonlinear order extended through256 with original coarse points preserved.",
+  "source_sha256": {
+    "research/row_spc.py": "aa52aeb6b469c5d5ff0ec28bcc148256c3b5f22fbce87b3e4f8cce2aa9cc07b7",
+    "research/test_row_spc.py": "0e6ceeb5da5cef46274f70fd7c7da8c3e5a8c1d9f84e2a7ff62c7cb398841837",
+    "research/m3_row_spc_diagnostic.py": "bc10b6f53efa509cf39f642e52f80f96349fe6cc272bd283a994ccbcbb1979a9"
+  },
+  "input_sha256": {
+    "results/m3-row-spc/runs.json": "bd0be65aa9819890510d33890f72942dfb0e04f6c31f1156692437fa4b468636",
+    "results/m3-row-spc/initial-order.json": "d3f24563cafb725a17b2aa9b99fb3af812328f00f3dc939ccacc8d70078b69f5",
+    "results/m3-growth-history/stability.json": "66702f67fc70566bf726a6b62e64bc7fc1a84a0bb4d6a464797762e88a782243",
+    "results/m3-growth-history/stability.npz": "60911c215d215b66452170d082b34c6bfa9ea2602c7e3b9bd00173ca718d5df0"
+  }
+}

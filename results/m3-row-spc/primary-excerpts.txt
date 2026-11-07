@@ -1,0 +1,202 @@
+    8. Step-predictor-corrector methods. We consider step predictor-corrector
+(SPC) methods described in section 6.5. The computations associated with the
+Butcher tableau (6.5) proceed as follows. First, the “predictor” applies the slow base
+scheme (b{s} , α{s, s} , γ {s, s} ) over a macro-step H to solve the entire coupled system:
+                                                                          
+                       k = H (f {f} + f {s} ) 1s{s} ⊗ yn−1 + α{s, s} ⊗d k
+                                                                      
+(8.1a)                        + Is×s ⊗ H(L{f} + L{s} )      γ {s, s} ⊗d k ,
+
+which gives the following values of the slow stages:
+                                                                              
+(8.1b) k{s} = H f {s} 1s{s} ⊗ yn−1 + α{s, s} ⊗d k + (Is×s ⊗ HL{s} ) γ {s, s} ⊗d k .
+
+Next, the “corrector” applies the fast base scheme (b{f} , α{f, f} , γ {f, f} ) over M micro-
+steps of size h. The fast stages k{f, λ} are computed using formula (3.1a), and the next
+step solution yn using formula (3.1c). Note that the coupling matrices α{f, s, λ} and
+γ {f, s, λ} do not need to be triangular, and can have any fill-in structure, since all k{s}
+are known before the start of the micro-steps.
+
+    10. Infinitesimal step SPC methods. Consider a step-predictor-corrector
+method (6.5) with the slow base method (b{s} , α{s, s} , γ {s, s} ), and perform the com-
+pound step (8.1). Then proceed with the fast integration, but instead of applying the
+discrete formula (3.1a), solve the following modified fast ODE:
+                                                                       
+(10.1)          v0 = f {f} v + µT ( Hθ ) ⊗d k{s} + L{f} ν T ( Hθ ) ⊗d k{s} ,
+                          v(0) = yn−1 ,        0 ≤ θ ≤ H.
+
+The next step solution, computed using (3.1c), is:
+
+(10.2)                            yn = v(H) + b{s}T ⊗d k{s} .
+
+
+    Remark 13 (Error estimation). Assume that the base method has an embedded
+scheme b̂{s} for error estimation. Using b̂{s} in (10.2) gives an error estimate in the
+slow component, which can be used for macro-step error control. The fast components
+are solved with infinite accuracy, and the same fast integration (10.1) is used for both
+the main and the embedded solutions.
+    Solving (10.1) with an arbitrarily accurate fast GARK-ROS/ROW method (2.8)
+with coefficients (b{f} , α{f, f} , γ {f, f} ) gives the discrete solution:
+                                                                                    
+              k{f} = H f {f} 1s ⊗ yn−1 + α{f, f} ⊗d k{f} + µT (c{f, f} ) ⊗d k{s}
+                                                                                       
+(10.3)               + (Is{f} ×s{f} ⊗ H L{f} ) γ {f, f} ⊗d k{f} + ν T (c{f, f} ) ⊗d k{s} ,
+               vn = yn−1 + b{f}T ⊗d k{f} .
+
+     The Butcher tableau (3.2) of the coupled scheme (8.1) and (10.3) reads:
+
+                                             c{s, s}     α{s, s}         0          α{s, s}
+             c{f}   α{f, f}    α{f, s}       c{f, f}        0        α{f, f}      µT (c{f, f} )
+(10.4a)      c{s}   α{s, f}    α{s, s}       c{s, s}     α{s, s}         0          α{s, s}       ,
+                                         =
+                     b {f}T    b {s}T                       0        b{f}T           b{s}T
+                                              g{s, s}     γ {s, s}        0         γ {s, s}
+             g{f}   γ{f, f}    γ{f, s}        g{f, f}        0       γ   {f, f}
+                                                                                  ν (c{f, f} )
+                                                                                    T
+(10.4b)                                  =                                                     .
+             g{s}   γ{s, f}    γ{s, s}        g{s, s}     γ {s, s}        0         γ {s, s}
+
+The internal consistency conditions (2.13) are:
+
+(10.5)              µT (c{f, f} ) 1{f} = c{f, f} ,     ν T (c{f, f} ) 1{f} = g{f, f} .
+
+Without loss of generality we choose γ {f, f} = 0, i.e., we solve the modified fast ODE
+with an arbitrarily accurate Runge-Kutta scheme. The corresponding continuous
+                                                                 {s}
+coupling coefficients are chosen accordingly as ν(t) = 0 ∈ Rs ×1 .
+                                     MULTIRATE GARK-ROS/ROW SCHEMES                                                     27
+                                       {s}
+    Define the µ(t) ∈ Rs ×1 coupling coefficients as polynomials in time:
+              X
+     µ(t) :=     µk tk ⇒
+                 k≥0
+
+              {f, f}
+                               X                                                          X      1
+          T
+         µ (c          )=            c{f, f}×k µTk ,       b{f}T µT (c{f, f} ) =                   µT =: µT .
+                                                                                                k+1 k
+                               k≥0                                                        k≥0
+
+The internal consistency conditions (10.5) are satisfied with:
+                       µT1 1{s} = 1;             µTk 1{s} = 0, k 6= 1;             ν(t) = 0s{s} ×1 .
+    SPC-MRI-GARK-ROS methods. The order three ROS condition (2.11c) reads:
+                                                                       1
+                                                       µT e{s, s} = .
+                                                                       6
+
+The order four ROS conditions (2.11d) are:
+                                                                             X µT e{s, s}
+                                                                                             1
+                                     b{f}T (µT (c{f, f} ) e{s, s} ) × c{f, f} =   k
+                                                                                            = ,
+                                                                                  k+2        8
+                                                                                           k≥0
+                                                                {f}T           {f, f}                           1
+                                                b      µ (c       ) c = µT c×2 = ,
+                                                                           T              ×2
+                                                                                       12
+                                             X                          
+          {f}T   {f, f} T  {f, f}   {s, s}        {f}T   {f, f} {f, f}×k    T {s, s}
+         b     α       µ (c       )e       =     b     α       c           µk e      = ···
+                                                        k≥0
+                                                                                   X        µTk e{s, s}  1
+                                                                       ··· =                            = ,
+                                                                                         (k + 1)(k + 2)  24
+                                                                                   k≥0
+                                                                                                                1
+                                                                                               µT β e{s, s} =      .
+                                                                                                                24
+An order four linear-in-time coupling can be constructed as follows:
+                                                                               {s}
+                                                                                     ×1
+              µ(t) = µ0 + µ1 t,                   where        µ0 , µ1 ∈ Rs                satisfy:
+                                                                                 1                                  1
+(10.6)        µT0 1{s} = 0,                  µT1 1{s} = 1,        µT0 e{s, s} = − ,                 µT1 e{s, s} = ,
+                                                                                          12                        2
+                                                                            
+                    1         1                                        1 T                               1
+               µT0 + µT1 c×2 = ,                               µT0 +    µ          β {s, s} e{s, s} =      .
+                           2                     12                    2 1                              24
+
+     Example 7 (Multirate Rodas). We build an SPC MRI version of Hairer and
+Wanner’s Rodas method [17, Chapter VI.4] by constructing a coupling of the form
+(10.6). The Rodas method has six stages, and the coupling (10.6) is defined by twelve
+coefficients (the entries of the six-dimensional vectors µ0 and µ1 ). There are six ROS
+order four coupling conditions (10.6), and we also impose the order 3 ROW conditions
+(10.8). The coefficients depend on four free parameters:
+                                                                                                        
+                                                                θ1
+                    
+                                                               θ2                                       
+                                                                                                         
+                         −1.923968128204745  θ   +   2.446324727549974e-01  θ   + 4.509689603795104e-02
+              µ0 =                           1                              2
+                                                                                                        
+                                                                                                         ,
+                           1.405229246707428  θ 1 −  2.181782847233643 θ 2 +  1.289372580090594e-01     
+                                                                                                         
+                    −4.812611185026834e-01 θ1 + 9.371503744786454e-01 θ2 − 1.740341540470105e-01 − θ3 
+                                                                θ3
+(10.7)                                                                                               
+                                            −2 θ1 + 4.061438468864431e-01
+                    
+                                           −2   θ 2 + 5.932358823451654e-01                          
+                                                                                                      
+                                         θ1 − 4.892649455099948e-01 θ2 − 3.657016798231872e-01 
+              µ1 =  3.847936256409489
+                    
+                                                                                                      .
+                        −2.810458493414855 θ1 + 4.363565694467286 θ2 + 5.003688760525202e-02         
+                                                                                                      
+                    9.625222370053667e-01 θ1 − 1.874300748957291 θ2 + 3.162850629863266e-01 − θ4 
+                                                             θ4
+28                     MICHAEL GÜNTHER AND ADRIAN SANDU
+
+
+The free parameters can be used to improve stability. By setting θ3 = θ4 = 0 the last
+slow Rodas stage is not used for coupling.
+    SPC-MRI-GARK-ROW methods. ROW order three conditions (2.12c):
+                                             1
+                   b{f}T µT (c{f, f} ) c = ,        b{f}T µT (c{f, f} ) g = 0,
+                                             6
+                    b{f}T ν T (c{f, f} ) c = 0,      b{f}T ν T (c{f, f} ) g = 0.
+The order three ROW conditions (2.12c) are:
+                                            1
+(10.8)                       µT c{s, s} = ,           µT g{s, s} = 0,
+                                            6
+and a third order coupling can be constructed as follows:
+                                                                              1
+(10.9)     µ(t) = µ1 t       with       µT1 1{s} = 1,        µT1 c{s, s} = ,         µT1 g{s, s} = 0.
+                                                                              3
+
+
+    Example 8. Consider the third order, stiffly accurate ROW method ROS34PW2
+of Rang and Angermann [23, Table 4.3]. The method coefficients are:
+                   γi,i = 4.358665215084597e-01
+                   α2,1 = 8.7173304301691801e-01    γ2,1 = −8.7173304301691801e-01
+                   α3,1 = 8.4457060015369423e-01    γ3,1 = −9.0338057013044082e-01
+                   α3,2 = −1.1299064236484185e-01   γ3,2 = 5.4180672388095326e-02
+                   α4,1 = 0                         γ4,1 = 2.4212380706095346e-01
+                   α4,2 = 0                         γ4,2 = −1.2232505839045147
+                   α4,3 = 1                         γ4,3 = 5.4526025533510214e-01
+                   b1 = 2.4212380706095346e-01      b̂1 = 3.7810903145819369e-01
+                   b2 = −1.2232505839045147         b̂2 = −9.6042292212423178e-02
+                   b3 = 1.5452602553351020          b̂3 = 0.5
+                   b4 = 4.3586652150845900e-01      b̂4 = 2.1793326075422950e-01
+
+The SPC MRI coupling coefficients (10.9) are defined in terms of one free parameter
+θ that can be used to improve stability:
+                                                                        
+                                                   θ
+                              −4.307016638790922 + 8.289196835086212 θ
+                               4.541816529634874 − 7.686572272599903 θ  .
+                         µ1 =                                           
+
+                                0.7652001091560487 − 1.602624562486310 θ
+
+
+    Remark 14. Order four coupling conditions for infinitesimal SPC multirate
+GARK-ROW schemes can be derived in an analogous manner from the general order
+conditions (2.12d).

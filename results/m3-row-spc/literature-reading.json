@@ -1,0 +1,14 @@
+{
+  "title": "Multirate Linearly-Implicit GARK Schemes",
+  "authors": [
+    "Michael Günther",
+    "Adrian Sandu"
+  ],
+  "arxiv": "2102.10203v1",
+  "url": "https://arxiv.org/pdf/2102.10203v1",
+  "pdf_sha256": "6b95ffcf80c52d05742b69c320e7cc58c8c6e13da9c4f123076240b0bc8209a8",
+  "reading_depth": "Introduction, section2.3 order conditions, section8 eq8.1 compound predictor, section10 eq10.1-10.9 and Example8. Not a full-paper or all-table reading claim.",
+  "metadata_provenance": "results/m3-implicit-history/literature-provenance.json",
+  "excerpt_sha256": "eb2fc6c7d1fe29771bfb2ddce1ace017ec265ae795bd190d70c8c6b6e0fc5d83",
+  "implementation": "Published ROS34PW2 plus Example8 linear mu tested first. Cubic mu is our derived construction within the general polynomial framework; not claimed as a published table, a novel method, or a stiff/positivity theorem."
+}

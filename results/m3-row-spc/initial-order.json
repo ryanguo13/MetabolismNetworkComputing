@@ -1,0 +1,169 @@
+{
+  "source_sha256": "eabf46a73b2fab623de21892c93754ff84c496ab1a8a58a711672fdb39a78c08",
+  "results": {
+    "nonlinear": [
+      {
+        "base_only": false,
+        "theta": 0.0,
+        "steps": 4,
+        "error": 0.00015777854332597795,
+        "curve_error": 0.00015278196449231007,
+        "observed_order": null
+      },
+      {
+        "base_only": false,
+        "theta": 0.0,
+        "steps": 8,
+        "error": 2.3891581964298196e-05,
+        "curve_error": 2.177655086887942e-05,
+        "observed_order": 2.7233267341024456
+      },
+      {
+        "base_only": false,
+        "theta": 0.0,
+        "steps": 16,
+        "error": 3.3058542901804036e-06,
+        "curve_error": 2.916401144248404e-06,
+        "observed_order": 2.8534073415072574
+      },
+      {
+        "base_only": false,
+        "theta": 0.0,
+        "steps": 32,
+        "error": 4.3554989763490175e-07,
+        "curve_error": 3.7915612094430173e-07,
+        "observed_order": 2.9241132253856414
+      },
+      {
+        "base_only": false,
+        "theta": 0.0,
+        "steps": 64,
+        "error": 5.592252760900469e-08,
+        "curve_error": 4.833630051770399e-08,
+        "observed_order": 2.9613365320631955
+      },
+      {
+        "base_only": false,
+        "theta": 0.5,
+        "steps": 4,
+        "error": 1.3795538546817223e-05,
+        "curve_error": 4.375604549455847e-05,
+        "observed_order": null
+      },
+      {
+        "base_only": false,
+        "theta": 0.5,
+        "steps": 8,
+        "error": 4.340439020027143e-08,
+        "curve_error": 3.3633772187346977e-06,
+        "observed_order": 8.312145088482835
+      },
+      {
+        "base_only": false,
+        "theta": 0.5,
+        "steps": 16,
+        "error": 1.2956346665542944e-07,
+        "curve_error": 2.3515185554323637e-07,
+        "observed_order": -1.5777460964725076
+      },
+      {
+        "base_only": false,
+        "theta": 0.5,
+        "steps": 32,
+        "error": 2.4535587719298357e-08,
+        "curve_error": 2.2564527801804957e-08,
+        "observed_order": 2.400711240239718
+      },
+      {
+        "base_only": false,
+        "theta": 0.5,
+        "steps": 64,
+        "error": 3.60938334024907e-09,
+        "curve_error": 2.997468273591153e-09,
+        "observed_order": 2.765051549587505
+      },
+      {
+        "base_only": false,
+        "theta": 1.0,
+        "steps": 4,
+        "error": 0.0001855417288006338,
+        "curve_error": 0.00016266734564718277,
+        "observed_order": null
+      },
+      {
+        "base_only": false,
+        "theta": 1.0,
+        "steps": 8,
+        "error": 2.3808659622455967e-05,
+        "curve_error": 2.0945327579124928e-05,
+        "observed_order": 2.962185381769296
+      },
+      {
+        "base_only": false,
+        "theta": 1.0,
+        "steps": 16,
+        "error": 3.046801294407535e-06,
+        "curve_error": 2.68603919295618e-06,
+        "observed_order": 2.9661190833443047
+      },
+      {
+        "base_only": false,
+        "theta": 1.0,
+        "steps": 32,
+        "error": 3.8648000103661264e-07,
+        "curve_error": 3.402465095225793e-07,
+        "observed_order": 2.9788297468711753
+      },
+      {
+        "base_only": false,
+        "theta": 1.0,
+        "steps": 64,
+        "error": 4.8703782752791725e-08,
+        "curve_error": 4.284150467714909e-08,
+        "observed_order": 2.988288027930405
+      },
+      {
+        "base_only": true,
+        "theta": 0.5,
+        "steps": 4,
+        "error": 0.00047319892404276996,
+        "curve_error": 0.00044929373523050486,
+        "observed_order": null
+      },
+      {
+        "base_only": true,
+        "theta": 0.5,
+        "steps": 8,
+        "error": 6.60629689763751e-05,
+        "curve_error": 6.111130726438319e-05,
+        "observed_order": 2.8405330800539783
+      },
+      {
+        "base_only": true,
+        "theta": 0.5,
+        "steps": 16,
+        "error": 8.799873497850508e-06,
+        "curve_error": 8.056783117438293e-06,
+        "observed_order": 2.9082871185025025
+      },
+      {
+        "base_only": true,
+        "theta": 0.5,
+        "steps": 32,
+        "error": 1.1381869673425336e-06,
+        "curve_error": 1.0335163163066596e-06,
+        "observed_order": 2.950745219215893
+      },
+      {
+        "base_only": true,
+        "theta": 0.5,
+        "steps": 64,
+        "error": 1.4481439819034027e-07,
+        "curve_error": 1.3098980655712467e-07,
+        "observed_order": 2.9744606104846283
+      }
+    ],
+    "reference_difference": 3.328596012409603e-14
+  },
+  "test_result": "3 passed; nonlinear order assertion at N=64 failed for theta=.5: observed2.76505<2.8; no implementation change."
+}

@@ -1,0 +1,54 @@
+{
+  "date": "2026-11-08",
+  "models": {
+    "teusink": {
+      "start": 1.0,
+      "thresholds": [
+        0.3,
+        3.0,
+        10.0
+      ]
+    },
+    "kecoli": {
+      "start": 0.1,
+      "thresholds": [
+        0.01,
+        0.1,
+        1.0
+      ]
+    }
+  },
+  "steps": [
+    0.03,
+    0.1
+  ],
+  "tolerances": [
+    1e-06,
+    1e-08
+  ],
+  "method": "Derived cubic mu from Guenther/Sandu general SPC-MRI eq10.1: moments against1,e,c²,B e match t,t²/2,t³/3,t³/6. mu(1)=b; integral(mu)c=1/6, integral(mu)g=0. New coefficient construction, not published Example8 linear coupling. No embedded estimator.",
+  "scope": "24 candidate,4 standalone full ROS34PW2,24 mature full Radau local trials. Single optimistic development timings; not full-window or formal M4 evidence.",
+  "predictor": "Full analytic frozen Jacobian; one factorization, four RHS, four solves; original physical stages checked. No nonlinear iterations or clipping.",
+  "output": "z prime=F(z)+Ks mu_prime(t/H)/H, z(0)=y; mu(1)=b so no endpoint correction. Modified fast curve is candidate physical output, independently audited including physical ledger; standalone full ROW receives same cubic stage extension. Dense Taylor justification requires exact full Jacobian; actual finite precision gradients are independently audited.",
+  "controls": "Standalone full ROS34PW2 same predictor and cubic stage extension; mature full Radau tolerances1e-6/1e-8/1e-10 automatic/whole first step.",
+  "audit": "Independent complete ODE1e-12/1e-11,65 points plus public observations; strict reference budget<=.05. All original local accuracy/pool/ledger/net-flux gates unchanged.",
+  "timing": "Predictor, fast correction, output guards and observation structural checks included. Cached grouping, independent reference and accuracy scoring excluded; setup separately reported. Partial failed inner counters possible.",
+  "source_sha256": {
+    "research/row_continuous.py": "90260109dfa6238da79641594c00c3e1abe3f6d55dd4a578b3f0f7cc4a5cf2f7",
+    "research/row_spc.py": "aa52aeb6b469c5d5ff0ec28bcc148256c3b5f22fbce87b3e4f8cce2aa9cc07b7",
+    "research/test_row_continuous.py": "361967fee2950afb6a2e9be8f4f9ec85bd8c5e4b86d46eadf33f5d47f3fe1b7a",
+    "research/m3_row_continuous_growth.py": "a8dc3f43649d6ad50db8424c3e34bd33158016ebf57d0213a408fa341a302077",
+    "research/spc_mri.py": "8684bdf7720042fee31a227aee6131b3fdb8c6423be191acce1abe4092ba48f7",
+    "research/shared_radau.py": "0174d7d91eb1a3d59d514493a730af52b1e1a1d10b764bb892716c9da666edef",
+    "research/fullstep_radau.py": "ec224519a31b512359d1645b4d2211e80b9d436a7cd6e7ff8dfca568d9439f32",
+    "research/inner_dense.py": "e19b0221a27f5fa861c7a0877d64f9e04b638a3fc514326c7968541f13ec133b",
+    "research/extrapolated_flow.py": "2e5586c85464c8c49a6a55084ddadcf9cdac681d0459676f4c59397ae1af9d89",
+    "research/m3_growth_study.py": "ef440e9984b74ff8440d0c6d4e1ec9e79e1ce32ac997535847e5ddf6a3e05955",
+    "research/m3_extrapolated_paths.py": "7ce2742d48adf31bb1b73372cb09f7085e18e1507d32b8543ac3c8217f9b64cf"
+  },
+  "input_sha256": {
+    "results/m3-priority/p0.npz": "8be94525b6c3caa007123f284101ab165b725d38ab1567a121f4923993ed4243",
+    "results/m3-row-continuous/runs.json": "d82c3d23e6e6051c0dfac2554ced6efce48fc69d894b635fb49ee9cefbd4b315",
+    "results/m3-row-continuous/registration.json": "303de0ce4bf90954900996662c4868bc80fb459b70433b584a1f2ec92f78c970"
+  }
+}

@@ -1,0 +1,92 @@
+{
+  "source_sha256": {
+    "research/row_continuous.py": "90260109dfa6238da79641594c00c3e1abe3f6d55dd4a578b3f0f7cc4a5cf2f7",
+    "research/test_row_continuous.py": "361967fee2950afb6a2e9be8f4f9ec85bd8c5e4b86d46eadf33f5d47f3fe1b7a"
+  },
+  "results": [
+    {
+      "base_only": false,
+      "steps": 4,
+      "error": 5.6127669381937086e-05,
+      "curve_error": 4.942164001608962e-05,
+      "observed_order": null
+    },
+    {
+      "base_only": false,
+      "steps": 8,
+      "error": 8.896414862894286e-06,
+      "curve_error": 7.683381554879354e-06,
+      "observed_order": 2.6574161834223555
+    },
+    {
+      "base_only": false,
+      "steps": 16,
+      "error": 1.2510801994859708e-06,
+      "curve_error": 1.0723720961225425e-06,
+      "observed_order": 2.8300497909721276
+    },
+    {
+      "base_only": false,
+      "steps": 32,
+      "error": 1.6593182538600663e-07,
+      "curve_error": 1.421028779091671e-07,
+      "observed_order": 2.914511751353944
+    },
+    {
+      "base_only": false,
+      "steps": 64,
+      "error": 2.1368577772274195e-08,
+      "curve_error": 1.8284846525773446e-08,
+      "observed_order": 2.9570278239027727
+    },
+    {
+      "base_only": false,
+      "steps": 128,
+      "error": 2.71128668566005e-09,
+      "curve_error": 2.3193085230133192e-09,
+      "observed_order": 2.9784413159423897
+    },
+    {
+      "base_only": true,
+      "steps": 4,
+      "error": 0.00047319892404276996,
+      "curve_error": 0.0004350755627046121,
+      "observed_order": null
+    },
+    {
+      "base_only": true,
+      "steps": 8,
+      "error": 6.60629689763751e-05,
+      "curve_error": 6.001786256959463e-05,
+      "observed_order": 2.8405330800539783
+    },
+    {
+      "base_only": true,
+      "steps": 16,
+      "error": 8.799873497850508e-06,
+      "curve_error": 7.975149942329729e-06,
+      "observed_order": 2.9082871185025025
+    },
+    {
+      "base_only": true,
+      "steps": 32,
+      "error": 1.1381869673425336e-06,
+      "curve_error": 1.028347472176172e-06,
+      "observed_order": 2.950745219215893
+    },
+    {
+      "base_only": true,
+      "steps": 64,
+      "error": 1.4481439819034027e-07,
+      "curve_error": 1.30653600494135e-07,
+      "observed_order": 2.9744606104846283
+    },
+    {
+      "base_only": true,
+      "steps": 128,
+      "error": 1.826573357880529e-08,
+      "curve_error": 1.6466140562165776e-08,
+      "observed_order": 2.986993448956971
+    }
+  ]
+}

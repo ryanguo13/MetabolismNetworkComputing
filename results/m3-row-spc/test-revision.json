@@ -1,0 +1,7 @@
+{
+  "original_path": "research/test_row_spc.py",
+  "original_sha256": "eabf46a73b2fab623de21892c93754ff84c496ab1a8a58a711672fdb39a78c08",
+  "archived_source": "results/m3-row-spc/initial-test-source.py",
+  "current_sha256": "0e6ceeb5da5cef46274f70fd7c7da8c3e5a8c1d9f84e2a7ff62c7cb398841837",
+  "reason": "Extend nonlinear counts4..64 to4..256, retaining all coarse points and the same2.8 order assertion. Original theta=.5 failure preserved in initial-order.json. This test-only change does not change the kernel, local runner or any recorded run. Initial registration hash is checked against archived original test source."
+}

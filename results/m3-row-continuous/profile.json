@@ -1,0 +1,3316 @@
+{
+  "results": [
+    {
+      "key": "teusink-0.003-9",
+      "model": "teusink",
+      "method": "row-spc",
+      "iterations": 20,
+      "instrumented_seconds": 0.07398945499999998,
+      "endpoint_scaled_difference": 0.0,
+      "by_self": [
+        {
+          "file": "models/BIOMD0000000064.xml",
+          "line": 1,
+          "function": "<lambda>",
+          "primitive_calls": 1240,
+          "calls": 1240,
+          "self_seconds": 0.028745414,
+          "cumulative_seconds": 0.029505949000000004
+        },
+        {
+          "file": ".venv/lib/python3.12/site-packages/numpy/polynomial/polynomial.py",
+          "line": 663,
+          "function": "polyval",
+          "primitive_calls": 680,
+          "calls": 680,
+          "self_seconds": 0.00271383,
+          "cumulative_seconds": 0.0030193750000000004
+        },
+        {
+          "file": "research/row_continuous.py",
+          "line": 56,
+          "function": "trial",
+          "primitive_calls": 20,
+          "calls": 20,
+          "self_seconds": 0.002637817,
+          "cumulative_seconds": 0.07369866700000001
+        },
+        {
+          "file": ".venv/lib/python3.12/site-packages/scipy/sparse/_compressed.py",
+          "line": 387,
+          "function": "_matmul_vector",
+          "primitive_calls": 1420,
+          "calls": 1420,
+          "self_seconds": 0.001867727,
+          "cumulative_seconds": 0.004652108
+        },
+        {
+          "file": ".venv/lib/python3.12/site-packages/scipy/sparse/_sputils.py",
+          "line": 263,
+          "function": "get_index_dtype",
+          "primitive_calls": 540,
+          "calls": 540,
+          "self_seconds": 0.0017872510000000001,
+          "cumulative_seconds": 0.002575466
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<built-in method numpy.array>",
+          "primitive_calls": 4140,
+          "calls": 4140,
+          "self_seconds": 0.001365644,
+          "cumulative_seconds": 0.001538012
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<built-in method builtins.isinstance>",
+          "primitive_calls": 8970,
+          "calls": 8970,
+          "self_seconds": 0.001108197,
+          "cumulative_seconds": 0.001745058
+        },
+        {
+          "file": ".venv/lib/python3.12/site-packages/scipy/_lib/_util.py",
+          "line": 1102,
+          "function": "wrapper",
+          "primitive_calls": 240,
+          "calls": 240,
+          "self_seconds": 0.001023539,
+          "cumulative_seconds": 0.003629241
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<method 'reduce' of 'numpy.ufunc' objects>",
+          "primitive_calls": 1800,
+          "calls": 1800,
+          "self_seconds": 0.0009854640000000001,
+          "cumulative_seconds": 0.0009854640000000001
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<built-in method scipy.sparse._sparsetools.csc_matvec>",
+          "primitive_calls": 1420,
+          "calls": 1420,
+          "self_seconds": 0.0009067760000000001,
+          "cumulative_seconds": 0.0009067760000000001
+        },
+        {
+          "file": ".venv/lib/python3.12/site-packages/scipy/sparse/_compressed.py",
+          "line": 30,
+          "function": "__init__",
+          "primitive_calls": 300,
+          "calls": 340,
+          "self_seconds": 0.0009020530000000001,
+          "cumulative_seconds": 0.00797019
+        },
+        {
+          "file": "research/inner_dense.py",
+          "line": 59,
+          "function": "physical_ledger",
+          "primitive_calls": 20,
+          "calls": 20,
+          "self_seconds": 0.000807684,
+          "cumulative_seconds": 0.015235669
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<built-in method builtins.len>",
+          "primitive_calls": 11485,
+          "calls": 11485,
+          "self_seconds": 0.0007770380000000001,
+          "cumulative_seconds": 0.0007770380000000001
+        },
+        {
+          "file": ".venv/lib/python3.12/site-packages/numpy/_core/numeric.py",
+          "line": 1911,
+          "function": "isscalar",
+          "primitive_calls": 1560,
+          "calls": 1560,
+          "self_seconds": 0.000744297,
+          "cumulative_seconds": 0.001693583
+        },
+        {
+          "file": "research/row_continuous.py",
+          "line": 62,
+          "function": "check",
+          "primitive_calls": 300,
+          "calls": 300,
+          "self_seconds": 0.000679653,
+          "cumulative_seconds": 0.001531596
+        },
+        {
+          "file": ".venv/lib/python3.12/site-packages/scipy/sparse/_compressed.py",
+          "line": 1132,
+          "function": "prune",
+          "primitive_calls": 380,
+          "calls": 380,
+          "self_seconds": 0.000671343,
+          "cumulative_seconds": 0.0015335490000000002
+        },
+        {
+          "file": ".venv/lib/python3.12/site-packages/scipy/sparse/_base.py",
+          "line": 875,
+          "function": "_matmul_dispatch",
+          "primitive_calls": 1460,
+          "calls": 1460,
+          "self_seconds": 0.000668718,
+          "cumulative_seconds": 0.009397573000000001
+        },
+        {
+          "file": ".venv/lib/python3.12/site-packages/scipy/sparse/_sputils.py",
+          "line": 344,
+          "function": "isscalarlike",
+          "primitive_calls": 1560,
+          "calls": 1560,
+          "self_seconds": 0.000623573,
+          "cumulative_seconds": 0.00266549
+        },
+        {
+          "file": ".venv/lib/python3.12/site-packages/scipy/integrate/_ivp/radau.py",
+          "line": 48,
+          "function": "solve_collocation_system",
+          "primitive_calls": 20,
+          "calls": 20,
+          "self_seconds": 0.000623208,
+          "cumulative_seconds": 0.007904709000000001
+        },
+        {
+          "file": ".venv/lib/python3.12/site-packages/scipy/sparse/_base.py",
+          "line": 98,
+          "function": "_shape_as_2d",
+          "primitive_calls": 3820,
+          "calls": 3820,
+          "self_seconds": 0.000598993,
+          "cumulative_seconds": 0.0008308240000000001
+        },
+        {
+          "file": "research/extrapolated_flow.py",
+          "line": 37,
+          "function": "dense",
+          "primitive_calls": 20,
+          "calls": 20,
+          "self_seconds": 0.000598208,
+          "cumulative_seconds": 0.0006607900000000001
+        },
+        {
+          "file": ".venv/lib/python3.12/site-packages/scipy/sparse/_base.py",
+          "line": 1006,
+          "function": "__matmul__",
+          "primitive_calls": 1460,
+          "calls": 1460,
+          "self_seconds": 0.0005487910000000001,
+          "cumulative_seconds": 0.012458304000000002
+        },
+        {
+          "file": ".venv/lib/python3.12/site-packages/scipy/sparse/_compressed.py",
+          "line": 166,
+          "function": "check_format",
+          "primitive_calls": 340,
+          "calls": 340,
+          "self_seconds": 0.000524371,
+          "cumulative_seconds": 0.002125695
+        },
+        {
+          "file": ".venv/lib/python3.12/site-packages/numpy/lib/_shape_base_impl.py",
+          "line": 607,
+          "function": "column_stack",
+          "primitive_calls": 140,
+          "calls": 140,
+          "self_seconds": 0.000481302,
+          "cumulative_seconds": 0.000724082
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<built-in method numpy.zeros>",
+          "primitive_calls": 1840,
+          "calls": 1840,
+          "self_seconds": 0.000453528,
+          "cumulative_seconds": 0.000453528
+        },
+        {
+          "file": ".venv/lib/python3.12/site-packages/scipy/integrate/_ivp/radau.py",
+          "line": 405,
+          "function": "_step_impl",
+          "primitive_calls": 20,
+          "calls": 20,
+          "self_seconds": 0.000443574,
+          "cumulative_seconds": 0.010418956
+        },
+        {
+          "file": "metabolism/adaptive.py",
+          "line": 61,
+          "function": "gradient",
+          "primitive_calls": 20,
+          "calls": 20,
+          "self_seconds": 0.000416316,
+          "cumulative_seconds": 0.009348461
+        },
+        {
+          "file": ".venv/lib/python3.12/site-packages/scipy/sparse/_index.py",
+          "line": 298,
+          "function": "_validate_indices",
+          "primitive_calls": 60,
+          "calls": 60,
+          "self_seconds": 0.000389605,
+          "cumulative_seconds": 0.000860415
+        },
+        {
+          "file": ".venv/lib/python3.12/site-packages/scipy/sparse/_sputils.py",
+          "line": 443,
+          "function": "check_shape",
+          "primitive_calls": 260,
+          "calls": 260,
+          "self_seconds": 0.000389302,
+          "cumulative_seconds": 0.0008111180000000001
+        },
+        {
+          "file": ".venv/lib/python3.12/site-packages/scipy/sparse/_base.py",
+          "line": 1695,
+          "function": "_get_index_dtype",
+          "primitive_calls": 520,
+          "calls": 520,
+          "self_seconds": 0.000384509,
+          "cumulative_seconds": 0.0031252460000000004
+        }
+      ],
+      "by_cumulative": [
+        {
+          "file": "research/m3_row_profile.py",
+          "line": 34,
+          "function": "<lambda>",
+          "primitive_calls": 20,
+          "calls": 20,
+          "self_seconds": 9.266500000000001e-05,
+          "cumulative_seconds": 0.073791332
+        },
+        {
+          "file": "research/row_continuous.py",
+          "line": 56,
+          "function": "trial",
+          "primitive_calls": 20,
+          "calls": 20,
+          "self_seconds": 0.002637817,
+          "cumulative_seconds": 0.07369866700000001
+        },
+        {
+          "file": "models/BIOMD0000000064.xml",
+          "line": 1,
+          "function": "<lambda>",
+          "primitive_calls": 1240,
+          "calls": 1240,
+          "self_seconds": 0.028745414,
+          "cumulative_seconds": 0.029505949000000004
+        },
+        {
+          "file": "research/inner_dense.py",
+          "line": 59,
+          "function": "physical_ledger",
+          "primitive_calls": 20,
+          "calls": 20,
+          "self_seconds": 0.000807684,
+          "cumulative_seconds": 0.015235669
+        },
+        {
+          "file": ".venv/lib/python3.12/site-packages/scipy/sparse/_base.py",
+          "line": 1006,
+          "function": "__matmul__",
+          "primitive_calls": 1460,
+          "calls": 1460,
+          "self_seconds": 0.0005487910000000001,
+          "cumulative_seconds": 0.012458304000000002
+        },
+        {
+          "file": ".venv/lib/python3.12/site-packages/scipy/integrate/_ivp/base.py",
+          "line": 179,
+          "function": "step",
+          "primitive_calls": 20,
+          "calls": 20,
+          "self_seconds": 3.4087e-05,
+          "cumulative_seconds": 0.010453043
+        },
+        {
+          "file": ".venv/lib/python3.12/site-packages/scipy/integrate/_ivp/radau.py",
+          "line": 405,
+          "function": "_step_impl",
+          "primitive_calls": 20,
+          "calls": 20,
+          "self_seconds": 0.000443574,
+          "cumulative_seconds": 0.010418956
+        },
+        {
+          "file": ".venv/lib/python3.12/site-packages/scipy/sparse/_base.py",
+          "line": 875,
+          "function": "_matmul_dispatch",
+          "primitive_calls": 1460,
+          "calls": 1460,
+          "self_seconds": 0.000668718,
+          "cumulative_seconds": 0.009397573000000001
+        },
+        {
+          "file": "metabolism/adaptive.py",
+          "line": 61,
+          "function": "gradient",
+          "primitive_calls": 20,
+          "calls": 20,
+          "self_seconds": 0.000416316,
+          "cumulative_seconds": 0.009348461
+        },
+        {
+          "file": ".venv/lib/python3.12/site-packages/scipy/sparse/_compressed.py",
+          "line": 30,
+          "function": "__init__",
+          "primitive_calls": 300,
+          "calls": 340,
+          "self_seconds": 0.0009020530000000001,
+          "cumulative_seconds": 0.00797019
+        },
+        {
+          "file": ".venv/lib/python3.12/site-packages/scipy/integrate/_ivp/radau.py",
+          "line": 48,
+          "function": "solve_collocation_system",
+          "primitive_calls": 20,
+          "calls": 20,
+          "self_seconds": 0.000623208,
+          "cumulative_seconds": 0.007904709000000001
+        },
+        {
+          "file": ".venv/lib/python3.12/site-packages/scipy/integrate/_ivp/base.py",
+          "line": 156,
+          "function": "fun",
+          "primitive_calls": 160,
+          "calls": 160,
+          "self_seconds": 5.5208000000000004e-05,
+          "cumulative_seconds": 0.00766525
+        },
+        {
+          "file": ".venv/lib/python3.12/site-packages/scipy/integrate/_ivp/base.py",
+          "line": 23,
+          "function": "fun_wrapped",
+          "primitive_calls": 160,
+          "calls": 160,
+          "self_seconds": 7.3835e-05,
+          "cumulative_seconds": 0.007610042000000001
+        },
+        {
+          "file": "research/row_continuous.py",
+          "line": 92,
+          "function": "rhs",
+          "primitive_calls": 160,
+          "calls": 160,
+          "self_seconds": 0.000298223,
+          "cumulative_seconds": 0.007512707
+        },
+        {
+          "file": ".venv/lib/python3.12/site-packages/scipy/sparse/_compressed.py",
+          "line": 387,
+          "function": "_matmul_vector",
+          "primitive_calls": 1420,
+          "calls": 1420,
+          "self_seconds": 0.001867727,
+          "cumulative_seconds": 0.004652108
+        },
+        {
+          "file": ".venv/lib/python3.12/site-packages/scipy/sparse/_index.py",
+          "line": 29,
+          "function": "__getitem__",
+          "primitive_calls": 60,
+          "calls": 60,
+          "self_seconds": 0.000171117,
+          "cumulative_seconds": 0.003795539
+        },
+        {
+          "file": ".venv/lib/python3.12/site-packages/scipy/sparse/_compressed.py",
+          "line": 415,
+          "function": "_matmul_sparse",
+          "primitive_calls": 40,
+          "calls": 40,
+          "self_seconds": 0.000233958,
+          "cumulative_seconds": 0.003646626
+        },
+        {
+          "file": ".venv/lib/python3.12/site-packages/scipy/_lib/_util.py",
+          "line": 1102,
+          "function": "wrapper",
+          "primitive_calls": 240,
+          "calls": 240,
+          "self_seconds": 0.001023539,
+          "cumulative_seconds": 0.003629241
+        },
+        {
+          "file": ".venv/lib/python3.12/site-packages/scipy/sparse/_base.py",
+          "line": 1695,
+          "function": "_get_index_dtype",
+          "primitive_calls": 520,
+          "calls": 520,
+          "self_seconds": 0.000384509,
+          "cumulative_seconds": 0.0031252460000000004
+        },
+        {
+          "file": ".venv/lib/python3.12/site-packages/numpy/polynomial/polynomial.py",
+          "line": 663,
+          "function": "polyval",
+          "primitive_calls": 680,
+          "calls": 680,
+          "self_seconds": 0.00271383,
+          "cumulative_seconds": 0.0030193750000000004
+        },
+        {
+          "file": ".venv/lib/python3.12/site-packages/scipy/linalg/_decomp_lu.py",
+          "line": 134,
+          "function": "lu_solve",
+          "primitive_calls": 180,
+          "calls": 180,
+          "self_seconds": 9.868100000000001e-05,
+          "cumulative_seconds": 0.0028273390000000003
+        },
+        {
+          "file": ".venv/lib/python3.12/site-packages/scipy/sparse/_sputils.py",
+          "line": 344,
+          "function": "isscalarlike",
+          "primitive_calls": 1560,
+          "calls": 1560,
+          "self_seconds": 0.000623573,
+          "cumulative_seconds": 0.00266549
+        },
+        {
+          "file": ".venv/lib/python3.12/site-packages/scipy/sparse/_sputils.py",
+          "line": 263,
+          "function": "get_index_dtype",
+          "primitive_calls": 540,
+          "calls": 540,
+          "self_seconds": 0.0017872510000000001,
+          "cumulative_seconds": 0.002575466
+        },
+        {
+          "file": "research/shared_radau.py",
+          "line": 42,
+          "function": "__init__",
+          "primitive_calls": 20,
+          "calls": 20,
+          "self_seconds": 4.4586e-05,
+          "cumulative_seconds": 0.002473378
+        },
+        {
+          "file": "research/ordered_radau.py",
+          "line": 15,
+          "function": "__init__",
+          "primitive_calls": 20,
+          "calls": 20,
+          "self_seconds": 9.2206e-05,
+          "cumulative_seconds": 0.002423291
+        },
+        {
+          "file": ".venv/lib/python3.12/site-packages/scipy/integrate/_ivp/radau.py",
+          "line": 295,
+          "function": "__init__",
+          "primitive_calls": 20,
+          "calls": 20,
+          "self_seconds": 0.000112589,
+          "cumulative_seconds": 0.0023142500000000003
+        },
+        {
+          "file": "research/row_continuous.py",
+          "line": 65,
+          "function": "accepted",
+          "primitive_calls": 120,
+          "calls": 120,
+          "self_seconds": 0.000309591,
+          "cumulative_seconds": 0.0021318730000000003
+        },
+        {
+          "file": ".venv/lib/python3.12/site-packages/scipy/sparse/_compressed.py",
+          "line": 166,
+          "function": "check_format",
+          "primitive_calls": 340,
+          "calls": 340,
+          "self_seconds": 0.000524371,
+          "cumulative_seconds": 0.002125695
+        },
+        {
+          "file": ".venv/lib/python3.12/site-packages/scipy/sparse/_base.py",
+          "line": 847,
+          "function": "__sub__",
+          "primitive_calls": 40,
+          "calls": 40,
+          "self_seconds": 3.7244000000000005e-05,
+          "cumulative_seconds": 0.002089582
+        },
+        {
+          "file": ".venv/lib/python3.12/site-packages/scipy/sparse/_compressed.py",
+          "line": 260,
+          "function": "_sub_sparse",
+          "primitive_calls": 40,
+          "calls": 40,
+          "self_seconds": 2.3336e-05,
+          "cumulative_seconds": 0.001944376
+        }
+      ]
+    },
+    {
+      "key": "teusink-0.003-6",
+      "model": "teusink",
+      "method": "row",
+      "iterations": 20,
+      "instrumented_seconds": 0.04594562500000002,
+      "endpoint_scaled_difference": 0.0,
+      "by_self": [
+        {
+          "file": "models/BIOMD0000000064.xml",
+          "line": 1,
+          "function": "<lambda>",
+          "primitive_calls": 840,
+          "calls": 840,
+          "self_seconds": 0.019462339000000002,
+          "cumulative_seconds": 0.019974187
+        },
+        {
+          "file": "research/row_continuous.py",
+          "line": 56,
+          "function": "trial",
+          "primitive_calls": 20,
+          "calls": 20,
+          "self_seconds": 0.0015170720000000002,
+          "cumulative_seconds": 0.045685415
+        },
+        {
+          "file": ".venv/lib/python3.12/site-packages/scipy/sparse/_sputils.py",
+          "line": 263,
+          "function": "get_index_dtype",
+          "primitive_calls": 420,
+          "calls": 420,
+          "self_seconds": 0.001298571,
+          "cumulative_seconds": 0.001885205
+        },
+        {
+          "file": ".venv/lib/python3.12/site-packages/scipy/sparse/_compressed.py",
+          "line": 387,
+          "function": "_matmul_vector",
+          "primitive_calls": 1000,
+          "calls": 1000,
+          "self_seconds": 0.001271982,
+          "cumulative_seconds": 0.0031344420000000003
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<built-in method numpy.array>",
+          "primitive_calls": 2460,
+          "calls": 2460,
+          "self_seconds": 0.000865106,
+          "cumulative_seconds": 0.000943329
+        },
+        {
+          "file": "research/inner_dense.py",
+          "line": 59,
+          "function": "physical_ledger",
+          "primitive_calls": 20,
+          "calls": 20,
+          "self_seconds": 0.0008080330000000001,
+          "cumulative_seconds": 0.015217167
+        },
+        {
+          "file": ".venv/lib/python3.12/site-packages/scipy/sparse/_compressed.py",
+          "line": 30,
+          "function": "__init__",
+          "primitive_calls": 240,
+          "calls": 280,
+          "self_seconds": 0.000761474,
+          "cumulative_seconds": 0.006738691000000001
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<built-in method builtins.isinstance>",
+          "primitive_calls": 5480,
+          "calls": 5480,
+          "self_seconds": 0.000682547,
+          "cumulative_seconds": 0.001129367
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<built-in method scipy.sparse._sparsetools.csc_matvec>",
+          "primitive_calls": 1000,
+          "calls": 1000,
+          "self_seconds": 0.000631399,
+          "cumulative_seconds": 0.000631399
+        },
+        {
+          "file": ".venv/lib/python3.12/site-packages/scipy/sparse/_compressed.py",
+          "line": 1132,
+          "function": "prune",
+          "primitive_calls": 320,
+          "calls": 320,
+          "self_seconds": 0.000569715,
+          "cumulative_seconds": 0.0012630520000000002
+        },
+        {
+          "file": ".venv/lib/python3.12/site-packages/numpy/_core/numeric.py",
+          "line": 1911,
+          "function": "isscalar",
+          "primitive_calls": 1140,
+          "calls": 1140,
+          "self_seconds": 0.000538068,
+          "cumulative_seconds": 0.001212642
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<built-in method builtins.len>",
+          "primitive_calls": 8000,
+          "calls": 8000,
+          "self_seconds": 0.0005222930000000001,
+          "cumulative_seconds": 0.0005222930000000001
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<method 'reduce' of 'numpy.ufunc' objects>",
+          "primitive_calls": 920,
+          "calls": 920,
+          "self_seconds": 0.000509914,
+          "cumulative_seconds": 0.000509914
+        },
+        {
+          "file": ".venv/lib/python3.12/site-packages/scipy/sparse/_base.py",
+          "line": 875,
+          "function": "_matmul_dispatch",
+          "primitive_calls": 1040,
+          "calls": 1040,
+          "self_seconds": 0.000478127,
+          "cumulative_seconds": 0.007420506
+        },
+        {
+          "file": ".venv/lib/python3.12/site-packages/numpy/lib/_shape_base_impl.py",
+          "line": 607,
+          "function": "column_stack",
+          "primitive_calls": 140,
+          "calls": 140,
+          "self_seconds": 0.000460144,
+          "cumulative_seconds": 0.000696416
+        },
+        {
+          "file": ".venv/lib/python3.12/site-packages/scipy/sparse/_sputils.py",
+          "line": 344,
+          "function": "isscalarlike",
+          "primitive_calls": 1140,
+          "calls": 1140,
+          "self_seconds": 0.000441539,
+          "cumulative_seconds": 0.001909396
+        },
+        {
+          "file": ".venv/lib/python3.12/site-packages/scipy/_lib/_util.py",
+          "line": 1102,
+          "function": "wrapper",
+          "primitive_calls": 100,
+          "calls": 100,
+          "self_seconds": 0.00044074900000000005,
+          "cumulative_seconds": 0.001540088
+        },
+        {
+          "file": ".venv/lib/python3.12/site-packages/scipy/sparse/_base.py",
+          "line": 98,
+          "function": "_shape_as_2d",
+          "primitive_calls": 2840,
+          "calls": 2840,
+          "self_seconds": 0.000432236,
+          "cumulative_seconds": 0.000597827
+        },
+        {
+          "file": ".venv/lib/python3.12/site-packages/scipy/sparse/_compressed.py",
+          "line": 166,
+          "function": "check_format",
+          "primitive_calls": 280,
+          "calls": 280,
+          "self_seconds": 0.000426907,
+          "cumulative_seconds": 0.00171513
+        },
+        {
+          "file": "metabolism/adaptive.py",
+          "line": 61,
+          "function": "gradient",
+          "primitive_calls": 20,
+          "calls": 20,
+          "self_seconds": 0.000404444,
+          "cumulative_seconds": 0.009191997
+        },
+        {
+          "file": ".venv/lib/python3.12/site-packages/scipy/sparse/_base.py",
+          "line": 1006,
+          "function": "__matmul__",
+          "primitive_calls": 1040,
+          "calls": 1040,
+          "self_seconds": 0.000372057,
+          "cumulative_seconds": 0.009548411000000001
+        },
+        {
+          "file": ".venv/lib/python3.12/site-packages/numpy/polynomial/polynomial.py",
+          "line": 663,
+          "function": "polyval",
+          "primitive_calls": 40,
+          "calls": 40,
+          "self_seconds": 0.000353034,
+          "cumulative_seconds": 0.00038841600000000004
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<built-in method numpy.zeros>",
+          "primitive_calls": 1360,
+          "calls": 1360,
+          "self_seconds": 0.00032408400000000004,
+          "cumulative_seconds": 0.00032408400000000004
+        },
+        {
+          "file": ".venv/lib/python3.12/site-packages/scipy/sparse/_sputils.py",
+          "line": 443,
+          "function": "check_shape",
+          "primitive_calls": 200,
+          "calls": 200,
+          "self_seconds": 0.000290819,
+          "cumulative_seconds": 0.0006290450000000001
+        },
+        {
+          "file": ".venv/lib/python3.12/site-packages/numpy/_core/getlimits.py",
+          "line": 399,
+          "function": "__init__",
+          "primitive_calls": 840,
+          "calls": 840,
+          "self_seconds": 0.00028385700000000004,
+          "cumulative_seconds": 0.00028385700000000004
+        },
+        {
+          "file": "research/row_continuous.py",
+          "line": 62,
+          "function": "check",
+          "primitive_calls": 120,
+          "calls": 120,
+          "self_seconds": 0.000283114,
+          "cumulative_seconds": 0.000625374
+        },
+        {
+          "file": ".venv/lib/python3.12/site-packages/scipy/sparse/_base.py",
+          "line": 1695,
+          "function": "_get_index_dtype",
+          "primitive_calls": 400,
+          "calls": 400,
+          "self_seconds": 0.00027723200000000003,
+          "cumulative_seconds": 0.002263984
+        },
+        {
+          "file": ".venv/lib/python3.12/site-packages/scipy/sparse/_base.py",
+          "line": 372,
+          "function": "nnz",
+          "primitive_calls": 1520,
+          "calls": 1520,
+          "self_seconds": 0.000273884,
+          "cumulative_seconds": 0.0006439540000000001
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<method 'append' of 'list' objects>",
+          "primitive_calls": 2480,
+          "calls": 2480,
+          "self_seconds": 0.00025849,
+          "cumulative_seconds": 0.00025849
+        },
+        {
+          "file": ".venv/lib/python3.12/site-packages/scipy/sparse/_compressed.py",
+          "line": 118,
+          "function": "_getnnz",
+          "primitive_calls": 1480,
+          "calls": 1480,
+          "self_seconds": 0.000255486,
+          "cumulative_seconds": 0.000255486
+        }
+      ],
+      "by_cumulative": [
+        {
+          "file": "research/m3_row_profile.py",
+          "line": 34,
+          "function": "<lambda>",
+          "primitive_calls": 20,
+          "calls": 20,
+          "self_seconds": 7.5917e-05,
+          "cumulative_seconds": 0.045761332
+        },
+        {
+          "file": "research/row_continuous.py",
+          "line": 56,
+          "function": "trial",
+          "primitive_calls": 20,
+          "calls": 20,
+          "self_seconds": 0.0015170720000000002,
+          "cumulative_seconds": 0.045685415
+        },
+        {
+          "file": "models/BIOMD0000000064.xml",
+          "line": 1,
+          "function": "<lambda>",
+          "primitive_calls": 840,
+          "calls": 840,
+          "self_seconds": 0.019462339000000002,
+          "cumulative_seconds": 0.019974187
+        },
+        {
+          "file": "research/inner_dense.py",
+          "line": 59,
+          "function": "physical_ledger",
+          "primitive_calls": 20,
+          "calls": 20,
+          "self_seconds": 0.0008080330000000001,
+          "cumulative_seconds": 0.015217167
+        },
+        {
+          "file": ".venv/lib/python3.12/site-packages/scipy/sparse/_base.py",
+          "line": 1006,
+          "function": "__matmul__",
+          "primitive_calls": 1040,
+          "calls": 1040,
+          "self_seconds": 0.000372057,
+          "cumulative_seconds": 0.009548411000000001
+        },
+        {
+          "file": "metabolism/adaptive.py",
+          "line": 61,
+          "function": "gradient",
+          "primitive_calls": 20,
+          "calls": 20,
+          "self_seconds": 0.000404444,
+          "cumulative_seconds": 0.009191997
+        },
+        {
+          "file": ".venv/lib/python3.12/site-packages/scipy/sparse/_base.py",
+          "line": 875,
+          "function": "_matmul_dispatch",
+          "primitive_calls": 1040,
+          "calls": 1040,
+          "self_seconds": 0.000478127,
+          "cumulative_seconds": 0.007420506
+        },
+        {
+          "file": ".venv/lib/python3.12/site-packages/scipy/sparse/_compressed.py",
+          "line": 30,
+          "function": "__init__",
+          "primitive_calls": 240,
+          "calls": 280,
+          "self_seconds": 0.000761474,
+          "cumulative_seconds": 0.006738691000000001
+        },
+        {
+          "file": ".venv/lib/python3.12/site-packages/scipy/sparse/_compressed.py",
+          "line": 415,
+          "function": "_matmul_sparse",
+          "primitive_calls": 40,
+          "calls": 40,
+          "self_seconds": 0.00020107800000000002,
+          "cumulative_seconds": 0.003484459
+        },
+        {
+          "file": ".venv/lib/python3.12/site-packages/scipy/sparse/_compressed.py",
+          "line": 387,
+          "function": "_matmul_vector",
+          "primitive_calls": 1000,
+          "calls": 1000,
+          "self_seconds": 0.001271982,
+          "cumulative_seconds": 0.0031344420000000003
+        },
+        {
+          "file": ".venv/lib/python3.12/site-packages/scipy/sparse/_base.py",
+          "line": 1695,
+          "function": "_get_index_dtype",
+          "primitive_calls": 400,
+          "calls": 400,
+          "self_seconds": 0.00027723200000000003,
+          "cumulative_seconds": 0.002263984
+        },
+        {
+          "file": ".venv/lib/python3.12/site-packages/scipy/sparse/_base.py",
+          "line": 847,
+          "function": "__sub__",
+          "primitive_calls": 40,
+          "calls": 40,
+          "self_seconds": 3.5953e-05,
+          "cumulative_seconds": 0.002085589
+        },
+        {
+          "file": ".venv/lib/python3.12/site-packages/scipy/sparse/_compressed.py",
+          "line": 260,
+          "function": "_sub_sparse",
+          "primitive_calls": 40,
+          "calls": 40,
+          "self_seconds": 1.9002000000000002e-05,
+          "cumulative_seconds": 0.0019406690000000001
+        },
+        {
+          "file": ".venv/lib/python3.12/site-packages/scipy/sparse/_compressed.py",
+          "line": 1203,
+          "function": "_binopt",
+          "primitive_calls": 40,
+          "calls": 40,
+          "self_seconds": 0.000181606,
+          "cumulative_seconds": 0.0019216670000000002
+        },
+        {
+          "file": ".venv/lib/python3.12/site-packages/scipy/sparse/_sputils.py",
+          "line": 344,
+          "function": "isscalarlike",
+          "primitive_calls": 1140,
+          "calls": 1140,
+          "self_seconds": 0.000441539,
+          "cumulative_seconds": 0.001909396
+        },
+        {
+          "file": ".venv/lib/python3.12/site-packages/scipy/sparse/_sputils.py",
+          "line": 263,
+          "function": "get_index_dtype",
+          "primitive_calls": 420,
+          "calls": 420,
+          "self_seconds": 0.001298571,
+          "cumulative_seconds": 0.001885205
+        },
+        {
+          "file": "research/row_continuous.py",
+          "line": 65,
+          "function": "accepted",
+          "primitive_calls": 100,
+          "calls": 100,
+          "self_seconds": 0.000243128,
+          "cumulative_seconds": 0.001725919
+        },
+        {
+          "file": ".venv/lib/python3.12/site-packages/scipy/sparse/_compressed.py",
+          "line": 166,
+          "function": "check_format",
+          "primitive_calls": 280,
+          "calls": 280,
+          "self_seconds": 0.000426907,
+          "cumulative_seconds": 0.00171513
+        },
+        {
+          "file": ".venv/lib/python3.12/site-packages/scipy/_lib/_util.py",
+          "line": 1102,
+          "function": "wrapper",
+          "primitive_calls": 100,
+          "calls": 100,
+          "self_seconds": 0.00044074900000000005,
+          "cumulative_seconds": 0.001540088
+        },
+        {
+          "file": ".venv/lib/python3.12/site-packages/scipy/sparse/_base.py",
+          "line": 471,
+          "function": "asformat",
+          "primitive_calls": 80,
+          "calls": 80,
+          "self_seconds": 3.8693000000000004e-05,
+          "cumulative_seconds": 0.001466616
+        },
+        {
+          "file": "research/row_continuous.py",
+          "line": 24,
+          "function": "coupling",
+          "primitive_calls": 20,
+          "calls": 20,
+          "self_seconds": 0.000105543,
+          "cumulative_seconds": 0.001436709
+        },
+        {
+          "file": ".venv/lib/python3.12/site-packages/scipy/sparse/_csr.py",
+          "line": 73,
+          "function": "tocsc",
+          "primitive_calls": 40,
+          "calls": 40,
+          "self_seconds": 0.00015184400000000002,
+          "cumulative_seconds": 0.001412499
+        },
+        {
+          "file": "research/row_continuous.py",
+          "line": 72,
+          "function": "<lambda>",
+          "primitive_calls": 80,
+          "calls": 80,
+          "self_seconds": 2.4374e-05,
+          "cumulative_seconds": 0.001310373
+        },
+        {
+          "file": ".venv/lib/python3.12/site-packages/scipy/linalg/_decomp_lu.py",
+          "line": 134,
+          "function": "lu_solve",
+          "primitive_calls": 80,
+          "calls": 80,
+          "self_seconds": 4.5327e-05,
+          "cumulative_seconds": 0.0012859990000000001
+        },
+        {
+          "file": ".venv/lib/python3.12/site-packages/scipy/sparse/_compressed.py",
+          "line": 1132,
+          "function": "prune",
+          "primitive_calls": 320,
+          "calls": 320,
+          "self_seconds": 0.000569715,
+          "cumulative_seconds": 0.0012630520000000002
+        },
+        {
+          "file": ".venv/lib/python3.12/site-packages/numpy/_core/numeric.py",
+          "line": 1911,
+          "function": "isscalar",
+          "primitive_calls": 1140,
+          "calls": 1140,
+          "self_seconds": 0.000538068,
+          "cumulative_seconds": 0.001212642
+        },
+        {
+          "file": ".venv/lib/python3.12/site-packages/scipy/sparse/_index.py",
+          "line": 29,
+          "function": "__getitem__",
+          "primitive_calls": 20,
+          "calls": 20,
+          "self_seconds": 6.3038e-05,
+          "cumulative_seconds": 0.0011348320000000001
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<built-in method builtins.isinstance>",
+          "primitive_calls": 5480,
+          "calls": 5480,
+          "self_seconds": 0.000682547,
+          "cumulative_seconds": 0.001129367
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<built-in method numpy.array>",
+          "primitive_calls": 2460,
+          "calls": 2460,
+          "self_seconds": 0.000865106,
+          "cumulative_seconds": 0.000943329
+        },
+        {
+          "file": ".venv/lib/python3.12/site-packages/scipy/sparse/_coo.py",
+          "line": 32,
+          "function": "__init__",
+          "primitive_calls": 20,
+          "calls": 20,
+          "self_seconds": 0.00013065100000000002,
+          "cumulative_seconds": 0.0008926250000000001
+        }
+      ]
+    },
+    {
+      "key": "teusink-0.003-3",
+      "model": "teusink",
+      "method": "radau",
+      "iterations": 20,
+      "instrumented_seconds": 0.042412916,
+      "endpoint_scaled_difference": 0.0,
+      "by_self": [
+        {
+          "file": "models/BIOMD0000000064.xml",
+          "line": 1,
+          "function": "<lambda>",
+          "primitive_calls": 980,
+          "calls": 980,
+          "self_seconds": 0.022527868000000003,
+          "cumulative_seconds": 0.023117637
+        },
+        {
+          "file": ".venv/lib/python3.12/site-packages/scipy/sparse/_compressed.py",
+          "line": 387,
+          "function": "_matmul_vector",
+          "primitive_calls": 700,
+          "calls": 700,
+          "self_seconds": 0.0008895950000000001,
+          "cumulative_seconds": 0.002204957
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<built-in method numpy.array>",
+          "primitive_calls": 1920,
+          "calls": 1920,
+          "self_seconds": 0.000835469,
+          "cumulative_seconds": 0.0009586760000000001
+        },
+        {
+          "file": ".venv/lib/python3.12/site-packages/scipy/integrate/_ivp/radau.py",
+          "line": 48,
+          "function": "solve_collocation_system",
+          "primitive_calls": 20,
+          "calls": 20,
+          "self_seconds": 0.0008115150000000001,
+          "cumulative_seconds": 0.009486252
+        },
+        {
+          "file": "research/inner_dense.py",
+          "line": 59,
+          "function": "physical_ledger",
+          "primitive_calls": 20,
+          "calls": 20,
+          "self_seconds": 0.000808077,
+          "cumulative_seconds": 0.014862916
+        },
+        {
+          "file": "research/mri_kernel.py",
+          "line": 31,
+          "function": "minima",
+          "primitive_calls": 20,
+          "calls": 20,
+          "self_seconds": 0.00070567,
+          "cumulative_seconds": 0.0008157500000000001
+        },
+        {
+          "file": ".venv/lib/python3.12/site-packages/scipy/_lib/_util.py",
+          "line": 1102,
+          "function": "wrapper",
+          "primitive_calls": 180,
+          "calls": 180,
+          "self_seconds": 0.000684342,
+          "cumulative_seconds": 0.002433038
+        },
+        {
+          "file": "research/shared_radau.py",
+          "line": 114,
+          "function": "rhs",
+          "primitive_calls": 220,
+          "calls": 220,
+          "self_seconds": 0.000598243,
+          "cumulative_seconds": 0.007738414000000001
+        },
+        {
+          "file": ".venv/lib/python3.12/site-packages/scipy/sparse/_sputils.py",
+          "line": 263,
+          "function": "get_index_dtype",
+          "primitive_calls": 160,
+          "calls": 160,
+          "self_seconds": 0.000535668,
+          "cumulative_seconds": 0.000771084
+        },
+        {
+          "file": ".venv/lib/python3.12/site-packages/scipy/sparse/_coo.py",
+          "line": 169,
+          "function": "<genexpr>",
+          "primitive_calls": 120,
+          "calls": 120,
+          "self_seconds": 0.0004926280000000001,
+          "cumulative_seconds": 0.0004980830000000001
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<built-in method scipy.sparse._sparsetools.csc_matvec>",
+          "primitive_calls": 700,
+          "calls": 700,
+          "self_seconds": 0.000450211,
+          "cumulative_seconds": 0.000450211
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<method 'reduce' of 'numpy.ufunc' objects>",
+          "primitive_calls": 940,
+          "calls": 940,
+          "self_seconds": 0.00044300300000000003,
+          "cumulative_seconds": 0.00044300300000000003
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<built-in method builtins.isinstance>",
+          "primitive_calls": 3020,
+          "calls": 3020,
+          "self_seconds": 0.000405598,
+          "cumulative_seconds": 0.0006996460000000001
+        },
+        {
+          "file": "research/shared_radau.py",
+          "line": 104,
+          "function": "shared_full_curve",
+          "primitive_calls": 20,
+          "calls": 20,
+          "self_seconds": 0.00040490800000000005,
+          "cumulative_seconds": 0.042204878
+        },
+        {
+          "file": ".venv/lib/python3.12/site-packages/scipy/integrate/_ivp/radau.py",
+          "line": 405,
+          "function": "_step_impl",
+          "primitive_calls": 20,
+          "calls": 20,
+          "self_seconds": 0.00039615900000000004,
+          "cumulative_seconds": 0.011822084
+        },
+        {
+          "file": "metabolism/adaptive.py",
+          "line": 61,
+          "function": "gradient",
+          "primitive_calls": 20,
+          "calls": 20,
+          "self_seconds": 0.00039215,
+          "cumulative_seconds": 0.009613334000000001
+        },
+        {
+          "file": ".venv/lib/python3.12/site-packages/numpy/_core/numeric.py",
+          "line": 1911,
+          "function": "isscalar",
+          "primitive_calls": 740,
+          "calls": 740,
+          "self_seconds": 0.00035382100000000004,
+          "cumulative_seconds": 0.0008099730000000001
+        },
+        {
+          "file": ".venv/lib/python3.12/site-packages/scipy/sparse/_base.py",
+          "line": 875,
+          "function": "_matmul_dispatch",
+          "primitive_calls": 720,
+          "calls": 720,
+          "self_seconds": 0.000321982,
+          "cumulative_seconds": 0.004547555
+        },
+        {
+          "file": ".venv/lib/python3.12/site-packages/scipy/sparse/_sputils.py",
+          "line": 344,
+          "function": "isscalarlike",
+          "primitive_calls": 740,
+          "calls": 740,
+          "self_seconds": 0.00029134200000000004,
+          "cumulative_seconds": 0.001267965
+        },
+        {
+          "file": ".venv/lib/python3.12/site-packages/scipy/sparse/_base.py",
+          "line": 1006,
+          "function": "__matmul__",
+          "primitive_calls": 720,
+          "calls": 720,
+          "self_seconds": 0.000257958,
+          "cumulative_seconds": 0.006038937
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<built-in method builtins.len>",
+          "primitive_calls": 3780,
+          "calls": 3780,
+          "self_seconds": 0.000249683,
+          "cumulative_seconds": 0.000249683
+        },
+        {
+          "file": ".venv/lib/python3.12/site-packages/scipy/sparse/_base.py",
+          "line": 98,
+          "function": "_shape_as_2d",
+          "primitive_calls": 1640,
+          "calls": 1640,
+          "self_seconds": 0.00024942000000000003,
+          "cumulative_seconds": 0.00034951000000000003
+        },
+        {
+          "file": "research/mri_kernel.py",
+          "line": 23,
+          "function": "__call__",
+          "primitive_calls": 40,
+          "calls": 40,
+          "self_seconds": 0.000249246,
+          "cumulative_seconds": 0.000257916
+        },
+        {
+          "file": ".venv/lib/python3.12/site-packages/numpy/_core/fromnumeric.py",
+          "line": 86,
+          "function": "_wrapreduction_any_all",
+          "primitive_calls": 360,
+          "calls": 360,
+          "self_seconds": 0.000234961,
+          "cumulative_seconds": 0.00045313600000000003
+        },
+        {
+          "file": ".venv/lib/python3.12/site-packages/scipy/sparse/_compressed.py",
+          "line": 30,
+          "function": "__init__",
+          "primitive_calls": 60,
+          "calls": 80,
+          "self_seconds": 0.00023024000000000002,
+          "cumulative_seconds": 0.003310369
+        },
+        {
+          "file": ".venv/lib/python3.12/site-packages/scipy/linalg/_decomp_lu.py",
+          "line": 193,
+          "function": "_lu_solve",
+          "primitive_calls": 140,
+          "calls": 140,
+          "self_seconds": 0.000226488,
+          "cumulative_seconds": 0.0006090430000000001
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<method 'dot' of 'numpy.ndarray' objects>",
+          "primitive_calls": 300,
+          "calls": 300,
+          "self_seconds": 0.000224221,
+          "cumulative_seconds": 0.000224221
+        },
+        {
+          "file": ".venv/lib/python3.12/site-packages/scipy/_external/array_api_compat/numpy/_aliases.py",
+          "line": 70,
+          "function": "asarray",
+          "primitive_calls": 460,
+          "calls": 460,
+          "self_seconds": 0.000193203,
+          "cumulative_seconds": 0.000630632
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<built-in method numpy.zeros>",
+          "primitive_calls": 800,
+          "calls": 800,
+          "self_seconds": 0.00018809800000000001,
+          "cumulative_seconds": 0.00018809800000000001
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<method 'disable' of '_lsprof.Profiler' objects>",
+          "primitive_calls": 20,
+          "calls": 20,
+          "self_seconds": 0.00018475000000000002,
+          "cumulative_seconds": 0.00018475000000000002
+        }
+      ],
+      "by_cumulative": [
+        {
+          "file": "research/m3_row_profile.py",
+          "line": 32,
+          "function": "<lambda>",
+          "primitive_calls": 20,
+          "calls": 20,
+          "self_seconds": 2.3288e-05,
+          "cumulative_seconds": 0.042228166000000004
+        },
+        {
+          "file": "research/shared_radau.py",
+          "line": 104,
+          "function": "shared_full_curve",
+          "primitive_calls": 20,
+          "calls": 20,
+          "self_seconds": 0.00040490800000000005,
+          "cumulative_seconds": 0.042204878
+        },
+        {
+          "file": "models/BIOMD0000000064.xml",
+          "line": 1,
+          "function": "<lambda>",
+          "primitive_calls": 980,
+          "calls": 980,
+          "self_seconds": 0.022527868000000003,
+          "cumulative_seconds": 0.023117637
+        },
+        {
+          "file": "research/inner_dense.py",
+          "line": 59,
+          "function": "physical_ledger",
+          "primitive_calls": 20,
+          "calls": 20,
+          "self_seconds": 0.000808077,
+          "cumulative_seconds": 0.014862916
+        },
+        {
+          "file": "research/fullstep_radau.py",
+          "line": 7,
+          "function": "__call__",
+          "primitive_calls": 20,
+          "calls": 20,
+          "self_seconds": 2.5917000000000003e-05,
+          "cumulative_seconds": 0.013213877
+        },
+        {
+          "file": "research/shared_radau.py",
+          "line": 75,
+          "function": "__call__",
+          "primitive_calls": 20,
+          "calls": 20,
+          "self_seconds": 3.9497000000000005e-05,
+          "cumulative_seconds": 0.013185998
+        },
+        {
+          "file": "research/shared_radau.py",
+          "line": 42,
+          "function": "__init__",
+          "primitive_calls": 20,
+          "calls": 20,
+          "self_seconds": 3.4496e-05,
+          "cumulative_seconds": 0.013143334000000001
+        },
+        {
+          "file": "research/ordered_radau.py",
+          "line": 15,
+          "function": "__init__",
+          "primitive_calls": 20,
+          "calls": 20,
+          "self_seconds": 3.6122000000000004e-05,
+          "cumulative_seconds": 0.013104459
+        },
+        {
+          "file": ".venv/lib/python3.12/site-packages/scipy/integrate/_ivp/radau.py",
+          "line": 295,
+          "function": "__init__",
+          "primitive_calls": 20,
+          "calls": 20,
+          "self_seconds": 9.466900000000001e-05,
+          "cumulative_seconds": 0.013049958
+        },
+        {
+          "file": ".venv/lib/python3.12/site-packages/scipy/integrate/_ivp/base.py",
+          "line": 179,
+          "function": "step",
+          "primitive_calls": 20,
+          "calls": 20,
+          "self_seconds": 2.5665000000000002e-05,
+          "cumulative_seconds": 0.011847749000000001
+        },
+        {
+          "file": ".venv/lib/python3.12/site-packages/scipy/integrate/_ivp/radau.py",
+          "line": 405,
+          "function": "_step_impl",
+          "primitive_calls": 20,
+          "calls": 20,
+          "self_seconds": 0.00039615900000000004,
+          "cumulative_seconds": 0.011822084
+        },
+        {
+          "file": ".venv/lib/python3.12/site-packages/scipy/integrate/_ivp/radau.py",
+          "line": 349,
+          "function": "_validate_jac",
+          "primitive_calls": 20,
+          "calls": 20,
+          "self_seconds": 2.7870000000000003e-05,
+          "cumulative_seconds": 0.011785956
+        },
+        {
+          "file": "research/ordered_radau.py",
+          "line": 19,
+          "function": "<lambda>",
+          "primitive_calls": 20,
+          "calls": 20,
+          "self_seconds": 1.6542000000000002e-05,
+          "cumulative_seconds": 0.011737749
+        },
+        {
+          "file": "research/shared_radau.py",
+          "line": 49,
+          "function": "refresh",
+          "primitive_calls": 20,
+          "calls": 20,
+          "self_seconds": 7.793e-06,
+          "cumulative_seconds": 0.011605832
+        },
+        {
+          "file": "research/shared_radau.py",
+          "line": 123,
+          "function": "<lambda>",
+          "primitive_calls": 20,
+          "calls": 20,
+          "self_seconds": 3.4041e-05,
+          "cumulative_seconds": 0.011598039000000001
+        },
+        {
+          "file": "metabolism/adaptive.py",
+          "line": 61,
+          "function": "gradient",
+          "primitive_calls": 20,
+          "calls": 20,
+          "self_seconds": 0.00039215,
+          "cumulative_seconds": 0.009613334000000001
+        },
+        {
+          "file": ".venv/lib/python3.12/site-packages/scipy/integrate/_ivp/radau.py",
+          "line": 48,
+          "function": "solve_collocation_system",
+          "primitive_calls": 20,
+          "calls": 20,
+          "self_seconds": 0.0008115150000000001,
+          "cumulative_seconds": 0.009486252
+        },
+        {
+          "file": ".venv/lib/python3.12/site-packages/scipy/integrate/_ivp/base.py",
+          "line": 156,
+          "function": "fun",
+          "primitive_calls": 220,
+          "calls": 220,
+          "self_seconds": 6.7e-05,
+          "cumulative_seconds": 0.007921553000000001
+        },
+        {
+          "file": ".venv/lib/python3.12/site-packages/scipy/integrate/_ivp/base.py",
+          "line": 23,
+          "function": "fun_wrapped",
+          "primitive_calls": 220,
+          "calls": 220,
+          "self_seconds": 8.614500000000001e-05,
+          "cumulative_seconds": 0.007854553
+        },
+        {
+          "file": "research/shared_radau.py",
+          "line": 114,
+          "function": "rhs",
+          "primitive_calls": 220,
+          "calls": 220,
+          "self_seconds": 0.000598243,
+          "cumulative_seconds": 0.007738414000000001
+        },
+        {
+          "file": ".venv/lib/python3.12/site-packages/scipy/sparse/_base.py",
+          "line": 1006,
+          "function": "__matmul__",
+          "primitive_calls": 720,
+          "calls": 720,
+          "self_seconds": 0.000257958,
+          "cumulative_seconds": 0.006038937
+        },
+        {
+          "file": ".venv/lib/python3.12/site-packages/scipy/sparse/_base.py",
+          "line": 875,
+          "function": "_matmul_dispatch",
+          "primitive_calls": 720,
+          "calls": 720,
+          "self_seconds": 0.000321982,
+          "cumulative_seconds": 0.004547555
+        },
+        {
+          "file": ".venv/lib/python3.12/site-packages/scipy/sparse/_compressed.py",
+          "line": 30,
+          "function": "__init__",
+          "primitive_calls": 60,
+          "calls": 80,
+          "self_seconds": 0.00023024000000000002,
+          "cumulative_seconds": 0.003310369
+        },
+        {
+          "file": ".venv/lib/python3.12/site-packages/scipy/_lib/_util.py",
+          "line": 1102,
+          "function": "wrapper",
+          "primitive_calls": 180,
+          "calls": 180,
+          "self_seconds": 0.000684342,
+          "cumulative_seconds": 0.002433038
+        },
+        {
+          "file": ".venv/lib/python3.12/site-packages/scipy/sparse/_compressed.py",
+          "line": 387,
+          "function": "_matmul_vector",
+          "primitive_calls": 700,
+          "calls": 700,
+          "self_seconds": 0.0008895950000000001,
+          "cumulative_seconds": 0.002204957
+        },
+        {
+          "file": ".venv/lib/python3.12/site-packages/scipy/integrate/_ivp/radau.py",
+          "line": 335,
+          "function": "solve_lu",
+          "primitive_calls": 140,
+          "calls": 140,
+          "self_seconds": 3.9586000000000004e-05,
+          "cumulative_seconds": 0.001996008
+        },
+        {
+          "file": ".venv/lib/python3.12/site-packages/scipy/linalg/_decomp_lu.py",
+          "line": 134,
+          "function": "lu_solve",
+          "primitive_calls": 140,
+          "calls": 140,
+          "self_seconds": 6.8378e-05,
+          "cumulative_seconds": 0.001956422
+        },
+        {
+          "file": ".venv/lib/python3.12/site-packages/scipy/sparse/_compressed.py",
+          "line": 415,
+          "function": "_matmul_sparse",
+          "primitive_calls": 20,
+          "calls": 20,
+          "self_seconds": 0.00011400700000000001,
+          "cumulative_seconds": 0.0018140860000000001
+        },
+        {
+          "file": ".venv/lib/python3.12/site-packages/scipy/sparse/_coo.py",
+          "line": 32,
+          "function": "__init__",
+          "primitive_calls": 20,
+          "calls": 20,
+          "self_seconds": 0.00012631600000000002,
+          "cumulative_seconds": 0.001360747
+        },
+        {
+          "file": ".venv/lib/python3.12/site-packages/scipy/sparse/_sputils.py",
+          "line": 344,
+          "function": "isscalarlike",
+          "primitive_calls": 740,
+          "calls": 740,
+          "self_seconds": 0.00029134200000000004,
+          "cumulative_seconds": 0.001267965
+        }
+      ]
+    },
+    {
+      "key": "kecoli-0.003-11",
+      "model": "kecoli",
+      "method": "row-spc",
+      "iterations": 5,
+      "instrumented_seconds": 0.06035654399999999,
+      "endpoint_scaled_difference": 0.0,
+      "by_self": [
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<built-in method scipy.sparse.linalg._dsolve._superlu.gstrf>",
+          "primitive_calls": 15,
+          "calls": 15,
+          "self_seconds": 0.029591169,
+          "cumulative_seconds": 0.029591169
+        },
+        {
+          "file": "metabolism/kecoli.py",
+          "line": 83,
+          "function": "flux",
+          "primitive_calls": 60,
+          "calls": 60,
+          "self_seconds": 0.004904378,
+          "cumulative_seconds": 0.005011544000000001
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<method 'solve' of 'SuperLU' objects>",
+          "primitive_calls": 45,
+          "calls": 45,
+          "self_seconds": 0.0027728740000000003,
+          "cumulative_seconds": 0.0027728740000000003
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<built-in method scipy.sparse._sparsetools.csc_matvec>",
+          "primitive_calls": 175,
+          "calls": 175,
+          "self_seconds": 0.001962583,
+          "cumulative_seconds": 0.001962583
+        },
+        {
+          "file": "metabolism/kecoli.py",
+          "line": 90,
+          "function": "flux_jacobian",
+          "primitive_calls": 5,
+          "calls": 5,
+          "self_seconds": 0.0014362490000000001,
+          "cumulative_seconds": 0.002226542
+        },
+        {
+          "file": ".venv/lib/python3.12/site-packages/numpy/polynomial/polynomial.py",
+          "line": 663,
+          "function": "polyval",
+          "primitive_calls": 90,
+          "calls": 90,
+          "self_seconds": 0.001273997,
+          "cumulative_seconds": 0.00132138
+        },
+        {
+          "file": "research/row_continuous.py",
+          "line": 56,
+          "function": "trial",
+          "primitive_calls": 5,
+          "calls": 5,
+          "self_seconds": 0.0011613040000000002,
+          "cumulative_seconds": 0.060225917000000004
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<built-in method scipy.sparse._sparsetools.csr_minus_csr>",
+          "primitive_calls": 20,
+          "calls": 20,
+          "self_seconds": 0.0011219580000000002,
+          "cumulative_seconds": 0.0011219580000000002
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<built-in method scipy.sparse._sparsetools.csr_sort_indices>",
+          "primitive_calls": 15,
+          "calls": 15,
+          "self_seconds": 0.000999499,
+          "cumulative_seconds": 0.000999499
+        },
+        {
+          "file": ".venv/lib/python3.12/site-packages/scipy/sparse/_sputils.py",
+          "line": 263,
+          "function": "get_index_dtype",
+          "primitive_calls": 195,
+          "calls": 195,
+          "self_seconds": 0.0006916660000000001,
+          "cumulative_seconds": 0.0010601200000000001
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<method 'reduce' of 'numpy.ufunc' objects>",
+          "primitive_calls": 395,
+          "calls": 395,
+          "self_seconds": 0.000691203,
+          "cumulative_seconds": 0.000691203
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<built-in method scipy.sparse._sparsetools.csr_matmat>",
+          "primitive_calls": 10,
+          "calls": 10,
+          "self_seconds": 0.000492336,
+          "cumulative_seconds": 0.000492336
+        },
+        {
+          "file": "research/extrapolated_flow.py",
+          "line": 37,
+          "function": "dense",
+          "primitive_calls": 5,
+          "calls": 5,
+          "self_seconds": 0.00046662300000000005,
+          "cumulative_seconds": 0.0005265430000000001
+        },
+        {
+          "file": "research/row_continuous.py",
+          "line": 62,
+          "function": "check",
+          "primitive_calls": 75,
+          "calls": 75,
+          "self_seconds": 0.000411309,
+          "cumulative_seconds": 0.000687835
+        },
+        {
+          "file": ".venv/lib/python3.12/site-packages/numpy/lib/_shape_base_impl.py",
+          "line": 607,
+          "function": "column_stack",
+          "primitive_calls": 30,
+          "calls": 30,
+          "self_seconds": 0.00040218000000000003,
+          "cumulative_seconds": 0.000445165
+        },
+        {
+          "file": ".venv/lib/python3.12/site-packages/scipy/sparse/_compressed.py",
+          "line": 30,
+          "function": "__init__",
+          "primitive_calls": 115,
+          "calls": 135,
+          "self_seconds": 0.000394002,
+          "cumulative_seconds": 0.003999994000000001
+        },
+        {
+          "file": "research/history_polynomial.py",
+          "line": 30,
+          "function": "minima",
+          "primitive_calls": 10,
+          "calls": 10,
+          "self_seconds": 0.000329535,
+          "cumulative_seconds": 0.000764625
+        },
+        {
+          "file": ".venv/lib/python3.12/site-packages/scipy/integrate/_ivp/radau.py",
+          "line": 48,
+          "function": "solve_collocation_system",
+          "primitive_calls": 5,
+          "calls": 5,
+          "self_seconds": 0.00032441400000000003,
+          "cumulative_seconds": 0.005889625000000001
+        },
+        {
+          "file": ".venv/lib/python3.12/site-packages/scipy/sparse/_compressed.py",
+          "line": 1132,
+          "function": "prune",
+          "primitive_calls": 170,
+          "calls": 170,
+          "self_seconds": 0.000322608,
+          "cumulative_seconds": 0.000726739
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<built-in method scipy.sparse._sparsetools.csr_matmat_maxnnz>",
+          "primitive_calls": 10,
+          "calls": 10,
+          "self_seconds": 0.00029137300000000004,
+          "cumulative_seconds": 0.00029137300000000004
+        },
+        {
+          "file": ".venv/lib/python3.12/site-packages/scipy/sparse/_compressed.py",
+          "line": 387,
+          "function": "_matmul_vector",
+          "primitive_calls": 175,
+          "calls": 175,
+          "self_seconds": 0.000274418,
+          "cumulative_seconds": 0.0025703320000000003
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<built-in method builtins.isinstance>",
+          "primitive_calls": 1875,
+          "calls": 1875,
+          "self_seconds": 0.000261115,
+          "cumulative_seconds": 0.00044969300000000003
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<built-in method scipy.sparse._sparsetools.dia_tocsr>",
+          "primitive_calls": 5,
+          "calls": 5,
+          "self_seconds": 0.000257376,
+          "cumulative_seconds": 0.000257376
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<built-in method builtins.len>",
+          "primitive_calls": 3195,
+          "calls": 3195,
+          "self_seconds": 0.00023943600000000002,
+          "cumulative_seconds": 0.00023943600000000002
+        },
+        {
+          "file": ".venv/lib/python3.12/site-packages/scipy/sparse/_compressed.py",
+          "line": 166,
+          "function": "check_format",
+          "primitive_calls": 135,
+          "calls": 135,
+          "self_seconds": 0.00022940700000000002,
+          "cumulative_seconds": 0.0008991670000000001
+        },
+        {
+          "file": "research/row_continuous.py",
+          "line": 92,
+          "function": "rhs",
+          "primitive_calls": 40,
+          "calls": 40,
+          "self_seconds": 0.00021412500000000001,
+          "cumulative_seconds": 0.005822292000000001
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<built-in method scipy.sparse._sparsetools.csr_sum_duplicates>",
+          "primitive_calls": 15,
+          "calls": 15,
+          "self_seconds": 0.00018225200000000002,
+          "cumulative_seconds": 0.00018225200000000002
+        },
+        {
+          "file": ".venv/lib/python3.12/site-packages/scipy/integrate/_ivp/radau.py",
+          "line": 405,
+          "function": "_step_impl",
+          "primitive_calls": 5,
+          "calls": 5,
+          "self_seconds": 0.000181625,
+          "cumulative_seconds": 0.017753624000000003
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<method 'dot' of 'numpy.ndarray' objects>",
+          "primitive_calls": 55,
+          "calls": 55,
+          "self_seconds": 0.000179122,
+          "cumulative_seconds": 0.000179122
+        },
+        {
+          "file": ".venv/lib/python3.12/site-packages/scipy/sparse/_sputils.py",
+          "line": 443,
+          "function": "check_shape",
+          "primitive_calls": 105,
+          "calls": 105,
+          "self_seconds": 0.000169246,
+          "cumulative_seconds": 0.00034387400000000004
+        }
+      ],
+      "by_cumulative": [
+        {
+          "file": "research/m3_row_profile.py",
+          "line": 34,
+          "function": "<lambda>",
+          "primitive_calls": 5,
+          "calls": 5,
+          "self_seconds": 7.3918e-05,
+          "cumulative_seconds": 0.060299835
+        },
+        {
+          "file": "research/row_continuous.py",
+          "line": 56,
+          "function": "trial",
+          "primitive_calls": 5,
+          "calls": 5,
+          "self_seconds": 0.0011613040000000002,
+          "cumulative_seconds": 0.060225917000000004
+        },
+        {
+          "file": ".venv/lib/python3.12/site-packages/scipy/sparse/linalg/_dsolve/linsolve.py",
+          "line": 340,
+          "function": "splu",
+          "primitive_calls": 15,
+          "calls": 15,
+          "self_seconds": 8.1585e-05,
+          "cumulative_seconds": 0.031148000000000002
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<built-in method scipy.sparse.linalg._dsolve._superlu.gstrf>",
+          "primitive_calls": 15,
+          "calls": 15,
+          "self_seconds": 0.029591169,
+          "cumulative_seconds": 0.029591169
+        },
+        {
+          "file": ".venv/lib/python3.12/site-packages/scipy/integrate/_ivp/base.py",
+          "line": 179,
+          "function": "step",
+          "primitive_calls": 5,
+          "calls": 5,
+          "self_seconds": 9.918e-06,
+          "cumulative_seconds": 0.017763542
+        },
+        {
+          "file": ".venv/lib/python3.12/site-packages/scipy/integrate/_ivp/radau.py",
+          "line": 405,
+          "function": "_step_impl",
+          "primitive_calls": 5,
+          "calls": 5,
+          "self_seconds": 0.000181625,
+          "cumulative_seconds": 0.017753624000000003
+        },
+        {
+          "file": "research/ordered_radau.py",
+          "line": 22,
+          "function": "lu",
+          "primitive_calls": 10,
+          "calls": 10,
+          "self_seconds": 7.292000000000001e-06,
+          "cumulative_seconds": 0.009376583
+        },
+        {
+          "file": ".venv/lib/python3.12/site-packages/scipy/integrate/_ivp/radau.py",
+          "line": 48,
+          "function": "solve_collocation_system",
+          "primitive_calls": 5,
+          "calls": 5,
+          "self_seconds": 0.00032441400000000003,
+          "cumulative_seconds": 0.005889625000000001
+        },
+        {
+          "file": ".venv/lib/python3.12/site-packages/scipy/integrate/_ivp/base.py",
+          "line": 156,
+          "function": "fun",
+          "primitive_calls": 40,
+          "calls": 40,
+          "self_seconds": 1.6832e-05,
+          "cumulative_seconds": 0.005870251
+        },
+        {
+          "file": ".venv/lib/python3.12/site-packages/scipy/integrate/_ivp/base.py",
+          "line": 23,
+          "function": "fun_wrapped",
+          "primitive_calls": 40,
+          "calls": 40,
+          "self_seconds": 2.3623e-05,
+          "cumulative_seconds": 0.005853419
+        },
+        {
+          "file": "research/row_continuous.py",
+          "line": 92,
+          "function": "rhs",
+          "primitive_calls": 40,
+          "calls": 40,
+          "self_seconds": 0.00021412500000000001,
+          "cumulative_seconds": 0.005822292000000001
+        },
+        {
+          "file": ".venv/lib/python3.12/site-packages/scipy/sparse/_base.py",
+          "line": 1006,
+          "function": "__matmul__",
+          "primitive_calls": 185,
+          "calls": 185,
+          "self_seconds": 9.466900000000001e-05,
+          "cumulative_seconds": 0.005087161000000001
+        },
+        {
+          "file": "metabolism/kecoli.py",
+          "line": 83,
+          "function": "flux",
+          "primitive_calls": 60,
+          "calls": 60,
+          "self_seconds": 0.004904378,
+          "cumulative_seconds": 0.005011544000000001
+        },
+        {
+          "file": ".venv/lib/python3.12/site-packages/scipy/sparse/_base.py",
+          "line": 875,
+          "function": "_matmul_dispatch",
+          "primitive_calls": 185,
+          "calls": 185,
+          "self_seconds": 0.000121287,
+          "cumulative_seconds": 0.0046172
+        },
+        {
+          "file": ".venv/lib/python3.12/site-packages/scipy/sparse/_compressed.py",
+          "line": 30,
+          "function": "__init__",
+          "primitive_calls": 115,
+          "calls": 135,
+          "self_seconds": 0.000394002,
+          "cumulative_seconds": 0.003999994000000001
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<method 'solve' of 'SuperLU' objects>",
+          "primitive_calls": 45,
+          "calls": 45,
+          "self_seconds": 0.0027728740000000003,
+          "cumulative_seconds": 0.0027728740000000003
+        },
+        {
+          "file": ".venv/lib/python3.12/site-packages/scipy/sparse/_compressed.py",
+          "line": 387,
+          "function": "_matmul_vector",
+          "primitive_calls": 175,
+          "calls": 175,
+          "self_seconds": 0.000274418,
+          "cumulative_seconds": 0.0025703320000000003
+        },
+        {
+          "file": "research/shared_radau.py",
+          "line": 42,
+          "function": "__init__",
+          "primitive_calls": 5,
+          "calls": 5,
+          "self_seconds": 1.8706e-05,
+          "cumulative_seconds": 0.0023830830000000002
+        },
+        {
+          "file": "research/ordered_radau.py",
+          "line": 15,
+          "function": "__init__",
+          "primitive_calls": 5,
+          "calls": 5,
+          "self_seconds": 3.0793e-05,
+          "cumulative_seconds": 0.0023629600000000003
+        },
+        {
+          "file": ".venv/lib/python3.12/site-packages/scipy/integrate/_ivp/radau.py",
+          "line": 295,
+          "function": "__init__",
+          "primitive_calls": 5,
+          "calls": 5,
+          "self_seconds": 6.217000000000001e-05,
+          "cumulative_seconds": 0.002327418
+        },
+        {
+          "file": "metabolism/adaptive.py",
+          "line": 61,
+          "function": "gradient",
+          "primitive_calls": 5,
+          "calls": 5,
+          "self_seconds": 1.8125e-05,
+          "cumulative_seconds": 0.0023036660000000002
+        },
+        {
+          "file": "metabolism/kecoli.py",
+          "line": 90,
+          "function": "flux_jacobian",
+          "primitive_calls": 5,
+          "calls": 5,
+          "self_seconds": 0.0014362490000000001,
+          "cumulative_seconds": 0.002226542
+        },
+        {
+          "file": ".venv/lib/python3.12/site-packages/scipy/sparse/_base.py",
+          "line": 847,
+          "function": "__sub__",
+          "primitive_calls": 20,
+          "calls": 20,
+          "self_seconds": 2.0627e-05,
+          "cumulative_seconds": 0.002226333
+        },
+        {
+          "file": ".venv/lib/python3.12/site-packages/scipy/sparse/_compressed.py",
+          "line": 260,
+          "function": "_sub_sparse",
+          "primitive_calls": 20,
+          "calls": 20,
+          "self_seconds": 1.2499e-05,
+          "cumulative_seconds": 0.002146583
+        },
+        {
+          "file": ".venv/lib/python3.12/site-packages/scipy/sparse/_compressed.py",
+          "line": 1203,
+          "function": "_binopt",
+          "primitive_calls": 20,
+          "calls": 20,
+          "self_seconds": 0.00010596700000000001,
+          "cumulative_seconds": 0.002134084
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<built-in method scipy.sparse._sparsetools.csc_matvec>",
+          "primitive_calls": 175,
+          "calls": 175,
+          "self_seconds": 0.001962583,
+          "cumulative_seconds": 0.001962583
+        },
+        {
+          "file": ".venv/lib/python3.12/site-packages/scipy/sparse/_compressed.py",
+          "line": 415,
+          "function": "_matmul_sparse",
+          "primitive_calls": 10,
+          "calls": 10,
+          "self_seconds": 6.441900000000001e-05,
+          "cumulative_seconds": 0.001852541
+        },
+        {
+          "file": ".venv/lib/python3.12/site-packages/scipy/sparse/_compressed.py",
+          "line": 1072,
+          "function": "sum_duplicates",
+          "primitive_calls": 20,
+          "calls": 20,
+          "self_seconds": 2.9456e-05,
+          "cumulative_seconds": 0.001433168
+        },
+        {
+          "file": ".venv/lib/python3.12/site-packages/scipy/sparse/_index.py",
+          "line": 29,
+          "function": "__getitem__",
+          "primitive_calls": 15,
+          "calls": 15,
+          "self_seconds": 5.2379e-05,
+          "cumulative_seconds": 0.001404333
+        },
+        {
+          "file": ".venv/lib/python3.12/site-packages/scipy/sparse/_base.py",
+          "line": 471,
+          "function": "asformat",
+          "primitive_calls": 50,
+          "calls": 50,
+          "self_seconds": 2.0535000000000002e-05,
+          "cumulative_seconds": 0.0013539580000000002
+        }
+      ]
+    },
+    {
+      "key": "kecoli-0.003-6",
+      "model": "kecoli",
+      "method": "row",
+      "iterations": 5,
+      "instrumented_seconds": 0.032273374000000014,
+      "endpoint_scaled_difference": 0.0,
+      "by_self": [
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<built-in method scipy.sparse.linalg._dsolve._superlu.gstrf>",
+          "primitive_calls": 5,
+          "calls": 5,
+          "self_seconds": 0.017408417000000002,
+          "cumulative_seconds": 0.017408417000000002
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<method 'solve' of 'SuperLU' objects>",
+          "primitive_calls": 20,
+          "calls": 20,
+          "self_seconds": 0.0016489150000000001,
+          "cumulative_seconds": 0.0016489150000000001
+        },
+        {
+          "file": "metabolism/kecoli.py",
+          "line": 83,
+          "function": "flux",
+          "primitive_calls": 20,
+          "calls": 20,
+          "self_seconds": 0.0015791660000000001,
+          "cumulative_seconds": 0.0016157930000000001
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<built-in method scipy.sparse._sparsetools.csc_matvec>",
+          "primitive_calls": 130,
+          "calls": 130,
+          "self_seconds": 0.0015055770000000001,
+          "cumulative_seconds": 0.0015055770000000001
+        },
+        {
+          "file": "metabolism/kecoli.py",
+          "line": 90,
+          "function": "flux_jacobian",
+          "primitive_calls": 5,
+          "calls": 5,
+          "self_seconds": 0.001316167,
+          "cumulative_seconds": 0.002047833
+        },
+        {
+          "file": "research/row_continuous.py",
+          "line": 56,
+          "function": "trial",
+          "primitive_calls": 5,
+          "calls": 5,
+          "self_seconds": 0.0007747730000000001,
+          "cumulative_seconds": 0.032177708
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<built-in method scipy.sparse._sparsetools.csr_minus_csr>",
+          "primitive_calls": 10,
+          "calls": 10,
+          "self_seconds": 0.0005683320000000001,
+          "cumulative_seconds": 0.0005683320000000001
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<built-in method scipy.sparse._sparsetools.csr_sort_indices>",
+          "primitive_calls": 5,
+          "calls": 5,
+          "self_seconds": 0.000552752,
+          "cumulative_seconds": 0.000552752
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<built-in method scipy.sparse._sparsetools.csr_matmat>",
+          "primitive_calls": 5,
+          "calls": 5,
+          "self_seconds": 0.000364124,
+          "cumulative_seconds": 0.000364124
+        },
+        {
+          "file": ".venv/lib/python3.12/site-packages/scipy/sparse/_sputils.py",
+          "line": 263,
+          "function": "get_index_dtype",
+          "primitive_calls": 105,
+          "calls": 105,
+          "self_seconds": 0.000355882,
+          "cumulative_seconds": 0.0005639940000000001
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<method 'reduce' of 'numpy.ufunc' objects>",
+          "primitive_calls": 215,
+          "calls": 215,
+          "self_seconds": 0.00035353500000000004,
+          "cumulative_seconds": 0.00035353500000000004
+        },
+        {
+          "file": ".venv/lib/python3.12/site-packages/numpy/lib/_shape_base_impl.py",
+          "line": 607,
+          "function": "column_stack",
+          "primitive_calls": 30,
+          "calls": 30,
+          "self_seconds": 0.00032,
+          "cumulative_seconds": 0.00036100300000000004
+        },
+        {
+          "file": ".venv/lib/python3.12/site-packages/scipy/sparse/_compressed.py",
+          "line": 30,
+          "function": "__init__",
+          "primitive_calls": 65,
+          "calls": 75,
+          "self_seconds": 0.0002168,
+          "cumulative_seconds": 0.002132746
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<built-in method scipy.sparse._sparsetools.csr_matmat_maxnnz>",
+          "primitive_calls": 10,
+          "calls": 10,
+          "self_seconds": 0.00020091500000000002,
+          "cumulative_seconds": 0.00020091500000000002
+        },
+        {
+          "file": ".venv/lib/python3.12/site-packages/scipy/sparse/_compressed.py",
+          "line": 387,
+          "function": "_matmul_vector",
+          "primitive_calls": 130,
+          "calls": 130,
+          "self_seconds": 0.000189328,
+          "cumulative_seconds": 0.0019200450000000002
+        },
+        {
+          "file": "research/history_polynomial.py",
+          "line": 30,
+          "function": "minima",
+          "primitive_calls": 5,
+          "calls": 5,
+          "self_seconds": 0.00017003500000000002,
+          "cumulative_seconds": 0.000378499
+        },
+        {
+          "file": ".venv/lib/python3.12/site-packages/scipy/sparse/_compressed.py",
+          "line": 1132,
+          "function": "prune",
+          "primitive_calls": 90,
+          "calls": 90,
+          "self_seconds": 0.00016565400000000002,
+          "cumulative_seconds": 0.00036500300000000003
+        },
+        {
+          "file": "research/row_continuous.py",
+          "line": 62,
+          "function": "check",
+          "primitive_calls": 30,
+          "calls": 30,
+          "self_seconds": 0.00015117100000000002,
+          "cumulative_seconds": 0.000258877
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<built-in method builtins.isinstance>",
+          "primitive_calls": 1005,
+          "calls": 1005,
+          "self_seconds": 0.00013430200000000002,
+          "cumulative_seconds": 0.00022241100000000002
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<built-in method builtins.len>",
+          "primitive_calls": 1740,
+          "calls": 1740,
+          "self_seconds": 0.00011966900000000001,
+          "cumulative_seconds": 0.00011966900000000001
+        },
+        {
+          "file": ".venv/lib/python3.12/site-packages/scipy/sparse/_compressed.py",
+          "line": 166,
+          "function": "check_format",
+          "primitive_calls": 75,
+          "calls": 75,
+          "self_seconds": 0.00011800000000000001,
+          "cumulative_seconds": 0.000466418
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<built-in method numpy.zeros>",
+          "primitive_calls": 215,
+          "calls": 215,
+          "self_seconds": 9.949500000000001e-05,
+          "cumulative_seconds": 9.949500000000001e-05
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<built-in method scipy.sparse._sparsetools.csr_tocsc>",
+          "primitive_calls": 10,
+          "calls": 10,
+          "self_seconds": 9.879100000000001e-05,
+          "cumulative_seconds": 9.879100000000001e-05
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<built-in method builtins.sum>",
+          "primitive_calls": 40,
+          "calls": 40,
+          "self_seconds": 9.6123e-05,
+          "cumulative_seconds": 0.00018079400000000002
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<built-in method scipy.sparse._sparsetools.csr_sum_duplicates>",
+          "primitive_calls": 5,
+          "calls": 5,
+          "self_seconds": 9.562500000000001e-05,
+          "cumulative_seconds": 9.562500000000001e-05
+        },
+        {
+          "file": ".venv/lib/python3.12/site-packages/scipy/sparse/_base.py",
+          "line": 875,
+          "function": "_matmul_dispatch",
+          "primitive_calls": 140,
+          "calls": 140,
+          "self_seconds": 8.999600000000001e-05,
+          "cumulative_seconds": 0.0036321260000000003
+        },
+        {
+          "file": ".venv/lib/python3.12/site-packages/numpy/_core/numeric.py",
+          "line": 1911,
+          "function": "isscalar",
+          "primitive_calls": 165,
+          "calls": 165,
+          "self_seconds": 8.408100000000001e-05,
+          "cumulative_seconds": 0.00019338000000000002
+        },
+        {
+          "file": ".venv/lib/python3.12/site-packages/scipy/sparse/_sputils.py",
+          "line": 443,
+          "function": "check_shape",
+          "primitive_calls": 55,
+          "calls": 55,
+          "self_seconds": 8.033400000000001e-05,
+          "cumulative_seconds": 0.00016570900000000002
+        },
+        {
+          "file": ".venv/lib/python3.12/site-packages/numpy/linalg/_linalg.py",
+          "line": 374,
+          "function": "solve",
+          "primitive_calls": 10,
+          "calls": 10,
+          "self_seconds": 7.816500000000001e-05,
+          "cumulative_seconds": 0.000153332
+        },
+        {
+          "file": ".venv/lib/python3.12/site-packages/scipy/sparse/_base.py",
+          "line": 1695,
+          "function": "_get_index_dtype",
+          "primitive_calls": 100,
+          "calls": 100,
+          "self_seconds": 7.7175e-05,
+          "cumulative_seconds": 0.000667742
+        }
+      ],
+      "by_cumulative": [
+        {
+          "file": "research/m3_row_profile.py",
+          "line": 34,
+          "function": "<lambda>",
+          "primitive_calls": 5,
+          "calls": 5,
+          "self_seconds": 4.3832e-05,
+          "cumulative_seconds": 0.03222154
+        },
+        {
+          "file": "research/row_continuous.py",
+          "line": 56,
+          "function": "trial",
+          "primitive_calls": 5,
+          "calls": 5,
+          "self_seconds": 0.0007747730000000001,
+          "cumulative_seconds": 0.032177708
+        },
+        {
+          "file": ".venv/lib/python3.12/site-packages/scipy/sparse/linalg/_dsolve/linsolve.py",
+          "line": 340,
+          "function": "splu",
+          "primitive_calls": 5,
+          "calls": 5,
+          "self_seconds": 1.6628e-05,
+          "cumulative_seconds": 0.018167166000000002
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<built-in method scipy.sparse.linalg._dsolve._superlu.gstrf>",
+          "primitive_calls": 5,
+          "calls": 5,
+          "self_seconds": 0.017408417000000002,
+          "cumulative_seconds": 0.017408417000000002
+        },
+        {
+          "file": ".venv/lib/python3.12/site-packages/scipy/sparse/_base.py",
+          "line": 1006,
+          "function": "__matmul__",
+          "primitive_calls": 140,
+          "calls": 140,
+          "self_seconds": 6.7413e-05,
+          "cumulative_seconds": 0.003965507
+        },
+        {
+          "file": ".venv/lib/python3.12/site-packages/scipy/sparse/_base.py",
+          "line": 875,
+          "function": "_matmul_dispatch",
+          "primitive_calls": 140,
+          "calls": 140,
+          "self_seconds": 8.999600000000001e-05,
+          "cumulative_seconds": 0.0036321260000000003
+        },
+        {
+          "file": ".venv/lib/python3.12/site-packages/scipy/sparse/_compressed.py",
+          "line": 30,
+          "function": "__init__",
+          "primitive_calls": 65,
+          "calls": 75,
+          "self_seconds": 0.0002168,
+          "cumulative_seconds": 0.002132746
+        },
+        {
+          "file": "metabolism/adaptive.py",
+          "line": 61,
+          "function": "gradient",
+          "primitive_calls": 5,
+          "calls": 5,
+          "self_seconds": 1.3666000000000001e-05,
+          "cumulative_seconds": 0.00211875
+        },
+        {
+          "file": "metabolism/kecoli.py",
+          "line": 90,
+          "function": "flux_jacobian",
+          "primitive_calls": 5,
+          "calls": 5,
+          "self_seconds": 0.001316167,
+          "cumulative_seconds": 0.002047833
+        },
+        {
+          "file": ".venv/lib/python3.12/site-packages/scipy/sparse/_compressed.py",
+          "line": 387,
+          "function": "_matmul_vector",
+          "primitive_calls": 130,
+          "calls": 130,
+          "self_seconds": 0.000189328,
+          "cumulative_seconds": 0.0019200450000000002
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<method 'solve' of 'SuperLU' objects>",
+          "primitive_calls": 20,
+          "calls": 20,
+          "self_seconds": 0.0016489150000000001,
+          "cumulative_seconds": 0.0016489150000000001
+        },
+        {
+          "file": "metabolism/kecoli.py",
+          "line": 83,
+          "function": "flux",
+          "primitive_calls": 20,
+          "calls": 20,
+          "self_seconds": 0.0015791660000000001,
+          "cumulative_seconds": 0.0016157930000000001
+        },
+        {
+          "file": ".venv/lib/python3.12/site-packages/scipy/sparse/_compressed.py",
+          "line": 415,
+          "function": "_matmul_sparse",
+          "primitive_calls": 10,
+          "calls": 10,
+          "self_seconds": 5.7408e-05,
+          "cumulative_seconds": 0.001566083
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<built-in method scipy.sparse._sparsetools.csc_matvec>",
+          "primitive_calls": 130,
+          "calls": 130,
+          "self_seconds": 0.0015055770000000001,
+          "cumulative_seconds": 0.0015055770000000001
+        },
+        {
+          "file": ".venv/lib/python3.12/site-packages/scipy/sparse/_base.py",
+          "line": 847,
+          "function": "__sub__",
+          "primitive_calls": 10,
+          "calls": 10,
+          "self_seconds": 9.288e-06,
+          "cumulative_seconds": 0.001087082
+        },
+        {
+          "file": ".venv/lib/python3.12/site-packages/scipy/sparse/_compressed.py",
+          "line": 260,
+          "function": "_sub_sparse",
+          "primitive_calls": 10,
+          "calls": 10,
+          "self_seconds": 6.917e-06,
+          "cumulative_seconds": 0.001049084
+        },
+        {
+          "file": ".venv/lib/python3.12/site-packages/scipy/sparse/_compressed.py",
+          "line": 1203,
+          "function": "_binopt",
+          "primitive_calls": 10,
+          "calls": 10,
+          "self_seconds": 4.979e-05,
+          "cumulative_seconds": 0.001042167
+        },
+        {
+          "file": ".venv/lib/python3.12/site-packages/scipy/sparse/_compressed.py",
+          "line": 1072,
+          "function": "sum_duplicates",
+          "primitive_calls": 10,
+          "calls": 10,
+          "self_seconds": 1.2166e-05,
+          "cumulative_seconds": 0.0007734570000000001
+        },
+        {
+          "file": "research/row_continuous.py",
+          "line": 65,
+          "function": "accepted",
+          "primitive_calls": 25,
+          "calls": 25,
+          "self_seconds": 7.1536e-05,
+          "cumulative_seconds": 0.000765791
+        },
+        {
+          "file": ".venv/lib/python3.12/site-packages/scipy/sparse/_base.py",
+          "line": 1695,
+          "function": "_get_index_dtype",
+          "primitive_calls": 100,
+          "calls": 100,
+          "self_seconds": 7.7175e-05,
+          "cumulative_seconds": 0.000667742
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<built-in method scipy.sparse._sparsetools.csr_minus_csr>",
+          "primitive_calls": 10,
+          "calls": 10,
+          "self_seconds": 0.0005683320000000001,
+          "cumulative_seconds": 0.0005683320000000001
+        },
+        {
+          "file": ".venv/lib/python3.12/site-packages/scipy/sparse/_compressed.py",
+          "line": 1124,
+          "function": "sort_indices",
+          "primitive_calls": 5,
+          "calls": 5,
+          "self_seconds": 5.707000000000001e-06,
+          "cumulative_seconds": 0.0005674590000000001
+        },
+        {
+          "file": ".venv/lib/python3.12/site-packages/scipy/sparse/_sputils.py",
+          "line": 263,
+          "function": "get_index_dtype",
+          "primitive_calls": 105,
+          "calls": 105,
+          "self_seconds": 0.000355882,
+          "cumulative_seconds": 0.0005639940000000001
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<built-in method scipy.sparse._sparsetools.csr_sort_indices>",
+          "primitive_calls": 5,
+          "calls": 5,
+          "self_seconds": 0.000552752,
+          "cumulative_seconds": 0.000552752
+        },
+        {
+          "file": ".venv/lib/python3.12/site-packages/scipy/sparse/_base.py",
+          "line": 471,
+          "function": "asformat",
+          "primitive_calls": 25,
+          "calls": 25,
+          "self_seconds": 1.2335000000000001e-05,
+          "cumulative_seconds": 0.000496833
+        },
+        {
+          "file": ".venv/lib/python3.12/site-packages/scipy/sparse/_compressed.py",
+          "line": 166,
+          "function": "check_format",
+          "primitive_calls": 75,
+          "calls": 75,
+          "self_seconds": 0.00011800000000000001,
+          "cumulative_seconds": 0.000466418
+        },
+        {
+          "file": ".venv/lib/python3.12/site-packages/scipy/sparse/_csr.py",
+          "line": 73,
+          "function": "tocsc",
+          "primitive_calls": 10,
+          "calls": 10,
+          "self_seconds": 4.4371000000000006e-05,
+          "cumulative_seconds": 0.00046545800000000003
+        },
+        {
+          "file": "research/row_continuous.py",
+          "line": 24,
+          "function": "coupling",
+          "primitive_calls": 5,
+          "calls": 5,
+          "self_seconds": 3.0501e-05,
+          "cumulative_seconds": 0.00043120800000000004
+        },
+        {
+          "file": "research/inner_dense.py",
+          "line": 44,
+          "function": "minima",
+          "primitive_calls": 5,
+          "calls": 5,
+          "self_seconds": 6.544e-06,
+          "cumulative_seconds": 0.00040141700000000005
+        },
+        {
+          "file": "research/history_polynomial.py",
+          "line": 30,
+          "function": "minima",
+          "primitive_calls": 5,
+          "calls": 5,
+          "self_seconds": 0.00017003500000000002,
+          "cumulative_seconds": 0.000378499
+        }
+      ]
+    },
+    {
+      "key": "kecoli-0.003-1",
+      "model": "kecoli",
+      "method": "radau",
+      "iterations": 5,
+      "instrumented_seconds": 0.05500220900000003,
+      "endpoint_scaled_difference": 0.0,
+      "by_self": [
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<built-in method scipy.sparse.linalg._dsolve._superlu.gstrf>",
+          "primitive_calls": 10,
+          "calls": 10,
+          "self_seconds": 0.036430627,
+          "cumulative_seconds": 0.036430627
+        },
+        {
+          "file": "metabolism/kecoli.py",
+          "line": 83,
+          "function": "flux",
+          "primitive_calls": 40,
+          "calls": 40,
+          "self_seconds": 0.003216792,
+          "cumulative_seconds": 0.0032909170000000004
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<method 'solve' of 'SuperLU' objects>",
+          "primitive_calls": 25,
+          "calls": 25,
+          "self_seconds": 0.003016042,
+          "cumulative_seconds": 0.003016042
+        },
+        {
+          "file": "metabolism/kecoli.py",
+          "line": 90,
+          "function": "flux_jacobian",
+          "primitive_calls": 5,
+          "calls": 5,
+          "self_seconds": 0.001316623,
+          "cumulative_seconds": 0.002058832
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<built-in method scipy.sparse._sparsetools.csr_sort_indices>",
+          "primitive_calls": 10,
+          "calls": 10,
+          "self_seconds": 0.001143003,
+          "cumulative_seconds": 0.001143003
+        },
+        {
+          "file": "research/mri_kernel.py",
+          "line": 31,
+          "function": "minima",
+          "primitive_calls": 5,
+          "calls": 5,
+          "self_seconds": 0.0007825050000000001,
+          "cumulative_seconds": 0.000834292
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<built-in method scipy.sparse._sparsetools.csc_matvec>",
+          "primitive_calls": 40,
+          "calls": 40,
+          "self_seconds": 0.0007409140000000001,
+          "cumulative_seconds": 0.0007409140000000001
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<built-in method scipy.sparse._sparsetools.csr_minus_csr>",
+          "primitive_calls": 10,
+          "calls": 10,
+          "self_seconds": 0.000695918,
+          "cumulative_seconds": 0.000695918
+        },
+        {
+          "file": ".venv/lib/python3.12/site-packages/scipy/integrate/_ivp/radau.py",
+          "line": 48,
+          "function": "solve_collocation_system",
+          "primitive_calls": 5,
+          "calls": 5,
+          "self_seconds": 0.00048737600000000003,
+          "cumulative_seconds": 0.007097916
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<method 'dot' of 'numpy.ndarray' objects>",
+          "primitive_calls": 55,
+          "calls": 55,
+          "self_seconds": 0.00038146100000000004,
+          "cumulative_seconds": 0.00038146100000000004
+        },
+        {
+          "file": ".venv/lib/python3.12/site-packages/scipy/sparse/_sputils.py",
+          "line": 263,
+          "function": "get_index_dtype",
+          "primitive_calls": 110,
+          "calls": 110,
+          "self_seconds": 0.000377503,
+          "cumulative_seconds": 0.0005957040000000001
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<built-in method scipy.sparse._sparsetools.csr_matmat>",
+          "primitive_calls": 5,
+          "calls": 5,
+          "self_seconds": 0.000349374,
+          "cumulative_seconds": 0.000349374
+        },
+        {
+          "file": "research/shared_radau.py",
+          "line": 114,
+          "function": "rhs",
+          "primitive_calls": 40,
+          "calls": 40,
+          "self_seconds": 0.000245582,
+          "cumulative_seconds": 0.004719919
+        },
+        {
+          "file": ".venv/lib/python3.12/site-packages/scipy/sparse/_compressed.py",
+          "line": 30,
+          "function": "__init__",
+          "primitive_calls": 65,
+          "calls": 80,
+          "self_seconds": 0.00023788000000000002,
+          "cumulative_seconds": 0.002501337
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<built-in method scipy.sparse._sparsetools.csr_sum_duplicates>",
+          "primitive_calls": 10,
+          "calls": 10,
+          "self_seconds": 0.00019683300000000002,
+          "cumulative_seconds": 0.00019683300000000002
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<built-in method scipy.sparse._sparsetools.csr_matmat_maxnnz>",
+          "primitive_calls": 5,
+          "calls": 5,
+          "self_seconds": 0.00018795900000000002,
+          "cumulative_seconds": 0.00018795900000000002
+        },
+        {
+          "file": ".venv/lib/python3.12/site-packages/scipy/sparse/_compressed.py",
+          "line": 1132,
+          "function": "prune",
+          "primitive_calls": 100,
+          "calls": 100,
+          "self_seconds": 0.000184916,
+          "cumulative_seconds": 0.00040941700000000003
+        },
+        {
+          "file": ".venv/lib/python3.12/site-packages/scipy/integrate/_ivp/radau.py",
+          "line": 405,
+          "function": "_step_impl",
+          "primitive_calls": 5,
+          "calls": 5,
+          "self_seconds": 0.00017058600000000002,
+          "cumulative_seconds": 0.04834846
+        },
+        {
+          "file": "research/inner_dense.py",
+          "line": 15,
+          "function": "from_radau",
+          "primitive_calls": 5,
+          "calls": 5,
+          "self_seconds": 0.000159874,
+          "cumulative_seconds": 0.00020395800000000001
+        },
+        {
+          "file": "research/shared_radau.py",
+          "line": 104,
+          "function": "shared_full_curve",
+          "primitive_calls": 5,
+          "calls": 5,
+          "self_seconds": 0.000156712,
+          "cumulative_seconds": 0.054940168000000005
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<method 'reduce' of 'numpy.ufunc' objects>",
+          "primitive_calls": 180,
+          "calls": 180,
+          "self_seconds": 0.00015566900000000002,
+          "cumulative_seconds": 0.00015566900000000002
+        },
+        {
+          "file": ".venv/lib/python3.12/site-packages/scipy/sparse/_compressed.py",
+          "line": 166,
+          "function": "check_format",
+          "primitive_calls": 80,
+          "calls": 80,
+          "self_seconds": 0.00012712700000000002,
+          "cumulative_seconds": 0.00050517
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<built-in method scipy.sparse._sparsetools.csr_tocsc>",
+          "primitive_calls": 10,
+          "calls": 10,
+          "self_seconds": 0.00012379400000000001,
+          "cumulative_seconds": 0.00012379400000000001
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<built-in method builtins.len>",
+          "primitive_calls": 1640,
+          "calls": 1640,
+          "self_seconds": 0.000117947,
+          "cumulative_seconds": 0.000117947
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<method 'copy' of 'numpy.ndarray' objects>",
+          "primitive_calls": 75,
+          "calls": 75,
+          "self_seconds": 0.00011087400000000001,
+          "cumulative_seconds": 0.00011087400000000001
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<built-in method builtins.isinstance>",
+          "primitive_calls": 760,
+          "calls": 760,
+          "self_seconds": 0.00010978000000000001,
+          "cumulative_seconds": 0.000188929
+        },
+        {
+          "file": ".venv/lib/python3.12/site-packages/scipy/sparse/_sputils.py",
+          "line": 443,
+          "function": "check_shape",
+          "primitive_calls": 65,
+          "calls": 65,
+          "self_seconds": 9.8342e-05,
+          "cumulative_seconds": 0.000201628
+        },
+        {
+          "file": ".venv/lib/python3.12/site-packages/scipy/sparse/_compressed.py",
+          "line": 387,
+          "function": "_matmul_vector",
+          "primitive_calls": 50,
+          "calls": 50,
+          "self_seconds": 9.241300000000001e-05,
+          "cumulative_seconds": 0.0009996270000000001
+        },
+        {
+          "file": ".venv/lib/python3.12/site-packages/scipy/sparse/_base.py",
+          "line": 1695,
+          "function": "_get_index_dtype",
+          "primitive_calls": 110,
+          "calls": 110,
+          "self_seconds": 9.181200000000001e-05,
+          "cumulative_seconds": 0.0007363210000000001
+        },
+        {
+          "file": ".venv/lib/python3.12/site-packages/scipy/sparse/_base.py",
+          "line": 372,
+          "function": "nnz",
+          "primitive_calls": 475,
+          "calls": 475,
+          "self_seconds": 8.788300000000001e-05,
+          "cumulative_seconds": 0.00024287100000000003
+        }
+      ],
+      "by_cumulative": [
+        {
+          "file": "research/m3_row_profile.py",
+          "line": 32,
+          "function": "<lambda>",
+          "primitive_calls": 5,
+          "calls": 5,
+          "self_seconds": 8.041e-06,
+          "cumulative_seconds": 0.054948209000000005
+        },
+        {
+          "file": "research/shared_radau.py",
+          "line": 104,
+          "function": "shared_full_curve",
+          "primitive_calls": 5,
+          "calls": 5,
+          "self_seconds": 0.000156712,
+          "cumulative_seconds": 0.054940168000000005
+        },
+        {
+          "file": ".venv/lib/python3.12/site-packages/scipy/integrate/_ivp/base.py",
+          "line": 179,
+          "function": "step",
+          "primitive_calls": 5,
+          "calls": 5,
+          "self_seconds": 1.1749e-05,
+          "cumulative_seconds": 0.048360209
+        },
+        {
+          "file": ".venv/lib/python3.12/site-packages/scipy/integrate/_ivp/radau.py",
+          "line": 405,
+          "function": "_step_impl",
+          "primitive_calls": 5,
+          "calls": 5,
+          "self_seconds": 0.00017058600000000002,
+          "cumulative_seconds": 0.04834846
+        },
+        {
+          "file": "research/shared_radau.py",
+          "line": 64,
+          "function": "<lambda>",
+          "primitive_calls": 10,
+          "calls": 10,
+          "self_seconds": 4.333e-06,
+          "cumulative_seconds": 0.038335001
+        },
+        {
+          "file": "research/shared_radau.py",
+          "line": 21,
+          "function": "factor",
+          "primitive_calls": 10,
+          "calls": 10,
+          "self_seconds": 2.7326000000000002e-05,
+          "cumulative_seconds": 0.038330668000000005
+        },
+        {
+          "file": "research/ordered_radau.py",
+          "line": 22,
+          "function": "lu",
+          "primitive_calls": 10,
+          "calls": 10,
+          "self_seconds": 6.712e-06,
+          "cumulative_seconds": 0.037990127000000005
+        },
+        {
+          "file": ".venv/lib/python3.12/site-packages/scipy/sparse/linalg/_dsolve/linsolve.py",
+          "line": 340,
+          "function": "splu",
+          "primitive_calls": 10,
+          "calls": 10,
+          "self_seconds": 3.1118e-05,
+          "cumulative_seconds": 0.037983415
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<built-in method scipy.sparse.linalg._dsolve._superlu.gstrf>",
+          "primitive_calls": 10,
+          "calls": 10,
+          "self_seconds": 0.036430627,
+          "cumulative_seconds": 0.036430627
+        },
+        {
+          "file": ".venv/lib/python3.12/site-packages/scipy/integrate/_ivp/radau.py",
+          "line": 48,
+          "function": "solve_collocation_system",
+          "primitive_calls": 5,
+          "calls": 5,
+          "self_seconds": 0.00048737600000000003,
+          "cumulative_seconds": 0.007097916
+        },
+        {
+          "file": "research/fullstep_radau.py",
+          "line": 7,
+          "function": "__call__",
+          "primitive_calls": 5,
+          "calls": 5,
+          "self_seconds": 9.207e-06,
+          "cumulative_seconds": 0.004962916
+        },
+        {
+          "file": "research/shared_radau.py",
+          "line": 75,
+          "function": "__call__",
+          "primitive_calls": 5,
+          "calls": 5,
+          "self_seconds": 1.3208000000000001e-05,
+          "cumulative_seconds": 0.004952958
+        },
+        {
+          "file": "research/shared_radau.py",
+          "line": 42,
+          "function": "__init__",
+          "primitive_calls": 5,
+          "calls": 5,
+          "self_seconds": 1.0915000000000001e-05,
+          "cumulative_seconds": 0.004939083
+        },
+        {
+          "file": "research/ordered_radau.py",
+          "line": 15,
+          "function": "__init__",
+          "primitive_calls": 5,
+          "calls": 5,
+          "self_seconds": 1.1207000000000001e-05,
+          "cumulative_seconds": 0.004926750000000001
+        },
+        {
+          "file": ".venv/lib/python3.12/site-packages/scipy/integrate/_ivp/radau.py",
+          "line": 295,
+          "function": "__init__",
+          "primitive_calls": 5,
+          "calls": 5,
+          "self_seconds": 3.6578e-05,
+          "cumulative_seconds": 0.004910916
+        },
+        {
+          "file": ".venv/lib/python3.12/site-packages/scipy/integrate/_ivp/base.py",
+          "line": 156,
+          "function": "fun",
+          "primitive_calls": 40,
+          "calls": 40,
+          "self_seconds": 1.6083000000000002e-05,
+          "cumulative_seconds": 0.004762290000000001
+        },
+        {
+          "file": ".venv/lib/python3.12/site-packages/scipy/integrate/_ivp/base.py",
+          "line": 23,
+          "function": "fun_wrapped",
+          "primitive_calls": 40,
+          "calls": 40,
+          "self_seconds": 1.9661e-05,
+          "cumulative_seconds": 0.0047462070000000006
+        },
+        {
+          "file": "research/shared_radau.py",
+          "line": 114,
+          "function": "rhs",
+          "primitive_calls": 40,
+          "calls": 40,
+          "self_seconds": 0.000245582,
+          "cumulative_seconds": 0.004719919
+        },
+        {
+          "file": "metabolism/kecoli.py",
+          "line": 83,
+          "function": "flux",
+          "primitive_calls": 40,
+          "calls": 40,
+          "self_seconds": 0.003216792,
+          "cumulative_seconds": 0.0032909170000000004
+        },
+        {
+          "file": ".venv/lib/python3.12/site-packages/scipy/integrate/_ivp/radau.py",
+          "line": 349,
+          "function": "_validate_jac",
+          "primitive_calls": 5,
+          "calls": 5,
+          "self_seconds": 9.541e-06,
+          "cumulative_seconds": 0.003281458
+        },
+        {
+          "file": "research/shared_radau.py",
+          "line": 49,
+          "function": "refresh",
+          "primitive_calls": 5,
+          "calls": 5,
+          "self_seconds": 2.4170000000000003e-06,
+          "cumulative_seconds": 0.003266625
+        },
+        {
+          "file": "research/shared_radau.py",
+          "line": 123,
+          "function": "<lambda>",
+          "primitive_calls": 5,
+          "calls": 5,
+          "self_seconds": 6.416e-06,
+          "cumulative_seconds": 0.003264208
+        },
+        {
+          "file": ".venv/lib/python3.12/site-packages/scipy/integrate/_ivp/radau.py",
+          "line": 325,
+          "function": "solve_lu",
+          "primitive_calls": 25,
+          "calls": 25,
+          "self_seconds": 8.836e-06,
+          "cumulative_seconds": 0.0030248780000000004
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<method 'solve' of 'SuperLU' objects>",
+          "primitive_calls": 25,
+          "calls": 25,
+          "self_seconds": 0.003016042,
+          "cumulative_seconds": 0.003016042
+        },
+        {
+          "file": ".venv/lib/python3.12/site-packages/scipy/sparse/_compressed.py",
+          "line": 30,
+          "function": "__init__",
+          "primitive_calls": 65,
+          "calls": 80,
+          "self_seconds": 0.00023788000000000002,
+          "cumulative_seconds": 0.002501337
+        },
+        {
+          "file": ".venv/lib/python3.12/site-packages/scipy/sparse/_base.py",
+          "line": 1006,
+          "function": "__matmul__",
+          "primitive_calls": 55,
+          "calls": 55,
+          "self_seconds": 3.3334e-05,
+          "cumulative_seconds": 0.002314874
+        },
+        {
+          "file": ".venv/lib/python3.12/site-packages/scipy/sparse/_base.py",
+          "line": 875,
+          "function": "_matmul_dispatch",
+          "primitive_calls": 55,
+          "calls": 55,
+          "self_seconds": 4.5503e-05,
+          "cumulative_seconds": 0.002162456
+        },
+        {
+          "file": "metabolism/adaptive.py",
+          "line": 61,
+          "function": "gradient",
+          "primitive_calls": 5,
+          "calls": 5,
+          "self_seconds": 1.4043000000000001e-05,
+          "cumulative_seconds": 0.0021287090000000003
+        },
+        {
+          "file": "metabolism/kecoli.py",
+          "line": 90,
+          "function": "flux_jacobian",
+          "primitive_calls": 5,
+          "calls": 5,
+          "self_seconds": 0.001316623,
+          "cumulative_seconds": 0.002058832
+        },
+        {
+          "file": ".venv/lib/python3.12/site-packages/scipy/sparse/_compressed.py",
+          "line": 1072,
+          "function": "sum_duplicates",
+          "primitive_calls": 15,
+          "calls": 15,
+          "self_seconds": 2.1289000000000002e-05,
+          "cumulative_seconds": 0.0015252500000000001
+        }
+      ]
+    }
+  ]
+}
