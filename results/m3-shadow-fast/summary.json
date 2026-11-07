@@ -1,0 +1,253 @@
+{
+  "date": "2026-11-07",
+  "scope": "Local shadow only; no controller or M4 admission",
+  "studies": {
+    "m3-shadow": {
+      "development": {
+        "teusink": {
+          "configurations": 38,
+          "success": 32,
+          "guard_rejects": 6,
+          "median_seconds": 0.010898457956500351,
+          "targets": {
+            "0.0001": {
+              "evaluated": 34,
+              "actual_pass": 20,
+              "true_accept": 18,
+              "recall": 0.9,
+              "false_accepts": 0,
+              "policy_false_accepts": 0
+            },
+            "1e-06": {
+              "evaluated": 34,
+              "actual_pass": 18,
+              "true_accept": 18,
+              "recall": 1.0,
+              "false_accepts": 0,
+              "policy_false_accepts": 0
+            }
+          }
+        },
+        "kecoli": {
+          "configurations": 30,
+          "success": 30,
+          "guard_rejects": 0,
+          "median_seconds": 0.1566494375001639,
+          "targets": {
+            "0.0001": {
+              "evaluated": 30,
+              "actual_pass": 16,
+              "true_accept": 12,
+              "recall": 0.75,
+              "false_accepts": 0,
+              "policy_false_accepts": 0
+            },
+            "1e-06": {
+              "evaluated": 30,
+              "actual_pass": 14,
+              "true_accept": 10,
+              "recall": 0.7142857142857143,
+              "false_accepts": 0,
+              "policy_false_accepts": 0
+            }
+          }
+        }
+      },
+      "new-states": {
+        "teusink": {
+          "configurations": 18,
+          "success": 16,
+          "guard_rejects": 2,
+          "median_seconds": 0.010401520994491875,
+          "targets": {
+            "0.0001": {
+              "evaluated": 16,
+              "actual_pass": 12,
+              "true_accept": 12,
+              "recall": 1.0,
+              "false_accepts": 0,
+              "policy_false_accepts": 0,
+              "local_screen_pass": false
+            },
+            "1e-06": {
+              "evaluated": 16,
+              "actual_pass": 12,
+              "true_accept": 12,
+              "recall": 1.0,
+              "false_accepts": 0,
+              "policy_false_accepts": 0,
+              "local_screen_pass": false
+            }
+          },
+          "median_audit_seconds": 0.0036754795582965016,
+          "median_paired_cost_ratio": 3.155870397286397
+        },
+        "kecoli": {
+          "configurations": 18,
+          "success": 18,
+          "guard_rejects": 0,
+          "median_seconds": 0.14455885405186564,
+          "targets": {
+            "0.0001": {
+              "evaluated": 18,
+              "actual_pass": 10,
+              "true_accept": 10,
+              "recall": 1.0,
+              "false_accepts": 0,
+              "policy_false_accepts": 0,
+              "local_screen_pass": false
+            },
+            "1e-06": {
+              "evaluated": 18,
+              "actual_pass": 10,
+              "true_accept": 9,
+              "recall": 0.9,
+              "false_accepts": 0,
+              "policy_false_accepts": 0,
+              "local_screen_pass": false
+            }
+          },
+          "median_audit_seconds": 0.3337832079268992,
+          "median_paired_cost_ratio": 0.43264378220274147
+        }
+      }
+    },
+    "m3-shadow-fast": {
+      "development": {
+        "teusink": {
+          "configurations": 38,
+          "success": 32,
+          "guard_rejects": 6,
+          "median_seconds": 0.0040686039719730616,
+          "targets": {
+            "0.0001": {
+              "evaluated": 34,
+              "actual_pass": 20,
+              "true_accept": 18,
+              "recall": 0.9,
+              "false_accepts": 0,
+              "policy_false_accepts": 0
+            },
+            "1e-06": {
+              "evaluated": 34,
+              "actual_pass": 18,
+              "true_accept": 18,
+              "recall": 1.0,
+              "false_accepts": 0,
+              "policy_false_accepts": 0
+            }
+          }
+        },
+        "kecoli": {
+          "configurations": 30,
+          "success": 30,
+          "guard_rejects": 0,
+          "median_seconds": 0.04418691655155271,
+          "targets": {
+            "0.0001": {
+              "evaluated": 30,
+              "actual_pass": 16,
+              "true_accept": 12,
+              "recall": 0.75,
+              "false_accepts": 0,
+              "policy_false_accepts": 0
+            },
+            "1e-06": {
+              "evaluated": 30,
+              "actual_pass": 14,
+              "true_accept": 10,
+              "recall": 0.7142857142857143,
+              "false_accepts": 0,
+              "policy_false_accepts": 0
+            }
+          }
+        }
+      },
+      "new-states": {
+        "teusink": {
+          "configurations": 18,
+          "success": 16,
+          "guard_rejects": 2,
+          "median_seconds": 0.003825124935247004,
+          "targets": {
+            "0.0001": {
+              "evaluated": 16,
+              "actual_pass": 12,
+              "true_accept": 12,
+              "recall": 1.0,
+              "false_accepts": 0,
+              "policy_false_accepts": 0,
+              "local_screen_pass": false
+            },
+            "1e-06": {
+              "evaluated": 16,
+              "actual_pass": 12,
+              "true_accept": 12,
+              "recall": 1.0,
+              "false_accepts": 0,
+              "policy_false_accepts": 0,
+              "local_screen_pass": false
+            }
+          },
+          "median_audit_seconds": 0.003222937462851405,
+          "median_paired_cost_ratio": 1.2480753392425763
+        },
+        "kecoli": {
+          "configurations": 18,
+          "success": 18,
+          "guard_rejects": 0,
+          "median_seconds": 0.042353895492851734,
+          "targets": {
+            "0.0001": {
+              "evaluated": 18,
+              "actual_pass": 10,
+              "true_accept": 10,
+              "recall": 1.0,
+              "false_accepts": 0,
+              "policy_false_accepts": 0,
+              "local_screen_pass": true
+            },
+            "1e-06": {
+              "evaluated": 18,
+              "actual_pass": 10,
+              "true_accept": 9,
+              "recall": 0.9,
+              "false_accepts": 0,
+              "policy_false_accepts": 0,
+              "local_screen_pass": true
+            }
+          },
+          "median_audit_seconds": 0.2938224170356989,
+          "median_paired_cost_ratio": 0.13892724010476953
+        }
+      }
+    }
+  },
+  "equivalence": {
+    "teusink": {
+      "max_scale_normalized_history_delta": 1.622555648392211e-15,
+      "max_normalized_score_delta": 6.600257994151939e-15,
+      "max_absolute_net_score_delta": 0,
+      "max_normalized_batch_rate_delta": 4.081953557615619e-15,
+      "max_normalized_jacobian_delta": 2.748483582873099e-20,
+      "same_decisions": true
+    },
+    "kecoli": {
+      "max_scale_normalized_history_delta": 2.8226414059396376e-12,
+      "max_normalized_score_delta": 6.3850437090136605e-12,
+      "max_absolute_net_score_delta": 8.560018613934517e-07,
+      "max_normalized_batch_rate_delta": 0.0,
+      "max_normalized_jacobian_delta": 0.0,
+      "same_decisions": true
+    }
+  },
+  "checks": {
+    "registered_hashes": 52,
+    "recomputed_shadow_scores": 192,
+    "negative_corrections": 4,
+    "negative_curves": 12,
+    "independent_reference_rechecks": 72,
+    "historical_manifest_entries": 42
+  },
+  "M4_admission": false
+}

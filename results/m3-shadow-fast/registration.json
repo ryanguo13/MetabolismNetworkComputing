@@ -1,0 +1,79 @@
+{
+  "date": "2026-11-07",
+  "stage": "shadow_only",
+  "rationale": "The independent full ODE audit alone exceeds the local qualified baseline in saved large-model timings. Test estimator reliability before any reduction of audits.",
+  "development": "All 68 saved local cases in m3-priority; no estimator tuning permitted after seeing the new-state results.",
+  "new_states": {
+    "teusink": [
+      7e-06,
+      0.007,
+      0.7
+    ],
+    "kecoli": [
+      7e-08,
+      0.007,
+      0.07
+    ]
+  },
+  "new_steps": {
+    "teusink": [
+      1e-07,
+      0.0001,
+      0.01
+    ],
+    "kecoli": [
+      1e-08,
+      0.0001,
+      0.01
+    ]
+  },
+  "tolerances": [
+    1e-08,
+    1e-10
+  ],
+  "estimator": "Frozen full Jacobian at each Hermite piece midpoint; L-stable SDIRK2 with 8 and 16 microsteps/piece; score=4*(estimated observable error+refinement difference).",
+  "scope": "New states of the same known models, not independent models, parameters or trajectories.",
+  "local_targets": [
+    0.0001,
+    1e-06
+  ],
+  "net_local_target": 0.0001,
+  "promotion_gate": {
+    "no_false_accepts": true,
+    "median_estimator_over_audit_max": 0.25,
+    "true_accept_recall_min": 0.5,
+    "guard_policy": "Existing positivity, pools and physical/modified ledger checks remain compulsory"
+  },
+  "stopping": "A new-state false acceptance blocks controller promotion. Save all failures. No replacement of independent audits in this study.",
+  "source_sha256": {
+    "research/m3_shadow_study.py": "b5729d42661a6c9df5ea5ee7f9e8182d74104ec559b9e4f7bdb8bff09227bea0",
+    "research/defect_shadow.py": "9197ca77f0143937c3169088ab7b8185f04598b75f1325f68d38016344de2265",
+    "research/test_defect_shadow.py": "2c16b666c8ed3562539c657418f6928fab0cf025929b27110acf0c8b09bb3054",
+    "research/mri_kernel.py": "e0dae63ea82d025f63f6ed9b78b5d581b92f036df3cddb67d52e9450a40872c3",
+    "research/mri_native.py": "cc561b393b305dcd72e3767b14ce2bca7db2b106aade91dd13e5e174bfaf21e3",
+    "research/m3_priority.py": "6cc6821a1ac9a811f16d25c20c067b9d0516d1cb3bf60b9d144bdc93adc43856",
+    "metabolism/adaptive.py": "427c67bfba193a79fb6d3d96aecc5ed01efa1a5d3fc7cbc82e525f3cf851db69",
+    "metabolism/m3_continuation.py": "90b539d8f7ce2dae6d574b6285bcd66fcb4b95b3950f96ff81fed6301bd65401",
+    "research/defect_fast.py": "faaaafcb2cf069123bbacae3307c751dc6dce8dd0eb4e33f896981f39700e479",
+    "research/m3_shadow_fast_study.py": "36c0ee44b519c3fa086cced0cc970faaa0095307f724f694f7b00edd5d45357f"
+  },
+  "development_sha256": {
+    "results/m3-priority/p1-growth.json": "47dff47b4f90a758468a2554f9db955755f2847c565f2b9b12012d3130eb1198",
+    "results/m3-priority/p1-cached.json": "e771ae2a89c849ad2cf0bc39b34efaa12f17044ef1613a5c635a7ac6bf7d0615",
+    "results/m3-priority/summary.json": "5c3157724cf6dee49695f090f0fb23c48a1ab9454190c1ecdceaf95d6712f928",
+    "results/m3-priority/p1.json": "31104fb0805040d803ce8ec581697606f7c61be5728c2604fa20e292a20cf3a6",
+    "results/m3-priority/tests.json": "5ca21901ff68d0316ef067584b2c7475ff46d900d88030528418c2be713ae41d",
+    "results/m3-priority/p0.json": "1e3db4b84711a0bfc4db761307f767df351b1c0f4e14fdfc45106a9effbcdc09",
+    "results/m3-priority/startup.json": "cfa36df68caabd595d597f9f3e169caf4d2ec45f45246dba49ed7dedd0aa59ed",
+    "results/m3-priority/registration.json": "9254fa2e91c4d03da41b381f9dc6517e407dbe9fa5986a45abbf9679bf5e8b54",
+    "results/m3-priority/growth.json": "2d0257569ea805f7524d962b20116de1c8e67ac58458ead0b3cf783f0e834a71",
+    "results/m3-priority/startup-early.json": "19dadcda0ef189de5d0fa895f36e2b74a60cce1702c72b6349bf2cbfe6de5f71",
+    "results/m3-priority/p0.npz": "8be94525b6c3caa007123f284101ab165b725d38ab1567a121f4923993ed4243",
+    "results/m3-priority/startup-early.npz": "8c566e94de3a788072d5ee40cbf1bf3c91c95e7f22ac17ba313d762b64434f5d",
+    "results/m3-priority/growth.npz": "a36a5afdc2f550154300c121c881f79f363a3db4835fdf7ee75aa80b09a39753",
+    "results/m3-priority/manifest.json": "6e2e9bc0bb336af396cba3197d6930006c6bf328be540b654bb95225760419d1",
+    "results/m3-priority/startup.npz": "4b165b904faec1676d0107437d7a5b4fc891dbd7a1e13979136413a86bde55cd",
+    "results/m3-priority/verification.json": "e79f14cc4c5079b9a72e3dbbe3387fa182afe5d345b6ccfdba9722970232af30",
+    "results/m3-priority/environment.json": "0b58374eaf231ffb5a7af79a9249ef194c15fb098a4da3e7278788a1c956fe39"
+  }
+}

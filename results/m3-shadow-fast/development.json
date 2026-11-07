@@ -1,0 +1,5950 @@
+{
+  "runs": [
+    {
+      "key": "p0-0",
+      "model": "teusink",
+      "start": 0.0,
+      "h": 1e-06,
+      "tolerance": 1e-08,
+      "source_dataset": "p0",
+      "source_key": "teusink-0-0-1e-08",
+      "shadow": {
+        "status": "success",
+        "targets": {
+          "0.0001": {
+            "central": {
+              "concentration": 0.47436231802657075,
+              "flux": 1.9236832699164426
+            },
+            "refinement": {
+              "concentration": 0.019411317488797708,
+              "flux": 0.0807813341893297
+            },
+            "score": {
+              "concentration": 1.9750945420614738,
+              "flux": 8.017858416423088
+            },
+            "would_accept": false
+          },
+          "1e-06": {
+            "central": {
+              "concentration": 47.43623180265708,
+              "flux": 192.36832699164427
+            },
+            "refinement": {
+              "concentration": 1.941131748879771,
+              "flux": 8.078133418932971
+            },
+            "score": {
+              "concentration": 197.5094542061474,
+              "flux": 801.7858416423089
+            },
+            "would_accept": false
+          }
+        },
+        "counts": [
+          {
+            "factorizations": 2,
+            "linear_solves": 32,
+            "defect_rhs_batches": 2
+          },
+          {
+            "factorizations": 2,
+            "linear_solves": 64,
+            "defect_rhs_batches": 2
+          }
+        ],
+        "seconds": 0.008259332971647382
+      },
+      "comparison": {
+        "0.0001": {
+          "actual": {
+            "concentration": 0.474858450661259,
+            "flux": 1.926230907072423
+          },
+          "actual_numerical_pass": false,
+          "actual_all_checks_pass": false,
+          "structural_pass": true,
+          "would_accept": false,
+          "policy_would_accept": false,
+          "false_accept": false,
+          "policy_false_accept": false,
+          "false_reject": false,
+          "effectivity": 4.162459644367876
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 47.485845066125904,
+            "flux": 192.6230907072423
+          },
+          "actual_numerical_pass": false,
+          "actual_all_checks_pass": false,
+          "structural_pass": true,
+          "would_accept": false,
+          "policy_would_accept": false,
+          "false_accept": false,
+          "policy_false_accept": false,
+          "false_reject": false,
+          "effectivity": 4.162459644367876
+        }
+      }
+    },
+    {
+      "key": "p0-1",
+      "model": "teusink",
+      "start": 0.0,
+      "h": 1e-06,
+      "tolerance": 1e-10,
+      "source_dataset": "p0",
+      "source_key": "teusink-0-0-1e-10",
+      "shadow": {
+        "status": "success",
+        "targets": {
+          "0.0001": {
+            "central": {
+              "concentration": 0.4743623192318153,
+              "flux": 1.9236832748095776
+            },
+            "refinement": {
+              "concentration": 0.019411317513506915,
+              "flux": 0.08078133428773622
+            },
+            "score": {
+              "concentration": 1.975094546981289,
+              "flux": 8.017858436389256
+            },
+            "would_accept": false
+          },
+          "1e-06": {
+            "central": {
+              "concentration": 47.43623192318154,
+              "flux": 192.36832748095776
+            },
+            "refinement": {
+              "concentration": 1.9411317513506918,
+              "flux": 8.078133428773622
+            },
+            "score": {
+              "concentration": 197.5094546981289,
+              "flux": 801.7858436389255
+            },
+            "would_accept": false
+          }
+        },
+        "counts": [
+          {
+            "factorizations": 2,
+            "linear_solves": 32,
+            "defect_rhs_batches": 2
+          },
+          {
+            "factorizations": 2,
+            "linear_solves": 64,
+            "defect_rhs_batches": 2
+          }
+        ],
+        "seconds": 0.003920417046174407
+      },
+      "comparison": {
+        "0.0001": {
+          "actual": {
+            "concentration": 0.47485845184792846,
+            "flux": 1.9262309118800998
+          },
+          "actual_numerical_pass": false,
+          "actual_all_checks_pass": false,
+          "structural_pass": true,
+          "would_accept": false,
+          "policy_would_accept": false,
+          "false_accept": false,
+          "policy_false_accept": false,
+          "false_reject": false,
+          "effectivity": 4.162459644344206
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 47.48584518479285,
+            "flux": 192.62309118801
+          },
+          "actual_numerical_pass": false,
+          "actual_all_checks_pass": false,
+          "structural_pass": true,
+          "would_accept": false,
+          "policy_would_accept": false,
+          "false_accept": false,
+          "policy_false_accept": false,
+          "false_reject": false,
+          "effectivity": 4.162459644344205
+        }
+      }
+    },
+    {
+      "key": "p0-2",
+      "model": "teusink",
+      "start": 0.0,
+      "h": 0.0001,
+      "tolerance": 1e-08,
+      "source_dataset": "p0",
+      "source_key": "teusink-0-1-1e-08",
+      "shadow": {
+        "status": "guard_reject",
+        "reason": "negative_or_nonfinite_linearized_correction",
+        "seconds": 0.003036125097423792,
+        "counts": [
+          {
+            "factorizations": 2,
+            "linear_solves": 32,
+            "defect_rhs_batches": 2
+          },
+          {
+            "factorizations": 2,
+            "linear_solves": 64,
+            "defect_rhs_batches": 2
+          }
+        ]
+      },
+      "comparison": {
+        "0.0001": {
+          "actual": {
+            "concentration": 17215.294183461774,
+            "flux": 44024.70973200409
+          },
+          "actual_numerical_pass": false,
+          "actual_all_checks_pass": false,
+          "structural_pass": false,
+          "would_accept": false,
+          "policy_would_accept": false,
+          "false_accept": false,
+          "policy_false_accept": false,
+          "false_reject": false,
+          "effectivity": null
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 1721529.4183461776,
+            "flux": 4402470.97320041
+          },
+          "actual_numerical_pass": false,
+          "actual_all_checks_pass": false,
+          "structural_pass": false,
+          "would_accept": false,
+          "policy_would_accept": false,
+          "false_accept": false,
+          "policy_false_accept": false,
+          "false_reject": false,
+          "effectivity": null
+        }
+      }
+    },
+    {
+      "key": "p0-3",
+      "model": "teusink",
+      "start": 0.0,
+      "h": 0.0001,
+      "tolerance": 1e-10,
+      "source_dataset": "p0",
+      "source_key": "teusink-0-1-1e-10",
+      "shadow": {
+        "status": "guard_reject",
+        "reason": "negative_or_nonfinite_linearized_correction",
+        "seconds": 0.003021291922777891,
+        "counts": [
+          {
+            "factorizations": 2,
+            "linear_solves": 32,
+            "defect_rhs_batches": 2
+          },
+          {
+            "factorizations": 2,
+            "linear_solves": 64,
+            "defect_rhs_batches": 2
+          }
+        ]
+      },
+      "comparison": {
+        "0.0001": {
+          "actual": {
+            "concentration": 17215.29418328972,
+            "flux": 44024.709731695824
+          },
+          "actual_numerical_pass": false,
+          "actual_all_checks_pass": false,
+          "structural_pass": false,
+          "would_accept": false,
+          "policy_would_accept": false,
+          "false_accept": false,
+          "policy_false_accept": false,
+          "false_reject": false,
+          "effectivity": null
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 1721529.418328972,
+            "flux": 4402470.973169582
+          },
+          "actual_numerical_pass": false,
+          "actual_all_checks_pass": false,
+          "structural_pass": false,
+          "would_accept": false,
+          "policy_would_accept": false,
+          "false_accept": false,
+          "policy_false_accept": false,
+          "false_reject": false,
+          "effectivity": null
+        }
+      }
+    },
+    {
+      "key": "p0-4",
+      "model": "teusink",
+      "start": 0.0,
+      "h": 0.01,
+      "tolerance": 1e-08,
+      "source_dataset": "p0",
+      "source_key": "teusink-0-2-1e-08",
+      "shadow": {
+        "status": "guard_reject",
+        "reason": "negative_candidate_curve",
+        "seconds": 0.00010212487541139126
+      },
+      "comparison": {}
+    },
+    {
+      "key": "p0-5",
+      "model": "teusink",
+      "start": 0.0,
+      "h": 0.01,
+      "tolerance": 1e-10,
+      "source_dataset": "p0",
+      "source_key": "teusink-0-2-1e-10",
+      "shadow": {
+        "status": "guard_reject",
+        "reason": "negative_candidate_curve",
+        "seconds": 0.00010833400301635265
+      },
+      "comparison": {}
+    },
+    {
+      "key": "p0-6",
+      "model": "teusink",
+      "start": 1e-06,
+      "h": 1e-06,
+      "tolerance": 1e-08,
+      "source_dataset": "p0",
+      "source_key": "teusink-1-0-1e-08",
+      "shadow": {
+        "status": "success",
+        "targets": {
+          "0.0001": {
+            "central": {
+              "concentration": 0.12153051220425395,
+              "flux": 0.46156615178653376
+            },
+            "refinement": {
+              "concentration": 0.0034778151916093326,
+              "flux": 0.013191320041550297
+            },
+            "score": {
+              "concentration": 0.5000333095834532,
+              "flux": 1.8990298873123361
+            },
+            "would_accept": false
+          },
+          "1e-06": {
+            "central": {
+              "concentration": 12.153051220425397,
+              "flux": 46.156615178653375
+            },
+            "refinement": {
+              "concentration": 0.3477815191609333,
+              "flux": 1.3191320041550298
+            },
+            "score": {
+              "concentration": 50.00333095834532,
+              "flux": 189.90298873123362
+            },
+            "would_accept": false
+          }
+        },
+        "counts": [
+          {
+            "factorizations": 2,
+            "linear_solves": 32,
+            "defect_rhs_batches": 2
+          },
+          {
+            "factorizations": 2,
+            "linear_solves": 64,
+            "defect_rhs_batches": 2
+          }
+        ],
+        "seconds": 0.003820790909230709
+      },
+      "comparison": {
+        "0.0001": {
+          "actual": {
+            "concentration": 0.12166552745869917,
+            "flux": 0.4620789298325265
+          },
+          "actual_numerical_pass": true,
+          "actual_all_checks_pass": true,
+          "structural_pass": true,
+          "would_accept": false,
+          "policy_would_accept": false,
+          "false_accept": false,
+          "policy_false_accept": false,
+          "false_reject": true,
+          "effectivity": 4.109752175890406
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 12.16655274586992,
+            "flux": 46.207892983252655
+          },
+          "actual_numerical_pass": false,
+          "actual_all_checks_pass": false,
+          "structural_pass": true,
+          "would_accept": false,
+          "policy_would_accept": false,
+          "false_accept": false,
+          "policy_false_accept": false,
+          "false_reject": false,
+          "effectivity": 4.109752175890406
+        }
+      }
+    },
+    {
+      "key": "p0-7",
+      "model": "teusink",
+      "start": 1e-06,
+      "h": 1e-06,
+      "tolerance": 1e-10,
+      "source_dataset": "p0",
+      "source_key": "teusink-1-0-1e-10",
+      "shadow": {
+        "status": "success",
+        "targets": {
+          "0.0001": {
+            "central": {
+              "concentration": 0.12153053518560604,
+              "flux": 0.4615662390792709
+            },
+            "refinement": {
+              "concentration": 0.003477815339205669,
+              "flux": 0.013191320601237401
+            },
+            "score": {
+              "concentration": 0.5000334020992468,
+              "flux": 1.8990302387220332
+            },
+            "would_accept": false
+          },
+          "1e-06": {
+            "central": {
+              "concentration": 12.153053518560606,
+              "flux": 46.15662390792709
+            },
+            "refinement": {
+              "concentration": 0.347781533920567,
+              "flux": 1.3191320601237402
+            },
+            "score": {
+              "concentration": 50.003340209924694,
+              "flux": 189.90302387220333
+            },
+            "would_accept": false
+          }
+        },
+        "counts": [
+          {
+            "factorizations": 2,
+            "linear_solves": 32,
+            "defect_rhs_batches": 2
+          },
+          {
+            "factorizations": 2,
+            "linear_solves": 64,
+            "defect_rhs_batches": 2
+          }
+        ],
+        "seconds": 0.003782625077292323
+      },
+      "comparison": {
+        "0.0001": {
+          "actual": {
+            "concentration": 0.12166555044933879,
+            "flux": 0.4620790171511601
+          },
+          "actual_numerical_pass": true,
+          "actual_all_checks_pass": true,
+          "structural_pass": true,
+          "would_accept": false,
+          "policy_would_accept": false,
+          "false_accept": false,
+          "policy_false_accept": false,
+          "false_reject": true,
+          "effectivity": 4.109752159771415
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 12.16655504493388,
+            "flux": 46.207901715116016
+          },
+          "actual_numerical_pass": false,
+          "actual_all_checks_pass": false,
+          "structural_pass": true,
+          "would_accept": false,
+          "policy_would_accept": false,
+          "false_accept": false,
+          "policy_false_accept": false,
+          "false_reject": false,
+          "effectivity": 4.109752159771415
+        }
+      }
+    },
+    {
+      "key": "p0-8",
+      "model": "teusink",
+      "start": 1e-06,
+      "h": 0.0001,
+      "tolerance": 1e-08,
+      "source_dataset": "p0",
+      "source_key": "teusink-1-1-1e-08",
+      "shadow": {
+        "status": "success",
+        "targets": {
+          "0.0001": {
+            "central": {
+              "concentration": 7083.162588836304,
+              "flux": 22730.06225916901
+            },
+            "refinement": {
+              "concentration": 372.23724207171466,
+              "flux": 1394.0896587958616
+            },
+            "score": {
+              "concentration": 29821.599323632076,
+              "flux": 96496.6076718595
+            },
+            "would_accept": false
+          },
+          "1e-06": {
+            "central": {
+              "concentration": 708316.2588836305,
+              "flux": 2273006.2259169016
+            },
+            "refinement": {
+              "concentration": 37223.72420717147,
+              "flux": 139408.96587958615
+            },
+            "score": {
+              "concentration": 2982159.932363208,
+              "flux": 9649660.76718595
+            },
+            "would_accept": false
+          }
+        },
+        "counts": [
+          {
+            "factorizations": 2,
+            "linear_solves": 32,
+            "defect_rhs_batches": 2
+          },
+          {
+            "factorizations": 2,
+            "linear_solves": 64,
+            "defect_rhs_batches": 2
+          }
+        ],
+        "seconds": 0.0038384171202778816
+      },
+      "comparison": {
+        "0.0001": {
+          "actual": {
+            "concentration": 6378.3031728175865,
+            "flux": 20085.3715460896
+          },
+          "actual_numerical_pass": false,
+          "actual_all_checks_pass": false,
+          "structural_pass": false,
+          "would_accept": false,
+          "policy_would_accept": false,
+          "false_accept": false,
+          "policy_false_accept": false,
+          "false_reject": false,
+          "effectivity": 4.804322760494133
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 637830.3172817586,
+            "flux": 2008537.15460896
+          },
+          "actual_numerical_pass": false,
+          "actual_all_checks_pass": false,
+          "structural_pass": false,
+          "would_accept": false,
+          "policy_would_accept": false,
+          "false_accept": false,
+          "policy_false_accept": false,
+          "false_reject": false,
+          "effectivity": 4.804322760494133
+        }
+      }
+    },
+    {
+      "key": "p0-9",
+      "model": "teusink",
+      "start": 1e-06,
+      "h": 0.0001,
+      "tolerance": 1e-10,
+      "source_dataset": "p0",
+      "source_key": "teusink-1-1-1e-10",
+      "shadow": {
+        "status": "success",
+        "targets": {
+          "0.0001": {
+            "central": {
+              "concentration": 7083.162588572044,
+              "flux": 22730.062258371432
+            },
+            "refinement": {
+              "concentration": 372.2372420685439,
+              "flux": 1394.0896587800369
+            },
+            "score": {
+              "concentration": 29821.599322562353,
+              "flux": 96496.60766860588
+            },
+            "would_accept": false
+          },
+          "1e-06": {
+            "central": {
+              "concentration": 708316.2588572046,
+              "flux": 2273006.225837143
+            },
+            "refinement": {
+              "concentration": 37223.72420685439,
+              "flux": 139408.96587800368
+            },
+            "score": {
+              "concentration": 2982159.9322562357,
+              "flux": 9649660.766860588
+            },
+            "would_accept": false
+          }
+        },
+        "counts": [
+          {
+            "factorizations": 2,
+            "linear_solves": 32,
+            "defect_rhs_batches": 2
+          },
+          {
+            "factorizations": 2,
+            "linear_solves": 64,
+            "defect_rhs_batches": 2
+          }
+        ],
+        "seconds": 0.003989374963566661
+      },
+      "comparison": {
+        "0.0001": {
+          "actual": {
+            "concentration": 6378.303172639706,
+            "flux": 20085.371545606096
+          },
+          "actual_numerical_pass": false,
+          "actual_all_checks_pass": false,
+          "structural_pass": false,
+          "would_accept": false,
+          "policy_would_accept": false,
+          "false_accept": false,
+          "policy_false_accept": false,
+          "false_reject": false,
+          "effectivity": 4.804322760447795
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 637830.3172639706,
+            "flux": 2008537.1545606095
+          },
+          "actual_numerical_pass": false,
+          "actual_all_checks_pass": false,
+          "structural_pass": false,
+          "would_accept": false,
+          "policy_would_accept": false,
+          "false_accept": false,
+          "policy_false_accept": false,
+          "false_reject": false,
+          "effectivity": 4.804322760447795
+        }
+      }
+    },
+    {
+      "key": "p0-10",
+      "model": "teusink",
+      "start": 1e-06,
+      "h": 0.01,
+      "tolerance": 1e-08,
+      "source_dataset": "p0",
+      "source_key": "teusink-1-2-1e-08",
+      "shadow": {
+        "status": "guard_reject",
+        "reason": "negative_candidate_curve",
+        "seconds": 0.00011349981650710106
+      },
+      "comparison": {}
+    },
+    {
+      "key": "p0-11",
+      "model": "teusink",
+      "start": 1e-06,
+      "h": 0.01,
+      "tolerance": 1e-10,
+      "source_dataset": "p0",
+      "source_key": "teusink-1-2-1e-10",
+      "shadow": {
+        "status": "guard_reject",
+        "reason": "negative_candidate_curve",
+        "seconds": 0.00011891708709299564
+      },
+      "comparison": {}
+    },
+    {
+      "key": "p0-12",
+      "model": "teusink",
+      "start": 0.001,
+      "h": 1e-06,
+      "tolerance": 1e-08,
+      "source_dataset": "p0",
+      "source_key": "teusink-2-0-1e-08",
+      "shadow": {
+        "status": "success",
+        "targets": {
+          "0.0001": {
+            "central": {
+              "concentration": 1.7729527700816934e-12,
+              "flux": 5.532645994740137e-12
+            },
+            "refinement": {
+              "concentration": 5.02028356556996e-13,
+              "flux": 1.9422340250122718e-12
+            },
+            "score": {
+              "concentration": 9.099924506554758e-12,
+              "flux": 2.989952007900963e-11
+            },
+            "would_accept": true
+          },
+          "1e-06": {
+            "central": {
+              "concentration": 1.7729527700816937e-10,
+              "flux": 5.532645994740137e-10
+            },
+            "refinement": {
+              "concentration": 5.02028356556996e-11,
+              "flux": 1.9422340250122719e-10
+            },
+            "score": {
+              "concentration": 9.099924506554759e-10,
+              "flux": 2.9899520079009635e-09
+            },
+            "would_accept": true
+          }
+        },
+        "counts": [
+          {
+            "factorizations": 2,
+            "linear_solves": 32,
+            "defect_rhs_batches": 2
+          },
+          {
+            "factorizations": 2,
+            "linear_solves": 64,
+            "defect_rhs_batches": 2
+          }
+        ],
+        "seconds": 0.0042142500169575214
+      },
+      "comparison": {
+        "0.0001": {
+          "actual": {
+            "concentration": 4.97008072991426e-11,
+            "flux": 1.935759911595564e-10
+          },
+          "actual_numerical_pass": true,
+          "actual_all_checks_pass": true,
+          "structural_pass": true,
+          "would_accept": true,
+          "policy_would_accept": true,
+          "false_accept": false,
+          "policy_false_accept": false,
+          "false_reject": false,
+          "effectivity": 0.1544588246709001
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 4.970080729914261e-09,
+            "flux": 1.9357599115955642e-08
+          },
+          "actual_numerical_pass": true,
+          "actual_all_checks_pass": true,
+          "structural_pass": true,
+          "would_accept": true,
+          "policy_would_accept": true,
+          "false_accept": false,
+          "policy_false_accept": false,
+          "false_reject": false,
+          "effectivity": 0.1544588246709001
+        }
+      }
+    },
+    {
+      "key": "p0-13",
+      "model": "teusink",
+      "start": 0.001,
+      "h": 1e-06,
+      "tolerance": 1e-10,
+      "source_dataset": "p0",
+      "source_key": "teusink-2-0-1e-10",
+      "shadow": {
+        "status": "success",
+        "targets": {
+          "0.0001": {
+            "central": {
+              "concentration": 1.7729527700816934e-12,
+              "flux": 5.532645994740137e-12
+            },
+            "refinement": {
+              "concentration": 5.02028356556996e-13,
+              "flux": 1.9422340250122718e-12
+            },
+            "score": {
+              "concentration": 9.099924506554758e-12,
+              "flux": 2.989952007900963e-11
+            },
+            "would_accept": true
+          },
+          "1e-06": {
+            "central": {
+              "concentration": 1.7729527700816937e-10,
+              "flux": 5.532645994740137e-10
+            },
+            "refinement": {
+              "concentration": 5.02028356556996e-11,
+              "flux": 1.9422340250122719e-10
+            },
+            "score": {
+              "concentration": 9.099924506554759e-10,
+              "flux": 2.9899520079009635e-09
+            },
+            "would_accept": true
+          }
+        },
+        "counts": [
+          {
+            "factorizations": 2,
+            "linear_solves": 32,
+            "defect_rhs_batches": 2
+          },
+          {
+            "factorizations": 2,
+            "linear_solves": 64,
+            "defect_rhs_batches": 2
+          }
+        ],
+        "seconds": 0.00411075004376471
+      },
+      "comparison": {
+        "0.0001": {
+          "actual": {
+            "concentration": 4.97008072991426e-11,
+            "flux": 1.935759911595564e-10
+          },
+          "actual_numerical_pass": true,
+          "actual_all_checks_pass": true,
+          "structural_pass": true,
+          "would_accept": true,
+          "policy_would_accept": true,
+          "false_accept": false,
+          "policy_false_accept": false,
+          "false_reject": false,
+          "effectivity": 0.1544588246709001
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 4.970080729914261e-09,
+            "flux": 1.9357599115955642e-08
+          },
+          "actual_numerical_pass": true,
+          "actual_all_checks_pass": true,
+          "structural_pass": true,
+          "would_accept": true,
+          "policy_would_accept": true,
+          "false_accept": false,
+          "policy_false_accept": false,
+          "false_reject": false,
+          "effectivity": 0.1544588246709001
+        }
+      }
+    },
+    {
+      "key": "p0-14",
+      "model": "teusink",
+      "start": 0.001,
+      "h": 0.0001,
+      "tolerance": 1e-08,
+      "source_dataset": "p0",
+      "source_key": "teusink-2-1-1e-08",
+      "shadow": {
+        "status": "success",
+        "targets": {
+          "0.0001": {
+            "central": {
+              "concentration": 4.2356919942008434e-05,
+              "flux": 0.00010378180926520757
+            },
+            "refinement": {
+              "concentration": 4.5928258655373464e-07,
+              "flux": 1.1416877810831022e-06
+            },
+            "score": {
+              "concentration": 0.00017126481011424868,
+              "flux": 0.00041969398818516267
+            },
+            "would_accept": true
+          },
+          "1e-06": {
+            "central": {
+              "concentration": 0.004235691994200844,
+              "flux": 0.010378180926520757
+            },
+            "refinement": {
+              "concentration": 4.592825865537347e-05,
+              "flux": 0.00011416877810831023
+            },
+            "score": {
+              "concentration": 0.01712648101142487,
+              "flux": 0.04196939881851627
+            },
+            "would_accept": true
+          }
+        },
+        "counts": [
+          {
+            "factorizations": 2,
+            "linear_solves": 32,
+            "defect_rhs_batches": 2
+          },
+          {
+            "factorizations": 2,
+            "linear_solves": 64,
+            "defect_rhs_batches": 2
+          }
+        ],
+        "seconds": 0.004115875111892819
+      },
+      "comparison": {
+        "0.0001": {
+          "actual": {
+            "concentration": 4.2425576458952656e-05,
+            "flux": 0.00010394359766570876
+          },
+          "actual_numerical_pass": true,
+          "actual_all_checks_pass": true,
+          "structural_pass": true,
+          "would_accept": true,
+          "policy_would_accept": true,
+          "false_accept": false,
+          "policy_false_accept": false,
+          "false_reject": false,
+          "effectivity": 4.037708888381307
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 0.004242557645895266,
+            "flux": 0.010394359766570877
+          },
+          "actual_numerical_pass": true,
+          "actual_all_checks_pass": true,
+          "structural_pass": true,
+          "would_accept": true,
+          "policy_would_accept": true,
+          "false_accept": false,
+          "policy_false_accept": false,
+          "false_reject": false,
+          "effectivity": 4.037708888381306
+        }
+      }
+    },
+    {
+      "key": "p0-15",
+      "model": "teusink",
+      "start": 0.001,
+      "h": 0.0001,
+      "tolerance": 1e-10,
+      "source_dataset": "p0",
+      "source_key": "teusink-2-1-1e-10",
+      "shadow": {
+        "status": "success",
+        "targets": {
+          "0.0001": {
+            "central": {
+              "concentration": 4.235748585379265e-05,
+              "flux": 0.0001037922950125291
+            },
+            "refinement": {
+              "concentration": 4.592830829675805e-07,
+              "flux": 1.1416946968905957e-06
+            },
+            "score": {
+              "concentration": 0.00017126707574704092,
+              "flux": 0.0004197359588376788
+            },
+            "would_accept": true
+          },
+          "1e-06": {
+            "central": {
+              "concentration": 0.004235748585379266,
+              "flux": 0.010379229501252911
+            },
+            "refinement": {
+              "concentration": 4.5928308296758055e-05,
+              "flux": 0.00011416946968905956
+            },
+            "score": {
+              "concentration": 0.017126707574704095,
+              "flux": 0.04197359588376788
+            },
+            "would_accept": true
+          }
+        },
+        "counts": [
+          {
+            "factorizations": 2,
+            "linear_solves": 32,
+            "defect_rhs_batches": 2
+          },
+          {
+            "factorizations": 2,
+            "linear_solves": 64,
+            "defect_rhs_batches": 2
+          }
+        ],
+        "seconds": 0.0040690409950912
+      },
+      "comparison": {
+        "0.0001": {
+          "actual": {
+            "concentration": 4.2426142867150724e-05,
+            "flux": 0.00010395408894567629
+          },
+          "actual_numerical_pass": true,
+          "actual_all_checks_pass": true,
+          "structural_pass": true,
+          "would_accept": true,
+          "policy_would_accept": true,
+          "false_accept": false,
+          "policy_false_accept": false,
+          "false_reject": false,
+          "effectivity": 4.0377051359376726
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 0.004242614286715073,
+            "flux": 0.010395408894567628
+          },
+          "actual_numerical_pass": true,
+          "actual_all_checks_pass": true,
+          "structural_pass": true,
+          "would_accept": true,
+          "policy_would_accept": true,
+          "false_accept": false,
+          "policy_false_accept": false,
+          "false_reject": false,
+          "effectivity": 4.0377051359376726
+        }
+      }
+    },
+    {
+      "key": "p0-16",
+      "model": "teusink",
+      "start": 0.001,
+      "h": 0.01,
+      "tolerance": 1e-08,
+      "source_dataset": "p0",
+      "source_key": "teusink-2-2-1e-08",
+      "shadow": {
+        "status": "success",
+        "targets": {
+          "0.0001": {
+            "central": {
+              "concentration": 147.09653318419777,
+              "flux": 272.94701016726174
+            },
+            "refinement": {
+              "concentration": 7.420635045001684,
+              "flux": 13.694499484331216
+            },
+            "score": {
+              "concentration": 618.0686729167978,
+              "flux": 1146.5660386063719
+            },
+            "would_accept": false
+          },
+          "1e-06": {
+            "central": {
+              "concentration": 14709.65331841978,
+              "flux": 27294.70101672618
+            },
+            "refinement": {
+              "concentration": 742.0635045001685,
+              "flux": 1369.4499484331218
+            },
+            "score": {
+              "concentration": 61806.867291679795,
+              "flux": 114656.6038606372
+            },
+            "would_accept": false
+          }
+        },
+        "counts": [
+          {
+            "factorizations": 2,
+            "linear_solves": 32,
+            "defect_rhs_batches": 2
+          },
+          {
+            "factorizations": 2,
+            "linear_solves": 64,
+            "defect_rhs_batches": 2
+          }
+        ],
+        "seconds": 0.003998749889433384
+      },
+      "comparison": {
+        "0.0001": {
+          "actual": {
+            "concentration": 148.8985183408371,
+            "flux": 275.79415047081943
+          },
+          "actual_numerical_pass": false,
+          "actual_all_checks_pass": false,
+          "structural_pass": false,
+          "would_accept": false,
+          "policy_would_accept": false,
+          "false_accept": false,
+          "policy_false_accept": false,
+          "false_reject": false,
+          "effectivity": 4.157325442359899
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 14889.851834083709,
+            "flux": 27579.415047081948
+          },
+          "actual_numerical_pass": false,
+          "actual_all_checks_pass": false,
+          "structural_pass": false,
+          "would_accept": false,
+          "policy_would_accept": false,
+          "false_accept": false,
+          "policy_false_accept": false,
+          "false_reject": false,
+          "effectivity": 4.157325442359898
+        }
+      }
+    },
+    {
+      "key": "p0-17",
+      "model": "teusink",
+      "start": 0.001,
+      "h": 0.01,
+      "tolerance": 1e-10,
+      "source_dataset": "p0",
+      "source_key": "teusink-2-2-1e-10",
+      "shadow": {
+        "status": "success",
+        "targets": {
+          "0.0001": {
+            "central": {
+              "concentration": 147.09653320110215,
+              "flux": 272.9470102126832
+            },
+            "refinement": {
+              "concentration": 7.42063504537598,
+              "flux": 13.694499485389928
+            },
+            "score": {
+              "concentration": 618.0686729859125,
+              "flux": 1146.5660387922926
+            },
+            "would_accept": false
+          },
+          "1e-06": {
+            "central": {
+              "concentration": 14709.653320110217,
+              "flux": 27294.701021268324
+            },
+            "refinement": {
+              "concentration": 742.0635045375982,
+              "flux": 1369.4499485389929
+            },
+            "score": {
+              "concentration": 61806.86729859126,
+              "flux": 114656.60387922927
+            },
+            "would_accept": false
+          }
+        },
+        "counts": [
+          {
+            "factorizations": 2,
+            "linear_solves": 32,
+            "defect_rhs_batches": 2
+          },
+          {
+            "factorizations": 2,
+            "linear_solves": 64,
+            "defect_rhs_batches": 2
+          }
+        ],
+        "seconds": 0.004068166948854923
+      },
+      "comparison": {
+        "0.0001": {
+          "actual": {
+            "concentration": 148.89851835940047,
+            "flux": 275.7941505191012
+          },
+          "actual_numerical_pass": false,
+          "actual_all_checks_pass": false,
+          "structural_pass": false,
+          "would_accept": false,
+          "policy_would_accept": false,
+          "false_accept": false,
+          "policy_false_accept": false,
+          "false_reject": false,
+          "effectivity": 4.157325442306227
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 14889.85183594005,
+            "flux": 27579.415051910124
+          },
+          "actual_numerical_pass": false,
+          "actual_all_checks_pass": false,
+          "structural_pass": false,
+          "would_accept": false,
+          "policy_would_accept": false,
+          "false_accept": false,
+          "policy_false_accept": false,
+          "false_reject": false,
+          "effectivity": 4.1573254423062265
+        }
+      }
+    },
+    {
+      "key": "p0-18",
+      "model": "teusink",
+      "start": 1.0,
+      "h": 1e-06,
+      "tolerance": 1e-08,
+      "source_dataset": "p0",
+      "source_key": "teusink-3-0-1e-08",
+      "shadow": {
+        "status": "success",
+        "targets": {
+          "0.0001": {
+            "central": {
+              "concentration": 1.6051270448318936e-12,
+              "flux": 1.2300815491744388e-11
+            },
+            "refinement": {
+              "concentration": 2.51014178278498e-13,
+              "flux": 1.9422340250122718e-12
+            },
+            "score": {
+              "concentration": 7.424564892441566e-12,
+              "flux": 5.697219806702664e-11
+            },
+            "would_accept": true
+          },
+          "1e-06": {
+            "central": {
+              "concentration": 1.6051270448318937e-10,
+              "flux": 1.2300815491744388e-09
+            },
+            "refinement": {
+              "concentration": 2.51014178278498e-11,
+              "flux": 1.9422340250122719e-10
+            },
+            "score": {
+              "concentration": 7.424564892441567e-10,
+              "flux": 5.697219806702664e-09
+            },
+            "would_accept": true
+          }
+        },
+        "counts": [
+          {
+            "factorizations": 2,
+            "linear_solves": 32,
+            "defect_rhs_batches": 2
+          },
+          {
+            "factorizations": 2,
+            "linear_solves": 64,
+            "defect_rhs_batches": 2
+          }
+        ],
+        "seconds": 0.004201167030259967
+      },
+      "comparison": {
+        "0.0001": {
+          "actual": {
+            "concentration": 1.6051270448318936e-12,
+            "flux": 1.2948226833415145e-11
+          },
+          "actual_numerical_pass": true,
+          "actual_all_checks_pass": true,
+          "structural_pass": true,
+          "would_accept": true,
+          "policy_would_accept": true,
+          "false_accept": false,
+          "policy_false_accept": false,
+          "false_reject": false,
+          "effectivity": 4.4
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 1.6051270448318937e-10,
+            "flux": 1.2948226833415146e-09
+          },
+          "actual_numerical_pass": true,
+          "actual_all_checks_pass": true,
+          "structural_pass": true,
+          "would_accept": true,
+          "policy_would_accept": true,
+          "false_accept": false,
+          "policy_false_accept": false,
+          "false_reject": false,
+          "effectivity": 4.3999999999999995
+        }
+      }
+    },
+    {
+      "key": "p0-19",
+      "model": "teusink",
+      "start": 1.0,
+      "h": 1e-06,
+      "tolerance": 1e-10,
+      "source_dataset": "p0",
+      "source_key": "teusink-3-0-1e-10",
+      "shadow": {
+        "status": "success",
+        "targets": {
+          "0.0001": {
+            "central": {
+              "concentration": 1.6051270448318936e-12,
+              "flux": 1.2300815491744388e-11
+            },
+            "refinement": {
+              "concentration": 2.51014178278498e-13,
+              "flux": 1.9422340250122718e-12
+            },
+            "score": {
+              "concentration": 7.424564892441566e-12,
+              "flux": 5.697219806702664e-11
+            },
+            "would_accept": true
+          },
+          "1e-06": {
+            "central": {
+              "concentration": 1.6051270448318937e-10,
+              "flux": 1.2300815491744388e-09
+            },
+            "refinement": {
+              "concentration": 2.51014178278498e-11,
+              "flux": 1.9422340250122719e-10
+            },
+            "score": {
+              "concentration": 7.424564892441567e-10,
+              "flux": 5.697219806702664e-09
+            },
+            "would_accept": true
+          }
+        },
+        "counts": [
+          {
+            "factorizations": 2,
+            "linear_solves": 32,
+            "defect_rhs_batches": 2
+          },
+          {
+            "factorizations": 2,
+            "linear_solves": 64,
+            "defect_rhs_batches": 2
+          }
+        ],
+        "seconds": 0.0039421250112354755
+      },
+      "comparison": {
+        "0.0001": {
+          "actual": {
+            "concentration": 1.6051270448318936e-12,
+            "flux": 1.2948226833415145e-11
+          },
+          "actual_numerical_pass": true,
+          "actual_all_checks_pass": true,
+          "structural_pass": true,
+          "would_accept": true,
+          "policy_would_accept": true,
+          "false_accept": false,
+          "policy_false_accept": false,
+          "false_reject": false,
+          "effectivity": 4.4
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 1.6051270448318937e-10,
+            "flux": 1.2948226833415146e-09
+          },
+          "actual_numerical_pass": true,
+          "actual_all_checks_pass": true,
+          "structural_pass": true,
+          "would_accept": true,
+          "policy_would_accept": true,
+          "false_accept": false,
+          "policy_false_accept": false,
+          "false_reject": false,
+          "effectivity": 4.3999999999999995
+        }
+      }
+    },
+    {
+      "key": "p0-20",
+      "model": "teusink",
+      "start": 1.0,
+      "h": 0.0001,
+      "tolerance": 1e-08,
+      "source_dataset": "p0",
+      "source_key": "teusink-3-1-1e-08",
+      "shadow": {
+        "status": "success",
+        "targets": {
+          "0.0001": {
+            "central": {
+              "concentration": 2.133620515367233e-11,
+              "flux": 1.1394439613405328e-10
+            },
+            "refinement": {
+              "concentration": 1.757099247949486e-12,
+              "flux": 1.1005992808402873e-11
+            },
+            "score": {
+              "concentration": 9.237321760648726e-11,
+              "flux": 4.998015557698246e-10
+            },
+            "would_accept": true
+          },
+          "1e-06": {
+            "central": {
+              "concentration": 2.1336205153672333e-09,
+              "flux": 1.1394439613405328e-08
+            },
+            "refinement": {
+              "concentration": 1.757099247949486e-10,
+              "flux": 1.1005992808402873e-09
+            },
+            "score": {
+              "concentration": 9.237321760648727e-09,
+              "flux": 4.998015557698246e-08
+            },
+            "would_accept": true
+          }
+        },
+        "counts": [
+          {
+            "factorizations": 2,
+            "linear_solves": 32,
+            "defect_rhs_batches": 2
+          },
+          {
+            "factorizations": 2,
+            "linear_solves": 64,
+            "defect_rhs_batches": 2
+          }
+        ],
+        "seconds": 0.0053247499745339155
+      },
+      "comparison": {
+        "0.0001": {
+          "actual": {
+            "concentration": 2.1587219331950828e-11,
+            "flux": 1.1523921881739479e-10
+          },
+          "actual_numerical_pass": true,
+          "actual_all_checks_pass": true,
+          "structural_pass": true,
+          "would_accept": true,
+          "policy_would_accept": true,
+          "false_accept": false,
+          "policy_false_accept": false,
+          "false_reject": false,
+          "effectivity": 4.337078651685394
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 2.158721933195083e-09,
+            "flux": 1.152392188173948e-08
+          },
+          "actual_numerical_pass": true,
+          "actual_all_checks_pass": true,
+          "structural_pass": true,
+          "would_accept": true,
+          "policy_would_accept": true,
+          "false_accept": false,
+          "policy_false_accept": false,
+          "false_reject": false,
+          "effectivity": 4.337078651685393
+        }
+      }
+    },
+    {
+      "key": "p0-21",
+      "model": "teusink",
+      "start": 1.0,
+      "h": 0.0001,
+      "tolerance": 1e-10,
+      "source_dataset": "p0",
+      "source_key": "teusink-3-1-1e-10",
+      "shadow": {
+        "status": "success",
+        "targets": {
+          "0.0001": {
+            "central": {
+              "concentration": 2.133620515367233e-11,
+              "flux": 1.1394439613405328e-10
+            },
+            "refinement": {
+              "concentration": 1.757099247949486e-12,
+              "flux": 1.1005992808402873e-11
+            },
+            "score": {
+              "concentration": 9.237321760648726e-11,
+              "flux": 4.998015557698246e-10
+            },
+            "would_accept": true
+          },
+          "1e-06": {
+            "central": {
+              "concentration": 2.1336205153672333e-09,
+              "flux": 1.1394439613405328e-08
+            },
+            "refinement": {
+              "concentration": 1.757099247949486e-10,
+              "flux": 1.1005992808402873e-09
+            },
+            "score": {
+              "concentration": 9.237321760648727e-09,
+              "flux": 4.998015557698246e-08
+            },
+            "would_accept": true
+          }
+        },
+        "counts": [
+          {
+            "factorizations": 2,
+            "linear_solves": 32,
+            "defect_rhs_batches": 2
+          },
+          {
+            "factorizations": 2,
+            "linear_solves": 64,
+            "defect_rhs_batches": 2
+          }
+        ],
+        "seconds": 0.0041714999824762344
+      },
+      "comparison": {
+        "0.0001": {
+          "actual": {
+            "concentration": 2.1587219331950828e-11,
+            "flux": 1.1523921881739479e-10
+          },
+          "actual_numerical_pass": true,
+          "actual_all_checks_pass": true,
+          "structural_pass": true,
+          "would_accept": true,
+          "policy_would_accept": true,
+          "false_accept": false,
+          "policy_false_accept": false,
+          "false_reject": false,
+          "effectivity": 4.337078651685394
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 2.158721933195083e-09,
+            "flux": 1.152392188173948e-08
+          },
+          "actual_numerical_pass": true,
+          "actual_all_checks_pass": true,
+          "structural_pass": true,
+          "would_accept": true,
+          "policy_would_accept": true,
+          "false_accept": false,
+          "policy_false_accept": false,
+          "false_reject": false,
+          "effectivity": 4.337078651685393
+        }
+      }
+    },
+    {
+      "key": "p0-22",
+      "model": "teusink",
+      "start": 1.0,
+      "h": 0.01,
+      "tolerance": 1e-08,
+      "source_dataset": "p0",
+      "source_key": "teusink-3-2-1e-08",
+      "shadow": {
+        "status": "success",
+        "targets": {
+          "0.0001": {
+            "central": {
+              "concentration": 6.112850172220444e-07,
+              "flux": 9.473744963730442e-07
+            },
+            "refinement": {
+              "concentration": 3.6880603918581306e-09,
+              "flux": 3.6861597799420807e-09
+            },
+            "score": {
+              "concentration": 2.4598923104556103e-06,
+              "flux": 3.804242624611945e-06
+            },
+            "would_accept": true
+          },
+          "1e-06": {
+            "central": {
+              "concentration": 6.112850172220445e-05,
+              "flux": 9.473744963730442e-05
+            },
+            "refinement": {
+              "concentration": 3.688060391858131e-07,
+              "flux": 3.6861597799420814e-07
+            },
+            "score": {
+              "concentration": 0.00024598923104556105,
+              "flux": 0.0003804242624611945
+            },
+            "would_accept": true
+          }
+        },
+        "counts": [
+          {
+            "factorizations": 2,
+            "linear_solves": 32,
+            "defect_rhs_batches": 2
+          },
+          {
+            "factorizations": 2,
+            "linear_solves": 64,
+            "defect_rhs_batches": 2
+          }
+        ],
+        "seconds": 0.0042853751219809055
+      },
+      "comparison": {
+        "0.0001": {
+          "actual": {
+            "concentration": 6.134107360842667e-07,
+            "flux": 9.462654807447622e-07
+          },
+          "actual_numerical_pass": true,
+          "actual_all_checks_pass": true,
+          "structural_pass": true,
+          "would_accept": true,
+          "policy_would_accept": true,
+          "false_accept": false,
+          "policy_false_accept": false,
+          "false_reject": false,
+          "effectivity": 4.020269894678817
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 6.134107360842667e-05,
+            "flux": 9.462654807447622e-05
+          },
+          "actual_numerical_pass": true,
+          "actual_all_checks_pass": true,
+          "structural_pass": true,
+          "would_accept": true,
+          "policy_would_accept": true,
+          "false_accept": false,
+          "policy_false_accept": false,
+          "false_reject": false,
+          "effectivity": 4.020269894678817
+        }
+      }
+    },
+    {
+      "key": "p0-23",
+      "model": "teusink",
+      "start": 1.0,
+      "h": 0.01,
+      "tolerance": 1e-10,
+      "source_dataset": "p0",
+      "source_key": "teusink-3-2-1e-10",
+      "shadow": {
+        "status": "success",
+        "targets": {
+          "0.0001": {
+            "central": {
+              "concentration": 6.113454772284684e-07,
+              "flux": 9.274568864465433e-07
+            },
+            "refinement": {
+              "concentration": 3.6798158455275984e-09,
+              "flux": 3.67999563315288e-09
+            },
+            "score": {
+              "concentration": 2.4601011722959838e-06,
+              "flux": 3.7245475283187848e-06
+            },
+            "would_accept": true
+          },
+          "1e-06": {
+            "central": {
+              "concentration": 6.113454772284684e-05,
+              "flux": 9.274568864465434e-05
+            },
+            "refinement": {
+              "concentration": 3.6798158455275985e-07,
+              "flux": 3.6799956331528807e-07
+            },
+            "score": {
+              "concentration": 0.0002460101172295984,
+              "flux": 0.0003724547528318785
+            },
+            "would_accept": true
+          }
+        },
+        "counts": [
+          {
+            "factorizations": 2,
+            "linear_solves": 32,
+            "defect_rhs_batches": 2
+          },
+          {
+            "factorizations": 2,
+            "linear_solves": 64,
+            "defect_rhs_batches": 2
+          }
+        ],
+        "seconds": 0.00457895896397531
+      },
+      "comparison": {
+        "0.0001": {
+          "actual": {
+            "concentration": 6.134684479085804e-07,
+            "flux": 9.273817867309095e-07
+          },
+          "actual_numerical_pass": true,
+          "actual_all_checks_pass": true,
+          "structural_pass": true,
+          "would_accept": true,
+          "policy_would_accept": true,
+          "false_accept": false,
+          "policy_false_accept": false,
+          "false_reject": false,
+          "effectivity": 4.016196545597574
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 6.134684479085804e-05,
+            "flux": 9.273817867309095e-05
+          },
+          "actual_numerical_pass": true,
+          "actual_all_checks_pass": true,
+          "structural_pass": true,
+          "would_accept": true,
+          "policy_would_accept": true,
+          "false_accept": false,
+          "policy_false_accept": false,
+          "false_reject": false,
+          "effectivity": 4.016196545597574
+        }
+      }
+    },
+    {
+      "key": "p0-24",
+      "model": "kecoli",
+      "start": 0.0,
+      "h": 1e-08,
+      "tolerance": 1e-08,
+      "source_dataset": "p0",
+      "source_key": "kecoli-0-0-1e-08",
+      "shadow": {
+        "status": "success",
+        "targets": {
+          "0.0001": {
+            "central": {
+              "concentration": 0.0003152845989099012,
+              "flux": 0.0003183045746264475,
+              "net_flux": 0.389940605444986
+            },
+            "refinement": {
+              "concentration": 1.604481935771312e-05,
+              "flux": 1.6162940261288116e-05,
+              "net_flux": 0.01983435108917702
+            },
+            "score": {
+              "concentration": 0.0013253176730704573,
+              "flux": 0.0013378700595509424,
+              "net_flux": 1.639099826136652
+            },
+            "would_accept": false
+          },
+          "1e-06": {
+            "central": {
+              "concentration": 0.031528459890990124,
+              "flux": 0.031830457462644755,
+              "net_flux": 0.389940605444986
+            },
+            "refinement": {
+              "concentration": 0.001604481935771312,
+              "flux": 0.0016162940261288117,
+              "net_flux": 0.01983435108917702
+            },
+            "score": {
+              "concentration": 0.13253176730704574,
+              "flux": 0.13378700595509427,
+              "net_flux": 1.639099826136652
+            },
+            "would_accept": false
+          }
+        },
+        "counts": [
+          {
+            "factorizations": 2,
+            "linear_solves": 32,
+            "defect_rhs_batches": 2
+          },
+          {
+            "factorizations": 2,
+            "linear_solves": 64,
+            "defect_rhs_batches": 2
+          }
+        ],
+        "seconds": 0.07665570895187557
+      },
+      "comparison": {
+        "0.0001": {
+          "actual": {
+            "concentration": 0.0003155338832042776,
+            "flux": 0.0003188474426325852,
+            "net_flux": 0.39032993404148236
+          },
+          "actual_numerical_pass": true,
+          "actual_all_checks_pass": true,
+          "structural_pass": true,
+          "would_accept": false,
+          "policy_would_accept": false,
+          "false_accept": false,
+          "policy_false_accept": false,
+          "false_reject": true,
+          "effectivity": 4.1992675508265185
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 0.03155338832042776,
+            "flux": 0.03188474426325852,
+            "net_flux": 0.39032993404148236
+          },
+          "actual_numerical_pass": true,
+          "actual_all_checks_pass": true,
+          "structural_pass": true,
+          "would_accept": false,
+          "policy_would_accept": false,
+          "false_accept": false,
+          "policy_false_accept": false,
+          "false_reject": true,
+          "effectivity": 4.1992675508265185
+        }
+      }
+    },
+    {
+      "key": "p0-25",
+      "model": "kecoli",
+      "start": 0.0,
+      "h": 1e-08,
+      "tolerance": 1e-10,
+      "source_dataset": "p0",
+      "source_key": "kecoli-0-0-1e-10",
+      "shadow": {
+        "status": "success",
+        "targets": {
+          "0.0001": {
+            "central": {
+              "concentration": 0.00030600347137733696,
+              "flux": 0.0003088595985283831,
+              "net_flux": 0.378028729175493
+            },
+            "refinement": {
+              "concentration": 1.5751779629437715e-05,
+              "flux": 1.5903905986259393e-05,
+              "net_flux": 0.01945831144619323
+            },
+            "score": {
+              "concentration": 0.0012870210040270987,
+              "flux": 0.0012990540180585698,
+              "net_flux": 1.589948162486745
+            },
+            "would_accept": false
+          },
+          "1e-06": {
+            "central": {
+              "concentration": 0.030600347137733696,
+              "flux": 0.030885959852838315,
+              "net_flux": 0.378028729175493
+            },
+            "refinement": {
+              "concentration": 0.0015751779629437717,
+              "flux": 0.0015903905986259397,
+              "net_flux": 0.01945831144619323
+            },
+            "score": {
+              "concentration": 0.12870210040270988,
+              "flux": 0.12990540180585702,
+              "net_flux": 1.589948162486745
+            },
+            "would_accept": false
+          }
+        },
+        "counts": [
+          {
+            "factorizations": 2,
+            "linear_solves": 32,
+            "defect_rhs_batches": 2
+          },
+          {
+            "factorizations": 2,
+            "linear_solves": 64,
+            "defect_rhs_batches": 2
+          }
+        ],
+        "seconds": 0.047992374980822206
+      },
+      "comparison": {
+        "0.0001": {
+          "actual": {
+            "concentration": 0.00030544442700268694,
+            "flux": 0.0003082947735039092,
+            "net_flux": 0.37733790421829494
+          },
+          "actual_numerical_pass": true,
+          "actual_all_checks_pass": true,
+          "structural_pass": true,
+          "would_accept": false,
+          "policy_would_accept": false,
+          "false_accept": false,
+          "policy_false_accept": false,
+          "false_reject": true,
+          "effectivity": 4.213592498162971
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 0.0305444427002687,
+            "flux": 0.030829477350390926,
+            "net_flux": 0.37733790421829494
+          },
+          "actual_numerical_pass": true,
+          "actual_all_checks_pass": true,
+          "structural_pass": true,
+          "would_accept": false,
+          "policy_would_accept": false,
+          "false_accept": false,
+          "policy_false_accept": false,
+          "false_reject": true,
+          "effectivity": 4.213592498162971
+        }
+      }
+    },
+    {
+      "key": "p0-26",
+      "model": "kecoli",
+      "start": 0.0,
+      "h": 1e-05,
+      "tolerance": 1e-08,
+      "source_dataset": "p0",
+      "source_key": "kecoli-0-1-1e-08",
+      "shadow": {
+        "status": "success",
+        "targets": {
+          "0.0001": {
+            "central": {
+              "concentration": 1.1362391822020546,
+              "flux": 1.136239182200822,
+              "net_flux": 201.81942071016456
+            },
+            "refinement": {
+              "concentration": 0.04012573859066648,
+              "flux": 0.040125738591131464,
+              "net_flux": 22.532217475523822
+            },
+            "score": {
+              "concentration": 4.705459683170885,
+              "flux": 4.705459683167814,
+              "net_flux": 897.4065527427535
+            },
+            "would_accept": false
+          },
+          "1e-06": {
+            "central": {
+              "concentration": 113.62391822020545,
+              "flux": 113.6239182200822,
+              "net_flux": 201.81942071016456
+            },
+            "refinement": {
+              "concentration": 4.012573859066648,
+              "flux": 4.012573859113147,
+              "net_flux": 22.532217475523822
+            },
+            "score": {
+              "concentration": 470.5459683170884,
+              "flux": 470.5459683167814,
+              "net_flux": 897.4065527427535
+            },
+            "would_accept": false
+          }
+        },
+        "counts": [
+          {
+            "factorizations": 2,
+            "linear_solves": 32,
+            "defect_rhs_batches": 2
+          },
+          {
+            "factorizations": 2,
+            "linear_solves": 64,
+            "defect_rhs_batches": 2
+          }
+        ],
+        "seconds": 0.062059958931058645
+      },
+      "comparison": {
+        "0.0001": {
+          "actual": {
+            "concentration": 1.1428759487859435,
+            "flux": 1.1428759487848426,
+            "net_flux": 201.88258831849902
+          },
+          "actual_numerical_pass": false,
+          "actual_all_checks_pass": false,
+          "structural_pass": true,
+          "would_accept": false,
+          "policy_would_accept": false,
+          "false_accept": false,
+          "policy_false_accept": false,
+          "false_reject": false,
+          "effectivity": 4.445190445681055
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 114.28759487859433,
+            "flux": 114.28759487848427,
+            "net_flux": 201.88258831849902
+          },
+          "actual_numerical_pass": false,
+          "actual_all_checks_pass": false,
+          "structural_pass": true,
+          "would_accept": false,
+          "policy_would_accept": false,
+          "false_accept": false,
+          "policy_false_accept": false,
+          "false_reject": false,
+          "effectivity": 4.445190445681055
+        }
+      }
+    },
+    {
+      "key": "p0-27",
+      "model": "kecoli",
+      "start": 0.0,
+      "h": 1e-05,
+      "tolerance": 1e-10,
+      "source_dataset": "p0",
+      "source_key": "kecoli-0-1-1e-10",
+      "shadow": {
+        "status": "success",
+        "targets": {
+          "0.0001": {
+            "central": {
+              "concentration": 1.1361941404041247,
+              "flux": 1.1361941404046867,
+              "net_flux": 201.89208498010694
+            },
+            "refinement": {
+              "concentration": 0.04012720123443185,
+              "flux": 0.04012720123354016,
+              "net_flux": 22.528139516805627
+            },
+            "score": {
+              "concentration": 4.705285366554226,
+              "flux": 4.705285366552907,
+              "net_flux": 897.6808979876503
+            },
+            "would_accept": false
+          },
+          "1e-06": {
+            "central": {
+              "concentration": 113.61941404041247,
+              "flux": 113.61941404046868,
+              "net_flux": 201.89208498010694
+            },
+            "refinement": {
+              "concentration": 4.012720123443184,
+              "flux": 4.012720123354017,
+              "net_flux": 22.528139516805627
+            },
+            "score": {
+              "concentration": 470.5285366554226,
+              "flux": 470.5285366552908,
+              "net_flux": 897.6808979876503
+            },
+            "would_accept": false
+          }
+        },
+        "counts": [
+          {
+            "factorizations": 2,
+            "linear_solves": 32,
+            "defect_rhs_batches": 2
+          },
+          {
+            "factorizations": 2,
+            "linear_solves": 64,
+            "defect_rhs_batches": 2
+          }
+        ],
+        "seconds": 0.057969666086137295
+      },
+      "comparison": {
+        "0.0001": {
+          "actual": {
+            "concentration": 1.142830941150141,
+            "flux": 1.1428309411510673,
+            "net_flux": 201.95547190980687
+          },
+          "actual_numerical_pass": false,
+          "actual_all_checks_pass": false,
+          "structural_pass": true,
+          "would_accept": false,
+          "policy_would_accept": false,
+          "false_accept": false,
+          "policy_false_accept": false,
+          "false_reject": false,
+          "effectivity": 4.444944667746134
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 114.28309411501408,
+            "flux": 114.28309411510675,
+            "net_flux": 201.95547190980687
+          },
+          "actual_numerical_pass": false,
+          "actual_all_checks_pass": false,
+          "structural_pass": true,
+          "would_accept": false,
+          "policy_would_accept": false,
+          "false_accept": false,
+          "policy_false_accept": false,
+          "false_reject": false,
+          "effectivity": 4.444944667746134
+        }
+      }
+    },
+    {
+      "key": "p0-28",
+      "model": "kecoli",
+      "start": 0.0,
+      "h": 0.001,
+      "tolerance": 1e-08,
+      "source_dataset": "p0",
+      "source_key": "kecoli-0-2-1e-08",
+      "shadow": {
+        "status": "success",
+        "targets": {
+          "0.0001": {
+            "central": {
+              "concentration": 169.55396509152698,
+              "flux": 169.55396502326968,
+              "net_flux": 446.6811588069612
+            },
+            "refinement": {
+              "concentration": 8.568572397167062,
+              "flux": 11.81547016768922,
+              "net_flux": 174.90012256687302
+            },
+            "score": {
+              "concentration": 712.4901499547761,
+              "flux": 725.4777407638356,
+              "net_flux": 2486.325125495337
+            },
+            "would_accept": false
+          },
+          "1e-06": {
+            "central": {
+              "concentration": 16955.3965091527,
+              "flux": 16955.396502326967,
+              "net_flux": 446.6811588069612
+            },
+            "refinement": {
+              "concentration": 856.8572397167063,
+              "flux": 1181.547016768922,
+              "net_flux": 174.90012256687302
+            },
+            "score": {
+              "concentration": 71249.01499547763,
+              "flux": 72547.77407638356,
+              "net_flux": 2486.325125495337
+            },
+            "would_accept": false
+          }
+        },
+        "counts": [
+          {
+            "factorizations": 2,
+            "linear_solves": 32,
+            "defect_rhs_batches": 2
+          },
+          {
+            "factorizations": 2,
+            "linear_solves": 64,
+            "defect_rhs_batches": 2
+          }
+        ],
+        "seconds": 0.06806625006720424
+      },
+      "comparison": {
+        "0.0001": {
+          "actual": {
+            "concentration": 170.2693952456542,
+            "flux": 170.26939517710892,
+            "net_flux": 448.5267322869666
+          },
+          "actual_numerical_pass": false,
+          "actual_all_checks_pass": false,
+          "structural_pass": true,
+          "would_accept": false,
+          "policy_would_accept": false,
+          "false_accept": false,
+          "policy_false_accept": false,
+          "false_reject": false,
+          "effectivity": 5.543315362315107
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 17026.939524565423,
+            "flux": 17026.939517710893,
+            "net_flux": 448.5267322869666
+          },
+          "actual_numerical_pass": false,
+          "actual_all_checks_pass": false,
+          "structural_pass": true,
+          "would_accept": false,
+          "policy_would_accept": false,
+          "false_accept": false,
+          "policy_false_accept": false,
+          "false_reject": false,
+          "effectivity": 4.260764183235401
+        }
+      }
+    },
+    {
+      "key": "p0-29",
+      "model": "kecoli",
+      "start": 0.0,
+      "h": 0.001,
+      "tolerance": 1e-10,
+      "source_dataset": "p0",
+      "source_key": "kecoli-0-2-1e-10",
+      "shadow": {
+        "status": "success",
+        "targets": {
+          "0.0001": {
+            "central": {
+              "concentration": 169.55435352448794,
+              "flux": 169.55435345623113,
+              "net_flux": 446.68090305510333
+            },
+            "refinement": {
+              "concentration": 8.568565702030641,
+              "flux": 11.815548961057145,
+              "net_flux": 175.52103090318556
+            },
+            "score": {
+              "concentration": 712.4916769060743,
+              "flux": 725.4796096691531,
+              "net_flux": 2488.8077358331557
+            },
+            "would_accept": false
+          },
+          "1e-06": {
+            "central": {
+              "concentration": 16955.435352448796,
+              "flux": 16955.43534562311,
+              "net_flux": 446.68090305510333
+            },
+            "refinement": {
+              "concentration": 856.8565702030643,
+              "flux": 1181.5548961057145,
+              "net_flux": 175.52103090318556
+            },
+            "score": {
+              "concentration": 71249.16769060744,
+              "flux": 72547.9609669153,
+              "net_flux": 2488.8077358331557
+            },
+            "would_accept": false
+          }
+        },
+        "counts": [
+          {
+            "factorizations": 2,
+            "linear_solves": 32,
+            "defect_rhs_batches": 2
+          },
+          {
+            "factorizations": 2,
+            "linear_solves": 64,
+            "defect_rhs_batches": 2
+          }
+        ],
+        "seconds": 0.07018870790489018
+      },
+      "comparison": {
+        "0.0001": {
+          "actual": {
+            "concentration": 170.2697731423647,
+            "flux": 170.26977307381955,
+            "net_flux": 448.52645469853866
+          },
+          "actual_numerical_pass": false,
+          "actual_all_checks_pass": false,
+          "structural_pass": true,
+          "would_accept": false,
+          "policy_would_accept": false,
+          "false_accept": false,
+          "policy_false_accept": false,
+          "false_reject": false,
+          "effectivity": 5.548853829605036
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 17026.977314236472,
+            "flux": 17026.977307381956,
+            "net_flux": 448.52645469853866
+          },
+          "actual_numerical_pass": false,
+          "actual_all_checks_pass": false,
+          "structural_pass": true,
+          "would_accept": false,
+          "policy_would_accept": false,
+          "false_accept": false,
+          "policy_false_accept": false,
+          "false_reject": false,
+          "effectivity": 4.260765703038614
+        }
+      }
+    },
+    {
+      "key": "p0-30",
+      "model": "kecoli",
+      "start": 1e-08,
+      "h": 1e-08,
+      "tolerance": 1e-08,
+      "source_dataset": "p0",
+      "source_key": "kecoli-1-0-1e-08",
+      "shadow": {
+        "status": "success",
+        "targets": {
+          "0.0001": {
+            "central": {
+              "concentration": 2.7906008769853987e-05,
+              "flux": 2.790600986348944e-05,
+              "net_flux": 0.014160980998537128
+            },
+            "refinement": {
+              "concentration": 1.156908331809938e-07,
+              "flux": 1.1568970563532793e-07,
+              "net_flux": 4.590747453355548e-05
+            },
+            "score": {
+              "concentration": 0.00011208679841213992,
+              "flux": 0.00011208679827649907,
+              "net_flux": 0.05682755389228274
+            },
+            "would_accept": true
+          },
+          "1e-06": {
+            "central": {
+              "concentration": 0.0027906008769853986,
+              "flux": 0.0027906009863489446,
+              "net_flux": 0.014160980998537128
+            },
+            "refinement": {
+              "concentration": 1.156908331809938e-05,
+              "flux": 1.1568970563532794e-05,
+              "net_flux": 4.590747453355548e-05
+            },
+            "score": {
+              "concentration": 0.011208679841213992,
+              "flux": 0.01120867982764991,
+              "net_flux": 0.05682755389228274
+            },
+            "would_accept": true
+          }
+        },
+        "counts": [
+          {
+            "factorizations": 2,
+            "linear_solves": 32,
+            "defect_rhs_batches": 2
+          },
+          {
+            "factorizations": 2,
+            "linear_solves": 64,
+            "defect_rhs_batches": 2
+          }
+        ],
+        "seconds": 0.04123845905996859
+      },
+      "comparison": {
+        "0.0001": {
+          "actual": {
+            "concentration": 2.8005727735503657e-05,
+            "flux": 2.800572778088012e-05,
+            "net_flux": 0.014158623152824207
+          },
+          "actual_numerical_pass": true,
+          "actual_all_checks_pass": true,
+          "structural_pass": true,
+          "would_accept": true,
+          "policy_would_accept": true,
+          "false_accept": false,
+          "policy_false_accept": false,
+          "false_reject": false,
+          "effectivity": 4.013635597112944
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 0.0028005727735503656,
+            "flux": 0.0028005727780880123,
+            "net_flux": 0.014158623152824207
+          },
+          "actual_numerical_pass": true,
+          "actual_all_checks_pass": true,
+          "structural_pass": true,
+          "would_accept": true,
+          "policy_would_accept": true,
+          "false_accept": false,
+          "policy_false_accept": false,
+          "false_reject": false,
+          "effectivity": 4.013635597112944
+        }
+      }
+    },
+    {
+      "key": "p0-31",
+      "model": "kecoli",
+      "start": 1e-08,
+      "h": 1e-08,
+      "tolerance": 1e-10,
+      "source_dataset": "p0",
+      "source_key": "kecoli-1-0-1e-10",
+      "shadow": {
+        "status": "success",
+        "targets": {
+          "0.0001": {
+            "central": {
+              "concentration": 3.0478918889191586e-05,
+              "flux": 3.0478918181918513e-05,
+              "net_flux": 0.015582138236761725
+            },
+            "refinement": {
+              "concentration": 1.202293406447452e-07,
+              "flux": 1.202308735362389e-07,
+              "net_flux": 4.8122300118987284e-05
+            },
+            "score": {
+              "concentration": 0.00012239659291934533,
+              "flux": 0.000122396596221819,
+              "net_flux": 0.06252104214752285
+            },
+            "would_accept": true
+          },
+          "1e-06": {
+            "central": {
+              "concentration": 0.0030478918889191584,
+              "flux": 0.0030478918181918516,
+              "net_flux": 0.015582138236761725
+            },
+            "refinement": {
+              "concentration": 1.2022934064474521e-05,
+              "flux": 1.2023087353623893e-05,
+              "net_flux": 4.8122300118987284e-05
+            },
+            "score": {
+              "concentration": 0.012239659291934532,
+              "flux": 0.012239659622181901,
+              "net_flux": 0.06252104214752285
+            },
+            "would_accept": true
+          }
+        },
+        "counts": [
+          {
+            "factorizations": 2,
+            "linear_solves": 32,
+            "defect_rhs_batches": 2
+          },
+          {
+            "factorizations": 2,
+            "linear_solves": 64,
+            "defect_rhs_batches": 2
+          }
+        ],
+        "seconds": 0.04150162497535348
+      },
+      "comparison": {
+        "0.0001": {
+          "actual": {
+            "concentration": 3.057971778830285e-05,
+            "flux": 3.057971743254035e-05,
+            "net_flux": 0.01558041603605987
+          },
+          "actual_numerical_pass": true,
+          "actual_all_checks_pass": true,
+          "structural_pass": true,
+          "would_accept": true,
+          "policy_would_accept": true,
+          "false_accept": false,
+          "policy_false_accept": false,
+          "false_reject": false,
+          "effectivity": 4.012796705994367
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 0.0030579717788302846,
+            "flux": 0.003057971743254035,
+            "net_flux": 0.01558041603605987
+          },
+          "actual_numerical_pass": true,
+          "actual_all_checks_pass": true,
+          "structural_pass": true,
+          "would_accept": true,
+          "policy_would_accept": true,
+          "false_accept": false,
+          "policy_false_accept": false,
+          "false_reject": false,
+          "effectivity": 4.012796705994367
+        }
+      }
+    },
+    {
+      "key": "p0-32",
+      "model": "kecoli",
+      "start": 1e-08,
+      "h": 1e-05,
+      "tolerance": 1e-08,
+      "source_dataset": "p0",
+      "source_key": "kecoli-1-1-1e-08",
+      "shadow": {
+        "status": "success",
+        "targets": {
+          "0.0001": {
+            "central": {
+              "concentration": 0.31098307909408707,
+              "flux": 0.3109830790953227,
+              "net_flux": 256.9741198789348
+            },
+            "refinement": {
+              "concentration": 0.00892023619476576,
+              "flux": 0.010245749276533489,
+              "net_flux": 6.716140858676766
+            },
+            "score": {
+              "concentration": 1.2796132611554114,
+              "flux": 1.2849153134874247,
+              "net_flux": 1054.7610429504462
+            },
+            "would_accept": false
+          },
+          "1e-06": {
+            "central": {
+              "concentration": 31.098307909408707,
+              "flux": 31.09830790953227,
+              "net_flux": 256.9741198789348
+            },
+            "refinement": {
+              "concentration": 0.892023619476576,
+              "flux": 1.024574927653349,
+              "net_flux": 6.716140858676766
+            },
+            "score": {
+              "concentration": 127.96132611554113,
+              "flux": 128.49153134874248,
+              "net_flux": 1054.7610429504462
+            },
+            "would_accept": false
+          }
+        },
+        "counts": [
+          {
+            "factorizations": 2,
+            "linear_solves": 32,
+            "defect_rhs_batches": 2
+          },
+          {
+            "factorizations": 2,
+            "linear_solves": 64,
+            "defect_rhs_batches": 2
+          }
+        ],
+        "seconds": 0.05286470893770456
+      },
+      "comparison": {
+        "0.0001": {
+          "actual": {
+            "concentration": 0.3128698939575406,
+            "flux": 0.31286989395816034,
+            "net_flux": 256.81469849125114
+          },
+          "actual_numerical_pass": false,
+          "actual_all_checks_pass": false,
+          "structural_pass": true,
+          "would_accept": false,
+          "policy_would_accept": false,
+          "false_accept": false,
+          "policy_false_accept": false,
+          "false_reject": false,
+          "effectivity": 4.107089855631369
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 31.28698939575406,
+            "flux": 31.286989395816036,
+            "net_flux": 256.81469849125114
+          },
+          "actual_numerical_pass": false,
+          "actual_all_checks_pass": false,
+          "structural_pass": true,
+          "would_accept": false,
+          "policy_would_accept": false,
+          "false_accept": false,
+          "policy_false_accept": false,
+          "false_reject": false,
+          "effectivity": 4.107089855631369
+        }
+      }
+    },
+    {
+      "key": "p0-33",
+      "model": "kecoli",
+      "start": 1e-08,
+      "h": 1e-05,
+      "tolerance": 1e-10,
+      "source_dataset": "p0",
+      "source_key": "kecoli-1-1-1e-10",
+      "shadow": {
+        "status": "success",
+        "targets": {
+          "0.0001": {
+            "central": {
+              "concentration": 0.31093808700096565,
+              "flux": 0.3109380869995074,
+              "net_flux": 256.8351268784262
+            },
+            "refinement": {
+              "concentration": 0.008920925941997098,
+              "flux": 0.010234011795294236,
+              "net_flux": 6.717643904869932
+            },
+            "score": {
+              "concentration": 1.279436051771851,
+              "flux": 1.2846883951792067,
+              "net_flux": 1054.2110831331845
+            },
+            "would_accept": false
+          },
+          "1e-06": {
+            "central": {
+              "concentration": 31.093808700096563,
+              "flux": 31.09380869995075,
+              "net_flux": 256.8351268784262
+            },
+            "refinement": {
+              "concentration": 0.8920925941997099,
+              "flux": 1.0234011795294238,
+              "net_flux": 6.717643904869932
+            },
+            "score": {
+              "concentration": 127.94360517718509,
+              "flux": 128.46883951792069,
+              "net_flux": 1054.2110831331845
+            },
+            "would_accept": false
+          }
+        },
+        "counts": [
+          {
+            "factorizations": 2,
+            "linear_solves": 32,
+            "defect_rhs_batches": 2
+          },
+          {
+            "factorizations": 2,
+            "linear_solves": 64,
+            "defect_rhs_batches": 2
+          }
+        ],
+        "seconds": 0.05801033298484981
+      },
+      "comparison": {
+        "0.0001": {
+          "actual": {
+            "concentration": 0.31282494116006254,
+            "flux": 0.3128249411594192,
+            "net_flux": 256.6755447480376
+          },
+          "actual_numerical_pass": false,
+          "actual_all_checks_pass": false,
+          "structural_pass": true,
+          "would_accept": false,
+          "policy_would_accept": false,
+          "false_accept": false,
+          "policy_false_accept": false,
+          "false_reject": false,
+          "effectivity": 4.107173841466033
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 31.282494116006255,
+            "flux": 31.282494115941926,
+            "net_flux": 256.6755447480376
+          },
+          "actual_numerical_pass": false,
+          "actual_all_checks_pass": false,
+          "structural_pass": true,
+          "would_accept": false,
+          "policy_would_accept": false,
+          "false_accept": false,
+          "policy_false_accept": false,
+          "false_reject": false,
+          "effectivity": 4.107173841466033
+        }
+      }
+    },
+    {
+      "key": "p0-34",
+      "model": "kecoli",
+      "start": 1e-08,
+      "h": 0.001,
+      "tolerance": 1e-08,
+      "source_dataset": "p0",
+      "source_key": "kecoli-1-2-1e-08",
+      "shadow": {
+        "status": "success",
+        "targets": {
+          "0.0001": {
+            "central": {
+              "concentration": 169.44291808443012,
+              "flux": 169.44291801621782,
+              "net_flux": 43546.24607133172
+            },
+            "refinement": {
+              "concentration": 8.563459570518912,
+              "flux": 11.72059701045295,
+              "net_flux": 1726.2456036626431
+            },
+            "score": {
+              "concentration": 712.0255106197961,
+              "flux": 724.6540601066831,
+              "net_flux": 181089.96669997746
+            },
+            "would_accept": false
+          },
+          "1e-06": {
+            "central": {
+              "concentration": 16944.291808443017,
+              "flux": 16944.29180162178,
+              "net_flux": 43546.24607133172
+            },
+            "refinement": {
+              "concentration": 856.3459570518913,
+              "flux": 1172.0597010452952,
+              "net_flux": 1726.2456036626431
+            },
+            "score": {
+              "concentration": 71202.55106197963,
+              "flux": 72465.4060106683,
+              "net_flux": 181089.96669997746
+            },
+            "would_accept": false
+          }
+        },
+        "counts": [
+          {
+            "factorizations": 2,
+            "linear_solves": 32,
+            "defect_rhs_batches": 2
+          },
+          {
+            "factorizations": 2,
+            "linear_solves": 64,
+            "defect_rhs_batches": 2
+          }
+        ],
+        "seconds": 0.05904945801012218
+      },
+      "comparison": {
+        "0.0001": {
+          "actual": {
+            "concentration": 170.14550491313307,
+            "flux": 170.14550484463803,
+            "net_flux": 43708.653198986016
+          },
+          "actual_numerical_pass": false,
+          "actual_all_checks_pass": false,
+          "structural_pass": true,
+          "would_accept": false,
+          "policy_would_accept": false,
+          "false_accept": false,
+          "policy_false_accept": false,
+          "false_reject": false,
+          "effectivity": 4.143114771245766
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 17014.55049131331,
+            "flux": 17014.5504844638,
+            "net_flux": 43708.653198986016
+          },
+          "actual_numerical_pass": false,
+          "actual_all_checks_pass": false,
+          "structural_pass": true,
+          "would_accept": false,
+          "policy_would_accept": false,
+          "false_accept": false,
+          "policy_false_accept": false,
+          "false_reject": false,
+          "effectivity": 4.143114771245766
+        }
+      }
+    },
+    {
+      "key": "p0-35",
+      "model": "kecoli",
+      "start": 1e-08,
+      "h": 0.001,
+      "tolerance": 1e-10,
+      "source_dataset": "p0",
+      "source_key": "kecoli-1-2-1e-10",
+      "shadow": {
+        "status": "success",
+        "targets": {
+          "0.0001": {
+            "central": {
+              "concentration": 169.4432961756126,
+              "flux": 169.44329610739953,
+              "net_flux": 43564.255043258694
+            },
+            "refinement": {
+              "concentration": 8.563453063338022,
+              "flux": 11.720675182239901,
+              "net_flux": 1725.6716407761687
+            },
+            "score": {
+              "concentration": 712.0269969558025,
+              "flux": 724.6558851585578,
+              "net_flux": 181159.70673613946
+            },
+            "would_accept": false
+          },
+          "1e-06": {
+            "central": {
+              "concentration": 16944.329617561263,
+              "flux": 16944.329610739955,
+              "net_flux": 43564.255043258694
+            },
+            "refinement": {
+              "concentration": 856.3453063338023,
+              "flux": 1172.0675182239904,
+              "net_flux": 1725.6716407761687
+            },
+            "score": {
+              "concentration": 71202.69969558026,
+              "flux": 72465.58851585578,
+              "net_flux": 181159.70673613946
+            },
+            "would_accept": false
+          }
+        },
+        "counts": [
+          {
+            "factorizations": 2,
+            "linear_solves": 32,
+            "defect_rhs_batches": 2
+          },
+          {
+            "factorizations": 2,
+            "linear_solves": 64,
+            "defect_rhs_batches": 2
+          }
+        ],
+        "seconds": 0.05814220895990729
+      },
+      "comparison": {
+        "0.0001": {
+          "actual": {
+            "concentration": 170.14587277230143,
+            "flux": 170.14587270380676,
+            "net_flux": 43726.05519522009
+          },
+          "actual_numerical_pass": false,
+          "actual_all_checks_pass": false,
+          "structural_pass": true,
+          "would_accept": false,
+          "policy_would_accept": false,
+          "false_accept": false,
+          "policy_false_accept": false,
+          "false_reject": false,
+          "effectivity": 4.143060834720414
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 17014.587277230148,
+            "flux": 17014.587270380678,
+            "net_flux": 43726.05519522009
+          },
+          "actual_numerical_pass": false,
+          "actual_all_checks_pass": false,
+          "structural_pass": true,
+          "would_accept": false,
+          "policy_would_accept": false,
+          "false_accept": false,
+          "policy_false_accept": false,
+          "false_reject": false,
+          "effectivity": 4.143060834720414
+        }
+      }
+    },
+    {
+      "key": "p0-36",
+      "model": "kecoli",
+      "start": 0.001,
+      "h": 1e-08,
+      "tolerance": 1e-08,
+      "source_dataset": "p0",
+      "source_key": "kecoli-2-0-1e-08",
+      "shadow": {
+        "status": "success",
+        "targets": {
+          "0.0001": {
+            "central": {
+              "concentration": 2.859800954982032e-08,
+              "flux": 2.933150871512537e-08,
+              "net_flux": 9.287158777834421e-08
+            },
+            "refinement": {
+              "concentration": 4.026993118258253e-11,
+              "flux": 7.118461608310572e-11,
+              "net_flux": 3.972781319160182e-09
+            },
+            "score": {
+              "concentration": 1.1455311792401161e-07,
+              "flux": 1.176107733248339e-07,
+              "net_flux": 3.8737747639001756e-07
+            },
+            "would_accept": true
+          },
+          "1e-06": {
+            "central": {
+              "concentration": 2.859800954982032e-06,
+              "flux": 2.933150871512537e-06,
+              "net_flux": 9.287158777834421e-08
+            },
+            "refinement": {
+              "concentration": 4.026993118258253e-09,
+              "flux": 7.118461608310572e-09,
+              "net_flux": 3.972781319160182e-09
+            },
+            "score": {
+              "concentration": 1.1455311792401162e-05,
+              "flux": 1.176107733248339e-05,
+              "net_flux": 3.8737747639001756e-07
+            },
+            "would_accept": true
+          }
+        },
+        "counts": [
+          {
+            "factorizations": 2,
+            "linear_solves": 32,
+            "defect_rhs_batches": 2
+          },
+          {
+            "factorizations": 2,
+            "linear_solves": 64,
+            "defect_rhs_batches": 2
+          }
+        ],
+        "seconds": 0.044379458064213395
+      },
+      "comparison": {
+        "0.0001": {
+          "actual": {
+            "concentration": 8.615963723519756e-08,
+            "flux": 8.838370119117735e-08,
+            "net_flux": 1.8861865593028368e-07
+          },
+          "actual_numerical_pass": true,
+          "actual_all_checks_pass": true,
+          "structural_pass": true,
+          "would_accept": true,
+          "policy_would_accept": true,
+          "false_accept": false,
+          "policy_false_accept": false,
+          "false_reject": false,
+          "effectivity": 2.0537601356527433
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 8.615963723519757e-06,
+            "flux": 8.838370119117735e-06,
+            "net_flux": 1.8861865593028368e-07
+          },
+          "actual_numerical_pass": true,
+          "actual_all_checks_pass": true,
+          "structural_pass": true,
+          "would_accept": true,
+          "policy_would_accept": true,
+          "false_accept": false,
+          "policy_false_accept": false,
+          "false_reject": false,
+          "effectivity": 1.3306839580120917
+        }
+      }
+    },
+    {
+      "key": "p0-37",
+      "model": "kecoli",
+      "start": 0.001,
+      "h": 1e-08,
+      "tolerance": 1e-10,
+      "source_dataset": "p0",
+      "source_key": "kecoli-2-0-1e-10",
+      "shadow": {
+        "status": "success",
+        "targets": {
+          "0.0001": {
+            "central": {
+              "concentration": 2.859800954982032e-08,
+              "flux": 2.933150871512537e-08,
+              "net_flux": 9.287158777834421e-08
+            },
+            "refinement": {
+              "concentration": 4.026993118258253e-11,
+              "flux": 7.118461608310572e-11,
+              "net_flux": 3.972781319160182e-09
+            },
+            "score": {
+              "concentration": 1.1455311792401161e-07,
+              "flux": 1.176107733248339e-07,
+              "net_flux": 3.8737747639001756e-07
+            },
+            "would_accept": true
+          },
+          "1e-06": {
+            "central": {
+              "concentration": 2.859800954982032e-06,
+              "flux": 2.933150871512537e-06,
+              "net_flux": 9.287158777834421e-08
+            },
+            "refinement": {
+              "concentration": 4.026993118258253e-09,
+              "flux": 7.118461608310572e-09,
+              "net_flux": 3.972781319160182e-09
+            },
+            "score": {
+              "concentration": 1.1455311792401162e-05,
+              "flux": 1.176107733248339e-05,
+              "net_flux": 3.8737747639001756e-07
+            },
+            "would_accept": true
+          }
+        },
+        "counts": [
+          {
+            "factorizations": 2,
+            "linear_solves": 32,
+            "defect_rhs_batches": 2
+          },
+          {
+            "factorizations": 2,
+            "linear_solves": 64,
+            "defect_rhs_batches": 2
+          }
+        ],
+        "seconds": 0.04115416598506272
+      },
+      "comparison": {
+        "0.0001": {
+          "actual": {
+            "concentration": 8.615963723519756e-08,
+            "flux": 8.838370119117735e-08,
+            "net_flux": 1.8861865593028368e-07
+          },
+          "actual_numerical_pass": true,
+          "actual_all_checks_pass": true,
+          "structural_pass": true,
+          "would_accept": true,
+          "policy_would_accept": true,
+          "false_accept": false,
+          "policy_false_accept": false,
+          "false_reject": false,
+          "effectivity": 2.0537601356527433
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 8.615963723519757e-06,
+            "flux": 8.838370119117735e-06,
+            "net_flux": 1.8861865593028368e-07
+          },
+          "actual_numerical_pass": true,
+          "actual_all_checks_pass": true,
+          "structural_pass": true,
+          "would_accept": true,
+          "policy_would_accept": true,
+          "false_accept": false,
+          "policy_false_accept": false,
+          "false_reject": false,
+          "effectivity": 1.3306839580120917
+        }
+      }
+    },
+    {
+      "key": "p0-38",
+      "model": "kecoli",
+      "start": 0.001,
+      "h": 1e-05,
+      "tolerance": 1e-08,
+      "source_dataset": "p0",
+      "source_key": "kecoli-2-1-1e-08",
+      "shadow": {
+        "status": "success",
+        "targets": {
+          "0.0001": {
+            "central": {
+              "concentration": 0.00602613348083231,
+              "flux": 0.006193344408213777,
+              "net_flux": 0.013320548166966213
+            },
+            "refinement": {
+              "concentration": 8.584793737049407e-06,
+              "flux": 8.822180752333898e-06,
+              "net_flux": 1.896211308889216e-05
+            },
+            "score": {
+              "concentration": 0.024138873098277436,
+              "flux": 0.024808666355864442,
+              "net_flux": 0.05335804112022042
+            },
+            "would_accept": true
+          },
+          "1e-06": {
+            "central": {
+              "concentration": 0.6026133480832311,
+              "flux": 0.6193344408213777,
+              "net_flux": 0.013320548166966213
+            },
+            "refinement": {
+              "concentration": 0.0008584793737049407,
+              "flux": 0.0008822180752333898,
+              "net_flux": 1.896211308889216e-05
+            },
+            "score": {
+              "concentration": 2.4138873098277442,
+              "flux": 2.480866635586444,
+              "net_flux": 0.05335804112022042
+            },
+            "would_accept": false
+          }
+        },
+        "counts": [
+          {
+            "factorizations": 2,
+            "linear_solves": 32,
+            "defect_rhs_batches": 2
+          },
+          {
+            "factorizations": 2,
+            "linear_solves": 64,
+            "defect_rhs_batches": 2
+          }
+        ],
+        "seconds": 0.040706540923565626
+      },
+      "comparison": {
+        "0.0001": {
+          "actual": {
+            "concentration": 0.0060299178974227395,
+            "flux": 0.006197138691593517,
+            "net_flux": 0.013327503117535128
+          },
+          "actual_numerical_pass": true,
+          "actual_all_checks_pass": true,
+          "structural_pass": true,
+          "would_accept": true,
+          "policy_would_accept": true,
+          "false_accept": false,
+          "policy_false_accept": false,
+          "false_reject": false,
+          "effectivity": 4.0036037245428755
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 0.602991789742274,
+            "flux": 0.6197138691593517,
+            "net_flux": 0.013327503117535128
+          },
+          "actual_numerical_pass": true,
+          "actual_all_checks_pass": true,
+          "structural_pass": true,
+          "would_accept": false,
+          "policy_would_accept": false,
+          "false_accept": false,
+          "policy_false_accept": false,
+          "false_reject": true,
+          "effectivity": 4.0032453024680015
+        }
+      }
+    },
+    {
+      "key": "p0-39",
+      "model": "kecoli",
+      "start": 0.001,
+      "h": 1e-05,
+      "tolerance": 1e-10,
+      "source_dataset": "p0",
+      "source_key": "kecoli-2-1-1e-10",
+      "shadow": {
+        "status": "success",
+        "targets": {
+          "0.0001": {
+            "central": {
+              "concentration": 0.00013486812084000492,
+              "flux": 0.0001391822031203627,
+              "net_flux": 0.000307442237212326
+            },
+            "refinement": {
+              "concentration": 1.922952798070183e-07,
+              "flux": 1.984067954148822e-07,
+              "net_flux": 4.374606209429187e-07
+            },
+            "score": {
+              "concentration": 0.0005402416644792478,
+              "flux": 0.0005575224396631102,
+              "net_flux": 0.0012315187913330757
+            },
+            "would_accept": true
+          },
+          "1e-06": {
+            "central": {
+              "concentration": 0.013486812084000493,
+              "flux": 0.013918220312036269,
+              "net_flux": 0.000307442237212326
+            },
+            "refinement": {
+              "concentration": 1.922952798070183e-05,
+              "flux": 1.984067954148822e-05,
+              "net_flux": 4.374606209429187e-07
+            },
+            "score": {
+              "concentration": 0.05402416644792478,
+              "flux": 0.055752243966311024,
+              "net_flux": 0.0012315187913330757
+            },
+            "would_accept": true
+          }
+        },
+        "counts": [
+          {
+            "factorizations": 2,
+            "linear_solves": 32,
+            "defect_rhs_batches": 2
+          },
+          {
+            "factorizations": 2,
+            "linear_solves": 64,
+            "defect_rhs_batches": 2
+          }
+        ],
+        "seconds": 0.040887041948735714
+      },
+      "comparison": {
+        "0.0001": {
+          "actual": {
+            "concentration": 0.00013585724254679685,
+            "flux": 0.00014010504744648052,
+            "net_flux": 0.000308227478091774
+          },
+          "actual_numerical_pass": true,
+          "actual_all_checks_pass": true,
+          "structural_pass": true,
+          "would_accept": true,
+          "policy_would_accept": true,
+          "false_accept": false,
+          "policy_false_accept": false,
+          "false_reject": false,
+          "effectivity": 3.9954867066277386
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 0.013585724254679686,
+            "flux": 0.014010504744648053,
+            "net_flux": 0.000308227478091774
+          },
+          "actual_numerical_pass": true,
+          "actual_all_checks_pass": true,
+          "structural_pass": true,
+          "would_accept": true,
+          "policy_would_accept": true,
+          "false_accept": false,
+          "policy_false_accept": false,
+          "false_reject": false,
+          "effectivity": 3.9793173038685934
+        }
+      }
+    },
+    {
+      "key": "p0-40",
+      "model": "kecoli",
+      "start": 0.001,
+      "h": 0.001,
+      "tolerance": 1e-08,
+      "source_dataset": "p0",
+      "source_key": "kecoli-2-2-1e-08",
+      "shadow": {
+        "status": "success",
+        "targets": {
+          "0.0001": {
+            "central": {
+              "concentration": 1.5805619657488843,
+              "flux": 1.5805619579606054,
+              "net_flux": 1.5816677165463071
+            },
+            "refinement": {
+              "concentration": 0.035088298581182,
+              "flux": 0.035088298408036935,
+              "net_flux": 0.03292932865430204
+            },
+            "score": {
+              "concentration": 6.462601057320265,
+              "flux": 6.462601025474569,
+              "net_flux": 6.458388180802436
+            },
+            "would_accept": false
+          },
+          "1e-06": {
+            "central": {
+              "concentration": 158.05619657488845,
+              "flux": 158.05619579606056,
+              "net_flux": 1.5816677165463071
+            },
+            "refinement": {
+              "concentration": 3.5088298581182005,
+              "flux": 3.5088298408036938,
+              "net_flux": 0.03292932865430204
+            },
+            "score": {
+              "concentration": 646.2601057320265,
+              "flux": 646.260102547457,
+              "net_flux": 6.458388180802436
+            },
+            "would_accept": false
+          }
+        },
+        "counts": [
+          {
+            "factorizations": 2,
+            "linear_solves": 32,
+            "defect_rhs_batches": 2
+          },
+          {
+            "factorizations": 2,
+            "linear_solves": 64,
+            "defect_rhs_batches": 2
+          }
+        ],
+        "seconds": 0.04399437503889203
+      },
+      "comparison": {
+        "0.0001": {
+          "actual": {
+            "concentration": 1.5822239403996008,
+            "flux": 1.5822239326040852,
+            "net_flux": 1.5817946388106663
+          },
+          "actual_numerical_pass": false,
+          "actual_all_checks_pass": false,
+          "structural_pass": true,
+          "would_accept": false,
+          "policy_would_accept": false,
+          "false_accept": false,
+          "policy_false_accept": false,
+          "false_reject": false,
+          "effectivity": 4.084504659743736
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 158.22239403996008,
+            "flux": 158.22239326040852,
+            "net_flux": 1.5817946388106663
+          },
+          "actual_numerical_pass": false,
+          "actual_all_checks_pass": false,
+          "structural_pass": true,
+          "would_accept": false,
+          "policy_would_accept": false,
+          "false_accept": false,
+          "policy_false_accept": false,
+          "false_reject": false,
+          "effectivity": 4.084504659743737
+        }
+      }
+    },
+    {
+      "key": "p0-41",
+      "model": "kecoli",
+      "start": 0.001,
+      "h": 0.001,
+      "tolerance": 1e-10,
+      "source_dataset": "p0",
+      "source_key": "kecoli-2-2-1e-10",
+      "shadow": {
+        "status": "success",
+        "targets": {
+          "0.0001": {
+            "central": {
+              "concentration": 1.579803546979652,
+              "flux": 1.5798035391950873,
+              "net_flux": 1.582338535669104
+            },
+            "refinement": {
+              "concentration": 0.035099658940715615,
+              "flux": 0.03509965876826859,
+              "net_flux": 0.032910156587975255
+            },
+            "score": {
+              "concentration": 6.4596128236814705,
+              "flux": 6.459612791853424,
+              "net_flux": 6.460994769028317
+            },
+            "would_accept": false
+          },
+          "1e-06": {
+            "central": {
+              "concentration": 157.98035469796523,
+              "flux": 157.98035391950873,
+              "net_flux": 1.582338535669104
+            },
+            "refinement": {
+              "concentration": 3.509965894071562,
+              "flux": 3.50996587682686,
+              "net_flux": 0.032910156587975255
+            },
+            "score": {
+              "concentration": 645.9612823681472,
+              "flux": 645.9612791853424,
+              "net_flux": 6.460994769028317
+            },
+            "would_accept": false
+          }
+        },
+        "counts": [
+          {
+            "factorizations": 2,
+            "linear_solves": 32,
+            "defect_rhs_batches": 2
+          },
+          {
+            "factorizations": 2,
+            "linear_solves": 64,
+            "defect_rhs_batches": 2
+          }
+        ],
+        "seconds": 0.042216082802042365
+      },
+      "comparison": {
+        "0.0001": {
+          "actual": {
+            "concentration": 1.5814650494633058,
+            "flux": 1.5814650416705887,
+            "net_flux": 1.5824668913076574
+          },
+          "actual_numerical_pass": false,
+          "actual_all_checks_pass": false,
+          "structural_pass": true,
+          "would_accept": false,
+          "policy_would_accept": false,
+          "false_accept": false,
+          "policy_false_accept": false,
+          "false_reject": false,
+          "effectivity": 4.082862525919472
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 158.1465049463306,
+            "flux": 158.14650416705888,
+            "net_flux": 1.5824668913076574
+          },
+          "actual_numerical_pass": false,
+          "actual_all_checks_pass": false,
+          "structural_pass": true,
+          "would_accept": false,
+          "policy_would_accept": false,
+          "false_accept": false,
+          "policy_false_accept": false,
+          "false_reject": false,
+          "effectivity": 4.084575138649848
+        }
+      }
+    },
+    {
+      "key": "p0-42",
+      "model": "kecoli",
+      "start": 0.1,
+      "h": 1e-08,
+      "tolerance": 1e-08,
+      "source_dataset": "p0",
+      "source_key": "kecoli-3-0-1e-08",
+      "shadow": {
+        "status": "success",
+        "targets": {
+          "0.0001": {
+            "central": {
+              "concentration": 1.2086648047046784e-11,
+              "flux": 6.80896327751446e-11,
+              "net_flux": 6.993685371546142e-08
+            },
+            "refinement": {
+              "concentration": 2.1980626908568572e-12,
+              "flux": 4.961610104605764e-12,
+              "net_flux": 3.972781319160182e-09
+            },
+            "score": {
+              "concentration": 5.713884295161456e-11,
+              "flux": 2.9220497151900144e-10,
+              "net_flux": 2.956385401384864e-07
+            },
+            "would_accept": true
+          },
+          "1e-06": {
+            "central": {
+              "concentration": 1.2086648047046786e-09,
+              "flux": 6.8089632775144606e-09,
+              "net_flux": 6.993685371546142e-08
+            },
+            "refinement": {
+              "concentration": 2.1980626908568573e-10,
+              "flux": 4.961610104605764e-10,
+              "net_flux": 3.972781319160182e-09
+            },
+            "score": {
+              "concentration": 5.713884295161457e-09,
+              "flux": 2.9220497151900148e-08,
+              "net_flux": 2.956385401384864e-07
+            },
+            "would_accept": true
+          }
+        },
+        "counts": [
+          {
+            "factorizations": 2,
+            "linear_solves": 32,
+            "defect_rhs_batches": 2
+          },
+          {
+            "factorizations": 2,
+            "linear_solves": 64,
+            "defect_rhs_batches": 2
+          }
+        ],
+        "seconds": 0.04103829199448228
+      },
+      "comparison": {
+        "0.0001": {
+          "actual": {
+            "concentration": 5.169884442167503e-11,
+            "flux": 7.737458269902796e-11,
+            "net_flux": 1.3930738166751633e-07
+          },
+          "actual_numerical_pass": true,
+          "actual_all_checks_pass": true,
+          "structural_pass": true,
+          "would_accept": true,
+          "policy_would_accept": true,
+          "false_accept": false,
+          "policy_false_accept": false,
+          "false_reject": false,
+          "effectivity": 2.122202977327391
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 5.169884442167504e-09,
+            "flux": 7.737458269902796e-09,
+            "net_flux": 1.3930738166751633e-07
+          },
+          "actual_numerical_pass": true,
+          "actual_all_checks_pass": true,
+          "structural_pass": true,
+          "would_accept": true,
+          "policy_would_accept": true,
+          "false_accept": false,
+          "policy_false_accept": false,
+          "false_reject": false,
+          "effectivity": 2.122202977327391
+        }
+      }
+    },
+    {
+      "key": "p0-43",
+      "model": "kecoli",
+      "start": 0.1,
+      "h": 1e-08,
+      "tolerance": 1e-10,
+      "source_dataset": "p0",
+      "source_key": "kecoli-3-0-1e-10",
+      "shadow": {
+        "status": "success",
+        "targets": {
+          "0.0001": {
+            "central": {
+              "concentration": 1.2086648047046784e-11,
+              "flux": 6.80896327751446e-11,
+              "net_flux": 6.993685371546142e-08
+            },
+            "refinement": {
+              "concentration": 2.1980626908568572e-12,
+              "flux": 4.961610104605764e-12,
+              "net_flux": 3.972781319160182e-09
+            },
+            "score": {
+              "concentration": 5.713884295161456e-11,
+              "flux": 2.9220497151900144e-10,
+              "net_flux": 2.956385401384864e-07
+            },
+            "would_accept": true
+          },
+          "1e-06": {
+            "central": {
+              "concentration": 1.2086648047046786e-09,
+              "flux": 6.8089632775144606e-09,
+              "net_flux": 6.993685371546142e-08
+            },
+            "refinement": {
+              "concentration": 2.1980626908568573e-10,
+              "flux": 4.961610104605764e-10,
+              "net_flux": 3.972781319160182e-09
+            },
+            "score": {
+              "concentration": 5.713884295161457e-09,
+              "flux": 2.9220497151900148e-08,
+              "net_flux": 2.956385401384864e-07
+            },
+            "would_accept": true
+          }
+        },
+        "counts": [
+          {
+            "factorizations": 2,
+            "linear_solves": 32,
+            "defect_rhs_batches": 2
+          },
+          {
+            "factorizations": 2,
+            "linear_solves": 64,
+            "defect_rhs_batches": 2
+          }
+        ],
+        "seconds": 0.04303504200652242
+      },
+      "comparison": {
+        "0.0001": {
+          "actual": {
+            "concentration": 5.169884442167503e-11,
+            "flux": 7.737458269902796e-11,
+            "net_flux": 1.3930738166751633e-07
+          },
+          "actual_numerical_pass": true,
+          "actual_all_checks_pass": true,
+          "structural_pass": true,
+          "would_accept": true,
+          "policy_would_accept": true,
+          "false_accept": false,
+          "policy_false_accept": false,
+          "false_reject": false,
+          "effectivity": 2.122202977327391
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 5.169884442167504e-09,
+            "flux": 7.737458269902796e-09,
+            "net_flux": 1.3930738166751633e-07
+          },
+          "actual_numerical_pass": true,
+          "actual_all_checks_pass": true,
+          "structural_pass": true,
+          "would_accept": true,
+          "policy_would_accept": true,
+          "false_accept": false,
+          "policy_false_accept": false,
+          "false_reject": false,
+          "effectivity": 2.122202977327391
+        }
+      }
+    },
+    {
+      "key": "p0-44",
+      "model": "kecoli",
+      "start": 0.1,
+      "h": 1e-05,
+      "tolerance": 1e-08,
+      "source_dataset": "p0",
+      "source_key": "kecoli-3-1-1e-08",
+      "shadow": {
+        "status": "success",
+        "targets": {
+          "0.0001": {
+            "central": {
+              "concentration": 2.1346866452464995e-06,
+              "flux": 2.13468612081715e-06,
+              "net_flux": 9.64801982183556e-06
+            },
+            "refinement": {
+              "concentration": 3.0364454623663803e-09,
+              "flux": 3.0367981268688036e-09,
+              "net_flux": 2.3836687914961092e-08
+            },
+            "score": {
+              "concentration": 8.550892362835463e-06,
+              "flux": 8.550891675776075e-06,
+              "net_flux": 3.868742603900209e-05
+            },
+            "would_accept": true
+          },
+          "1e-06": {
+            "central": {
+              "concentration": 0.00021346866452464998,
+              "flux": 0.00021346861208171503,
+              "net_flux": 9.64801982183556e-06
+            },
+            "refinement": {
+              "concentration": 3.036445462366381e-07,
+              "flux": 3.036798126868804e-07,
+              "net_flux": 2.3836687914961092e-08
+            },
+            "score": {
+              "concentration": 0.0008550892362835465,
+              "flux": 0.0008550891675776077,
+              "net_flux": 3.868742603900209e-05
+            },
+            "would_accept": true
+          }
+        },
+        "counts": [
+          {
+            "factorizations": 2,
+            "linear_solves": 32,
+            "defect_rhs_batches": 2
+          },
+          {
+            "factorizations": 2,
+            "linear_solves": 64,
+            "defect_rhs_batches": 2
+          }
+        ],
+        "seconds": 0.04110008291900158
+      },
+      "comparison": {
+        "0.0001": {
+          "actual": {
+            "concentration": 2.031392354091993e-06,
+            "flux": 2.031391601673227e-06,
+            "net_flux": 9.417147152386215e-06
+          },
+          "actual_numerical_pass": true,
+          "actual_all_checks_pass": true,
+          "structural_pass": true,
+          "would_accept": true,
+          "policy_would_accept": true,
+          "false_accept": false,
+          "policy_false_accept": false,
+          "false_reject": false,
+          "effectivity": 4.108189604874027
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 0.00020313923540919932,
+            "flux": 0.0002031391601673227,
+            "net_flux": 9.417147152386215e-06
+          },
+          "actual_numerical_pass": true,
+          "actual_all_checks_pass": true,
+          "structural_pass": true,
+          "would_accept": true,
+          "policy_would_accept": true,
+          "false_accept": false,
+          "policy_false_accept": false,
+          "false_reject": false,
+          "effectivity": 4.209375084833184
+        }
+      }
+    },
+    {
+      "key": "p0-45",
+      "model": "kecoli",
+      "start": 0.1,
+      "h": 1e-05,
+      "tolerance": 1e-10,
+      "source_dataset": "p0",
+      "source_key": "kecoli-3-1-1e-10",
+      "shadow": {
+        "status": "success",
+        "targets": {
+          "0.0001": {
+            "central": {
+              "concentration": 3.7447575434292377e-06,
+              "flux": 3.7447568772726394e-06,
+              "net_flux": 1.6924823064694788e-05
+            },
+            "refinement": {
+              "concentration": 5.326704270246584e-09,
+              "flux": 5.326657087128883e-09,
+              "net_flux": 2.457761147025861e-08
+            },
+            "score": {
+              "concentration": 1.5000336990797938e-05,
+              "flux": 1.5000334137439074e-05,
+              "net_flux": 6.779760270466019e-05
+            },
+            "would_accept": true
+          },
+          "1e-06": {
+            "central": {
+              "concentration": 0.00037447575434292383,
+              "flux": 0.00037447568772726395,
+              "net_flux": 1.6924823064694788e-05
+            },
+            "refinement": {
+              "concentration": 5.326704270246585e-07,
+              "flux": 5.326657087128884e-07,
+              "net_flux": 2.457761147025861e-08
+            },
+            "score": {
+              "concentration": 0.0015000336990797938,
+              "flux": 0.0015000334137439074,
+              "net_flux": 6.779760270466019e-05
+            },
+            "would_accept": true
+          }
+        },
+        "counts": [
+          {
+            "factorizations": 2,
+            "linear_solves": 32,
+            "defect_rhs_batches": 2
+          },
+          {
+            "factorizations": 2,
+            "linear_solves": 64,
+            "defect_rhs_batches": 2
+          }
+        ],
+        "seconds": 0.04141300008632243
+      },
+      "comparison": {
+        "0.0001": {
+          "actual": {
+            "concentration": 3.6422266718773575e-06,
+            "flux": 3.642226273185475e-06,
+            "net_flux": 1.669708796266718e-05
+          },
+          "actual_numerical_pass": true,
+          "actual_all_checks_pass": true,
+          "structural_pass": true,
+          "would_accept": true,
+          "policy_would_accept": true,
+          "false_accept": false,
+          "policy_false_accept": false,
+          "false_reject": false,
+          "effectivity": 4.0604447228311935
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 0.0003642226671877358,
+            "flux": 0.0003642226273185475,
+            "net_flux": 1.669708796266718e-05
+          },
+          "actual_numerical_pass": true,
+          "actual_all_checks_pass": true,
+          "structural_pass": true,
+          "would_accept": true,
+          "policy_would_accept": true,
+          "false_accept": false,
+          "policy_false_accept": false,
+          "false_reject": false,
+          "effectivity": 4.118452348564602
+        }
+      }
+    },
+    {
+      "key": "p0-46",
+      "model": "kecoli",
+      "start": 0.1,
+      "h": 0.001,
+      "tolerance": 1e-08,
+      "source_dataset": "p0",
+      "source_key": "kecoli-3-2-1e-08",
+      "shadow": {
+        "status": "success",
+        "targets": {
+          "0.0001": {
+            "central": {
+              "concentration": 0.005897459254167655,
+              "flux": 0.005898125588870775,
+              "net_flux": 0.024737188149328057
+            },
+            "refinement": {
+              "concentration": 8.398999434629769e-06,
+              "flux": 8.398998955552169e-06,
+              "net_flux": 3.40870553976342e-05
+            },
+            "score": {
+              "concentration": 0.023623433014409136,
+              "flux": 0.02362609835130531,
+              "net_flux": 0.09908510081890276
+            },
+            "would_accept": true
+          },
+          "1e-06": {
+            "central": {
+              "concentration": 0.5897459254167655,
+              "flux": 0.5898125588870775,
+              "net_flux": 0.024737188149328057
+            },
+            "refinement": {
+              "concentration": 0.000839899943462977,
+              "flux": 0.0008398998955552169,
+              "net_flux": 3.40870553976342e-05
+            },
+            "score": {
+              "concentration": 2.362343301440914,
+              "flux": 2.362609835130531,
+              "net_flux": 0.09908510081890276
+            },
+            "would_accept": false
+          }
+        },
+        "counts": [
+          {
+            "factorizations": 2,
+            "linear_solves": 32,
+            "defect_rhs_batches": 2
+          },
+          {
+            "factorizations": 2,
+            "linear_solves": 64,
+            "defect_rhs_batches": 2
+          }
+        ],
+        "seconds": 0.04069512500427663
+      },
+      "comparison": {
+        "0.0001": {
+          "actual": {
+            "concentration": 0.0059002050556198615,
+            "flux": 0.005900861258533188,
+            "net_flux": 0.02474662752091635
+          },
+          "actual_numerical_pass": true,
+          "actual_all_checks_pass": true,
+          "structural_pass": true,
+          "would_accept": true,
+          "policy_would_accept": true,
+          "false_accept": false,
+          "policy_false_accept": false,
+          "false_reject": false,
+          "effectivity": 4.003984006917873
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 0.5900205055619863,
+            "flux": 0.5900861258533189,
+            "net_flux": 0.02474662752091635
+          },
+          "actual_numerical_pass": true,
+          "actual_all_checks_pass": true,
+          "structural_pass": true,
+          "would_accept": false,
+          "policy_would_accept": false,
+          "false_accept": false,
+          "policy_false_accept": false,
+          "false_reject": true,
+          "effectivity": 4.00383898488374
+        }
+      }
+    },
+    {
+      "key": "p0-47",
+      "model": "kecoli",
+      "start": 0.1,
+      "h": 0.001,
+      "tolerance": 1e-10,
+      "source_dataset": "p0",
+      "source_key": "kecoli-3-2-1e-10",
+      "shadow": {
+        "status": "success",
+        "targets": {
+          "0.0001": {
+            "central": {
+              "concentration": 9.51337112806964e-05,
+              "flux": 0.00010684202441911104,
+              "net_flux": 0.0016846755157962979
+            },
+            "refinement": {
+              "concentration": 1.4587466133691857e-07,
+              "flux": 1.4861569244542552e-07,
+              "net_flux": 8.483763359564241e-06
+            },
+            "score": {
+              "concentration": 0.00038111834376813327,
+              "flux": 0.0004279625604462259,
+              "net_flux": 0.0067726371166234485
+            },
+            "would_accept": true
+          },
+          "1e-06": {
+            "central": {
+              "concentration": 0.00951337112806964,
+              "flux": 0.010684202441911103,
+              "net_flux": 0.0016846755157962979
+            },
+            "refinement": {
+              "concentration": 1.4587466133691858e-05,
+              "flux": 1.4861569244542553e-05,
+              "net_flux": 8.483763359564241e-06
+            },
+            "score": {
+              "concentration": 0.03811183437681333,
+              "flux": 0.04279625604462258,
+              "net_flux": 0.0067726371166234485
+            },
+            "would_accept": true
+          }
+        },
+        "counts": [
+          {
+            "factorizations": 2,
+            "linear_solves": 32,
+            "defect_rhs_batches": 2
+          },
+          {
+            "factorizations": 2,
+            "linear_solves": 64,
+            "defect_rhs_batches": 2
+          }
+        ],
+        "seconds": 0.04114087484776974
+      },
+      "comparison": {
+        "0.0001": {
+          "actual": {
+            "concentration": 9.512663543218988e-05,
+            "flux": 0.00010683474814880356,
+            "net_flux": 0.0016878774033501787
+          },
+          "actual_numerical_pass": true,
+          "actual_all_checks_pass": true,
+          "structural_pass": true,
+          "would_accept": true,
+          "policy_would_accept": true,
+          "false_accept": false,
+          "policy_false_accept": false,
+          "false_reject": false,
+          "effectivity": 4.0125172024821225
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 0.00951266354321899,
+            "flux": 0.010683474814880356,
+            "net_flux": 0.0016878774033501787
+          },
+          "actual_numerical_pass": true,
+          "actual_all_checks_pass": true,
+          "structural_pass": true,
+          "would_accept": true,
+          "policy_would_accept": true,
+          "false_accept": false,
+          "policy_false_accept": false,
+          "false_reject": false,
+          "effectivity": 4.005836751261332
+        }
+      }
+    },
+    {
+      "key": "startup-0",
+      "model": "teusink",
+      "start": 0.0,
+      "h": 1e-07,
+      "tolerance": 1e-08,
+      "source_dataset": "startup",
+      "source_key": "1e-07-1e-08",
+      "shadow": {
+        "status": "success",
+        "targets": {
+          "0.0001": {
+            "central": {
+              "concentration": 6.808149105987556e-05,
+              "flux": 0.0002835464462075017
+            },
+            "refinement": {
+              "concentration": 2.2624113170773697e-06,
+              "flux": 9.426511127064827e-06
+            },
+            "score": {
+              "concentration": 0.00028137560950781173,
+              "flux": 0.001171891829338266
+            },
+            "would_accept": true
+          },
+          "1e-06": {
+            "central": {
+              "concentration": 0.006808149105987557,
+              "flux": 0.028354644620750172
+            },
+            "refinement": {
+              "concentration": 0.000226241131707737,
+              "flux": 0.0009426511127064827
+            },
+            "score": {
+              "concentration": 0.028137560950781175,
+              "flux": 0.11718918293382662
+            },
+            "would_accept": true
+          }
+        },
+        "counts": [
+          {
+            "factorizations": 2,
+            "linear_solves": 32,
+            "defect_rhs_batches": 2
+          },
+          {
+            "factorizations": 2,
+            "linear_solves": 64,
+            "defect_rhs_batches": 2
+          }
+        ],
+        "seconds": 0.003915709210559726
+      },
+      "comparison": {
+        "0.0001": {
+          "actual": {
+            "concentration": 6.819246742457424e-05,
+            "flux": 0.0002840086461125473
+          },
+          "actual_numerical_pass": true,
+          "actual_all_checks_pass": true,
+          "structural_pass": true,
+          "would_accept": true,
+          "policy_would_accept": true,
+          "false_accept": false,
+          "policy_false_accept": false,
+          "false_reject": false,
+          "effectivity": 4.126254060849497
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 0.006819246742457425,
+            "flux": 0.02840086461125473
+          },
+          "actual_numerical_pass": true,
+          "actual_all_checks_pass": true,
+          "structural_pass": true,
+          "would_accept": true,
+          "policy_would_accept": true,
+          "false_accept": false,
+          "policy_false_accept": false,
+          "false_reject": false,
+          "effectivity": 4.126254060849497
+        }
+      }
+    },
+    {
+      "key": "startup-1",
+      "model": "teusink",
+      "start": 0.0,
+      "h": 1e-07,
+      "tolerance": 1e-10,
+      "source_dataset": "startup",
+      "source_key": "1e-07-1e-10",
+      "shadow": {
+        "status": "success",
+        "targets": {
+          "0.0001": {
+            "central": {
+              "concentration": 6.808154807931499e-05,
+              "flux": 0.00028354668186523005
+            },
+            "refinement": {
+              "concentration": 2.262411230791246e-06,
+              "flux": 9.42650853741946e-06
+            },
+            "score": {
+              "concentration": 0.00028137583724042493,
+              "flux": 0.001171892761610598
+            },
+            "would_accept": true
+          },
+          "1e-06": {
+            "central": {
+              "concentration": 0.006808154807931501,
+              "flux": 0.02835466818652301
+            },
+            "refinement": {
+              "concentration": 0.00022624112307912463,
+              "flux": 0.000942650853741946
+            },
+            "score": {
+              "concentration": 0.0281375837240425,
+              "flux": 0.11718927616105981
+            },
+            "would_accept": true
+          }
+        },
+        "counts": [
+          {
+            "factorizations": 2,
+            "linear_solves": 32,
+            "defect_rhs_batches": 2
+          },
+          {
+            "factorizations": 2,
+            "linear_solves": 64,
+            "defect_rhs_batches": 2
+          }
+        ],
+        "seconds": 0.003930125152692199
+      },
+      "comparison": {
+        "0.0001": {
+          "actual": {
+            "concentration": 6.819252446754626e-05,
+            "flux": 0.00028400888177027565
+          },
+          "actual_numerical_pass": true,
+          "actual_all_checks_pass": true,
+          "structural_pass": true,
+          "would_accept": true,
+          "policy_would_accept": true,
+          "false_accept": false,
+          "policy_false_accept": false,
+          "false_reject": false,
+          "effectivity": 4.126253919616849
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 0.006819252446754626,
+            "flux": 0.028400888177027565
+          },
+          "actual_numerical_pass": true,
+          "actual_all_checks_pass": true,
+          "structural_pass": true,
+          "would_accept": true,
+          "policy_would_accept": true,
+          "false_accept": false,
+          "policy_false_accept": false,
+          "false_reject": false,
+          "effectivity": 4.126253919616849
+        }
+      }
+    },
+    {
+      "key": "startup-2",
+      "model": "teusink",
+      "start": 0.0,
+      "h": 1e-08,
+      "tolerance": 1e-08,
+      "source_dataset": "startup",
+      "source_key": "1e-08-1e-08",
+      "shadow": {
+        "status": "success",
+        "targets": {
+          "0.0001": {
+            "central": {
+              "concentration": 7.082197370500924e-09,
+              "flux": 2.9584108668986923e-08
+            },
+            "refinement": {
+              "concentration": 4.680237795933307e-11,
+              "flux": 1.955182251845687e-10
+            },
+            "score": {
+              "concentration": 2.8515998993841027e-08,
+              "flux": 1.1911850757668597e-07
+            },
+            "would_accept": true
+          },
+          "1e-06": {
+            "central": {
+              "concentration": 7.082197370500924e-07,
+              "flux": 2.9584108668986924e-06
+            },
+            "refinement": {
+              "concentration": 4.680237795933307e-09,
+              "flux": 1.9551822518456868e-08
+            },
+            "score": {
+              "concentration": 2.851599899384103e-06,
+              "flux": 1.1911850757668596e-05
+            },
+            "would_accept": true
+          }
+        },
+        "counts": [
+          {
+            "factorizations": 2,
+            "linear_solves": 32,
+            "defect_rhs_batches": 2
+          },
+          {
+            "factorizations": 2,
+            "linear_solves": 64,
+            "defect_rhs_batches": 2
+          }
+        ],
+        "seconds": 0.003934042062610388
+      },
+      "comparison": {
+        "0.0001": {
+          "actual": {
+            "concentration": 7.155940629563303e-09,
+            "flux": 2.9890981644938863e-08
+          },
+          "actual_numerical_pass": true,
+          "actual_all_checks_pass": true,
+          "structural_pass": true,
+          "would_accept": true,
+          "policy_would_accept": true,
+          "false_accept": false,
+          "policy_false_accept": false,
+          "false_reject": false,
+          "effectivity": 3.9850985488412385
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 7.155940629563304e-07,
+            "flux": 2.9890981644938863e-06
+          },
+          "actual_numerical_pass": true,
+          "actual_all_checks_pass": true,
+          "structural_pass": true,
+          "would_accept": true,
+          "policy_would_accept": true,
+          "false_accept": false,
+          "policy_false_accept": false,
+          "false_reject": false,
+          "effectivity": 3.9850985488412385
+        }
+      }
+    },
+    {
+      "key": "startup-3",
+      "model": "teusink",
+      "start": 0.0,
+      "h": 1e-08,
+      "tolerance": 1e-10,
+      "source_dataset": "startup",
+      "source_key": "1e-08-1e-10",
+      "shadow": {
+        "status": "success",
+        "targets": {
+          "0.0001": {
+            "central": {
+              "concentration": 7.082197370500924e-09,
+              "flux": 2.9584108668986923e-08
+            },
+            "refinement": {
+              "concentration": 4.680237795933307e-11,
+              "flux": 1.955182251845687e-10
+            },
+            "score": {
+              "concentration": 2.8515998993841027e-08,
+              "flux": 1.1911850757668597e-07
+            },
+            "would_accept": true
+          },
+          "1e-06": {
+            "central": {
+              "concentration": 7.082197370500924e-07,
+              "flux": 2.9584108668986924e-06
+            },
+            "refinement": {
+              "concentration": 4.680237795933307e-09,
+              "flux": 1.9551822518456868e-08
+            },
+            "score": {
+              "concentration": 2.851599899384103e-06,
+              "flux": 1.1911850757668596e-05
+            },
+            "would_accept": true
+          }
+        },
+        "counts": [
+          {
+            "factorizations": 2,
+            "linear_solves": 32,
+            "defect_rhs_batches": 2
+          },
+          {
+            "factorizations": 2,
+            "linear_solves": 64,
+            "defect_rhs_batches": 2
+          }
+        ],
+        "seconds": 0.0037879589945077896
+      },
+      "comparison": {
+        "0.0001": {
+          "actual": {
+            "concentration": 7.155940629563303e-09,
+            "flux": 2.9890981644938863e-08
+          },
+          "actual_numerical_pass": true,
+          "actual_all_checks_pass": true,
+          "structural_pass": true,
+          "would_accept": true,
+          "policy_would_accept": true,
+          "false_accept": false,
+          "policy_false_accept": false,
+          "false_reject": false,
+          "effectivity": 3.9850985488412385
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 7.155940629563304e-07,
+            "flux": 2.9890981644938863e-06
+          },
+          "actual_numerical_pass": true,
+          "actual_all_checks_pass": true,
+          "structural_pass": true,
+          "would_accept": true,
+          "policy_would_accept": true,
+          "false_accept": false,
+          "policy_false_accept": false,
+          "false_reject": false,
+          "effectivity": 3.9850985488412385
+        }
+      }
+    },
+    {
+      "key": "startup-early-0",
+      "model": "teusink",
+      "start": 1e-06,
+      "h": 1e-07,
+      "tolerance": 1e-08,
+      "source_dataset": "startup-early",
+      "source_key": "1e-07-1e-08",
+      "shadow": {
+        "status": "success",
+        "targets": {
+          "0.0001": {
+            "central": {
+              "concentration": 1.5845527042348744e-05,
+              "flux": 6.076419506029766e-05
+            },
+            "refinement": {
+              "concentration": 1.5605501260738564e-07,
+              "flux": 5.969074303183632e-07
+            },
+            "score": {
+              "concentration": 6.400632821982451e-05,
+              "flux": 0.0002454444099624641
+            },
+            "would_accept": true
+          },
+          "1e-06": {
+            "central": {
+              "concentration": 0.0015845527042348745,
+              "flux": 0.006076419506029766
+            },
+            "refinement": {
+              "concentration": 1.5605501260738565e-05,
+              "flux": 5.9690743031836315e-05
+            },
+            "score": {
+              "concentration": 0.0064006328219824524,
+              "flux": 0.02454444099624641
+            },
+            "would_accept": true
+          }
+        },
+        "counts": [
+          {
+            "factorizations": 2,
+            "linear_solves": 32,
+            "defect_rhs_batches": 2
+          },
+          {
+            "factorizations": 2,
+            "linear_solves": 64,
+            "defect_rhs_batches": 2
+          }
+        ],
+        "seconds": 0.0038418329786509275
+      },
+      "comparison": {
+        "0.0001": {
+          "actual": {
+            "concentration": 1.5872087605594924e-05,
+            "flux": 6.08660503444487e-05
+          },
+          "actual_numerical_pass": true,
+          "actual_all_checks_pass": true,
+          "structural_pass": true,
+          "would_accept": true,
+          "policy_would_accept": true,
+          "false_accept": false,
+          "policy_false_accept": false,
+          "false_reject": false,
+          "effectivity": 4.032533876823994
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 0.0015872087605594927,
+            "flux": 0.00608660503444487
+          },
+          "actual_numerical_pass": true,
+          "actual_all_checks_pass": true,
+          "structural_pass": true,
+          "would_accept": true,
+          "policy_would_accept": true,
+          "false_accept": false,
+          "policy_false_accept": false,
+          "false_reject": false,
+          "effectivity": 4.032533876823994
+        }
+      }
+    },
+    {
+      "key": "startup-early-1",
+      "model": "teusink",
+      "start": 1e-06,
+      "h": 1e-07,
+      "tolerance": 1e-10,
+      "source_dataset": "startup-early",
+      "source_key": "1e-07-1e-10",
+      "shadow": {
+        "status": "success",
+        "targets": {
+          "0.0001": {
+            "central": {
+              "concentration": 1.5846090820193156e-05,
+              "flux": 6.07663567667675e-05
+            },
+            "refinement": {
+              "concentration": 1.56058024777525e-07,
+              "flux": 5.969197311338549e-07
+            },
+            "score": {
+              "concentration": 6.400859537988273e-05,
+              "flux": 0.00024545310599160544
+            },
+            "would_accept": true
+          },
+          "1e-06": {
+            "central": {
+              "concentration": 0.0015846090820193159,
+              "flux": 0.006076635676676751
+            },
+            "refinement": {
+              "concentration": 1.56058024777525e-05,
+              "flux": 5.969197311338549e-05
+            },
+            "score": {
+              "concentration": 0.006400859537988274,
+              "flux": 0.024545310599160545
+            },
+            "would_accept": true
+          }
+        },
+        "counts": [
+          {
+            "factorizations": 2,
+            "linear_solves": 32,
+            "defect_rhs_batches": 2
+          },
+          {
+            "factorizations": 2,
+            "linear_solves": 64,
+            "defect_rhs_batches": 2
+          }
+        ],
+        "seconds": 0.0038087088614702225
+      },
+      "comparison": {
+        "0.0001": {
+          "actual": {
+            "concentration": 1.5872651634453516e-05,
+            "flux": 6.086821205091854e-05
+          },
+          "actual_numerical_pass": true,
+          "actual_all_checks_pass": true,
+          "structural_pass": true,
+          "would_accept": true,
+          "policy_would_accept": true,
+          "false_accept": false,
+          "policy_false_accept": false,
+          "false_reject": false,
+          "effectivity": 4.032533529755642
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 0.001587265163445352,
+            "flux": 0.006086821205091854
+          },
+          "actual_numerical_pass": true,
+          "actual_all_checks_pass": true,
+          "structural_pass": true,
+          "would_accept": true,
+          "policy_would_accept": true,
+          "false_accept": false,
+          "policy_false_accept": false,
+          "false_reject": false,
+          "effectivity": 4.032533529755642
+        }
+      }
+    },
+    {
+      "key": "startup-early-2",
+      "model": "teusink",
+      "start": 1e-06,
+      "h": 1e-08,
+      "tolerance": 1e-08,
+      "source_dataset": "startup-early",
+      "source_key": "1e-08-1e-08",
+      "shadow": {
+        "status": "success",
+        "targets": {
+          "0.0001": {
+            "central": {
+              "concentration": 1.6295840453840089e-09,
+              "flux": 6.255935794564527e-09
+            },
+            "refinement": {
+              "concentration": 1.0793609665975414e-11,
+              "flux": 4.07869145252577e-11
+            },
+            "score": {
+              "concentration": 6.561510620199937e-09,
+              "flux": 2.5186890836359138e-08
+            },
+            "would_accept": true
+          },
+          "1e-06": {
+            "central": {
+              "concentration": 1.629584045384009e-07,
+              "flux": 6.255935794564527e-07
+            },
+            "refinement": {
+              "concentration": 1.0793609665975415e-09,
+              "flux": 4.078691452525771e-09
+            },
+            "score": {
+              "concentration": 6.561510620199938e-07,
+              "flux": 2.518689083635914e-06
+            },
+            "would_accept": true
+          }
+        },
+        "counts": [
+          {
+            "factorizations": 2,
+            "linear_solves": 32,
+            "defect_rhs_batches": 2
+          },
+          {
+            "factorizations": 2,
+            "linear_solves": 64,
+            "defect_rhs_batches": 2
+          }
+        ],
+        "seconds": 0.00438029202632606
+      },
+      "comparison": {
+        "0.0001": {
+          "actual": {
+            "concentration": 1.5846525074721577e-09,
+            "flux": 6.084371789021777e-09
+          },
+          "actual_numerical_pass": true,
+          "actual_all_checks_pass": true,
+          "structural_pass": true,
+          "would_accept": true,
+          "policy_would_accept": true,
+          "false_accept": false,
+          "policy_false_accept": false,
+          "false_reject": false,
+          "effectivity": 4.139604171100234
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 1.584652507472158e-07,
+            "flux": 6.084371789021777e-07
+          },
+          "actual_numerical_pass": true,
+          "actual_all_checks_pass": true,
+          "structural_pass": true,
+          "would_accept": true,
+          "policy_would_accept": true,
+          "false_accept": false,
+          "policy_false_accept": false,
+          "false_reject": false,
+          "effectivity": 4.139604171100234
+        }
+      }
+    },
+    {
+      "key": "startup-early-3",
+      "model": "teusink",
+      "start": 1e-06,
+      "h": 1e-08,
+      "tolerance": 1e-10,
+      "source_dataset": "startup-early",
+      "source_key": "1e-08-1e-10",
+      "shadow": {
+        "status": "success",
+        "targets": {
+          "0.0001": {
+            "central": {
+              "concentration": 1.6295840453840089e-09,
+              "flux": 6.255935794564527e-09
+            },
+            "refinement": {
+              "concentration": 1.0793609665975414e-11,
+              "flux": 4.07869145252577e-11
+            },
+            "score": {
+              "concentration": 6.561510620199937e-09,
+              "flux": 2.5186890836359138e-08
+            },
+            "would_accept": true
+          },
+          "1e-06": {
+            "central": {
+              "concentration": 1.629584045384009e-07,
+              "flux": 6.255935794564527e-07
+            },
+            "refinement": {
+              "concentration": 1.0793609665975415e-09,
+              "flux": 4.078691452525771e-09
+            },
+            "score": {
+              "concentration": 6.561510620199938e-07,
+              "flux": 2.518689083635914e-06
+            },
+            "would_accept": true
+          }
+        },
+        "counts": [
+          {
+            "factorizations": 2,
+            "linear_solves": 32,
+            "defect_rhs_batches": 2
+          },
+          {
+            "factorizations": 2,
+            "linear_solves": 64,
+            "defect_rhs_batches": 2
+          }
+        ],
+        "seconds": 0.004185416968539357
+      },
+      "comparison": {
+        "0.0001": {
+          "actual": {
+            "concentration": 1.5846525074721577e-09,
+            "flux": 6.084371789021777e-09
+          },
+          "actual_numerical_pass": true,
+          "actual_all_checks_pass": true,
+          "structural_pass": true,
+          "would_accept": true,
+          "policy_would_accept": true,
+          "false_accept": false,
+          "policy_false_accept": false,
+          "false_reject": false,
+          "effectivity": 4.139604171100234
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 1.584652507472158e-07,
+            "flux": 6.084371789021777e-07
+          },
+          "actual_numerical_pass": true,
+          "actual_all_checks_pass": true,
+          "structural_pass": true,
+          "would_accept": true,
+          "policy_would_accept": true,
+          "false_accept": false,
+          "policy_false_accept": false,
+          "false_reject": false,
+          "effectivity": 4.139604171100234
+        }
+      }
+    },
+    {
+      "key": "growth-0",
+      "model": "teusink",
+      "start": 1.0,
+      "h": 0.1,
+      "tolerance": 1e-08,
+      "source_dataset": "growth",
+      "source_key": "teusink-0.1-1e-08",
+      "shadow": {
+        "status": "success",
+        "targets": {
+          "0.0001": {
+            "central": {
+              "concentration": 0.006244785190273147,
+              "flux": 0.007898518092389253
+            },
+            "refinement": {
+              "concentration": 9.051987792596091e-05,
+              "flux": 9.05198771300193e-05
+            },
+            "score": {
+              "concentration": 0.025341220272796432,
+              "flux": 0.031956151878077085
+            },
+            "would_accept": true
+          },
+          "1e-06": {
+            "central": {
+              "concentration": 0.6244785190273147,
+              "flux": 0.7898518092389253
+            },
+            "refinement": {
+              "concentration": 0.009051987792596092,
+              "flux": 0.009051987713001931
+            },
+            "score": {
+              "concentration": 2.534122027279643,
+              "flux": 3.195615187807709
+            },
+            "would_accept": false
+          }
+        },
+        "counts": [
+          {
+            "factorizations": 2,
+            "linear_solves": 32,
+            "defect_rhs_batches": 2
+          },
+          {
+            "factorizations": 2,
+            "linear_solves": 64,
+            "defect_rhs_batches": 2
+          }
+        ],
+        "seconds": 0.004213667009025812
+      },
+      "comparison": {
+        "0.0001": {
+          "actual": {
+            "concentration": 0.00624770290636361,
+            "flux": 0.007899417742311163
+          },
+          "actual_numerical_pass": true,
+          "actual_all_checks_pass": false,
+          "structural_pass": false,
+          "would_accept": true,
+          "policy_would_accept": false,
+          "false_accept": false,
+          "policy_false_accept": false,
+          "false_reject": false,
+          "effectivity": 4.0453806749467525
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 0.624770290636361,
+            "flux": 0.7899417742311163
+          },
+          "actual_numerical_pass": true,
+          "actual_all_checks_pass": false,
+          "structural_pass": false,
+          "would_accept": false,
+          "policy_would_accept": false,
+          "false_accept": false,
+          "policy_false_accept": false,
+          "false_reject": false,
+          "effectivity": 4.045380674946753
+        }
+      }
+    },
+    {
+      "key": "growth-1",
+      "model": "teusink",
+      "start": 1.0,
+      "h": 0.1,
+      "tolerance": 1e-10,
+      "source_dataset": "growth",
+      "source_key": "teusink-0.1-1e-10",
+      "shadow": {
+        "status": "success",
+        "targets": {
+          "0.0001": {
+            "central": {
+              "concentration": 0.006243110000141521,
+              "flux": 0.007895923628987365
+            },
+            "refinement": {
+              "concentration": 9.052526573698792e-05,
+              "flux": 9.052526459431306e-05
+            },
+            "score": {
+              "concentration": 0.025334541063514036,
+              "flux": 0.03194579557432671
+            },
+            "would_accept": true
+          },
+          "1e-06": {
+            "central": {
+              "concentration": 0.6243110000141521,
+              "flux": 0.7895923628987365
+            },
+            "refinement": {
+              "concentration": 0.009052526573698792,
+              "flux": 0.009052526459431307
+            },
+            "score": {
+              "concentration": 2.5334541063514036,
+              "flux": 3.194579557432671
+            },
+            "would_accept": false
+          }
+        },
+        "counts": [
+          {
+            "factorizations": 2,
+            "linear_solves": 32,
+            "defect_rhs_batches": 2
+          },
+          {
+            "factorizations": 2,
+            "linear_solves": 64,
+            "defect_rhs_batches": 2
+          }
+        ],
+        "seconds": 0.0037921660114079714
+      },
+      "comparison": {
+        "0.0001": {
+          "actual": {
+            "concentration": 0.006246025697692224,
+            "flux": 0.007896823148132184
+          },
+          "actual_numerical_pass": true,
+          "actual_all_checks_pass": false,
+          "structural_pass": false,
+          "would_accept": true,
+          "policy_would_accept": false,
+          "false_accept": false,
+          "policy_false_accept": false,
+          "false_reject": false,
+          "effectivity": 4.04539838047187
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 0.6246025697692225,
+            "flux": 0.7896823148132185
+          },
+          "actual_numerical_pass": true,
+          "actual_all_checks_pass": false,
+          "structural_pass": false,
+          "would_accept": false,
+          "policy_would_accept": false,
+          "false_accept": false,
+          "policy_false_accept": false,
+          "false_reject": false,
+          "effectivity": 4.04539838047187
+        }
+      }
+    },
+    {
+      "key": "growth-2",
+      "model": "teusink",
+      "start": 1.0,
+      "h": 1.0,
+      "tolerance": 1e-08,
+      "source_dataset": "growth",
+      "source_key": "teusink-1.0-1e-08",
+      "shadow": {
+        "status": "success",
+        "targets": {
+          "0.0001": {
+            "central": {
+              "concentration": 25.863125258788088,
+              "flux": 25.863125258862503
+            },
+            "refinement": {
+              "concentration": 0.9549626355144243,
+              "flux": 0.9549626355173155
+            },
+            "score": {
+              "concentration": 107.27235157721005,
+              "flux": 107.27235157751927
+            },
+            "would_accept": false
+          },
+          "1e-06": {
+            "central": {
+              "concentration": 2586.312525878809,
+              "flux": 2586.3125258862506
+            },
+            "refinement": {
+              "concentration": 95.49626355144244,
+              "flux": 95.49626355173157
+            },
+            "score": {
+              "concentration": 10727.235157721007,
+              "flux": 10727.23515775193
+            },
+            "would_accept": false
+          }
+        },
+        "counts": [
+          {
+            "factorizations": 2,
+            "linear_solves": 32,
+            "defect_rhs_batches": 2
+          },
+          {
+            "factorizations": 2,
+            "linear_solves": 64,
+            "defect_rhs_batches": 2
+          }
+        ],
+        "seconds": 0.003879459109157324
+      },
+      "comparison": {
+        "0.0001": {
+          "actual": {
+            "concentration": 26.218653983476482,
+            "flux": 26.21865398355246
+          },
+          "actual_numerical_pass": false,
+          "actual_all_checks_pass": false,
+          "structural_pass": false,
+          "would_accept": false,
+          "policy_would_accept": false,
+          "false_accept": false,
+          "policy_false_accept": false,
+          "false_reject": false,
+          "effectivity": 4.091451515581753
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 2621.8653983476484,
+            "flux": 2621.8653983552463
+          },
+          "actual_numerical_pass": false,
+          "actual_all_checks_pass": false,
+          "structural_pass": false,
+          "would_accept": false,
+          "policy_would_accept": false,
+          "false_accept": false,
+          "policy_false_accept": false,
+          "false_reject": false,
+          "effectivity": 4.0914515155817535
+        }
+      }
+    },
+    {
+      "key": "growth-3",
+      "model": "teusink",
+      "start": 1.0,
+      "h": 1.0,
+      "tolerance": 1e-10,
+      "source_dataset": "growth",
+      "source_key": "teusink-1.0-1e-10",
+      "shadow": {
+        "status": "success",
+        "targets": {
+          "0.0001": {
+            "central": {
+              "concentration": 25.863125058275227,
+              "flux": 25.86312505835
+            },
+            "refinement": {
+              "concentration": 0.954962628477704,
+              "flux": 0.9549626284819693
+            },
+            "score": {
+              "concentration": 107.27235074701173,
+              "flux": 107.27235074732788
+            },
+            "would_accept": false
+          },
+          "1e-06": {
+            "central": {
+              "concentration": 2586.3125058275227,
+              "flux": 2586.312505835
+            },
+            "refinement": {
+              "concentration": 95.49626284777041,
+              "flux": 95.49626284819695
+            },
+            "score": {
+              "concentration": 10727.235074701173,
+              "flux": 10727.23507473279
+            },
+            "would_accept": false
+          }
+        },
+        "counts": [
+          {
+            "factorizations": 2,
+            "linear_solves": 32,
+            "defect_rhs_batches": 2
+          },
+          {
+            "factorizations": 2,
+            "linear_solves": 64,
+            "defect_rhs_batches": 2
+          }
+        ],
+        "seconds": 0.004182875156402588
+      },
+      "comparison": {
+        "0.0001": {
+          "actual": {
+            "concentration": 26.218653778343924,
+            "flux": 26.218653778419927
+          },
+          "actual_numerical_pass": false,
+          "actual_all_checks_pass": false,
+          "structural_pass": false,
+          "would_accept": false,
+          "policy_would_accept": false,
+          "false_accept": false,
+          "policy_false_accept": false,
+          "false_reject": false,
+          "effectivity": 4.091451515928774
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 2621.865377834393,
+            "flux": 2621.865377841993
+          },
+          "actual_numerical_pass": false,
+          "actual_all_checks_pass": false,
+          "structural_pass": false,
+          "would_accept": false,
+          "policy_would_accept": false,
+          "false_accept": false,
+          "policy_false_accept": false,
+          "false_reject": false,
+          "effectivity": 4.091451515928774
+        }
+      }
+    },
+    {
+      "key": "growth-4",
+      "model": "teusink",
+      "start": 1.0,
+      "h": 9.0,
+      "tolerance": 1e-08,
+      "source_dataset": "growth",
+      "source_key": "teusink-9.0-1e-08",
+      "shadow": {
+        "status": "success",
+        "targets": {
+          "0.0001": {
+            "central": {
+              "concentration": 1160.4244441906826,
+              "flux": 868.5620450701791
+            },
+            "refinement": {
+              "concentration": 63.87793518788275,
+              "flux": 61.56663208255565
+            },
+            "score": {
+              "concentration": 4897.209517514261,
+              "flux": 3720.514708610939
+            },
+            "would_accept": false
+          },
+          "1e-06": {
+            "central": {
+              "concentration": 116042.44441906826,
+              "flux": 86856.20450701793
+            },
+            "refinement": {
+              "concentration": 6387.793518788275,
+              "flux": 6156.663208255566
+            },
+            "score": {
+              "concentration": 489720.9517514261,
+              "flux": 372051.47086109396
+            },
+            "would_accept": false
+          }
+        },
+        "counts": [
+          {
+            "factorizations": 2,
+            "linear_solves": 32,
+            "defect_rhs_batches": 2
+          },
+          {
+            "factorizations": 2,
+            "linear_solves": 64,
+            "defect_rhs_batches": 2
+          }
+        ],
+        "seconds": 0.004417584044858813
+      },
+      "comparison": {
+        "0.0001": {
+          "actual": {
+            "concentration": 1328.69085033524,
+            "flux": 1187.7360724333248
+          },
+          "actual_numerical_pass": false,
+          "actual_all_checks_pass": false,
+          "structural_pass": false,
+          "would_accept": false,
+          "policy_would_accept": false,
+          "false_accept": false,
+          "policy_false_accept": false,
+          "false_reject": false,
+          "effectivity": 3.6857403784173375
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 132869.08503352402,
+            "flux": 118773.60724333249
+          },
+          "actual_numerical_pass": false,
+          "actual_all_checks_pass": false,
+          "structural_pass": false,
+          "would_accept": false,
+          "policy_would_accept": false,
+          "false_accept": false,
+          "policy_false_accept": false,
+          "false_reject": false,
+          "effectivity": 3.6857403784173366
+        }
+      }
+    },
+    {
+      "key": "growth-5",
+      "model": "teusink",
+      "start": 1.0,
+      "h": 9.0,
+      "tolerance": 1e-10,
+      "source_dataset": "growth",
+      "source_key": "teusink-9.0-1e-10",
+      "shadow": {
+        "status": "success",
+        "targets": {
+          "0.0001": {
+            "central": {
+              "concentration": 1160.4244446997934,
+              "flux": 868.5620465622468
+            },
+            "refinement": {
+              "concentration": 63.87793519095496,
+              "flux": 61.56663211564788
+            },
+            "score": {
+              "concentration": 4897.209519562994,
+              "flux": 3720.5147147115786
+            },
+            "would_accept": false
+          },
+          "1e-06": {
+            "central": {
+              "concentration": 116042.44446997935,
+              "flux": 86856.2046562247
+            },
+            "refinement": {
+              "concentration": 6387.793519095497,
+              "flux": 6156.663211564788
+            },
+            "score": {
+              "concentration": 489720.9519562994,
+              "flux": 372051.471471158
+            },
+            "would_accept": false
+          }
+        },
+        "counts": [
+          {
+            "factorizations": 2,
+            "linear_solves": 32,
+            "defect_rhs_batches": 2
+          },
+          {
+            "factorizations": 2,
+            "linear_solves": 64,
+            "defect_rhs_batches": 2
+          }
+        ],
+        "seconds": 0.004279416985809803
+      },
+      "comparison": {
+        "0.0001": {
+          "actual": {
+            "concentration": 1328.6908512370085,
+            "flux": 1187.7360715531818
+          },
+          "actual_numerical_pass": false,
+          "actual_all_checks_pass": false,
+          "structural_pass": false,
+          "would_accept": false,
+          "policy_would_accept": false,
+          "false_accept": false,
+          "policy_false_accept": false,
+          "false_reject": false,
+          "effectivity": 3.6857403774577824
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 132869.08512370085,
+            "flux": 118773.60715531817
+          },
+          "actual_numerical_pass": false,
+          "actual_all_checks_pass": false,
+          "structural_pass": false,
+          "would_accept": false,
+          "policy_would_accept": false,
+          "false_accept": false,
+          "policy_false_accept": false,
+          "false_reject": false,
+          "effectivity": 3.685740377457783
+        }
+      }
+    },
+    {
+      "key": "growth-6",
+      "model": "kecoli",
+      "start": 0.1,
+      "h": 0.01,
+      "tolerance": 1e-08,
+      "source_dataset": "growth",
+      "source_key": "kecoli-0.01-1e-08",
+      "shadow": {
+        "status": "success",
+        "targets": {
+          "0.0001": {
+            "central": {
+              "concentration": 0.019392748530012972,
+              "flux": 0.019564829801275538,
+              "net_flux": 0.6857157438492965
+            },
+            "refinement": {
+              "concentration": 2.863765979784062e-05,
+              "flux": 2.8637658965038593e-05,
+              "net_flux": 0.0014879960561090234
+            },
+            "score": {
+              "concentration": 0.07768554475924325,
+              "flux": 0.07837386984096231,
+              "net_flux": 2.748814959621622
+            },
+            "would_accept": false
+          },
+          "1e-06": {
+            "central": {
+              "concentration": 1.9392748530012975,
+              "flux": 1.956482980127554,
+              "net_flux": 0.6857157438492965
+            },
+            "refinement": {
+              "concentration": 0.002863765979784063,
+              "flux": 0.0028637658965038593,
+              "net_flux": 0.0014879960561090234
+            },
+            "score": {
+              "concentration": 7.768554475924327,
+              "flux": 7.837386984096232,
+              "net_flux": 2.748814959621622
+            },
+            "would_accept": false
+          }
+        },
+        "counts": [
+          {
+            "factorizations": 2,
+            "linear_solves": 32,
+            "defect_rhs_batches": 2
+          },
+          {
+            "factorizations": 2,
+            "linear_solves": 64,
+            "defect_rhs_batches": 2
+          }
+        ],
+        "seconds": 0.04267141595482826
+      },
+      "comparison": {
+        "0.0001": {
+          "actual": {
+            "concentration": 0.019402154086992248,
+            "flux": 0.019573071628325854,
+            "net_flux": 0.6859915642637737
+          },
+          "actual_numerical_pass": true,
+          "actual_all_checks_pass": true,
+          "structural_pass": true,
+          "would_accept": false,
+          "policy_would_accept": false,
+          "false_accept": false,
+          "policy_false_accept": false,
+          "false_reject": true,
+          "effectivity": 4.007068166460226
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 1.9402154086992252,
+            "flux": 1.9573071628325858,
+            "net_flux": 0.6859915642637737
+          },
+          "actual_numerical_pass": false,
+          "actual_all_checks_pass": false,
+          "structural_pass": true,
+          "would_accept": false,
+          "policy_would_accept": false,
+          "false_accept": false,
+          "policy_false_accept": false,
+          "false_reject": false,
+          "effectivity": 4.004168141271236
+        }
+      }
+    },
+    {
+      "key": "growth-7",
+      "model": "kecoli",
+      "start": 0.1,
+      "h": 0.01,
+      "tolerance": 1e-10,
+      "source_dataset": "growth",
+      "source_key": "kecoli-0.01-1e-10",
+      "shadow": {
+        "status": "success",
+        "targets": {
+          "0.0001": {
+            "central": {
+              "concentration": 0.01602101943694696,
+              "flux": 0.01631131945868734,
+              "net_flux": 0.7037844570611842
+            },
+            "refinement": {
+              "concentration": 2.3799237326798246e-05,
+              "flux": 2.379923602346948e-05,
+              "net_flux": 0.0014935349084641931
+            },
+            "score": {
+              "concentration": 0.06417927469709503,
+              "flux": 0.06534047477884324,
+              "net_flux": 2.8211119678785934
+            },
+            "would_accept": false
+          },
+          "1e-06": {
+            "central": {
+              "concentration": 1.602101943694696,
+              "flux": 1.631131945868734,
+              "net_flux": 0.7037844570611842
+            },
+            "refinement": {
+              "concentration": 0.0023799237326798247,
+              "flux": 0.002379923602346948,
+              "net_flux": 0.0014935349084641931
+            },
+            "score": {
+              "concentration": 6.417927469709503,
+              "flux": 6.534047477884323,
+              "net_flux": 2.8211119678785934
+            },
+            "would_accept": false
+          }
+        },
+        "counts": [
+          {
+            "factorizations": 2,
+            "linear_solves": 32,
+            "defect_rhs_batches": 2
+          },
+          {
+            "factorizations": 2,
+            "linear_solves": 64,
+            "defect_rhs_batches": 2
+          }
+        ],
+        "seconds": 0.04161304188892245
+      },
+      "comparison": {
+        "0.0001": {
+          "actual": {
+            "concentration": 0.0160288063668693,
+            "flux": 0.016317981917738745,
+            "net_flux": 0.704068657395317
+          },
+          "actual_numerical_pass": true,
+          "actual_all_checks_pass": true,
+          "structural_pass": true,
+          "would_accept": false,
+          "policy_would_accept": false,
+          "false_accept": false,
+          "policy_false_accept": false,
+          "false_reject": true,
+          "effectivity": 4.006870549124032
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 1.6028806366869301,
+            "flux": 1.6317981917738746,
+            "net_flux": 0.704068657395317
+          },
+          "actual_numerical_pass": false,
+          "actual_all_checks_pass": false,
+          "structural_pass": true,
+          "would_accept": false,
+          "policy_would_accept": false,
+          "false_accept": false,
+          "policy_false_accept": false,
+          "false_reject": false,
+          "effectivity": 4.004200709881516
+        }
+      }
+    },
+    {
+      "key": "growth-8",
+      "model": "kecoli",
+      "start": 0.1,
+      "h": 0.1,
+      "tolerance": 1e-08,
+      "source_dataset": "growth",
+      "source_key": "kecoli-0.1-1e-08",
+      "shadow": {
+        "status": "success",
+        "targets": {
+          "0.0001": {
+            "central": {
+              "concentration": 6.638578857648979,
+              "flux": 6.699076255822904,
+              "net_flux": 216.619365123133
+            },
+            "refinement": {
+              "concentration": 0.1946427508720743,
+              "flux": 0.08238149537850786,
+              "net_flux": 7.31443588138097
+            },
+            "score": {
+              "concentration": 27.332886434084216,
+              "flux": 27.125831004805647,
+              "net_flux": 895.7352040180559
+            },
+            "would_accept": false
+          },
+          "1e-06": {
+            "central": {
+              "concentration": 663.857885764898,
+              "flux": 669.9076255822904,
+              "net_flux": 216.619365123133
+            },
+            "refinement": {
+              "concentration": 19.464275087207437,
+              "flux": 8.238149537850788,
+              "net_flux": 7.31443588138097
+            },
+            "score": {
+              "concentration": 2733.2886434084216,
+              "flux": 2712.5831004805646,
+              "net_flux": 895.7352040180559
+            },
+            "would_accept": false
+          }
+        },
+        "counts": [
+          {
+            "factorizations": 2,
+            "linear_solves": 32,
+            "defect_rhs_batches": 2
+          },
+          {
+            "factorizations": 2,
+            "linear_solves": 64,
+            "defect_rhs_batches": 2
+          }
+        ],
+        "seconds": 0.0498437499627471
+      },
+      "comparison": {
+        "0.0001": {
+          "actual": {
+            "concentration": 6.643959740549152,
+            "flux": 6.702353474300386,
+            "net_flux": 216.98403060011313
+          },
+          "actual_numerical_pass": false,
+          "actual_all_checks_pass": false,
+          "structural_pass": true,
+          "would_accept": false,
+          "policy_would_accept": false,
+          "false_accept": false,
+          "policy_false_accept": false,
+          "false_reject": false,
+          "effectivity": 4.128115795161143
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 664.3959740549153,
+            "flux": 670.2353474300387,
+            "net_flux": 216.98403060011313
+          },
+          "actual_numerical_pass": false,
+          "actual_all_checks_pass": false,
+          "structural_pass": true,
+          "would_accept": false,
+          "policy_would_accept": false,
+          "false_accept": false,
+          "policy_false_accept": false,
+          "false_reject": false,
+          "effectivity": 4.078102794621304
+        }
+      }
+    },
+    {
+      "key": "growth-9",
+      "model": "kecoli",
+      "start": 0.1,
+      "h": 0.1,
+      "tolerance": 1e-10,
+      "source_dataset": "growth",
+      "source_key": "kecoli-0.1-1e-10",
+      "shadow": {
+        "status": "success",
+        "targets": {
+          "0.0001": {
+            "central": {
+              "concentration": 6.637680156725449,
+              "flux": 6.6982114749757695,
+              "net_flux": 216.62868655177522
+            },
+            "refinement": {
+              "concentration": 0.19464470115031457,
+              "flux": 0.0823790518559027,
+              "net_flux": 2.064579123441085
+            },
+            "score": {
+              "concentration": 27.329299431503056,
+              "flux": 27.12236210732669,
+              "net_flux": 874.7730627008652
+            },
+            "would_accept": false
+          },
+          "1e-06": {
+            "central": {
+              "concentration": 663.768015672545,
+              "flux": 669.821147497577,
+              "net_flux": 216.62868655177522
+            },
+            "refinement": {
+              "concentration": 19.46447011503146,
+              "flux": 8.237905185590272,
+              "net_flux": 2.064579123441085
+            },
+            "score": {
+              "concentration": 2732.9299431503055,
+              "flux": 2712.2362107326694,
+              "net_flux": 874.7730627008652
+            },
+            "would_accept": false
+          }
+        },
+        "counts": [
+          {
+            "factorizations": 2,
+            "linear_solves": 32,
+            "defect_rhs_batches": 2
+          },
+          {
+            "factorizations": 2,
+            "linear_solves": 64,
+            "defect_rhs_batches": 2
+          }
+        ],
+        "seconds": 0.05208024987950921
+      },
+      "comparison": {
+        "0.0001": {
+          "actual": {
+            "concentration": 6.644937523765283,
+            "flux": 6.70148812241329,
+            "net_flux": 216.99335437163992
+          },
+          "actual_numerical_pass": false,
+          "actual_all_checks_pass": false,
+          "structural_pass": true,
+          "would_accept": false,
+          "policy_would_accept": false,
+          "false_accept": false,
+          "policy_false_accept": false,
+          "false_reject": false,
+          "effectivity": 4.03133573023006
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 664.4937523765284,
+            "flux": 670.148812241329,
+            "net_flux": 216.99335437163992
+          },
+          "actual_numerical_pass": false,
+          "actual_all_checks_pass": false,
+          "structural_pass": true,
+          "would_accept": false,
+          "policy_would_accept": false,
+          "false_accept": false,
+          "policy_false_accept": false,
+          "false_reject": false,
+          "effectivity": 4.078094138539103
+        }
+      }
+    },
+    {
+      "key": "growth-10",
+      "model": "kecoli",
+      "start": 0.1,
+      "h": 0.9,
+      "tolerance": 1e-08,
+      "source_dataset": "growth",
+      "source_key": "kecoli-0.9-1e-08",
+      "shadow": {
+        "status": "success",
+        "targets": {
+          "0.0001": {
+            "central": {
+              "concentration": 501.08646988286495,
+              "flux": 492.8247506419981,
+              "net_flux": 53443.01291112474
+            },
+            "refinement": {
+              "concentration": 57.396067447195335,
+              "flux": 33.744531455245145,
+              "net_flux": 1087.1363547346327
+            },
+            "score": {
+              "concentration": 2233.930149320241,
+              "flux": 2106.277128388973,
+              "net_flux": 218120.59706343748
+            },
+            "would_accept": false
+          },
+          "1e-06": {
+            "central": {
+              "concentration": 50108.646988286506,
+              "flux": 49282.47506419982,
+              "net_flux": 53443.01291112474
+            },
+            "refinement": {
+              "concentration": 5739.606744719535,
+              "flux": 3374.453145524514,
+              "net_flux": 1087.1363547346327
+            },
+            "score": {
+              "concentration": 223393.01493202418,
+              "flux": 210627.71283889734,
+              "net_flux": 218120.59706343748
+            },
+            "would_accept": false
+          }
+        },
+        "counts": [
+          {
+            "factorizations": 2,
+            "linear_solves": 32,
+            "defect_rhs_batches": 2
+          },
+          {
+            "factorizations": 2,
+            "linear_solves": 64,
+            "defect_rhs_batches": 2
+          }
+        ],
+        "seconds": 0.09242083295248449
+      },
+      "comparison": {
+        "0.0001": {
+          "actual": {
+            "concentration": 491.89271720976996,
+            "flux": 498.77502702422333,
+            "net_flux": 53577.55449145104
+          },
+          "actual_numerical_pass": false,
+          "actual_all_checks_pass": false,
+          "structural_pass": true,
+          "would_accept": false,
+          "policy_would_accept": false,
+          "false_accept": false,
+          "policy_false_accept": false,
+          "false_reject": false,
+          "effectivity": 4.071118944001846
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 49189.271720977005,
+            "flux": 49877.50270242234,
+            "net_flux": 53577.55449145104
+          },
+          "actual_numerical_pass": false,
+          "actual_all_checks_pass": false,
+          "structural_pass": true,
+          "would_accept": false,
+          "policy_would_accept": false,
+          "false_accept": false,
+          "policy_false_accept": false,
+          "false_reject": false,
+          "effectivity": 4.169526157967312
+        }
+      }
+    },
+    {
+      "key": "growth-11",
+      "model": "kecoli",
+      "start": 0.1,
+      "h": 0.9,
+      "tolerance": 1e-10,
+      "source_dataset": "growth",
+      "source_key": "kecoli-0.9-1e-10",
+      "shadow": {
+        "status": "success",
+        "targets": {
+          "0.0001": {
+            "central": {
+              "concentration": 501.09519957476937,
+              "flux": 492.82472848524696,
+              "net_flux": 53443.04761410626
+            },
+            "refinement": {
+              "concentration": 57.396116765468875,
+              "flux": 33.74453322131026,
+              "net_flux": 1087.133041418254
+            },
+            "score": {
+              "concentration": 2233.965265360953,
+              "flux": 2106.277046826229,
+              "net_flux": 218120.72262209805
+            },
+            "would_accept": false
+          },
+          "1e-06": {
+            "central": {
+              "concentration": 50109.51995747695,
+              "flux": 49282.4728485247,
+              "net_flux": 53443.04761410626
+            },
+            "refinement": {
+              "concentration": 5739.611676546889,
+              "flux": 3374.453322131026,
+              "net_flux": 1087.133041418254
+            },
+            "score": {
+              "concentration": 223396.52653609536,
+              "flux": 210627.70468262292,
+              "net_flux": 218120.72262209805
+            },
+            "would_accept": false
+          }
+        },
+        "counts": [
+          {
+            "factorizations": 2,
+            "linear_solves": 32,
+            "defect_rhs_batches": 2
+          },
+          {
+            "factorizations": 2,
+            "linear_solves": 64,
+            "defect_rhs_batches": 2
+          }
+        ],
+        "seconds": 0.08616191614419222
+      },
+      "comparison": {
+        "0.0001": {
+          "actual": {
+            "concentration": 491.89265550761615,
+            "flux": 498.77499954620714,
+            "net_flux": 53577.58054768475
+          },
+          "actual_numerical_pass": false,
+          "actual_all_checks_pass": false,
+          "structural_pass": true,
+          "would_accept": false,
+          "policy_would_accept": false,
+          "false_accept": false,
+          "policy_false_accept": false,
+          "false_reject": false,
+          "effectivity": 4.0711193075985905
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 49189.26555076162,
+            "flux": 49877.49995462072,
+            "net_flux": 53577.58054768475
+          },
+          "actual_numerical_pass": false,
+          "actual_all_checks_pass": false,
+          "structural_pass": true,
+          "would_accept": false,
+          "policy_would_accept": false,
+          "false_accept": false,
+          "policy_false_accept": false,
+          "false_reject": false,
+          "effectivity": 4.169589672629384
+        }
+      }
+    }
+  ],
+  "source_sha256": {
+    "research/m3_shadow_study.py": "b5729d42661a6c9df5ea5ee7f9e8182d74104ec559b9e4f7bdb8bff09227bea0",
+    "research/defect_shadow.py": "9197ca77f0143937c3169088ab7b8185f04598b75f1325f68d38016344de2265",
+    "research/test_defect_shadow.py": "2c16b666c8ed3562539c657418f6928fab0cf025929b27110acf0c8b09bb3054",
+    "research/mri_kernel.py": "e0dae63ea82d025f63f6ed9b78b5d581b92f036df3cddb67d52e9450a40872c3",
+    "research/mri_native.py": "cc561b393b305dcd72e3767b14ce2bca7db2b106aade91dd13e5e174bfaf21e3",
+    "research/m3_priority.py": "6cc6821a1ac9a811f16d25c20c067b9d0516d1cb3bf60b9d144bdc93adc43856",
+    "metabolism/adaptive.py": "427c67bfba193a79fb6d3d96aecc5ed01efa1a5d3fc7cbc82e525f3cf851db69",
+    "metabolism/m3_continuation.py": "90b539d8f7ce2dae6d574b6285bcd66fcb4b95b3950f96ff81fed6301bd65401",
+    "research/defect_fast.py": "faaaafcb2cf069123bbacae3307c751dc6dce8dd0eb4e33f896981f39700e479",
+    "research/m3_shadow_fast_study.py": "36c0ee44b519c3fa086cced0cc970faaa0095307f724f694f7b00edd5d45357f"
+  }
+}

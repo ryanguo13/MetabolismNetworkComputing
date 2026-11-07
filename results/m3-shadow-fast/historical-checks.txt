@@ -1,0 +1,121 @@
+M3 macOS continuation (read-only)
+{
+  "checks": {
+    "complete_16_development_probes": true,
+    "complete_25_baseline_calibrations": true,
+    "teusink_probes_original_model_grid_scale_reference": true,
+    "teusink_probes_finite_failures_recorded": true,
+    "teusink_probes_saved_metrics_recompute": true,
+    "teusink_baselines_original_model_grid_scale_reference": true,
+    "teusink_baselines_finite_failures_recorded": true,
+    "teusink_baselines_saved_metrics_recompute": true,
+    "teusink_0.001_repeated_qualified_strong_baseline": true,
+    "teusink_1e-05_repeated_qualified_strong_baseline": true,
+    "kecoli_probes_original_model_grid_scale_reference": true,
+    "kecoli_probes_finite_failures_recorded": true,
+    "kecoli_probes_saved_metrics_recompute": true,
+    "kecoli_baselines_original_model_grid_scale_reference": true,
+    "kecoli_baselines_finite_failures_recorded": true,
+    "kecoli_baselines_saved_metrics_recompute": true,
+    "kecoli_0.001_repeated_qualified_strong_baseline": true,
+    "kecoli_1e-05_repeated_qualified_strong_baseline": true,
+    "accepted_splits_all_audited": true,
+    "rejections_rollback_and_no_clipping": true,
+    "mac_tests_pass_on_current_sources": true,
+    "historical_M3_evidence_unchanged": true,
+    "nine_inner_sensitivities_with_identical_frozen_maps": true,
+    "inner_sensitivity_metrics_recompute": true,
+    "local_reference_tightening_budget": true,
+    "candidate_selection_accounts_for_all_model_targets": true,
+    "candidate_repeats_preserve_audits_and_rollback": true,
+    "saved_acceptance_recomputes": true,
+    "evidence_sha256": true
+  },
+  "evidence_integrity": "pass",
+  "M4_admission": "not_admitted",
+  "efficiency": [
+    {
+      "model": "teusink",
+      "target": 0.001,
+      "qualified": false,
+      "median_speedup": null,
+      "passes": false
+    },
+    {
+      "model": "teusink",
+      "target": 1e-05,
+      "qualified": false,
+      "median_speedup": null,
+      "passes": false
+    },
+    {
+      "model": "kecoli",
+      "target": 0.001,
+      "qualified": false,
+      "median_speedup": null,
+      "passes": false
+    },
+    {
+      "model": "kecoli",
+      "target": 1e-05,
+      "qualified": false,
+      "median_speedup": null,
+      "passes": false
+    }
+  ],
+  "reason": "Independent audits remain mandatory; no repeated qualifying split advantage demonstrated.",
+  "limits": [
+    "Probes are single development runs, not formal speedup claims.",
+    "Piecewise-linear split outputs are independently audited only on the registered grid and quarter points.",
+    "No PE, M5, M6 or held-out validation performed."
+  ]
+}
+
+Historical M3 (read-only)
+{
+  "M1_M2_evidence_unchanged": true,
+  "144_exact_estimator_calibrations": true,
+  "naive_false_accepts_exist_and_all_are_audited": true,
+  "RMS_hidden_component_guard": true,
+  "stiff_initial_layers_nonlinear_pools_event_errors_pass": true,
+  "hysteresis_reduces_chatter_in_registered_trace": true,
+  "rank_one_screen_matches_original_on_four_states": true,
+  "screening_optimization_measured_with_repeats": true,
+  "tests_pass_in_Windows_and_native_WSL": true,
+  "group_threshold_development_sensitivity": true,
+  "tenfold_inner_tightening_with_frozen_maps": true,
+  "larger_macro_probe_and_failures_are_recorded": true,
+  "toy_all_repeats_recorded": true,
+  "toy_global_grid_concentration_error_passes": true,
+  "toy_saved_trajectory_metrics_and_domain_recompute": true,
+  "teusink_all_repeats_recorded": true,
+  "teusink_global_grid_concentration_error_passes": true,
+  "teusink_saved_trajectory_metrics_and_domain_recompute": true,
+  "teusink_original_window_grid_scale_and_reference": true,
+  "teusink_flux_metrics_recompute": true,
+  "teusink_registered_flux_invariants_and_ledger_pass": true,
+  "kecoli_all_repeats_recorded": true,
+  "kecoli_global_grid_concentration_error_passes": true,
+  "kecoli_saved_trajectory_metrics_and_domain_recompute": true,
+  "kecoli_original_window_grid_scale_and_reference": true,
+  "kecoli_flux_metrics_recompute": true,
+  "kecoli_registered_flux_invariants_and_ledger_pass": true,
+  "teusink-full_all_repeats_recorded": true,
+  "teusink-full_global_grid_concentration_error_passes": true,
+  "teusink-full_saved_trajectory_metrics_and_domain_recompute": true,
+  "teusink-full_original_window_grid_scale_and_reference": true,
+  "teusink-full_flux_metrics_recompute": true,
+  "teusink-full_registered_flux_invariants_and_ledger_pass": true,
+  "kecoli-full_all_repeats_recorded": true,
+  "kecoli-full_global_grid_concentration_error_passes": true,
+  "kecoli-full_saved_trajectory_metrics_and_domain_recompute": true,
+  "kecoli-full_original_window_grid_scale_and_reference": true,
+  "kecoli-full_flux_metrics_recompute": true,
+  "kecoli-full_registered_flux_invariants_and_ledger_pass": true,
+  "every_accepted_split_has_midpoint_endpoint_observable_audit": true,
+  "every_rejection_has_atomic_rollback_evidence": true,
+  "no_projection_clipping_and_committed_pool_errors_pass": true,
+  "event_boundary_landed_and_history_reset": true,
+  "evidence_sha256": true,
+  "saved_results_match_recomputed": true
+}

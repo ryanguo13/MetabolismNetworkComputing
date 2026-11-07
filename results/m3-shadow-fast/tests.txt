@@ -1,0 +1,8 @@
+test_conservative_error_dynamics (research.test_defect_shadow.DefectChecks.test_conservative_error_dynamics) ... ok
+test_hidden_output_hump_and_refinement (research.test_defect_shadow.DefectChecks.test_hidden_output_hump_and_refinement) ... ok
+test_sign_and_stiff_damping_against_exact_scalar_error (research.test_defect_shadow.DefectChecks.test_sign_and_stiff_damping_against_exact_scalar_error) ... ok
+
+----------------------------------------------------------------------
+Ran 3 tests in 0.010s
+
+OK

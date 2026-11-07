@@ -1,0 +1,117 @@
+{
+  "scope": "Post-shadow profiling probe at known development state; same matrix, different algebraic ordering, no step acceptance",
+  "records": [
+    {
+      "ordering": "COLAMD",
+      "repeat": -1,
+      "seconds": 0.021872542100027204,
+      "fill": 345876,
+      "residual": 6.581402089977928e-13
+    },
+    {
+      "ordering": "MMD_ATA",
+      "repeat": -1,
+      "seconds": 0.0732750000897795,
+      "fill": 838623,
+      "residual": 1.1903811270030928e-12
+    },
+    {
+      "ordering": "MMD_AT_PLUS_A",
+      "repeat": -1,
+      "seconds": 0.003383500035852194,
+      "fill": 34018,
+      "residual": 8.817391261572993e-13
+    },
+    {
+      "ordering": "NATURAL",
+      "repeat": -1,
+      "seconds": 0.9998543330002576,
+      "fill": 5721269,
+      "residual": 3.032574191763615e-12
+    },
+    {
+      "ordering": "NATURAL",
+      "repeat": 0,
+      "seconds": 1.0160669579636306,
+      "fill": 5721269,
+      "residual": 3.032574191763615e-12
+    },
+    {
+      "ordering": "COLAMD",
+      "repeat": 0,
+      "seconds": 0.019343707943335176,
+      "fill": 345876,
+      "residual": 6.581402089977928e-13
+    },
+    {
+      "ordering": "MMD_ATA",
+      "repeat": 0,
+      "seconds": 0.07061416702345014,
+      "fill": 838623,
+      "residual": 1.1903811270030928e-12
+    },
+    {
+      "ordering": "MMD_AT_PLUS_A",
+      "repeat": 0,
+      "seconds": 0.0032853330485522747,
+      "fill": 34018,
+      "residual": 8.817391261572993e-13
+    },
+    {
+      "ordering": "MMD_AT_PLUS_A",
+      "repeat": 1,
+      "seconds": 0.0033270830754190683,
+      "fill": 34018,
+      "residual": 8.817391261572993e-13
+    },
+    {
+      "ordering": "NATURAL",
+      "repeat": 1,
+      "seconds": 1.0247085420414805,
+      "fill": 5721269,
+      "residual": 3.032574191763615e-12
+    },
+    {
+      "ordering": "COLAMD",
+      "repeat": 1,
+      "seconds": 0.019383790902793407,
+      "fill": 345876,
+      "residual": 6.581402089977928e-13
+    },
+    {
+      "ordering": "MMD_ATA",
+      "repeat": 1,
+      "seconds": 0.07599504198879004,
+      "fill": 838623,
+      "residual": 1.1903811270030928e-12
+    },
+    {
+      "ordering": "MMD_ATA",
+      "repeat": 2,
+      "seconds": 0.07022704114206135,
+      "fill": 838623,
+      "residual": 1.1903811270030928e-12
+    },
+    {
+      "ordering": "MMD_AT_PLUS_A",
+      "repeat": 2,
+      "seconds": 0.003258958924561739,
+      "fill": 34018,
+      "residual": 8.817391261572993e-13
+    },
+    {
+      "ordering": "NATURAL",
+      "repeat": 2,
+      "seconds": 0.9933340419083834,
+      "fill": 5721269,
+      "residual": 3.032574191763615e-12
+    },
+    {
+      "ordering": "COLAMD",
+      "repeat": 2,
+      "seconds": 0.01926054200157523,
+      "fill": 345876,
+      "residual": 6.581402089977928e-13
+    }
+  ]
+}
