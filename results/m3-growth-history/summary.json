@@ -1,0 +1,318 @@
+{
+  "date": "2026-11-08",
+  "growth": {
+    "trajectories": 36,
+    "macrosteps": 294,
+    "uninterrupted_baselines": 18,
+    "decisions": [
+      {
+        "path": 2,
+        "target": "0.0001",
+        "qualified_candidates": 8,
+        "candidate": {
+          "name": "2-4-2.0-1e-06",
+          "seconds": 0.01035504206083715,
+          "steps": 4,
+          "actual": {
+            "concentration": 2.088980201909663e-05,
+            "flux": 4.1788815947060284e-05
+          },
+          "physical_ledger": 1.911072158639731e-11,
+          "startup_seconds": 0.0018296248745173216,
+          "audit_pair_seconds": 0.04012729204259813,
+          "work": {
+            "nfev": 35,
+            "njev": 5,
+            "nlu": 8,
+            "accepted_steps": 4
+          }
+        },
+        "baseline": {
+          "key": "1e-06-True",
+          "seconds": 0.0027054171077907085,
+          "actual": {
+            "concentration": 3.500632035989235e-05,
+            "flux": 3.500631906295394e-05
+          },
+          "work": {
+            "nfev": 11,
+            "njev": 2,
+            "nlu": 2,
+            "accepted_steps": 1
+          }
+        },
+        "optimistic_single_run_ratio": 0.26126568022573443
+      },
+      {
+        "path": 2,
+        "target": "1e-06",
+        "qualified_candidates": 8,
+        "candidate": {
+          "name": "2-4-2.0-1e-06",
+          "seconds": 0.01035504206083715,
+          "steps": 4,
+          "actual": {
+            "concentration": 0.002088980201909663,
+            "flux": 0.004178881594706029
+          },
+          "physical_ledger": 1.911072158639731e-11,
+          "startup_seconds": 0.0018296248745173216,
+          "audit_pair_seconds": 0.04012729204259813,
+          "work": {
+            "nfev": 35,
+            "njev": 5,
+            "nlu": 8,
+            "accepted_steps": 4
+          }
+        },
+        "baseline": {
+          "key": "1e-06-True",
+          "seconds": 0.0027054171077907085,
+          "actual": {
+            "concentration": 0.0035006320359892355,
+            "flux": 0.0035006319062953943
+          },
+          "work": {
+            "nfev": 11,
+            "njev": 2,
+            "nlu": 2,
+            "accepted_steps": 1
+          }
+        },
+        "optimistic_single_run_ratio": 0.26126568022573443
+      },
+      {
+        "path": 4,
+        "target": "0.0001",
+        "qualified_candidates": 4,
+        "candidate": {
+          "name": "4-3-1.0-1e-06",
+          "seconds": 0.1632491231430322,
+          "steps": 15,
+          "actual": {
+            "concentration": 0.0033376585326783054,
+            "flux": 0.0033662824686845863,
+            "net_flux": 0.1931191169228105
+          },
+          "physical_ledger": null,
+          "startup_seconds": 0.014115292113274336,
+          "audit_pair_seconds": 15.10423158411868,
+          "work": {
+            "nfev": 120,
+            "njev": 15,
+            "nlu": 30,
+            "accepted_steps": 15
+          }
+        },
+        "baseline": {
+          "key": "1e-06-False",
+          "seconds": 0.07918712496757507,
+          "actual": {
+            "concentration": 0.024442325413712863,
+            "flux": 0.013110874435466201,
+            "net_flux": 0.18312528093029853
+          },
+          "work": {
+            "nfev": 43,
+            "njev": 2,
+            "nlu": 6,
+            "accepted_steps": 5
+          }
+        },
+        "optimistic_single_run_ratio": 0.4850692208508499
+      },
+      {
+        "path": 4,
+        "target": "1e-06",
+        "qualified_candidates": 4,
+        "candidate": {
+          "name": "4-3-1.0-1e-06",
+          "seconds": 0.1632491231430322,
+          "steps": 15,
+          "actual": {
+            "concentration": 0.3337658532678306,
+            "flux": 0.33662824686845866,
+            "net_flux": 0.1931191169228105
+          },
+          "physical_ledger": null,
+          "startup_seconds": 0.014115292113274336,
+          "audit_pair_seconds": 15.10423158411868,
+          "work": {
+            "nfev": 120,
+            "njev": 15,
+            "nlu": 30,
+            "accepted_steps": 15
+          }
+        },
+        "baseline": {
+          "key": "1e-08-True",
+          "seconds": 0.101509208092466,
+          "actual": {
+            "concentration": 0.025987433534465077,
+            "flux": 0.013771934642829496,
+            "net_flux": 0.0016517573920718474
+          },
+          "work": {
+            "nfev": 125,
+            "njev": 3,
+            "nlu": 10,
+            "accepted_steps": 12
+          }
+        },
+        "optimistic_single_run_ratio": 0.6218055333965119
+      },
+      {
+        "path": 5,
+        "target": "0.0001",
+        "qualified_candidates": 8,
+        "candidate": {
+          "name": "5-3-1.5-1e-06",
+          "seconds": 0.07427391619421542,
+          "steps": 6,
+          "actual": {
+            "concentration": 0.013211024330953672,
+            "flux": 0.013353975605640242,
+            "net_flux": 0.3783963618743038
+          },
+          "physical_ledger": null,
+          "startup_seconds": 0.01334500010125339,
+          "audit_pair_seconds": 5.035714333876967,
+          "work": {
+            "nfev": 48,
+            "njev": 6,
+            "nlu": 12,
+            "accepted_steps": 6
+          }
+        },
+        "baseline": {
+          "key": "1e-08-False",
+          "seconds": 0.06927133304998279,
+          "actual": {
+            "concentration": 0.0002855121792388802,
+            "flux": 0.00015748079220306057,
+            "net_flux": 0.0014519565195843954
+          },
+          "work": {
+            "nfev": 43,
+            "njev": 2,
+            "nlu": 6,
+            "accepted_steps": 5
+          }
+        },
+        "optimistic_single_run_ratio": 0.9326468375364562
+      },
+      {
+        "path": 5,
+        "target": "1e-06",
+        "qualified_candidates": 6,
+        "candidate": {
+          "name": "5-4-2.0-1e-08",
+          "seconds": 0.08567812386900187,
+          "steps": 4,
+          "actual": {
+            "concentration": 0.39906679479652946,
+            "flux": 0.3990667947868241,
+            "net_flux": 0.3139864624510132
+          },
+          "physical_ledger": null,
+          "startup_seconds": 0.017311499919742346,
+          "audit_pair_seconds": 2.6195405828766525,
+          "work": {
+            "nfev": 60,
+            "njev": 6,
+            "nlu": 12,
+            "accepted_steps": 5
+          }
+        },
+        "baseline": {
+          "key": "1e-08-False",
+          "seconds": 0.06927133304998279,
+          "actual": {
+            "concentration": 0.028551217923888025,
+            "flux": 0.01574807922030606,
+            "net_flux": 0.0014519565195843954
+          },
+          "work": {
+            "nfev": 43,
+            "njev": 2,
+            "nlu": 6,
+            "accepted_steps": 5
+          }
+        },
+        "optimistic_single_run_ratio": 0.8085066516616967
+      }
+    ],
+    "integration_failures": [],
+    "strict_passes": 18,
+    "loose_passes": 20
+  },
+  "stability": {
+    "configurations": 100,
+    "minimum_dimension": [
+      {
+        "state": "early",
+        "h": 0.0001,
+        "minimum_active_among_tested_linear_passes": 8,
+        "largest_passing_threshold": 3.0
+      },
+      {
+        "state": "early",
+        "h": 0.0003,
+        "minimum_active_among_tested_linear_passes": 12,
+        "largest_passing_threshold": 1.0
+      },
+      {
+        "state": "early",
+        "h": 0.001,
+        "minimum_active_among_tested_linear_passes": 14,
+        "largest_passing_threshold": 0.3
+      },
+      {
+        "state": "early",
+        "h": 0.003,
+        "minimum_active_among_tested_linear_passes": 14,
+        "largest_passing_threshold": 0.1
+      },
+      {
+        "state": "early",
+        "h": 0.01,
+        "minimum_active_among_tested_linear_passes": 14,
+        "largest_passing_threshold": 0.03
+      },
+      {
+        "state": "late",
+        "h": 0.0001,
+        "minimum_active_among_tested_linear_passes": 9,
+        "largest_passing_threshold": 3.0
+      },
+      {
+        "state": "late",
+        "h": 0.0003,
+        "minimum_active_among_tested_linear_passes": 14,
+        "largest_passing_threshold": 1.0
+      },
+      {
+        "state": "late",
+        "h": 0.001,
+        "minimum_active_among_tested_linear_passes": 14,
+        "largest_passing_threshold": 0.3
+      },
+      {
+        "state": "late",
+        "h": 0.003,
+        "minimum_active_among_tested_linear_passes": 14,
+        "largest_passing_threshold": 0.3
+      },
+      {
+        "state": "late",
+        "h": 0.01,
+        "minimum_active_among_tested_linear_passes": 14,
+        "largest_passing_threshold": 0.03
+      }
+    ],
+    "scope": "Frozen local constant-step linear diagnostic with exact fast flow; not nonlinear or variable-step certification."
+  },
+  "M4_admission": false,
+  "historical_manifests_unchanged": true,
+  "scope": "Single-run development, short windows, optimistic cost without audits or grouping. Original M4 gates remain unmet."
+}

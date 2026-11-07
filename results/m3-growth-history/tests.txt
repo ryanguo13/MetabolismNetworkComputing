@@ -1,0 +1,9 @@
+test_growth_covers_window_without_overshooting_ratio (research.test_growth_history.GrowthChecks.test_growth_covers_window_without_overshooting_ratio) ... ok
+test_history_is_computed_dense_output_and_current_endpoint (research.test_growth_history.GrowthChecks.test_history_is_computed_dense_output_and_current_endpoint) ... ok
+test_adams_and_all_fast_limits (research.test_history_stability.StabilityChecks.test_adams_and_all_fast_limits) ... ok
+test_companion_matches_actual_forced_solver (research.test_history_stability.StabilityChecks.test_companion_matches_actual_forced_solver) ... ok
+
+----------------------------------------------------------------------
+Ran 4 tests in 0.175s
+
+OK

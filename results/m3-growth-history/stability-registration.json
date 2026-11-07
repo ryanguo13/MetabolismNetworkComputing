@@ -1,0 +1,38 @@
+{
+  "date": "2026-11-08",
+  "states": {
+    "early": 2,
+    "late": 3
+  },
+  "thresholds": [
+    0.01,
+    0.03,
+    0.1,
+    0.3,
+    1.0,
+    3.0,
+    10.0,
+    30.0,
+    100.0,
+    300.0
+  ],
+  "steps": [
+    0.0001,
+    0.0003,
+    0.001,
+    0.003,
+    0.01
+  ],
+  "order": 4,
+  "scope": "Post-growth exploratory small-model frozen-linear constant-step test. Exact fast solve; spectral radius alone does not prove nonlinear/variable-step stability or accuracy.",
+  "group_rule": "Existing1e-3*kappa >= threshold; eigenanalysis of complete additive Jacobians at two known states.",
+  "source_sha256": {
+    "research/m3_history_stability.py": "a051fbcf054baa9b64b8c0131f054abed73900417e70a38a8b8378a67d8c061c",
+    "research/history_stability.py": "549bddb752a152983afb729fe14e6c28fc7722cb902250afe62342f7ae706d2a",
+    "research/test_history_stability.py": "3cb2082b47a99679e2973efcf9c312ae5b558b490382640295c2cd61ba7e472a"
+  },
+  "input_sha256": {
+    "results/m3-priority/p0.npz": "8be94525b6c3caa007123f284101ab165b725d38ab1567a121f4923993ed4243",
+    "results/m3-growth-history/runs.json": "5d13a276068fea943e369b39d5991fce1891ec41834c3f8c4613466b7ed76ece"
+  }
+}

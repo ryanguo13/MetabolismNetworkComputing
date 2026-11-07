@@ -1,0 +1,1844 @@
+{
+  "runs": [
+    {
+      "state": "early",
+      "threshold": 0.01,
+      "h": 0.0001,
+      "groups": [
+        0,
+        1,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16
+      ],
+      "active": 14,
+      "fast_reactions": 15,
+      "spectral_radius": 1.000000000000002,
+      "passes_frozen_linear_screen": true
+    },
+    {
+      "state": "early",
+      "threshold": 0.01,
+      "h": 0.0003,
+      "groups": [
+        0,
+        1,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16
+      ],
+      "active": 14,
+      "fast_reactions": 15,
+      "spectral_radius": 1.0000000000000033,
+      "passes_frozen_linear_screen": true
+    },
+    {
+      "state": "early",
+      "threshold": 0.01,
+      "h": 0.001,
+      "groups": [
+        0,
+        1,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16
+      ],
+      "active": 14,
+      "fast_reactions": 15,
+      "spectral_radius": 0.9999999999999901,
+      "passes_frozen_linear_screen": true
+    },
+    {
+      "state": "early",
+      "threshold": 0.01,
+      "h": 0.003,
+      "groups": [
+        0,
+        1,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16
+      ],
+      "active": 14,
+      "fast_reactions": 15,
+      "spectral_radius": 1.000000000000066,
+      "passes_frozen_linear_screen": true
+    },
+    {
+      "state": "early",
+      "threshold": 0.01,
+      "h": 0.01,
+      "groups": [
+        0,
+        1,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16
+      ],
+      "active": 14,
+      "fast_reactions": 15,
+      "spectral_radius": 1.000000000000027,
+      "passes_frozen_linear_screen": true
+    },
+    {
+      "state": "early",
+      "threshold": 0.03,
+      "h": 0.0001,
+      "groups": [
+        0,
+        1,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "active": 14,
+      "fast_reactions": 14,
+      "spectral_radius": 1.0000000000000004,
+      "passes_frozen_linear_screen": true
+    },
+    {
+      "state": "early",
+      "threshold": 0.03,
+      "h": 0.0003,
+      "groups": [
+        0,
+        1,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "active": 14,
+      "fast_reactions": 14,
+      "spectral_radius": 0.9999999999999961,
+      "passes_frozen_linear_screen": true
+    },
+    {
+      "state": "early",
+      "threshold": 0.03,
+      "h": 0.001,
+      "groups": [
+        0,
+        1,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "active": 14,
+      "fast_reactions": 14,
+      "spectral_radius": 0.9999999999999901,
+      "passes_frozen_linear_screen": true
+    },
+    {
+      "state": "early",
+      "threshold": 0.03,
+      "h": 0.003,
+      "groups": [
+        0,
+        1,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "active": 14,
+      "fast_reactions": 14,
+      "spectral_radius": 0.9999999999999775,
+      "passes_frozen_linear_screen": true
+    },
+    {
+      "state": "early",
+      "threshold": 0.03,
+      "h": 0.01,
+      "groups": [
+        0,
+        1,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "active": 14,
+      "fast_reactions": 14,
+      "spectral_radius": 1.000000000000021,
+      "passes_frozen_linear_screen": true
+    },
+    {
+      "state": "early",
+      "threshold": 0.1,
+      "h": 0.0001,
+      "groups": [
+        0,
+        1,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        14
+      ],
+      "active": 14,
+      "fast_reactions": 11,
+      "spectral_radius": 0.9999999999999989,
+      "passes_frozen_linear_screen": true
+    },
+    {
+      "state": "early",
+      "threshold": 0.1,
+      "h": 0.0003,
+      "groups": [
+        0,
+        1,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        14
+      ],
+      "active": 14,
+      "fast_reactions": 11,
+      "spectral_radius": 0.9999999999999998,
+      "passes_frozen_linear_screen": true
+    },
+    {
+      "state": "early",
+      "threshold": 0.1,
+      "h": 0.001,
+      "groups": [
+        0,
+        1,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        14
+      ],
+      "active": 14,
+      "fast_reactions": 11,
+      "spectral_radius": 1.0000000000000047,
+      "passes_frozen_linear_screen": true
+    },
+    {
+      "state": "early",
+      "threshold": 0.1,
+      "h": 0.003,
+      "groups": [
+        0,
+        1,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        14
+      ],
+      "active": 14,
+      "fast_reactions": 11,
+      "spectral_radius": 1.0000000000000075,
+      "passes_frozen_linear_screen": true
+    },
+    {
+      "state": "early",
+      "threshold": 0.1,
+      "h": 0.01,
+      "groups": [
+        0,
+        1,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        14
+      ],
+      "active": 14,
+      "fast_reactions": 11,
+      "spectral_radius": 1.2651283514535119,
+      "passes_frozen_linear_screen": false
+    },
+    {
+      "state": "early",
+      "threshold": 0.3,
+      "h": 0.0001,
+      "groups": [
+        0,
+        1,
+        4,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        14
+      ],
+      "active": 14,
+      "fast_reactions": 10,
+      "spectral_radius": 1.0000000000000009,
+      "passes_frozen_linear_screen": true
+    },
+    {
+      "state": "early",
+      "threshold": 0.3,
+      "h": 0.0003,
+      "groups": [
+        0,
+        1,
+        4,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        14
+      ],
+      "active": 14,
+      "fast_reactions": 10,
+      "spectral_radius": 0.9999999999999977,
+      "passes_frozen_linear_screen": true
+    },
+    {
+      "state": "early",
+      "threshold": 0.3,
+      "h": 0.001,
+      "groups": [
+        0,
+        1,
+        4,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        14
+      ],
+      "active": 14,
+      "fast_reactions": 10,
+      "spectral_radius": 1.000000000000002,
+      "passes_frozen_linear_screen": true
+    },
+    {
+      "state": "early",
+      "threshold": 0.3,
+      "h": 0.003,
+      "groups": [
+        0,
+        1,
+        4,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        14
+      ],
+      "active": 14,
+      "fast_reactions": 10,
+      "spectral_radius": 1.7030445635551295,
+      "passes_frozen_linear_screen": false
+    },
+    {
+      "state": "early",
+      "threshold": 0.3,
+      "h": 0.01,
+      "groups": [
+        0,
+        1,
+        4,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        14
+      ],
+      "active": 14,
+      "fast_reactions": 10,
+      "spectral_radius": 4.652116877642394,
+      "passes_frozen_linear_screen": false
+    },
+    {
+      "state": "early",
+      "threshold": 1.0,
+      "h": 0.0001,
+      "groups": [
+        0,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        14
+      ],
+      "active": 12,
+      "fast_reactions": 8,
+      "spectral_radius": 1.000000000000001,
+      "passes_frozen_linear_screen": true
+    },
+    {
+      "state": "early",
+      "threshold": 1.0,
+      "h": 0.0003,
+      "groups": [
+        0,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        14
+      ],
+      "active": 12,
+      "fast_reactions": 8,
+      "spectral_radius": 1.0000000000000002,
+      "passes_frozen_linear_screen": true
+    },
+    {
+      "state": "early",
+      "threshold": 1.0,
+      "h": 0.001,
+      "groups": [
+        0,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        14
+      ],
+      "active": 12,
+      "fast_reactions": 8,
+      "spectral_radius": 1.1059003357883674,
+      "passes_frozen_linear_screen": false
+    },
+    {
+      "state": "early",
+      "threshold": 1.0,
+      "h": 0.003,
+      "groups": [
+        0,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        14
+      ],
+      "active": 12,
+      "fast_reactions": 8,
+      "spectral_radius": 2.626483975529635,
+      "passes_frozen_linear_screen": false
+    },
+    {
+      "state": "early",
+      "threshold": 1.0,
+      "h": 0.01,
+      "groups": [
+        0,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        14
+      ],
+      "active": 12,
+      "fast_reactions": 8,
+      "spectral_radius": 8.12742140849458,
+      "passes_frozen_linear_screen": false
+    },
+    {
+      "state": "early",
+      "threshold": 3.0,
+      "h": 0.0001,
+      "groups": [
+        6,
+        7,
+        8,
+        14
+      ],
+      "active": 8,
+      "fast_reactions": 4,
+      "spectral_radius": 1.0000000000000058,
+      "passes_frozen_linear_screen": true
+    },
+    {
+      "state": "early",
+      "threshold": 3.0,
+      "h": 0.0003,
+      "groups": [
+        6,
+        7,
+        8,
+        14
+      ],
+      "active": 8,
+      "fast_reactions": 4,
+      "spectral_radius": 1.7655202564700716,
+      "passes_frozen_linear_screen": false
+    },
+    {
+      "state": "early",
+      "threshold": 3.0,
+      "h": 0.001,
+      "groups": [
+        6,
+        7,
+        8,
+        14
+      ],
+      "active": 8,
+      "fast_reactions": 4,
+      "spectral_radius": 4.634233015316575,
+      "passes_frozen_linear_screen": false
+    },
+    {
+      "state": "early",
+      "threshold": 3.0,
+      "h": 0.003,
+      "groups": [
+        6,
+        7,
+        8,
+        14
+      ],
+      "active": 8,
+      "fast_reactions": 4,
+      "spectral_radius": 12.929079353350005,
+      "passes_frozen_linear_screen": false
+    },
+    {
+      "state": "early",
+      "threshold": 3.0,
+      "h": 0.01,
+      "groups": [
+        6,
+        7,
+        8,
+        14
+      ],
+      "active": 8,
+      "fast_reactions": 4,
+      "spectral_radius": 42.12444204397383,
+      "passes_frozen_linear_screen": false
+    },
+    {
+      "state": "early",
+      "threshold": 10.0,
+      "h": 0.0001,
+      "groups": [
+        6,
+        7,
+        14
+      ],
+      "active": 7,
+      "fast_reactions": 3,
+      "spectral_radius": 1.7476744688832229,
+      "passes_frozen_linear_screen": false
+    },
+    {
+      "state": "early",
+      "threshold": 10.0,
+      "h": 0.0003,
+      "groups": [
+        6,
+        7,
+        14
+      ],
+      "active": 7,
+      "fast_reactions": 3,
+      "spectral_radius": 4.597984437975079,
+      "passes_frozen_linear_screen": false
+    },
+    {
+      "state": "early",
+      "threshold": 10.0,
+      "h": 0.001,
+      "groups": [
+        6,
+        7,
+        14
+      ],
+      "active": 7,
+      "fast_reactions": 3,
+      "spectral_radius": 14.820304507715004,
+      "passes_frozen_linear_screen": false
+    },
+    {
+      "state": "early",
+      "threshold": 10.0,
+      "h": 0.003,
+      "groups": [
+        6,
+        7,
+        14
+      ],
+      "active": 7,
+      "fast_reactions": 3,
+      "spectral_radius": 44.095453458941485,
+      "passes_frozen_linear_screen": false
+    },
+    {
+      "state": "early",
+      "threshold": 10.0,
+      "h": 0.01,
+      "groups": [
+        6,
+        7,
+        14
+      ],
+      "active": 7,
+      "fast_reactions": 3,
+      "spectral_radius": 146.26208009773313,
+      "passes_frozen_linear_screen": false
+    },
+    {
+      "state": "early",
+      "threshold": 30.0,
+      "h": 0.0001,
+      "groups": [
+        6,
+        7
+      ],
+      "active": 6,
+      "fast_reactions": 2,
+      "spectral_radius": 2.59015515702146,
+      "passes_frozen_linear_screen": false
+    },
+    {
+      "state": "early",
+      "threshold": 30.0,
+      "h": 0.0003,
+      "groups": [
+        6,
+        7
+      ],
+      "active": 6,
+      "fast_reactions": 2,
+      "spectral_radius": 7.200024650378492,
+      "passes_frozen_linear_screen": false
+    },
+    {
+      "state": "early",
+      "threshold": 30.0,
+      "h": 0.001,
+      "groups": [
+        6,
+        7
+      ],
+      "active": 6,
+      "fast_reactions": 2,
+      "spectral_radius": 23.458974655249605,
+      "passes_frozen_linear_screen": false
+    },
+    {
+      "state": "early",
+      "threshold": 30.0,
+      "h": 0.003,
+      "groups": [
+        6,
+        7
+      ],
+      "active": 6,
+      "fast_reactions": 2,
+      "spectral_radius": 69.29192049820752,
+      "passes_frozen_linear_screen": false
+    },
+    {
+      "state": "early",
+      "threshold": 30.0,
+      "h": 0.01,
+      "groups": [
+        6,
+        7
+      ],
+      "active": 6,
+      "fast_reactions": 2,
+      "spectral_radius": 227.17151570358718,
+      "passes_frozen_linear_screen": false
+    },
+    {
+      "state": "early",
+      "threshold": 100.0,
+      "h": 0.0001,
+      "groups": [
+        6,
+        7
+      ],
+      "active": 6,
+      "fast_reactions": 2,
+      "spectral_radius": 2.59015515702146,
+      "passes_frozen_linear_screen": false
+    },
+    {
+      "state": "early",
+      "threshold": 100.0,
+      "h": 0.0003,
+      "groups": [
+        6,
+        7
+      ],
+      "active": 6,
+      "fast_reactions": 2,
+      "spectral_radius": 7.200024650378492,
+      "passes_frozen_linear_screen": false
+    },
+    {
+      "state": "early",
+      "threshold": 100.0,
+      "h": 0.001,
+      "groups": [
+        6,
+        7
+      ],
+      "active": 6,
+      "fast_reactions": 2,
+      "spectral_radius": 23.458974655249605,
+      "passes_frozen_linear_screen": false
+    },
+    {
+      "state": "early",
+      "threshold": 100.0,
+      "h": 0.003,
+      "groups": [
+        6,
+        7
+      ],
+      "active": 6,
+      "fast_reactions": 2,
+      "spectral_radius": 69.29192049820752,
+      "passes_frozen_linear_screen": false
+    },
+    {
+      "state": "early",
+      "threshold": 100.0,
+      "h": 0.01,
+      "groups": [
+        6,
+        7
+      ],
+      "active": 6,
+      "fast_reactions": 2,
+      "spectral_radius": 227.17151570358718,
+      "passes_frozen_linear_screen": false
+    },
+    {
+      "state": "early",
+      "threshold": 300.0,
+      "h": 0.0001,
+      "groups": [
+        6,
+        7
+      ],
+      "active": 6,
+      "fast_reactions": 2,
+      "spectral_radius": 2.59015515702146,
+      "passes_frozen_linear_screen": false
+    },
+    {
+      "state": "early",
+      "threshold": 300.0,
+      "h": 0.0003,
+      "groups": [
+        6,
+        7
+      ],
+      "active": 6,
+      "fast_reactions": 2,
+      "spectral_radius": 7.200024650378492,
+      "passes_frozen_linear_screen": false
+    },
+    {
+      "state": "early",
+      "threshold": 300.0,
+      "h": 0.001,
+      "groups": [
+        6,
+        7
+      ],
+      "active": 6,
+      "fast_reactions": 2,
+      "spectral_radius": 23.458974655249605,
+      "passes_frozen_linear_screen": false
+    },
+    {
+      "state": "early",
+      "threshold": 300.0,
+      "h": 0.003,
+      "groups": [
+        6,
+        7
+      ],
+      "active": 6,
+      "fast_reactions": 2,
+      "spectral_radius": 69.29192049820752,
+      "passes_frozen_linear_screen": false
+    },
+    {
+      "state": "early",
+      "threshold": 300.0,
+      "h": 0.01,
+      "groups": [
+        6,
+        7
+      ],
+      "active": 6,
+      "fast_reactions": 2,
+      "spectral_radius": 227.17151570358718,
+      "passes_frozen_linear_screen": false
+    },
+    {
+      "state": "late",
+      "threshold": 0.01,
+      "h": 0.0001,
+      "groups": [
+        0,
+        1,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16
+      ],
+      "active": 14,
+      "fast_reactions": 15,
+      "spectral_radius": 1.0000000000000002,
+      "passes_frozen_linear_screen": true
+    },
+    {
+      "state": "late",
+      "threshold": 0.01,
+      "h": 0.0003,
+      "groups": [
+        0,
+        1,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16
+      ],
+      "active": 14,
+      "fast_reactions": 15,
+      "spectral_radius": 1.0000000000000004,
+      "passes_frozen_linear_screen": true
+    },
+    {
+      "state": "late",
+      "threshold": 0.01,
+      "h": 0.001,
+      "groups": [
+        0,
+        1,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16
+      ],
+      "active": 14,
+      "fast_reactions": 15,
+      "spectral_radius": 0.9999999999999778,
+      "passes_frozen_linear_screen": true
+    },
+    {
+      "state": "late",
+      "threshold": 0.01,
+      "h": 0.003,
+      "groups": [
+        0,
+        1,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16
+      ],
+      "active": 14,
+      "fast_reactions": 15,
+      "spectral_radius": 0.9999999999999263,
+      "passes_frozen_linear_screen": true
+    },
+    {
+      "state": "late",
+      "threshold": 0.01,
+      "h": 0.01,
+      "groups": [
+        0,
+        1,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16
+      ],
+      "active": 14,
+      "fast_reactions": 15,
+      "spectral_radius": 1.0000000000000742,
+      "passes_frozen_linear_screen": true
+    },
+    {
+      "state": "late",
+      "threshold": 0.03,
+      "h": 0.0001,
+      "groups": [
+        0,
+        1,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "active": 14,
+      "fast_reactions": 14,
+      "spectral_radius": 0.9999999999999993,
+      "passes_frozen_linear_screen": true
+    },
+    {
+      "state": "late",
+      "threshold": 0.03,
+      "h": 0.0003,
+      "groups": [
+        0,
+        1,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "active": 14,
+      "fast_reactions": 14,
+      "spectral_radius": 0.9999999999999956,
+      "passes_frozen_linear_screen": true
+    },
+    {
+      "state": "late",
+      "threshold": 0.03,
+      "h": 0.001,
+      "groups": [
+        0,
+        1,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "active": 14,
+      "fast_reactions": 14,
+      "spectral_radius": 0.999999999999995,
+      "passes_frozen_linear_screen": true
+    },
+    {
+      "state": "late",
+      "threshold": 0.03,
+      "h": 0.003,
+      "groups": [
+        0,
+        1,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "active": 14,
+      "fast_reactions": 14,
+      "spectral_radius": 0.9999999999999808,
+      "passes_frozen_linear_screen": true
+    },
+    {
+      "state": "late",
+      "threshold": 0.03,
+      "h": 0.01,
+      "groups": [
+        0,
+        1,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "active": 14,
+      "fast_reactions": 14,
+      "spectral_radius": 0.9999999999999607,
+      "passes_frozen_linear_screen": true
+    },
+    {
+      "state": "late",
+      "threshold": 0.1,
+      "h": 0.0001,
+      "groups": [
+        0,
+        1,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        14,
+        15
+      ],
+      "active": 14,
+      "fast_reactions": 12,
+      "spectral_radius": 1.000000000000002,
+      "passes_frozen_linear_screen": true
+    },
+    {
+      "state": "late",
+      "threshold": 0.1,
+      "h": 0.0003,
+      "groups": [
+        0,
+        1,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        14,
+        15
+      ],
+      "active": 14,
+      "fast_reactions": 12,
+      "spectral_radius": 1.0000000000000047,
+      "passes_frozen_linear_screen": true
+    },
+    {
+      "state": "late",
+      "threshold": 0.1,
+      "h": 0.001,
+      "groups": [
+        0,
+        1,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        14,
+        15
+      ],
+      "active": 14,
+      "fast_reactions": 12,
+      "spectral_radius": 1.0000000000000027,
+      "passes_frozen_linear_screen": true
+    },
+    {
+      "state": "late",
+      "threshold": 0.1,
+      "h": 0.003,
+      "groups": [
+        0,
+        1,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        14,
+        15
+      ],
+      "active": 14,
+      "fast_reactions": 12,
+      "spectral_radius": 0.9999999999999848,
+      "passes_frozen_linear_screen": true
+    },
+    {
+      "state": "late",
+      "threshold": 0.1,
+      "h": 0.01,
+      "groups": [
+        0,
+        1,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        14,
+        15
+      ],
+      "active": 14,
+      "fast_reactions": 12,
+      "spectral_radius": 2.088506565869982,
+      "passes_frozen_linear_screen": false
+    },
+    {
+      "state": "late",
+      "threshold": 0.3,
+      "h": 0.0001,
+      "groups": [
+        0,
+        1,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        14,
+        15
+      ],
+      "active": 14,
+      "fast_reactions": 11,
+      "spectral_radius": 1.0000000000000002,
+      "passes_frozen_linear_screen": true
+    },
+    {
+      "state": "late",
+      "threshold": 0.3,
+      "h": 0.0003,
+      "groups": [
+        0,
+        1,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        14,
+        15
+      ],
+      "active": 14,
+      "fast_reactions": 11,
+      "spectral_radius": 1.0000000000000033,
+      "passes_frozen_linear_screen": true
+    },
+    {
+      "state": "late",
+      "threshold": 0.3,
+      "h": 0.001,
+      "groups": [
+        0,
+        1,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        14,
+        15
+      ],
+      "active": 14,
+      "fast_reactions": 11,
+      "spectral_radius": 1.0000000000000266,
+      "passes_frozen_linear_screen": true
+    },
+    {
+      "state": "late",
+      "threshold": 0.3,
+      "h": 0.003,
+      "groups": [
+        0,
+        1,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        14,
+        15
+      ],
+      "active": 14,
+      "fast_reactions": 11,
+      "spectral_radius": 0.9999999999999423,
+      "passes_frozen_linear_screen": true
+    },
+    {
+      "state": "late",
+      "threshold": 0.3,
+      "h": 0.01,
+      "groups": [
+        0,
+        1,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        14,
+        15
+      ],
+      "active": 14,
+      "fast_reactions": 11,
+      "spectral_radius": 2.094380048309955,
+      "passes_frozen_linear_screen": false
+    },
+    {
+      "state": "late",
+      "threshold": 1.0,
+      "h": 0.0001,
+      "groups": [
+        0,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        14
+      ],
+      "active": 14,
+      "fast_reactions": 9,
+      "spectral_radius": 1.0000000000000024,
+      "passes_frozen_linear_screen": true
+    },
+    {
+      "state": "late",
+      "threshold": 1.0,
+      "h": 0.0003,
+      "groups": [
+        0,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        14
+      ],
+      "active": 14,
+      "fast_reactions": 9,
+      "spectral_radius": 1.000000000000005,
+      "passes_frozen_linear_screen": true
+    },
+    {
+      "state": "late",
+      "threshold": 1.0,
+      "h": 0.001,
+      "groups": [
+        0,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        14
+      ],
+      "active": 14,
+      "fast_reactions": 9,
+      "spectral_radius": 1.550701808687171,
+      "passes_frozen_linear_screen": false
+    },
+    {
+      "state": "late",
+      "threshold": 1.0,
+      "h": 0.003,
+      "groups": [
+        0,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        14
+      ],
+      "active": 14,
+      "fast_reactions": 9,
+      "spectral_radius": 3.1312550483768824,
+      "passes_frozen_linear_screen": false
+    },
+    {
+      "state": "late",
+      "threshold": 1.0,
+      "h": 0.01,
+      "groups": [
+        0,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        14
+      ],
+      "active": 14,
+      "fast_reactions": 9,
+      "spectral_radius": 5.388604719107901,
+      "passes_frozen_linear_screen": false
+    },
+    {
+      "state": "late",
+      "threshold": 3.0,
+      "h": 0.0001,
+      "groups": [
+        6,
+        7,
+        8,
+        9,
+        14
+      ],
+      "active": 9,
+      "fast_reactions": 5,
+      "spectral_radius": 1.0000000000000009,
+      "passes_frozen_linear_screen": true
+    },
+    {
+      "state": "late",
+      "threshold": 3.0,
+      "h": 0.0003,
+      "groups": [
+        6,
+        7,
+        8,
+        9,
+        14
+      ],
+      "active": 9,
+      "fast_reactions": 5,
+      "spectral_radius": 1.2077647068849524,
+      "passes_frozen_linear_screen": false
+    },
+    {
+      "state": "late",
+      "threshold": 3.0,
+      "h": 0.001,
+      "groups": [
+        6,
+        7,
+        8,
+        9,
+        14
+      ],
+      "active": 9,
+      "fast_reactions": 5,
+      "spectral_radius": 2.926831408403424,
+      "passes_frozen_linear_screen": false
+    },
+    {
+      "state": "late",
+      "threshold": 3.0,
+      "h": 0.003,
+      "groups": [
+        6,
+        7,
+        8,
+        9,
+        14
+      ],
+      "active": 9,
+      "fast_reactions": 5,
+      "spectral_radius": 7.77721121272055,
+      "passes_frozen_linear_screen": false
+    },
+    {
+      "state": "late",
+      "threshold": 3.0,
+      "h": 0.01,
+      "groups": [
+        6,
+        7,
+        8,
+        9,
+        14
+      ],
+      "active": 9,
+      "fast_reactions": 5,
+      "spectral_radius": 25.475269034923556,
+      "passes_frozen_linear_screen": false
+    },
+    {
+      "state": "late",
+      "threshold": 10.0,
+      "h": 0.0001,
+      "groups": [
+        6,
+        7,
+        8,
+        14
+      ],
+      "active": 8,
+      "fast_reactions": 4,
+      "spectral_radius": 1.1234510134581592,
+      "passes_frozen_linear_screen": false
+    },
+    {
+      "state": "late",
+      "threshold": 10.0,
+      "h": 0.0003,
+      "groups": [
+        6,
+        7,
+        8,
+        14
+      ],
+      "active": 8,
+      "fast_reactions": 4,
+      "spectral_radius": 2.2958425834027087,
+      "passes_frozen_linear_screen": false
+    },
+    {
+      "state": "late",
+      "threshold": 10.0,
+      "h": 0.001,
+      "groups": [
+        6,
+        7,
+        8,
+        14
+      ],
+      "active": 8,
+      "fast_reactions": 4,
+      "spectral_radius": 5.537069107601866,
+      "passes_frozen_linear_screen": false
+    },
+    {
+      "state": "late",
+      "threshold": 10.0,
+      "h": 0.003,
+      "groups": [
+        6,
+        7,
+        8,
+        14
+      ],
+      "active": 8,
+      "fast_reactions": 4,
+      "spectral_radius": 14.997731683100717,
+      "passes_frozen_linear_screen": false
+    },
+    {
+      "state": "late",
+      "threshold": 10.0,
+      "h": 0.01,
+      "groups": [
+        6,
+        7,
+        8,
+        14
+      ],
+      "active": 8,
+      "fast_reactions": 4,
+      "spectral_radius": 48.390946006304716,
+      "passes_frozen_linear_screen": false
+    },
+    {
+      "state": "late",
+      "threshold": 30.0,
+      "h": 0.0001,
+      "groups": [
+        6,
+        7,
+        14
+      ],
+      "active": 7,
+      "fast_reactions": 3,
+      "spectral_radius": 2.524510345978124,
+      "passes_frozen_linear_screen": false
+    },
+    {
+      "state": "late",
+      "threshold": 30.0,
+      "h": 0.0003,
+      "groups": [
+        6,
+        7,
+        14
+      ],
+      "active": 7,
+      "fast_reactions": 3,
+      "spectral_radius": 7.009546630838175,
+      "passes_frozen_linear_screen": false
+    },
+    {
+      "state": "late",
+      "threshold": 30.0,
+      "h": 0.001,
+      "groups": [
+        6,
+        7,
+        14
+      ],
+      "active": 7,
+      "fast_reactions": 3,
+      "spectral_radius": 22.961048418944962,
+      "passes_frozen_linear_screen": false
+    },
+    {
+      "state": "late",
+      "threshold": 30.0,
+      "h": 0.003,
+      "groups": [
+        6,
+        7,
+        14
+      ],
+      "active": 7,
+      "fast_reactions": 3,
+      "spectral_radius": 68.59607407991695,
+      "passes_frozen_linear_screen": false
+    },
+    {
+      "state": "late",
+      "threshold": 30.0,
+      "h": 0.01,
+      "groups": [
+        6,
+        7,
+        14
+      ],
+      "active": 7,
+      "fast_reactions": 3,
+      "spectral_radius": 227.946462176694,
+      "passes_frozen_linear_screen": false
+    },
+    {
+      "state": "late",
+      "threshold": 100.0,
+      "h": 0.0001,
+      "groups": [
+        6,
+        7
+      ],
+      "active": 6,
+      "fast_reactions": 2,
+      "spectral_radius": 3.20499876206347,
+      "passes_frozen_linear_screen": false
+    },
+    {
+      "state": "late",
+      "threshold": 100.0,
+      "h": 0.0003,
+      "groups": [
+        6,
+        7
+      ],
+      "active": 6,
+      "fast_reactions": 2,
+      "spectral_radius": 8.946667028024713,
+      "passes_frozen_linear_screen": false
+    },
+    {
+      "state": "late",
+      "threshold": 100.0,
+      "h": 0.001,
+      "groups": [
+        6,
+        7
+      ],
+      "active": 6,
+      "fast_reactions": 2,
+      "spectral_radius": 27.669737667995577,
+      "passes_frozen_linear_screen": false
+    },
+    {
+      "state": "late",
+      "threshold": 100.0,
+      "h": 0.003,
+      "groups": [
+        6,
+        7
+      ],
+      "active": 6,
+      "fast_reactions": 2,
+      "spectral_radius": 72.38870939066584,
+      "passes_frozen_linear_screen": false
+    },
+    {
+      "state": "late",
+      "threshold": 100.0,
+      "h": 0.01,
+      "groups": [
+        6,
+        7
+      ],
+      "active": 6,
+      "fast_reactions": 2,
+      "spectral_radius": 229.9004031098211,
+      "passes_frozen_linear_screen": false
+    },
+    {
+      "state": "late",
+      "threshold": 300.0,
+      "h": 0.0001,
+      "groups": [
+        6,
+        7
+      ],
+      "active": 6,
+      "fast_reactions": 2,
+      "spectral_radius": 3.20499876206347,
+      "passes_frozen_linear_screen": false
+    },
+    {
+      "state": "late",
+      "threshold": 300.0,
+      "h": 0.0003,
+      "groups": [
+        6,
+        7
+      ],
+      "active": 6,
+      "fast_reactions": 2,
+      "spectral_radius": 8.946667028024713,
+      "passes_frozen_linear_screen": false
+    },
+    {
+      "state": "late",
+      "threshold": 300.0,
+      "h": 0.001,
+      "groups": [
+        6,
+        7
+      ],
+      "active": 6,
+      "fast_reactions": 2,
+      "spectral_radius": 27.669737667995577,
+      "passes_frozen_linear_screen": false
+    },
+    {
+      "state": "late",
+      "threshold": 300.0,
+      "h": 0.003,
+      "groups": [
+        6,
+        7
+      ],
+      "active": 6,
+      "fast_reactions": 2,
+      "spectral_radius": 72.38870939066584,
+      "passes_frozen_linear_screen": false
+    },
+    {
+      "state": "late",
+      "threshold": 300.0,
+      "h": 0.01,
+      "groups": [
+        6,
+        7
+      ],
+      "active": 6,
+      "fast_reactions": 2,
+      "spectral_radius": 229.9004031098211,
+      "passes_frozen_linear_screen": false
+    }
+  ]
+}
