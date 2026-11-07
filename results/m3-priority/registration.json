@@ -1,0 +1,56 @@
+{
+  "states": {
+    "teusink": [
+      0.0,
+      1e-06,
+      0.001,
+      1.0
+    ],
+    "kecoli": [
+      0.0,
+      1e-08,
+      0.001,
+      0.1
+    ]
+  },
+  "steps": {
+    "teusink": [
+      1e-06,
+      0.0001,
+      0.01
+    ],
+    "kecoli": [
+      1e-08,
+      1e-05,
+      0.001
+    ]
+  },
+  "tolerances": [
+    1e-08,
+    1e-10
+  ],
+  "local_targets": [
+    0.0001,
+    1e-06
+  ],
+  "net_local_target": 0.0001,
+  "reference_budget": 0.05,
+  "audit": "17 uniform points plus all original observation points in interval",
+  "groups": "frozen per starting state: 1e-3*kappa>=.01",
+  "timeout_per_attempt": 15,
+  "P1_stop": "No local throughput prospect against same-state full solver; no formal P3 repeats without measured prospect",
+  "source_sha256": {
+    "research/m3_priority.py": "f2a8313628a70ee17db7c2aa07eb13be2a50b35d2246fd40ab6b1f67e329751f",
+    "research/mri_kernel.py": "e0dae63ea82d025f63f6ed9b78b5d581b92f036df3cddb67d52e9450a40872c3",
+    "research/mri_native.py": "cc561b393b305dcd72e3767b14ce2bca7db2b106aade91dd13e5e174bfaf21e3",
+    "research/test_mri_kernel.py": "3ad9a61ffe03328a83d21db2ece7f6a6c553518e61ecc92ded0cbecc2720ed72",
+    "metabolism/__init__.py": "741ff9b36f011f5cbb72e2a148f9b67c30dbdfaac866116b971f5255826801da",
+    "metabolism/adaptive.py": "427c67bfba193a79fb6d3d96aecc5ed01efa1a5d3fc7cbc82e525f3cf851db69",
+    "metabolism/splitting.py": "12ccc9526113e7080d9b56c7763c56a79d37a7fd9c2bacb9b25b2e7f6d1164a3",
+    "metabolism/cvode.py": "6733fb499c0262bf87dc2040dd6aec44a91085f1dbe1b12f0056f8eb277e05c2",
+    "metabolism/sbml.py": "329df467e990958ee5373055020baadfed301dcbe32c0243d6a37b2aae6c5c2a",
+    "metabolism/kecoli.py": "73f46ac5ceebe3242c8dc313fa80fb1588a32c82a58527b305f69fcd0fd4d851",
+    "metabolism/m3_continuation.py": "90b539d8f7ce2dae6d574b6285bcd66fcb4b95b3950f96ff81fed6301bd65401",
+    "metabolism/m2_experiments.py": "7e80077011e0f9a7e0fc63e2c4019e62aa229cef560eb7b79669dfe024a893f2"
+  }
+}

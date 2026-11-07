@@ -1,0 +1,263 @@
+{
+  "scope": "Post-P0 follow-up, not part of the initial frozen 48 cases. Teusink t=0 at H=1e-6 failed, so decrease H to 1e-7 and 1e-8; identical 15 groups, same targets and ledger criteria.",
+  "runs": [
+    {
+      "key": "1e-07-1e-08",
+      "model": "teusink",
+      "start": 0.0,
+      "h": 1e-07,
+      "tolerance": 1e-08,
+      "reference_pass": true,
+      "status": "success",
+      "stats": {
+        "subflows": 6,
+        "nfev": 152,
+        "njev": 9,
+        "nlu": 24,
+        "linear_solver_setups": 0,
+        "accepted_steps": 11,
+        "rhs_seconds": 0.0049255769699811935,
+        "jacobian_seconds": 0.004892376018688083,
+        "native_allocation_seconds": 0.0,
+        "reinit_seconds": 0.0,
+        "ledger_seconds": 0.005999166751280427,
+        "min_rhs": 0.0,
+        "min_internal": 0.0,
+        "pool_error": 1.9749590675267622e-16,
+        "continuous_nonnegative": true,
+        "min_hermite_scaled": 0.0,
+        "modified_ledger_residual": 2.433507087973394e-17,
+        "modified_ledger_quadrature": 1.738716124588021e-21,
+        "physical_ledger_residual": 1.998438584414481e-17,
+        "physical_ledger_quadrature": 1.1127783197363332e-21,
+        "seconds": 0.022188125178217888
+      },
+      "output_pool_error": 2.0949328975120555e-16,
+      "targets": {
+        "0.0001": {
+          "actual": {
+            "concentration": 6.819246742457424e-05,
+            "flux": 0.0002840086461125473
+          },
+          "estimate": {
+            "concentration": 0.00034834128537414554,
+            "flux": 0.0014460104354990222
+          },
+          "numerical_pass": true,
+          "passes": true,
+          "estimator_false_accept": false
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 0.006819246742457425,
+            "flux": 0.02840086461125473
+          },
+          "estimate": {
+            "concentration": 0.034834128537414556,
+            "flux": 0.14460104354990225
+          },
+          "numerical_pass": true,
+          "passes": true,
+          "estimator_false_accept": false
+        }
+      }
+    },
+    {
+      "key": "1e-07-1e-10",
+      "model": "teusink",
+      "start": 0.0,
+      "h": 1e-07,
+      "tolerance": 1e-10,
+      "reference_pass": true,
+      "status": "success",
+      "stats": {
+        "subflows": 6,
+        "nfev": 390,
+        "njev": 12,
+        "nlu": 40,
+        "linear_solver_setups": 0,
+        "accepted_steps": 34,
+        "rhs_seconds": 0.012351795332506299,
+        "jacobian_seconds": 0.00660641398280859,
+        "native_allocation_seconds": 0.0,
+        "reinit_seconds": 0.0,
+        "ledger_seconds": 0.015393208712339401,
+        "min_rhs": 0.0,
+        "min_internal": 0.0,
+        "pool_error": 1.9749590675267622e-16,
+        "continuous_nonnegative": true,
+        "min_hermite_scaled": 0.0,
+        "modified_ledger_residual": 1.2470405879041206e-16,
+        "modified_ledger_quadrature": 1.2866499321951354e-21,
+        "physical_ledger_residual": 1.2035253917108314e-16,
+        "physical_ledger_quadrature": 1.1127783197363332e-21,
+        "seconds": 0.04290300002321601
+      },
+      "output_pool_error": 2.4438158710675545e-16,
+      "targets": {
+        "0.0001": {
+          "actual": {
+            "concentration": 6.819252446754626e-05,
+            "flux": 0.00028400888177027565
+          },
+          "estimate": {
+            "concentration": 0.00034834127470604297,
+            "flux": 0.0014460103914750511
+          },
+          "numerical_pass": true,
+          "passes": true,
+          "estimator_false_accept": false
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 0.006819252446754626,
+            "flux": 0.028400888177027565
+          },
+          "estimate": {
+            "concentration": 0.0348341274706043,
+            "flux": 0.1446010391475051
+          },
+          "numerical_pass": true,
+          "passes": true,
+          "estimator_false_accept": false
+        }
+      }
+    },
+    {
+      "key": "1e-08-1e-08",
+      "model": "teusink",
+      "start": 0.0,
+      "h": 1e-08,
+      "tolerance": 1e-08,
+      "reference_pass": true,
+      "status": "success",
+      "stats": {
+        "subflows": 6,
+        "nfev": 54,
+        "njev": 6,
+        "nlu": 12,
+        "linear_solver_setups": 0,
+        "accepted_steps": 6,
+        "rhs_seconds": 0.0017405420076102018,
+        "jacobian_seconds": 0.003173959208652377,
+        "native_allocation_seconds": 0.0,
+        "reinit_seconds": 0.0,
+        "ledger_seconds": 0.0038101268000900745,
+        "min_rhs": 0.0,
+        "min_internal": 0.0,
+        "pool_error": 1.9749590675267622e-16,
+        "continuous_nonnegative": true,
+        "min_hermite_scaled": 0.0,
+        "modified_ledger_residual": 5.3692562382630345e-17,
+        "modified_ledger_quadrature": 2.086459349505625e-22,
+        "physical_ledger_residual": 5.369252760830785e-17,
+        "physical_ledger_quadrature": 0.0,
+        "seconds": 0.011319499928504229
+      },
+      "output_pool_error": 1.3964965757702095e-16,
+      "targets": {
+        "0.0001": {
+          "actual": {
+            "concentration": 7.155940629563303e-09,
+            "flux": 2.9890981644938863e-08
+          },
+          "estimate": {
+            "concentration": 3.7666696023038944e-08,
+            "flux": 1.5729721761013276e-07
+          },
+          "numerical_pass": true,
+          "passes": true,
+          "estimator_false_accept": false
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 7.155940629563304e-07,
+            "flux": 2.9890981644938863e-06
+          },
+          "estimate": {
+            "concentration": 3.766669602303895e-06,
+            "flux": 1.5729721761013276e-05
+          },
+          "numerical_pass": true,
+          "passes": true,
+          "estimator_false_accept": false
+        }
+      }
+    },
+    {
+      "key": "1e-08-1e-10",
+      "model": "teusink",
+      "start": 0.0,
+      "h": 1e-08,
+      "tolerance": 1e-10,
+      "reference_pass": true,
+      "status": "success",
+      "stats": {
+        "subflows": 6,
+        "nfev": 54,
+        "njev": 6,
+        "nlu": 12,
+        "linear_solver_setups": 0,
+        "accepted_steps": 6,
+        "rhs_seconds": 0.001761164516210556,
+        "jacobian_seconds": 0.003159749787300825,
+        "native_allocation_seconds": 0.0,
+        "reinit_seconds": 0.0,
+        "ledger_seconds": 0.003771499963477254,
+        "min_rhs": 0.0,
+        "min_internal": 0.0,
+        "pool_error": 1.9749590675267622e-16,
+        "continuous_nonnegative": true,
+        "min_hermite_scaled": 0.0,
+        "modified_ledger_residual": 5.3692562382630345e-17,
+        "modified_ledger_quadrature": 2.086459349505625e-22,
+        "physical_ledger_residual": 5.369252760830785e-17,
+        "physical_ledger_quadrature": 0.0,
+        "seconds": 0.011129916878417134
+      },
+      "output_pool_error": 1.3964965757702095e-16,
+      "targets": {
+        "0.0001": {
+          "actual": {
+            "concentration": 7.155940629563303e-09,
+            "flux": 2.9890981644938863e-08
+          },
+          "estimate": {
+            "concentration": 3.7666696023038944e-08,
+            "flux": 1.5729721761013276e-07
+          },
+          "numerical_pass": true,
+          "passes": true,
+          "estimator_false_accept": false
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 7.155940629563304e-07,
+            "flux": 2.9890981644938863e-06
+          },
+          "estimate": {
+            "concentration": 3.766669602303895e-06,
+            "flux": 1.5729721761013276e-05
+          },
+          "numerical_pass": true,
+          "passes": true,
+          "estimator_false_accept": false
+        }
+      }
+    }
+  ],
+  "source_sha256": {
+    "research/m3_priority.py": "9aa64ffdb32864dae0c8006db26d7be354b498a5aea1048f903aca04f7f0204c",
+    "research/mri_kernel.py": "e0dae63ea82d025f63f6ed9b78b5d581b92f036df3cddb67d52e9450a40872c3",
+    "research/mri_native.py": "cc561b393b305dcd72e3767b14ce2bca7db2b106aade91dd13e5e174bfaf21e3",
+    "research/test_mri_kernel.py": "3ad9a61ffe03328a83d21db2ece7f6a6c553518e61ecc92ded0cbecc2720ed72",
+    "metabolism/__init__.py": "741ff9b36f011f5cbb72e2a148f9b67c30dbdfaac866116b971f5255826801da",
+    "metabolism/adaptive.py": "427c67bfba193a79fb6d3d96aecc5ed01efa1a5d3fc7cbc82e525f3cf851db69",
+    "metabolism/splitting.py": "12ccc9526113e7080d9b56c7763c56a79d37a7fd9c2bacb9b25b2e7f6d1164a3",
+    "metabolism/cvode.py": "6733fb499c0262bf87dc2040dd6aec44a91085f1dbe1b12f0056f8eb277e05c2",
+    "metabolism/sbml.py": "329df467e990958ee5373055020baadfed301dcbe32c0243d6a37b2aae6c5c2a",
+    "metabolism/kecoli.py": "73f46ac5ceebe3242c8dc313fa80fb1588a32c82a58527b305f69fcd0fd4d851",
+    "metabolism/m3_continuation.py": "90b539d8f7ce2dae6d574b6285bcd66fcb4b95b3950f96ff81fed6301bd65401",
+    "metabolism/m2_experiments.py": "7e80077011e0f9a7e0fc63e2c4019e62aa229cef560eb7b79669dfe024a893f2"
+  }
+}

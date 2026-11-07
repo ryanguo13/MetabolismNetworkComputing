@@ -1,0 +1,12 @@
+test_forced_inactive_coordinate_and_open_ledger (research.test_mri_kernel.KernelChecks.test_forced_inactive_coordinate_and_open_ledger) ... ok
+test_hermite_internal_negative_and_cubic (research.test_mri_kernel.KernelChecks.test_hermite_internal_negative_and_cubic) ... ok
+test_native_reinit_changed_forcing_and_failure_recovery (research.test_mri_kernel.KernelChecks.test_native_reinit_changed_forcing_and_failure_recovery) ... 
+[CVODE ERROR]  CVode
+  At t = 0, the right-hand side routine failed in an unrecoverable manner.
+
+ok
+
+----------------------------------------------------------------------
+Ran 3 tests in 0.052s
+
+OK

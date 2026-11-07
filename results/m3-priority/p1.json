@@ -1,0 +1,1645 @@
+{
+  "scope": "One warmup and 3 interleaved DEVELOPMENT repeats, not full-window qualification; full-local lacks modified-subflow ledger.",
+  "selection": [
+    {
+      "model": "teusink",
+      "key": "teusink-3-2-1e-08",
+      "h": 0.01,
+      "tolerance": 1e-08
+    },
+    {
+      "model": "kecoli",
+      "key": "kecoli-3-2-1e-08",
+      "h": 0.001,
+      "tolerance": 1e-08
+    }
+  ],
+  "runs": [
+    {
+      "model": "teusink",
+      "variant": "radau-full",
+      "repeat": -1,
+      "h": 0.01,
+      "tolerance": 1e-08,
+      "setup_seconds": 0.0039739159401506186,
+      "audit_seconds": 0.005151624791324139,
+      "status": "success",
+      "stats": {
+        "subflows": 6,
+        "nfev": 114,
+        "njev": 6,
+        "nlu": 24,
+        "linear_solver_setups": 0,
+        "accepted_steps": 12,
+        "rhs_seconds": 0.0037077530287206173,
+        "jacobian_seconds": 0.0032929580193012953,
+        "native_allocation_seconds": 0.0,
+        "reinit_seconds": 0.0,
+        "ledger_seconds": 0.006326292874291539,
+        "min_rhs": 0.0003782038722298836,
+        "min_internal": 0.00037821772258315697,
+        "pool_error": 1.9749590675267642e-16,
+        "continuous_nonnegative": true,
+        "min_hermite_scaled": 0.06843463559020736,
+        "modified_ledger_residual": 8.087933346433033e-17,
+        "modified_ledger_quadrature": 6.540406626090309e-18,
+        "physical_ledger_residual": 1.5160667880286118e-12,
+        "physical_ledger_quadrature": 2.4831374309224223e-18,
+        "seconds": 0.01927370810881257
+      },
+      "output_pool_error": 2.305695470374416e-16,
+      "targets": {
+        "0.0001": {
+          "actual": {
+            "concentration": 6.134107360842667e-07,
+            "flux": 9.462654807447622e-07
+          },
+          "estimate": {
+            "concentration": 3.2403778618674117e-06,
+            "flux": 4.8009141959795114e-06
+          },
+          "numerical_pass": true,
+          "passes": true,
+          "estimator_false_accept": false
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 6.134107360842667e-05,
+            "flux": 9.462654807447622e-05
+          },
+          "estimate": {
+            "concentration": 0.00032403778618674114,
+            "flux": 0.0004800914195979512
+          },
+          "numerical_pass": true,
+          "passes": true,
+          "estimator_false_accept": false
+        }
+      },
+      "seconds": 0.029432290932163596
+    },
+    {
+      "model": "teusink",
+      "variant": "radau-reduced",
+      "repeat": -1,
+      "h": 0.01,
+      "tolerance": 1e-08,
+      "setup_seconds": 0.00202879193238914,
+      "audit_seconds": 0.004009332973510027,
+      "status": "success",
+      "stats": {
+        "subflows": 6,
+        "nfev": 114,
+        "njev": 6,
+        "nlu": 24,
+        "linear_solver_setups": 0,
+        "accepted_steps": 12,
+        "rhs_seconds": 0.0036276269238442183,
+        "jacobian_seconds": 0.0031439156737178564,
+        "native_allocation_seconds": 0.0,
+        "reinit_seconds": 0.0,
+        "ledger_seconds": 0.006270000711083412,
+        "min_rhs": 0.0003782038722298836,
+        "min_internal": 0.00037821772258315697,
+        "pool_error": 1.9749590675267642e-16,
+        "continuous_nonnegative": true,
+        "min_hermite_scaled": 0.06843463559020736,
+        "modified_ledger_residual": 8.087933346433033e-17,
+        "modified_ledger_quadrature": 6.540406626090309e-18,
+        "physical_ledger_residual": 1.5160667880286118e-12,
+        "physical_ledger_quadrature": 2.4831374309224223e-18,
+        "seconds": 0.01706558302976191
+      },
+      "output_pool_error": 2.305695470374416e-16,
+      "targets": {
+        "0.0001": {
+          "actual": {
+            "concentration": 6.134107360842667e-07,
+            "flux": 9.462654807447622e-07
+          },
+          "estimate": {
+            "concentration": 3.2403778618674117e-06,
+            "flux": 4.8009141959795114e-06
+          },
+          "numerical_pass": true,
+          "passes": true,
+          "estimator_false_accept": false
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 6.134107360842667e-05,
+            "flux": 9.462654807447622e-05
+          },
+          "estimate": {
+            "concentration": 0.00032403778618674114,
+            "flux": 0.0004800914195979512
+          },
+          "numerical_pass": true,
+          "passes": true,
+          "estimator_false_accept": false
+        }
+      },
+      "seconds": 0.0261243749409914
+    },
+    {
+      "model": "teusink",
+      "variant": "full-local",
+      "repeat": -1,
+      "seconds": 0.0026279170997440815,
+      "actual": {
+        "concentration": 1.634989723718418e-07,
+        "flux": 1.6349988415235852e-07
+      },
+      "passes": true,
+      "status": "success"
+    },
+    {
+      "model": "teusink",
+      "variant": "radau-reduced",
+      "repeat": 0,
+      "h": 0.01,
+      "tolerance": 1e-08,
+      "setup_seconds": 0.00202879193238914,
+      "audit_seconds": 0.003927791956812143,
+      "status": "success",
+      "stats": {
+        "subflows": 6,
+        "nfev": 114,
+        "njev": 6,
+        "nlu": 24,
+        "linear_solver_setups": 0,
+        "accepted_steps": 12,
+        "rhs_seconds": 0.0036235409788787365,
+        "jacobian_seconds": 0.003259832737967372,
+        "native_allocation_seconds": 0.0,
+        "reinit_seconds": 0.0,
+        "ledger_seconds": 0.006425791885703802,
+        "min_rhs": 0.0003782038722298836,
+        "min_internal": 0.00037821772258315697,
+        "pool_error": 1.9749590675267642e-16,
+        "continuous_nonnegative": true,
+        "min_hermite_scaled": 0.06843463559020736,
+        "modified_ledger_residual": 8.087933346433033e-17,
+        "modified_ledger_quadrature": 6.540406626090309e-18,
+        "physical_ledger_residual": 1.5160667880286118e-12,
+        "physical_ledger_quadrature": 2.4831374309224223e-18,
+        "seconds": 0.017348833847790956
+      },
+      "output_pool_error": 2.305695470374416e-16,
+      "targets": {
+        "0.0001": {
+          "actual": {
+            "concentration": 6.134107360842667e-07,
+            "flux": 9.462654807447622e-07
+          },
+          "estimate": {
+            "concentration": 3.2403778618674117e-06,
+            "flux": 4.8009141959795114e-06
+          },
+          "numerical_pass": true,
+          "passes": true,
+          "estimator_false_accept": false
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 6.134107360842667e-05,
+            "flux": 9.462654807447622e-05
+          },
+          "estimate": {
+            "concentration": 0.00032403778618674114,
+            "flux": 0.0004800914195979512
+          },
+          "numerical_pass": true,
+          "passes": true,
+          "estimator_false_accept": false
+        }
+      },
+      "seconds": 0.026217542123049498
+    },
+    {
+      "model": "teusink",
+      "variant": "radau-full",
+      "repeat": 0,
+      "h": 0.01,
+      "tolerance": 1e-08,
+      "setup_seconds": 0.0039739159401506186,
+      "audit_seconds": 0.003932334017008543,
+      "status": "success",
+      "stats": {
+        "subflows": 6,
+        "nfev": 114,
+        "njev": 6,
+        "nlu": 24,
+        "linear_solver_setups": 0,
+        "accepted_steps": 12,
+        "rhs_seconds": 0.0035480421502143145,
+        "jacobian_seconds": 0.0030314999166876078,
+        "native_allocation_seconds": 0.0,
+        "reinit_seconds": 0.0,
+        "ledger_seconds": 0.006178165785968304,
+        "min_rhs": 0.0003782038722298836,
+        "min_internal": 0.00037821772258315697,
+        "pool_error": 1.9749590675267642e-16,
+        "continuous_nonnegative": true,
+        "min_hermite_scaled": 0.06843463559020736,
+        "modified_ledger_residual": 8.087933346433033e-17,
+        "modified_ledger_quadrature": 6.540406626090309e-18,
+        "physical_ledger_residual": 1.5160667880286118e-12,
+        "physical_ledger_quadrature": 2.4831374309224223e-18,
+        "seconds": 0.01657058298587799
+      },
+      "output_pool_error": 2.305695470374416e-16,
+      "targets": {
+        "0.0001": {
+          "actual": {
+            "concentration": 6.134107360842667e-07,
+            "flux": 9.462654807447622e-07
+          },
+          "estimate": {
+            "concentration": 3.2403778618674117e-06,
+            "flux": 4.8009141959795114e-06
+          },
+          "numerical_pass": true,
+          "passes": true,
+          "estimator_false_accept": false
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 6.134107360842667e-05,
+            "flux": 9.462654807447622e-05
+          },
+          "estimate": {
+            "concentration": 0.00032403778618674114,
+            "flux": 0.0004800914195979512
+          },
+          "numerical_pass": true,
+          "passes": true,
+          "estimator_false_accept": false
+        }
+      },
+      "seconds": 0.02556033292785287
+    },
+    {
+      "model": "teusink",
+      "variant": "full-local",
+      "repeat": 0,
+      "seconds": 0.0024702090304344893,
+      "actual": {
+        "concentration": 1.634989723718418e-07,
+        "flux": 1.6349988415235852e-07
+      },
+      "passes": true,
+      "status": "success"
+    },
+    {
+      "model": "teusink",
+      "variant": "radau-full",
+      "repeat": 1,
+      "h": 0.01,
+      "tolerance": 1e-08,
+      "setup_seconds": 0.0039739159401506186,
+      "audit_seconds": 0.004082374973222613,
+      "status": "success",
+      "stats": {
+        "subflows": 6,
+        "nfev": 114,
+        "njev": 6,
+        "nlu": 24,
+        "linear_solver_setups": 0,
+        "accepted_steps": 12,
+        "rhs_seconds": 0.0036788310389965773,
+        "jacobian_seconds": 0.003152834251523018,
+        "native_allocation_seconds": 0.0,
+        "reinit_seconds": 0.0,
+        "ledger_seconds": 0.006255373591557145,
+        "min_rhs": 0.0003782038722298836,
+        "min_internal": 0.00037821772258315697,
+        "pool_error": 1.9749590675267642e-16,
+        "continuous_nonnegative": true,
+        "min_hermite_scaled": 0.06843463559020736,
+        "modified_ledger_residual": 8.087933346433033e-17,
+        "modified_ledger_quadrature": 6.540406626090309e-18,
+        "physical_ledger_residual": 1.5160667880286118e-12,
+        "physical_ledger_quadrature": 2.4831374309224223e-18,
+        "seconds": 0.017024792032316327
+      },
+      "output_pool_error": 2.305695470374416e-16,
+      "targets": {
+        "0.0001": {
+          "actual": {
+            "concentration": 6.134107360842667e-07,
+            "flux": 9.462654807447622e-07
+          },
+          "estimate": {
+            "concentration": 3.2403778618674117e-06,
+            "flux": 4.8009141959795114e-06
+          },
+          "numerical_pass": true,
+          "passes": true,
+          "estimator_false_accept": false
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 6.134107360842667e-05,
+            "flux": 9.462654807447622e-05
+          },
+          "estimate": {
+            "concentration": 0.00032403778618674114,
+            "flux": 0.0004800914195979512
+          },
+          "numerical_pass": true,
+          "passes": true,
+          "estimator_false_accept": false
+        }
+      },
+      "seconds": 0.026053791167214513
+    },
+    {
+      "model": "teusink",
+      "variant": "radau-reduced",
+      "repeat": 1,
+      "h": 0.01,
+      "tolerance": 1e-08,
+      "setup_seconds": 0.00202879193238914,
+      "audit_seconds": 0.004011749988421798,
+      "status": "success",
+      "stats": {
+        "subflows": 6,
+        "nfev": 114,
+        "njev": 6,
+        "nlu": 24,
+        "linear_solver_setups": 0,
+        "accepted_steps": 12,
+        "rhs_seconds": 0.003645910881459713,
+        "jacobian_seconds": 0.003115125698968768,
+        "native_allocation_seconds": 0.0,
+        "reinit_seconds": 0.0,
+        "ledger_seconds": 0.006271624471992254,
+        "min_rhs": 0.0003782038722298836,
+        "min_internal": 0.00037821772258315697,
+        "pool_error": 1.9749590675267642e-16,
+        "continuous_nonnegative": true,
+        "min_hermite_scaled": 0.06843463559020736,
+        "modified_ledger_residual": 8.087933346433033e-17,
+        "modified_ledger_quadrature": 6.540406626090309e-18,
+        "physical_ledger_residual": 1.5160667880286118e-12,
+        "physical_ledger_quadrature": 2.4831374309224223e-18,
+        "seconds": 0.017110790824517608
+      },
+      "output_pool_error": 2.305695470374416e-16,
+      "targets": {
+        "0.0001": {
+          "actual": {
+            "concentration": 6.134107360842667e-07,
+            "flux": 9.462654807447622e-07
+          },
+          "estimate": {
+            "concentration": 3.2403778618674117e-06,
+            "flux": 4.8009141959795114e-06
+          },
+          "numerical_pass": true,
+          "passes": true,
+          "estimator_false_accept": false
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 6.134107360842667e-05,
+            "flux": 9.462654807447622e-05
+          },
+          "estimate": {
+            "concentration": 0.00032403778618674114,
+            "flux": 0.0004800914195979512
+          },
+          "numerical_pass": true,
+          "passes": true,
+          "estimator_false_accept": false
+        }
+      },
+      "seconds": 0.02599441586062312
+    },
+    {
+      "model": "teusink",
+      "variant": "full-local",
+      "repeat": 1,
+      "seconds": 0.0026187908370047808,
+      "actual": {
+        "concentration": 1.634989723718418e-07,
+        "flux": 1.6349988415235852e-07
+      },
+      "passes": true,
+      "status": "success"
+    },
+    {
+      "model": "teusink",
+      "variant": "radau-reduced",
+      "repeat": 2,
+      "h": 0.01,
+      "tolerance": 1e-08,
+      "setup_seconds": 0.00202879193238914,
+      "audit_seconds": 0.006039708154276013,
+      "status": "success",
+      "stats": {
+        "subflows": 6,
+        "nfev": 114,
+        "njev": 6,
+        "nlu": 24,
+        "linear_solver_setups": 0,
+        "accepted_steps": 12,
+        "rhs_seconds": 0.003770001232624054,
+        "jacobian_seconds": 0.0036589577794075012,
+        "native_allocation_seconds": 0.0,
+        "reinit_seconds": 0.0,
+        "ledger_seconds": 0.007893581874668598,
+        "min_rhs": 0.0003782038722298836,
+        "min_internal": 0.00037821772258315697,
+        "pool_error": 1.9749590675267642e-16,
+        "continuous_nonnegative": true,
+        "min_hermite_scaled": 0.06843463559020736,
+        "modified_ledger_residual": 8.087933346433033e-17,
+        "modified_ledger_quadrature": 6.540406626090309e-18,
+        "physical_ledger_residual": 1.5160667880286118e-12,
+        "physical_ledger_quadrature": 2.4831374309224223e-18,
+        "seconds": 0.019947916036471725
+      },
+      "output_pool_error": 2.305695470374416e-16,
+      "targets": {
+        "0.0001": {
+          "actual": {
+            "concentration": 6.134107360842667e-07,
+            "flux": 9.462654807447622e-07
+          },
+          "estimate": {
+            "concentration": 3.2403778618674117e-06,
+            "flux": 4.8009141959795114e-06
+          },
+          "numerical_pass": true,
+          "passes": true,
+          "estimator_false_accept": false
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 6.134107360842667e-05,
+            "flux": 9.462654807447622e-05
+          },
+          "estimate": {
+            "concentration": 0.00032403778618674114,
+            "flux": 0.0004800914195979512
+          },
+          "numerical_pass": true,
+          "passes": true,
+          "estimator_false_accept": false
+        }
+      },
+      "seconds": 0.03120533307082951
+    },
+    {
+      "model": "teusink",
+      "variant": "radau-full",
+      "repeat": 2,
+      "h": 0.01,
+      "tolerance": 1e-08,
+      "setup_seconds": 0.0039739159401506186,
+      "audit_seconds": 0.004547708202153444,
+      "status": "success",
+      "stats": {
+        "subflows": 6,
+        "nfev": 114,
+        "njev": 6,
+        "nlu": 24,
+        "linear_solver_setups": 0,
+        "accepted_steps": 12,
+        "rhs_seconds": 0.003825077787041664,
+        "jacobian_seconds": 0.0035208736080676317,
+        "native_allocation_seconds": 0.0,
+        "reinit_seconds": 0.0,
+        "ledger_seconds": 0.006555499974638224,
+        "min_rhs": 0.0003782038722298836,
+        "min_internal": 0.00037821772258315697,
+        "pool_error": 1.9749590675267642e-16,
+        "continuous_nonnegative": true,
+        "min_hermite_scaled": 0.06843463559020736,
+        "modified_ledger_residual": 8.087933346433033e-17,
+        "modified_ledger_quadrature": 6.540406626090309e-18,
+        "physical_ledger_residual": 1.5160667880286118e-12,
+        "physical_ledger_quadrature": 2.4831374309224223e-18,
+        "seconds": 0.01841670786961913
+      },
+      "output_pool_error": 2.305695470374416e-16,
+      "targets": {
+        "0.0001": {
+          "actual": {
+            "concentration": 6.134107360842667e-07,
+            "flux": 9.462654807447622e-07
+          },
+          "estimate": {
+            "concentration": 3.2403778618674117e-06,
+            "flux": 4.8009141959795114e-06
+          },
+          "numerical_pass": true,
+          "passes": true,
+          "estimator_false_accept": false
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 6.134107360842667e-05,
+            "flux": 9.462654807447622e-05
+          },
+          "estimate": {
+            "concentration": 0.00032403778618674114,
+            "flux": 0.0004800914195979512
+          },
+          "numerical_pass": true,
+          "passes": true,
+          "estimator_false_accept": false
+        }
+      },
+      "seconds": 0.028288209112361073
+    },
+    {
+      "model": "teusink",
+      "variant": "full-local",
+      "repeat": 2,
+      "seconds": 0.002768708858639002,
+      "actual": {
+        "concentration": 1.634989723718418e-07,
+        "flux": 1.6349988415235852e-07
+      },
+      "passes": true,
+      "status": "success"
+    },
+    {
+      "model": "kecoli",
+      "variant": "native-full-fresh",
+      "repeat": -1,
+      "h": 0.001,
+      "tolerance": 1e-08,
+      "setup_seconds": 0.2646665829233825,
+      "audit_seconds": 0.28207574994303286,
+      "status": "success",
+      "stats": {
+        "subflows": 6,
+        "nfev": 60,
+        "njev": 6,
+        "nlu": 0,
+        "linear_solver_setups": 19,
+        "accepted_steps": 30,
+        "rhs_seconds": 0.008141089463606477,
+        "jacobian_seconds": 0.004494460066780448,
+        "native_allocation_seconds": 0.005324583034962416,
+        "reinit_seconds": 0.00013279099948704243,
+        "ledger_seconds": 0.0,
+        "min_rhs": 0.0,
+        "min_internal": 0.0,
+        "pool_error": 1.874056465567263e-13,
+        "continuous_nonnegative": true,
+        "min_hermite_scaled": 0.0,
+        "seconds": 0.366071708034724
+      },
+      "output_pool_error": 1.7261712892402402e-13,
+      "targets": {
+        "0.0001": {
+          "actual": {
+            "concentration": 0.005307146673226837,
+            "flux": 0.00531050012218423,
+            "net_flux": 0.12230127438130106
+          },
+          "estimate": {
+            "concentration": 0.0019286644088088176,
+            "flux": 0.0019341266233561538,
+            "net_flux": 2.3832731369074924
+          },
+          "numerical_pass": true,
+          "passes": true,
+          "estimator_false_accept": false
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 0.5307146673226837,
+            "flux": 0.5310500122184231,
+            "net_flux": 0.12230127438130106
+          },
+          "estimate": {
+            "concentration": 0.19286644088088178,
+            "flux": 0.1934126623356154,
+            "net_flux": 2.3832731369074924
+          },
+          "numerical_pass": true,
+          "passes": true,
+          "estimator_false_accept": false
+        }
+      },
+      "seconds": 0.925153624964878
+    },
+    {
+      "model": "kecoli",
+      "variant": "native-reduced-fresh",
+      "repeat": -1,
+      "h": 0.001,
+      "tolerance": 1e-08,
+      "setup_seconds": 0.2634904580190778,
+      "audit_seconds": 0.28161616693250835,
+      "status": "success",
+      "stats": {
+        "subflows": 6,
+        "nfev": 66,
+        "njev": 6,
+        "nlu": 0,
+        "linear_solver_setups": 26,
+        "accepted_steps": 31,
+        "rhs_seconds": 0.010269877268001437,
+        "jacobian_seconds": 0.004662999650463462,
+        "native_allocation_seconds": 0.004150541732087731,
+        "reinit_seconds": 8.983490988612175e-05,
+        "ledger_seconds": 0.0,
+        "min_rhs": 0.0,
+        "min_internal": 0.0,
+        "pool_error": 1.0347278589506453e-13,
+        "continuous_nonnegative": true,
+        "min_hermite_scaled": 0.0,
+        "seconds": 0.4862985839135945
+      },
+      "output_pool_error": 9.412175899781155e-14,
+      "targets": {
+        "0.0001": {
+          "actual": {
+            "concentration": 0.0059002050556198615,
+            "flux": 0.005900861258533188,
+            "net_flux": 0.02474662752091635
+          },
+          "estimate": {
+            "concentration": 0.0012279481368398992,
+            "flux": 0.0012279481356581073,
+            "net_flux": 0.008075113783149082
+          },
+          "numerical_pass": true,
+          "passes": true,
+          "estimator_false_accept": false
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 0.5900205055619863,
+            "flux": 0.5900861258533189,
+            "net_flux": 0.02474662752091635
+          },
+          "estimate": {
+            "concentration": 0.12279481368398994,
+            "flux": 0.12279481356581073,
+            "net_flux": 0.008075113783149082
+          },
+          "numerical_pass": true,
+          "passes": true,
+          "estimator_false_accept": false
+        }
+      },
+      "seconds": 1.0447361250407994
+    },
+    {
+      "model": "kecoli",
+      "variant": "native-reduced-reused",
+      "repeat": -1,
+      "h": 0.001,
+      "tolerance": 1e-08,
+      "setup_seconds": 0.29044458316639066,
+      "audit_seconds": 0.28281033295206726,
+      "status": "success",
+      "stats": {
+        "subflows": 6,
+        "nfev": 66,
+        "njev": 6,
+        "nlu": 0,
+        "linear_solver_setups": 26,
+        "accepted_steps": 31,
+        "rhs_seconds": 0.009208582807332277,
+        "jacobian_seconds": 0.004490375751629472,
+        "native_allocation_seconds": 0.0,
+        "reinit_seconds": 6.000092253088951e-05,
+        "ledger_seconds": 0.0,
+        "min_rhs": 0.0,
+        "min_internal": 0.0,
+        "pool_error": 1.0347278589506453e-13,
+        "continuous_nonnegative": true,
+        "min_hermite_scaled": 0.0,
+        "seconds": 0.4725783329922706
+      },
+      "output_pool_error": 9.412175899781155e-14,
+      "targets": {
+        "0.0001": {
+          "actual": {
+            "concentration": 0.0059002050556198615,
+            "flux": 0.005900861258533188,
+            "net_flux": 0.02474662752091635
+          },
+          "estimate": {
+            "concentration": 0.0012279481368398992,
+            "flux": 0.0012279481356581073,
+            "net_flux": 0.008075113783149082
+          },
+          "numerical_pass": true,
+          "passes": true,
+          "estimator_false_accept": false
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 0.5900205055619863,
+            "flux": 0.5900861258533189,
+            "net_flux": 0.02474662752091635
+          },
+          "estimate": {
+            "concentration": 0.12279481368398994,
+            "flux": 0.12279481356581073,
+            "net_flux": 0.008075113783149082
+          },
+          "numerical_pass": true,
+          "passes": true,
+          "estimator_false_accept": false
+        }
+      },
+      "seconds": 1.03210658300668
+    },
+    {
+      "model": "kecoli",
+      "variant": "radau-reduced",
+      "repeat": -1,
+      "h": 0.001,
+      "tolerance": 1e-08,
+      "setup_seconds": 0.27619854104705155,
+      "audit_seconds": 0.28350691590458155,
+      "status": "success",
+      "stats": {
+        "subflows": 6,
+        "nfev": 54,
+        "njev": 6,
+        "nlu": 12,
+        "linear_solver_setups": 0,
+        "accepted_steps": 6,
+        "rhs_seconds": 0.007116667693480849,
+        "jacobian_seconds": 0.0043113327119499445,
+        "native_allocation_seconds": 0.0,
+        "reinit_seconds": 0.0,
+        "ledger_seconds": 0.0,
+        "min_rhs": 0.0,
+        "min_internal": 0.0,
+        "pool_error": 3.2029934260435746e-13,
+        "continuous_nonnegative": true,
+        "min_hermite_scaled": 0.0,
+        "seconds": 0.33299600007012486
+      },
+      "output_pool_error": 1.3041390883872232e-13,
+      "targets": {
+        "0.0001": {
+          "actual": {
+            "concentration": 3.9887233278468854e-05,
+            "flux": 3.98872345088683e-05,
+            "net_flux": 0.0019785330209893125
+          },
+          "estimate": {
+            "concentration": 2.636918406933336e-05,
+            "flux": 2.821306179938932e-05,
+            "net_flux": 0.011114151712558888
+          },
+          "numerical_pass": true,
+          "passes": true,
+          "estimator_false_accept": false
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 0.0039887233278468855,
+            "flux": 0.00398872345088683,
+            "net_flux": 0.0019785330209893125
+          },
+          "estimate": {
+            "concentration": 0.0026369184069333362,
+            "flux": 0.0028213061799389322,
+            "net_flux": 0.011114151712558888
+          },
+          "numerical_pass": true,
+          "passes": true,
+          "estimator_false_accept": false
+        }
+      },
+      "seconds": 0.8919117080513388
+    },
+    {
+      "model": "kecoli",
+      "variant": "full-local",
+      "repeat": -1,
+      "seconds": 0.21383820800110698,
+      "actual": {
+        "concentration": 1.9209133021987246e-05,
+        "flux": 1.9209132630597435e-05,
+        "net_flux": 0.00029979826035735947
+      },
+      "passes": true,
+      "status": "success"
+    },
+    {
+      "model": "kecoli",
+      "variant": "radau-reduced",
+      "repeat": 0,
+      "h": 0.001,
+      "tolerance": 1e-08,
+      "setup_seconds": 0.27619854104705155,
+      "audit_seconds": 0.2811421670485288,
+      "status": "success",
+      "stats": {
+        "subflows": 6,
+        "nfev": 54,
+        "njev": 6,
+        "nlu": 12,
+        "linear_solver_setups": 0,
+        "accepted_steps": 6,
+        "rhs_seconds": 0.006972672184929252,
+        "jacobian_seconds": 0.004703083308413625,
+        "native_allocation_seconds": 0.0,
+        "reinit_seconds": 0.0,
+        "ledger_seconds": 0.0,
+        "min_rhs": 0.0,
+        "min_internal": 0.0,
+        "pool_error": 3.2029934260435746e-13,
+        "continuous_nonnegative": true,
+        "min_hermite_scaled": 0.0,
+        "seconds": 0.32829337497241795
+      },
+      "output_pool_error": 1.3041390883872232e-13,
+      "targets": {
+        "0.0001": {
+          "actual": {
+            "concentration": 3.9887233278468854e-05,
+            "flux": 3.98872345088683e-05,
+            "net_flux": 0.0019785330209893125
+          },
+          "estimate": {
+            "concentration": 2.636918406933336e-05,
+            "flux": 2.821306179938932e-05,
+            "net_flux": 0.011114151712558888
+          },
+          "numerical_pass": true,
+          "passes": true,
+          "estimator_false_accept": false
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 0.0039887233278468855,
+            "flux": 0.00398872345088683,
+            "net_flux": 0.0019785330209893125
+          },
+          "estimate": {
+            "concentration": 0.0026369184069333362,
+            "flux": 0.0028213061799389322,
+            "net_flux": 0.011114151712558888
+          },
+          "numerical_pass": true,
+          "passes": true,
+          "estimator_false_accept": false
+        }
+      },
+      "seconds": 0.8846891671419144
+    },
+    {
+      "model": "kecoli",
+      "variant": "native-full-fresh",
+      "repeat": 0,
+      "h": 0.001,
+      "tolerance": 1e-08,
+      "setup_seconds": 0.2646665829233825,
+      "audit_seconds": 0.2833493750076741,
+      "status": "success",
+      "stats": {
+        "subflows": 6,
+        "nfev": 60,
+        "njev": 6,
+        "nlu": 0,
+        "linear_solver_setups": 19,
+        "accepted_steps": 30,
+        "rhs_seconds": 0.008233543951064348,
+        "jacobian_seconds": 0.0043537907768040895,
+        "native_allocation_seconds": 0.004427332663908601,
+        "reinit_seconds": 8.06653406471014e-05,
+        "ledger_seconds": 0.0,
+        "min_rhs": 0.0,
+        "min_internal": 0.0,
+        "pool_error": 1.874056465567263e-13,
+        "continuous_nonnegative": true,
+        "min_hermite_scaled": 0.0,
+        "seconds": 0.37632500007748604
+      },
+      "output_pool_error": 1.7261712892402402e-13,
+      "targets": {
+        "0.0001": {
+          "actual": {
+            "concentration": 0.005307146673226837,
+            "flux": 0.00531050012218423,
+            "net_flux": 0.12230127438130106
+          },
+          "estimate": {
+            "concentration": 0.0019286644088088176,
+            "flux": 0.0019341266233561538,
+            "net_flux": 2.3832731369074924
+          },
+          "numerical_pass": true,
+          "passes": true,
+          "estimator_false_accept": false
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 0.5307146673226837,
+            "flux": 0.5310500122184231,
+            "net_flux": 0.12230127438130106
+          },
+          "estimate": {
+            "concentration": 0.19286644088088178,
+            "flux": 0.1934126623356154,
+            "net_flux": 2.3832731369074924
+          },
+          "numerical_pass": true,
+          "passes": true,
+          "estimator_false_accept": false
+        }
+      },
+      "seconds": 0.9410927910357714
+    },
+    {
+      "model": "kecoli",
+      "variant": "native-reduced-fresh",
+      "repeat": 0,
+      "h": 0.001,
+      "tolerance": 1e-08,
+      "setup_seconds": 0.2634904580190778,
+      "audit_seconds": 0.2834469999652356,
+      "status": "success",
+      "stats": {
+        "subflows": 6,
+        "nfev": 66,
+        "njev": 6,
+        "nlu": 0,
+        "linear_solver_setups": 26,
+        "accepted_steps": 31,
+        "rhs_seconds": 0.009248037822544575,
+        "jacobian_seconds": 0.004426250467076898,
+        "native_allocation_seconds": 0.004649542272090912,
+        "reinit_seconds": 0.00010454212315380573,
+        "ledger_seconds": 0.0,
+        "min_rhs": 0.0,
+        "min_internal": 0.0,
+        "pool_error": 1.0347278589506453e-13,
+        "continuous_nonnegative": true,
+        "min_hermite_scaled": 0.0,
+        "seconds": 0.49244054197333753
+      },
+      "output_pool_error": 9.412175899781155e-14,
+      "targets": {
+        "0.0001": {
+          "actual": {
+            "concentration": 0.0059002050556198615,
+            "flux": 0.005900861258533188,
+            "net_flux": 0.02474662752091635
+          },
+          "estimate": {
+            "concentration": 0.0012279481368398992,
+            "flux": 0.0012279481356581073,
+            "net_flux": 0.008075113783149082
+          },
+          "numerical_pass": true,
+          "passes": true,
+          "estimator_false_accept": false
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 0.5900205055619863,
+            "flux": 0.5900861258533189,
+            "net_flux": 0.02474662752091635
+          },
+          "estimate": {
+            "concentration": 0.12279481368398994,
+            "flux": 0.12279481356581073,
+            "net_flux": 0.008075113783149082
+          },
+          "numerical_pass": true,
+          "passes": true,
+          "estimator_false_accept": false
+        }
+      },
+      "seconds": 1.0572631668765098
+    },
+    {
+      "model": "kecoli",
+      "variant": "native-reduced-reused",
+      "repeat": 0,
+      "h": 0.001,
+      "tolerance": 1e-08,
+      "setup_seconds": 0.29044458316639066,
+      "audit_seconds": 0.28356454195454717,
+      "status": "success",
+      "stats": {
+        "subflows": 6,
+        "nfev": 66,
+        "njev": 6,
+        "nlu": 0,
+        "linear_solver_setups": 26,
+        "accepted_steps": 31,
+        "rhs_seconds": 0.008829419501125813,
+        "jacobian_seconds": 0.004278872860595584,
+        "native_allocation_seconds": 0.0,
+        "reinit_seconds": 5.2668387070298195e-05,
+        "ledger_seconds": 0.0,
+        "min_rhs": 0.0,
+        "min_internal": 0.0,
+        "pool_error": 1.0347278589506453e-13,
+        "continuous_nonnegative": true,
+        "min_hermite_scaled": 0.0,
+        "seconds": 0.47027054196223617
+      },
+      "output_pool_error": 9.412175899781155e-14,
+      "targets": {
+        "0.0001": {
+          "actual": {
+            "concentration": 0.0059002050556198615,
+            "flux": 0.005900861258533188,
+            "net_flux": 0.02474662752091635
+          },
+          "estimate": {
+            "concentration": 0.0012279481368398992,
+            "flux": 0.0012279481356581073,
+            "net_flux": 0.008075113783149082
+          },
+          "numerical_pass": true,
+          "passes": true,
+          "estimator_false_accept": false
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 0.5900205055619863,
+            "flux": 0.5900861258533189,
+            "net_flux": 0.02474662752091635
+          },
+          "estimate": {
+            "concentration": 0.12279481368398994,
+            "flux": 0.12279481356581073,
+            "net_flux": 0.008075113783149082
+          },
+          "numerical_pass": true,
+          "passes": true,
+          "estimator_false_accept": false
+        }
+      },
+      "seconds": 1.0282261669635773
+    },
+    {
+      "model": "kecoli",
+      "variant": "full-local",
+      "repeat": 0,
+      "seconds": 0.21270100004039705,
+      "actual": {
+        "concentration": 1.9209133021987246e-05,
+        "flux": 1.9209132630597435e-05,
+        "net_flux": 0.00029979826035735947
+      },
+      "passes": true,
+      "status": "success"
+    },
+    {
+      "model": "kecoli",
+      "variant": "native-reduced-reused",
+      "repeat": 1,
+      "h": 0.001,
+      "tolerance": 1e-08,
+      "setup_seconds": 0.29044458316639066,
+      "audit_seconds": 0.281536916969344,
+      "status": "success",
+      "stats": {
+        "subflows": 6,
+        "nfev": 66,
+        "njev": 6,
+        "nlu": 0,
+        "linear_solver_setups": 26,
+        "accepted_steps": 31,
+        "rhs_seconds": 0.008912627585232258,
+        "jacobian_seconds": 0.004297291859984398,
+        "native_allocation_seconds": 0.0,
+        "reinit_seconds": 4.71663661301136e-05,
+        "ledger_seconds": 0.0,
+        "min_rhs": 0.0,
+        "min_internal": 0.0,
+        "pool_error": 1.0347278589506453e-13,
+        "continuous_nonnegative": true,
+        "min_hermite_scaled": 0.0,
+        "seconds": 0.471812249859795
+      },
+      "output_pool_error": 9.412175899781155e-14,
+      "targets": {
+        "0.0001": {
+          "actual": {
+            "concentration": 0.0059002050556198615,
+            "flux": 0.005900861258533188,
+            "net_flux": 0.02474662752091635
+          },
+          "estimate": {
+            "concentration": 0.0012279481368398992,
+            "flux": 0.0012279481356581073,
+            "net_flux": 0.008075113783149082
+          },
+          "numerical_pass": true,
+          "passes": true,
+          "estimator_false_accept": false
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 0.5900205055619863,
+            "flux": 0.5900861258533189,
+            "net_flux": 0.02474662752091635
+          },
+          "estimate": {
+            "concentration": 0.12279481368398994,
+            "flux": 0.12279481356581073,
+            "net_flux": 0.008075113783149082
+          },
+          "numerical_pass": true,
+          "passes": true,
+          "estimator_false_accept": false
+        }
+      },
+      "seconds": 1.0297279169317335
+    },
+    {
+      "model": "kecoli",
+      "variant": "radau-reduced",
+      "repeat": 1,
+      "h": 0.001,
+      "tolerance": 1e-08,
+      "setup_seconds": 0.27619854104705155,
+      "audit_seconds": 0.31265187496319413,
+      "status": "success",
+      "stats": {
+        "subflows": 6,
+        "nfev": 54,
+        "njev": 6,
+        "nlu": 12,
+        "linear_solver_setups": 0,
+        "accepted_steps": 6,
+        "rhs_seconds": 0.007037879433482885,
+        "jacobian_seconds": 0.004623750224709511,
+        "native_allocation_seconds": 0.0,
+        "reinit_seconds": 0.0,
+        "ledger_seconds": 0.0,
+        "min_rhs": 0.0,
+        "min_internal": 0.0,
+        "pool_error": 3.2029934260435746e-13,
+        "continuous_nonnegative": true,
+        "min_hermite_scaled": 0.0,
+        "seconds": 0.4692733748815954
+      },
+      "output_pool_error": 1.3041390883872232e-13,
+      "targets": {
+        "0.0001": {
+          "actual": {
+            "concentration": 3.9887233278468854e-05,
+            "flux": 3.98872345088683e-05,
+            "net_flux": 0.0019785330209893125
+          },
+          "estimate": {
+            "concentration": 2.636918406933336e-05,
+            "flux": 2.821306179938932e-05,
+            "net_flux": 0.011114151712558888
+          },
+          "numerical_pass": true,
+          "passes": true,
+          "estimator_false_accept": false
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 0.0039887233278468855,
+            "flux": 0.00398872345088683,
+            "net_flux": 0.0019785330209893125
+          },
+          "estimate": {
+            "concentration": 0.0026369184069333362,
+            "flux": 0.0028213061799389322,
+            "net_flux": 0.011114151712558888
+          },
+          "numerical_pass": true,
+          "passes": true,
+          "estimator_false_accept": false
+        }
+      },
+      "seconds": 1.099822125164792
+    },
+    {
+      "model": "kecoli",
+      "variant": "native-full-fresh",
+      "repeat": 1,
+      "h": 0.001,
+      "tolerance": 1e-08,
+      "setup_seconds": 0.2646665829233825,
+      "audit_seconds": 0.2811232078820467,
+      "status": "success",
+      "stats": {
+        "subflows": 6,
+        "nfev": 60,
+        "njev": 6,
+        "nlu": 0,
+        "linear_solver_setups": 19,
+        "accepted_steps": 30,
+        "rhs_seconds": 0.007958503440022469,
+        "jacobian_seconds": 0.004231499973684549,
+        "native_allocation_seconds": 0.004378542071208358,
+        "reinit_seconds": 7.87908211350441e-05,
+        "ledger_seconds": 0.0,
+        "min_rhs": 0.0,
+        "min_internal": 0.0,
+        "pool_error": 1.874056465567263e-13,
+        "continuous_nonnegative": true,
+        "min_hermite_scaled": 0.0,
+        "seconds": 0.362757874885574
+      },
+      "output_pool_error": 1.7261712892402402e-13,
+      "targets": {
+        "0.0001": {
+          "actual": {
+            "concentration": 0.005307146673226837,
+            "flux": 0.00531050012218423,
+            "net_flux": 0.12230127438130106
+          },
+          "estimate": {
+            "concentration": 0.0019286644088088176,
+            "flux": 0.0019341266233561538,
+            "net_flux": 2.3832731369074924
+          },
+          "numerical_pass": true,
+          "passes": true,
+          "estimator_false_accept": false
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 0.5307146673226837,
+            "flux": 0.5310500122184231,
+            "net_flux": 0.12230127438130106
+          },
+          "estimate": {
+            "concentration": 0.19286644088088178,
+            "flux": 0.1934126623356154,
+            "net_flux": 2.3832731369074924
+          },
+          "numerical_pass": true,
+          "passes": true,
+          "estimator_false_accept": false
+        }
+      },
+      "seconds": 0.9335443330928683
+    },
+    {
+      "model": "kecoli",
+      "variant": "native-reduced-fresh",
+      "repeat": 1,
+      "h": 0.001,
+      "tolerance": 1e-08,
+      "setup_seconds": 0.2634904580190778,
+      "audit_seconds": 0.2886364171281457,
+      "status": "success",
+      "stats": {
+        "subflows": 6,
+        "nfev": 66,
+        "njev": 6,
+        "nlu": 0,
+        "linear_solver_setups": 26,
+        "accepted_steps": 31,
+        "rhs_seconds": 0.009190872311592102,
+        "jacobian_seconds": 0.004250540165230632,
+        "native_allocation_seconds": 0.004335040925070643,
+        "reinit_seconds": 7.295818068087101e-05,
+        "ledger_seconds": 0.0,
+        "min_rhs": 0.0,
+        "min_internal": 0.0,
+        "pool_error": 1.0347278589506453e-13,
+        "continuous_nonnegative": true,
+        "min_hermite_scaled": 0.0,
+        "seconds": 0.49053537496365607
+      },
+      "output_pool_error": 9.412175899781155e-14,
+      "targets": {
+        "0.0001": {
+          "actual": {
+            "concentration": 0.0059002050556198615,
+            "flux": 0.005900861258533188,
+            "net_flux": 0.02474662752091635
+          },
+          "estimate": {
+            "concentration": 0.0012279481368398992,
+            "flux": 0.0012279481356581073,
+            "net_flux": 0.008075113783149082
+          },
+          "numerical_pass": true,
+          "passes": true,
+          "estimator_false_accept": false
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 0.5900205055619863,
+            "flux": 0.5900861258533189,
+            "net_flux": 0.02474662752091635
+          },
+          "estimate": {
+            "concentration": 0.12279481368398994,
+            "flux": 0.12279481356581073,
+            "net_flux": 0.008075113783149082
+          },
+          "numerical_pass": true,
+          "passes": true,
+          "estimator_false_accept": false
+        }
+      },
+      "seconds": 1.0567291658371687
+    },
+    {
+      "model": "kecoli",
+      "variant": "full-local",
+      "repeat": 1,
+      "seconds": 0.21472712489776313,
+      "actual": {
+        "concentration": 1.9209133021987246e-05,
+        "flux": 1.9209132630597435e-05,
+        "net_flux": 0.00029979826035735947
+      },
+      "passes": true,
+      "status": "success"
+    },
+    {
+      "model": "kecoli",
+      "variant": "native-reduced-fresh",
+      "repeat": 2,
+      "h": 0.001,
+      "tolerance": 1e-08,
+      "setup_seconds": 0.2634904580190778,
+      "audit_seconds": 0.2826241669245064,
+      "status": "success",
+      "stats": {
+        "subflows": 6,
+        "nfev": 66,
+        "njev": 6,
+        "nlu": 0,
+        "linear_solver_setups": 26,
+        "accepted_steps": 31,
+        "rhs_seconds": 0.008785703219473362,
+        "jacobian_seconds": 0.00420412584207952,
+        "native_allocation_seconds": 0.004490623949095607,
+        "reinit_seconds": 8.133379742503166e-05,
+        "ledger_seconds": 0.0,
+        "min_rhs": 0.0,
+        "min_internal": 0.0,
+        "pool_error": 1.0347278589506453e-13,
+        "continuous_nonnegative": true,
+        "min_hermite_scaled": 0.0,
+        "seconds": 0.47413920797407627
+      },
+      "output_pool_error": 9.412175899781155e-14,
+      "targets": {
+        "0.0001": {
+          "actual": {
+            "concentration": 0.0059002050556198615,
+            "flux": 0.005900861258533188,
+            "net_flux": 0.02474662752091635
+          },
+          "estimate": {
+            "concentration": 0.0012279481368398992,
+            "flux": 0.0012279481356581073,
+            "net_flux": 0.008075113783149082
+          },
+          "numerical_pass": true,
+          "passes": true,
+          "estimator_false_accept": false
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 0.5900205055619863,
+            "flux": 0.5900861258533189,
+            "net_flux": 0.02474662752091635
+          },
+          "estimate": {
+            "concentration": 0.12279481368398994,
+            "flux": 0.12279481356581073,
+            "net_flux": 0.008075113783149082
+          },
+          "numerical_pass": true,
+          "passes": true,
+          "estimator_false_accept": false
+        }
+      },
+      "seconds": 1.036846499890089
+    },
+    {
+      "model": "kecoli",
+      "variant": "native-reduced-reused",
+      "repeat": 2,
+      "h": 0.001,
+      "tolerance": 1e-08,
+      "setup_seconds": 0.29044458316639066,
+      "audit_seconds": 0.2833120839204639,
+      "status": "success",
+      "stats": {
+        "subflows": 6,
+        "nfev": 66,
+        "njev": 6,
+        "nlu": 0,
+        "linear_solver_setups": 26,
+        "accepted_steps": 31,
+        "rhs_seconds": 0.00885771051980555,
+        "jacobian_seconds": 0.004253708990290761,
+        "native_allocation_seconds": 0.0,
+        "reinit_seconds": 4.820665344595909e-05,
+        "ledger_seconds": 0.0,
+        "min_rhs": 0.0,
+        "min_internal": 0.0,
+        "pool_error": 1.0347278589506453e-13,
+        "continuous_nonnegative": true,
+        "min_hermite_scaled": 0.0,
+        "seconds": 0.4700295408256352
+      },
+      "output_pool_error": 9.412175899781155e-14,
+      "targets": {
+        "0.0001": {
+          "actual": {
+            "concentration": 0.0059002050556198615,
+            "flux": 0.005900861258533188,
+            "net_flux": 0.02474662752091635
+          },
+          "estimate": {
+            "concentration": 0.0012279481368398992,
+            "flux": 0.0012279481356581073,
+            "net_flux": 0.008075113783149082
+          },
+          "numerical_pass": true,
+          "passes": true,
+          "estimator_false_accept": false
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 0.5900205055619863,
+            "flux": 0.5900861258533189,
+            "net_flux": 0.02474662752091635
+          },
+          "estimate": {
+            "concentration": 0.12279481368398994,
+            "flux": 0.12279481356581073,
+            "net_flux": 0.008075113783149082
+          },
+          "numerical_pass": true,
+          "passes": true,
+          "estimator_false_accept": false
+        }
+      },
+      "seconds": 1.0437820840161294
+    },
+    {
+      "model": "kecoli",
+      "variant": "radau-reduced",
+      "repeat": 2,
+      "h": 0.001,
+      "tolerance": 1e-08,
+      "setup_seconds": 0.27619854104705155,
+      "audit_seconds": 0.2834927919320762,
+      "status": "success",
+      "stats": {
+        "subflows": 6,
+        "nfev": 54,
+        "njev": 6,
+        "nlu": 12,
+        "linear_solver_setups": 0,
+        "accepted_steps": 6,
+        "rhs_seconds": 0.007127662422135472,
+        "jacobian_seconds": 0.004488377133384347,
+        "native_allocation_seconds": 0.0,
+        "reinit_seconds": 0.0,
+        "ledger_seconds": 0.0,
+        "min_rhs": 0.0,
+        "min_internal": 0.0,
+        "pool_error": 3.2029934260435746e-13,
+        "continuous_nonnegative": true,
+        "min_hermite_scaled": 0.0,
+        "seconds": 0.32672412507236004
+      },
+      "output_pool_error": 1.3041390883872232e-13,
+      "targets": {
+        "0.0001": {
+          "actual": {
+            "concentration": 3.9887233278468854e-05,
+            "flux": 3.98872345088683e-05,
+            "net_flux": 0.0019785330209893125
+          },
+          "estimate": {
+            "concentration": 2.636918406933336e-05,
+            "flux": 2.821306179938932e-05,
+            "net_flux": 0.011114151712558888
+          },
+          "numerical_pass": true,
+          "passes": true,
+          "estimator_false_accept": false
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 0.0039887233278468855,
+            "flux": 0.00398872345088683,
+            "net_flux": 0.0019785330209893125
+          },
+          "estimate": {
+            "concentration": 0.0026369184069333362,
+            "flux": 0.0028213061799389322,
+            "net_flux": 0.011114151712558888
+          },
+          "numerical_pass": true,
+          "passes": true,
+          "estimator_false_accept": false
+        }
+      },
+      "seconds": 0.8886534159537405
+    },
+    {
+      "model": "kecoli",
+      "variant": "native-full-fresh",
+      "repeat": 2,
+      "h": 0.001,
+      "tolerance": 1e-08,
+      "setup_seconds": 0.2646665829233825,
+      "audit_seconds": 0.28284200001508,
+      "status": "success",
+      "stats": {
+        "subflows": 6,
+        "nfev": 60,
+        "njev": 6,
+        "nlu": 0,
+        "linear_solver_setups": 19,
+        "accepted_steps": 30,
+        "rhs_seconds": 0.011530046118423343,
+        "jacobian_seconds": 0.005493207834661007,
+        "native_allocation_seconds": 0.008564333897083998,
+        "reinit_seconds": 0.00013320776633918285,
+        "ledger_seconds": 0.0,
+        "min_rhs": 0.0,
+        "min_internal": 0.0,
+        "pool_error": 1.874056465567263e-13,
+        "continuous_nonnegative": true,
+        "min_hermite_scaled": 0.0,
+        "seconds": 0.4390902500599623
+      },
+      "output_pool_error": 1.7261712892402402e-13,
+      "targets": {
+        "0.0001": {
+          "actual": {
+            "concentration": 0.005307146673226837,
+            "flux": 0.00531050012218423,
+            "net_flux": 0.12230127438130106
+          },
+          "estimate": {
+            "concentration": 0.0019286644088088176,
+            "flux": 0.0019341266233561538,
+            "net_flux": 2.3832731369074924
+          },
+          "numerical_pass": true,
+          "passes": true,
+          "estimator_false_accept": false
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 0.5307146673226837,
+            "flux": 0.5310500122184231,
+            "net_flux": 0.12230127438130106
+          },
+          "estimate": {
+            "concentration": 0.19286644088088178,
+            "flux": 0.1934126623356154,
+            "net_flux": 2.3832731369074924
+          },
+          "numerical_pass": true,
+          "passes": true,
+          "estimator_false_accept": false
+        }
+      },
+      "seconds": 1.000584667082876
+    },
+    {
+      "model": "kecoli",
+      "variant": "full-local",
+      "repeat": 2,
+      "seconds": 0.21432095812633634,
+      "actual": {
+        "concentration": 1.9209133021987246e-05,
+        "flux": 1.9209132630597435e-05,
+        "net_flux": 0.00029979826035735947
+      },
+      "passes": true,
+      "status": "success"
+    }
+  ],
+  "source_sha256": {
+    "research/m3_priority.py": "9aa64ffdb32864dae0c8006db26d7be354b498a5aea1048f903aca04f7f0204c",
+    "research/mri_kernel.py": "e0dae63ea82d025f63f6ed9b78b5d581b92f036df3cddb67d52e9450a40872c3",
+    "research/mri_native.py": "cc561b393b305dcd72e3767b14ce2bca7db2b106aade91dd13e5e174bfaf21e3",
+    "research/test_mri_kernel.py": "3ad9a61ffe03328a83d21db2ece7f6a6c553518e61ecc92ded0cbecc2720ed72",
+    "metabolism/__init__.py": "741ff9b36f011f5cbb72e2a148f9b67c30dbdfaac866116b971f5255826801da",
+    "metabolism/adaptive.py": "427c67bfba193a79fb6d3d96aecc5ed01efa1a5d3fc7cbc82e525f3cf851db69",
+    "metabolism/splitting.py": "12ccc9526113e7080d9b56c7763c56a79d37a7fd9c2bacb9b25b2e7f6d1164a3",
+    "metabolism/cvode.py": "6733fb499c0262bf87dc2040dd6aec44a91085f1dbe1b12f0056f8eb277e05c2",
+    "metabolism/sbml.py": "329df467e990958ee5373055020baadfed301dcbe32c0243d6a37b2aae6c5c2a",
+    "metabolism/kecoli.py": "73f46ac5ceebe3242c8dc313fa80fb1588a32c82a58527b305f69fcd0fd4d851",
+    "metabolism/m3_continuation.py": "90b539d8f7ce2dae6d574b6285bcd66fcb4b95b3950f96ff81fed6301bd65401",
+    "metabolism/m2_experiments.py": "7e80077011e0f9a7e0fc63e2c4019e62aa229cef560eb7b79669dfe024a893f2"
+  }
+}

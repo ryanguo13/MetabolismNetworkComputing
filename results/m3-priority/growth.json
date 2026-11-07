@@ -1,0 +1,751 @@
+{
+  "scope": "Post-P1 development growth scan, both tolerances. Tests whether larger H can rescue throughput beyond initial P0 grid. Same frozen groups, targets, independent audits and 15s budget.",
+  "runs": [
+    {
+      "key": "teusink-0.1-1e-08",
+      "model": "teusink",
+      "start": 1.0,
+      "h": 0.1,
+      "tolerance": 1e-08,
+      "reference_pass": true,
+      "status": "success",
+      "stats": {
+        "subflows": 6,
+        "nfev": 235,
+        "njev": 15,
+        "nlu": 54,
+        "linear_solver_setups": 0,
+        "accepted_steps": 28,
+        "rhs_seconds": 0.013999458169564605,
+        "jacobian_seconds": 0.009728373493999243,
+        "native_allocation_seconds": 0.0,
+        "reinit_seconds": 0.0,
+        "ledger_seconds": 0.018448249902576208,
+        "min_rhs": 0.00036195401279132485,
+        "min_internal": 0.00036218440926738825,
+        "pool_error": 3.9499181350535284e-16,
+        "continuous_nonnegative": true,
+        "min_hermite_scaled": 0.06843463559020736,
+        "modified_ledger_residual": 8.982146608700068e-14,
+        "modified_ledger_quadrature": 5.629183872421457e-17,
+        "physical_ledger_residual": 1.3409453309909418e-07,
+        "physical_ledger_quadrature": 1.0216336858652252e-16,
+        "seconds": 0.05548237496986985
+      },
+      "output_pool_error": 1.9026046991754946e-16,
+      "targets": {
+        "0.0001": {
+          "actual": {
+            "concentration": 0.00624770290636361,
+            "flux": 0.007899417742311163
+          },
+          "estimate": {
+            "concentration": 0.032989592170467985,
+            "flux": 0.034144926155770625
+          },
+          "numerical_pass": true,
+          "passes": false,
+          "estimator_false_accept": false
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 0.624770290636361,
+            "flux": 0.7899417742311163
+          },
+          "estimate": {
+            "concentration": 3.2989592170467987,
+            "flux": 3.4144926155770627
+          },
+          "numerical_pass": true,
+          "passes": false,
+          "estimator_false_accept": false
+        }
+      }
+    },
+    {
+      "key": "teusink-0.1-1e-10",
+      "model": "teusink",
+      "start": 1.0,
+      "h": 0.1,
+      "tolerance": 1e-10,
+      "reference_pass": true,
+      "status": "success",
+      "stats": {
+        "subflows": 6,
+        "nfev": 540,
+        "njev": 30,
+        "nlu": 84,
+        "linear_solver_setups": 0,
+        "accepted_steps": 60,
+        "rhs_seconds": 0.018122516572475433,
+        "jacobian_seconds": 0.016207833774387836,
+        "native_allocation_seconds": 0.0,
+        "reinit_seconds": 0.0,
+        "ledger_seconds": 0.027488708961755037,
+        "min_rhs": 0.00036195401276190026,
+        "min_internal": 0.0003621844092744371,
+        "pool_error": 1.9749590675267642e-16,
+        "continuous_nonnegative": true,
+        "min_hermite_scaled": 0.06843463559020736,
+        "modified_ledger_residual": 8.683886329854415e-16,
+        "modified_ledger_quadrature": 6.681191650075643e-17,
+        "physical_ledger_residual": 1.3414765008201642e-07,
+        "physical_ledger_quadrature": 0.0,
+        "seconds": 0.07469987496733665
+      },
+      "output_pool_error": 1.3393858805899714e-16,
+      "targets": {
+        "0.0001": {
+          "actual": {
+            "concentration": 0.006246025697692224,
+            "flux": 0.007896823148132184
+          },
+          "estimate": {
+            "concentration": 0.03298994133295948,
+            "flux": 0.03414505471439878
+          },
+          "numerical_pass": true,
+          "passes": false,
+          "estimator_false_accept": false
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 0.6246025697692225,
+            "flux": 0.7896823148132185
+          },
+          "estimate": {
+            "concentration": 3.2989941332959476,
+            "flux": 3.414505471439878
+          },
+          "numerical_pass": true,
+          "passes": false,
+          "estimator_false_accept": false
+        }
+      }
+    },
+    {
+      "key": "teusink-1.0-1e-08",
+      "model": "teusink",
+      "start": 1.0,
+      "h": 1.0,
+      "tolerance": 1e-08,
+      "reference_pass": true,
+      "status": "success",
+      "stats": {
+        "subflows": 6,
+        "nfev": 923,
+        "njev": 47,
+        "nlu": 120,
+        "linear_solver_setups": 0,
+        "accepted_steps": 110,
+        "rhs_seconds": 0.03042209125123918,
+        "jacobian_seconds": 0.024304417427629232,
+        "native_allocation_seconds": 0.0,
+        "reinit_seconds": 0.0,
+        "ledger_seconds": 0.048179997596889734,
+        "min_rhs": 0.00032957493450956415,
+        "min_internal": 0.0003304134535729648,
+        "pool_error": 1.9749590675267642e-16,
+        "continuous_nonnegative": true,
+        "min_hermite_scaled": 0.06843463559020736,
+        "modified_ledger_residual": 4.218708601569715e-13,
+        "modified_ledger_quadrature": 6.266097538018098e-16,
+        "physical_ledger_residual": 0.0006212029473985476,
+        "physical_ledger_quadrature": 4.427079305415976e-16,
+        "seconds": 0.12152908300049603
+      },
+      "output_pool_error": 1.7698334948809303e-16,
+      "targets": {
+        "0.0001": {
+          "actual": {
+            "concentration": 26.218653983476482,
+            "flux": 26.21865398355246
+          },
+          "estimate": {
+            "concentration": 25.818920074409604,
+            "flux": 25.818920074483774
+          },
+          "numerical_pass": false,
+          "passes": false,
+          "estimator_false_accept": false
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 2621.8653983476484,
+            "flux": 2621.8653983552463
+          },
+          "estimate": {
+            "concentration": 2581.8920074409607,
+            "flux": 2581.892007448378
+          },
+          "numerical_pass": false,
+          "passes": false,
+          "estimator_false_accept": false
+        }
+      }
+    },
+    {
+      "key": "teusink-1.0-1e-10",
+      "model": "teusink",
+      "start": 1.0,
+      "h": 1.0,
+      "tolerance": 1e-10,
+      "reference_pass": true,
+      "status": "success",
+      "stats": {
+        "subflows": 6,
+        "nfev": 2501,
+        "njev": 88,
+        "nlu": 204,
+        "linear_solver_setups": 0,
+        "accepted_steps": 317,
+        "rhs_seconds": 0.08193892636336386,
+        "jacobian_seconds": 0.045251165982335806,
+        "native_allocation_seconds": 0.0,
+        "reinit_seconds": 0.0,
+        "ledger_seconds": 0.13557858066633344,
+        "min_rhs": 0.0003295749345221427,
+        "min_internal": 0.0003304134535693548,
+        "pool_error": 5.924877202580293e-16,
+        "continuous_nonnegative": true,
+        "min_hermite_scaled": 0.06843463559020736,
+        "modified_ledger_residual": 6.725755098612733e-16,
+        "modified_ledger_quadrature": 6.973279004464113e-16,
+        "physical_ledger_residual": 0.0006212022788327457,
+        "physical_ledger_quadrature": 2.2702970797005006e-17,
+        "seconds": 0.3042663340456784
+      },
+      "output_pool_error": 2.987783294430289e-16,
+      "targets": {
+        "0.0001": {
+          "actual": {
+            "concentration": 26.218653778343924,
+            "flux": 26.218653778419927
+          },
+          "estimate": {
+            "concentration": 25.818919915634755,
+            "flux": 25.818919915709397
+          },
+          "numerical_pass": false,
+          "passes": false,
+          "estimator_false_accept": false
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 2621.865377834393,
+            "flux": 2621.865377841993
+          },
+          "estimate": {
+            "concentration": 2581.891991563476,
+            "flux": 2581.89199157094
+          },
+          "numerical_pass": false,
+          "passes": false,
+          "estimator_false_accept": false
+        }
+      }
+    },
+    {
+      "key": "teusink-9.0-1e-08",
+      "model": "teusink",
+      "start": 1.0,
+      "h": 9.0,
+      "tolerance": 1e-08,
+      "reference_pass": true,
+      "status": "success",
+      "stats": {
+        "subflows": 6,
+        "nfev": 1330,
+        "njev": 44,
+        "nlu": 168,
+        "linear_solver_setups": 0,
+        "accepted_steps": 172,
+        "rhs_seconds": 0.046235344372689724,
+        "jacobian_seconds": 0.02447583107277751,
+        "native_allocation_seconds": 0.0,
+        "reinit_seconds": 0.0,
+        "ledger_seconds": 0.07856528391130269,
+        "min_rhs": 0.00032952934159814415,
+        "min_internal": 0.0003295738869195877,
+        "pool_error": 3.9499181350535284e-16,
+        "continuous_nonnegative": true,
+        "min_hermite_scaled": 0.06843463559020736,
+        "modified_ledger_residual": 5.976654030774286e-12,
+        "modified_ledger_quadrature": 5.924270835442099e-15,
+        "physical_ledger_residual": 1.5523217127547693,
+        "physical_ledger_quadrature": 1.9357606319371448e-10,
+        "seconds": 0.17792283301241696
+      },
+      "output_pool_error": 2.603819656938574e-16,
+      "targets": {
+        "0.0001": {
+          "actual": {
+            "concentration": 1328.69085033524,
+            "flux": 1187.7360724333248
+          },
+          "estimate": {
+            "concentration": 1014.4525279144495,
+            "flux": 1418.2910415120605
+          },
+          "numerical_pass": false,
+          "passes": false,
+          "estimator_false_accept": false
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 132869.08503352402,
+            "flux": 118773.60724333249
+          },
+          "estimate": {
+            "concentration": 101445.25279144496,
+            "flux": 141829.10415120606
+          },
+          "numerical_pass": false,
+          "passes": false,
+          "estimator_false_accept": false
+        }
+      }
+    },
+    {
+      "key": "teusink-9.0-1e-10",
+      "model": "teusink",
+      "start": 1.0,
+      "h": 9.0,
+      "tolerance": 1e-10,
+      "reference_pass": true,
+      "status": "success",
+      "stats": {
+        "subflows": 6,
+        "nfev": 3785,
+        "njev": 87,
+        "nlu": 272,
+        "linear_solver_setups": 0,
+        "accepted_steps": 503,
+        "rhs_seconds": 0.12411619420163333,
+        "jacobian_seconds": 0.04499162337742746,
+        "native_allocation_seconds": 0.0,
+        "reinit_seconds": 0.0,
+        "ledger_seconds": 0.21397090097889304,
+        "min_rhs": 0.000329529341458422,
+        "min_internal": 0.0003295738869195608,
+        "pool_error": 1.382471347268735e-15,
+        "continuous_nonnegative": true,
+        "min_hermite_scaled": 0.06843463559020736,
+        "modified_ledger_residual": 2.663317637515986e-14,
+        "modified_ledger_quadrature": 7.050424545928256e-15,
+        "physical_ledger_residual": 1.5523217141297017,
+        "physical_ledger_quadrature": 1.9356716362916206e-10,
+        "seconds": 0.44336454197764397
+      },
+      "output_pool_error": 1.285849221921786e-15,
+      "targets": {
+        "0.0001": {
+          "actual": {
+            "concentration": 1328.6908512370085,
+            "flux": 1187.7360715531818
+          },
+          "estimate": {
+            "concentration": 1014.4525275606155,
+            "flux": 1418.2910374912515
+          },
+          "numerical_pass": false,
+          "passes": false,
+          "estimator_false_accept": false
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 132869.08512370085,
+            "flux": 118773.60715531817
+          },
+          "estimate": {
+            "concentration": 101445.25275606156,
+            "flux": 141829.10374912515
+          },
+          "numerical_pass": false,
+          "passes": false,
+          "estimator_false_accept": false
+        }
+      }
+    },
+    {
+      "key": "kecoli-0.01-1e-08",
+      "model": "kecoli",
+      "start": 0.1,
+      "h": 0.01,
+      "tolerance": 1e-08,
+      "reference_pass": true,
+      "status": "success",
+      "stats": {
+        "subflows": 6,
+        "nfev": 121,
+        "njev": 6,
+        "nlu": 0,
+        "linear_solver_setups": 46,
+        "accepted_steps": 82,
+        "rhs_seconds": 0.013403701363131404,
+        "jacobian_seconds": 0.0038872479926794767,
+        "native_allocation_seconds": 0.0,
+        "reinit_seconds": 6.27078115940094e-05,
+        "ledger_seconds": 0.0,
+        "min_rhs": 0.0,
+        "min_internal": 0.0,
+        "pool_error": 6.872280522429725e-13,
+        "continuous_nonnegative": true,
+        "min_hermite_scaled": 0.0,
+        "seconds": 0.7716528750024736
+      },
+      "output_pool_error": 8.252287742038796e-13,
+      "targets": {
+        "0.0001": {
+          "actual": {
+            "concentration": 0.019402154086992248,
+            "flux": 0.019573071628325854,
+            "net_flux": 0.6859915642637737
+          },
+          "estimate": {
+            "concentration": 0.01576696528450143,
+            "flux": 0.016178367727253087,
+            "net_flux": 3.537379917525
+          },
+          "numerical_pass": true,
+          "passes": true,
+          "estimator_false_accept": false
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 1.9402154086992252,
+            "flux": 1.9573071628325858,
+            "net_flux": 0.6859915642637737
+          },
+          "estimate": {
+            "concentration": 1.576696528450143,
+            "flux": 1.617836772725309,
+            "net_flux": 3.537379917525
+          },
+          "numerical_pass": false,
+          "passes": false,
+          "estimator_false_accept": false
+        }
+      }
+    },
+    {
+      "key": "kecoli-0.01-1e-10",
+      "model": "kecoli",
+      "start": 0.1,
+      "h": 0.01,
+      "tolerance": 1e-10,
+      "reference_pass": true,
+      "status": "success",
+      "stats": {
+        "subflows": 6,
+        "nfev": 226,
+        "njev": 6,
+        "nlu": 0,
+        "linear_solver_setups": 72,
+        "accepted_steps": 183,
+        "rhs_seconds": 0.026013250462710857,
+        "jacobian_seconds": 0.00427537620998919,
+        "native_allocation_seconds": 0.0,
+        "reinit_seconds": 4.9042049795389175e-05,
+        "ledger_seconds": 0.0,
+        "min_rhs": 0.0,
+        "min_internal": 0.0,
+        "pool_error": 9.571232695293483e-13,
+        "continuous_nonnegative": true,
+        "min_hermite_scaled": 0.0,
+        "seconds": 1.229371374938637
+      },
+      "output_pool_error": 1.1809225472503303e-12,
+      "targets": {
+        "0.0001": {
+          "actual": {
+            "concentration": 0.0160288063668693,
+            "flux": 0.016317981917738745,
+            "net_flux": 0.704068657395317
+          },
+          "estimate": {
+            "concentration": 0.01659944216427444,
+            "flux": 0.01700185164885665,
+            "net_flux": 0.7833751967831112
+          },
+          "numerical_pass": true,
+          "passes": true,
+          "estimator_false_accept": false
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 1.6028806366869301,
+            "flux": 1.6317981917738746,
+            "net_flux": 0.704068657395317
+          },
+          "estimate": {
+            "concentration": 1.6599442164274443,
+            "flux": 1.7001851648856652,
+            "net_flux": 0.7833751967831112
+          },
+          "numerical_pass": false,
+          "passes": false,
+          "estimator_false_accept": false
+        }
+      }
+    },
+    {
+      "key": "kecoli-0.1-1e-08",
+      "model": "kecoli",
+      "start": 0.1,
+      "h": 0.1,
+      "tolerance": 1e-08,
+      "reference_pass": true,
+      "status": "success",
+      "stats": {
+        "subflows": 6,
+        "nfev": 264,
+        "njev": 6,
+        "nlu": 0,
+        "linear_solver_setups": 75,
+        "accepted_steps": 214,
+        "rhs_seconds": 0.029707665322348475,
+        "jacobian_seconds": 0.0042204170022159815,
+        "native_allocation_seconds": 0.0,
+        "reinit_seconds": 4.2875995859503746e-05,
+        "ledger_seconds": 0.0,
+        "min_rhs": 0.0,
+        "min_internal": 0.0,
+        "pool_error": 4.968581102104967e-12,
+        "continuous_nonnegative": true,
+        "min_hermite_scaled": 0.0,
+        "seconds": 1.282444667071104
+      },
+      "output_pool_error": 4.96864875632053e-12,
+      "targets": {
+        "0.0001": {
+          "actual": {
+            "concentration": 6.643959740549152,
+            "flux": 6.702353474300386,
+            "net_flux": 216.98403060011313
+          },
+          "estimate": {
+            "concentration": 30.052826211212814,
+            "flux": 9.8918387307311,
+            "net_flux": 381.6277233219718
+          },
+          "numerical_pass": false,
+          "passes": false,
+          "estimator_false_accept": false
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 664.3959740549153,
+            "flux": 670.2353474300387,
+            "net_flux": 216.98403060011313
+          },
+          "estimate": {
+            "concentration": 3005.282621121282,
+            "flux": 989.1838730731101,
+            "net_flux": 381.6277233219718
+          },
+          "numerical_pass": false,
+          "passes": false,
+          "estimator_false_accept": false
+        }
+      }
+    },
+    {
+      "key": "kecoli-0.1-1e-10",
+      "model": "kecoli",
+      "start": 0.1,
+      "h": 0.1,
+      "tolerance": 1e-10,
+      "reference_pass": true,
+      "status": "success",
+      "stats": {
+        "subflows": 6,
+        "nfev": 518,
+        "njev": 12,
+        "nlu": 0,
+        "linear_solver_setups": 104,
+        "accepted_steps": 454,
+        "rhs_seconds": 0.05732931802049279,
+        "jacobian_seconds": 0.007872168207541108,
+        "native_allocation_seconds": 0.0,
+        "reinit_seconds": 4.095933400094509e-05,
+        "ledger_seconds": 0.0,
+        "min_rhs": 0.0,
+        "min_internal": 0.0,
+        "pool_error": 5.104805467226475e-12,
+        "continuous_nonnegative": true,
+        "min_hermite_scaled": 0.0,
+        "seconds": 1.798412875039503
+      },
+      "output_pool_error": 5.724588338085206e-12,
+      "targets": {
+        "0.0001": {
+          "actual": {
+            "concentration": 6.644937523765283,
+            "flux": 6.70148812241329,
+            "net_flux": 216.99335437163992
+          },
+          "estimate": {
+            "concentration": 30.052868710610266,
+            "flux": 9.892133363498806,
+            "net_flux": 381.63021081267243
+          },
+          "numerical_pass": false,
+          "passes": false,
+          "estimator_false_accept": false
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 664.4937523765284,
+            "flux": 670.148812241329,
+            "net_flux": 216.99335437163992
+          },
+          "estimate": {
+            "concentration": 3005.286871061027,
+            "flux": 989.2133363498806,
+            "net_flux": 381.63021081267243
+          },
+          "numerical_pass": false,
+          "passes": false,
+          "estimator_false_accept": false
+        }
+      }
+    },
+    {
+      "key": "kecoli-0.9-1e-08",
+      "model": "kecoli",
+      "start": 0.1,
+      "h": 0.9,
+      "tolerance": 1e-08,
+      "reference_pass": true,
+      "status": "success",
+      "stats": {
+        "subflows": 6,
+        "nfev": 613,
+        "njev": 13,
+        "nlu": 0,
+        "linear_solver_setups": 106,
+        "accepted_steps": 548,
+        "rhs_seconds": 0.07501767994835973,
+        "jacobian_seconds": 0.010101708816364408,
+        "native_allocation_seconds": 0.0,
+        "reinit_seconds": 4.845764487981796e-05,
+        "ledger_seconds": 0.0,
+        "min_rhs": 0.0,
+        "min_internal": 0.0,
+        "pool_error": 4.008476883754501e-11,
+        "continuous_nonnegative": true,
+        "min_hermite_scaled": 0.0,
+        "seconds": 2.3464180829469115
+      },
+      "output_pool_error": 9.087391082684978e-11,
+      "targets": {
+        "0.0001": {
+          "actual": {
+            "concentration": 491.89271720976996,
+            "flux": 498.77502702422333,
+            "net_flux": 53577.55449145104
+          },
+          "estimate": {
+            "concentration": 596.8180606775724,
+            "flux": 603.3492652521073,
+            "net_flux": 4922.548784301692
+          },
+          "numerical_pass": false,
+          "passes": false,
+          "estimator_false_accept": false
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 49189.271720977005,
+            "flux": 49877.50270242234,
+            "net_flux": 53577.55449145104
+          },
+          "estimate": {
+            "concentration": 59681.80606775725,
+            "flux": 60334.92652521073,
+            "net_flux": 4922.548784301692
+          },
+          "numerical_pass": false,
+          "passes": false,
+          "estimator_false_accept": false
+        }
+      }
+    },
+    {
+      "key": "kecoli-0.9-1e-10",
+      "model": "kecoli",
+      "start": 0.1,
+      "h": 0.9,
+      "tolerance": 1e-10,
+      "reference_pass": true,
+      "status": "success",
+      "stats": {
+        "subflows": 6,
+        "nfev": 1215,
+        "njev": 24,
+        "nlu": 0,
+        "linear_solver_setups": 148,
+        "accepted_steps": 1125,
+        "rhs_seconds": 0.14599903603084385,
+        "jacobian_seconds": 0.01813554111868143,
+        "native_allocation_seconds": 0.0,
+        "reinit_seconds": 4.849978722631931e-05,
+        "ledger_seconds": 0.0,
+        "min_rhs": 0.0,
+        "min_internal": 0.0,
+        "pool_error": 2.3033575047293217e-11,
+        "continuous_nonnegative": true,
+        "min_hermite_scaled": 0.0,
+        "seconds": 2.882104333024472
+      },
+      "output_pool_error": 7.120513467046014e-11,
+      "targets": {
+        "0.0001": {
+          "actual": {
+            "concentration": 491.89265550761615,
+            "flux": 498.77499954620714,
+            "net_flux": 53577.58054768475
+          },
+          "estimate": {
+            "concentration": 596.8180131811424,
+            "flux": 603.349223172511,
+            "net_flux": 4922.541392529528
+          },
+          "numerical_pass": false,
+          "passes": false,
+          "estimator_false_accept": false
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 49189.26555076162,
+            "flux": 49877.49995462072,
+            "net_flux": 53577.58054768475
+          },
+          "estimate": {
+            "concentration": 59681.80131811424,
+            "flux": 60334.9223172511,
+            "net_flux": 4922.541392529528
+          },
+          "numerical_pass": false,
+          "passes": false,
+          "estimator_false_accept": false
+        }
+      }
+    }
+  ],
+  "source_sha256": {
+    "research/m3_priority.py": "262476fc89714fd7db59cfabd7e57f35201d0b221a499b63311844e984af88a6",
+    "research/mri_kernel.py": "e0dae63ea82d025f63f6ed9b78b5d581b92f036df3cddb67d52e9450a40872c3",
+    "research/mri_native.py": "cc561b393b305dcd72e3767b14ce2bca7db2b106aade91dd13e5e174bfaf21e3",
+    "research/test_mri_kernel.py": "3ad9a61ffe03328a83d21db2ece7f6a6c553518e61ecc92ded0cbecc2720ed72",
+    "metabolism/__init__.py": "741ff9b36f011f5cbb72e2a148f9b67c30dbdfaac866116b971f5255826801da",
+    "metabolism/adaptive.py": "427c67bfba193a79fb6d3d96aecc5ed01efa1a5d3fc7cbc82e525f3cf851db69",
+    "metabolism/splitting.py": "12ccc9526113e7080d9b56c7763c56a79d37a7fd9c2bacb9b25b2e7f6d1164a3",
+    "metabolism/cvode.py": "6733fb499c0262bf87dc2040dd6aec44a91085f1dbe1b12f0056f8eb277e05c2",
+    "metabolism/sbml.py": "329df467e990958ee5373055020baadfed301dcbe32c0243d6a37b2aae6c5c2a",
+    "metabolism/kecoli.py": "73f46ac5ceebe3242c8dc313fa80fb1588a32c82a58527b305f69fcd0fd4d851",
+    "metabolism/m3_continuation.py": "90b539d8f7ce2dae6d574b6285bcd66fcb4b95b3950f96ff81fed6301bd65401",
+    "metabolism/m2_experiments.py": "7e80077011e0f9a7e0fc63e2c4019e62aa229cef560eb7b79669dfe024a893f2"
+  }
+}

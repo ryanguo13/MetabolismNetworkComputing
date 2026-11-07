@@ -6,6 +6,8 @@
 
 **最新研究：**结合文献完成 24 个大模型局部探针，MRI-GARK 与完整 RHS Hermite 输出明显改善了选定样例的耦合／输出误差；完整窗口效率仍待解决。下一轮建议与失败样例见 [M3 瓶颈研究](docs/m3-research-resolution.md)。
 
+**优先级执行结果：**后续 P0/P1 已完成 68 个局部配置、开放收支和输出内部负值核验，以及缓存／缩维／内核成本对照。局部精度有进展，但 P1 没有成本优势，按停止条件不进入 P2/P3；见 [执行报告](docs/m3-priority-execution.md)。
+
 ## 研究问题
 
 在相同轨迹精度下，能否利用代谢网络的可逆反应、局部时间尺度与化学计量结构，降低相对于成熟稀疏隐式求解器的总计算成本，同时控制守恒误差、负浓度和长期漂移？
@@ -28,6 +30,7 @@
 | [M3 动态分裂阶段报告](docs/m3-completion-report.md) | 估计器反例、独立审计、回滚、完整窗口消融及停止扩展的证据 |
 | [M3 macOS 续作报告](docs/m3-macos-continuation.md) | Mac 适配、输出／缓存策略、512 次尝试预算、同机强基线与 M4 再准入核验 |
 | [M3 瓶颈研究](docs/m3-research-resolution.md) | MRI-GARK／balanced 文献、24 个局部对照、Hermite 输出及下一轮研究路线 |
+| [M3 P0/P1 执行报告](docs/m3-priority-execution.md) | 两模型局部扩展、两套开放收支、原生重用与成本停止决定 |
 | [BibTeX 文献库](references.bib) | 与综述编号对应的可引用条目 |
 
 ## 运行 M1

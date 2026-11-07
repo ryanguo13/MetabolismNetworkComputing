@@ -1,0 +1,213 @@
+{
+  "checks": {
+    "all_declared_source_versions_resolve": true,
+    "registered_48_P0_cases": true,
+    "four_startup_followups": true,
+    "four_early_layer_followups": true,
+    "twelve_step_growth_followups": true,
+    "saved_actual_errors_and_P0_reference_budgets_recompute": true,
+    "Hermite_curves_and_internal_extrema_recompute": true,
+    "all_reference_budgets_pass": true,
+    "both_models_all_registered_starts_have_tight_local_candidate": true,
+    "Hermite_negative_trials_rejected": true,
+    "accepted_open_ledger_checks_pass": true,
+    "three_interleaved_development_repeats_and_qualified_controls": true,
+    "no_measured_P1_cost_prospect": true,
+    "kernel_checks_pass": true
+  },
+  "P0": "local_candidates_verified_with_failures_retained",
+  "P1": "stop_no_measured_cost_prospect",
+  "P2": "not_started_due_to_P1_gate",
+  "P3": "not_started_due_to_P1_gate",
+  "M4": "not_admitted",
+  "local_attempts": 68,
+  "negative_curve_rejections": 4,
+  "cases": [
+    {
+      "model": "teusink",
+      "stage": "p0",
+      "total": 24,
+      "loose_pass": 12,
+      "tight_pass": 10
+    },
+    {
+      "model": "kecoli",
+      "stage": "p0",
+      "total": 24,
+      "loose_pass": 14,
+      "tight_pass": 14
+    },
+    {
+      "model": "teusink",
+      "stage": "startup",
+      "total": 4,
+      "loose_pass": 4,
+      "tight_pass": 4
+    },
+    {
+      "model": "kecoli",
+      "stage": "startup",
+      "total": 0,
+      "loose_pass": 0,
+      "tight_pass": 0
+    },
+    {
+      "model": "teusink",
+      "stage": "startup-early",
+      "total": 4,
+      "loose_pass": 4,
+      "tight_pass": 4
+    },
+    {
+      "model": "kecoli",
+      "stage": "startup-early",
+      "total": 0,
+      "loose_pass": 0,
+      "tight_pass": 0
+    },
+    {
+      "model": "teusink",
+      "stage": "growth",
+      "total": 6,
+      "loose_pass": 0,
+      "tight_pass": 0
+    },
+    {
+      "model": "kecoli",
+      "stage": "growth",
+      "total": 6,
+      "loose_pass": 2,
+      "tight_pass": 0
+    }
+  ],
+  "costs": [
+    {
+      "dataset": "p1-cached",
+      "model": "teusink",
+      "variant": "radau-full",
+      "h": 0.01,
+      "local_accuracy_pass": true,
+      "median": 0.023327792063355446,
+      "iqr": 0.0007770205847918987,
+      "kernel_median": 0.015825041802600026,
+      "full_local_median": 0.005789583083242178,
+      "cost_ratio": 4.029269763979592
+    },
+    {
+      "dataset": "p1-cached",
+      "model": "teusink",
+      "variant": "radau-reduced",
+      "h": 0.01,
+      "local_accuracy_pass": true,
+      "median": 0.023506833938881755,
+      "iqr": 0.00016222905833274126,
+      "kernel_median": 0.015800541965290904,
+      "full_local_median": 0.005789583083242178,
+      "cost_ratio": 4.0601945944815565
+    },
+    {
+      "dataset": "p1-cached",
+      "model": "kecoli",
+      "variant": "native-full-fresh",
+      "h": 0.001,
+      "local_accuracy_pass": true,
+      "median": 0.6388667090795934,
+      "iqr": 0.005855604074895382,
+      "kernel_median": 0.34784295805729926,
+      "full_local_median": 0.2067263750359416,
+      "cost_ratio": 3.0903976764867065
+    },
+    {
+      "dataset": "p1-cached",
+      "model": "kecoli",
+      "variant": "native-reduced-fresh",
+      "h": 0.001,
+      "local_accuracy_pass": true,
+      "median": 0.7405263751279563,
+      "iqr": 0.008870374993421137,
+      "kernel_median": 0.45605266699567437,
+      "full_local_median": 0.2067263750359416,
+      "cost_ratio": 3.582157211430848
+    },
+    {
+      "dataset": "p1-cached",
+      "model": "kecoli",
+      "variant": "native-reduced-reused",
+      "h": 0.001,
+      "local_accuracy_pass": true,
+      "median": 0.7351672921795398,
+      "iqr": 0.005426687886938453,
+      "kernel_median": 0.4517235839739442,
+      "full_local_median": 0.2067263750359416,
+      "cost_ratio": 3.556233654519038
+    },
+    {
+      "dataset": "p1-cached",
+      "model": "kecoli",
+      "variant": "radau-reduced",
+      "h": 0.001,
+      "local_accuracy_pass": true,
+      "median": 0.6235577501356602,
+      "iqr": 0.01296079100575298,
+      "kernel_median": 0.3346261668484658,
+      "full_local_median": 0.2067263750359416,
+      "cost_ratio": 3.0163434638044997
+    },
+    {
+      "dataset": "p1-growth",
+      "model": "kecoli",
+      "variant": "native-full-fresh",
+      "h": 0.01,
+      "local_accuracy_pass": false,
+      "median": 1.250018874881789,
+      "iqr": 0.060583520447835326,
+      "kernel_median": 0.8699135419446975,
+      "full_local_median": 0.2552727498114109,
+      "cost_ratio": 4.896797154436859
+    },
+    {
+      "dataset": "p1-growth",
+      "model": "kecoli",
+      "variant": "native-reduced-fresh",
+      "h": 0.01,
+      "local_accuracy_pass": true,
+      "median": 1.29818637506105,
+      "iqr": 0.17550358304288238,
+      "kernel_median": 0.8853618330322206,
+      "full_local_median": 0.2552727498114109,
+      "cost_ratio": 5.085487487481988
+    },
+    {
+      "dataset": "p1-growth",
+      "model": "kecoli",
+      "variant": "native-reduced-reused",
+      "h": 0.01,
+      "local_accuracy_pass": true,
+      "median": 1.157563665881753,
+      "iqr": 0.003175999503582716,
+      "kernel_median": 0.7978868749924004,
+      "full_local_median": 0.2552727498114109,
+      "cost_ratio": 4.534615099876238
+    },
+    {
+      "dataset": "p1-growth",
+      "model": "kecoli",
+      "variant": "radau-reduced",
+      "h": 0.01,
+      "local_accuracy_pass": true,
+      "median": 1.2324181250296533,
+      "iqr": 0.05171949998475611,
+      "kernel_median": 0.8592345418874174,
+      "full_local_median": 0.2552727498114109,
+      "cost_ratio": 4.8278483541237085
+    }
+  ],
+  "limits": [
+    "Local development data, no full-window or speedup qualification.",
+    "No proof of global estimator reliability; no online acceptance controller.",
+    "Polynomial extrema checked in float64, not a rigorous interval-arithmetic positivity proof.",
+    "Startup/growth reference tightening was checked online; only P0 saves both reference tolerances.",
+    "P1 timings are three development repeats; full-only native wrapper does not expose all internal accepted states.",
+    "KLU allocation reuse does not preserve symbolic analysis across CVODE reinitialization."
+  ]
+}

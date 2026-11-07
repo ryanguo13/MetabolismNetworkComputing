@@ -1,0 +1,11 @@
+{
+  "date": "2026-11-07",
+  "timezone": "Asia/Shanghai",
+  "platform": "macOS-26.6.2-arm64-arm-64bit",
+  "python": "3.12.10 (main, May 22 2025, 01:38:44) [Clang 20.1.4 ]",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1",
+  "threads": 1,
+  "base_commit": "b134119e879a22ee85d1ab2ef6cf171b2c3f84a5",
+  "native": "Pinned project SUNDIALS 6.4.1 + KLU, unchanged ABI; new isolated research binding"
+}

@@ -1,0 +1,11 @@
+{
+  "command": [
+    "/Users/guojunhua/Documents/MetabolismNetworkComputing/.venv/bin/python",
+    "-m",
+    "unittest",
+    "research.test_mri_kernel",
+    "-v"
+  ],
+  "returncode": 0,
+  "sha256": "3ad9a61ffe03328a83d21db2ece7f6a6c553518e61ecc92ded0cbecc2720ed72"
+}
