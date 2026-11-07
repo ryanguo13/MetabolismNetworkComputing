@@ -1,0 +1,588 @@
+{
+  "date": "2026-11-07",
+  "stress": {
+    "teusink/fixed/0.0001/0.0001": {
+      "steps": 8,
+      "local_pass": 8,
+      "policy_accept": 8,
+      "numerical_false_accept": 0,
+      "policy_false_accept": 0,
+      "global_exceed": 0,
+      "accepted_path_global_exceed": 0
+    },
+    "teusink/fixed/0.0001/1e-06": {
+      "steps": 8,
+      "local_pass": 8,
+      "policy_accept": 8,
+      "numerical_false_accept": 0,
+      "policy_false_accept": 0,
+      "global_exceed": 0,
+      "accepted_path_global_exceed": 0
+    },
+    "teusink/fixed/0.001/0.0001": {
+      "steps": 8,
+      "local_pass": 8,
+      "policy_accept": 8,
+      "numerical_false_accept": 0,
+      "policy_false_accept": 0,
+      "global_exceed": 0,
+      "accepted_path_global_exceed": 0
+    },
+    "teusink/fixed/0.001/1e-06": {
+      "steps": 8,
+      "local_pass": 8,
+      "policy_accept": 8,
+      "numerical_false_accept": 0,
+      "policy_false_accept": 0,
+      "global_exceed": 0,
+      "accepted_path_global_exceed": 0
+    },
+    "teusink/switch/0.0001/0.0001": {
+      "steps": 8,
+      "local_pass": 8,
+      "policy_accept": 8,
+      "numerical_false_accept": 0,
+      "policy_false_accept": 0,
+      "global_exceed": 0,
+      "accepted_path_global_exceed": 0
+    },
+    "teusink/switch/0.0001/1e-06": {
+      "steps": 8,
+      "local_pass": 8,
+      "policy_accept": 8,
+      "numerical_false_accept": 0,
+      "policy_false_accept": 0,
+      "global_exceed": 0,
+      "accepted_path_global_exceed": 0
+    },
+    "teusink/switch/0.001/0.0001": {
+      "steps": 8,
+      "local_pass": 1,
+      "policy_accept": 1,
+      "numerical_false_accept": 0,
+      "policy_false_accept": 0,
+      "global_exceed": 0,
+      "accepted_path_global_exceed": 0
+    },
+    "teusink/switch/0.001/1e-06": {
+      "steps": 8,
+      "local_pass": 1,
+      "policy_accept": 1,
+      "numerical_false_accept": 0,
+      "policy_false_accept": 0,
+      "global_exceed": 3,
+      "accepted_path_global_exceed": 0
+    },
+    "teusink/perturbed/0.0001/0.0001": {
+      "steps": 8,
+      "local_pass": 8,
+      "policy_accept": 8,
+      "numerical_false_accept": 0,
+      "policy_false_accept": 0,
+      "global_exceed": 0,
+      "accepted_path_global_exceed": 0
+    },
+    "teusink/perturbed/0.0001/1e-06": {
+      "steps": 8,
+      "local_pass": 7,
+      "policy_accept": 7,
+      "numerical_false_accept": 0,
+      "policy_false_accept": 0,
+      "global_exceed": 1,
+      "accepted_path_global_exceed": 0
+    },
+    "teusink/perturbed/0.001/0.0001": {
+      "steps": 8,
+      "local_pass": 8,
+      "policy_accept": 8,
+      "numerical_false_accept": 0,
+      "policy_false_accept": 0,
+      "global_exceed": 0,
+      "accepted_path_global_exceed": 0
+    },
+    "teusink/perturbed/0.001/1e-06": {
+      "steps": 8,
+      "local_pass": 7,
+      "policy_accept": 7,
+      "numerical_false_accept": 0,
+      "policy_false_accept": 0,
+      "global_exceed": 1,
+      "accepted_path_global_exceed": 0
+    },
+    "kecoli/fixed/0.0001/0.0001": {
+      "steps": 8,
+      "local_pass": 8,
+      "policy_accept": 8,
+      "numerical_false_accept": 0,
+      "policy_false_accept": 0,
+      "global_exceed": 0,
+      "accepted_path_global_exceed": 0
+    },
+    "kecoli/fixed/0.0001/1e-06": {
+      "steps": 8,
+      "local_pass": 8,
+      "policy_accept": 8,
+      "numerical_false_accept": 0,
+      "policy_false_accept": 0,
+      "global_exceed": 0,
+      "accepted_path_global_exceed": 0
+    },
+    "kecoli/fixed/0.001/0.0001": {
+      "steps": 8,
+      "local_pass": 8,
+      "policy_accept": 8,
+      "numerical_false_accept": 0,
+      "policy_false_accept": 0,
+      "global_exceed": 0,
+      "accepted_path_global_exceed": 0
+    },
+    "kecoli/fixed/0.001/1e-06": {
+      "steps": 8,
+      "local_pass": 8,
+      "policy_accept": 8,
+      "numerical_false_accept": 0,
+      "policy_false_accept": 0,
+      "global_exceed": 0,
+      "accepted_path_global_exceed": 0
+    },
+    "kecoli/switch/0.0001/0.0001": {
+      "steps": 8,
+      "local_pass": 8,
+      "policy_accept": 8,
+      "numerical_false_accept": 0,
+      "policy_false_accept": 0,
+      "global_exceed": 0,
+      "accepted_path_global_exceed": 0
+    },
+    "kecoli/switch/0.0001/1e-06": {
+      "steps": 8,
+      "local_pass": 8,
+      "policy_accept": 8,
+      "numerical_false_accept": 0,
+      "policy_false_accept": 0,
+      "global_exceed": 0,
+      "accepted_path_global_exceed": 0
+    },
+    "kecoli/switch/0.001/0.0001": {
+      "steps": 8,
+      "local_pass": 8,
+      "policy_accept": 8,
+      "numerical_false_accept": 0,
+      "policy_false_accept": 0,
+      "global_exceed": 0,
+      "accepted_path_global_exceed": 0
+    },
+    "kecoli/switch/0.001/1e-06": {
+      "steps": 8,
+      "local_pass": 8,
+      "policy_accept": 8,
+      "numerical_false_accept": 0,
+      "policy_false_accept": 0,
+      "global_exceed": 0,
+      "accepted_path_global_exceed": 0
+    },
+    "kecoli/perturbed/0.0001/0.0001": {
+      "steps": 8,
+      "local_pass": 7,
+      "policy_accept": 7,
+      "numerical_false_accept": 0,
+      "policy_false_accept": 0,
+      "global_exceed": 1,
+      "accepted_path_global_exceed": 0
+    },
+    "kecoli/perturbed/0.0001/1e-06": {
+      "steps": 8,
+      "local_pass": 6,
+      "policy_accept": 6,
+      "numerical_false_accept": 0,
+      "policy_false_accept": 0,
+      "global_exceed": 2,
+      "accepted_path_global_exceed": 0
+    },
+    "kecoli/perturbed/0.001/0.0001": {
+      "steps": 8,
+      "local_pass": 7,
+      "policy_accept": 7,
+      "numerical_false_accept": 0,
+      "policy_false_accept": 0,
+      "global_exceed": 1,
+      "accepted_path_global_exceed": 0
+    },
+    "kecoli/perturbed/0.001/1e-06": {
+      "steps": 8,
+      "local_pass": 6,
+      "policy_accept": 5,
+      "numerical_false_accept": 0,
+      "policy_false_accept": 0,
+      "global_exceed": 2,
+      "accepted_path_global_exceed": 0
+    }
+  },
+  "cost": {
+    "teusink/0.01/0.0001/mri-default/1e-08": {
+      "repeats": 3,
+      "all_pass": true,
+      "median_seconds": 0.03386808396317065,
+      "median_audited_seconds": 0.0378958759829402
+    },
+    "teusink/0.01/1e-06/mri-default/1e-08": {
+      "repeats": 3,
+      "all_pass": true,
+      "median_seconds": 0.03386808396317065,
+      "median_audited_seconds": 0.0378958759829402
+    },
+    "teusink/0.01/0.0001/mri-default/1e-10": {
+      "repeats": 3,
+      "all_pass": true,
+      "median_seconds": 0.035525792045518756,
+      "median_audited_seconds": 0.039553584065288305
+    },
+    "teusink/0.01/1e-06/mri-default/1e-10": {
+      "repeats": 3,
+      "all_pass": true,
+      "median_seconds": 0.035525792045518756,
+      "median_audited_seconds": 0.039553584065288305
+    },
+    "teusink/0.01/0.0001/mri-ordered/1e-08": {
+      "repeats": 3,
+      "all_pass": true,
+      "median_seconds": 0.03246870799921453,
+      "median_audited_seconds": 0.03649650001898408
+    },
+    "teusink/0.01/1e-06/mri-ordered/1e-08": {
+      "repeats": 3,
+      "all_pass": true,
+      "median_seconds": 0.03246870799921453,
+      "median_audited_seconds": 0.03649650001898408
+    },
+    "teusink/0.01/0.0001/mri-ordered/1e-10": {
+      "repeats": 3,
+      "all_pass": true,
+      "median_seconds": 0.035224542021751404,
+      "median_audited_seconds": 0.03925233404152095
+    },
+    "teusink/0.01/1e-06/mri-ordered/1e-10": {
+      "repeats": 3,
+      "all_pass": true,
+      "median_seconds": 0.035224542021751404,
+      "median_audited_seconds": 0.03925233404152095
+    },
+    "teusink/0.01/0.0001/full-default/1e-08": {
+      "repeats": 3,
+      "all_pass": true,
+      "median_seconds": 0.009201082866638899,
+      "median_audited_seconds": null
+    },
+    "teusink/0.01/1e-06/full-default/1e-08": {
+      "repeats": 3,
+      "all_pass": true,
+      "median_seconds": 0.009201082866638899,
+      "median_audited_seconds": null
+    },
+    "teusink/0.01/0.0001/full-default/1e-10": {
+      "repeats": 3,
+      "all_pass": true,
+      "median_seconds": 0.01054500020109117,
+      "median_audited_seconds": null
+    },
+    "teusink/0.01/1e-06/full-default/1e-10": {
+      "repeats": 3,
+      "all_pass": true,
+      "median_seconds": 0.01054500020109117,
+      "median_audited_seconds": null
+    },
+    "teusink/0.01/0.0001/full-ordered/1e-08": {
+      "repeats": 3,
+      "all_pass": true,
+      "median_seconds": 0.008723124861717224,
+      "median_audited_seconds": null
+    },
+    "teusink/0.01/1e-06/full-ordered/1e-08": {
+      "repeats": 3,
+      "all_pass": true,
+      "median_seconds": 0.008723124861717224,
+      "median_audited_seconds": null
+    },
+    "teusink/0.01/0.0001/full-ordered/1e-10": {
+      "repeats": 3,
+      "all_pass": true,
+      "median_seconds": 0.010088375071063638,
+      "median_audited_seconds": null
+    },
+    "teusink/0.01/1e-06/full-ordered/1e-10": {
+      "repeats": 3,
+      "all_pass": true,
+      "median_seconds": 0.010088375071063638,
+      "median_audited_seconds": null
+    },
+    "kecoli/0.001/0.0001/mri-default/1e-08": {
+      "repeats": 3,
+      "all_pass": true,
+      "median_seconds": 0.7723275001626462,
+      "median_audited_seconds": 1.0683205001987517
+    },
+    "kecoli/0.001/1e-06/mri-default/1e-08": {
+      "repeats": 3,
+      "all_pass": true,
+      "median_seconds": 0.7723275001626462,
+      "median_audited_seconds": 1.0683205001987517
+    },
+    "kecoli/0.001/0.0001/mri-default/1e-10": {
+      "repeats": 3,
+      "all_pass": true,
+      "median_seconds": 0.8976179999299347,
+      "median_audited_seconds": 1.1936109999660403
+    },
+    "kecoli/0.001/1e-06/mri-default/1e-10": {
+      "repeats": 3,
+      "all_pass": true,
+      "median_seconds": 0.8976179999299347,
+      "median_audited_seconds": 1.1936109999660403
+    },
+    "kecoli/0.001/0.0001/mri-ordered/1e-08": {
+      "repeats": 3,
+      "all_pass": true,
+      "median_seconds": 0.5714863338507712,
+      "median_audited_seconds": 0.8674793338868767
+    },
+    "kecoli/0.001/1e-06/mri-ordered/1e-08": {
+      "repeats": 3,
+      "all_pass": true,
+      "median_seconds": 0.5714863338507712,
+      "median_audited_seconds": 0.8674793338868767
+    },
+    "kecoli/0.001/0.0001/mri-ordered/1e-10": {
+      "repeats": 3,
+      "all_pass": true,
+      "median_seconds": 0.49298941693268716,
+      "median_audited_seconds": 0.7889824169687927
+    },
+    "kecoli/0.001/1e-06/mri-ordered/1e-10": {
+      "repeats": 3,
+      "all_pass": true,
+      "median_seconds": 0.49298941693268716,
+      "median_audited_seconds": 0.7889824169687927
+    },
+    "kecoli/0.001/0.0001/full-default/1e-08": {
+      "repeats": 3,
+      "all_pass": true,
+      "median_seconds": 0.11429758300073445,
+      "median_audited_seconds": null
+    },
+    "kecoli/0.001/1e-06/full-default/1e-08": {
+      "repeats": 3,
+      "all_pass": true,
+      "median_seconds": 0.11429758300073445,
+      "median_audited_seconds": null
+    },
+    "kecoli/0.001/0.0001/full-default/1e-10": {
+      "repeats": 3,
+      "all_pass": true,
+      "median_seconds": 0.21780554205179214,
+      "median_audited_seconds": null
+    },
+    "kecoli/0.001/1e-06/full-default/1e-10": {
+      "repeats": 3,
+      "all_pass": true,
+      "median_seconds": 0.21780554205179214,
+      "median_audited_seconds": null
+    },
+    "kecoli/0.001/0.0001/full-ordered/1e-08": {
+      "repeats": 3,
+      "all_pass": true,
+      "median_seconds": 0.0410715420730412,
+      "median_audited_seconds": null
+    },
+    "kecoli/0.001/1e-06/full-ordered/1e-08": {
+      "repeats": 3,
+      "all_pass": true,
+      "median_seconds": 0.0410715420730412,
+      "median_audited_seconds": null
+    },
+    "kecoli/0.001/0.0001/full-ordered/1e-10": {
+      "repeats": 3,
+      "all_pass": true,
+      "median_seconds": 0.06605829205363989,
+      "median_audited_seconds": null
+    },
+    "kecoli/0.001/1e-06/full-ordered/1e-10": {
+      "repeats": 3,
+      "all_pass": true,
+      "median_seconds": 0.06605829205363989,
+      "median_audited_seconds": null
+    },
+    "kecoli/0.001/0.0001/full-cvode/1e-08": {
+      "repeats": 3,
+      "all_pass": true,
+      "median_seconds": 0.14541075006127357,
+      "median_audited_seconds": null
+    },
+    "kecoli/0.001/1e-06/full-cvode/1e-08": {
+      "repeats": 3,
+      "all_pass": true,
+      "median_seconds": 0.14541075006127357,
+      "median_audited_seconds": null
+    },
+    "kecoli/0.001/0.0001/full-cvode/1e-10": {
+      "repeats": 3,
+      "all_pass": true,
+      "median_seconds": 0.23966704192571342,
+      "median_audited_seconds": null
+    },
+    "kecoli/0.001/1e-06/full-cvode/1e-10": {
+      "repeats": 3,
+      "all_pass": true,
+      "median_seconds": 0.23966704192571342,
+      "median_audited_seconds": null
+    },
+    "kecoli/0.01/0.0001/mri-default/1e-08": {
+      "repeats": 3,
+      "all_pass": true,
+      "median_seconds": 1.3032683341298252,
+      "median_audited_seconds": 1.7264872931409627
+    },
+    "kecoli/0.01/1e-06/mri-default/1e-08": {
+      "repeats": 3,
+      "all_pass": false,
+      "median_seconds": 1.3032683341298252,
+      "median_audited_seconds": 1.7264872931409627
+    },
+    "kecoli/0.01/0.0001/mri-default/1e-10": {
+      "repeats": 3,
+      "all_pass": true,
+      "median_seconds": 3.146132000023499,
+      "median_audited_seconds": 3.5693509590346366
+    },
+    "kecoli/0.01/1e-06/mri-default/1e-10": {
+      "repeats": 3,
+      "all_pass": false,
+      "median_seconds": 3.146132000023499,
+      "median_audited_seconds": 3.5693509590346366
+    },
+    "kecoli/0.01/0.0001/mri-ordered/1e-08": {
+      "repeats": 3,
+      "all_pass": true,
+      "median_seconds": 0.6171498328913003,
+      "median_audited_seconds": 1.0403687919024378
+    },
+    "kecoli/0.01/1e-06/mri-ordered/1e-08": {
+      "repeats": 3,
+      "all_pass": false,
+      "median_seconds": 0.6171498328913003,
+      "median_audited_seconds": 1.0403687919024378
+    },
+    "kecoli/0.01/0.0001/mri-ordered/1e-10": {
+      "repeats": 3,
+      "all_pass": true,
+      "median_seconds": 0.7078431250993162,
+      "median_audited_seconds": 1.1310620841104537
+    },
+    "kecoli/0.01/1e-06/mri-ordered/1e-10": {
+      "repeats": 3,
+      "all_pass": false,
+      "median_seconds": 0.7078431250993162,
+      "median_audited_seconds": 1.1310620841104537
+    },
+    "kecoli/0.01/0.0001/full-default/1e-08": {
+      "repeats": 3,
+      "all_pass": true,
+      "median_seconds": 0.26753645786084235,
+      "median_audited_seconds": null
+    },
+    "kecoli/0.01/1e-06/full-default/1e-08": {
+      "repeats": 3,
+      "all_pass": true,
+      "median_seconds": 0.26753645786084235,
+      "median_audited_seconds": null
+    },
+    "kecoli/0.01/0.0001/full-default/1e-10": {
+      "repeats": 3,
+      "all_pass": true,
+      "median_seconds": 0.3038245839998126,
+      "median_audited_seconds": null
+    },
+    "kecoli/0.01/1e-06/full-default/1e-10": {
+      "repeats": 3,
+      "all_pass": true,
+      "median_seconds": 0.3038245839998126,
+      "median_audited_seconds": null
+    },
+    "kecoli/0.01/0.0001/full-ordered/1e-08": {
+      "repeats": 3,
+      "all_pass": true,
+      "median_seconds": 0.0599762499332428,
+      "median_audited_seconds": null
+    },
+    "kecoli/0.01/1e-06/full-ordered/1e-08": {
+      "repeats": 3,
+      "all_pass": true,
+      "median_seconds": 0.0599762499332428,
+      "median_audited_seconds": null
+    },
+    "kecoli/0.01/0.0001/full-ordered/1e-10": {
+      "repeats": 3,
+      "all_pass": true,
+      "median_seconds": 0.06942149996757507,
+      "median_audited_seconds": null
+    },
+    "kecoli/0.01/1e-06/full-ordered/1e-10": {
+      "repeats": 3,
+      "all_pass": true,
+      "median_seconds": 0.06942149996757507,
+      "median_audited_seconds": null
+    },
+    "kecoli/0.01/0.0001/full-cvode/1e-08": {
+      "repeats": 3,
+      "all_pass": true,
+      "median_seconds": 0.21972012496553361,
+      "median_audited_seconds": null
+    },
+    "kecoli/0.01/1e-06/full-cvode/1e-08": {
+      "repeats": 3,
+      "all_pass": true,
+      "median_seconds": 0.21972012496553361,
+      "median_audited_seconds": null
+    },
+    "kecoli/0.01/0.0001/full-cvode/1e-10": {
+      "repeats": 3,
+      "all_pass": true,
+      "median_seconds": 0.30961837503127754,
+      "median_audited_seconds": null
+    },
+    "kecoli/0.01/1e-06/full-cvode/1e-10": {
+      "repeats": 3,
+      "all_pass": true,
+      "median_seconds": 0.30961837503127754,
+      "median_audited_seconds": null
+    }
+  },
+  "optimized_audit": {
+    "teusink/0.01": {
+      "median_audit_seconds": 0.003947499906644225,
+      "median_estimator_seconds": 0.003595895483158529,
+      "ratio": 0.9109298462822268
+    },
+    "kecoli/0.001": {
+      "median_audit_seconds": 0.12435274990275502,
+      "median_estimator_seconds": 0.06316785397939384,
+      "ratio": 0.5079731170303163
+    },
+    "kecoli/0.01": {
+      "median_audit_seconds": 0.36497249989770353,
+      "median_estimator_seconds": 0.05733062501531094,
+      "ratio": 0.15708204051368221
+    }
+  },
+  "checks": {
+    "packaged_arrays": 1200,
+    "stress_steps_recomputed": 96,
+    "cost_runs_recomputed": 112,
+    "prior_shadow_manifest_unchanged": 1
+  },
+  "M4_admission": false,
+  "limitations": [
+    "Short forced diagnostic paths, not an online controller or full-window qualification.",
+    "Development repeats only; CVODE baseline does not expose all internal-state checks.",
+    "Local full-system auditing remains mandatory."
+  ]
+}

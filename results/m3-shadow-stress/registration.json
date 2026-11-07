@@ -1,0 +1,45 @@
+{
+  "date": "2026-11-07",
+  "specs": {
+    "teusink": {
+      "start": 0.02,
+      "steps": [
+        0.0001,
+        0.001
+      ]
+    },
+    "kecoli": {
+      "start": 0.03,
+      "steps": [
+        0.0001,
+        0.001
+      ]
+    }
+  },
+  "steps_per_path": 8,
+  "tolerance": 1e-10,
+  "scenarios": [
+    "fixed",
+    "switch",
+    "perturbed"
+  ],
+  "perturbation": "Positive first state multiplied by 1.01; references use the same perturbed start, no claim of original-pool preservation across perturbation.",
+  "switch": "Recompute groups every step, alternating kappa thresholds .01 and .1 with multiplier 1e-3. State is continuous.",
+  "estimator_grid": 17,
+  "independent_grid": 65,
+  "public_observation_points": true,
+  "advance": "Forced diagnostic candidate path even on error rejection; stop on negative curve or solver failure. Never a production accepted path.",
+  "false_accept_stop": "Any numerical or structural-policy false acceptance prohibits controller promotion; retain all other planned diagnostic paths.",
+  "cumulative": "Global full reference from the same path initial state. Local scores are NOT global acceptance guarantees.",
+  "source_sha256": {
+    "research/m3_shadow_stress.py": "00572c40cdc6fb770df54195b61dce492678a0fa57d3550d35a102261cb0fdd2",
+    "research/defect_fast.py": "faaaafcb2cf069123bbacae3307c751dc6dce8dd0eb4e33f896981f39700e479",
+    "research/defect_shadow.py": "9197ca77f0143937c3169088ab7b8185f04598b75f1325f68d38016344de2265",
+    "research/mri_kernel.py": "e0dae63ea82d025f63f6ed9b78b5d581b92f036df3cddb67d52e9450a40872c3",
+    "research/mri_native.py": "cc561b393b305dcd72e3767b14ce2bca7db2b106aade91dd13e5e174bfaf21e3",
+    "research/m3_priority.py": "6cc6821a1ac9a811f16d25c20c067b9d0516d1cb3bf60b9d144bdc93adc43856",
+    "research/m3_shadow_study.py": "b5729d42661a6c9df5ea5ee7f9e8182d74104ec559b9e4f7bdb8bff09227bea0",
+    "metabolism/adaptive.py": "427c67bfba193a79fb6d3d96aecc5ed01efa1a5d3fc7cbc82e525f3cf851db69",
+    "metabolism/m3_continuation.py": "90b539d8f7ce2dae6d574b6285bcd66fcb4b95b3950f96ff81fed6301bd65401"
+  }
+}

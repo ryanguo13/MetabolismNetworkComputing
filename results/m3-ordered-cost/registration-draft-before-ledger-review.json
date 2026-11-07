@@ -1,0 +1,47 @@
+{
+  "date": "2026-11-07",
+  "specs": [
+    [
+      "teusink",
+      1.0,
+      0.01
+    ],
+    [
+      "kecoli",
+      0.1,
+      0.001
+    ],
+    [
+      "kecoli",
+      0.1,
+      0.01
+    ]
+  ],
+  "methods": [
+    "mri-default",
+    "mri-ordered",
+    "full-default",
+    "full-ordered",
+    "full-cvode"
+  ],
+  "warmups": 1,
+  "development_repeats": 3,
+  "tolerances": [
+    1e-08,
+    1e-10
+  ],
+  "scope": "Local development screen; full independent audits remain; no online controller or formal performance qualification.",
+  "fairness": "Same ordering available to MRI and full Radau. Same RHS and analytic/complex-step Jacobian. CVODE remains an additional baseline. MRI structural checks retained.",
+  "timing": "Setup, output, internal state diagnostics, pool/ledger postchecks and shadow estimation timed. Common independent reference audit separately recorded; included in audited MRI cost.",
+  "source_sha256": {
+    "research/m3_ordered_cost.py": "fa7a0e3a6e330d0b3d87400ddcdf4833ae3a8bb35de94773c47d9bc4cb45a96d",
+    "research/ordered_radau.py": "f41f628d6575babc57ddf949706372357f379ad1ca9093f229826572c4a1c423",
+    "research/test_ordered_radau.py": "6f0f2b8bac4756a3fa82756916bb8deed01f625d1cdc25906cdb76a4e3d410b7",
+    "research/mri_kernel.py": "e0dae63ea82d025f63f6ed9b78b5d581b92f036df3cddb67d52e9450a40872c3",
+    "research/mri_native.py": "cc561b393b305dcd72e3767b14ce2bca7db2b106aade91dd13e5e174bfaf21e3",
+    "research/defect_fast.py": "faaaafcb2cf069123bbacae3307c751dc6dce8dd0eb4e33f896981f39700e479",
+    "research/defect_shadow.py": "9197ca77f0143937c3169088ab7b8185f04598b75f1325f68d38016344de2265",
+    "research/m3_priority.py": "6cc6821a1ac9a811f16d25c20c067b9d0516d1cb3bf60b9d144bdc93adc43856",
+    "metabolism/m3_continuation.py": "90b539d8f7ce2dae6d574b6285bcd66fcb4b95b3950f96ff81fed6301bd65401"
+  }
+}

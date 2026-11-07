@@ -1,0 +1,161 @@
+{
+  "runs": [
+    {
+      "key": "0--1",
+      "model": "teusink",
+      "h": 0.01,
+      "repeat": -1,
+      "seconds": 0.00494162505492568,
+      "reference_difference": {
+        "concentration": 1.3191274128851734e-08,
+        "flux": 1.3150179816961717e-08
+      },
+      "median_estimator_seconds": 0.003595895483158529
+    },
+    {
+      "key": "0-0",
+      "model": "teusink",
+      "h": 0.01,
+      "repeat": 0,
+      "seconds": 0.0039449590258300304,
+      "reference_difference": {
+        "concentration": 1.3191274128851734e-08,
+        "flux": 1.3150179816961717e-08
+      },
+      "median_estimator_seconds": 0.003595895483158529
+    },
+    {
+      "key": "0-1",
+      "model": "teusink",
+      "h": 0.01,
+      "repeat": 1,
+      "seconds": 0.004065291024744511,
+      "reference_difference": {
+        "concentration": 1.3191274128851734e-08,
+        "flux": 1.3150179816961717e-08
+      },
+      "median_estimator_seconds": 0.003595895483158529
+    },
+    {
+      "key": "0-2",
+      "model": "teusink",
+      "h": 0.01,
+      "repeat": 2,
+      "seconds": 0.003947499906644225,
+      "reference_difference": {
+        "concentration": 1.3191274128851734e-08,
+        "flux": 1.3150179816961717e-08
+      },
+      "median_estimator_seconds": 0.003595895483158529
+    },
+    {
+      "key": "1--1",
+      "model": "kecoli",
+      "h": 0.001,
+      "repeat": -1,
+      "seconds": 0.13139570807106793,
+      "reference_difference": {
+        "concentration": 3.685177586960214e-05,
+        "flux": 3.354551835423338e-05,
+        "net_flux": 4.852265249751123e-06
+      },
+      "median_estimator_seconds": 0.06316785397939384
+    },
+    {
+      "key": "1-0",
+      "model": "kecoli",
+      "h": 0.001,
+      "repeat": 0,
+      "seconds": 0.12863845797255635,
+      "reference_difference": {
+        "concentration": 3.685177586960214e-05,
+        "flux": 3.354551835423338e-05,
+        "net_flux": 4.852265249751123e-06
+      },
+      "median_estimator_seconds": 0.06316785397939384
+    },
+    {
+      "key": "1-1",
+      "model": "kecoli",
+      "h": 0.001,
+      "repeat": 1,
+      "seconds": 0.12296533305197954,
+      "reference_difference": {
+        "concentration": 3.685177586960214e-05,
+        "flux": 3.354551835423338e-05,
+        "net_flux": 4.852265249751123e-06
+      },
+      "median_estimator_seconds": 0.06316785397939384
+    },
+    {
+      "key": "1-2",
+      "model": "kecoli",
+      "h": 0.001,
+      "repeat": 2,
+      "seconds": 0.12435274990275502,
+      "reference_difference": {
+        "concentration": 3.685177586960214e-05,
+        "flux": 3.354551835423338e-05,
+        "net_flux": 4.852265249751123e-06
+      },
+      "median_estimator_seconds": 0.06316785397939384
+    },
+    {
+      "key": "2--1",
+      "model": "kecoli",
+      "h": 0.01,
+      "repeat": -1,
+      "seconds": 0.3757862080819905,
+      "reference_difference": {
+        "concentration": 3.8021167470142836e-05,
+        "flux": 3.1224608506390456e-05,
+        "net_flux": 4.770732323301361e-06
+      },
+      "median_estimator_seconds": 0.05733062501531094
+    },
+    {
+      "key": "2-0",
+      "model": "kecoli",
+      "h": 0.01,
+      "repeat": 0,
+      "seconds": 0.3632637499831617,
+      "reference_difference": {
+        "concentration": 3.8021167470142836e-05,
+        "flux": 3.1224608506390456e-05,
+        "net_flux": 4.770732323301361e-06
+      },
+      "median_estimator_seconds": 0.05733062501531094
+    },
+    {
+      "key": "2-1",
+      "model": "kecoli",
+      "h": 0.01,
+      "repeat": 1,
+      "seconds": 0.36497249989770353,
+      "reference_difference": {
+        "concentration": 3.8021167470142836e-05,
+        "flux": 3.1224608506390456e-05,
+        "net_flux": 4.770732323301361e-06
+      },
+      "median_estimator_seconds": 0.05733062501531094
+    },
+    {
+      "key": "2-2",
+      "model": "kecoli",
+      "h": 0.01,
+      "repeat": 2,
+      "seconds": 0.3683848751243204,
+      "reference_difference": {
+        "concentration": 3.8021167470142836e-05,
+        "flux": 3.1224608506390456e-05,
+        "net_flux": 4.770732323301361e-06
+      },
+      "median_estimator_seconds": 0.05733062501531094
+    }
+  ],
+  "source_sha256": {
+    "research/m3_ordered_audit.py": "61ff4b2707fa3b8ff45614478bbd821800e42d3a7dd061315a1a270768fbcb61",
+    "research/ordered_radau.py": "f41f628d6575babc57ddf949706372357f379ad1ca9093f229826572c4a1c423",
+    "research/m3_ordered_cost.py": "65f4695f8bd500897bbc6b29afb7d935d4b0f500fc7d53cd99633835631ac5e5"
+  }
+}

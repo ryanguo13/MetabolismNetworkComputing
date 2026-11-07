@@ -1,0 +1,10 @@
+{
+  "paths": 12,
+  "steps": 96,
+  "failed": 0,
+  "numerical_false_accepts": 0,
+  "policy_false_accepts": 0,
+  "accumulated_exceedances": 0,
+  "switched_group_changes": 6244,
+  "M4_admission": false
+}

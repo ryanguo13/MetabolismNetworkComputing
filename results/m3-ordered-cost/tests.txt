@@ -1,0 +1,6 @@
+test_dense_and_sparse_against_matrix_exponential (research.test_ordered_radau.OrderedChecks.test_dense_and_sparse_against_matrix_exponential) ... ok
+
+----------------------------------------------------------------------
+Ran 1 test in 0.158s
+
+OK

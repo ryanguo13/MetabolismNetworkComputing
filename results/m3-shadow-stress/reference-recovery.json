@@ -1,0 +1,25 @@
+{
+  "reason": "One compressed ZIP member failed decompression; all other members read successfully. Recomputed full reference from preserved candidate initial state and exact query grid.",
+  "original_archive_sha256": "07f4b24e64583bb292588e1b9b82704029f3f50e837a11ff4dd9fa3de779bfc0",
+  "recovered_file_sha256": "a50dc43f633532e154aaa2c43991e86f54cde772f40a109ca82ee2b6629d38bb",
+  "key": "kecoli-switch-1-1-reference",
+  "recovered_metrics": {
+    "0.0001": {
+      "concentration": 0.0024064449479688625,
+      "flux": 0.0024064449356388136,
+      "net_flux": 0.1192331163046637
+    },
+    "1e-06": {
+      "concentration": 0.24064449479688627,
+      "flux": 0.24064449356388135,
+      "net_flux": 0.1192331163046637
+    }
+  },
+  "reference_budget": {
+    "concentration": 0.00032852129712858185,
+    "flux": 0.0003287233084359779,
+    "net_flux": 5.898600606466885e-05
+  },
+  "source_sha256": "85102580452c7e6b70be4d82a0fc1beb292a1a3eb1b5887e126acee226238cda",
+  "limitation": "Original reference bytes unreadable; recovered independently and all previously saved actual errors and tightening budgets reproduced. Not a bytewise comparison."
+}
