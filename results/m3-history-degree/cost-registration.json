@@ -1,0 +1,39 @@
+{
+  "date": "2026-11-08",
+  "paths": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "step": 4,
+  "degree": 5,
+  "tolerances": [
+    1e-08,
+    1e-10
+  ],
+  "repeats": 3,
+  "warmups": 1,
+  "scope": "Development same-state cost with existing computed history supplied free; setup separately recorded. Not a full trajectory speedup.",
+  "timing": "No unused Hermite output. Candidate: unchanged MRI3 endpoint/internal guards + quintic history, all polynomial/physical ledger guards. Full: equally ordered Radau with all polynomial/physical ledger guards. Reference error assessment outside both timings.",
+  "audits": "Mandatory independent full reference retained. Compare candidate time even before adding audit; no claim that audits can be removed.",
+  "source_sha256": {
+    "research/m3_history_cost.py": "0305f7352fe5baad7491e55bb699555a03dfebe587cdd86c70fcb201e97808ab",
+    "research/mri_endpoint.py": "66f7dd001f47d8529590f2fd2100fe5badbfb711249b65895157adb73c2b43c8",
+    "research/test_mri_endpoint.py": "e0a3e7fff5f323bd60839f57b4276870ebf4a4006a416f0f626d29d1f1882550",
+    "research/history_polynomial.py": "d583184d522d24b058862b57e891a42f8e670ede022045837191781ce95acf4e",
+    "research/inner_dense.py": "e19b0221a27f5fa861c7a0877d64f9e04b638a3fc514326c7968541f13ec133b",
+    "research/m3_ordered_cost.py": "65f4695f8bd500897bbc6b29afb7d935d4b0f500fc7d53cd99633835631ac5e5"
+  },
+  "input_sha256": {
+    "results/m3-inner-dense/history.json": "f045bc9ab29c5a3a7fa5ec9a54c9a84f81d3ca48cd22b9ae3084caabc6277ae3",
+    "results/m3-inner-dense/history-0.npz": "aaa10e57f83084e1869e31a37e96a4c5939be057a5c832c7b5c9d1bfcb3ba4bc",
+    "results/m3-inner-dense/history-1.npz": "0e5cc915916606ec14af6c35d9595e12117800aba04bc1043c2dc80b31e04d56",
+    "results/m3-inner-dense/history-2.npz": "6263791a538866c0a84d00ce048da7d70c8e218a9b45e9d41acf3b020c246167",
+    "results/m3-inner-dense/history-3.npz": "113e224efa72142a025a8548c8dc261d95f21c6b47bcc4003741dbdcd4913560",
+    "results/m3-inner-dense/history-4.npz": "32be3c3e826c56f70059eac62d88b9e06aac08245161895f43d3c34cc5aa5bd3",
+    "results/m3-inner-dense/history-5.npz": "96f2c95572fc3b052a826cd3b5a1f4bbae8339ef812db0dfb3d8356a919fbad5"
+  }
+}

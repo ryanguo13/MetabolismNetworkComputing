@@ -1,0 +1,4017 @@
+{
+  "runs": [
+    {
+      "key": "2-3",
+      "source_shard": "history-0",
+      "model": "teusink",
+      "h": 0.01,
+      "threshold": 0.01,
+      "step": 2,
+      "degree": 3,
+      "common_interval": false,
+      "seconds": 0.001421916065737605,
+      "positive": true,
+      "guard": {
+        "nonnegative": true,
+        "pool": 2.4368810879486303e-16
+      },
+      "ledger": {
+        "physical_ledger_residual": 4.6513779144365494e-10,
+        "physical_ledger_quadrature": 4.627824664882204e-18
+      },
+      "targets": {
+        "0.0001": {
+          "actual": {
+            "concentration": 0.00015903842134836073,
+            "flux": 0.000216741757661864
+          },
+          "global_error": {
+            "concentration": 0.00015903701977548453,
+            "flux": 0.00021674234551136222
+          },
+          "passes": false
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 0.015903842134836074,
+            "flux": 0.0216741757661864
+          },
+          "global_error": {
+            "concentration": 0.015903701977548455,
+            "flux": 0.021674234551136224
+          },
+          "passes": false
+        }
+      }
+    },
+    {
+      "key": "3-3",
+      "source_shard": "history-0",
+      "model": "teusink",
+      "h": 0.01,
+      "threshold": 0.01,
+      "step": 3,
+      "degree": 3,
+      "common_interval": false,
+      "seconds": 0.0009413750376552343,
+      "positive": true,
+      "guard": {
+        "nonnegative": true,
+        "pool": 1.9565657354189606e-16
+      },
+      "ledger": {
+        "physical_ledger_residual": 4.5723084571013303e-10,
+        "physical_ledger_quadrature": 2.1395357300131597e-18
+      },
+      "targets": {
+        "0.0001": {
+          "actual": {
+            "concentration": 0.00016042268205134817,
+            "flux": 0.00019883912489872556
+          },
+          "global_error": {
+            "concentration": 0.00016042239761449975,
+            "flux": 0.00019883993739995933
+          },
+          "passes": false
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 0.016042268205134817,
+            "flux": 0.019883912489872556
+          },
+          "global_error": {
+            "concentration": 0.016042239761449976,
+            "flux": 0.019883993739995935
+          },
+          "passes": false
+        }
+      }
+    },
+    {
+      "key": "3-4",
+      "source_shard": "history-0",
+      "model": "teusink",
+      "h": 0.01,
+      "threshold": 0.01,
+      "step": 3,
+      "degree": 4,
+      "common_interval": false,
+      "seconds": 0.000964457867667079,
+      "positive": true,
+      "guard": {
+        "nonnegative": true,
+        "pool": 1.6948835973401557e-16
+      },
+      "ledger": {
+        "physical_ledger_residual": 9.97774021025577e-12,
+        "physical_ledger_quadrature": 7.1317857667105325e-19
+      },
+      "targets": {
+        "0.0001": {
+          "actual": {
+            "concentration": 3.5497398979891654e-06,
+            "flux": 1.381855614307266e-05
+          },
+          "global_error": {
+            "concentration": 3.549656138912011e-06,
+            "flux": 1.3818711521794661e-05
+          },
+          "passes": true
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 0.00035497398979891657,
+            "flux": 0.001381855614307266
+          },
+          "global_error": {
+            "concentration": 0.0003549656138912011,
+            "flux": 0.0013818711521794663
+          },
+          "passes": true
+        }
+      }
+    },
+    {
+      "key": "4-3",
+      "source_shard": "history-0",
+      "model": "teusink",
+      "h": 0.01,
+      "threshold": 0.01,
+      "step": 4,
+      "degree": 3,
+      "common_interval": true,
+      "seconds": 0.0009274580515921116,
+      "positive": true,
+      "guard": {
+        "nonnegative": true,
+        "pool": 2.1021174988113446e-16
+      },
+      "ledger": {
+        "physical_ledger_residual": 4.4538272844828116e-10,
+        "physical_ledger_quadrature": 6.429177544317958e-18
+      },
+      "targets": {
+        "0.0001": {
+          "actual": {
+            "concentration": 0.00016071991306156546,
+            "flux": 0.00018221818661174222
+          },
+          "global_error": {
+            "concentration": 0.00016072015764977327,
+            "flux": 0.0001822198614648831
+          },
+          "passes": false
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 0.016071991306156545,
+            "flux": 0.01822181866117422
+          },
+          "global_error": {
+            "concentration": 0.016072015764977327,
+            "flux": 0.018221986146488314
+          },
+          "passes": false
+        }
+      }
+    },
+    {
+      "key": "4-4",
+      "source_shard": "history-0",
+      "model": "teusink",
+      "h": 0.01,
+      "threshold": 0.01,
+      "step": 4,
+      "degree": 4,
+      "common_interval": true,
+      "seconds": 0.0010340409353375435,
+      "positive": true,
+      "guard": {
+        "nonnegative": true,
+        "pool": 1.8395418125524126e-16
+      },
+      "ledger": {
+        "physical_ledger_residual": 1.2812085190790786e-11,
+        "physical_ledger_quadrature": 1.785882651199433e-19
+      },
+      "targets": {
+        "0.0001": {
+          "actual": {
+            "concentration": 3.4275593992472186e-06,
+            "flux": 1.2841221392041118e-05
+          },
+          "global_error": {
+            "concentration": 3.426524092303302e-06,
+            "flux": 1.2841351521720794e-05
+          },
+          "passes": true
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 0.0003427559399247219,
+            "flux": 0.001284122139204112
+          },
+          "global_error": {
+            "concentration": 0.0003426524092303302,
+            "flux": 0.0012841351521720795
+          },
+          "passes": true
+        }
+      }
+    },
+    {
+      "key": "4-5",
+      "source_shard": "history-0",
+      "model": "teusink",
+      "h": 0.01,
+      "threshold": 0.01,
+      "step": 4,
+      "degree": 5,
+      "common_interval": true,
+      "seconds": 0.0009206249378621578,
+      "positive": true,
+      "guard": {
+        "nonnegative": true,
+        "pool": 2.0583569084681188e-16
+      },
+      "ledger": {
+        "physical_ledger_residual": 2.165753285229436e-12,
+        "physical_ledger_quadrature": 3.750353567518809e-18
+      },
+      "targets": {
+        "0.0001": {
+          "actual": {
+            "concentration": 6.094849579398783e-07,
+            "flux": 7.663039026892002e-07
+          },
+          "global_error": {
+            "concentration": 6.084310301006252e-07,
+            "flux": 7.654765109945448e-07
+          },
+          "passes": true
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 6.094849579398782e-05,
+            "flux": 7.663039026892001e-05
+          },
+          "global_error": {
+            "concentration": 6.0843103010062516e-05,
+            "flux": 7.654765109945449e-05
+          },
+          "passes": true
+        }
+      }
+    },
+    {
+      "key": "5-3",
+      "source_shard": "history-0",
+      "model": "teusink",
+      "h": 0.01,
+      "threshold": 0.01,
+      "step": 5,
+      "degree": 3,
+      "common_interval": true,
+      "seconds": 0.0008207499049603939,
+      "positive": true,
+      "guard": {
+        "nonnegative": true,
+        "pool": 1.5637995952297522e-16
+      },
+      "ledger": {
+        "physical_ledger_residual": 4.301325700582366e-10,
+        "physical_ledger_quadrature": 7.154967402910028e-18
+      },
+      "targets": {
+        "0.0001": {
+          "actual": {
+            "concentration": 0.00016002642167288166,
+            "flux": 0.0001668224729940481
+          },
+          "global_error": {
+            "concentration": 0.0001600258088282711,
+            "flux": 0.0001668237425676891
+          },
+          "passes": false
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 0.016002642167288167,
+            "flux": 0.01668224729940481
+          },
+          "global_error": {
+            "concentration": 0.016002580882827112,
+            "flux": 0.01668237425676891
+          },
+          "passes": false
+        }
+      }
+    },
+    {
+      "key": "5-4",
+      "source_shard": "history-0",
+      "model": "teusink",
+      "h": 0.01,
+      "threshold": 0.01,
+      "step": 5,
+      "degree": 4,
+      "common_interval": true,
+      "seconds": 0.0009759580716490746,
+      "positive": true,
+      "guard": {
+        "nonnegative": true,
+        "pool": 1.1709433515886256e-16
+      },
+      "ledger": {
+        "physical_ledger_residual": 1.522639222118567e-11,
+        "physical_ledger_quadrature": 5.366225552182521e-19
+      },
+      "targets": {
+        "0.0001": {
+          "actual": {
+            "concentration": 3.4158548128363046e-06,
+            "flux": 1.1905216086239155e-05
+          },
+          "global_error": {
+            "concentration": 3.4150121211377675e-06,
+            "flux": 1.1904498107061241e-05
+          },
+          "passes": true
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 0.00034158548128363045,
+            "flux": 0.0011905216086239155
+          },
+          "global_error": {
+            "concentration": 0.0003415012121137768,
+            "flux": 0.0011904498107061243
+          },
+          "passes": true
+        }
+      }
+    },
+    {
+      "key": "5-5",
+      "source_shard": "history-0",
+      "model": "teusink",
+      "h": 0.01,
+      "threshold": 0.01,
+      "step": 5,
+      "degree": 5,
+      "common_interval": true,
+      "seconds": 0.000818875152617693,
+      "positive": true,
+      "guard": {
+        "nonnegative": true,
+        "pool": 2.0548902396678967e-16
+      },
+      "ledger": {
+        "physical_ledger_residual": 1.8210778315340335e-12,
+        "physical_ledger_quadrature": 9.301457623783037e-18
+      },
+      "targets": {
+        "0.0001": {
+          "actual": {
+            "concentration": 5.551932462622677e-07,
+            "flux": 7.353679991388046e-07
+          },
+          "global_error": {
+            "concentration": 5.533615828858344e-07,
+            "flux": 7.351465844599532e-07
+          },
+          "passes": true
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 5.5519324626226773e-05,
+            "flux": 7.353679991388046e-05
+          },
+          "global_error": {
+            "concentration": 5.5336158288583446e-05,
+            "flux": 7.351465844599533e-05
+          },
+          "passes": true
+        }
+      }
+    },
+    {
+      "key": "6-3",
+      "source_shard": "history-0",
+      "model": "teusink",
+      "h": 0.01,
+      "threshold": 0.01,
+      "step": 6,
+      "degree": 3,
+      "common_interval": true,
+      "seconds": 0.0007894581649452448,
+      "positive": true,
+      "guard": {
+        "nonnegative": true,
+        "pool": 1.7831448468631258e-16
+      },
+      "ledger": {
+        "physical_ledger_residual": 4.1200038315697483e-10,
+        "physical_ledger_quadrature": 7.703556550360185e-18
+      },
+      "targets": {
+        "0.0001": {
+          "actual": {
+            "concentration": 0.00015843730048267318,
+            "flux": 0.00015843730121512184
+          },
+          "global_error": {
+            "concentration": 0.00015843639220848577,
+            "flux": 0.00015843639303082823
+          },
+          "passes": false
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 0.015843730048267318,
+            "flux": 0.015843730121512186
+          },
+          "global_error": {
+            "concentration": 0.015843639220848575,
+            "flux": 0.015843639303082826
+          },
+          "passes": false
+        }
+      }
+    },
+    {
+      "key": "6-4",
+      "source_shard": "history-0",
+      "model": "teusink",
+      "h": 0.01,
+      "threshold": 0.01,
+      "step": 6,
+      "degree": 4,
+      "common_interval": true,
+      "seconds": 0.000791874947026372,
+      "positive": true,
+      "guard": {
+        "nonnegative": true,
+        "pool": 2.0449060740663465e-16
+      },
+      "ledger": {
+        "physical_ledger_residual": 1.723439743107572e-11,
+        "physical_ledger_quadrature": 8.778471417852303e-18
+      },
+      "targets": {
+        "0.0001": {
+          "actual": {
+            "concentration": 3.3869528952670613e-06,
+            "flux": 1.1013382361456703e-05
+          },
+          "global_error": {
+            "concentration": 3.386554823759943e-06,
+            "flux": 1.1013030817098176e-05
+          },
+          "passes": true
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 0.0003386952895267062,
+            "flux": 0.0011013382361456704
+          },
+          "global_error": {
+            "concentration": 0.00033865548237599433,
+            "flux": 0.0011013030817098176
+          },
+          "passes": true
+        }
+      }
+    },
+    {
+      "key": "6-5",
+      "source_shard": "history-0",
+      "model": "teusink",
+      "h": 0.01,
+      "threshold": 0.01,
+      "step": 6,
+      "degree": 5,
+      "common_interval": true,
+      "seconds": 0.0009013330563902855,
+      "positive": true,
+      "guard": {
+        "nonnegative": true,
+        "pool": 3.006098960755068e-16
+      },
+      "ledger": {
+        "physical_ledger_residual": 1.4823747844508501e-12,
+        "physical_ledger_quadrature": 1.3436435843651485e-17
+      },
+      "targets": {
+        "0.0001": {
+          "actual": {
+            "concentration": 5.003917468032192e-07,
+            "flux": 7.02131843091453e-07
+          },
+          "global_error": {
+            "concentration": 4.997706576463192e-07,
+            "flux": 7.021111259285196e-07
+          },
+          "passes": true
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 5.003917468032193e-05,
+            "flux": 7.02131843091453e-05
+          },
+          "global_error": {
+            "concentration": 4.997706576463192e-05,
+            "flux": 7.021111259285195e-05
+          },
+          "passes": true
+        }
+      }
+    },
+    {
+      "key": "7-3",
+      "source_shard": "history-0",
+      "model": "teusink",
+      "h": 0.01,
+      "threshold": 0.01,
+      "step": 7,
+      "degree": 3,
+      "common_interval": true,
+      "seconds": 0.0008883748669177294,
+      "positive": true,
+      "guard": {
+        "nonnegative": true,
+        "pool": 8.262707091365899e-17
+      },
+      "ledger": {
+        "physical_ledger_residual": 3.9147273119712334e-10,
+        "physical_ledger_quadrature": 0.0
+      },
+      "targets": {
+        "0.0001": {
+          "actual": {
+            "concentration": 0.00015604945314032692,
+            "flux": 0.00015604945457907722
+          },
+          "global_error": {
+            "concentration": 0.00015604935695395306,
+            "flux": 0.00015604935800744418
+          },
+          "passes": false
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 0.015604945314032692,
+            "flux": 0.015604945457907722
+          },
+          "global_error": {
+            "concentration": 0.015604935695395308,
+            "flux": 0.015604935800744419
+          },
+          "passes": false
+        }
+      }
+    },
+    {
+      "key": "7-4",
+      "source_shard": "history-0",
+      "model": "teusink",
+      "h": 0.01,
+      "threshold": 0.01,
+      "step": 7,
+      "degree": 4,
+      "common_interval": true,
+      "seconds": 0.0008960000704973936,
+      "positive": true,
+      "guard": {
+        "nonnegative": true,
+        "pool": 8.359456823140952e-17
+      },
+      "ledger": {
+        "physical_ledger_residual": 1.8875849706434336e-11,
+        "physical_ledger_quadrature": 1.471270445677509e-17
+      },
+      "targets": {
+        "0.0001": {
+          "actual": {
+            "concentration": 3.3411377540264245e-06,
+            "flux": 1.0167507072996776e-05
+          },
+          "global_error": {
+            "concentration": 3.3414555691813012e-06,
+            "flux": 1.0168761756176934e-05
+          },
+          "passes": true
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 0.00033411377540264246,
+            "flux": 0.0010167507072996775
+          },
+          "global_error": {
+            "concentration": 0.00033414555691813015,
+            "flux": 0.0010168761756176935
+          },
+          "passes": true
+        }
+      }
+    },
+    {
+      "key": "7-5",
+      "source_shard": "history-0",
+      "model": "teusink",
+      "h": 0.01,
+      "threshold": 0.01,
+      "step": 7,
+      "degree": 5,
+      "common_interval": true,
+      "seconds": 0.0008641250897198915,
+      "positive": true,
+      "guard": {
+        "nonnegative": true,
+        "pool": 1.4887168536448653e-16
+      },
+      "ledger": {
+        "physical_ledger_residual": 1.1816510378691165e-12,
+        "physical_ledger_quadrature": 7.894621903635414e-18
+      },
+      "targets": {
+        "0.0001": {
+          "actual": {
+            "concentration": 4.4501999955630905e-07,
+            "flux": 6.664193386622107e-07
+          },
+          "global_error": {
+            "concentration": 4.477310812079991e-07,
+            "flux": 6.662277049050761e-07
+          },
+          "passes": true
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 4.4501999955630905e-05,
+            "flux": 6.664193386622108e-05
+          },
+          "global_error": {
+            "concentration": 4.477310812079991e-05,
+            "flux": 6.662277049050762e-05
+          },
+          "passes": true
+        }
+      }
+    },
+    {
+      "key": "2-3",
+      "source_shard": "history-1",
+      "model": "teusink",
+      "h": 0.03,
+      "threshold": 0.01,
+      "step": 2,
+      "degree": 3,
+      "common_interval": false,
+      "seconds": 0.0009798340033739805,
+      "positive": true,
+      "guard": {
+        "nonnegative": true,
+        "pool": 2.418580317974892e-16
+      },
+      "ledger": {
+        "physical_ledger_residual": 1.0450025247184721e-07,
+        "physical_ledger_quadrature": 4.729625416965319e-17
+      },
+      "targets": {
+        "0.0001": {
+          "actual": {
+            "concentration": 0.012856528074890265,
+            "flux": 0.013205265329758324
+          },
+          "global_error": {
+            "concentration": 0.012856530289925045,
+            "flux": 0.013205266000476475
+          },
+          "passes": false
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 1.2856528074890266,
+            "flux": 1.3205265329758324
+          },
+          "global_error": {
+            "concentration": 1.2856530289925046,
+            "flux": 1.3205266000476474
+          },
+          "passes": false
+        }
+      }
+    },
+    {
+      "key": "3-3",
+      "source_shard": "history-1",
+      "model": "teusink",
+      "h": 0.03,
+      "threshold": 0.01,
+      "step": 3,
+      "degree": 3,
+      "common_interval": false,
+      "seconds": 0.0009420420974493027,
+      "positive": true,
+      "guard": {
+        "nonnegative": true,
+        "pool": 2.2492953961464463e-16
+      },
+      "ledger": {
+        "physical_ledger_residual": 8.925455791925615e-08,
+        "physical_ledger_quadrature": 1.439539543796411e-18
+      },
+      "targets": {
+        "0.0001": {
+          "actual": {
+            "concentration": 0.01222249846219796,
+            "flux": 0.012222498462669784
+          },
+          "global_error": {
+            "concentration": 0.012222498686174803,
+            "flux": 0.012222498686633785
+          },
+          "passes": false
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 1.2222498462197962,
+            "flux": 1.2222498462669786
+          },
+          "global_error": {
+            "concentration": 1.2222498686174803,
+            "flux": 1.2222498686633785
+          },
+          "passes": false
+        }
+      }
+    },
+    {
+      "key": "3-4",
+      "source_shard": "history-1",
+      "model": "teusink",
+      "h": 0.03,
+      "threshold": 0.01,
+      "step": 3,
+      "degree": 4,
+      "common_interval": false,
+      "seconds": 0.0009867909830063581,
+      "positive": true,
+      "guard": {
+        "nonnegative": true,
+        "pool": 2.2061475572692907e-16
+      },
+      "ledger": {
+        "physical_ledger_residual": 1.4056648469965903e-08,
+        "physical_ledger_quadrature": 5.038388403287439e-18
+      },
+      "targets": {
+        "0.0001": {
+          "actual": {
+            "concentration": 0.0008008122758408427,
+            "flux": 0.002386792804863139
+          },
+          "global_error": {
+            "concentration": 0.0008008119211077658,
+            "flux": 0.0023867925588468286
+          },
+          "passes": false
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 0.08008122758408427,
+            "flux": 0.23867928048631387
+          },
+          "global_error": {
+            "concentration": 0.08008119211077659,
+            "flux": 0.2386792558846829
+          },
+          "passes": false
+        }
+      }
+    },
+    {
+      "key": "4-3",
+      "source_shard": "history-1",
+      "model": "teusink",
+      "h": 0.03,
+      "threshold": 0.01,
+      "step": 4,
+      "degree": 3,
+      "common_interval": true,
+      "seconds": 0.0009898750577121973,
+      "positive": true,
+      "guard": {
+        "nonnegative": true,
+        "pool": 1.9034441682820543e-16
+      },
+      "ledger": {
+        "physical_ledger_residual": 7.105025498742395e-08,
+        "physical_ledger_quadrature": 2.457072468806441e-17
+      },
+      "targets": {
+        "0.0001": {
+          "actual": {
+            "concentration": 0.011162162887335904,
+            "flux": 0.011162162887008472
+          },
+          "global_error": {
+            "concentration": 0.011162163869811007,
+            "flux": 0.011162163869162526
+          },
+          "passes": false
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 1.1162162887335905,
+            "flux": 1.1162162887008473
+          },
+          "global_error": {
+            "concentration": 1.1162163869811008,
+            "flux": 1.116216386916253
+          },
+          "passes": false
+        }
+      }
+    },
+    {
+      "key": "4-4",
+      "source_shard": "history-1",
+      "model": "teusink",
+      "h": 0.03,
+      "threshold": 0.01,
+      "step": 4,
+      "degree": 4,
+      "common_interval": true,
+      "seconds": 0.0016960420180112123,
+      "positive": true,
+      "guard": {
+        "nonnegative": true,
+        "pool": 2.1260026568842227e-16
+      },
+      "ledger": {
+        "physical_ledger_residual": 1.586126457829795e-08,
+        "physical_ledger_quadrature": 3.9024092151631715e-17
+      },
+      "targets": {
+        "0.0001": {
+          "actual": {
+            "concentration": 0.0007821593147788816,
+            "flux": 0.001858913535839304
+          },
+          "global_error": {
+            "concentration": 0.0007821582581028602,
+            "flux": 0.0018589131467450877
+          },
+          "passes": false
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 0.07821593147788816,
+            "flux": 0.1858913535839304
+          },
+          "global_error": {
+            "concentration": 0.07821582581028602,
+            "flux": 0.18589131467450878
+          },
+          "passes": false
+        }
+      }
+    },
+    {
+      "key": "4-5",
+      "source_shard": "history-1",
+      "model": "teusink",
+      "h": 0.03,
+      "threshold": 0.01,
+      "step": 4,
+      "degree": 5,
+      "common_interval": true,
+      "seconds": 0.001592791872099042,
+      "positive": true,
+      "guard": {
+        "nonnegative": true,
+        "pool": 3.2585938200336615e-16
+      },
+      "ledger": {
+        "physical_ledger_residual": 1.2094106077785638e-09,
+        "physical_ledger_quadrature": 2.0234714448994222e-17
+      },
+      "targets": {
+        "0.0001": {
+          "actual": {
+            "concentration": 0.00023141118712345526,
+            "flux": 0.00041454069646909726
+          },
+          "global_error": {
+            "concentration": 0.0002314101304474339,
+            "flux": 0.00041454045433725545
+          },
+          "passes": false
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 0.02314111871234553,
+            "flux": 0.04145406964690973
+          },
+          "global_error": {
+            "concentration": 0.02314101304474339,
+            "flux": 0.04145404543372555
+          },
+          "passes": false
+        }
+      }
+    },
+    {
+      "key": "5-3",
+      "source_shard": "history-1",
+      "model": "teusink",
+      "h": 0.03,
+      "threshold": 0.01,
+      "step": 5,
+      "degree": 3,
+      "common_interval": true,
+      "seconds": 0.0008901658002287149,
+      "positive": true,
+      "guard": {
+        "nonnegative": true,
+        "pool": 1.8167473735469304e-16
+      },
+      "ledger": {
+        "physical_ledger_residual": 5.235996949748156e-08,
+        "physical_ledger_quadrature": 2.828739208175187e-17
+      },
+      "targets": {
+        "0.0001": {
+          "actual": {
+            "concentration": 0.009848321263339165,
+            "flux": 0.009848321263894047
+          },
+          "global_error": {
+            "concentration": 0.009848322853162516,
+            "flux": 0.009848322853216561
+          },
+          "passes": false
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 0.9848321263339166,
+            "flux": 0.9848321263894048
+          },
+          "global_error": {
+            "concentration": 0.9848322853162517,
+            "flux": 0.9848322853216561
+          },
+          "passes": false
+        }
+      }
+    },
+    {
+      "key": "5-4",
+      "source_shard": "history-1",
+      "model": "teusink",
+      "h": 0.03,
+      "threshold": 0.01,
+      "step": 5,
+      "degree": 4,
+      "common_interval": true,
+      "seconds": 0.0008424159605056047,
+      "positive": true,
+      "guard": {
+        "nonnegative": true,
+        "pool": 1.685853541925057e-16
+      },
+      "ledger": {
+        "physical_ledger_residual": 1.582003307743522e-08,
+        "physical_ledger_quadrature": 1.3781037168032962e-17
+      },
+      "targets": {
+        "0.0001": {
+          "actual": {
+            "concentration": 0.0009605242086452345,
+            "flux": 0.0014292259537698044
+          },
+          "global_error": {
+            "concentration": 0.0009605236521383571,
+            "flux": 0.001429225562733354
+          },
+          "passes": false
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 0.09605242086452345,
+            "flux": 0.14292259537698043
+          },
+          "global_error": {
+            "concentration": 0.09605236521383573,
+            "flux": 0.14292255627333542
+          },
+          "passes": false
+        }
+      }
+    },
+    {
+      "key": "5-5",
+      "source_shard": "history-1",
+      "model": "teusink",
+      "h": 0.03,
+      "threshold": 0.01,
+      "step": 5,
+      "degree": 5,
+      "common_interval": true,
+      "seconds": 0.0008360410574823618,
+      "positive": true,
+      "guard": {
+        "nonnegative": true,
+        "pool": 1.4273608470388843e-16
+      },
+      "ledger": {
+        "physical_ledger_residual": 2.444854208884991e-10,
+        "physical_ledger_quadrature": 2.828739208175187e-17
+      },
+      "targets": {
+        "0.0001": {
+          "actual": {
+            "concentration": 0.00013537285234115575,
+            "flux": 0.0003385309723319122
+          },
+          "global_error": {
+            "concentration": 0.00013537165001148253,
+            "flux": 0.00033853108757113105
+          },
+          "passes": false
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 0.013537285234115575,
+            "flux": 0.03385309723319122
+          },
+          "global_error": {
+            "concentration": 0.013537165001148255,
+            "flux": 0.03385310875711311
+          },
+          "passes": false
+        }
+      }
+    },
+    {
+      "key": "6-3",
+      "source_shard": "history-1",
+      "model": "teusink",
+      "h": 0.03,
+      "threshold": 0.01,
+      "step": 6,
+      "degree": 3,
+      "common_interval": true,
+      "seconds": 0.0008239171002060175,
+      "positive": true,
+      "guard": {
+        "nonnegative": true,
+        "pool": 8.657253166711016e-17
+      },
+      "ledger": {
+        "physical_ledger_residual": 3.4942546546431236e-08,
+        "physical_ledger_quadrature": 6.913447038369784e-18
+      },
+      "targets": {
+        "0.0001": {
+          "actual": {
+            "concentration": 0.008422659424961024,
+            "flux": 0.008422659424972436
+          },
+          "global_error": {
+            "concentration": 0.008422658666462761,
+            "flux": 0.00842265866678238
+          },
+          "passes": false
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 0.8422659424961024,
+            "flux": 0.8422659424972437
+          },
+          "global_error": {
+            "concentration": 0.8422658666462761,
+            "flux": 0.8422658666782382
+          },
+          "passes": false
+        }
+      }
+    },
+    {
+      "key": "6-4",
+      "source_shard": "history-1",
+      "model": "teusink",
+      "h": 0.03,
+      "threshold": 0.01,
+      "step": 6,
+      "degree": 4,
+      "common_interval": true,
+      "seconds": 0.0008205422200262547,
+      "positive": true,
+      "guard": {
+        "nonnegative": true,
+        "pool": 9.111912782060394e-17
+      },
+      "ledger": {
+        "physical_ledger_residual": 1.4494252775111423e-08,
+        "physical_ledger_quadrature": 2.219580364950299e-17
+      },
+      "targets": {
+        "0.0001": {
+          "actual": {
+            "concentration": 0.0010372203430633253,
+            "flux": 0.001088096437402318
+          },
+          "global_error": {
+            "concentration": 0.0010372202990924116,
+            "flux": 0.0010880968724627394
+          },
+          "passes": false
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 0.10372203430633253,
+            "flux": 0.10880964374023179
+          },
+          "global_error": {
+            "concentration": 0.10372202990924116,
+            "flux": 0.10880968724627395
+          },
+          "passes": false
+        }
+      }
+    },
+    {
+      "key": "6-5",
+      "source_shard": "history-1",
+      "model": "teusink",
+      "h": 0.03,
+      "threshold": 0.01,
+      "step": 6,
+      "degree": 5,
+      "common_interval": true,
+      "seconds": 0.0009214170277118683,
+      "positive": true,
+      "guard": {
+        "nonnegative": true,
+        "pool": 1.0364098190527965e-16
+      },
+      "ledger": {
+        "physical_ledger_residual": 1.2403353339751233e-09,
+        "physical_ledger_quadrature": 2.183193801590458e-18
+      },
+      "targets": {
+        "0.0001": {
+          "actual": {
+            "concentration": 8.642512858007683e-05,
+            "flux": 0.0002695082881373343
+          },
+          "global_error": {
+            "concentration": 8.642577256380118e-05,
+            "flux": 0.0002695086765841393
+          },
+          "passes": false
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 0.008642512858007684,
+            "flux": 0.02695082881373343
+          },
+          "global_error": {
+            "concentration": 0.008642577256380119,
+            "flux": 0.026950867658413934
+          },
+          "passes": false
+        }
+      }
+    },
+    {
+      "key": "7-3",
+      "source_shard": "history-1",
+      "model": "teusink",
+      "h": 0.03,
+      "threshold": 0.01,
+      "step": 7,
+      "degree": 3,
+      "common_interval": true,
+      "seconds": 0.0008320419583469629,
+      "positive": true,
+      "guard": {
+        "nonnegative": true,
+        "pool": 1.4979098057176028e-16
+      },
+      "ledger": {
+        "physical_ledger_residual": 1.9871441248420554e-08,
+        "physical_ledger_quadrature": 2.846700569644901e-17
+      },
+      "targets": {
+        "0.0001": {
+          "actual": {
+            "concentration": 0.006993476707727423,
+            "flux": 0.006993476707593459
+          },
+          "global_error": {
+            "concentration": 0.006993475629065945,
+            "flux": 0.00699347562886777
+          },
+          "passes": false
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 0.6993476707727423,
+            "flux": 0.6993476707593459
+          },
+          "global_error": {
+            "concentration": 0.6993475629065945,
+            "flux": 0.6993475628867771
+          },
+          "passes": false
+        }
+      }
+    },
+    {
+      "key": "7-4",
+      "source_shard": "history-1",
+      "model": "teusink",
+      "h": 0.03,
+      "threshold": 0.01,
+      "step": 7,
+      "degree": 4,
+      "common_interval": true,
+      "seconds": 0.0008515838999301195,
+      "positive": true,
+      "guard": {
+        "nonnegative": true,
+        "pool": 1.585926731433894e-16
+      },
+      "ledger": {
+        "physical_ledger_residual": 1.2412276095550087e-08,
+        "physical_ledger_quadrature": 1.569334929419625e-17
+      },
+      "targets": {
+        "0.0001": {
+          "actual": {
+            "concentration": 0.0010364683868484296,
+            "flux": 0.001036468386607417
+          },
+          "global_error": {
+            "concentration": 0.0010364657348526933,
+            "flux": 0.0010364657349969397
+          },
+          "passes": false
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 0.10364683868484297,
+            "flux": 0.1036468386607417
+          },
+          "global_error": {
+            "concentration": 0.10364657348526933,
+            "flux": 0.10364657349969399
+          },
+          "passes": false
+        }
+      }
+    },
+    {
+      "key": "7-5",
+      "source_shard": "history-1",
+      "model": "teusink",
+      "h": 0.03,
+      "threshold": 0.01,
+      "step": 7,
+      "degree": 5,
+      "common_interval": true,
+      "seconds": 0.0008174590766429901,
+      "positive": true,
+      "guard": {
+        "nonnegative": true,
+        "pool": 2.0604057139267142e-16
+      },
+      "ledger": {
+        "physical_ledger_residual": 1.8114858623005072e-09,
+        "physical_ledger_quadrature": 1.678823412867506e-17
+      },
+      "targets": {
+        "0.0001": {
+          "actual": {
+            "concentration": 6.77374206757555e-05,
+            "flux": 0.00021035879199312755
+          },
+          "global_error": {
+            "concentration": 6.77375314295216e-05,
+            "flux": 0.00021035843462206697
+          },
+          "passes": false
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 0.00677374206757555,
+            "flux": 0.021035879199312758
+          },
+          "global_error": {
+            "concentration": 0.00677375314295216,
+            "flux": 0.021035843462206695
+          },
+          "passes": false
+        }
+      }
+    },
+    {
+      "key": "2-3",
+      "source_shard": "history-2",
+      "model": "teusink",
+      "h": 0.001,
+      "threshold": 0.1,
+      "step": 2,
+      "degree": 3,
+      "common_interval": false,
+      "seconds": 0.0008692499250173569,
+      "positive": true,
+      "guard": {
+        "nonnegative": true,
+        "pool": 2.5741924150382787e-16
+      },
+      "ledger": {
+        "physical_ledger_residual": 2.271637237520788e-08,
+        "physical_ledger_quadrature": 2.439676358082196e-19
+      },
+      "targets": {
+        "0.0001": {
+          "actual": {
+            "concentration": 0.0032266346588746136,
+            "flux": 0.005888135455392509
+          },
+          "global_error": {
+            "concentration": 0.003172297293021698,
+            "flux": 0.005885651515277742
+          },
+          "passes": false
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 0.3226634658874614,
+            "flux": 0.5888135455392511
+          },
+          "global_error": {
+            "concentration": 0.3172297293021698,
+            "flux": 0.5885651515277742
+          },
+          "passes": false
+        }
+      }
+    },
+    {
+      "key": "3-3",
+      "source_shard": "history-2",
+      "model": "teusink",
+      "h": 0.001,
+      "threshold": 0.1,
+      "step": 3,
+      "degree": 3,
+      "common_interval": false,
+      "seconds": 0.0007979997899383307,
+      "positive": true,
+      "guard": {
+        "nonnegative": true,
+        "pool": 1.397232797670994e-16
+      },
+      "ledger": {
+        "physical_ledger_residual": 2.3705892977549014e-08,
+        "physical_ledger_quadrature": 4.214744199680501e-19
+      },
+      "targets": {
+        "0.0001": {
+          "actual": {
+            "concentration": 0.0032770765342981776,
+            "flux": 0.005894076356967478
+          },
+          "global_error": {
+            "concentration": 0.0030913498404250843,
+            "flux": 0.005890215009850545
+          },
+          "passes": false
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 0.3277076534298178,
+            "flux": 0.5894076356967479
+          },
+          "global_error": {
+            "concentration": 0.30913498404250844,
+            "flux": 0.5890215009850546
+          },
+          "passes": false
+        }
+      }
+    },
+    {
+      "key": "3-4",
+      "source_shard": "history-2",
+      "model": "teusink",
+      "h": 0.001,
+      "threshold": 0.1,
+      "step": 3,
+      "degree": 4,
+      "common_interval": false,
+      "seconds": 0.0007994158659130335,
+      "positive": true,
+      "guard": {
+        "nonnegative": true,
+        "pool": 1.7025397223408887e-16
+      },
+      "ledger": {
+        "physical_ledger_residual": 2.4319628530913186e-08,
+        "physical_ledger_quadrature": 1.0647774820245475e-18
+      },
+      "targets": {
+        "0.0001": {
+          "actual": {
+            "concentration": 0.0034084961651483924,
+            "flux": 0.006129906180444564
+          },
+          "global_error": {
+            "concentration": 0.003188197861109777,
+            "flux": 0.006127474521733322
+          },
+          "passes": false
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 0.34084961651483925,
+            "flux": 0.6129906180444564
+          },
+          "global_error": {
+            "concentration": 0.3188197861109777,
+            "flux": 0.6127474521733324
+          },
+          "passes": false
+        }
+      }
+    },
+    {
+      "key": "4-3",
+      "source_shard": "history-2",
+      "model": "teusink",
+      "h": 0.001,
+      "threshold": 0.1,
+      "step": 4,
+      "degree": 3,
+      "common_interval": true,
+      "seconds": 0.0007889170665293932,
+      "positive": true,
+      "guard": {
+        "nonnegative": true,
+        "pool": 2.051854651442398e-16
+      },
+      "ledger": {
+        "physical_ledger_residual": 2.3737470511800167e-08,
+        "physical_ledger_quadrature": 8.431000171870398e-19
+      },
+      "targets": {
+        "0.0001": {
+          "actual": {
+            "concentration": 0.0032817084083684982,
+            "flux": 0.005899841782196059
+          },
+          "global_error": {
+            "concentration": 0.0030248118431449368,
+            "flux": 0.0058948635047009566
+          },
+          "passes": false
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 0.32817084083684983,
+            "flux": 0.589984178219606
+          },
+          "global_error": {
+            "concentration": 0.3024811843144937,
+            "flux": 0.5894863504700958
+          },
+          "passes": false
+        }
+      }
+    },
+    {
+      "key": "4-4",
+      "source_shard": "history-2",
+      "model": "teusink",
+      "h": 0.001,
+      "threshold": 0.1,
+      "step": 4,
+      "degree": 4,
+      "common_interval": true,
+      "seconds": 0.0007943331729620695,
+      "positive": true,
+      "guard": {
+        "nonnegative": true,
+        "pool": 2.0955200988230578e-16
+      },
+      "ledger": {
+        "physical_ledger_residual": 2.374000917263591e-08,
+        "physical_ledger_quadrature": 1.2868368683381134e-18
+      },
+      "targets": {
+        "0.0001": {
+          "actual": {
+            "concentration": 0.0032822375062515332,
+            "flux": 0.005899887619340495
+          },
+          "global_error": {
+            "concentration": 0.0030248118431449368,
+            "flux": 0.005894899462315424
+          },
+          "passes": false
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 0.32822375062515335,
+            "flux": 0.5899887619340496
+          },
+          "global_error": {
+            "concentration": 0.3024811843144937,
+            "flux": 0.5894899462315425
+          },
+          "passes": false
+        }
+      }
+    },
+    {
+      "key": "4-5",
+      "source_shard": "history-2",
+      "model": "teusink",
+      "h": 0.001,
+      "threshold": 0.1,
+      "step": 4,
+      "degree": 5,
+      "common_interval": true,
+      "seconds": 0.0009029589127749205,
+      "positive": true,
+      "guard": {
+        "nonnegative": true,
+        "pool": 1.789831275474551e-16
+      },
+      "ledger": {
+        "physical_ledger_residual": 2.3305730521992055e-08,
+        "physical_ledger_quadrature": 8.874737023021472e-20
+      },
+      "targets": {
+        "0.0001": {
+          "actual": {
+            "concentration": 0.0032340600957862973,
+            "flux": 0.005899841782755975
+          },
+          "global_error": {
+            "concentration": 0.0030248118431449368,
+            "flux": 0.005894863505260872
+          },
+          "passes": false
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 0.32340600957862975,
+            "flux": 0.5899841782755977
+          },
+          "global_error": {
+            "concentration": 0.3024811843144937,
+            "flux": 0.5894863505260873
+          },
+          "passes": false
+        }
+      }
+    },
+    {
+      "key": "5-3",
+      "source_shard": "history-2",
+      "model": "teusink",
+      "h": 0.001,
+      "threshold": 0.1,
+      "step": 5,
+      "degree": 3,
+      "common_interval": true,
+      "seconds": 0.0008188330102711916,
+      "positive": true,
+      "guard": {
+        "nonnegative": true,
+        "pool": 1.2225982260188237e-16
+      },
+      "ledger": {
+        "physical_ledger_residual": 2.3764412188287876e-08,
+        "physical_ledger_quadrature": 1.353639473038961e-18
+      },
+      "targets": {
+        "0.0001": {
+          "actual": {
+            "concentration": 0.003285401324798145,
+            "flux": 0.0059054324091364465
+          },
+          "global_error": {
+            "concentration": 0.0029701366075388495,
+            "flux": 0.005899550026801756
+          },
+          "passes": false
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 0.3285401324798145,
+            "flux": 0.5905432409136447
+          },
+          "global_error": {
+            "concentration": 0.29701366075388497,
+            "flux": 0.5899550026801758
+          },
+          "passes": false
+        }
+      }
+    },
+    {
+      "key": "5-4",
+      "source_shard": "history-2",
+      "model": "teusink",
+      "h": 0.001,
+      "threshold": 0.1,
+      "step": 5,
+      "degree": 4,
+      "common_interval": true,
+      "seconds": 0.0008019590750336647,
+      "positive": true,
+      "guard": {
+        "nonnegative": true,
+        "pool": 1.2225723480693797e-16
+      },
+      "ledger": {
+        "physical_ledger_residual": 2.3764433287444154e-08,
+        "physical_ledger_quadrature": 1.7752648826740473e-19
+      },
+      "targets": {
+        "0.0001": {
+          "actual": {
+            "concentration": 0.003285403321352448,
+            "flux": 0.005905432409509723
+          },
+          "global_error": {
+            "concentration": 0.0029701366075388495,
+            "flux": 0.005899550027175034
+          },
+          "passes": false
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 0.3285403321352448,
+            "flux": 0.5905432409509724
+          },
+          "global_error": {
+            "concentration": 0.29701366075388497,
+            "flux": 0.5899550027175035
+          },
+          "passes": false
+        }
+      }
+    },
+    {
+      "key": "5-5",
+      "source_shard": "history-2",
+      "model": "teusink",
+      "h": 0.001,
+      "threshold": 0.1,
+      "step": 5,
+      "degree": 5,
+      "common_interval": true,
+      "seconds": 0.000828790944069624,
+      "positive": true,
+      "guard": {
+        "nonnegative": true,
+        "pool": 1.3535799909031036e-16
+      },
+      "ledger": {
+        "physical_ledger_residual": 2.3762644459116148e-08,
+        "physical_ledger_quadrature": 7.101059530696189e-19
+      },
+      "targets": {
+        "0.0001": {
+          "actual": {
+            "concentration": 0.0032850392902796783,
+            "flux": 0.005905432408949808
+          },
+          "global_error": {
+            "concentration": 0.0029701366075388495,
+            "flux": 0.005899550026615118
+          },
+          "passes": false
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 0.3285039290279679,
+            "flux": 0.5905432408949809
+          },
+          "global_error": {
+            "concentration": 0.29701366075388497,
+            "flux": 0.5899550026615119
+          },
+          "passes": false
+        }
+      }
+    },
+    {
+      "key": "6-3",
+      "source_shard": "history-2",
+      "model": "teusink",
+      "h": 0.001,
+      "threshold": 0.1,
+      "step": 6,
+      "degree": 3,
+      "common_interval": true,
+      "seconds": 0.0011086671147495508,
+      "positive": true,
+      "guard": {
+        "nonnegative": true,
+        "pool": 2.8359041923171975e-16
+      },
+      "ledger": {
+        "physical_ledger_residual": 2.37906275926718e-08,
+        "physical_ledger_quadrature": 2.2194769641315447e-20
+      },
+      "targets": {
+        "0.0001": {
+          "actual": {
+            "concentration": 0.0032889886052297496,
+            "flux": 0.005910848281275443
+          },
+          "global_error": {
+            "concentration": 0.0029250918732205526,
+            "flux": 0.005904232017876202
+          },
+          "passes": false
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 0.32889886052297496,
+            "flux": 0.5910848281275444
+          },
+          "global_error": {
+            "concentration": 0.2925091873220553,
+            "flux": 0.5904232017876203
+          },
+          "passes": false
+        }
+      }
+    },
+    {
+      "key": "6-4",
+      "source_shard": "history-2",
+      "model": "teusink",
+      "h": 0.001,
+      "threshold": 0.1,
+      "step": 6,
+      "degree": 4,
+      "common_interval": true,
+      "seconds": 0.0009937090799212456,
+      "positive": true,
+      "guard": {
+        "nonnegative": true,
+        "pool": 3.0541099184705198e-16
+      },
+      "ledger": {
+        "physical_ledger_residual": 2.3790633250318336e-08,
+        "physical_ledger_quadrature": 8.212064767286715e-19
+      },
+      "targets": {
+        "0.0001": {
+          "actual": {
+            "concentration": 0.003288986718602731,
+            "flux": 0.005910848281275443
+          },
+          "global_error": {
+            "concentration": 0.0029250918732205526,
+            "flux": 0.005904232017876202
+          },
+          "passes": false
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 0.3288986718602731,
+            "flux": 0.5910848281275444
+          },
+          "global_error": {
+            "concentration": 0.2925091873220553,
+            "flux": 0.5904232017876203
+          },
+          "passes": false
+        }
+      }
+    },
+    {
+      "key": "6-5",
+      "source_shard": "history-2",
+      "model": "teusink",
+      "h": 0.001,
+      "threshold": 0.1,
+      "step": 6,
+      "degree": 5,
+      "common_interval": true,
+      "seconds": 0.0008193750400096178,
+      "positive": true,
+      "guard": {
+        "nonnegative": true,
+        "pool": 3.4032492403607486e-16
+      },
+      "ledger": {
+        "physical_ledger_residual": 2.379062227791226e-08,
+        "physical_ledger_quadrature": 1.5536338748920813e-19
+      },
+      "targets": {
+        "0.0001": {
+          "actual": {
+            "concentration": 0.0032889840377510826,
+            "flux": 0.005910848281275443
+          },
+          "global_error": {
+            "concentration": 0.0029250918732205526,
+            "flux": 0.005904232017876202
+          },
+          "passes": false
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 0.32889840377510826,
+            "flux": 0.5910848281275444
+          },
+          "global_error": {
+            "concentration": 0.2925091873220553,
+            "flux": 0.5904232017876203
+          },
+          "passes": false
+        }
+      }
+    },
+    {
+      "key": "7-3",
+      "source_shard": "history-2",
+      "model": "teusink",
+      "h": 0.001,
+      "threshold": 0.1,
+      "step": 7,
+      "degree": 3,
+      "common_interval": true,
+      "seconds": 0.0007901249919086695,
+      "positive": true,
+      "guard": {
+        "nonnegative": true,
+        "pool": 1.657907092960816e-16
+      },
+      "ledger": {
+        "physical_ledger_residual": 2.3816136488899096e-08,
+        "physical_ledger_quadrature": 5.105705228825116e-19
+      },
+      "targets": {
+        "0.0001": {
+          "actual": {
+            "concentration": 0.0032924801266298164,
+            "flux": 0.005916089597943121
+          },
+          "global_error": {
+            "concentration": 0.0028878774270096825,
+            "flux": 0.005908876366735782
+          },
+          "passes": false
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 0.32924801266298165,
+            "flux": 0.5916089597943122
+          },
+          "global_error": {
+            "concentration": 0.28878774270096824,
+            "flux": 0.5908876366735782
+          },
+          "passes": false
+        }
+      }
+    },
+    {
+      "key": "7-4",
+      "source_shard": "history-2",
+      "model": "teusink",
+      "h": 0.001,
+      "threshold": 0.1,
+      "step": 7,
+      "degree": 4,
+      "common_interval": true,
+      "seconds": 0.0008759170304983854,
+      "positive": true,
+      "guard": {
+        "nonnegative": true,
+        "pool": 2.0069986887676523e-16
+      },
+      "ledger": {
+        "physical_ledger_residual": 2.381614101839219e-08,
+        "physical_ledger_quadrature": 7.10358988358277e-19
+      },
+      "targets": {
+        "0.0001": {
+          "actual": {
+            "concentration": 0.0032924810087962735,
+            "flux": 0.005916089597196566
+          },
+          "global_error": {
+            "concentration": 0.0028878774256355915,
+            "flux": 0.005908876365989227
+          },
+          "passes": false
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 0.32924810087962736,
+            "flux": 0.5916089597196567
+          },
+          "global_error": {
+            "concentration": 0.28878774256355916,
+            "flux": 0.5908876365989228
+          },
+          "passes": false
+        }
+      }
+    },
+    {
+      "key": "7-5",
+      "source_shard": "history-2",
+      "model": "teusink",
+      "h": 0.001,
+      "threshold": 0.1,
+      "step": 7,
+      "degree": 5,
+      "common_interval": true,
+      "seconds": 0.0008229999803006649,
+      "positive": true,
+      "guard": {
+        "nonnegative": true,
+        "pool": 1.5269944752100675e-16
+      },
+      "ledger": {
+        "physical_ledger_residual": 2.3816140224521625e-08,
+        "physical_ledger_quadrature": 8.879487354478463e-20
+      },
+      "targets": {
+        "0.0001": {
+          "actual": {
+            "concentration": 0.0032924829242792046,
+            "flux": 0.005916089597943121
+          },
+          "global_error": {
+            "concentration": 0.0028878774283837734,
+            "flux": 0.005908876366735782
+          },
+          "passes": false
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 0.3292482924279205,
+            "flux": 0.5916089597943122
+          },
+          "global_error": {
+            "concentration": 0.2887877428383774,
+            "flux": 0.5908876366735782
+          },
+          "passes": false
+        }
+      }
+    },
+    {
+      "key": "2-3",
+      "source_shard": "history-3",
+      "model": "kecoli",
+      "h": 0.001,
+      "threshold": 0.01,
+      "step": 2,
+      "degree": 3,
+      "common_interval": false,
+      "seconds": 0.0023207920603454113,
+      "positive": true,
+      "guard": {
+        "nonnegative": true,
+        "pool": 2.2282956729791104e-13
+      },
+      "ledger": {},
+      "targets": {
+        "0.0001": {
+          "actual": {
+            "concentration": 0.000123700544921151,
+            "flux": 0.00012370054621997338,
+            "net_flux": 0.004550527370471988
+          },
+          "global_error": {
+            "concentration": 0.0001243193732092,
+            "flux": 0.0001243193736804402,
+            "net_flux": 0.00434877468681087
+          },
+          "passes": true
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 0.012370054492115102,
+            "flux": 0.012370054621997341,
+            "net_flux": 0.004550527370471988
+          },
+          "global_error": {
+            "concentration": 0.01243193732092,
+            "flux": 0.01243193736804402,
+            "net_flux": 0.00434877468681087
+          },
+          "passes": true
+        }
+      }
+    },
+    {
+      "key": "3-3",
+      "source_shard": "history-3",
+      "model": "kecoli",
+      "h": 0.001,
+      "threshold": 0.01,
+      "step": 3,
+      "degree": 3,
+      "common_interval": false,
+      "seconds": 0.0017041249666363,
+      "positive": true,
+      "guard": {
+        "nonnegative": true,
+        "pool": 7.261552470438921e-14
+      },
+      "ledger": {},
+      "targets": {
+        "0.0001": {
+          "actual": {
+            "concentration": 0.0001246554953059257,
+            "flux": 0.0001246554946028597,
+            "net_flux": 0.00458416437579733
+          },
+          "global_error": {
+            "concentration": 0.00012500705001345936,
+            "flux": 0.00012500704981647127,
+            "net_flux": 0.004398223289391391
+          },
+          "passes": true
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 0.012465549530592571,
+            "flux": 0.012465549460285968,
+            "net_flux": 0.00458416437579733
+          },
+          "global_error": {
+            "concentration": 0.012500705001345938,
+            "flux": 0.012500704981647126,
+            "net_flux": 0.004398223289391391
+          },
+          "passes": true
+        }
+      }
+    },
+    {
+      "key": "3-4",
+      "source_shard": "history-3",
+      "model": "kecoli",
+      "h": 0.001,
+      "threshold": 0.01,
+      "step": 3,
+      "degree": 4,
+      "common_interval": false,
+      "seconds": 0.001974834129214287,
+      "positive": true,
+      "guard": {
+        "nonnegative": true,
+        "pool": 1.0736810746037061e-13
+      },
+      "ledger": {},
+      "targets": {
+        "0.0001": {
+          "actual": {
+            "concentration": 0.0001286657180952075,
+            "flux": 0.00012866571923793714,
+            "net_flux": 0.004651666992808688
+          },
+          "global_error": {
+            "concentration": 0.00012925461809481234,
+            "flux": 0.00012925461843125212,
+            "net_flux": 0.004485632230507423
+          },
+          "passes": true
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 0.012866571809520753,
+            "flux": 0.012866571923793715,
+            "net_flux": 0.004651666992808688
+          },
+          "global_error": {
+            "concentration": 0.012925461809481236,
+            "flux": 0.012925461843125215,
+            "net_flux": 0.004485632230507423
+          },
+          "passes": true
+        }
+      }
+    },
+    {
+      "key": "4-3",
+      "source_shard": "history-3",
+      "model": "kecoli",
+      "h": 0.001,
+      "threshold": 0.01,
+      "step": 4,
+      "degree": 3,
+      "common_interval": true,
+      "seconds": 0.0019959998317062855,
+      "positive": true,
+      "guard": {
+        "nonnegative": true,
+        "pool": 2.997766965218143e-13
+      },
+      "ledger": {},
+      "targets": {
+        "0.0001": {
+          "actual": {
+            "concentration": 0.00012448219243195246,
+            "flux": 0.00012448219316306468,
+            "net_flux": 0.004729022020581783
+          },
+          "global_error": {
+            "concentration": 0.0001251078649751534,
+            "flux": 0.00012510786491752606,
+            "net_flux": 0.004399482026294727
+          },
+          "passes": true
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 0.012448219243195247,
+            "flux": 0.012448219316306467,
+            "net_flux": 0.004729022020581783
+          },
+          "global_error": {
+            "concentration": 0.012510786497515343,
+            "flux": 0.012510786491752605,
+            "net_flux": 0.004399482026294727
+          },
+          "passes": true
+        }
+      }
+    },
+    {
+      "key": "4-4",
+      "source_shard": "history-3",
+      "model": "kecoli",
+      "h": 0.001,
+      "threshold": 0.01,
+      "step": 4,
+      "degree": 4,
+      "common_interval": true,
+      "seconds": 0.00211087497882545,
+      "positive": true,
+      "guard": {
+        "nonnegative": true,
+        "pool": 2.997766965218143e-13
+      },
+      "ledger": {},
+      "targets": {
+        "0.0001": {
+          "actual": {
+            "concentration": 0.0001231384064473004,
+            "flux": 0.00012313840650589214,
+            "net_flux": 0.004742001272881837
+          },
+          "global_error": {
+            "concentration": 0.00012391347399667813,
+            "flux": 0.0001239134742207427,
+            "net_flux": 0.0044096837954277655
+          },
+          "passes": true
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 0.012313840644730041,
+            "flux": 0.012313840650589216,
+            "net_flux": 0.004742001272881837
+          },
+          "global_error": {
+            "concentration": 0.012391347399667815,
+            "flux": 0.012391347422074272,
+            "net_flux": 0.0044096837954277655
+          },
+          "passes": true
+        }
+      }
+    },
+    {
+      "key": "4-5",
+      "source_shard": "history-3",
+      "model": "kecoli",
+      "h": 0.001,
+      "threshold": 0.01,
+      "step": 4,
+      "degree": 5,
+      "common_interval": true,
+      "seconds": 0.0023032501339912415,
+      "positive": true,
+      "guard": {
+        "nonnegative": true,
+        "pool": 2.997766965218143e-13
+      },
+      "ledger": {},
+      "targets": {
+        "0.0001": {
+          "actual": {
+            "concentration": 0.00012186521903192419,
+            "flux": 0.00012186521928391436,
+            "net_flux": 0.004710461072013457
+          },
+          "global_error": {
+            "concentration": 0.00012381200544373718,
+            "flux": 0.0001238120048234895,
+            "net_flux": 0.004398223195930082
+          },
+          "passes": true
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 0.01218652190319242,
+            "flux": 0.012186521928391437,
+            "net_flux": 0.004710461072013457
+          },
+          "global_error": {
+            "concentration": 0.01238120054437372,
+            "flux": 0.012381200482348953,
+            "net_flux": 0.004398223195930082
+          },
+          "passes": true
+        }
+      }
+    },
+    {
+      "key": "5-3",
+      "source_shard": "history-3",
+      "model": "kecoli",
+      "h": 0.001,
+      "threshold": 0.01,
+      "step": 5,
+      "degree": 3,
+      "common_interval": true,
+      "seconds": 0.001758707920089364,
+      "positive": true,
+      "guard": {
+        "nonnegative": true,
+        "pool": 9.167840098189835e-14
+      },
+      "ledger": {},
+      "targets": {
+        "0.0001": {
+          "actual": {
+            "concentration": 0.00012343147247656635,
+            "flux": 0.00012343147241067375,
+            "net_flux": 0.004343424681126453
+          },
+          "global_error": {
+            "concentration": 0.00012372235867783035,
+            "flux": 0.00012372235934917877,
+            "net_flux": 0.0041990615401254535
+          },
+          "passes": true
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 0.012343147247656635,
+            "flux": 0.012343147241067377,
+            "net_flux": 0.004343424681126453
+          },
+          "global_error": {
+            "concentration": 0.012372235867783035,
+            "flux": 0.01237223593491788,
+            "net_flux": 0.0041990615401254535
+          },
+          "passes": true
+        }
+      }
+    },
+    {
+      "key": "5-4",
+      "source_shard": "history-3",
+      "model": "kecoli",
+      "h": 0.001,
+      "threshold": 0.01,
+      "step": 5,
+      "degree": 4,
+      "common_interval": true,
+      "seconds": 0.0020054581109434366,
+      "positive": true,
+      "guard": {
+        "nonnegative": true,
+        "pool": 1.3255282288460192e-13
+      },
+      "ledger": {},
+      "targets": {
+        "0.0001": {
+          "actual": {
+            "concentration": 0.00012158375811645567,
+            "flux": 0.00012158375806239684,
+            "net_flux": 0.004315048519397186
+          },
+          "global_error": {
+            "concentration": 0.00012172335639700268,
+            "flux": 0.00012172335639920987,
+            "net_flux": 0.0041990616335867625
+          },
+          "passes": true
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 0.012158375811645568,
+            "flux": 0.012158375806239683,
+            "net_flux": 0.004315048519397186
+          },
+          "global_error": {
+            "concentration": 0.01217233563970027,
+            "flux": 0.012172335639920989,
+            "net_flux": 0.0041990616335867625
+          },
+          "passes": true
+        }
+      }
+    },
+    {
+      "key": "5-5",
+      "source_shard": "history-3",
+      "model": "kecoli",
+      "h": 0.001,
+      "threshold": 0.01,
+      "step": 5,
+      "degree": 5,
+      "common_interval": true,
+      "seconds": 0.002112374873831868,
+      "positive": true,
+      "guard": {
+        "nonnegative": true,
+        "pool": 1.9053855715434071e-13
+      },
+      "ledger": {},
+      "targets": {
+        "0.0001": {
+          "actual": {
+            "concentration": 0.00012158375692594338,
+            "flux": 0.0001215837579373128,
+            "net_flux": 0.0042888129954785845
+          },
+          "global_error": {
+            "concentration": 0.00012172335520649039,
+            "flux": 0.00012172335615289132,
+            "net_flux": 0.004199061353202837
+          },
+          "passes": true
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 0.012158375692594339,
+            "flux": 0.012158375793731281,
+            "net_flux": 0.0042888129954785845
+          },
+          "global_error": {
+            "concentration": 0.01217233552064904,
+            "flux": 0.012172335615289133,
+            "net_flux": 0.004199061353202837
+          },
+          "passes": true
+        }
+      }
+    },
+    {
+      "key": "6-3",
+      "source_shard": "history-3",
+      "model": "kecoli",
+      "h": 0.001,
+      "threshold": 0.01,
+      "step": 6,
+      "degree": 3,
+      "common_interval": true,
+      "seconds": 0.0016471659764647484,
+      "positive": true,
+      "guard": {
+        "nonnegative": true,
+        "pool": 4.6343137660720446e-14
+      },
+      "ledger": {},
+      "targets": {
+        "0.0001": {
+          "actual": {
+            "concentration": 0.00012291786047414544,
+            "flux": 0.00012291786130167815,
+            "net_flux": 0.004512427587664144
+          },
+          "global_error": {
+            "concentration": 0.00012374960593259868,
+            "flux": 0.00012374960706570514,
+            "net_flux": 0.004205893468317986
+          },
+          "passes": true
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 0.012291786047414547,
+            "flux": 0.012291786130167816,
+            "net_flux": 0.004512427587664144
+          },
+          "global_error": {
+            "concentration": 0.01237496059325987,
+            "flux": 0.012374960706570515,
+            "net_flux": 0.004205893468317986
+          },
+          "passes": true
+        }
+      }
+    },
+    {
+      "key": "6-4",
+      "source_shard": "history-3",
+      "model": "kecoli",
+      "h": 0.001,
+      "threshold": 0.01,
+      "step": 6,
+      "degree": 4,
+      "common_interval": true,
+      "seconds": 0.0019616251811385155,
+      "positive": true,
+      "guard": {
+        "nonnegative": true,
+        "pool": 4.634313766072043e-14
+      },
+      "ledger": {},
+      "targets": {
+        "0.0001": {
+          "actual": {
+            "concentration": 0.00012051253992047004,
+            "flux": 0.00012051254077850694,
+            "net_flux": 0.004542659049829121
+          },
+          "global_error": {
+            "concentration": 0.00012158143780800356,
+            "flux": 0.00012158143882223404,
+            "net_flux": 0.004247943580253641
+          },
+          "passes": true
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 0.012051253992047007,
+            "flux": 0.012051254077850695,
+            "net_flux": 0.004542659049829121
+          },
+          "global_error": {
+            "concentration": 0.012158143780800356,
+            "flux": 0.012158143882223405,
+            "net_flux": 0.004247943580253641
+          },
+          "passes": true
+        }
+      }
+    },
+    {
+      "key": "6-5",
+      "source_shard": "history-3",
+      "model": "kecoli",
+      "h": 0.001,
+      "threshold": 0.01,
+      "step": 6,
+      "degree": 5,
+      "common_interval": true,
+      "seconds": 0.0020805001258850098,
+      "positive": true,
+      "guard": {
+        "nonnegative": true,
+        "pool": 7.35583469135826e-14
+      },
+      "ledger": {},
+      "targets": {
+        "0.0001": {
+          "actual": {
+            "concentration": 0.00012053955502534194,
+            "flux": 0.00012053955547188352,
+            "net_flux": 0.004581815786575177
+          },
+          "global_error": {
+            "concentration": 0.00012159618706475738,
+            "flux": 0.00012159618742503016,
+            "net_flux": 0.00433572571237465
+          },
+          "passes": true
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 0.012053955502534195,
+            "flux": 0.012053955547188352,
+            "net_flux": 0.004581815786575177
+          },
+          "global_error": {
+            "concentration": 0.01215961870647574,
+            "flux": 0.012159618742503016,
+            "net_flux": 0.00433572571237465
+          },
+          "passes": true
+        }
+      }
+    },
+    {
+      "key": "7-3",
+      "source_shard": "history-3",
+      "model": "kecoli",
+      "h": 0.001,
+      "threshold": 0.01,
+      "step": 7,
+      "degree": 3,
+      "common_interval": true,
+      "seconds": 0.001759624807164073,
+      "positive": true,
+      "guard": {
+        "nonnegative": true,
+        "pool": 1.499581708808152e-14
+      },
+      "ledger": {},
+      "targets": {
+        "0.0001": {
+          "actual": {
+            "concentration": 0.00012124920273390286,
+            "flux": 0.00012124920300276636,
+            "net_flux": 0.004139676878912058
+          },
+          "global_error": {
+            "concentration": 0.00012181631635861102,
+            "flux": 0.00012181631734880786,
+            "net_flux": 0.0040128245552166954
+          },
+          "passes": true
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 0.012124920273390287,
+            "flux": 0.012124920300276638,
+            "net_flux": 0.004139676878912058
+          },
+          "global_error": {
+            "concentration": 0.012181631635861103,
+            "flux": 0.012181631734880788,
+            "net_flux": 0.0040128245552166954
+          },
+          "passes": true
+        }
+      }
+    },
+    {
+      "key": "7-4",
+      "source_shard": "history-3",
+      "model": "kecoli",
+      "h": 0.001,
+      "threshold": 0.01,
+      "step": 7,
+      "degree": 4,
+      "common_interval": true,
+      "seconds": 0.0019498751498758793,
+      "positive": true,
+      "guard": {
+        "nonnegative": true,
+        "pool": 1.6341095143701535e-14
+      },
+      "ledger": {},
+      "targets": {
+        "0.0001": {
+          "actual": {
+            "concentration": 0.0001182604823473998,
+            "flux": 0.00011826048257405866,
+            "net_flux": 0.004108591928077548
+          },
+          "global_error": {
+            "concentration": 0.00011900592876050407,
+            "flux": 0.00011900592892373336,
+            "net_flux": 0.0040128245552166954
+          },
+          "passes": true
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 0.011826048234739981,
+            "flux": 0.011826048257405868,
+            "net_flux": 0.004108591928077548
+          },
+          "global_error": {
+            "concentration": 0.011900592876050409,
+            "flux": 0.011900592892373336,
+            "net_flux": 0.0040128245552166954
+          },
+          "passes": true
+        }
+      }
+    },
+    {
+      "key": "7-5",
+      "source_shard": "history-3",
+      "model": "kecoli",
+      "h": 0.001,
+      "threshold": 0.01,
+      "step": 7,
+      "degree": 5,
+      "common_interval": true,
+      "seconds": 0.002124333055689931,
+      "positive": true,
+      "guard": {
+        "nonnegative": true,
+        "pool": 4.810648407405086e-14
+      },
+      "ledger": {},
+      "targets": {
+        "0.0001": {
+          "actual": {
+            "concentration": 0.00011826048115688751,
+            "flux": 0.00011826048101942973,
+            "net_flux": 0.004071204600824658
+          },
+          "global_error": {
+            "concentration": 0.00011900592756999178,
+            "flux": 0.00011900592766327675,
+            "net_flux": 0.004012824368294078
+          },
+          "passes": true
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 0.011826048115688752,
+            "flux": 0.011826048101942974,
+            "net_flux": 0.004071204600824658
+          },
+          "global_error": {
+            "concentration": 0.01190059275699918,
+            "flux": 0.011900592766327675,
+            "net_flux": 0.004012824368294078
+          },
+          "passes": true
+        }
+      }
+    },
+    {
+      "key": "2-3",
+      "source_shard": "history-4",
+      "model": "kecoli",
+      "h": 0.003,
+      "threshold": 0.01,
+      "step": 2,
+      "degree": 3,
+      "common_interval": false,
+      "seconds": 0.0018925000913441181,
+      "positive": true,
+      "guard": {
+        "nonnegative": true,
+        "pool": 2.2553920536738674e-13
+      },
+      "ledger": {},
+      "targets": {
+        "0.0001": {
+          "actual": {
+            "concentration": 0.0026739380707618316,
+            "flux": 0.001544209642811908,
+            "net_flux": 0.02457000254169516
+          },
+          "global_error": {
+            "concentration": 0.0026741352924172096,
+            "flux": 0.0015446048964620946,
+            "net_flux": 0.027247190578317662
+          },
+          "passes": true
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 0.2673938070761832,
+            "flux": 0.15442096428119081,
+            "net_flux": 0.02457000254169516
+          },
+          "global_error": {
+            "concentration": 0.267413529241721,
+            "flux": 0.15446048964620945,
+            "net_flux": 0.027247190578317662
+          },
+          "passes": true
+        }
+      }
+    },
+    {
+      "key": "3-3",
+      "source_shard": "history-4",
+      "model": "kecoli",
+      "h": 0.003,
+      "threshold": 0.01,
+      "step": 3,
+      "degree": 3,
+      "common_interval": false,
+      "seconds": 0.0018815831281244755,
+      "positive": true,
+      "guard": {
+        "nonnegative": true,
+        "pool": 2.6241162021101176e-13
+      },
+      "ledger": {},
+      "targets": {
+        "0.0001": {
+          "actual": {
+            "concentration": 0.001997194018730506,
+            "flux": 0.0014399535035854328,
+            "net_flux": 0.024678704153308126
+          },
+          "global_error": {
+            "concentration": 0.001997481293315937,
+            "flux": 0.0014403104665890554,
+            "net_flux": 0.025779888609602647
+          },
+          "passes": true
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 0.19971940187305065,
+            "flux": 0.1439953503585433,
+            "net_flux": 0.024678704153308126
+          },
+          "global_error": {
+            "concentration": 0.19974812933159372,
+            "flux": 0.14403104665890554,
+            "net_flux": 0.025779888609602647
+          },
+          "passes": true
+        }
+      }
+    },
+    {
+      "key": "3-4",
+      "source_shard": "history-4",
+      "model": "kecoli",
+      "h": 0.003,
+      "threshold": 0.01,
+      "step": 3,
+      "degree": 4,
+      "common_interval": false,
+      "seconds": 0.0020806249231100082,
+      "positive": true,
+      "guard": {
+        "nonnegative": true,
+        "pool": 2.6244111051010337e-13
+      },
+      "ledger": {},
+      "targets": {
+        "0.0001": {
+          "actual": {
+            "concentration": 0.0008319833335232597,
+            "flux": 0.0008319833346205132,
+            "net_flux": 0.025075390404847277
+          },
+          "global_error": {
+            "concentration": 0.0008327061566313278,
+            "flux": 0.0008327061573420845,
+            "net_flux": 0.02665842510687299
+          },
+          "passes": true
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 0.08319833335232597,
+            "flux": 0.08319833346205133,
+            "net_flux": 0.025075390404847277
+          },
+          "global_error": {
+            "concentration": 0.08327061566313279,
+            "flux": 0.08327061573420846,
+            "net_flux": 0.02665842510687299
+          },
+          "passes": true
+        }
+      }
+    },
+    {
+      "key": "4-3",
+      "source_shard": "history-4",
+      "model": "kecoli",
+      "h": 0.003,
+      "threshold": 0.01,
+      "step": 4,
+      "degree": 3,
+      "common_interval": true,
+      "seconds": 0.0017945000436156988,
+      "positive": true,
+      "guard": {
+        "nonnegative": true,
+        "pool": 4.9983454875057756e-14
+      },
+      "ledger": {},
+      "targets": {
+        "0.0001": {
+          "actual": {
+            "concentration": 0.0013823930962831442,
+            "flux": 0.0013823931006908413,
+            "net_flux": 0.024767264113924766
+          },
+          "global_error": {
+            "concentration": 0.0013829947662573375,
+            "flux": 0.0013829947699436347,
+            "net_flux": 0.025909104900640304
+          },
+          "passes": true
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 0.13823930962831443,
+            "flux": 0.13823931006908416,
+            "net_flux": 0.024767264113924766
+          },
+          "global_error": {
+            "concentration": 0.13829947662573377,
+            "flux": 0.13829947699436348,
+            "net_flux": 0.025909104900640304
+          },
+          "passes": true
+        }
+      }
+    },
+    {
+      "key": "4-4",
+      "source_shard": "history-4",
+      "model": "kecoli",
+      "h": 0.003,
+      "threshold": 0.01,
+      "step": 4,
+      "degree": 4,
+      "common_interval": true,
+      "seconds": 0.0020065000280737877,
+      "positive": true,
+      "guard": {
+        "nonnegative": true,
+        "pool": 5.114832168917618e-14
+      },
+      "ledger": {},
+      "targets": {
+        "0.0001": {
+          "actual": {
+            "concentration": 0.0007314369097337821,
+            "flux": 0.0007314369106321601,
+            "net_flux": 0.024780561330557373
+          },
+          "global_error": {
+            "concentration": 0.0007319851668343379,
+            "flux": 0.0007319851664020787,
+            "net_flux": 0.026185251827454573
+          },
+          "passes": true
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 0.07314369097337822,
+            "flux": 0.07314369106321601,
+            "net_flux": 0.024780561330557373
+          },
+          "global_error": {
+            "concentration": 0.0731985166834338,
+            "flux": 0.07319851664020788,
+            "net_flux": 0.026185251827454573
+          },
+          "passes": true
+        }
+      }
+    },
+    {
+      "key": "4-5",
+      "source_shard": "history-4",
+      "model": "kecoli",
+      "h": 0.003,
+      "threshold": 0.01,
+      "step": 4,
+      "degree": 5,
+      "common_interval": true,
+      "seconds": 0.0021513751707971096,
+      "positive": true,
+      "guard": {
+        "nonnegative": true,
+        "pool": 3.074884097342691e-14
+      },
+      "ledger": {},
+      "targets": {
+        "0.0001": {
+          "actual": {
+            "concentration": 0.0006699994718150706,
+            "flux": 0.00066999947190828,
+            "net_flux": 0.024767264113924766
+          },
+          "global_error": {
+            "concentration": 0.0006960370256168816,
+            "flux": 0.0006960370258084375,
+            "net_flux": 0.025909104900640304
+          },
+          "passes": true
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 0.06699994718150706,
+            "flux": 0.06699994719082802,
+            "net_flux": 0.024767264113924766
+          },
+          "global_error": {
+            "concentration": 0.06960370256168817,
+            "flux": 0.06960370258084375,
+            "net_flux": 0.025909104900640304
+          },
+          "passes": true
+        }
+      }
+    },
+    {
+      "key": "5-3",
+      "source_shard": "history-4",
+      "model": "kecoli",
+      "h": 0.003,
+      "threshold": 0.01,
+      "step": 5,
+      "degree": 3,
+      "common_interval": true,
+      "seconds": 0.0018609999679028988,
+      "positive": true,
+      "guard": {
+        "nonnegative": true,
+        "pool": 6.460413801145929e-13
+      },
+      "ledger": {},
+      "targets": {
+        "0.0001": {
+          "actual": {
+            "concentration": 0.0013444801676874296,
+            "flux": 0.0013444801729470125,
+            "net_flux": 0.024835814648946197
+          },
+          "global_error": {
+            "concentration": 0.0013452664434586358,
+            "flux": 0.0013452664486740468,
+            "net_flux": 0.02604399810336381
+          },
+          "passes": true
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 0.13444801676874296,
+            "flux": 0.13444801729470124,
+            "net_flux": 0.024835814648946197
+          },
+          "global_error": {
+            "concentration": 0.13452664434586356,
+            "flux": 0.13452664486740468,
+            "net_flux": 0.02604399810336381
+          },
+          "passes": true
+        }
+      }
+    },
+    {
+      "key": "5-4",
+      "source_shard": "history-4",
+      "model": "kecoli",
+      "h": 0.003,
+      "threshold": 0.01,
+      "step": 5,
+      "degree": 4,
+      "common_interval": true,
+      "seconds": 0.0022009159438312054,
+      "positive": true,
+      "guard": {
+        "nonnegative": true,
+        "pool": 6.460413801145929e-13
+      },
+      "ledger": {},
+      "targets": {
+        "0.0001": {
+          "actual": {
+            "concentration": 0.0006555304985600587,
+            "flux": 0.0006555304996658013,
+            "net_flux": 0.024914960572067418
+          },
+          "global_error": {
+            "concentration": 0.0006550204842857764,
+            "flux": 0.0006550204849493113,
+            "net_flux": 0.026495502631168972
+          },
+          "passes": true
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 0.06555304985600587,
+            "flux": 0.06555304996658015,
+            "net_flux": 0.024914960572067418
+          },
+          "global_error": {
+            "concentration": 0.06550204842857765,
+            "flux": 0.06550204849493114,
+            "net_flux": 0.026495502631168972
+          },
+          "passes": true
+        }
+      }
+    },
+    {
+      "key": "5-5",
+      "source_shard": "history-4",
+      "model": "kecoli",
+      "h": 0.003,
+      "threshold": 0.01,
+      "step": 5,
+      "degree": 5,
+      "common_interval": true,
+      "seconds": 0.0021812908817082644,
+      "positive": true,
+      "guard": {
+        "nonnegative": true,
+        "pool": 6.460413801145929e-13
+      },
+      "ledger": {},
+      "targets": {
+        "0.0001": {
+          "actual": {
+            "concentration": 0.000627636296793917,
+            "flux": 0.0006276362970922365,
+            "net_flux": 0.024835814648946197
+          },
+          "global_error": {
+            "concentration": 0.000646746863173229,
+            "flux": 0.0006467468637637118,
+            "net_flux": 0.026133210969717525
+          },
+          "passes": true
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 0.06276362967939171,
+            "flux": 0.06276362970922365,
+            "net_flux": 0.024835814648946197
+          },
+          "global_error": {
+            "concentration": 0.0646746863173229,
+            "flux": 0.0646746863763712,
+            "net_flux": 0.026133210969717525
+          },
+          "passes": true
+        }
+      }
+    },
+    {
+      "key": "6-3",
+      "source_shard": "history-4",
+      "model": "kecoli",
+      "h": 0.003,
+      "threshold": 0.01,
+      "step": 6,
+      "degree": 3,
+      "common_interval": true,
+      "seconds": 0.0018664589151740074,
+      "positive": true,
+      "guard": {
+        "nonnegative": true,
+        "pool": 1.7190068812844585e-13
+      },
+      "ledger": {},
+      "targets": {
+        "0.0001": {
+          "actual": {
+            "concentration": 0.001298574630193892,
+            "flux": 0.0012985746353405723,
+            "net_flux": 0.025050864305706123
+          },
+          "global_error": {
+            "concentration": 0.00129952022806968,
+            "flux": 0.001299520234300727,
+            "net_flux": 0.026759827145565403
+          },
+          "passes": true
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 0.12985746301938922,
+            "flux": 0.12985746353405725,
+            "net_flux": 0.025050864305706123
+          },
+          "global_error": {
+            "concentration": 0.12995202280696805,
+            "flux": 0.1299520234300727,
+            "net_flux": 0.026759827145565403
+          },
+          "passes": true
+        }
+      }
+    },
+    {
+      "key": "6-4",
+      "source_shard": "history-4",
+      "model": "kecoli",
+      "h": 0.003,
+      "threshold": 0.01,
+      "step": 6,
+      "degree": 4,
+      "common_interval": true,
+      "seconds": 0.0020775420125573874,
+      "positive": true,
+      "guard": {
+        "nonnegative": true,
+        "pool": 2.392669395945292e-13
+      },
+      "ledger": {},
+      "targets": {
+        "0.0001": {
+          "actual": {
+            "concentration": 0.0005827226051497561,
+            "flux": 0.0005827226055179919,
+            "net_flux": 0.0250182617237747
+          },
+          "global_error": {
+            "concentration": 0.0005890742013155985,
+            "flux": 0.0005890742014130264,
+            "net_flux": 0.026704951320420157
+          },
+          "passes": true
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 0.05827226051497561,
+            "flux": 0.058272260551799196,
+            "net_flux": 0.0250182617237747
+          },
+          "global_error": {
+            "concentration": 0.058907420131559855,
+            "flux": 0.05890742014130265,
+            "net_flux": 0.026704951320420157
+          },
+          "passes": true
+        }
+      }
+    },
+    {
+      "key": "6-5",
+      "source_shard": "history-4",
+      "model": "kecoli",
+      "h": 0.003,
+      "threshold": 0.01,
+      "step": 6,
+      "degree": 5,
+      "common_interval": true,
+      "seconds": 0.0021006669849157333,
+      "positive": true,
+      "guard": {
+        "nonnegative": true,
+        "pool": 2.8995642692430954e-13
+      },
+      "ledger": {},
+      "targets": {
+        "0.0001": {
+          "actual": {
+            "concentration": 0.0005691237558978718,
+            "flux": 0.0005691237559489234,
+            "net_flux": 0.02488603084182168
+          },
+          "global_error": {
+            "concentration": 0.0005890742013155985,
+            "flux": 0.0005890742014130264,
+            "net_flux": 0.026192742544866875
+          },
+          "passes": true
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 0.05691237558978719,
+            "flux": 0.056912375594892345,
+            "net_flux": 0.02488603084182168
+          },
+          "global_error": {
+            "concentration": 0.058907420131559855,
+            "flux": 0.05890742014130265,
+            "net_flux": 0.026192742544866875
+          },
+          "passes": true
+        }
+      }
+    },
+    {
+      "key": "7-3",
+      "source_shard": "history-4",
+      "model": "kecoli",
+      "h": 0.003,
+      "threshold": 0.01,
+      "step": 7,
+      "degree": 3,
+      "common_interval": true,
+      "seconds": 0.0016707079485058784,
+      "positive": true,
+      "guard": {
+        "nonnegative": true,
+        "pool": 6.465054186444166e-14
+      },
+      "ledger": {},
+      "targets": {
+        "0.0001": {
+          "actual": {
+            "concentration": 0.0012060154578735194,
+            "flux": 0.0012060154584668298,
+            "net_flux": 0.025724236890618122
+          },
+          "global_error": {
+            "concentration": 0.0012069166057253214,
+            "flux": 0.0012069166061099265,
+            "net_flux": 0.027693101887546645
+          },
+          "passes": true
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 0.12060154578735194,
+            "flux": 0.12060154584668299,
+            "net_flux": 0.025724236890618122
+          },
+          "global_error": {
+            "concentration": 0.12069166057253215,
+            "flux": 0.12069166061099267,
+            "net_flux": 0.027693101887546645
+          },
+          "passes": true
+        }
+      }
+    },
+    {
+      "key": "7-4",
+      "source_shard": "history-4",
+      "model": "kecoli",
+      "h": 0.003,
+      "threshold": 0.01,
+      "step": 7,
+      "degree": 4,
+      "common_interval": true,
+      "seconds": 0.0019465419463813305,
+      "positive": true,
+      "guard": {
+        "nonnegative": true,
+        "pool": 1.357733370177528e-13
+      },
+      "ledger": {},
+      "targets": {
+        "0.0001": {
+          "actual": {
+            "concentration": 0.000508805484057603,
+            "flux": 0.0005088054846658169,
+            "net_flux": 0.02506693026286209
+          },
+          "global_error": {
+            "concentration": 0.0005250261366178736,
+            "flux": 0.0005250261370661926,
+            "net_flux": 0.0268156408804211
+          },
+          "passes": true
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 0.050880548405760305,
+            "flux": 0.05088054846658169,
+            "net_flux": 0.02506693026286209
+          },
+          "global_error": {
+            "concentration": 0.05250261366178737,
+            "flux": 0.05250261370661928,
+            "net_flux": 0.0268156408804211
+          },
+          "passes": true
+        }
+      }
+    },
+    {
+      "key": "7-5",
+      "source_shard": "history-4",
+      "model": "kecoli",
+      "h": 0.003,
+      "threshold": 0.01,
+      "step": 7,
+      "degree": 5,
+      "common_interval": true,
+      "seconds": 0.0020987079478800297,
+      "positive": true,
+      "guard": {
+        "nonnegative": true,
+        "pool": 2.39432605686485e-13
+      },
+      "ledger": {},
+      "targets": {
+        "0.0001": {
+          "actual": {
+            "concentration": 0.0005052918834698595,
+            "flux": 0.0005052918837165338,
+            "net_flux": 0.024918221218487125
+          },
+          "global_error": {
+            "concentration": 0.0005250261366178736,
+            "flux": 0.0005250261370661926,
+            "net_flux": 0.02622364949017788
+          },
+          "passes": true
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 0.050529188346985957,
+            "flux": 0.050529188371653384,
+            "net_flux": 0.024918221218487125
+          },
+          "global_error": {
+            "concentration": 0.05250261366178737,
+            "flux": 0.05250261370661928,
+            "net_flux": 0.02622364949017788
+          },
+          "passes": true
+        }
+      }
+    },
+    {
+      "key": "2-3",
+      "source_shard": "history-5",
+      "model": "kecoli",
+      "h": 0.001,
+      "threshold": 0.1,
+      "step": 2,
+      "degree": 3,
+      "common_interval": false,
+      "seconds": 0.0016842079348862171,
+      "positive": true,
+      "guard": {
+        "nonnegative": true,
+        "pool": 1.9238083348582806e-14
+      },
+      "ledger": {},
+      "targets": {
+        "0.0001": {
+          "actual": {
+            "concentration": 0.0010849027938857943,
+            "flux": 0.0017341622373557195,
+            "net_flux": 0.03088047723350379
+          },
+          "global_error": {
+            "concentration": 0.0012649856448047777,
+            "flux": 0.001787274781656144,
+            "net_flux": 0.03197394016895607
+          },
+          "passes": true
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 0.10849027938857943,
+            "flux": 0.17341622373557197,
+            "net_flux": 0.03088047723350379
+          },
+          "global_error": {
+            "concentration": 0.12649856448047778,
+            "flux": 0.17872747816561443,
+            "net_flux": 0.03197394016895607
+          },
+          "passes": true
+        }
+      }
+    },
+    {
+      "key": "3-3",
+      "source_shard": "history-5",
+      "model": "kecoli",
+      "h": 0.001,
+      "threshold": 0.1,
+      "step": 3,
+      "degree": 3,
+      "common_interval": false,
+      "seconds": 0.0018971669487655163,
+      "positive": true,
+      "guard": {
+        "nonnegative": true,
+        "pool": 7.306828753161915e-14
+      },
+      "ledger": {},
+      "targets": {
+        "0.0001": {
+          "actual": {
+            "concentration": 0.0010714403651391514,
+            "flux": 0.0017418890163857182,
+            "net_flux": 0.030031895865162323
+          },
+          "global_error": {
+            "concentration": 0.0012649856448047777,
+            "flux": 0.0017940380738124748,
+            "net_flux": 0.030648803043175472
+          },
+          "passes": true
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 0.10714403651391514,
+            "flux": 0.17418890163857184,
+            "net_flux": 0.030031895865162323
+          },
+          "global_error": {
+            "concentration": 0.12649856448047778,
+            "flux": 0.17940380738124748,
+            "net_flux": 0.030648803043175472
+          },
+          "passes": true
+        }
+      }
+    },
+    {
+      "key": "3-4",
+      "source_shard": "history-5",
+      "model": "kecoli",
+      "h": 0.001,
+      "threshold": 0.1,
+      "step": 3,
+      "degree": 4,
+      "common_interval": false,
+      "seconds": 0.0019279581028968096,
+      "positive": true,
+      "guard": {
+        "nonnegative": true,
+        "pool": 7.306828753161915e-14
+      },
+      "ledger": {},
+      "targets": {
+        "0.0001": {
+          "actual": {
+            "concentration": 0.0010714403651391514,
+            "flux": 0.0017584935801680465,
+            "net_flux": 0.031501477001109876
+          },
+          "global_error": {
+            "concentration": 0.0012781241888533293,
+            "flux": 0.0018544026174185067,
+            "net_flux": 0.03140680620113225
+          },
+          "passes": true
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 0.10714403651391514,
+            "flux": 0.17584935801680468,
+            "net_flux": 0.031501477001109876
+          },
+          "global_error": {
+            "concentration": 0.12781241888533293,
+            "flux": 0.1854402617418507,
+            "net_flux": 0.03140680620113225
+          },
+          "passes": true
+        }
+      }
+    },
+    {
+      "key": "4-3",
+      "source_shard": "history-5",
+      "model": "kecoli",
+      "h": 0.001,
+      "threshold": 0.1,
+      "step": 4,
+      "degree": 3,
+      "common_interval": true,
+      "seconds": 0.0017544589936733246,
+      "positive": true,
+      "guard": {
+        "nonnegative": true,
+        "pool": 1.2165789209372956e-13
+      },
+      "ledger": {},
+      "targets": {
+        "0.0001": {
+          "actual": {
+            "concentration": 0.001058151013377526,
+            "flux": 0.0017498447963256562,
+            "net_flux": 0.02885002272191789
+          },
+          "global_error": {
+            "concentration": 0.001248007263202874,
+            "flux": 0.0018018283680899193,
+            "net_flux": 0.029412721816005034
+          },
+          "passes": true
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 0.10581510133775261,
+            "flux": 0.17498447963256564,
+            "net_flux": 0.02885002272191789
+          },
+          "global_error": {
+            "concentration": 0.1248007263202874,
+            "flux": 0.18018283680899194,
+            "net_flux": 0.029412721816005034
+          },
+          "passes": true
+        }
+      }
+    },
+    {
+      "key": "4-4",
+      "source_shard": "history-5",
+      "model": "kecoli",
+      "h": 0.001,
+      "threshold": 0.1,
+      "step": 4,
+      "degree": 4,
+      "common_interval": true,
+      "seconds": 0.0020779590122401714,
+      "positive": true,
+      "guard": {
+        "nonnegative": true,
+        "pool": 1.2165789209372958e-13
+      },
+      "ledger": {},
+      "targets": {
+        "0.0001": {
+          "actual": {
+            "concentration": 0.001058151013377526,
+            "flux": 0.0017498447963256562,
+            "net_flux": 0.028849841124547443
+          },
+          "global_error": {
+            "concentration": 0.001248007263202874,
+            "flux": 0.0018018283680899193,
+            "net_flux": 0.029412722019020537
+          },
+          "passes": true
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 0.10581510133775261,
+            "flux": 0.17498447963256564,
+            "net_flux": 0.028849841124547443
+          },
+          "global_error": {
+            "concentration": 0.1248007263202874,
+            "flux": 0.18018283680899194,
+            "net_flux": 0.029412722019020537
+          },
+          "passes": true
+        }
+      }
+    },
+    {
+      "key": "4-5",
+      "source_shard": "history-5",
+      "model": "kecoli",
+      "h": 0.001,
+      "threshold": 0.1,
+      "step": 4,
+      "degree": 5,
+      "common_interval": true,
+      "seconds": 0.002197124995291233,
+      "positive": true,
+      "guard": {
+        "nonnegative": true,
+        "pool": 1.2165789209372956e-13
+      },
+      "ledger": {},
+      "targets": {
+        "0.0001": {
+          "actual": {
+            "concentration": 0.001058151013377526,
+            "flux": 0.0017498447947781647,
+            "net_flux": 0.028485904361973218
+          },
+          "global_error": {
+            "concentration": 0.001248007263202874,
+            "flux": 0.0018018283665424276,
+            "net_flux": 0.029412721816005034
+          },
+          "passes": true
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 0.10581510133775261,
+            "flux": 0.17498447947781648,
+            "net_flux": 0.028485904361973218
+          },
+          "global_error": {
+            "concentration": 0.1248007263202874,
+            "flux": 0.18018283665424278,
+            "net_flux": 0.029412721816005034
+          },
+          "passes": true
+        }
+      }
+    },
+    {
+      "key": "5-3",
+      "source_shard": "history-5",
+      "model": "kecoli",
+      "h": 0.001,
+      "threshold": 0.1,
+      "step": 5,
+      "degree": 3,
+      "common_interval": true,
+      "seconds": 0.001669290941208601,
+      "positive": true,
+      "guard": {
+        "nonnegative": true,
+        "pool": 2.76089914819089e-14
+      },
+      "ledger": {},
+      "targets": {
+        "0.0001": {
+          "actual": {
+            "concentration": 0.0010450608875628112,
+            "flux": 0.0017582190644335803,
+            "net_flux": 0.02772209394545669
+          },
+          "global_error": {
+            "concentration": 0.0012296453307545352,
+            "flux": 0.001810270656193494,
+            "net_flux": 0.028236149306124204
+          },
+          "passes": true
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 0.10450608875628113,
+            "flux": 0.17582190644335804,
+            "net_flux": 0.02772209394545669
+          },
+          "global_error": {
+            "concentration": 0.12296453307545352,
+            "flux": 0.18102706561934942,
+            "net_flux": 0.028236149306124204
+          },
+          "passes": true
+        }
+      }
+    },
+    {
+      "key": "5-4",
+      "source_shard": "history-5",
+      "model": "kecoli",
+      "h": 0.001,
+      "threshold": 0.1,
+      "step": 5,
+      "degree": 4,
+      "common_interval": true,
+      "seconds": 0.0019781249575316906,
+      "positive": true,
+      "guard": {
+        "nonnegative": true,
+        "pool": 4.962436711553057e-14
+      },
+      "ledger": {},
+      "targets": {
+        "0.0001": {
+          "actual": {
+            "concentration": 0.0010450608886225464,
+            "flux": 0.0017582191340707047,
+            "net_flux": 0.027724133134710435
+          },
+          "global_error": {
+            "concentration": 0.0012296453318142702,
+            "flux": 0.0018102707258306184,
+            "net_flux": 0.02823614920461645
+          },
+          "passes": true
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 0.10450608886225464,
+            "flux": 0.17582191340707048,
+            "net_flux": 0.027724133134710435
+          },
+          "global_error": {
+            "concentration": 0.12296453318142703,
+            "flux": 0.18102707258306186,
+            "net_flux": 0.02823614920461645
+          },
+          "passes": true
+        }
+      }
+    },
+    {
+      "key": "5-5",
+      "source_shard": "history-5",
+      "model": "kecoli",
+      "h": 0.001,
+      "threshold": 0.1,
+      "step": 5,
+      "degree": 5,
+      "common_interval": true,
+      "seconds": 0.002090458059683442,
+      "positive": true,
+      "guard": {
+        "nonnegative": true,
+        "pool": 7.518378281057287e-14
+      },
+      "ledger": {},
+      "targets": {
+        "0.0001": {
+          "actual": {
+            "concentration": 0.0010450608875628112,
+            "flux": 0.0017582190644335803,
+            "net_flux": 0.027725762029625806
+          },
+          "global_error": {
+            "concentration": 0.0012296453307545352,
+            "flux": 0.001810270656193494,
+            "net_flux": 0.02823614920461645
+          },
+          "passes": true
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 0.10450608875628113,
+            "flux": 0.17582190644335804,
+            "net_flux": 0.027725762029625806
+          },
+          "global_error": {
+            "concentration": 0.12296453307545352,
+            "flux": 0.18102706561934942,
+            "net_flux": 0.02823614920461645
+          },
+          "passes": true
+        }
+      }
+    },
+    {
+      "key": "6-3",
+      "source_shard": "history-5",
+      "model": "kecoli",
+      "h": 0.001,
+      "threshold": 0.1,
+      "step": 6,
+      "degree": 3,
+      "common_interval": true,
+      "seconds": 0.0016639588866382837,
+      "positive": true,
+      "guard": {
+        "nonnegative": true,
+        "pool": 4.9418802383627325e-14
+      },
+      "ledger": {},
+      "targets": {
+        "0.0001": {
+          "actual": {
+            "concentration": 0.001032144751164976,
+            "flux": 0.0017669905272243314,
+            "net_flux": 0.026631869513362043
+          },
+          "global_error": {
+            "concentration": 0.0012118919787009283,
+            "flux": 0.0018191389037547601,
+            "net_flux": 0.027109701832305242
+          },
+          "passes": true
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 0.1032144751164976,
+            "flux": 0.17669905272243316,
+            "net_flux": 0.026631869513362043
+          },
+          "global_error": {
+            "concentration": 0.12118919787009283,
+            "flux": 0.18191389037547603,
+            "net_flux": 0.027109701832305242
+          },
+          "passes": true
+        }
+      }
+    },
+    {
+      "key": "6-4",
+      "source_shard": "history-5",
+      "model": "kecoli",
+      "h": 0.001,
+      "threshold": 0.1,
+      "step": 6,
+      "degree": 4,
+      "common_interval": true,
+      "seconds": 0.0019832500256597996,
+      "positive": true,
+      "guard": {
+        "nonnegative": true,
+        "pool": 5.985316409162783e-14
+      },
+      "ledger": {},
+      "targets": {
+        "0.0001": {
+          "actual": {
+            "concentration": 0.001032144752224711,
+            "flux": 0.0017669905272243314,
+            "net_flux": 0.026634659656973855
+          },
+          "global_error": {
+            "concentration": 0.0012118919797606633,
+            "flux": 0.0018191389037547601,
+            "net_flux": 0.027109701832305242
+          },
+          "passes": true
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 0.10321447522247111,
+            "flux": 0.17669905272243316,
+            "net_flux": 0.026634659656973855
+          },
+          "global_error": {
+            "concentration": 0.12118919797606634,
+            "flux": 0.18191389037547603,
+            "net_flux": 0.027109701832305242
+          },
+          "passes": true
+        }
+      }
+    },
+    {
+      "key": "6-5",
+      "source_shard": "history-5",
+      "model": "kecoli",
+      "h": 0.001,
+      "threshold": 0.1,
+      "step": 6,
+      "degree": 5,
+      "common_interval": true,
+      "seconds": 0.002116417046636343,
+      "positive": true,
+      "guard": {
+        "nonnegative": true,
+        "pool": 9.045108412264476e-14
+      },
+      "ledger": {},
+      "targets": {
+        "0.0001": {
+          "actual": {
+            "concentration": 0.001032144751164976,
+            "flux": 0.0017669904591346988,
+            "net_flux": 0.026635211351612422
+          },
+          "global_error": {
+            "concentration": 0.0012118919787009283,
+            "flux": 0.0018191388356651272,
+            "net_flux": 0.02710970173079749
+          },
+          "passes": true
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 0.1032144751164976,
+            "flux": 0.17669904591346988,
+            "net_flux": 0.026635211351612422
+          },
+          "global_error": {
+            "concentration": 0.12118919787009283,
+            "flux": 0.18191388356651275,
+            "net_flux": 0.02710970173079749
+          },
+          "passes": true
+        }
+      }
+    },
+    {
+      "key": "7-3",
+      "source_shard": "history-5",
+      "model": "kecoli",
+      "h": 0.001,
+      "threshold": 0.1,
+      "step": 7,
+      "degree": 3,
+      "common_interval": true,
+      "seconds": 0.0018225000239908695,
+      "positive": true,
+      "guard": {
+        "nonnegative": true,
+        "pool": 1.1009422540286816e-14
+      },
+      "ledger": {},
+      "targets": {
+        "0.0001": {
+          "actual": {
+            "concentration": 0.0010194137949859489,
+            "flux": 0.0017762036224682454,
+            "net_flux": 0.02558935616145075
+          },
+          "global_error": {
+            "concentration": 0.0011946551468001647,
+            "flux": 0.0018283819073698707,
+            "net_flux": 0.026029483526980875
+          },
+          "passes": true
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 0.10194137949859489,
+            "flux": 0.17762036224682456,
+            "net_flux": 0.02558935616145075
+          },
+          "global_error": {
+            "concentration": 0.11946551468001648,
+            "flux": 0.1828381907369871,
+            "net_flux": 0.026029483526980875
+          },
+          "passes": true
+        }
+      }
+    },
+    {
+      "key": "7-4",
+      "source_shard": "history-5",
+      "model": "kecoli",
+      "h": 0.001,
+      "threshold": 0.1,
+      "step": 7,
+      "degree": 4,
+      "common_interval": true,
+      "seconds": 0.0020094579085707664,
+      "positive": true,
+      "guard": {
+        "nonnegative": true,
+        "pool": 1.1009422540286816e-14
+      },
+      "ledger": {},
+      "targets": {
+        "0.0001": {
+          "actual": {
+            "concentration": 0.0010194137949859489,
+            "flux": 0.0017762036240157372,
+            "net_flux": 0.025592428598124176
+          },
+          "global_error": {
+            "concentration": 0.0011946551468001647,
+            "flux": 0.0018283819089173624,
+            "net_flux": 0.02602948342547312
+          },
+          "passes": true
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 0.10194137949859489,
+            "flux": 0.17762036240157375,
+            "net_flux": 0.025592428598124176
+          },
+          "global_error": {
+            "concentration": 0.11946551468001648,
+            "flux": 0.18283819089173625,
+            "net_flux": 0.02602948342547312
+          },
+          "passes": true
+        }
+      }
+    },
+    {
+      "key": "7-5",
+      "source_shard": "history-5",
+      "model": "kecoli",
+      "h": 0.001,
+      "threshold": 0.1,
+      "step": 7,
+      "degree": 5,
+      "common_interval": true,
+      "seconds": 0.0020962499547749758,
+      "positive": true,
+      "guard": {
+        "nonnegative": true,
+        "pool": 1.4760762057086667e-14
+      },
+      "ledger": {},
+      "targets": {
+        "0.0001": {
+          "actual": {
+            "concentration": 0.0010194137949859489,
+            "flux": 0.0017762036952003533,
+            "net_flux": 0.02559264349003767
+          },
+          "global_error": {
+            "concentration": 0.0011946551468001647,
+            "flux": 0.0018283819801019783,
+            "net_flux": 0.026029483323965368
+          },
+          "passes": true
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 0.10194137949859489,
+            "flux": 0.17762036952003535,
+            "net_flux": 0.02559264349003767
+          },
+          "global_error": {
+            "concentration": 0.11946551468001648,
+            "flux": 0.18283819801019785,
+            "net_flux": 0.026029483323965368
+          },
+          "passes": true
+        }
+      }
+    }
+  ],
+  "source_sha256": {
+    "research/history_polynomial.py": "d583184d522d24b058862b57e891a42f8e670ede022045837191781ce95acf4e",
+    "research/test_history_polynomial.py": "ef6b3319d524f0e3028fc0b470ae99aaf68af097e2cc694fc5b92ce12eff0a5f",
+    "research/m3_history_degree.py": "e9c3c6d948b1ce9e7cece2ed740074b6ca6a487783e7b1153c17f1ced94b6e90",
+    "research/inner_dense.py": "e19b0221a27f5fa861c7a0877d64f9e04b638a3fc514326c7968541f13ec133b",
+    "research/m3_priority.py": "6cc6821a1ac9a811f16d25c20c067b9d0516d1cb3bf60b9d144bdc93adc43856",
+    "research/m3_ordered_cost.py": "65f4695f8bd500897bbc6b29afb7d935d4b0f500fc7d53cd99633835631ac5e5"
+  }
+}

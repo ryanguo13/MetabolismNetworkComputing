@@ -1,0 +1,4764 @@
+{
+  "runs": [
+    {
+      "key": "full-1e-08--1",
+      "source_shard": "history-0",
+      "model": "teusink",
+      "h": 0.01,
+      "threshold": 0.01,
+      "method": "full",
+      "tolerance": 1e-08,
+      "repeat": -1,
+      "setup_seconds": 0.0017119159456342459,
+      "status": "success",
+      "seconds": 0.005019166972488165,
+      "stats": {
+        "nfev": 23,
+        "njev": 1,
+        "nlu": 6,
+        "accepted_steps": 3,
+        "pool_error": 1.9749590675267632e-16,
+        "continuous_nonnegative": true,
+        "dense_join_error": 0.0,
+        "physical_ledger_residual": 7.27157839088873e-15,
+        "physical_ledger_quadrature": 2.678823976799149e-18,
+        "seconds": 0.004286790965124965
+      },
+      "guard": {
+        "nonnegative": true,
+        "pool": 1.2286753094236896e-16
+      },
+      "targets": {
+        "0.0001": {
+          "actual": {
+            "concentration": 1.078335818664591e-06,
+            "flux": 1.0783352921468247e-06
+          },
+          "passes": true
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 0.0001078335818664591,
+            "flux": 0.00010783352921468248
+          },
+          "passes": true
+        }
+      }
+    },
+    {
+      "key": "full-1e-10--1",
+      "source_shard": "history-0",
+      "model": "teusink",
+      "h": 0.01,
+      "threshold": 0.01,
+      "method": "full",
+      "tolerance": 1e-10,
+      "repeat": -1,
+      "setup_seconds": 0.0017119159456342459,
+      "status": "success",
+      "seconds": 0.005904583027586341,
+      "stats": {
+        "nfev": 39,
+        "njev": 2,
+        "nlu": 8,
+        "accepted_steps": 4,
+        "pool_error": 1.9749590675267632e-16,
+        "continuous_nonnegative": true,
+        "dense_join_error": 0.0,
+        "physical_ledger_residual": 1.0679578254172608e-16,
+        "physical_ledger_quadrature": 3.928941832638752e-18,
+        "seconds": 0.005789125105366111
+      },
+      "guard": {
+        "nonnegative": true,
+        "pool": 1.3488796572195357e-16
+      },
+      "targets": {
+        "0.0001": {
+          "actual": {
+            "concentration": 1.7950575907257033e-07,
+            "flux": 1.795061186483166e-07
+          },
+          "passes": true
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 1.7950575907257033e-05,
+            "flux": 1.7950611864831665e-05
+          },
+          "passes": true
+        }
+      }
+    },
+    {
+      "key": "endpoint-1e-08--1",
+      "source_shard": "history-0",
+      "model": "teusink",
+      "h": 0.01,
+      "threshold": 0.01,
+      "method": "endpoint",
+      "tolerance": 1e-08,
+      "repeat": -1,
+      "setup_seconds": 0.0017119159456342459,
+      "status": "success",
+      "seconds": 0.008542416850104928,
+      "stats": {
+        "subflows": 3,
+        "nfev": 57,
+        "njev": 3,
+        "nlu": 12,
+        "linear_solver_setups": 0,
+        "accepted_steps": 6,
+        "rhs_seconds": 0.001975045772269368,
+        "jacobian_seconds": 0.0016609581653028727,
+        "native_allocation_seconds": 0.0,
+        "reinit_seconds": 0.0,
+        "ledger_seconds": 0.002716165967285633,
+        "min_rhs": 0.0003702187573154012,
+        "min_internal": 0.0003702237002923616,
+        "pool_error": 1.9749590675267632e-16,
+        "modified_ledger_residual": 1.250117855839603e-16,
+        "modified_ledger_quadrature": 8.549913192617285e-18,
+        "seconds": 0.007635042071342468,
+        "physical_ledger_residual": 2.1643976217089107e-12,
+        "physical_ledger_quadrature": 8.929413255997164e-19,
+        "continuous_nonnegative": true
+      },
+      "guard": {
+        "nonnegative": true,
+        "pool": 1.2286008618027505e-16
+      },
+      "targets": {
+        "0.0001": {
+          "actual": {
+            "concentration": 6.093283115595981e-07,
+            "flux": 7.663582852419005e-07
+          },
+          "passes": true
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 6.093283115595981e-05,
+            "flux": 7.663582852419005e-05
+          },
+          "passes": true
+        }
+      }
+    },
+    {
+      "key": "endpoint-1e-10--1",
+      "source_shard": "history-0",
+      "model": "teusink",
+      "h": 0.01,
+      "threshold": 0.01,
+      "method": "endpoint",
+      "tolerance": 1e-10,
+      "repeat": -1,
+      "setup_seconds": 0.0017119159456342459,
+      "status": "success",
+      "seconds": 0.010807499988004565,
+      "stats": {
+        "subflows": 3,
+        "nfev": 78,
+        "njev": 3,
+        "nlu": 18,
+        "linear_solver_setups": 0,
+        "accepted_steps": 9,
+        "rhs_seconds": 0.002653165254741907,
+        "jacobian_seconds": 0.001623291987925768,
+        "native_allocation_seconds": 0.0,
+        "reinit_seconds": 0.0,
+        "ledger_seconds": 0.004061751067638397,
+        "min_rhs": 0.0003702187573233617,
+        "min_internal": 0.0003702237002923648,
+        "pool_error": 1.9749590675267632e-16,
+        "modified_ledger_residual": 8.75082499087722e-17,
+        "modified_ledger_quadrature": 4.846997133020961e-18,
+        "seconds": 0.009919124888256192,
+        "physical_ledger_residual": 2.165753285229436e-12,
+        "physical_ledger_quadrature": 3.750353567518809e-18,
+        "continuous_nonnegative": true
+      },
+      "guard": {
+        "nonnegative": true,
+        "pool": 2.0583569084681188e-16
+      },
+      "targets": {
+        "0.0001": {
+          "actual": {
+            "concentration": 6.094849579398783e-07,
+            "flux": 7.663039026892002e-07
+          },
+          "passes": true
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 6.094849579398782e-05,
+            "flux": 7.663039026892001e-05
+          },
+          "passes": true
+        }
+      }
+    },
+    {
+      "key": "endpoint-1e-08-0",
+      "source_shard": "history-0",
+      "model": "teusink",
+      "h": 0.01,
+      "threshold": 0.01,
+      "method": "endpoint",
+      "tolerance": 1e-08,
+      "repeat": 0,
+      "setup_seconds": 0.0017119159456342459,
+      "status": "success",
+      "seconds": 0.008323624962940812,
+      "stats": {
+        "subflows": 3,
+        "nfev": 57,
+        "njev": 3,
+        "nlu": 12,
+        "linear_solver_setups": 0,
+        "accepted_steps": 6,
+        "rhs_seconds": 0.0019444534555077553,
+        "jacobian_seconds": 0.0016127510461956263,
+        "native_allocation_seconds": 0.0,
+        "reinit_seconds": 0.0,
+        "ledger_seconds": 0.0026457079220563173,
+        "min_rhs": 0.0003702187573154012,
+        "min_internal": 0.0003702237002923616,
+        "pool_error": 1.9749590675267632e-16,
+        "modified_ledger_residual": 1.250117855839603e-16,
+        "modified_ledger_quadrature": 8.549913192617285e-18,
+        "seconds": 0.007343875011429191,
+        "physical_ledger_residual": 2.1643976217089107e-12,
+        "physical_ledger_quadrature": 8.929413255997164e-19,
+        "continuous_nonnegative": true
+      },
+      "guard": {
+        "nonnegative": true,
+        "pool": 1.2286008618027505e-16
+      },
+      "targets": {
+        "0.0001": {
+          "actual": {
+            "concentration": 6.093283115595981e-07,
+            "flux": 7.663582852419005e-07
+          },
+          "passes": true
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 6.093283115595981e-05,
+            "flux": 7.663582852419005e-05
+          },
+          "passes": true
+        }
+      }
+    },
+    {
+      "key": "endpoint-1e-10-0",
+      "source_shard": "history-0",
+      "model": "teusink",
+      "h": 0.01,
+      "threshold": 0.01,
+      "method": "endpoint",
+      "tolerance": 1e-10,
+      "repeat": 0,
+      "setup_seconds": 0.0017119159456342459,
+      "status": "success",
+      "seconds": 0.010860332986339927,
+      "stats": {
+        "subflows": 3,
+        "nfev": 78,
+        "njev": 3,
+        "nlu": 18,
+        "linear_solver_setups": 0,
+        "accepted_steps": 9,
+        "rhs_seconds": 0.0027057055849581957,
+        "jacobian_seconds": 0.001648083096370101,
+        "native_allocation_seconds": 0.0,
+        "reinit_seconds": 0.0,
+        "ledger_seconds": 0.00398862618021667,
+        "min_rhs": 0.0003702187573233617,
+        "min_internal": 0.0003702237002923648,
+        "pool_error": 1.9749590675267632e-16,
+        "modified_ledger_residual": 8.75082499087722e-17,
+        "modified_ledger_quadrature": 4.846997133020961e-18,
+        "seconds": 0.009967416990548372,
+        "physical_ledger_residual": 2.165753285229436e-12,
+        "physical_ledger_quadrature": 3.750353567518809e-18,
+        "continuous_nonnegative": true
+      },
+      "guard": {
+        "nonnegative": true,
+        "pool": 2.0583569084681188e-16
+      },
+      "targets": {
+        "0.0001": {
+          "actual": {
+            "concentration": 6.094849579398783e-07,
+            "flux": 7.663039026892002e-07
+          },
+          "passes": true
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 6.094849579398782e-05,
+            "flux": 7.663039026892001e-05
+          },
+          "passes": true
+        }
+      }
+    },
+    {
+      "key": "full-1e-08-0",
+      "source_shard": "history-0",
+      "model": "teusink",
+      "h": 0.01,
+      "threshold": 0.01,
+      "method": "full",
+      "tolerance": 1e-08,
+      "repeat": 0,
+      "setup_seconds": 0.0017119159456342459,
+      "status": "success",
+      "seconds": 0.004014832898974419,
+      "stats": {
+        "nfev": 23,
+        "njev": 1,
+        "nlu": 6,
+        "accepted_steps": 3,
+        "pool_error": 1.9749590675267632e-16,
+        "continuous_nonnegative": true,
+        "dense_join_error": 0.0,
+        "physical_ledger_residual": 7.27157839088873e-15,
+        "physical_ledger_quadrature": 2.678823976799149e-18,
+        "seconds": 0.003921707859262824
+      },
+      "guard": {
+        "nonnegative": true,
+        "pool": 1.2286753094236896e-16
+      },
+      "targets": {
+        "0.0001": {
+          "actual": {
+            "concentration": 1.078335818664591e-06,
+            "flux": 1.0783352921468247e-06
+          },
+          "passes": true
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 0.0001078335818664591,
+            "flux": 0.00010783352921468248
+          },
+          "passes": true
+        }
+      }
+    },
+    {
+      "key": "full-1e-10-0",
+      "source_shard": "history-0",
+      "model": "teusink",
+      "h": 0.01,
+      "threshold": 0.01,
+      "method": "full",
+      "tolerance": 1e-10,
+      "repeat": 0,
+      "setup_seconds": 0.0017119159456342459,
+      "status": "success",
+      "seconds": 0.0057777080219239,
+      "stats": {
+        "nfev": 39,
+        "njev": 2,
+        "nlu": 8,
+        "accepted_steps": 4,
+        "pool_error": 1.9749590675267632e-16,
+        "continuous_nonnegative": true,
+        "dense_join_error": 0.0,
+        "physical_ledger_residual": 1.0679578254172608e-16,
+        "physical_ledger_quadrature": 3.928941832638752e-18,
+        "seconds": 0.005681417183950543
+      },
+      "guard": {
+        "nonnegative": true,
+        "pool": 1.3488796572195357e-16
+      },
+      "targets": {
+        "0.0001": {
+          "actual": {
+            "concentration": 1.7950575907257033e-07,
+            "flux": 1.795061186483166e-07
+          },
+          "passes": true
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 1.7950575907257033e-05,
+            "flux": 1.7950611864831665e-05
+          },
+          "passes": true
+        }
+      }
+    },
+    {
+      "key": "full-1e-08-1",
+      "source_shard": "history-0",
+      "model": "teusink",
+      "h": 0.01,
+      "threshold": 0.01,
+      "method": "full",
+      "tolerance": 1e-08,
+      "repeat": 1,
+      "setup_seconds": 0.0017119159456342459,
+      "status": "success",
+      "seconds": 0.003903208998963237,
+      "stats": {
+        "nfev": 23,
+        "njev": 1,
+        "nlu": 6,
+        "accepted_steps": 3,
+        "pool_error": 1.9749590675267632e-16,
+        "continuous_nonnegative": true,
+        "dense_join_error": 0.0,
+        "physical_ledger_residual": 7.27157839088873e-15,
+        "physical_ledger_quadrature": 2.678823976799149e-18,
+        "seconds": 0.0038203338626772165
+      },
+      "guard": {
+        "nonnegative": true,
+        "pool": 1.2286753094236896e-16
+      },
+      "targets": {
+        "0.0001": {
+          "actual": {
+            "concentration": 1.078335818664591e-06,
+            "flux": 1.0783352921468247e-06
+          },
+          "passes": true
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 0.0001078335818664591,
+            "flux": 0.00010783352921468248
+          },
+          "passes": true
+        }
+      }
+    },
+    {
+      "key": "full-1e-10-1",
+      "source_shard": "history-0",
+      "model": "teusink",
+      "h": 0.01,
+      "threshold": 0.01,
+      "method": "full",
+      "tolerance": 1e-10,
+      "repeat": 1,
+      "setup_seconds": 0.0017119159456342459,
+      "status": "success",
+      "seconds": 0.005859124939888716,
+      "stats": {
+        "nfev": 39,
+        "njev": 2,
+        "nlu": 8,
+        "accepted_steps": 4,
+        "pool_error": 1.9749590675267632e-16,
+        "continuous_nonnegative": true,
+        "dense_join_error": 0.0,
+        "physical_ledger_residual": 1.0679578254172608e-16,
+        "physical_ledger_quadrature": 3.928941832638752e-18,
+        "seconds": 0.005761540960520506
+      },
+      "guard": {
+        "nonnegative": true,
+        "pool": 1.3488796572195357e-16
+      },
+      "targets": {
+        "0.0001": {
+          "actual": {
+            "concentration": 1.7950575907257033e-07,
+            "flux": 1.795061186483166e-07
+          },
+          "passes": true
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 1.7950575907257033e-05,
+            "flux": 1.7950611864831665e-05
+          },
+          "passes": true
+        }
+      }
+    },
+    {
+      "key": "endpoint-1e-08-1",
+      "source_shard": "history-0",
+      "model": "teusink",
+      "h": 0.01,
+      "threshold": 0.01,
+      "method": "endpoint",
+      "tolerance": 1e-08,
+      "repeat": 1,
+      "setup_seconds": 0.0017119159456342459,
+      "status": "success",
+      "seconds": 0.00827316683717072,
+      "stats": {
+        "subflows": 3,
+        "nfev": 57,
+        "njev": 3,
+        "nlu": 12,
+        "linear_solver_setups": 0,
+        "accepted_steps": 6,
+        "rhs_seconds": 0.0019872135017067194,
+        "jacobian_seconds": 0.0016098746564239264,
+        "native_allocation_seconds": 0.0,
+        "reinit_seconds": 0.0,
+        "ledger_seconds": 0.002670082962140441,
+        "min_rhs": 0.0003702187573154012,
+        "min_internal": 0.0003702237002923616,
+        "pool_error": 1.9749590675267632e-16,
+        "modified_ledger_residual": 1.250117855839603e-16,
+        "modified_ledger_quadrature": 8.549913192617285e-18,
+        "seconds": 0.00740274996496737,
+        "physical_ledger_residual": 2.1643976217089107e-12,
+        "physical_ledger_quadrature": 8.929413255997164e-19,
+        "continuous_nonnegative": true
+      },
+      "guard": {
+        "nonnegative": true,
+        "pool": 1.2286008618027505e-16
+      },
+      "targets": {
+        "0.0001": {
+          "actual": {
+            "concentration": 6.093283115595981e-07,
+            "flux": 7.663582852419005e-07
+          },
+          "passes": true
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 6.093283115595981e-05,
+            "flux": 7.663582852419005e-05
+          },
+          "passes": true
+        }
+      }
+    },
+    {
+      "key": "endpoint-1e-10-1",
+      "source_shard": "history-0",
+      "model": "teusink",
+      "h": 0.01,
+      "threshold": 0.01,
+      "method": "endpoint",
+      "tolerance": 1e-10,
+      "repeat": 1,
+      "setup_seconds": 0.0017119159456342459,
+      "status": "success",
+      "seconds": 0.010867875069379807,
+      "stats": {
+        "subflows": 3,
+        "nfev": 78,
+        "njev": 3,
+        "nlu": 18,
+        "linear_solver_setups": 0,
+        "accepted_steps": 9,
+        "rhs_seconds": 0.002724082674831152,
+        "jacobian_seconds": 0.0016269159968942404,
+        "native_allocation_seconds": 0.0,
+        "reinit_seconds": 0.0,
+        "ledger_seconds": 0.00415595923550427,
+        "min_rhs": 0.0003702187573233617,
+        "min_internal": 0.0003702237002923648,
+        "pool_error": 1.9749590675267632e-16,
+        "modified_ledger_residual": 8.75082499087722e-17,
+        "modified_ledger_quadrature": 4.846997133020961e-18,
+        "seconds": 0.01000862498767674,
+        "physical_ledger_residual": 2.165753285229436e-12,
+        "physical_ledger_quadrature": 3.750353567518809e-18,
+        "continuous_nonnegative": true
+      },
+      "guard": {
+        "nonnegative": true,
+        "pool": 2.0583569084681188e-16
+      },
+      "targets": {
+        "0.0001": {
+          "actual": {
+            "concentration": 6.094849579398783e-07,
+            "flux": 7.663039026892002e-07
+          },
+          "passes": true
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 6.094849579398782e-05,
+            "flux": 7.663039026892001e-05
+          },
+          "passes": true
+        }
+      }
+    },
+    {
+      "key": "endpoint-1e-08-2",
+      "source_shard": "history-0",
+      "model": "teusink",
+      "h": 0.01,
+      "threshold": 0.01,
+      "method": "endpoint",
+      "tolerance": 1e-08,
+      "repeat": 2,
+      "setup_seconds": 0.0017119159456342459,
+      "status": "success",
+      "seconds": 0.00841095787473023,
+      "stats": {
+        "subflows": 3,
+        "nfev": 57,
+        "njev": 3,
+        "nlu": 12,
+        "linear_solver_setups": 0,
+        "accepted_steps": 6,
+        "rhs_seconds": 0.001976580824702978,
+        "jacobian_seconds": 0.001666956814005971,
+        "native_allocation_seconds": 0.0,
+        "reinit_seconds": 0.0,
+        "ledger_seconds": 0.002705706749111414,
+        "min_rhs": 0.0003702187573154012,
+        "min_internal": 0.0003702237002923616,
+        "pool_error": 1.9749590675267632e-16,
+        "modified_ledger_residual": 1.250117855839603e-16,
+        "modified_ledger_quadrature": 8.549913192617285e-18,
+        "seconds": 0.007558542070910335,
+        "physical_ledger_residual": 2.1643976217089107e-12,
+        "physical_ledger_quadrature": 8.929413255997164e-19,
+        "continuous_nonnegative": true
+      },
+      "guard": {
+        "nonnegative": true,
+        "pool": 1.2286008618027505e-16
+      },
+      "targets": {
+        "0.0001": {
+          "actual": {
+            "concentration": 6.093283115595981e-07,
+            "flux": 7.663582852419005e-07
+          },
+          "passes": true
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 6.093283115595981e-05,
+            "flux": 7.663582852419005e-05
+          },
+          "passes": true
+        }
+      }
+    },
+    {
+      "key": "endpoint-1e-10-2",
+      "source_shard": "history-0",
+      "model": "teusink",
+      "h": 0.01,
+      "threshold": 0.01,
+      "method": "endpoint",
+      "tolerance": 1e-10,
+      "repeat": 2,
+      "setup_seconds": 0.0017119159456342459,
+      "status": "success",
+      "seconds": 0.010636750143021345,
+      "stats": {
+        "subflows": 3,
+        "nfev": 78,
+        "njev": 3,
+        "nlu": 18,
+        "linear_solver_setups": 0,
+        "accepted_steps": 9,
+        "rhs_seconds": 0.0026809987612068653,
+        "jacobian_seconds": 0.00159987504594028,
+        "native_allocation_seconds": 0.0,
+        "reinit_seconds": 0.0,
+        "ledger_seconds": 0.004009001888334751,
+        "min_rhs": 0.0003702187573233617,
+        "min_internal": 0.0003702237002923648,
+        "pool_error": 1.9749590675267632e-16,
+        "modified_ledger_residual": 8.75082499087722e-17,
+        "modified_ledger_quadrature": 4.846997133020961e-18,
+        "seconds": 0.009795791003853083,
+        "physical_ledger_residual": 2.165753285229436e-12,
+        "physical_ledger_quadrature": 3.750353567518809e-18,
+        "continuous_nonnegative": true
+      },
+      "guard": {
+        "nonnegative": true,
+        "pool": 2.0583569084681188e-16
+      },
+      "targets": {
+        "0.0001": {
+          "actual": {
+            "concentration": 6.094849579398783e-07,
+            "flux": 7.663039026892002e-07
+          },
+          "passes": true
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 6.094849579398782e-05,
+            "flux": 7.663039026892001e-05
+          },
+          "passes": true
+        }
+      }
+    },
+    {
+      "key": "full-1e-08-2",
+      "source_shard": "history-0",
+      "model": "teusink",
+      "h": 0.01,
+      "threshold": 0.01,
+      "method": "full",
+      "tolerance": 1e-08,
+      "repeat": 2,
+      "setup_seconds": 0.0017119159456342459,
+      "status": "success",
+      "seconds": 0.0039796249475330114,
+      "stats": {
+        "nfev": 23,
+        "njev": 1,
+        "nlu": 6,
+        "accepted_steps": 3,
+        "pool_error": 1.9749590675267632e-16,
+        "continuous_nonnegative": true,
+        "dense_join_error": 0.0,
+        "physical_ledger_residual": 7.27157839088873e-15,
+        "physical_ledger_quadrature": 2.678823976799149e-18,
+        "seconds": 0.003891333006322384
+      },
+      "guard": {
+        "nonnegative": true,
+        "pool": 1.2286753094236896e-16
+      },
+      "targets": {
+        "0.0001": {
+          "actual": {
+            "concentration": 1.078335818664591e-06,
+            "flux": 1.0783352921468247e-06
+          },
+          "passes": true
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 0.0001078335818664591,
+            "flux": 0.00010783352921468248
+          },
+          "passes": true
+        }
+      }
+    },
+    {
+      "key": "full-1e-10-2",
+      "source_shard": "history-0",
+      "model": "teusink",
+      "h": 0.01,
+      "threshold": 0.01,
+      "method": "full",
+      "tolerance": 1e-10,
+      "repeat": 2,
+      "setup_seconds": 0.0017119159456342459,
+      "status": "success",
+      "seconds": 0.0059321660082787275,
+      "stats": {
+        "nfev": 39,
+        "njev": 2,
+        "nlu": 8,
+        "accepted_steps": 4,
+        "pool_error": 1.9749590675267632e-16,
+        "continuous_nonnegative": true,
+        "dense_join_error": 0.0,
+        "physical_ledger_residual": 1.0679578254172608e-16,
+        "physical_ledger_quadrature": 3.928941832638752e-18,
+        "seconds": 0.00583258387632668
+      },
+      "guard": {
+        "nonnegative": true,
+        "pool": 1.3488796572195357e-16
+      },
+      "targets": {
+        "0.0001": {
+          "actual": {
+            "concentration": 1.7950575907257033e-07,
+            "flux": 1.795061186483166e-07
+          },
+          "passes": true
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 1.7950575907257033e-05,
+            "flux": 1.7950611864831665e-05
+          },
+          "passes": true
+        }
+      }
+    },
+    {
+      "key": "full-1e-08--1",
+      "source_shard": "history-1",
+      "model": "teusink",
+      "h": 0.03,
+      "threshold": 0.01,
+      "method": "full",
+      "tolerance": 1e-08,
+      "repeat": -1,
+      "setup_seconds": 0.0012469999492168427,
+      "status": "success",
+      "seconds": 0.005494166165590286,
+      "stats": {
+        "nfev": 33,
+        "njev": 2,
+        "nlu": 8,
+        "accepted_steps": 4,
+        "pool_error": 0.0,
+        "continuous_nonnegative": true,
+        "dense_join_error": 0.0,
+        "physical_ledger_residual": 2.636294225354676e-14,
+        "physical_ledger_quadrature": 1.3008030717210572e-17,
+        "seconds": 0.005392167018726468
+      },
+      "guard": {
+        "nonnegative": true,
+        "pool": 1.306764256527943e-16
+      },
+      "targets": {
+        "0.0001": {
+          "actual": {
+            "concentration": 1.7704777125231708e-05,
+            "flux": 1.7704777472015948e-05
+          },
+          "passes": true
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 0.0017704777125231708,
+            "flux": 0.001770477747201595
+          },
+          "passes": true
+        }
+      }
+    },
+    {
+      "key": "full-1e-10--1",
+      "source_shard": "history-1",
+      "model": "teusink",
+      "h": 0.03,
+      "threshold": 0.01,
+      "method": "full",
+      "tolerance": 1e-10,
+      "repeat": -1,
+      "setup_seconds": 0.0012469999492168427,
+      "status": "success",
+      "seconds": 0.011741917114704847,
+      "stats": {
+        "nfev": 80,
+        "njev": 4,
+        "nlu": 12,
+        "accepted_steps": 9,
+        "pool_error": 1.9749590675267642e-16,
+        "continuous_nonnegative": true,
+        "dense_join_error": 0.0,
+        "physical_ledger_residual": 8.382953128869035e-17,
+        "physical_ledger_quadrature": 2.8906734927134603e-18,
+        "seconds": 0.01159574999473989
+      },
+      "guard": {
+        "nonnegative": true,
+        "pool": 3.253995838114014e-16
+      },
+      "targets": {
+        "0.0001": {
+          "actual": {
+            "concentration": 1.7468819583342926e-07,
+            "flux": 1.74687810574758e-07
+          },
+          "passes": true
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 1.7468819583342927e-05,
+            "flux": 1.74687810574758e-05
+          },
+          "passes": true
+        }
+      }
+    },
+    {
+      "key": "endpoint-1e-08--1",
+      "source_shard": "history-1",
+      "model": "teusink",
+      "h": 0.03,
+      "threshold": 0.01,
+      "method": "endpoint",
+      "tolerance": 1e-08,
+      "repeat": -1,
+      "setup_seconds": 0.0012469999492168427,
+      "status": "success",
+      "seconds": 0.010235709138214588,
+      "stats": {
+        "subflows": 3,
+        "nfev": 69,
+        "njev": 3,
+        "nlu": 18,
+        "linear_solver_setups": 0,
+        "accepted_steps": 9,
+        "rhs_seconds": 0.0022983287926763296,
+        "jacobian_seconds": 0.001615249551832676,
+        "native_allocation_seconds": 0.0,
+        "reinit_seconds": 0.0,
+        "ledger_seconds": 0.004006293136626482,
+        "min_rhs": 0.00035581611920447025,
+        "min_internal": 0.0003558430632931781,
+        "pool_error": 1.9749590675267647e-16,
+        "modified_ledger_residual": 4.264971937986758e-14,
+        "modified_ledger_quadrature": 2.355447228828234e-17,
+        "seconds": 0.009383292170241475,
+        "physical_ledger_residual": 1.209310307912382e-09,
+        "physical_ledger_quadrature": 2.3848056314886047e-17,
+        "continuous_nonnegative": true
+      },
+      "guard": {
+        "nonnegative": true,
+        "pool": 2.433899112831655e-16
+      },
+      "targets": {
+        "0.0001": {
+          "actual": {
+            "concentration": 0.00023141125857619013,
+            "flux": 0.0004145365925286024
+          },
+          "passes": false
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 0.023141125857619016,
+            "flux": 0.041453659252860244
+          },
+          "passes": false
+        }
+      }
+    },
+    {
+      "key": "endpoint-1e-10--1",
+      "source_shard": "history-1",
+      "model": "teusink",
+      "h": 0.03,
+      "threshold": 0.01,
+      "method": "endpoint",
+      "tolerance": 1e-10,
+      "repeat": -1,
+      "setup_seconds": 0.0012469999492168427,
+      "status": "success",
+      "seconds": 0.01505329180508852,
+      "stats": {
+        "subflows": 3,
+        "nfev": 117,
+        "njev": 6,
+        "nlu": 24,
+        "linear_solver_setups": 0,
+        "accepted_steps": 12,
+        "rhs_seconds": 0.003944913856685162,
+        "jacobian_seconds": 0.0030415840446949005,
+        "native_allocation_seconds": 0.0,
+        "reinit_seconds": 0.0,
+        "ledger_seconds": 0.005159833701327443,
+        "min_rhs": 0.00035581611919685953,
+        "min_internal": 0.000355843063292039,
+        "pool_error": 1.9749590675267647e-16,
+        "modified_ledger_residual": 4.480543913705864e-17,
+        "modified_ledger_quadrature": 2.060734032891432e-17,
+        "seconds": 0.014190041925758123,
+        "physical_ledger_residual": 1.2094106077785638e-09,
+        "physical_ledger_quadrature": 2.0234714448994222e-17,
+        "continuous_nonnegative": true
+      },
+      "guard": {
+        "nonnegative": true,
+        "pool": 3.2585938200336615e-16
+      },
+      "targets": {
+        "0.0001": {
+          "actual": {
+            "concentration": 0.00023141118712345526,
+            "flux": 0.00041454069646909726
+          },
+          "passes": false
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 0.02314111871234553,
+            "flux": 0.04145406964690973
+          },
+          "passes": false
+        }
+      }
+    },
+    {
+      "key": "endpoint-1e-08-0",
+      "source_shard": "history-1",
+      "model": "teusink",
+      "h": 0.03,
+      "threshold": 0.01,
+      "method": "endpoint",
+      "tolerance": 1e-08,
+      "repeat": 0,
+      "setup_seconds": 0.0012469999492168427,
+      "status": "success",
+      "seconds": 0.014361707959324121,
+      "stats": {
+        "subflows": 3,
+        "nfev": 69,
+        "njev": 3,
+        "nlu": 18,
+        "linear_solver_setups": 0,
+        "accepted_steps": 9,
+        "rhs_seconds": 0.0036575375124812126,
+        "jacobian_seconds": 0.002258250955492258,
+        "native_allocation_seconds": 0.0,
+        "reinit_seconds": 0.0,
+        "ledger_seconds": 0.004952207673341036,
+        "min_rhs": 0.00035581611920447025,
+        "min_internal": 0.0003558430632931781,
+        "pool_error": 1.9749590675267647e-16,
+        "modified_ledger_residual": 4.264971937986758e-14,
+        "modified_ledger_quadrature": 2.355447228828234e-17,
+        "seconds": 0.013329541077837348,
+        "physical_ledger_residual": 1.209310307912382e-09,
+        "physical_ledger_quadrature": 2.3848056314886047e-17,
+        "continuous_nonnegative": true
+      },
+      "guard": {
+        "nonnegative": true,
+        "pool": 2.433899112831655e-16
+      },
+      "targets": {
+        "0.0001": {
+          "actual": {
+            "concentration": 0.00023141125857619013,
+            "flux": 0.0004145365925286024
+          },
+          "passes": false
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 0.023141125857619016,
+            "flux": 0.041453659252860244
+          },
+          "passes": false
+        }
+      }
+    },
+    {
+      "key": "endpoint-1e-10-0",
+      "source_shard": "history-1",
+      "model": "teusink",
+      "h": 0.03,
+      "threshold": 0.01,
+      "method": "endpoint",
+      "tolerance": 1e-10,
+      "repeat": 0,
+      "setup_seconds": 0.0012469999492168427,
+      "status": "success",
+      "seconds": 0.019595124991610646,
+      "stats": {
+        "subflows": 3,
+        "nfev": 117,
+        "njev": 6,
+        "nlu": 24,
+        "linear_solver_setups": 0,
+        "accepted_steps": 12,
+        "rhs_seconds": 0.0045426227152347565,
+        "jacobian_seconds": 0.003946166718378663,
+        "native_allocation_seconds": 0.0,
+        "reinit_seconds": 0.0,
+        "ledger_seconds": 0.007000169018283486,
+        "min_rhs": 0.00035581611919685953,
+        "min_internal": 0.000355843063292039,
+        "pool_error": 1.9749590675267647e-16,
+        "modified_ledger_residual": 4.480543913705864e-17,
+        "modified_ledger_quadrature": 2.060734032891432e-17,
+        "seconds": 0.018722208915278316,
+        "physical_ledger_residual": 1.2094106077785638e-09,
+        "physical_ledger_quadrature": 2.0234714448994222e-17,
+        "continuous_nonnegative": true
+      },
+      "guard": {
+        "nonnegative": true,
+        "pool": 3.2585938200336615e-16
+      },
+      "targets": {
+        "0.0001": {
+          "actual": {
+            "concentration": 0.00023141118712345526,
+            "flux": 0.00041454069646909726
+          },
+          "passes": false
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 0.02314111871234553,
+            "flux": 0.04145406964690973
+          },
+          "passes": false
+        }
+      }
+    },
+    {
+      "key": "full-1e-08-0",
+      "source_shard": "history-1",
+      "model": "teusink",
+      "h": 0.03,
+      "threshold": 0.01,
+      "method": "full",
+      "tolerance": 1e-08,
+      "repeat": 0,
+      "setup_seconds": 0.0012469999492168427,
+      "status": "success",
+      "seconds": 0.005357707850635052,
+      "stats": {
+        "nfev": 33,
+        "njev": 2,
+        "nlu": 8,
+        "accepted_steps": 4,
+        "pool_error": 0.0,
+        "continuous_nonnegative": true,
+        "dense_join_error": 0.0,
+        "physical_ledger_residual": 2.636294225354676e-14,
+        "physical_ledger_quadrature": 1.3008030717210572e-17,
+        "seconds": 0.005248375004157424
+      },
+      "guard": {
+        "nonnegative": true,
+        "pool": 1.306764256527943e-16
+      },
+      "targets": {
+        "0.0001": {
+          "actual": {
+            "concentration": 1.7704777125231708e-05,
+            "flux": 1.7704777472015948e-05
+          },
+          "passes": true
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 0.0017704777125231708,
+            "flux": 0.001770477747201595
+          },
+          "passes": true
+        }
+      }
+    },
+    {
+      "key": "full-1e-10-0",
+      "source_shard": "history-1",
+      "model": "teusink",
+      "h": 0.03,
+      "threshold": 0.01,
+      "method": "full",
+      "tolerance": 1e-10,
+      "repeat": 0,
+      "setup_seconds": 0.0012469999492168427,
+      "status": "success",
+      "seconds": 0.011585500091314316,
+      "stats": {
+        "nfev": 80,
+        "njev": 4,
+        "nlu": 12,
+        "accepted_steps": 9,
+        "pool_error": 1.9749590675267642e-16,
+        "continuous_nonnegative": true,
+        "dense_join_error": 0.0,
+        "physical_ledger_residual": 8.382953128869035e-17,
+        "physical_ledger_quadrature": 2.8906734927134603e-18,
+        "seconds": 0.011446709046140313
+      },
+      "guard": {
+        "nonnegative": true,
+        "pool": 3.253995838114014e-16
+      },
+      "targets": {
+        "0.0001": {
+          "actual": {
+            "concentration": 1.7468819583342926e-07,
+            "flux": 1.74687810574758e-07
+          },
+          "passes": true
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 1.7468819583342927e-05,
+            "flux": 1.74687810574758e-05
+          },
+          "passes": true
+        }
+      }
+    },
+    {
+      "key": "full-1e-08-1",
+      "source_shard": "history-1",
+      "model": "teusink",
+      "h": 0.03,
+      "threshold": 0.01,
+      "method": "full",
+      "tolerance": 1e-08,
+      "repeat": 1,
+      "setup_seconds": 0.0012469999492168427,
+      "status": "success",
+      "seconds": 0.005381874972954392,
+      "stats": {
+        "nfev": 33,
+        "njev": 2,
+        "nlu": 8,
+        "accepted_steps": 4,
+        "pool_error": 0.0,
+        "continuous_nonnegative": true,
+        "dense_join_error": 0.0,
+        "physical_ledger_residual": 2.636294225354676e-14,
+        "physical_ledger_quadrature": 1.3008030717210572e-17,
+        "seconds": 0.00527433305978775
+      },
+      "guard": {
+        "nonnegative": true,
+        "pool": 1.306764256527943e-16
+      },
+      "targets": {
+        "0.0001": {
+          "actual": {
+            "concentration": 1.7704777125231708e-05,
+            "flux": 1.7704777472015948e-05
+          },
+          "passes": true
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 0.0017704777125231708,
+            "flux": 0.001770477747201595
+          },
+          "passes": true
+        }
+      }
+    },
+    {
+      "key": "full-1e-10-1",
+      "source_shard": "history-1",
+      "model": "teusink",
+      "h": 0.03,
+      "threshold": 0.01,
+      "method": "full",
+      "tolerance": 1e-10,
+      "repeat": 1,
+      "setup_seconds": 0.0012469999492168427,
+      "status": "success",
+      "seconds": 0.011580875143408775,
+      "stats": {
+        "nfev": 80,
+        "njev": 4,
+        "nlu": 12,
+        "accepted_steps": 9,
+        "pool_error": 1.9749590675267642e-16,
+        "continuous_nonnegative": true,
+        "dense_join_error": 0.0,
+        "physical_ledger_residual": 8.382953128869035e-17,
+        "physical_ledger_quadrature": 2.8906734927134603e-18,
+        "seconds": 0.011442916002124548
+      },
+      "guard": {
+        "nonnegative": true,
+        "pool": 3.253995838114014e-16
+      },
+      "targets": {
+        "0.0001": {
+          "actual": {
+            "concentration": 1.7468819583342926e-07,
+            "flux": 1.74687810574758e-07
+          },
+          "passes": true
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 1.7468819583342927e-05,
+            "flux": 1.74687810574758e-05
+          },
+          "passes": true
+        }
+      }
+    },
+    {
+      "key": "endpoint-1e-08-1",
+      "source_shard": "history-1",
+      "model": "teusink",
+      "h": 0.03,
+      "threshold": 0.01,
+      "method": "endpoint",
+      "tolerance": 1e-08,
+      "repeat": 1,
+      "setup_seconds": 0.0012469999492168427,
+      "status": "success",
+      "seconds": 0.009638417046517134,
+      "stats": {
+        "subflows": 3,
+        "nfev": 69,
+        "njev": 3,
+        "nlu": 18,
+        "linear_solver_setups": 0,
+        "accepted_steps": 9,
+        "rhs_seconds": 0.002218873705714941,
+        "jacobian_seconds": 0.001552957808598876,
+        "native_allocation_seconds": 0.0,
+        "reinit_seconds": 0.0,
+        "ledger_seconds": 0.0037201265804469585,
+        "min_rhs": 0.00035581611920447025,
+        "min_internal": 0.0003558430632931781,
+        "pool_error": 1.9749590675267647e-16,
+        "modified_ledger_residual": 4.264971937986758e-14,
+        "modified_ledger_quadrature": 2.355447228828234e-17,
+        "seconds": 0.008842499926686287,
+        "physical_ledger_residual": 1.209310307912382e-09,
+        "physical_ledger_quadrature": 2.3848056314886047e-17,
+        "continuous_nonnegative": true
+      },
+      "guard": {
+        "nonnegative": true,
+        "pool": 2.433899112831655e-16
+      },
+      "targets": {
+        "0.0001": {
+          "actual": {
+            "concentration": 0.00023141125857619013,
+            "flux": 0.0004145365925286024
+          },
+          "passes": false
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 0.023141125857619016,
+            "flux": 0.041453659252860244
+          },
+          "passes": false
+        }
+      }
+    },
+    {
+      "key": "endpoint-1e-10-1",
+      "source_shard": "history-1",
+      "model": "teusink",
+      "h": 0.03,
+      "threshold": 0.01,
+      "method": "endpoint",
+      "tolerance": 1e-10,
+      "repeat": 1,
+      "setup_seconds": 0.0012469999492168427,
+      "status": "success",
+      "seconds": 0.014437958132475615,
+      "stats": {
+        "subflows": 3,
+        "nfev": 117,
+        "njev": 6,
+        "nlu": 24,
+        "linear_solver_setups": 0,
+        "accepted_steps": 12,
+        "rhs_seconds": 0.003758080769330263,
+        "jacobian_seconds": 0.0029422908555716276,
+        "native_allocation_seconds": 0.0,
+        "reinit_seconds": 0.0,
+        "ledger_seconds": 0.00498533109202981,
+        "min_rhs": 0.00035581611919685953,
+        "min_internal": 0.000355843063292039,
+        "pool_error": 1.9749590675267647e-16,
+        "modified_ledger_residual": 4.480543913705864e-17,
+        "modified_ledger_quadrature": 2.060734032891432e-17,
+        "seconds": 0.013657000148668885,
+        "physical_ledger_residual": 1.2094106077785638e-09,
+        "physical_ledger_quadrature": 2.0234714448994222e-17,
+        "continuous_nonnegative": true
+      },
+      "guard": {
+        "nonnegative": true,
+        "pool": 3.2585938200336615e-16
+      },
+      "targets": {
+        "0.0001": {
+          "actual": {
+            "concentration": 0.00023141118712345526,
+            "flux": 0.00041454069646909726
+          },
+          "passes": false
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 0.02314111871234553,
+            "flux": 0.04145406964690973
+          },
+          "passes": false
+        }
+      }
+    },
+    {
+      "key": "endpoint-1e-08-2",
+      "source_shard": "history-1",
+      "model": "teusink",
+      "h": 0.03,
+      "threshold": 0.01,
+      "method": "endpoint",
+      "tolerance": 1e-08,
+      "repeat": 2,
+      "setup_seconds": 0.0012469999492168427,
+      "status": "success",
+      "seconds": 0.009970166953280568,
+      "stats": {
+        "subflows": 3,
+        "nfev": 69,
+        "njev": 3,
+        "nlu": 18,
+        "linear_solver_setups": 0,
+        "accepted_steps": 9,
+        "rhs_seconds": 0.00226262747310102,
+        "jacobian_seconds": 0.0016127077396959066,
+        "native_allocation_seconds": 0.0,
+        "reinit_seconds": 0.0,
+        "ledger_seconds": 0.003870918182656169,
+        "min_rhs": 0.00035581611920447025,
+        "min_internal": 0.0003558430632931781,
+        "pool_error": 1.9749590675267647e-16,
+        "modified_ledger_residual": 4.264971937986758e-14,
+        "modified_ledger_quadrature": 2.355447228828234e-17,
+        "seconds": 0.009154875064268708,
+        "physical_ledger_residual": 1.209310307912382e-09,
+        "physical_ledger_quadrature": 2.3848056314886047e-17,
+        "continuous_nonnegative": true
+      },
+      "guard": {
+        "nonnegative": true,
+        "pool": 2.433899112831655e-16
+      },
+      "targets": {
+        "0.0001": {
+          "actual": {
+            "concentration": 0.00023141125857619013,
+            "flux": 0.0004145365925286024
+          },
+          "passes": false
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 0.023141125857619016,
+            "flux": 0.041453659252860244
+          },
+          "passes": false
+        }
+      }
+    },
+    {
+      "key": "endpoint-1e-10-2",
+      "source_shard": "history-1",
+      "model": "teusink",
+      "h": 0.03,
+      "threshold": 0.01,
+      "method": "endpoint",
+      "tolerance": 1e-10,
+      "repeat": 2,
+      "setup_seconds": 0.0012469999492168427,
+      "status": "success",
+      "seconds": 0.014424999943003058,
+      "stats": {
+        "subflows": 3,
+        "nfev": 117,
+        "njev": 6,
+        "nlu": 24,
+        "linear_solver_setups": 0,
+        "accepted_steps": 12,
+        "rhs_seconds": 0.0037335387896746397,
+        "jacobian_seconds": 0.0029560409020632505,
+        "native_allocation_seconds": 0.0,
+        "reinit_seconds": 0.0,
+        "ledger_seconds": 0.004978291690349579,
+        "min_rhs": 0.00035581611919685953,
+        "min_internal": 0.000355843063292039,
+        "pool_error": 1.9749590675267647e-16,
+        "modified_ledger_residual": 4.480543913705864e-17,
+        "modified_ledger_quadrature": 2.060734032891432e-17,
+        "seconds": 0.013625374995172024,
+        "physical_ledger_residual": 1.2094106077785638e-09,
+        "physical_ledger_quadrature": 2.0234714448994222e-17,
+        "continuous_nonnegative": true
+      },
+      "guard": {
+        "nonnegative": true,
+        "pool": 3.2585938200336615e-16
+      },
+      "targets": {
+        "0.0001": {
+          "actual": {
+            "concentration": 0.00023141118712345526,
+            "flux": 0.00041454069646909726
+          },
+          "passes": false
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 0.02314111871234553,
+            "flux": 0.04145406964690973
+          },
+          "passes": false
+        }
+      }
+    },
+    {
+      "key": "full-1e-08-2",
+      "source_shard": "history-1",
+      "model": "teusink",
+      "h": 0.03,
+      "threshold": 0.01,
+      "method": "full",
+      "tolerance": 1e-08,
+      "repeat": 2,
+      "setup_seconds": 0.0012469999492168427,
+      "status": "success",
+      "seconds": 0.005236624972894788,
+      "stats": {
+        "nfev": 33,
+        "njev": 2,
+        "nlu": 8,
+        "accepted_steps": 4,
+        "pool_error": 0.0,
+        "continuous_nonnegative": true,
+        "dense_join_error": 0.0,
+        "physical_ledger_residual": 2.636294225354676e-14,
+        "physical_ledger_quadrature": 1.3008030717210572e-17,
+        "seconds": 0.005137749947607517
+      },
+      "guard": {
+        "nonnegative": true,
+        "pool": 1.306764256527943e-16
+      },
+      "targets": {
+        "0.0001": {
+          "actual": {
+            "concentration": 1.7704777125231708e-05,
+            "flux": 1.7704777472015948e-05
+          },
+          "passes": true
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 0.0017704777125231708,
+            "flux": 0.001770477747201595
+          },
+          "passes": true
+        }
+      }
+    },
+    {
+      "key": "full-1e-10-2",
+      "source_shard": "history-1",
+      "model": "teusink",
+      "h": 0.03,
+      "threshold": 0.01,
+      "method": "full",
+      "tolerance": 1e-10,
+      "repeat": 2,
+      "setup_seconds": 0.0012469999492168427,
+      "status": "success",
+      "seconds": 0.011285166954621673,
+      "stats": {
+        "nfev": 80,
+        "njev": 4,
+        "nlu": 12,
+        "accepted_steps": 9,
+        "pool_error": 1.9749590675267642e-16,
+        "continuous_nonnegative": true,
+        "dense_join_error": 0.0,
+        "physical_ledger_residual": 8.382953128869035e-17,
+        "physical_ledger_quadrature": 2.8906734927134603e-18,
+        "seconds": 0.011155499843880534
+      },
+      "guard": {
+        "nonnegative": true,
+        "pool": 3.253995838114014e-16
+      },
+      "targets": {
+        "0.0001": {
+          "actual": {
+            "concentration": 1.7468819583342926e-07,
+            "flux": 1.74687810574758e-07
+          },
+          "passes": true
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 1.7468819583342927e-05,
+            "flux": 1.74687810574758e-05
+          },
+          "passes": true
+        }
+      }
+    },
+    {
+      "key": "full-1e-08--1",
+      "source_shard": "history-2",
+      "model": "teusink",
+      "h": 0.001,
+      "threshold": 0.1,
+      "method": "full",
+      "tolerance": 1e-08,
+      "repeat": -1,
+      "setup_seconds": 0.001243041129782796,
+      "status": "success",
+      "seconds": 0.005399625049903989,
+      "stats": {
+        "nfev": 44,
+        "njev": 1,
+        "nlu": 8,
+        "accepted_steps": 4,
+        "pool_error": 1.974959067526764e-16,
+        "continuous_nonnegative": true,
+        "dense_join_error": 0.0,
+        "physical_ledger_residual": 2.6180474217913344e-17,
+        "physical_ledger_quadrature": 2.218684255755368e-20,
+        "seconds": 0.00530308298766613
+      },
+      "guard": {
+        "nonnegative": true,
+        "pool": 1.3086426745764122e-16
+      },
+      "targets": {
+        "0.0001": {
+          "actual": {
+            "concentration": 3.162492823561787e-05,
+            "flux": 5.586007857920316e-05
+          },
+          "passes": true
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 0.0031624928235617867,
+            "flux": 0.005586007857920317
+          },
+          "passes": true
+        }
+      }
+    },
+    {
+      "key": "full-1e-10--1",
+      "source_shard": "history-2",
+      "model": "teusink",
+      "h": 0.001,
+      "threshold": 0.1,
+      "method": "full",
+      "tolerance": 1e-10,
+      "repeat": -1,
+      "setup_seconds": 0.001243041129782796,
+      "status": "success",
+      "seconds": 0.018355875043198466,
+      "stats": {
+        "nfev": 173,
+        "njev": 1,
+        "nlu": 38,
+        "accepted_steps": 15,
+        "pool_error": 1.974959067526764e-16,
+        "continuous_nonnegative": true,
+        "dense_join_error": 0.0,
+        "physical_ledger_residual": 2.877633479714712e-17,
+        "physical_ledger_quadrature": 4.437368511510736e-20,
+        "seconds": 0.018186500063166022
+      },
+      "guard": {
+        "nonnegative": true,
+        "pool": 1.7895636865396712e-16
+      },
+      "targets": {
+        "0.0001": {
+          "actual": {
+            "concentration": 5.225943100713429e-08,
+            "flux": 9.230512748691864e-08
+          },
+          "passes": true
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 5.225943100713429e-06,
+            "flux": 9.230512748691865e-06
+          },
+          "passes": true
+        }
+      }
+    },
+    {
+      "key": "endpoint-1e-08--1",
+      "source_shard": "history-2",
+      "model": "teusink",
+      "h": 0.001,
+      "threshold": 0.1,
+      "method": "endpoint",
+      "tolerance": 1e-08,
+      "repeat": -1,
+      "setup_seconds": 0.001243041129782796,
+      "status": "success",
+      "seconds": 0.01296554203145206,
+      "stats": {
+        "subflows": 3,
+        "nfev": 115,
+        "njev": 6,
+        "nlu": 22,
+        "linear_solver_setups": 0,
+        "accepted_steps": 8,
+        "rhs_seconds": 0.0037746583111584187,
+        "jacobian_seconds": 0.0030126238707453012,
+        "native_allocation_seconds": 0.0,
+        "reinit_seconds": 0.0,
+        "ledger_seconds": 0.0034811245277523994,
+        "min_rhs": 0.00037933213217774024,
+        "min_internal": 0.00037933217434067245,
+        "pool_error": 1.974959067526764e-16,
+        "modified_ledger_residual": 1.1168856543472525e-16,
+        "modified_ledger_quadrature": 7.266190937598831e-19,
+        "seconds": 0.012153459014371037,
+        "physical_ledger_residual": 2.3307254488727492e-08,
+        "physical_ledger_quadrature": 7.765394895143788e-19,
+        "continuous_nonnegative": true
+      },
+      "guard": {
+        "nonnegative": true,
+        "pool": 1.2659101043547458e-16
+      },
+      "targets": {
+        "0.0001": {
+          "actual": {
+            "concentration": 0.003234555167052535,
+            "flux": 0.00590079044327907
+          },
+          "passes": false
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 0.3234555167052535,
+            "flux": 0.5900790443279071
+          },
+          "passes": false
+        }
+      }
+    },
+    {
+      "key": "endpoint-1e-10--1",
+      "source_shard": "history-2",
+      "model": "teusink",
+      "h": 0.001,
+      "threshold": 0.1,
+      "method": "endpoint",
+      "tolerance": 1e-10,
+      "repeat": -1,
+      "setup_seconds": 0.001243041129782796,
+      "status": "success",
+      "seconds": 0.038189792074263096,
+      "stats": {
+        "subflows": 3,
+        "nfev": 449,
+        "njev": 3,
+        "nlu": 90,
+        "linear_solver_setups": 0,
+        "accepted_steps": 36,
+        "rhs_seconds": 0.014274499146267772,
+        "jacobian_seconds": 0.0015227899421006441,
+        "native_allocation_seconds": 0.0,
+        "reinit_seconds": 0.0,
+        "ledger_seconds": 0.015028582653030753,
+        "min_rhs": 0.00037933213217742647,
+        "min_internal": 0.00037933217434393097,
+        "pool_error": 1.974959067526764e-16,
+        "modified_ledger_residual": 8.9479536034614e-17,
+        "modified_ledger_quadrature": 6.246982857611209e-19,
+        "seconds": 0.03741354192607105,
+        "physical_ledger_residual": 2.3305730521992055e-08,
+        "physical_ledger_quadrature": 8.874737023021472e-20,
+        "continuous_nonnegative": true
+      },
+      "guard": {
+        "nonnegative": true,
+        "pool": 1.789831275474551e-16
+      },
+      "targets": {
+        "0.0001": {
+          "actual": {
+            "concentration": 0.0032340600957862973,
+            "flux": 0.005899841782755975
+          },
+          "passes": false
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 0.32340600957862975,
+            "flux": 0.5899841782755977
+          },
+          "passes": false
+        }
+      }
+    },
+    {
+      "key": "endpoint-1e-08-0",
+      "source_shard": "history-2",
+      "model": "teusink",
+      "h": 0.001,
+      "threshold": 0.1,
+      "method": "endpoint",
+      "tolerance": 1e-08,
+      "repeat": 0,
+      "setup_seconds": 0.001243041129782796,
+      "status": "success",
+      "seconds": 0.013342082966119051,
+      "stats": {
+        "subflows": 3,
+        "nfev": 115,
+        "njev": 6,
+        "nlu": 22,
+        "linear_solver_setups": 0,
+        "accepted_steps": 8,
+        "rhs_seconds": 0.00372199690900743,
+        "jacobian_seconds": 0.002931334311142564,
+        "native_allocation_seconds": 0.0,
+        "reinit_seconds": 0.0,
+        "ledger_seconds": 0.003397916676476598,
+        "min_rhs": 0.00037933213217774024,
+        "min_internal": 0.00037933217434067245,
+        "pool_error": 1.974959067526764e-16,
+        "modified_ledger_residual": 1.1168856543472525e-16,
+        "modified_ledger_quadrature": 7.266190937598831e-19,
+        "seconds": 0.012545500183477998,
+        "physical_ledger_residual": 2.3307254488727492e-08,
+        "physical_ledger_quadrature": 7.765394895143788e-19,
+        "continuous_nonnegative": true
+      },
+      "guard": {
+        "nonnegative": true,
+        "pool": 1.2659101043547458e-16
+      },
+      "targets": {
+        "0.0001": {
+          "actual": {
+            "concentration": 0.003234555167052535,
+            "flux": 0.00590079044327907
+          },
+          "passes": false
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 0.3234555167052535,
+            "flux": 0.5900790443279071
+          },
+          "passes": false
+        }
+      }
+    },
+    {
+      "key": "endpoint-1e-10-0",
+      "source_shard": "history-2",
+      "model": "teusink",
+      "h": 0.001,
+      "threshold": 0.1,
+      "method": "endpoint",
+      "tolerance": 1e-10,
+      "repeat": 0,
+      "setup_seconds": 0.001243041129782796,
+      "status": "success",
+      "seconds": 0.03881325013935566,
+      "stats": {
+        "subflows": 3,
+        "nfev": 449,
+        "njev": 3,
+        "nlu": 90,
+        "linear_solver_setups": 0,
+        "accepted_steps": 36,
+        "rhs_seconds": 0.01444425294175744,
+        "jacobian_seconds": 0.0015137509908527136,
+        "native_allocation_seconds": 0.0,
+        "reinit_seconds": 0.0,
+        "ledger_seconds": 0.015318250749260187,
+        "min_rhs": 0.00037933213217742647,
+        "min_internal": 0.00037933217434393097,
+        "pool_error": 1.974959067526764e-16,
+        "modified_ledger_residual": 8.9479536034614e-17,
+        "modified_ledger_quadrature": 6.246982857611209e-19,
+        "seconds": 0.03799041686579585,
+        "physical_ledger_residual": 2.3305730521992055e-08,
+        "physical_ledger_quadrature": 8.874737023021472e-20,
+        "continuous_nonnegative": true
+      },
+      "guard": {
+        "nonnegative": true,
+        "pool": 1.789831275474551e-16
+      },
+      "targets": {
+        "0.0001": {
+          "actual": {
+            "concentration": 0.0032340600957862973,
+            "flux": 0.005899841782755975
+          },
+          "passes": false
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 0.32340600957862975,
+            "flux": 0.5899841782755977
+          },
+          "passes": false
+        }
+      }
+    },
+    {
+      "key": "full-1e-08-0",
+      "source_shard": "history-2",
+      "model": "teusink",
+      "h": 0.001,
+      "threshold": 0.1,
+      "method": "full",
+      "tolerance": 1e-08,
+      "repeat": 0,
+      "setup_seconds": 0.001243041129782796,
+      "status": "success",
+      "seconds": 0.005230417009443045,
+      "stats": {
+        "nfev": 44,
+        "njev": 1,
+        "nlu": 8,
+        "accepted_steps": 4,
+        "pool_error": 1.974959067526764e-16,
+        "continuous_nonnegative": true,
+        "dense_join_error": 0.0,
+        "physical_ledger_residual": 2.6180474217913344e-17,
+        "physical_ledger_quadrature": 2.218684255755368e-20,
+        "seconds": 0.0051424161065369844
+      },
+      "guard": {
+        "nonnegative": true,
+        "pool": 1.3086426745764122e-16
+      },
+      "targets": {
+        "0.0001": {
+          "actual": {
+            "concentration": 3.162492823561787e-05,
+            "flux": 5.586007857920316e-05
+          },
+          "passes": true
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 0.0031624928235617867,
+            "flux": 0.005586007857920317
+          },
+          "passes": true
+        }
+      }
+    },
+    {
+      "key": "full-1e-10-0",
+      "source_shard": "history-2",
+      "model": "teusink",
+      "h": 0.001,
+      "threshold": 0.1,
+      "method": "full",
+      "tolerance": 1e-10,
+      "repeat": 0,
+      "setup_seconds": 0.001243041129782796,
+      "status": "success",
+      "seconds": 0.01892733294516802,
+      "stats": {
+        "nfev": 173,
+        "njev": 1,
+        "nlu": 38,
+        "accepted_steps": 15,
+        "pool_error": 1.974959067526764e-16,
+        "continuous_nonnegative": true,
+        "dense_join_error": 0.0,
+        "physical_ledger_residual": 2.877633479714712e-17,
+        "physical_ledger_quadrature": 4.437368511510736e-20,
+        "seconds": 0.018731458112597466
+      },
+      "guard": {
+        "nonnegative": true,
+        "pool": 1.7895636865396712e-16
+      },
+      "targets": {
+        "0.0001": {
+          "actual": {
+            "concentration": 5.225943100713429e-08,
+            "flux": 9.230512748691864e-08
+          },
+          "passes": true
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 5.225943100713429e-06,
+            "flux": 9.230512748691865e-06
+          },
+          "passes": true
+        }
+      }
+    },
+    {
+      "key": "full-1e-08-1",
+      "source_shard": "history-2",
+      "model": "teusink",
+      "h": 0.001,
+      "threshold": 0.1,
+      "method": "full",
+      "tolerance": 1e-08,
+      "repeat": 1,
+      "setup_seconds": 0.001243041129782796,
+      "status": "success",
+      "seconds": 0.005402208073064685,
+      "stats": {
+        "nfev": 44,
+        "njev": 1,
+        "nlu": 8,
+        "accepted_steps": 4,
+        "pool_error": 1.974959067526764e-16,
+        "continuous_nonnegative": true,
+        "dense_join_error": 0.0,
+        "physical_ledger_residual": 2.6180474217913344e-17,
+        "physical_ledger_quadrature": 2.218684255755368e-20,
+        "seconds": 0.005302374949678779
+      },
+      "guard": {
+        "nonnegative": true,
+        "pool": 1.3086426745764122e-16
+      },
+      "targets": {
+        "0.0001": {
+          "actual": {
+            "concentration": 3.162492823561787e-05,
+            "flux": 5.586007857920316e-05
+          },
+          "passes": true
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 0.0031624928235617867,
+            "flux": 0.005586007857920317
+          },
+          "passes": true
+        }
+      }
+    },
+    {
+      "key": "full-1e-10-1",
+      "source_shard": "history-2",
+      "model": "teusink",
+      "h": 0.001,
+      "threshold": 0.1,
+      "method": "full",
+      "tolerance": 1e-10,
+      "repeat": 1,
+      "setup_seconds": 0.001243041129782796,
+      "status": "success",
+      "seconds": 0.01820441707968712,
+      "stats": {
+        "nfev": 173,
+        "njev": 1,
+        "nlu": 38,
+        "accepted_steps": 15,
+        "pool_error": 1.974959067526764e-16,
+        "continuous_nonnegative": true,
+        "dense_join_error": 0.0,
+        "physical_ledger_residual": 2.877633479714712e-17,
+        "physical_ledger_quadrature": 4.437368511510736e-20,
+        "seconds": 0.018038333160802722
+      },
+      "guard": {
+        "nonnegative": true,
+        "pool": 1.7895636865396712e-16
+      },
+      "targets": {
+        "0.0001": {
+          "actual": {
+            "concentration": 5.225943100713429e-08,
+            "flux": 9.230512748691864e-08
+          },
+          "passes": true
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 5.225943100713429e-06,
+            "flux": 9.230512748691865e-06
+          },
+          "passes": true
+        }
+      }
+    },
+    {
+      "key": "endpoint-1e-08-1",
+      "source_shard": "history-2",
+      "model": "teusink",
+      "h": 0.001,
+      "threshold": 0.1,
+      "method": "endpoint",
+      "tolerance": 1e-08,
+      "repeat": 1,
+      "setup_seconds": 0.001243041129782796,
+      "status": "success",
+      "seconds": 0.012952374992892146,
+      "stats": {
+        "subflows": 3,
+        "nfev": 115,
+        "njev": 6,
+        "nlu": 22,
+        "linear_solver_setups": 0,
+        "accepted_steps": 8,
+        "rhs_seconds": 0.0037493328563869,
+        "jacobian_seconds": 0.0030646244995296,
+        "native_allocation_seconds": 0.0,
+        "reinit_seconds": 0.0,
+        "ledger_seconds": 0.0034103342331945896,
+        "min_rhs": 0.00037933213217774024,
+        "min_internal": 0.00037933217434067245,
+        "pool_error": 1.974959067526764e-16,
+        "modified_ledger_residual": 1.1168856543472525e-16,
+        "modified_ledger_quadrature": 7.266190937598831e-19,
+        "seconds": 0.012154584052041173,
+        "physical_ledger_residual": 2.3307254488727492e-08,
+        "physical_ledger_quadrature": 7.765394895143788e-19,
+        "continuous_nonnegative": true
+      },
+      "guard": {
+        "nonnegative": true,
+        "pool": 1.2659101043547458e-16
+      },
+      "targets": {
+        "0.0001": {
+          "actual": {
+            "concentration": 0.003234555167052535,
+            "flux": 0.00590079044327907
+          },
+          "passes": false
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 0.3234555167052535,
+            "flux": 0.5900790443279071
+          },
+          "passes": false
+        }
+      }
+    },
+    {
+      "key": "endpoint-1e-10-1",
+      "source_shard": "history-2",
+      "model": "teusink",
+      "h": 0.001,
+      "threshold": 0.1,
+      "method": "endpoint",
+      "tolerance": 1e-10,
+      "repeat": 1,
+      "setup_seconds": 0.001243041129782796,
+      "status": "success",
+      "seconds": 0.039008375024423,
+      "stats": {
+        "subflows": 3,
+        "nfev": 449,
+        "njev": 3,
+        "nlu": 90,
+        "linear_solver_setups": 0,
+        "accepted_steps": 36,
+        "rhs_seconds": 0.0145617148373276,
+        "jacobian_seconds": 0.001633083913475275,
+        "native_allocation_seconds": 0.0,
+        "reinit_seconds": 0.0,
+        "ledger_seconds": 0.015102543635293841,
+        "min_rhs": 0.00037933213217742647,
+        "min_internal": 0.00037933217434393097,
+        "pool_error": 1.974959067526764e-16,
+        "modified_ledger_residual": 8.9479536034614e-17,
+        "modified_ledger_quadrature": 6.246982857611209e-19,
+        "seconds": 0.03817741712555289,
+        "physical_ledger_residual": 2.3305730521992055e-08,
+        "physical_ledger_quadrature": 8.874737023021472e-20,
+        "continuous_nonnegative": true
+      },
+      "guard": {
+        "nonnegative": true,
+        "pool": 1.789831275474551e-16
+      },
+      "targets": {
+        "0.0001": {
+          "actual": {
+            "concentration": 0.0032340600957862973,
+            "flux": 0.005899841782755975
+          },
+          "passes": false
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 0.32340600957862975,
+            "flux": 0.5899841782755977
+          },
+          "passes": false
+        }
+      }
+    },
+    {
+      "key": "endpoint-1e-08-2",
+      "source_shard": "history-2",
+      "model": "teusink",
+      "h": 0.001,
+      "threshold": 0.1,
+      "method": "endpoint",
+      "tolerance": 1e-08,
+      "repeat": 2,
+      "setup_seconds": 0.001243041129782796,
+      "status": "success",
+      "seconds": 0.013500124914571643,
+      "stats": {
+        "subflows": 3,
+        "nfev": 115,
+        "njev": 6,
+        "nlu": 22,
+        "linear_solver_setups": 0,
+        "accepted_steps": 8,
+        "rhs_seconds": 0.003861793549731374,
+        "jacobian_seconds": 0.003289375687018037,
+        "native_allocation_seconds": 0.0,
+        "reinit_seconds": 0.0,
+        "ledger_seconds": 0.0035176239907741547,
+        "min_rhs": 0.00037933213217774024,
+        "min_internal": 0.00037933217434067245,
+        "pool_error": 1.974959067526764e-16,
+        "modified_ledger_residual": 1.1168856543472525e-16,
+        "modified_ledger_quadrature": 7.266190937598831e-19,
+        "seconds": 0.01266433298587799,
+        "physical_ledger_residual": 2.3307254488727492e-08,
+        "physical_ledger_quadrature": 7.765394895143788e-19,
+        "continuous_nonnegative": true
+      },
+      "guard": {
+        "nonnegative": true,
+        "pool": 1.2659101043547458e-16
+      },
+      "targets": {
+        "0.0001": {
+          "actual": {
+            "concentration": 0.003234555167052535,
+            "flux": 0.00590079044327907
+          },
+          "passes": false
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 0.3234555167052535,
+            "flux": 0.5900790443279071
+          },
+          "passes": false
+        }
+      }
+    },
+    {
+      "key": "endpoint-1e-10-2",
+      "source_shard": "history-2",
+      "model": "teusink",
+      "h": 0.001,
+      "threshold": 0.1,
+      "method": "endpoint",
+      "tolerance": 1e-10,
+      "repeat": 2,
+      "setup_seconds": 0.001243041129782796,
+      "status": "success",
+      "seconds": 0.03849499998614192,
+      "stats": {
+        "subflows": 3,
+        "nfev": 449,
+        "njev": 3,
+        "nlu": 90,
+        "linear_solver_setups": 0,
+        "accepted_steps": 36,
+        "rhs_seconds": 0.014347304357215762,
+        "jacobian_seconds": 0.0015798762906342745,
+        "native_allocation_seconds": 0.0,
+        "reinit_seconds": 0.0,
+        "ledger_seconds": 0.015008665388450027,
+        "min_rhs": 0.00037933213217742647,
+        "min_internal": 0.00037933217434393097,
+        "pool_error": 1.974959067526764e-16,
+        "modified_ledger_residual": 8.9479536034614e-17,
+        "modified_ledger_quadrature": 6.246982857611209e-19,
+        "seconds": 0.03768412512727082,
+        "physical_ledger_residual": 2.3305730521992055e-08,
+        "physical_ledger_quadrature": 8.874737023021472e-20,
+        "continuous_nonnegative": true
+      },
+      "guard": {
+        "nonnegative": true,
+        "pool": 1.789831275474551e-16
+      },
+      "targets": {
+        "0.0001": {
+          "actual": {
+            "concentration": 0.0032340600957862973,
+            "flux": 0.005899841782755975
+          },
+          "passes": false
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 0.32340600957862975,
+            "flux": 0.5899841782755977
+          },
+          "passes": false
+        }
+      }
+    },
+    {
+      "key": "full-1e-08-2",
+      "source_shard": "history-2",
+      "model": "teusink",
+      "h": 0.001,
+      "threshold": 0.1,
+      "method": "full",
+      "tolerance": 1e-08,
+      "repeat": 2,
+      "setup_seconds": 0.001243041129782796,
+      "status": "success",
+      "seconds": 0.005379374837502837,
+      "stats": {
+        "nfev": 44,
+        "njev": 1,
+        "nlu": 8,
+        "accepted_steps": 4,
+        "pool_error": 1.974959067526764e-16,
+        "continuous_nonnegative": true,
+        "dense_join_error": 0.0,
+        "physical_ledger_residual": 2.6180474217913344e-17,
+        "physical_ledger_quadrature": 2.218684255755368e-20,
+        "seconds": 0.005286624887958169
+      },
+      "guard": {
+        "nonnegative": true,
+        "pool": 1.3086426745764122e-16
+      },
+      "targets": {
+        "0.0001": {
+          "actual": {
+            "concentration": 3.162492823561787e-05,
+            "flux": 5.586007857920316e-05
+          },
+          "passes": true
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 0.0031624928235617867,
+            "flux": 0.005586007857920317
+          },
+          "passes": true
+        }
+      }
+    },
+    {
+      "key": "full-1e-10-2",
+      "source_shard": "history-2",
+      "model": "teusink",
+      "h": 0.001,
+      "threshold": 0.1,
+      "method": "full",
+      "tolerance": 1e-10,
+      "repeat": 2,
+      "setup_seconds": 0.001243041129782796,
+      "status": "success",
+      "seconds": 0.020425082882866263,
+      "stats": {
+        "nfev": 173,
+        "njev": 1,
+        "nlu": 38,
+        "accepted_steps": 15,
+        "pool_error": 1.974959067526764e-16,
+        "continuous_nonnegative": true,
+        "dense_join_error": 0.0,
+        "physical_ledger_residual": 2.877633479714712e-17,
+        "physical_ledger_quadrature": 4.437368511510736e-20,
+        "seconds": 0.0201577499974519
+      },
+      "guard": {
+        "nonnegative": true,
+        "pool": 1.7895636865396712e-16
+      },
+      "targets": {
+        "0.0001": {
+          "actual": {
+            "concentration": 5.225943100713429e-08,
+            "flux": 9.230512748691864e-08
+          },
+          "passes": true
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 5.225943100713429e-06,
+            "flux": 9.230512748691865e-06
+          },
+          "passes": true
+        }
+      }
+    },
+    {
+      "key": "full-1e-08--1",
+      "source_shard": "history-3",
+      "model": "kecoli",
+      "h": 0.001,
+      "threshold": 0.01,
+      "method": "full",
+      "tolerance": 1e-08,
+      "repeat": -1,
+      "setup_seconds": 0.25325491605326533,
+      "status": "success",
+      "seconds": 0.023726832820102572,
+      "stats": {
+        "nfev": 16,
+        "njev": 1,
+        "nlu": 4,
+        "accepted_steps": 2,
+        "pool_error": 2.0167201242315986e-13,
+        "continuous_nonnegative": true,
+        "dense_join_error": 0.0,
+        "seconds": 0.022265834035351872
+      },
+      "guard": {
+        "nonnegative": true,
+        "pool": 2.02933156390195e-13
+      },
+      "targets": {
+        "0.0001": {
+          "actual": {
+            "concentration": 1.6628965370836436e-05,
+            "flux": 2.10265954618076e-05,
+            "net_flux": 0.001811831487649555
+          },
+          "passes": true
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 0.0016628965370836437,
+            "flux": 0.00210265954618076,
+            "net_flux": 0.001811831487649555
+          },
+          "passes": true
+        }
+      }
+    },
+    {
+      "key": "full-1e-10--1",
+      "source_shard": "history-3",
+      "model": "kecoli",
+      "h": 0.001,
+      "threshold": 0.01,
+      "method": "full",
+      "tolerance": 1e-10,
+      "repeat": -1,
+      "setup_seconds": 0.25325491605326533,
+      "status": "success",
+      "seconds": 0.02202199981547892,
+      "stats": {
+        "nfev": 23,
+        "njev": 1,
+        "nlu": 4,
+        "accepted_steps": 3,
+        "pool_error": 6.811218256075342e-14,
+        "continuous_nonnegative": true,
+        "dense_join_error": 0.0,
+        "seconds": 0.02076074993237853
+      },
+      "guard": {
+        "nonnegative": true,
+        "pool": 1.0463244853875517e-13
+      },
+      "targets": {
+        "0.0001": {
+          "actual": {
+            "concentration": 4.789522009629127e-06,
+            "flux": 7.469978792479629e-06,
+            "net_flux": 0.0004924452046720571
+          },
+          "passes": true
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 0.00047895220096291275,
+            "flux": 0.0007469978792479629,
+            "net_flux": 0.0004924452046720571
+          },
+          "passes": true
+        }
+      }
+    },
+    {
+      "key": "endpoint-1e-08--1",
+      "source_shard": "history-3",
+      "model": "kecoli",
+      "h": 0.001,
+      "threshold": 0.01,
+      "method": "endpoint",
+      "tolerance": 1e-08,
+      "repeat": -1,
+      "setup_seconds": 0.25325491605326533,
+      "status": "success",
+      "seconds": 0.025913333985954523,
+      "stats": {
+        "subflows": 3,
+        "nfev": 27,
+        "njev": 3,
+        "nlu": 6,
+        "linear_solver_setups": 0,
+        "accepted_steps": 3,
+        "rhs_seconds": 0.0035509984008967876,
+        "jacobian_seconds": 0.002209541155025363,
+        "native_allocation_seconds": 0.0,
+        "reinit_seconds": 0.0,
+        "ledger_seconds": 0.0,
+        "min_rhs": 0.0,
+        "min_internal": 0.0,
+        "pool_error": 1.0796918914479657e-13,
+        "seconds": 0.023669166956096888,
+        "continuous_nonnegative": true
+      },
+      "guard": {
+        "nonnegative": true,
+        "pool": 1.3037661228398902e-13
+      },
+      "targets": {
+        "0.0001": {
+          "actual": {
+            "concentration": 0.00012292331302043107,
+            "flux": 0.00012292331327967853,
+            "net_flux": 0.004722837125028231
+          },
+          "passes": true
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 0.012292331302043108,
+            "flux": 0.012292331327967854,
+            "net_flux": 0.004722837125028231
+          },
+          "passes": true
+        }
+      }
+    },
+    {
+      "key": "endpoint-1e-10--1",
+      "source_shard": "history-3",
+      "model": "kecoli",
+      "h": 0.001,
+      "threshold": 0.01,
+      "method": "endpoint",
+      "tolerance": 1e-10,
+      "repeat": -1,
+      "setup_seconds": 0.25325491605326533,
+      "status": "success",
+      "seconds": 0.03904900001361966,
+      "stats": {
+        "subflows": 3,
+        "nfev": 53,
+        "njev": 5,
+        "nlu": 10,
+        "linear_solver_setups": 0,
+        "accepted_steps": 5,
+        "rhs_seconds": 0.006209836574271321,
+        "jacobian_seconds": 0.0031991254072636366,
+        "native_allocation_seconds": 0.0,
+        "reinit_seconds": 0.0,
+        "ledger_seconds": 0.0,
+        "min_rhs": 0.0,
+        "min_internal": 0.0,
+        "pool_error": 2.9970470549756126e-13,
+        "seconds": 0.03682158305309713,
+        "continuous_nonnegative": true
+      },
+      "guard": {
+        "nonnegative": true,
+        "pool": 2.997766965218143e-13
+      },
+      "targets": {
+        "0.0001": {
+          "actual": {
+            "concentration": 0.00012186521903192419,
+            "flux": 0.00012186521928391436,
+            "net_flux": 0.004710461072013457
+          },
+          "passes": true
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 0.01218652190319242,
+            "flux": 0.012186521928391437,
+            "net_flux": 0.004710461072013457
+          },
+          "passes": true
+        }
+      }
+    },
+    {
+      "key": "endpoint-1e-08-0",
+      "source_shard": "history-3",
+      "model": "kecoli",
+      "h": 0.001,
+      "threshold": 0.01,
+      "method": "endpoint",
+      "tolerance": 1e-08,
+      "repeat": 0,
+      "setup_seconds": 0.25325491605326533,
+      "status": "success",
+      "seconds": 0.025755291106179357,
+      "stats": {
+        "subflows": 3,
+        "nfev": 27,
+        "njev": 3,
+        "nlu": 6,
+        "linear_solver_setups": 0,
+        "accepted_steps": 3,
+        "rhs_seconds": 0.0034789140336215496,
+        "jacobian_seconds": 0.002248999895527959,
+        "native_allocation_seconds": 0.0,
+        "reinit_seconds": 0.0,
+        "ledger_seconds": 0.0,
+        "min_rhs": 0.0,
+        "min_internal": 0.0,
+        "pool_error": 1.0796918914479657e-13,
+        "seconds": 0.023564290953800082,
+        "continuous_nonnegative": true
+      },
+      "guard": {
+        "nonnegative": true,
+        "pool": 1.3037661228398902e-13
+      },
+      "targets": {
+        "0.0001": {
+          "actual": {
+            "concentration": 0.00012292331302043107,
+            "flux": 0.00012292331327967853,
+            "net_flux": 0.004722837125028231
+          },
+          "passes": true
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 0.012292331302043108,
+            "flux": 0.012292331327967854,
+            "net_flux": 0.004722837125028231
+          },
+          "passes": true
+        }
+      }
+    },
+    {
+      "key": "endpoint-1e-10-0",
+      "source_shard": "history-3",
+      "model": "kecoli",
+      "h": 0.001,
+      "threshold": 0.01,
+      "method": "endpoint",
+      "tolerance": 1e-10,
+      "repeat": 0,
+      "setup_seconds": 0.25325491605326533,
+      "status": "success",
+      "seconds": 0.04023300018161535,
+      "stats": {
+        "subflows": 3,
+        "nfev": 53,
+        "njev": 5,
+        "nlu": 10,
+        "linear_solver_setups": 0,
+        "accepted_steps": 5,
+        "rhs_seconds": 0.0065856261644512415,
+        "jacobian_seconds": 0.003442248795181513,
+        "native_allocation_seconds": 0.0,
+        "reinit_seconds": 0.0,
+        "ledger_seconds": 0.0,
+        "min_rhs": 0.0,
+        "min_internal": 0.0,
+        "pool_error": 2.9970470549756126e-13,
+        "seconds": 0.03820933308452368,
+        "continuous_nonnegative": true
+      },
+      "guard": {
+        "nonnegative": true,
+        "pool": 2.997766965218143e-13
+      },
+      "targets": {
+        "0.0001": {
+          "actual": {
+            "concentration": 0.00012186521903192419,
+            "flux": 0.00012186521928391436,
+            "net_flux": 0.004710461072013457
+          },
+          "passes": true
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 0.01218652190319242,
+            "flux": 0.012186521928391437,
+            "net_flux": 0.004710461072013457
+          },
+          "passes": true
+        }
+      }
+    },
+    {
+      "key": "full-1e-08-0",
+      "source_shard": "history-3",
+      "model": "kecoli",
+      "h": 0.001,
+      "threshold": 0.01,
+      "method": "full",
+      "tolerance": 1e-08,
+      "repeat": 0,
+      "setup_seconds": 0.25325491605326533,
+      "status": "success",
+      "seconds": 0.020861791912466288,
+      "stats": {
+        "nfev": 16,
+        "njev": 1,
+        "nlu": 4,
+        "accepted_steps": 2,
+        "pool_error": 2.0167201242315986e-13,
+        "continuous_nonnegative": true,
+        "dense_join_error": 0.0,
+        "seconds": 0.019631291972473264
+      },
+      "guard": {
+        "nonnegative": true,
+        "pool": 2.02933156390195e-13
+      },
+      "targets": {
+        "0.0001": {
+          "actual": {
+            "concentration": 1.6628965370836436e-05,
+            "flux": 2.10265954618076e-05,
+            "net_flux": 0.001811831487649555
+          },
+          "passes": true
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 0.0016628965370836437,
+            "flux": 0.00210265954618076,
+            "net_flux": 0.001811831487649555
+          },
+          "passes": true
+        }
+      }
+    },
+    {
+      "key": "full-1e-10-0",
+      "source_shard": "history-3",
+      "model": "kecoli",
+      "h": 0.001,
+      "threshold": 0.01,
+      "method": "full",
+      "tolerance": 1e-10,
+      "repeat": 0,
+      "setup_seconds": 0.25325491605326533,
+      "status": "success",
+      "seconds": 0.023092374904081225,
+      "stats": {
+        "nfev": 23,
+        "njev": 1,
+        "nlu": 4,
+        "accepted_steps": 3,
+        "pool_error": 6.811218256075342e-14,
+        "continuous_nonnegative": true,
+        "dense_join_error": 0.0,
+        "seconds": 0.021826958982273936
+      },
+      "guard": {
+        "nonnegative": true,
+        "pool": 1.0463244853875517e-13
+      },
+      "targets": {
+        "0.0001": {
+          "actual": {
+            "concentration": 4.789522009629127e-06,
+            "flux": 7.469978792479629e-06,
+            "net_flux": 0.0004924452046720571
+          },
+          "passes": true
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 0.00047895220096291275,
+            "flux": 0.0007469978792479629,
+            "net_flux": 0.0004924452046720571
+          },
+          "passes": true
+        }
+      }
+    },
+    {
+      "key": "full-1e-08-1",
+      "source_shard": "history-3",
+      "model": "kecoli",
+      "h": 0.001,
+      "threshold": 0.01,
+      "method": "full",
+      "tolerance": 1e-08,
+      "repeat": 1,
+      "setup_seconds": 0.25325491605326533,
+      "status": "success",
+      "seconds": 0.02101204195059836,
+      "stats": {
+        "nfev": 16,
+        "njev": 1,
+        "nlu": 4,
+        "accepted_steps": 2,
+        "pool_error": 2.0167201242315986e-13,
+        "continuous_nonnegative": true,
+        "dense_join_error": 0.0,
+        "seconds": 0.019800332840532064
+      },
+      "guard": {
+        "nonnegative": true,
+        "pool": 2.02933156390195e-13
+      },
+      "targets": {
+        "0.0001": {
+          "actual": {
+            "concentration": 1.6628965370836436e-05,
+            "flux": 2.10265954618076e-05,
+            "net_flux": 0.001811831487649555
+          },
+          "passes": true
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 0.0016628965370836437,
+            "flux": 0.00210265954618076,
+            "net_flux": 0.001811831487649555
+          },
+          "passes": true
+        }
+      }
+    },
+    {
+      "key": "full-1e-10-1",
+      "source_shard": "history-3",
+      "model": "kecoli",
+      "h": 0.001,
+      "threshold": 0.01,
+      "method": "full",
+      "tolerance": 1e-10,
+      "repeat": 1,
+      "setup_seconds": 0.25325491605326533,
+      "status": "success",
+      "seconds": 0.024671374820172787,
+      "stats": {
+        "nfev": 23,
+        "njev": 1,
+        "nlu": 4,
+        "accepted_steps": 3,
+        "pool_error": 6.811218256075342e-14,
+        "continuous_nonnegative": true,
+        "dense_join_error": 0.0,
+        "seconds": 0.023151833098381758
+      },
+      "guard": {
+        "nonnegative": true,
+        "pool": 1.0463244853875517e-13
+      },
+      "targets": {
+        "0.0001": {
+          "actual": {
+            "concentration": 4.789522009629127e-06,
+            "flux": 7.469978792479629e-06,
+            "net_flux": 0.0004924452046720571
+          },
+          "passes": true
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 0.00047895220096291275,
+            "flux": 0.0007469978792479629,
+            "net_flux": 0.0004924452046720571
+          },
+          "passes": true
+        }
+      }
+    },
+    {
+      "key": "endpoint-1e-08-1",
+      "source_shard": "history-3",
+      "model": "kecoli",
+      "h": 0.001,
+      "threshold": 0.01,
+      "method": "endpoint",
+      "tolerance": 1e-08,
+      "repeat": 1,
+      "setup_seconds": 0.25325491605326533,
+      "status": "success",
+      "seconds": 0.023459791904315352,
+      "stats": {
+        "subflows": 3,
+        "nfev": 27,
+        "njev": 3,
+        "nlu": 6,
+        "linear_solver_setups": 0,
+        "accepted_steps": 3,
+        "rhs_seconds": 0.0032210852950811386,
+        "jacobian_seconds": 0.0019970841240137815,
+        "native_allocation_seconds": 0.0,
+        "reinit_seconds": 0.0,
+        "ledger_seconds": 0.0,
+        "min_rhs": 0.0,
+        "min_internal": 0.0,
+        "pool_error": 1.0796918914479657e-13,
+        "seconds": 0.02167283301241696,
+        "continuous_nonnegative": true
+      },
+      "guard": {
+        "nonnegative": true,
+        "pool": 1.3037661228398902e-13
+      },
+      "targets": {
+        "0.0001": {
+          "actual": {
+            "concentration": 0.00012292331302043107,
+            "flux": 0.00012292331327967853,
+            "net_flux": 0.004722837125028231
+          },
+          "passes": true
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 0.012292331302043108,
+            "flux": 0.012292331327967854,
+            "net_flux": 0.004722837125028231
+          },
+          "passes": true
+        }
+      }
+    },
+    {
+      "key": "endpoint-1e-10-1",
+      "source_shard": "history-3",
+      "model": "kecoli",
+      "h": 0.001,
+      "threshold": 0.01,
+      "method": "endpoint",
+      "tolerance": 1e-10,
+      "repeat": 1,
+      "setup_seconds": 0.25325491605326533,
+      "status": "success",
+      "seconds": 0.039528375025838614,
+      "stats": {
+        "subflows": 3,
+        "nfev": 53,
+        "njev": 5,
+        "nlu": 10,
+        "linear_solver_setups": 0,
+        "accepted_steps": 5,
+        "rhs_seconds": 0.006270956946536899,
+        "jacobian_seconds": 0.0033319161739200354,
+        "native_allocation_seconds": 0.0,
+        "reinit_seconds": 0.0,
+        "ledger_seconds": 0.0,
+        "min_rhs": 0.0,
+        "min_internal": 0.0,
+        "pool_error": 2.9970470549756126e-13,
+        "seconds": 0.03734133415855467,
+        "continuous_nonnegative": true
+      },
+      "guard": {
+        "nonnegative": true,
+        "pool": 2.997766965218143e-13
+      },
+      "targets": {
+        "0.0001": {
+          "actual": {
+            "concentration": 0.00012186521903192419,
+            "flux": 0.00012186521928391436,
+            "net_flux": 0.004710461072013457
+          },
+          "passes": true
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 0.01218652190319242,
+            "flux": 0.012186521928391437,
+            "net_flux": 0.004710461072013457
+          },
+          "passes": true
+        }
+      }
+    },
+    {
+      "key": "endpoint-1e-08-2",
+      "source_shard": "history-3",
+      "model": "kecoli",
+      "h": 0.001,
+      "threshold": 0.01,
+      "method": "endpoint",
+      "tolerance": 1e-08,
+      "repeat": 2,
+      "setup_seconds": 0.25325491605326533,
+      "status": "success",
+      "seconds": 0.023223541909828782,
+      "stats": {
+        "subflows": 3,
+        "nfev": 27,
+        "njev": 3,
+        "nlu": 6,
+        "linear_solver_setups": 0,
+        "accepted_steps": 3,
+        "rhs_seconds": 0.003183001186698675,
+        "jacobian_seconds": 0.0020194579847157,
+        "native_allocation_seconds": 0.0,
+        "reinit_seconds": 0.0,
+        "ledger_seconds": 0.0,
+        "min_rhs": 0.0,
+        "min_internal": 0.0,
+        "pool_error": 1.0796918914479657e-13,
+        "seconds": 0.02139362506568432,
+        "continuous_nonnegative": true
+      },
+      "guard": {
+        "nonnegative": true,
+        "pool": 1.3037661228398902e-13
+      },
+      "targets": {
+        "0.0001": {
+          "actual": {
+            "concentration": 0.00012292331302043107,
+            "flux": 0.00012292331327967853,
+            "net_flux": 0.004722837125028231
+          },
+          "passes": true
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 0.012292331302043108,
+            "flux": 0.012292331327967854,
+            "net_flux": 0.004722837125028231
+          },
+          "passes": true
+        }
+      }
+    },
+    {
+      "key": "endpoint-1e-10-2",
+      "source_shard": "history-3",
+      "model": "kecoli",
+      "h": 0.001,
+      "threshold": 0.01,
+      "method": "endpoint",
+      "tolerance": 1e-10,
+      "repeat": 2,
+      "setup_seconds": 0.25325491605326533,
+      "status": "success",
+      "seconds": 0.03840012499131262,
+      "stats": {
+        "subflows": 3,
+        "nfev": 53,
+        "njev": 5,
+        "nlu": 10,
+        "linear_solver_setups": 0,
+        "accepted_steps": 5,
+        "rhs_seconds": 0.0062074188608676195,
+        "jacobian_seconds": 0.0031656683422625065,
+        "native_allocation_seconds": 0.0,
+        "reinit_seconds": 0.0,
+        "ledger_seconds": 0.0,
+        "min_rhs": 0.0,
+        "min_internal": 0.0,
+        "pool_error": 2.9970470549756126e-13,
+        "seconds": 0.03634120896458626,
+        "continuous_nonnegative": true
+      },
+      "guard": {
+        "nonnegative": true,
+        "pool": 2.997766965218143e-13
+      },
+      "targets": {
+        "0.0001": {
+          "actual": {
+            "concentration": 0.00012186521903192419,
+            "flux": 0.00012186521928391436,
+            "net_flux": 0.004710461072013457
+          },
+          "passes": true
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 0.01218652190319242,
+            "flux": 0.012186521928391437,
+            "net_flux": 0.004710461072013457
+          },
+          "passes": true
+        }
+      }
+    },
+    {
+      "key": "full-1e-08-2",
+      "source_shard": "history-3",
+      "model": "kecoli",
+      "h": 0.001,
+      "threshold": 0.01,
+      "method": "full",
+      "tolerance": 1e-08,
+      "repeat": 2,
+      "setup_seconds": 0.25325491605326533,
+      "status": "success",
+      "seconds": 0.020418958039954305,
+      "stats": {
+        "nfev": 16,
+        "njev": 1,
+        "nlu": 4,
+        "accepted_steps": 2,
+        "pool_error": 2.0167201242315986e-13,
+        "continuous_nonnegative": true,
+        "dense_join_error": 0.0,
+        "seconds": 0.01922779087908566
+      },
+      "guard": {
+        "nonnegative": true,
+        "pool": 2.02933156390195e-13
+      },
+      "targets": {
+        "0.0001": {
+          "actual": {
+            "concentration": 1.6628965370836436e-05,
+            "flux": 2.10265954618076e-05,
+            "net_flux": 0.001811831487649555
+          },
+          "passes": true
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 0.0016628965370836437,
+            "flux": 0.00210265954618076,
+            "net_flux": 0.001811831487649555
+          },
+          "passes": true
+        }
+      }
+    },
+    {
+      "key": "full-1e-10-2",
+      "source_shard": "history-3",
+      "model": "kecoli",
+      "h": 0.001,
+      "threshold": 0.01,
+      "method": "full",
+      "tolerance": 1e-10,
+      "repeat": 2,
+      "setup_seconds": 0.25325491605326533,
+      "status": "success",
+      "seconds": 0.021581958048045635,
+      "stats": {
+        "nfev": 23,
+        "njev": 1,
+        "nlu": 4,
+        "accepted_steps": 3,
+        "pool_error": 6.811218256075342e-14,
+        "continuous_nonnegative": true,
+        "dense_join_error": 0.0,
+        "seconds": 0.02041424997150898
+      },
+      "guard": {
+        "nonnegative": true,
+        "pool": 1.0463244853875517e-13
+      },
+      "targets": {
+        "0.0001": {
+          "actual": {
+            "concentration": 4.789522009629127e-06,
+            "flux": 7.469978792479629e-06,
+            "net_flux": 0.0004924452046720571
+          },
+          "passes": true
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 0.00047895220096291275,
+            "flux": 0.0007469978792479629,
+            "net_flux": 0.0004924452046720571
+          },
+          "passes": true
+        }
+      }
+    },
+    {
+      "key": "full-1e-08--1",
+      "source_shard": "history-4",
+      "model": "kecoli",
+      "h": 0.003,
+      "threshold": 0.01,
+      "method": "full",
+      "tolerance": 1e-08,
+      "repeat": -1,
+      "setup_seconds": 0.2510285419411957,
+      "status": "success",
+      "seconds": 0.029867667006328702,
+      "stats": {
+        "nfev": 23,
+        "njev": 1,
+        "nlu": 6,
+        "accepted_steps": 3,
+        "pool_error": 3.068656440063934e-13,
+        "continuous_nonnegative": true,
+        "dense_join_error": 1.6967738168409374e-16,
+        "seconds": 0.02867245813831687
+      },
+      "guard": {
+        "nonnegative": true,
+        "pool": 4.047239973714591e-13
+      },
+      "targets": {
+        "0.0001": {
+          "actual": {
+            "concentration": 4.9668271527802215e-05,
+            "flux": 5.1421352971381555e-05,
+            "net_flux": 0.004613983953975597
+          },
+          "passes": true
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 0.004966827152780222,
+            "flux": 0.005142135297138156,
+            "net_flux": 0.004613983953975597
+          },
+          "passes": true
+        }
+      }
+    },
+    {
+      "key": "full-1e-10--1",
+      "source_shard": "history-4",
+      "model": "kecoli",
+      "h": 0.003,
+      "threshold": 0.01,
+      "method": "full",
+      "tolerance": 1e-10,
+      "repeat": -1,
+      "setup_seconds": 0.2510285419411957,
+      "status": "success",
+      "seconds": 0.0573938749730587,
+      "stats": {
+        "nfev": 50,
+        "njev": 1,
+        "nlu": 12,
+        "accepted_steps": 6,
+        "pool_error": 5.442313266712519e-13,
+        "continuous_nonnegative": true,
+        "dense_join_error": 1.904555948664719e-16,
+        "seconds": 0.055991042172536254
+      },
+      "guard": {
+        "nonnegative": true,
+        "pool": 6.102618410608332e-13
+      },
+      "targets": {
+        "0.0001": {
+          "actual": {
+            "concentration": 6.60361644757212e-06,
+            "flux": 1.0735851520062396e-05,
+            "net_flux": 0.0006585589417790336
+          },
+          "passes": true
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 0.000660361644757212,
+            "flux": 0.0010735851520062398,
+            "net_flux": 0.0006585589417790336
+          },
+          "passes": true
+        }
+      }
+    },
+    {
+      "key": "endpoint-1e-08--1",
+      "source_shard": "history-4",
+      "model": "kecoli",
+      "h": 0.003,
+      "threshold": 0.01,
+      "method": "endpoint",
+      "tolerance": 1e-08,
+      "repeat": -1,
+      "setup_seconds": 0.2510285419411957,
+      "status": "success",
+      "seconds": 0.044533333042636514,
+      "stats": {
+        "subflows": 3,
+        "nfev": 48,
+        "njev": 3,
+        "nlu": 12,
+        "linear_solver_setups": 0,
+        "accepted_steps": 6,
+        "rhs_seconds": 0.0061925004702061415,
+        "jacobian_seconds": 0.0023672080133110285,
+        "native_allocation_seconds": 0.0,
+        "reinit_seconds": 0.0,
+        "ledger_seconds": 0.0,
+        "min_rhs": 0.0,
+        "min_internal": 0.0,
+        "pool_error": 4.55746551608627e-13,
+        "seconds": 0.04251229204237461,
+        "continuous_nonnegative": true
+      },
+      "guard": {
+        "nonnegative": true,
+        "pool": 3.249614119460455e-13
+      },
+      "targets": {
+        "0.0001": {
+          "actual": {
+            "concentration": 0.0006706381268947878,
+            "flux": 0.0006706381272195602,
+            "net_flux": 0.024931681261909006
+          },
+          "passes": true
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 0.0670638126894788,
+            "flux": 0.06706381272195604,
+            "net_flux": 0.024931681261909006
+          },
+          "passes": true
+        }
+      }
+    },
+    {
+      "key": "endpoint-1e-10--1",
+      "source_shard": "history-4",
+      "model": "kecoli",
+      "h": 0.003,
+      "threshold": 0.01,
+      "method": "endpoint",
+      "tolerance": 1e-10,
+      "repeat": -1,
+      "setup_seconds": 0.2510285419411957,
+      "status": "success",
+      "seconds": 0.08320250012911856,
+      "stats": {
+        "subflows": 3,
+        "nfev": 111,
+        "njev": 3,
+        "nlu": 24,
+        "linear_solver_setups": 0,
+        "accepted_steps": 12,
+        "rhs_seconds": 0.013396916212514043,
+        "jacobian_seconds": 0.0020802090875804424,
+        "native_allocation_seconds": 0.0,
+        "reinit_seconds": 0.0,
+        "ledger_seconds": 0.0,
+        "min_rhs": 0.0,
+        "min_internal": 0.0,
+        "pool_error": 1.1229905894083463e-13,
+        "seconds": 0.08114345883950591,
+        "continuous_nonnegative": true
+      },
+      "guard": {
+        "nonnegative": true,
+        "pool": 3.074884097342691e-14
+      },
+      "targets": {
+        "0.0001": {
+          "actual": {
+            "concentration": 0.0006699994718150706,
+            "flux": 0.00066999947190828,
+            "net_flux": 0.024767264113924766
+          },
+          "passes": true
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 0.06699994718150706,
+            "flux": 0.06699994719082802,
+            "net_flux": 0.024767264113924766
+          },
+          "passes": true
+        }
+      }
+    },
+    {
+      "key": "endpoint-1e-08-0",
+      "source_shard": "history-4",
+      "model": "kecoli",
+      "h": 0.003,
+      "threshold": 0.01,
+      "method": "endpoint",
+      "tolerance": 1e-08,
+      "repeat": 0,
+      "setup_seconds": 0.2510285419411957,
+      "status": "success",
+      "seconds": 0.044956374913454056,
+      "stats": {
+        "subflows": 3,
+        "nfev": 48,
+        "njev": 3,
+        "nlu": 12,
+        "linear_solver_setups": 0,
+        "accepted_steps": 6,
+        "rhs_seconds": 0.006196876987814903,
+        "jacobian_seconds": 0.0020866659469902515,
+        "native_allocation_seconds": 0.0,
+        "reinit_seconds": 0.0,
+        "ledger_seconds": 0.0,
+        "min_rhs": 0.0,
+        "min_internal": 0.0,
+        "pool_error": 4.55746551608627e-13,
+        "seconds": 0.04220579098910093,
+        "continuous_nonnegative": true
+      },
+      "guard": {
+        "nonnegative": true,
+        "pool": 3.249614119460455e-13
+      },
+      "targets": {
+        "0.0001": {
+          "actual": {
+            "concentration": 0.0006706381268947878,
+            "flux": 0.0006706381272195602,
+            "net_flux": 0.024931681261909006
+          },
+          "passes": true
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 0.0670638126894788,
+            "flux": 0.06706381272195604,
+            "net_flux": 0.024931681261909006
+          },
+          "passes": true
+        }
+      }
+    },
+    {
+      "key": "endpoint-1e-10-0",
+      "source_shard": "history-4",
+      "model": "kecoli",
+      "h": 0.003,
+      "threshold": 0.01,
+      "method": "endpoint",
+      "tolerance": 1e-10,
+      "repeat": 0,
+      "setup_seconds": 0.2510285419411957,
+      "status": "success",
+      "seconds": 0.08427062490954995,
+      "stats": {
+        "subflows": 3,
+        "nfev": 111,
+        "njev": 3,
+        "nlu": 24,
+        "linear_solver_setups": 0,
+        "accepted_steps": 12,
+        "rhs_seconds": 0.013755879364907742,
+        "jacobian_seconds": 0.002046500099822879,
+        "native_allocation_seconds": 0.0,
+        "reinit_seconds": 0.0,
+        "ledger_seconds": 0.0,
+        "min_rhs": 0.0,
+        "min_internal": 0.0,
+        "pool_error": 1.1229905894083463e-13,
+        "seconds": 0.08225737512111664,
+        "continuous_nonnegative": true
+      },
+      "guard": {
+        "nonnegative": true,
+        "pool": 3.074884097342691e-14
+      },
+      "targets": {
+        "0.0001": {
+          "actual": {
+            "concentration": 0.0006699994718150706,
+            "flux": 0.00066999947190828,
+            "net_flux": 0.024767264113924766
+          },
+          "passes": true
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 0.06699994718150706,
+            "flux": 0.06699994719082802,
+            "net_flux": 0.024767264113924766
+          },
+          "passes": true
+        }
+      }
+    },
+    {
+      "key": "full-1e-08-0",
+      "source_shard": "history-4",
+      "model": "kecoli",
+      "h": 0.003,
+      "threshold": 0.01,
+      "method": "full",
+      "tolerance": 1e-08,
+      "repeat": 0,
+      "setup_seconds": 0.2510285419411957,
+      "status": "success",
+      "seconds": 0.0322912079282105,
+      "stats": {
+        "nfev": 23,
+        "njev": 1,
+        "nlu": 6,
+        "accepted_steps": 3,
+        "pool_error": 3.068656440063934e-13,
+        "continuous_nonnegative": true,
+        "dense_join_error": 1.6967738168409374e-16,
+        "seconds": 0.03106170892715454
+      },
+      "guard": {
+        "nonnegative": true,
+        "pool": 4.047239973714591e-13
+      },
+      "targets": {
+        "0.0001": {
+          "actual": {
+            "concentration": 4.9668271527802215e-05,
+            "flux": 5.1421352971381555e-05,
+            "net_flux": 0.004613983953975597
+          },
+          "passes": true
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 0.004966827152780222,
+            "flux": 0.005142135297138156,
+            "net_flux": 0.004613983953975597
+          },
+          "passes": true
+        }
+      }
+    },
+    {
+      "key": "full-1e-10-0",
+      "source_shard": "history-4",
+      "model": "kecoli",
+      "h": 0.003,
+      "threshold": 0.01,
+      "method": "full",
+      "tolerance": 1e-10,
+      "repeat": 0,
+      "setup_seconds": 0.2510285419411957,
+      "status": "success",
+      "seconds": 0.06104620802216232,
+      "stats": {
+        "nfev": 50,
+        "njev": 1,
+        "nlu": 12,
+        "accepted_steps": 6,
+        "pool_error": 5.442313266712519e-13,
+        "continuous_nonnegative": true,
+        "dense_join_error": 1.904555948664719e-16,
+        "seconds": 0.05960649996995926
+      },
+      "guard": {
+        "nonnegative": true,
+        "pool": 6.102618410608332e-13
+      },
+      "targets": {
+        "0.0001": {
+          "actual": {
+            "concentration": 6.60361644757212e-06,
+            "flux": 1.0735851520062396e-05,
+            "net_flux": 0.0006585589417790336
+          },
+          "passes": true
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 0.000660361644757212,
+            "flux": 0.0010735851520062398,
+            "net_flux": 0.0006585589417790336
+          },
+          "passes": true
+        }
+      }
+    },
+    {
+      "key": "full-1e-08-1",
+      "source_shard": "history-4",
+      "model": "kecoli",
+      "h": 0.003,
+      "threshold": 0.01,
+      "method": "full",
+      "tolerance": 1e-08,
+      "repeat": 1,
+      "setup_seconds": 0.2510285419411957,
+      "status": "success",
+      "seconds": 0.031516124960035086,
+      "stats": {
+        "nfev": 23,
+        "njev": 1,
+        "nlu": 6,
+        "accepted_steps": 3,
+        "pool_error": 3.068656440063934e-13,
+        "continuous_nonnegative": true,
+        "dense_join_error": 1.6967738168409374e-16,
+        "seconds": 0.0302542089484632
+      },
+      "guard": {
+        "nonnegative": true,
+        "pool": 4.047239973714591e-13
+      },
+      "targets": {
+        "0.0001": {
+          "actual": {
+            "concentration": 4.9668271527802215e-05,
+            "flux": 5.1421352971381555e-05,
+            "net_flux": 0.004613983953975597
+          },
+          "passes": true
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 0.004966827152780222,
+            "flux": 0.005142135297138156,
+            "net_flux": 0.004613983953975597
+          },
+          "passes": true
+        }
+      }
+    },
+    {
+      "key": "full-1e-10-1",
+      "source_shard": "history-4",
+      "model": "kecoli",
+      "h": 0.003,
+      "threshold": 0.01,
+      "method": "full",
+      "tolerance": 1e-10,
+      "repeat": 1,
+      "setup_seconds": 0.2510285419411957,
+      "status": "success",
+      "seconds": 0.0591114170383662,
+      "stats": {
+        "nfev": 50,
+        "njev": 1,
+        "nlu": 12,
+        "accepted_steps": 6,
+        "pool_error": 5.442313266712519e-13,
+        "continuous_nonnegative": true,
+        "dense_join_error": 1.904555948664719e-16,
+        "seconds": 0.05705674993805587
+      },
+      "guard": {
+        "nonnegative": true,
+        "pool": 6.102618410608332e-13
+      },
+      "targets": {
+        "0.0001": {
+          "actual": {
+            "concentration": 6.60361644757212e-06,
+            "flux": 1.0735851520062396e-05,
+            "net_flux": 0.0006585589417790336
+          },
+          "passes": true
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 0.000660361644757212,
+            "flux": 0.0010735851520062398,
+            "net_flux": 0.0006585589417790336
+          },
+          "passes": true
+        }
+      }
+    },
+    {
+      "key": "endpoint-1e-08-1",
+      "source_shard": "history-4",
+      "model": "kecoli",
+      "h": 0.003,
+      "threshold": 0.01,
+      "method": "endpoint",
+      "tolerance": 1e-08,
+      "repeat": 1,
+      "setup_seconds": 0.2510285419411957,
+      "status": "success",
+      "seconds": 0.04158374993130565,
+      "stats": {
+        "subflows": 3,
+        "nfev": 48,
+        "njev": 3,
+        "nlu": 12,
+        "linear_solver_setups": 0,
+        "accepted_steps": 6,
+        "rhs_seconds": 0.005692706676200032,
+        "jacobian_seconds": 0.0019754578825086355,
+        "native_allocation_seconds": 0.0,
+        "reinit_seconds": 0.0,
+        "ledger_seconds": 0.0,
+        "min_rhs": 0.0,
+        "min_internal": 0.0,
+        "pool_error": 4.55746551608627e-13,
+        "seconds": 0.039669707883149385,
+        "continuous_nonnegative": true
+      },
+      "guard": {
+        "nonnegative": true,
+        "pool": 3.249614119460455e-13
+      },
+      "targets": {
+        "0.0001": {
+          "actual": {
+            "concentration": 0.0006706381268947878,
+            "flux": 0.0006706381272195602,
+            "net_flux": 0.024931681261909006
+          },
+          "passes": true
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 0.0670638126894788,
+            "flux": 0.06706381272195604,
+            "net_flux": 0.024931681261909006
+          },
+          "passes": true
+        }
+      }
+    },
+    {
+      "key": "endpoint-1e-10-1",
+      "source_shard": "history-4",
+      "model": "kecoli",
+      "h": 0.003,
+      "threshold": 0.01,
+      "method": "endpoint",
+      "tolerance": 1e-10,
+      "repeat": 1,
+      "setup_seconds": 0.2510285419411957,
+      "status": "success",
+      "seconds": 0.081644874997437,
+      "stats": {
+        "subflows": 3,
+        "nfev": 111,
+        "njev": 3,
+        "nlu": 24,
+        "linear_solver_setups": 0,
+        "accepted_steps": 12,
+        "rhs_seconds": 0.013309916481375694,
+        "jacobian_seconds": 0.0020129159092903137,
+        "native_allocation_seconds": 0.0,
+        "reinit_seconds": 0.0,
+        "ledger_seconds": 0.0,
+        "min_rhs": 0.0,
+        "min_internal": 0.0,
+        "pool_error": 1.1229905894083463e-13,
+        "seconds": 0.07981954189017415,
+        "continuous_nonnegative": true
+      },
+      "guard": {
+        "nonnegative": true,
+        "pool": 3.074884097342691e-14
+      },
+      "targets": {
+        "0.0001": {
+          "actual": {
+            "concentration": 0.0006699994718150706,
+            "flux": 0.00066999947190828,
+            "net_flux": 0.024767264113924766
+          },
+          "passes": true
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 0.06699994718150706,
+            "flux": 0.06699994719082802,
+            "net_flux": 0.024767264113924766
+          },
+          "passes": true
+        }
+      }
+    },
+    {
+      "key": "endpoint-1e-08-2",
+      "source_shard": "history-4",
+      "model": "kecoli",
+      "h": 0.003,
+      "threshold": 0.01,
+      "method": "endpoint",
+      "tolerance": 1e-08,
+      "repeat": 2,
+      "setup_seconds": 0.2510285419411957,
+      "status": "success",
+      "seconds": 0.04456204199232161,
+      "stats": {
+        "subflows": 3,
+        "nfev": 48,
+        "njev": 3,
+        "nlu": 12,
+        "linear_solver_setups": 0,
+        "accepted_steps": 6,
+        "rhs_seconds": 0.006039582658559084,
+        "jacobian_seconds": 0.0023147491738200188,
+        "native_allocation_seconds": 0.0,
+        "reinit_seconds": 0.0,
+        "ledger_seconds": 0.0,
+        "min_rhs": 0.0,
+        "min_internal": 0.0,
+        "pool_error": 4.55746551608627e-13,
+        "seconds": 0.04249216592870653,
+        "continuous_nonnegative": true
+      },
+      "guard": {
+        "nonnegative": true,
+        "pool": 3.249614119460455e-13
+      },
+      "targets": {
+        "0.0001": {
+          "actual": {
+            "concentration": 0.0006706381268947878,
+            "flux": 0.0006706381272195602,
+            "net_flux": 0.024931681261909006
+          },
+          "passes": true
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 0.0670638126894788,
+            "flux": 0.06706381272195604,
+            "net_flux": 0.024931681261909006
+          },
+          "passes": true
+        }
+      }
+    },
+    {
+      "key": "endpoint-1e-10-2",
+      "source_shard": "history-4",
+      "model": "kecoli",
+      "h": 0.003,
+      "threshold": 0.01,
+      "method": "endpoint",
+      "tolerance": 1e-10,
+      "repeat": 2,
+      "setup_seconds": 0.2510285419411957,
+      "status": "success",
+      "seconds": 0.08079187502153218,
+      "stats": {
+        "subflows": 3,
+        "nfev": 111,
+        "njev": 3,
+        "nlu": 24,
+        "linear_solver_setups": 0,
+        "accepted_steps": 12,
+        "rhs_seconds": 0.012958221137523651,
+        "jacobian_seconds": 0.002109584165737033,
+        "native_allocation_seconds": 0.0,
+        "reinit_seconds": 0.0,
+        "ledger_seconds": 0.0,
+        "min_rhs": 0.0,
+        "min_internal": 0.0,
+        "pool_error": 1.1229905894083463e-13,
+        "seconds": 0.07897379202768207,
+        "continuous_nonnegative": true
+      },
+      "guard": {
+        "nonnegative": true,
+        "pool": 3.074884097342691e-14
+      },
+      "targets": {
+        "0.0001": {
+          "actual": {
+            "concentration": 0.0006699994718150706,
+            "flux": 0.00066999947190828,
+            "net_flux": 0.024767264113924766
+          },
+          "passes": true
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 0.06699994718150706,
+            "flux": 0.06699994719082802,
+            "net_flux": 0.024767264113924766
+          },
+          "passes": true
+        }
+      }
+    },
+    {
+      "key": "full-1e-08-2",
+      "source_shard": "history-4",
+      "model": "kecoli",
+      "h": 0.003,
+      "threshold": 0.01,
+      "method": "full",
+      "tolerance": 1e-08,
+      "repeat": 2,
+      "setup_seconds": 0.2510285419411957,
+      "status": "success",
+      "seconds": 0.02935195784084499,
+      "stats": {
+        "nfev": 23,
+        "njev": 1,
+        "nlu": 6,
+        "accepted_steps": 3,
+        "pool_error": 3.068656440063934e-13,
+        "continuous_nonnegative": true,
+        "dense_join_error": 1.6967738168409374e-16,
+        "seconds": 0.028136624954640865
+      },
+      "guard": {
+        "nonnegative": true,
+        "pool": 4.047239973714591e-13
+      },
+      "targets": {
+        "0.0001": {
+          "actual": {
+            "concentration": 4.9668271527802215e-05,
+            "flux": 5.1421352971381555e-05,
+            "net_flux": 0.004613983953975597
+          },
+          "passes": true
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 0.004966827152780222,
+            "flux": 0.005142135297138156,
+            "net_flux": 0.004613983953975597
+          },
+          "passes": true
+        }
+      }
+    },
+    {
+      "key": "full-1e-10-2",
+      "source_shard": "history-4",
+      "model": "kecoli",
+      "h": 0.003,
+      "threshold": 0.01,
+      "method": "full",
+      "tolerance": 1e-10,
+      "repeat": 2,
+      "setup_seconds": 0.2510285419411957,
+      "status": "success",
+      "seconds": 0.0603322081733495,
+      "stats": {
+        "nfev": 50,
+        "njev": 1,
+        "nlu": 12,
+        "accepted_steps": 6,
+        "pool_error": 5.442313266712519e-13,
+        "continuous_nonnegative": true,
+        "dense_join_error": 1.904555948664719e-16,
+        "seconds": 0.05829279194585979
+      },
+      "guard": {
+        "nonnegative": true,
+        "pool": 6.102618410608332e-13
+      },
+      "targets": {
+        "0.0001": {
+          "actual": {
+            "concentration": 6.60361644757212e-06,
+            "flux": 1.0735851520062396e-05,
+            "net_flux": 0.0006585589417790336
+          },
+          "passes": true
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 0.000660361644757212,
+            "flux": 0.0010735851520062398,
+            "net_flux": 0.0006585589417790336
+          },
+          "passes": true
+        }
+      }
+    },
+    {
+      "key": "full-1e-08--1",
+      "source_shard": "history-5",
+      "model": "kecoli",
+      "h": 0.001,
+      "threshold": 0.1,
+      "method": "full",
+      "tolerance": 1e-08,
+      "repeat": -1,
+      "setup_seconds": 0.26053458312526345,
+      "status": "success",
+      "seconds": 0.023046167101711035,
+      "stats": {
+        "nfev": 16,
+        "njev": 1,
+        "nlu": 4,
+        "accepted_steps": 2,
+        "pool_error": 1.316724507205437e-13,
+        "continuous_nonnegative": true,
+        "dense_join_error": 0.0,
+        "seconds": 0.02161645912565291
+      },
+      "guard": {
+        "nonnegative": true,
+        "pool": 1.3897476919266806e-13
+      },
+      "targets": {
+        "0.0001": {
+          "actual": {
+            "concentration": 8.224516532049531e-05,
+            "flux": 0.00020210813108650577,
+            "net_flux": 0.004908791389478674
+          },
+          "passes": true
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 0.008224516532049532,
+            "flux": 0.02021081310865058,
+            "net_flux": 0.004908791389478674
+          },
+          "passes": true
+        }
+      }
+    },
+    {
+      "key": "full-1e-10--1",
+      "source_shard": "history-5",
+      "model": "kecoli",
+      "h": 0.001,
+      "threshold": 0.1,
+      "method": "full",
+      "tolerance": 1e-10,
+      "repeat": -1,
+      "setup_seconds": 0.26053458312526345,
+      "status": "success",
+      "seconds": 0.04792212485335767,
+      "stats": {
+        "nfev": 44,
+        "njev": 1,
+        "nlu": 10,
+        "accepted_steps": 5,
+        "pool_error": 6.20614670765463e-14,
+        "continuous_nonnegative": true,
+        "dense_join_error": 0.0,
+        "seconds": 0.04666654206812382
+      },
+      "guard": {
+        "nonnegative": true,
+        "pool": 7.187826722709907e-14
+      },
+      "targets": {
+        "0.0001": {
+          "actual": {
+            "concentration": 1.496958856852426e-05,
+            "flux": 2.180784352970586e-05,
+            "net_flux": 0.0006756072183550614
+          },
+          "passes": true
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 0.0014969588568524263,
+            "flux": 0.002180784352970586,
+            "net_flux": 0.0006756072183550614
+          },
+          "passes": true
+        }
+      }
+    },
+    {
+      "key": "endpoint-1e-08--1",
+      "source_shard": "history-5",
+      "model": "kecoli",
+      "h": 0.001,
+      "threshold": 0.1,
+      "method": "endpoint",
+      "tolerance": 1e-08,
+      "repeat": -1,
+      "setup_seconds": 0.26053458312526345,
+      "status": "success",
+      "seconds": 0.018864749930799007,
+      "stats": {
+        "subflows": 3,
+        "nfev": 27,
+        "njev": 3,
+        "nlu": 6,
+        "linear_solver_setups": 0,
+        "accepted_steps": 3,
+        "rhs_seconds": 0.003167416201904416,
+        "jacobian_seconds": 0.0019439170137047768,
+        "native_allocation_seconds": 0.0,
+        "reinit_seconds": 0.0,
+        "ledger_seconds": 0.0,
+        "min_rhs": 0.0,
+        "min_internal": 0.0,
+        "pool_error": 3.396172232328357e-13,
+        "seconds": 0.01700658304616809,
+        "continuous_nonnegative": true
+      },
+      "guard": {
+        "nonnegative": true,
+        "pool": 3.3960854961545586e-13
+      },
+      "targets": {
+        "0.0001": {
+          "actual": {
+            "concentration": 0.0010589253554063557,
+            "flux": 0.001803168570141866,
+            "net_flux": 0.029122306510016693
+          },
+          "passes": true
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 0.10589253554063557,
+            "flux": 0.18031685701418662,
+            "net_flux": 0.029122306510016693
+          },
+          "passes": true
+        }
+      }
+    },
+    {
+      "key": "endpoint-1e-10--1",
+      "source_shard": "history-5",
+      "model": "kecoli",
+      "h": 0.001,
+      "threshold": 0.1,
+      "method": "endpoint",
+      "tolerance": 1e-10,
+      "repeat": -1,
+      "setup_seconds": 0.26053458312526345,
+      "status": "success",
+      "seconds": 0.04798375000245869,
+      "stats": {
+        "subflows": 3,
+        "nfev": 90,
+        "njev": 3,
+        "nlu": 18,
+        "linear_solver_setups": 0,
+        "accepted_steps": 9,
+        "rhs_seconds": 0.010178418830037117,
+        "jacobian_seconds": 0.0018755418714135885,
+        "native_allocation_seconds": 0.0,
+        "reinit_seconds": 0.0,
+        "ledger_seconds": 0.0,
+        "min_rhs": 0.0,
+        "min_internal": 0.0,
+        "pool_error": 1.2156942119645474e-13,
+        "seconds": 0.04616554197855294,
+        "continuous_nonnegative": true
+      },
+      "guard": {
+        "nonnegative": true,
+        "pool": 1.2165789209372956e-13
+      },
+      "targets": {
+        "0.0001": {
+          "actual": {
+            "concentration": 0.001058151013377526,
+            "flux": 0.0017498447947781647,
+            "net_flux": 0.028485904361973218
+          },
+          "passes": true
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 0.10581510133775261,
+            "flux": 0.17498447947781648,
+            "net_flux": 0.028485904361973218
+          },
+          "passes": true
+        }
+      }
+    },
+    {
+      "key": "endpoint-1e-08-0",
+      "source_shard": "history-5",
+      "model": "kecoli",
+      "h": 0.001,
+      "threshold": 0.1,
+      "method": "endpoint",
+      "tolerance": 1e-08,
+      "repeat": 0,
+      "setup_seconds": 0.26053458312526345,
+      "status": "success",
+      "seconds": 0.018870208179578185,
+      "stats": {
+        "subflows": 3,
+        "nfev": 27,
+        "njev": 3,
+        "nlu": 6,
+        "linear_solver_setups": 0,
+        "accepted_steps": 3,
+        "rhs_seconds": 0.0031221690587699413,
+        "jacobian_seconds": 0.002002958906814456,
+        "native_allocation_seconds": 0.0,
+        "reinit_seconds": 0.0,
+        "ledger_seconds": 0.0,
+        "min_rhs": 0.0,
+        "min_internal": 0.0,
+        "pool_error": 3.396172232328357e-13,
+        "seconds": 0.01705662510357797,
+        "continuous_nonnegative": true
+      },
+      "guard": {
+        "nonnegative": true,
+        "pool": 3.3960854961545586e-13
+      },
+      "targets": {
+        "0.0001": {
+          "actual": {
+            "concentration": 0.0010589253554063557,
+            "flux": 0.001803168570141866,
+            "net_flux": 0.029122306510016693
+          },
+          "passes": true
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 0.10589253554063557,
+            "flux": 0.18031685701418662,
+            "net_flux": 0.029122306510016693
+          },
+          "passes": true
+        }
+      }
+    },
+    {
+      "key": "endpoint-1e-10-0",
+      "source_shard": "history-5",
+      "model": "kecoli",
+      "h": 0.001,
+      "threshold": 0.1,
+      "method": "endpoint",
+      "tolerance": 1e-10,
+      "repeat": 0,
+      "setup_seconds": 0.26053458312526345,
+      "status": "success",
+      "seconds": 0.0482486670371145,
+      "stats": {
+        "subflows": 3,
+        "nfev": 90,
+        "njev": 3,
+        "nlu": 18,
+        "linear_solver_setups": 0,
+        "accepted_steps": 9,
+        "rhs_seconds": 0.010198413860052824,
+        "jacobian_seconds": 0.0019408338703215122,
+        "native_allocation_seconds": 0.0,
+        "reinit_seconds": 0.0,
+        "ledger_seconds": 0.0,
+        "min_rhs": 0.0,
+        "min_internal": 0.0,
+        "pool_error": 1.2156942119645474e-13,
+        "seconds": 0.046387125039473176,
+        "continuous_nonnegative": true
+      },
+      "guard": {
+        "nonnegative": true,
+        "pool": 1.2165789209372956e-13
+      },
+      "targets": {
+        "0.0001": {
+          "actual": {
+            "concentration": 0.001058151013377526,
+            "flux": 0.0017498447947781647,
+            "net_flux": 0.028485904361973218
+          },
+          "passes": true
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 0.10581510133775261,
+            "flux": 0.17498447947781648,
+            "net_flux": 0.028485904361973218
+          },
+          "passes": true
+        }
+      }
+    },
+    {
+      "key": "full-1e-08-0",
+      "source_shard": "history-5",
+      "model": "kecoli",
+      "h": 0.001,
+      "threshold": 0.1,
+      "method": "full",
+      "tolerance": 1e-08,
+      "repeat": 0,
+      "setup_seconds": 0.26053458312526345,
+      "status": "success",
+      "seconds": 0.021117875119671226,
+      "stats": {
+        "nfev": 16,
+        "njev": 1,
+        "nlu": 4,
+        "accepted_steps": 2,
+        "pool_error": 1.316724507205437e-13,
+        "continuous_nonnegative": true,
+        "dense_join_error": 0.0,
+        "seconds": 0.0199542089831084
+      },
+      "guard": {
+        "nonnegative": true,
+        "pool": 1.3897476919266806e-13
+      },
+      "targets": {
+        "0.0001": {
+          "actual": {
+            "concentration": 8.224516532049531e-05,
+            "flux": 0.00020210813108650577,
+            "net_flux": 0.004908791389478674
+          },
+          "passes": true
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 0.008224516532049532,
+            "flux": 0.02021081310865058,
+            "net_flux": 0.004908791389478674
+          },
+          "passes": true
+        }
+      }
+    },
+    {
+      "key": "full-1e-10-0",
+      "source_shard": "history-5",
+      "model": "kecoli",
+      "h": 0.001,
+      "threshold": 0.1,
+      "method": "full",
+      "tolerance": 1e-10,
+      "repeat": 0,
+      "setup_seconds": 0.26053458312526345,
+      "status": "success",
+      "seconds": 0.048030917067080736,
+      "stats": {
+        "nfev": 44,
+        "njev": 1,
+        "nlu": 10,
+        "accepted_steps": 5,
+        "pool_error": 6.20614670765463e-14,
+        "continuous_nonnegative": true,
+        "dense_join_error": 0.0,
+        "seconds": 0.046769917011260986
+      },
+      "guard": {
+        "nonnegative": true,
+        "pool": 7.187826722709907e-14
+      },
+      "targets": {
+        "0.0001": {
+          "actual": {
+            "concentration": 1.496958856852426e-05,
+            "flux": 2.180784352970586e-05,
+            "net_flux": 0.0006756072183550614
+          },
+          "passes": true
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 0.0014969588568524263,
+            "flux": 0.002180784352970586,
+            "net_flux": 0.0006756072183550614
+          },
+          "passes": true
+        }
+      }
+    },
+    {
+      "key": "full-1e-08-1",
+      "source_shard": "history-5",
+      "model": "kecoli",
+      "h": 0.001,
+      "threshold": 0.1,
+      "method": "full",
+      "tolerance": 1e-08,
+      "repeat": 1,
+      "setup_seconds": 0.26053458312526345,
+      "status": "success",
+      "seconds": 0.02039637486450374,
+      "stats": {
+        "nfev": 16,
+        "njev": 1,
+        "nlu": 4,
+        "accepted_steps": 2,
+        "pool_error": 1.316724507205437e-13,
+        "continuous_nonnegative": true,
+        "dense_join_error": 0.0,
+        "seconds": 0.01926383306272328
+      },
+      "guard": {
+        "nonnegative": true,
+        "pool": 1.3897476919266806e-13
+      },
+      "targets": {
+        "0.0001": {
+          "actual": {
+            "concentration": 8.224516532049531e-05,
+            "flux": 0.00020210813108650577,
+            "net_flux": 0.004908791389478674
+          },
+          "passes": true
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 0.008224516532049532,
+            "flux": 0.02021081310865058,
+            "net_flux": 0.004908791389478674
+          },
+          "passes": true
+        }
+      }
+    },
+    {
+      "key": "full-1e-10-1",
+      "source_shard": "history-5",
+      "model": "kecoli",
+      "h": 0.001,
+      "threshold": 0.1,
+      "method": "full",
+      "tolerance": 1e-10,
+      "repeat": 1,
+      "setup_seconds": 0.26053458312526345,
+      "status": "success",
+      "seconds": 0.047836000099778175,
+      "stats": {
+        "nfev": 44,
+        "njev": 1,
+        "nlu": 10,
+        "accepted_steps": 5,
+        "pool_error": 6.20614670765463e-14,
+        "continuous_nonnegative": true,
+        "dense_join_error": 0.0,
+        "seconds": 0.0465831661131233
+      },
+      "guard": {
+        "nonnegative": true,
+        "pool": 7.187826722709907e-14
+      },
+      "targets": {
+        "0.0001": {
+          "actual": {
+            "concentration": 1.496958856852426e-05,
+            "flux": 2.180784352970586e-05,
+            "net_flux": 0.0006756072183550614
+          },
+          "passes": true
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 0.0014969588568524263,
+            "flux": 0.002180784352970586,
+            "net_flux": 0.0006756072183550614
+          },
+          "passes": true
+        }
+      }
+    },
+    {
+      "key": "endpoint-1e-08-1",
+      "source_shard": "history-5",
+      "model": "kecoli",
+      "h": 0.001,
+      "threshold": 0.1,
+      "method": "endpoint",
+      "tolerance": 1e-08,
+      "repeat": 1,
+      "setup_seconds": 0.26053458312526345,
+      "status": "success",
+      "seconds": 0.018556625116616488,
+      "stats": {
+        "subflows": 3,
+        "nfev": 27,
+        "njev": 3,
+        "nlu": 6,
+        "linear_solver_setups": 0,
+        "accepted_steps": 3,
+        "rhs_seconds": 0.003086166689172387,
+        "jacobian_seconds": 0.0019157088827341795,
+        "native_allocation_seconds": 0.0,
+        "reinit_seconds": 0.0,
+        "ledger_seconds": 0.0,
+        "min_rhs": 0.0,
+        "min_internal": 0.0,
+        "pool_error": 3.396172232328357e-13,
+        "seconds": 0.016745583154261112,
+        "continuous_nonnegative": true
+      },
+      "guard": {
+        "nonnegative": true,
+        "pool": 3.3960854961545586e-13
+      },
+      "targets": {
+        "0.0001": {
+          "actual": {
+            "concentration": 0.0010589253554063557,
+            "flux": 0.001803168570141866,
+            "net_flux": 0.029122306510016693
+          },
+          "passes": true
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 0.10589253554063557,
+            "flux": 0.18031685701418662,
+            "net_flux": 0.029122306510016693
+          },
+          "passes": true
+        }
+      }
+    },
+    {
+      "key": "endpoint-1e-10-1",
+      "source_shard": "history-5",
+      "model": "kecoli",
+      "h": 0.001,
+      "threshold": 0.1,
+      "method": "endpoint",
+      "tolerance": 1e-10,
+      "repeat": 1,
+      "setup_seconds": 0.26053458312526345,
+      "status": "success",
+      "seconds": 0.05009875004179776,
+      "stats": {
+        "subflows": 3,
+        "nfev": 90,
+        "njev": 3,
+        "nlu": 18,
+        "linear_solver_setups": 0,
+        "accepted_steps": 9,
+        "rhs_seconds": 0.010209755506366491,
+        "jacobian_seconds": 0.001931958831846714,
+        "native_allocation_seconds": 0.0,
+        "reinit_seconds": 0.0,
+        "ledger_seconds": 0.0,
+        "min_rhs": 0.0,
+        "min_internal": 0.0,
+        "pool_error": 1.2156942119645474e-13,
+        "seconds": 0.04796833312138915,
+        "continuous_nonnegative": true
+      },
+      "guard": {
+        "nonnegative": true,
+        "pool": 1.2165789209372956e-13
+      },
+      "targets": {
+        "0.0001": {
+          "actual": {
+            "concentration": 0.001058151013377526,
+            "flux": 0.0017498447947781647,
+            "net_flux": 0.028485904361973218
+          },
+          "passes": true
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 0.10581510133775261,
+            "flux": 0.17498447947781648,
+            "net_flux": 0.028485904361973218
+          },
+          "passes": true
+        }
+      }
+    },
+    {
+      "key": "endpoint-1e-08-2",
+      "source_shard": "history-5",
+      "model": "kecoli",
+      "h": 0.001,
+      "threshold": 0.1,
+      "method": "endpoint",
+      "tolerance": 1e-08,
+      "repeat": 2,
+      "setup_seconds": 0.26053458312526345,
+      "status": "success",
+      "seconds": 0.01837970782071352,
+      "stats": {
+        "subflows": 3,
+        "nfev": 27,
+        "njev": 3,
+        "nlu": 6,
+        "linear_solver_setups": 0,
+        "accepted_steps": 3,
+        "rhs_seconds": 0.003094335785135627,
+        "jacobian_seconds": 0.0018720829393714666,
+        "native_allocation_seconds": 0.0,
+        "reinit_seconds": 0.0,
+        "ledger_seconds": 0.0,
+        "min_rhs": 0.0,
+        "min_internal": 0.0,
+        "pool_error": 3.396172232328357e-13,
+        "seconds": 0.01654500002041459,
+        "continuous_nonnegative": true
+      },
+      "guard": {
+        "nonnegative": true,
+        "pool": 3.3960854961545586e-13
+      },
+      "targets": {
+        "0.0001": {
+          "actual": {
+            "concentration": 0.0010589253554063557,
+            "flux": 0.001803168570141866,
+            "net_flux": 0.029122306510016693
+          },
+          "passes": true
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 0.10589253554063557,
+            "flux": 0.18031685701418662,
+            "net_flux": 0.029122306510016693
+          },
+          "passes": true
+        }
+      }
+    },
+    {
+      "key": "endpoint-1e-10-2",
+      "source_shard": "history-5",
+      "model": "kecoli",
+      "h": 0.001,
+      "threshold": 0.1,
+      "method": "endpoint",
+      "tolerance": 1e-10,
+      "repeat": 2,
+      "setup_seconds": 0.26053458312526345,
+      "status": "success",
+      "seconds": 0.049054000061005354,
+      "stats": {
+        "subflows": 3,
+        "nfev": 90,
+        "njev": 3,
+        "nlu": 18,
+        "linear_solver_setups": 0,
+        "accepted_steps": 9,
+        "rhs_seconds": 0.010185414692386985,
+        "jacobian_seconds": 0.0019997488707304,
+        "native_allocation_seconds": 0.0,
+        "reinit_seconds": 0.0,
+        "ledger_seconds": 0.0,
+        "min_rhs": 0.0,
+        "min_internal": 0.0,
+        "pool_error": 1.2156942119645474e-13,
+        "seconds": 0.04706599982455373,
+        "continuous_nonnegative": true
+      },
+      "guard": {
+        "nonnegative": true,
+        "pool": 1.2165789209372956e-13
+      },
+      "targets": {
+        "0.0001": {
+          "actual": {
+            "concentration": 0.001058151013377526,
+            "flux": 0.0017498447947781647,
+            "net_flux": 0.028485904361973218
+          },
+          "passes": true
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 0.10581510133775261,
+            "flux": 0.17498447947781648,
+            "net_flux": 0.028485904361973218
+          },
+          "passes": true
+        }
+      }
+    },
+    {
+      "key": "full-1e-08-2",
+      "source_shard": "history-5",
+      "model": "kecoli",
+      "h": 0.001,
+      "threshold": 0.1,
+      "method": "full",
+      "tolerance": 1e-08,
+      "repeat": 2,
+      "setup_seconds": 0.26053458312526345,
+      "status": "success",
+      "seconds": 0.020079749869182706,
+      "stats": {
+        "nfev": 16,
+        "njev": 1,
+        "nlu": 4,
+        "accepted_steps": 2,
+        "pool_error": 1.316724507205437e-13,
+        "continuous_nonnegative": true,
+        "dense_join_error": 0.0,
+        "seconds": 0.018839792115613818
+      },
+      "guard": {
+        "nonnegative": true,
+        "pool": 1.3897476919266806e-13
+      },
+      "targets": {
+        "0.0001": {
+          "actual": {
+            "concentration": 8.224516532049531e-05,
+            "flux": 0.00020210813108650577,
+            "net_flux": 0.004908791389478674
+          },
+          "passes": true
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 0.008224516532049532,
+            "flux": 0.02021081310865058,
+            "net_flux": 0.004908791389478674
+          },
+          "passes": true
+        }
+      }
+    },
+    {
+      "key": "full-1e-10-2",
+      "source_shard": "history-5",
+      "model": "kecoli",
+      "h": 0.001,
+      "threshold": 0.1,
+      "method": "full",
+      "tolerance": 1e-10,
+      "repeat": 2,
+      "setup_seconds": 0.26053458312526345,
+      "status": "success",
+      "seconds": 0.048276291927322745,
+      "stats": {
+        "nfev": 44,
+        "njev": 1,
+        "nlu": 10,
+        "accepted_steps": 5,
+        "pool_error": 6.20614670765463e-14,
+        "continuous_nonnegative": true,
+        "dense_join_error": 0.0,
+        "seconds": 0.046156374970451
+      },
+      "guard": {
+        "nonnegative": true,
+        "pool": 7.187826722709907e-14
+      },
+      "targets": {
+        "0.0001": {
+          "actual": {
+            "concentration": 1.496958856852426e-05,
+            "flux": 2.180784352970586e-05,
+            "net_flux": 0.0006756072183550614
+          },
+          "passes": true
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 0.0014969588568524263,
+            "flux": 0.002180784352970586,
+            "net_flux": 0.0006756072183550614
+          },
+          "passes": true
+        }
+      }
+    }
+  ],
+  "source_sha256": {
+    "research/m3_history_cost.py": "0305f7352fe5baad7491e55bb699555a03dfebe587cdd86c70fcb201e97808ab",
+    "research/mri_endpoint.py": "66f7dd001f47d8529590f2fd2100fe5badbfb711249b65895157adb73c2b43c8",
+    "research/test_mri_endpoint.py": "e0a3e7fff5f323bd60839f57b4276870ebf4a4006a416f0f626d29d1f1882550",
+    "research/history_polynomial.py": "d583184d522d24b058862b57e891a42f8e670ede022045837191781ce95acf4e",
+    "research/inner_dense.py": "e19b0221a27f5fa861c7a0877d64f9e04b638a3fc514326c7968541f13ec133b",
+    "research/m3_ordered_cost.py": "65f4695f8bd500897bbc6b29afb7d935d4b0f500fc7d53cd99633835631ac5e5"
+  }
+}

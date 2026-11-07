@@ -1,0 +1,8 @@
+test_negative_interior_and_bad_history (research.test_history_polynomial.HistoryPolynomialChecks.test_negative_interior_and_bad_history) ... ok
+test_nonuniform_exactness_invariants_and_derivative (research.test_history_polynomial.HistoryPolynomialChecks.test_nonuniform_exactness_invariants_and_derivative) ... ok
+test_endpoints_and_modified_ledgers_unchanged (research.test_mri_endpoint.EndpointChecks.test_endpoints_and_modified_ledgers_unchanged) ... ok
+
+----------------------------------------------------------------------
+Ran 3 tests in 0.013s
+
+OK
