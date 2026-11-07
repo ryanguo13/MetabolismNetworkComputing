@@ -1,0 +1,55 @@
+{
+  "date": "2026-11-08",
+  "paths": [
+    0,
+    1,
+    2,
+    3
+  ],
+  "grids": [
+    [
+      1,
+      2
+    ],
+    [
+      2,
+      4
+    ],
+    [
+      4,
+      8
+    ]
+  ],
+  "inner_tolerance": 1e-06,
+  "formula": "e prime=J_n e+f(P)-P prime; freeze fresh predictor J at macro start. Third-order3-stage SDIRK with gamma=ROS34PW2 diagonal. Respect native curve boundaries. Only exactly matching H/J reuses the actual live predictor factor; all new factors counted.",
+  "score": "Same factor4*(central+refinement) as prior shadow; independently propagate both error endpoints, Linear error output per estimator substep; same propagated endpoints, second-order dense convergence. Do not claim cubic continuous accuracy. Running maximum over all observed points, no macro resets.",
+  "guards": "Check candidate continuous positivity, corrected query-state positivity and all original ledgers separately. Accumulate absolute local ledger defects using initial physical denominator, retaining quadrature separately.",
+  "paths_policy": "Replay previously accepted original16-step paths or11-step prefix exactly. Continue forced error-state propagation even when score rejects; never claim those steps as prospective accepted coverage. No reference state/history injected.",
+  "audits": "Independent full ODE1e-12/1e-11 globally and locally.65 points per macro plus original observations. Reference budget<=.05. Compare running estimator scores to actual accumulated error; no threshold tuning after results.",
+  "timing": "Actual predictor+fast kernel, estimator costs and local audit pair measured separately. Setup/grouping separate; controls uninterrupted full Radau tol1e-6/1e-8/1e-10 automatic/whole. Single development run only.",
+  "source_sha256": {
+    "research/linear_error_output.py": "272d260d3d4760c26e5ac81ae0e85c89bb764d2f2b8bb175ec2275c212d9af22",
+    "research/test_linear_error_output.py": "1dbbc523896a501e594dfea6dfc521d4a97da5a6fed40f79c0f4e06425f4ecee",
+    "research/streaming_defect.py": "99edf2ee14feefeddcb7ac2ba4913a560fd8f95b40339b79833723994937d3ec",
+    "research/linear_context_row.py": "599a6c12032e6dbf3b9b5d19e7527e72b89b3d4b960aa570ae54b1e3e45003ae",
+    "research/test_streaming_defect.py": "165bcf7042015b2026f8d94fdaff4df0d65322f307b8c8f3e05edb5ee147362c",
+    "research/m3_streaming_defect.py": "dea20226bea0185a1c752a9359628f551b46c33f76358787d7ac9841d8098b00",
+    "research/m3_streaming_linear.py": "13e3ec712dc1f6609b2038ffb3174bea1968a5558b803c73511bbccc7acd0364",
+    "research/defect_fast.py": "faaaafcb2cf069123bbacae3307c751dc6dce8dd0eb4e33f896981f39700e479",
+    "research/row_continuous.py": "90260109dfa6238da79641594c00c3e1abe3f6d55dd4a578b3f0f7cc4a5cf2f7",
+    "research/m3_priority.py": "6cc6821a1ac9a811f16d25c20c067b9d0516d1cb3bf60b9d144bdc93adc43856",
+    "research/m3_growth_study.py": "ef440e9984b74ff8440d0c6d4e1ec9e79e1ce32ac997535847e5ddf6a3e05955",
+    "research/m3_extrapolated_paths.py": "7ce2742d48adf31bb1b73372cb09f7085e18e1507d32b8543ac3c8217f9b64cf"
+  },
+  "input_sha256": {
+    "results/m3-streaming-defect/runs.json": "07e69a9df5ac18ad7fefafa75007cf016ac90fc250ce91f1b7218521a0c95ba8",
+    "results/m3-streaming-defect/registration.json": "2df988472cf8a1243edafb968def4178f5a3aefa5ca9d145d51425609b592a37",
+    "results/m3-cached-row/manifest.json": "2aab0581479b4088d82e7c3f46db34f3ecfaa7306d04c3fcbc622011a629cb53",
+    "results/m3-cached-row/runs.json": "896124036dbd2ddce14faba6e1a651bc18fe9e5693c6523b361d51fc9b220c4b",
+    "results/m3-cached-row/registration.json": "602243b9b32bf5b00a08153fc3509b72115bfb8785ccea5c9e428891b3d0fcf6",
+    "results/m3-cached-row/0-original.npz": "e0d5aed428722578bb0805ba9b76657ce73cadf7f69c0598e61049f87261fe08",
+    "results/m3-cached-row/1-original.npz": "38d135b7128be672eba5b5e784b91fcf87da53453b7f3bcc3f04e1df3a4f9baa",
+    "results/m3-cached-row/2-original.npz": "bd3420340820563f55e9223b51561f286e57752cf746a1caf70ace1204f987d0",
+    "results/m3-cached-row/3-original.npz": "24510e2cde43e5c4a163b16479d1d8ab1bc23a21e657a82ddfd6e4b09b99204b"
+  }
+}

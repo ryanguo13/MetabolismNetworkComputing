@@ -1,0 +1,46 @@
+{
+  "date": "2026-11-08",
+  "paths": [
+    {
+      "model": "teusink",
+      "start": 1.0,
+      "h0": 0.01,
+      "duration": 0.08,
+      "threshold": 3.0
+    },
+    {
+      "model": "kecoli",
+      "start": 0.1,
+      "h0": 0.003,
+      "duration": 0.024,
+      "threshold": 1.0
+    }
+  ],
+  "perturbation": "First strictly positive prefix concentration multiplied by1.001; initial pools rebased to perturbed state. Same perturbation in all references and mature controls.",
+  "grids": [
+    1,
+    2
+  ],
+  "inner_tolerance": 1e-06,
+  "target": "1e-06",
+  "max_attempts": 64,
+  "min_step_ratio": 1e-05,
+  "acceptance": "Require running factor4 error score<=elapsed/duration and absolute sums of each physical/modified residual/quadrature<=1e-10*elapsed/duration, plus original positivity/pool/individual-ledger gates. No reference used in proposals.",
+  "step_rule": "Start h0. Reject halves H; accepted budget ratio<.25 grows1.5 capped2*h0, otherwise retain H. Shorten final H to exact endpoint. No reference-triggered retries: any estimator/structural proposal accepted but independent strict local/global check failed stops and records a false acceptance.",
+  "scope": "Two prospectively registered perturbed short paths; original full-window/accuracy/coverage/repeat performance gates unchanged. Every attempt audited locally and globally regardless of estimator decision; hard64-attempt cap.",
+  "timing": "Kernel,estimator,query guard,decision/commit timed separately; include setup/grouping and all local/global pair audits in audited sum. Reference error scoring/global final evaluation outside; no formal performance claim.",
+  "source_sha256": {
+    "research/m3_streaming_controller.py": "0641b9a1dabce190fb0fb8e4803b61a0821e35db810be450cafbd343d88dbeea",
+    "research/linear_context_row.py": "599a6c12032e6dbf3b9b5d19e7527e72b89b3d4b960aa570ae54b1e3e45003ae",
+    "research/streaming_defect.py": "99edf2ee14feefeddcb7ac2ba4913a560fd8f95b40339b79833723994937d3ec",
+    "research/linear_error_output.py": "272d260d3d4760c26e5ac81ae0e85c89bb764d2f2b8bb175ec2275c212d9af22",
+    "research/m3_priority.py": "6cc6821a1ac9a811f16d25c20c067b9d0516d1cb3bf60b9d144bdc93adc43856",
+    "research/m3_growth_study.py": "ef440e9984b74ff8440d0c6d4e1ec9e79e1ce32ac997535847e5ddf6a3e05955",
+    "research/m3_extrapolated_paths.py": "7ce2742d48adf31bb1b73372cb09f7085e18e1507d32b8543ac3c8217f9b64cf"
+  },
+  "input_sha256": {
+    "results/m3-priority/p0.npz": "8be94525b6c3caa007123f284101ab165b725d38ab1567a121f4923993ed4243",
+    "results/m3-streaming-linear/runs.json": "9282c92da60507487752ce4c6daf0d74752ee201b33fca2fb959815a21d52ac2",
+    "results/m3-streaming-linear/registration.json": "ba3399727c003cf87cf2421fac7f7c62f2e7b635cce783db246d6cdfcfdfb583"
+  }
+}

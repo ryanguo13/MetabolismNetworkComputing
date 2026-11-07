@@ -1,0 +1,1397 @@
+{
+  "hermite": {
+    "steps": 59,
+    "score_decisions": 177,
+    "controls": 24,
+    "counts": {
+      "0.0001": {
+        "false_accept": 0,
+        "false_reject": 91
+      },
+      "1e-06": {
+        "false_accept": 0,
+        "false_reject": 98
+      }
+    },
+    "decisions": [
+      {
+        "path": 0,
+        "model": "teusink",
+        "grids": [
+          1,
+          2
+        ],
+        "target": "0.0001",
+        "actual_error": 2.7056063483123485e-05,
+        "actual_error_pass": true,
+        "would_accept": true,
+        "false_accept": false,
+        "false_reject": false,
+        "combined_would_accept": true,
+        "estimator_seconds": 0.035885665100067854,
+        "candidate_seconds": 0.04474687483161688,
+        "control_seconds": 0.002815708052366972,
+        "control_key": "control-0-1e-06-True",
+        "optimistic_candidate_plus_estimator_ratio": 0.03492024503696098,
+        "scope": "Diagnostic cost only, not qualified speedup; final score/ledger and original completeness gates may reject."
+      },
+      {
+        "path": 0,
+        "model": "teusink",
+        "grids": [
+          1,
+          2
+        ],
+        "target": "1e-06",
+        "actual_error": 0.0027056063483123487,
+        "actual_error_pass": true,
+        "would_accept": true,
+        "false_accept": false,
+        "false_reject": false,
+        "combined_would_accept": true,
+        "estimator_seconds": 0.035885665100067854,
+        "candidate_seconds": 0.04474687483161688,
+        "control_seconds": 0.002815708052366972,
+        "control_key": "control-0-1e-06-True",
+        "optimistic_candidate_plus_estimator_ratio": 0.03492024503696098,
+        "scope": "Diagnostic cost only, not qualified speedup; final score/ledger and original completeness gates may reject."
+      },
+      {
+        "path": 0,
+        "model": "teusink",
+        "grids": [
+          2,
+          4
+        ],
+        "target": "0.0001",
+        "actual_error": 2.7056063483123485e-05,
+        "actual_error_pass": true,
+        "would_accept": true,
+        "false_accept": false,
+        "false_reject": false,
+        "combined_would_accept": true,
+        "estimator_seconds": 0.03805458010174334,
+        "candidate_seconds": 0.04474687483161688,
+        "control_seconds": 0.002815708052366972,
+        "control_key": "control-0-1e-06-True",
+        "optimistic_candidate_plus_estimator_ratio": 0.03400553836442963,
+        "scope": "Diagnostic cost only, not qualified speedup; final score/ledger and original completeness gates may reject."
+      },
+      {
+        "path": 0,
+        "model": "teusink",
+        "grids": [
+          2,
+          4
+        ],
+        "target": "1e-06",
+        "actual_error": 0.0027056063483123487,
+        "actual_error_pass": true,
+        "would_accept": true,
+        "false_accept": false,
+        "false_reject": false,
+        "combined_would_accept": true,
+        "estimator_seconds": 0.03805458010174334,
+        "candidate_seconds": 0.04474687483161688,
+        "control_seconds": 0.002815708052366972,
+        "control_key": "control-0-1e-06-True",
+        "optimistic_candidate_plus_estimator_ratio": 0.03400553836442963,
+        "scope": "Diagnostic cost only, not qualified speedup; final score/ledger and original completeness gates may reject."
+      },
+      {
+        "path": 0,
+        "model": "teusink",
+        "grids": [
+          4,
+          8
+        ],
+        "target": "0.0001",
+        "actual_error": 2.7056063483123485e-05,
+        "actual_error_pass": true,
+        "would_accept": true,
+        "false_accept": false,
+        "false_reject": false,
+        "combined_would_accept": true,
+        "estimator_seconds": 0.046772086061537266,
+        "candidate_seconds": 0.04474687483161688,
+        "control_seconds": 0.002815708052366972,
+        "control_key": "control-0-1e-06-True",
+        "optimistic_candidate_plus_estimator_ratio": 0.030766390099798372,
+        "scope": "Diagnostic cost only, not qualified speedup; final score/ledger and original completeness gates may reject."
+      },
+      {
+        "path": 0,
+        "model": "teusink",
+        "grids": [
+          4,
+          8
+        ],
+        "target": "1e-06",
+        "actual_error": 0.0027056063483123487,
+        "actual_error_pass": true,
+        "would_accept": true,
+        "false_accept": false,
+        "false_reject": false,
+        "combined_would_accept": true,
+        "estimator_seconds": 0.046772086061537266,
+        "candidate_seconds": 0.04474687483161688,
+        "control_seconds": 0.002815708052366972,
+        "control_key": "control-0-1e-06-True",
+        "optimistic_candidate_plus_estimator_ratio": 0.030766390099798372,
+        "scope": "Diagnostic cost only, not qualified speedup; final score/ledger and original completeness gates may reject."
+      },
+      {
+        "path": 1,
+        "model": "teusink",
+        "grids": [
+          1,
+          2
+        ],
+        "target": "0.0001",
+        "actual_error": 0.0014865765179496485,
+        "actual_error_pass": true,
+        "would_accept": true,
+        "false_accept": false,
+        "false_reject": false,
+        "combined_would_accept": false,
+        "estimator_seconds": 0.023544791154563427,
+        "candidate_seconds": 0.036940335063263774,
+        "control_seconds": 0.00681325001642108,
+        "control_key": "control-1-1e-06-False",
+        "optimistic_candidate_plus_estimator_ratio": 0.11264339586370845,
+        "scope": "Diagnostic cost only, not qualified speedup; final score/ledger and original completeness gates may reject."
+      },
+      {
+        "path": 1,
+        "model": "teusink",
+        "grids": [
+          1,
+          2
+        ],
+        "target": "1e-06",
+        "actual_error": 0.14865765179496487,
+        "actual_error_pass": true,
+        "would_accept": false,
+        "false_accept": false,
+        "false_reject": true,
+        "combined_would_accept": false,
+        "estimator_seconds": 0.023544791154563427,
+        "candidate_seconds": 0.036940335063263774,
+        "control_seconds": 0.00681325001642108,
+        "control_key": "control-1-1e-06-False",
+        "optimistic_candidate_plus_estimator_ratio": 0.11264339586370845,
+        "scope": "Diagnostic cost only, not qualified speedup; final score/ledger and original completeness gates may reject."
+      },
+      {
+        "path": 1,
+        "model": "teusink",
+        "grids": [
+          2,
+          4
+        ],
+        "target": "0.0001",
+        "actual_error": 0.0014865765179496485,
+        "actual_error_pass": true,
+        "would_accept": true,
+        "false_accept": false,
+        "false_reject": false,
+        "combined_would_accept": false,
+        "estimator_seconds": 0.026058253599330783,
+        "candidate_seconds": 0.036940335063263774,
+        "control_seconds": 0.00681325001642108,
+        "control_key": "control-1-1e-06-False",
+        "optimistic_candidate_plus_estimator_ratio": 0.10814924843652014,
+        "scope": "Diagnostic cost only, not qualified speedup; final score/ledger and original completeness gates may reject."
+      },
+      {
+        "path": 1,
+        "model": "teusink",
+        "grids": [
+          2,
+          4
+        ],
+        "target": "1e-06",
+        "actual_error": 0.14865765179496487,
+        "actual_error_pass": true,
+        "would_accept": false,
+        "false_accept": false,
+        "false_reject": true,
+        "combined_would_accept": false,
+        "estimator_seconds": 0.026058253599330783,
+        "candidate_seconds": 0.036940335063263774,
+        "control_seconds": 0.00681325001642108,
+        "control_key": "control-1-1e-06-False",
+        "optimistic_candidate_plus_estimator_ratio": 0.10814924843652014,
+        "scope": "Diagnostic cost only, not qualified speedup; final score/ledger and original completeness gates may reject."
+      },
+      {
+        "path": 1,
+        "model": "teusink",
+        "grids": [
+          4,
+          8
+        ],
+        "target": "0.0001",
+        "actual_error": 0.0014865765179496485,
+        "actual_error_pass": true,
+        "would_accept": true,
+        "false_accept": false,
+        "false_reject": false,
+        "combined_would_accept": false,
+        "estimator_seconds": 0.032018124824389815,
+        "candidate_seconds": 0.036940335063263774,
+        "control_seconds": 0.00681325001642108,
+        "control_key": "control-1-1e-06-False",
+        "optimistic_candidate_plus_estimator_ratio": 0.09880223583184944,
+        "scope": "Diagnostic cost only, not qualified speedup; final score/ledger and original completeness gates may reject."
+      },
+      {
+        "path": 1,
+        "model": "teusink",
+        "grids": [
+          4,
+          8
+        ],
+        "target": "1e-06",
+        "actual_error": 0.14865765179496487,
+        "actual_error_pass": true,
+        "would_accept": false,
+        "false_accept": false,
+        "false_reject": true,
+        "combined_would_accept": false,
+        "estimator_seconds": 0.032018124824389815,
+        "candidate_seconds": 0.036940335063263774,
+        "control_seconds": 0.00681325001642108,
+        "control_key": "control-1-1e-06-False",
+        "optimistic_candidate_plus_estimator_ratio": 0.09880223583184944,
+        "scope": "Diagnostic cost only, not qualified speedup; final score/ledger and original completeness gates may reject."
+      },
+      {
+        "path": 2,
+        "model": "kecoli",
+        "grids": [
+          1,
+          2
+        ],
+        "target": "0.0001",
+        "actual_error": 0.09162162548141552,
+        "actual_error_pass": true,
+        "would_accept": false,
+        "false_accept": false,
+        "false_reject": true,
+        "combined_would_accept": false,
+        "estimator_seconds": 0.501034542452544,
+        "candidate_seconds": 0.18748137401416898,
+        "control_seconds": 0.05671762488782406,
+        "control_key": "control-2-1e-06-True",
+        "optimistic_candidate_plus_estimator_ratio": 0.08237663579207342,
+        "scope": "Diagnostic cost only, not qualified speedup; final score/ledger and original completeness gates may reject."
+      },
+      {
+        "path": 2,
+        "model": "kecoli",
+        "grids": [
+          1,
+          2
+        ],
+        "target": "1e-06",
+        "actual_error": 1.4649606589148592,
+        "actual_error_pass": false,
+        "would_accept": false,
+        "false_accept": false,
+        "false_reject": false,
+        "combined_would_accept": false,
+        "estimator_seconds": 0.501034542452544,
+        "candidate_seconds": 0.18748137401416898,
+        "control_seconds": 0.08199895801953971,
+        "control_key": "control-2-1e-08-False",
+        "optimistic_candidate_plus_estimator_ratio": 0.11909522504626666,
+        "scope": "Diagnostic cost only, not qualified speedup; final score/ledger and original completeness gates may reject."
+      },
+      {
+        "path": 2,
+        "model": "kecoli",
+        "grids": [
+          2,
+          4
+        ],
+        "target": "0.0001",
+        "actual_error": 0.09162162548141552,
+        "actual_error_pass": true,
+        "would_accept": false,
+        "false_accept": false,
+        "false_reject": true,
+        "combined_would_accept": false,
+        "estimator_seconds": 0.5964817511849105,
+        "candidate_seconds": 0.18748137401416898,
+        "control_seconds": 0.05671762488782406,
+        "control_key": "control-2-1e-06-True",
+        "optimistic_candidate_plus_estimator_ratio": 0.07234731209254414,
+        "scope": "Diagnostic cost only, not qualified speedup; final score/ledger and original completeness gates may reject."
+      },
+      {
+        "path": 2,
+        "model": "kecoli",
+        "grids": [
+          2,
+          4
+        ],
+        "target": "1e-06",
+        "actual_error": 1.4649606589148592,
+        "actual_error_pass": false,
+        "would_accept": false,
+        "false_accept": false,
+        "false_reject": false,
+        "combined_would_accept": false,
+        "estimator_seconds": 0.5964817511849105,
+        "candidate_seconds": 0.18748137401416898,
+        "control_seconds": 0.08199895801953971,
+        "control_key": "control-2-1e-08-False",
+        "optimistic_candidate_plus_estimator_ratio": 0.10459542723864328,
+        "scope": "Diagnostic cost only, not qualified speedup; final score/ledger and original completeness gates may reject."
+      },
+      {
+        "path": 2,
+        "model": "kecoli",
+        "grids": [
+          4,
+          8
+        ],
+        "target": "0.0001",
+        "actual_error": 0.09162162548141552,
+        "actual_error_pass": true,
+        "would_accept": false,
+        "false_accept": false,
+        "false_reject": true,
+        "combined_would_accept": false,
+        "estimator_seconds": 0.6764585832133889,
+        "candidate_seconds": 0.18748137401416898,
+        "control_seconds": 0.05671762488782406,
+        "control_key": "control-2-1e-06-True",
+        "optimistic_candidate_plus_estimator_ratio": 0.06564996145083365,
+        "scope": "Diagnostic cost only, not qualified speedup; final score/ledger and original completeness gates may reject."
+      },
+      {
+        "path": 2,
+        "model": "kecoli",
+        "grids": [
+          4,
+          8
+        ],
+        "target": "1e-06",
+        "actual_error": 1.4649606589148592,
+        "actual_error_pass": false,
+        "would_accept": false,
+        "false_accept": false,
+        "false_reject": false,
+        "combined_would_accept": false,
+        "estimator_seconds": 0.6764585832133889,
+        "candidate_seconds": 0.18748137401416898,
+        "control_seconds": 0.08199895801953971,
+        "control_key": "control-2-1e-08-False",
+        "optimistic_candidate_plus_estimator_ratio": 0.09491279727665329,
+        "scope": "Diagnostic cost only, not qualified speedup; final score/ledger and original completeness gates may reject."
+      },
+      {
+        "path": 3,
+        "model": "kecoli",
+        "grids": [
+          1,
+          2
+        ],
+        "target": "0.0001",
+        "actual_error": 0.5534985837598351,
+        "actual_error_pass": true,
+        "would_accept": false,
+        "false_accept": false,
+        "false_reject": true,
+        "combined_would_accept": false,
+        "estimator_seconds": 0.5329173752106726,
+        "candidate_seconds": 0.2606798328924924,
+        "control_seconds": 0.09592679189518094,
+        "control_key": "control-3-1e-06-False",
+        "optimistic_candidate_plus_estimator_ratio": 0.12087591906284878,
+        "scope": "Diagnostic cost only, not qualified speedup; final score/ledger and original completeness gates may reject."
+      },
+      {
+        "path": 3,
+        "model": "kecoli",
+        "grids": [
+          1,
+          2
+        ],
+        "target": "1e-06",
+        "actual_error": 0.9231125496958736,
+        "actual_error_pass": true,
+        "would_accept": false,
+        "false_accept": false,
+        "false_reject": true,
+        "combined_would_accept": false,
+        "estimator_seconds": 0.5329173752106726,
+        "candidate_seconds": 0.2606798328924924,
+        "control_seconds": 0.17542116600088775,
+        "control_key": "control-3-1e-08-False",
+        "optimistic_candidate_plus_estimator_ratio": 0.22104559367109514,
+        "scope": "Diagnostic cost only, not qualified speedup; final score/ledger and original completeness gates may reject."
+      },
+      {
+        "path": 3,
+        "model": "kecoli",
+        "grids": [
+          2,
+          4
+        ],
+        "target": "0.0001",
+        "actual_error": 0.5534985837598351,
+        "actual_error_pass": true,
+        "would_accept": false,
+        "false_accept": false,
+        "false_reject": true,
+        "combined_would_accept": false,
+        "estimator_seconds": 0.6588139187078923,
+        "candidate_seconds": 0.2606798328924924,
+        "control_seconds": 0.09592679189518094,
+        "control_key": "control-3-1e-06-False",
+        "optimistic_candidate_plus_estimator_ratio": 0.10432565934050096,
+        "scope": "Diagnostic cost only, not qualified speedup; final score/ledger and original completeness gates may reject."
+      },
+      {
+        "path": 3,
+        "model": "kecoli",
+        "grids": [
+          2,
+          4
+        ],
+        "target": "1e-06",
+        "actual_error": 0.9231125496958736,
+        "actual_error_pass": true,
+        "would_accept": false,
+        "false_accept": false,
+        "false_reject": true,
+        "combined_would_accept": false,
+        "estimator_seconds": 0.6588139187078923,
+        "candidate_seconds": 0.2606798328924924,
+        "control_seconds": 0.17542116600088775,
+        "control_key": "control-3-1e-08-False",
+        "optimistic_candidate_plus_estimator_ratio": 0.19078016103488044,
+        "scope": "Diagnostic cost only, not qualified speedup; final score/ledger and original completeness gates may reject."
+      },
+      {
+        "path": 3,
+        "model": "kecoli",
+        "grids": [
+          4,
+          8
+        ],
+        "target": "0.0001",
+        "actual_error": 0.5534985837598351,
+        "actual_error_pass": true,
+        "would_accept": false,
+        "false_accept": false,
+        "false_reject": true,
+        "combined_would_accept": false,
+        "estimator_seconds": 0.7293718310538679,
+        "candidate_seconds": 0.2606798328924924,
+        "control_seconds": 0.09592679189518094,
+        "control_key": "control-3-1e-06-False",
+        "optimistic_candidate_plus_estimator_ratio": 0.09689069307031449,
+        "scope": "Diagnostic cost only, not qualified speedup; final score/ledger and original completeness gates may reject."
+      },
+      {
+        "path": 3,
+        "model": "kecoli",
+        "grids": [
+          4,
+          8
+        ],
+        "target": "1e-06",
+        "actual_error": 0.9231125496958736,
+        "actual_error_pass": true,
+        "would_accept": false,
+        "false_accept": false,
+        "false_reject": true,
+        "combined_would_accept": false,
+        "estimator_seconds": 0.7293718310538679,
+        "candidate_seconds": 0.2606798328924924,
+        "control_seconds": 0.17542116600088775,
+        "control_key": "control-3-1e-08-False",
+        "optimistic_candidate_plus_estimator_ratio": 0.17718385048882845,
+        "scope": "Diagnostic cost only, not qualified speedup; final score/ledger and original completeness gates may reject."
+      }
+    ],
+    "work": [
+      {
+        "path": 0,
+        "grids": [
+          1,
+          2
+        ],
+        "seconds": 0.035885665100067854,
+        "factorizations": 16,
+        "predictor_factor_hits": 16,
+        "linear_solves": 144,
+        "defect_rate_states": 208
+      },
+      {
+        "path": 0,
+        "grids": [
+          2,
+          4
+        ],
+        "seconds": 0.03805458010174334,
+        "factorizations": 32,
+        "predictor_factor_hits": 0,
+        "linear_solves": 288,
+        "defect_rate_states": 352
+      },
+      {
+        "path": 0,
+        "grids": [
+          4,
+          8
+        ],
+        "seconds": 0.046772086061537266,
+        "factorizations": 32,
+        "predictor_factor_hits": 0,
+        "linear_solves": 576,
+        "defect_rate_states": 640
+      },
+      {
+        "path": 1,
+        "grids": [
+          1,
+          2
+        ],
+        "seconds": 0.023544791154563427,
+        "factorizations": 11,
+        "predictor_factor_hits": 11,
+        "linear_solves": 99,
+        "defect_rate_states": 143
+      },
+      {
+        "path": 1,
+        "grids": [
+          2,
+          4
+        ],
+        "seconds": 0.026058253599330783,
+        "factorizations": 22,
+        "predictor_factor_hits": 0,
+        "linear_solves": 198,
+        "defect_rate_states": 242
+      },
+      {
+        "path": 1,
+        "grids": [
+          4,
+          8
+        ],
+        "seconds": 0.032018124824389815,
+        "factorizations": 22,
+        "predictor_factor_hits": 0,
+        "linear_solves": 396,
+        "defect_rate_states": 440
+      },
+      {
+        "path": 2,
+        "grids": [
+          1,
+          2
+        ],
+        "seconds": 0.501034542452544,
+        "factorizations": 16,
+        "predictor_factor_hits": 16,
+        "linear_solves": 144,
+        "defect_rate_states": 208
+      },
+      {
+        "path": 2,
+        "grids": [
+          2,
+          4
+        ],
+        "seconds": 0.5964817511849105,
+        "factorizations": 32,
+        "predictor_factor_hits": 0,
+        "linear_solves": 288,
+        "defect_rate_states": 352
+      },
+      {
+        "path": 2,
+        "grids": [
+          4,
+          8
+        ],
+        "seconds": 0.6764585832133889,
+        "factorizations": 32,
+        "predictor_factor_hits": 0,
+        "linear_solves": 576,
+        "defect_rate_states": 640
+      },
+      {
+        "path": 3,
+        "grids": [
+          1,
+          2
+        ],
+        "seconds": 0.5329173752106726,
+        "factorizations": 16,
+        "predictor_factor_hits": 16,
+        "linear_solves": 144,
+        "defect_rate_states": 208
+      },
+      {
+        "path": 3,
+        "grids": [
+          2,
+          4
+        ],
+        "seconds": 0.6588139187078923,
+        "factorizations": 32,
+        "predictor_factor_hits": 0,
+        "linear_solves": 288,
+        "defect_rate_states": 352
+      },
+      {
+        "path": 3,
+        "grids": [
+          4,
+          8
+        ],
+        "seconds": 0.7293718310538679,
+        "factorizations": 32,
+        "predictor_factor_hits": 0,
+        "linear_solves": 576,
+        "defect_rate_states": 640
+      }
+    ]
+  },
+  "linear": {
+    "steps": 59,
+    "score_decisions": 177,
+    "controls": 24,
+    "counts": {
+      "0.0001": {
+        "false_accept": 0,
+        "false_reject": 47
+      },
+      "1e-06": {
+        "false_accept": 0,
+        "false_reject": 75
+      }
+    },
+    "decisions": [
+      {
+        "path": 0,
+        "model": "teusink",
+        "grids": [
+          1,
+          2
+        ],
+        "target": "0.0001",
+        "actual_error": 2.7056063483123485e-05,
+        "actual_error_pass": true,
+        "would_accept": true,
+        "false_accept": false,
+        "false_reject": false,
+        "combined_would_accept": true,
+        "estimator_seconds": 0.038192376494407654,
+        "candidate_seconds": 0.04663445707410574,
+        "control_seconds": 0.0032364169601351023,
+        "control_key": "control-0-1e-06-True",
+        "optimistic_candidate_plus_estimator_ratio": 0.03815322138036775,
+        "scope": "Diagnostic cost only, not qualified speedup; final score/ledger and original completeness gates may reject."
+      },
+      {
+        "path": 0,
+        "model": "teusink",
+        "grids": [
+          1,
+          2
+        ],
+        "target": "1e-06",
+        "actual_error": 0.0027056063483123487,
+        "actual_error_pass": true,
+        "would_accept": true,
+        "false_accept": false,
+        "false_reject": false,
+        "combined_would_accept": true,
+        "estimator_seconds": 0.038192376494407654,
+        "candidate_seconds": 0.04663445707410574,
+        "control_seconds": 0.0032364169601351023,
+        "control_key": "control-0-1e-06-True",
+        "optimistic_candidate_plus_estimator_ratio": 0.03815322138036775,
+        "scope": "Diagnostic cost only, not qualified speedup; final score/ledger and original completeness gates may reject."
+      },
+      {
+        "path": 0,
+        "model": "teusink",
+        "grids": [
+          2,
+          4
+        ],
+        "target": "0.0001",
+        "actual_error": 2.7056063483123485e-05,
+        "actual_error_pass": true,
+        "would_accept": true,
+        "false_accept": false,
+        "false_reject": false,
+        "combined_would_accept": true,
+        "estimator_seconds": 0.03912195609882474,
+        "candidate_seconds": 0.04663445707410574,
+        "control_seconds": 0.0032364169601351023,
+        "control_key": "control-0-1e-06-True",
+        "optimistic_candidate_plus_estimator_ratio": 0.037739649320555964,
+        "scope": "Diagnostic cost only, not qualified speedup; final score/ledger and original completeness gates may reject."
+      },
+      {
+        "path": 0,
+        "model": "teusink",
+        "grids": [
+          2,
+          4
+        ],
+        "target": "1e-06",
+        "actual_error": 0.0027056063483123487,
+        "actual_error_pass": true,
+        "would_accept": true,
+        "false_accept": false,
+        "false_reject": false,
+        "combined_would_accept": true,
+        "estimator_seconds": 0.03912195609882474,
+        "candidate_seconds": 0.04663445707410574,
+        "control_seconds": 0.0032364169601351023,
+        "control_key": "control-0-1e-06-True",
+        "optimistic_candidate_plus_estimator_ratio": 0.037739649320555964,
+        "scope": "Diagnostic cost only, not qualified speedup; final score/ledger and original completeness gates may reject."
+      },
+      {
+        "path": 0,
+        "model": "teusink",
+        "grids": [
+          4,
+          8
+        ],
+        "target": "0.0001",
+        "actual_error": 2.7056063483123485e-05,
+        "actual_error_pass": true,
+        "would_accept": true,
+        "false_accept": false,
+        "false_reject": false,
+        "combined_would_accept": true,
+        "estimator_seconds": 0.047834041295573115,
+        "candidate_seconds": 0.04663445707410574,
+        "control_seconds": 0.0032364169601351023,
+        "control_key": "control-0-1e-06-True",
+        "optimistic_candidate_plus_estimator_ratio": 0.034259218850607676,
+        "scope": "Diagnostic cost only, not qualified speedup; final score/ledger and original completeness gates may reject."
+      },
+      {
+        "path": 0,
+        "model": "teusink",
+        "grids": [
+          4,
+          8
+        ],
+        "target": "1e-06",
+        "actual_error": 0.0027056063483123487,
+        "actual_error_pass": true,
+        "would_accept": true,
+        "false_accept": false,
+        "false_reject": false,
+        "combined_would_accept": true,
+        "estimator_seconds": 0.047834041295573115,
+        "candidate_seconds": 0.04663445707410574,
+        "control_seconds": 0.0032364169601351023,
+        "control_key": "control-0-1e-06-True",
+        "optimistic_candidate_plus_estimator_ratio": 0.034259218850607676,
+        "scope": "Diagnostic cost only, not qualified speedup; final score/ledger and original completeness gates may reject."
+      },
+      {
+        "path": 1,
+        "model": "teusink",
+        "grids": [
+          1,
+          2
+        ],
+        "target": "0.0001",
+        "actual_error": 0.0014865765179496485,
+        "actual_error_pass": true,
+        "would_accept": true,
+        "false_accept": false,
+        "false_reject": false,
+        "combined_would_accept": false,
+        "estimator_seconds": 0.023615418002009392,
+        "candidate_seconds": 0.038041747873649,
+        "control_seconds": 0.007242582971230149,
+        "control_key": "control-1-1e-06-False",
+        "optimistic_candidate_plus_estimator_ratio": 0.11746538895148026,
+        "scope": "Diagnostic cost only, not qualified speedup; final score/ledger and original completeness gates may reject."
+      },
+      {
+        "path": 1,
+        "model": "teusink",
+        "grids": [
+          1,
+          2
+        ],
+        "target": "1e-06",
+        "actual_error": 0.14865765179496487,
+        "actual_error_pass": true,
+        "would_accept": true,
+        "false_accept": false,
+        "false_reject": false,
+        "combined_would_accept": false,
+        "estimator_seconds": 0.023615418002009392,
+        "candidate_seconds": 0.038041747873649,
+        "control_seconds": 0.007242582971230149,
+        "control_key": "control-1-1e-06-False",
+        "optimistic_candidate_plus_estimator_ratio": 0.11746538895148026,
+        "scope": "Diagnostic cost only, not qualified speedup; final score/ledger and original completeness gates may reject."
+      },
+      {
+        "path": 1,
+        "model": "teusink",
+        "grids": [
+          2,
+          4
+        ],
+        "target": "0.0001",
+        "actual_error": 0.0014865765179496485,
+        "actual_error_pass": true,
+        "would_accept": true,
+        "false_accept": false,
+        "false_reject": false,
+        "combined_would_accept": false,
+        "estimator_seconds": 0.025909706484526396,
+        "candidate_seconds": 0.038041747873649,
+        "control_seconds": 0.007242582971230149,
+        "control_key": "control-1-1e-06-False",
+        "optimistic_candidate_plus_estimator_ratio": 0.11325126291368345,
+        "scope": "Diagnostic cost only, not qualified speedup; final score/ledger and original completeness gates may reject."
+      },
+      {
+        "path": 1,
+        "model": "teusink",
+        "grids": [
+          2,
+          4
+        ],
+        "target": "1e-06",
+        "actual_error": 0.14865765179496487,
+        "actual_error_pass": true,
+        "would_accept": true,
+        "false_accept": false,
+        "false_reject": false,
+        "combined_would_accept": false,
+        "estimator_seconds": 0.025909706484526396,
+        "candidate_seconds": 0.038041747873649,
+        "control_seconds": 0.007242582971230149,
+        "control_key": "control-1-1e-06-False",
+        "optimistic_candidate_plus_estimator_ratio": 0.11325126291368345,
+        "scope": "Diagnostic cost only, not qualified speedup; final score/ledger and original completeness gates may reject."
+      },
+      {
+        "path": 1,
+        "model": "teusink",
+        "grids": [
+          4,
+          8
+        ],
+        "target": "0.0001",
+        "actual_error": 0.0014865765179496485,
+        "actual_error_pass": true,
+        "would_accept": true,
+        "false_accept": false,
+        "false_reject": false,
+        "combined_would_accept": false,
+        "estimator_seconds": 0.031722626183182,
+        "candidate_seconds": 0.038041747873649,
+        "control_seconds": 0.007242582971230149,
+        "control_key": "control-1-1e-06-False",
+        "optimistic_candidate_plus_estimator_ratio": 0.10381492085530995,
+        "scope": "Diagnostic cost only, not qualified speedup; final score/ledger and original completeness gates may reject."
+      },
+      {
+        "path": 1,
+        "model": "teusink",
+        "grids": [
+          4,
+          8
+        ],
+        "target": "1e-06",
+        "actual_error": 0.14865765179496487,
+        "actual_error_pass": true,
+        "would_accept": true,
+        "false_accept": false,
+        "false_reject": false,
+        "combined_would_accept": false,
+        "estimator_seconds": 0.031722626183182,
+        "candidate_seconds": 0.038041747873649,
+        "control_seconds": 0.007242582971230149,
+        "control_key": "control-1-1e-06-False",
+        "optimistic_candidate_plus_estimator_ratio": 0.10381492085530995,
+        "scope": "Diagnostic cost only, not qualified speedup; final score/ledger and original completeness gates may reject."
+      },
+      {
+        "path": 2,
+        "model": "kecoli",
+        "grids": [
+          1,
+          2
+        ],
+        "target": "0.0001",
+        "actual_error": 0.09162162548141552,
+        "actual_error_pass": true,
+        "would_accept": true,
+        "false_accept": false,
+        "false_reject": false,
+        "combined_would_accept": true,
+        "estimator_seconds": 0.4925811695866287,
+        "candidate_seconds": 0.1976919185835868,
+        "control_seconds": 0.05424612504430115,
+        "control_key": "control-2-1e-06-True",
+        "optimistic_candidate_plus_estimator_ratio": 0.0785864695784352,
+        "scope": "Diagnostic cost only, not qualified speedup; final score/ledger and original completeness gates may reject."
+      },
+      {
+        "path": 2,
+        "model": "kecoli",
+        "grids": [
+          1,
+          2
+        ],
+        "target": "1e-06",
+        "actual_error": 1.4649606589148592,
+        "actual_error_pass": false,
+        "would_accept": false,
+        "false_accept": false,
+        "false_reject": false,
+        "combined_would_accept": false,
+        "estimator_seconds": 0.4925811695866287,
+        "candidate_seconds": 0.1976919185835868,
+        "control_seconds": 0.08112404099665582,
+        "control_key": "control-2-1e-08-False",
+        "optimistic_candidate_plus_estimator_ratio": 0.11752456004289613,
+        "scope": "Diagnostic cost only, not qualified speedup; final score/ledger and original completeness gates may reject."
+      },
+      {
+        "path": 2,
+        "model": "kecoli",
+        "grids": [
+          2,
+          4
+        ],
+        "target": "0.0001",
+        "actual_error": 0.09162162548141552,
+        "actual_error_pass": true,
+        "would_accept": true,
+        "false_accept": false,
+        "false_reject": false,
+        "combined_would_accept": true,
+        "estimator_seconds": 0.5935751665383577,
+        "candidate_seconds": 0.1976919185835868,
+        "control_seconds": 0.05424612504430115,
+        "control_key": "control-2-1e-06-True",
+        "optimistic_candidate_plus_estimator_ratio": 0.06855602370461437,
+        "scope": "Diagnostic cost only, not qualified speedup; final score/ledger and original completeness gates may reject."
+      },
+      {
+        "path": 2,
+        "model": "kecoli",
+        "grids": [
+          2,
+          4
+        ],
+        "target": "1e-06",
+        "actual_error": 1.4649606589148592,
+        "actual_error_pass": false,
+        "would_accept": false,
+        "false_accept": false,
+        "false_reject": false,
+        "combined_would_accept": false,
+        "estimator_seconds": 0.5935751665383577,
+        "candidate_seconds": 0.1976919185835868,
+        "control_seconds": 0.08112404099665582,
+        "control_key": "control-2-1e-08-False",
+        "optimistic_candidate_plus_estimator_ratio": 0.10252422035747077,
+        "scope": "Diagnostic cost only, not qualified speedup; final score/ledger and original completeness gates may reject."
+      },
+      {
+        "path": 2,
+        "model": "kecoli",
+        "grids": [
+          4,
+          8
+        ],
+        "target": "0.0001",
+        "actual_error": 0.09162162548141552,
+        "actual_error_pass": true,
+        "would_accept": true,
+        "false_accept": false,
+        "false_reject": false,
+        "combined_would_accept": true,
+        "estimator_seconds": 0.6561039553489536,
+        "candidate_seconds": 0.1976919185835868,
+        "control_seconds": 0.05424612504430115,
+        "control_key": "control-2-1e-06-True",
+        "optimistic_candidate_plus_estimator_ratio": 0.06353523916020612,
+        "scope": "Diagnostic cost only, not qualified speedup; final score/ledger and original completeness gates may reject."
+      },
+      {
+        "path": 2,
+        "model": "kecoli",
+        "grids": [
+          4,
+          8
+        ],
+        "target": "1e-06",
+        "actual_error": 1.4649606589148592,
+        "actual_error_pass": false,
+        "would_accept": false,
+        "false_accept": false,
+        "false_reject": false,
+        "combined_would_accept": false,
+        "estimator_seconds": 0.6561039553489536,
+        "candidate_seconds": 0.1976919185835868,
+        "control_seconds": 0.08112404099665582,
+        "control_key": "control-2-1e-08-False",
+        "optimistic_candidate_plus_estimator_ratio": 0.09501573323726971,
+        "scope": "Diagnostic cost only, not qualified speedup; final score/ledger and original completeness gates may reject."
+      },
+      {
+        "path": 3,
+        "model": "kecoli",
+        "grids": [
+          1,
+          2
+        ],
+        "target": "0.0001",
+        "actual_error": 0.5534985837598351,
+        "actual_error_pass": true,
+        "would_accept": false,
+        "false_accept": false,
+        "false_reject": true,
+        "combined_would_accept": false,
+        "estimator_seconds": 0.5187011666130275,
+        "candidate_seconds": 0.25470329308882356,
+        "control_seconds": 0.09460354107432067,
+        "control_key": "control-3-1e-06-False",
+        "optimistic_candidate_plus_estimator_ratio": 0.12232091486877453,
+        "scope": "Diagnostic cost only, not qualified speedup; final score/ledger and original completeness gates may reject."
+      },
+      {
+        "path": 3,
+        "model": "kecoli",
+        "grids": [
+          1,
+          2
+        ],
+        "target": "1e-06",
+        "actual_error": 0.9231125496958736,
+        "actual_error_pass": true,
+        "would_accept": false,
+        "false_accept": false,
+        "false_reject": true,
+        "combined_would_accept": false,
+        "estimator_seconds": 0.5187011666130275,
+        "candidate_seconds": 0.25470329308882356,
+        "control_seconds": 0.17431066697463393,
+        "control_key": "control-3-1e-08-False",
+        "optimistic_candidate_plus_estimator_ratio": 0.2253809954002994,
+        "scope": "Diagnostic cost only, not qualified speedup; final score/ledger and original completeness gates may reject."
+      },
+      {
+        "path": 3,
+        "model": "kecoli",
+        "grids": [
+          2,
+          4
+        ],
+        "target": "0.0001",
+        "actual_error": 0.5534985837598351,
+        "actual_error_pass": true,
+        "would_accept": false,
+        "false_accept": false,
+        "false_reject": true,
+        "combined_would_accept": false,
+        "estimator_seconds": 0.6367527926340699,
+        "candidate_seconds": 0.25470329308882356,
+        "control_seconds": 0.09460354107432067,
+        "control_key": "control-3-1e-06-False",
+        "optimistic_candidate_plus_estimator_ratio": 0.10612249171826049,
+        "scope": "Diagnostic cost only, not qualified speedup; final score/ledger and original completeness gates may reject."
+      },
+      {
+        "path": 3,
+        "model": "kecoli",
+        "grids": [
+          2,
+          4
+        ],
+        "target": "1e-06",
+        "actual_error": 0.9231125496958736,
+        "actual_error_pass": true,
+        "would_accept": false,
+        "false_accept": false,
+        "false_reject": true,
+        "combined_would_accept": false,
+        "estimator_seconds": 0.6367527926340699,
+        "candidate_seconds": 0.25470329308882356,
+        "control_seconds": 0.17431066697463393,
+        "control_key": "control-3-1e-08-False",
+        "optimistic_candidate_plus_estimator_ratio": 0.19553477705330052,
+        "scope": "Diagnostic cost only, not qualified speedup; final score/ledger and original completeness gates may reject."
+      },
+      {
+        "path": 3,
+        "model": "kecoli",
+        "grids": [
+          4,
+          8
+        ],
+        "target": "0.0001",
+        "actual_error": 0.5534985837598351,
+        "actual_error_pass": true,
+        "would_accept": false,
+        "false_accept": false,
+        "false_reject": true,
+        "combined_would_accept": false,
+        "estimator_seconds": 0.7048657923005521,
+        "candidate_seconds": 0.25470329308882356,
+        "control_seconds": 0.09460354107432067,
+        "control_key": "control-3-1e-06-False",
+        "optimistic_candidate_plus_estimator_ratio": 0.09858960914307933,
+        "scope": "Diagnostic cost only, not qualified speedup; final score/ledger and original completeness gates may reject."
+      },
+      {
+        "path": 3,
+        "model": "kecoli",
+        "grids": [
+          4,
+          8
+        ],
+        "target": "1e-06",
+        "actual_error": 0.9231125496958736,
+        "actual_error_pass": true,
+        "would_accept": false,
+        "false_accept": false,
+        "false_reject": true,
+        "combined_would_accept": false,
+        "estimator_seconds": 0.7048657923005521,
+        "candidate_seconds": 0.25470329308882356,
+        "control_seconds": 0.17431066697463393,
+        "control_key": "control-3-1e-08-False",
+        "optimistic_candidate_plus_estimator_ratio": 0.18165515086795636,
+        "scope": "Diagnostic cost only, not qualified speedup; final score/ledger and original completeness gates may reject."
+      }
+    ],
+    "work": [
+      {
+        "path": 0,
+        "grids": [
+          1,
+          2
+        ],
+        "seconds": 0.038192376494407654,
+        "factorizations": 16,
+        "predictor_factor_hits": 16,
+        "linear_solves": 144,
+        "defect_rate_states": 208
+      },
+      {
+        "path": 0,
+        "grids": [
+          2,
+          4
+        ],
+        "seconds": 0.03912195609882474,
+        "factorizations": 32,
+        "predictor_factor_hits": 0,
+        "linear_solves": 288,
+        "defect_rate_states": 352
+      },
+      {
+        "path": 0,
+        "grids": [
+          4,
+          8
+        ],
+        "seconds": 0.047834041295573115,
+        "factorizations": 32,
+        "predictor_factor_hits": 0,
+        "linear_solves": 576,
+        "defect_rate_states": 640
+      },
+      {
+        "path": 1,
+        "grids": [
+          1,
+          2
+        ],
+        "seconds": 0.023615418002009392,
+        "factorizations": 11,
+        "predictor_factor_hits": 11,
+        "linear_solves": 99,
+        "defect_rate_states": 143
+      },
+      {
+        "path": 1,
+        "grids": [
+          2,
+          4
+        ],
+        "seconds": 0.025909706484526396,
+        "factorizations": 22,
+        "predictor_factor_hits": 0,
+        "linear_solves": 198,
+        "defect_rate_states": 242
+      },
+      {
+        "path": 1,
+        "grids": [
+          4,
+          8
+        ],
+        "seconds": 0.031722626183182,
+        "factorizations": 22,
+        "predictor_factor_hits": 0,
+        "linear_solves": 396,
+        "defect_rate_states": 440
+      },
+      {
+        "path": 2,
+        "grids": [
+          1,
+          2
+        ],
+        "seconds": 0.4925811695866287,
+        "factorizations": 16,
+        "predictor_factor_hits": 16,
+        "linear_solves": 144,
+        "defect_rate_states": 208
+      },
+      {
+        "path": 2,
+        "grids": [
+          2,
+          4
+        ],
+        "seconds": 0.5935751665383577,
+        "factorizations": 32,
+        "predictor_factor_hits": 0,
+        "linear_solves": 288,
+        "defect_rate_states": 352
+      },
+      {
+        "path": 2,
+        "grids": [
+          4,
+          8
+        ],
+        "seconds": 0.6561039553489536,
+        "factorizations": 32,
+        "predictor_factor_hits": 0,
+        "linear_solves": 576,
+        "defect_rate_states": 640
+      },
+      {
+        "path": 3,
+        "grids": [
+          1,
+          2
+        ],
+        "seconds": 0.5187011666130275,
+        "factorizations": 16,
+        "predictor_factor_hits": 16,
+        "linear_solves": 144,
+        "defect_rate_states": 208
+      },
+      {
+        "path": 3,
+        "grids": [
+          2,
+          4
+        ],
+        "seconds": 0.6367527926340699,
+        "factorizations": 32,
+        "predictor_factor_hits": 0,
+        "linear_solves": 288,
+        "defect_rate_states": 352
+      },
+      {
+        "path": 3,
+        "grids": [
+          4,
+          8
+        ],
+        "seconds": 0.7048657923005521,
+        "factorizations": 32,
+        "predictor_factor_hits": 0,
+        "linear_solves": 576,
+        "defect_rate_states": 640
+      }
+    ]
+  },
+  "controller": [
+    {
+      "path": 0,
+      "model": "teusink",
+      "attempts": 64,
+      "accepted": 48,
+      "rejected": 16,
+      "false_accepts": 0,
+      "complete": false,
+      "reason": "attempt budget exhausted",
+      "fraction": 0.03634740682900885,
+      "optimistic_seconds": 0.3298952814657241,
+      "audited_seconds": 1.8415038269013166
+    },
+    {
+      "path": 1,
+      "model": "kecoli",
+      "attempts": 64,
+      "accepted": 48,
+      "rejected": 16,
+      "false_accepts": 0,
+      "complete": false,
+      "reason": "attempt budget exhausted",
+      "fraction": 0.0002819299697875979,
+      "optimistic_seconds": 3.578797791618854,
+      "audited_seconds": 63.32459096238017
+    }
+  ],
+  "npz_crc_checked": 96,
+  "historical_manifest_unchanged": true,
+  "M4_admission": false,
+  "scope": "Streaming estimator diagnostics and four short perturbed controller trajectories under two policies only. Original M4 gates unchanged and unfulfilled.",
+  "total_budget": [
+    {
+      "path": 0,
+      "model": "teusink",
+      "attempts": 41,
+      "accepted": 23,
+      "rejected": 18,
+      "false_accepts": 0,
+      "complete": false,
+      "reason": "minimum step reached",
+      "fraction": 0.058303833007812486,
+      "optimistic_seconds": 0.2323856244329363,
+      "audited_seconds": 2.2752740795258433
+    },
+    {
+      "path": 1,
+      "model": "kecoli",
+      "attempts": 64,
+      "accepted": 37,
+      "rejected": 27,
+      "false_accepts": 0,
+      "complete": false,
+      "reason": "attempt budget exhausted",
+      "fraction": 0.9577929966480233,
+      "optimistic_seconds": 3.6920839552767575,
+      "audited_seconds": 118.01740816188976
+    }
+  ],
+  "controller_query_and_rollback_checks": 233
+}
