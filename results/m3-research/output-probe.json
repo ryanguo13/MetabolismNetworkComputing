@@ -1,0 +1,669 @@
+{
+  "scope": "Post-hoc development probe: cubic Hermite using full RHS at the two fine-step endpoints and shared midpoint. No reference states used for construction. Only sampled quarter points are audited, not a continuous error or positivity guarantee.",
+  "original_saved_metrics_recomputed": true,
+  "cubic_exactness_check": true,
+  "positivity_counterexample_check": true,
+  "runs": [
+    {
+      "start": 0.001,
+      "h": 1e-06,
+      "inner_rtol": 1e-08,
+      "method": "strang",
+      "output_seconds": 0.0006061249878257513,
+      "finite": true,
+      "nonnegative": true,
+      "pool_drift": 6.38378239159465e-16,
+      "relative_pool_drift": 3.191891195797323e-16,
+      "linear_grid": {
+        "concentration": 0.00036022256616000163,
+        "flux": 0.000369658003912723,
+        "net_flux": 0.08995615862968463
+      },
+      "endpoint": {
+        "concentration": 0.00029110909647797346,
+        "flux": 0.0003517778067845526,
+        "net_flux": 0.08995615862968463
+      },
+      "hermite_grid": {
+        "concentration": 0.00029110909647797346,
+        "flux": 0.0003517778067845526,
+        "net_flux": 0.08995615862968463
+      },
+      "sampled_pass": true
+    },
+    {
+      "start": 0.001,
+      "h": 1e-06,
+      "inner_rtol": 1e-08,
+      "method": "balanced",
+      "output_seconds": 0.00035266694612801075,
+      "finite": true,
+      "nonnegative": true,
+      "pool_drift": 6.106226635438361e-16,
+      "relative_pool_drift": 3.0531133177191785e-16,
+      "linear_grid": {
+        "concentration": 0.0006963588227956502,
+        "flux": 0.000714506136470196,
+        "net_flux": 0.0015257185400735962
+      },
+      "endpoint": {
+        "concentration": 0.0006963588227956502,
+        "flux": 0.000714506136470196,
+        "net_flux": 0.0015257185400735962
+      },
+      "hermite_grid": {
+        "concentration": 0.0006963588227956502,
+        "flux": 0.000714506136470196,
+        "net_flux": 0.0015257185400735962
+      },
+      "sampled_pass": true
+    },
+    {
+      "start": 0.001,
+      "h": 1e-06,
+      "inner_rtol": 1e-08,
+      "method": "mri2",
+      "output_seconds": 0.00035191699862480164,
+      "finite": true,
+      "nonnegative": true,
+      "pool_drift": 3.885780586188048e-16,
+      "relative_pool_drift": 1.9428902930940227e-16,
+      "linear_grid": {
+        "concentration": 0.0010970749814554926,
+        "flux": 0.0011256428878710502,
+        "net_flux": 0.00240184845629156
+      },
+      "endpoint": {
+        "concentration": 0.0010970749814554926,
+        "flux": 0.0011256428878710502,
+        "net_flux": 0.00240184845629156
+      },
+      "hermite_grid": {
+        "concentration": 0.0010970749814554926,
+        "flux": 0.0011256428878710502,
+        "net_flux": 0.00240184845629156
+      },
+      "sampled_pass": true
+    },
+    {
+      "start": 0.001,
+      "h": 0.0001,
+      "inner_rtol": 1e-08,
+      "method": "strang",
+      "output_seconds": 0.0003376659005880356,
+      "finite": true,
+      "nonnegative": true,
+      "pool_drift": 1.1499481922250254e-14,
+      "relative_pool_drift": 5.749740961125123e-15,
+      "linear_grid": {
+        "concentration": 1.241536057722052,
+        "flux": 1.2794218532539863,
+        "net_flux": 12.774049911077235
+      },
+      "endpoint": {
+        "concentration": 0.0936801910705426,
+        "flux": 0.09835819469602924,
+        "net_flux": 12.75347708136394
+      },
+      "hermite_grid": {
+        "concentration": 0.11020413425195591,
+        "flux": 0.11345837178194682,
+        "net_flux": 45.73773358868927
+      },
+      "sampled_pass": false
+    },
+    {
+      "start": 0.001,
+      "h": 0.0001,
+      "inner_rtol": 1e-08,
+      "method": "balanced",
+      "output_seconds": 0.00034341588616371155,
+      "finite": true,
+      "nonnegative": true,
+      "pool_drift": 2.2863655413374318e-14,
+      "relative_pool_drift": 1.1431827706687151e-14,
+      "linear_grid": {
+        "concentration": 1.2548341818452162,
+        "flux": 1.2928029680260367,
+        "net_flux": 2.805881523461136
+      },
+      "endpoint": {
+        "concentration": 0.04625373301031107,
+        "flux": 0.04669861817982343,
+        "net_flux": 0.12751918180680763
+      },
+      "hermite_grid": {
+        "concentration": 0.04625373301031107,
+        "flux": 0.04669861817982343,
+        "net_flux": 0.1356516090414467
+      },
+      "sampled_pass": true
+    },
+    {
+      "start": 0.001,
+      "h": 0.0001,
+      "inner_rtol": 1e-08,
+      "method": "mri2",
+      "output_seconds": 0.00033120810985565186,
+      "finite": true,
+      "nonnegative": true,
+      "pool_drift": 8.36136715420821e-16,
+      "relative_pool_drift": 4.180683577104102e-16,
+      "linear_grid": {
+        "concentration": 1.2429278343610861,
+        "flux": 1.2810170964151482,
+        "net_flux": 2.7881725928157595
+      },
+      "endpoint": {
+        "concentration": 0.004861661663339444,
+        "flux": 0.005393203944143887,
+        "net_flux": 0.018375839829576652
+      },
+      "hermite_grid": {
+        "concentration": 0.004861661663339444,
+        "flux": 0.005393203944143887,
+        "net_flux": 0.11397352422090551
+      },
+      "sampled_pass": true
+    },
+    {
+      "start": 0.001,
+      "h": 0.0001,
+      "inner_rtol": 1e-10,
+      "method": "strang",
+      "output_seconds": 0.0003412079531699419,
+      "finite": true,
+      "nonnegative": true,
+      "pool_drift": 1.752764600126966e-14,
+      "relative_pool_drift": 8.763823000634823e-15,
+      "linear_grid": {
+        "concentration": 1.241385334527086,
+        "flux": 1.2792588232706432,
+        "net_flux": 11.918504410618407
+      },
+      "endpoint": {
+        "concentration": 0.09306636229357336,
+        "flux": 0.09761077348941286,
+        "net_flux": 11.898062091456497
+      },
+      "hermite_grid": {
+        "concentration": 0.10942205096166681,
+        "flux": 0.11262376185796517,
+        "net_flux": 43.12043216384212
+      },
+      "sampled_pass": false
+    },
+    {
+      "start": 0.001,
+      "h": 0.0001,
+      "inner_rtol": 1e-10,
+      "method": "balanced",
+      "output_seconds": 0.0003273750189691782,
+      "finite": true,
+      "nonnegative": true,
+      "pool_drift": 8.616371505176801e-15,
+      "relative_pool_drift": 4.308185752588397e-15,
+      "linear_grid": {
+        "concentration": 1.2513240381235795,
+        "flux": 1.2890638369613312,
+        "net_flux": 2.79444262135262
+      },
+      "endpoint": {
+        "concentration": 0.03615164861435228,
+        "flux": 0.03615164843589737,
+        "net_flux": 0.0682159483368676
+      },
+      "hermite_grid": {
+        "concentration": 0.03615164861435228,
+        "flux": 0.03615164843589737,
+        "net_flux": 0.09694661350243325
+      },
+      "sampled_pass": true
+    },
+    {
+      "start": 0.001,
+      "h": 0.0001,
+      "inner_rtol": 1e-10,
+      "method": "mri2",
+      "output_seconds": 0.00033904192969202995,
+      "finite": true,
+      "nonnegative": true,
+      "pool_drift": 6.841749389252527e-15,
+      "relative_pool_drift": 3.4208746946262612e-15,
+      "linear_grid": {
+        "concentration": 1.2413062378352004,
+        "flux": 1.2792027752511212,
+        "net_flux": 2.782521337084366
+      },
+      "endpoint": {
+        "concentration": 0.00029028477310613605,
+        "flux": 0.000290284770847986,
+        "net_flux": 0.0034933011491827524
+      },
+      "hermite_grid": {
+        "concentration": 0.0004415349732433835,
+        "flux": 0.0004415349695970744,
+        "net_flux": 0.0034933011491827524
+      },
+      "sampled_pass": true
+    },
+    {
+      "start": 0.001,
+      "h": 0.001,
+      "inner_rtol": 1e-08,
+      "method": "strang",
+      "output_seconds": 0.0003465828485786915,
+      "finite": true,
+      "nonnegative": true,
+      "pool_drift": 1.7605535085341018e-13,
+      "relative_pool_drift": 8.802767542670502e-14,
+      "linear_grid": {
+        "concentration": 81.73346313785598,
+        "flux": 87.47673768512713,
+        "net_flux": 196.91844777018633
+      },
+      "endpoint": {
+        "concentration": 1.3360696487150037,
+        "flux": 2.406624802289862,
+        "net_flux": 103.61897451282033
+      },
+      "hermite_grid": {
+        "concentration": 1.5809480461104986,
+        "flux": 2.5041749162596543,
+        "net_flux": 372.64591955939375
+      },
+      "sampled_pass": false
+    },
+    {
+      "start": 0.001,
+      "h": 0.001,
+      "inner_rtol": 1e-08,
+      "method": "balanced",
+      "output_seconds": 0.00031787483021616936,
+      "finite": true,
+      "nonnegative": true,
+      "pool_drift": 6.052797152378275e-14,
+      "relative_pool_drift": 3.026398576189136e-14,
+      "linear_grid": {
+        "concentration": 88.28025224850526,
+        "flux": 93.97891447367154,
+        "net_flux": 222.75795816906185
+      },
+      "endpoint": {
+        "concentration": 10.266722052817574,
+        "flux": 10.541816799113882,
+        "net_flux": 30.970033202012374
+      },
+      "hermite_grid": {
+        "concentration": 13.09314494971202,
+        "flux": 13.09911499817599,
+        "net_flux": 30.970033202012374
+      },
+      "sampled_pass": false
+    },
+    {
+      "start": 0.001,
+      "h": 0.001,
+      "inner_rtol": 1e-08,
+      "method": "mri2",
+      "output_seconds": 0.00031712488271296024,
+      "finite": true,
+      "nonnegative": true,
+      "pool_drift": 6.133114849316001e-14,
+      "relative_pool_drift": 3.066557424657999e-14,
+      "linear_grid": {
+        "concentration": 81.73340246972738,
+        "flux": 87.48232302259814,
+        "net_flux": 209.91132884311588
+      },
+      "endpoint": {
+        "concentration": 0.004663970069242798,
+        "flux": 0.00466397006927737,
+        "net_flux": 1.3639181031189087
+      },
+      "hermite_grid": {
+        "concentration": 1.5818102588088485,
+        "flux": 1.5818102510141305,
+        "net_flux": 5.982672962660984
+      },
+      "sampled_pass": false
+    },
+    {
+      "start": 0.01,
+      "h": 1e-06,
+      "inner_rtol": 1e-08,
+      "method": "strang",
+      "output_seconds": 0.0003126249648630619,
+      "finite": true,
+      "nonnegative": true,
+      "pool_drift": 4.996003610813204e-16,
+      "relative_pool_drift": 2.498001805406602e-16,
+      "linear_grid": {
+        "concentration": 0.0002218366012749737,
+        "flux": 0.0003896381402590625,
+        "net_flux": 0.09171901361173786
+      },
+      "endpoint": {
+        "concentration": 0.0002218366012749737,
+        "flux": 0.0003896381402590625,
+        "net_flux": 0.09171901361173786
+      },
+      "hermite_grid": {
+        "concentration": 0.0002218366012749737,
+        "flux": 0.0003896381402590625,
+        "net_flux": 0.09171901361173786
+      },
+      "sampled_pass": true
+    },
+    {
+      "start": 0.01,
+      "h": 1e-06,
+      "inner_rtol": 1e-08,
+      "method": "balanced",
+      "output_seconds": 0.00031287502497434616,
+      "finite": true,
+      "nonnegative": true,
+      "pool_drift": 4.718447854656915e-16,
+      "relative_pool_drift": 2.3592239273284576e-16,
+      "linear_grid": {
+        "concentration": 1.0965514712097627e-06,
+        "flux": 2.071282168274761e-06,
+        "net_flux": 1.9000129015567345e-05
+      },
+      "endpoint": {
+        "concentration": 1.0965514712097627e-06,
+        "flux": 2.071282168274761e-06,
+        "net_flux": 1.9000129015567345e-05
+      },
+      "hermite_grid": {
+        "concentration": 1.0965514712097627e-06,
+        "flux": 2.071282168274761e-06,
+        "net_flux": 0.00019094378854279584
+      },
+      "sampled_pass": true
+    },
+    {
+      "start": 0.01,
+      "h": 1e-06,
+      "inner_rtol": 1e-08,
+      "method": "mri2",
+      "output_seconds": 0.00031287502497434616,
+      "finite": true,
+      "nonnegative": true,
+      "pool_drift": 6.418476861114186e-16,
+      "relative_pool_drift": 3.209238430557093e-16,
+      "linear_grid": {
+        "concentration": 2.980704276354002e-06,
+        "flux": 5.628288089864556e-06,
+        "net_flux": 5.174087961509822e-05
+      },
+      "endpoint": {
+        "concentration": 2.980704276354002e-06,
+        "flux": 5.628288089864556e-06,
+        "net_flux": 5.174087961509822e-05
+      },
+      "hermite_grid": {
+        "concentration": 2.980704276354002e-06,
+        "flux": 5.628288089864556e-06,
+        "net_flux": 5.174087961509822e-05
+      },
+      "sampled_pass": true
+    },
+    {
+      "start": 0.01,
+      "h": 0.0001,
+      "inner_rtol": 1e-08,
+      "method": "strang",
+      "output_seconds": 0.0003198748454451561,
+      "finite": true,
+      "nonnegative": true,
+      "pool_drift": 2.0396878630535298e-14,
+      "relative_pool_drift": 1.0198439315267649e-14,
+      "linear_grid": {
+        "concentration": 0.09620030705587357,
+        "flux": 0.09927199465801098,
+        "net_flux": 12.39158360845176
+      },
+      "endpoint": {
+        "concentration": 0.095757852474529,
+        "flux": 0.09927199465801098,
+        "net_flux": 12.371139440232945
+      },
+      "hermite_grid": {
+        "concentration": 0.11179672964476822,
+        "flux": 0.11361394811140199,
+        "net_flux": 44.58899993712914
+      },
+      "sampled_pass": false
+    },
+    {
+      "start": 0.01,
+      "h": 0.0001,
+      "inner_rtol": 1e-08,
+      "method": "balanced",
+      "output_seconds": 0.00031800009310245514,
+      "finite": true,
+      "nonnegative": true,
+      "pool_drift": 2.4978283330590045e-14,
+      "relative_pool_drift": 1.2489141665295023e-14,
+      "linear_grid": {
+        "concentration": 0.0028835917245716466,
+        "flux": 0.005457279902427419,
+        "net_flux": 0.05076166112094093
+      },
+      "endpoint": {
+        "concentration": 0.0013998582137769323,
+        "flux": 0.0026530426134626817,
+        "net_flux": 0.03146539698423611
+      },
+      "hermite_grid": {
+        "concentration": 0.0013998582137769323,
+        "flux": 0.0026530426134626817,
+        "net_flux": 0.053075927377206907
+      },
+      "sampled_pass": true
+    },
+    {
+      "start": 0.01,
+      "h": 0.0001,
+      "inner_rtol": 1e-08,
+      "method": "mri2",
+      "output_seconds": 0.00032724998891353607,
+      "finite": true,
+      "nonnegative": true,
+      "pool_drift": 7.908604326978264e-15,
+      "relative_pool_drift": 3.954302163489132e-15,
+      "linear_grid": {
+        "concentration": 0.0036384611284883297,
+        "flux": 0.006877573688642461,
+        "net_flux": 0.063006309832136
+      },
+      "endpoint": {
+        "concentration": 0.002422560460904727,
+        "flux": 0.004577842939364695,
+        "net_flux": 0.04196882929123566
+      },
+      "hermite_grid": {
+        "concentration": 0.002422560460904727,
+        "flux": 0.004577842939364695,
+        "net_flux": 0.18584839059681132
+      },
+      "sampled_pass": true
+    },
+    {
+      "start": 0.01,
+      "h": 0.0001,
+      "inner_rtol": 1e-10,
+      "method": "strang",
+      "output_seconds": 0.00031787483021616936,
+      "finite": true,
+      "nonnegative": true,
+      "pool_drift": 5.450501161519128e-15,
+      "relative_pool_drift": 2.725250580759564e-15,
+      "linear_grid": {
+        "concentration": 0.09577466235551693,
+        "flux": 0.09871309607871198,
+        "net_flux": 11.99270334103445
+      },
+      "endpoint": {
+        "concentration": 0.09530394595938324,
+        "flux": 0.09871309607871198,
+        "net_flux": 11.973544228671344
+      },
+      "hermite_grid": {
+        "concentration": 0.11129759451930717,
+        "flux": 0.11307768752002959,
+        "net_flux": 43.3684263470824
+      },
+      "sampled_pass": false
+    },
+    {
+      "start": 0.01,
+      "h": 0.0001,
+      "inner_rtol": 1e-10,
+      "method": "balanced",
+      "output_seconds": 0.0003117078449577093,
+      "finite": true,
+      "nonnegative": true,
+      "pool_drift": 1.6547527237342763e-14,
+      "relative_pool_drift": 8.273763618671381e-15,
+      "linear_grid": {
+        "concentration": 0.0018426942977020435,
+        "flux": 0.0034827646497275996,
+        "net_flux": 0.031924060199856975
+      },
+      "endpoint": {
+        "concentration": 4.3485274093979895e-05,
+        "flux": 7.81486489394535e-05,
+        "net_flux": 0.002881704470842071
+      },
+      "hermite_grid": {
+        "concentration": 4.3485274093979895e-05,
+        "flux": 7.81486489394535e-05,
+        "net_flux": 0.002881704470842071
+      },
+      "sampled_pass": true
+    },
+    {
+      "start": 0.01,
+      "h": 0.0001,
+      "inner_rtol": 1e-10,
+      "method": "mri2",
+      "output_seconds": 0.00031195790506899357,
+      "finite": true,
+      "nonnegative": true,
+      "pool_drift": 1.8884199759483522e-14,
+      "relative_pool_drift": 9.442099879741761e-15,
+      "linear_grid": {
+        "concentration": 0.001844754597693002,
+        "flux": 0.0034886541068749905,
+        "net_flux": 0.03192261753175425
+      },
+      "endpoint": {
+        "concentration": 5.0172521664109655e-05,
+        "flux": 9.508038793622064e-05,
+        "net_flux": 0.0008645506499503022
+      },
+      "hermite_grid": {
+        "concentration": 5.0172521664109655e-05,
+        "flux": 9.508038793622064e-05,
+        "net_flux": 0.002534318645509323
+      },
+      "sampled_pass": true
+    },
+    {
+      "start": 0.01,
+      "h": 0.001,
+      "inner_rtol": 1e-08,
+      "method": "strang",
+      "output_seconds": 0.00031845783814787865,
+      "finite": true,
+      "nonnegative": true,
+      "pool_drift": 1.2484978328952678e-13,
+      "relative_pool_drift": 6.242489164476339e-14,
+      "linear_grid": {
+        "concentration": 1.334068804216567,
+        "flux": 2.454130431267694,
+        "net_flux": 103.64557275101521
+      },
+      "endpoint": {
+        "concentration": 1.334068804216567,
+        "flux": 2.425174902285224,
+        "net_flux": 103.64557275101521
+      },
+      "hermite_grid": {
+        "concentration": 1.334068804216567,
+        "flux": 2.431213023091617,
+        "net_flux": 374.26345048553264
+      },
+      "sampled_pass": false
+    },
+    {
+      "start": 0.01,
+      "h": 0.001,
+      "inner_rtol": 1e-08,
+      "method": "balanced",
+      "output_seconds": 0.0003272080793976784,
+      "finite": true,
+      "nonnegative": true,
+      "pool_drift": 1.3391197872802962e-13,
+      "relative_pool_drift": 6.695598936401481e-14,
+      "linear_grid": {
+        "concentration": 0.17516713722915828,
+        "flux": 0.331723180706022,
+        "net_flux": 3.0193214745903956
+      },
+      "endpoint": {
+        "concentration": 0.007891270278612502,
+        "flux": 0.014690782749265023,
+        "net_flux": 0.3258128537829565
+      },
+      "hermite_grid": {
+        "concentration": 0.007891270278612502,
+        "flux": 0.014690782749265023,
+        "net_flux": 0.3258128537829565
+      },
+      "sampled_pass": true
+    },
+    {
+      "start": 0.01,
+      "h": 0.001,
+      "inner_rtol": 1e-08,
+      "method": "mri2",
+      "output_seconds": 0.0003183751832693815,
+      "finite": true,
+      "nonnegative": true,
+      "pool_drift": 1.469588339908512e-13,
+      "relative_pool_drift": 7.34794169954256e-14,
+      "linear_grid": {
+        "concentration": 0.17405568604800872,
+        "flux": 0.32782719950106354,
+        "net_flux": 2.9832074533534003
+      },
+      "endpoint": {
+        "concentration": 0.0023857937847687007,
+        "flux": 0.0025768533795628235,
+        "net_flux": 0.030781594715894034
+      },
+      "hermite_grid": {
+        "concentration": 0.0023857937847687007,
+        "flux": 0.0025768533795628235,
+        "net_flux": 0.07537208193447462
+      },
+      "sampled_pass": true
+    }
+  ],
+  "evidence_sha256": {
+    "results/m3-research/probe.json": "ddb8c731c2e6b5ba9a5edaf8fc817fedb1ef76b280ec37b7f136ea2527916be2",
+    "results/m3-research/probe.npz": "0924ddf788c6da5798626ec16a1cca726d9f636ef73976f31338cc03ec412963",
+    "research/m3_output_probe.py": "7209125b9241566ab8f95df4c72f9f41704170dadfc9056f7d2570e273593432",
+    "research/m3_coupling_probe.py": "a9b127f68970c0347fbe3b57b918d6f90e6d59eef65000f0760954d36d579f44",
+    "metabolism/__init__.py": "741ff9b36f011f5cbb72e2a148f9b67c30dbdfaac866116b971f5255826801da",
+    "metabolism/cvode.py": "6733fb499c0262bf87dc2040dd6aec44a91085f1dbe1b12f0056f8eb277e05c2",
+    "metabolism/kecoli.py": "73f46ac5ceebe3242c8dc313fa80fb1588a32c82a58527b305f69fcd0fd4d851",
+    "metabolism/splitting.py": "12ccc9526113e7080d9b56c7763c56a79d37a7fd9c2bacb9b25b2e7f6d1164a3",
+    "metabolism/adaptive.py": "427c67bfba193a79fb6d3d96aecc5ed01efa1a5d3fc7cbc82e525f3cf851db69",
+    "metabolism/m2_experiments.py": "7e80077011e0f9a7e0fc63e2c4019e62aa229cef560eb7b79669dfe024a893f2",
+    "metabolism/m3_continuation.py": "90b539d8f7ce2dae6d574b6285bcd66fcb4b95b3950f96ff81fed6301bd65401"
+  }
+}

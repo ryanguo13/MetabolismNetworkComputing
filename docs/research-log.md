@@ -1,5 +1,11 @@
 # 检索与证据记录
 
+## 2026-11-07：M3 瓶颈定向研究补充
+
+本次先完成 `test` 既有工作推送，再针对已观测的净通量偏差、粗细估计失准、输出误差及重启成本定向检索。检索式包括 `Speth Green MacNamara Strang`、`implicit multirate infinitesimal Chinomona Reynolds`，通过 Crossref 核验新增书目，OpenAlex 定位 MIT／arXiv 全文；同时复读已有 Sandu、Descombes 全文及 ARKODE 官方数学文档。部分宽泛 Crossref 检索不相关或返回 429，改为作者与方法定向检索；没有把失败检索当成不存在相关文献的证据。
+
+实际阅读范围、公式、版本与证据边界见 [M3 瓶颈研究](m3-research-resolution.md) §7；下载内容 SHA-256 见 [sources.json](../results/m3-research/sources.json)。新增 BibTeX 键为 `Speth2013Balanced`、`Chinomona2021IMEXMRI`。本轮同时实际运行 24 个大模型局部探针和输出补查，属于开发验证，不是系统综述、全窗口验收或新颖性证明。下方 M0 记录保留原日期与阅读范围。
+
 开始：2026-11-01；整理完成：2026-11-02（Asia/Shanghai）。本轮是定向研究调研，不是穷尽检索或系统综述。
 
 ## 1. 检索方式与取舍

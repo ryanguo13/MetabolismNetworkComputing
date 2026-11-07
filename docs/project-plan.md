@@ -1,11 +1,13 @@
 # 项目规划：代谢动力学中的自适应快—慢算子分裂
 
-版本：规划 v0.6 · 2026-11-07（Asia/Shanghai）
+版本：规划 v0.7 · 2026-11-07（Asia/Shanghai）
 状态：**M1–M3 已完成；M3 正确性通过，效率继续条件未得到支持，M4／PE 不准入；M5／M6 未执行。** 本文保留原设计及工作量估计；实际证据与范围见 [M1 验收报告](m1-completion-report.md)、[M2 报告](m2-completion-report.md)和 [M3 报告](m3-completion-report.md)。Chassagnole 仅作完整系统对照，自治分裂对象为 Teusink／k-ecoli457。文献编号见 [阅读笔记](literature-review.md)，评估细节见 [基准协议](benchmark-protocol.md)。
 
 2026-11-07 按用户要求重新推进 M3，在 Mac 上验证独立观察输出、分区缓存、512 次尝试预算和初始层前缀，并重测同机强基线。16 个开发探针、9 个冻结分组局部补查及 70 次正式基线重复仍未给出效率继续证据；M4 保持不准入。新增源码及数据与历史分开，详见 [macOS 续作报告](m3-macos-continuation.md)。原精度、收支、安全审计及同实际精度比较原则不放宽。
 
 ## 1. 原始建议如何落实
+
+**M3 研究续线（2026-11-07）：**新增 24 次局部耦合探针支持将 MRI-GARK + 完整 RHS Hermite 输出列为下一轮主线，balanced splitting 为对照。先扩展正确性与通量控制，再检验重启成本和完整窗口效率；不改 M4 准入标准。具体公式、失败样例、文献和 P0–P3 任务见 [瓶颈研究](m3-research-resolution.md)。此续线是无降阶方法研究，不是 PE 实施或新方法已验收。
 
 依据为仓库根目录的 [grok_idea.md](../grok_idea.md)，而非另一个不存在的 `idea.md`。
 

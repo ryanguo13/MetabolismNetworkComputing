@@ -1,0 +1,16 @@
+{
+  "date": "2026-11-07",
+  "timezone": "Asia/Shanghai",
+  "python": "3.12.10 (main, May 22 2025, 01:38:44) [Clang 20.1.4 ]",
+  "platform": "macOS-26.6.2-arm64-arm-64bit",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1",
+  "base_commit": "0516865c2da8e09373c7e620885f8edb2e8f2bd5",
+  "threads": 1,
+  "native": "Project SUNDIALS 6.4.1 + KLU; same pinned runtime as m3-continuation",
+  "commands": [
+    "bash scripts/run-macos.sh -m research.m3_coupling_probe",
+    "bash scripts/run-macos.sh -m research.m3_output_probe",
+    "bash scripts/run-macos.sh -m research.plot_m3_coupling"
+  ]
+}

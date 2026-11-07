@@ -1,0 +1,68 @@
+{
+  "access_date": "2026-11-07",
+  "timezone": "Asia/Shanghai",
+  "sources": [
+    {
+      "key": "Speth2013Balanced",
+      "url": "https://dspace.mit.edu/server/api/core/bitstreams/dcb4dafb-13fb-4952-b91c-1377974dbe84/content",
+      "version": "MIT cover identifies final published version; 23 PDF pages including cover",
+      "read_sections": "sections 4-8; simple formula 5.1-5.6 and rebalanced 7.7",
+      "bytes": 536162,
+      "sha256": "63b1feb1c88d0cc6e16938c87fb604571984db620aae8c162822c32c188d1e4a"
+    },
+    {
+      "key": "Sandu2019",
+      "url": "https://arxiv.org/pdf/1808.02759v3",
+      "version": "arXiv v3, 2022-02-01",
+      "read_sections": "abstract; Definition 2.2; Example 2.8; section 6.1",
+      "bytes": 1280989,
+      "sha256": "70a9b85334170f14d38a895bb27f20aba0cb61f77515f3ba77c4137a59d05730"
+    },
+    {
+      "key": "Chinomona2021IMEXMRI",
+      "url": "https://arxiv.org/pdf/2007.09776",
+      "version": "Downloaded current version; PDF identifies v3, 2021-05-03",
+      "read_sections": "sections 1, 5.2, 6; body pages 23-25",
+      "bytes": 802965,
+      "sha256": "9a1db9906bea5c3c589b25e3ea09824056936352f290ddf7571f00af7025a1fa"
+    },
+    {
+      "key": "Descombes2011",
+      "url": "https://arxiv.org/pdf/1104.3697v2",
+      "version": "arXiv v2",
+      "read_sections": "section 3 estimator domain; body pages 10-11",
+      "bytes": 493252,
+      "sha256": "9930e91dcc87dc43085ba3ddb7206563d924598c2109213b44f22587f0f6619c"
+    },
+    {
+      "key": "ARKODEDocs",
+      "url": "https://sundials.readthedocs.io/en/latest/arkode/Mathematics_link.html",
+      "version": "latest page retrieved 2026-11-07; not pinned 6.4.1 documentation",
+      "read_sections": "sections 2.2.7 and 2.2.11.1-2",
+      "bytes": 231170,
+      "sha256": "9006d7d2712003a4433d5f53a6bc6913162a7799b8306e416d7177c370dee58f"
+    },
+    {
+      "type": "Crossref metadata",
+      "DOI": "10.1137/120878641",
+      "title": [
+        "Balanced Splitting and Rebalanced Splitting"
+      ],
+      "volume": "51",
+      "issue": "6",
+      "page": "3084-3105",
+      "sha256": "e4de094a790c51da25d8d3ff68c58e40f541f42552421c8a4b5e40f24eb4b838"
+    },
+    {
+      "type": "Crossref metadata",
+      "DOI": "10.1137/20m1354349",
+      "title": [
+        "Implicit-Explicit Multirate Infinitesimal GARK Methods"
+      ],
+      "volume": "43",
+      "issue": "5",
+      "page": "A3082-A3113",
+      "sha256": "a44a33be46e03b6a95f676832399effa65482872d70f52a607710b4ed72e5761"
+    }
+  ]
+}
