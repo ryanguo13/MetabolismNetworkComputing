@@ -1,0 +1,10 @@
+test_constant_forcing_exact_curve_and_ledgers (research.test_inner_dense.DenseChecks.test_constant_forcing_exact_curve_and_ledgers) ... ok
+test_interior_negative_and_invalid_queries (research.test_inner_dense.DenseChecks.test_interior_negative_and_invalid_queries) ... ok
+test_variable_forcing_same_endpoint_and_dense_is_not_original_solution (research.test_inner_dense.DenseChecks.test_variable_forcing_same_endpoint_and_dense_is_not_original_solution) ... ok
+test_insufficient_history_rejected (research.test_history_output.HistoryChecks.test_insufficient_history_rejected) ... ok
+test_nonuniform_cubic_and_linear_invariant (research.test_history_output.HistoryChecks.test_nonuniform_cubic_and_linear_invariant) ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.179s
+
+OK

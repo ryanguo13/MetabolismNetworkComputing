@@ -1,0 +1,34 @@
+{
+  "date": "2026-11-08",
+  "steps": [
+    0.1,
+    0.05,
+    0.025,
+    0.0125,
+    0.00625
+  ],
+  "tolerance": 1e-13,
+  "scope": "Linear positive conservative three-state problem, exact expm reference. One-step errors; no extrapolation to all networks.",
+  "matrix": [
+    [
+      -10.0,
+      3.0,
+      0.0
+    ],
+    [
+      10.0,
+      -4.0,
+      2.0
+    ],
+    [
+      0.0,
+      1.0,
+      -2.0
+    ]
+  ],
+  "source_sha256": {
+    "research/m3_dense_order.py": "b7e2943b7f5639560c89290237fe3e86790d2caea2786b8e3159a7be7c18dd2b",
+    "research/mri_dense.py": "bc59293b974d12dce34a4568ba89bdc2267b42579288cad038cffd454f4a0141",
+    "research/inner_dense.py": "e19b0221a27f5fa861c7a0877d64f9e04b638a3fc514326c7968541f13ec133b"
+  }
+}

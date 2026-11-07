@@ -1,0 +1,97 @@
+{
+  "date": "2026-11-08",
+  "specs": [
+    [
+      "teusink",
+      1.0,
+      0.01,
+      0.01
+    ],
+    [
+      "teusink",
+      1.0,
+      0.03,
+      0.01
+    ],
+    [
+      "teusink",
+      1.0,
+      0.1,
+      0.01
+    ],
+    [
+      "teusink",
+      1.0,
+      0.3,
+      0.01
+    ],
+    [
+      "teusink",
+      1.0,
+      0.001,
+      0.1
+    ],
+    [
+      "teusink",
+      1.0,
+      0.01,
+      0.1
+    ],
+    [
+      "teusink",
+      0.0,
+      1e-07,
+      0.01
+    ],
+    [
+      "kecoli",
+      0.1,
+      0.001,
+      0.01
+    ],
+    [
+      "kecoli",
+      0.1,
+      0.003,
+      0.01
+    ],
+    [
+      "kecoli",
+      0.1,
+      0.01,
+      0.01
+    ],
+    [
+      "kecoli",
+      0.1,
+      0.001,
+      0.1
+    ],
+    [
+      "kecoli",
+      0.0,
+      1e-08,
+      0.01
+    ]
+  ],
+  "tolerances": [
+    1e-08,
+    1e-10
+  ],
+  "output": "Inner Radau cubics plus exact inactive-coordinate forcing integral; exact polynomial extrema and joins checked.",
+  "independent_grid": "65 uniform points + original observation points + all inner piece ends and midpoints from both candidate tolerances, rounded to 14 fractional decimals to deduplicate roundoff.",
+  "control": "Equally ordered full Radau with the same polynomial nonnegativity, joins, physical ledger and query grid; no shadow estimator or reduced audits.",
+  "scope": "Known states and two startup probes; single development timings only. Constant-slow small-model grouping explicitly marked degenerate.",
+  "stopping": "No output or M4 admission unless original concentration/flux, pool, positivity and physical ledger all pass. Retain every failure.",
+  "source_sha256": {
+    "research/inner_dense.py": "e19b0221a27f5fa861c7a0877d64f9e04b638a3fc514326c7968541f13ec133b",
+    "research/mri_dense.py": "bc59293b974d12dce34a4568ba89bdc2267b42579288cad038cffd454f4a0141",
+    "research/test_inner_dense.py": "61984741fbd0c31fdadf9425b959a6fa81d1c097dd358a27e49cf0516c0f884d",
+    "research/m3_dense_study.py": "02daf9a3152a07c904551f0ca6a28294ffd4a45682f2473fc09d0656ce341981",
+    "research/mri_third.py": "d621ea01e664f316974425cfb4496fb42a1ccbda5cfcc32b7f4b62df63ae6ae4",
+    "research/mri_single.py": "ded2ee5a4c4c12ec6c4819edb73164a78e1f908195cb07c368563de598e24f2c",
+    "research/ordered_radau.py": "f41f628d6575babc57ddf949706372357f379ad1ca9093f229826572c4a1c423",
+    "research/m3_single_study.py": "e16a24fd4b2b48133cedc3cffc3a65337cd29324155d34b176924dddb654efb5",
+    "research/m3_ordered_cost.py": "65f4695f8bd500897bbc6b29afb7d935d4b0f500fc7d53cd99633835631ac5e5"
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "date": "2026-11-08",
+  "specs": [
+    [
+      "teusink",
+      1.0,
+      0.01,
+      0.01
+    ],
+    [
+      "teusink",
+      1.0,
+      0.03,
+      0.01
+    ],
+    [
+      "teusink",
+      1.0,
+      0.001,
+      0.1
+    ],
+    [
+      "kecoli",
+      0.1,
+      0.001,
+      0.01
+    ],
+    [
+      "kecoli",
+      0.1,
+      0.003,
+      0.01
+    ],
+    [
+      "kecoli",
+      0.1,
+      0.001,
+      0.1
+    ]
+  ],
+  "steps": 8,
+  "tolerance": 1e-10,
+  "source": "https://sundials.readthedocs.io/en/latest/arkode/Mathematics_link.html#lagrange-interpolation-module",
+  "local_cached_page_sha256": "9006d7d2712003a4433d5f53a6bc6913162a7799b8306e416d7177c370dee58f",
+  "source_scope": "Previously retrieved latest documentation; reread section2.2.2.2, not claiming this page is pinned to SUNDIALS6.4.1.",
+  "scope": "Post-inner-curve failure development. Forced diagnostic paths; error rejection does not become accepted state. Negative curves stop path.",
+  "history": "Last four computed macro endpoints only. No reference-state history. First two intervals cannot supply cubic history and are marked unavailable.",
+  "audit": "65 uniform plus public observation points; independent local and whole-path references; local reference tightening at1e-11/1e-12.",
+  "source_sha256": {
+    "research/m3_history_study.py": "9e4c673159aae8d15bd39c81c9a1e8b57d95fe8c28b2ef8abcca9585a5f78afc",
+    "research/history_output.py": "8ab24c20ba57cfbddc397f29ac96724c1de1bfbb80aabf3a613e97c4d3aae35a",
+    "research/test_history_output.py": "4b6f7ac981856c25475edd5e1cad8bc719da43ccac8b77b7d984e01657d21304",
+    "research/mri_dense.py": "bc59293b974d12dce34a4568ba89bdc2267b42579288cad038cffd454f4a0141",
+    "research/inner_dense.py": "e19b0221a27f5fa861c7a0877d64f9e04b638a3fc514326c7968541f13ec133b"
+  }
+}
