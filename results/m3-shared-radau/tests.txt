@@ -1,0 +1,12 @@
+test_bad_seed_refreshes_before_acceptance (research.test_shared_radau.SharedChecks.test_bad_seed_refreshes_before_acceptance) ... ok
+test_cache_requires_exact_matrix_including_dtype_and_pattern (research.test_shared_radau.SharedChecks.test_cache_requires_exact_matrix_including_dtype_and_pattern) ... ok
+test_endpoint_equivalence_ablation_and_fresh_trial (research.test_shared_radau.SharedChecks.test_endpoint_equivalence_ablation_and_fresh_trial) ... ok
+test_equal_small_substeps_share_factors (research.test_shared_radau.SharedChecks.test_equal_small_substeps_share_factors) ... ok
+test_full_curve_same_equations_guards_and_output (research.test_shared_radau.SharedChecks.test_full_curve_same_equations_guards_and_output) ... ok
+test_endpoint_and_full_curve_accuracy_and_guards (research.test_fullstep_radau.FullStepChecks.test_endpoint_and_full_curve_accuracy_and_guards) ... ok
+test_full_interval_attempt_is_rejected_when_inaccurate (research.test_fullstep_radau.FullStepChecks.test_full_interval_attempt_is_rejected_when_inaccurate) ... ok
+
+----------------------------------------------------------------------
+Ran 7 tests in 0.246s
+
+OK
