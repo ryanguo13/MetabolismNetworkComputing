@@ -1,0 +1,62 @@
+{
+  "date": "2026-11-08",
+  "models": {
+    "teusink": {
+      "start": 1.0,
+      "thresholds": [
+        0.3,
+        3.0,
+        10.0
+      ]
+    },
+    "kecoli": {
+      "start": 0.1,
+      "thresholds": [
+        0.01,
+        0.1,
+        1.0
+      ]
+    }
+  },
+  "steps": [
+    0.001,
+    0.003,
+    0.01
+  ],
+  "orders": [
+    2,
+    3
+  ],
+  "outputs": [
+    "inner",
+    "hermite"
+  ],
+  "tolerances": [
+    1e-06,
+    1e-08
+  ],
+  "predictor_residual": 1e-11,
+  "method": "Published SPC-MRI-GARK SDIRK2(1)2 / SDIRK3(2)4, primary gamma rows, arXiv1812.00808v5 Definition2.1 AppendixA.1.1/A.1.3. Embedded formulas not used.",
+  "scope": "144 candidate,12 standalone SDIRK and36 mature full Radau local trials; single development timings, no full-window evidence.",
+  "predictor": "Complete system stages, shared frozen analytic Jacobian/LU; refresh at iterations4/8 if needed, at most12, positivity-damped updates; original stage equation residual required.",
+  "corrector": "Exactly one modified fast solve, exact inactive forcing integral; borrowed predictor reaction gradient seeds a stale/refreshable fast Jacobian. Rejected internal states retained in failure diagnostics, never clipped.",
+  "output_policy": "Raw fast curve or full-RHS Hermite. Raw curve positivity and modified ledger checked in both. Actual physical ledger and actual query errors tested on selected output.",
+  "baselines": "Same SDIRK predictor alone with full RHS Hermite; mature full Radau tolerances1e-6/1e-8/1e-10, automatic/whole first step, same state/grid and guards.",
+  "audits": "Independent full1e-12/1e-11,65 points plus public observations; strict budget<=.05 required. Failed budget excludes qualification, retains diagnostics.",
+  "timing": "All complete predictor stages/factors, one fast solve, final output/guards counted. Cached grouping and independent reference/accuracy scoring outside timer. Optimistic local costs; failed inner work counters may be partial.",
+  "source_sha256": {
+    "research/spc_mri.py": "8684bdf7720042fee31a227aee6131b3fdb8c6423be191acce1abe4092ba48f7",
+    "research/test_spc_mri.py": "2f326a7d0abbb237ae5f666c95d7145e738492195df50ed57024646edb72d22f",
+    "research/m3_spc_study.py": "783db53a78fbec3b6931ac501a0d57bf4a4cf4630efbedac71b20ad6ffb57b95",
+    "research/shared_radau.py": "0174d7d91eb1a3d59d514493a730af52b1e1a1d10b764bb892716c9da666edef",
+    "research/fullstep_radau.py": "ec224519a31b512359d1645b4d2211e80b9d436a7cd6e7ff8dfca568d9439f32",
+    "research/inner_dense.py": "e19b0221a27f5fa861c7a0877d64f9e04b638a3fc514326c7968541f13ec133b",
+    "research/extrapolated_flow.py": "2e5586c85464c8c49a6a55084ddadcf9cdac681d0459676f4c59397ae1af9d89",
+    "research/m3_growth_study.py": "ef440e9984b74ff8440d0c6d4e1ec9e79e1ce32ac997535847e5ddf6a3e05955",
+    "research/m3_extrapolated_paths.py": "7ce2742d48adf31bb1b73372cb09f7085e18e1507d32b8543ac3c8217f9b64cf"
+  },
+  "input_sha256": {
+    "results/m3-priority/p0.npz": "8be94525b6c3caa007123f284101ab165b725d38ab1567a121f4923993ed4243",
+    "results/m3-implicit-history/manifest.json": "45b0ec6e13af09b023bd1126042383c89ad0fa0300bb87ff52116996308add87"
+  }
+}

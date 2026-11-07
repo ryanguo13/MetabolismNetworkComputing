@@ -1,0 +1,234 @@
+{
+  "source_sha256": {
+    "research/spc_mri.py": "8684bdf7720042fee31a227aee6131b3fdb8c6423be191acce1abe4092ba48f7",
+    "research/test_spc_mri.py": "2f326a7d0abbb237ae5f666c95d7145e738492195df50ed57024646edb72d22f",
+    "research/m3_spc_order.py": "b3e7752d2c532db7ff085dfdf0ede909e99c5a041ead8ebf685a8a916b61b102"
+  },
+  "results": {
+    "linear": [
+      {
+        "order": 2,
+        "h": 0.1,
+        "output": "inner",
+        "endpoint_error": 0.0003791254342766881,
+        "formula_error": 4.710277376051325e-16,
+        "curve_error": 0.0005121100804046375
+      },
+      {
+        "order": 2,
+        "h": 0.1,
+        "output": "hermite",
+        "endpoint_error": 0.0003791254342766881,
+        "formula_error": 4.710277376051325e-16,
+        "curve_error": 0.00027717060504106605
+      },
+      {
+        "order": 2,
+        "h": 0.05,
+        "output": "inner",
+        "endpoint_error": 6.0424949309428405e-05,
+        "formula_error": 3.1401849173675503e-16,
+        "curve_error": 0.00015531642152799563
+      },
+      {
+        "order": 2,
+        "h": 0.05,
+        "output": "hermite",
+        "endpoint_error": 6.0424949309428405e-05,
+        "formula_error": 3.1401849173675503e-16,
+        "curve_error": 4.296928701363889e-05
+      },
+      {
+        "order": 2,
+        "h": 0.025,
+        "output": "inner",
+        "endpoint_error": 8.546336561580117e-06,
+        "formula_error": 2.482534153247273e-16,
+        "curve_error": 4.3172047553996507e-05
+      },
+      {
+        "order": 2,
+        "h": 0.025,
+        "output": "hermite",
+        "endpoint_error": 8.546336561580117e-06,
+        "formula_error": 2.482534153247273e-16,
+        "curve_error": 6.04992271213689e-06
+      },
+      {
+        "order": 2,
+        "h": 0.0125,
+        "output": "inner",
+        "endpoint_error": 1.1369868796539736e-06,
+        "formula_error": 1.1102230246251565e-16,
+        "curve_error": 1.140990930914576e-05
+      },
+      {
+        "order": 2,
+        "h": 0.0125,
+        "output": "hermite",
+        "endpoint_error": 1.1369868796539736e-06,
+        "formula_error": 1.1102230246251565e-16,
+        "curve_error": 8.041272037129232e-07
+      },
+      {
+        "order": 2,
+        "h": 0.00625,
+        "output": "inner",
+        "endpoint_error": 1.4664254052591386e-07,
+        "formula_error": 8.671119018262734e-16,
+        "curve_error": 2.934177069979782e-06
+      },
+      {
+        "order": 2,
+        "h": 0.00625,
+        "output": "hermite",
+        "endpoint_error": 1.4664254052591386e-07,
+        "formula_error": 8.671119018262734e-16,
+        "curve_error": 1.036919348162968e-07
+      },
+      {
+        "order": 3,
+        "h": 0.1,
+        "output": "inner",
+        "endpoint_error": 6.574313400631397e-07,
+        "formula_error": 4.710277376051325e-16,
+        "curve_error": 3.889903693210517e-05
+      },
+      {
+        "order": 3,
+        "h": 0.1,
+        "output": "hermite",
+        "endpoint_error": 6.574313400631397e-07,
+        "formula_error": 4.710277376051325e-16,
+        "curve_error": 4.8742257451439563e-05
+      },
+      {
+        "order": 3,
+        "h": 0.05,
+        "output": "inner",
+        "endpoint_error": 1.8776879227700453e-07,
+        "formula_error": 3.1401849173675503e-16,
+        "curve_error": 5.734742550833616e-06
+      },
+      {
+        "order": 3,
+        "h": 0.05,
+        "output": "hermite",
+        "endpoint_error": 1.8776879227700453e-07,
+        "formula_error": 3.1401849173675503e-16,
+        "curve_error": 3.4525970465937306e-06
+      },
+      {
+        "order": 3,
+        "h": 0.025,
+        "output": "inner",
+        "endpoint_error": 1.8188662842808996e-08,
+        "formula_error": 1.0235750533041806e-15,
+        "curve_error": 7.812898547010505e-07
+      },
+      {
+        "order": 3,
+        "h": 0.025,
+        "output": "hermite",
+        "endpoint_error": 1.8188662842808996e-08,
+        "formula_error": 1.0235750533041806e-15,
+        "curve_error": 2.30107175869243e-07
+      },
+      {
+        "order": 3,
+        "h": 0.0125,
+        "output": "inner",
+        "endpoint_error": 1.3755068965433274e-09,
+        "formula_error": 1.4936523181711914e-15,
+        "curve_error": 1.0200709865682e-07
+      },
+      {
+        "order": 3,
+        "h": 0.0125,
+        "output": "hermite",
+        "endpoint_error": 1.3755068965433274e-09,
+        "formula_error": 1.4936523181711914e-15,
+        "curve_error": 1.4857799657264081e-08
+      },
+      {
+        "order": 3,
+        "h": 0.00625,
+        "output": "inner",
+        "endpoint_error": 9.40819812445281e-11,
+        "formula_error": 2.482534153247273e-16,
+        "curve_error": 1.3034090362573636e-08
+      },
+      {
+        "order": 3,
+        "h": 0.00625,
+        "output": "hermite",
+        "endpoint_error": 9.40819812445281e-11,
+        "formula_error": 2.482534153247273e-16,
+        "curve_error": 9.439656833976073e-10
+      }
+    ],
+    "nonlinear": [
+      {
+        "order": 2,
+        "steps": 4,
+        "error": 0.000569691556979956,
+        "observed_order": null
+      },
+      {
+        "order": 2,
+        "steps": 8,
+        "error": 0.00014470184480973384,
+        "observed_order": 1.9770977101774487
+      },
+      {
+        "order": 2,
+        "steps": 16,
+        "error": 3.653330541291168e-05,
+        "observed_order": 1.9857991199607081
+      },
+      {
+        "order": 2,
+        "steps": 32,
+        "error": 9.182892371919807e-06,
+        "observed_order": 1.9921917481994722
+      },
+      {
+        "order": 2,
+        "steps": 64,
+        "error": 2.302231065772636e-06,
+        "observed_order": 1.9959159982809793
+      },
+      {
+        "order": 3,
+        "steps": 4,
+        "error": 1.5385045113182584e-06,
+        "observed_order": null
+      },
+      {
+        "order": 3,
+        "steps": 8,
+        "error": 5.024171185175843e-07,
+        "observed_order": 1.614571147907336
+      },
+      {
+        "order": 3,
+        "steps": 16,
+        "error": 8.316317565530893e-08,
+        "observed_order": 2.5948688661605694
+      },
+      {
+        "order": 3,
+        "steps": 32,
+        "error": 1.1705747862214148e-08,
+        "observed_order": 2.828727740802971
+      },
+      {
+        "order": 3,
+        "steps": 64,
+        "error": 1.5464208027211833e-09,
+        "observed_order": 2.920212253670872
+      }
+    ],
+    "nonlinear_reference_difference": 3.328596012409603e-14
+  }
+}

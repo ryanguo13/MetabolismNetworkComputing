@@ -1,0 +1,8 @@
+test_coupled_linear_and_partition_limits (research.test_spc_mri.SPCChecks.test_coupled_linear_and_partition_limits) ... ok
+test_nonlinear_global_order (research.test_spc_mri.SPCChecks.test_nonlinear_global_order) ... ok
+test_primary_coefficients_and_base_order_conditions (research.test_spc_mri.SPCChecks.test_primary_coefficients_and_base_order_conditions) ... ok
+
+----------------------------------------------------------------------
+Ran 3 tests in 0.969s
+
+OK

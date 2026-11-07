@@ -1,0 +1,53 @@
+{
+  "date": "2026-11-08",
+  "model": "kecoli",
+  "start": 0.1,
+  "steps": [
+    0.001,
+    0.003,
+    0.01
+  ],
+  "thresholds": [
+    0.01,
+    0.1,
+    1.0
+  ],
+  "orders": [
+    2,
+    3
+  ],
+  "outputs": [
+    "inner",
+    "hermite"
+  ],
+  "inner_tolerances": [
+    1e-06,
+    1e-08
+  ],
+  "predictor_residuals": [
+    1e-09,
+    1e-08
+  ],
+  "motivation": "Original1e-11 predictor residual stalls after large decrease; 3 traces record persistent residual oscillations. Test internal solver tolerances, retaining all original output and independent full audit gates.",
+  "scope": "144 SPC candidates,12 identical standalone SDIRK controls,18 mature Radau controls. Single-run optimistic local timing; not formal speed or full-window evidence.",
+  "method": "Same published coefficients, frozen predictor implementation, normal Jacobian refresh, fast seed stale, raw/physical ledger protection and query grids as initial SPC study.",
+  "timing": "Complete predictor and fast correction plus guards; grouping and independent audit/scoring excluded. Same residual tolerance available to base SDIRK controls.",
+  "source_sha256": {
+    "research/spc_mri.py": "8684bdf7720042fee31a227aee6131b3fdb8c6423be191acce1abe4092ba48f7",
+    "research/test_spc_mri.py": "2f326a7d0abbb237ae5f666c95d7145e738492195df50ed57024646edb72d22f",
+    "research/m3_spc_solver_tolerance.py": "41f2d4492c69934494273c814d296a2def6babe2a5388fb45b379ffdef3a62fd",
+    "research/spc_residual_diagnostic.py": "d2438cb457a00bf0a855c6594d3822ce02f59eccbdd2ef170e5e12bf16deb45f",
+    "research/shared_radau.py": "0174d7d91eb1a3d59d514493a730af52b1e1a1d10b764bb892716c9da666edef",
+    "research/fullstep_radau.py": "ec224519a31b512359d1645b4d2211e80b9d436a7cd6e7ff8dfca568d9439f32",
+    "research/inner_dense.py": "e19b0221a27f5fa861c7a0877d64f9e04b638a3fc514326c7968541f13ec133b",
+    "research/extrapolated_flow.py": "2e5586c85464c8c49a6a55084ddadcf9cdac681d0459676f4c59397ae1af9d89",
+    "research/m3_growth_study.py": "ef440e9984b74ff8440d0c6d4e1ec9e79e1ce32ac997535847e5ddf6a3e05955",
+    "research/m3_extrapolated_paths.py": "7ce2742d48adf31bb1b73372cb09f7085e18e1507d32b8543ac3c8217f9b64cf"
+  },
+  "input_sha256": {
+    "results/m3-priority/p0.npz": "8be94525b6c3caa007123f284101ab165b725d38ab1567a121f4923993ed4243",
+    "results/m3-spc/registration.json": "ac1c298aa63a894d1d6d5672f96e83662cdf523a2020670500fc09dfe867e4e6",
+    "results/m3-spc/runs.json": "bc511b0e704062d0a180ecfc920d5f24034b1517645b3a2f6842463c028ca55c",
+    "results/m3-spc/predictor-trace.json": "8ff6822dd8d32dc74a3ad84d72c3280b73a467ab945f4b00a5f3262930de1fb4"
+  }
+}

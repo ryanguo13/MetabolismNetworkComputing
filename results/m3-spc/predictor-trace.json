@@ -1,0 +1,353 @@
+{
+  "scope": "Post-screen diagnostics; scaled residual stagnation is observed, numerical noise is a hypothesis, not a proved cause.",
+  "source_sha256": {
+    "research/spc_mri.py": "8684bdf7720042fee31a227aee6131b3fdb8c6423be191acce1abe4092ba48f7",
+    "research/spc_residual_diagnostic.py": "d2438cb457a00bf0a855c6594d3822ce02f59eccbdd2ef170e5e12bf16deb45f"
+  },
+  "runs": [
+    {
+      "h": 0.001,
+      "order": 3,
+      "status": "failed",
+      "reason": "SPC predictor stage did not converge",
+      "residuals": [
+        {
+          "stage": 0,
+          "iteration": 0,
+          "norm": 9.347161306571054e-06,
+          "worst_component": 381,
+          "state": 0.009774341031893197,
+          "signed_scaled_residual": 9.347161306571054e-06
+        },
+        {
+          "stage": 0,
+          "iteration": 1,
+          "norm": 1.200078228300271e-07,
+          "worst_component": 381,
+          "state": 0.009774340934162004,
+          "signed_scaled_residual": 1.200078228300271e-07
+        },
+        {
+          "stage": 0,
+          "iteration": 2,
+          "norm": 5.078361987444897e-11,
+          "worst_component": 381,
+          "state": 0.009774340934164205,
+          "signed_scaled_residual": 5.078361987444897e-11
+        },
+        {
+          "stage": 0,
+          "iteration": 3,
+          "norm": 7.530889197493953e-12,
+          "worst_component": 381,
+          "state": 0.00977434093417004,
+          "signed_scaled_residual": 7.530889197493953e-12
+        },
+        {
+          "stage": 1,
+          "iteration": 0,
+          "norm": 0.00013493714308048427,
+          "worst_component": 381,
+          "state": 0.009774276041005206,
+          "signed_scaled_residual": 0.00013493714308048427
+        },
+        {
+          "stage": 1,
+          "iteration": 1,
+          "norm": 1.0804439147963693e-06,
+          "worst_component": 381,
+          "state": 0.009774275674664091,
+          "signed_scaled_residual": 1.0804439147963693e-06
+        },
+        {
+          "stage": 1,
+          "iteration": 2,
+          "norm": 1.080362117685788e-10,
+          "worst_component": 381,
+          "state": 0.009774275674657617,
+          "signed_scaled_residual": 1.080362117685788e-10
+        },
+        {
+          "stage": 1,
+          "iteration": 3,
+          "norm": 1.0687470674768512e-10,
+          "worst_component": 381,
+          "state": 0.009774275674673498,
+          "signed_scaled_residual": -1.0687470674768512e-10
+        },
+        {
+          "stage": 1,
+          "iteration": 4,
+          "norm": 6.349554895079093e-11,
+          "worst_component": 381,
+          "state": 0.009774275674666422,
+          "signed_scaled_residual": -6.349554895079093e-11
+        },
+        {
+          "stage": 1,
+          "iteration": 5,
+          "norm": 2.082657254551036e-11,
+          "worst_component": 381,
+          "state": 0.009774275674666323,
+          "signed_scaled_residual": -2.082657254551036e-11
+        },
+        {
+          "stage": 1,
+          "iteration": 6,
+          "norm": 6.505593506657649e-11,
+          "worst_component": 381,
+          "state": 0.009774275674660776,
+          "signed_scaled_residual": 6.505593506657649e-11
+        },
+        {
+          "stage": 1,
+          "iteration": 7,
+          "norm": 2.286088378687795e-11,
+          "worst_component": 381,
+          "state": 0.009774275674656219,
+          "signed_scaled_residual": 2.286088378687795e-11
+        },
+        {
+          "stage": 1,
+          "iteration": 8,
+          "norm": 2.1229338272579147e-11,
+          "worst_component": 381,
+          "state": 0.00977427567467028,
+          "signed_scaled_residual": -2.1229338272579147e-11
+        },
+        {
+          "stage": 1,
+          "iteration": 9,
+          "norm": 1.0576688028050864e-10,
+          "worst_component": 381,
+          "state": 0.009774275674662615,
+          "signed_scaled_residual": -1.0576688028050864e-10
+        },
+        {
+          "stage": 1,
+          "iteration": 10,
+          "norm": 2.037966327097678e-11,
+          "worst_component": 381,
+          "state": 0.009774275674661933,
+          "signed_scaled_residual": -2.037966327097678e-11
+        },
+        {
+          "stage": 1,
+          "iteration": 11,
+          "norm": 1.0808565254173936e-10,
+          "worst_component": 381,
+          "state": 0.009774275674657131,
+          "signed_scaled_residual": 1.0808565254173936e-10
+        }
+      ]
+    },
+    {
+      "h": 0.003,
+      "order": 2,
+      "status": "failed",
+      "reason": "SPC predictor stage did not converge",
+      "residuals": [
+        {
+          "stage": 0,
+          "iteration": 0,
+          "norm": 0.001638693163902181,
+          "worst_component": 381,
+          "state": 0.009774205502598145,
+          "signed_scaled_residual": 0.001638693163902181
+        },
+        {
+          "stage": 0,
+          "iteration": 1,
+          "norm": 2.643987480609985e-05,
+          "worst_component": 381,
+          "state": 0.009774204127691796,
+          "signed_scaled_residual": 2.643987480609985e-05
+        },
+        {
+          "stage": 0,
+          "iteration": 2,
+          "norm": 1.7624223038224302e-10,
+          "worst_component": 381,
+          "state": 0.009774204127701894,
+          "signed_scaled_residual": 1.7624223038224302e-10
+        },
+        {
+          "stage": 0,
+          "iteration": 3,
+          "norm": 1.7741097494492092e-10,
+          "worst_component": 381,
+          "state": 0.009774204127690412,
+          "signed_scaled_residual": 1.7741097494492092e-10
+        },
+        {
+          "stage": 0,
+          "iteration": 4,
+          "norm": 3.2105425496955233e-10,
+          "worst_component": 381,
+          "state": 0.009774204127677495,
+          "signed_scaled_residual": -3.2105425496955233e-10
+        },
+        {
+          "stage": 0,
+          "iteration": 5,
+          "norm": 3.4770124253539077e-10,
+          "worst_component": 381,
+          "state": 0.009774204127654094,
+          "signed_scaled_residual": 3.4770124253539077e-10
+        },
+        {
+          "stage": 0,
+          "iteration": 6,
+          "norm": 3.195975513805478e-11,
+          "worst_component": 2704,
+          "state": 0.019568244354833193,
+          "signed_scaled_residual": -3.195975513805478e-11
+        },
+        {
+          "stage": 0,
+          "iteration": 7,
+          "norm": 1.5472030867706722e-10,
+          "worst_component": 381,
+          "state": 0.009774204127680043,
+          "signed_scaled_residual": -1.5472030867706722e-10
+        },
+        {
+          "stage": 0,
+          "iteration": 8,
+          "norm": 1.8107683170058734e-10,
+          "worst_component": 381,
+          "state": 0.009774204127654397,
+          "signed_scaled_residual": 1.8107683170058734e-10
+        },
+        {
+          "stage": 0,
+          "iteration": 9,
+          "norm": 3.2304936674077115e-10,
+          "worst_component": 381,
+          "state": 0.009774204127697096,
+          "signed_scaled_residual": -3.2304936674077115e-10
+        },
+        {
+          "stage": 0,
+          "iteration": 10,
+          "norm": 3.213148784737845e-10,
+          "worst_component": 381,
+          "state": 0.009774204127680056,
+          "signed_scaled_residual": -3.213148784737845e-10
+        },
+        {
+          "stage": 0,
+          "iteration": 11,
+          "norm": 1.7910026021930368e-10,
+          "worst_component": 381,
+          "state": 0.009774204127673816,
+          "signed_scaled_residual": 1.7910026021930368e-10
+        }
+      ]
+    },
+    {
+      "h": 0.01,
+      "order": 2,
+      "status": "failed",
+      "reason": "SPC predictor stage did not converge",
+      "residuals": [
+        {
+          "stage": 0,
+          "iteration": 0,
+          "norm": 0.0703478113179201,
+          "worst_component": 381,
+          "state": 0.009773780417806894,
+          "signed_scaled_residual": 0.0703478113179201
+        },
+        {
+          "stage": 0,
+          "iteration": 1,
+          "norm": 0.002656866442686129,
+          "worst_component": 381,
+          "state": 0.009773769205228523,
+          "signed_scaled_residual": 0.002656866442686129
+        },
+        {
+          "stage": 0,
+          "iteration": 2,
+          "norm": 9.454978750687662e-08,
+          "worst_component": 381,
+          "state": 0.009773769205185273,
+          "signed_scaled_residual": 9.454978750687662e-08
+        },
+        {
+          "stage": 0,
+          "iteration": 3,
+          "norm": 7.025579775406349e-10,
+          "worst_component": 381,
+          "state": 0.009773769205181755,
+          "signed_scaled_residual": 7.025579775406349e-10
+        },
+        {
+          "stage": 0,
+          "iteration": 4,
+          "norm": 3.187201384112228e-09,
+          "worst_component": 381,
+          "state": 0.009773769205207113,
+          "signed_scaled_residual": -3.187201384112228e-09
+        },
+        {
+          "stage": 0,
+          "iteration": 5,
+          "norm": 6.963143141872143e-10,
+          "worst_component": 381,
+          "state": 0.009773769205243095,
+          "signed_scaled_residual": 6.963143141872143e-10
+        },
+        {
+          "stage": 0,
+          "iteration": 6,
+          "norm": 4.065973869887298e-10,
+          "worst_component": 381,
+          "state": 0.009773769205167343,
+          "signed_scaled_residual": -4.065973869887298e-10
+        },
+        {
+          "stage": 0,
+          "iteration": 7,
+          "norm": 1.2559128835405424e-09,
+          "worst_component": 381,
+          "state": 0.009773769205200974,
+          "signed_scaled_residual": 1.2559128835405424e-09
+        },
+        {
+          "stage": 0,
+          "iteration": 8,
+          "norm": 9.714303216262433e-10,
+          "worst_component": 381,
+          "state": 0.009773769205260888,
+          "signed_scaled_residual": -9.714303216262433e-10
+        },
+        {
+          "stage": 0,
+          "iteration": 9,
+          "norm": 4.055895015130136e-10,
+          "worst_component": 381,
+          "state": 0.009773769205157441,
+          "signed_scaled_residual": -4.055895015130136e-10
+        },
+        {
+          "stage": 0,
+          "iteration": 10,
+          "norm": 1.8119368849943612e-09,
+          "worst_component": 381,
+          "state": 0.009773769205193971,
+          "signed_scaled_residual": 1.8119368849943612e-09
+        },
+        {
+          "stage": 0,
+          "iteration": 11,
+          "norm": 2.0822142299086793e-09,
+          "worst_component": 381,
+          "state": 0.009773769205262475,
+          "signed_scaled_residual": -2.0822142299086793e-09
+        }
+      ]
+    }
+  ]
+}
