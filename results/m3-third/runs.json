@@ -1,0 +1,3698 @@
+{
+  "runs": [
+    {
+      "key": "third-1e-08",
+      "shard": "teusink-0",
+      "model": "teusink",
+      "start": 1.0,
+      "h": 0.01,
+      "tolerance": 1e-08,
+      "method": "third",
+      "reference_budgets": [
+        {
+          "concentration": 1.6500085389505378e-06,
+          "flux": 1.6499366239094155e-06
+        },
+        {
+          "concentration": 1.3191274128851734e-08,
+          "flux": 1.3150179816961717e-08
+        }
+      ],
+      "audit_seconds": 0.004101166035979986,
+      "setup_seconds": 0.002760083880275488,
+      "status": "success",
+      "base_seconds": 0.0076750831212848425,
+      "shadow": {
+        "status": "success",
+        "targets": {
+          "0.0001": {
+            "central": {
+              "concentration": 9.678975097941058e-06,
+              "flux": 1.4820540433526974e-05
+            },
+            "refinement": {
+              "concentration": 9.982427992455796e-07,
+              "flux": 1.4700083079295713e-06
+            },
+            "score": {
+              "concentration": 4.270887158874655e-05,
+              "flux": 6.516219496582618e-05
+            },
+            "would_accept": true
+          },
+          "1e-06": {
+            "central": {
+              "concentration": 0.0009678975097941057,
+              "flux": 0.0014820540433526975
+            },
+            "refinement": {
+              "concentration": 9.982427992455795e-05,
+              "flux": 0.00014700083079295713
+            },
+            "score": {
+              "concentration": 0.004270887158874655,
+              "flux": 0.006516219496582619
+            },
+            "would_accept": true
+          }
+        },
+        "counts": [
+          {
+            "factorizations": 1,
+            "linear_solves": 8,
+            "defect_rhs_batches": 1
+          },
+          {
+            "factorizations": 1,
+            "linear_solves": 16,
+            "defect_rhs_batches": 1
+          }
+        ],
+        "seconds": 0.0020657500717788935
+      },
+      "truth": {
+        "status": "success",
+        "stats": {
+          "subflows": 3,
+          "nfev": 57,
+          "njev": 3,
+          "nlu": 12,
+          "linear_solver_setups": 0,
+          "accepted_steps": 6,
+          "rhs_seconds": 0.0018399541731923819,
+          "jacobian_seconds": 0.0014878332149237394,
+          "native_allocation_seconds": 0.0,
+          "reinit_seconds": 0.0,
+          "ledger_seconds": 0.0031403331086039543,
+          "min_rhs": 0.0003782116034170631,
+          "min_internal": 0.00037821772258315913,
+          "pool_error": 1.9749590675267642e-16,
+          "continuous_nonnegative": true,
+          "min_hermite_scaled": 0.06843463559020736,
+          "modified_ledger_residual": 1.2770421073315315e-17,
+          "modified_ledger_quadrature": 9.356107105796985e-18,
+          "physical_ledger_residual": 2.4244229014270326e-11,
+          "physical_ledger_quadrature": 5.6757426992512515e-18,
+          "seconds": 0.007641124771907926
+        },
+        "output_pool_error": 1.4334108037531089e-16,
+        "targets": {
+          "0.0001": {
+            "actual": {
+              "concentration": 9.738673857920441e-06,
+              "flux": 1.482245223921893e-05
+            },
+            "numerical_pass": true,
+            "passes": true
+          },
+          "1e-06": {
+            "actual": {
+              "concentration": 0.0009738673857920441,
+              "flux": 0.0014822452239218928
+            },
+            "numerical_pass": true,
+            "passes": true
+          }
+        }
+      },
+      "comparison": {
+        "0.0001": {
+          "actual": {
+            "concentration": 9.738673857920441e-06,
+            "flux": 1.482245223921893e-05
+          },
+          "actual_numerical_pass": true,
+          "actual_all_checks_pass": true,
+          "structural_pass": true,
+          "would_accept": true,
+          "policy_would_accept": true,
+          "false_accept": false,
+          "policy_false_accept": false,
+          "false_reject": false,
+          "effectivity": 4.396181813520211
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 0.0009738673857920441,
+            "flux": 0.0014822452239218928
+          },
+          "actual_numerical_pass": true,
+          "actual_all_checks_pass": true,
+          "structural_pass": true,
+          "would_accept": true,
+          "policy_would_accept": true,
+          "false_accept": false,
+          "policy_false_accept": false,
+          "false_reject": false,
+          "effectivity": 4.3961818135202115
+        }
+      },
+      "guard": {
+        "nonnegative": true,
+        "pool": 1.4334108037531089e-16
+      }
+    },
+    {
+      "key": "full-1e-08",
+      "shard": "teusink-0",
+      "model": "teusink",
+      "start": 1.0,
+      "h": 0.01,
+      "tolerance": 1e-08,
+      "method": "full",
+      "reference_budgets": [
+        {
+          "concentration": 1.6500085389505378e-06,
+          "flux": 1.6499366239094155e-06
+        },
+        {
+          "concentration": 1.3191274128851734e-08,
+          "flux": 1.3150179816961717e-08
+        }
+      ],
+      "audit_seconds": 0.004101166035979986,
+      "setup_seconds": 0.002760083880275488,
+      "status": "success",
+      "seconds": 0.0025622921530157328,
+      "counts": {
+        "internal": 3,
+        "minimum": 0.0003782177225836749,
+        "nfev": 23,
+        "njev": 1,
+        "nlu": 6,
+        "pool_error": 8.782685404052737e-17,
+        "ledger_residual": 4.6399196566378984e-15,
+        "ledger_quadrature": 8.358417959444225e-18
+      },
+      "actual": {
+        "0.0001": {
+          "concentration": 7.862810094518135e-07,
+          "flux": 7.86280071990087e-07
+        },
+        "1e-06": {
+          "concentration": 7.862810094518137e-05,
+          "flux": 7.86280071990087e-05
+        }
+      },
+      "guard": {
+        "nonnegative": true,
+        "pool": 1.5769758376756837e-16
+      }
+    },
+    {
+      "key": "third-1e-10",
+      "shard": "teusink-0",
+      "model": "teusink",
+      "start": 1.0,
+      "h": 0.01,
+      "tolerance": 1e-10,
+      "method": "third",
+      "reference_budgets": [
+        {
+          "concentration": 1.6500085389505378e-06,
+          "flux": 1.6499366239094155e-06
+        },
+        {
+          "concentration": 1.3191274128851734e-08,
+          "flux": 1.3150179816961717e-08
+        }
+      ],
+      "audit_seconds": 0.004101166035979986,
+      "setup_seconds": 0.002760083880275488,
+      "status": "success",
+      "base_seconds": 0.009919957956299186,
+      "shadow": {
+        "status": "success",
+        "targets": {
+          "0.0001": {
+            "central": {
+              "concentration": 9.683254017486604e-06,
+              "flux": 1.4953932418953475e-05
+            },
+            "refinement": {
+              "concentration": 9.983156260714993e-07,
+              "flux": 1.4720884405703594e-06
+            },
+            "score": {
+              "concentration": 4.272627857423241e-05,
+              "flux": 6.570408343809533e-05
+            },
+            "would_accept": true
+          },
+          "1e-06": {
+            "central": {
+              "concentration": 0.0009683254017486604,
+              "flux": 0.0014953932418953477
+            },
+            "refinement": {
+              "concentration": 9.983156260714993e-05,
+              "flux": 0.00014720884405703595
+            },
+            "score": {
+              "concentration": 0.004272627857423241,
+              "flux": 0.0065704083438095345
+            },
+            "would_accept": true
+          }
+        },
+        "counts": [
+          {
+            "factorizations": 1,
+            "linear_solves": 8,
+            "defect_rhs_batches": 1
+          },
+          {
+            "factorizations": 1,
+            "linear_solves": 16,
+            "defect_rhs_batches": 1
+          }
+        ],
+        "seconds": 0.0019290840718895197
+      },
+      "truth": {
+        "status": "success",
+        "stats": {
+          "subflows": 3,
+          "nfev": 78,
+          "njev": 3,
+          "nlu": 18,
+          "linear_solver_setups": 0,
+          "accepted_steps": 9,
+          "rhs_seconds": 0.0025057934690266848,
+          "jacobian_seconds": 0.0015091237146407366,
+          "native_allocation_seconds": 0.0,
+          "reinit_seconds": 0.0,
+          "ledger_seconds": 0.00437166728079319,
+          "min_rhs": 0.00037821160343070936,
+          "min_internal": 0.00037821772258316325,
+          "pool_error": 1.9749590675267642e-16,
+          "continuous_nonnegative": true,
+          "min_hermite_scaled": 0.06843463559020736,
+          "modified_ledger_residual": 6.030476617954455e-17,
+          "modified_ledger_quadrature": 1.540875459367039e-18,
+          "physical_ledger_residual": 2.4445291844657384e-11,
+          "physical_ledger_quadrature": 5.6757426992512515e-18,
+          "seconds": 0.009886709041893482
+        },
+        "output_pool_error": 8.363240256242738e-17,
+        "targets": {
+          "0.0001": {
+            "actual": {
+              "concentration": 9.742947281101768e-06,
+              "flux": 1.4955853935815554e-05
+            },
+            "numerical_pass": true,
+            "passes": true
+          },
+          "1e-06": {
+            "actual": {
+              "concentration": 0.0009742947281101768,
+              "flux": 0.0014955853935815556
+            },
+            "numerical_pass": true,
+            "passes": true
+          }
+        }
+      },
+      "comparison": {
+        "0.0001": {
+          "actual": {
+            "concentration": 9.742947281101768e-06,
+            "flux": 1.4955853935815554e-05
+          },
+          "actual_numerical_pass": true,
+          "actual_all_checks_pass": true,
+          "structural_pass": true,
+          "would_accept": true,
+          "policy_would_accept": true,
+          "false_accept": false,
+          "policy_false_accept": false,
+          "false_reject": false,
+          "effectivity": 4.393201733586765
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 0.0009742947281101768,
+            "flux": 0.0014955853935815556
+          },
+          "actual_numerical_pass": true,
+          "actual_all_checks_pass": true,
+          "structural_pass": true,
+          "would_accept": true,
+          "policy_would_accept": true,
+          "false_accept": false,
+          "policy_false_accept": false,
+          "false_reject": false,
+          "effectivity": 4.393201733586765
+        }
+      },
+      "guard": {
+        "nonnegative": true,
+        "pool": 8.363240256242738e-17
+      }
+    },
+    {
+      "key": "full-1e-10",
+      "shard": "teusink-0",
+      "model": "teusink",
+      "start": 1.0,
+      "h": 0.01,
+      "tolerance": 1e-10,
+      "method": "full",
+      "reference_budgets": [
+        {
+          "concentration": 1.6500085389505378e-06,
+          "flux": 1.6499366239094155e-06
+        },
+        {
+          "concentration": 1.3191274128851734e-08,
+          "flux": 1.3150179816961717e-08
+        }
+      ],
+      "audit_seconds": 0.004101166035979986,
+      "setup_seconds": 0.002760083880275488,
+      "status": "success",
+      "seconds": 0.0039019999094307423,
+      "counts": {
+        "internal": 4,
+        "minimum": 0.0003782177225832262,
+        "nfev": 39,
+        "njev": 2,
+        "nlu": 8,
+        "pool_error": 3.072161897873169e-17,
+        "ledger_residual": 1.1280538614761862e-16,
+        "ledger_quadrature": 4.212465284600538e-18
+      },
+      "actual": {
+        "0.0001": {
+          "concentration": 1.7123098273882604e-07,
+          "flux": 1.7122972422601633e-07
+        },
+        "1e-06": {
+          "concentration": 1.7123098273882605e-05,
+          "flux": 1.7122972422601636e-05
+        }
+      },
+      "guard": {
+        "nonnegative": true,
+        "pool": 1.006158998304683e-16
+      }
+    },
+    {
+      "key": "third-1e-08",
+      "shard": "teusink-1",
+      "model": "teusink",
+      "start": 1.0,
+      "h": 0.03,
+      "tolerance": 1e-08,
+      "method": "third",
+      "reference_budgets": [
+        {
+          "concentration": 1.562616347846895e-06,
+          "flux": 1.562611211062404e-06
+        },
+        {
+          "concentration": 2.271372514061658e-07,
+          "flux": 2.2704607340222964e-07
+        }
+      ],
+      "audit_seconds": 0.007966917008161545,
+      "setup_seconds": 0.002760083880275488,
+      "status": "success",
+      "base_seconds": 0.00972025003284216,
+      "shadow": {
+        "status": "success",
+        "targets": {
+          "0.0001": {
+            "central": {
+              "concentration": 0.0007961989389842346,
+              "flux": 0.0011140381820243775
+            },
+            "refinement": {
+              "concentration": 8.921674493295698e-05,
+              "flux": 0.00011057003513353528
+            },
+            "score": {
+              "concentration": 0.003541662735668766,
+              "flux": 0.004898432868631651
+            },
+            "would_accept": true
+          },
+          "1e-06": {
+            "central": {
+              "concentration": 0.07961989389842346,
+              "flux": 0.11140381820243775
+            },
+            "refinement": {
+              "concentration": 0.008921674493295699,
+              "flux": 0.011057003513353527
+            },
+            "score": {
+              "concentration": 0.35416627356687663,
+              "flux": 0.4898432868631651
+            },
+            "would_accept": true
+          }
+        },
+        "counts": [
+          {
+            "factorizations": 1,
+            "linear_solves": 8,
+            "defect_rhs_batches": 1
+          },
+          {
+            "factorizations": 1,
+            "linear_solves": 16,
+            "defect_rhs_batches": 1
+          }
+        ],
+        "seconds": 0.0019399160519242287
+      },
+      "truth": {
+        "status": "success",
+        "stats": {
+          "subflows": 3,
+          "nfev": 69,
+          "njev": 3,
+          "nlu": 18,
+          "linear_solver_setups": 0,
+          "accepted_steps": 9,
+          "rhs_seconds": 0.002225006464868784,
+          "jacobian_seconds": 0.001534916926175356,
+          "native_allocation_seconds": 0.0,
+          "reinit_seconds": 0.0,
+          "ledger_seconds": 0.004485876765102148,
+          "min_rhs": 0.0003739742070184376,
+          "min_internal": 0.0003740248906669126,
+          "pool_error": 1.9749590675267642e-16,
+          "continuous_nonnegative": true,
+          "min_hermite_scaled": 0.06843463559020736,
+          "modified_ledger_residual": 1.5513933200565888e-14,
+          "modified_ledger_quadrature": 2.6183797374280188e-17,
+          "physical_ledger_residual": 5.882264582413852e-09,
+          "physical_ledger_quadrature": 1.560829242294094e-17,
+          "seconds": 0.009686457924544811
+        },
+        "output_pool_error": 1.0262546543069484e-16,
+        "targets": {
+          "0.0001": {
+            "actual": {
+              "concentration": 0.0008026605252216902,
+              "flux": 0.00111440836470802
+            },
+            "numerical_pass": true,
+            "passes": false
+          },
+          "1e-06": {
+            "actual": {
+              "concentration": 0.08026605252216902,
+              "flux": 0.111440836470802
+            },
+            "numerical_pass": true,
+            "passes": false
+          }
+        }
+      },
+      "comparison": {
+        "0.0001": {
+          "actual": {
+            "concentration": 0.0008026605252216902,
+            "flux": 0.00111440836470802
+          },
+          "actual_numerical_pass": true,
+          "actual_all_checks_pass": false,
+          "structural_pass": false,
+          "would_accept": true,
+          "policy_would_accept": false,
+          "false_accept": false,
+          "policy_false_accept": false,
+          "false_reject": false,
+          "effectivity": 4.395545675857398
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 0.08026605252216902,
+            "flux": 0.111440836470802
+          },
+          "actual_numerical_pass": true,
+          "actual_all_checks_pass": false,
+          "structural_pass": false,
+          "would_accept": true,
+          "policy_would_accept": false,
+          "false_accept": false,
+          "policy_false_accept": false,
+          "false_reject": false,
+          "effectivity": 4.395545675857398
+        }
+      },
+      "guard": {
+        "nonnegative": true,
+        "pool": 1.0262546543069484e-16
+      }
+    },
+    {
+      "key": "full-1e-08",
+      "shard": "teusink-1",
+      "model": "teusink",
+      "start": 1.0,
+      "h": 0.03,
+      "tolerance": 1e-08,
+      "method": "full",
+      "reference_budgets": [
+        {
+          "concentration": 1.562616347846895e-06,
+          "flux": 1.562611211062404e-06
+        },
+        {
+          "concentration": 2.271372514061658e-07,
+          "flux": 2.2704607340222964e-07
+        }
+      ],
+      "audit_seconds": 0.007966917008161545,
+      "setup_seconds": 0.002760083880275488,
+      "status": "success",
+      "seconds": 0.0037051248364150524,
+      "counts": {
+        "internal": 4,
+        "minimum": 0.0003740248906583129,
+        "nfev": 33,
+        "njev": 2,
+        "nlu": 8,
+        "pool_error": 7.189121019732436e-17,
+        "ledger_residual": 9.526592227125744e-14,
+        "ledger_quadrature": 1.9754245097784628e-17
+      },
+      "actual": {
+        "0.0001": {
+          "concentration": 2.0040848716622217e-05,
+          "flux": 2.00408493844625e-05
+        },
+        "1e-06": {
+          "concentration": 0.0020040848716622217,
+          "flux": 0.00200408493844625
+        }
+      },
+      "guard": {
+        "nonnegative": true,
+        "pool": 9.813501313117936e-17
+      }
+    },
+    {
+      "key": "third-1e-10",
+      "shard": "teusink-1",
+      "model": "teusink",
+      "start": 1.0,
+      "h": 0.03,
+      "tolerance": 1e-10,
+      "method": "third",
+      "reference_budgets": [
+        {
+          "concentration": 1.562616347846895e-06,
+          "flux": 1.562611211062404e-06
+        },
+        {
+          "concentration": 2.271372514061658e-07,
+          "flux": 2.2704607340222964e-07
+        }
+      ],
+      "audit_seconds": 0.007966917008161545,
+      "setup_seconds": 0.002760083880275488,
+      "status": "success",
+      "base_seconds": 0.01492708409205079,
+      "shadow": {
+        "status": "success",
+        "targets": {
+          "0.0001": {
+            "central": {
+              "concentration": 0.0007961475273674084,
+              "flux": 0.001112375173273971
+            },
+            "refinement": {
+              "concentration": 8.92129744271018e-05,
+              "flux": 0.00011054479450755755
+            },
+            "score": {
+              "concentration": 0.003541442007178041,
+              "flux": 0.004891679871126114
+            },
+            "would_accept": true
+          },
+          "1e-06": {
+            "central": {
+              "concentration": 0.07961475273674085,
+              "flux": 0.1112375173273971
+            },
+            "refinement": {
+              "concentration": 0.008921297442710181,
+              "flux": 0.011054479450755756
+            },
+            "score": {
+              "concentration": 0.3541442007178041,
+              "flux": 0.48916798711261145
+            },
+            "would_accept": true
+          }
+        },
+        "counts": [
+          {
+            "factorizations": 1,
+            "linear_solves": 8,
+            "defect_rhs_batches": 1
+          },
+          {
+            "factorizations": 1,
+            "linear_solves": 16,
+            "defect_rhs_batches": 1
+          }
+        ],
+        "seconds": 0.0019546670373529196
+      },
+      "truth": {
+        "status": "success",
+        "stats": {
+          "subflows": 3,
+          "nfev": 117,
+          "njev": 6,
+          "nlu": 24,
+          "linear_solver_setups": 0,
+          "accepted_steps": 12,
+          "rhs_seconds": 0.003842215985059738,
+          "jacobian_seconds": 0.0031325421296060085,
+          "native_allocation_seconds": 0.0,
+          "reinit_seconds": 0.0,
+          "ledger_seconds": 0.005688499892130494,
+          "min_rhs": 0.00037397420681030077,
+          "min_internal": 0.00037402489066666047,
+          "pool_error": 1.9749590675267642e-16,
+          "continuous_nonnegative": true,
+          "min_hermite_scaled": 0.06843463559020736,
+          "modified_ledger_residual": 2.7740192442590493e-16,
+          "modified_ledger_quadrature": 1.7681268760362786e-17,
+          "physical_ledger_residual": 5.880924490609278e-09,
+          "physical_ledger_quadrature": 1.2770421073315315e-17,
+          "seconds": 0.014884499832987785
+        },
+        "output_pool_error": 7.729153263984851e-17,
+        "targets": {
+          "0.0001": {
+            "actual": {
+              "concentration": 0.0008026090064257618,
+              "flux": 0.0011127453481886776
+            },
+            "numerical_pass": true,
+            "passes": false
+          },
+          "1e-06": {
+            "actual": {
+              "concentration": 0.08026090064257618,
+              "flux": 0.11127453481886776
+            },
+            "numerical_pass": true,
+            "passes": false
+          }
+        }
+      },
+      "comparison": {
+        "0.0001": {
+          "actual": {
+            "concentration": 0.0008026090064257618,
+            "flux": 0.0011127453481886776
+          },
+          "actual_numerical_pass": true,
+          "actual_all_checks_pass": false,
+          "structural_pass": false,
+          "would_accept": true,
+          "policy_would_accept": false,
+          "false_accept": false,
+          "policy_false_accept": false,
+          "false_reject": false,
+          "effectivity": 4.396046120605017
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 0.08026090064257618,
+            "flux": 0.11127453481886776
+          },
+          "actual_numerical_pass": true,
+          "actual_all_checks_pass": false,
+          "structural_pass": false,
+          "would_accept": true,
+          "policy_would_accept": false,
+          "false_accept": false,
+          "policy_false_accept": false,
+          "false_reject": false,
+          "effectivity": 4.396046120605017
+        }
+      },
+      "guard": {
+        "nonnegative": true,
+        "pool": 7.729153263984851e-17
+      }
+    },
+    {
+      "key": "full-1e-10",
+      "shard": "teusink-1",
+      "model": "teusink",
+      "start": 1.0,
+      "h": 0.03,
+      "tolerance": 1e-10,
+      "method": "full",
+      "reference_budgets": [
+        {
+          "concentration": 1.562616347846895e-06,
+          "flux": 1.562611211062404e-06
+        },
+        {
+          "concentration": 2.271372514061658e-07,
+          "flux": 2.2704607340222964e-07
+        }
+      ],
+      "audit_seconds": 0.007966917008161545,
+      "setup_seconds": 0.002760083880275488,
+      "status": "success",
+      "seconds": 0.008101375075057149,
+      "counts": {
+        "internal": 9,
+        "minimum": 0.0003740248906666404,
+        "nfev": 77,
+        "njev": 4,
+        "nlu": 12,
+        "pool_error": 9.455309402880822e-17,
+        "ledger_residual": 3.887883748987107e-16,
+        "ledger_quadrature": 2.8023979577553056e-17
+      },
+      "actual": {
+        "0.0001": {
+          "concentration": 1.6754841871118826e-07,
+          "flux": 1.6754767387726706e-07
+        },
+        "1e-06": {
+          "concentration": 1.6754841871118827e-05,
+          "flux": 1.6754767387726706e-05
+        }
+      },
+      "guard": {
+        "nonnegative": true,
+        "pool": 1.2927340271617378e-16
+      }
+    },
+    {
+      "key": "third-1e-08",
+      "shard": "teusink-2",
+      "model": "teusink",
+      "start": 1.0,
+      "h": 0.1,
+      "tolerance": 1e-08,
+      "method": "third",
+      "reference_budgets": [
+        {
+          "concentration": 1.5354093449561384e-06,
+          "flux": 1.5354889651899205e-06
+        },
+        {
+          "concentration": 1.9374683876750986e-07,
+          "flux": 1.937596807405453e-07
+        }
+      ],
+      "audit_seconds": 0.03061212506145239,
+      "setup_seconds": 0.002760083880275488,
+      "status": "success",
+      "base_seconds": 0.01676324987784028,
+      "shadow": {
+        "status": "success",
+        "targets": {
+          "0.0001": {
+            "central": {
+              "concentration": 0.09805242231132272,
+              "flux": 0.10284806496551191
+            },
+            "refinement": {
+              "concentration": 0.01127721891576475,
+              "flux": 0.01127721891516797
+            },
+            "score": {
+              "concentration": 0.43731856490834986,
+              "flux": 0.45650113552271954
+            },
+            "would_accept": true
+          },
+          "1e-06": {
+            "central": {
+              "concentration": 9.805242231132272,
+              "flux": 10.284806496551191
+            },
+            "refinement": {
+              "concentration": 1.127721891576475,
+              "flux": 1.127721891516797
+            },
+            "score": {
+              "concentration": 43.731856490834986,
+              "flux": 45.650113552271954
+            },
+            "would_accept": false
+          }
+        },
+        "counts": [
+          {
+            "factorizations": 1,
+            "linear_solves": 8,
+            "defect_rhs_batches": 1
+          },
+          {
+            "factorizations": 1,
+            "linear_solves": 16,
+            "defect_rhs_batches": 1
+          }
+        ],
+        "seconds": 0.0019710829947143793
+      },
+      "truth": {
+        "status": "success",
+        "stats": {
+          "subflows": 3,
+          "nfev": 119,
+          "njev": 8,
+          "nlu": 28,
+          "linear_solver_setups": 0,
+          "accepted_steps": 14,
+          "rhs_seconds": 0.0038420427590608597,
+          "jacobian_seconds": 0.00405520829372108,
+          "native_allocation_seconds": 0.0,
+          "reinit_seconds": 0.0,
+          "ledger_seconds": 0.006520956754684448,
+          "min_rhs": 0.0003617624569579658,
+          "min_internal": 0.0003621844092734588,
+          "pool_error": 1.9749590675267642e-16,
+          "continuous_nonnegative": true,
+          "min_hermite_scaled": 0.06843463559020736,
+          "modified_ledger_residual": 1.7620626996960474e-13,
+          "modified_ledger_quadrature": 7.984838801309914e-17,
+          "physical_ledger_residual": 2.168381859315521e-06,
+          "physical_ledger_quadrature": 0.0,
+          "seconds": 0.01672600000165403
+        },
+        "output_pool_error": 1.374029764196382e-16,
+        "targets": {
+          "0.0001": {
+            "actual": {
+              "concentration": 0.09896393610527511,
+              "flux": 0.10293413739312669
+            },
+            "numerical_pass": true,
+            "passes": false
+          },
+          "1e-06": {
+            "actual": {
+              "concentration": 9.896393610527511,
+              "flux": 10.293413739312669
+            },
+            "numerical_pass": false,
+            "passes": false
+          }
+        }
+      },
+      "comparison": {
+        "0.0001": {
+          "actual": {
+            "concentration": 0.09896393610527511,
+            "flux": 0.10293413739312669
+          },
+          "actual_numerical_pass": true,
+          "actual_all_checks_pass": false,
+          "structural_pass": false,
+          "would_accept": true,
+          "policy_would_accept": false,
+          "false_accept": false,
+          "policy_false_accept": false,
+          "false_reject": false,
+          "effectivity": 4.434885715117499
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 9.896393610527511,
+            "flux": 10.293413739312669
+          },
+          "actual_numerical_pass": false,
+          "actual_all_checks_pass": false,
+          "structural_pass": false,
+          "would_accept": false,
+          "policy_would_accept": false,
+          "false_accept": false,
+          "policy_false_accept": false,
+          "false_reject": false,
+          "effectivity": 4.434885715117499
+        }
+      },
+      "guard": {
+        "nonnegative": true,
+        "pool": 1.374029764196382e-16
+      }
+    },
+    {
+      "key": "full-1e-08",
+      "shard": "teusink-2",
+      "model": "teusink",
+      "start": 1.0,
+      "h": 0.1,
+      "tolerance": 1e-08,
+      "method": "full",
+      "reference_budgets": [
+        {
+          "concentration": 1.5354093449561384e-06,
+          "flux": 1.5354889651899205e-06
+        },
+        {
+          "concentration": 1.9374683876750986e-07,
+          "flux": 1.937596807405453e-07
+        }
+      ],
+      "audit_seconds": 0.03061212506145239,
+      "setup_seconds": 0.002760083880275488,
+      "status": "success",
+      "seconds": 0.010431458009406924,
+      "counts": {
+        "internal": 10,
+        "minimum": 0.00036218440927916545,
+        "nfev": 93,
+        "njev": 7,
+        "nlu": 18,
+        "pool_error": 9.026180113305914e-17,
+        "ledger_residual": 3.120523336048338e-13,
+        "ledger_quadrature": 4.566090659807794e-17
+      },
+      "actual": {
+        "0.0001": {
+          "concentration": 2.0141730359613665e-05,
+          "flux": 2.0141729756098963e-05
+        },
+        "1e-06": {
+          "concentration": 0.002014173035961367,
+          "flux": 0.0020141729756098965
+        }
+      },
+      "guard": {
+        "nonnegative": true,
+        "pool": 1.4316568222856115e-16
+      }
+    },
+    {
+      "key": "third-1e-10",
+      "shard": "teusink-2",
+      "model": "teusink",
+      "start": 1.0,
+      "h": 0.1,
+      "tolerance": 1e-10,
+      "method": "third",
+      "reference_budgets": [
+        {
+          "concentration": 1.5354093449561384e-06,
+          "flux": 1.5354889651899205e-06
+        },
+        {
+          "concentration": 1.9374683876750986e-07,
+          "flux": 1.937596807405453e-07
+        }
+      ],
+      "audit_seconds": 0.03061212506145239,
+      "setup_seconds": 0.002760083880275488,
+      "status": "success",
+      "base_seconds": 0.033402750035747886,
+      "shadow": {
+        "status": "success",
+        "targets": {
+          "0.0001": {
+            "central": {
+              "concentration": 0.09805836297689301,
+              "flux": 0.1023627525966346
+            },
+            "refinement": {
+              "concentration": 0.01127727435484246,
+              "flux": 0.01127727435550419
+            },
+            "score": {
+              "concentration": 0.4373425493269419,
+              "flux": 0.45456010780855516
+            },
+            "would_accept": true
+          },
+          "1e-06": {
+            "central": {
+              "concentration": 9.8058362976893,
+              "flux": 10.23627525966346
+            },
+            "refinement": {
+              "concentration": 1.127727435484246,
+              "flux": 1.1277274355504192
+            },
+            "score": {
+              "concentration": 43.734254932694185,
+              "flux": 45.456010780855514
+            },
+            "would_accept": false
+          }
+        },
+        "counts": [
+          {
+            "factorizations": 1,
+            "linear_solves": 8,
+            "defect_rhs_batches": 1
+          },
+          {
+            "factorizations": 1,
+            "linear_solves": 16,
+            "defect_rhs_batches": 1
+          }
+        ],
+        "seconds": 0.0019442499615252018
+      },
+      "truth": {
+        "status": "success",
+        "stats": {
+          "subflows": 3,
+          "nfev": 270,
+          "njev": 15,
+          "nlu": 42,
+          "linear_solver_setups": 0,
+          "accepted_steps": 30,
+          "rhs_seconds": 0.008637585677206516,
+          "jacobian_seconds": 0.007304416503757238,
+          "native_allocation_seconds": 0.0,
+          "reinit_seconds": 0.0,
+          "ledger_seconds": 0.013067251304164529,
+          "min_rhs": 0.0003617624571914286,
+          "min_internal": 0.0003621844092744397,
+          "pool_error": 3.9499181350535284e-16,
+          "continuous_nonnegative": true,
+          "min_hermite_scaled": 0.06843463559020736,
+          "modified_ledger_residual": 6.073044688198839e-16,
+          "modified_ledger_quadrature": 7.851813581796214e-17,
+          "physical_ledger_residual": 2.1711068962333854e-06,
+          "physical_ledger_quadrature": 7.946039778951751e-17,
+          "seconds": 0.03336337488144636
+        },
+        "output_pool_error": 1.108819105825155e-16,
+        "targets": {
+          "0.0001": {
+            "actual": {
+              "concentration": 0.09896982715928786,
+              "flux": 0.10245529626898643
+            },
+            "numerical_pass": true,
+            "passes": false
+          },
+          "1e-06": {
+            "actual": {
+              "concentration": 9.896982715928786,
+              "flux": 10.245529626898644
+            },
+            "numerical_pass": false,
+            "passes": false
+          }
+        }
+      },
+      "comparison": {
+        "0.0001": {
+          "actual": {
+            "concentration": 0.09896982715928786,
+            "flux": 0.10245529626898643
+          },
+          "actual_numerical_pass": true,
+          "actual_all_checks_pass": false,
+          "structural_pass": false,
+          "would_accept": true,
+          "policy_would_accept": false,
+          "false_accept": false,
+          "policy_false_accept": false,
+          "false_reject": false,
+          "effectivity": 4.436667740583676
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 9.896982715928786,
+            "flux": 10.245529626898644
+          },
+          "actual_numerical_pass": false,
+          "actual_all_checks_pass": false,
+          "structural_pass": false,
+          "would_accept": false,
+          "policy_would_accept": false,
+          "false_accept": false,
+          "policy_false_accept": false,
+          "false_reject": false,
+          "effectivity": 4.436667740583675
+        }
+      },
+      "guard": {
+        "nonnegative": true,
+        "pool": 1.108819105825155e-16
+      }
+    },
+    {
+      "key": "full-1e-10",
+      "shard": "teusink-2",
+      "model": "teusink",
+      "start": 1.0,
+      "h": 0.1,
+      "tolerance": 1e-10,
+      "method": "full",
+      "reference_budgets": [
+        {
+          "concentration": 1.5354093449561384e-06,
+          "flux": 1.5354889651899205e-06
+        },
+        {
+          "concentration": 1.9374683876750986e-07,
+          "flux": 1.937596807405453e-07
+        }
+      ],
+      "audit_seconds": 0.03061212506145239,
+      "setup_seconds": 0.002760083880275488,
+      "status": "success",
+      "seconds": 0.023694416042417288,
+      "counts": {
+        "internal": 26,
+        "minimum": 0.0003621844092744371,
+        "nfev": 226,
+        "njev": 13,
+        "nlu": 30,
+        "pool_error": 3.5019843035759004e-16,
+        "ledger_residual": 6.640618958123964e-16,
+        "ledger_quadrature": 9.316199539942874e-17
+      },
+      "actual": {
+        "0.0001": {
+          "concentration": 1.3154311079469846e-07,
+          "flux": 1.3154289248154515e-07
+        },
+        "1e-06": {
+          "concentration": 1.3154311079469848e-05,
+          "flux": 1.3154289248154518e-05
+        }
+      },
+      "guard": {
+        "nonnegative": true,
+        "pool": 4.115673476082932e-16
+      }
+    },
+    {
+      "key": "third-1e-08",
+      "shard": "teusink-3",
+      "model": "teusink",
+      "start": 1.0,
+      "h": 0.3,
+      "tolerance": 1e-08,
+      "method": "third",
+      "reference_budgets": [
+        {
+          "concentration": 1.3391891422894689e-06,
+          "flux": 1.3391608899538749e-06
+        },
+        {
+          "concentration": 2.315343427824497e-07,
+          "flux": 2.3146371193449024e-07
+        }
+      ],
+      "audit_seconds": 0.05732404184527695,
+      "setup_seconds": 0.002760083880275488,
+      "status": "success",
+      "base_seconds": 0.031410207971930504,
+      "shadow": {
+        "status": "success",
+        "targets": {
+          "0.0001": {
+            "central": {
+              "concentration": 5.772712804201186,
+              "flux": 5.7727128042184255
+            },
+            "refinement": {
+              "concentration": 0.7296937726019629,
+              "flux": 0.7296937726043595
+            },
+            "score": {
+              "concentration": 26.009626307212596,
+              "flux": 26.00962630729114
+            },
+            "would_accept": false
+          },
+          "1e-06": {
+            "central": {
+              "concentration": 577.2712804201186,
+              "flux": 577.2712804218427
+            },
+            "refinement": {
+              "concentration": 72.9693772601963,
+              "flux": 72.96937726043596
+            },
+            "score": {
+              "concentration": 2600.9626307212598,
+              "flux": 2600.9626307291146
+            },
+            "would_accept": false
+          }
+        },
+        "counts": [
+          {
+            "factorizations": 1,
+            "linear_solves": 8,
+            "defect_rhs_batches": 1
+          },
+          {
+            "factorizations": 1,
+            "linear_solves": 16,
+            "defect_rhs_batches": 1
+          }
+        ],
+        "seconds": 0.0019686659798026085
+      },
+      "truth": {
+        "status": "success",
+        "stats": {
+          "subflows": 3,
+          "nfev": 243,
+          "njev": 16,
+          "nlu": 44,
+          "linear_solver_setups": 0,
+          "accepted_steps": 27,
+          "rhs_seconds": 0.007758624618873,
+          "jacobian_seconds": 0.007761456537991762,
+          "native_allocation_seconds": 0.0,
+          "reinit_seconds": 0.0,
+          "ledger_seconds": 0.011814710451290011,
+          "min_rhs": 0.00034357430137740293,
+          "min_internal": 0.0003435743184092393,
+          "pool_error": 1.9749590675267642e-16,
+          "continuous_nonnegative": true,
+          "min_hermite_scaled": 0.06843463559020736,
+          "modified_ledger_residual": 7.512810338717904e-13,
+          "modified_ledger_quadrature": 2.2324957464886904e-16,
+          "physical_ledger_residual": 0.0002462523116720331,
+          "physical_ledger_quadrature": 3.064901057595676e-16,
+          "seconds": 0.03137320885434747
+        },
+        "output_pool_error": 1.3123703153406475e-16,
+        "targets": {
+          "0.0001": {
+            "actual": {
+              "concentration": 5.83382405600613,
+              "flux": 5.833824056022917
+            },
+            "numerical_pass": false,
+            "passes": false
+          },
+          "1e-06": {
+            "actual": {
+              "concentration": 583.3824056006131,
+              "flux": 583.3824056022918
+            },
+            "numerical_pass": false,
+            "passes": false
+          }
+        }
+      },
+      "comparison": {
+        "0.0001": {
+          "actual": {
+            "concentration": 5.83382405600613,
+            "flux": 5.833824056022917
+          },
+          "actual_numerical_pass": false,
+          "actual_all_checks_pass": false,
+          "structural_pass": false,
+          "would_accept": false,
+          "policy_would_accept": false,
+          "false_accept": false,
+          "policy_false_accept": false,
+          "false_reject": false,
+          "effectivity": 4.458418021784263
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 583.3824056006131,
+            "flux": 583.3824056022918
+          },
+          "actual_numerical_pass": false,
+          "actual_all_checks_pass": false,
+          "structural_pass": false,
+          "would_accept": false,
+          "policy_would_accept": false,
+          "false_accept": false,
+          "policy_false_accept": false,
+          "false_reject": false,
+          "effectivity": 4.458418021784263
+        }
+      },
+      "guard": {
+        "nonnegative": true,
+        "pool": 1.3123703153406475e-16
+      }
+    },
+    {
+      "key": "full-1e-08",
+      "shard": "teusink-3",
+      "model": "teusink",
+      "start": 1.0,
+      "h": 0.3,
+      "tolerance": 1e-08,
+      "method": "full",
+      "reference_budgets": [
+        {
+          "concentration": 1.3391891422894689e-06,
+          "flux": 1.3391608899538749e-06
+        },
+        {
+          "concentration": 2.315343427824497e-07,
+          "flux": 2.3146371193449024e-07
+        }
+      ],
+      "audit_seconds": 0.05732404184527695,
+      "setup_seconds": 0.002760083880275488,
+      "status": "success",
+      "seconds": 0.021594875026494265,
+      "counts": {
+        "internal": 23,
+        "minimum": 0.0003435743184118079,
+        "nfev": 199,
+        "njev": 13,
+        "nlu": 30,
+        "pool_error": 1.7589479195160245e-16,
+        "ledger_residual": 6.684719478897146e-13,
+        "ledger_quadrature": 1.8555909578665371e-16
+      },
+      "actual": {
+        "0.0001": {
+          "concentration": 1.4443902405125889e-05,
+          "flux": 1.4443902726216795e-05
+        },
+        "1e-06": {
+          "concentration": 0.0014443902405125888,
+          "flux": 0.0014443902726216796
+        }
+      },
+      "guard": {
+        "nonnegative": true,
+        "pool": 2.1251886405758982e-16
+      }
+    },
+    {
+      "key": "third-1e-10",
+      "shard": "teusink-3",
+      "model": "teusink",
+      "start": 1.0,
+      "h": 0.3,
+      "tolerance": 1e-10,
+      "method": "third",
+      "reference_budgets": [
+        {
+          "concentration": 1.3391891422894689e-06,
+          "flux": 1.3391608899538749e-06
+        },
+        {
+          "concentration": 2.315343427824497e-07,
+          "flux": 2.3146371193449024e-07
+        }
+      ],
+      "audit_seconds": 0.05732404184527695,
+      "setup_seconds": 0.002760083880275488,
+      "status": "success",
+      "base_seconds": 0.07344141695648432,
+      "shadow": {
+        "status": "success",
+        "targets": {
+          "0.0001": {
+            "central": {
+              "concentration": 5.772713795309704,
+              "flux": 5.772713795325904
+            },
+            "refinement": {
+              "concentration": 0.7296937889577687,
+              "flux": 0.7296937889598957
+            },
+            "score": {
+              "concentration": 26.00963033706989,
+              "flux": 26.0096303371432
+            },
+            "would_accept": false
+          },
+          "1e-06": {
+            "central": {
+              "concentration": 577.2713795309704,
+              "flux": 577.2713795325905
+            },
+            "refinement": {
+              "concentration": 72.96937889577688,
+              "flux": 72.96937889598958
+            },
+            "score": {
+              "concentration": 2600.9630337069893,
+              "flux": 2600.9630337143203
+            },
+            "would_accept": false
+          }
+        },
+        "counts": [
+          {
+            "factorizations": 1,
+            "linear_solves": 8,
+            "defect_rhs_batches": 1
+          },
+          {
+            "factorizations": 1,
+            "linear_solves": 16,
+            "defect_rhs_batches": 1
+          }
+        ],
+        "seconds": 0.0019915420562028885
+      },
+      "truth": {
+        "status": "success",
+        "stats": {
+          "subflows": 3,
+          "nfev": 602,
+          "njev": 31,
+          "nlu": 74,
+          "linear_solver_setups": 0,
+          "accepted_steps": 71,
+          "rhs_seconds": 0.019226757576689124,
+          "jacobian_seconds": 0.014933245722204447,
+          "native_allocation_seconds": 0.0,
+          "reinit_seconds": 0.0,
+          "ledger_seconds": 0.029983211308717728,
+          "min_rhs": 0.00034357431810396957,
+          "min_internal": 0.0003435743184137715,
+          "pool_error": 3.9499181350535284e-16,
+          "continuous_nonnegative": true,
+          "min_hermite_scaled": 0.06843463559020736,
+          "modified_ledger_residual": 1.1181213117524966e-15,
+          "modified_ledger_quadrature": 1.9636739487214194e-16,
+          "physical_ledger_residual": 0.0002462512367527777,
+          "physical_ledger_quadrature": 3.973019889475876e-17,
+          "seconds": 0.0734027090948075
+        },
+        "output_pool_error": 2.6157552614709085e-16,
+        "targets": {
+          "0.0001": {
+            "actual": {
+              "concentration": 5.833825010926587,
+              "flux": 5.833825010943771
+            },
+            "numerical_pass": false,
+            "passes": false
+          },
+          "1e-06": {
+            "actual": {
+              "concentration": 583.3825010926587,
+              "flux": 583.3825010943773
+            },
+            "numerical_pass": false,
+            "passes": false
+          }
+        }
+      },
+      "comparison": {
+        "0.0001": {
+          "actual": {
+            "concentration": 5.833825010926587,
+            "flux": 5.833825010943771
+          },
+          "actual_numerical_pass": false,
+          "actual_all_checks_pass": false,
+          "structural_pass": false,
+          "would_accept": false,
+          "policy_would_accept": false,
+          "false_accept": false,
+          "policy_false_accept": false,
+          "false_reject": false,
+          "effectivity": 4.458417982773102
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 583.3825010926587,
+            "flux": 583.3825010943773
+          },
+          "actual_numerical_pass": false,
+          "actual_all_checks_pass": false,
+          "structural_pass": false,
+          "would_accept": false,
+          "policy_would_accept": false,
+          "false_accept": false,
+          "policy_false_accept": false,
+          "false_reject": false,
+          "effectivity": 4.458417982773102
+        }
+      },
+      "guard": {
+        "nonnegative": true,
+        "pool": 2.6157552614709085e-16
+      }
+    },
+    {
+      "key": "full-1e-10",
+      "shard": "teusink-3",
+      "model": "teusink",
+      "start": 1.0,
+      "h": 0.3,
+      "tolerance": 1e-10,
+      "method": "full",
+      "reference_budgets": [
+        {
+          "concentration": 1.3391891422894689e-06,
+          "flux": 1.3391608899538749e-06
+        },
+        {
+          "concentration": 2.315343427824497e-07,
+          "flux": 2.3146371193449024e-07
+        }
+      ],
+      "audit_seconds": 0.05732404184527695,
+      "setup_seconds": 0.002760083880275488,
+      "status": "success",
+      "seconds": 0.05773474997840822,
+      "counts": {
+        "internal": 67,
+        "minimum": 0.00034357431841379536,
+        "nfev": 558,
+        "njev": 28,
+        "nlu": 60,
+        "pool_error": 5.101334700789347e-16,
+        "ledger_residual": 1.0102822004667228e-15,
+        "ledger_quadrature": 2.3664632279739472e-16
+      },
+      "actual": {
+        "0.0001": {
+          "concentration": 1.3691031045587502e-07,
+          "flux": 1.3691083697714085e-07
+        },
+        "1e-06": {
+          "concentration": 1.3691031045587503e-05,
+          "flux": 1.3691083697714088e-05
+        }
+      },
+      "guard": {
+        "nonnegative": true,
+        "pool": 5.755397379538998e-16
+      }
+    },
+    {
+      "key": "third-1e-08",
+      "shard": "kecoli-0",
+      "model": "kecoli",
+      "start": 0.1,
+      "h": 0.001,
+      "tolerance": 1e-08,
+      "method": "third",
+      "reference_budgets": [
+        {
+          "concentration": 0.00046347167359727417,
+          "flux": 0.0004648628300659938,
+          "net_flux": 6.982978312625034e-05
+        },
+        {
+          "concentration": 3.685177586960214e-05,
+          "flux": 3.354551835423338e-05,
+          "net_flux": 4.852265249751123e-06
+        }
+      ],
+      "audit_seconds": 0.12061241711489856,
+      "setup_seconds": 0.2537234169431031,
+      "status": "success",
+      "base_seconds": 0.023253750056028366,
+      "shadow": {
+        "status": "success",
+        "targets": {
+          "0.0001": {
+            "central": {
+              "concentration": 0.00024143062904284887,
+              "flux": 0.000277894246513798,
+              "net_flux": 0.023610586803994745
+            },
+            "refinement": {
+              "concentration": 2.7095850177407113e-05,
+              "flux": 4.309306799525925e-05,
+              "net_flux": 0.0034637189930137023
+            },
+            "score": {
+              "concentration": 0.001074105916881024,
+              "flux": 0.0012839492580362288,
+              "net_flux": 0.1082972231880338
+            },
+            "would_accept": true
+          },
+          "1e-06": {
+            "central": {
+              "concentration": 0.02414306290428489,
+              "flux": 0.0277894246513798,
+              "net_flux": 0.023610586803994745
+            },
+            "refinement": {
+              "concentration": 0.0027095850177407117,
+              "flux": 0.004309306799525925,
+              "net_flux": 0.0034637189930137023
+            },
+            "score": {
+              "concentration": 0.10741059168810241,
+              "flux": 0.1283949258036229,
+              "net_flux": 0.1082972231880338
+            },
+            "would_accept": true
+          }
+        },
+        "counts": [
+          {
+            "factorizations": 1,
+            "linear_solves": 8,
+            "defect_rhs_batches": 1
+          },
+          {
+            "factorizations": 1,
+            "linear_solves": 16,
+            "defect_rhs_batches": 1
+          }
+        ],
+        "seconds": 0.018565374892205
+      },
+      "truth": {
+        "status": "success",
+        "stats": {
+          "subflows": 3,
+          "nfev": 27,
+          "njev": 3,
+          "nlu": 6,
+          "linear_solver_setups": 0,
+          "accepted_steps": 3,
+          "rhs_seconds": 0.003262584563344717,
+          "jacobian_seconds": 0.002053832169622183,
+          "native_allocation_seconds": 0.0,
+          "reinit_seconds": 0.0,
+          "ledger_seconds": 0.0,
+          "min_rhs": 0.0,
+          "min_internal": 0.0,
+          "pool_error": 1.819655537360633e-13,
+          "continuous_nonnegative": true,
+          "min_hermite_scaled": 0.0,
+          "seconds": 0.022317999973893166
+        },
+        "output_pool_error": 2.016390526771163e-13,
+        "targets": {
+          "0.0001": {
+            "actual": {
+              "concentration": 0.00024130355495158672,
+              "flux": 0.0002824375664038636,
+              "net_flux": 0.024124189405847513
+            },
+            "numerical_pass": true,
+            "passes": true
+          },
+          "1e-06": {
+            "actual": {
+              "concentration": 0.024130355495158674,
+              "flux": 0.02824375664038636,
+              "net_flux": 0.024124189405847513
+            },
+            "numerical_pass": true,
+            "passes": true
+          }
+        }
+      },
+      "comparison": {
+        "0.0001": {
+          "actual": {
+            "concentration": 0.00024130355495158672,
+            "flux": 0.0002824375664038636,
+            "net_flux": 0.024124189405847513
+          },
+          "actual_numerical_pass": true,
+          "actual_all_checks_pass": true,
+          "structural_pass": true,
+          "would_accept": true,
+          "policy_would_accept": true,
+          "false_accept": false,
+          "policy_false_accept": false,
+          "false_reject": false,
+          "effectivity": 4.4891549044870045
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 0.024130355495158674,
+            "flux": 0.02824375664038636,
+            "net_flux": 0.024124189405847513
+          },
+          "actual_numerical_pass": true,
+          "actual_all_checks_pass": true,
+          "structural_pass": true,
+          "would_accept": true,
+          "policy_would_accept": true,
+          "false_accept": false,
+          "policy_false_accept": false,
+          "false_reject": false,
+          "effectivity": 4.545957800104687
+        }
+      },
+      "guard": {
+        "nonnegative": true,
+        "pool": 2.016390526771163e-13
+      }
+    },
+    {
+      "key": "full-1e-08",
+      "shard": "kecoli-0",
+      "model": "kecoli",
+      "start": 0.1,
+      "h": 0.001,
+      "tolerance": 1e-08,
+      "method": "full",
+      "reference_budgets": [
+        {
+          "concentration": 0.00046347167359727417,
+          "flux": 0.0004648628300659938,
+          "net_flux": 6.982978312625034e-05
+        },
+        {
+          "concentration": 3.685177586960214e-05,
+          "flux": 3.354551835423338e-05,
+          "net_flux": 4.852265249751123e-06
+        }
+      ],
+      "audit_seconds": 0.12061241711489856,
+      "setup_seconds": 0.2537234169431031,
+      "status": "success",
+      "seconds": 0.01068037492223084,
+      "counts": {
+        "internal": 1,
+        "minimum": 0.0,
+        "nfev": 9,
+        "njev": 1,
+        "nlu": 2,
+        "pool_error": 2.019677827758139e-13
+      },
+      "actual": {
+        "0.0001": {
+          "concentration": 1.140020785331918e-06,
+          "flux": 7.514437746495926e-07,
+          "net_flux": 6.617263004710221e-06
+        },
+        "1e-06": {
+          "concentration": 0.00011400207853319181,
+          "flux": 7.514437746495927e-05,
+          "net_flux": 6.617263004710221e-06
+        }
+      },
+      "guard": {
+        "nonnegative": true,
+        "pool": 2.2005314237461014e-13
+      }
+    },
+    {
+      "key": "third-1e-10",
+      "shard": "kecoli-0",
+      "model": "kecoli",
+      "start": 0.1,
+      "h": 0.001,
+      "tolerance": 1e-10,
+      "method": "third",
+      "reference_budgets": [
+        {
+          "concentration": 0.00046347167359727417,
+          "flux": 0.0004648628300659938,
+          "net_flux": 6.982978312625034e-05
+        },
+        {
+          "concentration": 3.685177586960214e-05,
+          "flux": 3.354551835423338e-05,
+          "net_flux": 4.852265249751123e-06
+        }
+      ],
+      "audit_seconds": 0.12061241711489856,
+      "setup_seconds": 0.2537234169431031,
+      "status": "success",
+      "base_seconds": 0.03735466697253287,
+      "shadow": {
+        "status": "success",
+        "targets": {
+          "0.0001": {
+            "central": {
+              "concentration": 0.00023933326544615566,
+              "flux": 0.00026183853281575004,
+              "net_flux": 0.0222958992883038
+            },
+            "refinement": {
+              "concentration": 2.6864702692314742e-05,
+              "flux": 4.0137523355317395e-05,
+              "net_flux": 0.0032722802320558626
+            },
+            "score": {
+              "concentration": 0.0010647918725538816,
+              "flux": 0.0012079042246842698,
+              "net_flux": 0.10227271808143865
+            },
+            "would_accept": true
+          },
+          "1e-06": {
+            "central": {
+              "concentration": 0.02393332654461557,
+              "flux": 0.026183853281575006,
+              "net_flux": 0.0222958992883038
+            },
+            "refinement": {
+              "concentration": 0.0026864702692314746,
+              "flux": 0.00401375233553174,
+              "net_flux": 0.0032722802320558626
+            },
+            "score": {
+              "concentration": 0.10647918725538817,
+              "flux": 0.12079042246842699,
+              "net_flux": 0.10227271808143865
+            },
+            "would_accept": true
+          }
+        },
+        "counts": [
+          {
+            "factorizations": 1,
+            "linear_solves": 8,
+            "defect_rhs_batches": 1
+          },
+          {
+            "factorizations": 1,
+            "linear_solves": 16,
+            "defect_rhs_batches": 1
+          }
+        ],
+        "seconds": 0.020162916975095868
+      },
+      "truth": {
+        "status": "success",
+        "stats": {
+          "subflows": 3,
+          "nfev": 47,
+          "njev": 4,
+          "nlu": 10,
+          "linear_solver_setups": 0,
+          "accepted_steps": 5,
+          "rhs_seconds": 0.005583456018939614,
+          "jacobian_seconds": 0.002750542014837265,
+          "native_allocation_seconds": 0.0,
+          "reinit_seconds": 0.0,
+          "ledger_seconds": 0.0,
+          "min_rhs": 0.0,
+          "min_internal": 0.0,
+          "pool_error": 7.494005416219813e-14,
+          "continuous_nonnegative": true,
+          "min_hermite_scaled": 0.0,
+          "seconds": 0.03572983294725418
+        },
+        "output_pool_error": 1.3670835297130436e-13,
+        "targets": {
+          "0.0001": {
+            "actual": {
+              "concentration": 0.00023920929859196896,
+              "flux": 0.0002654346337750417,
+              "net_flux": 0.022778520961758454
+            },
+            "numerical_pass": true,
+            "passes": true
+          },
+          "1e-06": {
+            "actual": {
+              "concentration": 0.023920929859196898,
+              "flux": 0.026543463377504177,
+              "net_flux": 0.022778520961758454
+            },
+            "numerical_pass": true,
+            "passes": true
+          }
+        }
+      },
+      "comparison": {
+        "0.0001": {
+          "actual": {
+            "concentration": 0.00023920929859196896,
+            "flux": 0.0002654346337750417,
+            "net_flux": 0.022778520961758454
+          },
+          "actual_numerical_pass": true,
+          "actual_all_checks_pass": true,
+          "structural_pass": true,
+          "would_accept": true,
+          "policy_would_accept": true,
+          "false_accept": false,
+          "policy_false_accept": false,
+          "false_reject": false,
+          "effectivity": 4.489875275622084
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 0.023920929859196898,
+            "flux": 0.026543463377504177,
+            "net_flux": 0.022778520961758454
+          },
+          "actual_numerical_pass": true,
+          "actual_all_checks_pass": true,
+          "structural_pass": true,
+          "would_accept": true,
+          "policy_would_accept": true,
+          "false_accept": false,
+          "policy_false_accept": false,
+          "false_reject": false,
+          "effectivity": 4.550665478371521
+        }
+      },
+      "guard": {
+        "nonnegative": true,
+        "pool": 1.3670835297130436e-13
+      }
+    },
+    {
+      "key": "full-1e-10",
+      "shard": "kecoli-0",
+      "model": "kecoli",
+      "start": 0.1,
+      "h": 0.001,
+      "tolerance": 1e-10,
+      "method": "full",
+      "reference_budgets": [
+        {
+          "concentration": 0.00046347167359727417,
+          "flux": 0.0004648628300659938,
+          "net_flux": 6.982978312625034e-05
+        },
+        {
+          "concentration": 3.685177586960214e-05,
+          "flux": 3.354551835423338e-05,
+          "net_flux": 4.852265249751123e-06
+        }
+      ],
+      "audit_seconds": 0.12061241711489856,
+      "setup_seconds": 0.2537234169431031,
+      "status": "success",
+      "seconds": 0.01944579090923071,
+      "counts": {
+        "internal": 2,
+        "minimum": 0.0,
+        "nfev": 16,
+        "njev": 1,
+        "nlu": 4,
+        "pool_error": 1.46009940249492e-13
+      },
+      "actual": {
+        "0.0001": {
+          "concentration": 4.077759052856019e-07,
+          "flux": 3.333740557793482e-07,
+          "net_flux": 4.900424594907978e-06
+        },
+        "1e-06": {
+          "concentration": 4.07775905285602e-05,
+          "flux": 3.333740557793482e-05,
+          "net_flux": 4.900424594907978e-06
+        }
+      },
+      "guard": {
+        "nonnegative": true,
+        "pool": 1.4989658819741804e-13
+      }
+    },
+    {
+      "key": "third-1e-08",
+      "shard": "kecoli-1",
+      "model": "kecoli",
+      "start": 0.1,
+      "h": 0.003,
+      "tolerance": 1e-08,
+      "method": "third",
+      "reference_budgets": [
+        {
+          "concentration": 0.00041247132499464326,
+          "flux": 0.00016854612377166668,
+          "net_flux": 2.4661399205909415e-05
+        },
+        {
+          "concentration": 3.241055324421164e-05,
+          "flux": 3.0212066564051307e-05,
+          "net_flux": 4.704407611111658e-06
+        }
+      ],
+      "audit_seconds": 0.06575091718696058,
+      "setup_seconds": 0.2537234169431031,
+      "status": "success",
+      "base_seconds": 0.04351891600526869,
+      "shadow": {
+        "status": "success",
+        "targets": {
+          "0.0001": {
+            "central": {
+              "concentration": 0.003304347883215829,
+              "flux": 0.0033043478837318906,
+              "net_flux": 0.20079779377104584
+            },
+            "refinement": {
+              "concentration": 0.0004696995554223962,
+              "flux": 0.0004696995564888337,
+              "net_flux": 0.032926719568125394
+            },
+            "score": {
+              "concentration": 0.0150961897545529,
+              "flux": 0.015096189760882898,
+              "net_flux": 0.934898053356685
+            },
+            "would_accept": true
+          },
+          "1e-06": {
+            "central": {
+              "concentration": 0.3304347883215829,
+              "flux": 0.33043478837318907,
+              "net_flux": 0.20079779377104584
+            },
+            "refinement": {
+              "concentration": 0.04696995554223963,
+              "flux": 0.04696995564888338,
+              "net_flux": 0.032926719568125394
+            },
+            "score": {
+              "concentration": 1.5096189754552902,
+              "flux": 1.5096189760882899,
+              "net_flux": 0.934898053356685
+            },
+            "would_accept": false
+          }
+        },
+        "counts": [
+          {
+            "factorizations": 1,
+            "linear_solves": 8,
+            "defect_rhs_batches": 1
+          },
+          {
+            "factorizations": 1,
+            "linear_solves": 16,
+            "defect_rhs_batches": 1
+          }
+        ],
+        "seconds": 0.018798625096678734
+      },
+      "truth": {
+        "status": "success",
+        "stats": {
+          "subflows": 3,
+          "nfev": 48,
+          "njev": 3,
+          "nlu": 12,
+          "linear_solver_setups": 0,
+          "accepted_steps": 6,
+          "rhs_seconds": 0.006178370444104075,
+          "jacobian_seconds": 0.0021366248838603497,
+          "native_allocation_seconds": 0.0,
+          "reinit_seconds": 0.0,
+          "ledger_seconds": 0.0,
+          "min_rhs": 0.0,
+          "min_internal": 0.0,
+          "pool_error": 3.460565167756616e-13,
+          "continuous_nonnegative": true,
+          "min_hermite_scaled": 0.0,
+          "seconds": 0.04254341684281826
+        },
+        "output_pool_error": 4.628528463279662e-13,
+        "targets": {
+          "0.0001": {
+            "actual": {
+              "concentration": 0.0033618871291232312,
+              "flux": 0.003361887129271298,
+              "net_flux": 0.20325789336271435
+            },
+            "numerical_pass": true,
+            "passes": true
+          },
+          "1e-06": {
+            "actual": {
+              "concentration": 0.33618871291232316,
+              "flux": 0.3361887129271298,
+              "net_flux": 0.20325789336271435
+            },
+            "numerical_pass": true,
+            "passes": true
+          }
+        }
+      },
+      "comparison": {
+        "0.0001": {
+          "actual": {
+            "concentration": 0.0033618871291232312,
+            "flux": 0.003361887129271298,
+            "net_flux": 0.20325789336271435
+          },
+          "actual_numerical_pass": true,
+          "actual_all_checks_pass": true,
+          "structural_pass": true,
+          "would_accept": true,
+          "policy_would_accept": true,
+          "false_accept": false,
+          "policy_false_accept": false,
+          "false_reject": false,
+          "effectivity": 4.599565792450463
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 0.33618871291232316,
+            "flux": 0.3361887129271298,
+            "net_flux": 0.20325789336271435
+          },
+          "actual_numerical_pass": true,
+          "actual_all_checks_pass": true,
+          "structural_pass": true,
+          "would_accept": false,
+          "policy_would_accept": false,
+          "false_accept": false,
+          "policy_false_accept": false,
+          "false_reject": true,
+          "effectivity": 4.490391610546144
+        }
+      },
+      "guard": {
+        "nonnegative": true,
+        "pool": 4.628528463279662e-13
+      }
+    },
+    {
+      "key": "full-1e-08",
+      "shard": "kecoli-1",
+      "model": "kecoli",
+      "start": 0.1,
+      "h": 0.003,
+      "tolerance": 1e-08,
+      "method": "full",
+      "reference_budgets": [
+        {
+          "concentration": 0.00041247132499464326,
+          "flux": 0.00016854612377166668,
+          "net_flux": 2.4661399205909415e-05
+        },
+        {
+          "concentration": 3.241055324421164e-05,
+          "flux": 3.0212066564051307e-05,
+          "net_flux": 4.704407611111658e-06
+        }
+      ],
+      "audit_seconds": 0.06575091718696058,
+      "setup_seconds": 0.2537234169431031,
+      "status": "success",
+      "seconds": 0.020780042046681046,
+      "counts": {
+        "internal": 2,
+        "minimum": 0.0,
+        "nfev": 16,
+        "njev": 1,
+        "nlu": 4,
+        "pool_error": 2.4743488508116605e-13
+      },
+      "actual": {
+        "0.0001": {
+          "concentration": 1.5091372674264712e-05,
+          "flux": 8.315837493434151e-06,
+          "net_flux": 5.339703936639922e-05
+        },
+        "1e-06": {
+          "concentration": 0.0015091372674264716,
+          "flux": 0.0008315837493434152,
+          "net_flux": 5.339703936639922e-05
+        }
+      },
+      "guard": {
+        "nonnegative": true,
+        "pool": 2.4743488508116605e-13
+      }
+    },
+    {
+      "key": "third-1e-10",
+      "shard": "kecoli-1",
+      "model": "kecoli",
+      "start": 0.1,
+      "h": 0.003,
+      "tolerance": 1e-10,
+      "method": "third",
+      "reference_budgets": [
+        {
+          "concentration": 0.00041247132499464326,
+          "flux": 0.00016854612377166668,
+          "net_flux": 2.4661399205909415e-05
+        },
+        {
+          "concentration": 3.241055324421164e-05,
+          "flux": 3.0212066564051307e-05,
+          "net_flux": 4.704407611111658e-06
+        }
+      ],
+      "audit_seconds": 0.06575091718696058,
+      "setup_seconds": 0.2537234169431031,
+      "status": "success",
+      "base_seconds": 0.09598841681145132,
+      "shadow": {
+        "status": "success",
+        "targets": {
+          "0.0001": {
+            "central": {
+              "concentration": 0.003220377568002928,
+              "flux": 0.0032203775689319844,
+              "net_flux": 0.1997385652649681
+            },
+            "refinement": {
+              "concentration": 0.0004578063947955175,
+              "flux": 0.00045780639554896224,
+              "net_flux": 0.032739338803722796
+            },
+            "score": {
+              "concentration": 0.014712735851193783,
+              "flux": 0.014712735857923787,
+              "net_flux": 0.9299116162747636
+            },
+            "would_accept": true
+          },
+          "1e-06": {
+            "central": {
+              "concentration": 0.32203775680029284,
+              "flux": 0.32203775689319847,
+              "net_flux": 0.1997385652649681
+            },
+            "refinement": {
+              "concentration": 0.04578063947955176,
+              "flux": 0.04578063955489623,
+              "net_flux": 0.032739338803722796
+            },
+            "score": {
+              "concentration": 1.4712735851193783,
+              "flux": 1.4712735857923789,
+              "net_flux": 0.9299116162747636
+            },
+            "would_accept": false
+          }
+        },
+        "counts": [
+          {
+            "factorizations": 1,
+            "linear_solves": 8,
+            "defect_rhs_batches": 1
+          },
+          {
+            "factorizations": 1,
+            "linear_solves": 16,
+            "defect_rhs_batches": 1
+          }
+        ],
+        "seconds": 0.019060874823480844
+      },
+      "truth": {
+        "status": "success",
+        "stats": {
+          "subflows": 3,
+          "nfev": 134,
+          "njev": 4,
+          "nlu": 28,
+          "linear_solver_setups": 0,
+          "accepted_steps": 12,
+          "rhs_seconds": 0.01596866617910564,
+          "jacobian_seconds": 0.002888165879994631,
+          "native_allocation_seconds": 0.0,
+          "reinit_seconds": 0.0,
+          "ledger_seconds": 0.0,
+          "min_rhs": 0.0,
+          "min_internal": 0.0,
+          "pool_error": 3.1963320878958287e-13,
+          "continuous_nonnegative": true,
+          "min_hermite_scaled": 0.0,
+          "seconds": 0.09439354203641415
+        },
+        "output_pool_error": 5.242646594627592e-13,
+        "targets": {
+          "0.0001": {
+            "actual": {
+              "concentration": 0.003276475134481143,
+              "flux": 0.003276475134451587,
+              "net_flux": 0.20219346850134345
+            },
+            "numerical_pass": true,
+            "passes": true
+          },
+          "1e-06": {
+            "actual": {
+              "concentration": 0.3276475134481143,
+              "flux": 0.32764751344515874,
+              "net_flux": 0.20219346850134345
+            },
+            "numerical_pass": true,
+            "passes": true
+          }
+        }
+      },
+      "comparison": {
+        "0.0001": {
+          "actual": {
+            "concentration": 0.003276475134481143,
+            "flux": 0.003276475134451587,
+            "net_flux": 0.20219346850134345
+          },
+          "actual_numerical_pass": true,
+          "actual_all_checks_pass": true,
+          "structural_pass": true,
+          "would_accept": true,
+          "policy_would_accept": true,
+          "false_accept": false,
+          "policy_false_accept": false,
+          "false_reject": false,
+          "effectivity": 4.599117979266402
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 0.3276475134481143,
+            "flux": 0.32764751344515874,
+            "net_flux": 0.20219346850134345
+          },
+          "actual_numerical_pass": true,
+          "actual_all_checks_pass": true,
+          "structural_pass": true,
+          "would_accept": false,
+          "policy_would_accept": false,
+          "false_accept": false,
+          "policy_false_accept": false,
+          "false_reject": true,
+          "effectivity": 4.490415844481503
+        }
+      },
+      "guard": {
+        "nonnegative": true,
+        "pool": 5.242646594627592e-13
+      }
+    },
+    {
+      "key": "full-1e-10",
+      "shard": "kecoli-1",
+      "model": "kecoli",
+      "start": 0.1,
+      "h": 0.003,
+      "tolerance": 1e-10,
+      "method": "full",
+      "reference_budgets": [
+        {
+          "concentration": 0.00041247132499464326,
+          "flux": 0.00016854612377166668,
+          "net_flux": 2.4661399205909415e-05
+        },
+        {
+          "concentration": 3.241055324421164e-05,
+          "flux": 3.0212066564051307e-05,
+          "net_flux": 4.704407611111658e-06
+        }
+      ],
+      "audit_seconds": 0.06575091718696058,
+      "setup_seconds": 0.2537234169431031,
+      "status": "success",
+      "seconds": 0.03149037482216954,
+      "counts": {
+        "internal": 4,
+        "minimum": 0.0,
+        "nfev": 36,
+        "njev": 2,
+        "nlu": 6,
+        "pool_error": 2.6625576743377647e-13
+      },
+      "actual": {
+        "0.0001": {
+          "concentration": 2.9518402545644276e-06,
+          "flux": 1.7821197610744856e-06,
+          "net_flux": 1.293456951485257e-05
+        },
+        "1e-06": {
+          "concentration": 0.0002951840254564428,
+          "flux": 0.0001782119761074486,
+          "net_flux": 1.293456951485257e-05
+        }
+      },
+      "guard": {
+        "nonnegative": true,
+        "pool": 3.3744361471743675e-13
+      }
+    },
+    {
+      "key": "third-1e-08",
+      "shard": "kecoli-2",
+      "model": "kecoli",
+      "start": 0.1,
+      "h": 0.01,
+      "tolerance": 1e-08,
+      "method": "third",
+      "reference_budgets": [
+        {
+          "concentration": 0.00040922861186315485,
+          "flux": 0.0003333516046269712,
+          "net_flux": 3.285523465687743e-05
+        },
+        {
+          "concentration": 3.8021167470142836e-05,
+          "flux": 3.1224608506390456e-05,
+          "net_flux": 4.770732323301361e-06
+        }
+      ],
+      "audit_seconds": 0.3512408749666065,
+      "setup_seconds": 0.2537234169431031,
+      "status": "success",
+      "base_seconds": 0.05685508297756314,
+      "shadow": {
+        "status": "success",
+        "targets": {
+          "0.0001": {
+            "central": {
+              "concentration": 0.036087704688614455,
+              "flux": 0.03608770469075754,
+              "net_flux": 2.0767170210103267
+            },
+            "refinement": {
+              "concentration": 0.006241739844280123,
+              "flux": 0.006241739845251106,
+              "net_flux": 0.35677632068316373
+            },
+            "score": {
+              "concentration": 0.1693177781315783,
+              "flux": 0.1693177781440346,
+              "net_flux": 9.733973366773961
+            },
+            "would_accept": false
+          },
+          "1e-06": {
+            "central": {
+              "concentration": 3.608770468861446,
+              "flux": 3.608770469075755,
+              "net_flux": 2.0767170210103267
+            },
+            "refinement": {
+              "concentration": 0.6241739844280123,
+              "flux": 0.6241739845251107,
+              "net_flux": 0.35677632068316373
+            },
+            "score": {
+              "concentration": 16.931777813157833,
+              "flux": 16.931777814403464,
+              "net_flux": 9.733973366773961
+            },
+            "would_accept": false
+          }
+        },
+        "counts": [
+          {
+            "factorizations": 1,
+            "linear_solves": 8,
+            "defect_rhs_batches": 1
+          },
+          {
+            "factorizations": 1,
+            "linear_solves": 16,
+            "defect_rhs_batches": 1
+          }
+        ],
+        "seconds": 0.02041662484407425
+      },
+      "truth": {
+        "status": "success",
+        "stats": {
+          "subflows": 3,
+          "nfev": 62,
+          "njev": 3,
+          "nlu": 16,
+          "linear_solver_setups": 0,
+          "accepted_steps": 8,
+          "rhs_seconds": 0.007612040499225259,
+          "jacobian_seconds": 0.0021582080516964197,
+          "native_allocation_seconds": 0.0,
+          "reinit_seconds": 0.0,
+          "ledger_seconds": 0.0,
+          "min_rhs": 0.0,
+          "min_internal": 0.0,
+          "pool_error": 6.766809335090335e-13,
+          "continuous_nonnegative": true,
+          "min_hermite_scaled": 0.0,
+          "seconds": 0.05525154108181596
+        },
+        "output_pool_error": 1.2304194121903765e-12,
+        "targets": {
+          "0.0001": {
+            "actual": {
+              "concentration": 0.03676354496610707,
+              "flux": 0.03676354496792041,
+              "net_flux": 2.0999198715470233
+            },
+            "numerical_pass": false,
+            "passes": false
+          },
+          "1e-06": {
+            "actual": {
+              "concentration": 3.676354496610708,
+              "flux": 3.6763544967920416,
+              "net_flux": 2.0999198715470233
+            },
+            "numerical_pass": false,
+            "passes": false
+          }
+        }
+      },
+      "comparison": {
+        "0.0001": {
+          "actual": {
+            "concentration": 0.03676354496610707,
+            "flux": 0.03676354496792041,
+            "net_flux": 2.0999198715470233
+          },
+          "actual_numerical_pass": false,
+          "actual_all_checks_pass": false,
+          "structural_pass": true,
+          "would_accept": false,
+          "policy_would_accept": false,
+          "false_accept": false,
+          "policy_false_accept": false,
+          "false_reject": false,
+          "effectivity": 4.635402283041822
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 3.676354496610708,
+            "flux": 3.6763544967920416,
+            "net_flux": 2.0999198715470233
+          },
+          "actual_numerical_pass": false,
+          "actual_all_checks_pass": false,
+          "structural_pass": true,
+          "would_accept": false,
+          "policy_would_accept": false,
+          "false_accept": false,
+          "policy_false_accept": false,
+          "false_reject": false,
+          "effectivity": 4.605588995614542
+        }
+      },
+      "guard": {
+        "nonnegative": true,
+        "pool": 1.2304194121903765e-12
+      }
+    },
+    {
+      "key": "full-1e-08",
+      "shard": "kecoli-2",
+      "model": "kecoli",
+      "start": 0.1,
+      "h": 0.01,
+      "tolerance": 1e-08,
+      "method": "full",
+      "reference_budgets": [
+        {
+          "concentration": 0.00040922861186315485,
+          "flux": 0.0003333516046269712,
+          "net_flux": 3.285523465687743e-05
+        },
+        {
+          "concentration": 3.8021167470142836e-05,
+          "flux": 3.1224608506390456e-05,
+          "net_flux": 4.770732323301361e-06
+        }
+      ],
+      "audit_seconds": 0.3512408749666065,
+      "setup_seconds": 0.2537234169431031,
+      "status": "success",
+      "seconds": 0.032845959067344666,
+      "counts": {
+        "internal": 4,
+        "minimum": 0.0,
+        "nfev": 36,
+        "njev": 2,
+        "nlu": 6,
+        "pool_error": 1.824619448587141e-12
+      },
+      "actual": {
+        "0.0001": {
+          "concentration": 0.00028323552129494857,
+          "flux": 0.0001563758507687808,
+          "net_flux": 0.000918144853584885
+        },
+        "1e-06": {
+          "concentration": 0.028323552129494865,
+          "flux": 0.015637585076878083,
+          "net_flux": 0.000918144853584885
+        }
+      },
+      "guard": {
+        "nonnegative": true,
+        "pool": 1.824305463637989e-12
+      }
+    },
+    {
+      "key": "third-1e-10",
+      "shard": "kecoli-2",
+      "model": "kecoli",
+      "start": 0.1,
+      "h": 0.01,
+      "tolerance": 1e-10,
+      "method": "third",
+      "reference_budgets": [
+        {
+          "concentration": 0.00040922861186315485,
+          "flux": 0.0003333516046269712,
+          "net_flux": 3.285523465687743e-05
+        },
+        {
+          "concentration": 3.8021167470142836e-05,
+          "flux": 3.1224608506390456e-05,
+          "net_flux": 4.770732323301361e-06
+        }
+      ],
+      "audit_seconds": 0.3512408749666065,
+      "setup_seconds": 0.2537234169431031,
+      "status": "success",
+      "base_seconds": 0.14970774995163083,
+      "shadow": {
+        "status": "success",
+        "targets": {
+          "0.0001": {
+            "central": {
+              "concentration": 0.036086030196173485,
+              "flux": 0.03608603019822337,
+              "net_flux": 2.0764234395068075
+            },
+            "refinement": {
+              "concentration": 0.0062414564999742125,
+              "flux": 0.006241456500650268,
+              "net_flux": 0.3567240143141522
+            },
+            "score": {
+              "concentration": 0.1693099467845908,
+              "flux": 0.16930994679549458,
+              "net_flux": 9.73258981528384
+            },
+            "would_accept": false
+          },
+          "1e-06": {
+            "central": {
+              "concentration": 3.6086030196173486,
+              "flux": 3.6086030198223376,
+              "net_flux": 2.0764234395068075
+            },
+            "refinement": {
+              "concentration": 0.6241456499974213,
+              "flux": 0.624145650065027,
+              "net_flux": 0.3567240143141522
+            },
+            "score": {
+              "concentration": 16.93099467845908,
+              "flux": 16.930994679549457,
+              "net_flux": 9.73258981528384
+            },
+            "would_accept": false
+          }
+        },
+        "counts": [
+          {
+            "factorizations": 1,
+            "linear_solves": 8,
+            "defect_rhs_batches": 1
+          },
+          {
+            "factorizations": 1,
+            "linear_solves": 16,
+            "defect_rhs_batches": 1
+          }
+        ],
+        "seconds": 0.019200083101168275
+      },
+      "truth": {
+        "status": "success",
+        "stats": {
+          "subflows": 3,
+          "nfev": 187,
+          "njev": 4,
+          "nlu": 46,
+          "linear_solver_setups": 0,
+          "accepted_steps": 23,
+          "rhs_seconds": 0.022594004636630416,
+          "jacobian_seconds": 0.0027202079072594643,
+          "native_allocation_seconds": 0.0,
+          "reinit_seconds": 0.0,
+          "ledger_seconds": 0.0,
+          "min_rhs": 0.0,
+          "min_internal": 0.0,
+          "pool_error": 2.9964919434633e-13,
+          "continuous_nonnegative": true,
+          "min_hermite_scaled": 0.0,
+          "seconds": 0.14865683298557997
+        },
+        "output_pool_error": 1.5169436887174662e-12,
+        "targets": {
+          "0.0001": {
+            "actual": {
+              "concentration": 0.036761861397200404,
+              "flux": 0.036761861399974824,
+              "net_flux": 2.0996237863085097
+            },
+            "numerical_pass": false,
+            "passes": false
+          },
+          "1e-06": {
+            "actual": {
+              "concentration": 3.6761861397200413,
+              "flux": 3.676186139997483,
+              "net_flux": 2.0996237863085097
+            },
+            "numerical_pass": false,
+            "passes": false
+          }
+        }
+      },
+      "comparison": {
+        "0.0001": {
+          "actual": {
+            "concentration": 0.036761861397200404,
+            "flux": 0.036761861399974824,
+            "net_flux": 2.0996237863085097
+          },
+          "actual_numerical_pass": false,
+          "actual_all_checks_pass": false,
+          "structural_pass": true,
+          "would_accept": false,
+          "policy_would_accept": false,
+          "false_accept": false,
+          "policy_false_accept": false,
+          "false_reject": false,
+          "effectivity": 4.635397007192114
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 3.6761861397200413,
+            "flux": 3.676186139997483,
+            "net_flux": 2.0996237863085097
+          },
+          "actual_numerical_pass": false,
+          "actual_all_checks_pass": false,
+          "structural_pass": true,
+          "would_accept": false,
+          "policy_would_accept": false,
+          "false_accept": false,
+          "policy_false_accept": false,
+          "false_reject": false,
+          "effectivity": 4.605586886729585
+        }
+      },
+      "guard": {
+        "nonnegative": true,
+        "pool": 1.5169436887174662e-12
+      }
+    },
+    {
+      "key": "full-1e-10",
+      "shard": "kecoli-2",
+      "model": "kecoli",
+      "start": 0.1,
+      "h": 0.01,
+      "tolerance": 1e-10,
+      "method": "full",
+      "reference_budgets": [
+        {
+          "concentration": 0.00040922861186315485,
+          "flux": 0.0003333516046269712,
+          "net_flux": 3.285523465687743e-05
+        },
+        {
+          "concentration": 3.8021167470142836e-05,
+          "flux": 3.1224608506390456e-05,
+          "net_flux": 4.770732323301361e-06
+        }
+      ],
+      "audit_seconds": 0.3512408749666065,
+      "setup_seconds": 0.2537234169431031,
+      "status": "success",
+      "seconds": 0.03940716711804271,
+      "counts": {
+        "internal": 9,
+        "minimum": 0.0,
+        "nfev": 71,
+        "njev": 2,
+        "nlu": 6,
+        "pool_error": 1.5883596521382174e-12
+      },
+      "actual": {
+        "0.0001": {
+          "concentration": 2.7982465551738893e-06,
+          "flux": 1.7058116858570955e-06,
+          "net_flux": 1.2657612228960251e-05
+        },
+        "1e-06": {
+          "concentration": 0.000279824655517389,
+          "flux": 0.00017058116858570957,
+          "net_flux": 1.2657612228960251e-05
+        }
+      },
+      "guard": {
+        "nonnegative": true,
+        "pool": 1.58876817951681e-12
+      }
+    },
+    {
+      "key": "third-1e-08",
+      "shard": "kecoli-3",
+      "model": "kecoli",
+      "start": 0.1,
+      "h": 0.03,
+      "tolerance": 1e-08,
+      "method": "third",
+      "reference_budgets": [
+        {
+          "concentration": 0.0015121053796950195,
+          "flux": 0.0005203813239350484,
+          "net_flux": 9.107149965276652e-05
+        },
+        {
+          "concentration": 0.00015827105325333363,
+          "flux": 9.040903829652732e-05,
+          "net_flux": 1.3641345740877026e-05
+        }
+      ],
+      "audit_seconds": 0.17383645894005895,
+      "setup_seconds": 0.2537234169431031,
+      "status": "success",
+      "base_seconds": 0.09945041686296463,
+      "shadow": {
+        "status": "success",
+        "targets": {
+          "0.0001": {
+            "central": {
+              "concentration": 0.7486778284137022,
+              "flux": 0.7486778313131807,
+              "net_flux": 28.73195763358393
+            },
+            "refinement": {
+              "concentration": 0.08982978864963793,
+              "flux": 0.08982978899737963,
+              "net_flux": 2.872890518785099
+            },
+            "score": {
+              "concentration": 3.354030468253361,
+              "flux": 3.354030481242241,
+              "net_flux": 126.41939260947612
+            },
+            "would_accept": false
+          },
+          "1e-06": {
+            "central": {
+              "concentration": 74.86778284137023,
+              "flux": 74.86778313131808,
+              "net_flux": 28.73195763358393
+            },
+            "refinement": {
+              "concentration": 8.982978864963792,
+              "flux": 8.982978899737963,
+              "net_flux": 2.872890518785099
+            },
+            "score": {
+              "concentration": 335.4030468253361,
+              "flux": 335.40304812422414,
+              "net_flux": 126.41939260947612
+            },
+            "would_accept": false
+          }
+        },
+        "counts": [
+          {
+            "factorizations": 1,
+            "linear_solves": 8,
+            "defect_rhs_batches": 1
+          },
+          {
+            "factorizations": 1,
+            "linear_solves": 16,
+            "defect_rhs_batches": 1
+          }
+        ],
+        "seconds": 0.02288454188965261
+      },
+      "truth": {
+        "status": "success",
+        "stats": {
+          "subflows": 3,
+          "nfev": 130,
+          "njev": 5,
+          "nlu": 28,
+          "linear_solver_setups": 0,
+          "accepted_steps": 16,
+          "rhs_seconds": 0.015259787207469344,
+          "jacobian_seconds": 0.003418790875002742,
+          "native_allocation_seconds": 0.0,
+          "reinit_seconds": 0.0,
+          "ledger_seconds": 0.0,
+          "min_rhs": 0.0,
+          "min_internal": 0.0,
+          "pool_error": 2.3279156380340303e-12,
+          "continuous_nonnegative": true,
+          "min_hermite_scaled": 0.0,
+          "seconds": 0.09779729088768363
+        },
+        "output_pool_error": 4.386812961498791e-12,
+        "targets": {
+          "0.0001": {
+            "actual": {
+              "concentration": 0.7536950249968034,
+              "flux": 0.7536950279164717,
+              "net_flux": 29.203180059984494
+            },
+            "numerical_pass": false,
+            "passes": false
+          },
+          "1e-06": {
+            "actual": {
+              "concentration": 75.36950249968034,
+              "flux": 75.36950279164718,
+              "net_flux": 29.203180059984494
+            },
+            "numerical_pass": false,
+            "passes": false
+          }
+        }
+      },
+      "comparison": {
+        "0.0001": {
+          "actual": {
+            "concentration": 0.7536950249968034,
+            "flux": 0.7536950279164717,
+            "net_flux": 29.203180059984494
+          },
+          "actual_numerical_pass": false,
+          "actual_all_checks_pass": false,
+          "structural_pass": true,
+          "would_accept": false,
+          "policy_would_accept": false,
+          "false_accept": false,
+          "policy_false_accept": false,
+          "false_reject": false,
+          "effectivity": 4.328959803343528
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 75.36950249968034,
+            "flux": 75.36950279164718,
+            "net_flux": 29.203180059984494
+          },
+          "actual_numerical_pass": false,
+          "actual_all_checks_pass": false,
+          "structural_pass": true,
+          "would_accept": false,
+          "policy_would_accept": false,
+          "false_accept": false,
+          "policy_false_accept": false,
+          "false_reject": false,
+          "effectivity": 4.450116236688179
+        }
+      },
+      "guard": {
+        "nonnegative": true,
+        "pool": 4.386812961498791e-12
+      }
+    },
+    {
+      "key": "full-1e-08",
+      "shard": "kecoli-3",
+      "model": "kecoli",
+      "start": 0.1,
+      "h": 0.03,
+      "tolerance": 1e-08,
+      "method": "full",
+      "reference_budgets": [
+        {
+          "concentration": 0.0015121053796950195,
+          "flux": 0.0005203813239350484,
+          "net_flux": 9.107149965276652e-05
+        },
+        {
+          "concentration": 0.00015827105325333363,
+          "flux": 9.040903829652732e-05,
+          "net_flux": 1.3641345740877026e-05
+        }
+      ],
+      "audit_seconds": 0.17383645894005895,
+      "setup_seconds": 0.2537234169431031,
+      "status": "success",
+      "seconds": 0.04881404200568795,
+      "counts": {
+        "internal": 9,
+        "minimum": 0.0,
+        "nfev": 74,
+        "njev": 3,
+        "nlu": 8,
+        "pool_error": 4.589763465123746e-12
+      },
+      "actual": {
+        "0.0001": {
+          "concentration": 0.0002653678021219476,
+          "flux": 0.00014493070499890003,
+          "net_flux": 0.0017313271910377225
+        },
+        "1e-06": {
+          "concentration": 0.026536780212194765,
+          "flux": 0.014493070499890006,
+          "net_flux": 0.0017313271910377225
+        }
+      },
+      "guard": {
+        "nonnegative": true,
+        "pool": 4.571775250039604e-12
+      }
+    },
+    {
+      "key": "third-1e-10",
+      "shard": "kecoli-3",
+      "model": "kecoli",
+      "start": 0.1,
+      "h": 0.03,
+      "tolerance": 1e-10,
+      "method": "third",
+      "reference_budgets": [
+        {
+          "concentration": 0.0015121053796950195,
+          "flux": 0.0005203813239350484,
+          "net_flux": 9.107149965276652e-05
+        },
+        {
+          "concentration": 0.00015827105325333363,
+          "flux": 9.040903829652732e-05,
+          "net_flux": 1.3641345740877026e-05
+        }
+      ],
+      "audit_seconds": 0.17383645894005895,
+      "setup_seconds": 0.2537234169431031,
+      "status": "success",
+      "base_seconds": 0.23844966618344188,
+      "shadow": {
+        "status": "success",
+        "targets": {
+          "0.0001": {
+            "central": {
+              "concentration": 0.7486776783394831,
+              "flux": 0.7486776812396853,
+              "net_flux": 28.730283433098435
+            },
+            "refinement": {
+              "concentration": 0.08982975865910094,
+              "flux": 0.08982975900699622,
+              "net_flux": 2.872890437660683
+            },
+            "score": {
+              "concentration": 3.354029747994336,
+              "flux": 3.354029760986726,
+              "net_flux": 126.41269548303647
+            },
+            "would_accept": false
+          },
+          "1e-06": {
+            "central": {
+              "concentration": 74.8677678339483,
+              "flux": 74.86776812396853,
+              "net_flux": 28.730283433098435
+            },
+            "refinement": {
+              "concentration": 8.982975865910092,
+              "flux": 8.982975900699621,
+              "net_flux": 2.872890437660683
+            },
+            "score": {
+              "concentration": 335.4029747994336,
+              "flux": 335.40297609867264,
+              "net_flux": 126.41269548303647
+            },
+            "would_accept": false
+          }
+        },
+        "counts": [
+          {
+            "factorizations": 1,
+            "linear_solves": 8,
+            "defect_rhs_batches": 1
+          },
+          {
+            "factorizations": 1,
+            "linear_solves": 16,
+            "defect_rhs_batches": 1
+          }
+        ],
+        "seconds": 0.022480875020846725
+      },
+      "truth": {
+        "status": "success",
+        "stats": {
+          "subflows": 3,
+          "nfev": 386,
+          "njev": 7,
+          "nlu": 68,
+          "linear_solver_setups": 0,
+          "accepted_steps": 46,
+          "rhs_seconds": 0.045128300320357084,
+          "jacobian_seconds": 0.004555500112473965,
+          "native_allocation_seconds": 0.0,
+          "reinit_seconds": 0.0,
+          "ledger_seconds": 0.0,
+          "min_rhs": 0.0,
+          "min_internal": 0.0,
+          "pool_error": 9.44355704746159e-13,
+          "continuous_nonnegative": true,
+          "min_hermite_scaled": 0.0,
+          "seconds": 0.23676462494768202
+        },
+        "output_pool_error": 3.4696525166855207e-12,
+        "targets": {
+          "0.0001": {
+            "actual": {
+              "concentration": 0.7536948741255093,
+              "flux": 0.7536948770456117,
+              "net_flux": 29.201491628800493
+            },
+            "numerical_pass": false,
+            "passes": false
+          },
+          "1e-06": {
+            "actual": {
+              "concentration": 75.36948741255092,
+              "flux": 75.36948770456117,
+              "net_flux": 29.201491628800493
+            },
+            "numerical_pass": false,
+            "passes": false
+          }
+        }
+      },
+      "comparison": {
+        "0.0001": {
+          "actual": {
+            "concentration": 0.7536948741255093,
+            "flux": 0.7536948770456117,
+            "net_flux": 29.201491628800493
+          },
+          "actual_numerical_pass": false,
+          "actual_all_checks_pass": false,
+          "structural_pass": true,
+          "would_accept": false,
+          "policy_would_accept": false,
+          "false_accept": false,
+          "policy_false_accept": false,
+          "false_reject": false,
+          "effectivity": 4.328980762008736
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 75.36948741255092,
+            "flux": 75.36948770456117,
+            "net_flux": 29.201491628800493
+          },
+          "actual_numerical_pass": false,
+          "actual_all_checks_pass": false,
+          "structural_pass": true,
+          "would_accept": false,
+          "policy_would_accept": false,
+          "false_accept": false,
+          "policy_false_accept": false,
+          "false_reject": false,
+          "effectivity": 4.450116171857367
+        }
+      },
+      "guard": {
+        "nonnegative": true,
+        "pool": 3.4696525166855207e-12
+      }
+    },
+    {
+      "key": "full-1e-10",
+      "shard": "kecoli-3",
+      "model": "kecoli",
+      "start": 0.1,
+      "h": 0.03,
+      "tolerance": 1e-10,
+      "method": "full",
+      "reference_budgets": [
+        {
+          "concentration": 0.0015121053796950195,
+          "flux": 0.0005203813239350484,
+          "net_flux": 9.107149965276652e-05
+        },
+        {
+          "concentration": 0.00015827105325333363,
+          "flux": 9.040903829652732e-05,
+          "net_flux": 1.3641345740877026e-05
+        }
+      ],
+      "audit_seconds": 0.17383645894005895,
+      "setup_seconds": 0.2537234169431031,
+      "status": "success",
+      "seconds": 0.08846833393909037,
+      "counts": {
+        "internal": 25,
+        "minimum": 0.0,
+        "nfev": 198,
+        "njev": 4,
+        "nlu": 12,
+        "pool_error": 1.6601980207253689e-12
+      },
+      "actual": {
+        "0.0001": {
+          "concentration": 3.2981625271018766e-06,
+          "flux": 1.7279317663040552e-06,
+          "net_flux": 2.356597289675402e-05
+        },
+        "1e-06": {
+          "concentration": 0.0003298162527101877,
+          "flux": 0.00017279317663040553,
+          "net_flux": 2.356597289675402e-05
+        }
+      },
+      "guard": {
+        "nonnegative": true,
+        "pool": 1.756536756325479e-12
+      }
+    },
+    {
+      "key": "third-1e-08",
+      "shard": "kecoli-4",
+      "model": "kecoli",
+      "start": 0.1,
+      "h": 0.1,
+      "tolerance": 1e-08,
+      "method": "third",
+      "reference_budgets": [
+        {
+          "concentration": 0.0015774412565317723,
+          "flux": 0.0005004149789786328,
+          "net_flux": 9.446962492992299e-05
+        },
+        {
+          "concentration": 0.00019321337544440839,
+          "flux": 0.00010306378002822128,
+          "net_flux": 1.598679034009505e-05
+        }
+      ],
+      "audit_seconds": 2.523884875001386,
+      "setup_seconds": 0.2537234169431031,
+      "status": "success",
+      "base_seconds": 0.1600315000396222,
+      "shadow": {
+        "status": "success",
+        "targets": {
+          "0.0001": {
+            "central": {
+              "concentration": 90.34565385473871,
+              "flux": 17.903735137011562,
+              "net_flux": 412.07808060643754
+            },
+            "refinement": {
+              "concentration": 13.727381583735434,
+              "flux": 2.7790994563282547,
+              "net_flux": 70.24018895544117
+            },
+            "score": {
+              "concentration": 416.2921417538966,
+              "flux": 82.73133837335926,
+              "net_flux": 1929.2730782475148
+            },
+            "would_accept": false
+          },
+          "1e-06": {
+            "central": {
+              "concentration": 9034.565385473872,
+              "flux": 1790.3735137011565,
+              "net_flux": 412.07808060643754
+            },
+            "refinement": {
+              "concentration": 1372.7381583735437,
+              "flux": 277.9099456328255,
+              "net_flux": 70.24018895544117
+            },
+            "score": {
+              "concentration": 41629.214175389665,
+              "flux": 8273.133837335929,
+              "net_flux": 1929.2730782475148
+            },
+            "would_accept": false
+          }
+        },
+        "counts": [
+          {
+            "factorizations": 1,
+            "linear_solves": 8,
+            "defect_rhs_batches": 1
+          },
+          {
+            "factorizations": 1,
+            "linear_solves": 16,
+            "defect_rhs_batches": 1
+          }
+        ],
+        "seconds": 0.024708291981369257
+      },
+      "truth": {
+        "status": "success",
+        "stats": {
+          "subflows": 3,
+          "nfev": 255,
+          "njev": 7,
+          "nlu": 42,
+          "linear_solver_setups": 0,
+          "accepted_steps": 33,
+          "rhs_seconds": 0.029804578283801675,
+          "jacobian_seconds": 0.004680125042796135,
+          "native_allocation_seconds": 0.0,
+          "reinit_seconds": 0.0,
+          "ledger_seconds": 0.0,
+          "min_rhs": 0.0,
+          "min_internal": 0.0,
+          "pool_error": 3.1812330547609264e-12,
+          "continuous_nonnegative": true,
+          "min_hermite_scaled": 0.0,
+          "seconds": 0.15805537486448884
+        },
+        "output_pool_error": 1.4884544985438466e-11,
+        "targets": {
+          "0.0001": {
+            "actual": {
+              "concentration": 91.43439831504736,
+              "flux": 18.180189695251062,
+              "net_flux": 416.19049226395583
+            },
+            "numerical_pass": false,
+            "passes": false
+          },
+          "1e-06": {
+            "actual": {
+              "concentration": 9143.439831504738,
+              "flux": 1818.0189695251063,
+              "net_flux": 416.19049226395583
+            },
+            "numerical_pass": false,
+            "passes": false
+          }
+        }
+      },
+      "comparison": {
+        "0.0001": {
+          "actual": {
+            "concentration": 91.43439831504736,
+            "flux": 18.180189695251062,
+            "net_flux": 416.19049226395583
+          },
+          "actual_numerical_pass": false,
+          "actual_all_checks_pass": false,
+          "structural_pass": true,
+          "would_accept": false,
+          "policy_would_accept": false,
+          "false_accept": false,
+          "policy_false_accept": false,
+          "false_reject": false,
+          "effectivity": 4.635552983809956
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 9143.439831504738,
+            "flux": 1818.0189695251063,
+            "net_flux": 416.19049226395583
+          },
+          "actual_numerical_pass": false,
+          "actual_all_checks_pass": false,
+          "structural_pass": true,
+          "would_accept": false,
+          "policy_would_accept": false,
+          "false_accept": false,
+          "policy_false_accept": false,
+          "false_reject": false,
+          "effectivity": 4.552905136637043
+        }
+      },
+      "guard": {
+        "nonnegative": true,
+        "pool": 1.4884544985438466e-11
+      }
+    },
+    {
+      "key": "full-1e-08",
+      "shard": "kecoli-4",
+      "model": "kecoli",
+      "start": 0.1,
+      "h": 0.1,
+      "tolerance": 1e-08,
+      "method": "full",
+      "reference_budgets": [
+        {
+          "concentration": 0.0015774412565317723,
+          "flux": 0.0005004149789786328,
+          "net_flux": 9.446962492992299e-05
+        },
+        {
+          "concentration": 0.00019321337544440839,
+          "flux": 0.00010306378002822128,
+          "net_flux": 1.598679034009505e-05
+        }
+      ],
+      "audit_seconds": 2.523884875001386,
+      "setup_seconds": 0.2537234169431031,
+      "status": "success",
+      "seconds": 0.1101785828359425,
+      "counts": {
+        "internal": 22,
+        "minimum": 0.0,
+        "nfev": 168,
+        "njev": 5,
+        "nlu": 18,
+        "pool_error": 5.632755546713946e-12
+      },
+      "actual": {
+        "0.0001": {
+          "concentration": 0.0002761093844813701,
+          "flux": 0.0001408787081783988,
+          "net_flux": 0.0024303977826417426
+        },
+        "1e-06": {
+          "concentration": 0.027610938448137015,
+          "flux": 0.01408787081783988,
+          "net_flux": 0.0024303977826417426
+        }
+      },
+      "guard": {
+        "nonnegative": true,
+        "pool": 5.632755546713946e-12
+      }
+    },
+    {
+      "key": "third-1e-10",
+      "shard": "kecoli-4",
+      "model": "kecoli",
+      "start": 0.1,
+      "h": 0.1,
+      "tolerance": 1e-10,
+      "method": "third",
+      "reference_budgets": [
+        {
+          "concentration": 0.0015774412565317723,
+          "flux": 0.0005004149789786328,
+          "net_flux": 9.446962492992299e-05
+        },
+        {
+          "concentration": 0.00019321337544440839,
+          "flux": 0.00010306378002822128,
+          "net_flux": 1.598679034009505e-05
+        }
+      ],
+      "audit_seconds": 2.523884875001386,
+      "setup_seconds": 0.2537234169431031,
+      "status": "success",
+      "base_seconds": 0.3935604579746723,
+      "shadow": {
+        "status": "success",
+        "targets": {
+          "0.0001": {
+            "central": {
+              "concentration": 90.34564705038022,
+              "flux": 17.903732842080345,
+              "net_flux": 412.0781878861428
+            },
+            "refinement": {
+              "concentration": 13.727381512458232,
+              "flux": 2.779099430829545,
+              "net_flux": 70.24018848178049
+            },
+            "score": {
+              "concentration": 416.29211425135384,
+              "flux": 82.73132909163957,
+              "net_flux": 1929.2735054716932
+            },
+            "would_accept": false
+          },
+          "1e-06": {
+            "central": {
+              "concentration": 9034.564705038025,
+              "flux": 1790.3732842080346,
+              "net_flux": 412.0781878861428
+            },
+            "refinement": {
+              "concentration": 1372.7381512458235,
+              "flux": 277.90994308295456,
+              "net_flux": 70.24018848178049
+            },
+            "score": {
+              "concentration": 41629.21142513539,
+              "flux": 8273.132909163956,
+              "net_flux": 1929.2735054716932
+            },
+            "would_accept": false
+          }
+        },
+        "counts": [
+          {
+            "factorizations": 1,
+            "linear_solves": 8,
+            "defect_rhs_batches": 1
+          },
+          {
+            "factorizations": 1,
+            "linear_solves": 16,
+            "defect_rhs_batches": 1
+          }
+        ],
+        "seconds": 0.026309166802093387
+      },
+      "truth": {
+        "status": "success",
+        "stats": {
+          "subflows": 3,
+          "nfev": 795,
+          "njev": 12,
+          "nlu": 98,
+          "linear_solver_setups": 0,
+          "accepted_steps": 97,
+          "rhs_seconds": 0.09265366289764643,
+          "jacobian_seconds": 0.007725126808509231,
+          "native_allocation_seconds": 0.0,
+          "reinit_seconds": 0.0,
+          "ledger_seconds": 0.0,
+          "min_rhs": 0.0,
+          "min_internal": 0.0,
+          "pool_error": 3.1995517346672415e-12,
+          "continuous_nonnegative": true,
+          "min_hermite_scaled": 0.0,
+          "seconds": 0.3915593328420073
+        },
+        "output_pool_error": 1.5296110732199177e-11,
+        "targets": {
+          "0.0001": {
+            "actual": {
+              "concentration": 91.43439258692436,
+              "flux": 18.180187668988214,
+              "net_flux": 416.19059018011404
+            },
+            "numerical_pass": false,
+            "passes": false
+          },
+          "1e-06": {
+            "actual": {
+              "concentration": 9143.439258692439,
+              "flux": 1818.0187668988215,
+              "net_flux": 416.19059018011404
+            },
+            "numerical_pass": false,
+            "passes": false
+          }
+        }
+      },
+      "comparison": {
+        "0.0001": {
+          "actual": {
+            "concentration": 91.43439258692436,
+            "flux": 18.180187668988214,
+            "net_flux": 416.19059018011404
+          },
+          "actual_numerical_pass": false,
+          "actual_all_checks_pass": false,
+          "structural_pass": true,
+          "would_accept": false,
+          "policy_would_accept": false,
+          "false_accept": false,
+          "policy_false_accept": false,
+          "false_reject": false,
+          "effectivity": 4.635552919725468
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 9143.439258692439,
+            "flux": 1818.0187668988215,
+            "net_flux": 416.19059018011404
+          },
+          "actual_numerical_pass": false,
+          "actual_all_checks_pass": false,
+          "structural_pass": true,
+          "would_accept": false,
+          "policy_would_accept": false,
+          "false_accept": false,
+          "policy_false_accept": false,
+          "false_reject": false,
+          "effectivity": 4.5529051210746045
+        }
+      },
+      "guard": {
+        "nonnegative": true,
+        "pool": 1.5296110732199177e-11
+      }
+    },
+    {
+      "key": "full-1e-10",
+      "shard": "kecoli-4",
+      "model": "kecoli",
+      "start": 0.1,
+      "h": 0.1,
+      "tolerance": 1e-10,
+      "method": "full",
+      "reference_budgets": [
+        {
+          "concentration": 0.0015774412565317723,
+          "flux": 0.0005004149789786328,
+          "net_flux": 9.446962492992299e-05
+        },
+        {
+          "concentration": 0.00019321337544440839,
+          "flux": 0.00010306378002822128,
+          "net_flux": 1.598679034009505e-05
+        }
+      ],
+      "audit_seconds": 2.523884875001386,
+      "setup_seconds": 0.2537234169431031,
+      "status": "success",
+      "seconds": 0.21316237514838576,
+      "counts": {
+        "internal": 67,
+        "minimum": 0.0,
+        "nfev": 537,
+        "njev": 7,
+        "nlu": 24,
+        "pool_error": 1.67133494544114e-12
+      },
+      "actual": {
+        "0.0001": {
+          "concentration": 3.0383161470602465e-06,
+          "flux": 1.5977244962176516e-06,
+          "net_flux": 2.8362939974867738e-05
+        },
+        "1e-06": {
+          "concentration": 0.0003038316147060247,
+          "flux": 0.0001597724496217652,
+          "net_flux": 2.8362939974867738e-05
+        }
+      },
+      "guard": {
+        "nonnegative": true,
+        "pool": 1.6857834572725508e-12
+      }
+    }
+  ],
+  "source_sha256": {
+    "research/m3_third_study.py": "db04a61205f3886c919f9bb47216571030ab6e34f7263368ea3c60b78f2069e3",
+    "research/mri_third.py": "d621ea01e664f316974425cfb4496fb42a1ccbda5cfcc32b7f4b62df63ae6ae4",
+    "research/test_mri_third.py": "5cf934632f2f3618651942ab8b12489f67b22dee3c82560c5eafc00786640dc3",
+    "research/mri_single.py": "ded2ee5a4c4c12ec6c4819edb73164a78e1f908195cb07c368563de598e24f2c",
+    "research/defect_compact.py": "9663cdc526fa69d66f465988aaffbd1d6e2adb37952c300026f45a35a9a64000",
+    "research/m3_single_study.py": "e16a24fd4b2b48133cedc3cffc3a65337cd29324155d34b176924dddb654efb5",
+    "research/m3_ordered_cost.py": "65f4695f8bd500897bbc6b29afb7d935d4b0f500fc7d53cd99633835631ac5e5",
+    "research/ordered_radau.py": "f41f628d6575babc57ddf949706372357f379ad1ca9093f229826572c4a1c423",
+    "research/defect_fast.py": "faaaafcb2cf069123bbacae3307c751dc6dce8dd0eb4e33f896981f39700e479",
+    "research/m3_priority.py": "6cc6821a1ac9a811f16d25c20c067b9d0516d1cb3bf60b9d144bdc93adc43856"
+  }
+}

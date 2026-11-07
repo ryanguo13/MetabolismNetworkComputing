@@ -1,0 +1,51 @@
+{
+  "date": "2026-11-08",
+  "thresholds": [
+    0.001,
+    0.01,
+    0.1,
+    1.0,
+    10.0,
+    100.0
+  ],
+  "multiplier": 0.001,
+  "tolerances": [
+    1e-08,
+    1e-10
+  ],
+  "grid": [
+    4,
+    8
+  ],
+  "cases": [
+    [
+      "teusink",
+      1.0,
+      0.01
+    ],
+    [
+      "kecoli",
+      0.1,
+      0.001
+    ],
+    [
+      "kecoli",
+      0.1,
+      0.01
+    ]
+  ],
+  "scope": "Post-cost-failure development scan, single measurement per configuration, not selection on fresh validation.",
+  "stop": "Any false acceptance blocks variant. Only numerically and structurally passing candidates with timing prospect justify fresh-state testing.",
+  "source_sha256": {
+    "research/m3_single_partitions.py": "614c767e7e6fd817334c8cd12f9bcd252e77489183ccf91883f538086bc8b23e",
+    "research/m3_single_study.py": "e16a24fd4b2b48133cedc3cffc3a65337cd29324155d34b176924dddb654efb5",
+    "research/mri_single.py": "ded2ee5a4c4c12ec6c4819edb73164a78e1f908195cb07c368563de598e24f2c",
+    "research/defect_compact.py": "9663cdc526fa69d66f465988aaffbd1d6e2adb37952c300026f45a35a9a64000"
+  },
+  "evidence_sha256": {
+    "results/m3-single/cost.json": "4c158898dff82c6e08480841f5cb01d7756466be552e05ef081794cc7a72de1b",
+    "results/m3-single/cost-0.npz": "b04f6fe05223cb3a20ac9ce170a5a3ef17b82a861dd75ba2f618d30e57a208cc",
+    "results/m3-single/cost-1.npz": "4ae0b0683ee9e53e62178a7da482a84c11f8f922030373c4444689d665c7bace",
+    "results/m3-single/cost-2.npz": "488b5ac3594146d8bdb8b06d1f74a8db649474462dfb5abc5360565eb895dbac"
+  }
+}

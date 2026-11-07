@@ -1,0 +1,75 @@
+{
+  "date": "2026-11-08",
+  "scope": "Shadow-only single MRI2 macro; full independent audits remain.",
+  "states": {
+    "teusink": [
+      0.0,
+      1e-06,
+      0.001,
+      1.0
+    ],
+    "kecoli": [
+      0.0,
+      1e-08,
+      0.001,
+      0.1
+    ]
+  },
+  "steps": {
+    "teusink": [
+      1e-07,
+      0.0001,
+      0.01
+    ],
+    "kecoli": [
+      1e-08,
+      0.0001,
+      0.001
+    ]
+  },
+  "grids": [
+    [
+      2,
+      4
+    ],
+    [
+      4,
+      8
+    ],
+    [
+      8,
+      16
+    ]
+  ],
+  "tolerances": [
+    1e-08,
+    1e-10
+  ],
+  "formula": "One original MRI2 step (two fast subflows), one full-RHS endpoint Hermite curve. No coarse/fine estimator.",
+  "targets": [
+    0.0001,
+    1e-06
+  ],
+  "net_target": 0.0001,
+  "score": "4*(central+refinement), unchanged",
+  "grids_scope": "All three preset pairs are development variants; selection requires fresh validation before any promotion.",
+  "audit": "65 uniform points plus original public observation points; estimator sees 17 plus public points; references at 1e-11 and 1e-12.",
+  "cost": "Known intervals: Teusink start1 H.01; kecoli start.1 H.001 and .01. Cached groups and partition; setup separately recorded; 1 warmup +3 rotating repeats. Accuracy postprocessing outside both candidate and baseline time.",
+  "stopping": "Any shadow false accept blocks that estimator variant. No full-window performance qualification without local prospect. No gate relaxation.",
+  "source_sha256": {
+    "research/mri_single.py": "ded2ee5a4c4c12ec6c4819edb73164a78e1f908195cb07c368563de598e24f2c",
+    "research/test_mri_single.py": "4a8314248a1b513a8ea660d5735af8e3de5885829a104aee3057b55c5b14e7fe",
+    "research/defect_compact.py": "9663cdc526fa69d66f465988aaffbd1d6e2adb37952c300026f45a35a9a64000",
+    "research/m3_single_study.py": "e16a24fd4b2b48133cedc3cffc3a65337cd29324155d34b176924dddb654efb5",
+    "research/mri_kernel.py": "e0dae63ea82d025f63f6ed9b78b5d581b92f036df3cddb67d52e9450a40872c3",
+    "research/ordered_radau.py": "f41f628d6575babc57ddf949706372357f379ad1ca9093f229826572c4a1c423",
+    "research/mri_native.py": "cc561b393b305dcd72e3767b14ce2bca7db2b106aade91dd13e5e174bfaf21e3",
+    "research/defect_fast.py": "faaaafcb2cf069123bbacae3307c751dc6dce8dd0eb4e33f896981f39700e479",
+    "research/defect_shadow.py": "9197ca77f0143937c3169088ab7b8185f04598b75f1325f68d38016344de2265",
+    "research/m3_priority.py": "6cc6821a1ac9a811f16d25c20c067b9d0516d1cb3bf60b9d144bdc93adc43856",
+    "research/m3_shadow_study.py": "b5729d42661a6c9df5ea5ee7f9e8182d74104ec559b9e4f7bdb8bff09227bea0",
+    "research/m3_ordered_cost.py": "65f4695f8bd500897bbc6b29afb7d935d4b0f500fc7d53cd99633835631ac5e5",
+    "metabolism/m3_continuation.py": "90b539d8f7ce2dae6d574b6285bcd66fcb4b95b3950f96ff81fed6301bd65401",
+    "metabolism/adaptive.py": "427c67bfba193a79fb6d3d96aecc5ed01efa1a5d3fc7cbc82e525f3cf851db69"
+  }
+}

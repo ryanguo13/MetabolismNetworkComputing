@@ -1,0 +1,54 @@
+{
+  "date": "2026-11-08",
+  "specs": {
+    "teusink": {
+      "start": 1.0,
+      "steps": [
+        0.01,
+        0.03,
+        0.1,
+        0.3
+      ]
+    },
+    "kecoli": {
+      "start": 0.1,
+      "steps": [
+        0.001,
+        0.003,
+        0.01,
+        0.03,
+        0.1
+      ]
+    }
+  },
+  "tolerances": [
+    1e-08,
+    1e-10
+  ],
+  "grid": [
+    4,
+    8
+  ],
+  "threshold": 0.01,
+  "multiplier": 0.001,
+  "method": "MRI-GARK-ERK33a, Sandu arXiv:1808.02759v3 section6.2 delta=-1/2, three H/3 physical subintervals, affine final forcing.",
+  "source": "https://arxiv.org/pdf/1808.02759v3",
+  "source_pdf_sha256": "70a9b85334170f14d38a895bb27f20aba0cb61f77515f3ba77c4137a59d05730",
+  "crosscheck": "SUNDIALS 6.4.1 src/arkode/arkode_mri_tables.def ARKODE_MRI_GARK_ERK33a",
+  "table_sha256": "2c6221ac74fba23f123c72de22ece9e28373aa2a1302dae328d4c88d298218f5",
+  "scope": "Known late states, 18 development candidates with equally optimized full baseline; one timing each, no full-window claim.",
+  "acceptance": "Independent 65 point plus public grid reference and all original guards; shadow estimate sees 17 plus public points. No reduced audits.",
+  "stopping": "No formal performance repeats absent a local same-accuracy cost prospect. Keep all failures.",
+  "source_sha256": {
+    "research/m3_third_study.py": "db04a61205f3886c919f9bb47216571030ab6e34f7263368ea3c60b78f2069e3",
+    "research/mri_third.py": "d621ea01e664f316974425cfb4496fb42a1ccbda5cfcc32b7f4b62df63ae6ae4",
+    "research/test_mri_third.py": "5cf934632f2f3618651942ab8b12489f67b22dee3c82560c5eafc00786640dc3",
+    "research/mri_single.py": "ded2ee5a4c4c12ec6c4819edb73164a78e1f908195cb07c368563de598e24f2c",
+    "research/defect_compact.py": "9663cdc526fa69d66f465988aaffbd1d6e2adb37952c300026f45a35a9a64000",
+    "research/m3_single_study.py": "e16a24fd4b2b48133cedc3cffc3a65337cd29324155d34b176924dddb654efb5",
+    "research/m3_ordered_cost.py": "65f4695f8bd500897bbc6b29afb7d935d4b0f500fc7d53cd99633835631ac5e5",
+    "research/ordered_radau.py": "f41f628d6575babc57ddf949706372357f379ad1ca9093f229826572c4a1c423",
+    "research/defect_fast.py": "faaaafcb2cf069123bbacae3307c751dc6dce8dd0eb4e33f896981f39700e479",
+    "research/m3_priority.py": "6cc6821a1ac9a811f16d25c20c067b9d0516d1cb3bf60b9d144bdc93adc43856"
+  }
+}

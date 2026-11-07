@@ -1,0 +1,9 @@
+test_inactive_forcing_exact_curve_and_both_ledgers (research.test_mri_single.SingleChecks.test_inactive_forcing_exact_curve_and_both_ledgers) ... ok
+test_same_single_macro_formula_and_second_order (research.test_mri_single.SingleChecks.test_same_single_macro_formula_and_second_order) ... ok
+test_affine_forcing_inactive_coordinate_and_ledgers (research.test_mri_third.ThirdChecks.test_affine_forcing_inactive_coordinate_and_ledgers) ... ok
+test_third_order_conservation_and_full_rhs_output (research.test_mri_third.ThirdChecks.test_third_order_conservation_and_full_rhs_output) ... ok
+
+----------------------------------------------------------------------
+Ran 4 tests in 1.567s
+
+OK
