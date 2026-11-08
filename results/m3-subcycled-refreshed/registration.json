@@ -1,0 +1,66 @@
+{
+  "date": "2026-11-08",
+  "models": [
+    "teusink",
+    "kecoli"
+  ],
+  "steps": [
+    0.01,
+    0.03
+  ],
+  "substeps": [
+    1,
+    2,
+    4,
+    8
+  ],
+  "whole": [
+    false,
+    true
+  ],
+  "affine": [
+    false
+  ],
+  "inner_tolerance": 1e-10,
+  "construction": "Nine-stage predictor, equal substeps, current substep-origin Jacobian and actual LU of I-.25*(H/m)*J. Carry predictor endpoints through full prediction; then carry corrected state through m fast solves with predetermined piecewise slow forcing. No reference input. Fast Radau restarts at each forcing boundary; all m subflows counted.",
+  "scope": "32 nonlinear local candidates,32 nonlinear uninterrupted mature Radau controls. Frozen systems are diagnostics only. Same optimized standalone predictor. Single exploratory timings exclude references and controller, no M4 claim.",
+  "order": "Refresh current Jacobian each substep; check measured local convergence. Record24 weakly stiff nonlinear continuous/endpoint convergence values for m=1,2,4.",
+  "controls": {
+    "tolerances": [
+      1e-06,
+      1e-07,
+      1e-08,
+      1e-10
+    ],
+    "initial_steps": [
+      "auto",
+      "whole"
+    ]
+  },
+  "references": "Independent full nonlinear audit pair at1e-12/1e-11. Affine displacement Radau pair1e-12/1e-11, checked against previously frozen cross-method audit evidence. Original65-point/public query grids. Budget<=.05 strict.",
+  "priority": "First require accuracy, physical/modified ledgers, positivity and pools. If qualified local multi is slower than matched complete or mature control, do not escalate to formal runs. All original M4 gates unchanged.",
+  "source_sha256": {
+    "research/rodas_subcycled.py": "9668b9d4be1436c72d2c6b85b072bc9b13ce44cc296cfe798a49d09c6329eed3",
+    "research/test_rodas_subcycled.py": "f4238b2fa8e07e7695b1c1d41da3cc1059a716cb696f234425bd72f37a5a5a17",
+    "research/rodas_subcycled_refreshed.py": "6f91aab4a5a127cd8f6eda8db702288a2bfd6e16c11e09f775242bd66c50de03",
+    "research/test_rodas_subcycled_refreshed.py": "1f005432e848fb9ad3c52e5bc87d113b8790600fdcd69fa7690212896551dfdc",
+    "research/m3_subcycled_refreshed.py": "56eeaf8153a7f8fc792e903da2ea4a9409e053c551b23bbde846d53055240a35",
+    "research/affine_partition.py": "08b9c5b60801372bdfab34948d930f3377704b68eed86163910387730316e082",
+    "research/rodas_coupling.py": "bad29fef245d0181dc774e02c889090b2a530cc9a52b315497fdc0c00b88b559",
+    "research/rodas_centered.py": "42448f07e94e958d0458a764d1a934c80c908982de7e84fc588929486d59c7db",
+    "research/shared_radau.py": "0174d7d91eb1a3d59d514493a730af52b1e1a1d10b764bb892716c9da666edef",
+    "research/m3_extrapolated_paths.py": "7ce2742d48adf31bb1b73372cb09f7085e18e1507d32b8543ac3c8217f9b64cf",
+    "research/m3_growth_study.py": "ef440e9984b74ff8440d0c6d4e1ec9e79e1ce32ac997535847e5ddf6a3e05955",
+    "research/m3_priority.py": "6cc6821a1ac9a811f16d25c20c067b9d0516d1cb3bf60b9d144bdc93adc43856",
+    "research/inner_dense.py": "e19b0221a27f5fa861c7a0877d64f9e04b638a3fc514326c7968541f13ec133b",
+    "research/fullstep_radau.py": "ec224519a31b512359d1645b4d2211e80b9d436a7cd6e7ff8dfca568d9439f32"
+  },
+  "input_sha256": {
+    "results/m3-subcycled-predictor/registration.json": "7cf3c59e380e88e45a238754f25c43c715d30f100d00a9b73cb42c4797f8a16b",
+    "results/m3-subcycled-predictor/runs.json": "388ef2dc60101a27d82fbcb0783ee8c062edd21ee4a9b3b130542413994b14c5",
+    "results/m3-affine-attribution/manifest.json": "33316ef6e150d1a9bc7a5939cf905a9d8c967d01dbe300011c537867719a80be",
+    "results/m3-rodas-continuous/manifest.json": "8d356488a977aed0c4f5206725716aaab2e0162feebd07d50538df71b58aca0d",
+    "results/m3-rodas-centered/registration.json": "96f3f8af41c0ca71e8d325f75a0a7e46d674cf7cc6e6a8b7e14bcea903ebd762",
+    "results/m3-rodas-centered/runs.json": "29b555843069ce56f6bb9f98c19a6fdc739be1393808774d74ae366dd8e2e11b"
+  }
+}

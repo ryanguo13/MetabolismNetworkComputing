@@ -1,0 +1,1346 @@
+{
+  "batches": [
+    {
+      "directory": "m3-subcycled-predictor",
+      "counts": {
+        "candidates": 64,
+        "controls": 32
+      },
+      "passes": {
+        "0.0001": 38,
+        "1e-06": 30
+      },
+      "decisions": [
+        {
+          "model": "teusink",
+          "h": 0.01,
+          "substeps": 1,
+          "target": "0.0001",
+          "passes": true,
+          "actual": {
+            "concentration": 0.00014819529361633882,
+            "flux": 0.00039835414090419214
+          },
+          "physical_ledger": 1.9954153269266308e-11,
+          "candidate_seconds": 0.013623875100165606,
+          "predictor_seconds": 0.0013124579563736916,
+          "baseline_key": "control-0-0-1e-07-True",
+          "baseline_seconds": 0.002454624976962805,
+          "speed_ratio": 0.18017083677851448,
+          "predictor_only_ratio": 1.8702503688155538,
+          "standalone_passes": false,
+          "standalone_ratio": null
+        },
+        {
+          "model": "teusink",
+          "h": 0.01,
+          "substeps": 2,
+          "target": "0.0001",
+          "passes": false,
+          "actual": {
+            "concentration": 0.0021603505765046163,
+            "flux": 0.005343859909708549
+          },
+          "physical_ledger": 4.576849494795658e-10,
+          "candidate_seconds": 0.03393899998627603,
+          "predictor_seconds": 0.0020699589513242245,
+          "baseline_key": "control-0-0-1e-07-True",
+          "baseline_seconds": 0.002454624976962805,
+          "speed_ratio": 0.07232461115399351,
+          "predictor_only_ratio": 1.1858326830068278,
+          "standalone_passes": false,
+          "standalone_ratio": null
+        },
+        {
+          "model": "teusink",
+          "h": 0.01,
+          "substeps": 4,
+          "target": "0.0001",
+          "passes": false,
+          "actual": {
+            "concentration": 0.00114451761306871,
+            "flux": 0.00186033193000305
+          },
+          "physical_ledger": 4.0465341060685406e-10,
+          "candidate_seconds": 0.06119145802222192,
+          "predictor_seconds": 0.0032656670082360506,
+          "baseline_key": "control-0-0-1e-07-True",
+          "baseline_seconds": 0.002454624976962805,
+          "speed_ratio": 0.040113850140184565,
+          "predictor_only_ratio": 0.7516458263418199,
+          "standalone_passes": false,
+          "standalone_ratio": null
+        },
+        {
+          "model": "teusink",
+          "h": 0.01,
+          "substeps": 8,
+          "target": "0.0001",
+          "passes": false,
+          "actual": {
+            "concentration": 0.0005635814524385185,
+            "flux": 0.0008251394278132611
+          },
+          "physical_ledger": 2.517328080111338e-10,
+          "candidate_seconds": 0.08420254103839397,
+          "predictor_seconds": 0.005997374886646867,
+          "baseline_key": "control-0-0-1e-07-True",
+          "baseline_seconds": 0.002454624976962805,
+          "speed_ratio": 0.029151435891270377,
+          "predictor_only_ratio": 0.4092832319733786,
+          "standalone_passes": false,
+          "standalone_ratio": null
+        },
+        {
+          "model": "teusink",
+          "h": 0.01,
+          "substeps": 1,
+          "target": "1e-06",
+          "passes": true,
+          "actual": {
+            "concentration": 0.014819529361633884,
+            "flux": 0.03983541409041922
+          },
+          "physical_ledger": 1.9954153269266308e-11,
+          "candidate_seconds": 0.013623875100165606,
+          "predictor_seconds": 0.0013124579563736916,
+          "baseline_key": "control-0-0-1e-07-True",
+          "baseline_seconds": 0.002454624976962805,
+          "speed_ratio": 0.18017083677851448,
+          "predictor_only_ratio": 1.8702503688155538,
+          "standalone_passes": false,
+          "standalone_ratio": null
+        },
+        {
+          "model": "teusink",
+          "h": 0.01,
+          "substeps": 2,
+          "target": "1e-06",
+          "passes": false,
+          "actual": {
+            "concentration": 0.21603505765046166,
+            "flux": 0.534385990970855
+          },
+          "physical_ledger": 4.576849494795658e-10,
+          "candidate_seconds": 0.03393899998627603,
+          "predictor_seconds": 0.0020699589513242245,
+          "baseline_key": "control-0-0-1e-07-True",
+          "baseline_seconds": 0.002454624976962805,
+          "speed_ratio": 0.07232461115399351,
+          "predictor_only_ratio": 1.1858326830068278,
+          "standalone_passes": false,
+          "standalone_ratio": null
+        },
+        {
+          "model": "teusink",
+          "h": 0.01,
+          "substeps": 4,
+          "target": "1e-06",
+          "passes": false,
+          "actual": {
+            "concentration": 0.11445176130687101,
+            "flux": 0.18603319300030505
+          },
+          "physical_ledger": 4.0465341060685406e-10,
+          "candidate_seconds": 0.06119145802222192,
+          "predictor_seconds": 0.0032656670082360506,
+          "baseline_key": "control-0-0-1e-07-True",
+          "baseline_seconds": 0.002454624976962805,
+          "speed_ratio": 0.040113850140184565,
+          "predictor_only_ratio": 0.7516458263418199,
+          "standalone_passes": false,
+          "standalone_ratio": null
+        },
+        {
+          "model": "teusink",
+          "h": 0.01,
+          "substeps": 8,
+          "target": "1e-06",
+          "passes": false,
+          "actual": {
+            "concentration": 0.056358145243851854,
+            "flux": 0.08251394278132612
+          },
+          "physical_ledger": 2.517328080111338e-10,
+          "candidate_seconds": 0.08420254103839397,
+          "predictor_seconds": 0.005997374886646867,
+          "baseline_key": "control-0-0-1e-07-True",
+          "baseline_seconds": 0.002454624976962805,
+          "speed_ratio": 0.029151435891270377,
+          "predictor_only_ratio": 0.4092832319733786,
+          "standalone_passes": false,
+          "standalone_ratio": null
+        },
+        {
+          "model": "teusink",
+          "h": 0.03,
+          "substeps": 1,
+          "target": "0.0001",
+          "passes": false,
+          "actual": {
+            "concentration": 0.0030150717828291416,
+            "flux": 0.007273562819775571
+          },
+          "physical_ledger": 7.57614551162879e-10,
+          "candidate_seconds": 0.041205916088074446,
+          "predictor_seconds": 0.0014010830782353878,
+          "baseline_key": "control-0-1-1e-06-True",
+          "baseline_seconds": 0.0024798749946057796,
+          "speed_ratio": 0.06018249877772986,
+          "predictor_only_ratio": 1.7699699847414403,
+          "standalone_passes": false,
+          "standalone_ratio": null
+        },
+        {
+          "model": "teusink",
+          "h": 0.03,
+          "substeps": 2,
+          "target": "0.0001",
+          "passes": false,
+          "actual": {
+            "concentration": 0.03697365165548358,
+            "flux": 0.10396891822021241
+          },
+          "physical_ledger": 5.367435349093062e-09,
+          "candidate_seconds": 0.06960300006903708,
+          "predictor_seconds": 0.002206583973020315,
+          "baseline_key": "control-0-1-1e-06-True",
+          "baseline_seconds": 0.0024798749946057796,
+          "speed_ratio": 0.03562885209180736,
+          "predictor_only_ratio": 1.1238525362854832,
+          "standalone_passes": false,
+          "standalone_ratio": null
+        },
+        {
+          "model": "teusink",
+          "h": 0.03,
+          "substeps": 4,
+          "target": "0.0001",
+          "passes": false,
+          "actual": {
+            "concentration": 0.01753065502468297,
+            "flux": 0.05078699952741022
+          },
+          "physical_ledger": 7.479505513334078e-09,
+          "candidate_seconds": 0.12028279108926654,
+          "predictor_seconds": 0.003274124814197421,
+          "baseline_key": "control-0-1-1e-06-True",
+          "baseline_seconds": 0.0024798749946057796,
+          "speed_ratio": 0.020617038997418742,
+          "predictor_only_ratio": 0.7574161448740206,
+          "standalone_passes": false,
+          "standalone_ratio": null
+        },
+        {
+          "model": "teusink",
+          "h": 0.03,
+          "substeps": 8,
+          "target": "0.0001",
+          "passes": false,
+          "actual": {
+            "concentration": 0.00755358256035893,
+            "flux": 0.014403864207145366
+          },
+          "physical_ledger": 5.701263141359685e-09,
+          "candidate_seconds": 0.19900912488810718,
+          "predictor_seconds": 0.005907125072553754,
+          "baseline_key": "control-0-1-1e-06-True",
+          "baseline_seconds": 0.0024798749946057796,
+          "speed_ratio": 0.012461112001774233,
+          "predictor_only_ratio": 0.4198108156077498,
+          "standalone_passes": false,
+          "standalone_ratio": null
+        },
+        {
+          "model": "teusink",
+          "h": 0.03,
+          "substeps": 1,
+          "target": "1e-06",
+          "passes": false,
+          "actual": {
+            "concentration": 0.3015071782829142,
+            "flux": 0.7273562819775573
+          },
+          "physical_ledger": 7.57614551162879e-10,
+          "candidate_seconds": 0.041205916088074446,
+          "predictor_seconds": 0.0014010830782353878,
+          "baseline_key": "control-0-1-1e-06-True",
+          "baseline_seconds": 0.0024798749946057796,
+          "speed_ratio": 0.06018249877772986,
+          "predictor_only_ratio": 1.7699699847414403,
+          "standalone_passes": false,
+          "standalone_ratio": null
+        },
+        {
+          "model": "teusink",
+          "h": 0.03,
+          "substeps": 2,
+          "target": "1e-06",
+          "passes": false,
+          "actual": {
+            "concentration": 3.697365165548358,
+            "flux": 10.396891822021244
+          },
+          "physical_ledger": 5.367435349093062e-09,
+          "candidate_seconds": 0.06960300006903708,
+          "predictor_seconds": 0.002206583973020315,
+          "baseline_key": "control-0-1-1e-06-True",
+          "baseline_seconds": 0.0024798749946057796,
+          "speed_ratio": 0.03562885209180736,
+          "predictor_only_ratio": 1.1238525362854832,
+          "standalone_passes": false,
+          "standalone_ratio": null
+        },
+        {
+          "model": "teusink",
+          "h": 0.03,
+          "substeps": 4,
+          "target": "1e-06",
+          "passes": false,
+          "actual": {
+            "concentration": 1.753065502468297,
+            "flux": 5.078699952741023
+          },
+          "physical_ledger": 7.479505513334078e-09,
+          "candidate_seconds": 0.12028279108926654,
+          "predictor_seconds": 0.003274124814197421,
+          "baseline_key": "control-0-1-1e-06-True",
+          "baseline_seconds": 0.0024798749946057796,
+          "speed_ratio": 0.020617038997418742,
+          "predictor_only_ratio": 0.7574161448740206,
+          "standalone_passes": false,
+          "standalone_ratio": null
+        },
+        {
+          "model": "teusink",
+          "h": 0.03,
+          "substeps": 8,
+          "target": "1e-06",
+          "passes": false,
+          "actual": {
+            "concentration": 0.755358256035893,
+            "flux": 1.4403864207145367
+          },
+          "physical_ledger": 5.701263141359685e-09,
+          "candidate_seconds": 0.19900912488810718,
+          "predictor_seconds": 0.005907125072553754,
+          "baseline_key": "control-0-1-1e-06-True",
+          "baseline_seconds": 0.0024798749946057796,
+          "speed_ratio": 0.012461112001774233,
+          "predictor_only_ratio": 0.4198108156077498,
+          "standalone_passes": false,
+          "standalone_ratio": null
+        },
+        {
+          "model": "kecoli",
+          "h": 0.01,
+          "substeps": 1,
+          "target": "0.0001",
+          "passes": true,
+          "actual": {
+            "concentration": 0.004628023095129539,
+            "flux": 0.003897112984363104,
+            "net_flux": 0.09357845297867759
+          },
+          "physical_ledger": null,
+          "candidate_seconds": 0.0658460829872638,
+          "predictor_seconds": 0.007879124954342842,
+          "baseline_key": "control-1-0-1e-06-True",
+          "baseline_seconds": 0.01390520902350545,
+          "speed_ratio": 0.21117746709694254,
+          "predictor_only_ratio": 1.7648164109697397,
+          "standalone_passes": true,
+          "standalone_ratio": 0.1436550884868659
+        },
+        {
+          "model": "kecoli",
+          "h": 0.01,
+          "substeps": 2,
+          "target": "0.0001",
+          "passes": true,
+          "actual": {
+            "concentration": 0.002855318621038502,
+            "flux": 0.0029878710273658657,
+            "net_flux": 0.010786199857784923
+          },
+          "physical_ledger": null,
+          "candidate_seconds": 0.0765068749897182,
+          "predictor_seconds": 0.010507583850994706,
+          "baseline_key": "control-1-0-1e-06-True",
+          "baseline_seconds": 0.01390520902350545,
+          "speed_ratio": 0.18175110439910372,
+          "predictor_only_ratio": 1.3233498034078601,
+          "standalone_passes": true,
+          "standalone_ratio": 0.16341832182560462
+        },
+        {
+          "model": "kecoli",
+          "h": 0.01,
+          "substeps": 4,
+          "target": "0.0001",
+          "passes": true,
+          "actual": {
+            "concentration": 0.001802371905640224,
+            "flux": 0.0018926564371798303,
+            "net_flux": 0.007314385286900722
+          },
+          "physical_ledger": null,
+          "candidate_seconds": 0.1088052918203175,
+          "predictor_seconds": 0.01625766698271036,
+          "baseline_key": "control-1-0-1e-06-True",
+          "baseline_seconds": 0.01390520902350545,
+          "speed_ratio": 0.12779901410005587,
+          "predictor_only_ratio": 0.855301627121118,
+          "standalone_passes": true,
+          "standalone_ratio": 0.16577318686230536
+        },
+        {
+          "model": "kecoli",
+          "h": 0.01,
+          "substeps": 8,
+          "target": "0.0001",
+          "passes": true,
+          "actual": {
+            "concentration": 0.0009597298268474333,
+            "flux": 0.0010091353527540024,
+            "net_flux": 0.003475135947464059
+          },
+          "physical_ledger": null,
+          "candidate_seconds": 0.15237566595897079,
+          "predictor_seconds": 0.027817833935841918,
+          "baseline_key": "control-1-0-1e-06-True",
+          "baseline_seconds": 0.01390520902350545,
+          "speed_ratio": 0.0912561000865428,
+          "predictor_only_ratio": 0.4998667062135729,
+          "standalone_passes": true,
+          "standalone_ratio": 0.22141112181810754
+        },
+        {
+          "model": "kecoli",
+          "h": 0.01,
+          "substeps": 1,
+          "target": "1e-06",
+          "passes": true,
+          "actual": {
+            "concentration": 0.46280230951295404,
+            "flux": 0.3897112984363104,
+            "net_flux": 0.09357845297867759
+          },
+          "physical_ledger": null,
+          "candidate_seconds": 0.0658460829872638,
+          "predictor_seconds": 0.007879124954342842,
+          "baseline_key": "control-1-0-1e-06-True",
+          "baseline_seconds": 0.01390520902350545,
+          "speed_ratio": 0.21117746709694254,
+          "predictor_only_ratio": 1.7648164109697397,
+          "standalone_passes": true,
+          "standalone_ratio": 0.1436550884868659
+        },
+        {
+          "model": "kecoli",
+          "h": 0.01,
+          "substeps": 2,
+          "target": "1e-06",
+          "passes": true,
+          "actual": {
+            "concentration": 0.28553186210385023,
+            "flux": 0.29878710273658654,
+            "net_flux": 0.010786199857784923
+          },
+          "physical_ledger": null,
+          "candidate_seconds": 0.0765068749897182,
+          "predictor_seconds": 0.010507583850994706,
+          "baseline_key": "control-1-0-1e-06-True",
+          "baseline_seconds": 0.01390520902350545,
+          "speed_ratio": 0.18175110439910372,
+          "predictor_only_ratio": 1.3233498034078601,
+          "standalone_passes": false,
+          "standalone_ratio": null
+        },
+        {
+          "model": "kecoli",
+          "h": 0.01,
+          "substeps": 4,
+          "target": "1e-06",
+          "passes": true,
+          "actual": {
+            "concentration": 0.18023719056402243,
+            "flux": 0.18926564371798302,
+            "net_flux": 0.007314385286900722
+          },
+          "physical_ledger": null,
+          "candidate_seconds": 0.1088052918203175,
+          "predictor_seconds": 0.01625766698271036,
+          "baseline_key": "control-1-0-1e-06-True",
+          "baseline_seconds": 0.01390520902350545,
+          "speed_ratio": 0.12779901410005587,
+          "predictor_only_ratio": 0.855301627121118,
+          "standalone_passes": false,
+          "standalone_ratio": null
+        },
+        {
+          "model": "kecoli",
+          "h": 0.01,
+          "substeps": 8,
+          "target": "1e-06",
+          "passes": true,
+          "actual": {
+            "concentration": 0.09597298268474334,
+            "flux": 0.10091353527540023,
+            "net_flux": 0.003475135947464059
+          },
+          "physical_ledger": null,
+          "candidate_seconds": 0.15237566595897079,
+          "predictor_seconds": 0.027817833935841918,
+          "baseline_key": "control-1-0-1e-06-True",
+          "baseline_seconds": 0.01390520902350545,
+          "speed_ratio": 0.0912561000865428,
+          "predictor_only_ratio": 0.4998667062135729,
+          "standalone_passes": false,
+          "standalone_ratio": null
+        },
+        {
+          "model": "kecoli",
+          "h": 0.03,
+          "substeps": 1,
+          "target": "0.0001",
+          "passes": false,
+          "actual": {
+            "concentration": 0.7195924423133622,
+            "flux": 0.5505873286823199,
+            "net_flux": 3.8291303568872355
+          },
+          "physical_ledger": null,
+          "candidate_seconds": 0.16387074999511242,
+          "predictor_seconds": 0.008533457992598414,
+          "baseline_key": "control-1-1-1e-07-False",
+          "baseline_seconds": 0.03037366713397205,
+          "speed_ratio": 0.18535136462656068,
+          "predictor_only_ratio": 3.559362120293669,
+          "standalone_passes": false,
+          "standalone_ratio": null
+        },
+        {
+          "model": "kecoli",
+          "h": 0.03,
+          "substeps": 2,
+          "target": "0.0001",
+          "passes": true,
+          "actual": {
+            "concentration": 0.040825336260512636,
+            "flux": 0.03907932107291285,
+            "net_flux": 0.5206252358321855
+          },
+          "physical_ledger": null,
+          "candidate_seconds": 0.17424550000578165,
+          "predictor_seconds": 0.011785291135311127,
+          "baseline_key": "control-1-1-1e-07-False",
+          "baseline_seconds": 0.03037366713397205,
+          "speed_ratio": 0.17431536041369342,
+          "predictor_only_ratio": 2.577252168422583,
+          "standalone_passes": false,
+          "standalone_ratio": null
+        },
+        {
+          "model": "kecoli",
+          "h": 0.03,
+          "substeps": 4,
+          "target": "0.0001",
+          "passes": true,
+          "actual": {
+            "concentration": 0.020341632537933953,
+            "flux": 0.020448421908476427,
+            "net_flux": 0.08759931996481875
+          },
+          "physical_ledger": null,
+          "candidate_seconds": 0.19092591595835984,
+          "predictor_seconds": 0.016907582990825176,
+          "baseline_key": "control-1-1-1e-07-False",
+          "baseline_seconds": 0.03037366713397205,
+          "speed_ratio": 0.1590861407238,
+          "predictor_only_ratio": 1.7964523462906663,
+          "standalone_passes": false,
+          "standalone_ratio": null
+        },
+        {
+          "model": "kecoli",
+          "h": 0.03,
+          "substeps": 8,
+          "target": "0.0001",
+          "passes": true,
+          "actual": {
+            "concentration": 0.011550294587993433,
+            "flux": 0.011656277229686466,
+            "net_flux": 0.04234840167396663
+          },
+          "physical_ledger": null,
+          "candidate_seconds": 0.26185154216364026,
+          "predictor_seconds": 0.02764554205350578,
+          "baseline_key": "control-1-1-1e-07-False",
+          "baseline_seconds": 0.03037366713397205,
+          "speed_ratio": 0.11599575424684905,
+          "predictor_only_ratio": 1.0986822785093595,
+          "standalone_passes": false,
+          "standalone_ratio": null
+        },
+        {
+          "model": "kecoli",
+          "h": 0.03,
+          "substeps": 1,
+          "target": "1e-06",
+          "passes": false,
+          "actual": {
+            "concentration": 71.95924423133623,
+            "flux": 55.05873286823199,
+            "net_flux": 3.8291303568872355
+          },
+          "physical_ledger": null,
+          "candidate_seconds": 0.16387074999511242,
+          "predictor_seconds": 0.008533457992598414,
+          "baseline_key": "control-1-1-1e-07-False",
+          "baseline_seconds": 0.03037366713397205,
+          "speed_ratio": 0.18535136462656068,
+          "predictor_only_ratio": 3.559362120293669,
+          "standalone_passes": false,
+          "standalone_ratio": null
+        },
+        {
+          "model": "kecoli",
+          "h": 0.03,
+          "substeps": 2,
+          "target": "1e-06",
+          "passes": false,
+          "actual": {
+            "concentration": 4.082533626051265,
+            "flux": 3.907932107291286,
+            "net_flux": 0.5206252358321855
+          },
+          "physical_ledger": null,
+          "candidate_seconds": 0.17424550000578165,
+          "predictor_seconds": 0.011785291135311127,
+          "baseline_key": "control-1-1-1e-07-False",
+          "baseline_seconds": 0.03037366713397205,
+          "speed_ratio": 0.17431536041369342,
+          "predictor_only_ratio": 2.577252168422583,
+          "standalone_passes": false,
+          "standalone_ratio": null
+        },
+        {
+          "model": "kecoli",
+          "h": 0.03,
+          "substeps": 4,
+          "target": "1e-06",
+          "passes": false,
+          "actual": {
+            "concentration": 2.0341632537933956,
+            "flux": 2.044842190847643,
+            "net_flux": 0.08759931996481875
+          },
+          "physical_ledger": null,
+          "candidate_seconds": 0.19092591595835984,
+          "predictor_seconds": 0.016907582990825176,
+          "baseline_key": "control-1-1-1e-07-False",
+          "baseline_seconds": 0.03037366713397205,
+          "speed_ratio": 0.1590861407238,
+          "predictor_only_ratio": 1.7964523462906663,
+          "standalone_passes": false,
+          "standalone_ratio": null
+        },
+        {
+          "model": "kecoli",
+          "h": 0.03,
+          "substeps": 8,
+          "target": "1e-06",
+          "passes": false,
+          "actual": {
+            "concentration": 1.1550294587993433,
+            "flux": 1.1656277229686467,
+            "net_flux": 0.04234840167396663
+          },
+          "physical_ledger": null,
+          "candidate_seconds": 0.26185154216364026,
+          "predictor_seconds": 0.02764554205350578,
+          "baseline_key": "control-1-1-1e-07-False",
+          "baseline_seconds": 0.03037366713397205,
+          "speed_ratio": 0.11599575424684905,
+          "predictor_only_ratio": 1.0986822785093595,
+          "standalone_passes": false,
+          "standalone_ratio": null
+        }
+      ]
+    },
+    {
+      "directory": "m3-subcycled-refreshed",
+      "counts": {
+        "candidates": 32,
+        "controls": 32
+      },
+      "passes": {
+        "0.0001": 21,
+        "1e-06": 19
+      },
+      "decisions": [
+        {
+          "model": "teusink",
+          "h": 0.01,
+          "substeps": 1,
+          "target": "0.0001",
+          "passes": true,
+          "actual": {
+            "concentration": 0.00014819529361633882,
+            "flux": 0.00039835414090419214
+          },
+          "physical_ledger": 1.9954153269266308e-11,
+          "candidate_seconds": 0.014006332959979773,
+          "predictor_seconds": 0.0013525420799851418,
+          "baseline_key": "control-0-0-1e-06-True",
+          "baseline_seconds": 0.0024187909439206123,
+          "speed_ratio": 0.17269266344244508,
+          "predictor_only_ratio": 1.7883295312683978,
+          "standalone_passes": false,
+          "standalone_ratio": null
+        },
+        {
+          "model": "teusink",
+          "h": 0.01,
+          "substeps": 2,
+          "target": "0.0001",
+          "passes": true,
+          "actual": {
+            "concentration": 2.332094713232761e-05,
+            "flux": 4.8885560154245075e-05
+          },
+          "physical_ledger": 1.7191459260095776e-12,
+          "candidate_seconds": 0.018135958118364215,
+          "predictor_seconds": 0.0025430829264223576,
+          "baseline_key": "control-0-0-1e-06-True",
+          "baseline_seconds": 0.0024187909439206123,
+          "speed_ratio": 0.13336990128309675,
+          "predictor_only_ratio": 0.9511254701093838,
+          "standalone_passes": false,
+          "standalone_ratio": null
+        },
+        {
+          "model": "teusink",
+          "h": 0.01,
+          "substeps": 4,
+          "target": "0.0001",
+          "passes": true,
+          "actual": {
+            "concentration": 2.8240606413391453e-06,
+            "flux": 4.948851333872193e-06
+          },
+          "physical_ledger": 9.564371389467635e-14,
+          "candidate_seconds": 0.02597762504592538,
+          "predictor_seconds": 0.005051707848906517,
+          "baseline_key": "control-0-0-1e-06-True",
+          "baseline_seconds": 0.0024187909439206123,
+          "speed_ratio": 0.09311054954579086,
+          "predictor_only_ratio": 0.4788065771547298,
+          "standalone_passes": false,
+          "standalone_ratio": null
+        },
+        {
+          "model": "teusink",
+          "h": 0.01,
+          "substeps": 8,
+          "target": "0.0001",
+          "passes": true,
+          "actual": {
+            "concentration": 2.3798129409333427e-07,
+            "flux": 4.1804983843296116e-07
+          },
+          "physical_ledger": 2.528188638597729e-15,
+          "candidate_seconds": 0.03093854198232293,
+          "predictor_seconds": 0.010360082844272256,
+          "baseline_key": "control-0-0-1e-06-True",
+          "baseline_seconds": 0.0024187909439206123,
+          "speed_ratio": 0.07818050848364524,
+          "predictor_only_ratio": 0.23347216236382523,
+          "standalone_passes": true,
+          "standalone_ratio": 0.5130130317704784
+        },
+        {
+          "model": "teusink",
+          "h": 0.01,
+          "substeps": 1,
+          "target": "1e-06",
+          "passes": true,
+          "actual": {
+            "concentration": 0.014819529361633884,
+            "flux": 0.03983541409041922
+          },
+          "physical_ledger": 1.9954153269266308e-11,
+          "candidate_seconds": 0.014006332959979773,
+          "predictor_seconds": 0.0013525420799851418,
+          "baseline_key": "control-0-0-1e-06-True",
+          "baseline_seconds": 0.0024187909439206123,
+          "speed_ratio": 0.17269266344244508,
+          "predictor_only_ratio": 1.7883295312683978,
+          "standalone_passes": false,
+          "standalone_ratio": null
+        },
+        {
+          "model": "teusink",
+          "h": 0.01,
+          "substeps": 2,
+          "target": "1e-06",
+          "passes": true,
+          "actual": {
+            "concentration": 0.0023320947132327617,
+            "flux": 0.0048885560154245085
+          },
+          "physical_ledger": 1.7191459260095776e-12,
+          "candidate_seconds": 0.018135958118364215,
+          "predictor_seconds": 0.0025430829264223576,
+          "baseline_key": "control-0-0-1e-06-True",
+          "baseline_seconds": 0.0024187909439206123,
+          "speed_ratio": 0.13336990128309675,
+          "predictor_only_ratio": 0.9511254701093838,
+          "standalone_passes": false,
+          "standalone_ratio": null
+        },
+        {
+          "model": "teusink",
+          "h": 0.01,
+          "substeps": 4,
+          "target": "1e-06",
+          "passes": true,
+          "actual": {
+            "concentration": 0.00028240606413391456,
+            "flux": 0.0004948851333872194
+          },
+          "physical_ledger": 9.564371389467635e-14,
+          "candidate_seconds": 0.02597762504592538,
+          "predictor_seconds": 0.005051707848906517,
+          "baseline_key": "control-0-0-1e-06-True",
+          "baseline_seconds": 0.0024187909439206123,
+          "speed_ratio": 0.09311054954579086,
+          "predictor_only_ratio": 0.4788065771547298,
+          "standalone_passes": false,
+          "standalone_ratio": null
+        },
+        {
+          "model": "teusink",
+          "h": 0.01,
+          "substeps": 8,
+          "target": "1e-06",
+          "passes": true,
+          "actual": {
+            "concentration": 2.379812940933343e-05,
+            "flux": 4.180498384329612e-05
+          },
+          "physical_ledger": 2.528188638597729e-15,
+          "candidate_seconds": 0.03093854198232293,
+          "predictor_seconds": 0.010360082844272256,
+          "baseline_key": "control-0-0-1e-06-True",
+          "baseline_seconds": 0.0024187909439206123,
+          "speed_ratio": 0.07818050848364524,
+          "predictor_only_ratio": 0.23347216236382523,
+          "standalone_passes": true,
+          "standalone_ratio": 0.5130130317704784
+        },
+        {
+          "model": "teusink",
+          "h": 0.03,
+          "substeps": 1,
+          "target": "0.0001",
+          "passes": false,
+          "actual": {
+            "concentration": 0.0030150717828291416,
+            "flux": 0.007273562819775571
+          },
+          "physical_ledger": 7.57614551162879e-10,
+          "candidate_seconds": 0.04060558299534023,
+          "predictor_seconds": 0.0013631670735776424,
+          "baseline_key": "control-0-1-1e-06-True",
+          "baseline_seconds": 0.002583499997854233,
+          "speed_ratio": 0.0636242557618421,
+          "predictor_only_ratio": 1.8952188971773043,
+          "standalone_passes": false,
+          "standalone_ratio": null
+        },
+        {
+          "model": "teusink",
+          "h": 0.03,
+          "substeps": 2,
+          "target": "0.0001",
+          "passes": false,
+          "actual": {
+            "concentration": 0.0004075541987391309,
+            "flux": 0.0012176141410997266
+          },
+          "physical_ledger": 1.898361694693355e-10,
+          "candidate_seconds": 0.04641012498177588,
+          "predictor_seconds": 0.0025858329609036446,
+          "baseline_key": "control-0-1-1e-06-True",
+          "baseline_seconds": 0.002583499997854233,
+          "speed_ratio": 0.05566673218115034,
+          "predictor_only_ratio": 0.9990977905051545,
+          "standalone_passes": false,
+          "standalone_ratio": null
+        },
+        {
+          "model": "teusink",
+          "h": 0.03,
+          "substeps": 4,
+          "target": "0.0001",
+          "passes": true,
+          "actual": {
+            "concentration": 6.98673333587051e-05,
+            "flux": 0.00017213603976651553
+          },
+          "physical_ledger": 2.1650793811271596e-11,
+          "candidate_seconds": 0.05675150011666119,
+          "predictor_seconds": 0.0057370420545339584,
+          "baseline_key": "control-0-1-1e-06-True",
+          "baseline_seconds": 0.002583499997854233,
+          "speed_ratio": 0.045523025691716734,
+          "predictor_only_ratio": 0.45031916679301737,
+          "standalone_passes": false,
+          "standalone_ratio": null
+        },
+        {
+          "model": "teusink",
+          "h": 0.03,
+          "substeps": 8,
+          "target": "0.0001",
+          "passes": true,
+          "actual": {
+            "concentration": 1.0110325772968653e-05,
+            "flux": 1.8611596300244552e-05
+          },
+          "physical_ledger": 1.5712818319426028e-12,
+          "candidate_seconds": 0.0724665408488363,
+          "predictor_seconds": 0.010072957957163453,
+          "baseline_key": "control-0-1-1e-06-True",
+          "baseline_seconds": 0.002583499997854233,
+          "speed_ratio": 0.035650935833177966,
+          "predictor_only_ratio": 0.25647878297922994,
+          "standalone_passes": false,
+          "standalone_ratio": null
+        },
+        {
+          "model": "teusink",
+          "h": 0.03,
+          "substeps": 1,
+          "target": "1e-06",
+          "passes": false,
+          "actual": {
+            "concentration": 0.3015071782829142,
+            "flux": 0.7273562819775573
+          },
+          "physical_ledger": 7.57614551162879e-10,
+          "candidate_seconds": 0.04060558299534023,
+          "predictor_seconds": 0.0013631670735776424,
+          "baseline_key": "control-0-1-1e-06-True",
+          "baseline_seconds": 0.002583499997854233,
+          "speed_ratio": 0.0636242557618421,
+          "predictor_only_ratio": 1.8952188971773043,
+          "standalone_passes": false,
+          "standalone_ratio": null
+        },
+        {
+          "model": "teusink",
+          "h": 0.03,
+          "substeps": 2,
+          "target": "1e-06",
+          "passes": false,
+          "actual": {
+            "concentration": 0.040755419873913096,
+            "flux": 0.1217614141099727
+          },
+          "physical_ledger": 1.898361694693355e-10,
+          "candidate_seconds": 0.04641012498177588,
+          "predictor_seconds": 0.0025858329609036446,
+          "baseline_key": "control-0-1-1e-06-True",
+          "baseline_seconds": 0.002583499997854233,
+          "speed_ratio": 0.05566673218115034,
+          "predictor_only_ratio": 0.9990977905051545,
+          "standalone_passes": false,
+          "standalone_ratio": null
+        },
+        {
+          "model": "teusink",
+          "h": 0.03,
+          "substeps": 4,
+          "target": "1e-06",
+          "passes": true,
+          "actual": {
+            "concentration": 0.006986733335870512,
+            "flux": 0.017213603976651556
+          },
+          "physical_ledger": 2.1650793811271596e-11,
+          "candidate_seconds": 0.05675150011666119,
+          "predictor_seconds": 0.0057370420545339584,
+          "baseline_key": "control-0-1-1e-06-True",
+          "baseline_seconds": 0.002583499997854233,
+          "speed_ratio": 0.045523025691716734,
+          "predictor_only_ratio": 0.45031916679301737,
+          "standalone_passes": false,
+          "standalone_ratio": null
+        },
+        {
+          "model": "teusink",
+          "h": 0.03,
+          "substeps": 8,
+          "target": "1e-06",
+          "passes": true,
+          "actual": {
+            "concentration": 0.0010110325772968655,
+            "flux": 0.0018611596300244556
+          },
+          "physical_ledger": 1.5712818319426028e-12,
+          "candidate_seconds": 0.0724665408488363,
+          "predictor_seconds": 0.010072957957163453,
+          "baseline_key": "control-0-1-1e-06-True",
+          "baseline_seconds": 0.002583499997854233,
+          "speed_ratio": 0.035650935833177966,
+          "predictor_only_ratio": 0.25647878297922994,
+          "standalone_passes": false,
+          "standalone_ratio": null
+        },
+        {
+          "model": "kecoli",
+          "h": 0.01,
+          "substeps": 1,
+          "target": "0.0001",
+          "passes": true,
+          "actual": {
+            "concentration": 0.004628023095129539,
+            "flux": 0.003897112984363104,
+            "net_flux": 0.09357845297867759
+          },
+          "physical_ledger": null,
+          "candidate_seconds": 0.06553112505935133,
+          "predictor_seconds": 0.00784204201772809,
+          "baseline_key": "control-1-0-1e-06-True",
+          "baseline_seconds": 0.013108582934364676,
+          "speed_ratio": 0.20003598171849293,
+          "predictor_only_ratio": 1.6715777478277718,
+          "standalone_passes": true,
+          "standalone_ratio": 0.1496693355322572
+        },
+        {
+          "model": "kecoli",
+          "h": 0.01,
+          "substeps": 2,
+          "target": "0.0001",
+          "passes": true,
+          "actual": {
+            "concentration": 0.0002940665040885651,
+            "flux": 0.00020029054720466393,
+            "net_flux": 0.00430290284225567
+          },
+          "physical_ledger": null,
+          "candidate_seconds": 0.0797911249101162,
+          "predictor_seconds": 0.015524458838626742,
+          "baseline_key": "control-1-0-1e-06-True",
+          "baseline_seconds": 0.013108582934364676,
+          "speed_ratio": 0.16428622793739714,
+          "predictor_only_ratio": 0.8443826010700565,
+          "standalone_passes": true,
+          "standalone_ratio": 0.21066095914858218
+        },
+        {
+          "model": "kecoli",
+          "h": 0.01,
+          "substeps": 4,
+          "target": "0.0001",
+          "passes": true,
+          "actual": {
+            "concentration": 1.8928173720677802e-05,
+            "flux": 1.3182987696678189e-05,
+            "net_flux": 0.00019966642387276643
+          },
+          "physical_ledger": null,
+          "candidate_seconds": 0.11431733286008239,
+          "predictor_seconds": 0.029582707909867167,
+          "baseline_key": "control-1-0-1e-06-True",
+          "baseline_seconds": 0.013108582934364676,
+          "speed_ratio": 0.11466837623310196,
+          "predictor_only_ratio": 0.44311639672419484,
+          "standalone_passes": true,
+          "standalone_ratio": 0.3089142228515712
+        },
+        {
+          "model": "kecoli",
+          "h": 0.01,
+          "substeps": 8,
+          "target": "0.0001",
+          "passes": true,
+          "actual": {
+            "concentration": 4.371490904817567e-06,
+            "flux": 4.371500973783608e-06,
+            "net_flux": 2.7157646164504676e-05
+          },
+          "physical_ledger": null,
+          "candidate_seconds": 0.1781118749640882,
+          "predictor_seconds": 0.061312332982197404,
+          "baseline_key": "control-1-0-1e-06-True",
+          "baseline_seconds": 0.013108582934364676,
+          "speed_ratio": 0.07359746752993136,
+          "predictor_only_ratio": 0.21380010018817705,
+          "standalone_passes": true,
+          "standalone_ratio": 0.35342323549126037
+        },
+        {
+          "model": "kecoli",
+          "h": 0.01,
+          "substeps": 1,
+          "target": "1e-06",
+          "passes": true,
+          "actual": {
+            "concentration": 0.46280230951295404,
+            "flux": 0.3897112984363104,
+            "net_flux": 0.09357845297867759
+          },
+          "physical_ledger": null,
+          "candidate_seconds": 0.06553112505935133,
+          "predictor_seconds": 0.00784204201772809,
+          "baseline_key": "control-1-0-1e-06-True",
+          "baseline_seconds": 0.013108582934364676,
+          "speed_ratio": 0.20003598171849293,
+          "predictor_only_ratio": 1.6715777478277718,
+          "standalone_passes": true,
+          "standalone_ratio": 0.1496693355322572
+        },
+        {
+          "model": "kecoli",
+          "h": 0.01,
+          "substeps": 2,
+          "target": "1e-06",
+          "passes": true,
+          "actual": {
+            "concentration": 0.029406650408856514,
+            "flux": 0.020029054720466392,
+            "net_flux": 0.00430290284225567
+          },
+          "physical_ledger": null,
+          "candidate_seconds": 0.0797911249101162,
+          "predictor_seconds": 0.015524458838626742,
+          "baseline_key": "control-1-0-1e-06-True",
+          "baseline_seconds": 0.013108582934364676,
+          "speed_ratio": 0.16428622793739714,
+          "predictor_only_ratio": 0.8443826010700565,
+          "standalone_passes": true,
+          "standalone_ratio": 0.21066095914858218
+        },
+        {
+          "model": "kecoli",
+          "h": 0.01,
+          "substeps": 4,
+          "target": "1e-06",
+          "passes": true,
+          "actual": {
+            "concentration": 0.0018928173720677806,
+            "flux": 0.001318298769667819,
+            "net_flux": 0.00019966642387276643
+          },
+          "physical_ledger": null,
+          "candidate_seconds": 0.11431733286008239,
+          "predictor_seconds": 0.029582707909867167,
+          "baseline_key": "control-1-0-1e-06-True",
+          "baseline_seconds": 0.013108582934364676,
+          "speed_ratio": 0.11466837623310196,
+          "predictor_only_ratio": 0.44311639672419484,
+          "standalone_passes": true,
+          "standalone_ratio": 0.3089142228515712
+        },
+        {
+          "model": "kecoli",
+          "h": 0.01,
+          "substeps": 8,
+          "target": "1e-06",
+          "passes": true,
+          "actual": {
+            "concentration": 0.00043714909048175676,
+            "flux": 0.00043715009737836083,
+            "net_flux": 2.7157646164504676e-05
+          },
+          "physical_ledger": null,
+          "candidate_seconds": 0.1781118749640882,
+          "predictor_seconds": 0.061312332982197404,
+          "baseline_key": "control-1-0-1e-06-True",
+          "baseline_seconds": 0.013108582934364676,
+          "speed_ratio": 0.07359746752993136,
+          "predictor_only_ratio": 0.21380010018817705,
+          "standalone_passes": true,
+          "standalone_ratio": 0.35342323549126037
+        },
+        {
+          "model": "kecoli",
+          "h": 0.03,
+          "substeps": 1,
+          "target": "0.0001",
+          "passes": false,
+          "actual": {
+            "concentration": 0.7195924423133622,
+            "flux": 0.5505873286823199,
+            "net_flux": 3.8291303568872355
+          },
+          "physical_ledger": null,
+          "candidate_seconds": 0.15544129209592938,
+          "predictor_seconds": 0.007874750066548586,
+          "baseline_key": "control-1-1-1e-07-False",
+          "baseline_seconds": 0.0322203750256449,
+          "speed_ratio": 0.20728324238169832,
+          "predictor_only_ratio": 4.091606051411702,
+          "standalone_passes": false,
+          "standalone_ratio": null
+        },
+        {
+          "model": "kecoli",
+          "h": 0.03,
+          "substeps": 2,
+          "target": "0.0001",
+          "passes": true,
+          "actual": {
+            "concentration": 0.040819037409808114,
+            "flux": 0.030263934055000653,
+            "net_flux": 0.5206252358321855
+          },
+          "physical_ledger": null,
+          "candidate_seconds": 0.16667945799417794,
+          "predictor_seconds": 0.016238708049058914,
+          "baseline_key": "control-1-1-1e-07-False",
+          "baseline_seconds": 0.0322203750256449,
+          "speed_ratio": 0.1933074142031968,
+          "predictor_only_ratio": 1.9841710885067716,
+          "standalone_passes": true,
+          "standalone_ratio": 0.109723077151477
+        },
+        {
+          "model": "kecoli",
+          "h": 0.03,
+          "substeps": 4,
+          "target": "0.0001",
+          "passes": true,
+          "actual": {
+            "concentration": 0.0029780534233982098,
+            "flux": 0.0016640679655197572,
+            "net_flux": 0.02496284095244344
+          },
+          "physical_ledger": null,
+          "candidate_seconds": 0.20125095802359283,
+          "predictor_seconds": 0.032366500003263354,
+          "baseline_key": "control-1-1-1e-07-False",
+          "baseline_seconds": 0.0322203750256449,
+          "speed_ratio": 0.1601004802266217,
+          "predictor_only_ratio": 0.9954853018521087,
+          "standalone_passes": true,
+          "standalone_ratio": 0.16792342419492548
+        },
+        {
+          "model": "kecoli",
+          "h": 0.03,
+          "substeps": 8,
+          "target": "0.0001",
+          "passes": true,
+          "actual": {
+            "concentration": 0.00017792180343822556,
+            "flux": 9.659095502590068e-05,
+            "net_flux": 0.0011850586922614592
+          },
+          "physical_ledger": null,
+          "candidate_seconds": 0.2740756249986589,
+          "predictor_seconds": 0.06187079194933176,
+          "baseline_key": "control-1-1-1e-07-False",
+          "baseline_seconds": 0.0322203750256449,
+          "speed_ratio": 0.11756016254930572,
+          "predictor_only_ratio": 0.5207687506575208,
+          "standalone_passes": true,
+          "standalone_ratio": 0.23179596812679062
+        },
+        {
+          "model": "kecoli",
+          "h": 0.03,
+          "substeps": 1,
+          "target": "1e-06",
+          "passes": false,
+          "actual": {
+            "concentration": 71.95924423133623,
+            "flux": 55.05873286823199,
+            "net_flux": 3.8291303568872355
+          },
+          "physical_ledger": null,
+          "candidate_seconds": 0.15544129209592938,
+          "predictor_seconds": 0.007874750066548586,
+          "baseline_key": "control-1-1-1e-07-False",
+          "baseline_seconds": 0.0322203750256449,
+          "speed_ratio": 0.20728324238169832,
+          "predictor_only_ratio": 4.091606051411702,
+          "standalone_passes": false,
+          "standalone_ratio": null
+        },
+        {
+          "model": "kecoli",
+          "h": 0.03,
+          "substeps": 2,
+          "target": "1e-06",
+          "passes": false,
+          "actual": {
+            "concentration": 4.081903740980812,
+            "flux": 3.026393405500065,
+            "net_flux": 0.5206252358321855
+          },
+          "physical_ledger": null,
+          "candidate_seconds": 0.16667945799417794,
+          "predictor_seconds": 0.016238708049058914,
+          "baseline_key": "control-1-1-1e-07-False",
+          "baseline_seconds": 0.0322203750256449,
+          "speed_ratio": 0.1933074142031968,
+          "predictor_only_ratio": 1.9841710885067716,
+          "standalone_passes": false,
+          "standalone_ratio": null
+        },
+        {
+          "model": "kecoli",
+          "h": 0.03,
+          "substeps": 4,
+          "target": "1e-06",
+          "passes": true,
+          "actual": {
+            "concentration": 0.29780534233982103,
+            "flux": 0.1664067965519757,
+            "net_flux": 0.02496284095244344
+          },
+          "physical_ledger": null,
+          "candidate_seconds": 0.20125095802359283,
+          "predictor_seconds": 0.032366500003263354,
+          "baseline_key": "control-1-1-1e-07-False",
+          "baseline_seconds": 0.0322203750256449,
+          "speed_ratio": 0.1601004802266217,
+          "predictor_only_ratio": 0.9954853018521087,
+          "standalone_passes": true,
+          "standalone_ratio": 0.16792342419492548
+        },
+        {
+          "model": "kecoli",
+          "h": 0.03,
+          "substeps": 8,
+          "target": "1e-06",
+          "passes": true,
+          "actual": {
+            "concentration": 0.01779218034382256,
+            "flux": 0.009659095502590068,
+            "net_flux": 0.0011850586922614592
+          },
+          "physical_ledger": null,
+          "candidate_seconds": 0.2740756249986589,
+          "predictor_seconds": 0.06187079194933176,
+          "baseline_key": "control-1-1-1e-07-False",
+          "baseline_seconds": 0.0322203750256449,
+          "speed_ratio": 0.11756016254930572,
+          "predictor_only_ratio": 0.5207687506575208,
+          "standalone_passes": true,
+          "standalone_ratio": 0.23179596812679062
+        }
+      ]
+    }
+  ],
+  "npz_crc_checked": 168,
+  "historical_manifests_unchanged": true,
+  "M4_admission": false,
+  "conclusion": "Frozen-LU subcycling lowers stiff linear error but loses nonlinear accuracy. Refreshed Jacobians restore local accuracy at extra cost. Qualified H=.03,m>=4 refreshed predictors alone already exceed the local1.5 speedup budget, before fast correction/controller/audits. Single-run screening is not formal performance evidence; original M4 gates remain unmet."
+}
