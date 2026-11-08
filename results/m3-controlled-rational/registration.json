@@ -1,0 +1,54 @@
+{
+  "date": "2026-11-08",
+  "models": [
+    "teusink",
+    "kecoli"
+  ],
+  "state_indices": [
+    3,
+    2
+  ],
+  "steps": [
+    0.01,
+    0.03
+  ],
+  "dimensions": [
+    4,
+    8,
+    12,
+    20,
+    32,
+    48,
+    64
+  ],
+  "shifts": [
+    0.25,
+    1.0
+  ],
+  "projections": [
+    "direct",
+    "inverse"
+  ],
+  "budget": 0.05,
+  "target": 1e-06,
+  "states": "Saved own original prefix indices3 and2, latter is an earlier state not used for selecting preceding rational configurations. Not globally unseen development data. No reference resets inside actions.",
+  "projection": "Same growing inverse-Arnoldi basis and actual LU for both diagnostics. Direct T=V^T A V; inverse T=(I-(V^T K V)^-1)/(sigma H). m shifted solves needed for m images, including final vector. Preserve all dimensions even after first proposal for mechanism audit.",
+  "proposal": "Require H*sampled full-space residual and change from previous dimension <=.05 strict fixed-initial scale; sample positivity/pool checks. Indicators are heuristic, not certified. Earliest proposal selected before reading reference scores. Mandatory independent full-space affine reference can veto; record hypothetical false accepts, no silent acceptance.",
+  "reference": "Each frozen reaction model: displacement Radau pair1e-12/1e-11 and independent original-state CVODE pair, all budget/cross differences<=.05 strict. Every candidate scored on65 uniform/public queries. Not nonlinear candidate or reaction coverage.",
+  "timing": "Shared basis cost cumulative, per-projection evaluation/indicator/sampled-guard cost cumulative. Current gradient/J formation and all independent audits reported separately. No formal speed or M4 claim. Continuing after first proposal is diagnostic overhead separately identifiable.",
+  "storage": "Save every reduced projection/drive/coefficients and final shared basis/images per sequence; replay all values and residuals without duplicating full lifted arrays.",
+  "source_sha256": {
+    "research/controlled_rational.py": "a6eda91044624d6acf9c6942d5282b87cf3d725dc83de44ed2c2f7acdfacc075",
+    "research/test_controlled_rational.py": "09ed557543cfb1f6033cc3db650d93078d411511a7b2a8f695551c065ccfea27",
+    "research/m3_controlled_rational_study.py": "65e7eea02c4f6bf61e032d7bbeb66719b26863359b4b196db68a24a737090ceb",
+    "research/affine_partition.py": "08b9c5b60801372bdfab34948d930f3377704b68eed86163910387730316e082",
+    "research/m3_priority.py": "6cc6821a1ac9a811f16d25c20c067b9d0516d1cb3bf60b9d144bdc93adc43856",
+    "research/m3_growth_study.py": "ef440e9984b74ff8440d0c6d4e1ec9e79e1ce32ac997535847e5ddf6a3e05955",
+    "research/m3_ordered_cost.py": "65f4695f8bd500897bbc6b29afb7d935d4b0f500fc7d53cd99633835631ac5e5"
+  },
+  "input_sha256": {
+    "results/m3-merb-predictor/manifest.json": "dd67ed2f15bb99dc3bc9b4de4c2f26a9d7b5264d6a21c77770ba8b147d6b5e1d",
+    "results/m3-priority/p0.npz": "8be94525b6c3caa007123f284101ab165b725d38ab1567a121f4923993ed4243",
+    "results/m3-priority/p0.json": "1e3db4b84711a0bfc4db761307f767df351b1c0f4e14fdfc45106a9effbcdc09"
+  }
+}

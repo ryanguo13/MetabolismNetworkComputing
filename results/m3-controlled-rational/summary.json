@@ -1,0 +1,630 @@
+{
+  "raw_records": 176,
+  "raw_decisions": {
+    "audited_linear_samples_only": 11,
+    "fallback_required": 21,
+    "audit_veto": 0
+  },
+  "raw_unsafe_proposals": 0,
+  "filtered_attempts": 150,
+  "filtered_paths": [
+    {
+      "key": "0-3-0-0.25-direct",
+      "model": "teusink",
+      "state_index": 3,
+      "h": 0.01,
+      "shift": 0.25,
+      "method": "direct",
+      "outcome": "audited_linear_samples_only",
+      "dimension": 8,
+      "actual": {
+        "concentration": 0.0002888262884410613,
+        "flux": 0.00046640440100802286
+      },
+      "candidate_seconds": 0.004153333138674498,
+      "audit_seconds": 0.022833749884739518,
+      "total_seconds": 0.026987083023414016
+    },
+    {
+      "key": "0-3-0-0.25-inverse",
+      "model": "teusink",
+      "state_index": 3,
+      "h": 0.01,
+      "shift": 0.25,
+      "method": "inverse",
+      "outcome": "audited_linear_samples_only",
+      "dimension": 8,
+      "actual": {
+        "concentration": 0.00013470187131213644,
+        "flux": 0.000226811174704683
+      },
+      "candidate_seconds": 0.002594374818727374,
+      "audit_seconds": 0.0026940421666949987,
+      "total_seconds": 0.005288416985422373
+    },
+    {
+      "key": "0-3-0-1.0-direct",
+      "model": "teusink",
+      "state_index": 3,
+      "h": 0.01,
+      "shift": 1.0,
+      "method": "direct",
+      "outcome": "audited_linear_samples_only",
+      "dimension": 14,
+      "actual": {
+        "concentration": 4.259682270775039e-09,
+        "flux": 4.16057603281064e-09
+      },
+      "candidate_seconds": 0.004396958043798804,
+      "audit_seconds": 0.002698166063055396,
+      "total_seconds": 0.0070951241068542
+    },
+    {
+      "key": "0-3-0-1.0-inverse",
+      "model": "teusink",
+      "state_index": 3,
+      "h": 0.01,
+      "shift": 1.0,
+      "method": "inverse",
+      "outcome": "audited_linear_samples_only",
+      "dimension": 12,
+      "actual": {
+        "concentration": 2.2665908387432935e-07,
+        "flux": 9.830128771154537e-07
+      },
+      "candidate_seconds": 0.003333916887640953,
+      "audit_seconds": 0.002745583886280656,
+      "total_seconds": 0.006079500773921609
+    },
+    {
+      "key": "0-3-1-0.25-direct",
+      "model": "teusink",
+      "state_index": 3,
+      "h": 0.03,
+      "shift": 0.25,
+      "method": "direct",
+      "outcome": "audited_linear_samples_only",
+      "dimension": 14,
+      "actual": {
+        "concentration": 3.981988913890899e-09,
+        "flux": 5.824806445934896e-09
+      },
+      "candidate_seconds": 0.004608666989952326,
+      "audit_seconds": 0.0031867921352386475,
+      "total_seconds": 0.007795459125190973
+    },
+    {
+      "key": "0-3-1-0.25-inverse",
+      "model": "teusink",
+      "state_index": 3,
+      "h": 0.03,
+      "shift": 0.25,
+      "method": "inverse",
+      "outcome": "audited_linear_samples_only",
+      "dimension": 12,
+      "actual": {
+        "concentration": 2.0152563153261917e-07,
+        "flux": 9.036194070909328e-07
+      },
+      "candidate_seconds": 0.0036203330382704735,
+      "audit_seconds": 0.003490624949336052,
+      "total_seconds": 0.007110957987606525
+    },
+    {
+      "key": "0-3-1-1.0-direct",
+      "model": "teusink",
+      "state_index": 3,
+      "h": 0.03,
+      "shift": 1.0,
+      "method": "direct",
+      "outcome": "audited_linear_samples_only",
+      "dimension": 14,
+      "actual": {
+        "concentration": 3.707368988794975e-09,
+        "flux": 5.65838340462247e-09
+      },
+      "candidate_seconds": 0.004519082838669419,
+      "audit_seconds": 0.003372750012204051,
+      "total_seconds": 0.00789183285087347
+    },
+    {
+      "key": "0-3-1-1.0-inverse",
+      "model": "teusink",
+      "state_index": 3,
+      "h": 0.03,
+      "shift": 1.0,
+      "method": "inverse",
+      "outcome": "audited_linear_samples_only",
+      "dimension": 12,
+      "actual": {
+        "concentration": 1.2204309347900573e-06,
+        "flux": 6.5942729617216655e-06
+      },
+      "candidate_seconds": 0.0035488749854266644,
+      "audit_seconds": 0.0037280828692018986,
+      "total_seconds": 0.007276957854628563
+    },
+    {
+      "key": "0-2-0-0.25-direct",
+      "model": "teusink",
+      "state_index": 2,
+      "h": 0.01,
+      "shift": 0.25,
+      "method": "direct",
+      "outcome": "fallback_required",
+      "dimension": null,
+      "actual": null,
+      "candidate_seconds": 0.006577332969754934,
+      "audit_seconds": 0.012281083036214113,
+      "total_seconds": 0.018858416005969048
+    },
+    {
+      "key": "0-2-0-0.25-inverse",
+      "model": "teusink",
+      "state_index": 2,
+      "h": 0.01,
+      "shift": 0.25,
+      "method": "inverse",
+      "outcome": "fallback_required",
+      "dimension": null,
+      "actual": null,
+      "candidate_seconds": 0.006538874935358763,
+      "audit_seconds": 0.01125624985434115,
+      "total_seconds": 0.017795124789699912
+    },
+    {
+      "key": "0-2-0-1.0-direct",
+      "model": "teusink",
+      "state_index": 2,
+      "h": 0.01,
+      "shift": 1.0,
+      "method": "direct",
+      "outcome": "fallback_required",
+      "dimension": null,
+      "actual": null,
+      "candidate_seconds": 0.006880166940391064,
+      "audit_seconds": 0.01214824989438057,
+      "total_seconds": 0.019028416834771633
+    },
+    {
+      "key": "0-2-0-1.0-inverse",
+      "model": "teusink",
+      "state_index": 2,
+      "h": 0.01,
+      "shift": 1.0,
+      "method": "inverse",
+      "outcome": "fallback_required",
+      "dimension": null,
+      "actual": null,
+      "candidate_seconds": 0.006982583086937666,
+      "audit_seconds": 0.011969333980232477,
+      "total_seconds": 0.018951917067170143
+    },
+    {
+      "key": "0-2-1-0.25-direct",
+      "model": "teusink",
+      "state_index": 2,
+      "h": 0.03,
+      "shift": 0.25,
+      "method": "direct",
+      "outcome": "fallback_required",
+      "dimension": null,
+      "actual": null,
+      "candidate_seconds": 0.007865292020142078,
+      "audit_seconds": 0.017506416887044907,
+      "total_seconds": 0.025371708907186985
+    },
+    {
+      "key": "0-2-1-0.25-inverse",
+      "model": "teusink",
+      "state_index": 2,
+      "h": 0.03,
+      "shift": 0.25,
+      "method": "inverse",
+      "outcome": "fallback_required",
+      "dimension": null,
+      "actual": null,
+      "candidate_seconds": 0.007445208029821515,
+      "audit_seconds": 0.016494124894961715,
+      "total_seconds": 0.02393933292478323
+    },
+    {
+      "key": "0-2-1-1.0-direct",
+      "model": "teusink",
+      "state_index": 2,
+      "h": 0.03,
+      "shift": 1.0,
+      "method": "direct",
+      "outcome": "fallback_required",
+      "dimension": null,
+      "actual": null,
+      "candidate_seconds": 0.007532416842877865,
+      "audit_seconds": 0.016762667102739215,
+      "total_seconds": 0.02429508394561708
+    },
+    {
+      "key": "0-2-1-1.0-inverse",
+      "model": "teusink",
+      "state_index": 2,
+      "h": 0.03,
+      "shift": 1.0,
+      "method": "inverse",
+      "outcome": "fallback_required",
+      "dimension": null,
+      "actual": null,
+      "candidate_seconds": 0.007237165933474898,
+      "audit_seconds": 0.017737707821652293,
+      "total_seconds": 0.02497487375512719
+    },
+    {
+      "key": "1-3-0-0.25-direct",
+      "model": "kecoli",
+      "state_index": 3,
+      "h": 0.01,
+      "shift": 0.25,
+      "method": "direct",
+      "outcome": "audited_linear_samples_only",
+      "dimension": 20,
+      "actual": {
+        "concentration": 9.201297380360897e-06,
+        "flux": 2.780672278121127e-05,
+        "net_flux": 2.217590248949846e-06
+      },
+      "candidate_seconds": 0.038864250062033534,
+      "audit_seconds": 0.6159363330807537,
+      "total_seconds": 0.6548005831427872
+    },
+    {
+      "key": "1-3-0-0.25-inverse",
+      "model": "kecoli",
+      "state_index": 3,
+      "h": 0.01,
+      "shift": 0.25,
+      "method": "inverse",
+      "outcome": "audited_linear_samples_only",
+      "dimension": 12,
+      "actual": {
+        "concentration": 9.21745315821855e-05,
+        "flux": 0.00014657268374591886,
+        "net_flux": 0.00012894257688532244
+      },
+      "candidate_seconds": 0.018442959059029818,
+      "audit_seconds": 0.643429041840136,
+      "total_seconds": 0.6618720008991659
+    },
+    {
+      "key": "1-3-0-1.0-direct",
+      "model": "kecoli",
+      "state_index": 3,
+      "h": 0.01,
+      "shift": 1.0,
+      "method": "direct",
+      "outcome": "audited_linear_samples_only",
+      "dimension": 32,
+      "actual": {
+        "concentration": 6.422486837937687e-05,
+        "flux": 8.575827348363304e-05,
+        "net_flux": 4.867605018596115e-05
+      },
+      "candidate_seconds": 0.03895641700364649,
+      "audit_seconds": 0.5973480828106403,
+      "total_seconds": 0.6363044998142868
+    },
+    {
+      "key": "1-3-0-1.0-inverse",
+      "model": "kecoli",
+      "state_index": 3,
+      "h": 0.01,
+      "shift": 1.0,
+      "method": "inverse",
+      "outcome": "audited_linear_samples_only",
+      "dimension": 20,
+      "actual": {
+        "concentration": 0.0002981534796753788,
+        "flux": 0.0003380664009791714,
+        "net_flux": 0.00020104657143742017
+      },
+      "candidate_seconds": 0.02704400010406971,
+      "audit_seconds": 0.6156480831559747,
+      "total_seconds": 0.6426920832600445
+    },
+    {
+      "key": "1-3-1-0.25-direct",
+      "model": "kecoli",
+      "state_index": 3,
+      "h": 0.03,
+      "shift": 0.25,
+      "method": "direct",
+      "outcome": "audited_linear_samples_only",
+      "dimension": 32,
+      "actual": {
+        "concentration": 3.13821928997562e-05,
+        "flux": 4.5973810551446845e-05,
+        "net_flux": 1.4441960292242783e-05
+      },
+      "candidate_seconds": 0.03306333301588893,
+      "audit_seconds": 0.7359618328046054,
+      "total_seconds": 0.7690251658204943
+    },
+    {
+      "key": "1-3-1-0.25-inverse",
+      "model": "kecoli",
+      "state_index": 3,
+      "h": 0.03,
+      "shift": 0.25,
+      "method": "inverse",
+      "outcome": "audited_linear_samples_only",
+      "dimension": 20,
+      "actual": {
+        "concentration": 0.00012439127101231183,
+        "flux": 0.00014477084652392638,
+        "net_flux": 0.00015358375301741348
+      },
+      "candidate_seconds": 0.02289954200387001,
+      "audit_seconds": 0.6949584169778973,
+      "total_seconds": 0.7178579589817673
+    },
+    {
+      "key": "1-3-1-1.0-direct",
+      "model": "kecoli",
+      "state_index": 3,
+      "h": 0.03,
+      "shift": 1.0,
+      "method": "direct",
+      "outcome": "audited_linear_samples_only",
+      "dimension": 64,
+      "actual": {
+        "concentration": 5.450651756415969e-05,
+        "flux": 8.201164144018071e-05,
+        "net_flux": 2.270710321180516e-05
+      },
+      "candidate_seconds": 0.057925083907321095,
+      "audit_seconds": 0.7205962911248207,
+      "total_seconds": 0.7785213750321418
+    },
+    {
+      "key": "1-3-1-1.0-inverse",
+      "model": "kecoli",
+      "state_index": 3,
+      "h": 0.03,
+      "shift": 1.0,
+      "method": "inverse",
+      "outcome": "audited_linear_samples_only",
+      "dimension": 32,
+      "actual": {
+        "concentration": 0.001457431427282,
+        "flux": 0.0016659381596851276,
+        "net_flux": 0.0002636834281059592
+      },
+      "candidate_seconds": 0.032923375023528934,
+      "audit_seconds": 0.6854603330139071,
+      "total_seconds": 0.718383708037436
+    },
+    {
+      "key": "1-2-0-0.25-direct",
+      "model": "kecoli",
+      "state_index": 2,
+      "h": 0.01,
+      "shift": 0.25,
+      "method": "direct",
+      "outcome": "fallback_required",
+      "dimension": null,
+      "actual": null,
+      "candidate_seconds": 0.07509787497110665,
+      "audit_seconds": 1.4073508330620825,
+      "total_seconds": 1.4824487080331892
+    },
+    {
+      "key": "1-2-0-0.25-inverse",
+      "model": "kecoli",
+      "state_index": 2,
+      "h": 0.01,
+      "shift": 0.25,
+      "method": "inverse",
+      "outcome": "audited_linear_samples_only",
+      "dimension": 64,
+      "actual": {
+        "concentration": 0.00021284382055309611,
+        "flux": 0.00021284383254278308,
+        "net_flux": 0.00010360657593857199
+      },
+      "candidate_seconds": 0.06114283390343189,
+      "audit_seconds": 1.3920227920170873,
+      "total_seconds": 1.4531656259205192
+    },
+    {
+      "key": "1-2-0-1.0-direct",
+      "model": "kecoli",
+      "state_index": 2,
+      "h": 0.01,
+      "shift": 1.0,
+      "method": "direct",
+      "outcome": "fallback_required",
+      "dimension": null,
+      "actual": null,
+      "candidate_seconds": 0.06043858313933015,
+      "audit_seconds": 1.4069464579224586,
+      "total_seconds": 1.4673850410617888
+    },
+    {
+      "key": "1-2-0-1.0-inverse",
+      "model": "kecoli",
+      "state_index": 2,
+      "h": 0.01,
+      "shift": 1.0,
+      "method": "inverse",
+      "outcome": "fallback_required",
+      "dimension": null,
+      "actual": null,
+      "candidate_seconds": 0.06049879197962582,
+      "audit_seconds": 1.3809511249419302,
+      "total_seconds": 1.441449916921556
+    },
+    {
+      "key": "1-2-1-0.25-direct",
+      "model": "kecoli",
+      "state_index": 2,
+      "h": 0.03,
+      "shift": 0.25,
+      "method": "direct",
+      "outcome": "fallback_required",
+      "dimension": null,
+      "actual": null,
+      "candidate_seconds": 0.07111016707494855,
+      "audit_seconds": 1.7308002919889987,
+      "total_seconds": 1.8019104590639472
+    },
+    {
+      "key": "1-2-1-0.25-inverse",
+      "model": "kecoli",
+      "state_index": 2,
+      "h": 0.03,
+      "shift": 0.25,
+      "method": "inverse",
+      "outcome": "fallback_required",
+      "dimension": null,
+      "actual": null,
+      "candidate_seconds": 0.0677565410733223,
+      "audit_seconds": 1.7207387080416083,
+      "total_seconds": 1.7884952491149306
+    },
+    {
+      "key": "1-2-1-1.0-direct",
+      "model": "kecoli",
+      "state_index": 2,
+      "h": 0.03,
+      "shift": 1.0,
+      "method": "direct",
+      "outcome": "fallback_required",
+      "dimension": null,
+      "actual": null,
+      "candidate_seconds": 0.07087687496095896,
+      "audit_seconds": 1.7173685419838876,
+      "total_seconds": 1.7882454169448465
+    },
+    {
+      "key": "1-2-1-1.0-inverse",
+      "model": "kecoli",
+      "state_index": 2,
+      "h": 0.03,
+      "shift": 1.0,
+      "method": "inverse",
+      "outcome": "fallback_required",
+      "dimension": null,
+      "actual": null,
+      "candidate_seconds": 0.06863895780406892,
+      "audit_seconds": 1.7258510831743479,
+      "total_seconds": 1.7944900409784168
+    }
+  ],
+  "filtered_decisions": {
+    "audited_linear_samples_only": 17,
+    "fallback_required": 15,
+    "audit_veto": 0
+  },
+  "references": [
+    {
+      "key": "0-3-0",
+      "model": "teusink",
+      "state_index": 3,
+      "h": 0.01,
+      "reference_minimum": 0.0003782103122401407,
+      "reference_sampled_guard": {
+        "nonnegative": true,
+        "pool": 6.966788270085982e-17
+      },
+      "h_log_norm": 3691.6054798893633
+    },
+    {
+      "key": "0-3-1",
+      "model": "teusink",
+      "state_index": 3,
+      "h": 0.03,
+      "reference_minimum": 0.00037396951827860627,
+      "reference_sampled_guard": {
+        "nonnegative": true,
+        "pool": 6.538874315581699e-17
+      },
+      "h_log_norm": 11074.81643966809
+    },
+    {
+      "key": "0-2-0",
+      "model": "teusink",
+      "state_index": 2,
+      "h": 0.01,
+      "reference_minimum": -0.0011066939824514385,
+      "reference_sampled_guard": {
+        "nonnegative": false,
+        "pool": 1.1595642394790577e-16
+      },
+      "h_log_norm": 5619.046486585513
+    },
+    {
+      "key": "0-2-1",
+      "model": "teusink",
+      "state_index": 2,
+      "h": 0.03,
+      "reference_minimum": -0.0022240801024000674,
+      "reference_sampled_guard": {
+        "nonnegative": false,
+        "pool": 1.8561023392448186e-16
+      },
+      "h_log_norm": 16857.139459756538
+    },
+    {
+      "key": "1-3-0",
+      "model": "kecoli",
+      "state_index": 3,
+      "h": 0.01,
+      "reference_minimum": 0.0,
+      "reference_sampled_guard": {
+        "nonnegative": true,
+        "pool": 1.9231552114695726e-12
+      },
+      "h_log_norm": 25639417.066858597
+    },
+    {
+      "key": "1-3-1",
+      "model": "kecoli",
+      "state_index": 3,
+      "h": 0.03,
+      "reference_minimum": 0.0,
+      "reference_sampled_guard": {
+        "nonnegative": true,
+        "pool": 5.773683614540555e-12
+      },
+      "h_log_norm": 76918251.20057578
+    },
+    {
+      "key": "1-2-0",
+      "model": "kecoli",
+      "state_index": 2,
+      "h": 0.01,
+      "reference_minimum": 0.0,
+      "reference_sampled_guard": {
+        "nonnegative": true,
+        "pool": 3.1086270710356523e-12
+      },
+      "h_log_norm": 26132963.442684975
+    },
+    {
+      "key": "1-2-1",
+      "model": "kecoli",
+      "state_index": 2,
+      "h": 0.03,
+      "reference_minimum": 0.0,
+      "reference_sampled_guard": {
+        "nonnegative": true,
+        "pool": 9.338726840446565e-12
+      },
+      "h_log_norm": 78398890.32805492
+    }
+  ],
+  "filtered_formula_max_difference": 3.913897341002362e+25,
+  "residual_arithmetic_strict_max": 0.0010585876010365518,
+  "stable_nonnormal_counterexample_ratio": 5.6721422603246054,
+  "npz_crc_checked": 382,
+  "historical_manifest_unchanged": true,
+  "M4_admission": false,
+  "conclusion": "Inverse-Ritz and shift-filtered residual reduce some overconservative expansions, but remain heuristic: stable nonnormal example defeats safety4. Earlier small-model affine truth is negative. Retain full audits and explicit fallback-required outcomes. No nonlinear/continuous-output/coverage/formal cost gate satisfied."
+}

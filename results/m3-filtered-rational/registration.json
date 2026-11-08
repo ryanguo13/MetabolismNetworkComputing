@@ -1,0 +1,42 @@
+{
+  "date": "2026-11-08",
+  "dimensions": [
+    4,
+    8,
+    12,
+    20,
+    32,
+    48,
+    64
+  ],
+  "shifts": [
+    0.25,
+    1.0
+  ],
+  "projections": [
+    "direct",
+    "inverse"
+  ],
+  "budget": 0.05,
+  "safety": 4.0,
+  "selection": "Prospectively use4*||H*K*residual|| and previous-dimension change<=.05 strict initial scale, plus sampled positivity/pool. Stop on first proposal; then independently audit. Audit veto terminates path, requires external fallback; never silently accept. No parameter tuning from new outcomes.",
+  "filter": "K=(I-sigma*H*A)^-1. Saved W=KV; KAV=(W-V)/(sigma H). Filter requires no new factors or solves. Safety4 is heuristic and a32-state stable Jordan-chain counterexample disproves universal certification.",
+  "scope": "32 new autonomous affine action paths across two models,two source states,two H,two shifts,two projections. No nonlinear method, no coverage, no M4 claim. Every rejected dimension retained.",
+  "reference": "Independent CVODE1e-12/1e-11 pair recomputed after final decision for every path; cross-checked to previously independently audited displacement-Radau truth. Budget/cross<=.05 strict. No reference used by selector.",
+  "timing": "Fresh per-path gradient/rates/J formation, one inverse factor and all extension/evaluation/indicator/guard time. Excludes one-time GroupScreen setup and diagnostic ReactionSystem clone; these separately measured. Reference pair time charged separately and combined cost reported. Not repeated/formal cost evidence.",
+  "source_sha256": {
+    "research/controlled_rational.py": "a6eda91044624d6acf9c6942d5282b87cf3d725dc83de44ed2c2f7acdfacc075",
+    "research/rational_filter.py": "126488bba80f339700ffa8483e5f0ffcde8c43ee338f9245731ff0b1100101f8",
+    "research/test_rational_filter.py": "8d984119324a802b76486134a639e879e2c05b9844c0439e122c682abd894a71",
+    "research/m3_filtered_rational_study.py": "d5bd89b375eea912395553f7d4f5a66b8035646dfb98c0290d8869dd84c036c0",
+    "research/affine_partition.py": "08b9c5b60801372bdfab34948d930f3377704b68eed86163910387730316e082",
+    "research/m3_growth_study.py": "ef440e9984b74ff8440d0c6d4e1ec9e79e1ce32ac997535847e5ddf6a3e05955",
+    "research/m3_priority.py": "6cc6821a1ac9a811f16d25c20c067b9d0516d1cb3bf60b9d144bdc93adc43856",
+    "research/m3_ordered_cost.py": "65f4695f8bd500897bbc6b29afb7d935d4b0f500fc7d53cd99633835631ac5e5"
+  },
+  "input_sha256": {
+    "results/m3-controlled-rational/registration.json": "bf44bca945145d0ea0168805b9ed64cce0ca2d5d843ef4df158da57ad9e88bc5",
+    "results/m3-controlled-rational/runs.json": "ab5d674ab117a2bf3063eee8ea5c735153761ef1907fbb595741376c31bb8484",
+    "results/m3-merb-predictor/manifest.json": "dd67ed2f15bb99dc3bc9b4de4c2f26a9d7b5264d6a21c77770ba8b147d6b5e1d"
+  }
+}
