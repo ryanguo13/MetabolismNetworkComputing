@@ -1,0 +1,418 @@
+{
+  "attribution": [
+    {
+      "model": "teusink",
+      "state": "origin",
+      "h": 0.0003125,
+      "tolerance": 1e-06,
+      "physical": 1.2636761324437863e-11,
+      "actual": {
+        "concentration": 0.012303964022226995,
+        "flux": 0.016825575624621007
+      },
+      "score": 0.0697156183486865,
+      "inner_steps": 1
+    },
+    {
+      "model": "teusink",
+      "state": "origin",
+      "h": 0.0003125,
+      "tolerance": 1e-10,
+      "physical": 1.2622540278230566e-11,
+      "actual": {
+        "concentration": 0.012303964159536957,
+        "flux": 0.006274083223343129
+      },
+      "score": 0.05257307094220939,
+      "inner_steps": 9
+    },
+    {
+      "model": "teusink",
+      "state": "origin",
+      "h": 0.00015625,
+      "tolerance": 1e-06,
+      "physical": 9.09509732307245e-13,
+      "actual": {
+        "concentration": 0.0029446999379568275,
+        "flux": 0.015638439265161553
+      },
+      "score": 0.036296109757687905,
+      "inner_steps": 1
+    },
+    {
+      "model": "teusink",
+      "state": "origin",
+      "h": 0.00015625,
+      "tolerance": 1e-10,
+      "physical": 9.081147069898225e-13,
+      "actual": {
+        "concentration": 0.000870836259674681,
+        "flux": 0.0004470042332809874
+      },
+      "score": 0.003970209916063685,
+      "inner_steps": 7
+    },
+    {
+      "model": "teusink",
+      "state": "origin",
+      "h": 7.8125e-05,
+      "tolerance": 1e-06,
+      "physical": 6.556005140394951e-14,
+      "actual": {
+        "concentration": 0.00251394660549649,
+        "flux": 0.013348004890684058
+      },
+      "score": 0.0336909076143936,
+      "inner_steps": 1
+    },
+    {
+      "model": "teusink",
+      "state": "origin",
+      "h": 7.8125e-05,
+      "tolerance": 1e-10,
+      "physical": 6.554001739752162e-14,
+      "actual": {
+        "concentration": 5.8036527250222016e-05,
+        "flux": 0.00011440982014758039
+      },
+      "score": 0.0012677212676855667,
+      "inner_steps": 7
+    },
+    {
+      "model": "teusink",
+      "state": "final",
+      "h": 0.0003125,
+      "tolerance": 1e-06,
+      "physical": 1.1617126240963274e-12,
+      "actual": {
+        "concentration": 0.0011166158748569562,
+        "flux": 0.0005552985426410787
+      },
+      "score": 0.006336620246172416,
+      "inner_steps": 1
+    },
+    {
+      "model": "teusink",
+      "state": "final",
+      "h": 0.0003125,
+      "tolerance": 1e-10,
+      "physical": 1.1616026426397747e-12,
+      "actual": {
+        "concentration": 0.0011166158748569562,
+        "flux": 0.0005552980732717078
+      },
+      "score": 0.006336620246172416,
+      "inner_steps": 1
+    },
+    {
+      "model": "teusink",
+      "state": "final",
+      "h": 0.00015625,
+      "tolerance": 1e-06,
+      "physical": 8.015902436475543e-14,
+      "actual": {
+        "concentration": 7.880575756530166e-05,
+        "flux": 3.919797490185179e-05
+      },
+      "score": 0.0004556219177266476,
+      "inner_steps": 1
+    },
+    {
+      "model": "teusink",
+      "state": "final",
+      "h": 0.00015625,
+      "tolerance": 1e-10,
+      "physical": 8.014917229843658e-14,
+      "actual": {
+        "concentration": 7.880575756530166e-05,
+        "flux": 3.919797490185179e-05
+      },
+      "score": 0.0004556219177266476,
+      "inner_steps": 1
+    },
+    {
+      "model": "teusink",
+      "state": "final",
+      "h": 7.8125e-05,
+      "tolerance": 1e-06,
+      "physical": 5.300983055007586e-15,
+      "actual": {
+        "concentration": 5.242631680043738e-06,
+        "flux": 2.6079726811275324e-06
+      },
+      "score": 3.058332257823268e-05,
+      "inner_steps": 1
+    },
+    {
+      "model": "teusink",
+      "state": "final",
+      "h": 7.8125e-05,
+      "tolerance": 1e-10,
+      "physical": 5.300983055007586e-15,
+      "actual": {
+        "concentration": 5.242631680043738e-06,
+        "flux": 2.6079726811275324e-06
+      },
+      "score": 3.058332257823268e-05,
+      "inner_steps": 1
+    },
+    {
+      "model": "kecoli",
+      "state": "origin",
+      "h": 2.9296875e-06,
+      "tolerance": 1e-06,
+      "physical": 0.0,
+      "actual": {
+        "concentration": 0.016001348370117217,
+        "flux": 0.043922348518523065,
+        "net_flux": 5.0490077785206755e-05
+      },
+      "score": 0.5815840550350568,
+      "inner_steps": 1
+    },
+    {
+      "model": "kecoli",
+      "state": "origin",
+      "h": 2.9296875e-06,
+      "tolerance": 1e-10,
+      "physical": 0.0,
+      "actual": {
+        "concentration": 0.0002048596784508868,
+        "flux": 0.0005623224773893866,
+        "net_flux": 1.4083509776422846e-06
+      },
+      "score": 0.013141509480808014,
+      "inner_steps": 4
+    },
+    {
+      "model": "kecoli",
+      "state": "origin",
+      "h": 1.46484375e-06,
+      "tolerance": 1e-06,
+      "physical": 0.0,
+      "actual": {
+        "concentration": 0.0018649678241834926,
+        "flux": 0.0051191790893173085,
+        "net_flux": 9.552552681920658e-06
+      },
+      "score": 0.08971474545795227,
+      "inner_steps": 1
+    },
+    {
+      "model": "kecoli",
+      "state": "origin",
+      "h": 1.46484375e-06,
+      "tolerance": 1e-10,
+      "physical": 0.0,
+      "actual": {
+        "concentration": 0.0002269774027695911,
+        "flux": 0.0006230338400857243,
+        "net_flux": 1.5156160732596096e-06
+      },
+      "score": 0.012500622323199095,
+      "inner_steps": 2
+    },
+    {
+      "model": "kecoli",
+      "state": "origin",
+      "h": 7.32421875e-07,
+      "tolerance": 1e-06,
+      "physical": 0.0,
+      "actual": {
+        "concentration": 0.00017173155903034296,
+        "flux": 0.00047138866618480295,
+        "net_flux": 1.1719704891522537e-06
+      },
+      "score": 0.009544421657873375,
+      "inner_steps": 1
+    },
+    {
+      "model": "kecoli",
+      "state": "origin",
+      "h": 7.32421875e-07,
+      "tolerance": 1e-10,
+      "physical": 0.0,
+      "actual": {
+        "concentration": 0.00017173155903034296,
+        "flux": 0.00047138866618480295,
+        "net_flux": 1.1719704891522537e-06
+      },
+      "score": 0.009544421657873375,
+      "inner_steps": 1
+    },
+    {
+      "model": "kecoli",
+      "state": "final",
+      "h": 0.0005779533758707202,
+      "tolerance": 1e-06,
+      "physical": 0.0,
+      "actual": {
+        "concentration": 0.00025254787350316595,
+        "flux": 0.0002516791769090154,
+        "net_flux": 8.155348267340248e-05
+      },
+      "score": 0.0011942240354364682,
+      "inner_steps": 1
+    },
+    {
+      "model": "kecoli",
+      "state": "final",
+      "h": 0.0005779533758707202,
+      "tolerance": 1e-10,
+      "physical": 0.0,
+      "actual": {
+        "concentration": 0.00025254787350316595,
+        "flux": 0.0002516791769090154,
+        "net_flux": 8.155505145711334e-05
+      },
+      "score": 0.0011919800127932366,
+      "inner_steps": 1
+    },
+    {
+      "model": "kecoli",
+      "state": "final",
+      "h": 0.0002889766879353601,
+      "tolerance": 1e-06,
+      "physical": 0.0,
+      "actual": {
+        "concentration": 3.171873760267039e-05,
+        "flux": 2.8806199374869795e-05,
+        "net_flux": 3.4949321270408363e-06
+      },
+      "score": 8.27255588201322e-05,
+      "inner_steps": 1
+    },
+    {
+      "model": "kecoli",
+      "state": "final",
+      "h": 0.0002889766879353601,
+      "tolerance": 1e-10,
+      "physical": 0.0,
+      "actual": {
+        "concentration": 3.171873760267039e-05,
+        "flux": 2.8806199374869795e-05,
+        "net_flux": 3.4949321270408363e-06
+      },
+      "score": 8.27255588201322e-05,
+      "inner_steps": 1
+    },
+    {
+      "model": "kecoli",
+      "state": "final",
+      "h": 0.00014448834396768004,
+      "tolerance": 1e-06,
+      "physical": 0.0,
+      "actual": {
+        "concentration": 3.247941599931437e-05,
+        "flux": 2.963179349917444e-05,
+        "net_flux": 2.942789459321463e-06
+      },
+      "score": 1.0214330766539318e-05,
+      "inner_steps": 1
+    },
+    {
+      "model": "kecoli",
+      "state": "final",
+      "h": 0.00014448834396768004,
+      "tolerance": 1e-10,
+      "physical": 0.0,
+      "actual": {
+        "concentration": 3.247941599931437e-05,
+        "flux": 2.963179349917444e-05,
+        "net_flux": 2.942789459321463e-06
+      },
+      "score": 1.0214330766539318e-05,
+      "inner_steps": 1
+    }
+  ],
+  "paths": [
+    {
+      "model": "teusink",
+      "attempts": 379,
+      "accepted_total": 365,
+      "retained_steps": 342,
+      "abandoned_steps": 23,
+      "rejected": 14,
+      "recoveries": 1,
+      "false_accepts": 0,
+      "complete": true,
+      "reason": null,
+      "fraction": 1.0,
+      "targets": {
+        "0.0001": {
+          "actual": {
+            "concentration": 0.00014236234715559669,
+            "flux": 0.000165812559209481
+          },
+          "passes": true
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 0.01423623471555967,
+            "flux": 0.016581255920948102
+          },
+          "passes": true
+        }
+      },
+      "ledger": {
+        "modified_ledger_residual": 1.3286204428587524e-14,
+        "modified_ledger_quadrature": 5.407435792239997e-17,
+        "physical_ledger_residual": 3.6990705736622346e-11,
+        "physical_ledger_quadrature": 4.3691538018942e-17
+      },
+      "optimistic_seconds": 2.2231629621237516,
+      "audited_seconds": 37.05910459160805,
+      "best_control_seconds": 0.014168583089485765,
+      "best_control_key": "control-0-1e-06-False",
+      "optimistic_ratio": 0.006373164419737699,
+      "audited_ratio": 0.00038232394564368966
+    },
+    {
+      "model": "kecoli",
+      "attempts": 23,
+      "accepted_total": 17,
+      "retained_steps": 17,
+      "abandoned_steps": 0,
+      "rejected": 6,
+      "recoveries": 0,
+      "false_accepts": 0,
+      "complete": true,
+      "reason": null,
+      "fraction": 1.0,
+      "targets": {
+        "0.0001": {
+          "actual": {
+            "concentration": 0.0022875012858894705,
+            "flux": 0.0019063056047220622,
+            "net_flux": 0.036860661334436065
+          },
+          "passes": true
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 0.22875012858894708,
+            "flux": 0.19063056047220625,
+            "net_flux": 0.036860661334436065
+          },
+          "passes": true
+        }
+      },
+      "ledger": {
+        "modified_ledger_residual": 0.0,
+        "modified_ledger_quadrature": 0.0,
+        "physical_ledger_residual": 0.0,
+        "physical_ledger_quadrature": 0.0
+      },
+      "optimistic_seconds": 5.584398712031543,
+      "audited_seconds": 65.07018891884945,
+      "best_control_seconds": 0.38053095806390047,
+      "best_control_key": "control-1-1e-08-True",
+      "optimistic_ratio": 0.06814179604404849,
+      "audited_ratio": 0.005848007580529227
+    }
+  ],
+  "npz_crc_checked": 442,
+  "historical_manifest_unchanged": true,
+  "M4_admission": false,
+  "scope": "Two repeated perturbed short windows, original formal gates unchanged. All discarded work and independent audits retained; exploratory timing only."
+}

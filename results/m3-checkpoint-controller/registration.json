@@ -1,0 +1,55 @@
+{
+  "date": "2026-11-08",
+  "paths": [
+    {
+      "model": "teusink",
+      "start": 1.0,
+      "h0": 0.01,
+      "duration": 0.08,
+      "threshold": 3.0,
+      "inner_tolerance": 1e-06,
+      "max_attempts": 768
+    },
+    {
+      "model": "kecoli",
+      "start": 0.1,
+      "h0": 0.003,
+      "duration": 0.024,
+      "threshold": 1.0,
+      "inner_tolerance": 1e-10,
+      "max_attempts": 192
+    }
+  ],
+  "perturbation": "First strictly positive prefix concentration multiplied by1.001; initial pools rebased to perturbed state. Same perturbation in all references and mature controls.",
+  "grids": [
+    1,
+    2
+  ],
+  "target": "1e-06",
+  "min_step_ratio": 1e-05,
+  "max_recoveries": 4,
+  "recovery": "After three consecutive rejections with at least one retained accepted step: restore latest checkpoint at least duration/8 behind current time with score and ledger occupancy<=.7, otherwise origin. New global H cap=min(old cap,half largest discarded accepted H). Restart at min(saved next H,new cap). Restore both error states, scores, concentration, ledger, audit history and fixed groups; invalidate stale transactions. Every abandoned attempt remains timed and saved. No reference-driven recovery.",
+  "acceptance": "Require running factor4 error score<=1 and absolute sums of each physical/modified residual/quadrature<=1e-10. Original global gates unchanged; remove the additional proportional-to-time allocation, plus original positivity/pool/individual-ledger gates. No reference used in proposals.",
+  "step_rule": "Start h0. Reject halves H; accepted incremental usage of remaining error/ledger budgets<.1 grows1.5 capped by current H cap initially2*h0, otherwise retain H. Shorten final H to exact endpoint. No reference-triggered retries: any estimator/structural proposal accepted but independent strict local/global check failed stops and records a false acceptance.",
+  "scope": "Two prospectively registered perturbed short paths; original full-window/accuracy/coverage/repeat performance gates unchanged. Every attempt audited locally and globally regardless of estimator decision;768/192 attempt caps, four recoveries. Same prior perturbations, not independent holdout.",
+  "timing": "Kernel,estimator,query guard,decision/commit timed separately; include setup/grouping and all local/global pair audits in audited sum. Reference error scoring/global final evaluation outside; no formal performance claim.",
+  "source_sha256": {
+    "research/m3_checkpoint_controller.py": "7988b35c7d8cf4eb83149ddff162d4304c19cc82aa6f41f3822cd169fa99e9be",
+    "research/budget_checkpoint.py": "f4e0e2091ab2ba3772b87a64e7c01aa9ef136dce875219d13648a6100050af4f",
+    "research/linear_context_row.py": "599a6c12032e6dbf3b9b5d19e7527e72b89b3d4b960aa570ae54b1e3e45003ae",
+    "research/streaming_defect.py": "99edf2ee14feefeddcb7ac2ba4913a560fd8f95b40339b79833723994937d3ec",
+    "research/linear_error_output.py": "272d260d3d4760c26e5ac81ae0e85c89bb764d2f2b8bb175ec2275c212d9af22",
+    "research/m3_priority.py": "6cc6821a1ac9a811f16d25c20c067b9d0516d1cb3bf60b9d144bdc93adc43856",
+    "research/m3_growth_study.py": "ef440e9984b74ff8440d0c6d4e1ec9e79e1ce32ac997535847e5ddf6a3e05955",
+    "research/m3_extrapolated_paths.py": "7ce2742d48adf31bb1b73372cb09f7085e18e1507d32b8543ac3c8217f9b64cf"
+  },
+  "input_sha256": {
+    "results/m3-priority/p0.npz": "8be94525b6c3caa007123f284101ab165b725d38ab1567a121f4923993ed4243",
+    "results/m3-streaming-linear/runs.json": "9282c92da60507487752ce4c6daf0d74752ee201b33fca2fb959815a21d52ac2",
+    "results/m3-streaming-linear/registration.json": "ba3399727c003cf87cf2421fac7f7c62f2e7b635cce783db246d6cdfcfdfb583",
+    "results/m3-streaming-budget/runs.json": "cf4ffeaeb5e6a73985f63df821d488201946d2a4337c8070a2dc0ea3f140d70c",
+    "results/m3-streaming-budget/registration.json": "d37a37e94c220c2452427747952841a46c7d80663705720e8a1e24a4fdd4dfdf",
+    "results/m3-budget-attribution/runs.json": "3bbb8260d085fa3d7c30576dc6eaa34424dea31808da53f7eae2d9687c49b2b5",
+    "results/m3-budget-attribution/registration.json": "05f93300f7ea69c84b3d58d032fb31e47978fd6381b2bc7d6e1eaf73fede4b22"
+  }
+}

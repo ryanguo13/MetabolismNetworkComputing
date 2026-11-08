@@ -1,0 +1,52 @@
+{
+  "date": "2026-11-08",
+  "models": [
+    "teusink",
+    "kecoli"
+  ],
+  "states": [
+    "origin",
+    "final"
+  ],
+  "base_steps": [
+    [
+      0.0003125,
+      0.0003125
+    ],
+    [
+      2.9296875e-06,
+      0.0005779533758707202
+    ]
+  ],
+  "divisors": [
+    1,
+    2,
+    4
+  ],
+  "tolerances": [
+    1e-06,
+    1e-10
+  ],
+  "grids": [
+    1,
+    2
+  ],
+  "queries": 65,
+  "purpose": "24 local same-state candidates distinguish macro defect from inner tolerance; no global acceptance or speed claim.",
+  "reference": "Independent full ODE pair1e-12/1e-11; strict budget<=.05.",
+  "source_sha256": {
+    "research/m3_budget_attribution.py": "3e1d3bd41eed841097f7e9db908fe8beb70dc28f709bbf0c46dbb191c330401d",
+    "research/linear_context_row.py": "599a6c12032e6dbf3b9b5d19e7527e72b89b3d4b960aa570ae54b1e3e45003ae",
+    "research/streaming_defect.py": "99edf2ee14feefeddcb7ac2ba4913a560fd8f95b40339b79833723994937d3ec",
+    "research/linear_error_output.py": "272d260d3d4760c26e5ac81ae0e85c89bb764d2f2b8bb175ec2275c212d9af22",
+    "research/inner_dense.py": "e19b0221a27f5fa861c7a0877d64f9e04b638a3fc514326c7968541f13ec133b",
+    "research/m3_growth_study.py": "ef440e9984b74ff8440d0c6d4e1ec9e79e1ce32ac997535847e5ddf6a3e05955",
+    "research/m3_extrapolated_paths.py": "7ce2742d48adf31bb1b73372cb09f7085e18e1507d32b8543ac3c8217f9b64cf"
+  },
+  "input_sha256": {
+    "results/m3-streaming-budget/runs.json": "cf4ffeaeb5e6a73985f63df821d488201946d2a4337c8070a2dc0ea3f140d70c",
+    "results/m3-streaming-budget/registration.json": "d37a37e94c220c2452427747952841a46c7d80663705720e8a1e24a4fdd4dfdf",
+    "results/m3-streaming-budget/path-0.npz": "f97566e32f637e99c6eeeb885c294d5e00d7578c7efdd441aa9ff7abb9b796b7",
+    "results/m3-streaming-budget/path-1.npz": "4eb5fc26f4e8bd09a7bd4b46650e34cf345fdde9880f09f57f165f2af69241de"
+  }
+}
