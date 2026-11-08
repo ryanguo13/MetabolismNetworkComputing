@@ -1,0 +1,60 @@
+const RODAS4A = [
+    0 0 0 0 0 0
+    1.544 0 0 0 0 0
+    0.9466785280815826 0.2557011698983284 0 0 0 0
+    3.314825187068521 2.896124015972201 0.9986419139977817 0 0 0
+    1.221224509226641 6.019134481288629 12.53708332932087 -0.687886036105895 0 0
+    1.221224509226641 6.019134481288629 12.53708332932087 -0.687886036105895 1 0
+]
+const RODAS4C = [
+    0 0 0 0 0
+    -5.6688 0 0 0 0
+    -2.430093356833875 -0.2063599157091915 0 0 0
+    -0.1073529058151375 -9.594562251023355 -20.47028614809616 0 0
+    7.496443313967647 -10.24680431464352 -33.99990352819905 11.7089089320616 0
+    8.083246795921522 -7.981132988064893 -31.52159432874371 16.31930543123136 -6.058818238834054
+]
+const RODAS4c = [0, 0.386, 0.21, 0.63, 1, 1]
+const RODAS4d = [0.25, -0.1043, 0.1035, -0.0362, 0, 0]
+const RODAS4H = [
+    10.12623508344586 -7.487995877610167 -34.80091861555747 -7.992771707568823 1.025137723295662 0
+    -0.6762803392801253 6.087714651680015 16.43084320892478 24.76722511418386 -6.594389125716872 0
+]
+"""
+    Rodas4Tableau(T, T2)
+
+The tableau for the 4th order L-stable Rosenbrock method Rodas4. 
+It is a 6-stage method with a built-in error estimate.
+Reference: Hairer, E., Nørsett, S. P., & Wanner, G. (1996). Solving Ordinary Differential Equations II.
+"""
+function Rodas4Tableau(::Type{T}, ::Type{T2}) where {T, T2}
+    gamma = 0.25
+    b = T[RODAS4A[6, 1], RODAS4A[6, 2], RODAS4A[6, 3], RODAS4A[6, 4], RODAS4A[6, 5], one(T)]
+    btilde = T[zero(T), zero(T), zero(T), zero(T), zero(T), one(T)]
+    return RodasTableau{T, T2, Vector{T}}(RODAS4A, RODAS4C, gamma, RODAS4c, RODAS4d, RODAS4H, b, btilde)
+end
+
+The OrdinaryDiffEq.jl package is licensed under the MIT "Expat" License:
+
+> Copyright (c) 2016-2020: ChrisRackauckas, Yingbo Ma, Julia Computing Inc, and
+> other contributors:
+> 
+> https://github.com/SciML/OrdinaryDiffEq.jl/graphs/contributors
+> 
+> Permission is hereby granted, free of charge, to any person obtaining a copy
+> of this software and associated documentation files (the "Software"), to deal
+> in the Software without restriction, including without limitation the rights
+> to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+> copies of the Software, and to permit persons to whom the Software is
+> furnished to do so, subject to the following conditions:
+> 
+> The above copyright notice and this permission notice shall be included in all
+> copies or substantial portions of the Software.
+> 
+> THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+> IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+> FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+> AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+> LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+> OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+> SOFTWARE.

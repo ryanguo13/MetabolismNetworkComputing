@@ -1,0 +1,41 @@
+{
+  "date": "2026-11-08",
+  "primary_paper": {
+    "title": "Multirate Linearly-Implicit GARK Schemes",
+    "authors": [
+      "Michael G\u00fcnther",
+      "Adrian Sandu"
+    ],
+    "url": "https://arxiv.org/abs/2102.10203",
+    "version_read": "v1",
+    "sections": [
+      "2.11 Rosenbrock order conditions",
+      "10.6/Example7 Multirate Rodas",
+      "10.8 coupling distinction"
+    ],
+    "reading": "Previously retrieved full text reread this turn. Published linear coupling is not claimed to be the new quartic extension."
+  },
+  "software": {
+    "repository": "SciML/OrdinaryDiffEq.jl",
+    "path": "lib/OrdinaryDiffEqRosenbrockTableaus/src/rosenbrock_tableaus.jl",
+    "git_blob_sha": "f1229035a7a4fb21049c6e7329b3e99fdeceeebd",
+    "api_blob_url": "https://api.github.com/repos/SciML/OrdinaryDiffEq.jl/git/blobs/f1229035a7a4fb21049c6e7329b3e99fdeceeebd",
+    "lines": [
+      77,
+      111
+    ],
+    "license": "MIT",
+    "notice": "research/licenses/OrdinaryDiffEq-Rodas.md",
+    "interpretation": "Source transformed-stage equation uses A0 and C0/h with matrix I/(h*.25)-J. Convert by Gamma=(4I-C0)^-1, alpha=A0 Gamma, b=Gamma^T b0. Independently compared all stages and endpoint."
+  },
+  "failed_retrieval": {
+    "url": "https://www.unige.ch/~hairer/prog/stiff/rodas.f",
+    "response": "HTTP200 with Access Denied HTML; not Fortran. No coefficients taken from it."
+  },
+  "sha256": {
+    "results/scratch/rodas-base.jl": "3fa09acf8a107e1a38b84151843b17f08c6dd34cbaf920bf4075f17c54930885",
+    "results/scratch/rodas-perform.jl": "5f3bc682b315fa3e19f2452f3891f5d1c9cf02f5e1f7379bfa052440d1dc3c46",
+    "results/scratch/rodas-license.md": "d4419d45221ea3b858e69ae7d4f362684e63793470bb77d1973118c9820e24db",
+    "results/scratch/linearly-implicit-gark.txt": "1bf93eca1ecd110c3a5a75abd803f4d861f71a2af6ecfe42964cb1112ab9fe00"
+  }
+}

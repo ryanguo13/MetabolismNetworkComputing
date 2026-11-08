@@ -1,0 +1,94 @@
+{
+  "date": "2026-11-08",
+  "models": [
+    {
+      "name": "teusink",
+      "start": 1.0,
+      "threshold": 3.0
+    },
+    {
+      "name": "kecoli",
+      "start": 0.1,
+      "threshold": 1.0
+    }
+  ],
+  "steps": [
+    0.001,
+    0.003,
+    0.01,
+    0.03
+  ],
+  "configurations": [
+    {
+      "augmented": false,
+      "whole": false,
+      "tolerance": 1e-06
+    },
+    {
+      "augmented": false,
+      "whole": false,
+      "tolerance": 1e-10
+    },
+    {
+      "augmented": false,
+      "whole": true,
+      "tolerance": 1e-06
+    },
+    {
+      "augmented": true,
+      "whole": false,
+      "tolerance": 1e-06
+    },
+    {
+      "augmented": true,
+      "whole": false,
+      "tolerance": 1e-10
+    },
+    {
+      "augmented": true,
+      "whole": true,
+      "tolerance": 1e-06
+    }
+  ],
+  "queries": 65,
+  "algebra": "Base8x6 moment matrix rank5 and augmented target rank7. Enumerate28 two-cubic-stage combinations and112 three-stage combinations on fixed eighth-grid nodes; select full-row-rank feasible3-stage extension minimizing infinity norm of moment weights. No model data used in this selection.",
+  "change": "Affine-centered fast variable u=z_active-Q_active(t)+t*q0_active begins at y_active, derivative fast(z)+q0_active retains cancellation at t=0. Same predictor and slow polynomial; no projection. Prior direct-state and raw-increment failures preserved.",
+  "scope": "Six/nine-stage continuous extensions, same current full J and diagonal. Fixed local states; no estimator/controller/global claim. Extra stages share actual factor. Original M4 gates unchanged.",
+  "controls": {
+    "tolerances": [
+      1e-06,
+      1e-07,
+      1e-08,
+      1e-10
+    ],
+    "initial_steps": [
+      "auto",
+      "whole"
+    ]
+  },
+  "reference": "Independent full ODE1e-12/1e-11 pair, budget<=.05 at strict development target;65 uniform points plus original public observations.",
+  "timing": "All kernel stages, inner solves and full continuous/physical/modified guards plus query guard timed. Setup and independent audit pair separately recorded. Single exploratory timing; no formal speedup.",
+  "source_sha256": {
+    "research/m3_rodas_centered.py": "f7587ba55b7a81be96b20ffe64b7580f95f09a49e6ac7c88e7545dfb6f2d9774",
+    "research/m3_rodas_study.py": "ee709d4391dfe1090706997b43a6a1144267b4caaa70ac6a8bfb83b8f3929756",
+    "research/rodas_coupling.py": "bad29fef245d0181dc774e02c889090b2a530cc9a52b315497fdc0c00b88b559",
+    "research/rodas_centered.py": "42448f07e94e958d0458a764d1a934c80c908982de7e84fc588929486d59c7db",
+    "research/test_rodas_continuous.py": "1840d19df0dc9ca7d8fc7fbdc6705a1f6b158cef08b58ff57dc56325477a9ce0",
+    "research/test_rodas_increment.py": "7488794bba393366c1f82daba1934bbd4359430cc4e967c365d17927f7b1697f",
+    "research/test_rodas_centered.py": "9b22fc5edd03740d418d2c07c9ff0a565a2ac6b25bc9e231d7d2fbb80e9b35a8",
+    "research/inner_dense.py": "e19b0221a27f5fa861c7a0877d64f9e04b638a3fc514326c7968541f13ec133b",
+    "research/shared_radau.py": "0174d7d91eb1a3d59d514493a730af52b1e1a1d10b764bb892716c9da666edef",
+    "research/m3_extrapolated_paths.py": "7ce2742d48adf31bb1b73372cb09f7085e18e1507d32b8543ac3c8217f9b64cf",
+    "research/m3_growth_study.py": "ef440e9984b74ff8440d0c6d4e1ec9e79e1ce32ac997535847e5ddf6a3e05955",
+    "research/m3_priority.py": "6cc6821a1ac9a811f16d25c20c067b9d0516d1cb3bf60b9d144bdc93adc43856"
+  },
+  "input_sha256": {
+    "results/m3-priority/p0.npz": "8be94525b6c3caa007123f284101ab165b725d38ab1567a121f4923993ed4243",
+    "results/m3-collocation-correction/summary.json": "567d354af7488c37124314d6dde01b05559b3f19aa189a85554b81d8bb57077b",
+    "results/m3-collocation-correction/manifest.json": "87f6f8306e9b5ab9e34ff840f1eabbe2d5a6773abeba74c8cdc8286ab5569087",
+    "results/m3-rodas-continuous/registration.json": "fdec999fe5ba0e965fac07806b35654eb2ee50f9b2c3f9cf7eae9e13d4bb1804",
+    "results/m3-rodas-continuous/runs.json": "f06f4a93e1c9dbfca794ebb29e28dd6500b3d9b2e2bd5e1e7fa348d519b4287f",
+    "results/m3-rodas-increment/registration.json": "fe0ca18df7ff73978888b96a15fc7efd50a90a9c521855d9b4f36a16e738bdd3",
+    "results/m3-rodas-increment/runs.json": "850e2ee1d40961b76133a12360e2419a95db360c25479da79fb8675b416b7e8d"
+  }
+}
