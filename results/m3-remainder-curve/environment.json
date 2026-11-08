@@ -1,0 +1,8 @@
+{
+  "python": "3.12.10 (main, May 22 2025, 01:38:44) [Clang 20.1.4 ]",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1",
+  "platform": "macOS-26.6.2-arm64-arm-64bit",
+  "parent_commit": "47044ce19df04a9da90f9512d38ea5c3d5238d29",
+  "execution": "scripts/run-macos.sh; single-thread BLAS/OpenMP"
+}

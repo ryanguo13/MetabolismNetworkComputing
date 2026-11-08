@@ -1,0 +1,91 @@
+{
+  "reason": "Lossless byte shards; reconstructed original SHA-256 and NPZ CRC checked. Original archives retained in ignored scratch. No numerical or timing changes.",
+  "archives": {
+    "candidate-1-2-0-cubic2-1e-10.npz": {
+      "bytes": 57610148,
+      "sha256": "81fdf541857b2847746846828a967a32faa8bf082e4896e70bfca948851ddda0",
+      "parts": [
+        {
+          "name": "candidate-1-2-0-cubic2-1e-10.npz.part00",
+          "sha256": "3523fa4aedb5933856eb135f8c9a6531133790144c5e265321ce93846ee2b278"
+        },
+        {
+          "name": "candidate-1-2-0-cubic2-1e-10.npz.part01",
+          "sha256": "032118360cda6d0d22f70d8e8b76b67ab04eb7fce027b50d92583cd1880acc03"
+        }
+      ]
+    },
+    "candidate-1-2-1-cubic1-1e-10.npz": {
+      "bytes": 63613246,
+      "sha256": "f0e262ef2b006279a3de1f8e036a10485e7bf6d72434ef20770d23fa5e1c4ae0",
+      "parts": [
+        {
+          "name": "candidate-1-2-1-cubic1-1e-10.npz.part00",
+          "sha256": "ea53840f01aa171b1415c35dc6233c367a9df08ad98bac2dea39b03441afef5e"
+        },
+        {
+          "name": "candidate-1-2-1-cubic1-1e-10.npz.part01",
+          "sha256": "91cba979f9c2afe6e19a7ed0641261a25d1e87055d7c35b59461dbb112ca55ed"
+        }
+      ]
+    },
+    "candidate-1-2-1-cubic2-1e-10.npz": {
+      "bytes": 95491855,
+      "sha256": "d8ae9a5c9b7d503913955a216d685cb8af3745d23a6289e7e3bf93328111685e",
+      "parts": [
+        {
+          "name": "candidate-1-2-1-cubic2-1e-10.npz.part00",
+          "sha256": "95a7a3eb3eb71f433a4cff50987e28c9d0022d5ae16ce7e73e616c924e748a39"
+        },
+        {
+          "name": "candidate-1-2-1-cubic2-1e-10.npz.part01",
+          "sha256": "77a50c9871d0bbd9a781bb4c522a5780f9e92613c559de11a085e2ab7b843710"
+        },
+        {
+          "name": "candidate-1-2-1-cubic2-1e-10.npz.part02",
+          "sha256": "02956744905680ef4b517db85071058fd5a05c70137b632f6517de5dba74188e"
+        }
+      ]
+    },
+    "candidate-1-2-2-cubic1-1e-10.npz": {
+      "bytes": 91420779,
+      "sha256": "0e2a01b1fdd04951529dccc7fbcd6d85fdfa08cf316a2ba13583b15e1709e710",
+      "parts": [
+        {
+          "name": "candidate-1-2-2-cubic1-1e-10.npz.part00",
+          "sha256": "bdba52fcf69c53c2645784db2943cb96f38f9819f78c0045ada0b970057bf992"
+        },
+        {
+          "name": "candidate-1-2-2-cubic1-1e-10.npz.part01",
+          "sha256": "476e3d05c9f87000cd87b72ccf95e97988676ef4d96ebf3c7ffda80f9ced6287"
+        },
+        {
+          "name": "candidate-1-2-2-cubic1-1e-10.npz.part02",
+          "sha256": "1da60ca203804d184b15e889fdee9af19b94e9d8f78794c9cbb2c66b0b83e4ab"
+        }
+      ]
+    },
+    "candidate-1-2-2-cubic2-1e-10.npz": {
+      "bytes": 137064812,
+      "sha256": "b5b0d5e412ccd0b3530e66c1d0735ca3ec3eb546b39ad272285362aae6e2d96c",
+      "parts": [
+        {
+          "name": "candidate-1-2-2-cubic2-1e-10.npz.part00",
+          "sha256": "54a1cd26f35d89bc56430ceee96d4098b68f4f5d90c05e4e52645792a4076846"
+        },
+        {
+          "name": "candidate-1-2-2-cubic2-1e-10.npz.part01",
+          "sha256": "65bf8df31c45534c812d69354a5b4b8a9e3f5e338ab443302e02b495169fc2f9"
+        },
+        {
+          "name": "candidate-1-2-2-cubic2-1e-10.npz.part02",
+          "sha256": "bc084a65834c123863dba8967298fc07fec31de3f41cee920747d20a8d4d0ddd"
+        },
+        {
+          "name": "candidate-1-2-2-cubic2-1e-10.npz.part03",
+          "sha256": "12881a24b9b2b74078580005fe6927533790460aa22cfa1849a5aea7e629be6b"
+        }
+      ]
+    }
+  }
+}
