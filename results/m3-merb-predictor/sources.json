@@ -1,0 +1,93 @@
+{
+  "access_date": "2026-11-08",
+  "retrieval": "paper-lookup skill; bounded arXiv title search and Crossref title search, first pages only",
+  "queries": [
+    {
+      "endpoint": "https://export.arxiv.org/api/query",
+      "parameters": {
+        "search_query": "ti:multirate AND ti:exponential",
+        "max_results": 6
+      }
+    },
+    {
+      "endpoint": "https://api.crossref.org/works",
+      "parameters": {
+        "query.title": "Multirate exponential Rosenbrock methods",
+        "rows": 5
+      }
+    }
+  ],
+  "primary": {
+    "title": "Multirate Exponential Rosenbrock Methods",
+    "authors": [
+      {
+        "ORCID": "https://orcid.org/0000-0003-0319-654X",
+        "authenticated-orcid": true,
+        "given": "Vu Thai",
+        "family": "Luan",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Rujeko",
+        "family": "Chinomona",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-0911-7841",
+        "authenticated-orcid": true,
+        "given": "Daniel R.",
+        "family": "Reynolds",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2022,
+          10
+        ]
+      ]
+    },
+    "doi": "10.1137/21m1439481",
+    "url": "https://arxiv.org/pdf/2106.05385v2",
+    "sha256": "375f496206acadc3c19abf8d6519d166179dbe88bc7ee6c71202f93a2574cbc1",
+    "reading": "Read sec2.2 construction,2.3.4 theorem and assumptions,2.4.3 eq2.63 MERB4,2.5 algorithm/cancellation warning. No exhaustive literature or full-paper review.",
+    "status": "arXiv v2 preprint read;Crossref confirms2022 published journal identity. Crossref search record has no update-to field; absence is not a complete correction/retraction search."
+  },
+  "skill_acknowledgment": {
+    "title": "Scientific Agent Skills: A Library of Procedural Knowledge for Research Agents",
+    "authors": [
+      "Timothy Kassis",
+      "Vinayak Agarwal",
+      "Yuhuan He",
+      "Darshil Patel",
+      "Aubrey M. Brueckner"
+    ],
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2609.00065",
+    "verified_record": "skill-citation.xml",
+    "version_read": "v2",
+    "contribution": "Literature retrieval procedure and Atom parser, not mathematical coefficients or experiment evidence."
+  }
+}

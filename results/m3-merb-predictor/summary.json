@@ -1,0 +1,1956 @@
+{
+  "merb_candidates": 18,
+  "mature_controls": 48,
+  "merb_passes": {
+    "0.0001": 12,
+    "1e-06": 6
+  },
+  "merb_comparisons": [
+    {
+      "model": "teusink",
+      "h": 0.003,
+      "tolerance": 1e-06,
+      "target": "0.0001",
+      "passes": true,
+      "actual": {
+        "concentration": 1.3840033451099451e-05,
+        "flux": 7.440815860757123e-05
+      },
+      "endpoint": {
+        "concentration": 1.3840033451099451e-05,
+        "flux": 7.440815860757123e-05
+      },
+      "physical_ledger": 3.117403007815945e-12,
+      "candidate_seconds": 0.002635000040754676,
+      "predictor_seconds": 0.0015357090160250664,
+      "baseline_seconds": 0.00174325006082654,
+      "baseline_key": "control-0-0-1e-07-True",
+      "ratio": 0.661574965413384,
+      "predictor_ratio": 1.1351434696519918
+    },
+    {
+      "model": "teusink",
+      "h": 0.003,
+      "tolerance": 1e-08,
+      "target": "0.0001",
+      "passes": true,
+      "actual": {
+        "concentration": 1.3840033451099451e-05,
+        "flux": 7.440815860757123e-05
+      },
+      "endpoint": {
+        "concentration": 1.3840033451099451e-05,
+        "flux": 7.440815860757123e-05
+      },
+      "physical_ledger": 3.117403007815945e-12,
+      "candidate_seconds": 0.001987708965316415,
+      "predictor_seconds": 0.00104674999602139,
+      "baseline_seconds": 0.00174325006082654,
+      "baseline_key": "control-0-0-1e-07-True",
+      "ratio": 0.8770147397051357,
+      "predictor_ratio": 1.6653929471721893
+    },
+    {
+      "model": "teusink",
+      "h": 0.003,
+      "tolerance": 1e-10,
+      "target": "0.0001",
+      "passes": true,
+      "actual": {
+        "concentration": 1.3839807036310644e-05,
+        "flux": 7.440719137502678e-05
+      },
+      "endpoint": {
+        "concentration": 1.3839807036310644e-05,
+        "flux": 7.440719137502678e-05
+      },
+      "physical_ledger": 3.1178772870652512e-12,
+      "candidate_seconds": 0.002937000012025237,
+      "predictor_seconds": 0.0020807920955121517,
+      "baseline_seconds": 0.00174325006082654,
+      "baseline_key": "control-0-0-1e-07-True",
+      "ratio": 0.5935478562100737,
+      "predictor_ratio": 0.8377819507226976
+    },
+    {
+      "model": "teusink",
+      "h": 0.003,
+      "tolerance": 1e-06,
+      "target": "1e-06",
+      "passes": true,
+      "actual": {
+        "concentration": 0.0013840033451099454,
+        "flux": 0.007440815860757124
+      },
+      "endpoint": {
+        "concentration": 0.0013840033451099454,
+        "flux": 0.007440815860757124
+      },
+      "physical_ledger": 3.117403007815945e-12,
+      "candidate_seconds": 0.002635000040754676,
+      "predictor_seconds": 0.0015357090160250664,
+      "baseline_seconds": 0.00174325006082654,
+      "baseline_key": "control-0-0-1e-07-True",
+      "ratio": 0.661574965413384,
+      "predictor_ratio": 1.1351434696519918
+    },
+    {
+      "model": "teusink",
+      "h": 0.003,
+      "tolerance": 1e-08,
+      "target": "1e-06",
+      "passes": true,
+      "actual": {
+        "concentration": 0.0013840033451099454,
+        "flux": 0.007440815860757124
+      },
+      "endpoint": {
+        "concentration": 0.0013840033451099454,
+        "flux": 0.007440815860757124
+      },
+      "physical_ledger": 3.117403007815945e-12,
+      "candidate_seconds": 0.001987708965316415,
+      "predictor_seconds": 0.00104674999602139,
+      "baseline_seconds": 0.00174325006082654,
+      "baseline_key": "control-0-0-1e-07-True",
+      "ratio": 0.8770147397051357,
+      "predictor_ratio": 1.6653929471721893
+    },
+    {
+      "model": "teusink",
+      "h": 0.003,
+      "tolerance": 1e-10,
+      "target": "1e-06",
+      "passes": true,
+      "actual": {
+        "concentration": 0.0013839807036310646,
+        "flux": 0.007440719137502679
+      },
+      "endpoint": {
+        "concentration": 0.0013839807036310646,
+        "flux": 0.007440719137502679
+      },
+      "physical_ledger": 3.1178772870652512e-12,
+      "candidate_seconds": 0.002937000012025237,
+      "predictor_seconds": 0.0020807920955121517,
+      "baseline_seconds": 0.00174325006082654,
+      "baseline_key": "control-0-0-1e-07-True",
+      "ratio": 0.5935478562100737,
+      "predictor_ratio": 0.8377819507226976
+    },
+    {
+      "model": "teusink",
+      "h": 0.01,
+      "tolerance": 1e-06,
+      "target": "0.0001",
+      "passes": false,
+      "actual": {
+        "concentration": 0.0004996677655074309,
+        "flux": 0.002652366744496218
+      },
+      "endpoint": {
+        "concentration": 0.0004996677655074309,
+        "flux": 0.002652366744496218
+      },
+      "physical_ledger": 6.154849816886219e-10,
+      "candidate_seconds": 0.001983166905120015,
+      "predictor_seconds": 0.0011148341000080109,
+      "baseline_seconds": 0.002278875093907118,
+      "baseline_key": "control-0-1-1e-08-True",
+      "ratio": 1.1491090780224609,
+      "predictor_ratio": 2.044138310705371
+    },
+    {
+      "model": "teusink",
+      "h": 0.01,
+      "tolerance": 1e-08,
+      "target": "0.0001",
+      "passes": false,
+      "actual": {
+        "concentration": 0.0004996781052834624,
+        "flux": 0.002652402785885609
+      },
+      "endpoint": {
+        "concentration": 0.0004996781052834624,
+        "flux": 0.002652402785885609
+      },
+      "physical_ledger": 6.160216763709239e-10,
+      "candidate_seconds": 0.0025492499116808176,
+      "predictor_seconds": 0.0017074160277843475,
+      "baseline_seconds": 0.002278875093907118,
+      "baseline_key": "control-0-1-1e-08-True",
+      "ratio": 0.8939394617472277,
+      "predictor_ratio": 1.334692340251914
+    },
+    {
+      "model": "teusink",
+      "h": 0.01,
+      "tolerance": 1e-10,
+      "target": "0.0001",
+      "passes": false,
+      "actual": {
+        "concentration": 0.0004991854103870965,
+        "flux": 0.0026528017913221825
+      },
+      "endpoint": {
+        "concentration": 0.0004991854103870965,
+        "flux": 0.0026528017913221825
+      },
+      "physical_ledger": 6.160165178302781e-10,
+      "candidate_seconds": 0.006746875122189522,
+      "predictor_seconds": 0.0035030830185860395,
+      "baseline_seconds": 0.002278875093907118,
+      "baseline_key": "control-0-1-1e-08-True",
+      "ratio": 0.33776749274819373,
+      "predictor_ratio": 0.6505341385905685
+    },
+    {
+      "model": "teusink",
+      "h": 0.01,
+      "tolerance": 1e-06,
+      "target": "1e-06",
+      "passes": false,
+      "actual": {
+        "concentration": 0.04996677655074309,
+        "flux": 0.2652366744496218
+      },
+      "endpoint": {
+        "concentration": 0.04996677655074309,
+        "flux": 0.2652366744496218
+      },
+      "physical_ledger": 6.154849816886219e-10,
+      "candidate_seconds": 0.001983166905120015,
+      "predictor_seconds": 0.0011148341000080109,
+      "baseline_seconds": 0.002278875093907118,
+      "baseline_key": "control-0-1-1e-08-True",
+      "ratio": 1.1491090780224609,
+      "predictor_ratio": 2.044138310705371
+    },
+    {
+      "model": "teusink",
+      "h": 0.01,
+      "tolerance": 1e-08,
+      "target": "1e-06",
+      "passes": false,
+      "actual": {
+        "concentration": 0.04996781052834625,
+        "flux": 0.2652402785885609
+      },
+      "endpoint": {
+        "concentration": 0.04996781052834625,
+        "flux": 0.2652402785885609
+      },
+      "physical_ledger": 6.160216763709239e-10,
+      "candidate_seconds": 0.0025492499116808176,
+      "predictor_seconds": 0.0017074160277843475,
+      "baseline_seconds": 0.002278875093907118,
+      "baseline_key": "control-0-1-1e-08-True",
+      "ratio": 0.8939394617472277,
+      "predictor_ratio": 1.334692340251914
+    },
+    {
+      "model": "teusink",
+      "h": 0.01,
+      "tolerance": 1e-10,
+      "target": "1e-06",
+      "passes": false,
+      "actual": {
+        "concentration": 0.04991854103870964,
+        "flux": 0.2652801791322183
+      },
+      "endpoint": {
+        "concentration": 0.04991854103870964,
+        "flux": 0.2652801791322183
+      },
+      "physical_ledger": 6.160165178302781e-10,
+      "candidate_seconds": 0.006746875122189522,
+      "predictor_seconds": 0.0035030830185860395,
+      "baseline_seconds": 0.002278875093907118,
+      "baseline_key": "control-0-1-1e-08-True",
+      "ratio": 0.33776749274819373,
+      "predictor_ratio": 0.6505341385905685
+    },
+    {
+      "model": "teusink",
+      "h": 0.03,
+      "tolerance": 1e-06,
+      "target": "0.0001",
+      "passes": false,
+      "actual": {
+        "concentration": 0.012355828564679181,
+        "flux": 0.06300123910599188
+      },
+      "endpoint": {
+        "concentration": 0.012355828564679181,
+        "flux": 0.06300123910599188
+      },
+      "physical_ledger": 6.757464362685337e-08,
+      "candidate_seconds": 0.0021921659354120493,
+      "predictor_seconds": 0.0012697919737547636,
+      "baseline_seconds": 0.002745541976764798,
+      "baseline_key": "control-0-2-1e-06-True",
+      "ratio": 1.2524334642800359,
+      "predictor_ratio": 2.162198244682753
+    },
+    {
+      "model": "teusink",
+      "h": 0.03,
+      "tolerance": 1e-08,
+      "target": "0.0001",
+      "passes": false,
+      "actual": {
+        "concentration": 0.012361623685085615,
+        "flux": 0.0630331671000926
+      },
+      "endpoint": {
+        "concentration": 0.012361623685085615,
+        "flux": 0.0630331671000926
+      },
+      "physical_ledger": 6.770465891700593e-08,
+      "candidate_seconds": 0.006436499999836087,
+      "predictor_seconds": 0.0030773330945521593,
+      "baseline_seconds": 0.002745541976764798,
+      "baseline_key": "control-0-2-1e-06-True",
+      "ratio": 0.42655821903747637,
+      "predictor_ratio": 0.8921822540514919
+    },
+    {
+      "model": "teusink",
+      "h": 0.03,
+      "tolerance": 1e-10,
+      "target": "0.0001",
+      "passes": false,
+      "actual": {
+        "concentration": 0.012361882154636003,
+        "flux": 0.06303352056467318
+      },
+      "endpoint": {
+        "concentration": 0.012361882154636003,
+        "flux": 0.06303352056467318
+      },
+      "physical_ledger": 6.770530231139416e-08,
+      "candidate_seconds": 0.01589829195290804,
+      "predictor_seconds": 0.006455000024288893,
+      "baseline_seconds": 0.002745541976764798,
+      "baseline_key": "control-0-2-1e-06-True",
+      "ratio": 0.17269414757870244,
+      "predictor_ratio": 0.4253357035528838
+    },
+    {
+      "model": "teusink",
+      "h": 0.03,
+      "tolerance": 1e-06,
+      "target": "1e-06",
+      "passes": false,
+      "actual": {
+        "concentration": 1.2355828564679183,
+        "flux": 6.300123910599188
+      },
+      "endpoint": {
+        "concentration": 1.2355828564679183,
+        "flux": 6.300123910599188
+      },
+      "physical_ledger": 6.757464362685337e-08,
+      "candidate_seconds": 0.0021921659354120493,
+      "predictor_seconds": 0.0012697919737547636,
+      "baseline_seconds": 0.002745541976764798,
+      "baseline_key": "control-0-2-1e-06-True",
+      "ratio": 1.2524334642800359,
+      "predictor_ratio": 2.162198244682753
+    },
+    {
+      "model": "teusink",
+      "h": 0.03,
+      "tolerance": 1e-08,
+      "target": "1e-06",
+      "passes": false,
+      "actual": {
+        "concentration": 1.2361623685085616,
+        "flux": 6.303316710009261
+      },
+      "endpoint": {
+        "concentration": 1.2361623685085616,
+        "flux": 6.303316710009261
+      },
+      "physical_ledger": 6.770465891700593e-08,
+      "candidate_seconds": 0.006436499999836087,
+      "predictor_seconds": 0.0030773330945521593,
+      "baseline_seconds": 0.002745541976764798,
+      "baseline_key": "control-0-2-1e-06-True",
+      "ratio": 0.42655821903747637,
+      "predictor_ratio": 0.8921822540514919
+    },
+    {
+      "model": "teusink",
+      "h": 0.03,
+      "tolerance": 1e-10,
+      "target": "1e-06",
+      "passes": false,
+      "actual": {
+        "concentration": 1.2361882154636004,
+        "flux": 6.303352056467317
+      },
+      "endpoint": {
+        "concentration": 1.2361882154636004,
+        "flux": 6.303352056467317
+      },
+      "physical_ledger": 6.770530231139416e-08,
+      "candidate_seconds": 0.01589829195290804,
+      "predictor_seconds": 0.006455000024288893,
+      "baseline_seconds": 0.002745541976764798,
+      "baseline_key": "control-0-2-1e-06-True",
+      "ratio": 0.17269414757870244,
+      "predictor_ratio": 0.4253357035528838
+    },
+    {
+      "model": "kecoli",
+      "h": 0.003,
+      "tolerance": 1e-06,
+      "target": "0.0001",
+      "passes": true,
+      "actual": {
+        "concentration": 0.00028442616207775834,
+        "flux": 0.00031790926903879304,
+        "net_flux": 0.0010774075556386543
+      },
+      "endpoint": {
+        "concentration": 0.00028442616207775834,
+        "flux": 0.00031790926903879304,
+        "net_flux": 0.0010774075556386543
+      },
+      "physical_ledger": null,
+      "candidate_seconds": 0.025950124952942133,
+      "predictor_seconds": 0.024355666944757104,
+      "baseline_seconds": 0.012152999872341752,
+      "baseline_key": "control-1-0-1e-07-True",
+      "ratio": 0.4683214394682091,
+      "predictor_ratio": 0.4989803769244699
+    },
+    {
+      "model": "kecoli",
+      "h": 0.003,
+      "tolerance": 1e-08,
+      "target": "0.0001",
+      "passes": true,
+      "actual": {
+        "concentration": 0.00028442616207775834,
+        "flux": 0.00031790926903879304,
+        "net_flux": 0.0010774075556386543
+      },
+      "endpoint": {
+        "concentration": 0.00028442616207775834,
+        "flux": 0.00031790926903879304,
+        "net_flux": 0.0010774075556386543
+      },
+      "physical_ledger": null,
+      "candidate_seconds": 0.02199529204517603,
+      "predictor_seconds": 0.020208667032420635,
+      "baseline_seconds": 0.012152999872341752,
+      "baseline_key": "control-1-0-1e-07-True",
+      "ratio": 0.5525273248193642,
+      "predictor_ratio": 0.601375630210779
+    },
+    {
+      "model": "kecoli",
+      "h": 0.003,
+      "tolerance": 1e-10,
+      "target": "0.0001",
+      "passes": true,
+      "actual": {
+        "concentration": 0.00028163425056871216,
+        "flux": 0.00031545403218611505,
+        "net_flux": 0.001076047351745966
+      },
+      "endpoint": {
+        "concentration": 0.00028163425056871216,
+        "flux": 0.00031545403218611505,
+        "net_flux": 0.001076047351745966
+      },
+      "physical_ledger": null,
+      "candidate_seconds": 0.06916108401492238,
+      "predictor_seconds": 0.06745820818468928,
+      "baseline_seconds": 0.012152999872341752,
+      "baseline_key": "control-1-0-1e-07-True",
+      "ratio": 0.17572020516219192,
+      "predictor_ratio": 0.18015598396964344
+    },
+    {
+      "model": "kecoli",
+      "h": 0.003,
+      "tolerance": 1e-06,
+      "target": "1e-06",
+      "passes": true,
+      "actual": {
+        "concentration": 0.02844261620777584,
+        "flux": 0.0317909269038793,
+        "net_flux": 0.0010774075556386543
+      },
+      "endpoint": {
+        "concentration": 0.02844261620777584,
+        "flux": 0.0317909269038793,
+        "net_flux": 0.0010774075556386543
+      },
+      "physical_ledger": null,
+      "candidate_seconds": 0.025950124952942133,
+      "predictor_seconds": 0.024355666944757104,
+      "baseline_seconds": 0.012152999872341752,
+      "baseline_key": "control-1-0-1e-07-True",
+      "ratio": 0.4683214394682091,
+      "predictor_ratio": 0.4989803769244699
+    },
+    {
+      "model": "kecoli",
+      "h": 0.003,
+      "tolerance": 1e-08,
+      "target": "1e-06",
+      "passes": true,
+      "actual": {
+        "concentration": 0.02844261620777584,
+        "flux": 0.0317909269038793,
+        "net_flux": 0.0010774075556386543
+      },
+      "endpoint": {
+        "concentration": 0.02844261620777584,
+        "flux": 0.0317909269038793,
+        "net_flux": 0.0010774075556386543
+      },
+      "physical_ledger": null,
+      "candidate_seconds": 0.02199529204517603,
+      "predictor_seconds": 0.020208667032420635,
+      "baseline_seconds": 0.012152999872341752,
+      "baseline_key": "control-1-0-1e-07-True",
+      "ratio": 0.5525273248193642,
+      "predictor_ratio": 0.601375630210779
+    },
+    {
+      "model": "kecoli",
+      "h": 0.003,
+      "tolerance": 1e-10,
+      "target": "1e-06",
+      "passes": true,
+      "actual": {
+        "concentration": 0.028163425056871222,
+        "flux": 0.031545403218611504,
+        "net_flux": 0.001076047351745966
+      },
+      "endpoint": {
+        "concentration": 0.028163425056871222,
+        "flux": 0.031545403218611504,
+        "net_flux": 0.001076047351745966
+      },
+      "physical_ledger": null,
+      "candidate_seconds": 0.06916108401492238,
+      "predictor_seconds": 0.06745820818468928,
+      "baseline_seconds": 0.012152999872341752,
+      "baseline_key": "control-1-0-1e-07-True",
+      "ratio": 0.17572020516219192,
+      "predictor_ratio": 0.18015598396964344
+    },
+    {
+      "model": "kecoli",
+      "h": 0.01,
+      "tolerance": 1e-06,
+      "target": "0.0001",
+      "passes": true,
+      "actual": {
+        "concentration": 0.012494520895819577,
+        "flux": 0.013888525937350108,
+        "net_flux": 0.04421342123835512
+      },
+      "endpoint": {
+        "concentration": 0.012494520895819577,
+        "flux": 0.013888525937350108,
+        "net_flux": 0.04421342123835512
+      },
+      "physical_ledger": null,
+      "candidate_seconds": 0.023144125007092953,
+      "predictor_seconds": 0.021561875008046627,
+      "baseline_seconds": 0.01274650008417666,
+      "baseline_key": "control-1-1-1e-06-True",
+      "ratio": 0.550744522865749,
+      "predictor_ratio": 0.591159167717085
+    },
+    {
+      "model": "kecoli",
+      "h": 0.01,
+      "tolerance": 1e-08,
+      "target": "0.0001",
+      "passes": true,
+      "actual": {
+        "concentration": 0.012392086822050235,
+        "flux": 0.013865766235310327,
+        "net_flux": 0.044243124538600076
+      },
+      "endpoint": {
+        "concentration": 0.012392086822050235,
+        "flux": 0.013865766235310327,
+        "net_flux": 0.044243124538600076
+      },
+      "physical_ledger": null,
+      "candidate_seconds": 0.0794792918022722,
+      "predictor_seconds": 0.0775951670948416,
+      "baseline_seconds": 0.01274650008417666,
+      "baseline_key": "control-1-1-1e-06-True",
+      "ratio": 0.16037510897665366,
+      "predictor_ratio": 0.1642692523439907
+    },
+    {
+      "model": "kecoli",
+      "h": 0.01,
+      "tolerance": 1e-10,
+      "target": "0.0001",
+      "passes": true,
+      "actual": {
+        "concentration": 0.012389504220695758,
+        "flux": 0.013865610225522176,
+        "net_flux": 0.044243513516310284
+      },
+      "endpoint": {
+        "concentration": 0.012389504220695758,
+        "flux": 0.013865610225522176,
+        "net_flux": 0.044243513516310284
+      },
+      "physical_ledger": null,
+      "candidate_seconds": 0.097387959016487,
+      "predictor_seconds": 0.09550170903094113,
+      "baseline_seconds": 0.01274650008417666,
+      "baseline_key": "control-1-1-1e-06-True",
+      "ratio": 0.13088373771154582,
+      "predictor_ratio": 0.13346881656376414
+    },
+    {
+      "model": "kecoli",
+      "h": 0.01,
+      "tolerance": 1e-06,
+      "target": "1e-06",
+      "passes": false,
+      "actual": {
+        "concentration": 1.2494520895819576,
+        "flux": 1.3888525937350107,
+        "net_flux": 0.04421342123835512
+      },
+      "endpoint": {
+        "concentration": 1.2494520895819576,
+        "flux": 1.3888525937350107,
+        "net_flux": 0.04421342123835512
+      },
+      "physical_ledger": null,
+      "candidate_seconds": 0.023144125007092953,
+      "predictor_seconds": 0.021561875008046627,
+      "baseline_seconds": 0.01274650008417666,
+      "baseline_key": "control-1-1-1e-06-True",
+      "ratio": 0.550744522865749,
+      "predictor_ratio": 0.591159167717085
+    },
+    {
+      "model": "kecoli",
+      "h": 0.01,
+      "tolerance": 1e-08,
+      "target": "1e-06",
+      "passes": false,
+      "actual": {
+        "concentration": 1.2392086822050237,
+        "flux": 1.3865766235310326,
+        "net_flux": 0.044243124538600076
+      },
+      "endpoint": {
+        "concentration": 1.2392086822050237,
+        "flux": 1.3865766235310326,
+        "net_flux": 0.044243124538600076
+      },
+      "physical_ledger": null,
+      "candidate_seconds": 0.0794792918022722,
+      "predictor_seconds": 0.0775951670948416,
+      "baseline_seconds": 0.01274650008417666,
+      "baseline_key": "control-1-1-1e-06-True",
+      "ratio": 0.16037510897665366,
+      "predictor_ratio": 0.1642692523439907
+    },
+    {
+      "model": "kecoli",
+      "h": 0.01,
+      "tolerance": 1e-10,
+      "target": "1e-06",
+      "passes": false,
+      "actual": {
+        "concentration": 1.238950422069576,
+        "flux": 1.3865610225522176,
+        "net_flux": 0.044243513516310284
+      },
+      "endpoint": {
+        "concentration": 1.238950422069576,
+        "flux": 1.3865610225522176,
+        "net_flux": 0.044243513516310284
+      },
+      "physical_ledger": null,
+      "candidate_seconds": 0.097387959016487,
+      "predictor_seconds": 0.09550170903094113,
+      "baseline_seconds": 0.01274650008417666,
+      "baseline_key": "control-1-1-1e-06-True",
+      "ratio": 0.13088373771154582,
+      "predictor_ratio": 0.13346881656376414
+    },
+    {
+      "model": "kecoli",
+      "h": 0.03,
+      "tolerance": 1e-06,
+      "target": "0.0001",
+      "passes": true,
+      "actual": {
+        "concentration": 0.15291219717252674,
+        "flux": 0.17930373399239624,
+        "net_flux": 0.9779741633848239
+      },
+      "endpoint": {
+        "concentration": 0.15291219717252674,
+        "flux": 0.17930373399239624,
+        "net_flux": 0.9779741633848239
+      },
+      "physical_ledger": null,
+      "candidate_seconds": 0.05805487488396466,
+      "predictor_seconds": 0.05665829195640981,
+      "baseline_seconds": 0.030588707886636257,
+      "baseline_key": "control-1-2-1e-07-False",
+      "ratio": 0.526893011961088,
+      "predictor_ratio": 0.539880515815227
+    },
+    {
+      "model": "kecoli",
+      "h": 0.03,
+      "tolerance": 1e-08,
+      "target": "0.0001",
+      "passes": true,
+      "actual": {
+        "concentration": 0.14121487776370692,
+        "flux": 0.18034738104828013,
+        "net_flux": 0.977489738305935
+      },
+      "endpoint": {
+        "concentration": 0.14121487776370692,
+        "flux": 0.18034738104828013,
+        "net_flux": 0.977489738305935
+      },
+      "physical_ledger": null,
+      "candidate_seconds": 0.07522045797668397,
+      "predictor_seconds": 0.07348999986425042,
+      "baseline_seconds": 0.030588707886636257,
+      "baseline_key": "control-1-2-1e-07-False",
+      "ratio": 0.406654103277566,
+      "predictor_ratio": 0.41622952705319416
+    },
+    {
+      "model": "kecoli",
+      "h": 0.03,
+      "tolerance": 1e-10,
+      "target": "0.0001",
+      "passes": true,
+      "actual": {
+        "concentration": 0.14119060761761124,
+        "flux": 0.18035034142532794,
+        "net_flux": 0.9774893497351173
+      },
+      "endpoint": {
+        "concentration": 0.14119060761761124,
+        "flux": 0.18035034142532794,
+        "net_flux": 0.9774893497351173
+      },
+      "physical_ledger": null,
+      "candidate_seconds": 0.13404829101637006,
+      "predictor_seconds": 0.13023258303292096,
+      "baseline_seconds": 0.030588707886636257,
+      "baseline_key": "control-1-2-1e-07-False",
+      "ratio": 0.2281917035622688,
+      "predictor_ratio": 0.2348775335194255
+    },
+    {
+      "model": "kecoli",
+      "h": 0.03,
+      "tolerance": 1e-06,
+      "target": "1e-06",
+      "passes": false,
+      "actual": {
+        "concentration": 15.291219717252677,
+        "flux": 17.930373399239624,
+        "net_flux": 0.9779741633848239
+      },
+      "endpoint": {
+        "concentration": 15.291219717252677,
+        "flux": 17.930373399239624,
+        "net_flux": 0.9779741633848239
+      },
+      "physical_ledger": null,
+      "candidate_seconds": 0.05805487488396466,
+      "predictor_seconds": 0.05665829195640981,
+      "baseline_seconds": 0.030588707886636257,
+      "baseline_key": "control-1-2-1e-07-False",
+      "ratio": 0.526893011961088,
+      "predictor_ratio": 0.539880515815227
+    },
+    {
+      "model": "kecoli",
+      "h": 0.03,
+      "tolerance": 1e-08,
+      "target": "1e-06",
+      "passes": false,
+      "actual": {
+        "concentration": 14.121487776370694,
+        "flux": 18.034738104828012,
+        "net_flux": 0.977489738305935
+      },
+      "endpoint": {
+        "concentration": 14.121487776370694,
+        "flux": 18.034738104828012,
+        "net_flux": 0.977489738305935
+      },
+      "physical_ledger": null,
+      "candidate_seconds": 0.07522045797668397,
+      "predictor_seconds": 0.07348999986425042,
+      "baseline_seconds": 0.030588707886636257,
+      "baseline_key": "control-1-2-1e-07-False",
+      "ratio": 0.406654103277566,
+      "predictor_ratio": 0.41622952705319416
+    },
+    {
+      "model": "kecoli",
+      "h": 0.03,
+      "tolerance": 1e-10,
+      "target": "1e-06",
+      "passes": false,
+      "actual": {
+        "concentration": 14.119060761761125,
+        "flux": 18.035034142532794,
+        "net_flux": 0.9774893497351173
+      },
+      "endpoint": {
+        "concentration": 14.119060761761125,
+        "flux": 18.035034142532794,
+        "net_flux": 0.9774893497351173
+      },
+      "physical_ledger": null,
+      "candidate_seconds": 0.13404829101637006,
+      "predictor_seconds": 0.13023258303292096,
+      "baseline_seconds": 0.030588707886636257,
+      "baseline_key": "control-1-2-1e-07-False",
+      "ratio": 0.2281917035622688,
+      "predictor_ratio": 0.2348775335194255
+    }
+  ],
+  "rational_records": [
+    {
+      "key": "0-0-4-0.25",
+      "model": "teusink",
+      "h": 0.003,
+      "dimension": 4,
+      "actual_dimension": 4,
+      "shift": 0.25,
+      "actual": {
+        "concentration": 0.0036572206442732082,
+        "flux": 0.0026073656727779587
+      },
+      "sampled_accurate": true,
+      "sampled_nonnegative": true,
+      "sampled_pool": 6.990168885994509e-17,
+      "seconds": 0.0022542921360582113,
+      "residual_strict": 0.15638261258339725,
+      "projected_spectral_abscissa": -0.5927444799385881
+    },
+    {
+      "key": "0-0-4-1.0",
+      "model": "teusink",
+      "h": 0.003,
+      "dimension": 4,
+      "actual_dimension": 4,
+      "shift": 1.0,
+      "actual": {
+        "concentration": 0.005996111860927927,
+        "flux": 0.007631270644162898
+      },
+      "sampled_accurate": true,
+      "sampled_nonnegative": true,
+      "sampled_pool": 6.995221405459324e-17,
+      "seconds": 0.0011233750265091658,
+      "residual_strict": 0.06806959534058632,
+      "projected_spectral_abscissa": -2.7919692693952447
+    },
+    {
+      "key": "0-0-8-0.25",
+      "model": "teusink",
+      "h": 0.003,
+      "dimension": 8,
+      "actual_dimension": 8,
+      "shift": 0.25,
+      "actual": {
+        "concentration": 2.961619673764376e-05,
+        "flux": 5.0835249353210894e-05
+      },
+      "sampled_accurate": true,
+      "sampled_nonnegative": true,
+      "sampled_pool": 6.969782897236559e-17,
+      "seconds": 0.0020617919508367777,
+      "residual_strict": 0.0006287621907713482,
+      "projected_spectral_abscissa": -3.92193711821136
+    },
+    {
+      "key": "0-0-8-1.0",
+      "model": "teusink",
+      "h": 0.003,
+      "dimension": 8,
+      "actual_dimension": 8,
+      "shift": 1.0,
+      "actual": {
+        "concentration": 0.0006786775262042271,
+        "flux": 0.0013635821963021196
+      },
+      "sampled_accurate": true,
+      "sampled_nonnegative": true,
+      "sampled_pool": 6.993106588341196e-17,
+      "seconds": 0.0012260419316589832,
+      "residual_strict": 0.017550410371450224,
+      "projected_spectral_abscissa": -3.3109187477156814
+    },
+    {
+      "key": "0-0-12-0.25",
+      "model": "teusink",
+      "h": 0.003,
+      "dimension": 12,
+      "actual_dimension": 12,
+      "shift": 0.25,
+      "actual": {
+        "concentration": 2.8408430882935127e-08,
+        "flux": 1.7549785305800166e-07
+      },
+      "sampled_accurate": true,
+      "sampled_nonnegative": true,
+      "sampled_pool": 6.983992894794962e-17,
+      "seconds": 0.0017316669691354036,
+      "residual_strict": 1.6125518836895836e-06,
+      "projected_spectral_abscissa": -2.9909000247949122
+    },
+    {
+      "key": "0-0-12-1.0",
+      "model": "teusink",
+      "h": 0.003,
+      "dimension": 12,
+      "actual_dimension": 12,
+      "shift": 1.0,
+      "actual": {
+        "concentration": 2.1660951971096976e-07,
+        "flux": 1.6135962043659609e-06
+      },
+      "sampled_accurate": true,
+      "sampled_nonnegative": true,
+      "sampled_pool": 6.985061379235525e-17,
+      "seconds": 0.0015596251469105482,
+      "residual_strict": 8.519061789336035e-06,
+      "projected_spectral_abscissa": -3.5126986623499374
+    },
+    {
+      "key": "0-0-20-0.25",
+      "model": "teusink",
+      "h": 0.003,
+      "dimension": 20,
+      "actual_dimension": 14,
+      "shift": 0.25,
+      "actual": {
+        "concentration": 3.9848640597572946e-09,
+        "flux": 7.0922684626579845e-09
+      },
+      "sampled_accurate": true,
+      "sampled_nonnegative": true,
+      "sampled_pool": 6.991607101454591e-17,
+      "seconds": 0.0015713749453425407,
+      "residual_strict": 4.996003610813205e-13,
+      "projected_spectral_abscissa": -1.4125118694043711e-13
+    },
+    {
+      "key": "0-0-20-1.0",
+      "model": "teusink",
+      "h": 0.003,
+      "dimension": 20,
+      "actual_dimension": 14,
+      "shift": 1.0,
+      "actual": {
+        "concentration": 3.9848640597572946e-09,
+        "flux": 7.0922684626579845e-09
+      },
+      "sampled_accurate": true,
+      "sampled_nonnegative": true,
+      "sampled_pool": 6.991607101454591e-17,
+      "seconds": 0.0015225419774651527,
+      "residual_strict": 4.996003610813205e-13,
+      "projected_spectral_abscissa": -8.013484417476693e-14
+    },
+    {
+      "key": "0-0-32-0.25",
+      "model": "teusink",
+      "h": 0.003,
+      "dimension": 32,
+      "actual_dimension": 14,
+      "shift": 0.25,
+      "actual": {
+        "concentration": 3.9848640597572946e-09,
+        "flux": 7.0922684626579845e-09
+      },
+      "sampled_accurate": true,
+      "sampled_nonnegative": true,
+      "sampled_pool": 6.991607101454591e-17,
+      "seconds": 0.0015481668524444103,
+      "residual_strict": 4.996003610813205e-13,
+      "projected_spectral_abscissa": -1.4125118694043711e-13
+    },
+    {
+      "key": "0-0-32-1.0",
+      "model": "teusink",
+      "h": 0.003,
+      "dimension": 32,
+      "actual_dimension": 14,
+      "shift": 1.0,
+      "actual": {
+        "concentration": 3.9848640597572946e-09,
+        "flux": 7.0922684626579845e-09
+      },
+      "sampled_accurate": true,
+      "sampled_nonnegative": true,
+      "sampled_pool": 6.991607101454591e-17,
+      "seconds": 0.001765542197972536,
+      "residual_strict": 4.996003610813205e-13,
+      "projected_spectral_abscissa": -8.013484417476693e-14
+    },
+    {
+      "key": "0-1-4-0.25",
+      "model": "teusink",
+      "h": 0.01,
+      "dimension": 4,
+      "actual_dimension": 4,
+      "shift": 0.25,
+      "actual": {
+        "concentration": 0.032406167117731935,
+        "flux": 0.04671394100342096
+      },
+      "sampled_accurate": true,
+      "sampled_nonnegative": true,
+      "sampled_pool": 7.011553076254853e-17,
+      "seconds": 0.000986750004813075,
+      "residual_strict": 0.6829020365105299,
+      "projected_spectral_abscissa": -2.368416478291219
+    },
+    {
+      "key": "0-1-4-1.0",
+      "model": "teusink",
+      "h": 0.01,
+      "dimension": 4,
+      "actual_dimension": 4,
+      "shift": 1.0,
+      "actual": {
+        "concentration": 0.08627990763399812,
+        "flux": 0.140301601944497
+      },
+      "sampled_accurate": true,
+      "sampled_nonnegative": true,
+      "sampled_pool": 6.996988928158762e-17,
+      "seconds": 0.0010816249996423721,
+      "residual_strict": 0.6520868267455293,
+      "projected_spectral_abscissa": -2.829589116032944
+    },
+    {
+      "key": "0-1-8-0.25",
+      "model": "teusink",
+      "h": 0.01,
+      "dimension": 8,
+      "actual_dimension": 8,
+      "shift": 0.25,
+      "actual": {
+        "concentration": 0.0002888262884410613,
+        "flux": 0.00046640440100802286
+      },
+      "sampled_accurate": true,
+      "sampled_nonnegative": true,
+      "sampled_pool": 6.976491824687266e-17,
+      "seconds": 0.0012352080084383488,
+      "residual_strict": 0.0186912371032133,
+      "projected_spectral_abscissa": -3.2324149264630457
+    },
+    {
+      "key": "0-1-8-1.0",
+      "model": "teusink",
+      "h": 0.01,
+      "dimension": 8,
+      "actual_dimension": 8,
+      "shift": 1.0,
+      "actual": {
+        "concentration": 131452363090.22916,
+        "flux": 448370174125.94446
+      },
+      "sampled_accurate": false,
+      "sampled_nonnegative": false,
+      "sampled_pool": 4.531976532617646e-06,
+      "seconds": 0.0012040829751640558,
+      "residual_strict": 12193116921630.988,
+      "projected_spectral_abscissa": 3263.670616866698
+    },
+    {
+      "key": "0-1-12-0.25",
+      "model": "teusink",
+      "h": 0.01,
+      "dimension": 12,
+      "actual_dimension": 12,
+      "shift": 0.25,
+      "actual": {
+        "concentration": 1.6384644527333856e-07,
+        "flux": 1.113306690291584e-06
+      },
+      "sampled_accurate": true,
+      "sampled_nonnegative": true,
+      "sampled_pool": 6.95466337826826e-17,
+      "seconds": 0.001570583088323474,
+      "residual_strict": 2.223528527967034e-05,
+      "projected_spectral_abscissa": -3.5126929200188877
+    },
+    {
+      "key": "0-1-12-1.0",
+      "model": "teusink",
+      "h": 0.01,
+      "dimension": 12,
+      "actual_dimension": 12,
+      "shift": 1.0,
+      "actual": {
+        "concentration": 2.718878477694342e-07,
+        "flux": 1.1256168276298808e-06
+      },
+      "sampled_accurate": true,
+      "sampled_nonnegative": true,
+      "sampled_pool": 7.767948806077747e-16,
+      "seconds": 0.0014359578490257263,
+      "residual_strict": 2.1300255170775276e-05,
+      "projected_spectral_abscissa": -3.512699654526543
+    },
+    {
+      "key": "0-1-20-0.25",
+      "model": "teusink",
+      "h": 0.01,
+      "dimension": 20,
+      "actual_dimension": 14,
+      "shift": 0.25,
+      "actual": {
+        "concentration": 4.259682270775039e-09,
+        "flux": 4.16057603281064e-09
+      },
+      "sampled_accurate": true,
+      "sampled_nonnegative": true,
+      "sampled_pool": 7.013884056219548e-17,
+      "seconds": 0.0015220001805573702,
+      "residual_strict": 1.6653345369377348e-12,
+      "projected_spectral_abscissa": -1.2943977343798636e-13
+    },
+    {
+      "key": "0-1-20-1.0",
+      "model": "teusink",
+      "h": 0.01,
+      "dimension": 20,
+      "actual_dimension": 14,
+      "shift": 1.0,
+      "actual": {
+        "concentration": 3.9848640597572946e-09,
+        "flux": 4.16057603281064e-09
+      },
+      "sampled_accurate": true,
+      "sampled_nonnegative": true,
+      "sampled_pool": 7.051180629382114e-17,
+      "seconds": 0.0015209158882498741,
+      "residual_strict": 1.6653345369377348e-12,
+      "projected_spectral_abscissa": 1.3653652076959168e-13
+    },
+    {
+      "key": "0-1-32-0.25",
+      "model": "teusink",
+      "h": 0.01,
+      "dimension": 32,
+      "actual_dimension": 14,
+      "shift": 0.25,
+      "actual": {
+        "concentration": 4.259682270775039e-09,
+        "flux": 4.16057603281064e-09
+      },
+      "sampled_accurate": true,
+      "sampled_nonnegative": true,
+      "sampled_pool": 7.013884056219548e-17,
+      "seconds": 0.0015962091274559498,
+      "residual_strict": 1.6653345369377348e-12,
+      "projected_spectral_abscissa": -1.2943977343798636e-13
+    },
+    {
+      "key": "0-1-32-1.0",
+      "model": "teusink",
+      "h": 0.01,
+      "dimension": 32,
+      "actual_dimension": 14,
+      "shift": 1.0,
+      "actual": {
+        "concentration": 3.9848640597572946e-09,
+        "flux": 4.16057603281064e-09
+      },
+      "sampled_accurate": true,
+      "sampled_nonnegative": true,
+      "sampled_pool": 7.051180629382114e-17,
+      "seconds": 0.0017197919078171253,
+      "residual_strict": 1.6653345369377348e-12,
+      "projected_spectral_abscissa": 1.3653652076959168e-13
+    },
+    {
+      "key": "0-2-4-0.25",
+      "model": "teusink",
+      "h": 0.03,
+      "dimension": 4,
+      "actual_dimension": 4,
+      "shift": 0.25,
+      "actual": {
+        "concentration": 0.6505768875290512,
+        "flux": 0.6505768875296405
+      },
+      "sampled_accurate": true,
+      "sampled_nonnegative": true,
+      "sampled_pool": 7.055214690988045e-17,
+      "seconds": 0.0010711250361055136,
+      "residual_strict": 4.029795157543675,
+      "projected_spectral_abscissa": -3.3167380665165407
+    },
+    {
+      "key": "0-2-4-1.0",
+      "model": "teusink",
+      "h": 0.03,
+      "dimension": 4,
+      "actual_dimension": 4,
+      "shift": 1.0,
+      "actual": {
+        "concentration": 1.6545341551092048,
+        "flux": 1.654534155052328
+      },
+      "sampled_accurate": false,
+      "sampled_nonnegative": true,
+      "sampled_pool": 6.775001655009151e-17,
+      "seconds": 0.0010752910748124123,
+      "residual_strict": 7.426913108434519,
+      "projected_spectral_abscissa": -2.97034982908412
+    },
+    {
+      "key": "0-2-8-0.25",
+      "model": "teusink",
+      "h": 0.03,
+      "dimension": 8,
+      "actual_dimension": 8,
+      "shift": 0.25,
+      "actual": {
+        "concentration": 3.83546442277523e+44,
+        "flux": 1.3565840896369453e+45
+      },
+      "sampled_accurate": false,
+      "sampled_nonnegative": false,
+      "sampled_pool": 9.050120716004399e+25,
+      "seconds": 0.0012229171115905046,
+      "residual_strict": 1.3260417400123642e+47,
+      "projected_spectral_abscissa": 3666.4699076986635
+    },
+    {
+      "key": "0-2-8-1.0",
+      "model": "teusink",
+      "h": 0.03,
+      "dimension": 8,
+      "actual_dimension": 8,
+      "shift": 1.0,
+      "actual": {
+        "concentration": 3.1777248852209522e+25,
+        "flux": 8.688232908854881e+25
+      },
+      "sampled_accurate": false,
+      "sampled_nonnegative": false,
+      "sampled_pool": 58788036976.73814,
+      "seconds": 0.0012107500806450844,
+      "residual_strict": 4.4796400589483706e+27,
+      "projected_spectral_abscissa": 2160.259012748058
+    },
+    {
+      "key": "0-2-12-0.25",
+      "model": "teusink",
+      "h": 0.03,
+      "dimension": 12,
+      "actual_dimension": 12,
+      "shift": 0.25,
+      "actual": {
+        "concentration": 1.556632832656504e-07,
+        "flux": 1.0943573777595992e-06
+      },
+      "sampled_accurate": true,
+      "sampled_nonnegative": true,
+      "sampled_pool": 6.79125484480854e-17,
+      "seconds": 0.0016259581316262484,
+      "residual_strict": 2.848579455649869e-05,
+      "projected_spectral_abscissa": -3.5126996540009867
+    },
+    {
+      "key": "0-2-12-1.0",
+      "model": "teusink",
+      "h": 0.03,
+      "dimension": 12,
+      "actual_dimension": 12,
+      "shift": 1.0,
+      "actual": {
+        "concentration": 7.766557279493381e-06,
+        "flux": 1.7056672156641653e-05
+      },
+      "sampled_accurate": true,
+      "sampled_nonnegative": true,
+      "sampled_pool": 3.3724900200025705e-12,
+      "seconds": 0.0014126249589025974,
+      "residual_strict": 0.0015028787223037021,
+      "projected_spectral_abscissa": -3.512699654053541
+    },
+    {
+      "key": "0-2-20-0.25",
+      "model": "teusink",
+      "h": 0.03,
+      "dimension": 20,
+      "actual_dimension": 14,
+      "shift": 0.25,
+      "actual": {
+        "concentration": 3.981988913890899e-09,
+        "flux": 5.824806445934896e-09
+      },
+      "sampled_accurate": true,
+      "sampled_nonnegative": true,
+      "sampled_pool": 6.802233602002375e-17,
+      "seconds": 0.0015797081869095564,
+      "residual_strict": 4.9960036108132044e-12,
+      "projected_spectral_abscissa": -1.931409650073023e-13
+    },
+    {
+      "key": "0-2-20-1.0",
+      "model": "teusink",
+      "h": 0.03,
+      "dimension": 20,
+      "actual_dimension": 14,
+      "shift": 1.0,
+      "actual": {
+        "concentration": 6.581020883810764e-09,
+        "flux": 6.164146789200805e-09
+      },
+      "sampled_accurate": true,
+      "sampled_nonnegative": true,
+      "sampled_pool": 7.170015420788225e-17,
+      "seconds": 0.0015510828234255314,
+      "residual_strict": 4.9960036108132044e-12,
+      "projected_spectral_abscissa": -2.660535860507944e-11
+    },
+    {
+      "key": "0-2-32-0.25",
+      "model": "teusink",
+      "h": 0.03,
+      "dimension": 32,
+      "actual_dimension": 14,
+      "shift": 0.25,
+      "actual": {
+        "concentration": 3.981988913890899e-09,
+        "flux": 5.824806445934896e-09
+      },
+      "sampled_accurate": true,
+      "sampled_nonnegative": true,
+      "sampled_pool": 6.802233602002375e-17,
+      "seconds": 0.0016644999850541353,
+      "residual_strict": 4.9960036108132044e-12,
+      "projected_spectral_abscissa": -1.931409650073023e-13
+    },
+    {
+      "key": "0-2-32-1.0",
+      "model": "teusink",
+      "h": 0.03,
+      "dimension": 32,
+      "actual_dimension": 14,
+      "shift": 1.0,
+      "actual": {
+        "concentration": 6.581020883810764e-09,
+        "flux": 6.164146789200805e-09
+      },
+      "sampled_accurate": true,
+      "sampled_nonnegative": true,
+      "sampled_pool": 7.170015420788225e-17,
+      "seconds": 0.0015423749573528767,
+      "residual_strict": 4.9960036108132044e-12,
+      "projected_spectral_abscissa": -2.660535860507944e-11
+    },
+    {
+      "key": "1-0-4-0.25",
+      "model": "kecoli",
+      "h": 0.003,
+      "dimension": 4,
+      "actual_dimension": 4,
+      "shift": 0.25,
+      "actual": {
+        "concentration": 0.03181687275741412,
+        "flux": 0.032379368587583786,
+        "net_flux": 0.0032624398176662674
+      },
+      "sampled_accurate": true,
+      "sampled_nonnegative": true,
+      "sampled_pool": 5.75817171721837e-13,
+      "seconds": 0.015117958886548877,
+      "residual_strict": 66.80371123174284,
+      "projected_spectral_abscissa": 4.594419842749259
+    },
+    {
+      "key": "1-0-4-1.0",
+      "model": "kecoli",
+      "h": 0.003,
+      "dimension": 4,
+      "actual_dimension": 4,
+      "shift": 1.0,
+      "actual": {
+        "concentration": 1.197931353028403,
+        "flux": 0.6401488491638658,
+        "net_flux": 0.08983762654601223
+      },
+      "sampled_accurate": false,
+      "sampled_nonnegative": true,
+      "sampled_pool": 5.758345189565968e-13,
+      "seconds": 0.0076442500576376915,
+      "residual_strict": 691.0970335035034,
+      "projected_spectral_abscissa": 44.61351936870687
+    },
+    {
+      "key": "1-0-8-0.25",
+      "model": "kecoli",
+      "h": 0.003,
+      "dimension": 8,
+      "actual_dimension": 8,
+      "shift": 0.25,
+      "actual": {
+        "concentration": 7.496335759859777e-05,
+        "flux": 7.074484025468504e-05,
+        "net_flux": 2.0638454869963352e-05
+      },
+      "sampled_accurate": true,
+      "sampled_nonnegative": true,
+      "sampled_pool": 5.75816304360099e-13,
+      "seconds": 0.008020624984055758,
+      "residual_strict": 0.08937341438322935,
+      "projected_spectral_abscissa": -7.018963249496146
+    },
+    {
+      "key": "1-0-8-1.0",
+      "model": "kecoli",
+      "h": 0.003,
+      "dimension": 8,
+      "actual_dimension": 8,
+      "shift": 1.0,
+      "actual": {
+        "concentration": 4.1876166524031575,
+        "flux": 3.0776182592949857,
+        "net_flux": 0.23901835363042293
+      },
+      "sampled_accurate": false,
+      "sampled_nonnegative": true,
+      "sampled_pool": 5.755248708161349e-13,
+      "seconds": 0.012506833067163825,
+      "residual_strict": 3982.3587969013793,
+      "projected_spectral_abscissa": 2093.9780062556893
+    },
+    {
+      "key": "1-0-12-0.25",
+      "model": "kecoli",
+      "h": 0.003,
+      "dimension": 12,
+      "actual_dimension": 12,
+      "shift": 0.25,
+      "actual": {
+        "concentration": 4.56061843238284e-06,
+        "flux": 8.94078778003808e-06,
+        "net_flux": 2.3851549364526244e-06
+      },
+      "sampled_accurate": true,
+      "sampled_nonnegative": true,
+      "sampled_pool": 5.758015592105532e-13,
+      "seconds": 0.009653042070567608,
+      "residual_strict": 0.00692113935551672,
+      "projected_spectral_abscissa": -12.361976579876865
+    },
+    {
+      "key": "1-0-12-1.0",
+      "model": "kecoli",
+      "h": 0.003,
+      "dimension": 12,
+      "actual_dimension": 12,
+      "shift": 1.0,
+      "actual": {
+        "concentration": 0.0007286540274306973,
+        "flux": 0.0009108961714951535,
+        "net_flux": 7.2606161175408e-05
+      },
+      "sampled_accurate": true,
+      "sampled_nonnegative": true,
+      "sampled_pool": 5.757174251219684e-13,
+      "seconds": 0.010179083095863461,
+      "residual_strict": 1.3093107659139513,
+      "projected_spectral_abscissa": -3.6123929263904904
+    },
+    {
+      "key": "1-0-20-0.25",
+      "model": "kecoli",
+      "h": 0.003,
+      "dimension": 20,
+      "actual_dimension": 20,
+      "shift": 0.25,
+      "actual": {
+        "concentration": 4.858453440886292e-07,
+        "flux": 5.571375302259496e-07,
+        "net_flux": 1.0867545841275082e-07
+      },
+      "sampled_accurate": true,
+      "sampled_nonnegative": true,
+      "sampled_pool": 5.758093654661951e-13,
+      "seconds": 0.013429541140794754,
+      "residual_strict": 0.0005419228057343406,
+      "projected_spectral_abscissa": -9.100942589220876
+    },
+    {
+      "key": "1-0-20-1.0",
+      "model": "kecoli",
+      "h": 0.003,
+      "dimension": 20,
+      "actual_dimension": 20,
+      "shift": 1.0,
+      "actual": {
+        "concentration": 1.8312232910961564e-05,
+        "flux": 5.356069788341733e-05,
+        "net_flux": 5.751174400354646e-06
+      },
+      "sampled_accurate": true,
+      "sampled_nonnegative": true,
+      "sampled_pool": 5.757139556750164e-13,
+      "seconds": 0.012643333990126848,
+      "residual_strict": 0.035440205504756746,
+      "projected_spectral_abscissa": -2.646069605548539
+    },
+    {
+      "key": "1-0-32-0.25",
+      "model": "kecoli",
+      "h": 0.003,
+      "dimension": 32,
+      "actual_dimension": 32,
+      "shift": 0.25,
+      "actual": {
+        "concentration": 3.3948907836899944e-07,
+        "flux": 3.393291820022968e-07,
+        "net_flux": 7.899220280289737e-08
+      },
+      "sampled_accurate": true,
+      "sampled_nonnegative": true,
+      "sampled_pool": 5.758102328279331e-13,
+      "seconds": 0.022030333057045937,
+      "residual_strict": 2.6966492101820897e-05,
+      "projected_spectral_abscissa": -1.3543581412996448
+    },
+    {
+      "key": "1-0-32-1.0",
+      "model": "kecoli",
+      "h": 0.003,
+      "dimension": 32,
+      "actual_dimension": 32,
+      "shift": 1.0,
+      "actual": {
+        "concentration": 1.8662726808334377e-06,
+        "flux": 1.8662793355948229e-06,
+        "net_flux": 5.0138964429338e-07
+      },
+      "sampled_accurate": true,
+      "sampled_nonnegative": true,
+      "sampled_pool": 5.757165577602304e-13,
+      "seconds": 0.01967170904390514,
+      "residual_strict": 0.0024188917440090556,
+      "projected_spectral_abscissa": -0.996214953113493
+    },
+    {
+      "key": "1-1-4-0.25",
+      "model": "kecoli",
+      "h": 0.01,
+      "dimension": 4,
+      "actual_dimension": 4,
+      "shift": 0.25,
+      "actual": {
+        "concentration": 4.872470515949193,
+        "flux": 2.6849018910700835,
+        "net_flux": 0.3687707426532064
+      },
+      "sampled_accurate": false,
+      "sampled_nonnegative": true,
+      "sampled_pool": 1.917903336146053e-12,
+      "seconds": 0.006823499919846654,
+      "residual_strict": 14030.743220732309,
+      "projected_spectral_abscissa": 48.71159076245671
+    },
+    {
+      "key": "1-1-4-1.0",
+      "model": "kecoli",
+      "h": 0.01,
+      "dimension": 4,
+      "actual_dimension": 4,
+      "shift": 1.0,
+      "actual": {
+        "concentration": 13.1920514245413,
+        "flux": 9.344093456551823,
+        "net_flux": 0.9318019646672459
+      },
+      "sampled_accurate": false,
+      "sampled_nonnegative": true,
+      "sampled_pool": 1.9145431767730857e-12,
+      "seconds": 0.008053208002820611,
+      "residual_strict": 7254.7680117652235,
+      "projected_spectral_abscissa": -8.170990446348288
+    },
+    {
+      "key": "1-1-8-0.25",
+      "model": "kecoli",
+      "h": 0.01,
+      "dimension": 8,
+      "actual_dimension": 8,
+      "shift": 0.25,
+      "actual": {
+        "concentration": 0.0621440222505377,
+        "flux": 0.0239734759515134,
+        "net_flux": 0.0033034723526065026
+      },
+      "sampled_accurate": true,
+      "sampled_nonnegative": true,
+      "sampled_pool": 1.9178296103983238e-12,
+      "seconds": 0.00846816599369049,
+      "residual_strict": 66.4868956882408,
+      "projected_spectral_abscissa": 587.2389151581752
+    },
+    {
+      "key": "1-1-8-1.0",
+      "model": "kecoli",
+      "h": 0.01,
+      "dimension": 8,
+      "actual_dimension": 8,
+      "shift": 1.0,
+      "actual": {
+        "concentration": 0.6025726640691377,
+        "flux": 0.6025726640745864,
+        "net_flux": 0.03634446159131876
+      },
+      "sampled_accurate": true,
+      "sampled_nonnegative": true,
+      "sampled_pool": 1.912639317758201e-12,
+      "seconds": 0.008209666935727,
+      "residual_strict": 620.1200517941073,
+      "projected_spectral_abscissa": -6.7740694762887195
+    },
+    {
+      "key": "1-1-12-0.25",
+      "model": "kecoli",
+      "h": 0.01,
+      "dimension": 12,
+      "actual_dimension": 12,
+      "shift": 0.25,
+      "actual": {
+        "concentration": 0.0005191680003846535,
+        "flux": 0.000448844335323944,
+        "net_flux": 5.127928072333922e-05
+      },
+      "sampled_accurate": true,
+      "sampled_nonnegative": true,
+      "sampled_pool": 1.917820936780944e-12,
+      "seconds": 0.010074874851852655,
+      "residual_strict": 1.3801810294835835,
+      "projected_spectral_abscissa": 0.7674292063547041
+    },
+    {
+      "key": "1-1-12-1.0",
+      "model": "kecoli",
+      "h": 0.01,
+      "dimension": 12,
+      "actual_dimension": 12,
+      "shift": 1.0,
+      "actual": {
+        "concentration": 0.09468617540342328,
+        "flux": 0.03642515619819544,
+        "net_flux": 0.007323437636814542
+      },
+      "sampled_accurate": true,
+      "sampled_nonnegative": true,
+      "sampled_pool": 1.9128526887457463e-12,
+      "seconds": 0.009688958991318941,
+      "residual_strict": 67.54784685917771,
+      "projected_spectral_abscissa": -3.3633146086328973
+    },
+    {
+      "key": "1-1-20-0.25",
+      "model": "kecoli",
+      "h": 0.01,
+      "dimension": 20,
+      "actual_dimension": 20,
+      "shift": 0.25,
+      "actual": {
+        "concentration": 9.201297380360897e-06,
+        "flux": 2.780672278121127e-05,
+        "net_flux": 2.217590248949846e-06
+      },
+      "sampled_accurate": true,
+      "sampled_nonnegative": true,
+      "sampled_pool": 1.9178408861009176e-12,
+      "seconds": 0.014951041899621487,
+      "residual_strict": 0.06457571923162987,
+      "projected_spectral_abscissa": -2.5417026795246342
+    },
+    {
+      "key": "1-1-20-1.0",
+      "model": "kecoli",
+      "h": 0.01,
+      "dimension": 20,
+      "actual_dimension": 20,
+      "shift": 1.0,
+      "actual": {
+        "concentration": 0.0031292049608128525,
+        "flux": 0.0023406091145960735,
+        "net_flux": 0.0005870653746148263
+      },
+      "sampled_accurate": true,
+      "sampled_nonnegative": true,
+      "sampled_pool": 1.912809320658847e-12,
+      "seconds": 0.012054082937538624,
+      "residual_strict": 6.276549741319471,
+      "projected_spectral_abscissa": 202.40597748039568
+    },
+    {
+      "key": "1-1-32-0.25",
+      "model": "kecoli",
+      "h": 0.01,
+      "dimension": 32,
+      "actual_dimension": 32,
+      "shift": 0.25,
+      "actual": {
+        "concentration": 2.0605436091665615e-06,
+        "flux": 2.0604958222307338e-06,
+        "net_flux": 3.4556442402023497e-07
+      },
+      "sampled_accurate": true,
+      "sampled_nonnegative": true,
+      "sampled_pool": 1.9178330798452757e-12,
+      "seconds": 0.01810574997216463,
+      "residual_strict": 0.0020195450987567365,
+      "projected_spectral_abscissa": -1.2546458331331956
+    },
+    {
+      "key": "1-1-32-1.0",
+      "model": "kecoli",
+      "h": 0.01,
+      "dimension": 32,
+      "actual_dimension": 32,
+      "shift": 1.0,
+      "actual": {
+        "concentration": 6.422486837937687e-05,
+        "flux": 8.575827348363304e-05,
+        "net_flux": 4.867605018596115e-05
+      },
+      "sampled_accurate": true,
+      "sampled_nonnegative": true,
+      "sampled_pool": 1.912816259552751e-12,
+      "seconds": 0.018378583015874028,
+      "residual_strict": 0.25031948674068133,
+      "projected_spectral_abscissa": -0.2658458537221715
+    },
+    {
+      "key": "1-2-4-0.25",
+      "model": "kecoli",
+      "h": 0.03,
+      "dimension": 4,
+      "actual_dimension": 4,
+      "shift": 0.25,
+      "actual": {
+        "concentration": 47.23475685584096,
+        "flux": 29.10354798547844,
+        "net_flux": 3.950315361948236
+      },
+      "sampled_accurate": false,
+      "sampled_nonnegative": true,
+      "sampled_pool": 5.7901053743258894e-12,
+      "seconds": 0.007043082965537906,
+      "residual_strict": 145997.53529645462,
+      "projected_spectral_abscissa": 3.011773456397669
+    },
+    {
+      "key": "1-2-4-1.0",
+      "model": "kecoli",
+      "h": 0.03,
+      "dimension": 4,
+      "actual_dimension": 4,
+      "shift": 1.0,
+      "actual": {
+        "concentration": 180.0227859606155,
+        "flux": 180.02278595410974,
+        "net_flux": 7.487061249459377
+      },
+      "sampled_accurate": false,
+      "sampled_nonnegative": true,
+      "sampled_pool": 5.779018756590922e-12,
+      "seconds": 0.00856429198756814,
+      "residual_strict": 82264.83680003762,
+      "projected_spectral_abscissa": -9.798655075944996
+    },
+    {
+      "key": "1-2-8-0.25",
+      "model": "kecoli",
+      "h": 0.03,
+      "dimension": 8,
+      "actual_dimension": 8,
+      "shift": 0.25,
+      "actual": {
+        "concentration": 0.6543970057500319,
+        "flux": 0.46890118693590305,
+        "net_flux": 0.03829580751797593
+      },
+      "sampled_accurate": true,
+      "sampled_nonnegative": true,
+      "sampled_pool": 5.787470329365881e-12,
+      "seconds": 0.009924083016812801,
+      "residual_strict": 411.2154312434418,
+      "projected_spectral_abscissa": -7.270751028487222
+    },
+    {
+      "key": "1-2-8-1.0",
+      "model": "kecoli",
+      "h": 0.03,
+      "dimension": 8,
+      "actual_dimension": 8,
+      "shift": 1.0,
+      "actual": {
+        "concentration": 157.30138980690504,
+        "flux": 60.52429231649208,
+        "net_flux": 9.430079041274357
+      },
+      "sampled_accurate": false,
+      "sampled_nonnegative": true,
+      "sampled_pool": 5.701155693371703e-12,
+      "seconds": 0.008783292025327682,
+      "residual_strict": 34276.51665158937,
+      "projected_spectral_abscissa": -3.3612075461707946
+    },
+    {
+      "key": "1-2-12-0.25",
+      "model": "kecoli",
+      "h": 0.03,
+      "dimension": 12,
+      "actual_dimension": 12,
+      "shift": 0.25,
+      "actual": {
+        "concentration": 12.5636654633493,
+        "flux": 5.830908824826758,
+        "net_flux": 0.8222478339116679
+      },
+      "sampled_accurate": false,
+      "sampled_nonnegative": true,
+      "sampled_pool": 5.785474530006769e-12,
+      "seconds": 0.009366415906697512,
+      "residual_strict": 32808.292498218645,
+      "projected_spectral_abscissa": 195.54026482076029
+    },
+    {
+      "key": "1-2-12-1.0",
+      "model": "kecoli",
+      "h": 0.03,
+      "dimension": 12,
+      "actual_dimension": 12,
+      "shift": 1.0,
+      "actual": {
+        "concentration": 38.44772975771782,
+        "flux": 17.252467177357342,
+        "net_flux": 5.370451940957808
+      },
+      "sampled_accurate": false,
+      "sampled_nonnegative": true,
+      "sampled_pool": 5.751757577165946e-12,
+      "seconds": 0.010470957960933447,
+      "residual_strict": 28566.31873029168,
+      "projected_spectral_abscissa": 2.101827513118987
+    },
+    {
+      "key": "1-2-20-0.25",
+      "model": "kecoli",
+      "h": 0.03,
+      "dimension": 20,
+      "actual_dimension": 20,
+      "shift": 0.25,
+      "actual": {
+        "concentration": 0.002484203730185026,
+        "flux": 0.001519080485330227,
+        "net_flux": 0.00045524099585902885
+      },
+      "sampled_accurate": true,
+      "sampled_nonnegative": true,
+      "sampled_pool": 5.787580484306605e-12,
+      "seconds": 0.011892040958628058,
+      "residual_strict": 10.378687380647387,
+      "projected_spectral_abscissa": 8.62772198899192
+    },
+    {
+      "key": "1-2-20-1.0",
+      "model": "kecoli",
+      "h": 0.03,
+      "dimension": 20,
+      "actual_dimension": 20,
+      "shift": 1.0,
+      "actual": {
+        "concentration": 11599.171753934634,
+        "flux": 6132.757468425933,
+        "net_flux": 7084.335836833065
+      },
+      "sampled_accurate": false,
+      "sampled_nonnegative": true,
+      "sampled_pool": 1.164204149750602e-11,
+      "seconds": 0.014191916910931468,
+      "residual_strict": 8448463.3266055,
+      "projected_spectral_abscissa": 414.2546946110874
+    },
+    {
+      "key": "1-2-32-0.25",
+      "model": "kecoli",
+      "h": 0.03,
+      "dimension": 32,
+      "actual_dimension": 32,
+      "shift": 0.25,
+      "actual": {
+        "concentration": 3.13821928997562e-05,
+        "flux": 4.5973810551446845e-05,
+        "net_flux": 1.4441960292242783e-05
+      },
+      "sampled_accurate": true,
+      "sampled_nonnegative": true,
+      "sampled_pool": 5.787570943327487e-12,
+      "seconds": 0.018935624975711107,
+      "residual_strict": 0.17189389928441018,
+      "projected_spectral_abscissa": -0.2321601767033201
+    },
+    {
+      "key": "1-2-32-1.0",
+      "model": "kecoli",
+      "h": 0.03,
+      "dimension": 32,
+      "actual_dimension": 32,
+      "shift": 1.0,
+      "actual": {
+        "concentration": 0.005294986572465877,
+        "flux": 0.003560597766377882,
+        "net_flux": 0.0031205474443570308
+      },
+      "sampled_accurate": true,
+      "sampled_nonnegative": true,
+      "sampled_pool": 5.749080898842514e-12,
+      "seconds": 0.020183874992653728,
+      "residual_strict": 21.883212526516843,
+      "projected_spectral_abscissa": 7.845423953718582
+    }
+  ],
+  "rational_samples_accurate": 46,
+  "rational_sampled_negative": 3,
+  "npz_crc_checked": 132,
+  "historical_manifests_unchanged": true,
+  "M4_admission": false,
+  "conclusion": "MERB4 nonlinear-call reduction alone fails larger-step accuracy/ledger and linear cost. One-shift rational affine actions offer potential cost headroom but nonnormal projection has nonmonotonic errors and spurious unstable modes; all outcomes retained. Need certified action control and nonlinear/continuous reconstruction before reaction-partition coupling. No reaction coverage or M4 admission claimed."
+}

@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/NvjoKpO6v73j5cq4IOEQqJirN0U</id>
+  <title>arXiv Query: search_query=ti:multirate AND ti:exponential&amp;id_list=&amp;start=0&amp;max_results=6</title>
+  <updated>2026-11-08T06:24:42Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=ti:multirate+AND+ti:exponential&amp;start=0&amp;max_results=6&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>6</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2106.05385v2</id>
+    <title>Multirate Exponential Rosenbrock Methods</title>
+    <updated>2021-07-26T01:44:36Z</updated>
+    <link href="https://arxiv.org/abs/2106.05385v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2106.05385v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this paper we propose a novel class of methods for high order accurate integration of multirate systems of ordinary differential equation initial-value problems. The proposed methods construct multirate schemes by approximating the action of matrix $\varphi$-functions within explicit exponential Rosenbrock (ExpRB) methods, thereby called Multirate Exponential Rosenbrock (MERB) methods. They consist of the solution to a sequence of modified "fast" initial-value problems, that may themselves be approximated through subcycling any desired IVP solver. In addition to proving how to construct MERB methods from certain classes of ExpRB methods, we provide rigorous convergence analysis of these methods and derive efficient MERB schemes of orders two through six (the highest order ever constructed infinitesimal multirate methods). We then present numerical simulations to confirm these theoretical convergence rates, and to compare the efficiency of MERB methods against other recently-introduced high order multirate methods.</summary>
+    <category term="math.NA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-06-09T20:46:38Z</published>
+    <arxiv:primary_category term="math.NA"/>
+    <author>
+      <name>Vu Thai Luan</name>
+    </author>
+    <author>
+      <name>Rujeko Chinomona</name>
+    </author>
+    <author>
+      <name>Daniel R. Reynolds</name>
+    </author>
+    <arxiv:doi>10.1137/21M1439481</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1137/21M1439481" title="doi"/>
+  </entry>
+</feed>

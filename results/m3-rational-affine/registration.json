@@ -1,0 +1,41 @@
+{
+  "date": "2026-11-08",
+  "models": [
+    "teusink",
+    "kecoli"
+  ],
+  "steps": [
+    0.003,
+    0.01,
+    0.03
+  ],
+  "dimensions": [
+    4,
+    8,
+    12,
+    20,
+    32
+  ],
+  "shifts": [
+    0.25,
+    1.0
+  ],
+  "construction": "Scale by fixed species scales; inverse Arnoldi from f0 with(I-shift*H*J)^-1, two-pass Gram-Schmidt, directly project J. Small augmented exponential advances requested query intervals; cache only bitwise-equal gaps.",
+  "scope": "60 frozen-linear diagnostics, dimensions capped by actual dimension. No nonlinear stage or reaction fast correction; sampled positivity/pools only. No physical/modified ledger or continuous positivity certification; no M4 eligibility.",
+  "reference": "Use frozen affine independent full Radau/CVODE-validated reference from m3-affine-attribution; same query,initial and gradient; verify manifest before comparison. Reference budgets<=.05 strict.",
+  "timing": "Each measured call includes current analytic reaction gradient and J formation, full initial rates, inverse factorization, basis solves/projection, small exponentials, reconstruction and sampled structure. Setup outside; no full candidate or speedup claim.",
+  "source_sha256": {
+    "research/rational_affine.py": "332d2a247fe141dfd3e175edef089ae14f482aa607e79621a3289bcdd019939a",
+    "research/test_rational_affine.py": "45f3f2170a1fc388b414c779e7cb3f2f145638f37101b662b6f063e406866f5c",
+    "research/m3_rational_affine_study.py": "b229892e8ae79211255c9f52c2eb31d5e6e77aeaa76b992c3396c736979beb22",
+    "research/affine_partition.py": "08b9c5b60801372bdfab34948d930f3377704b68eed86163910387730316e082",
+    "research/m3_priority.py": "6cc6821a1ac9a811f16d25c20c067b9d0516d1cb3bf60b9d144bdc93adc43856",
+    "research/m3_ordered_cost.py": "65f4695f8bd500897bbc6b29afb7d935d4b0f500fc7d53cd99633835631ac5e5"
+  },
+  "input_sha256": {
+    "results/m3-affine-attribution/manifest.json": "33316ef6e150d1a9bc7a5939cf905a9d8c967d01dbe300011c537867719a80be",
+    "results/m3-affine-attribution/runs.json": "3164bf7d3c84063e1c0d11d532321f2df57399f5142ec742b009b9a748da702a",
+    "results/m3-merb-predictor/registration.json": "3540d3e06bf228c668d1eb3e87078d3e3274d4739c308e3f1e4139fac1bb3574",
+    "results/m3-merb-predictor/runs.json": "5cb6e98a2a2dff31f35f6f1889c4eb6a5db363cdcf39da7250cf52fffd019f5f"
+  }
+}

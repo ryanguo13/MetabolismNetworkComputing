@@ -1,0 +1,227 @@
+EXCERPT lines285-352
+                                          0
+
+which clearly show that Uni = vni (ci H) and un+1 = vn+1 (H) by means of the
+variation-of-constants formula applied to (2.9a) and (2.9b), respectively.
+MERB methods. Starting from the initial value u0 = u(t0 ), equations (2.9) from
+Lemma 2.2 suggest a multirate procedure to approximate the numerical solutions un+1
+(n = 0, 1, 2, . . .) obtained by ExpRB methods. Specifically, one may integrate the slow
+process (Vn t + Nn (t, u)) using a macro time step H, and integrate the fast process
+(Jn u) using a micro time step h = H/m (where m > 1 is an integer representing the
+time scale separation factor) via solving the “fast” ODEs (2.9a) on [0, ci H] and (2.9b)
+on [0, H]. Let us denote the corresponding numerical solutions of these ODEs as U       bni
+(≈ vni (ci H) = Uni ) and ûn+1 (≈ vn+1 (H) = un+1 ). Then this multirate procedure
+consists in each step of solving (2.9)–(2.10) with the initial value ûn (û0 = u0 ). Since
+we must linearize each step around the approximate solution ûn instead of the true
+value un , we denote the approximations of Jn , Vn , Nn (t, u), and Dnj appearing in
+polynomials (2.10) as
+                  ∂F                        ∂F
+(2.13a)     Jˆn =      (tn , ûn ), V̂n =      (tn , ûn ), N̂n (t, u) = F (t, u) − Jˆn u − V̂n t,
+                   ∂u                       ∂t
+(2.13b)    D
+           b nj = N̂n (tn + cj H, U   bnj ) − N̂n (tn , ûn ).
+
+6                    V. T. LUAN, R. CHINOMONA, AND D. R. REYNOLDS
+
+
+Thus, starting with û0 = u0 , for each time step tn → tn+1 we solve perturbed linear
+ODEs for i = 2, . . . , s:
+
+(2.14)            0
+                 yni (τ ) = Jˆn yni (τ ) + p̂ni (τ ),   τ ∈ [0, ci H],      yni (0) = ûn ,
+
+with
+                                                                 `ij
+                                                           i−1  X              (k)
+                                                           X                  αij                 
+(2.15)      p̂ni (τ ) = N̂n (tn , ûn ) + (tn + τ )V̂n +                                     τ k−1 Db nj ,
+                                                           j=2    k=1
+                                                                        cki H k−1 (k − 1)!
+
+to obtain
+                                bni ≈ yni (ci H) ≈ vni (ci H) = Uni .
+                                U
+Then, using these approximations, we find
+                                                               mi
+                                                            s X                (k)
+                                                            X                βi              
+                                                                                          k−1 b
+(2.16)        q̂n (τ ) = N̂n (tn , ûn ) + (tn + τ )V̂n +                               τ      Dni
+                                                            i=2
+                                                                         H k−1 (k − 1)!
+                                                                  k=1
+
+and solve one additional linear ODE
+
+(2.17)           0
+                yn+1 (τ ) = Jˆn yn+1 (τ ) + q̂n (τ ),      τ ∈ [0, H],      yn+1 (0) = ûn
+
+to obtain the update
+
+                              ûn+1 ≈ yn+1 (H) ≈ vn+1 (H) = un+1 .
+
+Since this process can be derived from ExpRB schemes satisfying (2.8), we call the
+resulting methods (2.14)–(2.17) Multirate Exponential Rosenbrock (MERB) methods.
+Note that since Ûn1 and yn1 (0) do not enter the MERB scheme, for the sake of
+completeness, one can define Ûn1 = yn1 (0) = ûn .
+    Remark 2.3. (A comparison with MERK methods). Based on their structure in
+(2.14)–(2.17), MERB methods have similar structure to MERK methods. Hence, they
+can retain MERK’s interesting features, including very few evaluations of the costly
+
+EXCERPT lines762-854
+       Corollary 2.11. Under Assumptions 1 and 2, the estimate
+                           n                       n                            n
+                                     H Jˆn−j                 H J˜n−j
+                           Y                       Y                            X
+(2.54)                           e             −         e              ⩽H            Ckêk k.
+                           j=0                     j=0                          k=0
+
+holds for all n as long as the global errors êk remain sufficiently small.
+                                                                                                  ˆ
+       Proof. This follows by applying Lemma 2.10 to Zn−j = e H Jn−j and Yn−j =
+    H J˜n−j
+e         , and using the stability bound (2.19) and the bound (2.47c) from Lemma 2.8.
+    2.3.4. MERB convergence. With the above preparation in hand, we are now
+ready to prove convergence of our MERB methods.
+    Theorem 2.12. Let the initial value problem (1.1) satisfy Assumptions 1–2. Con-
+sider for its numerical solution a MERB method (2.14)–(2.17) that is constructed from
+an ExpRB method of global order p using with macro time step H. Let m denote the
+number of fast steps per slow step. If the fast ODEs (2.14) and (2.17) associated
+with the MERB method are integrated with micro time step h = H/m by using ODE
+solvers that have global order of convergence q and r, respectively, then the MERB
+method is convergent with the error bound
+(2.55)                         kûn − u(tn )k ⩽ CH p + CHhq + Chr
+on compact time intervals t0 ≤ tn = t0 + nH ≤ T . Here, while the first error
+constant depends on T − t0 (but is independent of n and H), the second and third
+error constants also depend on the error constants of the chosen ODE solvers.
+     Proof. We begin with the global error expansion given in Theorem 2.4, and es-
+timate each of P  the terms in (2.30). First, from Corollary 2.11 it is obvious that
+                    n
+kError1k
+Pn          ⩽ H     k=0 Ckêk k. Then P
+                                      the stability bound (2.19) tells us that kError2k ⩽
+                                        n
+   k=0 Ckẽ k+1 k and  kError3k    ⩽    k=0 Ckε̂k+1 k. Next, examining the expression
+(2.35) we employ Corollaries 2.9 and 2.11, along with the stability bound (2.19), to
+                        Pn                 Pi                                
+obtain kError4k ⩽ H k=0 CHkêk k + j=1 Ckε̂kj k + Ckêk k + Ckêk k2 . Therefore,
+we derive from (2.30) that
+                         n
+                         X                     n
+                                               X                        n
+                                                                        X                        n X
+                                                                                                 X   i
+(2.56) kên+1 k ⩽ H            Ckêk k +             Ckẽk+1 k +               Ckε̂k+1 k + H       (   Ckε̂kj k).
+                         k=0                   k=0                      k=0                      k=0 j=1
+
+From our assumption that the base ExpRB method has global order p, its local error
+satisfies kẽk+1 k ⩽ CH p+1 .
+     As for the global errors ε̂k+1 and ε̂kj obtained by solving the fast ODEs (2.17)
+and (2.14) on [0, H] and [0, ci H], respectively (using micro time step h), the global
+error analysis from [8, Theorem 3.4] guarantees that
+                                                                LH
+(2.57a)       kε̂k+1 k ⩽ hr C
+                            L (e
+                                 LH
+                                    − 1) = Chr H e LH−1 = Chr Hϕ1 (LH) ⩽ Chr H,
+                                                                       Lci H
+(2.57b)        kε̂kj k ⩽ hq C
+                            L (e
+                                 Lci H
+                                       − 1) = Chq ci H e Lci H−1 ⩽ Chq Hϕ1 (Lci H) ⩽ Chq H.
+
+These bounds require that the Jacobian Jˆk of the right hand sides of both ODEs
+satisfies kJˆk k ⩽ L. This follows from k ∂F
+                                          ∂u (t, u)k ⩽ L, which easily follows from
+Assumption 2. Combining these bounds and shifting the index n in (2.56) to n − 1,
+we obtain
+                               n−1
+                               X                     n−1
+                                                     X
+                                                               CH p+1 + Chr H + Chq H 2 .
+                                                                                       
+(2.58)            kên k ⩽ H          Ckêk k +
+                               k=0                   k=0
+
+14                 V. T. LUAN, R. CHINOMONA, AND D. R. REYNOLDS
+
+
+The error bound (2.55) results from applying a discrete Gronwall lemma to (2.58).
+    Remark 2.13. Since h = H/m, one can write the error bound (2.55) as kûn −
+u(tn )k ⩽ CH p + mCq H q+1 + mCr H r . Thus for a fixed m, a MERB method (2.14)–
+(2.17) will converge with order p provided that the inner ODE solvers for (2.14)
+and (2.17) have orders q ≥ p − 1 and r ≥ p, respectively. We note that this is an
+improvement compared to MRI-GARK methods [23], that in fact require both q ≥ p
+and r ≥ p for a method of order p. It is also worth mentioning that the error bound
+(2.55) for MERB methods is similar to the one obtained with MERK methods [14].
+     2.4. Construction of specific MERB methods. Guided by Theorem 2.12,
+in order to derive MERB methods it is important to begin with base ExpRB methods
+that satisfy Lemma 2.2. Fortunately, such ExpRB methods are available up to order
+6 in the literature, see [9, 17, 18]. In this subsection, we extend some of these methods
+to write their coefficients more generally, and then derive MERB methods of orders
+2 through 6 from these schemes. Note that since a MERB method (2.14)–(2.17) is
+uniquely characterized by its polynomials p̂ni (τ ) and q̂n (τ ), we only provide those
+polynomials here. In particular, we note that these MERB methods require fewer
+
+EXCERPT lines880-908
+From this we construct the MERB3 family of third-order methods:
+
+            p̂n2 (τ ) = N̂n (tn , ûn ) + (tn + τ )V̂n ,                    τ ∈ [0, c2 H],
+(2.61)                                                       τ2
+             q̂n (τ ) = N̂n (tn , ûn ) + (tn + τ )V̂n +           D
+                                                                   b n2 ,   τ ∈ [0, H].
+                                                           c22 H 2
+
+Clearly, this requires the solution of 2 modified ODEs per slow time step (whereas
+third-order MERK and MRI-GARK methods require solving 3 modified ODEs per
+step). In our numerical experiments we take c2 = 21 , which gives rise to a total fast
+time step traversal for MERB3 of (1 + c2 )H = 1.5H.
+
+                 MULTIRATE EXPONENTIAL ROSENBROCK METHODS                               15
+
+     2.4.3. Fourth-order method. There exist several 4th-order ExpRB schemes
+[9, 17, 18, 13, 15] with coefficients fulfilling Lemma 2.2. However, we chose a 2-
+stage 4th-order ExpRB method called exprb42 which was constructed for autonomous
+problems in [13]. Transforming this to non-autonomous form, we have
+
+
+          Un2 = un + 43 Hϕ1 ( 34 HJn )F (tn , un ) + 16
+                                                     9
+                                                        H 2 ϕ2 ( 43 HJn )Vn ,
+(2.62)
+         un+1 = un + Hϕ1 (HJn )F (tn , un ) + H 2 ϕ2 (HJn )Vn + H 16
+                                                                   9 ϕ3 (HJn )Dn2 .
+
+
+
+EXCERPT lines1063-1092
+                          −H 4          β̂i D      H           γ̂i D
+                                                                   b ni .                        τ ∈ [0, H]
+                                  i=4                    i=4
+
+As seen, MERB6 requires only 3 modified ODEs per each slow time step like MERB5,
+reflecting the fact that its base 6th-order ExpRB method (2.66) has the structure of
+a 3-stage method. MERB6 can be also implemented in an efficient way by choosing
+c3 < c2 and c5 , c6 , c7 < c4 . With these choices, we can solve the modified ODE (2.14)
+using p̂n2 (τ ) on [0, c2 H] to obtain both U bn2 ≈ Un2 and U  bn3 ≈ Un3 without solving
+an additional fast ODE on [0, c3 H]. Similarly, we can solve (2.14) using p̂n4 (τ ) on
+[0, c4 H] to get all four approximations U   bni ≈ Uni (i = 4, 5, 6, 7) without solving 3
+additional ODEs on [0, c5 H], [0, c6 H], and [0, c7 H]. In our numerical experiments, we
+take c3 = c5 = 10 1
+                      < c2 = c6 = 91 < c7 = 81 < c4 = 17 . This gives a total fast traversal
+time of (1 + c2 + c4 )H = 79   63 H ≈ 1.253H.
+
+    2.5. MERB method implementation. In Algorithm 2.1 we provide a precise
+description of the MERB algorithm. We note that in our implementations of MERB
+
+Algorithm 2.1 MERB method
+     • Input: F ; J; V ; t0 ; u0 ; s; ci (i = 1, . . . , s); H
+     • Initialization: Set n = 0; ûn = u0 .
+       While tn < T
+         1. Set Ubn1 = ûn .
+         2. Compute Jbn = J(tn , ûn ) and Vbn = V (tn , ûn )
+         3. For i = 2, . . . , s do
+             (a) Find p̂ni (τ ) as in (2.15).
+             (b) Solve (2.14) on [0, ci H] to obtain U      bni ≈ yni (ci H).
+         4. Find q̂n (τ ) as in (2.16)
+         5. Solve (2.17) on [0, H] to get ûn+1 ≈ yn+1 (H).

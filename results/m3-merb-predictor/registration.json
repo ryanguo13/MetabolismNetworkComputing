@@ -1,0 +1,52 @@
+{
+  "date": "2026-11-08",
+  "models": [
+    "teusink",
+    "kecoli"
+  ],
+  "steps": [
+    0.003,
+    0.01,
+    0.03
+  ],
+  "tolerances": [
+    1e-06,
+    1e-08,
+    1e-10
+  ],
+  "method": "Autonomous MERB4 eq2.63 arXiv2106.05385v2: full J at macro origin; linear stage to.75H; reactionwise D=v(stage)-v0-Dv0*(stage-y); final linear forcing16/9*(t/H)^2*S*D. Two nonlinear rate evaluations plus guards. Full linear IVPs solved by adaptive ordered Radau with exact-matrix LU cache.",
+  "scope": "18 complete predictors plus48 fresh uninterrupted mature controls. NOT reaction split coverage or production solver. Published endpoint order does not imply uniform dense order; audit full output, physical and modified ledgers independently. Preserve all M4 gates.",
+  "sources": "Literature identity verified using arXiv Atom and Crossref. Read v2 sec2.2,2.3.4,2.4.3,2.5, not full paper review. Reference provenance in sources.json.",
+  "controls": {
+    "tolerances": [
+      1e-06,
+      1e-07,
+      1e-08,
+      1e-10
+    ],
+    "initial_steps": [
+      "auto",
+      "whole"
+    ]
+  },
+  "reference": "Independent complete ODE audit pair1e-12/1e-11, budget<=.05 strict; original65-point/public grids. Recheck endpoint separately from continuous output.",
+  "timing": "One exploratory timing including all output guards, excluding setup/reference/controller. Predictor time separately measured before guards; if it cannot meet cost budget, do not add reaction-fast correction.",
+  "source_sha256": {
+    "research/merb_predictor.py": "0b1d7c625ed930ea227c7dad9876a0ca0cdd93f81a7178d6a6005f438a3fa15e",
+    "research/test_merb_predictor.py": "f5c6458b2630a53c26d531ae4620882fadfc83eb5f6b6b956a4d5a6b795202c7",
+    "research/m3_merb_study.py": "a93090471b479ae8dbbcbe9cd529862529ff2639f0e1f314b5cff4ae88b1146b",
+    "research/ordered_radau.py": "f41f628d6575babc57ddf949706372357f379ad1ca9093f229826572c4a1c423",
+    "research/shared_radau.py": "0174d7d91eb1a3d59d514493a730af52b1e1a1d10b764bb892716c9da666edef",
+    "research/inner_dense.py": "e19b0221a27f5fa861c7a0877d64f9e04b638a3fc514326c7968541f13ec133b",
+    "research/fullstep_radau.py": "ec224519a31b512359d1645b4d2211e80b9d436a7cd6e7ff8dfca568d9439f32",
+    "research/m3_extrapolated_paths.py": "7ce2742d48adf31bb1b73372cb09f7085e18e1507d32b8543ac3c8217f9b64cf",
+    "research/m3_growth_study.py": "ef440e9984b74ff8440d0c6d4e1ec9e79e1ce32ac997535847e5ddf6a3e05955",
+    "research/m3_priority.py": "6cc6821a1ac9a811f16d25c20c067b9d0516d1cb3bf60b9d144bdc93adc43856"
+  },
+  "input_sha256": {
+    "results/m3-subcycled-predictor/manifest.json": "82821763074d73273b83ca9984859f81d39cc97b54556001dff3c60db032a626",
+    "results/m3-affine-attribution/manifest.json": "33316ef6e150d1a9bc7a5939cf905a9d8c967d01dbe300011c537867719a80be",
+    "results/m3-rodas-centered/registration.json": "96f3f8af41c0ca71e8d325f75a0a7e46d674cf7cc6e6a8b7e14bcea903ebd762",
+    "results/m3-rodas-centered/runs.json": "29b555843069ce56f6bb9f98c19a6fdc739be1393808774d74ae366dd8e2e11b"
+  }
+}
