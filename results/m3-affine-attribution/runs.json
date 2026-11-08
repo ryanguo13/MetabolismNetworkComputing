@@ -1,0 +1,5302 @@
+{
+  "candidates": [
+    {
+      "key": "0-0-False-False",
+      "reference_key": "0-0",
+      "nonlinear_key": "candidate-0-0-1",
+      "model": "teusink",
+      "h": 0.001,
+      "augmented": false,
+      "whole": false,
+      "reference_ok": true,
+      "nonlinear_actual": {
+        "concentration": 4.882384061796099e-05,
+        "flux": 8.527457082319368e-05
+      },
+      "nonlinear_targets": {
+        "0.0001": {
+          "actual": {
+            "concentration": 4.882384061796099e-07,
+            "flux": 8.527457082319367e-07
+          },
+          "passes": true
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 4.882384061796099e-05,
+            "flux": 8.527457082319368e-05
+          },
+          "passes": true
+        }
+      },
+      "oracle_budget": {
+        "concentration": 5.510105130905777e-08,
+        "flux": 9.873022960479048e-08
+      },
+      "oracle_work": {
+        "seconds": 0.003169666975736618,
+        "nfev": 113,
+        "njev": 0,
+        "nlu": 16
+      },
+      "oracle_loose_work": {
+        "seconds": 0.002140499884262681,
+        "nfev": 77,
+        "njev": 0,
+        "nlu": 14
+      },
+      "status": "success",
+      "seconds": 0.003382624825462699,
+      "stats": {
+        "predictor_nfev": 6,
+        "predictor_njev": 1,
+        "predictor_nlu": 1,
+        "predictor_solves": 6,
+        "nfev": 27,
+        "njev": 1,
+        "nlu": 6,
+        "subflows": 1,
+        "accepted_steps": 2,
+        "output_nfev": 0,
+        "pool_error": 1.9749590675267642e-16,
+        "min_internal": 0.0003802437768719214,
+        "linear_residuals": [
+          2.7976804850512673e-18,
+          3.8375263290526233e-19,
+          1.5102522972400646e-18,
+          4.642168946434625e-18,
+          4.171762493195916e-18,
+          3.701356039957208e-18
+        ],
+        "predictor_seconds": 0.0005904580466449261,
+        "raw_nonnegative": true,
+        "raw_join_error": 1.3878319656396097e-16,
+        "modified_ledger_residual": 3.81560671305133e-17,
+        "modified_ledger_quadrature": 4.822164207371669e-19,
+        "endpoint_correction_scaled": 0.0,
+        "continuous_nonnegative": true,
+        "dense_join_error": 1.3878319656396097e-16,
+        "physical_ledger_residual": 5.338324229954748e-15,
+        "physical_ledger_quadrature": 8.86834796758008e-20,
+        "seconds": 0.002514583058655262
+      },
+      "guard": {
+        "nonnegative": true,
+        "pool": 1.1339569469143924e-16
+      },
+      "targets": {
+        "0.0001": {
+          "actual": {
+            "concentration": 5.074436650461598e-07,
+            "flux": 8.774789250105698e-07
+          },
+          "passes": true
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 5.074436650461599e-05,
+            "flux": 8.7747892501057e-05
+          },
+          "passes": true
+        }
+      },
+      "decomposition": {
+        "nonlinear": 4.882384061796099e-05,
+        "frozen": 5.074436650461599e-05,
+        "difference": 9.184514943367798e-05,
+        "endpoint": {
+          "nonlinear": 1.326785142240042e-05,
+          "frozen": 4.0284728207941195e-05,
+          "difference": 5.355257963034161e-05
+        },
+        "worst": {
+          "species": 8,
+          "query": 22,
+          "nonlinear": 4.882384061796099e-05,
+          "frozen": -1.848277815536363e-05,
+          "difference": 6.730661877332462e-05
+        },
+        "identity_roundoff": 0.0,
+        "truth_linearization_gap": 0.035940962335407646,
+        "active": {
+          "nonlinear": 4.882384061796099e-05,
+          "frozen": 5.074436650461599e-05,
+          "difference": 9.184514943367798e-05
+        },
+        "inactive": {
+          "nonlinear": 1.778923188534944e-05,
+          "frozen": 1.526308445471779e-05,
+          "difference": 3.0239260827417112e-05
+        },
+        "cosine": -0.24152393854295684
+      },
+      "affine_actual": {
+        "concentration": 5.074436650461599e-05,
+        "flux": 8.7747892501057e-05
+      },
+      "stage_roundoff": 7.395779774287739e-16,
+      "oracle_decomposition": {
+        "nonlinear": 4.882384061796099e-05,
+        "frozen": 4.430384362774187e-05,
+        "difference": 8.332668783964372e-05,
+        "endpoint": {
+          "nonlinear": 1.326785142240042e-05,
+          "frozen": 3.997615736138807e-05,
+          "difference": 5.324400878378849e-05
+        },
+        "worst": {
+          "species": 8,
+          "query": 22,
+          "nonlinear": 4.882384061796099e-05,
+          "frozen": -1.6097311060726553e-05,
+          "difference": 6.492115167868755e-05
+        },
+        "identity_roundoff": 0.0,
+        "truth_linearization_gap": 0.035940962335407646,
+        "active": {
+          "nonlinear": 4.882384061796099e-05,
+          "frozen": 4.430384362774187e-05,
+          "difference": 8.332668783964372e-05
+        },
+        "inactive": {
+          "nonlinear": 1.778923188534944e-05,
+          "frozen": 1.526308445471779e-05,
+          "difference": 3.0239260827417112e-05
+        },
+        "cosine": -0.2604681462926979
+      },
+      "inner_error": {
+        "concentration": 1.306513256999459e-05,
+        "flux": 2.5963189749454598e-05
+      }
+    },
+    {
+      "key": "0-0-False-True",
+      "reference_key": "0-0",
+      "nonlinear_key": "candidate-0-0-2",
+      "model": "teusink",
+      "h": 0.001,
+      "augmented": false,
+      "whole": true,
+      "reference_ok": true,
+      "nonlinear_actual": {
+        "concentration": 0.0006911547883695877,
+        "flux": 0.00368156143712656
+      },
+      "nonlinear_targets": {
+        "0.0001": {
+          "actual": {
+            "concentration": 6.9115478836958765e-06,
+            "flux": 3.68156143712656e-05
+          },
+          "passes": true
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 0.0006911547883695877,
+            "flux": 0.00368156143712656
+          },
+          "passes": true
+        }
+      },
+      "oracle_budget": {
+        "concentration": 5.510105130905777e-08,
+        "flux": 9.873022960479048e-08
+      },
+      "oracle_work": {
+        "seconds": 0.003169666975736618,
+        "nfev": 113,
+        "njev": 0,
+        "nlu": 16
+      },
+      "oracle_loose_work": {
+        "seconds": 0.002140499884262681,
+        "nfev": 77,
+        "njev": 0,
+        "nlu": 14
+      },
+      "status": "success",
+      "seconds": 0.0015324170235544443,
+      "stats": {
+        "predictor_nfev": 6,
+        "predictor_njev": 1,
+        "predictor_nlu": 1,
+        "predictor_solves": 6,
+        "nfev": 0,
+        "njev": 0,
+        "nlu": 0,
+        "subflows": 0,
+        "accepted_steps": 0,
+        "output_nfev": 0,
+        "pool_error": 1.9749590675267642e-16,
+        "min_internal": 0.0003802437768719214,
+        "linear_residuals": [
+          2.7976804850512673e-18,
+          3.8375263290526233e-19,
+          1.5102522972400646e-18,
+          4.642168946434625e-18,
+          4.171762493195916e-18,
+          3.701356039957208e-18
+        ],
+        "predictor_seconds": 0.0005089591722935438,
+        "continuous_nonnegative": true,
+        "dense_join_error": 0.0,
+        "physical_ledger_residual": 5.970330373494831e-13,
+        "physical_ledger_quadrature": 1.10854349594751e-19,
+        "seconds": 0.0007125840056687593
+      },
+      "guard": {
+        "nonnegative": true,
+        "pool": 6.98337822246481e-17
+      },
+      "targets": {
+        "0.0001": {
+          "actual": {
+            "concentration": 6.471399818083261e-07,
+            "flux": 1.1216915134307101e-06
+          },
+          "passes": true
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 6.471399818083262e-05,
+            "flux": 0.00011216915134307104
+          },
+          "passes": true
+        }
+      },
+      "decomposition": {
+        "nonlinear": 0.0006911547883695877,
+        "frozen": 6.471399818083262e-05,
+        "difference": 0.0006900295671126187,
+        "endpoint": {
+          "nonlinear": 6.017694366655551e-06,
+          "frozen": 6.0154337724333586e-05,
+          "difference": 6.236417360032442e-05
+        },
+        "worst": {
+          "species": 5,
+          "query": 21,
+          "nonlinear": 0.0006911547883695877,
+          "frozen": 1.1252212569690231e-06,
+          "difference": 0.0006900295671126187
+        },
+        "identity_roundoff": 0.0,
+        "truth_linearization_gap": 0.035940962335407646,
+        "active": {
+          "nonlinear": 0.0006911547883695877,
+          "frozen": 6.471399818083262e-05,
+          "difference": 0.0006900295671126187
+        },
+        "inactive": {
+          "nonlinear": 1.778923188534944e-05,
+          "frozen": 1.526308445471779e-05,
+          "difference": 3.0239260827417112e-05
+        },
+        "cosine": -0.014420990870563363
+      },
+      "affine_actual": {
+        "concentration": 6.471399818083262e-05,
+        "flux": 0.00011216915134307104
+      },
+      "stage_roundoff": 7.395779774287739e-16
+    },
+    {
+      "key": "0-0-True-False",
+      "reference_key": "0-0",
+      "nonlinear_key": "candidate-0-0-4",
+      "model": "teusink",
+      "h": 0.001,
+      "augmented": true,
+      "whole": false,
+      "reference_ok": true,
+      "nonlinear_actual": {
+        "concentration": 1.0329528227688987e-05,
+        "flux": 1.8140726377985087e-05
+      },
+      "nonlinear_targets": {
+        "0.0001": {
+          "actual": {
+            "concentration": 1.0329528227688986e-07,
+            "flux": 1.8140726377985083e-07
+          },
+          "passes": true
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 1.0329528227688987e-05,
+            "flux": 1.8140726377985087e-05
+          },
+          "passes": true
+        }
+      },
+      "oracle_budget": {
+        "concentration": 5.674996057516423e-08,
+        "flux": 1.1666352376907045e-07
+      },
+      "oracle_work": {
+        "seconds": 0.003177250036969781,
+        "nfev": 134,
+        "njev": 0,
+        "nlu": 12
+      },
+      "oracle_loose_work": {
+        "seconds": 0.0023042920511215925,
+        "nfev": 84,
+        "njev": 0,
+        "nlu": 14
+      },
+      "status": "success",
+      "seconds": 0.0035729999653995037,
+      "stats": {
+        "predictor_nfev": 9,
+        "predictor_njev": 1,
+        "predictor_nlu": 1,
+        "predictor_solves": 9,
+        "nfev": 27,
+        "njev": 1,
+        "nlu": 6,
+        "subflows": 1,
+        "accepted_steps": 2,
+        "output_nfev": 0,
+        "pool_error": 1.9749590675267642e-16,
+        "min_internal": 0.0003802437768719214,
+        "linear_residuals": [
+          2.7976804850512673e-18,
+          3.8375263290526233e-19,
+          1.5102522972400646e-18,
+          4.642168946434625e-18,
+          4.171762493195916e-18,
+          3.701356039957208e-18,
+          2.4510652037174818e-18,
+          3.614702219623761e-18,
+          1.448356711287603e-18
+        ],
+        "predictor_seconds": 0.0006972500123083591,
+        "raw_nonnegative": true,
+        "raw_join_error": 1.6211783152802124e-16,
+        "modified_ledger_residual": 4.9108476870474695e-17,
+        "modified_ledger_quadrature": 6.096989227711305e-19,
+        "endpoint_correction_scaled": 0.0,
+        "continuous_nonnegative": true,
+        "dense_join_error": 1.6211783152802124e-16,
+        "physical_ledger_residual": 5.971302566140777e-15,
+        "physical_ledger_quadrature": 1.330252195137012e-19,
+        "seconds": 0.002641333034262061
+      },
+      "guard": {
+        "nonnegative": true,
+        "pool": 1.4393890508767536e-16
+      },
+      "targets": {
+        "0.0001": {
+          "actual": {
+            "concentration": 4.2108949808509785e-07,
+            "flux": 7.38398367830085e-07
+          },
+          "passes": true
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 4.2108949808509794e-05,
+            "flux": 7.383983678300851e-05
+          },
+          "passes": true
+        }
+      },
+      "decomposition": {
+        "nonlinear": 1.0329528227688987e-05,
+        "frozen": 4.2108949808509794e-05,
+        "difference": 4.208199453668252e-05,
+        "endpoint": {
+          "nonlinear": 4.123560892958296e-06,
+          "frozen": 3.3979279538510945e-05,
+          "difference": 3.810284043146924e-05
+        },
+        "worst": {
+          "species": 8,
+          "query": 19,
+          "nonlinear": 1.0329528227688987e-05,
+          "frozen": -1.1763022490223529e-06,
+          "difference": 1.150583047671134e-05
+        },
+        "identity_roundoff": 0.0,
+        "truth_linearization_gap": 0.035940962335407646,
+        "active": {
+          "nonlinear": 1.0329528227688987e-05,
+          "frozen": 4.2108949808509794e-05,
+          "difference": 4.208199453668252e-05
+        },
+        "inactive": {
+          "nonlinear": 3.0263860547101994e-06,
+          "frozen": 1.3492968409068226e-05,
+          "difference": 1.3082042280782543e-05
+        },
+        "cosine": 0.21334807635783096
+      },
+      "affine_actual": {
+        "concentration": 4.2108949808509794e-05,
+        "flux": 7.383983678300851e-05
+      },
+      "stage_roundoff": 7.395779774287739e-16,
+      "oracle_decomposition": {
+        "nonlinear": 1.0329528227688987e-05,
+        "frozen": 4.20779239431469e-05,
+        "difference": 4.2038508683789894e-05,
+        "endpoint": {
+          "nonlinear": 4.123560892958296e-06,
+          "frozen": 3.38969244814917e-05,
+          "difference": 3.8020485374449995e-05
+        },
+        "worst": {
+          "species": 8,
+          "query": 19,
+          "nonlinear": 1.0329528227688987e-05,
+          "frozen": -2.142373234345783e-06,
+          "difference": 1.247190146203477e-05
+        },
+        "identity_roundoff": 0.0,
+        "truth_linearization_gap": 0.035940962335407646,
+        "active": {
+          "nonlinear": 1.0329528227688987e-05,
+          "frozen": 4.20779239431469e-05,
+          "difference": 4.2038508683789894e-05
+        },
+        "inactive": {
+          "nonlinear": 3.0263860547101994e-06,
+          "frozen": 1.3493500294899251e-05,
+          "difference": 1.3081820661686282e-05
+        },
+        "cosine": 0.2519718992414839
+      },
+      "inner_error": {
+        "concentration": 1.3547163712119713e-05,
+        "flux": 2.646093634848256e-05
+      }
+    },
+    {
+      "key": "0-0-True-True",
+      "reference_key": "0-0",
+      "nonlinear_key": "candidate-0-0-5",
+      "model": "teusink",
+      "h": 0.001,
+      "augmented": true,
+      "whole": true,
+      "reference_ok": true,
+      "nonlinear_actual": {
+        "concentration": 0.00046620647459472115,
+        "flux": 0.002478447224719209
+      },
+      "nonlinear_targets": {
+        "0.0001": {
+          "actual": {
+            "concentration": 4.662064745947211e-06,
+            "flux": 2.4784472247192088e-05
+          },
+          "passes": true
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 0.00046620647459472115,
+            "flux": 0.002478447224719209
+          },
+          "passes": true
+        }
+      },
+      "oracle_budget": {
+        "concentration": 5.674996057516423e-08,
+        "flux": 1.1666352376907045e-07
+      },
+      "oracle_work": {
+        "seconds": 0.003177250036969781,
+        "nfev": 134,
+        "njev": 0,
+        "nlu": 12
+      },
+      "oracle_loose_work": {
+        "seconds": 0.0023042920511215925,
+        "nfev": 84,
+        "njev": 0,
+        "nlu": 14
+      },
+      "status": "success",
+      "seconds": 0.0016363749746233225,
+      "stats": {
+        "predictor_nfev": 9,
+        "predictor_njev": 1,
+        "predictor_nlu": 1,
+        "predictor_solves": 9,
+        "nfev": 0,
+        "njev": 0,
+        "nlu": 0,
+        "subflows": 0,
+        "accepted_steps": 0,
+        "output_nfev": 0,
+        "pool_error": 1.9749590675267642e-16,
+        "min_internal": 0.0003802437768719214,
+        "linear_residuals": [
+          2.7976804850512673e-18,
+          3.8375263290526233e-19,
+          1.5102522972400646e-18,
+          4.642168946434625e-18,
+          4.171762493195916e-18,
+          3.701356039957208e-18,
+          2.4510652037174818e-18,
+          3.614702219623761e-18,
+          1.448356711287603e-18
+        ],
+        "predictor_seconds": 0.0006135411094874144,
+        "continuous_nonnegative": true,
+        "dense_join_error": 0.0,
+        "physical_ledger_residual": 1.1877299726391789e-12,
+        "physical_ledger_quadrature": 4.43417398379004e-20,
+        "seconds": 0.0008109579794108868
+      },
+      "guard": {
+        "nonnegative": true,
+        "pool": 6.980470898208379e-17
+      },
+      "targets": {
+        "0.0001": {
+          "actual": {
+            "concentration": 6.908546814838652e-07,
+            "flux": 1.1976040362567992e-06
+          },
+          "passes": true
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 6.908546814838653e-05,
+            "flux": 0.00011976040362567995
+          },
+          "passes": true
+        }
+      },
+      "decomposition": {
+        "nonlinear": 0.00046620647459472115,
+        "frozen": 6.908546814838653e-05,
+        "difference": 0.00046615845558241646,
+        "endpoint": {
+          "nonlinear": 6.017694366655551e-06,
+          "frozen": 6.0154337724333586e-05,
+          "difference": 6.236417360032442e-05
+        },
+        "worst": {
+          "species": 5,
+          "query": 15,
+          "nonlinear": 0.00046620647459472115,
+          "frozen": 4.801901230467667e-08,
+          "difference": 0.00046615845558241646
+        },
+        "identity_roundoff": 0.0,
+        "truth_linearization_gap": 0.035940962335407646,
+        "active": {
+          "nonlinear": 0.00046620647459472115,
+          "frozen": 6.908546814838653e-05,
+          "difference": 0.00046615845558241646
+        },
+        "inactive": {
+          "nonlinear": 3.0263860547101994e-06,
+          "frozen": 1.3492968409068226e-05,
+          "difference": 1.3082086604601794e-05
+        },
+        "cosine": 0.02715979889143441
+      },
+      "affine_actual": {
+        "concentration": 6.908546814838653e-05,
+        "flux": 0.00011976040362567995
+      },
+      "stage_roundoff": 7.395779774287739e-16
+    },
+    {
+      "key": "0-1-False-False",
+      "reference_key": "0-1",
+      "nonlinear_key": "candidate-0-1-1",
+      "model": "teusink",
+      "h": 0.003,
+      "augmented": false,
+      "whole": false,
+      "reference_ok": true,
+      "nonlinear_actual": {
+        "concentration": 0.001398224058790011,
+        "flux": 0.0024393236413569465
+      },
+      "nonlinear_targets": {
+        "0.0001": {
+          "actual": {
+            "concentration": 1.3982240587900108e-05,
+            "flux": 2.439323641356946e-05
+          },
+          "passes": true
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 0.001398224058790011,
+            "flux": 0.0024393236413569465
+          },
+          "passes": true
+        }
+      },
+      "oracle_budget": {
+        "concentration": 5.0495911082889234e-08,
+        "flux": 2.2033762674052596e-07
+      },
+      "oracle_work": {
+        "seconds": 0.004057208076119423,
+        "nfev": 185,
+        "njev": 0,
+        "nlu": 14
+      },
+      "oracle_loose_work": {
+        "seconds": 0.0027455000672489405,
+        "nfev": 113,
+        "njev": 0,
+        "nlu": 14
+      },
+      "status": "success",
+      "seconds": 0.0037594998721033335,
+      "stats": {
+        "predictor_nfev": 6,
+        "predictor_njev": 1,
+        "predictor_nlu": 1,
+        "predictor_solves": 6,
+        "nfev": 34,
+        "njev": 1,
+        "nlu": 6,
+        "subflows": 1,
+        "accepted_steps": 3,
+        "output_nfev": 0,
+        "pool_error": 0.0,
+        "min_internal": 0.0003797850666018975,
+        "linear_residuals": [
+          4.6991128855108894e-17,
+          1.8964807535834254e-17,
+          2.4956300256032542e-17,
+          4.2782229010341504e-17,
+          3.4512978727092624e-17,
+          5.1497127512448106e-17
+        ],
+        "predictor_seconds": 0.0005181250162422657,
+        "raw_nonnegative": true,
+        "raw_join_error": 3.008267905585524e-16,
+        "modified_ledger_residual": 5.2323253008722476e-18,
+        "modified_ledger_quadrature": 1.0558876798900033e-18,
+        "endpoint_correction_scaled": 0.0,
+        "continuous_nonnegative": true,
+        "dense_join_error": 3.008267905585524e-16,
+        "physical_ledger_residual": 3.444957657085507e-13,
+        "physical_ledger_quadrature": 3.547339187032032e-19,
+        "seconds": 0.0029011250007897615
+      },
+      "guard": {
+        "nonnegative": true,
+        "pool": 7.440401454122793e-17
+      },
+      "targets": {
+        "0.0001": {
+          "actual": {
+            "concentration": 1.0619593262484306e-05,
+            "flux": 2.18679476869228e-05
+          },
+          "passes": true
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 0.0010619593262484307,
+            "flux": 0.0021867947686922806
+          },
+          "passes": true
+        }
+      },
+      "decomposition": {
+        "nonlinear": 0.001398224058790011,
+        "frozen": 0.0010619593262484307,
+        "difference": 0.0019959798480312305,
+        "endpoint": {
+          "nonlinear": 0.0005912128065465707,
+          "frozen": 0.0007329301729991677,
+          "difference": 0.0013241429795457383
+        },
+        "worst": {
+          "species": 8,
+          "query": 18,
+          "nonlinear": 0.001398224058790011,
+          "frozen": -0.0002687423226694837,
+          "difference": 0.0016669663814594948
+        },
+        "identity_roundoff": 0.0,
+        "truth_linearization_gap": 0.32070307290025946,
+        "active": {
+          "nonlinear": 0.001398224058790011,
+          "frozen": 0.0010619593262484307,
+          "difference": 0.0019959798480312305
+        },
+        "inactive": {
+          "nonlinear": 0.0006625079047411806,
+          "frozen": 0.0005855034686973187,
+          "difference": 0.0009975078625339478
+        },
+        "cosine": -0.2740138940396358
+      },
+      "affine_actual": {
+        "concentration": 0.0010619593262484307,
+        "flux": 0.0021867947686922806
+      },
+      "stage_roundoff": 5.991911068876921e-16,
+      "oracle_decomposition": {
+        "nonlinear": 0.001398224058790011,
+        "frozen": 0.0010632705041393586,
+        "difference": 0.001987952587937621,
+        "endpoint": {
+          "nonlinear": 0.0005912128065465707,
+          "frozen": 0.0007324122147924536,
+          "difference": 0.0013236250213390242
+        },
+        "worst": {
+          "species": 8,
+          "query": 18,
+          "nonlinear": 0.001398224058790011,
+          "frozen": -0.0002577561382065623,
+          "difference": 0.0016559801969965734
+        },
+        "identity_roundoff": 0.0,
+        "truth_linearization_gap": 0.32070307290025946,
+        "active": {
+          "nonlinear": 0.001398224058790011,
+          "frozen": 0.0010632705041393586,
+          "difference": 0.001987952587937621
+        },
+        "inactive": {
+          "nonlinear": 0.0006625079047411806,
+          "frozen": 0.0005855034686973187,
+          "difference": 0.0009975078625339478
+        },
+        "cosine": -0.2728314116268545
+      },
+      "inner_error": {
+        "concentration": 3.810397404642878e-05,
+        "flux": 0.00016483868655423856
+      }
+    },
+    {
+      "key": "0-1-False-True",
+      "reference_key": "0-1",
+      "nonlinear_key": "candidate-0-1-2",
+      "model": "teusink",
+      "h": 0.003,
+      "augmented": false,
+      "whole": true,
+      "reference_ok": true,
+      "nonlinear_actual": {
+        "concentration": 0.006358236677879721,
+        "flux": 0.033982564675805654
+      },
+      "nonlinear_targets": {
+        "0.0001": {
+          "actual": {
+            "concentration": 6.35823667787972e-05,
+            "flux": 0.0003398256467580565
+          },
+          "passes": false
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 0.006358236677879721,
+            "flux": 0.033982564675805654
+          },
+          "passes": false
+        }
+      },
+      "oracle_budget": {
+        "concentration": 5.0495911082889234e-08,
+        "flux": 2.2033762674052596e-07
+      },
+      "oracle_work": {
+        "seconds": 0.004057208076119423,
+        "nfev": 185,
+        "njev": 0,
+        "nlu": 14
+      },
+      "oracle_loose_work": {
+        "seconds": 0.0027455000672489405,
+        "nfev": 113,
+        "njev": 0,
+        "nlu": 14
+      },
+      "status": "success",
+      "seconds": 0.001537791918963194,
+      "stats": {
+        "predictor_nfev": 6,
+        "predictor_njev": 1,
+        "predictor_nlu": 1,
+        "predictor_solves": 6,
+        "nfev": 0,
+        "njev": 0,
+        "nlu": 0,
+        "subflows": 0,
+        "accepted_steps": 0,
+        "output_nfev": 0,
+        "pool_error": 1.9749590675267642e-16,
+        "min_internal": 0.0003797850666018975,
+        "linear_residuals": [
+          4.6991128855108894e-17,
+          1.8964807535834254e-17,
+          2.4956300256032542e-17,
+          4.2782229010341504e-17,
+          3.4512978727092624e-17,
+          5.1497127512448106e-17
+        ],
+        "predictor_seconds": 0.000506583834066987,
+        "continuous_nonnegative": true,
+        "dense_join_error": 0.0,
+        "physical_ledger_residual": 2.7508921890622346e-12,
+        "physical_ledger_quadrature": 2.4831374309224223e-18,
+        "seconds": 0.0007116249762475491
+      },
+      "guard": {
+        "nonnegative": true,
+        "pool": 6.979616744770936e-17
+      },
+      "targets": {
+        "0.0001": {
+          "actual": {
+            "concentration": 1.531156488696145e-05,
+            "flux": 2.6336510940555517e-05
+          },
+          "passes": true
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 0.001531156488696145,
+            "flux": 0.002633651094055552
+          },
+          "passes": true
+        }
+      },
+      "decomposition": {
+        "nonlinear": 0.006358236677879721,
+        "frozen": 0.001531156488696145,
+        "difference": 0.0063330873163438195,
+        "endpoint": {
+          "nonlinear": 6.652670298017851e-05,
+          "frozen": 0.001195865074782037,
+          "difference": 0.0012623917777622156
+        },
+        "worst": {
+          "species": 5,
+          "query": 21,
+          "nonlinear": 0.006358236677879721,
+          "frozen": 2.5149361535900995e-05,
+          "difference": 0.0063330873163438195
+        },
+        "identity_roundoff": 0.0,
+        "truth_linearization_gap": 0.32070307290025946,
+        "active": {
+          "nonlinear": 0.006358236677879721,
+          "frozen": 0.001531156488696145,
+          "difference": 0.0063330873163438195
+        },
+        "inactive": {
+          "nonlinear": 0.0006625079047411806,
+          "frozen": 0.0005855034686973187,
+          "difference": 0.0009975078625339478
+        },
+        "cosine": -0.02931336318735927
+      },
+      "affine_actual": {
+        "concentration": 0.001531156488696145,
+        "flux": 0.002633651094055552
+      },
+      "stage_roundoff": 5.991911068876921e-16
+    },
+    {
+      "key": "0-1-True-False",
+      "reference_key": "0-1",
+      "nonlinear_key": "candidate-0-1-4",
+      "model": "teusink",
+      "h": 0.003,
+      "augmented": true,
+      "whole": false,
+      "reference_ok": true,
+      "nonlinear_actual": {
+        "concentration": 0.0005106547676491418,
+        "flux": 0.000894465324275601
+      },
+      "nonlinear_targets": {
+        "0.0001": {
+          "actual": {
+            "concentration": 5.106547676491417e-06,
+            "flux": 8.94465324275601e-06
+          },
+          "passes": true
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 0.0005106547676491418,
+            "flux": 0.000894465324275601
+          },
+          "passes": true
+        }
+      },
+      "oracle_budget": {
+        "concentration": 5.180323277684483e-08,
+        "flux": 9.107965815202886e-08
+      },
+      "oracle_work": {
+        "seconds": 0.005059957969933748,
+        "nfev": 231,
+        "njev": 0,
+        "nlu": 16
+      },
+      "oracle_loose_work": {
+        "seconds": 0.0030363749247044325,
+        "nfev": 136,
+        "njev": 0,
+        "nlu": 12
+      },
+      "status": "success",
+      "seconds": 0.004288207972422242,
+      "stats": {
+        "predictor_nfev": 9,
+        "predictor_njev": 1,
+        "predictor_nlu": 1,
+        "predictor_solves": 9,
+        "nfev": 44,
+        "njev": 1,
+        "nlu": 8,
+        "subflows": 1,
+        "accepted_steps": 3,
+        "output_nfev": 0,
+        "pool_error": 1.9749590675267642e-16,
+        "min_internal": 0.0003797850666018975,
+        "linear_residuals": [
+          4.6991128855108894e-17,
+          1.8964807535834254e-17,
+          2.4956300256032542e-17,
+          4.2782229010341504e-17,
+          3.4512978727092624e-17,
+          5.1497127512448106e-17,
+          2.723405781908313e-18,
+          2.0895949817551057e-17,
+          1.1784919565348701e-17
+        ],
+        "predictor_seconds": 0.0006347079761326313,
+        "raw_nonnegative": true,
+        "raw_join_error": 2.7756639312792194e-16,
+        "modified_ledger_residual": 4.975143209812425e-17,
+        "modified_ledger_quadrature": 1.3080813252180619e-18,
+        "endpoint_correction_scaled": 0.0,
+        "continuous_nonnegative": true,
+        "dense_join_error": 2.7756639312792194e-16,
+        "physical_ledger_residual": 4.73641260353395e-13,
+        "physical_ledger_quadrature": 1.773669593516016e-19,
+        "seconds": 0.0034104168880730867
+      },
+      "guard": {
+        "nonnegative": true,
+        "pool": 1.5265589372922061e-16
+      },
+      "targets": {
+        "0.0001": {
+          "actual": {
+            "concentration": 1.0490628916654623e-05,
+            "flux": 2.455333823192721e-05
+          },
+          "passes": true
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 0.0010490628916654625,
+            "flux": 0.0024553338231927215
+          },
+          "passes": true
+        }
+      },
+      "decomposition": {
+        "nonlinear": 0.0005106547676491418,
+        "frozen": 0.0010490628916654625,
+        "difference": 0.0010507245377315295,
+        "endpoint": {
+          "nonlinear": 0.00024681621951407,
+          "frozen": 0.000510429467953341,
+          "difference": 0.0007047907555841054
+        },
+        "worst": {
+          "species": 8,
+          "query": 16,
+          "nonlinear": 0.0005106547676491418,
+          "frozen": -0.00013916833099576685,
+          "difference": 0.0006498230986449086
+        },
+        "identity_roundoff": 0.0,
+        "truth_linearization_gap": 0.32070307290025946,
+        "active": {
+          "nonlinear": 0.0005106547676491418,
+          "frozen": 0.0010490628916654625,
+          "difference": 0.0010507245377315295
+        },
+        "inactive": {
+          "nonlinear": 0.0002310885699766758,
+          "frozen": 0.0006576422131589685,
+          "difference": 0.0005863334322128131
+        },
+        "cosine": 0.18687997708403964
+      },
+      "affine_actual": {
+        "concentration": 0.0010490628916654625,
+        "flux": 0.0024553338231927215
+      },
+      "stage_roundoff": 5.991911068876921e-16,
+      "oracle_decomposition": {
+        "nonlinear": 0.0005106547676491418,
+        "frozen": 0.0010497650194089708,
+        "difference": 0.0010499886538465064,
+        "endpoint": {
+          "nonlinear": 0.00024681621951407,
+          "frozen": 0.0005104294236295217,
+          "difference": 0.0007050507275151542
+        },
+        "worst": {
+          "species": 8,
+          "query": 16,
+          "nonlinear": 0.0005106547676491418,
+          "frozen": -0.00012707092413900828,
+          "difference": 0.00063772569178815
+        },
+        "identity_roundoff": 0.0,
+        "truth_linearization_gap": 0.32070307290025946,
+        "active": {
+          "nonlinear": 0.0005106547676491418,
+          "frozen": 0.0010497650194089708,
+          "difference": 0.0010499886538465064
+        },
+        "inactive": {
+          "nonlinear": 0.0002310885699766758,
+          "frozen": 0.0006576420801875108,
+          "difference": 0.0005863322354696934
+        },
+        "cosine": 0.18854039038253834
+      },
+      "inner_error": {
+        "concentration": 1.5942777430527084e-05,
+        "flux": 7.056018574546873e-05
+      }
+    },
+    {
+      "key": "0-1-True-True",
+      "reference_key": "0-1",
+      "nonlinear_key": "candidate-0-1-5",
+      "model": "teusink",
+      "h": 0.003,
+      "augmented": true,
+      "whole": true,
+      "reference_ok": true,
+      "nonlinear_actual": {
+        "concentration": 0.004319830007168881,
+        "flux": 0.023107640617229693
+      },
+      "nonlinear_targets": {
+        "0.0001": {
+          "actual": {
+            "concentration": 4.3198300071688806e-05,
+            "flux": 0.00023107640617229695
+          },
+          "passes": true
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 0.004319830007168881,
+            "flux": 0.023107640617229693
+          },
+          "passes": true
+        }
+      },
+      "oracle_budget": {
+        "concentration": 5.180323277684483e-08,
+        "flux": 9.107965815202886e-08
+      },
+      "oracle_work": {
+        "seconds": 0.005059957969933748,
+        "nfev": 231,
+        "njev": 0,
+        "nlu": 16
+      },
+      "oracle_loose_work": {
+        "seconds": 0.0030363749247044325,
+        "nfev": 136,
+        "njev": 0,
+        "nlu": 12
+      },
+      "status": "success",
+      "seconds": 0.0018645829986780882,
+      "stats": {
+        "predictor_nfev": 9,
+        "predictor_njev": 1,
+        "predictor_nlu": 1,
+        "predictor_solves": 9,
+        "nfev": 0,
+        "njev": 0,
+        "nlu": 0,
+        "subflows": 0,
+        "accepted_steps": 0,
+        "output_nfev": 0,
+        "pool_error": 1.9749590675267642e-16,
+        "min_internal": 0.0003797850666018975,
+        "linear_residuals": [
+          4.6991128855108894e-17,
+          1.8964807535834254e-17,
+          2.4956300256032542e-17,
+          4.2782229010341504e-17,
+          3.4512978727092624e-17,
+          5.1497127512448106e-17,
+          2.723405781908313e-18,
+          2.0895949817551057e-17,
+          1.1784919565348701e-17
+        ],
+        "predictor_seconds": 0.0007310418877750635,
+        "continuous_nonnegative": true,
+        "dense_join_error": 0.0,
+        "physical_ledger_residual": 6.776524971791454e-12,
+        "physical_ledger_quadrature": 2.9265548293014266e-18,
+        "seconds": 0.0009615418966859579
+      },
+      "guard": {
+        "nonnegative": true,
+        "pool": 7.00065814567699e-17
+      },
+      "targets": {
+        "0.0001": {
+          "actual": {
+            "concentration": 1.81860850028991e-05,
+            "flux": 3.130194900344503e-05
+          },
+          "passes": true
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 0.0018186085002899104,
+            "flux": 0.0031301949003445036
+          },
+          "passes": true
+        }
+      },
+      "decomposition": {
+        "nonlinear": 0.004319830007168881,
+        "frozen": 0.0018186085002899104,
+        "difference": 0.004311212765732834,
+        "endpoint": {
+          "nonlinear": 6.652670298017851e-05,
+          "frozen": 0.001195865074782037,
+          "difference": 0.0012623917777622156
+        },
+        "worst": {
+          "species": 5,
+          "query": 15,
+          "nonlinear": 0.004319830007168881,
+          "frozen": 8.617241436047354e-06,
+          "difference": 0.004311212765732834
+        },
+        "identity_roundoff": 0.0,
+        "truth_linearization_gap": 0.32070307290025946,
+        "active": {
+          "nonlinear": 0.004319830007168881,
+          "frozen": 0.0018186085002899104,
+          "difference": 0.004311212765732834
+        },
+        "inactive": {
+          "nonlinear": 0.0002310885699766758,
+          "frozen": 0.0006576421688351493,
+          "difference": 0.0005863333878889939
+        },
+        "cosine": 0.09343937681406857
+      },
+      "affine_actual": {
+        "concentration": 0.0018186085002899104,
+        "flux": 0.0031301949003445036
+      },
+      "stage_roundoff": 5.991911068876921e-16
+    },
+    {
+      "key": "0-2-False-False",
+      "reference_key": "0-2",
+      "nonlinear_key": "candidate-0-2-1",
+      "model": "teusink",
+      "h": 0.01,
+      "augmented": false,
+      "whole": false,
+      "reference_ok": true,
+      "nonlinear_actual": {
+        "concentration": 0.03375306598283937,
+        "flux": 0.06654317181827396
+      },
+      "nonlinear_targets": {
+        "0.0001": {
+          "actual": {
+            "concentration": 0.00033753065982839364,
+            "flux": 0.0006654317181827395
+          },
+          "passes": true
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 0.03375306598283937,
+            "flux": 0.06654317181827396
+          },
+          "passes": true
+        }
+      },
+      "oracle_budget": {
+        "concentration": 4.2047186285714906e-08,
+        "flux": 4.730396651651146e-08
+      },
+      "oracle_work": {
+        "seconds": 0.011117458110675216,
+        "nfev": 534,
+        "njev": 0,
+        "nlu": 46
+      },
+      "oracle_loose_work": {
+        "seconds": 0.006217417074367404,
+        "nfev": 281,
+        "njev": 0,
+        "nlu": 30
+      },
+      "status": "success",
+      "seconds": 0.008652832824736834,
+      "stats": {
+        "predictor_nfev": 6,
+        "predictor_njev": 1,
+        "predictor_nlu": 1,
+        "predictor_solves": 6,
+        "nfev": 119,
+        "njev": 1,
+        "nlu": 26,
+        "subflows": 1,
+        "accepted_steps": 10,
+        "output_nfev": 0,
+        "pool_error": 1.9749590675267642e-16,
+        "min_internal": 0.00037821024385358687,
+        "linear_residuals": [
+          2.456016850593679e-16,
+          3.4087137095739685e-16,
+          1.590468976634455e-16,
+          6.068738411466961e-16,
+          2.705579853154004e-16,
+          1.406267712839929e-16
+        ],
+        "predictor_seconds": 0.0005042499396950006,
+        "raw_nonnegative": true,
+        "raw_join_error": 1.4038583559399112e-15,
+        "modified_ledger_residual": 6.6335242797499e-17,
+        "modified_ledger_quadrature": 7.205532723658816e-18,
+        "endpoint_correction_scaled": 0.0,
+        "continuous_nonnegative": true,
+        "dense_join_error": 1.4038583559399112e-15,
+        "physical_ledger_residual": 1.8116277900666767e-11,
+        "physical_ledger_quadrature": 0.0,
+        "seconds": 0.007698333123698831
+      },
+      "guard": {
+        "nonnegative": true,
+        "pool": 1.9260846115941916e-16
+      },
+      "targets": {
+        "0.0001": {
+          "actual": {
+            "concentration": 0.00014904558500757718,
+            "flux": 0.00025824763529098206
+          },
+          "passes": true
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 0.01490455850075772,
+            "flux": 0.02582476352909821
+          },
+          "passes": true
+        }
+      },
+      "decomposition": {
+        "nonlinear": 0.03375306598283937,
+        "frozen": 0.01490455850075772,
+        "difference": 0.03957426205214076,
+        "endpoint": {
+          "nonlinear": 0.012765585403407402,
+          "frozen": 0.008470402791666052,
+          "difference": 0.01980815651040604
+        },
+        "worst": {
+          "species": 8,
+          "query": 13,
+          "nonlinear": 0.03375306598283937,
+          "frozen": 0.001988518896852917,
+          "difference": 0.03176454708598645
+        },
+        "identity_roundoff": 0.0,
+        "truth_linearization_gap": 3.431281010150404,
+        "active": {
+          "nonlinear": 0.03375306598283937,
+          "frozen": 0.01490455850075772,
+          "difference": 0.03957426205214076
+        },
+        "inactive": {
+          "nonlinear": 0.019607179116230368,
+          "frozen": 0.009749534061921639,
+          "difference": 0.022872559691909593
+        },
+        "cosine": -0.15683008138143575
+      },
+      "affine_actual": {
+        "concentration": 0.01490455850075772,
+        "flux": 0.02582476352909821
+      },
+      "stage_roundoff": 1.2237696775382996e-15,
+      "oracle_decomposition": {
+        "nonlinear": 0.03375306598283937,
+        "frozen": 0.014908001130778387,
+        "difference": 0.03957809516129254,
+        "endpoint": {
+          "nonlinear": 0.012765585403407402,
+          "frozen": 0.008469877888883008,
+          "difference": 0.01980825395644397
+        },
+        "worst": {
+          "species": 8,
+          "query": 13,
+          "nonlinear": 0.03375306598283937,
+          "frozen": 0.001989654939939044,
+          "difference": 0.03176341104290033
+        },
+        "identity_roundoff": 0.0,
+        "truth_linearization_gap": 3.431281010150404,
+        "active": {
+          "nonlinear": 0.03375306598283937,
+          "frozen": 0.014908001130778387,
+          "difference": 0.03957809516129254
+        },
+        "inactive": {
+          "nonlinear": 0.019607179116230368,
+          "frozen": 0.00974953364999175,
+          "difference": 0.02287255966974768
+        },
+        "cosine": -0.15684383523933582
+      },
+      "inner_error": {
+        "concentration": 4.294968929069718e-05,
+        "flux": 7.513216992553986e-05
+      }
+    },
+    {
+      "key": "0-2-False-True",
+      "reference_key": "0-2",
+      "nonlinear_key": "candidate-0-2-2",
+      "model": "teusink",
+      "h": 0.01,
+      "augmented": false,
+      "whole": true,
+      "reference_ok": true,
+      "nonlinear_actual": {
+        "concentration": 0.0770034224494663,
+        "flux": 0.4053036807642466
+      },
+      "nonlinear_targets": {
+        "0.0001": {
+          "actual": {
+            "concentration": 0.0007700342244946629,
+            "flux": 0.004053036807642465
+          },
+          "passes": false
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 0.0770034224494663,
+            "flux": 0.4053036807642466
+          },
+          "passes": false
+        }
+      },
+      "oracle_budget": {
+        "concentration": 4.2047186285714906e-08,
+        "flux": 4.730396651651146e-08
+      },
+      "oracle_work": {
+        "seconds": 0.011117458110675216,
+        "nfev": 534,
+        "njev": 0,
+        "nlu": 46
+      },
+      "oracle_loose_work": {
+        "seconds": 0.006217417074367404,
+        "nfev": 281,
+        "njev": 0,
+        "nlu": 30
+      },
+      "status": "success",
+      "seconds": 0.0015097500290721655,
+      "stats": {
+        "predictor_nfev": 6,
+        "predictor_njev": 1,
+        "predictor_nlu": 1,
+        "predictor_solves": 6,
+        "nfev": 0,
+        "njev": 0,
+        "nlu": 0,
+        "subflows": 0,
+        "accepted_steps": 0,
+        "output_nfev": 0,
+        "pool_error": 1.9749590675267642e-16,
+        "min_internal": 0.00037821024385358687,
+        "linear_residuals": [
+          2.456016850593679e-16,
+          3.4087137095739685e-16,
+          1.590468976634455e-16,
+          6.068738411466961e-16,
+          2.705579853154004e-16,
+          1.406267712839929e-16
+        ],
+        "predictor_seconds": 0.0004963751416653395,
+        "continuous_nonnegative": true,
+        "dense_join_error": 0.0,
+        "physical_ledger_residual": 1.2931548136501725e-10,
+        "physical_ledger_quadrature": 4.2568070244384386e-18,
+        "seconds": 0.0006953750271350145
+      },
+      "guard": {
+        "nonnegative": true,
+        "pool": 6.981324304128507e-17
+      },
+      "targets": {
+        "0.0001": {
+          "actual": {
+            "concentration": 0.0002711152980756719,
+            "flux": 0.0002711152970876207
+          },
+          "passes": false
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 0.02711152980756719,
+            "flux": 0.027111529708762076
+          },
+          "passes": false
+        }
+      },
+      "decomposition": {
+        "nonlinear": 0.0770034224494663,
+        "frozen": 0.02711152980756719,
+        "difference": 0.07786862115642819,
+        "endpoint": {
+          "nonlinear": 0.0007108390134360665,
+          "frozen": 0.024264379201374295,
+          "difference": 0.02497521821481036
+        },
+        "worst": {
+          "species": 5,
+          "query": 22,
+          "nonlinear": 0.0770034224494663,
+          "frozen": -0.000812705693247825,
+          "difference": 0.07781612814271413
+        },
+        "identity_roundoff": 0.0,
+        "truth_linearization_gap": 3.431281010150404,
+        "active": {
+          "nonlinear": 0.0770034224494663,
+          "frozen": 0.02711152980756719,
+          "difference": 0.07786862115642819
+        },
+        "inactive": {
+          "nonlinear": 0.01960717909406846,
+          "frozen": 0.009749534061921639,
+          "difference": 0.022872559669747685
+        },
+        "cosine": -0.0254797826110803
+      },
+      "affine_actual": {
+        "concentration": 0.02711152980756719,
+        "flux": 0.027111529708762076
+      },
+      "stage_roundoff": 1.2237696775382996e-15
+    },
+    {
+      "key": "0-2-True-False",
+      "reference_key": "0-2",
+      "nonlinear_key": "candidate-0-2-4",
+      "model": "teusink",
+      "h": 0.01,
+      "augmented": true,
+      "whole": false,
+      "reference_ok": true,
+      "nonlinear_actual": {
+        "concentration": 0.014819529361633884,
+        "flux": 0.03983541409041922
+      },
+      "nonlinear_targets": {
+        "0.0001": {
+          "actual": {
+            "concentration": 0.00014819529361633882,
+            "flux": 0.00039835414090419214
+          },
+          "passes": true
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 0.014819529361633884,
+            "flux": 0.03983541409041922
+          },
+          "passes": true
+        }
+      },
+      "oracle_budget": {
+        "concentration": 4.177236807469716e-08,
+        "flux": 4.1710726606925445e-08
+      },
+      "oracle_work": {
+        "seconds": 0.009556583128869534,
+        "nfev": 477,
+        "njev": 0,
+        "nlu": 24
+      },
+      "oracle_loose_work": {
+        "seconds": 0.006071832962334156,
+        "nfev": 280,
+        "njev": 0,
+        "nlu": 24
+      },
+      "status": "success",
+      "seconds": 0.006633708951994777,
+      "stats": {
+        "predictor_nfev": 9,
+        "predictor_njev": 1,
+        "predictor_nlu": 1,
+        "predictor_solves": 9,
+        "nfev": 70,
+        "njev": 1,
+        "nlu": 10,
+        "subflows": 1,
+        "accepted_steps": 7,
+        "output_nfev": 0,
+        "pool_error": 1.9749590675267642e-16,
+        "min_internal": 0.00037821024385358687,
+        "linear_residuals": [
+          2.456016850593679e-16,
+          3.4087137095739685e-16,
+          1.590468976634455e-16,
+          6.068738411466961e-16,
+          2.705579853154004e-16,
+          1.406267712839929e-16,
+          3.868226539685044e-16,
+          1.0101359627441743e-16,
+          6.81346610164698e-17
+        ],
+        "predictor_seconds": 0.0006450838409364223,
+        "raw_nonnegative": true,
+        "raw_join_error": 1.2490487690756486e-15,
+        "modified_ledger_residual": 1.642418043595831e-16,
+        "modified_ledger_quadrature": 7.050336634226164e-18,
+        "endpoint_correction_scaled": 0.0,
+        "continuous_nonnegative": true,
+        "dense_join_error": 1.2490487690756486e-15,
+        "physical_ledger_residual": 3.309714038064412e-11,
+        "physical_ledger_quadrature": 1.0642017561096097e-18,
+        "seconds": 0.005716209067031741
+      },
+      "guard": {
+        "nonnegative": true,
+        "pool": 2.0588506448898811e-16
+      },
+      "targets": {
+        "0.0001": {
+          "actual": {
+            "concentration": 0.00013262858392656528,
+            "flux": 0.00029957265133382055
+          },
+          "passes": true
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 0.013262858392656531,
+            "flux": 0.02995726513338206
+          },
+          "passes": true
+        }
+      },
+      "decomposition": {
+        "nonlinear": 0.014819529361633884,
+        "frozen": 0.013262858392656531,
+        "difference": 0.017191784600330367,
+        "endpoint": {
+          "nonlinear": 0.00560575385018027,
+          "frozen": 0.007532987394996779,
+          "difference": 0.007875275201018085
+        },
+        "worst": {
+          "species": 8,
+          "query": 12,
+          "nonlinear": 0.014819529361633884,
+          "frozen": -0.001403827379715933,
+          "difference": 0.016223356741349816
+        },
+        "identity_roundoff": 0.0,
+        "truth_linearization_gap": 3.431281010150404,
+        "active": {
+          "nonlinear": 0.014819529361633884,
+          "frozen": 0.013262858392656531,
+          "difference": 0.017191784600330367
+        },
+        "inactive": {
+          "nonlinear": 0.010842253316810638,
+          "frozen": 0.011537498438184645,
+          "difference": 0.012261134875066169
+        },
+        "cosine": 0.30708894450855884
+      },
+      "affine_actual": {
+        "concentration": 0.013262858392656531,
+        "flux": 0.02995726513338206
+      },
+      "stage_roundoff": 1.2237696775382996e-15,
+      "oracle_decomposition": {
+        "nonlinear": 0.014819529361633884,
+        "frozen": 0.013266685842690466,
+        "difference": 0.017199208767242704,
+        "endpoint": {
+          "nonlinear": 0.00560575385018027,
+          "frozen": 0.007532987257686817,
+          "difference": 0.007877432168819497
+        },
+        "worst": {
+          "species": 8,
+          "query": 12,
+          "nonlinear": 0.014819529361633884,
+          "frozen": -0.0014011072304064534,
+          "difference": 0.016220636592040337
+        },
+        "identity_roundoff": 0.0,
+        "truth_linearization_gap": 3.431281010150404,
+        "active": {
+          "nonlinear": 0.014819529361633884,
+          "frozen": 0.013266685842690466,
+          "difference": 0.017199208767242704
+        },
+        "inactive": {
+          "nonlinear": 0.010842253316810638,
+          "frozen": 0.011537498850114533,
+          "difference": 0.012261134875066169
+        },
+        "cosine": 0.30706999731342394
+      },
+      "inner_error": {
+        "concentration": 9.02363076083228e-05,
+        "flux": 0.0003364644082663747
+      }
+    },
+    {
+      "key": "0-2-True-True",
+      "reference_key": "0-2",
+      "nonlinear_key": "candidate-0-2-5",
+      "model": "teusink",
+      "h": 0.01,
+      "augmented": true,
+      "whole": true,
+      "reference_ok": true,
+      "nonlinear_actual": {
+        "concentration": 0.05337223224061616,
+        "flux": 0.28426303170301936
+      },
+      "nonlinear_targets": {
+        "0.0001": {
+          "actual": {
+            "concentration": 0.0005337223224061615,
+            "flux": 0.0028426303170301934
+          },
+          "passes": false
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 0.05337223224061616,
+            "flux": 0.28426303170301936
+          },
+          "passes": false
+        }
+      },
+      "oracle_budget": {
+        "concentration": 4.177236807469716e-08,
+        "flux": 4.1710726606925445e-08
+      },
+      "oracle_work": {
+        "seconds": 0.009556583128869534,
+        "nfev": 477,
+        "njev": 0,
+        "nlu": 24
+      },
+      "oracle_loose_work": {
+        "seconds": 0.006071832962334156,
+        "nfev": 280,
+        "njev": 0,
+        "nlu": 24
+      },
+      "status": "success",
+      "seconds": 0.0016616249922662973,
+      "stats": {
+        "predictor_nfev": 9,
+        "predictor_njev": 1,
+        "predictor_nlu": 1,
+        "predictor_solves": 9,
+        "nfev": 0,
+        "njev": 0,
+        "nlu": 0,
+        "subflows": 0,
+        "accepted_steps": 0,
+        "output_nfev": 0,
+        "pool_error": 1.9749590675267642e-16,
+        "min_internal": 0.00037821024385358687,
+        "linear_residuals": [
+          2.456016850593679e-16,
+          3.4087137095739685e-16,
+          1.590468976634455e-16,
+          6.068738411466961e-16,
+          2.705579853154004e-16,
+          1.406267712839929e-16,
+          3.868226539685044e-16,
+          1.0101359627441743e-16,
+          6.81346610164698e-17
+        ],
+        "predictor_seconds": 0.0006338751409202814,
+        "continuous_nonnegative": true,
+        "dense_join_error": 0.0,
+        "physical_ledger_residual": 1.8978108142016441e-10,
+        "physical_ledger_quadrature": 1.773669593516016e-18,
+        "seconds": 0.0008380420040339231
+      },
+      "guard": {
+        "nonnegative": true,
+        "pool": 6.96687373859865e-17
+      },
+      "targets": {
+        "0.0001": {
+          "actual": {
+            "concentration": 0.0002987433678107126,
+            "flux": 0.00029957265133382055
+          },
+          "passes": false
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 0.029874336781071258,
+            "flux": 0.02995726513338206
+          },
+          "passes": false
+        }
+      },
+      "decomposition": {
+        "nonlinear": 0.05337223224061616,
+        "frozen": 0.029874336781071258,
+        "difference": 0.053354767527539745,
+        "endpoint": {
+          "nonlinear": 0.0007108390134360665,
+          "frozen": 0.024264379201374295,
+          "difference": 0.02497521821481036
+        },
+        "worst": {
+          "species": 5,
+          "query": 17,
+          "nonlinear": 0.05337223224061616,
+          "frozen": 1.7464713076411745e-05,
+          "difference": 0.053354767527539745
+        },
+        "identity_roundoff": 0.0,
+        "truth_linearization_gap": 3.431281010150404,
+        "active": {
+          "nonlinear": 0.05337223224061616,
+          "frozen": 0.029874336781071258,
+          "difference": 0.053354767527539745
+        },
+        "inactive": {
+          "nonlinear": 0.010842253272486817,
+          "frozen": 0.011537498575494607,
+          "difference": 0.01226113483074235
+        },
+        "cosine": 0.21278832738686632
+      },
+      "affine_actual": {
+        "concentration": 0.029874336781071258,
+        "flux": 0.02995726513338206
+      },
+      "stage_roundoff": 1.2237696775382996e-15
+    },
+    {
+      "key": "0-3-False-False",
+      "reference_key": "0-3",
+      "nonlinear_key": "candidate-0-3-1",
+      "model": "teusink",
+      "h": 0.03,
+      "augmented": false,
+      "whole": false,
+      "reference_ok": true,
+      "nonlinear_actual": {
+        "concentration": 0.6228021120006503,
+        "flux": 1.09041564527676
+      },
+      "nonlinear_targets": {
+        "0.0001": {
+          "actual": {
+            "concentration": 0.006228021120006502,
+            "flux": 0.010904156452767596
+          },
+          "passes": false
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 0.6228021120006503,
+            "flux": 1.09041564527676
+          },
+          "passes": false
+        }
+      },
+      "oracle_budget": {
+        "concentration": 5.0978778143791597e-08,
+        "flux": 5.095694679072665e-08
+      },
+      "oracle_work": {
+        "seconds": 0.024069332983344793,
+        "nfev": 1227,
+        "njev": 0,
+        "nlu": 64
+      },
+      "oracle_loose_work": {
+        "seconds": 0.01617866614833474,
+        "nfev": 723,
+        "njev": 0,
+        "nlu": 60
+      },
+      "status": "success",
+      "seconds": 0.021456874907016754,
+      "stats": {
+        "predictor_nfev": 6,
+        "predictor_njev": 1,
+        "predictor_nlu": 1,
+        "predictor_solves": 6,
+        "nfev": 217,
+        "njev": 0,
+        "nlu": 42,
+        "subflows": 1,
+        "accepted_steps": 25,
+        "output_nfev": 0,
+        "pool_error": 3.9499181350535284e-16,
+        "min_internal": 0.0003739667500633634,
+        "linear_residuals": [
+          1.6352318643952752e-15,
+          4.1051133262423056e-15,
+          2.2464631547930246e-15,
+          3.08665859674612e-15,
+          1.7509023354232355e-16,
+          3.3548397915609462e-15
+        ],
+        "predictor_seconds": 0.0008720830082893372,
+        "raw_nonnegative": true,
+        "raw_join_error": 3.330796717535063e-15,
+        "modified_ledger_residual": 1.106769826353994e-16,
+        "modified_ledger_quadrature": 1.3152868579417206e-17,
+        "endpoint_correction_scaled": 0.0,
+        "continuous_nonnegative": true,
+        "dense_join_error": 3.330796717535063e-15,
+        "physical_ledger_residual": 4.159670625687251e-10,
+        "physical_ledger_quadrature": 4.2568070244384386e-18,
+        "seconds": 0.020094458013772964
+      },
+      "guard": {
+        "nonnegative": true,
+        "pool": 2.2732863116122277e-16
+      },
+      "targets": {
+        "0.0001": {
+          "actual": {
+            "concentration": 0.005258633111659485,
+            "flux": 0.005646868392102332
+          },
+          "passes": false
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 0.5258633111659485,
+            "flux": 0.5646868392102332
+          },
+          "passes": false
+        }
+      },
+      "decomposition": {
+        "nonlinear": 0.6228021120006503,
+        "frozen": 0.5258633111659485,
+        "difference": 0.6089804799210954,
+        "endpoint": {
+          "nonlinear": 0.4939897205425465,
+          "frozen": 0.1168700527358156,
+          "difference": 0.3771196678067309
+        },
+        "worst": {
+          "species": 10,
+          "query": 9,
+          "nonlinear": -0.6228021120006503,
+          "frozen": -0.45555584574420216,
+          "difference": -0.16724626625644812
+        },
+        "identity_roundoff": 0.0,
+        "truth_linearization_gap": 36.16914965724941,
+        "active": {
+          "nonlinear": 0.6228021120006503,
+          "frozen": 0.5258633111659485,
+          "difference": 0.6089804799210954
+        },
+        "inactive": {
+          "nonlinear": 0.35639424853103324,
+          "frozen": 0.08525761752121525,
+          "difference": 0.4014321377277344
+        },
+        "cosine": 0.29236656060879035
+      },
+      "affine_actual": {
+        "concentration": 0.5258633111659485,
+        "flux": 0.5646868392102332
+      },
+      "stage_roundoff": 3.3969355846475755e-15,
+      "oracle_decomposition": {
+        "nonlinear": 0.6228021120006503,
+        "frozen": 0.52586295761232,
+        "difference": 0.6089841464082577,
+        "endpoint": {
+          "nonlinear": 0.4939897205425465,
+          "frozen": 0.11686931306260065,
+          "difference": 0.3771204074799458
+        },
+        "worst": {
+          "species": 10,
+          "query": 9,
+          "nonlinear": -0.6228021120006503,
+          "frozen": -0.4555531203720035,
+          "difference": -0.16724899162864676
+        },
+        "identity_roundoff": 0.0,
+        "truth_linearization_gap": 36.16914965724941,
+        "active": {
+          "nonlinear": 0.6228021120006503,
+          "frozen": 0.52586295761232,
+          "difference": 0.6089841464082577
+        },
+        "inactive": {
+          "nonlinear": 0.35639424853103324,
+          "frozen": 0.08525761752121525,
+          "difference": 0.4014321377277344
+        },
+        "cosine": 0.2923669928740019
+      },
+      "inner_error": {
+        "concentration": 1.2401583999492246e-05,
+        "flux": 1.24016469251931e-05
+      }
+    },
+    {
+      "key": "0-3-False-True",
+      "reference_key": "0-3",
+      "nonlinear_key": "candidate-0-3-2",
+      "model": "teusink",
+      "h": 0.03,
+      "augmented": false,
+      "whole": true,
+      "reference_ok": true,
+      "nonlinear_actual": {
+        "concentration": 0.829145836506561,
+        "flux": 4.33924944745042
+      },
+      "nonlinear_targets": {
+        "0.0001": {
+          "actual": {
+            "concentration": 0.00829145836506561,
+            "flux": 0.043392494474504203
+          },
+          "passes": false
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 0.829145836506561,
+            "flux": 4.33924944745042
+          },
+          "passes": false
+        }
+      },
+      "oracle_budget": {
+        "concentration": 5.0978778143791597e-08,
+        "flux": 5.095694679072665e-08
+      },
+      "oracle_work": {
+        "seconds": 0.024069332983344793,
+        "nfev": 1227,
+        "njev": 0,
+        "nlu": 64
+      },
+      "oracle_loose_work": {
+        "seconds": 0.01617866614833474,
+        "nfev": 723,
+        "njev": 0,
+        "nlu": 60
+      },
+      "status": "success",
+      "seconds": 0.0018202920909970999,
+      "stats": {
+        "predictor_nfev": 6,
+        "predictor_njev": 1,
+        "predictor_nlu": 1,
+        "predictor_solves": 6,
+        "nfev": 0,
+        "njev": 0,
+        "nlu": 0,
+        "subflows": 0,
+        "accepted_steps": 0,
+        "output_nfev": 0,
+        "pool_error": 0.0,
+        "min_internal": 0.0003739667500633634,
+        "linear_residuals": [
+          1.6352318643952752e-15,
+          4.1051133262423056e-15,
+          2.2464631547930246e-15,
+          3.08665859674612e-15,
+          1.7509023354232355e-16,
+          3.3548397915609462e-15
+        ],
+        "predictor_seconds": 0.0006573749706149101,
+        "continuous_nonnegative": true,
+        "dense_join_error": 0.0,
+        "physical_ledger_residual": 2.5916021239874435e-09,
+        "physical_ledger_quadrature": 3.547339187032032e-18,
+        "seconds": 0.0009012080263346434
+      },
+      "guard": {
+        "nonnegative": true,
+        "pool": 7.119360663082586e-17
+      },
+      "targets": {
+        "0.0001": {
+          "actual": {
+            "concentration": 0.001408196834645659,
+            "flux": 0.001651422950199754
+          },
+          "passes": false
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 0.14081968346456591,
+            "flux": 0.16514229501997543
+          },
+          "passes": false
+        }
+      },
+      "decomposition": {
+        "nonlinear": 0.829145836506561,
+        "frozen": 0.14081968346456591,
+        "difference": 0.8317995625912582,
+        "endpoint": {
+          "nonlinear": 0.11354631554848517,
+          "frozen": 0.14081968346456591,
+          "difference": 0.06030364207632703
+        },
+        "worst": {
+          "species": 5,
+          "query": 26,
+          "nonlinear": 0.829145836506561,
+          "frozen": 0.0017599848316387223,
+          "difference": 0.8273858516749223
+        },
+        "identity_roundoff": 0.0,
+        "truth_linearization_gap": 36.16914965724941,
+        "active": {
+          "nonlinear": 0.829145836506561,
+          "frozen": 0.14081968346456591,
+          "difference": 0.8317995625912582
+        },
+        "inactive": {
+          "nonlinear": 0.35639424853103324,
+          "frozen": 0.08525761745181366,
+          "difference": 0.4014321377277344
+        },
+        "cosine": 0.14720741379460278
+      },
+      "affine_actual": {
+        "concentration": 0.14081968346456591,
+        "flux": 0.16514229501997543
+      },
+      "stage_roundoff": 3.3969355846475755e-15
+    },
+    {
+      "key": "0-3-True-False",
+      "reference_key": "0-3",
+      "nonlinear_key": "candidate-0-3-4",
+      "model": "teusink",
+      "h": 0.03,
+      "augmented": true,
+      "whole": false,
+      "reference_ok": true,
+      "nonlinear_actual": {
+        "concentration": 0.3015071782829142,
+        "flux": 0.7273562819775573
+      },
+      "nonlinear_targets": {
+        "0.0001": {
+          "actual": {
+            "concentration": 0.0030150717828291416,
+            "flux": 0.007273562819775571
+          },
+          "passes": false
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 0.3015071782829142,
+            "flux": 0.7273562819775573
+          },
+          "passes": false
+        }
+      },
+      "oracle_budget": {
+        "concentration": 3.3665230849673696e-08,
+        "flux": 5.199298943651551e-08
+      },
+      "oracle_work": {
+        "seconds": 0.021794958971440792,
+        "nfev": 939,
+        "njev": 0,
+        "nlu": 48
+      },
+      "oracle_loose_work": {
+        "seconds": 0.01097766705788672,
+        "nfev": 519,
+        "njev": 0,
+        "nlu": 34
+      },
+      "status": "success",
+      "seconds": 0.016625500051304698,
+      "stats": {
+        "predictor_nfev": 9,
+        "predictor_njev": 1,
+        "predictor_nlu": 1,
+        "predictor_solves": 9,
+        "nfev": 207,
+        "njev": 1,
+        "nlu": 26,
+        "subflows": 1,
+        "accepted_steps": 22,
+        "output_nfev": 0,
+        "pool_error": 1.9749590675267642e-16,
+        "min_internal": 0.0003739667500633634,
+        "linear_residuals": [
+          1.6352318643952752e-15,
+          4.1051133262423056e-15,
+          2.2464631547930246e-15,
+          3.08665859674612e-15,
+          1.7509023354232355e-16,
+          3.3548397915609462e-15,
+          4.1395767885006364e-15,
+          2.586740328125278e-15,
+          9.3962451122713e-16
+        ],
+        "predictor_seconds": 0.0007014579605311155,
+        "raw_nonnegative": true,
+        "raw_join_error": 3.192013520971102e-15,
+        "modified_ledger_residual": 1.8446163772566566e-16,
+        "modified_ledger_quadrature": 1.398427620137784e-17,
+        "endpoint_correction_scaled": 0.0,
+        "continuous_nonnegative": true,
+        "dense_join_error": 3.192013520971102e-15,
+        "physical_ledger_residual": 1.0593354736447689e-10,
+        "physical_ledger_quadrature": 2.1284035122192193e-18,
+        "seconds": 0.015393167035654187
+      },
+      "guard": {
+        "nonnegative": true,
+        "pool": 3.5276760249870996e-16
+      },
+      "targets": {
+        "0.0001": {
+          "actual": {
+            "concentration": 0.003744697017403071,
+            "flux": 0.0037446970184412125
+          },
+          "passes": false
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 0.37446970174030714,
+            "flux": 0.3744697018441213
+          },
+          "passes": false
+        }
+      },
+      "decomposition": {
+        "nonlinear": 0.3015071782829142,
+        "frozen": 0.37446970174030714,
+        "difference": 0.24261059535615104,
+        "endpoint": {
+          "nonlinear": 0.2385717672972248,
+          "frozen": 0.37446970174030714,
+          "difference": 0.13589793444308235
+        },
+        "worst": {
+          "species": 10,
+          "query": 51,
+          "nonlinear": 0.3015071782829142,
+          "frozen": 0.22747868994862563,
+          "difference": 0.07402848833428854
+        },
+        "identity_roundoff": 0.0,
+        "truth_linearization_gap": 36.16914965724941,
+        "active": {
+          "nonlinear": 0.3015071782829142,
+          "frozen": 0.37446970174030714,
+          "difference": 0.24261059535615104
+        },
+        "inactive": {
+          "nonlinear": 0.22865426684055462,
+          "frozen": 0.08982498983265408,
+          "difference": 0.22832340045565958
+        },
+        "cosine": 0.5394675351347463
+      },
+      "affine_actual": {
+        "concentration": 0.37446970174030714,
+        "flux": 0.3744697018441213
+      },
+      "stage_roundoff": 3.3969355846475755e-15,
+      "oracle_decomposition": {
+        "nonlinear": 0.3015071782829142,
+        "frozen": 0.3744721437749302,
+        "difference": 0.2426134111644086,
+        "endpoint": {
+          "nonlinear": 0.2385717672972248,
+          "frozen": 0.3744721437749302,
+          "difference": 0.13590037647770542
+        },
+        "worst": {
+          "species": 10,
+          "query": 51,
+          "nonlinear": 0.3015071782829142,
+          "frozen": 0.22747824130789615,
+          "difference": 0.07402893697501803
+        },
+        "identity_roundoff": 0.0,
+        "truth_linearization_gap": 36.16914965724941,
+        "active": {
+          "nonlinear": 0.3015071782829142,
+          "frozen": 0.3744721437749302,
+          "difference": 0.2426134111644086
+        },
+        "inactive": {
+          "nonlinear": 0.22865426684055462,
+          "frozen": 0.08982499094307919,
+          "difference": 0.2283234004999834
+        },
+        "cosine": 0.5394673912431575
+      },
+      "inner_error": {
+        "concentration": 1.1163802777068324e-05,
+        "flux": 1.517519520596017e-05
+      }
+    },
+    {
+      "key": "0-3-True-True",
+      "reference_key": "0-3",
+      "nonlinear_key": "candidate-0-3-5",
+      "model": "teusink",
+      "h": 0.03,
+      "augmented": true,
+      "whole": true,
+      "reference_ok": true,
+      "nonlinear_actual": {
+        "concentration": 0.6576045282425431,
+        "flux": 3.3450544960703645
+      },
+      "nonlinear_targets": {
+        "0.0001": {
+          "actual": {
+            "concentration": 0.006576045282425431,
+            "flux": 0.03345054496070364
+          },
+          "passes": false
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 0.6576045282425431,
+            "flux": 3.3450544960703645
+          },
+          "passes": false
+        }
+      },
+      "oracle_budget": {
+        "concentration": 3.3665230849673696e-08,
+        "flux": 5.199298943651551e-08
+      },
+      "oracle_work": {
+        "seconds": 0.021794958971440792,
+        "nfev": 939,
+        "njev": 0,
+        "nlu": 48
+      },
+      "oracle_loose_work": {
+        "seconds": 0.01097766705788672,
+        "nfev": 519,
+        "njev": 0,
+        "nlu": 34
+      },
+      "status": "success",
+      "seconds": 0.0018891668878495693,
+      "stats": {
+        "predictor_nfev": 9,
+        "predictor_njev": 1,
+        "predictor_nlu": 1,
+        "predictor_solves": 9,
+        "nfev": 0,
+        "njev": 0,
+        "nlu": 0,
+        "subflows": 0,
+        "accepted_steps": 0,
+        "output_nfev": 0,
+        "pool_error": 1.9749590675267642e-16,
+        "min_internal": 0.0003739667500633634,
+        "linear_residuals": [
+          1.6352318643952752e-15,
+          4.1051133262423056e-15,
+          2.2464631547930246e-15,
+          3.08665859674612e-15,
+          1.7509023354232355e-16,
+          3.3548397915609462e-15,
+          4.1395767885006364e-15,
+          2.586740328125278e-15,
+          9.3962451122713e-16
+        ],
+        "predictor_seconds": 0.0007677911780774593,
+        "continuous_nonnegative": true,
+        "dense_join_error": 0.0,
+        "physical_ledger_residual": 6.1802462745237906e-09,
+        "physical_ledger_quadrature": 7.094678374064064e-19,
+        "seconds": 0.0010029161348938942
+      },
+      "guard": {
+        "nonnegative": true,
+        "pool": 7.176813838829809e-17
+      },
+      "targets": {
+        "0.0001": {
+          "actual": {
+            "concentration": 0.0017661170015816612,
+            "flux": 0.001789262029902412
+          },
+          "passes": false
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 0.17661170015816613,
+            "flux": 0.17892620299024123
+          },
+          "passes": false
+        }
+      },
+      "decomposition": {
+        "nonlinear": 0.6576045282425431,
+        "frozen": 0.17661170015816613,
+        "difference": 0.6645798209509001,
+        "endpoint": {
+          "nonlinear": 0.11354631554848517,
+          "frozen": 0.14081968346456591,
+          "difference": 0.06030364207632703
+        },
+        "worst": {
+          "species": 5,
+          "query": 23,
+          "nonlinear": 0.6576045282425431,
+          "frozen": -0.006927345260194492,
+          "difference": 0.6645318735027376
+        },
+        "identity_roundoff": 0.0,
+        "truth_linearization_gap": 36.16914965724941,
+        "active": {
+          "nonlinear": 0.6576045282425431,
+          "frozen": 0.17661170015816613,
+          "difference": 0.6645798209509001
+        },
+        "inactive": {
+          "nonlinear": 0.22865426684055462,
+          "frozen": 0.08982498983265408,
+          "difference": 0.2283234004778215
+        },
+        "cosine": 0.30110359209608845
+      },
+      "affine_actual": {
+        "concentration": 0.17661170015816613,
+        "flux": 0.17892620299024123
+      },
+      "stage_roundoff": 3.3969355846475755e-15
+    },
+    {
+      "key": "1-0-False-False",
+      "reference_key": "1-0",
+      "nonlinear_key": "candidate-1-0-1",
+      "model": "kecoli",
+      "h": 0.001,
+      "augmented": false,
+      "whole": false,
+      "reference_ok": true,
+      "nonlinear_actual": {
+        "concentration": 9.420014433668801e-05,
+        "flux": 6.507964664412042e-05,
+        "net_flux": 7.254055879051647e-06
+      },
+      "nonlinear_targets": {
+        "0.0001": {
+          "actual": {
+            "concentration": 9.4200144336688e-07,
+            "flux": 6.507964664412042e-07,
+            "net_flux": 7.254055879051647e-06
+          },
+          "passes": true
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 9.420014433668801e-05,
+            "flux": 6.507964664412042e-05,
+            "net_flux": 7.254055879051647e-06
+          },
+          "passes": true
+        }
+      },
+      "oracle_budget": {
+        "concentration": 6.84866988937125e-07,
+        "flux": 8.076362014417534e-07,
+        "net_flux": 1.370756437891958e-07
+      },
+      "oracle_work": {
+        "seconds": 0.053681416902691126,
+        "nfev": 134,
+        "njev": 0,
+        "nlu": 16
+      },
+      "oracle_loose_work": {
+        "seconds": 0.04333291691727936,
+        "nfev": 84,
+        "njev": 0,
+        "nlu": 14
+      },
+      "status": "success",
+      "seconds": 0.024422416929155588,
+      "stats": {
+        "predictor_nfev": 6,
+        "predictor_njev": 1,
+        "predictor_nlu": 1,
+        "predictor_solves": 6,
+        "nfev": 27,
+        "njev": 1,
+        "nlu": 6,
+        "subflows": 1,
+        "accepted_steps": 2,
+        "output_nfev": 0,
+        "pool_error": 2.134681320598018e-12,
+        "min_internal": 0.0,
+        "linear_residuals": [
+          2.019181979876463e-16,
+          6.253128566310297e-15,
+          6.396974993043569e-15,
+          4.471420196632311e-16,
+          7.402975832423757e-15,
+          6.151864914099922e-16
+        ],
+        "predictor_seconds": 0.0055413751397281885,
+        "raw_nonnegative": true,
+        "raw_join_error": 3.316826713795522e-16,
+        "endpoint_correction_scaled": 0.0,
+        "continuous_nonnegative": true,
+        "dense_join_error": 3.316826713795522e-16,
+        "seconds": 0.01527850003913045
+      },
+      "guard": {
+        "nonnegative": true,
+        "pool": 1.95355884247128e-13
+      },
+      "targets": {
+        "0.0001": {
+          "actual": {
+            "concentration": 5.543072152571412e-06,
+            "flux": 5.164173325540471e-06,
+            "net_flux": 4.343638568119929e-05
+          },
+          "passes": true
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 0.0005543072152571412,
+            "flux": 0.000516417332554047,
+            "net_flux": 4.343638568119929e-05
+          },
+          "passes": true
+        }
+      },
+      "decomposition": {
+        "nonlinear": 9.420014433668801e-05,
+        "frozen": 0.0005543072152571412,
+        "difference": 0.0004726920086864799,
+        "endpoint": {
+          "nonlinear": 3.8082251258163e-05,
+          "frozen": 6.308669988974334e-05,
+          "difference": 7.507063763296638e-05
+        },
+        "worst": {
+          "species": 792,
+          "query": 41,
+          "nonlinear": -9.420014433668801e-05,
+          "frozen": -0.00022381793991571228,
+          "difference": 0.00012961779557902427
+        },
+        "identity_roundoff": 0.0,
+        "truth_linearization_gap": 0.13329543022770035,
+        "active": {
+          "nonlinear": 9.420014433668801e-05,
+          "frozen": 0.0005543072152571412,
+          "difference": 0.0004726920086864799
+        },
+        "inactive": {
+          "nonlinear": 6.396013976838878e-05,
+          "frozen": 4.8060131565288344e-05,
+          "difference": 3.559932300386968e-05
+        },
+        "cosine": 0.2770897344944245
+      },
+      "affine_actual": {
+        "concentration": 0.0005543072152571412,
+        "flux": 0.000516417332554047,
+        "net_flux": 4.343638568119929e-05
+      },
+      "stage_roundoff": 4.64853916937124e-12,
+      "oracle_decomposition": {
+        "nonlinear": 9.420014433668801e-05,
+        "frozen": 0.0001620475068241389,
+        "difference": 0.0002158603110409299,
+        "endpoint": {
+          "nonlinear": 3.8082251258163e-05,
+          "frozen": 3.755983887389584e-05,
+          "difference": 7.564209013205883e-05
+        },
+        "worst": {
+          "species": 792,
+          "query": 41,
+          "nonlinear": -9.420014433668801e-05,
+          "frozen": -1.8781216819087605e-05,
+          "difference": -7.54189275176004e-05
+        },
+        "identity_roundoff": 0.0,
+        "truth_linearization_gap": 0.13329543022770035,
+        "active": {
+          "nonlinear": 9.420014433668801e-05,
+          "frozen": 0.0001620475068241389,
+          "difference": 0.0002158603110409299
+        },
+        "inactive": {
+          "nonlinear": 6.396013976838878e-05,
+          "frozen": 4.8060131565288344e-05,
+          "difference": 3.559932300386968e-05
+        },
+        "cosine": 0.06668133523996785
+      },
+      "inner_error": {
+        "concentration": 0.0005355866000645353,
+        "flux": 0.0006086579116741178,
+        "net_flux": 4.806625581175226e-05
+      }
+    },
+    {
+      "key": "1-0-False-True",
+      "reference_key": "1-0",
+      "nonlinear_key": "candidate-1-0-2",
+      "model": "kecoli",
+      "h": 0.001,
+      "augmented": false,
+      "whole": true,
+      "reference_ok": true,
+      "nonlinear_actual": {
+        "concentration": 0.0008276219064305554,
+        "flux": 0.0009071519941348287,
+        "net_flux": 0.00025518437045359097
+      },
+      "nonlinear_targets": {
+        "0.0001": {
+          "actual": {
+            "concentration": 8.276219064305553e-06,
+            "flux": 9.071519941348289e-06,
+            "net_flux": 0.00025518437045359097
+          },
+          "passes": true
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 0.0008276219064305554,
+            "flux": 0.0009071519941348287,
+            "net_flux": 0.00025518437045359097
+          },
+          "passes": true
+        }
+      },
+      "oracle_budget": {
+        "concentration": 6.84866988937125e-07,
+        "flux": 8.076362014417534e-07,
+        "net_flux": 1.370756437891958e-07
+      },
+      "oracle_work": {
+        "seconds": 0.053681416902691126,
+        "nfev": 134,
+        "njev": 0,
+        "nlu": 16
+      },
+      "oracle_loose_work": {
+        "seconds": 0.04333291691727936,
+        "nfev": 84,
+        "njev": 0,
+        "nlu": 14
+      },
+      "status": "success",
+      "seconds": 0.014667709125205874,
+      "stats": {
+        "predictor_nfev": 6,
+        "predictor_njev": 1,
+        "predictor_nlu": 1,
+        "predictor_solves": 6,
+        "nfev": 0,
+        "njev": 0,
+        "nlu": 0,
+        "subflows": 0,
+        "accepted_steps": 0,
+        "output_nfev": 0,
+        "pool_error": 2.134681320598018e-12,
+        "min_internal": 0.0,
+        "linear_residuals": [
+          2.019181979876463e-16,
+          6.253128566310297e-15,
+          6.396974993043569e-15,
+          4.471420196632311e-16,
+          7.402975832423757e-15,
+          6.151864914099922e-16
+        ],
+        "predictor_seconds": 0.005504082888364792,
+        "continuous_nonnegative": true,
+        "dense_join_error": 0.0,
+        "seconds": 0.005691707832738757
+      },
+      "guard": {
+        "nonnegative": true,
+        "pool": 2.8599778795213006e-13
+      },
+      "targets": {
+        "0.0001": {
+          "actual": {
+            "concentration": 9.446856751402818e-06,
+            "flux": 1.0564687183805645e-05,
+            "net_flux": 8.99242974386671e-05
+          },
+          "passes": true
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 0.0009446856751402818,
+            "flux": 0.0010564687183805645,
+            "net_flux": 8.99242974386671e-05
+          },
+          "passes": true
+        }
+      },
+      "decomposition": {
+        "nonlinear": 0.0008276219064305554,
+        "frozen": 0.0009446856751402818,
+        "difference": 0.0013075309316326923,
+        "endpoint": {
+          "nonlinear": 0.00014206404103209627,
+          "frozen": 0.0008303896518547685,
+          "difference": 0.0009724536928868647
+        },
+        "worst": {
+          "species": 792,
+          "query": 19,
+          "nonlinear": 0.0008276219064305554,
+          "frozen": -0.00012183353699357009,
+          "difference": 0.0009494554434241254
+        },
+        "identity_roundoff": 0.0,
+        "truth_linearization_gap": 0.13329543022770035,
+        "active": {
+          "nonlinear": 0.0008276219064305554,
+          "frozen": 0.0009446856751402818,
+          "difference": 0.0013075309316326923
+        },
+        "inactive": {
+          "nonlinear": 6.396013976838878e-05,
+          "frozen": 4.8060131565288344e-05,
+          "difference": 3.559932300386968e-05
+        },
+        "cosine": -0.08658566830754326
+      },
+      "affine_actual": {
+        "concentration": 0.0009446856751402818,
+        "flux": 0.0010564687183805645,
+        "net_flux": 8.99242974386671e-05
+      },
+      "stage_roundoff": 4.64853916937124e-12
+    },
+    {
+      "key": "1-0-True-False",
+      "reference_key": "1-0",
+      "nonlinear_key": "candidate-1-0-4",
+      "model": "kecoli",
+      "h": 0.001,
+      "augmented": true,
+      "whole": false,
+      "reference_ok": true,
+      "nonlinear_actual": {
+        "concentration": 0.00020898318270720732,
+        "flux": 0.00020911094797867343,
+        "net_flux": 2.1593261924284865e-05
+      },
+      "nonlinear_targets": {
+        "0.0001": {
+          "actual": {
+            "concentration": 2.089831827072073e-06,
+            "flux": 2.0911094797867343e-06,
+            "net_flux": 2.1593261924284865e-05
+          },
+          "passes": true
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 0.00020898318270720732,
+            "flux": 0.00020911094797867343,
+            "net_flux": 2.1593261924284865e-05
+          },
+          "passes": true
+        }
+      },
+      "oracle_budget": {
+        "concentration": 6.847869425758699e-07,
+        "flux": 6.8473224458193e-07,
+        "net_flux": 1.8574319214552156e-07
+      },
+      "oracle_work": {
+        "seconds": 0.054968792013823986,
+        "nfev": 126,
+        "njev": 0,
+        "nlu": 16
+      },
+      "oracle_loose_work": {
+        "seconds": 0.025915166828781366,
+        "nfev": 58,
+        "njev": 0,
+        "nlu": 8
+      },
+      "status": "success",
+      "seconds": 0.025655833072960377,
+      "stats": {
+        "predictor_nfev": 9,
+        "predictor_njev": 1,
+        "predictor_nlu": 1,
+        "predictor_solves": 9,
+        "nfev": 27,
+        "njev": 1,
+        "nlu": 6,
+        "subflows": 1,
+        "accepted_steps": 2,
+        "output_nfev": 0,
+        "pool_error": 2.134681320598018e-12,
+        "min_internal": 0.0,
+        "linear_residuals": [
+          2.019181979876463e-16,
+          6.253128566310297e-15,
+          6.396974993043569e-15,
+          4.471420196632311e-16,
+          7.402975832423757e-15,
+          6.151864914099922e-16,
+          1.8026081192925143e-15,
+          2.0128045826388244e-15,
+          3.311189066265353e-15
+        ],
+        "predictor_seconds": 0.006251875078305602,
+        "raw_nonnegative": true,
+        "raw_join_error": 4.4281879654759934e-16,
+        "endpoint_correction_scaled": 0.0,
+        "continuous_nonnegative": true,
+        "dense_join_error": 4.4281879654759934e-16,
+        "seconds": 0.016248875064775348
+      },
+      "guard": {
+        "nonnegative": true,
+        "pool": 3.771687823173051e-13
+      },
+      "targets": {
+        "0.0001": {
+          "actual": {
+            "concentration": 5.247374176091233e-06,
+            "flux": 5.939256066731939e-06,
+            "net_flux": 4.674827914438912e-05
+          },
+          "passes": true
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 0.0005247374176091234,
+            "flux": 0.0005939256066731938,
+            "net_flux": 4.674827914438912e-05
+          },
+          "passes": true
+        }
+      },
+      "decomposition": {
+        "nonlinear": 0.00020898318270720732,
+        "frozen": 0.0005247374176091234,
+        "difference": 0.0004814159314176711,
+        "endpoint": {
+          "nonlinear": 0.00011377967144223163,
+          "frozen": 9.219093604930917e-05,
+          "difference": 9.19527717018273e-05
+        },
+        "worst": {
+          "species": 2670,
+          "query": 10,
+          "nonlinear": -0.00020898318270720732,
+          "frozen": -8.85806913709779e-05,
+          "difference": -0.00012040249133622941
+        },
+        "identity_roundoff": 0.0,
+        "truth_linearization_gap": 0.13329543022770035,
+        "active": {
+          "nonlinear": 0.00020898318270720732,
+          "frozen": 0.0005247374176091234,
+          "difference": 0.0004814159314176711
+        },
+        "inactive": {
+          "nonlinear": 3.7288843769326774e-05,
+          "frozen": 1.4413742010563362e-05,
+          "difference": 3.544372856326285e-05
+        },
+        "cosine": 0.39646035640667493
+      },
+      "affine_actual": {
+        "concentration": 0.0005247374176091234,
+        "flux": 0.0005939256066731938,
+        "net_flux": 4.674827914438912e-05
+      },
+      "stage_roundoff": 4.64853916937124e-12,
+      "oracle_decomposition": {
+        "nonlinear": 0.00020898318270720732,
+        "frozen": 1.974271956512345e-05,
+        "difference": 0.00021015069005016706,
+        "endpoint": {
+          "nonlinear": 0.00011377967144223163,
+          "frozen": 1.6912971980617225e-05,
+          "difference": 0.00011081951365970805
+        },
+        "worst": {
+          "species": 2670,
+          "query": 10,
+          "nonlinear": -0.00020898318270720732,
+          "frozen": 1.1675073429597493e-06,
+          "difference": -0.00021015069005016706
+        },
+        "identity_roundoff": 0.0,
+        "truth_linearization_gap": 0.13329543022770035,
+        "active": {
+          "nonlinear": 0.00020898318270720732,
+          "frozen": 1.974271956512345e-05,
+          "difference": 0.00021015069005016706
+        },
+        "inactive": {
+          "nonlinear": 3.7288843769326774e-05,
+          "frozen": 1.4390005044379596e-05,
+          "difference": 3.544262765920196e-05
+        },
+        "cosine": 0.04988640359362023
+      },
+      "inner_error": {
+        "concentration": 0.0005248494018227115,
+        "flux": 0.000593960962067428,
+        "net_flux": 4.6644842743892895e-05
+      }
+    },
+    {
+      "key": "1-0-True-True",
+      "reference_key": "1-0",
+      "nonlinear_key": "candidate-1-0-5",
+      "model": "kecoli",
+      "h": 0.001,
+      "augmented": true,
+      "whole": true,
+      "reference_ok": true,
+      "nonlinear_actual": {
+        "concentration": 0.00022881343909014198,
+        "flux": 0.0002713323008402916,
+        "net_flux": 0.0001711375777667576
+      },
+      "nonlinear_targets": {
+        "0.0001": {
+          "actual": {
+            "concentration": 2.2881343909014194e-06,
+            "flux": 2.713323008402916e-06,
+            "net_flux": 0.0001711375777667576
+          },
+          "passes": true
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 0.00022881343909014198,
+            "flux": 0.0002713323008402916,
+            "net_flux": 0.0001711375777667576
+          },
+          "passes": true
+        }
+      },
+      "oracle_budget": {
+        "concentration": 6.847869425758699e-07,
+        "flux": 6.8473224458193e-07,
+        "net_flux": 1.8574319214552156e-07
+      },
+      "oracle_work": {
+        "seconds": 0.054968792013823986,
+        "nfev": 126,
+        "njev": 0,
+        "nlu": 16
+      },
+      "oracle_loose_work": {
+        "seconds": 0.025915166828781366,
+        "nfev": 58,
+        "njev": 0,
+        "nlu": 8
+      },
+      "status": "success",
+      "seconds": 0.01562904193997383,
+      "stats": {
+        "predictor_nfev": 9,
+        "predictor_njev": 1,
+        "predictor_nlu": 1,
+        "predictor_solves": 9,
+        "nfev": 0,
+        "njev": 0,
+        "nlu": 0,
+        "subflows": 0,
+        "accepted_steps": 0,
+        "output_nfev": 0,
+        "pool_error": 2.134681320598018e-12,
+        "min_internal": 0.0,
+        "linear_residuals": [
+          2.019181979876463e-16,
+          6.253128566310297e-15,
+          6.396974993043569e-15,
+          4.471420196632311e-16,
+          7.402975832423757e-15,
+          6.151864914099922e-16,
+          1.8026081192925143e-15,
+          2.0128045826388244e-15,
+          3.311189066265353e-15
+        ],
+        "predictor_seconds": 0.006257333094254136,
+        "continuous_nonnegative": true,
+        "dense_join_error": 0.0,
+        "seconds": 0.006530541926622391
+      },
+      "guard": {
+        "nonnegative": true,
+        "pool": 1.5325761493212288e-13
+      },
+      "targets": {
+        "0.0001": {
+          "actual": {
+            "concentration": 1.0540306675589402e-05,
+            "flux": 1.1801116708829817e-05,
+            "net_flux": 0.00010901557113457401
+          },
+          "passes": true
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 0.0010540306675589403,
+            "flux": 0.0011801116708829815,
+            "net_flux": 0.00010901557113457401
+          },
+          "passes": true
+        }
+      },
+      "decomposition": {
+        "nonlinear": 0.00022881343909014198,
+        "frozen": 0.0010540306675589403,
+        "difference": 0.0011421867825663682,
+        "endpoint": {
+          "nonlinear": 0.00014206404103209627,
+          "frozen": 0.0008303895162806601,
+          "difference": 0.0009724535573127564
+        },
+        "worst": {
+          "species": 792,
+          "query": 15,
+          "nonlinear": 0.00022881343909014198,
+          "frozen": -4.452389295938498e-06,
+          "difference": 0.00023326582838608049
+        },
+        "identity_roundoff": 0.0,
+        "truth_linearization_gap": 0.13329543022770035,
+        "active": {
+          "nonlinear": 0.00022881343909014198,
+          "frozen": 0.0010540306675589403,
+          "difference": 0.0011421867825663682
+        },
+        "inactive": {
+          "nonlinear": 3.7288843769326774e-05,
+          "frozen": 1.441393499402827e-05,
+          "difference": 3.544372856326285e-05
+        },
+        "cosine": 0.045606151970161754
+      },
+      "affine_actual": {
+        "concentration": 0.0010540306675589403,
+        "flux": 0.0011801116708829815,
+        "net_flux": 0.00010901557113457401
+      },
+      "stage_roundoff": 4.64853916937124e-12
+    },
+    {
+      "key": "1-1-False-False",
+      "reference_key": "1-1",
+      "nonlinear_key": "candidate-1-1-1",
+      "model": "kecoli",
+      "h": 0.003,
+      "augmented": false,
+      "whole": false,
+      "reference_ok": true,
+      "nonlinear_actual": {
+        "concentration": 0.013123189225709483,
+        "flux": 0.013124023314846252,
+        "net_flux": 0.001103376307859814
+      },
+      "nonlinear_targets": {
+        "0.0001": {
+          "actual": {
+            "concentration": 0.0001312318922570948,
+            "flux": 0.00013124023314846253,
+            "net_flux": 0.001103376307859814
+          },
+          "passes": true
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 0.013123189225709483,
+            "flux": 0.013124023314846252,
+            "net_flux": 0.001103376307859814
+          },
+          "passes": true
+        }
+      },
+      "oracle_budget": {
+        "concentration": 2.9540755199184226e-07,
+        "flux": 2.952646889237598e-07,
+        "net_flux": 2.8726626935667454e-08
+      },
+      "oracle_work": {
+        "seconds": 0.13941720803268254,
+        "nfev": 372,
+        "njev": 0,
+        "nlu": 42
+      },
+      "oracle_loose_work": {
+        "seconds": 0.08902091695927083,
+        "nfev": 204,
+        "njev": 0,
+        "nlu": 28
+      },
+      "status": "success",
+      "seconds": 0.029390834039077163,
+      "stats": {
+        "predictor_nfev": 6,
+        "predictor_njev": 1,
+        "predictor_nlu": 1,
+        "predictor_solves": 6,
+        "nfev": 49,
+        "njev": 1,
+        "nlu": 8,
+        "subflows": 1,
+        "accepted_steps": 4,
+        "output_nfev": 0,
+        "pool_error": 7.471023799610061e-12,
+        "min_internal": 0.0,
+        "linear_residuals": [
+          3.2150254304020126e-14,
+          2.549911712451437e-14,
+          8.082493861498373e-16,
+          3.712284882257348e-15,
+          3.158729474704478e-14,
+          2.190581511730686e-14
+        ],
+        "predictor_seconds": 0.0057634999975562096,
+        "raw_nonnegative": true,
+        "raw_join_error": 8.820776155579912e-16,
+        "endpoint_correction_scaled": 0.0,
+        "continuous_nonnegative": true,
+        "dense_join_error": 8.820776155579912e-16,
+        "seconds": 0.02015029196627438
+      },
+      "guard": {
+        "nonnegative": true,
+        "pool": 5.728126306614452e-13
+      },
+      "targets": {
+        "0.0001": {
+          "actual": {
+            "concentration": 0.00013096840526481362,
+            "flux": 0.00013097679143156721,
+            "net_flux": 0.0011062126688090625
+          },
+          "passes": true
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 0.013096840526481364,
+            "flux": 0.01309767914315672,
+            "net_flux": 0.0011062126688090625
+          },
+          "passes": true
+        }
+      },
+      "decomposition": {
+        "nonlinear": 0.013123189225709483,
+        "frozen": 0.013096840526481364,
+        "difference": 0.001639964835988432,
+        "endpoint": {
+          "nonlinear": 0.0020558983122157004,
+          "frozen": 0.0020657301358540056,
+          "difference": 0.0004072232502823616
+        },
+        "worst": {
+          "species": 2672,
+          "query": 9,
+          "nonlinear": -0.013123189225709483,
+          "frozen": -0.013096840526481364,
+          "difference": -2.6348699228118805e-05
+        },
+        "identity_roundoff": 0.0,
+        "truth_linearization_gap": 1.796091296848852,
+        "active": {
+          "nonlinear": 0.013123189225709483,
+          "frozen": 0.013096840526481364,
+          "difference": 0.0007722660001030218
+        },
+        "inactive": {
+          "nonlinear": 0.003767095585832244,
+          "frozen": 0.00375388094664379,
+          "difference": 0.001639964835988432
+        },
+        "cosine": 0.996390800288655
+      },
+      "affine_actual": {
+        "concentration": 0.013096840526481364,
+        "flux": 0.01309767914315672,
+        "net_flux": 0.0011062126688090625
+      },
+      "stage_roundoff": 9.312190355337335e-12,
+      "oracle_decomposition": {
+        "nonlinear": 0.013123189225709483,
+        "frozen": 0.013066614623018082,
+        "difference": 0.0016399645709341431,
+        "endpoint": {
+          "nonlinear": 0.0020558983122157004,
+          "frozen": 0.002067029033175234,
+          "difference": 0.00040715149192248947
+        },
+        "worst": {
+          "species": 2672,
+          "query": 9,
+          "nonlinear": -0.013123189225709483,
+          "frozen": -0.013066614623018082,
+          "difference": -5.6574602691400466e-05
+        },
+        "identity_roundoff": 0.0,
+        "truth_linearization_gap": 1.796091296848852,
+        "active": {
+          "nonlinear": 0.013123189225709483,
+          "frozen": 0.013066614623018082,
+          "difference": 0.0007687799612623198
+        },
+        "inactive": {
+          "nonlinear": 0.003767095585832244,
+          "frozen": 0.003753881130371829,
+          "difference": 0.0016399645709341431
+        },
+        "cosine": 0.996198869501186
+      },
+      "inner_error": {
+        "concentration": 0.0009145640908708313,
+        "flux": 0.0010363860322370718,
+        "net_flux": 0.00011919095081488828
+      }
+    },
+    {
+      "key": "1-1-False-True",
+      "reference_key": "1-1",
+      "nonlinear_key": "candidate-1-1-2",
+      "model": "kecoli",
+      "h": 0.003,
+      "augmented": false,
+      "whole": true,
+      "reference_ok": true,
+      "nonlinear_actual": {
+        "concentration": 0.019905184339514454,
+        "flux": 0.016505451815876447,
+        "net_flux": 0.0024490752250961563
+      },
+      "nonlinear_targets": {
+        "0.0001": {
+          "actual": {
+            "concentration": 0.00019905184339514452,
+            "flux": 0.0001650545181587645,
+            "net_flux": 0.0024490752250961563
+          },
+          "passes": true
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 0.019905184339514454,
+            "flux": 0.016505451815876447,
+            "net_flux": 0.0024490752250961563
+          },
+          "passes": true
+        }
+      },
+      "oracle_budget": {
+        "concentration": 2.9540755199184226e-07,
+        "flux": 2.952646889237598e-07,
+        "net_flux": 2.8726626935667454e-08
+      },
+      "oracle_work": {
+        "seconds": 0.13941720803268254,
+        "nfev": 372,
+        "njev": 0,
+        "nlu": 42
+      },
+      "oracle_loose_work": {
+        "seconds": 0.08902091695927083,
+        "nfev": 204,
+        "njev": 0,
+        "nlu": 28
+      },
+      "status": "success",
+      "seconds": 0.014881958020851016,
+      "stats": {
+        "predictor_nfev": 6,
+        "predictor_njev": 1,
+        "predictor_nlu": 1,
+        "predictor_solves": 6,
+        "nfev": 0,
+        "njev": 0,
+        "nlu": 0,
+        "subflows": 0,
+        "accepted_steps": 0,
+        "output_nfev": 0,
+        "pool_error": 7.471023799610061e-12,
+        "min_internal": 0.0,
+        "linear_residuals": [
+          3.2150254304020126e-14,
+          2.549911712451437e-14,
+          8.082493861498373e-16,
+          3.712284882257348e-15,
+          3.158729474704478e-14,
+          2.190581511730686e-14
+        ],
+        "predictor_seconds": 0.005766250193119049,
+        "continuous_nonnegative": true,
+        "dense_join_error": 0.0,
+        "seconds": 0.005960250040516257
+      },
+      "guard": {
+        "nonnegative": true,
+        "pool": 3.262789344260495e-13
+      },
+      "targets": {
+        "0.0001": {
+          "actual": {
+            "concentration": 9.843743581936694e-05,
+            "flux": 9.766643991823716e-05,
+            "net_flux": 0.0004582315222131111
+          },
+          "passes": true
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 0.009843743581936695,
+            "flux": 0.009766643991823715,
+            "net_flux": 0.0004582315222131111
+          },
+          "passes": true
+        }
+      },
+      "decomposition": {
+        "nonlinear": 0.019905184339514454,
+        "frozen": 0.009843743581936695,
+        "difference": 0.018895705628755352,
+        "endpoint": {
+          "nonlinear": 0.003789838763468045,
+          "frozen": 0.005709556886612212,
+          "difference": 0.009499395650080258
+        },
+        "worst": {
+          "species": 792,
+          "query": 13,
+          "nonlinear": 0.019905184339514454,
+          "frozen": 0.005352752947966892,
+          "difference": 0.014552431391547563
+        },
+        "identity_roundoff": 0.0,
+        "truth_linearization_gap": 1.796091296848852,
+        "active": {
+          "nonlinear": 0.019905184339514454,
+          "frozen": 0.009843743581936695,
+          "difference": 0.018895705628755352
+        },
+        "inactive": {
+          "nonlinear": 0.003767095585832244,
+          "frozen": 0.00375388094664379,
+          "difference": 0.0016399649685155764
+        },
+        "cosine": 0.3337715864670187
+      },
+      "affine_actual": {
+        "concentration": 0.009843743581936695,
+        "flux": 0.009766643991823715,
+        "net_flux": 0.0004582315222131111
+      },
+      "stage_roundoff": 9.312190355337335e-12
+    },
+    {
+      "key": "1-1-True-False",
+      "reference_key": "1-1",
+      "nonlinear_key": "candidate-1-1-4",
+      "model": "kecoli",
+      "h": 0.003,
+      "augmented": true,
+      "whole": false,
+      "reference_ok": true,
+      "nonlinear_actual": {
+        "concentration": 0.0012085013320209627,
+        "flux": 0.0012082956510615411,
+        "net_flux": 0.00031064401382720105
+      },
+      "nonlinear_targets": {
+        "0.0001": {
+          "actual": {
+            "concentration": 1.2085013320209626e-05,
+            "flux": 1.208295651061541e-05,
+            "net_flux": 0.00031064401382720105
+          },
+          "passes": true
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 0.0012085013320209627,
+            "flux": 0.0012082956510615411,
+            "net_flux": 0.00031064401382720105
+          },
+          "passes": true
+        }
+      },
+      "oracle_budget": {
+        "concentration": 5.564740006132926e-07,
+        "flux": 7.151626102374706e-07,
+        "net_flux": 1.2076077938131935e-07
+      },
+      "oracle_work": {
+        "seconds": 0.08265074994415045,
+        "nfev": 267,
+        "njev": 0,
+        "nlu": 22
+      },
+      "oracle_loose_work": {
+        "seconds": 0.04929062491282821,
+        "nfev": 141,
+        "njev": 0,
+        "nlu": 14
+      },
+      "status": "success",
+      "seconds": 0.027840583119541407,
+      "stats": {
+        "predictor_nfev": 9,
+        "predictor_njev": 1,
+        "predictor_nlu": 1,
+        "predictor_solves": 9,
+        "nfev": 44,
+        "njev": 1,
+        "nlu": 6,
+        "subflows": 1,
+        "accepted_steps": 3,
+        "output_nfev": 0,
+        "pool_error": 7.471023799610061e-12,
+        "min_internal": 0.0,
+        "linear_residuals": [
+          3.2150254304020126e-14,
+          2.549911712451437e-14,
+          8.082493861498373e-16,
+          3.712284882257348e-15,
+          3.158729474704478e-14,
+          2.190581511730686e-14,
+          2.0430864526746108e-14,
+          3.327614108627101e-14,
+          1.1476032306024437e-13
+        ],
+        "predictor_seconds": 0.006458957912400365,
+        "raw_nonnegative": true,
+        "raw_join_error": 6.632279955695999e-16,
+        "endpoint_correction_scaled": 0.0,
+        "continuous_nonnegative": true,
+        "dense_join_error": 6.632279955695999e-16,
+        "seconds": 0.01861229189671576
+      },
+      "guard": {
+        "nonnegative": true,
+        "pool": 5.431809516065474e-13
+      },
+      "targets": {
+        "0.0001": {
+          "actual": {
+            "concentration": 1.2756512440758717e-05,
+            "flux": 1.2754615558624288e-05,
+            "net_flux": 0.0003807532193298246
+          },
+          "passes": true
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 0.001275651244075872,
+            "flux": 0.0012754615558624289,
+            "net_flux": 0.0003807532193298246
+          },
+          "passes": true
+        }
+      },
+      "decomposition": {
+        "nonlinear": 0.0012085013320209627,
+        "frozen": 0.001275651244075872,
+        "difference": 0.0008764171972510846,
+        "endpoint": {
+          "nonlinear": 0.0010905655316273408,
+          "frozen": 0.0011274988785288443,
+          "difference": 0.00036383323545505523
+        },
+        "worst": {
+          "species": 2670,
+          "query": 56,
+          "nonlinear": 0.0012085013320209627,
+          "frozen": 0.0012557341341608947,
+          "difference": -4.7232802139932084e-05
+        },
+        "identity_roundoff": 0.0,
+        "truth_linearization_gap": 1.796091296848852,
+        "active": {
+          "nonlinear": 0.0012085013320209627,
+          "frozen": 0.001275651244075872,
+          "difference": 0.0008764171972510846
+        },
+        "inactive": {
+          "nonlinear": 0.0006813812817385534,
+          "frozen": 0.0006925515795884868,
+          "difference": 0.00023588466688517697
+        },
+        "cosine": 0.9271753254717975
+      },
+      "affine_actual": {
+        "concentration": 0.001275651244075872,
+        "flux": 0.0012754615558624289,
+        "net_flux": 0.0003807532193298246
+      },
+      "stage_roundoff": 1.1637567202858996e-11,
+      "oracle_decomposition": {
+        "nonlinear": 0.0012085013320209627,
+        "frozen": 0.00116858136127971,
+        "difference": 0.0005558404886033923,
+        "endpoint": {
+          "nonlinear": 0.0010905655316273408,
+          "frozen": 0.0010693730473376507,
+          "difference": 0.00036363491914126396
+        },
+        "worst": {
+          "species": 2670,
+          "query": 56,
+          "nonlinear": 0.0012085013320209627,
+          "frozen": 0.0011426722682572094,
+          "difference": 6.582906376375328e-05
+        },
+        "identity_roundoff": 0.0,
+        "truth_linearization_gap": 1.796091296848852,
+        "active": {
+          "nonlinear": 0.0012085013320209627,
+          "frozen": 0.00116858136127971,
+          "difference": 0.0005558404886033923
+        },
+        "inactive": {
+          "nonlinear": 0.0006813812817385534,
+          "frozen": 0.0006925523666864733,
+          "difference": 0.00023588572710233285
+        },
+        "cosine": 0.9467630764389852
+      },
+      "inner_error": {
+        "concentration": 0.0009501211122966645,
+        "flux": 0.0010767536702678156,
+        "net_flux": 7.232031534243706e-05
+      }
+    },
+    {
+      "key": "1-1-True-True",
+      "reference_key": "1-1",
+      "nonlinear_key": "candidate-1-1-5",
+      "model": "kecoli",
+      "h": 0.003,
+      "augmented": true,
+      "whole": true,
+      "reference_ok": true,
+      "nonlinear_actual": {
+        "concentration": 0.00788150752034192,
+        "flux": 0.009514383870626595,
+        "net_flux": 0.0016978255313545559
+      },
+      "nonlinear_targets": {
+        "0.0001": {
+          "actual": {
+            "concentration": 7.881507520341919e-05,
+            "flux": 9.514383870626594e-05,
+            "net_flux": 0.0016978255313545559
+          },
+          "passes": true
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 0.00788150752034192,
+            "flux": 0.009514383870626595,
+            "net_flux": 0.0016978255313545559
+          },
+          "passes": true
+        }
+      },
+      "oracle_budget": {
+        "concentration": 5.564740006132926e-07,
+        "flux": 7.151626102374706e-07,
+        "net_flux": 1.2076077938131935e-07
+      },
+      "oracle_work": {
+        "seconds": 0.08265074994415045,
+        "nfev": 267,
+        "njev": 0,
+        "nlu": 22
+      },
+      "oracle_loose_work": {
+        "seconds": 0.04929062491282821,
+        "nfev": 141,
+        "njev": 0,
+        "nlu": 14
+      },
+      "status": "success",
+      "seconds": 0.016054125037044287,
+      "stats": {
+        "predictor_nfev": 9,
+        "predictor_njev": 1,
+        "predictor_nlu": 1,
+        "predictor_solves": 9,
+        "nfev": 0,
+        "njev": 0,
+        "nlu": 0,
+        "subflows": 0,
+        "accepted_steps": 0,
+        "output_nfev": 0,
+        "pool_error": 7.471023799610061e-12,
+        "min_internal": 0.0,
+        "linear_residuals": [
+          3.2150254304020126e-14,
+          2.549911712451437e-14,
+          8.082493861498373e-16,
+          3.712284882257348e-15,
+          3.158729474704478e-14,
+          2.190581511730686e-14,
+          2.0430864526746108e-14,
+          3.327614108627101e-14,
+          1.1476032306024437e-13
+        ],
+        "predictor_seconds": 0.00651341606862843,
+        "continuous_nonnegative": true,
+        "dense_join_error": 0.0,
+        "seconds": 0.0067481661681085825
+      },
+      "guard": {
+        "nonnegative": true,
+        "pool": 4.2861200699739724e-13
+      },
+      "targets": {
+        "0.0001": {
+          "actual": {
+            "concentration": 0.00011918231887131947,
+            "flux": 0.0001252134658364002,
+            "net_flux": 0.0005691965677600488
+          },
+          "passes": true
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 0.011918231887131947,
+            "flux": 0.01252134658364002,
+            "net_flux": 0.0005691965677600488
+          },
+          "passes": true
+        }
+      },
+      "decomposition": {
+        "nonlinear": 0.00788150752034192,
+        "frozen": 0.011918231887131947,
+        "difference": 0.019727773416924638,
+        "endpoint": {
+          "nonlinear": 0.003789838763468045,
+          "frozen": 0.005709556886612212,
+          "difference": 0.009499395650080258
+        },
+        "worst": {
+          "species": 792,
+          "query": 48,
+          "nonlinear": -0.00788150752034192,
+          "frozen": 0.01162836129255571,
+          "difference": -0.01950986881289763
+        },
+        "identity_roundoff": 0.0,
+        "truth_linearization_gap": 1.796091296848852,
+        "active": {
+          "nonlinear": 0.00788150752034192,
+          "frozen": 0.011918231887131947,
+          "difference": 0.019727773416924638
+        },
+        "inactive": {
+          "nonlinear": 0.0006813810849640568,
+          "frozen": 0.0006925517763629834,
+          "difference": 0.00023588466688517697
+        },
+        "cosine": -0.2986581379347175
+      },
+      "affine_actual": {
+        "concentration": 0.011918231887131947,
+        "flux": 0.01252134658364002,
+        "net_flux": 0.0005691965677600488
+      },
+      "stage_roundoff": 1.1637567202858996e-11
+    },
+    {
+      "key": "1-2-False-False",
+      "reference_key": "1-2",
+      "nonlinear_key": "candidate-1-2-1",
+      "model": "kecoli",
+      "h": 0.01,
+      "augmented": false,
+      "whole": false,
+      "reference_ok": true,
+      "nonlinear_actual": {
+        "concentration": 1.3172428206665776,
+        "flux": 1.3173320380814355,
+        "net_flux": 0.09612590645826884
+      },
+      "nonlinear_targets": {
+        "0.0001": {
+          "actual": {
+            "concentration": 0.013172428206665773,
+            "flux": 0.013173320380814355,
+            "net_flux": 0.09612590645826884
+          },
+          "passes": true
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 1.3172428206665776,
+            "flux": 1.3173320380814355,
+            "net_flux": 0.09612590645826884
+          },
+          "passes": false
+        }
+      },
+      "oracle_budget": {
+        "concentration": 3.079747014842254e-07,
+        "flux": 3.080405648868071e-07,
+        "net_flux": 2.887423172563792e-08
+      },
+      "oracle_work": {
+        "seconds": 0.26457441598176956,
+        "nfev": 981,
+        "njev": 0,
+        "nlu": 62
+      },
+      "oracle_loose_work": {
+        "seconds": 0.20825116708874702,
+        "nfev": 582,
+        "njev": 0,
+        "nlu": 54
+      },
+      "status": "success",
+      "seconds": 0.06061783293262124,
+      "stats": {
+        "predictor_nfev": 6,
+        "predictor_njev": 1,
+        "predictor_nlu": 1,
+        "predictor_solves": 6,
+        "nfev": 127,
+        "njev": 0,
+        "nlu": 20,
+        "subflows": 1,
+        "accepted_steps": 14,
+        "output_nfev": 0,
+        "pool_error": 1.7957135778345888e-11,
+        "min_internal": 0.0,
+        "linear_residuals": [
+          2.1072327606290556e-13,
+          1.0455578119108838e-12,
+          8.672264157218619e-13,
+          6.863088715289722e-13,
+          3.6850615266959715e-13,
+          6.180840705256046e-13
+        ],
+        "predictor_seconds": 0.006136500043794513,
+        "raw_nonnegative": true,
+        "raw_join_error": 2.5505788607790143e-15,
+        "endpoint_correction_scaled": 0.0,
+        "continuous_nonnegative": true,
+        "dense_join_error": 2.5505788607790143e-15,
+        "seconds": 0.05016745813190937
+      },
+      "guard": {
+        "nonnegative": true,
+        "pool": 1.1320814077842015e-12
+      },
+      "targets": {
+        "0.0001": {
+          "actual": {
+            "concentration": 0.01317207111827145,
+            "flux": 0.013172966725640474,
+            "net_flux": 0.10082184452752671
+          },
+          "passes": true
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 1.3172071118271453,
+            "flux": 1.3172966725640474,
+            "net_flux": 0.10082184452752671
+          },
+          "passes": false
+        }
+      },
+      "decomposition": {
+        "nonlinear": 1.3172428206665776,
+        "frozen": 1.3172071118271453,
+        "difference": 0.12539154242997497,
+        "endpoint": {
+          "nonlinear": 0.7156955897480436,
+          "frozen": 0.7178446618808233,
+          "difference": 0.030807012313457373
+        },
+        "worst": {
+          "species": 2672,
+          "query": 8,
+          "nonlinear": -1.3172428206665776,
+          "frozen": -1.3172071118271453,
+          "difference": -3.57088394322691e-05
+        },
+        "identity_roundoff": 0.0,
+        "truth_linearization_gap": 26.13439656246175,
+        "active": {
+          "nonlinear": 1.3172428206665776,
+          "frozen": 1.3172071118271453,
+          "difference": 0.02623525198941741
+        },
+        "inactive": {
+          "nonlinear": 0.3742407827979885,
+          "frozen": 0.3740955861582227,
+          "difference": 0.12539154242997497
+        },
+        "cosine": 0.9984822008842321
+      },
+      "affine_actual": {
+        "concentration": 1.3172071118271453,
+        "flux": 1.3172966725640474,
+        "net_flux": 0.10082184452752671
+      },
+      "stage_roundoff": 4.235635287581187e-11,
+      "oracle_decomposition": {
+        "nonlinear": 1.3172428206665776,
+        "frozen": 1.3171960820059148,
+        "difference": 0.12539153845416065,
+        "endpoint": {
+          "nonlinear": 0.7156955897480436,
+          "frozen": 0.7178470523539442,
+          "difference": 0.0308070201325589
+        },
+        "worst": {
+          "species": 2672,
+          "query": 8,
+          "nonlinear": -1.3172428206665776,
+          "frozen": -1.3171960820059148,
+          "difference": -4.6738660662848375e-05
+        },
+        "identity_roundoff": 0.0,
+        "truth_linearization_gap": 26.13439656246175,
+        "active": {
+          "nonlinear": 1.3172428206665776,
+          "frozen": 1.3171960820059148,
+          "difference": 0.026238841426106465
+        },
+        "inactive": {
+          "nonlinear": 0.3742407827979885,
+          "frozen": 0.3740955865231388,
+          "difference": 0.12539153845416065
+        },
+        "cosine": 0.9984822135861684
+      },
+      "inner_error": {
+        "concentration": 0.0007902862943578536,
+        "flux": 0.001220766004233745,
+        "net_flux": 0.000350032676205079
+      }
+    },
+    {
+      "key": "1-2-False-True",
+      "reference_key": "1-2",
+      "nonlinear_key": "candidate-1-2-2",
+      "model": "kecoli",
+      "h": 0.01,
+      "augmented": false,
+      "whole": true,
+      "reference_ok": true,
+      "nonlinear_actual": {
+        "concentration": 0.7280651094922447,
+        "flux": 0.49506504098690685,
+        "net_flux": 0.0418328277229631
+      },
+      "nonlinear_targets": {
+        "0.0001": {
+          "actual": {
+            "concentration": 0.007280651094922447,
+            "flux": 0.004950650409869068,
+            "net_flux": 0.0418328277229631
+          },
+          "passes": true
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 0.7280651094922447,
+            "flux": 0.49506504098690685,
+            "net_flux": 0.0418328277229631
+          },
+          "passes": true
+        }
+      },
+      "oracle_budget": {
+        "concentration": 3.079747014842254e-07,
+        "flux": 3.080405648868071e-07,
+        "net_flux": 2.887423172563792e-08
+      },
+      "oracle_work": {
+        "seconds": 0.26457441598176956,
+        "nfev": 981,
+        "njev": 0,
+        "nlu": 62
+      },
+      "oracle_loose_work": {
+        "seconds": 0.20825116708874702,
+        "nfev": 582,
+        "njev": 0,
+        "nlu": 54
+      },
+      "status": "success",
+      "seconds": 0.0152598328422755,
+      "stats": {
+        "predictor_nfev": 6,
+        "predictor_njev": 1,
+        "predictor_nlu": 1,
+        "predictor_solves": 6,
+        "nfev": 0,
+        "njev": 0,
+        "nlu": 0,
+        "subflows": 0,
+        "accepted_steps": 0,
+        "output_nfev": 0,
+        "pool_error": 1.7957135778345888e-11,
+        "min_internal": 0.0,
+        "linear_residuals": [
+          2.1072327606290556e-13,
+          1.0455578119108838e-12,
+          8.672264157218619e-13,
+          6.863088715289722e-13,
+          3.6850615266959715e-13,
+          6.180840705256046e-13
+        ],
+        "predictor_seconds": 0.005882917204871774,
+        "continuous_nonnegative": true,
+        "dense_join_error": 0.0,
+        "seconds": 0.006077500060200691
+      },
+      "guard": {
+        "nonnegative": true,
+        "pool": 5.295422954298964e-12
+      },
+      "targets": {
+        "0.0001": {
+          "actual": {
+            "concentration": 0.0057279991596786844,
+            "flux": 0.003740955874987287,
+            "net_flux": 0.039984041156439
+          },
+          "passes": true
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 0.5727999159678685,
+            "flux": 0.37409558749872873,
+            "net_flux": 0.039984041156439
+          },
+          "passes": true
+        }
+      },
+      "decomposition": {
+        "nonlinear": 0.7280651094922447,
+        "frozen": 0.5727999159678685,
+        "difference": 0.43148964315246907,
+        "endpoint": {
+          "nonlinear": 0.5645630635095022,
+          "frozen": 0.5562326034001605,
+          "difference": 0.09085497021089034
+        },
+        "worst": {
+          "species": 792,
+          "query": 39,
+          "nonlinear": -0.7280651094922447,
+          "frozen": -0.4652298668617251,
+          "difference": -0.26283524263051955
+        },
+        "identity_roundoff": 0.0,
+        "truth_linearization_gap": 26.13439656246175,
+        "active": {
+          "nonlinear": 0.7280651094922447,
+          "frozen": 0.5727999159678685,
+          "difference": 0.43148964315246907
+        },
+        "inactive": {
+          "nonlinear": 0.3742407827979885,
+          "frozen": 0.3740955861582227,
+          "difference": 0.12539154242997497
+        },
+        "cosine": 0.946606808245658
+      },
+      "affine_actual": {
+        "concentration": 0.5727999159678685,
+        "flux": 0.37409558749872873,
+        "net_flux": 0.039984041156439
+      },
+      "stage_roundoff": 4.235635287581187e-11
+    },
+    {
+      "key": "1-2-True-False",
+      "reference_key": "1-2",
+      "nonlinear_key": "candidate-1-2-4",
+      "model": "kecoli",
+      "h": 0.01,
+      "augmented": true,
+      "whole": false,
+      "reference_ok": true,
+      "nonlinear_actual": {
+        "concentration": 0.46280230951295404,
+        "flux": 0.3897112984363104,
+        "net_flux": 0.09357845297867759
+      },
+      "nonlinear_targets": {
+        "0.0001": {
+          "actual": {
+            "concentration": 0.004628023095129539,
+            "flux": 0.003897112984363104,
+            "net_flux": 0.09357845297867759
+          },
+          "passes": true
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 0.46280230951295404,
+            "flux": 0.3897112984363104,
+            "net_flux": 0.09357845297867759
+          },
+          "passes": true
+        }
+      },
+      "oracle_budget": {
+        "concentration": 2.476083632551646e-07,
+        "flux": 2.0266212373965708e-07,
+        "net_flux": 7.899220280289737e-08
+      },
+      "oracle_work": {
+        "seconds": 0.2483872079756111,
+        "nfev": 834,
+        "njev": 0,
+        "nlu": 58
+      },
+      "oracle_loose_work": {
+        "seconds": 0.18967520887963474,
+        "nfev": 498,
+        "njev": 0,
+        "nlu": 52
+      },
+      "status": "success",
+      "seconds": 0.05309400008991361,
+      "stats": {
+        "predictor_nfev": 9,
+        "predictor_njev": 1,
+        "predictor_nlu": 1,
+        "predictor_solves": 9,
+        "nfev": 125,
+        "njev": 1,
+        "nlu": 16,
+        "subflows": 1,
+        "accepted_steps": 12,
+        "output_nfev": 0,
+        "pool_error": 1.7957135778345888e-11,
+        "min_internal": 0.0,
+        "linear_residuals": [
+          2.1072327606290556e-13,
+          1.0455578119108838e-12,
+          8.672264157218619e-13,
+          6.863088715289722e-13,
+          3.6850615266959715e-13,
+          6.180840705256046e-13,
+          1.8732617853574397e-12,
+          1.0190754339091842e-12,
+          5.362231811399897e-13
+        ],
+        "predictor_seconds": 0.006846416974440217,
+        "raw_nonnegative": true,
+        "raw_join_error": 2.3646333392171878e-15,
+        "endpoint_correction_scaled": 0.0,
+        "continuous_nonnegative": true,
+        "dense_join_error": 2.3646333392171878e-15,
+        "seconds": 0.042104125022888184
+      },
+      "guard": {
+        "nonnegative": true,
+        "pool": 5.923646989591798e-13
+      },
+      "targets": {
+        "0.0001": {
+          "actual": {
+            "concentration": 0.004622165423017315,
+            "flux": 0.003910817856761059,
+            "net_flux": 0.09810099887511627
+          },
+          "passes": true
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 0.4622165423017316,
+            "flux": 0.3910817856761059,
+            "net_flux": 0.09810099887511627
+          },
+          "passes": true
+        }
+      },
+      "decomposition": {
+        "nonlinear": 0.46280230951295404,
+        "frozen": 0.4622165423017316,
+        "difference": 0.030807012313457373,
+        "endpoint": {
+          "nonlinear": 0.4460918257513638,
+          "frozen": 0.44545053093004067,
+          "difference": 0.030807012313457373
+        },
+        "worst": {
+          "species": 110,
+          "query": 61,
+          "nonlinear": -0.46280230951295404,
+          "frozen": -0.4622165423017316,
+          "difference": -0.0005857672112224432
+        },
+        "identity_roundoff": 0.0,
+        "truth_linearization_gap": 26.13439656246175,
+        "active": {
+          "nonlinear": 0.46280230951295404,
+          "frozen": 0.4622165423017316,
+          "difference": 0.01964941869485065
+        },
+        "inactive": {
+          "nonlinear": 0.2800438689033844,
+          "frozen": 0.2795753002471756,
+          "difference": 0.030807012313457373
+        },
+        "cosine": 0.9987508983284438
+      },
+      "affine_actual": {
+        "concentration": 0.4622165423017316,
+        "flux": 0.3910817856761059,
+        "net_flux": 0.09810099887511627
+      },
+      "stage_roundoff": 4.235635287581187e-11,
+      "oracle_decomposition": {
+        "nonlinear": 0.46280230951295404,
+        "frozen": 0.4621897325859024,
+        "difference": 0.0308070201325589,
+        "endpoint": {
+          "nonlinear": 0.4460918257513638,
+          "frozen": 0.4454539247586625,
+          "difference": 0.0308070201325589
+        },
+        "worst": {
+          "species": 110,
+          "query": 61,
+          "nonlinear": -0.46280230951295404,
+          "frozen": -0.4621897325859024,
+          "difference": -0.0006125769270516335
+        },
+        "identity_roundoff": 0.0,
+        "truth_linearization_gap": 26.13439656246175,
+        "active": {
+          "nonlinear": 0.46280230951295404,
+          "frozen": 0.4621897325859024,
+          "difference": 0.01970937172431947
+        },
+        "inactive": {
+          "nonlinear": 0.2800438689033844,
+          "frozen": 0.2795753043998498,
+          "difference": 0.0308070201325589
+        },
+        "cosine": 0.9987507063350267
+      },
+      "inner_error": {
+        "concentration": 0.0009379358212365268,
+        "flux": 0.001334786456280273,
+        "net_flux": 0.0003071568431480233
+      }
+    },
+    {
+      "key": "1-2-True-True",
+      "reference_key": "1-2",
+      "nonlinear_key": "candidate-1-2-5",
+      "model": "kecoli",
+      "h": 0.01,
+      "augmented": true,
+      "whole": true,
+      "reference_ok": true,
+      "nonlinear_actual": {
+        "concentration": 0.6007922858541376,
+        "flux": 0.7722769107940515,
+        "net_flux": 0.042195073023324245
+      },
+      "nonlinear_targets": {
+        "0.0001": {
+          "actual": {
+            "concentration": 0.006007922858541375,
+            "flux": 0.007722769107940515,
+            "net_flux": 0.042195073023324245
+          },
+          "passes": true
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 0.6007922858541376,
+            "flux": 0.7722769107940515,
+            "net_flux": 0.042195073023324245
+          },
+          "passes": true
+        }
+      },
+      "oracle_budget": {
+        "concentration": 2.476083632551646e-07,
+        "flux": 2.0266212373965708e-07,
+        "net_flux": 7.899220280289737e-08
+      },
+      "oracle_work": {
+        "seconds": 0.2483872079756111,
+        "nfev": 834,
+        "njev": 0,
+        "nlu": 58
+      },
+      "oracle_loose_work": {
+        "seconds": 0.18967520887963474,
+        "nfev": 498,
+        "njev": 0,
+        "nlu": 52
+      },
+      "status": "success",
+      "seconds": 0.016134500037878752,
+      "stats": {
+        "predictor_nfev": 9,
+        "predictor_njev": 1,
+        "predictor_nlu": 1,
+        "predictor_solves": 9,
+        "nfev": 0,
+        "njev": 0,
+        "nlu": 0,
+        "subflows": 0,
+        "accepted_steps": 0,
+        "output_nfev": 0,
+        "pool_error": 1.7957135778345888e-11,
+        "min_internal": 0.0,
+        "linear_residuals": [
+          2.1072327606290556e-13,
+          1.0455578119108838e-12,
+          8.672264157218619e-13,
+          6.863088715289722e-13,
+          3.6850615266959715e-13,
+          6.180840705256046e-13,
+          1.8732617853574397e-12,
+          1.0190754339091842e-12,
+          5.362231811399897e-13
+        ],
+        "predictor_seconds": 0.006688999943435192,
+        "continuous_nonnegative": true,
+        "dense_join_error": 0.0,
+        "seconds": 0.006938250036910176
+      },
+      "guard": {
+        "nonnegative": true,
+        "pool": 5.295422954298964e-12
+      },
+      "targets": {
+        "0.0001": {
+          "actual": {
+            "concentration": 0.005725005721219093,
+            "flux": 0.0027959844977734384,
+            "net_flux": 0.042330745080287835
+          },
+          "passes": true
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 0.5725005721219094,
+            "flux": 0.2795984497773439,
+            "net_flux": 0.042330745080287835
+          },
+          "passes": true
+        }
+      },
+      "decomposition": {
+        "nonlinear": 0.6007922858541376,
+        "frozen": 0.5725005721219094,
+        "difference": 0.687597712214183,
+        "endpoint": {
+          "nonlinear": 0.5645630635095022,
+          "frozen": 0.5562326034001605,
+          "difference": 0.09085497021089034
+        },
+        "worst": {
+          "species": 110,
+          "query": 60,
+          "nonlinear": -0.6007922858541376,
+          "frozen": -0.5708955498441834,
+          "difference": -0.029896736009954128
+        },
+        "identity_roundoff": 0.0,
+        "truth_linearization_gap": 26.13439656246175,
+        "active": {
+          "nonlinear": 0.6007922858541376,
+          "frozen": 0.5725005721219094,
+          "difference": 0.687597712214183
+        },
+        "inactive": {
+          "nonlinear": 0.2800438689033844,
+          "frozen": 0.2795753003658234,
+          "difference": 0.030807012313457373
+        },
+        "cosine": 0.7333904761314075
+      },
+      "affine_actual": {
+        "concentration": 0.5725005721219094,
+        "flux": 0.2795984497773439,
+        "net_flux": 0.042330745080287835
+      },
+      "stage_roundoff": 4.235635287581187e-11
+    },
+    {
+      "key": "1-3-False-False",
+      "reference_key": "1-3",
+      "nonlinear_key": "candidate-1-3-1",
+      "model": "kecoli",
+      "h": 0.03,
+      "augmented": false,
+      "whole": false,
+      "reference_ok": true,
+      "nonlinear_actual": {
+        "concentration": 72.8255720249881,
+        "flux": 54.06607698838212,
+        "net_flux": 6.3451545284221575
+      },
+      "nonlinear_targets": {
+        "0.0001": {
+          "actual": {
+            "concentration": 0.7282557202498808,
+            "flux": 0.5406607698838212,
+            "net_flux": 6.3451545284221575
+          },
+          "passes": false
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 72.8255720249881,
+            "flux": 54.06607698838212,
+            "net_flux": 6.3451545284221575
+          },
+          "passes": false
+        }
+      },
+      "oracle_budget": {
+        "concentration": 5.245471592392672e-07,
+        "flux": 3.6308724033252946e-07,
+        "net_flux": 6.484306004919292e-08
+      },
+      "oracle_work": {
+        "seconds": 0.45018170890398324,
+        "nfev": 2358,
+        "njev": 0,
+        "nlu": 86
+      },
+      "oracle_loose_work": {
+        "seconds": 0.33070554095320404,
+        "nfev": 1359,
+        "njev": 0,
+        "nlu": 80
+      },
+      "status": "success",
+      "seconds": 0.13930233381688595,
+      "stats": {
+        "predictor_nfev": 6,
+        "predictor_njev": 1,
+        "predictor_nlu": 1,
+        "predictor_solves": 6,
+        "nfev": 336,
+        "njev": 1,
+        "nlu": 52,
+        "subflows": 1,
+        "accepted_steps": 39,
+        "output_nfev": 0,
+        "pool_error": 6.556788445521984e-11,
+        "min_internal": -7.267569021854808e-18,
+        "linear_residuals": [
+          1.200270237516014e-11,
+          1.006226471535882e-12,
+          6.349846949478863e-12,
+          8.94462225790418e-12,
+          1.4530678926088082e-11,
+          7.708204257476891e-12
+        ],
+        "predictor_seconds": 0.006160625023767352,
+        "raw_nonnegative": true,
+        "raw_join_error": 8.159217943911419e-15,
+        "endpoint_correction_scaled": 0.0,
+        "continuous_nonnegative": true,
+        "dense_join_error": 8.159217943911419e-15,
+        "seconds": 0.12769795791245997
+      },
+      "guard": {
+        "nonnegative": true,
+        "pool": 4.0830880343456475e-12
+      },
+      "targets": {
+        "0.0001": {
+          "actual": {
+            "concentration": 0.7248300707078736,
+            "flux": 0.5412863688298333,
+            "net_flux": 6.3588596318299935
+          },
+          "passes": false
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 72.48300707078738,
+            "flux": 54.12863688298333,
+            "net_flux": 6.3588596318299935
+          },
+          "passes": false
+        }
+      },
+      "decomposition": {
+        "nonlinear": 72.8255720249881,
+        "frozen": 72.48300707078738,
+        "difference": 3.9714514213763388,
+        "endpoint": {
+          "nonlinear": 62.57938554172142,
+          "frozen": 62.11573039950504,
+          "difference": 1.62008382183879
+        },
+        "worst": {
+          "species": 110,
+          "query": 60,
+          "nonlinear": -72.8255720249881,
+          "frozen": -72.48300707078738,
+          "difference": -0.34256495420072497
+        },
+        "identity_roundoff": 0.0,
+        "truth_linearization_gap": 230.54654662852164,
+        "active": {
+          "nonlinear": 72.8255720249881,
+          "frozen": 72.48300707078738,
+          "difference": 1.7732080597829807
+        },
+        "inactive": {
+          "nonlinear": 32.269468975892345,
+          "frozen": 32.26199445679886,
+          "difference": 3.9714514213763388
+        },
+        "cosine": 0.9993743456130462
+      },
+      "affine_actual": {
+        "concentration": 72.48300707078738,
+        "flux": 54.12863688298333,
+        "net_flux": 6.3588596318299935
+      },
+      "stage_roundoff": 1.1289454465683379e-10,
+      "oracle_decomposition": {
+        "nonlinear": 72.8255720249881,
+        "frozen": 72.48286799395187,
+        "difference": 3.9714514238943543,
+        "endpoint": {
+          "nonlinear": 62.57938554172142,
+          "frozen": 62.11573058845254,
+          "difference": 1.6200839894083927
+        },
+        "worst": {
+          "species": 110,
+          "query": 60,
+          "nonlinear": -72.8255720249881,
+          "frozen": -72.48286799395187,
+          "difference": -0.34270403103623437
+        },
+        "identity_roundoff": 0.0,
+        "truth_linearization_gap": 230.54654662852164,
+        "active": {
+          "nonlinear": 72.8255720249881,
+          "frozen": 72.48286799395187,
+          "difference": 1.7733381679501221
+        },
+        "inactive": {
+          "nonlinear": 32.269468975892345,
+          "frozen": 32.26199444291967,
+          "difference": 3.9714514238943543
+        },
+        "cosine": 0.9993743452982885
+      },
+      "inner_error": {
+        "concentration": 0.00020736127098813653,
+        "flux": 0.10293318936793294,
+        "net_flux": 0.0011119308584976897
+      }
+    },
+    {
+      "key": "1-3-False-True",
+      "reference_key": "1-3",
+      "nonlinear_key": "candidate-1-3-2",
+      "model": "kecoli",
+      "h": 0.03,
+      "augmented": false,
+      "whole": true,
+      "reference_ok": true,
+      "nonlinear_actual": {
+        "concentration": 68.09032256768232,
+        "flux": 32.26946908088076,
+        "net_flux": 4.062381733988039
+      },
+      "nonlinear_targets": {
+        "0.0001": {
+          "actual": {
+            "concentration": 0.6809032256768232,
+            "flux": 0.3226946908088076,
+            "net_flux": 4.062381733988039
+          },
+          "passes": false
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 68.09032256768232,
+            "flux": 32.26946908088076,
+            "net_flux": 4.062381733988039
+          },
+          "passes": false
+        }
+      },
+      "oracle_budget": {
+        "concentration": 5.245471592392672e-07,
+        "flux": 3.6308724033252946e-07,
+        "net_flux": 6.484306004919292e-08
+      },
+      "oracle_work": {
+        "seconds": 0.45018170890398324,
+        "nfev": 2358,
+        "njev": 0,
+        "nlu": 86
+      },
+      "oracle_loose_work": {
+        "seconds": 0.33070554095320404,
+        "nfev": 1359,
+        "njev": 0,
+        "nlu": 80
+      },
+      "status": "success",
+      "seconds": 0.016725749941542745,
+      "stats": {
+        "predictor_nfev": 6,
+        "predictor_njev": 1,
+        "predictor_nlu": 1,
+        "predictor_solves": 6,
+        "nfev": 0,
+        "njev": 0,
+        "nlu": 0,
+        "subflows": 0,
+        "accepted_steps": 0,
+        "output_nfev": 0,
+        "pool_error": 6.556788445521984e-11,
+        "min_internal": -7.267569021854808e-18,
+        "linear_residuals": [
+          1.200270237516014e-11,
+          1.006226471535882e-12,
+          6.349846949478863e-12,
+          8.94462225790418e-12,
+          1.4530678926088082e-11,
+          7.708204257476891e-12
+        ],
+        "predictor_seconds": 0.006411083973944187,
+        "continuous_nonnegative": true,
+        "dense_join_error": 0.0,
+        "seconds": 0.007054708898067474
+      },
+      "guard": {
+        "nonnegative": true,
+        "pool": 4.081880666806368e-12
+      },
+      "targets": {
+        "0.0001": {
+          "actual": {
+            "concentration": 0.6524817584800114,
+            "flux": 0.32261994561454893,
+            "net_flux": 3.7985241951539286
+          },
+          "passes": false
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 65.24817584800115,
+            "flux": 32.2619945614549,
+            "net_flux": 3.7985241951539286
+          },
+          "passes": false
+        }
+      },
+      "decomposition": {
+        "nonlinear": 68.09032256768232,
+        "frozen": 65.24817584800115,
+        "difference": 12.280499305353395,
+        "endpoint": {
+          "nonlinear": 54.03898963483725,
+          "frozen": 50.81416354383809,
+          "difference": 5.236830232369037
+        },
+        "worst": {
+          "species": 110,
+          "query": 57,
+          "nonlinear": -68.09032256768232,
+          "frozen": -65.24817584800115,
+          "difference": -2.8421467196811676
+        },
+        "identity_roundoff": 0.0,
+        "truth_linearization_gap": 230.54654662852164,
+        "active": {
+          "nonlinear": 68.09032256768232,
+          "frozen": 65.24817584800115,
+          "difference": 12.280499305353395
+        },
+        "inactive": {
+          "nonlinear": 32.269468976072595,
+          "frozen": 32.26199445661861,
+          "difference": 3.9714514213763388
+        },
+        "cosine": 0.9948714843867891
+      },
+      "affine_actual": {
+        "concentration": 65.24817584800115,
+        "flux": 32.2619945614549,
+        "net_flux": 3.7985241951539286
+      },
+      "stage_roundoff": 1.1289454465683379e-10
+    },
+    {
+      "key": "1-3-True-False",
+      "reference_key": "1-3",
+      "nonlinear_key": "candidate-1-3-4",
+      "model": "kecoli",
+      "h": 0.03,
+      "augmented": true,
+      "whole": false,
+      "reference_ok": true,
+      "nonlinear_actual": {
+        "concentration": 71.95924423133623,
+        "flux": 55.05873286823199,
+        "net_flux": 3.8291303568872355
+      },
+      "nonlinear_targets": {
+        "0.0001": {
+          "actual": {
+            "concentration": 0.7195924423133622,
+            "flux": 0.5505873286823199,
+            "net_flux": 3.8291303568872355
+          },
+          "passes": false
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 71.95924423133623,
+            "flux": 55.05873286823199,
+            "net_flux": 3.8291303568872355
+          },
+          "passes": false
+        }
+      },
+      "oracle_budget": {
+        "concentration": 2.8699107074008204e-07,
+        "flux": 3.025763971670546e-07,
+        "net_flux": 7.899220280289737e-08
+      },
+      "oracle_work": {
+        "seconds": 0.4499806659296155,
+        "nfev": 2297,
+        "njev": 0,
+        "nlu": 76
+      },
+      "oracle_loose_work": {
+        "seconds": 0.31177145801484585,
+        "nfev": 1345,
+        "njev": 0,
+        "nlu": 70
+      },
+      "status": "success",
+      "seconds": 0.12914291699416935,
+      "stats": {
+        "predictor_nfev": 9,
+        "predictor_njev": 1,
+        "predictor_nlu": 1,
+        "predictor_solves": 9,
+        "nfev": 315,
+        "njev": 1,
+        "nlu": 42,
+        "subflows": 1,
+        "accepted_steps": 37,
+        "output_nfev": 0,
+        "pool_error": 6.556788445521984e-11,
+        "min_internal": -7.267569021854808e-18,
+        "linear_residuals": [
+          1.200270237516014e-11,
+          1.006226471535882e-12,
+          6.349846949478863e-12,
+          8.94462225790418e-12,
+          1.4530678926088082e-11,
+          7.708204257476891e-12,
+          3.7658407698419005e-12,
+          7.109160626727991e-12,
+          5.400569620194409e-12
+        ],
+        "predictor_seconds": 0.007038959069177508,
+        "raw_nonnegative": true,
+        "raw_join_error": 7.923718402173202e-15,
+        "endpoint_correction_scaled": 0.0,
+        "continuous_nonnegative": true,
+        "dense_join_error": 7.923718402173202e-15,
+        "seconds": 0.11661612498573959
+      },
+      "guard": {
+        "nonnegative": true,
+        "pool": 1.6102041575094529e-12
+      },
+      "targets": {
+        "0.0001": {
+          "actual": {
+            "concentration": 0.7158871503534676,
+            "flux": 0.5618521125680737,
+            "net_flux": 3.872795110853938
+          },
+          "passes": false
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 71.58871503534677,
+            "flux": 56.18521125680737,
+            "net_flux": 3.872795110853938
+          },
+          "passes": false
+        }
+      },
+      "decomposition": {
+        "nonlinear": 71.95924423133623,
+        "frozen": 71.58871503534677,
+        "difference": 1.6920321148150492,
+        "endpoint": {
+          "nonlinear": 56.62470331825083,
+          "frozen": 56.13646824514215,
+          "difference": 1.438252076486151
+        },
+        "worst": {
+          "species": 110,
+          "query": 59,
+          "nonlinear": -71.95924423133623,
+          "frozen": -71.58871503534677,
+          "difference": -0.3705291959894623
+        },
+        "identity_roundoff": 0.0,
+        "truth_linearization_gap": 230.54654662852164,
+        "active": {
+          "nonlinear": 71.95924423133623,
+          "frozen": 71.58871503534677,
+          "difference": 1.6920321148150492
+        },
+        "inactive": {
+          "nonlinear": 32.934706815930426,
+          "frozen": 32.92564300228848,
+          "difference": 1.6878677640627022
+        },
+        "cosine": 0.9997804207529429
+      },
+      "affine_actual": {
+        "concentration": 71.58871503534677,
+        "flux": 56.18521125680737,
+        "net_flux": 3.872795110853938
+      },
+      "stage_roundoff": 1.1289454465683379e-10,
+      "oracle_decomposition": {
+        "nonlinear": 71.95924423133623,
+        "frozen": 71.58869243752359,
+        "difference": 1.6919706550044609,
+        "endpoint": {
+          "nonlinear": 56.62470331825083,
+          "frozen": 56.13646803451563,
+          "difference": 1.4382557359024872
+        },
+        "worst": {
+          "species": 110,
+          "query": 59,
+          "nonlinear": -71.95924423133623,
+          "frozen": -71.58869243752359,
+          "difference": -0.3705517938126377
+        },
+        "identity_roundoff": 0.0,
+        "truth_linearization_gap": 230.54654662852164,
+        "active": {
+          "nonlinear": 71.95924423133623,
+          "frozen": 71.58869243752359,
+          "difference": 1.6919706550044609
+        },
+        "inactive": {
+          "nonlinear": 32.934706815930426,
+          "frozen": 32.92564297813509,
+          "difference": 1.6878677800984867
+        },
+        "cosine": 0.9997804211958827
+      },
+      "inner_error": {
+        "concentration": 0.00026057506142766317,
+        "flux": 0.10324371650656462,
+        "net_flux": 0.0010523704594559838
+      }
+    },
+    {
+      "key": "1-3-True-True",
+      "reference_key": "1-3",
+      "nonlinear_key": "candidate-1-3-5",
+      "model": "kecoli",
+      "h": 0.03,
+      "augmented": true,
+      "whole": true,
+      "reference_ok": true,
+      "nonlinear_actual": {
+        "concentration": 68.28137628130341,
+        "flux": 32.934706922627726,
+        "net_flux": 3.21003538406821
+      },
+      "nonlinear_targets": {
+        "0.0001": {
+          "actual": {
+            "concentration": 0.682813762813034,
+            "flux": 0.3293470692262772,
+            "net_flux": 3.21003538406821
+          },
+          "passes": false
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 68.28137628130341,
+            "flux": 32.934706922627726,
+            "net_flux": 3.21003538406821
+          },
+          "passes": false
+        }
+      },
+      "oracle_budget": {
+        "concentration": 2.8699107074008204e-07,
+        "flux": 3.025763971670546e-07,
+        "net_flux": 7.899220280289737e-08
+      },
+      "oracle_work": {
+        "seconds": 0.4499806659296155,
+        "nfev": 2297,
+        "njev": 0,
+        "nlu": 76
+      },
+      "oracle_loose_work": {
+        "seconds": 0.31177145801484585,
+        "nfev": 1345,
+        "njev": 0,
+        "nlu": 70
+      },
+      "status": "success",
+      "seconds": 0.01780366711318493,
+      "stats": {
+        "predictor_nfev": 9,
+        "predictor_njev": 1,
+        "predictor_nlu": 1,
+        "predictor_solves": 9,
+        "nfev": 0,
+        "njev": 0,
+        "nlu": 0,
+        "subflows": 0,
+        "accepted_steps": 0,
+        "output_nfev": 0,
+        "pool_error": 6.556788445521984e-11,
+        "min_internal": -7.267569021854808e-18,
+        "linear_residuals": [
+          1.200270237516014e-11,
+          1.006226471535882e-12,
+          6.349846949478863e-12,
+          8.94462225790418e-12,
+          1.4530678926088082e-11,
+          7.708204257476891e-12,
+          3.7658407698419005e-12,
+          7.109160626727991e-12,
+          5.400569620194409e-12
+        ],
+        "predictor_seconds": 0.0073347080033272505,
+        "continuous_nonnegative": true,
+        "dense_join_error": 0.0,
+        "seconds": 0.00817558285780251
+      },
+      "guard": {
+        "nonnegative": true,
+        "pool": 2.4310761737034154e-12
+      },
+      "targets": {
+        "0.0001": {
+          "actual": {
+            "concentration": 0.6457068750563365,
+            "flux": 0.32925643109131925,
+            "net_flux": 3.1450248035339095
+          },
+          "passes": false
+        },
+        "1e-06": {
+          "actual": {
+            "concentration": 64.57068750563367,
+            "flux": 32.925643109131926,
+            "net_flux": 3.1450248035339095
+          },
+          "passes": false
+        }
+      },
+      "decomposition": {
+        "nonlinear": 68.28137628130341,
+        "frozen": 64.57068750563367,
+        "difference": 15.6416837817655,
+        "endpoint": {
+          "nonlinear": 54.03898963483725,
+          "frozen": 50.81416354383809,
+          "difference": 5.236830232369037
+        },
+        "worst": {
+          "species": 110,
+          "query": 59,
+          "nonlinear": -68.28137628130341,
+          "frozen": -64.57068750563367,
+          "difference": -3.7106887756697375
+        },
+        "identity_roundoff": 0.0,
+        "truth_linearization_gap": 230.54654662852164,
+        "active": {
+          "nonlinear": 68.28137628130341,
+          "frozen": 64.57068750563367,
+          "difference": 15.6416837817655
+        },
+        "inactive": {
+          "nonlinear": 32.934706815750175,
+          "frozen": 32.92564300228848,
+          "difference": 1.6878677641952293
+        },
+        "cosine": 0.9894142566262272
+      },
+      "affine_actual": {
+        "concentration": 64.57068750563367,
+        "flux": 32.925643109131926,
+        "net_flux": 3.1450248035339095
+      },
+      "stage_roundoff": 1.1289454465683379e-10
+    }
+  ],
+  "references": [
+    {
+      "key": "0-0",
+      "model": "teusink",
+      "h": 0.001,
+      "reference_ok": true,
+      "nonlinear_budget": {
+        "concentration": 1.97869111932776e-08,
+        "flux": 1.9725269725442575e-08
+      },
+      "affine_budget": {
+        "concentration": 5.661255146965536e-08,
+        "flux": 1.254035768816257e-07
+      },
+      "independent_budget": {
+        "concentration": 1.0153102746889467e-05,
+        "flux": 1.1060853418534262e-05
+      },
+      "cross_budget": {
+        "concentration": 1.0072733345253444e-06,
+        "flux": 1.5020043712283565e-06
+      },
+      "nonlinear_seconds": 0.003306125057861209,
+      "affine_work": {
+        "seconds": 0.003917000023648143,
+        "nfev": 134,
+        "njev": 0,
+        "nlu": 14
+      },
+      "affine_loose_work": {
+        "seconds": 0.002059957943856716,
+        "nfev": 84,
+        "njev": 0,
+        "nlu": 14
+      },
+      "independent_seconds": 0.01883716695010662,
+      "truth_gap": 0.035940962335407646,
+      "scaled_rhs_remainder": 40.480989069106464,
+      "affine_minimum": 0.00038024377702802845,
+      "affine_negative_rate_samples": 0,
+      "groups": 5,
+      "active": 9,
+      "jacobian_nnz": 64
+    },
+    {
+      "key": "0-1",
+      "model": "teusink",
+      "h": 0.003,
+      "reference_ok": true,
+      "nonlinear_budget": {
+        "concentration": 2.752304383342711e-07,
+        "flux": 3.4267482314633183e-07
+      },
+      "affine_budget": {
+        "concentration": 5.661255146965536e-08,
+        "flux": 1.0069154830536796e-07
+      },
+      "independent_budget": {
+        "concentration": 1.095024410048505e-05,
+        "flux": 1.1716627065140713e-05
+      },
+      "cross_budget": {
+        "concentration": 1.935865074490407e-06,
+        "flux": 4.239566281877781e-06
+      },
+      "nonlinear_seconds": 0.00374112487770617,
+      "affine_work": {
+        "seconds": 0.00465187500230968,
+        "nfev": 253,
+        "njev": 0,
+        "nlu": 20
+      },
+      "affine_loose_work": {
+        "seconds": 0.0032702910248190165,
+        "nfev": 154,
+        "njev": 0,
+        "nlu": 20
+      },
+      "independent_seconds": 0.002291665878146887,
+      "truth_gap": 0.32070307290025946,
+      "scaled_rhs_remainder": 1082.9421000420814,
+      "affine_minimum": 0.00037978507070662306,
+      "affine_negative_rate_samples": 0,
+      "groups": 5,
+      "active": 9,
+      "jacobian_nnz": 64
+    },
+    {
+      "key": "0-2",
+      "model": "teusink",
+      "h": 0.01,
+      "reference_ok": true,
+      "nonlinear_budget": {
+        "concentration": 1.6500085389505378e-06,
+        "flux": 1.6499366239094155e-06
+      },
+      "affine_budget": {
+        "concentration": 3.971123149206408e-08,
+        "flux": 3.994152991498214e-08
+      },
+      "independent_budget": {
+        "concentration": 9.262380833635327e-06,
+        "flux": 2.121610857563195e-05
+      },
+      "cross_budget": {
+        "concentration": 9.767935243928443e-07,
+        "flux": 2.0325535233829325e-06
+      },
+      "nonlinear_seconds": 0.006807500030845404,
+      "affine_work": {
+        "seconds": 0.0077015000861138105,
+        "nfev": 484,
+        "njev": 0,
+        "nlu": 22
+      },
+      "affine_loose_work": {
+        "seconds": 0.005002125166356564,
+        "nfev": 283,
+        "njev": 0,
+        "nlu": 22
+      },
+      "independent_seconds": 0.0026448750868439674,
+      "truth_gap": 3.431281010150404,
+      "scaled_rhs_remainder": 38837.70423355273,
+      "affine_minimum": 0.0003782103122401407,
+      "affine_negative_rate_samples": 0,
+      "groups": 5,
+      "active": 9,
+      "jacobian_nnz": 64
+    },
+    {
+      "key": "0-3",
+      "model": "teusink",
+      "h": 0.03,
+      "reference_ok": true,
+      "nonlinear_budget": {
+        "concentration": 1.562616347846895e-06,
+        "flux": 1.562611211062404e-06
+      },
+      "affine_budget": {
+        "concentration": 3.899602936362122e-08,
+        "flux": 5.6750257087537124e-08
+      },
+      "independent_budget": {
+        "concentration": 1.3549224848702347e-05,
+        "flux": 2.0420440015117246e-05
+      },
+      "cross_budget": {
+        "concentration": 2.8300779370607324e-06,
+        "flux": 2.8299597909220894e-06
+      },
+      "nonlinear_seconds": 0.013176666805520654,
+      "affine_work": {
+        "seconds": 0.012952083023265004,
+        "nfev": 890,
+        "njev": 0,
+        "nlu": 30
+      },
+      "affine_loose_work": {
+        "seconds": 0.008623708970844746,
+        "nfev": 511,
+        "njev": 0,
+        "nlu": 30
+      },
+      "independent_seconds": 0.003423375077545643,
+      "truth_gap": 36.16914965724941,
+      "scaled_rhs_remainder": 957318.0113167469,
+      "affine_minimum": 0.00037396951827860627,
+      "affine_negative_rate_samples": 0,
+      "groups": 5,
+      "active": 9,
+      "jacobian_nnz": 64
+    },
+    {
+      "key": "1-0",
+      "model": "kecoli",
+      "h": 0.001,
+      "reference_ok": true,
+      "nonlinear_budget": {
+        "concentration": 0.0005238360587364692,
+        "flux": 0.0005245784788180384,
+        "net_flux": 7.343412990588438e-05
+      },
+      "affine_budget": {
+        "concentration": 6.746419508340053e-07,
+        "flux": 6.747135580234136e-07,
+        "net_flux": 1.846350126763073e-07
+      },
+      "independent_budget": {
+        "concentration": 0.0003171024447575257,
+        "flux": 0.000317239104336166,
+        "net_flux": 4.9339249113197196e-05
+      },
+      "cross_budget": {
+        "concentration": 2.139074153843086e-05,
+        "flux": 2.947961548893555e-05,
+        "net_flux": 1.8592041932922422e-06
+      },
+      "nonlinear_seconds": 0.5032239579595625,
+      "affine_work": {
+        "seconds": 0.5141954158898443,
+        "nfev": 126,
+        "njev": 0,
+        "nlu": 16
+      },
+      "affine_loose_work": {
+        "seconds": 0.2500009161885828,
+        "nfev": 58,
+        "njev": 0,
+        "nlu": 8
+      },
+      "independent_seconds": 0.4468374161515385,
+      "truth_gap": 0.13329543022770035,
+      "scaled_rhs_remainder": 2958.180600347533,
+      "affine_minimum": 0.0,
+      "affine_negative_rate_samples": 0,
+      "groups": 724,
+      "active": 998,
+      "jacobian_nnz": 16541
+    },
+    {
+      "key": "1-1",
+      "model": "kecoli",
+      "h": 0.003,
+      "reference_ok": true,
+      "nonlinear_budget": {
+        "concentration": 0.0013663067741506152,
+        "flux": 0.00047657257279741115,
+        "net_flux": 8.335709372472525e-05
+      },
+      "affine_budget": {
+        "concentration": 6.618592612392557e-07,
+        "flux": 6.618819290419656e-07,
+        "net_flux": 1.338126709076205e-07
+      },
+      "independent_budget": {
+        "concentration": 0.0004714956327711169,
+        "flux": 0.00029530296128516784,
+        "net_flux": 5.146079500247546e-05
+      },
+      "cross_budget": {
+        "concentration": 2.1487411598059878e-05,
+        "flux": 2.9311471811705493e-05,
+        "net_flux": 1.7823182211997204e-06
+      },
+      "nonlinear_seconds": 0.5412779168691486,
+      "affine_work": {
+        "seconds": 0.5932042500935495,
+        "nfev": 245,
+        "njev": 0,
+        "nlu": 18
+      },
+      "affine_loose_work": {
+        "seconds": 0.44485770794562995,
+        "nfev": 141,
+        "njev": 0,
+        "nlu": 14
+      },
+      "independent_seconds": 0.5342429580632597,
+      "truth_gap": 1.796091296848852,
+      "scaled_rhs_remainder": 81032.49081711503,
+      "affine_minimum": 0.0,
+      "affine_negative_rate_samples": 0,
+      "groups": 724,
+      "active": 998,
+      "jacobian_nnz": 16541
+    },
+    {
+      "key": "1-2",
+      "model": "kecoli",
+      "h": 0.01,
+      "reference_ok": true,
+      "nonlinear_budget": {
+        "concentration": 0.0015137126023928183,
+        "flux": 0.0005409125861787461,
+        "net_flux": 8.734633604090405e-05
+      },
+      "affine_budget": {
+        "concentration": 3.728287982653046e-07,
+        "flux": 3.903482188996173e-07,
+        "net_flux": 7.899220280289737e-08
+      },
+      "independent_budget": {
+        "concentration": 0.00044907102917427064,
+        "flux": 0.0003369636860203675,
+        "net_flux": 5.4914326990697245e-05
+      },
+      "cross_budget": {
+        "concentration": 8.710968489000492e-05,
+        "flux": 4.758885880984907e-05,
+        "net_flux": 6.452507350226246e-06
+      },
+      "nonlinear_seconds": 0.5983506250195205,
+      "affine_work": {
+        "seconds": 0.7856792500242591,
+        "nfev": 637,
+        "njev": 0,
+        "nlu": 20
+      },
+      "affine_loose_work": {
+        "seconds": 0.5211238339543343,
+        "nfev": 358,
+        "njev": 0,
+        "nlu": 14
+      },
+      "independent_seconds": 0.607126499991864,
+      "truth_gap": 26.13439656246175,
+      "scaled_rhs_remainder": 3111312.4679886294,
+      "affine_minimum": 0.0,
+      "affine_negative_rate_samples": 0,
+      "groups": 724,
+      "active": 998,
+      "jacobian_nnz": 16541
+    },
+    {
+      "key": "1-3",
+      "model": "kecoli",
+      "h": 0.03,
+      "reference_ok": true,
+      "nonlinear_budget": {
+        "concentration": 0.0015055855220544913,
+        "flux": 0.0005338882495464774,
+        "net_flux": 8.716508695072391e-05
+      },
+      "affine_budget": {
+        "concentration": 3.7661975938897147e-07,
+        "flux": 1.8995477194284987e-07,
+        "net_flux": 3.496842685773071e-08
+      },
+      "independent_budget": {
+        "concentration": 0.0019747024142234178,
+        "flux": 0.0006408767027949172,
+        "net_flux": 0.00010812816422005557
+      },
+      "cross_budget": {
+        "concentration": 0.000184927740737851,
+        "flux": 6.650706580920087e-05,
+        "net_flux": 1.3023723261760176e-05
+      },
+      "nonlinear_seconds": 0.6988381668925285,
+      "affine_work": {
+        "seconds": 1.3071584170684218,
+        "nfev": 1630,
+        "njev": 0,
+        "nlu": 22
+      },
+      "affine_loose_work": {
+        "seconds": 0.7735812079627067,
+        "nfev": 918,
+        "njev": 0,
+        "nlu": 16
+      },
+      "independent_seconds": 0.6925186251755804,
+      "truth_gap": 230.54654662852164,
+      "scaled_rhs_remainder": 80548082.97762547,
+      "affine_minimum": 0.0,
+      "affine_negative_rate_samples": 0,
+      "groups": 724,
+      "active": 998,
+      "jacobian_nnz": 16541
+    }
+  ]
+}

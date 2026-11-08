@@ -1,0 +1,50 @@
+{
+  "date": "2026-11-08",
+  "models": [
+    {
+      "name": "teusink",
+      "start": 1.0,
+      "threshold": 3.0
+    },
+    {
+      "name": "kecoli",
+      "start": 0.1,
+      "threshold": 1.0
+    }
+  ],
+  "steps": [
+    0.001,
+    0.003,
+    0.01,
+    0.03
+  ],
+  "augmented": [
+    false,
+    true
+  ],
+  "whole": [
+    false,
+    true
+  ],
+  "inner_tolerance": 1e-10,
+  "freeze": "Reactionwise v_L(z)=v(y0)+Dv(y0)(z-y0), same stoichiometry and reaction groups. No trajectory resets or reference injection; frozen model used only as diagnostic.",
+  "paired": "Reuse frozen saved nonlinear trials (inner1e-10; whole1e-6). Reintegrate nonlinear truth independently. Recompute affine candidate with same kernel and independent affine stage algebra.",
+  "references": "Affine displacement full Radau at1e-12/1e-11 plus independent original-state CVODE pair via existing full audit. All compared reference differences<=.05 strict concentration/flux/net budget. Fast-forcing oracle separately integrated in displacement form at1e-12/1e-11. Failed reference or candidate retained.",
+  "decomposition": "Signed concentration errors E_N and E_L use same nonlinear-reference denominator. Report E_N-E_L, worst species/query, endpoint, active/inactive and cosine; never infer additive causal percentages from sup norms.",
+  "scope": "32 local frozen candidates paired with32 historical nonlinear candidates plus16 accurately integrated frozen fast oracles. Not a candidate replacement or formal performance test; all original M4 gates remain.",
+  "source_sha256": {
+    "research/m3_affine_attribution.py": "746bde3db8818dcc520fc053d2fad37154ba403da2f54c70d4221d5fcf1f0510",
+    "research/affine_partition.py": "08b9c5b60801372bdfab34948d930f3377704b68eed86163910387730316e082",
+    "research/test_affine_partition.py": "4a26b2d4c418eba4421a60bad99afa7093ed98268ab06f52c4f2c17480c75a9f",
+    "research/rodas_centered.py": "42448f07e94e958d0458a764d1a934c80c908982de7e84fc588929486d59c7db",
+    "research/rodas_coupling.py": "bad29fef245d0181dc774e02c889090b2a530cc9a52b315497fdc0c00b88b559",
+    "research/m3_growth_study.py": "ef440e9984b74ff8440d0c6d4e1ec9e79e1ce32ac997535847e5ddf6a3e05955",
+    "research/m3_priority.py": "6cc6821a1ac9a811f16d25c20c067b9d0516d1cb3bf60b9d144bdc93adc43856",
+    "research/m3_extrapolated_paths.py": "7ce2742d48adf31bb1b73372cb09f7085e18e1507d32b8543ac3c8217f9b64cf"
+  },
+  "input_sha256": {
+    "results/m3-rodas-centered/registration.json": "96f3f8af41c0ca71e8d325f75a0a7e46d674cf7cc6e6a8b7e14bcea903ebd762",
+    "results/m3-rodas-centered/runs.json": "29b555843069ce56f6bb9f98c19a6fdc739be1393808774d74ae366dd8e2e11b",
+    "results/m3-rodas-continuous/manifest.json": "8d356488a977aed0c4f5206725716aaab2e0162feebd07d50538df71b58aca0d"
+  }
+}

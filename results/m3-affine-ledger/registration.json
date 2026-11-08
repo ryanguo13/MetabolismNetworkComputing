@@ -1,0 +1,14 @@
+{
+  "date": "2026-11-08",
+  "scope": "All16 small-model same-state pairs from prior affine attribution. Signed16/32 physical-ledger residuals, evaluate full nonlinear and frozen RHS on both saved curves to separate curve and vector-field effects algebraically. No scalar projection, no acceptance-rule change.",
+  "source_sha256": {
+    "research/m3_affine_ledger.py": "417f000de1d2ad4d67ca8ceefb7cfe2fc40a55a2f93c0f129209a26e475ce7bf",
+    "research/affine_partition.py": "08b9c5b60801372bdfab34948d930f3377704b68eed86163910387730316e082"
+  },
+  "input_sha256": {
+    "results/m3-affine-attribution/registration.json": "1f2d0e93bc3a69134d51c3d110b555f187482aa57225a4a29ecf1689836efcf9",
+    "results/m3-affine-attribution/runs.json": "3164bf7d3c84063e1c0d11d532321f2df57399f5142ec742b009b9a748da702a",
+    "results/m3-rodas-centered/registration.json": "96f3f8af41c0ca71e8d325f75a0a7e46d674cf7cc6e6a8b7e14bcea903ebd762",
+    "results/m3-rodas-centered/runs.json": "29b555843069ce56f6bb9f98c19a6fdc739be1393808774d74ae366dd8e2e11b"
+  }
+}
