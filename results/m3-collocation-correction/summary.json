@@ -1,0 +1,1202 @@
+{
+  "local": {
+    "candidates": 48,
+    "controls": 36,
+    "passes": {
+      "0.0001": 40,
+      "1e-06": 38
+    },
+    "comparisons": [
+      {
+        "model": "teusink",
+        "h": 0.003,
+        "target": "0.0001",
+        "predictor": "mri",
+        "qualified": 4,
+        "best_key": "candidate-0-0-mri-3-2",
+        "best_seconds": 0.005310917040333152,
+        "mature_key": "control-0-0-1e-06-True",
+        "mature_seconds": 0.0018419160041958094,
+        "local_ratio": 0.34681694144487457
+      },
+      {
+        "model": "teusink",
+        "h": 0.003,
+        "target": "0.0001",
+        "predictor": "row",
+        "qualified": 4,
+        "best_key": "candidate-0-0-row-5-1",
+        "best_seconds": 0.003332959022372961,
+        "mature_key": "control-0-0-1e-06-True",
+        "mature_seconds": 0.0018419160041958094,
+        "local_ratio": 0.5526368586687345
+      },
+      {
+        "model": "teusink",
+        "h": 0.003,
+        "target": "1e-06",
+        "predictor": "mri",
+        "qualified": 4,
+        "best_key": "candidate-0-0-mri-3-2",
+        "best_seconds": 0.005310917040333152,
+        "mature_key": "control-0-0-1e-06-True",
+        "mature_seconds": 0.0018419160041958094,
+        "local_ratio": 0.34681694144487457
+      },
+      {
+        "model": "teusink",
+        "h": 0.003,
+        "target": "1e-06",
+        "predictor": "row",
+        "qualified": 4,
+        "best_key": "candidate-0-0-row-5-1",
+        "best_seconds": 0.003332959022372961,
+        "mature_key": "control-0-0-1e-06-True",
+        "mature_seconds": 0.0018419160041958094,
+        "local_ratio": 0.5526368586687345
+      },
+      {
+        "model": "teusink",
+        "h": 0.01,
+        "target": "0.0001",
+        "predictor": "mri",
+        "qualified": 4,
+        "best_key": "candidate-0-1-mri-3-2",
+        "best_seconds": 0.010128000052645802,
+        "mature_key": "control-0-1-1e-08-True",
+        "mature_seconds": 0.0026446671690791845,
+        "local_ratio": 0.26112432418365766
+      },
+      {
+        "model": "teusink",
+        "h": 0.01,
+        "target": "0.0001",
+        "predictor": "row",
+        "qualified": 4,
+        "best_key": "candidate-0-1-row-5-1",
+        "best_seconds": 0.0033295839093625546,
+        "mature_key": "control-0-1-1e-08-True",
+        "mature_seconds": 0.0026446671690791845,
+        "local_ratio": 0.7942935937558346
+      },
+      {
+        "model": "teusink",
+        "h": 0.01,
+        "target": "1e-06",
+        "predictor": "mri",
+        "qualified": 4,
+        "best_key": "candidate-0-1-mri-3-2",
+        "best_seconds": 0.010128000052645802,
+        "mature_key": "control-0-1-1e-08-True",
+        "mature_seconds": 0.0026446671690791845,
+        "local_ratio": 0.26112432418365766
+      },
+      {
+        "model": "teusink",
+        "h": 0.01,
+        "target": "1e-06",
+        "predictor": "row",
+        "qualified": 4,
+        "best_key": "candidate-0-1-row-5-1",
+        "best_seconds": 0.0033295839093625546,
+        "mature_key": "control-0-1-1e-08-True",
+        "mature_seconds": 0.0026446671690791845,
+        "local_ratio": 0.7942935937558346
+      },
+      {
+        "model": "teusink",
+        "h": 0.03,
+        "target": "0.0001",
+        "predictor": "mri",
+        "qualified": 2,
+        "best_key": "candidate-0-2-mri-3-2",
+        "best_seconds": 0.02349700010381639,
+        "mature_key": "control-0-2-1e-06-True",
+        "mature_seconds": 0.003377333050593734,
+        "local_ratio": 0.14373464849434914
+      },
+      {
+        "model": "teusink",
+        "h": 0.03,
+        "target": "0.0001",
+        "predictor": "row",
+        "qualified": 2,
+        "best_key": "candidate-0-2-row-3-2",
+        "best_seconds": 0.004935582866892219,
+        "mature_key": "control-0-2-1e-06-True",
+        "mature_seconds": 0.003377333050593734,
+        "local_ratio": 0.6842825136720547
+      },
+      {
+        "model": "teusink",
+        "h": 0.03,
+        "target": "1e-06",
+        "predictor": "mri",
+        "qualified": 2,
+        "best_key": "candidate-0-2-mri-3-2",
+        "best_seconds": 0.02349700010381639,
+        "mature_key": "control-0-2-1e-06-True",
+        "mature_seconds": 0.003377333050593734,
+        "local_ratio": 0.14373464849434914
+      },
+      {
+        "model": "teusink",
+        "h": 0.03,
+        "target": "1e-06",
+        "predictor": "row",
+        "qualified": 2,
+        "best_key": "candidate-0-2-row-3-2",
+        "best_seconds": 0.004935582866892219,
+        "mature_key": "control-0-2-1e-06-True",
+        "mature_seconds": 0.003377333050593734,
+        "local_ratio": 0.6842825136720547
+      },
+      {
+        "model": "kecoli",
+        "h": 0.003,
+        "target": "0.0001",
+        "predictor": "mri",
+        "qualified": 4,
+        "best_key": "candidate-1-0-mri-3-2",
+        "best_seconds": 0.02431154204532504,
+        "mature_key": "control-1-0-1e-06-True",
+        "mature_seconds": 0.012403333093971014,
+        "local_ratio": 0.5101829028716875
+      },
+      {
+        "model": "kecoli",
+        "h": 0.003,
+        "target": "0.0001",
+        "predictor": "row",
+        "qualified": 4,
+        "best_key": "candidate-1-0-row-3-1",
+        "best_seconds": 0.017946874955669045,
+        "mature_key": "control-1-0-1e-06-True",
+        "mature_seconds": 0.012403333093971014,
+        "local_ratio": 0.6911138080924255
+      },
+      {
+        "model": "kecoli",
+        "h": 0.003,
+        "target": "1e-06",
+        "predictor": "mri",
+        "qualified": 4,
+        "best_key": "candidate-1-0-mri-3-2",
+        "best_seconds": 0.02431154204532504,
+        "mature_key": "control-1-0-1e-06-True",
+        "mature_seconds": 0.012403333093971014,
+        "local_ratio": 0.5101829028716875
+      },
+      {
+        "model": "kecoli",
+        "h": 0.003,
+        "target": "1e-06",
+        "predictor": "row",
+        "qualified": 4,
+        "best_key": "candidate-1-0-row-3-1",
+        "best_seconds": 0.017946874955669045,
+        "mature_key": "control-1-0-1e-06-True",
+        "mature_seconds": 0.012403333093971014,
+        "local_ratio": 0.6911138080924255
+      },
+      {
+        "model": "kecoli",
+        "h": 0.01,
+        "target": "0.0001",
+        "predictor": "mri",
+        "qualified": 4,
+        "best_key": "candidate-1-1-mri-5-1",
+        "best_seconds": 0.0500898330938071,
+        "mature_key": "control-1-1-1e-06-True",
+        "mature_seconds": 0.012638875050470233,
+        "local_ratio": 0.2523241598110426
+      },
+      {
+        "model": "kecoli",
+        "h": 0.01,
+        "target": "0.0001",
+        "predictor": "row",
+        "qualified": 4,
+        "best_key": "candidate-1-1-row-3-1",
+        "best_seconds": 0.019010249990969896,
+        "mature_key": "control-1-1-1e-06-True",
+        "mature_seconds": 0.012638875050470233,
+        "local_ratio": 0.6648452838060444
+      },
+      {
+        "model": "kecoli",
+        "h": 0.01,
+        "target": "1e-06",
+        "predictor": "mri",
+        "qualified": 4,
+        "best_key": "candidate-1-1-mri-5-1",
+        "best_seconds": 0.0500898330938071,
+        "mature_key": "control-1-1-1e-06-True",
+        "mature_seconds": 0.012638875050470233,
+        "local_ratio": 0.2523241598110426
+      },
+      {
+        "model": "kecoli",
+        "h": 0.01,
+        "target": "1e-06",
+        "predictor": "row",
+        "qualified": 4,
+        "best_key": "candidate-1-1-row-3-1",
+        "best_seconds": 0.019010249990969896,
+        "mature_key": "control-1-1-1e-06-True",
+        "mature_seconds": 0.012638875050470233,
+        "local_ratio": 0.6648452838060444
+      },
+      {
+        "model": "kecoli",
+        "h": 0.03,
+        "target": "0.0001",
+        "predictor": "mri",
+        "qualified": 2,
+        "best_key": "candidate-1-2-mri-5-1",
+        "best_seconds": 0.11816708301194012,
+        "mature_key": "control-1-2-1e-06-False",
+        "mature_seconds": 0.037627333076670766,
+        "local_ratio": 0.3184248279435715
+      },
+      {
+        "model": "kecoli",
+        "h": 0.03,
+        "target": "0.0001",
+        "predictor": "row",
+        "qualified": 2,
+        "best_key": "candidate-1-2-row-5-1",
+        "best_seconds": 0.028520792024210095,
+        "mature_key": "control-1-2-1e-06-False",
+        "mature_seconds": 0.037627333076670766,
+        "local_ratio": 1.3192948163827467
+      },
+      {
+        "model": "kecoli",
+        "h": 0.03,
+        "target": "1e-06",
+        "predictor": "mri",
+        "qualified": 1,
+        "best_key": "candidate-1-2-mri-5-2",
+        "best_seconds": 0.24211483309045434,
+        "mature_key": "control-1-2-1e-08-False",
+        "mature_seconds": 0.05699804192408919,
+        "local_ratio": 0.23541738932944545
+      },
+      {
+        "model": "kecoli",
+        "h": 0.03,
+        "target": "1e-06",
+        "predictor": "row",
+        "qualified": 1,
+        "best_key": "candidate-1-2-row-5-2",
+        "best_seconds": 0.03161716694012284,
+        "mature_key": "control-1-2-1e-08-False",
+        "mature_seconds": 0.05699804192408919,
+        "local_ratio": 1.802756142953387
+      }
+    ]
+  },
+  "first_tolerance": {
+    "records": 64,
+    "dispatch_failures": 32,
+    "summaries": [
+      {
+        "model": "teusink",
+        "target": "0.0001",
+        "timings": [
+          {
+            "method": "mri-1e-08",
+            "qualified": true,
+            "median_seconds": 0.02374545787461102,
+            "range_seconds": [
+              0.023255167063325644,
+              0.0239763748832047
+            ],
+            "ratio_to_best_mature": null
+          },
+          {
+            "method": "mri-0.0001",
+            "qualified": true,
+            "median_seconds": 0.005530041176825762,
+            "range_seconds": [
+              0.004501916002482176,
+              0.007526207948103547
+            ],
+            "ratio_to_best_mature": null
+          },
+          {
+            "method": "mri-0.01",
+            "qualified": true,
+            "median_seconds": 0.005587999941781163,
+            "range_seconds": [
+              0.0048764171078801155,
+              0.005876042181625962
+            ],
+            "ratio_to_best_mature": null
+          },
+          {
+            "method": "row",
+            "qualified": true,
+            "median_seconds": 0.0034586251713335514,
+            "range_seconds": [
+              0.003417791100218892,
+              0.004993041977286339
+            ],
+            "ratio_to_best_mature": null
+          },
+          {
+            "method": "radau-1e-06-auto",
+            "qualified": false,
+            "median_seconds": 2.874992787837982e-06,
+            "range_seconds": [
+              2.8330832719802856e-06,
+              3.2919924706220627e-06
+            ],
+            "ratio_to_best_mature": null
+          },
+          {
+            "method": "radau-1e-06-whole",
+            "qualified": false,
+            "median_seconds": 2.4579931050539017e-06,
+            "range_seconds": [
+              1.666136085987091e-06,
+              5.250098183751106e-06
+            ],
+            "ratio_to_best_mature": null
+          },
+          {
+            "method": "radau-1e-08-auto",
+            "qualified": false,
+            "median_seconds": 2.040993422269821e-06,
+            "range_seconds": [
+              1.500127837061882e-06,
+              3.7080608308315277e-06
+            ],
+            "ratio_to_best_mature": null
+          },
+          {
+            "method": "radau-1e-08-whole",
+            "qualified": false,
+            "median_seconds": 2.00001522898674e-06,
+            "range_seconds": [
+              1.458916813135147e-06,
+              2.9169023036956787e-06
+            ],
+            "ratio_to_best_mature": null
+          }
+        ],
+        "best_mature": null,
+        "excluded_from_cost_comparison": true
+      },
+      {
+        "model": "teusink",
+        "target": "1e-06",
+        "timings": [
+          {
+            "method": "mri-1e-08",
+            "qualified": true,
+            "median_seconds": 0.02374545787461102,
+            "range_seconds": [
+              0.023255167063325644,
+              0.0239763748832047
+            ],
+            "ratio_to_best_mature": null
+          },
+          {
+            "method": "mri-0.0001",
+            "qualified": true,
+            "median_seconds": 0.005530041176825762,
+            "range_seconds": [
+              0.004501916002482176,
+              0.007526207948103547
+            ],
+            "ratio_to_best_mature": null
+          },
+          {
+            "method": "mri-0.01",
+            "qualified": true,
+            "median_seconds": 0.005587999941781163,
+            "range_seconds": [
+              0.0048764171078801155,
+              0.005876042181625962
+            ],
+            "ratio_to_best_mature": null
+          },
+          {
+            "method": "row",
+            "qualified": true,
+            "median_seconds": 0.0034586251713335514,
+            "range_seconds": [
+              0.003417791100218892,
+              0.004993041977286339
+            ],
+            "ratio_to_best_mature": null
+          },
+          {
+            "method": "radau-1e-06-auto",
+            "qualified": false,
+            "median_seconds": 2.874992787837982e-06,
+            "range_seconds": [
+              2.8330832719802856e-06,
+              3.2919924706220627e-06
+            ],
+            "ratio_to_best_mature": null
+          },
+          {
+            "method": "radau-1e-06-whole",
+            "qualified": false,
+            "median_seconds": 2.4579931050539017e-06,
+            "range_seconds": [
+              1.666136085987091e-06,
+              5.250098183751106e-06
+            ],
+            "ratio_to_best_mature": null
+          },
+          {
+            "method": "radau-1e-08-auto",
+            "qualified": false,
+            "median_seconds": 2.040993422269821e-06,
+            "range_seconds": [
+              1.500127837061882e-06,
+              3.7080608308315277e-06
+            ],
+            "ratio_to_best_mature": null
+          },
+          {
+            "method": "radau-1e-08-whole",
+            "qualified": false,
+            "median_seconds": 2.00001522898674e-06,
+            "range_seconds": [
+              1.458916813135147e-06,
+              2.9169023036956787e-06
+            ],
+            "ratio_to_best_mature": null
+          }
+        ],
+        "best_mature": null,
+        "excluded_from_cost_comparison": true
+      },
+      {
+        "model": "kecoli",
+        "target": "0.0001",
+        "timings": [
+          {
+            "method": "mri-1e-08",
+            "qualified": true,
+            "median_seconds": 0.11479554185643792,
+            "range_seconds": [
+              0.11442416603676975,
+              0.1222876668907702
+            ],
+            "ratio_to_best_mature": null
+          },
+          {
+            "method": "mri-0.0001",
+            "qualified": true,
+            "median_seconds": 0.036973957903683186,
+            "range_seconds": [
+              0.03391091711819172,
+              0.039320917101576924
+            ],
+            "ratio_to_best_mature": null
+          },
+          {
+            "method": "mri-0.01",
+            "qualified": true,
+            "median_seconds": 0.03542754193767905,
+            "range_seconds": [
+              0.033794250106438994,
+              0.03727250010706484
+            ],
+            "ratio_to_best_mature": null
+          },
+          {
+            "method": "row",
+            "qualified": true,
+            "median_seconds": 0.029062415938824415,
+            "range_seconds": [
+              0.028782667126506567,
+              0.029692457988858223
+            ],
+            "ratio_to_best_mature": null
+          },
+          {
+            "method": "radau-1e-06-auto",
+            "qualified": false,
+            "median_seconds": 3.375113010406494e-06,
+            "range_seconds": [
+              2.6668421924114227e-06,
+              3.708992153406143e-06
+            ],
+            "ratio_to_best_mature": null
+          },
+          {
+            "method": "radau-1e-06-whole",
+            "qualified": false,
+            "median_seconds": 1.8749851733446121e-06,
+            "range_seconds": [
+              1.7499551177024841e-06,
+              2.5830231606960297e-06
+            ],
+            "ratio_to_best_mature": null
+          },
+          {
+            "method": "radau-1e-08-auto",
+            "qualified": false,
+            "median_seconds": 1.8749851733446121e-06,
+            "range_seconds": [
+              1.4582183212041855e-06,
+              2.791173756122589e-06
+            ],
+            "ratio_to_best_mature": null
+          },
+          {
+            "method": "radau-1e-08-whole",
+            "qualified": false,
+            "median_seconds": 1.709209755063057e-06,
+            "range_seconds": [
+              1.375097781419754e-06,
+              1.7920974642038345e-06
+            ],
+            "ratio_to_best_mature": null
+          }
+        ],
+        "best_mature": null,
+        "excluded_from_cost_comparison": true
+      },
+      {
+        "model": "kecoli",
+        "target": "1e-06",
+        "timings": [
+          {
+            "method": "mri-1e-08",
+            "qualified": true,
+            "median_seconds": 0.11479554185643792,
+            "range_seconds": [
+              0.11442416603676975,
+              0.1222876668907702
+            ],
+            "ratio_to_best_mature": null
+          },
+          {
+            "method": "mri-0.0001",
+            "qualified": true,
+            "median_seconds": 0.036973957903683186,
+            "range_seconds": [
+              0.03391091711819172,
+              0.039320917101576924
+            ],
+            "ratio_to_best_mature": null
+          },
+          {
+            "method": "mri-0.01",
+            "qualified": true,
+            "median_seconds": 0.03542754193767905,
+            "range_seconds": [
+              0.033794250106438994,
+              0.03727250010706484
+            ],
+            "ratio_to_best_mature": null
+          },
+          {
+            "method": "row",
+            "qualified": true,
+            "median_seconds": 0.029062415938824415,
+            "range_seconds": [
+              0.028782667126506567,
+              0.029692457988858223
+            ],
+            "ratio_to_best_mature": null
+          },
+          {
+            "method": "radau-1e-06-auto",
+            "qualified": false,
+            "median_seconds": 3.375113010406494e-06,
+            "range_seconds": [
+              2.6668421924114227e-06,
+              3.708992153406143e-06
+            ],
+            "ratio_to_best_mature": null
+          },
+          {
+            "method": "radau-1e-06-whole",
+            "qualified": false,
+            "median_seconds": 1.8749851733446121e-06,
+            "range_seconds": [
+              1.7499551177024841e-06,
+              2.5830231606960297e-06
+            ],
+            "ratio_to_best_mature": null
+          },
+          {
+            "method": "radau-1e-08-auto",
+            "qualified": false,
+            "median_seconds": 1.8749851733446121e-06,
+            "range_seconds": [
+              1.4582183212041855e-06,
+              2.791173756122589e-06
+            ],
+            "ratio_to_best_mature": null
+          },
+          {
+            "method": "radau-1e-08-whole",
+            "qualified": false,
+            "median_seconds": 1.709209755063057e-06,
+            "range_seconds": [
+              1.375097781419754e-06,
+              1.7920974642038345e-06
+            ],
+            "ratio_to_best_mature": null
+          }
+        ],
+        "best_mature": null,
+        "excluded_from_cost_comparison": true
+      }
+    ]
+  },
+  "corrected_tolerance": {
+    "records": 64,
+    "dispatch_failures": 0,
+    "summaries": [
+      {
+        "model": "teusink",
+        "target": "0.0001",
+        "timings": [
+          {
+            "method": "mri-1e-08",
+            "qualified": true,
+            "median_seconds": 0.023614291101694107,
+            "range_seconds": [
+              0.022739792009815574,
+              0.025184125173836946
+            ],
+            "ratio_to_best_mature": 0.11464104728996911
+          },
+          {
+            "method": "mri-0.0001",
+            "qualified": true,
+            "median_seconds": 0.004342040978372097,
+            "range_seconds": [
+              0.004278874956071377,
+              0.004621708998456597
+            ],
+            "ratio_to_best_mature": 0.6234780087044164
+          },
+          {
+            "method": "mri-0.01",
+            "qualified": true,
+            "median_seconds": 0.004707415821030736,
+            "range_seconds": [
+              0.004407540895044804,
+              0.004896624945104122
+            ],
+            "ratio_to_best_mature": 0.5750856023412968
+          },
+          {
+            "method": "row",
+            "qualified": true,
+            "median_seconds": 0.003517583943903446,
+            "range_seconds": [
+              0.003434333950281143,
+              0.00354795902967453
+            ],
+            "ratio_to_best_mature": 0.7696097964059617
+          },
+          {
+            "method": "radau-1e-06-auto",
+            "qualified": true,
+            "median_seconds": 0.00425583403557539,
+            "range_seconds": [
+              0.0038865418173372746,
+              0.004400542005896568
+            ],
+            "ratio_to_best_mature": 0.6361072918442416
+          },
+          {
+            "method": "radau-1e-06-whole",
+            "qualified": true,
+            "median_seconds": 0.002707167062908411,
+            "range_seconds": [
+              0.002558083040639758,
+              0.0027986248023808002
+            ],
+            "ratio_to_best_mature": 1.0
+          },
+          {
+            "method": "radau-1e-08-auto",
+            "qualified": true,
+            "median_seconds": 0.00600412511266768,
+            "range_seconds": [
+              0.005660542054101825,
+              0.006413833005353808
+            ],
+            "ratio_to_best_mature": 0.4508845189112982
+          },
+          {
+            "method": "radau-1e-08-whole",
+            "qualified": true,
+            "median_seconds": 0.006395417032763362,
+            "range_seconds": [
+              0.005940125091001391,
+              0.006986292079091072
+            ],
+            "ratio_to_best_mature": 0.42329797244491585
+          }
+        ],
+        "best_mature": "radau-1e-06-whole",
+        "excluded_from_cost_comparison": false
+      },
+      {
+        "model": "teusink",
+        "target": "1e-06",
+        "timings": [
+          {
+            "method": "mri-1e-08",
+            "qualified": true,
+            "median_seconds": 0.023614291101694107,
+            "range_seconds": [
+              0.022739792009815574,
+              0.025184125173836946
+            ],
+            "ratio_to_best_mature": 0.11464104728996911
+          },
+          {
+            "method": "mri-0.0001",
+            "qualified": true,
+            "median_seconds": 0.004342040978372097,
+            "range_seconds": [
+              0.004278874956071377,
+              0.004621708998456597
+            ],
+            "ratio_to_best_mature": 0.6234780087044164
+          },
+          {
+            "method": "mri-0.01",
+            "qualified": true,
+            "median_seconds": 0.004707415821030736,
+            "range_seconds": [
+              0.004407540895044804,
+              0.004896624945104122
+            ],
+            "ratio_to_best_mature": 0.5750856023412968
+          },
+          {
+            "method": "row",
+            "qualified": true,
+            "median_seconds": 0.003517583943903446,
+            "range_seconds": [
+              0.003434333950281143,
+              0.00354795902967453
+            ],
+            "ratio_to_best_mature": 0.7696097964059617
+          },
+          {
+            "method": "radau-1e-06-auto",
+            "qualified": true,
+            "median_seconds": 0.00425583403557539,
+            "range_seconds": [
+              0.0038865418173372746,
+              0.004400542005896568
+            ],
+            "ratio_to_best_mature": 0.6361072918442416
+          },
+          {
+            "method": "radau-1e-06-whole",
+            "qualified": true,
+            "median_seconds": 0.002707167062908411,
+            "range_seconds": [
+              0.002558083040639758,
+              0.0027986248023808002
+            ],
+            "ratio_to_best_mature": 1.0
+          },
+          {
+            "method": "radau-1e-08-auto",
+            "qualified": true,
+            "median_seconds": 0.00600412511266768,
+            "range_seconds": [
+              0.005660542054101825,
+              0.006413833005353808
+            ],
+            "ratio_to_best_mature": 0.4508845189112982
+          },
+          {
+            "method": "radau-1e-08-whole",
+            "qualified": true,
+            "median_seconds": 0.006395417032763362,
+            "range_seconds": [
+              0.005940125091001391,
+              0.006986292079091072
+            ],
+            "ratio_to_best_mature": 0.42329797244491585
+          }
+        ],
+        "best_mature": "radau-1e-06-whole",
+        "excluded_from_cost_comparison": false
+      },
+      {
+        "model": "kecoli",
+        "target": "0.0001",
+        "timings": [
+          {
+            "method": "mri-1e-08",
+            "qualified": true,
+            "median_seconds": 0.12435916694812477,
+            "range_seconds": [
+              0.12019641720689833,
+              0.12875879183411598
+            ],
+            "ratio_to_best_mature": 0.29968606127154673
+          },
+          {
+            "method": "mri-0.0001",
+            "qualified": true,
+            "median_seconds": 0.034956749994307756,
+            "range_seconds": [
+              0.034893417032435536,
+              0.03508750000037253
+            ],
+            "ratio_to_best_mature": 1.066137696775671
+          },
+          {
+            "method": "mri-0.01",
+            "qualified": true,
+            "median_seconds": 0.03563758288510144,
+            "range_seconds": [
+              0.03391120792366564,
+              0.036464749835431576
+            ],
+            "ratio_to_best_mature": 1.0457698280450636
+          },
+          {
+            "method": "row",
+            "qualified": true,
+            "median_seconds": 0.02935416717082262,
+            "range_seconds": [
+              0.029348916839808226,
+              0.032797582913190126
+            ],
+            "ratio_to_best_mature": 1.2696224256274755
+          },
+          {
+            "method": "radau-1e-06-auto",
+            "qualified": true,
+            "median_seconds": 0.03726870892569423,
+            "range_seconds": [
+              0.036770750069990754,
+              0.04023454198613763
+            ],
+            "ratio_to_best_mature": 1.0
+          },
+          {
+            "method": "radau-1e-06-whole",
+            "qualified": true,
+            "median_seconds": 0.039785792119801044,
+            "range_seconds": [
+              0.03742524981498718,
+              0.04431024985387921
+            ],
+            "ratio_to_best_mature": 0.9367341188902938
+          },
+          {
+            "method": "radau-1e-08-auto",
+            "qualified": true,
+            "median_seconds": 0.05572375003248453,
+            "range_seconds": [
+              0.054407957941293716,
+              0.05846291594207287
+            ],
+            "ratio_to_best_mature": 0.6688119321468528
+          },
+          {
+            "method": "radau-1e-08-whole",
+            "qualified": true,
+            "median_seconds": 0.06878100009635091,
+            "range_seconds": [
+              0.06869650003500283,
+              0.07305200002156198
+            ],
+            "ratio_to_best_mature": 0.5418459876053979
+          }
+        ],
+        "best_mature": "radau-1e-06-auto",
+        "excluded_from_cost_comparison": false
+      },
+      {
+        "model": "kecoli",
+        "target": "1e-06",
+        "timings": [
+          {
+            "method": "mri-1e-08",
+            "qualified": true,
+            "median_seconds": 0.12435916694812477,
+            "range_seconds": [
+              0.12019641720689833,
+              0.12875879183411598
+            ],
+            "ratio_to_best_mature": 0.4480871929266715
+          },
+          {
+            "method": "mri-0.0001",
+            "qualified": true,
+            "median_seconds": 0.034956749994307756,
+            "range_seconds": [
+              0.034893417032435536,
+              0.03508750000037253
+            ],
+            "ratio_to_best_mature": 1.594076967726073
+          },
+          {
+            "method": "mri-0.01",
+            "qualified": true,
+            "median_seconds": 0.03563758288510144,
+            "range_seconds": [
+              0.03391120792366564,
+              0.036464749835431576
+            ],
+            "ratio_to_best_mature": 1.5636231618778014
+          },
+          {
+            "method": "row",
+            "qualified": true,
+            "median_seconds": 0.02935416717082262,
+            "range_seconds": [
+              0.029348916839808226,
+              0.032797582913190126
+            ],
+            "ratio_to_best_mature": 1.8983250217322698
+          },
+          {
+            "method": "radau-1e-06-auto",
+            "qualified": false,
+            "median_seconds": 0.03726870892569423,
+            "range_seconds": [
+              0.036770750069990754,
+              0.04023454198613763
+            ],
+            "ratio_to_best_mature": null
+          },
+          {
+            "method": "radau-1e-06-whole",
+            "qualified": false,
+            "median_seconds": 0.039785792119801044,
+            "range_seconds": [
+              0.03742524981498718,
+              0.04431024985387921
+            ],
+            "ratio_to_best_mature": null
+          },
+          {
+            "method": "radau-1e-08-auto",
+            "qualified": true,
+            "median_seconds": 0.05572375003248453,
+            "range_seconds": [
+              0.054407957941293716,
+              0.05846291594207287
+            ],
+            "ratio_to_best_mature": 1.0
+          },
+          {
+            "method": "radau-1e-08-whole",
+            "qualified": true,
+            "median_seconds": 0.06878100009635091,
+            "range_seconds": [
+              0.06869650003500283,
+              0.07305200002156198
+            ],
+            "ratio_to_best_mature": 0.8101619626702824
+          }
+        ],
+        "best_mature": "radau-1e-08-auto",
+        "excluded_from_cost_comparison": false
+      }
+    ]
+  },
+  "fairness": {
+    "records": 32,
+    "dispatch_failures": 0,
+    "summaries": [
+      {
+        "model": "kecoli",
+        "target": "0.0001",
+        "timings": [
+          {
+            "method": "mri-0.0001",
+            "qualified": true,
+            "median_seconds": 0.03617929108440876,
+            "range_seconds": [
+              0.03389912494458258,
+              0.045862582977861166
+            ],
+            "ratio_to_best_mature": 0.8476925941003034
+          },
+          {
+            "method": "row",
+            "qualified": true,
+            "median_seconds": 0.02881312509998679,
+            "range_seconds": [
+              0.02879895898513496,
+              0.029470875160768628
+            ],
+            "ratio_to_best_mature": 1.0644078698726955
+          },
+          {
+            "method": "radau-3e-08-auto",
+            "qualified": true,
+            "median_seconds": 0.0420905000064522,
+            "range_seconds": [
+              0.04179595899768174,
+              0.0616695829667151
+            ],
+            "ratio_to_best_mature": 0.7286422614925243
+          },
+          {
+            "method": "radau-3e-08-whole",
+            "qualified": true,
+            "median_seconds": 0.059482457814738154,
+            "range_seconds": [
+              0.05338395806029439,
+              0.07194554177112877
+            ],
+            "ratio_to_best_mature": 0.5155959965133369
+          },
+          {
+            "method": "radau-1e-07-auto",
+            "qualified": true,
+            "median_seconds": 0.03066891711205244,
+            "range_seconds": [
+              0.029225874925032258,
+              0.03135720896534622
+            ],
+            "ratio_to_best_mature": 1.0
+          },
+          {
+            "method": "radau-1e-07-whole",
+            "qualified": true,
+            "median_seconds": 0.054873500019311905,
+            "range_seconds": [
+              0.0546892499551177,
+              0.055675166891887784
+            ],
+            "ratio_to_best_mature": 0.5589021495122232
+          },
+          {
+            "method": "radau-3e-07-auto",
+            "qualified": true,
+            "median_seconds": 0.03384754084981978,
+            "range_seconds": [
+              0.02876925002783537,
+              0.03792500006966293
+            ],
+            "ratio_to_best_mature": 0.9060899652394019
+          },
+          {
+            "method": "radau-3e-07-whole",
+            "qualified": true,
+            "median_seconds": 0.040668000001460314,
+            "range_seconds": [
+              0.03827995806932449,
+              0.0552837501745671
+            ],
+            "ratio_to_best_mature": 0.7541289739094909
+          }
+        ],
+        "best_mature": "radau-1e-07-auto",
+        "excluded_from_cost_comparison": false
+      },
+      {
+        "model": "kecoli",
+        "target": "1e-06",
+        "timings": [
+          {
+            "method": "mri-0.0001",
+            "qualified": true,
+            "median_seconds": 0.03617929108440876,
+            "range_seconds": [
+              0.03389912494458258,
+              0.045862582977861166
+            ],
+            "ratio_to_best_mature": 0.8476925941003034
+          },
+          {
+            "method": "row",
+            "qualified": true,
+            "median_seconds": 0.02881312509998679,
+            "range_seconds": [
+              0.02879895898513496,
+              0.029470875160768628
+            ],
+            "ratio_to_best_mature": 1.0644078698726955
+          },
+          {
+            "method": "radau-3e-08-auto",
+            "qualified": true,
+            "median_seconds": 0.0420905000064522,
+            "range_seconds": [
+              0.04179595899768174,
+              0.0616695829667151
+            ],
+            "ratio_to_best_mature": 0.7286422614925243
+          },
+          {
+            "method": "radau-3e-08-whole",
+            "qualified": true,
+            "median_seconds": 0.059482457814738154,
+            "range_seconds": [
+              0.05338395806029439,
+              0.07194554177112877
+            ],
+            "ratio_to_best_mature": 0.5155959965133369
+          },
+          {
+            "method": "radau-1e-07-auto",
+            "qualified": true,
+            "median_seconds": 0.03066891711205244,
+            "range_seconds": [
+              0.029225874925032258,
+              0.03135720896534622
+            ],
+            "ratio_to_best_mature": 1.0
+          },
+          {
+            "method": "radau-1e-07-whole",
+            "qualified": true,
+            "median_seconds": 0.054873500019311905,
+            "range_seconds": [
+              0.0546892499551177,
+              0.055675166891887784
+            ],
+            "ratio_to_best_mature": 0.5589021495122232
+          },
+          {
+            "method": "radau-3e-07-auto",
+            "qualified": true,
+            "median_seconds": 0.03384754084981978,
+            "range_seconds": [
+              0.02876925002783537,
+              0.03792500006966293
+            ],
+            "ratio_to_best_mature": 0.9060899652394019
+          },
+          {
+            "method": "radau-3e-07-whole",
+            "qualified": true,
+            "median_seconds": 0.040668000001460314,
+            "range_seconds": [
+              0.03827995806932449,
+              0.0552837501745671
+            ],
+            "ratio_to_best_mature": 0.7541289739094909
+          }
+        ],
+        "best_mature": "radau-1e-07-auto",
+        "excluded_from_cost_comparison": false
+      }
+    ]
+  },
+  "npz_crc_checked": 223,
+  "historical_manifest_unchanged": true,
+  "M4_admission": false,
+  "scope": "Local continuous-correction/cost experiments only. Original full windows, target accuracy, split coverage,7 formal repeats and1.5 speedup gates unfulfilled."
+}

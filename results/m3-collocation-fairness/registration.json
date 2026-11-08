@@ -1,0 +1,54 @@
+{
+  "date": "2026-11-08",
+  "models": [
+    {
+      "name": "kecoli",
+      "reference_key": "1-2",
+      "stages": 5
+    }
+  ],
+  "h": 0.03,
+  "sweeps": 2,
+  "predictor_tolerances": [
+    0.0001
+  ],
+  "repeats": [
+    -1,
+    0,
+    1,
+    2
+  ],
+  "methods": [
+    "mri-0.0001",
+    "row",
+    "radau-3e-08-auto",
+    "radau-3e-08-whole",
+    "radau-1e-07-auto",
+    "radau-1e-07-whole",
+    "radau-3e-07-auto",
+    "radau-3e-07-whole"
+  ],
+  "order": "Rotate method list by repeat+1; repeat-1 is retained warmup, exclude it from medians.",
+  "selection": "Only large model showed a local strict median ratio above1.5 against coarse mature tolerance grid. Add intermediate mature tolerances before treating it as evidence of a speed advantage; retain MRI and corrected ROW controls. Same local state, not holdout.",
+  "scope": "Predictor tolerance only changes internal work; original local external guards and independent full references unchanged. Full ROW gets same correction; mature Radau uninterrupted. No error controller or global claim.",
+  "purpose": "Challenge preliminary large-model1.59 ratio with a denser mature tolerance grid. Internal tolerances may change; all external gates remain fixed.",
+  "reference": "Independent complete ODE1e-12/1e-11 pair, budget<=.05, same original65+public grid.",
+  "source_sha256": {
+    "research/m3_collocation_fairness.py": "db82c87ecbfa307c2160c795a4f12e192abfba441c2a9f358865b4bc6fd6bc53",
+    "research/collocation_correction.py": "a2b550b4ccb40748cc53532e4e0433b79c1e0d21ed5a8460a780f402044525cf",
+    "research/linear_context_row.py": "599a6c12032e6dbf3b9b5d19e7527e72b89b3d4b960aa570ae54b1e3e45003ae",
+    "research/m3_growth_study.py": "ef440e9984b74ff8440d0c6d4e1ec9e79e1ce32ac997535847e5ddf6a3e05955",
+    "research/inner_dense.py": "e19b0221a27f5fa861c7a0877d64f9e04b638a3fc514326c7968541f13ec133b",
+    "research/m3_extrapolated_paths.py": "7ce2742d48adf31bb1b73372cb09f7085e18e1507d32b8543ac3c8217f9b64cf"
+  },
+  "input_sha256": {
+    "results/m3-collocation-correction/registration.json": "ee1772ac3947968a2ddb6ea379b4f375897fe6a4e181ce6609dbf14a7f6d9bcd",
+    "results/m3-collocation-correction/runs.json": "bf6bc2a31f6d3fc2417f3697c937f0b833e2fa99be746bf5d00ea712e260ee11",
+    "results/m3-collocation-correction/reference-0-2.npz": "4603b9bcc64f7966d09dfcadefb692eea3ceefce3daf1a3b0523a4aab087de8b",
+    "results/m3-collocation-correction/reference-1-2.npz": "eca20db72e748c7c534ebceb3e604265749a2ec9e3ef3fe822fc9410dd1d4863",
+    "results/m3-collocation-tolerance/registration.json": "8d069c3f6972ccd79a8fb7c0be07b70031e016b0e79b7cdc3b2a2179df6aa214",
+    "results/m3-collocation-tolerance/runs.json": "214900f647927ad15f61a52ea2918282e61abc735d78e9bb5cdaaa92bd480118",
+    "results/m3-collocation-tolerance-fixed/registration.json": "83ba2528cd5ba6d5155d10df6de23bce0e2f1ac48824dc2984df35c01d13cba3",
+    "results/m3-collocation-tolerance-fixed/runs.json": "930283c9282b87cdd785f6aba6167ec37112930d4e6a3fe0833f596b0bdcc68a"
+  }
+}

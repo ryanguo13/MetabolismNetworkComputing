@@ -1,0 +1,56 @@
+{
+  "date": "2026-11-08",
+  "models": [
+    {
+      "name": "teusink",
+      "start": 1.0,
+      "threshold": 3.0
+    },
+    {
+      "name": "kecoli",
+      "start": 0.1,
+      "threshold": 1.0
+    }
+  ],
+  "steps": [
+    0.003,
+    0.01,
+    0.03
+  ],
+  "predictors": [
+    "mri",
+    "row"
+  ],
+  "stages": [
+    3,
+    5
+  ],
+  "sweeps": [
+    1,
+    2
+  ],
+  "inner_tolerance": 1e-08,
+  "queries": 65,
+  "initial": "Unperturbed registered prefix column3; no reference injection. Same state and H for all candidates/controls.",
+  "method": "One or two frozen full-J simplified Newton iterations of right-Radau collocation residual, seeded by MRI continuous output or standalone ROW cubic output. Actual polynomial integrates final corrected stage rates. Independent full-vector correction; not a scalar ledger fix and not a claimed published SDC tableau.",
+  "controls": "Uninterrupted full Radau over each H; tolerances1e-6/1e-8/1e-10 and automatic/whole initial steps. Full ROW seed receives identical correction opportunity.",
+  "gate": "All original development concentration/flux/positivity/pool/physical/modified ledger checks; 65 uniform queries plus public observations; independent complete ODE1e-12/1e-11 reference budget<=.05. No global/controller/formal M4 qualification from local results.",
+  "next_gate": "Only consider longer paths if locally qualified MRI-corrected costs have credible advantage over both corrected full-ROW and uninterrupted mature controls. Always retain failures. Original M4 gates unchanged.",
+  "timing": "Full trial incl predictor/guards/correction, plus query guard; setup separately recorded. Shared external independent audit pair recorded separately. Single exploratory timing, no statistical speedup claim.",
+  "source_sha256": {
+    "research/m3_collocation_study.py": "e16a3c4b944e549e8f1c789b388d7366426db2ca10969bfb4e7c5c5d70b728a4",
+    "research/collocation_correction.py": "a2b550b4ccb40748cc53532e4e0433b79c1e0d21ed5a8460a780f402044525cf",
+    "research/test_collocation_correction.py": "c20acf567bdc6f6805fd6da5b28f9dfafd075025bdc92f6010a48398b758e759",
+    "research/linear_context_row.py": "599a6c12032e6dbf3b9b5d19e7527e72b89b3d4b960aa570ae54b1e3e45003ae",
+    "research/row_continuous.py": "90260109dfa6238da79641594c00c3e1abe3f6d55dd4a578b3f0f7cc4a5cf2f7",
+    "research/inner_dense.py": "e19b0221a27f5fa861c7a0877d64f9e04b638a3fc514326c7968541f13ec133b",
+    "research/m3_extrapolated_paths.py": "7ce2742d48adf31bb1b73372cb09f7085e18e1507d32b8543ac3c8217f9b64cf",
+    "research/m3_growth_study.py": "ef440e9984b74ff8440d0c6d4e1ec9e79e1ce32ac997535847e5ddf6a3e05955",
+    "research/m3_priority.py": "6cc6821a1ac9a811f16d25c20c067b9d0516d1cb3bf60b9d144bdc93adc43856"
+  },
+  "input_sha256": {
+    "results/m3-priority/p0.npz": "8be94525b6c3caa007123f284101ab165b725d38ab1567a121f4923993ed4243",
+    "results/m3-checkpoint-controller/summary.json": "8651a983f47e42ddbbb5627e7b8662bc154b5cebc89cc803bf5fae7f4b998251",
+    "results/m3-checkpoint-controller/manifest.json": "e9803bb5633fddae8bd1a99e522896f909bf4094ca112f4ee14ee0966b86df0b"
+  }
+}

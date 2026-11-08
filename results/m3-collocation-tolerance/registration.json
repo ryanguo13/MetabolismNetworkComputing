@@ -1,0 +1,56 @@
+{
+  "date": "2026-11-08",
+  "models": [
+    {
+      "name": "teusink",
+      "reference_key": "0-2",
+      "stages": 3
+    },
+    {
+      "name": "kecoli",
+      "reference_key": "1-2",
+      "stages": 5
+    }
+  ],
+  "h": 0.03,
+  "sweeps": 2,
+  "predictor_tolerances": [
+    1e-08,
+    0.0001,
+    0.01
+  ],
+  "repeats": [
+    -1,
+    0,
+    1,
+    2
+  ],
+  "methods": [
+    "mri-1e-08",
+    "mri-0.0001",
+    "mri-0.01",
+    "row",
+    "radau-1e-06-auto",
+    "radau-1e-06-whole",
+    "radau-1e-08-auto",
+    "radau-1e-08-whole"
+  ],
+  "order": "Rotate method list by repeat+1; repeat-1 is retained warmup, exclude it from medians.",
+  "selection": "H=.03 and minimum stages passing strict original local screen under two sweeps; same unperturbed prefix and fixed groups. Development follow-up, not independent holdout or formal seven-repeat benchmark.",
+  "scope": "Predictor tolerance only changes internal work; original local external guards and independent full references unchanged. Full ROW gets same correction; mature Radau uninterrupted. No error controller or global claim.",
+  "reference": "Independent complete ODE1e-12/1e-11 pair, budget<=.05, same original65+public grid.",
+  "source_sha256": {
+    "research/m3_collocation_tolerance.py": "83e900fb98258d8cfb9ac7e99ce79d918fd556b9bc1c631c85cbdd1a74e3f241",
+    "research/collocation_correction.py": "a2b550b4ccb40748cc53532e4e0433b79c1e0d21ed5a8460a780f402044525cf",
+    "research/linear_context_row.py": "599a6c12032e6dbf3b9b5d19e7527e72b89b3d4b960aa570ae54b1e3e45003ae",
+    "research/m3_growth_study.py": "ef440e9984b74ff8440d0c6d4e1ec9e79e1ce32ac997535847e5ddf6a3e05955",
+    "research/inner_dense.py": "e19b0221a27f5fa861c7a0877d64f9e04b638a3fc514326c7968541f13ec133b",
+    "research/m3_extrapolated_paths.py": "7ce2742d48adf31bb1b73372cb09f7085e18e1507d32b8543ac3c8217f9b64cf"
+  },
+  "input_sha256": {
+    "results/m3-collocation-correction/registration.json": "ee1772ac3947968a2ddb6ea379b4f375897fe6a4e181ce6609dbf14a7f6d9bcd",
+    "results/m3-collocation-correction/runs.json": "bf6bc2a31f6d3fc2417f3697c937f0b833e2fa99be746bf5d00ea712e260ee11",
+    "results/m3-collocation-correction/reference-0-2.npz": "4603b9bcc64f7966d09dfcadefb692eea3ceefce3daf1a3b0523a4aab087de8b",
+    "results/m3-collocation-correction/reference-1-2.npz": "eca20db72e748c7c534ebceb3e604265749a2ec9e3ef3fe822fc9410dd1d4863"
+  }
+}
