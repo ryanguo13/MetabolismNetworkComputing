@@ -1,0 +1,7 @@
+{
+  "python": "3.12.10 (main, May 22 2025, 01:38:44) [Clang 20.1.4 ]",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1",
+  "platform": "macOS-26.6.2-arm64-arm-64bit",
+  "execution": "scripts/run-macos.sh; single-thread BLAS/OpenMP"
+}
