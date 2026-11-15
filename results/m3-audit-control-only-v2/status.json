@@ -1,0 +1,8 @@
+{
+  "status": "incomplete_interrupted",
+  "reason": "Stopped after the first k-ecoli457 target=0.001 pair showed 512 attempts and approximately 2% accepted reaction-split coverage; remaining repeats and target combinations were not run.",
+  "preserved_runs": 14,
+  "complete_planned_runs": 24,
+  "scope": "Exploratory short-prefix development screen only; not formal M4 evidence.",
+  "note": "runs.json and registration.json are preserved unchanged. No summary.json is emitted because the registered matrix is incomplete."
+}

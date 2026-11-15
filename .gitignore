@@ -1,4 +1,5 @@
 .venv/
+.pi/
 .runtime/
 __pycache__/
 *.py[cod]

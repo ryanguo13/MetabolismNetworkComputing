@@ -1,0 +1,16 @@
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/Users/guojunhua/Documents/MetabolismNetworkComputing/research/m3_slow_tangent_study.py", line 233, in <module>
+    if __name__=='__main__':main()
+                            ^^^^^^
+  File "/Users/guojunhua/Documents/MetabolismNetworkComputing/research/m3_slow_tangent_study.py", line 221, in main
+    if args.action=='run':run();return
+                          ^^^^^
+  File "/Users/guojunhua/Documents/MetabolismNetworkComputing/research/m3_slow_tangent_study.py", line 124, in run
+    arrays=dict(initial=y,groups=groups[threshold],endpoint=r['fine'],**pack(curve))
+                                                                        ^^^^^^^^^^^
+  File "/Users/guojunhua/Documents/MetabolismNetworkComputing/research/extrapolated_flow.py", line 118, in pack
+    def pack(curve):return dict(lengths=np.array([p.h for p in curve.pieces]),coefficients=np.stack([p.coefficients for p in curve.pieces]))
+                                                                                                     ^^^^^^^^^^^^^^
+AttributeError: 'Polynomial' object has no attribute 'coefficients'

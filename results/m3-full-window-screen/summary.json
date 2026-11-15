@@ -1,0 +1,65 @@
+{
+  "summary": [
+    {
+      "model": "teusink",
+      "target": 0.001,
+      "candidate_status": "success",
+      "baseline_status": "success",
+      "candidate_seconds": 17.637627208023332,
+      "baseline_seconds": 0.7950217080069706,
+      "speedup": 0.04507532099586028,
+      "accuracy_pass": false,
+      "split_coverage": 5.1191470315250685e-05,
+      "audit_all_attempts": true,
+      "split_coverage_pass": false
+    },
+    {
+      "model": "teusink",
+      "target": 1e-05,
+      "candidate_status": "success",
+      "baseline_status": "success",
+      "candidate_seconds": 7.536101250036154,
+      "baseline_seconds": 0.7896653750212863,
+      "speedup": 0.10478433726159106,
+      "accuracy_pass": false,
+      "split_coverage": 5.878142771049919e-06,
+      "audit_all_attempts": true,
+      "split_coverage_pass": false
+    },
+    {
+      "model": "kecoli",
+      "target": 0.001,
+      "candidate_status": "success",
+      "baseline_status": "success",
+      "candidate_seconds": 110.42062112502754,
+      "baseline_seconds": 1.4822709590080194,
+      "speedup": 0.013423859999208547,
+      "accuracy_pass": false,
+      "split_coverage": 5e-06,
+      "audit_all_attempts": true,
+      "split_coverage_pass": false
+    },
+    {
+      "model": "kecoli",
+      "target": 1e-05,
+      "candidate_status": "success",
+      "baseline_status": "success",
+      "candidate_seconds": 110.73889541701647,
+      "baseline_seconds": 1.284774457977619,
+      "speedup": 0.011601835589378624,
+      "accuracy_pass": false,
+      "split_coverage": 5e-06,
+      "audit_all_attempts": true,
+      "split_coverage_pass": false
+    }
+  ],
+  "M4_admission": false,
+  "interpretation": "One full-window development screen per configuration only. Formal admission still requires seven interleaved repeats, at least 50% real split coverage, all accuracy/structure gates and at least 1.5x median speedup in all four combinations.",
+  "source_sha256": {
+    "research/m3_full_window_screen.py": "e2d2cfeeee0f6b00c70fc8ca5089e6302f906fa47360a7d8a693ab3be13c1423",
+    "metabolism/continuation.py": "2aa6ca623d7c90335ff5985aee6a5447048f7cd915cfe9534c1db014f7ce5e66",
+    "metabolism/adaptive.py": "427c67bfba193a79fb6d3d96aecc5ed01efa1a5d3fc7cbc82e525f3cf851db69",
+    "metabolism/splitting.py": "12ccc9526113e7080d9b56c7763c56a79d37a7fd9c2bacb9b25b2e7f6d1164a3",
+    "metabolism/m3_continuation.py": "90b539d8f7ce2dae6d574b6285bcd66fcb4b95b3950f96ff81fed6301bd65401"
+  }
+}

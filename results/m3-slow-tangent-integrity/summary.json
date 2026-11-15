@@ -1,0 +1,1080 @@
+{
+  "date": "2026-11-15",
+  "unique_candidate_records": 96,
+  "unique_control_records": 48,
+  "exact_configuration_product": true,
+  "timing_quantities_checked": 264,
+  "all_timing_quantities_finite_nonnegative": true,
+  "all_solve_seconds_positive": true,
+  "required_candidate_ledgers_present": true,
+  "full_stage_rate_arrays_checked": 72,
+  "all_previous_curves_checked": 144,
+  "failed_records": [
+    {
+      "kind": "candidates",
+      "key": "candidate-0-2-1-1.0-0-1e-06",
+      "reason": "Invalid slow-tangent state; no clipping"
+    },
+    {
+      "kind": "candidates",
+      "key": "candidate-0-2-1-1.0-0-1e-08",
+      "reason": "Invalid slow-tangent state; no clipping"
+    },
+    {
+      "kind": "candidates",
+      "key": "candidate-0-2-1-1.0-1-1e-06",
+      "reason": "Invalid slow-tangent state; no clipping"
+    },
+    {
+      "kind": "candidates",
+      "key": "candidate-0-2-1-1.0-1-1e-08",
+      "reason": "Invalid slow-tangent state; no clipping"
+    },
+    {
+      "kind": "candidates",
+      "key": "candidate-0-2-1-1.0-2-1e-06",
+      "reason": "Invalid slow-tangent state; no clipping"
+    },
+    {
+      "kind": "candidates",
+      "key": "candidate-0-2-1-1.0-2-1e-08",
+      "reason": "Invalid slow-tangent state; no clipping"
+    },
+    {
+      "kind": "candidates",
+      "key": "candidate-0-2-1-3.0-0-1e-06",
+      "reason": "Invalid slow-tangent state; no clipping"
+    },
+    {
+      "kind": "candidates",
+      "key": "candidate-0-2-1-3.0-0-1e-08",
+      "reason": "Invalid slow-tangent state; no clipping"
+    },
+    {
+      "kind": "candidates",
+      "key": "candidate-0-2-1-3.0-1-1e-06",
+      "reason": "Invalid slow-tangent state; no clipping"
+    },
+    {
+      "kind": "candidates",
+      "key": "candidate-0-2-1-3.0-1-1e-08",
+      "reason": "Invalid slow-tangent state; no clipping"
+    },
+    {
+      "kind": "candidates",
+      "key": "candidate-0-2-1-3.0-2-1e-06",
+      "reason": "Invalid slow-tangent state; no clipping"
+    },
+    {
+      "kind": "candidates",
+      "key": "candidate-0-2-1-3.0-2-1e-08",
+      "reason": "Invalid slow-tangent state; no clipping"
+    },
+    {
+      "kind": "candidates",
+      "key": "candidate-0-2-2-1.0-0-1e-06",
+      "reason": "Invalid slow-tangent state; no clipping"
+    },
+    {
+      "kind": "candidates",
+      "key": "candidate-0-2-2-1.0-0-1e-08",
+      "reason": "Invalid slow-tangent state; no clipping"
+    },
+    {
+      "kind": "candidates",
+      "key": "candidate-0-2-2-1.0-1-1e-06",
+      "reason": "Invalid slow-tangent state; no clipping"
+    },
+    {
+      "kind": "candidates",
+      "key": "candidate-0-2-2-1.0-1-1e-08",
+      "reason": "Invalid slow-tangent state; no clipping"
+    },
+    {
+      "kind": "candidates",
+      "key": "candidate-0-2-2-1.0-2-1e-06",
+      "reason": "Invalid slow-tangent state; no clipping"
+    },
+    {
+      "kind": "candidates",
+      "key": "candidate-0-2-2-1.0-2-1e-08",
+      "reason": "Invalid slow-tangent state; no clipping"
+    },
+    {
+      "kind": "candidates",
+      "key": "candidate-0-2-2-3.0-0-1e-06",
+      "reason": "Invalid slow-tangent state; no clipping"
+    },
+    {
+      "kind": "candidates",
+      "key": "candidate-0-2-2-3.0-0-1e-08",
+      "reason": "Invalid slow-tangent state; no clipping"
+    },
+    {
+      "kind": "candidates",
+      "key": "candidate-0-2-2-3.0-1-1e-06",
+      "reason": "Invalid slow-tangent state; no clipping"
+    },
+    {
+      "kind": "candidates",
+      "key": "candidate-0-2-2-3.0-1-1e-08",
+      "reason": "Invalid slow-tangent state; no clipping"
+    },
+    {
+      "kind": "candidates",
+      "key": "candidate-0-2-2-3.0-2-1e-06",
+      "reason": "Invalid slow-tangent state; no clipping"
+    },
+    {
+      "kind": "candidates",
+      "key": "candidate-0-2-2-3.0-2-1e-08",
+      "reason": "Invalid slow-tangent state; no clipping"
+    },
+    {
+      "kind": "controls",
+      "key": "control-0-2-1-1e-05-True",
+      "reason": "Invalid full RHS state"
+    },
+    {
+      "kind": "controls",
+      "key": "control-0-2-1-1e-06-True",
+      "reason": "Invalid full RHS state"
+    },
+    {
+      "kind": "controls",
+      "key": "control-0-2-1-1e-08-True",
+      "reason": "Invalid full RHS state"
+    },
+    {
+      "kind": "controls",
+      "key": "control-0-2-2-1e-05-True",
+      "reason": "Invalid full RHS state"
+    },
+    {
+      "kind": "controls",
+      "key": "control-0-2-2-1e-06-True",
+      "reason": "Invalid full RHS state"
+    },
+    {
+      "kind": "controls",
+      "key": "control-0-2-2-1e-08-True",
+      "reason": "Invalid full RHS state"
+    }
+  ],
+  "reconstructed_curve_ledgers": [
+    {
+      "key": "candidate-0-3-1-1.0-0-1e-06",
+      "curve": 0,
+      "final": true,
+      "modified_ledger_residual": 2.6550060145341245e-13,
+      "modified_ledger_quadrature": 8.513614048876877e-18,
+      "physical_ledger_residual": 3.2278882982366805e-08,
+      "physical_ledger_quadrature": 1.206095323590891e-17
+    },
+    {
+      "key": "candidate-0-3-1-1.0-0-1e-08",
+      "curve": 0,
+      "final": true,
+      "modified_ledger_residual": 3.508673189893383e-15,
+      "modified_ledger_quadrature": 8.380588829363176e-18,
+      "physical_ledger_residual": 3.2278667456679816e-08,
+      "physical_ledger_quadrature": 5.321008780548048e-18
+    },
+    {
+      "key": "candidate-0-3-1-1.0-1-1e-06",
+      "curve": 0,
+      "final": false,
+      "modified_ledger_residual": 2.6550060145341245e-13,
+      "modified_ledger_quadrature": 8.513614048876877e-18,
+      "physical_ledger_residual": 3.2278882982366805e-08,
+      "physical_ledger_quadrature": 1.206095323590891e-17
+    },
+    {
+      "key": "candidate-0-3-1-1.0-1-1e-06",
+      "curve": 1,
+      "final": true,
+      "modified_ledger_residual": 2.558968900723606e-13,
+      "modified_ledger_quadrature": 4.2568070244384386e-18,
+      "physical_ledger_residual": 9.140279540245663e-12,
+      "physical_ledger_quadrature": 7.094678374064064e-19
+    },
+    {
+      "key": "candidate-0-3-1-1.0-1-1e-08",
+      "curve": 0,
+      "final": false,
+      "modified_ledger_residual": 3.508673189893383e-15,
+      "modified_ledger_quadrature": 8.380588829363176e-18,
+      "physical_ledger_residual": 3.2278667456679816e-08,
+      "physical_ledger_quadrature": 5.321008780548048e-18
+    },
+    {
+      "key": "candidate-0-3-1-1.0-1-1e-08",
+      "curve": 1,
+      "final": true,
+      "modified_ledger_residual": 8.542347496291837e-15,
+      "modified_ledger_quadrature": 6.3852105366576575e-18,
+      "physical_ledger_residual": 8.818442935695158e-12,
+      "physical_ledger_quadrature": 7.80414621147047e-18
+    },
+    {
+      "key": "candidate-0-3-1-1.0-2-1e-06",
+      "curve": 0,
+      "final": false,
+      "modified_ledger_residual": 2.6550060145341245e-13,
+      "modified_ledger_quadrature": 8.513614048876877e-18,
+      "physical_ledger_residual": 3.2278882982366805e-08,
+      "physical_ledger_quadrature": 1.206095323590891e-17
+    },
+    {
+      "key": "candidate-0-3-1-1.0-2-1e-06",
+      "curve": 1,
+      "final": false,
+      "modified_ledger_residual": 2.558968900723606e-13,
+      "modified_ledger_quadrature": 4.2568070244384386e-18,
+      "physical_ledger_residual": 9.140279540245663e-12,
+      "physical_ledger_quadrature": 7.094678374064064e-19
+    },
+    {
+      "key": "candidate-0-3-1-1.0-2-1e-06",
+      "curve": 2,
+      "final": true,
+      "modified_ledger_residual": 2.559156909700519e-13,
+      "modified_ledger_quadrature": 1.3125154992018518e-17,
+      "physical_ledger_residual": 3.9655385511304254e-13,
+      "physical_ledger_quadrature": 1.1351485398502503e-17
+    },
+    {
+      "key": "candidate-0-3-1-1.0-2-1e-08",
+      "curve": 0,
+      "final": false,
+      "modified_ledger_residual": 3.508673189893383e-15,
+      "modified_ledger_quadrature": 8.380588829363176e-18,
+      "physical_ledger_residual": 3.2278667456679816e-08,
+      "physical_ledger_quadrature": 5.321008780548048e-18
+    },
+    {
+      "key": "candidate-0-3-1-1.0-2-1e-08",
+      "curve": 1,
+      "final": false,
+      "modified_ledger_residual": 8.542347496291837e-15,
+      "modified_ledger_quadrature": 6.3852105366576575e-18,
+      "physical_ledger_residual": 8.818442935695158e-12,
+      "physical_ledger_quadrature": 7.80414621147047e-18
+    },
+    {
+      "key": "candidate-0-3-1-1.0-2-1e-08",
+      "curve": 2,
+      "final": true,
+      "modified_ledger_residual": 8.558310522633481e-15,
+      "modified_ledger_quadrature": 1.2415687154612113e-17,
+      "physical_ledger_residual": 1.4918228530887601e-13,
+      "physical_ledger_quadrature": 8.86834796758008e-18
+    },
+    {
+      "key": "candidate-0-3-1-3.0-0-1e-06",
+      "curve": 0,
+      "final": true,
+      "modified_ledger_residual": 4.2443877899446397e-13,
+      "modified_ledger_quadrature": 1.4189356748128129e-18,
+      "physical_ledger_residual": 3.227664070713828e-08,
+      "physical_ledger_quadrature": 6.3852105366576575e-18
+    },
+    {
+      "key": "candidate-0-3-1-3.0-0-1e-08",
+      "curve": 0,
+      "final": true,
+      "modified_ledger_residual": 2.843547092324877e-15,
+      "modified_ledger_quadrature": 3.2812887480046296e-18,
+      "physical_ledger_residual": 3.22762675458567e-08,
+      "physical_ledger_quadrature": 1.0642017561096097e-18
+    },
+    {
+      "key": "candidate-0-3-1-3.0-1-1e-06",
+      "curve": 0,
+      "final": false,
+      "modified_ledger_residual": 4.2443877899446397e-13,
+      "modified_ledger_quadrature": 1.4189356748128129e-18,
+      "physical_ledger_residual": 3.227664070713828e-08,
+      "physical_ledger_quadrature": 6.3852105366576575e-18
+    },
+    {
+      "key": "candidate-0-3-1-3.0-1-1e-06",
+      "curve": 1,
+      "final": true,
+      "modified_ledger_residual": 4.191298311671518e-13,
+      "modified_ledger_quadrature": 6.739944455360861e-18,
+      "physical_ledger_residual": 1.167960788809243e-11,
+      "physical_ledger_quadrature": 3.902073105735235e-18
+    },
+    {
+      "key": "candidate-0-3-1-3.0-1-1e-08",
+      "curve": 0,
+      "final": false,
+      "modified_ledger_residual": 2.843547092324877e-15,
+      "modified_ledger_quadrature": 3.2812887480046296e-18,
+      "physical_ledger_residual": 3.22762675458567e-08,
+      "physical_ledger_quadrature": 1.0642017561096097e-18
+    },
+    {
+      "key": "candidate-0-3-1-3.0-1-1e-08",
+      "curve": 1,
+      "final": true,
+      "modified_ledger_residual": 8.742772160359147e-15,
+      "modified_ledger_quadrature": 4.966274861844845e-18,
+      "physical_ledger_residual": 1.1174446213291782e-11,
+      "physical_ledger_quadrature": 2.1284035122192193e-18
+    },
+    {
+      "key": "candidate-0-3-1-3.0-2-1e-06",
+      "curve": 0,
+      "final": false,
+      "modified_ledger_residual": 4.2443877899446397e-13,
+      "modified_ledger_quadrature": 1.4189356748128129e-18,
+      "physical_ledger_residual": 3.227664070713828e-08,
+      "physical_ledger_quadrature": 6.3852105366576575e-18
+    },
+    {
+      "key": "candidate-0-3-1-3.0-2-1e-06",
+      "curve": 1,
+      "final": false,
+      "modified_ledger_residual": 4.191298311671518e-13,
+      "modified_ledger_quadrature": 6.739944455360861e-18,
+      "physical_ledger_residual": 1.167960788809243e-11,
+      "physical_ledger_quadrature": 3.902073105735235e-18
+    },
+    {
+      "key": "candidate-0-3-1-3.0-2-1e-06",
+      "curve": 2,
+      "final": true,
+      "modified_ledger_residual": 4.1909755038054983e-13,
+      "modified_ledger_quadrature": 4.2568070244384386e-18,
+      "physical_ledger_residual": 5.554888400488257e-13,
+      "physical_ledger_quadrature": 9.577815804986487e-18
+    },
+    {
+      "key": "candidate-0-3-1-3.0-2-1e-08",
+      "curve": 0,
+      "final": false,
+      "modified_ledger_residual": 2.843547092324877e-15,
+      "modified_ledger_quadrature": 3.2812887480046296e-18,
+      "physical_ledger_residual": 3.22762675458567e-08,
+      "physical_ledger_quadrature": 1.0642017561096097e-18
+    },
+    {
+      "key": "candidate-0-3-1-3.0-2-1e-08",
+      "curve": 1,
+      "final": false,
+      "modified_ledger_residual": 8.742772160359147e-15,
+      "modified_ledger_quadrature": 4.966274861844845e-18,
+      "physical_ledger_residual": 1.1174446213291782e-11,
+      "physical_ledger_quadrature": 2.1284035122192193e-18
+    },
+    {
+      "key": "candidate-0-3-1-3.0-2-1e-08",
+      "curve": 2,
+      "final": true,
+      "modified_ledger_residual": 8.717940786049922e-15,
+      "modified_ledger_quadrature": 1.0287283642392893e-17,
+      "physical_ledger_residual": 1.4510497364730138e-13,
+      "physical_ledger_quadrature": 1.3125154992018518e-17
+    },
+    {
+      "key": "candidate-0-3-2-1.0-0-1e-06",
+      "curve": 0,
+      "final": true,
+      "modified_ledger_residual": 9.952315497639832e-13,
+      "modified_ledger_quadrature": 1.2770421073315315e-17,
+      "physical_ledger_residual": 8.514701607768604e-07,
+      "physical_ledger_quadrature": 1.773669593516016e-17
+    },
+    {
+      "key": "candidate-0-3-2-1.0-0-1e-08",
+      "curve": 0,
+      "final": true,
+      "modified_ledger_residual": 7.378536455810367e-14,
+      "modified_ledger_quadrature": 1.1085434959475101e-17,
+      "physical_ledger_residual": 8.514737193313149e-07,
+      "physical_ledger_quadrature": 1.7027228097753754e-17
+    },
+    {
+      "key": "candidate-0-3-2-1.0-1-1e-06",
+      "curve": 0,
+      "final": false,
+      "modified_ledger_residual": 9.952315497639832e-13,
+      "modified_ledger_quadrature": 1.2770421073315315e-17,
+      "physical_ledger_residual": 8.514701607768604e-07,
+      "physical_ledger_quadrature": 1.773669593516016e-17
+    },
+    {
+      "key": "candidate-0-3-2-1.0-1-1e-06",
+      "curve": 1,
+      "final": true,
+      "modified_ledger_residual": 4.326815182230191e-12,
+      "modified_ledger_quadrature": 1.4189356748128127e-17,
+      "physical_ledger_residual": 1.1365303377216463e-09,
+      "physical_ledger_quadrature": 1.0642017561096096e-17
+    },
+    {
+      "key": "candidate-0-3-2-1.0-1-1e-08",
+      "curve": 0,
+      "final": false,
+      "modified_ledger_residual": 7.378536455810367e-14,
+      "modified_ledger_quadrature": 1.1085434959475101e-17,
+      "physical_ledger_residual": 8.514737193313149e-07,
+      "physical_ledger_quadrature": 1.7027228097753754e-17
+    },
+    {
+      "key": "candidate-0-3-2-1.0-1-1e-08",
+      "curve": 1,
+      "final": true,
+      "modified_ledger_residual": 7.751078017232472e-14,
+      "modified_ledger_quadrature": 1.206095323590891e-17,
+      "physical_ledger_residual": 1.1230449461783776e-09,
+      "physical_ledger_quadrature": 5.6757426992512515e-18
+    },
+    {
+      "key": "candidate-0-3-2-1.0-2-1e-06",
+      "curve": 0,
+      "final": false,
+      "modified_ledger_residual": 9.952315497639832e-13,
+      "modified_ledger_quadrature": 1.2770421073315315e-17,
+      "physical_ledger_residual": 8.514701607768604e-07,
+      "physical_ledger_quadrature": 1.773669593516016e-17
+    },
+    {
+      "key": "candidate-0-3-2-1.0-2-1e-06",
+      "curve": 1,
+      "final": false,
+      "modified_ledger_residual": 4.326815182230191e-12,
+      "modified_ledger_quadrature": 1.4189356748128127e-17,
+      "physical_ledger_residual": 1.1365303377216463e-09,
+      "physical_ledger_quadrature": 1.0642017561096096e-17
+    },
+    {
+      "key": "candidate-0-3-2-1.0-2-1e-06",
+      "curve": 2,
+      "final": true,
+      "modified_ledger_residual": 4.321093324121508e-12,
+      "modified_ledger_quadrature": 2.979764917106907e-17,
+      "physical_ledger_residual": 3.2637711357376605e-11,
+      "physical_ledger_quadrature": 5.0372216455854856e-17
+    },
+    {
+      "key": "candidate-0-3-2-1.0-2-1e-08",
+      "curve": 0,
+      "final": false,
+      "modified_ledger_residual": 7.378536455810367e-14,
+      "modified_ledger_quadrature": 1.1085434959475101e-17,
+      "physical_ledger_residual": 8.514737193313149e-07,
+      "physical_ledger_quadrature": 1.7027228097753754e-17
+    },
+    {
+      "key": "candidate-0-3-2-1.0-2-1e-08",
+      "curve": 1,
+      "final": false,
+      "modified_ledger_residual": 7.751078017232472e-14,
+      "modified_ledger_quadrature": 1.206095323590891e-17,
+      "physical_ledger_residual": 1.1230449461783776e-09,
+      "physical_ledger_quadrature": 5.6757426992512515e-18
+    },
+    {
+      "key": "candidate-0-3-2-1.0-2-1e-08",
+      "curve": 2,
+      "final": true,
+      "modified_ledger_residual": 7.66239453755667e-14,
+      "modified_ledger_quadrature": 1.560829242294094e-17,
+      "physical_ledger_residual": 2.8125260368149842e-11,
+      "physical_ledger_quadrature": 1.4189356748128127e-17
+    },
+    {
+      "key": "candidate-0-3-2-3.0-0-1e-06",
+      "curve": 0,
+      "final": true,
+      "modified_ledger_residual": 2.749098477002312e-12,
+      "modified_ledger_quadrature": 1.206095323590891e-17,
+      "physical_ledger_residual": 8.513591273973136e-07,
+      "physical_ledger_quadrature": 1.0642017561096096e-17
+    },
+    {
+      "key": "candidate-0-3-2-3.0-0-1e-08",
+      "curve": 0,
+      "final": true,
+      "modified_ledger_residual": 4.3315849345010735e-14,
+      "modified_ledger_quadrature": 1.2770421073315315e-17,
+      "physical_ledger_residual": 8.513571248349496e-07,
+      "physical_ledger_quadrature": 2.0574567284785785e-17
+    },
+    {
+      "key": "candidate-0-3-2-3.0-1-1e-06",
+      "curve": 0,
+      "final": false,
+      "modified_ledger_residual": 2.749098477002312e-12,
+      "modified_ledger_quadrature": 1.206095323590891e-17,
+      "physical_ledger_residual": 8.513591273973136e-07,
+      "physical_ledger_quadrature": 1.0642017561096096e-17
+    },
+    {
+      "key": "candidate-0-3-2-3.0-1-1e-06",
+      "curve": 1,
+      "final": true,
+      "modified_ledger_residual": 4.624574576782635e-12,
+      "modified_ledger_quadrature": 7.094678374064064e-19,
+      "physical_ledger_residual": 1.2516399682755173e-09,
+      "physical_ledger_quadrature": 2.1284035122192193e-18
+    },
+    {
+      "key": "candidate-0-3-2-3.0-1-1e-08",
+      "curve": 0,
+      "final": false,
+      "modified_ledger_residual": 4.3315849345010735e-14,
+      "modified_ledger_quadrature": 1.2770421073315315e-17,
+      "physical_ledger_residual": 8.513571248349496e-07,
+      "physical_ledger_quadrature": 2.0574567284785785e-17
+    },
+    {
+      "key": "candidate-0-3-2-3.0-1-1e-08",
+      "curve": 1,
+      "final": true,
+      "modified_ledger_residual": 6.983717604293703e-14,
+      "modified_ledger_quadrature": 2.19935029595986e-17,
+      "physical_ledger_residual": 1.243468686647546e-09,
+      "physical_ledger_quadrature": 7.094678374064064e-19
+    },
+    {
+      "key": "candidate-0-3-2-3.0-2-1e-06",
+      "curve": 0,
+      "final": false,
+      "modified_ledger_residual": 2.749098477002312e-12,
+      "modified_ledger_quadrature": 1.206095323590891e-17,
+      "physical_ledger_residual": 8.513591273973136e-07,
+      "physical_ledger_quadrature": 1.0642017561096096e-17
+    },
+    {
+      "key": "candidate-0-3-2-3.0-2-1e-06",
+      "curve": 1,
+      "final": false,
+      "modified_ledger_residual": 4.624574576782635e-12,
+      "modified_ledger_quadrature": 7.094678374064064e-19,
+      "physical_ledger_residual": 1.2516399682755173e-09,
+      "physical_ledger_quadrature": 2.1284035122192193e-18
+    },
+    {
+      "key": "candidate-0-3-2-3.0-2-1e-06",
+      "curve": 2,
+      "final": true,
+      "modified_ledger_residual": 4.603600579105389e-12,
+      "modified_ledger_quadrature": 1.4189356748128129e-18,
+      "physical_ledger_residual": 3.158934421393007e-11,
+      "physical_ledger_quadrature": 2.8378713496256257e-18
+    },
+    {
+      "key": "candidate-0-3-2-3.0-2-1e-08",
+      "curve": 0,
+      "final": false,
+      "modified_ledger_residual": 4.3315849345010735e-14,
+      "modified_ledger_quadrature": 1.2770421073315315e-17,
+      "physical_ledger_residual": 8.513571248349496e-07,
+      "physical_ledger_quadrature": 2.0574567284785785e-17
+    },
+    {
+      "key": "candidate-0-3-2-3.0-2-1e-08",
+      "curve": 1,
+      "final": false,
+      "modified_ledger_residual": 6.983717604293703e-14,
+      "modified_ledger_quadrature": 2.19935029595986e-17,
+      "physical_ledger_residual": 1.243468686647546e-09,
+      "physical_ledger_quadrature": 7.094678374064064e-19
+    },
+    {
+      "key": "candidate-0-3-2-3.0-2-1e-08",
+      "curve": 2,
+      "final": true,
+      "modified_ledger_residual": 7.097658138981171e-14,
+      "modified_ledger_quadrature": 2.0397200325434186e-17,
+      "physical_ledger_residual": 2.6847789742244518e-11,
+      "physical_ledger_quadrature": 1.4189356748128127e-17
+    },
+    {
+      "key": "candidate-1-3-1-0.1-0-1e-06",
+      "curve": 0,
+      "final": true
+    },
+    {
+      "key": "candidate-1-3-1-0.1-0-1e-08",
+      "curve": 0,
+      "final": true
+    },
+    {
+      "key": "candidate-1-3-1-0.1-1-1e-06",
+      "curve": 0,
+      "final": false
+    },
+    {
+      "key": "candidate-1-3-1-0.1-1-1e-06",
+      "curve": 1,
+      "final": true
+    },
+    {
+      "key": "candidate-1-3-1-0.1-1-1e-08",
+      "curve": 0,
+      "final": false
+    },
+    {
+      "key": "candidate-1-3-1-0.1-1-1e-08",
+      "curve": 1,
+      "final": true
+    },
+    {
+      "key": "candidate-1-3-1-0.1-2-1e-06",
+      "curve": 0,
+      "final": false
+    },
+    {
+      "key": "candidate-1-3-1-0.1-2-1e-06",
+      "curve": 1,
+      "final": false
+    },
+    {
+      "key": "candidate-1-3-1-0.1-2-1e-06",
+      "curve": 2,
+      "final": true
+    },
+    {
+      "key": "candidate-1-3-1-0.1-2-1e-08",
+      "curve": 0,
+      "final": false
+    },
+    {
+      "key": "candidate-1-3-1-0.1-2-1e-08",
+      "curve": 1,
+      "final": false
+    },
+    {
+      "key": "candidate-1-3-1-0.1-2-1e-08",
+      "curve": 2,
+      "final": true
+    },
+    {
+      "key": "candidate-1-3-1-1.0-0-1e-06",
+      "curve": 0,
+      "final": true
+    },
+    {
+      "key": "candidate-1-3-1-1.0-0-1e-08",
+      "curve": 0,
+      "final": true
+    },
+    {
+      "key": "candidate-1-3-1-1.0-1-1e-06",
+      "curve": 0,
+      "final": false
+    },
+    {
+      "key": "candidate-1-3-1-1.0-1-1e-06",
+      "curve": 1,
+      "final": true
+    },
+    {
+      "key": "candidate-1-3-1-1.0-1-1e-08",
+      "curve": 0,
+      "final": false
+    },
+    {
+      "key": "candidate-1-3-1-1.0-1-1e-08",
+      "curve": 1,
+      "final": true
+    },
+    {
+      "key": "candidate-1-3-1-1.0-2-1e-06",
+      "curve": 0,
+      "final": false
+    },
+    {
+      "key": "candidate-1-3-1-1.0-2-1e-06",
+      "curve": 1,
+      "final": false
+    },
+    {
+      "key": "candidate-1-3-1-1.0-2-1e-06",
+      "curve": 2,
+      "final": true
+    },
+    {
+      "key": "candidate-1-3-1-1.0-2-1e-08",
+      "curve": 0,
+      "final": false
+    },
+    {
+      "key": "candidate-1-3-1-1.0-2-1e-08",
+      "curve": 1,
+      "final": false
+    },
+    {
+      "key": "candidate-1-3-1-1.0-2-1e-08",
+      "curve": 2,
+      "final": true
+    },
+    {
+      "key": "candidate-1-3-2-0.1-0-1e-06",
+      "curve": 0,
+      "final": true
+    },
+    {
+      "key": "candidate-1-3-2-0.1-0-1e-08",
+      "curve": 0,
+      "final": true
+    },
+    {
+      "key": "candidate-1-3-2-0.1-1-1e-06",
+      "curve": 0,
+      "final": false
+    },
+    {
+      "key": "candidate-1-3-2-0.1-1-1e-06",
+      "curve": 1,
+      "final": true
+    },
+    {
+      "key": "candidate-1-3-2-0.1-1-1e-08",
+      "curve": 0,
+      "final": false
+    },
+    {
+      "key": "candidate-1-3-2-0.1-1-1e-08",
+      "curve": 1,
+      "final": true
+    },
+    {
+      "key": "candidate-1-3-2-0.1-2-1e-06",
+      "curve": 0,
+      "final": false
+    },
+    {
+      "key": "candidate-1-3-2-0.1-2-1e-06",
+      "curve": 1,
+      "final": false
+    },
+    {
+      "key": "candidate-1-3-2-0.1-2-1e-06",
+      "curve": 2,
+      "final": true
+    },
+    {
+      "key": "candidate-1-3-2-0.1-2-1e-08",
+      "curve": 0,
+      "final": false
+    },
+    {
+      "key": "candidate-1-3-2-0.1-2-1e-08",
+      "curve": 1,
+      "final": false
+    },
+    {
+      "key": "candidate-1-3-2-0.1-2-1e-08",
+      "curve": 2,
+      "final": true
+    },
+    {
+      "key": "candidate-1-3-2-1.0-0-1e-06",
+      "curve": 0,
+      "final": true
+    },
+    {
+      "key": "candidate-1-3-2-1.0-0-1e-08",
+      "curve": 0,
+      "final": true
+    },
+    {
+      "key": "candidate-1-3-2-1.0-1-1e-06",
+      "curve": 0,
+      "final": false
+    },
+    {
+      "key": "candidate-1-3-2-1.0-1-1e-06",
+      "curve": 1,
+      "final": true
+    },
+    {
+      "key": "candidate-1-3-2-1.0-1-1e-08",
+      "curve": 0,
+      "final": false
+    },
+    {
+      "key": "candidate-1-3-2-1.0-1-1e-08",
+      "curve": 1,
+      "final": true
+    },
+    {
+      "key": "candidate-1-3-2-1.0-2-1e-06",
+      "curve": 0,
+      "final": false
+    },
+    {
+      "key": "candidate-1-3-2-1.0-2-1e-06",
+      "curve": 1,
+      "final": false
+    },
+    {
+      "key": "candidate-1-3-2-1.0-2-1e-06",
+      "curve": 2,
+      "final": true
+    },
+    {
+      "key": "candidate-1-3-2-1.0-2-1e-08",
+      "curve": 0,
+      "final": false
+    },
+    {
+      "key": "candidate-1-3-2-1.0-2-1e-08",
+      "curve": 1,
+      "final": false
+    },
+    {
+      "key": "candidate-1-3-2-1.0-2-1e-08",
+      "curve": 2,
+      "final": true
+    },
+    {
+      "key": "candidate-1-2-1-0.1-0-1e-06",
+      "curve": 0,
+      "final": true
+    },
+    {
+      "key": "candidate-1-2-1-0.1-0-1e-08",
+      "curve": 0,
+      "final": true
+    },
+    {
+      "key": "candidate-1-2-1-0.1-1-1e-06",
+      "curve": 0,
+      "final": false
+    },
+    {
+      "key": "candidate-1-2-1-0.1-1-1e-06",
+      "curve": 1,
+      "final": true
+    },
+    {
+      "key": "candidate-1-2-1-0.1-1-1e-08",
+      "curve": 0,
+      "final": false
+    },
+    {
+      "key": "candidate-1-2-1-0.1-1-1e-08",
+      "curve": 1,
+      "final": true
+    },
+    {
+      "key": "candidate-1-2-1-0.1-2-1e-06",
+      "curve": 0,
+      "final": false
+    },
+    {
+      "key": "candidate-1-2-1-0.1-2-1e-06",
+      "curve": 1,
+      "final": false
+    },
+    {
+      "key": "candidate-1-2-1-0.1-2-1e-06",
+      "curve": 2,
+      "final": true
+    },
+    {
+      "key": "candidate-1-2-1-0.1-2-1e-08",
+      "curve": 0,
+      "final": false
+    },
+    {
+      "key": "candidate-1-2-1-0.1-2-1e-08",
+      "curve": 1,
+      "final": false
+    },
+    {
+      "key": "candidate-1-2-1-0.1-2-1e-08",
+      "curve": 2,
+      "final": true
+    },
+    {
+      "key": "candidate-1-2-1-1.0-0-1e-06",
+      "curve": 0,
+      "final": true
+    },
+    {
+      "key": "candidate-1-2-1-1.0-0-1e-08",
+      "curve": 0,
+      "final": true
+    },
+    {
+      "key": "candidate-1-2-1-1.0-1-1e-06",
+      "curve": 0,
+      "final": false
+    },
+    {
+      "key": "candidate-1-2-1-1.0-1-1e-06",
+      "curve": 1,
+      "final": true
+    },
+    {
+      "key": "candidate-1-2-1-1.0-1-1e-08",
+      "curve": 0,
+      "final": false
+    },
+    {
+      "key": "candidate-1-2-1-1.0-1-1e-08",
+      "curve": 1,
+      "final": true
+    },
+    {
+      "key": "candidate-1-2-1-1.0-2-1e-06",
+      "curve": 0,
+      "final": false
+    },
+    {
+      "key": "candidate-1-2-1-1.0-2-1e-06",
+      "curve": 1,
+      "final": false
+    },
+    {
+      "key": "candidate-1-2-1-1.0-2-1e-06",
+      "curve": 2,
+      "final": true
+    },
+    {
+      "key": "candidate-1-2-1-1.0-2-1e-08",
+      "curve": 0,
+      "final": false
+    },
+    {
+      "key": "candidate-1-2-1-1.0-2-1e-08",
+      "curve": 1,
+      "final": false
+    },
+    {
+      "key": "candidate-1-2-1-1.0-2-1e-08",
+      "curve": 2,
+      "final": true
+    },
+    {
+      "key": "candidate-1-2-2-0.1-0-1e-06",
+      "curve": 0,
+      "final": true
+    },
+    {
+      "key": "candidate-1-2-2-0.1-0-1e-08",
+      "curve": 0,
+      "final": true
+    },
+    {
+      "key": "candidate-1-2-2-0.1-1-1e-06",
+      "curve": 0,
+      "final": false
+    },
+    {
+      "key": "candidate-1-2-2-0.1-1-1e-06",
+      "curve": 1,
+      "final": true
+    },
+    {
+      "key": "candidate-1-2-2-0.1-1-1e-08",
+      "curve": 0,
+      "final": false
+    },
+    {
+      "key": "candidate-1-2-2-0.1-1-1e-08",
+      "curve": 1,
+      "final": true
+    },
+    {
+      "key": "candidate-1-2-2-0.1-2-1e-06",
+      "curve": 0,
+      "final": false
+    },
+    {
+      "key": "candidate-1-2-2-0.1-2-1e-06",
+      "curve": 1,
+      "final": false
+    },
+    {
+      "key": "candidate-1-2-2-0.1-2-1e-06",
+      "curve": 2,
+      "final": true
+    },
+    {
+      "key": "candidate-1-2-2-0.1-2-1e-08",
+      "curve": 0,
+      "final": false
+    },
+    {
+      "key": "candidate-1-2-2-0.1-2-1e-08",
+      "curve": 1,
+      "final": false
+    },
+    {
+      "key": "candidate-1-2-2-0.1-2-1e-08",
+      "curve": 2,
+      "final": true
+    },
+    {
+      "key": "candidate-1-2-2-1.0-0-1e-06",
+      "curve": 0,
+      "final": true
+    },
+    {
+      "key": "candidate-1-2-2-1.0-0-1e-08",
+      "curve": 0,
+      "final": true
+    },
+    {
+      "key": "candidate-1-2-2-1.0-1-1e-06",
+      "curve": 0,
+      "final": false
+    },
+    {
+      "key": "candidate-1-2-2-1.0-1-1e-06",
+      "curve": 1,
+      "final": true
+    },
+    {
+      "key": "candidate-1-2-2-1.0-1-1e-08",
+      "curve": 0,
+      "final": false
+    },
+    {
+      "key": "candidate-1-2-2-1.0-1-1e-08",
+      "curve": 1,
+      "final": true
+    },
+    {
+      "key": "candidate-1-2-2-1.0-2-1e-06",
+      "curve": 0,
+      "final": false
+    },
+    {
+      "key": "candidate-1-2-2-1.0-2-1e-06",
+      "curve": 1,
+      "final": false
+    },
+    {
+      "key": "candidate-1-2-2-1.0-2-1e-06",
+      "curve": 2,
+      "final": true
+    },
+    {
+      "key": "candidate-1-2-2-1.0-2-1e-08",
+      "curve": 0,
+      "final": false
+    },
+    {
+      "key": "candidate-1-2-2-1.0-2-1e-08",
+      "curve": 1,
+      "final": false
+    },
+    {
+      "key": "candidate-1-2-2-1.0-2-1e-08",
+      "curve": 2,
+      "final": true
+    }
+  ],
+  "M4_admission": false,
+  "scope": "Additive integrity and every-curve ledger reconstruction; previous physical ledger values are diagnostics, final original gates unchanged. No failed attempt removed, no timing rerun."
+}

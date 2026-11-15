@@ -1,0 +1,13 @@
+{
+  "expected_audits": 128,
+  "expected_mature_controls": 480,
+  "unique_configuration_repeat_sets_exact": true,
+  "scalar_quantities_checked": 4960,
+  "all_checked_metrics_times_finite_nonnegative": true,
+  "all_solve_seconds_positive": true,
+  "repeat_status_failure_reasons_consistent": true,
+  "original_curve_score_structural_and_pass_reconstruction": true,
+  "npz_crc_checked": 132,
+  "M4_admission": false,
+  "limitation": "Only warmup arrays retained per configuration; repeated qualification metrics and statuses are checked against reconstructed warmup curves. Individual repeat arrays were not saved, so bytewise per-repeat output replay cannot be certified."
+}

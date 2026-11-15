@@ -1,0 +1,151 @@
+{
+  "evidence_integrity": "pass",
+  "rows": 48,
+  "summaries": [
+    {
+      "state_index": 0,
+      "method": "CVODE-KLU",
+      "rtol": 1e-09,
+      "repeats": 3,
+      "all_qualified": true,
+      "median_seconds": 0.2710495829815045,
+      "iqr_seconds": 0.004816208500415087,
+      "max_concentration_error": 0.0009474912880290353,
+      "max_flux_error": 0.0016164896730225435,
+      "max_net_flux_error": 0.008791810565525103
+    },
+    {
+      "state_index": 0,
+      "method": "CVODE-KLU",
+      "rtol": 1e-10,
+      "repeats": 3,
+      "all_qualified": true,
+      "median_seconds": 0.28961558296578005,
+      "iqr_seconds": 0.02664577099494636,
+      "max_concentration_error": 0.0002030439730427894,
+      "max_flux_error": 0.0002030439651953173,
+      "max_net_flux_error": 0.00030474926610029153
+    },
+    {
+      "state_index": 0,
+      "method": "CVODE-KLU",
+      "rtol": 1e-11,
+      "repeats": 3,
+      "all_qualified": true,
+      "median_seconds": 0.3892446659738198,
+      "iqr_seconds": 0.021208874532021582,
+      "max_concentration_error": 4.375044251529234e-05,
+      "max_flux_error": 4.375044786374574e-05,
+      "max_net_flux_error": 5.444072078046592e-05
+    },
+    {
+      "state_index": 0,
+      "method": "BDF",
+      "rtol": 1e-09,
+      "repeats": 3,
+      "all_qualified": true,
+      "median_seconds": 0.23067929199896753,
+      "iqr_seconds": 0.00988412497099489,
+      "max_concentration_error": 0.001526340846481479,
+      "max_flux_error": 0.0046343480832775185,
+      "max_net_flux_error": 0.02450645068532996
+    },
+    {
+      "state_index": 0,
+      "method": "BDF",
+      "rtol": 1e-10,
+      "repeats": 3,
+      "all_qualified": true,
+      "median_seconds": 0.32314095803303644,
+      "iqr_seconds": 0.007339833478908986,
+      "max_concentration_error": 0.0001297158058686882,
+      "max_flux_error": 0.00012971580142921165,
+      "max_net_flux_error": 0.00019140491125690142
+    },
+    {
+      "state_index": 0,
+      "method": "BDF",
+      "rtol": 1e-11,
+      "repeats": 3,
+      "all_qualified": true,
+      "median_seconds": 0.41423674998804927,
+      "iqr_seconds": 0.01020635396707803,
+      "max_concentration_error": 2.3928616481302437e-05,
+      "max_flux_error": 2.392861039196239e-05,
+      "max_net_flux_error": 3.5750051991058074e-05
+    },
+    {
+      "state_index": 61,
+      "method": "CVODE-KLU",
+      "rtol": 1e-09,
+      "repeats": 3,
+      "all_qualified": true,
+      "median_seconds": 0.14509166701463982,
+      "iqr_seconds": 0.010232625005301088,
+      "max_concentration_error": 0.0016604245353275527,
+      "max_flux_error": 0.0016604245259872617,
+      "max_net_flux_error": 2.343565637612586e-05
+    },
+    {
+      "state_index": 61,
+      "method": "CVODE-KLU",
+      "rtol": 1e-10,
+      "repeats": 3,
+      "all_qualified": true,
+      "median_seconds": 0.19536345801316202,
+      "iqr_seconds": 0.004498520982451737,
+      "max_concentration_error": 0.0001800190373314951,
+      "max_flux_error": 0.00018001903790224982,
+      "max_net_flux_error": 2.51133929495494e-06
+    },
+    {
+      "state_index": 61,
+      "method": "CVODE-KLU",
+      "rtol": 1e-11,
+      "repeats": 3,
+      "all_qualified": true,
+      "median_seconds": 0.1924469579826109,
+      "iqr_seconds": 0.0067204374936409295,
+      "max_concentration_error": 2.7729673633577676e-05,
+      "max_flux_error": 2.7729673795138612e-05,
+      "max_net_flux_error": 4.133626431915791e-07
+    },
+    {
+      "state_index": 61,
+      "method": "BDF",
+      "rtol": 1e-09,
+      "repeats": 3,
+      "all_qualified": true,
+      "median_seconds": 0.0907087090308778,
+      "iqr_seconds": 0.008940542029449716,
+      "max_concentration_error": 0.0020782072185736313,
+      "max_flux_error": 0.00207820720895506,
+      "max_net_flux_error": 2.962980279542721e-05
+    },
+    {
+      "state_index": 61,
+      "method": "BDF",
+      "rtol": 1e-10,
+      "repeats": 3,
+      "all_qualified": true,
+      "median_seconds": 0.14042399998288602,
+      "iqr_seconds": 0.0178937709715683,
+      "max_concentration_error": 0.000211483523425179,
+      "max_flux_error": 0.00021148352169865142,
+      "max_net_flux_error": 2.999558720494316e-06
+    },
+    {
+      "state_index": 61,
+      "method": "BDF",
+      "rtol": 1e-11,
+      "repeats": 3,
+      "all_qualified": true,
+      "median_seconds": 0.13282025000080466,
+      "iqr_seconds": 0.020167312497505918,
+      "max_concentration_error": 2.0898609012127463e-05,
+      "max_flux_error": 2.0898612005753606e-05,
+      "max_net_flux_error": 2.996964498118963e-07
+    }
+  ],
+  "limitation": "Two early Kecoli states only; local backend calibration, not an M4 audit-policy qualification."
+}

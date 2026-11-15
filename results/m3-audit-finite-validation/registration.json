@@ -1,0 +1,15 @@
+{
+  "date": "2026-11-15",
+  "posthoc": true,
+  "purpose": "Explicit fail-closed validation of every saved budget/tightening component and timing quantity before formal posthoc ranking. No tolerance or prior evidence changes.",
+  "source_sha256": {
+    "research/m3_audit_finite_validation.py": "dcf401247739c891cad3a1c0b7132ed70677193451c63e2637a3383916b3dc59"
+  },
+  "input_sha256": {
+    "results/m3-audit-calibration/manifest.json": "533ae9c6e23e1b36902ada44d98d9222251c1e020e4548c2ae94f95b21a1d1e1",
+    "results/m3-audit-calibration/runs.json": "6ea5ca020a628e72e8a704facf8e9ed8a53037c012846913bacff6c4630da9d7",
+    "results/m3-formal-audit-reanalysis/manifest.json": "6b1be874fdaf0a5aea6462e395e3ad14569529da1012b9951d47146374e6bf88",
+    "results/m3-formal-audit-reanalysis/summary.json": "a11de18d2c70dc742c800366e011ae993f2558d2695e6c5d533205576e73b542",
+    "research/m3_formal_audit_reanalysis.py": "3e473a7dd2e8b6e3415eaeb2ad8940c76f35c2416f81712d489073a96e648800"
+  }
+}

@@ -1,0 +1,42 @@
+[
+  {
+    "fraction": 1.0,
+    "end": 1e-06,
+    "cache_setup_seconds": 0.06606550002470613,
+    "cache_vs_fresh_state_error": 0.0,
+    "cache_vs_truth_state_error": 0.0,
+    "fresh_vs_truth_state_error": 0.0,
+    "cache_vs_fresh_flux_error": 0.0,
+    "cache_vs_truth_flux_error": 0.0
+  },
+  {
+    "fraction": 0.5,
+    "end": 5e-07,
+    "cache_setup_seconds": 0.06606550002470613,
+    "cache_vs_fresh_state_error": 2.6143605393873023e-13,
+    "cache_vs_truth_state_error": 0.0,
+    "fresh_vs_truth_state_error": 2.6143605393873023e-13,
+    "cache_vs_fresh_flux_error": 3.8730311617494637e-13,
+    "cache_vs_truth_flux_error": 0.0
+  },
+  {
+    "fraction": 0.25,
+    "end": 2.5e-07,
+    "cache_setup_seconds": 0.06606550002470613,
+    "cache_vs_fresh_state_error": 2.758498287756564e-13,
+    "cache_vs_truth_state_error": 0.0,
+    "fresh_vs_truth_state_error": 2.758498287756564e-13,
+    "cache_vs_fresh_flux_error": 4.0934094481928355e-13,
+    "cache_vs_truth_flux_error": 0.0
+  },
+  {
+    "fraction": 0.125,
+    "end": 1.25e-07,
+    "cache_setup_seconds": 0.06606550002470613,
+    "cache_vs_fresh_state_error": 2.753528020571417e-13,
+    "cache_vs_truth_state_error": 0.0,
+    "fresh_vs_truth_state_error": 2.753528020571417e-13,
+    "cache_vs_fresh_flux_error": 4.0934094481928355e-13,
+    "cache_vs_truth_flux_error": 0.0
+  }
+]

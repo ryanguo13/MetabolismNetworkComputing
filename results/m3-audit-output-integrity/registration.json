@@ -1,0 +1,14 @@
+{
+  "date": "2026-11-15",
+  "posthoc": true,
+  "purpose": "Add exhaustive specification-by-repeat identity sets, fail-closed finite quantities and failure consistency to locked output-cost evidence; retain all original registrations and data.",
+  "source_sha256": {
+    "research/m3_audit_output_integrity.py": "cb50a25d00a22e28e7565f383ddac1a51f3ae28a280ff70a252fe30b2c0a4ead"
+  },
+  "input_sha256": {
+    "results/m3-audit-output-cost/registration.json": "e25ab8d6fe706de5b67f42fdbecb48fc48a147d21f9767278516926ca9f5757a",
+    "results/m3-audit-output-cost/runs.json": "ecff59bf9c5eae35d08006d2203b53d12590c2dd78fee8c51e3e05d7fa567cd7",
+    "results/m3-audit-output-cost/summary.json": "df793b97cabe7ee5ebe7164fdc6b9dc532001a2792126b857455ea6e6d563da9",
+    "results/m3-audit-output-cost/manifest.json": "0e32dfd37fe919be85294f94b904310f0b6686da89d39d9ddde5e2c3bba75d96"
+  }
+}

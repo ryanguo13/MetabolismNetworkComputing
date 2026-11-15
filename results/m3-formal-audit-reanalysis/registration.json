@@ -1,0 +1,25 @@
+{
+  "date": "2026-11-15",
+  "posthoc": true,
+  "targets": [
+    0.001,
+    1e-05
+  ],
+  "net_target": 0.001,
+  "reference_budget": 0.05,
+  "purpose": "Explicit post-hoc rescore of already observed curves/timings at original formal concentration/one-way-flux1e-3 and1e-5 and net1e-3. Earlier development budget1e-6/net1e-4 was stricter; do not infer impossibility of formal architecture from it.",
+  "method": "No new numerical solves, no retiming. Both audit members independently compared to immutable saved truth; pair discrepancy separately .05. Single runtime audit and offline tightening pair reported distinctly. Pool1e-10/nonnegative guards retained. Mature continuous positivity/pool/physical ledger checks unchanged. Mature baseline set is Radau-only; CVODE appears among audit backends but has no matched mature controls here, so positive residual cannot authorize promotion. Identical nominal single tolerances appearing in adjacent pairs pooled across all timed occurrences, avoiding selection of the faster duplicate.",
+  "sources_sha256_note": "All input files and scripts frozen before reanalysis, but this registration follows observation of the experiment; it is explicitly not prospective.",
+  "source_sha256": {
+    "research/m3_formal_audit_reanalysis.py": "3e473a7dd2e8b6e3415eaeb2ad8940c76f35c2416f81712d489073a96e648800"
+  },
+  "input_sha256": {
+    "results/m3-audit-calibration/manifest.json": "533ae9c6e23e1b36902ada44d98d9222251c1e020e4548c2ae94f95b21a1d1e1",
+    "results/m3-audit-calibration/runs.json": "6ea5ca020a628e72e8a704facf8e9ed8a53037c012846913bacff6c4630da9d7",
+    "results/m3-audit-calibration/registration.json": "bc2b63ad2707cf42433af2c922080c0c09a1dfd06082c781a645ff6470cb8826",
+    "results/m3-remainder-curve/manifest.json": "eeb1ff33949353e69f5fe119c9bb28610e59e6e8088c633756f5b3c2e2ca0dc1",
+    "metabolism/m3_continuation.py": "90b539d8f7ce2dae6d574b6285bcd66fcb4b95b3950f96ff81fed6301bd65401",
+    "research/m3_ordered_cost.py": "65f4695f8bd500897bbc6b29afb7d935d4b0f500fc7d53cd99633835631ac5e5",
+    "metabolism/m2_experiments.py": "7e80077011e0f9a7e0fc63e2c4019e62aa229cef560eb7b79669dfe024a893f2"
+  }
+}

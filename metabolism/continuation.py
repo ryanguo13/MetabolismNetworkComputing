@@ -22,6 +22,10 @@ from .splitting import FixedSplit, SplitFailure
 class ContinuationConfig(AdaptiveConfig):
     startup_end: float = 0.
     audit_method: str = 'Radau'
+    audit_control_only: bool = False
+    classification_step_floor: float = 0.
+    growth_safety: float = .9
+    rejection_audit_cache: bool = False
 
 
 class MacroSplit(AdaptiveSplit):
@@ -41,8 +45,12 @@ class MacroSplit(AdaptiveSplit):
         state = np.array(self.system.y0 if y0 is None else y0, dtype=float, copy=True)
         if (grid.ndim != 1 or len(grid) < 2 or not np.isfinite(grid).all()
                 or np.any(np.diff(grid) <= 0) or state.shape != self.scale.shape
-                or c.audit_method not in ('Radau', 'CVODE-KLU')
-                or not np.isfinite(c.startup_end) or not grid[0] <= c.startup_end <= grid[-1]):
+                or c.audit_method not in ('Radau', 'BDF', 'CVODE-KLU')
+                or (c.rejection_audit_cache and c.audit_method == 'CVODE-KLU')
+                or (c.rejection_audit_cache and self.system.time_dependent)
+                or not np.isfinite(c.startup_end) or not 0 <= c.classification_step_floor
+                or not np.isfinite(c.growth_safety) or not .5 <= c.growth_safety <= 2.
+                or not grid[0] <= c.startup_end <= grid[-1]):
             raise ValueError('Invalid continuation grid, state or configuration')
         start = time.perf_counter()
         initial = state.copy()
@@ -54,6 +62,8 @@ class MacroSplit(AdaptiveSplit):
                      full_seconds=0., split_coverage=0., full_intervals=[], full_calls=0,
                      estimator_mismatches=0, output_points_audited=0, rollback_checks=0,
                      nfev=0, njev=0, nlu=0, native_linear_setups=0,
+                     coarse_split_calls=0, fine_split_calls=0,
+                     audit_calls=0, audit_solver_calls=0, audit_cache_hits=0,
                      ledger_increment=0., ledger_quadrature_difference=0.,
                      max_pool_error=0., min_rhs_argument=float(state.min()),
                      min_output=float(state.min()), clipping_count=0, projection_count=0)
@@ -106,6 +116,49 @@ class MacroSplit(AdaptiveSplit):
             check(values)
             return values
 
+        audit_cache = None
+
+        def audited_reference(y, begin, end, query):
+            nonlocal audit_cache
+            stats['audit_calls'] += 1
+            if not c.rejection_audit_cache:
+                stats['audit_solver_calls'] += 1
+                return full(y, begin, end, query, c.audit_method, c.audit_rtol)
+            reusable = (audit_cache is not None and audit_cache['begin'] == begin
+                        and audit_cache['method'] == c.audit_method
+                        and audit_cache['rtol'] == c.audit_rtol
+                        and np.array_equal(audit_cache['state'], y)
+                        and end <= audit_cache['end']
+                        and np.min(query) >= begin and np.max(query) <= audit_cache['end'])
+            if reusable:
+                stats['full_calls'] += 1
+                stats['audit_cache_hits'] += 1
+                values = audit_cache['solution'](query)
+                check(values)
+                return values
+            stats['audit_solver_calls'] += 1
+            stats['full_calls'] += 1
+            def dense_rhs(q, z):
+                return rhs(q, z)
+            options = {'jac': jac} if self.system.flux_jacobian else {
+                'jac_sparsity': (abs(self.screen.S) @ self.system.dependencies).astype(bool)}
+            result = solve_ivp(dense_rhs, (begin, end), y, method=c.audit_method,
+                               rtol=c.audit_rtol, atol=.01*c.audit_rtol*self.scale,
+                               dense_output=True, **options)
+            stats['nfev'] += result.nfev
+            stats['njev'] += result.njev
+            stats['nlu'] += result.nlu
+            if not result.success:
+                audit_cache = None
+                raise RuntimeError(result.message)
+            check(result.y)
+            values = result.sol(query)
+            check(values)
+            audit_cache = dict(begin=begin, end=end, state=np.array(y, copy=True),
+                               method=c.audit_method, rtol=c.audit_rtol,
+                               solution=result.sol)
+            return values
+
         def observable_error(values, reference):
             maximum = normalized_error(values, reference, self.scale[:, None], c.local_fraction * c.target)[1]
             flux_max = net_max = 0.
@@ -126,7 +179,8 @@ class MacroSplit(AdaptiveSplit):
         rejections = 0
 
         def commit_full(end, reason):
-            nonlocal state, t, index
+            nonlocal state, t, index, audit_cache
+            audit_cache = None
             stop = int(np.searchsorted(grid, end, side='right'))
             query = np.unique(np.r_[grid[index:stop], end])
             tick = time.perf_counter()
@@ -168,7 +222,9 @@ class MacroSplit(AdaptiveSplit):
                     kappa = new_kappa
                 # Apply the current h to cached norms at every boundary, so a
                 # growing step cannot silently retain a stale slow partition.
-                proposed = self.fixed if self.fixed is not None else select_groups(kappa, h, groups, c.enter, c.leave)
+                classification_h = max(h, c.classification_step_floor)
+                proposed = self.fixed if self.fixed is not None else select_groups(
+                    kappa, classification_h, groups, c.enter, c.leave)
                 bound = h * self.screen.slow_bound(gradient, proposed)
                 stats['classification_seconds'] += time.perf_counter() - tick
                 if bound > c.slow_bound_limit:
@@ -191,34 +247,42 @@ class MacroSplit(AdaptiveSplit):
                 stats['partition_seconds'] += time.perf_counter() - tick
                 stop = int(np.searchsorted(grid, t + h, side='right'))
                 query = np.unique(np.r_[t + h * np.array([.25, .5, .75, 1.]), grid[index:stop]])
-                trial = dict(time=t, h=h, groups=proposed.tolist(), output_count=stop-index,
+                trial = dict(time=t, h=h, classification_step=classification_h,
+                             groups=proposed.tolist(), output_count=stop-index,
                              slow_scaled_norm_times_h=bound, status='pending')
                 before = (state.copy(), t, index, stats['ledger_increment'], groups.copy())
                 tick = time.perf_counter()
                 try:
                     partition.timeout = max(.001, c.timeout - (tick - start))
-                    _, coarse, cs = partition.integrate(state, t, t + h, 1)
-                    for key in ('nfev', 'njev', 'nlu'):
-                        stats[key] += cs[key]
+                    if not c.audit_control_only:
+                        _, coarse, cs = partition.integrate(state, t, t + h, 1)
+                        stats['coarse_split_calls'] += 1
+                        for key in ('nfev', 'njev', 'nlu'):
+                            stats[key] += cs[key]
                     _, fine, fs = partition.integrate(state, t, t + h, 2)
+                    stats['fine_split_calls'] += 1
                     for key in ('nfev', 'njev', 'nlu'):
                         stats[key] += fs[key]
                     stats['split_seconds'] += time.perf_counter() - tick
-                    for counts in (cs, fs):
+                    for counts in ((cs, fs) if not c.audit_control_only else (fs,)):
                         stats['min_rhs_argument'] = min(stats['min_rhs_argument'], counts['min_rhs_argument'])
                     # Convex interpolation is checked, never used as a substitute
                     # for an independently calibrated splitting dense extension.
                     values = np.vstack([np.interp(query, [t, t+h/2, t+h], row) for row in fine])
                     check(values)
                     tick = time.perf_counter()
-                    reference = full(state, t, t+h, query, c.audit_method, c.audit_rtol)
+                    reference = audited_reference(state, t, t+h, query)
                     stats['audit_seconds'] += time.perf_counter() - tick
                     conc, flux, net = observable_error(values, reference)
-                    estimate = normalized_error(fine[:, -1] - (fine[:, -1]-coarse[:, -1])/3, fine[:, -1],
-                                                self.scale, c.local_fraction*c.target)[1]
-                    endpoint_error = normalized_error(fine[:, -1], reference[:, -1], self.scale, c.local_fraction*c.target)[1]
-                    mismatch = endpoint_error > max(c.estimator_ratio_limit * estimate, .1)
-                    stats['estimator_mismatches'] += int(mismatch)
+                    if c.audit_control_only:
+                        estimate = 0.
+                        mismatch = False
+                    else:
+                        estimate = normalized_error(fine[:, -1] - (fine[:, -1]-coarse[:, -1])/3, fine[:, -1],
+                                                    self.scale, c.local_fraction*c.target)[1]
+                        endpoint_error = normalized_error(fine[:, -1], reference[:, -1], self.scale, c.local_fraction*c.target)[1]
+                        mismatch = endpoint_error > max(c.estimator_ratio_limit * estimate, .1)
+                        stats['estimator_mismatches'] += int(mismatch)
                     trial.update(audit_max=conc, audit_flux_max=flux, audit_net_flux_max=net,
                                  estimator_max=estimate, estimator_mismatch=bool(mismatch))
                     control = max(conc, flux, net, estimate)
@@ -226,6 +290,7 @@ class MacroSplit(AdaptiveSplit):
                         trial['status'] = 'accepted'
                         output[:, index:stop] = values[:, np.searchsorted(query, grid[index:stop])]
                         state, t, index = fine[:, -1].copy(), t+h, stop
+                        audit_cache = None
                         stats['accepted_steps'] += 1
                         stats['split_coverage'] += h / (grid[-1]-grid[0])
                         stats['partition_switches'] += int(changed)
@@ -234,7 +299,8 @@ class MacroSplit(AdaptiveSplit):
                         stats['ledger_quadrature_difference'] += fs['ledger_quadrature_difference']
                         groups = proposed.copy()
                         rejections = 0
-                        factor = 2. if control == 0 else float(np.clip(.9*control**(-1/3), .2, 2.))
+                        exponent = .5 if c.audit_control_only else 1/3
+                        factor = 2. if control == 0 else float(np.clip(c.growth_safety*control**(-exponent), .2, 2.))
                         h *= min(factor, 1.) if changed else factor
                     else:
                         trial['reason'] = 'audited_error_or_estimator_budget'

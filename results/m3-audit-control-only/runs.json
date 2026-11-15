@@ -1,0 +1,48 @@
+{
+  "runs": [
+    {
+      "model": "teusink",
+      "target": 0.001,
+      "repeat": 0,
+      "mode": "coarse-fine",
+      "reference_seconds": 2.4646714170230553,
+      "status": "failed",
+      "seconds": 19.038647999987006,
+      "reason": "operands could not be broadcast together with shapes (17,162) (17,640) ",
+      "stats": null
+    },
+    {
+      "model": "teusink",
+      "target": 0.001,
+      "repeat": 0,
+      "mode": "audit-control-only",
+      "reference_seconds": 2.4646714170230553,
+      "status": "failed",
+      "seconds": 14.05535245896317,
+      "reason": "operands could not be broadcast together with shapes (17,162) (17,640) ",
+      "stats": null
+    },
+    {
+      "model": "teusink",
+      "target": 0.001,
+      "repeat": 1,
+      "mode": "audit-control-only",
+      "reference_seconds": 2.4646714170230553,
+      "status": "failed",
+      "seconds": 14.007375334040262,
+      "reason": "operands could not be broadcast together with shapes (17,162) (17,640) ",
+      "stats": null
+    },
+    {
+      "model": "teusink",
+      "target": 0.001,
+      "repeat": 1,
+      "mode": "coarse-fine",
+      "reference_seconds": 2.4646714170230553,
+      "status": "failed",
+      "seconds": 19.29113274998963,
+      "reason": "operands could not be broadcast together with shapes (17,162) (17,640) ",
+      "stats": null
+    }
+  ]
+}

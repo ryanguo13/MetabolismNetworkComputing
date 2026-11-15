@@ -1,0 +1,6 @@
+{
+  "status": "not_run",
+  "date": "2026-11-15",
+  "reason": "Independent pre-run review found missing value_rates/reference_rates arguments to formal_metrics. No real-model solves or performance measurements executed. Preserve initial registration/source; corrected prospective batch uses independent module and directory.",
+  "replacement_module": "research.m3_reusable_audit_corrected"
+}

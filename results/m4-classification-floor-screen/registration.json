@@ -1,0 +1,42 @@
+{
+  "date": "2026-11-15",
+  "hypothesis": "A nonzero classification horizon can preserve candidate fast groups after audited step rejection while actual integration and audits remain tied to the true step.",
+  "scope": "Post-failure development screen; original model initial states/windows/grids, one candidate and same-wrapper complete control per model x target x classification floor; no formal claim.",
+  "floors": [
+    0.0,
+    0.0001,
+    0.001
+  ],
+  "candidate": {
+    "audit_control_only": true,
+    "local_fraction": 1.0,
+    "initial_step": 1e-05,
+    "max_step": {
+      "teusink": 0.1,
+      "kecoli": 0.01
+    },
+    "max_attempts": 512,
+    "max_rejections": 16,
+    "timeout": 180.0,
+    "audit_rtol": 1e-11,
+    "fallback_rtol": 1e-11
+  },
+  "gates": {
+    "full_ode_audit_every_attempt": true,
+    "no_clipping": true,
+    "rollback": true,
+    "coverage_recomputed": true,
+    "cost_includes_full_fallback": true
+  },
+  "source_sha256": {
+    "research/m4_classification_floor_screen.py": "d2b2c44555931a66e87698377bfe0c56591f24e0c84fcbe6ad5fd2178a220082",
+    "metabolism/continuation.py": "72e68caf42688a27fed7a2b89de081a73aef85c55da0c24a505da3819483cfea",
+    "metabolism/adaptive.py": "427c67bfba193a79fb6d3d96aecc5ed01efa1a5d3fc7cbc82e525f3cf851db69",
+    "metabolism/splitting.py": "12ccc9526113e7080d9b56c7763c56a79d37a7fd9c2bacb9b25b2e7f6d1164a3",
+    "metabolism/m3_continuation.py": "90b539d8f7ce2dae6d574b6285bcd66fcb4b95b3950f96ff81fed6301bd65401"
+  },
+  "environment": {
+    "python": "3.12.10",
+    "numpy": "2.5.4"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "date": "2026-11-15",
+  "hypothesis": "A larger bounded safety factor can grow accepted macro steps faster when full audit errors are below their local budget; failed audits still halve and roll back.",
+  "scope": "Post-failure short-window development screen on all four model/target combinations; no formal admission claim.",
+  "interval": [
+    0.0,
+    1e-06
+  ],
+  "safeties": [
+    0.9,
+    1.8
+  ],
+  "warmup": 1,
+  "repeats": 3,
+  "candidate": {
+    "audit_control_only": true,
+    "local_fraction": 1.0,
+    "initial_step": 1e-08,
+    "max_step": 1e-06,
+    "max_attempts": 256,
+    "max_rejections": 16,
+    "audit_rtol": 1e-12,
+    "fallback_rtol": 1e-12
+  },
+  "gates": {
+    "full_ode_audit_every_attempt": true,
+    "no_clipping": true,
+    "rollback": true,
+    "coverage_recomputed": true,
+    "costs_include_audit": true
+  },
+  "source_sha256": {
+    "research/m4_growth_safety_screen.py": "21bc4071161caa8a11b3f4dc7b36e65740eaf4a474cc7fcc2aa8864886759dc6",
+    "metabolism/continuation.py": "6ba5325952f17488c94b731c075d2da5476e7b93a784548eba2e4c103a735bd8",
+    "metabolism/adaptive.py": "427c67bfba193a79fb6d3d96aecc5ed01efa1a5d3fc7cbc82e525f3cf851db69",
+    "metabolism/splitting.py": "12ccc9526113e7080d9b56c7763c56a79d37a7fd9c2bacb9b25b2e7f6d1164a3",
+    "metabolism/m3_continuation.py": "90b539d8f7ce2dae6d574b6285bcd66fcb4b95b3950f96ff81fed6301bd65401"
+  },
+  "environment": {
+    "python": "3.12.10",
+    "numpy": "2.5.4"
+  }
+}

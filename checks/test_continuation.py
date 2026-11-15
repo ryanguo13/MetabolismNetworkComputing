@@ -54,6 +54,101 @@ class ContinuationChecks(unittest.TestCase):
         self.assertLess(np.max(abs(values-reference)), 1e-5)
         self.assertLess(abs(stats['ledger_residual']), 1e-12)
 
+    def test_audit_control_only_skips_coarse_split_but_keeps_full_audits(self):
+        system, matrix, _ = linear_chain(100.)
+        times = np.array([0., 1e-6, .001, .005, .01])
+        config = ContinuationConfig(target=1e-5, initial_step=.01, max_step=.01,
+                                     slow_bound_limit=1e6, max_rejections=16, max_attempts=256,
+                                     audit_control_only=True)
+        values, stats = MacroSplit(system, np.ones(3), config, fixed_groups=[0],
+                                   pools=np.ones((1, 3)), ledger_weights=np.ones(3)).integrate(times)
+        reference = np.column_stack([expm(matrix*t) @ system.y0 for t in times])
+        self.assertEqual(stats['coarse_split_calls'], 0)
+        self.assertEqual(stats['fine_split_calls'], stats['accepted_steps'] + stats['rejected_steps'])
+        self.assertGreater(stats['full_calls'], 0)
+        self.assertGreater(stats['rejected_steps'], 0)
+        self.assertEqual(stats['rejected_steps'], stats['rollback_checks'])
+        self.assertTrue(all(a['rollback_verified'] for a in stats['attempts'] if a['status'] == 'rejected'))
+        self.assertTrue(all(max(a['audit_max'], a['audit_flux_max'], a['audit_net_flux_max']) <= 1
+                            for a in stats['attempts'] if a['status'] == 'accepted'))
+        self.assertLess(np.max(abs(values-reference)), 1e-5)
+        self.assertLess(abs(stats['ledger_residual']), 1e-12)
+
+    def test_bdf_audit_backend_uses_full_audit_and_preserves_rollback(self):
+        system, matrix, _ = linear_chain(100.)
+        times = np.array([0., 1e-6, .001, .005, .01])
+        config = ContinuationConfig(target=1e-5, initial_step=.01, max_step=.01,
+                                     slow_bound_limit=1e6, max_rejections=16, max_attempts=256,
+                                     audit_control_only=True, audit_method='BDF', audit_rtol=1e-10)
+        values, stats = MacroSplit(system, np.ones(3), config, fixed_groups=[0],
+                                   pools=np.ones((1, 3)), ledger_weights=np.ones(3)).integrate(times)
+        reference = np.column_stack([expm(matrix*t) @ system.y0 for t in times])
+        self.assertEqual(stats['full_calls'], len(stats['attempts']))
+        self.assertGreater(stats['rejected_steps'], 0)
+        self.assertEqual(stats['rejected_steps'], stats['rollback_checks'])
+        self.assertTrue(all(a['rollback_verified'] for a in stats['attempts'] if a['status'] == 'rejected'))
+        self.assertLess(np.max(abs(values-reference)), 1e-5)
+        self.assertLess(abs(stats['ledger_residual']), 1e-12)
+
+    def test_rejection_audit_cache_reuses_only_same_origin_dense_solution(self):
+        system, matrix, _ = linear_chain(100.)
+        times = np.array([0., 1e-6, .001, .005, .01])
+        common = dict(target=1e-5, initial_step=.01, max_step=.01,
+                      slow_bound_limit=1e6, max_rejections=16, max_attempts=256,
+                      audit_control_only=True, audit_method='BDF', audit_rtol=1e-10)
+        fresh, fresh_stats = MacroSplit(
+            system, np.ones(3), ContinuationConfig(**common), fixed_groups=[0],
+            pools=np.ones((1, 3)), ledger_weights=np.ones(3)).integrate(times)
+        cached, cached_stats = MacroSplit(
+            system, np.ones(3), ContinuationConfig(**common, rejection_audit_cache=True),
+            fixed_groups=[0], pools=np.ones((1, 3)), ledger_weights=np.ones(3)).integrate(times)
+        reference = np.column_stack([expm(matrix*t) @ system.y0 for t in times])
+        self.assertGreater(cached_stats['audit_cache_hits'], 0)
+        self.assertLess(cached_stats['audit_solver_calls'], cached_stats['audit_calls'])
+        self.assertEqual(cached_stats['audit_calls'], len(cached_stats['attempts']))
+        self.assertEqual(cached_stats['full_calls'], cached_stats['audit_calls'])
+        self.assertEqual(cached_stats['rejected_steps'], cached_stats['rollback_checks'])
+        self.assertTrue(all(a['rollback_verified'] for a in cached_stats['attempts']
+                            if a['status'] == 'rejected'))
+        np.testing.assert_allclose(cached, fresh, rtol=1e-10, atol=1e-12)
+        np.testing.assert_allclose(cached, reference, rtol=1.1e-3, atol=1e-8)
+        self.assertLess(abs(cached_stats['ledger_residual']), 1e-12)
+        self.assertLess(abs(fresh_stats['ledger_residual']), 1e-12)
+
+    def test_aggressive_growth_safety_keeps_audit_rejection_transactional(self):
+        system, matrix, _ = linear_chain(100.)
+        times = np.array([0., 1e-6, .001, .005, .01])
+        config = ContinuationConfig(target=1e-5, initial_step=.01, max_step=.01,
+                                     slow_bound_limit=1e6, max_rejections=16, max_attempts=256,
+                                     audit_control_only=True, growth_safety=1.8)
+        values, stats = MacroSplit(system, np.ones(3), config, fixed_groups=[0],
+                                   pools=np.ones((1, 3)), ledger_weights=np.ones(3)).integrate(times)
+        reference = np.column_stack([expm(matrix*t) @ system.y0 for t in times])
+        self.assertGreater(stats['rejected_steps'], 0)
+        self.assertEqual(stats['rejected_steps'], stats['rollback_checks'])
+        self.assertTrue(all(a['rollback_verified'] for a in stats['attempts'] if a['status'] == 'rejected'))
+        self.assertEqual(stats['full_calls'], len(stats['attempts']))
+        self.assertLess(np.max(abs(values-reference)), 1e-5)
+        self.assertLess(abs(stats['ledger_residual']), 1e-12)
+        with self.assertRaises(ValueError):
+            MacroSplit(system, np.ones(3), ContinuationConfig(growth_safety=2.1)).integrate(times)
+
+    def test_classification_step_floor_is_only_a_grouping_probe(self):
+        system, matrix, _ = linear_chain(100.)
+        times = np.array([0., 1e-6, .001, .005, .01])
+        config = ContinuationConfig(target=1e-5, initial_step=.01, max_step=.01,
+                                     classification_step_floor=.01, slow_bound_limit=1e6,
+                                     max_rejections=16, max_attempts=256,
+                                     audit_control_only=True)
+        values, stats = MacroSplit(system, np.ones(3), config,
+                                   pools=np.ones((1, 3)), ledger_weights=np.ones(3)).integrate(times)
+        reference = np.column_stack([expm(matrix*t) @ system.y0 for t in times])
+        self.assertTrue(all(a['classification_step'] >= a['h'] for a in stats['attempts']))
+        self.assertTrue(all(a['h'] <= a['classification_step'] for a in stats['attempts']))
+        self.assertLess(np.max(abs(values-reference)), 1e-5)
+        self.assertLess(abs(stats['ledger_residual']), 1e-12)
+        self.assertEqual(stats['rejected_steps'], stats['rollback_checks'])
+
     def test_startup_is_computed_and_fallback_is_explicit(self):
         system, matrix, _ = linear_chain(10.)
         config = ContinuationConfig(initial_step=.001, max_step=.01,

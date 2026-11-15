@@ -1,0 +1,114 @@
+{
+  "registration": {
+    "date": "2026-11-15",
+    "model": "kecoli",
+    "state_index": 61,
+    "archive_time": 0.00011497569953977356,
+    "window": 1e-06,
+    "retry_fractions": [
+      1.0,
+      0.5,
+      0.25,
+      0.125
+    ],
+    "method": "Radau",
+    "audit_rtol": 1e-10,
+    "truth_rtol": 1e-13,
+    "source_sha256": {
+      "research/m4_rejection_audit_cache.py": "8501875d51b75cd74392520929f91327b56da19f4a5b43e89ef7195505518806",
+      "metabolism/m3_continuation.py": "90b539d8f7ce2dae6d574b6285bcd66fcb4b95b3950f96ff81fed6301bd65401",
+      "metabolism/kecoli.py": "73f46ac5ceebe3242c8dc313fa80fb1588a32c82a58527b305f69fcd0fd4d851",
+      "metabolism/cvode.py": "6733fb499c0262bf87dc2040dd6aec44a91085f1dbe1b12f0056f8eb277e05c2"
+    },
+    "environment": {
+      "python": "3.12.10",
+      "numpy": "2.5.4"
+    },
+    "scope": "Same committed state and nested retry horizons; compares one independent dense full-ODE trajectory with fresh solves. Diagnostic only; not M4 evidence."
+  },
+  "fresh_rows": [
+    {
+      "fraction": 1.0,
+      "end": 1e-06,
+      "seconds": 0.06919254100648686,
+      "nfev": 9,
+      "njev": 1,
+      "nlu": 2,
+      "state_truth_error": 0.0
+    },
+    {
+      "fraction": 0.5,
+      "end": 5e-07,
+      "seconds": 0.06645870802458376,
+      "nfev": 9,
+      "njev": 1,
+      "nlu": 2,
+      "state_truth_error": 2.6143605393873023e-13
+    },
+    {
+      "fraction": 0.25,
+      "end": 2.5e-07,
+      "seconds": 0.06737866695038974,
+      "nfev": 9,
+      "njev": 1,
+      "nlu": 2,
+      "state_truth_error": 2.758498287756564e-13
+    },
+    {
+      "fraction": 0.125,
+      "end": 1.25e-07,
+      "seconds": 0.07276366703445092,
+      "nfev": 9,
+      "njev": 1,
+      "nlu": 2,
+      "state_truth_error": 2.753528020571417e-13
+    }
+  ],
+  "cached_rows": [
+    {
+      "fraction": 1.0,
+      "end": 1e-06,
+      "cache_setup_seconds": 0.06606550002470613,
+      "cache_vs_fresh_state_error": 0.0,
+      "cache_vs_truth_state_error": 0.0,
+      "fresh_vs_truth_state_error": 0.0,
+      "cache_vs_fresh_flux_error": 0.0,
+      "cache_vs_truth_flux_error": 0.0
+    },
+    {
+      "fraction": 0.5,
+      "end": 5e-07,
+      "cache_setup_seconds": 0.06606550002470613,
+      "cache_vs_fresh_state_error": 2.6143605393873023e-13,
+      "cache_vs_truth_state_error": 0.0,
+      "fresh_vs_truth_state_error": 2.6143605393873023e-13,
+      "cache_vs_fresh_flux_error": 3.8730311617494637e-13,
+      "cache_vs_truth_flux_error": 0.0
+    },
+    {
+      "fraction": 0.25,
+      "end": 2.5e-07,
+      "cache_setup_seconds": 0.06606550002470613,
+      "cache_vs_fresh_state_error": 2.758498287756564e-13,
+      "cache_vs_truth_state_error": 0.0,
+      "fresh_vs_truth_state_error": 2.758498287756564e-13,
+      "cache_vs_fresh_flux_error": 4.0934094481928355e-13,
+      "cache_vs_truth_flux_error": 0.0
+    },
+    {
+      "fraction": 0.125,
+      "end": 1.25e-07,
+      "cache_setup_seconds": 0.06606550002470613,
+      "cache_vs_fresh_state_error": 2.753528020571417e-13,
+      "cache_vs_truth_state_error": 0.0,
+      "fresh_vs_truth_state_error": 2.753528020571417e-13,
+      "cache_vs_fresh_flux_error": 4.0934094481928355e-13,
+      "cache_vs_truth_flux_error": 0.0
+    }
+  ],
+  "fresh_total_seconds": 0.2757935830159113,
+  "cached_total_seconds": 0.06606550002470613,
+  "cached_plus_scoring_seconds": 0.06606550002470613,
+  "speed_ratio": 4.174547727827298,
+  "note": "The cached trajectory starts at the same committed state and is independently compared against fresh solves and tighter truth. This does not establish formal per-candidate audit admissibility."
+}

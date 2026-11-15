@@ -1,0 +1,38 @@
+[
+  {
+    "fraction": 1.0,
+    "end": 1e-06,
+    "seconds": 0.06919254100648686,
+    "nfev": 9,
+    "njev": 1,
+    "nlu": 2,
+    "state_truth_error": 0.0
+  },
+  {
+    "fraction": 0.5,
+    "end": 5e-07,
+    "seconds": 0.06645870802458376,
+    "nfev": 9,
+    "njev": 1,
+    "nlu": 2,
+    "state_truth_error": 2.6143605393873023e-13
+  },
+  {
+    "fraction": 0.25,
+    "end": 2.5e-07,
+    "seconds": 0.06737866695038974,
+    "nfev": 9,
+    "njev": 1,
+    "nlu": 2,
+    "state_truth_error": 2.758498287756564e-13
+  },
+  {
+    "fraction": 0.125,
+    "end": 1.25e-07,
+    "seconds": 0.07276366703445092,
+    "nfev": 9,
+    "njev": 1,
+    "nlu": 2,
+    "state_truth_error": 2.753528020571417e-13
+  }
+]

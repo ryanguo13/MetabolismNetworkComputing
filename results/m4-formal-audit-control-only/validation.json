@@ -1,0 +1,140 @@
+{
+  "date": "2026-11-15",
+  "scope": "Independent fail-closed validation of registered formal M4 attempt",
+  "M4_admission": "not_admitted",
+  "evidence_integrity": "pass",
+  "source_hash_checks": {
+    "research/m4_formal_audit_control_only.py": true,
+    "research/m3_full_window_screen.py": true,
+    "metabolism/continuation.py": true,
+    "metabolism/adaptive.py": true,
+    "metabolism/splitting.py": true,
+    "metabolism/m3_continuation.py": true,
+    "metabolism/m4_admission.py": true,
+    "research/test_m4_admission.py": true,
+    "checks/test_continuation.py": true
+  },
+  "combinations": [
+    {
+      "model": "teusink",
+      "target": 0.001,
+      "checks": {
+        "seven_formal_repeats": true,
+        "one_candidate_config": true,
+        "fixed_parameters": true,
+        "per_repeat_accuracy": false,
+        "per_repeat_split_audit": false,
+        "seven_formal_baseline_repeats": true,
+        "same_machine_fastest_qualified_baseline": true,
+        "median_speedup_is_1_5_or_more": false
+      },
+      "candidate_median_seconds": 17.537804915977176,
+      "candidate_iqr_seconds": 0.145835728966631,
+      "fastest_local_baseline_config": "Radau-0.001",
+      "baseline_median_seconds": 0.8188614590326324,
+      "baseline_iqr_seconds": 0.0724917495099362,
+      "speedup": 0.046691217227911946,
+      "split_failure_reasons": [
+        "empty fast group is not split coverage",
+        "empty fast group is not split coverage",
+        "empty fast group is not split coverage",
+        "empty fast group is not split coverage",
+        "empty fast group is not split coverage",
+        "empty fast group is not split coverage",
+        "empty fast group is not split coverage"
+      ]
+    },
+    {
+      "model": "teusink",
+      "target": 1e-05,
+      "checks": {
+        "seven_formal_repeats": true,
+        "one_candidate_config": true,
+        "fixed_parameters": true,
+        "per_repeat_accuracy": false,
+        "per_repeat_split_audit": false,
+        "seven_formal_baseline_repeats": true,
+        "same_machine_fastest_qualified_baseline": true,
+        "median_speedup_is_1_5_or_more": false
+      },
+      "candidate_median_seconds": 7.607082207978237,
+      "candidate_iqr_seconds": 0.16911087449989282,
+      "fastest_local_baseline_config": "Radau-1e-05",
+      "baseline_median_seconds": 0.7472114579868503,
+      "baseline_iqr_seconds": 0.03137927100760862,
+      "speedup": 0.09822576351326687,
+      "split_failure_reasons": [
+        "empty fast group is not split coverage",
+        "empty fast group is not split coverage",
+        "empty fast group is not split coverage",
+        "empty fast group is not split coverage",
+        "empty fast group is not split coverage",
+        "empty fast group is not split coverage",
+        "empty fast group is not split coverage"
+      ]
+    },
+    {
+      "model": "kecoli",
+      "target": 0.001,
+      "checks": {
+        "seven_formal_repeats": true,
+        "one_candidate_config": true,
+        "fixed_parameters": true,
+        "per_repeat_accuracy": false,
+        "per_repeat_split_audit": false,
+        "seven_formal_baseline_repeats": true,
+        "same_machine_fastest_qualified_baseline": true,
+        "median_speedup_is_1_5_or_more": false
+      },
+      "candidate_median_seconds": 110.73931183404056,
+      "candidate_iqr_seconds": 0.3116432080278173,
+      "fastest_local_baseline_config": "CVODE-KLU-0.001",
+      "baseline_median_seconds": 1.0421171670313925,
+      "baseline_iqr_seconds": 0.04625593751552515,
+      "speedup": 0.009410544004401626,
+      "split_failure_reasons": [
+        "coverage 5e-06 < 0.5",
+        "coverage 5e-06 < 0.5",
+        "coverage 5e-06 < 0.5",
+        "coverage 5e-06 < 0.5",
+        "coverage 5e-06 < 0.5",
+        "coverage 5e-06 < 0.5",
+        "coverage 5e-06 < 0.5"
+      ]
+    },
+    {
+      "model": "kecoli",
+      "target": 1e-05,
+      "checks": {
+        "seven_formal_repeats": true,
+        "one_candidate_config": true,
+        "fixed_parameters": true,
+        "per_repeat_accuracy": false,
+        "per_repeat_split_audit": false,
+        "seven_formal_baseline_repeats": true,
+        "same_machine_fastest_qualified_baseline": true,
+        "median_speedup_is_1_5_or_more": false
+      },
+      "candidate_median_seconds": 116.89428837498417,
+      "candidate_iqr_seconds": 3.3251283330027945,
+      "fastest_local_baseline_config": "CVODE-KLU-1e-05",
+      "baseline_median_seconds": 1.0405820829910226,
+      "baseline_iqr_seconds": 0.04117427105666138,
+      "speedup": 0.00890190699183649,
+      "split_failure_reasons": [
+        "coverage 5e-06 < 0.5",
+        "coverage 5e-06 < 0.5",
+        "coverage 5e-06 < 0.5",
+        "coverage 5e-06 < 0.5",
+        "coverage 5e-06 < 0.5",
+        "coverage 5e-06 < 0.5",
+        "coverage 5e-06 < 0.5"
+      ]
+    }
+  ],
+  "limitations": [
+    "Candidate fixed parameters are reconstructed from registration because formal rows store the registration identity rather than a full parameters object.",
+    "No fresh ODE solve is performed by this validator; it validates saved formal-run evidence.",
+    "A failed candidate configuration cannot qualify even when the solver returned status=success."
+  ]
+}

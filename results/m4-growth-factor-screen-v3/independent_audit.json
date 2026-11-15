@@ -1,0 +1,119 @@
+{
+  "evidence_integrity": "pass",
+  "rows": 30,
+  "summaries": [
+    {
+      "target": 0.001,
+      "growth_safety": 0.9,
+      "baseline_median": 0.4538034584838897,
+      "candidate_median": 32.33765064601903,
+      "speedup": 0.014033284713580632,
+      "iqr": 0.04194881199509837,
+      "coverage": [
+        0.5217829683605262,
+        0.5217829683605262
+      ],
+      "all_metrics_pass": true,
+      "all_attempts_audited": true
+    },
+    {
+      "target": 0.001,
+      "growth_safety": 1.1,
+      "baseline_median": 0.4538034584838897,
+      "candidate_median": 38.495593916479265,
+      "speedup": 0.011788451932147608,
+      "iqr": 0.12550879150512628,
+      "coverage": [
+        0.3056327871854509,
+        0.3056327871854509
+      ],
+      "all_metrics_pass": true,
+      "all_attempts_audited": true
+    },
+    {
+      "target": 0.001,
+      "growth_safety": 1.3,
+      "baseline_median": 0.4538034584838897,
+      "candidate_median": 32.07119666700601,
+      "speedup": 0.014149876077145278,
+      "iqr": 0.07553649999317713,
+      "coverage": [
+        0.15875000000000003,
+        0.15875000000000003
+      ],
+      "all_metrics_pass": true,
+      "all_attempts_audited": true
+    },
+    {
+      "target": 0.001,
+      "growth_safety": 1.5,
+      "baseline_median": 0.4538034584838897,
+      "candidate_median": 32.23534637503326,
+      "speedup": 0.014077821693126494,
+      "iqr": 0.1462502499925904,
+      "coverage": [
+        0.15875000000000003,
+        0.15875000000000003
+      ],
+      "all_metrics_pass": true,
+      "all_attempts_audited": true
+    },
+    {
+      "target": 1e-05,
+      "growth_safety": 0.9,
+      "baseline_median": 0.47514302149647847,
+      "candidate_median": 32.17482168748393,
+      "speedup": 0.01476754171667438,
+      "iqr": 0.06883189649670385,
+      "coverage": [
+        0.5217829683605262,
+        0.5217829683605262
+      ],
+      "all_metrics_pass": true,
+      "all_attempts_audited": true
+    },
+    {
+      "target": 1e-05,
+      "growth_safety": 1.1,
+      "baseline_median": 0.47514302149647847,
+      "candidate_median": 38.921199333504774,
+      "speedup": 0.012207820664135038,
+      "iqr": 0.0034064995124936104,
+      "coverage": [
+        0.3056327871854509,
+        0.3056327871854509
+      ],
+      "all_metrics_pass": true,
+      "all_attempts_audited": true
+    },
+    {
+      "target": 1e-05,
+      "growth_safety": 1.3,
+      "baseline_median": 0.47514302149647847,
+      "candidate_median": 32.4585279795283,
+      "speedup": 0.01463846486803569,
+      "iqr": 0.16628610450425185,
+      "coverage": [
+        0.15875000000000003,
+        0.15875000000000003
+      ],
+      "all_metrics_pass": true,
+      "all_attempts_audited": true
+    },
+    {
+      "target": 1e-05,
+      "growth_safety": 1.5,
+      "baseline_median": 0.47514302149647847,
+      "candidate_median": 32.32884550001472,
+      "speedup": 0.014697184948848918,
+      "iqr": 0.3023688750108704,
+      "coverage": [
+        0.15875000000000003,
+        0.15875000000000003
+      ],
+      "all_metrics_pass": true,
+      "all_attempts_audited": true
+    }
+  ],
+  "scope": "Short local Kecoli diagnostic only; no full-window or M4 qualification."
+}

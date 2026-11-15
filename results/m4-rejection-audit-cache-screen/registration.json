@@ -1,0 +1,64 @@
+{
+  "date": "2026-11-15",
+  "model": "kecoli",
+  "state_index": 61,
+  "archive_time": 0.00011497569953977356,
+  "interval": [
+    0.0,
+    1e-06
+  ],
+  "query_fractions": [
+    0.0,
+    0.25,
+    0.5,
+    0.75,
+    1.0
+  ],
+  "targets": [
+    0.001,
+    1e-05
+  ],
+  "repeats": 3,
+  "warmups": 1,
+  "common_config": {
+    "target": "per target",
+    "initial_step": 1e-06,
+    "max_step": 1e-06,
+    "slow_bound_limit": 1000000.0,
+    "max_rejections": 16,
+    "max_attempts": 256,
+    "audit_control_only": true,
+    "audit_method": "Radau",
+    "audit_rtol": 1e-10,
+    "fallback_method": "Radau",
+    "fallback_rtol": 1e-11,
+    "timeout": 240.0
+  },
+  "modes": [
+    "fresh",
+    "rejection_audit_cache"
+  ],
+  "truth": {
+    "method": "Radau",
+    "rtol": 1e-13
+  },
+  "gates": {
+    "audit_per_attempt": true,
+    "no_clipping": true,
+    "transactional_rollback": true,
+    "concentration_flux_netflux_checks": true
+  },
+  "scope": "Short local Kecoli diagnostic only; not M4 qualification.",
+  "source_sha256": {
+    "research/m4_rejection_audit_cache_screen.py": "5be1b7dd17b7571c3ebb345b87595d051b9dffabb8dc0d45a977bf8ccd4a7e79",
+    "metabolism/continuation.py": "53670f3d138fd58fec0bb0dfb5e2c5f5641d01410e50a372a17d08e6732df763",
+    "metabolism/adaptive.py": "427c67bfba193a79fb6d3d96aecc5ed01efa1a5d3fc7cbc82e525f3cf851db69",
+    "metabolism/splitting.py": "12ccc9526113e7080d9b56c7763c56a79d37a7fd9c2bacb9b25b2e7f6d1164a3",
+    "metabolism/kecoli.py": "73f46ac5ceebe3242c8dc313fa80fb1588a32c82a58527b305f69fcd0fd4d851",
+    "metabolism/m3_continuation.py": "90b539d8f7ce2dae6d574b6285bcd66fcb4b95b3950f96ff81fed6301bd65401"
+  },
+  "environment": {
+    "python": "3.12.10",
+    "numpy": "2.5.4"
+  }
+}

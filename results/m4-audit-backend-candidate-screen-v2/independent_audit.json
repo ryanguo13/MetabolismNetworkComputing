@@ -1,0 +1,59 @@
+{
+  "evidence_integrity": "pass",
+  "rows": 18,
+  "summary": [
+    {
+      "target": 0.001,
+      "method": "CVODE-KLU",
+      "baseline_median": 0.5000244369730353,
+      "candidate_median": 32.12934224997298,
+      "speedup": 0.015562859428703552,
+      "candidate_iqr": 0.2049737500201445,
+      "coverage": [
+        0.5217829683605262,
+        0.5217829683605262
+      ],
+      "all_metrics_pass": true
+    },
+    {
+      "target": 0.001,
+      "method": "BDF",
+      "baseline_median": 0.5000244369730353,
+      "candidate_median": 33.56973208297859,
+      "speedup": 0.014895097635484881,
+      "candidate_iqr": 0.13094187501701526,
+      "coverage": [
+        0.5302852610655858,
+        0.5302852610655858
+      ],
+      "all_metrics_pass": true
+    },
+    {
+      "target": 1e-05,
+      "method": "CVODE-KLU",
+      "baseline_median": 0.4520001244964078,
+      "candidate_median": 32.37426679150667,
+      "speedup": 0.0139617100028035,
+      "candidate_iqr": 0.062447708507534117,
+      "coverage": [
+        0.5217829683605262,
+        0.5217829683605262
+      ],
+      "all_metrics_pass": true
+    },
+    {
+      "target": 1e-05,
+      "method": "BDF",
+      "baseline_median": 0.4520001244964078,
+      "candidate_median": 33.58901729201898,
+      "speedup": 0.013456783226694954,
+      "candidate_iqr": 0.13672083301935345,
+      "coverage": [
+        0.5302852610655858,
+        0.5302852610655858
+      ],
+      "all_metrics_pass": true
+    }
+  ],
+  "limitation": "One early-state short Kecoli interval; not full-window or M4 qualification."
+}

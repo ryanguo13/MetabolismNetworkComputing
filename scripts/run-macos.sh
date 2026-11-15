@@ -6,6 +6,7 @@ if [[ ! -f "$runtime/libsundials_cvode.dylib" ]]; then
   echo 'Missing project SUNDIALS 6 runtime. Run bash scripts/setup-macos.sh.' >&2
   exit 1
 fi
+command -v uv >/dev/null
 export DYLD_LIBRARY_PATH="$runtime${DYLD_LIBRARY_PATH:+:$DYLD_LIBRARY_PATH}"
 export OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 MKL_NUM_THREADS=1
-exec .venv/bin/python "$@"
+exec uv run --locked --no-sync python "$@"

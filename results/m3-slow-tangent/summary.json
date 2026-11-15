@@ -1,0 +1,248 @@
+{
+  "date": "2026-11-15",
+  "candidate_records": 96,
+  "control_records": 48,
+  "candidate_failures": 24,
+  "control_failures": 6,
+  "comparisons": [
+    {
+      "reference_key": "0-3-1",
+      "model": "teusink",
+      "target": "0.001",
+      "qualified_candidates": 8,
+      "best_baseline": {
+        "key": "control-0-3-1-1e-06-True",
+        "seconds": 0.0024672920117154717
+      },
+      "best_candidate": {
+        "key": "candidate-0-3-1-3.0-1-1e-06",
+        "seconds": 0.006480666983406991
+      },
+      "optimistic_speedup": 0.38071575318291956,
+      "candidate_plus_current_reference_speedup": 0.1648304428802485
+    },
+    {
+      "reference_key": "0-3-1",
+      "model": "teusink",
+      "target": "1e-05",
+      "qualified_candidates": 8,
+      "best_baseline": {
+        "key": "control-0-3-1-1e-06-True",
+        "seconds": 0.0024672920117154717
+      },
+      "best_candidate": {
+        "key": "candidate-0-3-1-3.0-1-1e-06",
+        "seconds": 0.006480666983406991
+      },
+      "optimistic_speedup": 0.38071575318291956,
+      "candidate_plus_current_reference_speedup": 0.1648304428802485
+    },
+    {
+      "reference_key": "0-3-2",
+      "model": "teusink",
+      "target": "0.001",
+      "qualified_candidates": 4,
+      "best_baseline": {
+        "key": "control-0-3-2-1e-06-True",
+        "seconds": 0.0025255000218749046
+      },
+      "best_candidate": {
+        "key": "candidate-0-3-2-1.0-2-1e-06",
+        "seconds": 0.009969417005777359
+      },
+      "optimistic_speedup": 0.25332474510910286,
+      "candidate_plus_current_reference_speedup": 0.10350445138160194
+    },
+    {
+      "reference_key": "0-3-2",
+      "model": "teusink",
+      "target": "1e-05",
+      "qualified_candidates": 4,
+      "best_baseline": {
+        "key": "control-0-3-2-1e-06-True",
+        "seconds": 0.0025255000218749046
+      },
+      "best_candidate": {
+        "key": "candidate-0-3-2-1.0-2-1e-06",
+        "seconds": 0.009969417005777359
+      },
+      "optimistic_speedup": 0.25332474510910286,
+      "candidate_plus_current_reference_speedup": 0.10350445138160194
+    },
+    {
+      "reference_key": "0-2-1",
+      "model": "teusink",
+      "target": "0.001",
+      "qualified_candidates": 0,
+      "best_baseline": {
+        "key": "control-0-2-1-1e-06-False",
+        "seconds": 0.03328016703017056
+      },
+      "best_candidate": null,
+      "optimistic_speedup": null,
+      "candidate_plus_current_reference_speedup": null
+    },
+    {
+      "reference_key": "0-2-1",
+      "model": "teusink",
+      "target": "1e-05",
+      "qualified_candidates": 0,
+      "best_baseline": {
+        "key": "control-0-2-1-1e-06-False",
+        "seconds": 0.03328016703017056
+      },
+      "best_candidate": null,
+      "optimistic_speedup": null,
+      "candidate_plus_current_reference_speedup": null
+    },
+    {
+      "reference_key": "0-2-2",
+      "model": "teusink",
+      "target": "0.001",
+      "qualified_candidates": 0,
+      "best_baseline": {
+        "key": "control-0-2-2-1e-06-False",
+        "seconds": 0.0893695839913562
+      },
+      "best_candidate": null,
+      "optimistic_speedup": null,
+      "candidate_plus_current_reference_speedup": null
+    },
+    {
+      "reference_key": "0-2-2",
+      "model": "teusink",
+      "target": "1e-05",
+      "qualified_candidates": 0,
+      "best_baseline": {
+        "key": "control-0-2-2-1e-06-False",
+        "seconds": 0.0893695839913562
+      },
+      "best_candidate": null,
+      "optimistic_speedup": null,
+      "candidate_plus_current_reference_speedup": null
+    },
+    {
+      "reference_key": "1-3-1",
+      "model": "kecoli",
+      "target": "0.001",
+      "qualified_candidates": 12,
+      "best_baseline": {
+        "key": "control-1-3-1-1e-05-True",
+        "seconds": 0.012616958003491163
+      },
+      "best_candidate": {
+        "key": "candidate-1-3-1-1.0-0-1e-06",
+        "seconds": 0.016010958002880216
+      },
+      "optimistic_speedup": 0.7880201797557332,
+      "candidate_plus_current_reference_speedup": 0.017261302862225717
+    },
+    {
+      "reference_key": "1-3-1",
+      "model": "kecoli",
+      "target": "1e-05",
+      "qualified_candidates": 8,
+      "best_baseline": {
+        "key": "control-1-3-1-1e-05-True",
+        "seconds": 0.012616958003491163
+      },
+      "best_candidate": {
+        "key": "candidate-1-3-1-0.1-1-1e-06",
+        "seconds": 0.02449658396653831
+      },
+      "optimistic_speedup": 0.5150496910395995,
+      "candidate_plus_current_reference_speedup": 0.01706321238589655
+    },
+    {
+      "reference_key": "1-3-2",
+      "model": "kecoli",
+      "target": "0.001",
+      "qualified_candidates": 10,
+      "best_baseline": {
+        "key": "control-1-3-2-1e-06-False",
+        "seconds": 0.03728845901787281
+      },
+      "best_candidate": {
+        "key": "candidate-1-3-2-0.1-0-1e-06",
+        "seconds": 0.04177962499670684
+      },
+      "optimistic_speedup": 0.8925034396745295,
+      "candidate_plus_current_reference_speedup": 0.0450583670427995
+    },
+    {
+      "reference_key": "1-3-2",
+      "model": "kecoli",
+      "target": "1e-05",
+      "qualified_candidates": 4,
+      "best_baseline": {
+        "key": "control-1-3-2-1e-08-False",
+        "seconds": 0.05773416598094627
+      },
+      "best_candidate": {
+        "key": "candidate-1-3-2-0.1-1-1e-08",
+        "seconds": 0.13716724998084828
+      },
+      "optimistic_speedup": 0.42090342985666984,
+      "candidate_plus_current_reference_speedup": 0.06255417361619767
+    },
+    {
+      "reference_key": "1-2-1",
+      "model": "kecoli",
+      "target": "0.001",
+      "qualified_candidates": 4,
+      "best_baseline": {
+        "key": "control-1-2-1-1e-06-False",
+        "seconds": 0.10982762498315424
+      },
+      "best_candidate": {
+        "key": "candidate-1-2-1-0.1-1-1e-06",
+        "seconds": 0.26969058404210955
+      },
+      "optimistic_speedup": 0.40723566739729306,
+      "candidate_plus_current_reference_speedup": 0.06017407463515306
+    },
+    {
+      "reference_key": "1-2-1",
+      "model": "kecoli",
+      "target": "1e-05",
+      "qualified_candidates": 0,
+      "best_baseline": {
+        "key": "control-1-2-1-1e-08-False",
+        "seconds": 0.18823641602648422
+      },
+      "best_candidate": null,
+      "optimistic_speedup": null,
+      "candidate_plus_current_reference_speedup": null
+    },
+    {
+      "reference_key": "1-2-2",
+      "model": "kecoli",
+      "target": "0.001",
+      "qualified_candidates": 0,
+      "best_baseline": {
+        "key": "control-1-2-2-1e-06-False",
+        "seconds": 0.1591831659898162
+      },
+      "best_candidate": null,
+      "optimistic_speedup": null,
+      "candidate_plus_current_reference_speedup": null
+    },
+    {
+      "reference_key": "1-2-2",
+      "model": "kecoli",
+      "target": "1e-05",
+      "qualified_candidates": 0,
+      "best_baseline": {
+        "key": "control-1-2-2-1e-08-False",
+        "seconds": 0.26177166699199006
+      },
+      "best_candidate": null,
+      "optimistic_speedup": null,
+      "candidate_plus_current_reference_speedup": null
+    }
+  ],
+  "npz_crc_checked": 122,
+  "reaction_split_coverage": 0.0,
+  "M4_admission": false,
+  "scope": "Known-state local mechanism screen with original and .1-local formal targets; full implicit vector; no runtime controller, no formal repeat or full-window qualification."
+}

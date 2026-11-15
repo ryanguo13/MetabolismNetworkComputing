@@ -1,0 +1,14 @@
+{
+  "date": "2026-11-15",
+  "posthoc": true,
+  "purpose": "Fail-closed ledger applicability, exact record identities, full-stage rates, previous curve positivity and ledger reconstruction; no source or timing changes.",
+  "source_sha256": {
+    "research/m3_slow_tangent_integrity.py": "0184ef49142fe0723b3720e3d0ae8f6a736f6a0b1e47a6cb8442cbb2b4c98136"
+  },
+  "input_sha256": {
+    "results/m3-slow-tangent/registration.json": "d13e77de7b4446aa834a405282104c388ef47e9d6206247cf3ca9c2d8251f101",
+    "results/m3-slow-tangent/runs.json": "ca57e29b63ff2130866d32f82b23f87c7752e7083cc521009d2764d9a54a964b",
+    "results/m3-slow-tangent/summary.json": "1b89b4afbecbb62bc46aa76c68acebe436a0f4acd0983b6cc0ac7c7e60e02808",
+    "results/m3-slow-tangent/manifest.json": "955f0435e155893ce8cc28ecaf4be2ae9761414b71f8bb45f075d947f1702727"
+  }
+}

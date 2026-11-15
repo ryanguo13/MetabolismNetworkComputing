@@ -12,8 +12,8 @@ if [[ ! -f "$archive" ]]; then
   curl -fL --retry 2 --connect-timeout 20 -o "$archive" \
     https://github.com/LLNL/sundials/releases/download/v6.4.1/sundials-6.4.1.tar.gz
 fi
-python=.venv/bin/python
-"$python" - "$archive" <<'PY'
+python=(uv run --locked --no-sync python)
+"${python[@]}" - "$archive" <<'PY'
 import hashlib
 import sys
 from pathlib import Path

@@ -1,0 +1,49 @@
+{
+  "date": "2026-11-15",
+  "protocol": "Frozen M4 protocol from docs/m4-admission-audit.md",
+  "purpose": "Complete a formal admission attempt for the frozen audit-control-only/local_fraction=1 candidate despite its negative development screen; do not tune or relabel the candidate.",
+  "scope": "Both original models x both original targets; original M1 initial conditions, full windows, public grids and scales; one warmup and seven interleaved candidate/baseline pairs per configuration.",
+  "candidate": {
+    "audit_control_only": true,
+    "local_fraction": 1.0,
+    "initial_step": 1e-05,
+    "max_step": {
+      "teusink": 0.1,
+      "kecoli": 0.01
+    },
+    "max_attempts": 512,
+    "max_rejections": 16,
+    "timeout": 180.0,
+    "group_every": 1,
+    "audit_rtol": 1e-11,
+    "fallback_rtol": 1e-11
+  },
+  "control": "Fastest historically qualified mature full-system configuration for the same model/target, re-run on the current machine with original fixed groups.",
+  "run_protocol": {
+    "formal_repeats": 7,
+    "warmups_per_method": 1,
+    "interleaved": true,
+    "preserve_every_failure": true,
+    "candidate_audit": "Independent complete nonlinear ODE from each committed start at every candidate attempt, all public and quarter points",
+    "no_clipping": true,
+    "original_global_metrics": true,
+    "transactional_rollback": true,
+    "coverage_gate": 0.5,
+    "speedup_gate": 1.5
+  },
+  "source_sha256": {
+    "research/m4_formal_audit_control_only.py": "7d23f38b99927982f9abc7c348eedb43422efbba9f3b45f9d0463daf64a61570",
+    "research/m3_full_window_screen.py": "e2d2cfeeee0f6b00c70fc8ca5089e6302f906fa47360a7d8a693ab3be13c1423",
+    "metabolism/continuation.py": "2aa6ca623d7c90335ff5985aee6a5447048f7cd915cfe9534c1db014f7ce5e66",
+    "metabolism/adaptive.py": "427c67bfba193a79fb6d3d96aecc5ed01efa1a5d3fc7cbc82e525f3cf851db69",
+    "metabolism/splitting.py": "12ccc9526113e7080d9b56c7763c56a79d37a7fd9c2bacb9b25b2e7f6d1164a3",
+    "metabolism/m3_continuation.py": "90b539d8f7ce2dae6d574b6285bcd66fcb4b95b3950f96ff81fed6301bd65401",
+    "metabolism/m4_admission.py": "3f4a95518f5263da5d6a8279be88796937b9f1834b612e3b4b24b49a97d5c6a9",
+    "research/test_m4_admission.py": "b605bafd663fcabc1aa708ed09fe1adf6235bf191c9cb26c93590edf472eb428",
+    "checks/test_continuation.py": "652d9f6bd2fe0c38b0a523c6d80fd67c6c56b418f3f8529d8a4bafb9ab6b979e"
+  },
+  "environment": {
+    "python": "3.12.10",
+    "numpy": "2.5.4"
+  }
+}

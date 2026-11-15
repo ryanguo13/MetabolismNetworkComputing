@@ -1,0 +1,60 @@
+{
+  "date": "2026-11-15",
+  "model": "kecoli",
+  "state_indices": [
+    0,
+    61
+  ],
+  "state_times": [
+    0.0,
+    0.00011497569953977356
+  ],
+  "interval": 1e-06,
+  "query_fractions": [
+    0.25,
+    0.5,
+    0.75,
+    1.0
+  ],
+  "methods": [
+    "CVODE-KLU",
+    "BDF"
+  ],
+  "rtols": [
+    1e-09,
+    1e-10,
+    1e-11
+  ],
+  "repeats": [
+    -1,
+    0,
+    1,
+    2
+  ],
+  "targets": [
+    0.001,
+    1e-05
+  ],
+  "truth_method": "Radau",
+  "truth_rtol": 1e-13,
+  "hypothesis": "SciPy BDF may reduce complete per-attempt audit cost relative to CVODE-KLU while matching independent tighter Radau truth.",
+  "gates": {
+    "complete_original_nonlinear_rhs": true,
+    "concentration_flux_and_net_flux": true,
+    "external_error_budget": 0.05,
+    "nonnegative_sampled_outputs": true,
+    "pools": 1e-10,
+    "no_clipping": true
+  },
+  "limitation": "Two early states and one 1e-6 interval only; exploratory audit-backend calibration, not controller or M4 qualification. BDF internal states are not exposed, so positivity is checked at requested queries; CVODE internal RHS minima are recorded by native wrapper.",
+  "source_sha256": {
+    "research/m4_audit_backend_screen.py": "4e8c7fc2eedb58baa9849a66c418e2e679d5e410e34be26462ed73f3d66bc349",
+    "metabolism/cvode.py": "6733fb499c0262bf87dc2040dd6aec44a91085f1dbe1b12f0056f8eb277e05c2",
+    "metabolism/kecoli.py": "73f46ac5ceebe3242c8dc313fa80fb1588a32c82a58527b305f69fcd0fd4d851",
+    "metabolism/m3_continuation.py": "90b539d8f7ce2dae6d574b6285bcd66fcb4b95b3950f96ff81fed6301bd65401"
+  },
+  "environment": {
+    "python": "3.12.10",
+    "numpy": "2.5.4"
+  }
+}

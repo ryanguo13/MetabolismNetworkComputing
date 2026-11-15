@@ -1,0 +1,6 @@
+{
+  "status": "implementation_failure",
+  "reason": "Candidate curve contains Polynomial pieces; extrapolated_flow.pack expects DensePower coefficients. Failure at saving first completed trial; no runs persisted and no timings eligible.",
+  "excluded_from_scientific_comparison": true,
+  "original_source_sha256": "e4ba121a40a6fe7b5d7ed802f83e7568cd7fce5106f276f5ab522b5824449bc3"
+}

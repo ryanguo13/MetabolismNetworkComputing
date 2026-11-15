@@ -1,0 +1,69 @@
+{
+  "date": "2026-11-15",
+  "model": "kecoli",
+  "state_index": 61,
+  "archive_time": 0.00011497569953977356,
+  "local_interval": [
+    0.0,
+    1e-06
+  ],
+  "query_fractions": [
+    0.0,
+    0.25,
+    0.5,
+    0.75,
+    1.0
+  ],
+  "methods": [
+    "AdaptiveSplit",
+    "CVODE-KLU",
+    "BDF"
+  ],
+  "targets": [
+    0.001,
+    1e-05
+  ],
+  "repeats": [
+    -1,
+    0,
+    1
+  ],
+  "candidate": {
+    "audit_control_only": true,
+    "local_fraction": 1.0,
+    "group_every": 1,
+    "classification_step_floor": 1e-06,
+    "growth_safety": 0.9,
+    "initial_step": 1e-08,
+    "max_step": 1e-06,
+    "max_attempts": 256,
+    "max_rejections": 16,
+    "audit_rtol": 1e-09,
+    "fallback_method": "CVODE-KLU",
+    "fallback_rtol": 1e-11
+  },
+  "baseline": {
+    "method": "AdaptiveSplit",
+    "fixed_all_reactions": true,
+    "fallback_method": "CVODE-KLU",
+    "fallback_rtol": 1e-11
+  },
+  "reference": {
+    "method": "Radau",
+    "rtol": 1e-13
+  },
+  "scope": "One Kecoli early-state short interval; controller-level backend diagnostic only, not full-window or M4 qualification.",
+  "source_sha256": {
+    "research/m4_audit_backend_candidate_screen_v2.py": "219722720cfd5e45fc5b4fe9f331dc2a02368689d4733dfa21845ff6b2f49c27",
+    "metabolism/continuation.py": "094558a9582e59afaf094e7611bda5184426d0779c30051d0ba5cd8d7eaee510",
+    "metabolism/adaptive.py": "427c67bfba193a79fb6d3d96aecc5ed01efa1a5d3fc7cbc82e525f3cf851db69",
+    "metabolism/splitting.py": "12ccc9526113e7080d9b56c7763c56a79d37a7fd9c2bacb9b25b2e7f6d1164a3",
+    "metabolism/kecoli.py": "73f46ac5ceebe3242c8dc313fa80fb1588a32c82a58527b305f69fcd0fd4d851",
+    "metabolism/cvode.py": "6733fb499c0262bf87dc2040dd6aec44a91085f1dbe1b12f0056f8eb277e05c2",
+    "metabolism/m3_continuation.py": "90b539d8f7ce2dae6d574b6285bcd66fcb4b95b3950f96ff81fed6301bd65401"
+  },
+  "environment": {
+    "python": "3.12.10",
+    "numpy": "2.5.4"
+  }
+}

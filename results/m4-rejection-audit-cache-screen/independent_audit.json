@@ -1,0 +1,327 @@
+{
+  "evidence_integrity": "pass",
+  "rows": 16,
+  "source_hashes": "pass",
+  "metric_record_mismatches": [],
+  "all_attempts_audited": true,
+  "all_rejections_rolled_back": true,
+  "scope": "Short local Kecoli diagnostic only; not M4 qualification.",
+  "summaries": [
+    {
+      "target": 0.001,
+      "fresh_median": 55.57978570897831,
+      "cached_median": 55.14283108396921,
+      "paired_speedup_median": 1.0075411623334551,
+      "paired_speedup_range": [
+        1.0044696519272804,
+        1.0100703857982902
+      ],
+      "total_cache_hits": 24,
+      "total_retry_attempts": 768
+    },
+    {
+      "target": 1e-05,
+      "fresh_median": 55.22182158299256,
+      "cached_median": 55.005304208025336,
+      "paired_speedup_median": 1.0042937422806584,
+      "paired_speedup_range": [
+        1.0030791712434548,
+        1.0064077886332998
+      ],
+      "total_cache_hits": 24,
+      "total_retry_attempts": 768
+    }
+  ],
+  "paired": [
+    {
+      "target": 0.001,
+      "repeat": -1,
+      "fresh_seconds": 55.42070533300284,
+      "cached_seconds": 54.99487145803869,
+      "speedup": 1.007743156110276,
+      "fresh_attempts": 256,
+      "cached_attempts": 256,
+      "cached_hits": 8
+    },
+    {
+      "target": 0.001,
+      "repeat": 0,
+      "fresh_seconds": 55.69814066699473,
+      "cached_seconds": 55.14283108396921,
+      "speedup": 1.0100703857982902,
+      "fresh_attempts": 256,
+      "cached_attempts": 256,
+      "cached_hits": 8
+    },
+    {
+      "target": 0.001,
+      "repeat": 1,
+      "fresh_seconds": 55.336063124996144,
+      "cached_seconds": 54.921888250042684,
+      "speedup": 1.0075411623334551,
+      "fresh_attempts": 256,
+      "cached_attempts": 256,
+      "cached_hits": 8
+    },
+    {
+      "target": 0.001,
+      "repeat": 2,
+      "fresh_seconds": 55.57978570897831,
+      "cached_seconds": 55.33246883301763,
+      "speedup": 1.0044696519272804,
+      "fresh_attempts": 256,
+      "cached_attempts": 256,
+      "cached_hits": 8
+    },
+    {
+      "target": 1e-05,
+      "repeat": -1,
+      "fresh_seconds": 55.347017458989285,
+      "cached_seconds": 55.081827707996126,
+      "speedup": 1.004814468982384,
+      "fresh_attempts": 256,
+      "cached_attempts": 256,
+      "cached_hits": 8
+    },
+    {
+      "target": 1e-05,
+      "repeat": 0,
+      "fresh_seconds": 55.17467495898018,
+      "cached_seconds": 55.005304208025336,
+      "speedup": 1.0030791712434548,
+      "fresh_attempts": 256,
+      "cached_attempts": 256,
+      "cached_hits": 8
+    },
+    {
+      "target": 1e-05,
+      "repeat": 1,
+      "fresh_seconds": 55.22182158299256,
+      "cached_seconds": 54.98572704195976,
+      "speedup": 1.0042937422806584,
+      "fresh_attempts": 256,
+      "cached_attempts": 256,
+      "cached_hits": 8
+    },
+    {
+      "target": 1e-05,
+      "repeat": 2,
+      "fresh_seconds": 55.58282233297359,
+      "cached_seconds": 55.22892704204423,
+      "speedup": 1.0064077886332998,
+      "fresh_attempts": 256,
+      "cached_attempts": 256,
+      "cached_hits": 8
+    }
+  ],
+  "row_details": [
+    {
+      "target": 0.001,
+      "repeat": -1,
+      "mode": "fresh",
+      "seconds": 55.42070533300284,
+      "solver_calls": 256,
+      "cache_hits": 0,
+      "attempts": 256,
+      "rejected": 8,
+      "coverage": 0.9862602870860673,
+      "truth_error": 1.3894173096811988e-07,
+      "metrics_pass": true
+    },
+    {
+      "target": 0.001,
+      "repeat": -1,
+      "mode": "cached",
+      "seconds": 54.99487145803869,
+      "solver_calls": 248,
+      "cache_hits": 8,
+      "attempts": 256,
+      "rejected": 8,
+      "coverage": 0.9862602870860673,
+      "truth_error": 1.3894173096811988e-07,
+      "metrics_pass": true
+    },
+    {
+      "target": 0.001,
+      "repeat": 0,
+      "mode": "fresh",
+      "seconds": 55.69814066699473,
+      "solver_calls": 256,
+      "cache_hits": 0,
+      "attempts": 256,
+      "rejected": 8,
+      "coverage": 0.9862602870860673,
+      "truth_error": 1.3894173096811988e-07,
+      "metrics_pass": true
+    },
+    {
+      "target": 0.001,
+      "repeat": 0,
+      "mode": "cached",
+      "seconds": 55.14283108396921,
+      "solver_calls": 248,
+      "cache_hits": 8,
+      "attempts": 256,
+      "rejected": 8,
+      "coverage": 0.9862602870860673,
+      "truth_error": 1.3894173096811988e-07,
+      "metrics_pass": true
+    },
+    {
+      "target": 0.001,
+      "repeat": 1,
+      "mode": "cached",
+      "seconds": 54.921888250042684,
+      "solver_calls": 248,
+      "cache_hits": 8,
+      "attempts": 256,
+      "rejected": 8,
+      "coverage": 0.9862602870860673,
+      "truth_error": 1.3894173096811988e-07,
+      "metrics_pass": true
+    },
+    {
+      "target": 0.001,
+      "repeat": 1,
+      "mode": "fresh",
+      "seconds": 55.336063124996144,
+      "solver_calls": 256,
+      "cache_hits": 0,
+      "attempts": 256,
+      "rejected": 8,
+      "coverage": 0.9862602870860673,
+      "truth_error": 1.3894173096811988e-07,
+      "metrics_pass": true
+    },
+    {
+      "target": 0.001,
+      "repeat": 2,
+      "mode": "fresh",
+      "seconds": 55.57978570897831,
+      "solver_calls": 256,
+      "cache_hits": 0,
+      "attempts": 256,
+      "rejected": 8,
+      "coverage": 0.9862602870860673,
+      "truth_error": 1.3894173096811988e-07,
+      "metrics_pass": true
+    },
+    {
+      "target": 0.001,
+      "repeat": 2,
+      "mode": "cached",
+      "seconds": 55.33246883301763,
+      "solver_calls": 248,
+      "cache_hits": 8,
+      "attempts": 256,
+      "rejected": 8,
+      "coverage": 0.9862602870860673,
+      "truth_error": 1.3894173096811988e-07,
+      "metrics_pass": true
+    },
+    {
+      "target": 1e-05,
+      "repeat": -1,
+      "mode": "fresh",
+      "seconds": 55.347017458989285,
+      "solver_calls": 256,
+      "cache_hits": 0,
+      "attempts": 256,
+      "rejected": 8,
+      "coverage": 0.9862602870860673,
+      "truth_error": 1.3894173096811988e-07,
+      "metrics_pass": true
+    },
+    {
+      "target": 1e-05,
+      "repeat": -1,
+      "mode": "cached",
+      "seconds": 55.081827707996126,
+      "solver_calls": 248,
+      "cache_hits": 8,
+      "attempts": 256,
+      "rejected": 8,
+      "coverage": 0.9862602870860673,
+      "truth_error": 1.3894173096811988e-07,
+      "metrics_pass": true
+    },
+    {
+      "target": 1e-05,
+      "repeat": 0,
+      "mode": "fresh",
+      "seconds": 55.17467495898018,
+      "solver_calls": 256,
+      "cache_hits": 0,
+      "attempts": 256,
+      "rejected": 8,
+      "coverage": 0.9862602870860673,
+      "truth_error": 1.3894173096811988e-07,
+      "metrics_pass": true
+    },
+    {
+      "target": 1e-05,
+      "repeat": 0,
+      "mode": "cached",
+      "seconds": 55.005304208025336,
+      "solver_calls": 248,
+      "cache_hits": 8,
+      "attempts": 256,
+      "rejected": 8,
+      "coverage": 0.9862602870860673,
+      "truth_error": 1.3894173096811988e-07,
+      "metrics_pass": true
+    },
+    {
+      "target": 1e-05,
+      "repeat": 1,
+      "mode": "cached",
+      "seconds": 54.98572704195976,
+      "solver_calls": 248,
+      "cache_hits": 8,
+      "attempts": 256,
+      "rejected": 8,
+      "coverage": 0.9862602870860673,
+      "truth_error": 1.3894173096811988e-07,
+      "metrics_pass": true
+    },
+    {
+      "target": 1e-05,
+      "repeat": 1,
+      "mode": "fresh",
+      "seconds": 55.22182158299256,
+      "solver_calls": 256,
+      "cache_hits": 0,
+      "attempts": 256,
+      "rejected": 8,
+      "coverage": 0.9862602870860673,
+      "truth_error": 1.3894173096811988e-07,
+      "metrics_pass": true
+    },
+    {
+      "target": 1e-05,
+      "repeat": 2,
+      "mode": "fresh",
+      "seconds": 55.58282233297359,
+      "solver_calls": 256,
+      "cache_hits": 0,
+      "attempts": 256,
+      "rejected": 8,
+      "coverage": 0.9862602870860673,
+      "truth_error": 1.3894173096811988e-07,
+      "metrics_pass": true
+    },
+    {
+      "target": 1e-05,
+      "repeat": 2,
+      "mode": "cached",
+      "seconds": 55.22892704204423,
+      "solver_calls": 248,
+      "cache_hits": 8,
+      "attempts": 256,
+      "rejected": 8,
+      "coverage": 0.9862602870860673,
+      "truth_error": 1.3894173096811988e-07,
+      "metrics_pass": true
+    }
+  ]
+}

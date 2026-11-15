@@ -1,0 +1,3830 @@
+{
+  "audits": [
+    {
+      "key": "audit-0-2-1-0-required",
+      "reference_key": "0-2-1",
+      "model": "teusink",
+      "target": 0.001,
+      "method": "current",
+      "tolerance": 0.0001,
+      "query_mode": "required",
+      "repeat": -1,
+      "status": "success",
+      "stats": {
+        "backend": "SciPy Radau; no supplied Jacobian",
+        "nfev": 92,
+        "njev": 5,
+        "nlu": 16,
+        "min_rhs_argument": 0.000396742425662715,
+        "seconds": 0.007603833044413477
+      },
+      "guard": {
+        "nonnegative": true,
+        "pool": 1.2115026239954575e-16
+      },
+      "budget": {
+        "concentration": 0.023504180541769924,
+        "flux": 0.04224664571575327
+      },
+      "qualified": true,
+      "runtime_candidate_error": {
+        "concentration": 651.8859467765508,
+        "flux": 1374.374401133165
+      },
+      "runtime_candidate_pass": false,
+      "runtime_score_seconds": 0.00285183300729841,
+      "seconds": 0.007603833044413477,
+      "audit_plus_scoring_seconds": 0.010455666051711887,
+      "offline_qualification_seconds": 0.0008401249651797116
+    },
+    {
+      "key": "audit-0-2-1-0-enhanced",
+      "reference_key": "0-2-1",
+      "model": "teusink",
+      "target": 0.001,
+      "method": "current",
+      "tolerance": 0.0001,
+      "query_mode": "enhanced",
+      "repeat": -1,
+      "status": "success",
+      "stats": {
+        "backend": "SciPy Radau; no supplied Jacobian",
+        "nfev": 92,
+        "njev": 5,
+        "nlu": 16,
+        "min_rhs_argument": 0.000396742425662715,
+        "seconds": 0.0062973329913802445
+      },
+      "guard": {
+        "nonnegative": true,
+        "pool": 1.2826752987090783e-16
+      },
+      "budget": {
+        "concentration": 0.023504180541769924,
+        "flux": 0.04224664571575327
+      },
+      "qualified": true,
+      "runtime_candidate_error": {
+        "concentration": 651.8859467765508,
+        "flux": 1374.374401133165
+      },
+      "runtime_candidate_pass": false,
+      "runtime_score_seconds": 0.011962750053498894,
+      "seconds": 0.0062973329913802445,
+      "audit_plus_scoring_seconds": 0.01826008304487914,
+      "offline_qualification_seconds": 0.006309624994173646
+    },
+    {
+      "key": "audit-0-2-1-1-required",
+      "reference_key": "0-2-1",
+      "model": "teusink",
+      "target": 0.001,
+      "method": "current",
+      "tolerance": 1e-05,
+      "query_mode": "required",
+      "repeat": -1,
+      "status": "success",
+      "stats": {
+        "backend": "SciPy Radau; no supplied Jacobian",
+        "nfev": 136,
+        "njev": 8,
+        "nlu": 24,
+        "min_rhs_argument": 0.0003967432801589692,
+        "seconds": 0.017928750021383166
+      },
+      "guard": {
+        "nonnegative": true,
+        "pool": 1.8832569487391324e-16
+      },
+      "budget": {
+        "concentration": 0.001390562580196215,
+        "flux": 0.0025356083378085
+      },
+      "qualified": true,
+      "runtime_candidate_error": {
+        "concentration": 651.8855997171203,
+        "flux": 1374.37626369223
+      },
+      "runtime_candidate_pass": false,
+      "runtime_score_seconds": 0.0020490000024437904,
+      "seconds": 0.017928750021383166,
+      "audit_plus_scoring_seconds": 0.019977750023826957,
+      "offline_qualification_seconds": 0.0008137919940054417
+    },
+    {
+      "key": "audit-0-2-1-1-enhanced",
+      "reference_key": "0-2-1",
+      "model": "teusink",
+      "target": 0.001,
+      "method": "current",
+      "tolerance": 1e-05,
+      "query_mode": "enhanced",
+      "repeat": -1,
+      "status": "success",
+      "stats": {
+        "backend": "SciPy Radau; no supplied Jacobian",
+        "nfev": 136,
+        "njev": 8,
+        "nlu": 24,
+        "min_rhs_argument": 0.0003967432801589692,
+        "seconds": 0.009373749955557287
+      },
+      "guard": {
+        "nonnegative": true,
+        "pool": 2.0046680862480387e-16
+      },
+      "budget": {
+        "concentration": 0.00167404986320883,
+        "flux": 0.00352421890090777
+      },
+      "qualified": true,
+      "runtime_candidate_error": {
+        "concentration": 651.8855997171203,
+        "flux": 1374.37626369223
+      },
+      "runtime_candidate_pass": false,
+      "runtime_score_seconds": 0.005285166960675269,
+      "seconds": 0.009373749955557287,
+      "audit_plus_scoring_seconds": 0.014658916916232556,
+      "offline_qualification_seconds": 0.0022016660077497363
+    },
+    {
+      "key": "audit-0-2-1-2-required",
+      "reference_key": "0-2-1",
+      "model": "teusink",
+      "target": 1e-05,
+      "method": "current",
+      "tolerance": 1e-06,
+      "query_mode": "required",
+      "repeat": -1,
+      "status": "success",
+      "stats": {
+        "backend": "SciPy Radau; no supplied Jacobian",
+        "nfev": 225,
+        "njev": 11,
+        "nlu": 34,
+        "min_rhs_argument": 0.0003967455883339039,
+        "seconds": 0.014396083017345518
+      },
+      "guard": {
+        "nonnegative": true,
+        "pool": 6.595888308074219e-16
+      },
+      "budget": {
+        "concentration": 0.013288176567114608,
+        "flux": 0.02805165194523116
+      },
+      "qualified": true,
+      "runtime_candidate_error": {
+        "concentration": 65188.58993262714,
+        "flux": 137437.6921386837
+      },
+      "runtime_candidate_pass": false,
+      "runtime_score_seconds": 0.0020009580184705555,
+      "seconds": 0.014396083017345518,
+      "audit_plus_scoring_seconds": 0.016397041035816073,
+      "offline_qualification_seconds": 0.0007938329945318401
+    },
+    {
+      "key": "audit-0-2-1-2-enhanced",
+      "reference_key": "0-2-1",
+      "model": "teusink",
+      "target": 1e-05,
+      "method": "current",
+      "tolerance": 1e-06,
+      "query_mode": "enhanced",
+      "repeat": -1,
+      "status": "success",
+      "stats": {
+        "backend": "SciPy Radau; no supplied Jacobian",
+        "nfev": 225,
+        "njev": 11,
+        "nlu": 34,
+        "min_rhs_argument": 0.0003967455883339039,
+        "seconds": 0.01437879097647965
+      },
+      "guard": {
+        "nonnegative": true,
+        "pool": 6.623074443128053e-16
+      },
+      "budget": {
+        "concentration": 0.01719734591965128,
+        "flux": 0.03625946191477039
+      },
+      "qualified": true,
+      "runtime_candidate_error": {
+        "concentration": 65188.58993262714,
+        "flux": 137437.6921386837
+      },
+      "runtime_candidate_pass": false,
+      "runtime_score_seconds": 0.005322457989677787,
+      "seconds": 0.01437879097647965,
+      "audit_plus_scoring_seconds": 0.019701248966157436,
+      "offline_qualification_seconds": 0.002238792018033564
+    },
+    {
+      "key": "audit-0-2-1-3-required",
+      "reference_key": "0-2-1",
+      "model": "teusink",
+      "target": 1e-05,
+      "method": "current",
+      "tolerance": 1e-07,
+      "query_mode": "required",
+      "repeat": -1,
+      "status": "success",
+      "stats": {
+        "backend": "SciPy Radau; no supplied Jacobian",
+        "nfev": 379,
+        "njev": 17,
+        "nlu": 40,
+        "min_rhs_argument": 0.0003967458733496006,
+        "seconds": 0.02326550002908334
+      },
+      "guard": {
+        "nonnegative": true,
+        "pool": 3.2895260376245934e-16
+      },
+      "budget": {
+        "concentration": 0.0012484531844040396,
+        "flux": 0.002607198459770306
+      },
+      "qualified": true,
+      "runtime_candidate_error": {
+        "concentration": 65188.59023111538,
+        "flux": 137437.6930950182
+      },
+      "runtime_candidate_pass": false,
+      "runtime_score_seconds": 0.0019963340018875897,
+      "seconds": 0.02326550002908334,
+      "audit_plus_scoring_seconds": 0.02526183403097093,
+      "offline_qualification_seconds": 0.0007973749889060855
+    },
+    {
+      "key": "audit-0-2-1-3-enhanced",
+      "reference_key": "0-2-1",
+      "model": "teusink",
+      "target": 1e-05,
+      "method": "current",
+      "tolerance": 1e-07,
+      "query_mode": "enhanced",
+      "repeat": -1,
+      "status": "success",
+      "stats": {
+        "backend": "SciPy Radau; no supplied Jacobian",
+        "nfev": 379,
+        "njev": 17,
+        "nlu": 40,
+        "min_rhs_argument": 0.0003967458733496006,
+        "seconds": 0.023337207967415452
+      },
+      "guard": {
+        "nonnegative": true,
+        "pool": 3.337469337294141e-16
+      },
+      "budget": {
+        "concentration": 0.0013071488424828074,
+        "flux": 0.0027579607600491493
+      },
+      "qualified": true,
+      "runtime_candidate_error": {
+        "concentration": 65188.59023111538,
+        "flux": 137437.6930950182
+      },
+      "runtime_candidate_pass": false,
+      "runtime_score_seconds": 0.005329250008799136,
+      "seconds": 0.023337207967415452,
+      "audit_plus_scoring_seconds": 0.028666457976214588,
+      "offline_qualification_seconds": 0.002221208007540554
+    },
+    {
+      "key": "audit-0-2-1-0-enhanced",
+      "reference_key": "0-2-1",
+      "model": "teusink",
+      "target": 0.001,
+      "method": "current",
+      "tolerance": 0.0001,
+      "query_mode": "enhanced",
+      "repeat": 0,
+      "status": "success",
+      "stats": {
+        "backend": "SciPy Radau; no supplied Jacobian",
+        "nfev": 92,
+        "njev": 5,
+        "nlu": 16,
+        "min_rhs_argument": 0.000396742425662715,
+        "seconds": 0.006837166962213814
+      },
+      "guard": {
+        "nonnegative": true,
+        "pool": 1.2826752987090783e-16
+      },
+      "budget": {
+        "concentration": 0.023504180541769924,
+        "flux": 0.04224664571575327
+      },
+      "qualified": true,
+      "runtime_candidate_error": {
+        "concentration": 651.8859467765508,
+        "flux": 1374.374401133165
+      },
+      "runtime_candidate_pass": false,
+      "runtime_score_seconds": 0.005751415970735252,
+      "seconds": 0.006837166962213814,
+      "audit_plus_scoring_seconds": 0.012588582932949066,
+      "offline_qualification_seconds": 0.002299667045008391
+    },
+    {
+      "key": "audit-0-2-1-1-required",
+      "reference_key": "0-2-1",
+      "model": "teusink",
+      "target": 0.001,
+      "method": "current",
+      "tolerance": 1e-05,
+      "query_mode": "required",
+      "repeat": 0,
+      "status": "success",
+      "stats": {
+        "backend": "SciPy Radau; no supplied Jacobian",
+        "nfev": 136,
+        "njev": 8,
+        "nlu": 24,
+        "min_rhs_argument": 0.0003967432801589692,
+        "seconds": 0.010462415986694396
+      },
+      "guard": {
+        "nonnegative": true,
+        "pool": 1.8832569487391324e-16
+      },
+      "budget": {
+        "concentration": 0.001390562580196215,
+        "flux": 0.0025356083378085
+      },
+      "qualified": true,
+      "runtime_candidate_error": {
+        "concentration": 651.8855997171203,
+        "flux": 1374.37626369223
+      },
+      "runtime_candidate_pass": false,
+      "runtime_score_seconds": 0.0021375830401666462,
+      "seconds": 0.010462415986694396,
+      "audit_plus_scoring_seconds": 0.012599999026861042,
+      "offline_qualification_seconds": 0.0008422079845331609
+    },
+    {
+      "key": "audit-0-2-1-1-enhanced",
+      "reference_key": "0-2-1",
+      "model": "teusink",
+      "target": 0.001,
+      "method": "current",
+      "tolerance": 1e-05,
+      "query_mode": "enhanced",
+      "repeat": 0,
+      "status": "success",
+      "stats": {
+        "backend": "SciPy Radau; no supplied Jacobian",
+        "nfev": 136,
+        "njev": 8,
+        "nlu": 24,
+        "min_rhs_argument": 0.0003967432801589692,
+        "seconds": 0.009937624970916659
+      },
+      "guard": {
+        "nonnegative": true,
+        "pool": 2.0046680862480387e-16
+      },
+      "budget": {
+        "concentration": 0.00167404986320883,
+        "flux": 0.00352421890090777
+      },
+      "qualified": true,
+      "runtime_candidate_error": {
+        "concentration": 651.8855997171203,
+        "flux": 1374.37626369223
+      },
+      "runtime_candidate_pass": false,
+      "runtime_score_seconds": 0.0058850840432569385,
+      "seconds": 0.009937624970916659,
+      "audit_plus_scoring_seconds": 0.015822709014173597,
+      "offline_qualification_seconds": 0.0024144580238498747
+    },
+    {
+      "key": "audit-0-2-1-2-required",
+      "reference_key": "0-2-1",
+      "model": "teusink",
+      "target": 1e-05,
+      "method": "current",
+      "tolerance": 1e-06,
+      "query_mode": "required",
+      "repeat": 0,
+      "status": "success",
+      "stats": {
+        "backend": "SciPy Radau; no supplied Jacobian",
+        "nfev": 225,
+        "njev": 11,
+        "nlu": 34,
+        "min_rhs_argument": 0.0003967455883339039,
+        "seconds": 0.015512334008235484
+      },
+      "guard": {
+        "nonnegative": true,
+        "pool": 6.595888308074219e-16
+      },
+      "budget": {
+        "concentration": 0.013288176567114608,
+        "flux": 0.02805165194523116
+      },
+      "qualified": true,
+      "runtime_candidate_error": {
+        "concentration": 65188.58993262714,
+        "flux": 137437.6921386837
+      },
+      "runtime_candidate_pass": false,
+      "runtime_score_seconds": 0.0020644579781219363,
+      "seconds": 0.015512334008235484,
+      "audit_plus_scoring_seconds": 0.01757679198635742,
+      "offline_qualification_seconds": 0.0008402090170420706
+    },
+    {
+      "key": "audit-0-2-1-2-enhanced",
+      "reference_key": "0-2-1",
+      "model": "teusink",
+      "target": 1e-05,
+      "method": "current",
+      "tolerance": 1e-06,
+      "query_mode": "enhanced",
+      "repeat": 0,
+      "status": "success",
+      "stats": {
+        "backend": "SciPy Radau; no supplied Jacobian",
+        "nfev": 225,
+        "njev": 11,
+        "nlu": 34,
+        "min_rhs_argument": 0.0003967455883339039,
+        "seconds": 0.01523691596230492
+      },
+      "guard": {
+        "nonnegative": true,
+        "pool": 6.623074443128053e-16
+      },
+      "budget": {
+        "concentration": 0.01719734591965128,
+        "flux": 0.03625946191477039
+      },
+      "qualified": true,
+      "runtime_candidate_error": {
+        "concentration": 65188.58993262714,
+        "flux": 137437.6921386837
+      },
+      "runtime_candidate_pass": false,
+      "runtime_score_seconds": 0.005613458983134478,
+      "seconds": 0.01523691596230492,
+      "audit_plus_scoring_seconds": 0.0208503749454394,
+      "offline_qualification_seconds": 0.0023718340089544654
+    },
+    {
+      "key": "audit-0-2-1-3-required",
+      "reference_key": "0-2-1",
+      "model": "teusink",
+      "target": 1e-05,
+      "method": "current",
+      "tolerance": 1e-07,
+      "query_mode": "required",
+      "repeat": 0,
+      "status": "success",
+      "stats": {
+        "backend": "SciPy Radau; no supplied Jacobian",
+        "nfev": 379,
+        "njev": 17,
+        "nlu": 40,
+        "min_rhs_argument": 0.0003967458733496006,
+        "seconds": 0.025529082980938256
+      },
+      "guard": {
+        "nonnegative": true,
+        "pool": 3.2895260376245934e-16
+      },
+      "budget": {
+        "concentration": 0.0012484531844040396,
+        "flux": 0.002607198459770306
+      },
+      "qualified": true,
+      "runtime_candidate_error": {
+        "concentration": 65188.59023111538,
+        "flux": 137437.6930950182
+      },
+      "runtime_candidate_pass": false,
+      "runtime_score_seconds": 0.0020867499988526106,
+      "seconds": 0.025529082980938256,
+      "audit_plus_scoring_seconds": 0.027615832979790866,
+      "offline_qualification_seconds": 0.0008405830012634397
+    },
+    {
+      "key": "audit-0-2-1-3-enhanced",
+      "reference_key": "0-2-1",
+      "model": "teusink",
+      "target": 1e-05,
+      "method": "current",
+      "tolerance": 1e-07,
+      "query_mode": "enhanced",
+      "repeat": 0,
+      "status": "success",
+      "stats": {
+        "backend": "SciPy Radau; no supplied Jacobian",
+        "nfev": 379,
+        "njev": 17,
+        "nlu": 40,
+        "min_rhs_argument": 0.0003967458733496006,
+        "seconds": 0.025181208970025182
+      },
+      "guard": {
+        "nonnegative": true,
+        "pool": 3.337469337294141e-16
+      },
+      "budget": {
+        "concentration": 0.0013071488424828074,
+        "flux": 0.0027579607600491493
+      },
+      "qualified": true,
+      "runtime_candidate_error": {
+        "concentration": 65188.59023111538,
+        "flux": 137437.6930950182
+      },
+      "runtime_candidate_pass": false,
+      "runtime_score_seconds": 0.005551041977014393,
+      "seconds": 0.025181208970025182,
+      "audit_plus_scoring_seconds": 0.030732250947039574,
+      "offline_qualification_seconds": 0.0022763339802622795
+    },
+    {
+      "key": "audit-0-2-1-0-required",
+      "reference_key": "0-2-1",
+      "model": "teusink",
+      "target": 0.001,
+      "method": "current",
+      "tolerance": 0.0001,
+      "query_mode": "required",
+      "repeat": 0,
+      "status": "success",
+      "stats": {
+        "backend": "SciPy Radau; no supplied Jacobian",
+        "nfev": 92,
+        "njev": 5,
+        "nlu": 16,
+        "min_rhs_argument": 0.000396742425662715,
+        "seconds": 0.006380084028933197
+      },
+      "guard": {
+        "nonnegative": true,
+        "pool": 1.2115026239954575e-16
+      },
+      "budget": {
+        "concentration": 0.023504180541769924,
+        "flux": 0.04224664571575327
+      },
+      "qualified": true,
+      "runtime_candidate_error": {
+        "concentration": 651.8859467765508,
+        "flux": 1374.374401133165
+      },
+      "runtime_candidate_pass": false,
+      "runtime_score_seconds": 0.002100709010846913,
+      "seconds": 0.006380084028933197,
+      "audit_plus_scoring_seconds": 0.00848079303978011,
+      "offline_qualification_seconds": 0.000839749991428107
+    },
+    {
+      "key": "audit-0-2-1-1-required",
+      "reference_key": "0-2-1",
+      "model": "teusink",
+      "target": 0.001,
+      "method": "current",
+      "tolerance": 1e-05,
+      "query_mode": "required",
+      "repeat": 1,
+      "status": "success",
+      "stats": {
+        "backend": "SciPy Radau; no supplied Jacobian",
+        "nfev": 136,
+        "njev": 8,
+        "nlu": 24,
+        "min_rhs_argument": 0.0003967432801589692,
+        "seconds": 0.01096616598078981
+      },
+      "guard": {
+        "nonnegative": true,
+        "pool": 1.8832569487391324e-16
+      },
+      "budget": {
+        "concentration": 0.001390562580196215,
+        "flux": 0.0025356083378085
+      },
+      "qualified": true,
+      "runtime_candidate_error": {
+        "concentration": 651.8855997171203,
+        "flux": 1374.37626369223
+      },
+      "runtime_candidate_pass": false,
+      "runtime_score_seconds": 0.002246374962851405,
+      "seconds": 0.01096616598078981,
+      "audit_plus_scoring_seconds": 0.013212540943641216,
+      "offline_qualification_seconds": 0.0008292500278912485
+    },
+    {
+      "key": "audit-0-2-1-1-enhanced",
+      "reference_key": "0-2-1",
+      "model": "teusink",
+      "target": 0.001,
+      "method": "current",
+      "tolerance": 1e-05,
+      "query_mode": "enhanced",
+      "repeat": 1,
+      "status": "success",
+      "stats": {
+        "backend": "SciPy Radau; no supplied Jacobian",
+        "nfev": 136,
+        "njev": 8,
+        "nlu": 24,
+        "min_rhs_argument": 0.0003967432801589692,
+        "seconds": 0.010398208978585899
+      },
+      "guard": {
+        "nonnegative": true,
+        "pool": 2.0046680862480387e-16
+      },
+      "budget": {
+        "concentration": 0.00167404986320883,
+        "flux": 0.00352421890090777
+      },
+      "qualified": true,
+      "runtime_candidate_error": {
+        "concentration": 651.8855997171203,
+        "flux": 1374.37626369223
+      },
+      "runtime_candidate_pass": false,
+      "runtime_score_seconds": 0.0054612079984508455,
+      "seconds": 0.010398208978585899,
+      "audit_plus_scoring_seconds": 0.015859416977036744,
+      "offline_qualification_seconds": 0.0023272500257007778
+    },
+    {
+      "key": "audit-0-2-1-2-required",
+      "reference_key": "0-2-1",
+      "model": "teusink",
+      "target": 1e-05,
+      "method": "current",
+      "tolerance": 1e-06,
+      "query_mode": "required",
+      "repeat": 1,
+      "status": "success",
+      "stats": {
+        "backend": "SciPy Radau; no supplied Jacobian",
+        "nfev": 225,
+        "njev": 11,
+        "nlu": 34,
+        "min_rhs_argument": 0.0003967455883339039,
+        "seconds": 0.01566783303860575
+      },
+      "guard": {
+        "nonnegative": true,
+        "pool": 6.595888308074219e-16
+      },
+      "budget": {
+        "concentration": 0.013288176567114608,
+        "flux": 0.02805165194523116
+      },
+      "qualified": true,
+      "runtime_candidate_error": {
+        "concentration": 65188.58993262714,
+        "flux": 137437.6921386837
+      },
+      "runtime_candidate_pass": false,
+      "runtime_score_seconds": 0.0021982910111546516,
+      "seconds": 0.01566783303860575,
+      "audit_plus_scoring_seconds": 0.0178661240497604,
+      "offline_qualification_seconds": 0.0008917090017348528
+    },
+    {
+      "key": "audit-0-2-1-2-enhanced",
+      "reference_key": "0-2-1",
+      "model": "teusink",
+      "target": 1e-05,
+      "method": "current",
+      "tolerance": 1e-06,
+      "query_mode": "enhanced",
+      "repeat": 1,
+      "status": "success",
+      "stats": {
+        "backend": "SciPy Radau; no supplied Jacobian",
+        "nfev": 225,
+        "njev": 11,
+        "nlu": 34,
+        "min_rhs_argument": 0.0003967455883339039,
+        "seconds": 0.015560542000457644
+      },
+      "guard": {
+        "nonnegative": true,
+        "pool": 6.623074443128053e-16
+      },
+      "budget": {
+        "concentration": 0.01719734591965128,
+        "flux": 0.03625946191477039
+      },
+      "qualified": true,
+      "runtime_candidate_error": {
+        "concentration": 65188.58993262714,
+        "flux": 137437.6921386837
+      },
+      "runtime_candidate_pass": false,
+      "runtime_score_seconds": 0.005465125024784356,
+      "seconds": 0.015560542000457644,
+      "audit_plus_scoring_seconds": 0.021025667025242,
+      "offline_qualification_seconds": 0.00225666695041582
+    },
+    {
+      "key": "audit-0-2-1-3-required",
+      "reference_key": "0-2-1",
+      "model": "teusink",
+      "target": 1e-05,
+      "method": "current",
+      "tolerance": 1e-07,
+      "query_mode": "required",
+      "repeat": 1,
+      "status": "success",
+      "stats": {
+        "backend": "SciPy Radau; no supplied Jacobian",
+        "nfev": 379,
+        "njev": 17,
+        "nlu": 40,
+        "min_rhs_argument": 0.0003967458733496006,
+        "seconds": 0.024832541996147484
+      },
+      "guard": {
+        "nonnegative": true,
+        "pool": 3.2895260376245934e-16
+      },
+      "budget": {
+        "concentration": 0.0012484531844040396,
+        "flux": 0.002607198459770306
+      },
+      "qualified": true,
+      "runtime_candidate_error": {
+        "concentration": 65188.59023111538,
+        "flux": 137437.6930950182
+      },
+      "runtime_candidate_pass": false,
+      "runtime_score_seconds": 0.0022193750482983887,
+      "seconds": 0.024832541996147484,
+      "audit_plus_scoring_seconds": 0.027051917044445872,
+      "offline_qualification_seconds": 0.000854874961078167
+    },
+    {
+      "key": "audit-0-2-1-3-enhanced",
+      "reference_key": "0-2-1",
+      "model": "teusink",
+      "target": 1e-05,
+      "method": "current",
+      "tolerance": 1e-07,
+      "query_mode": "enhanced",
+      "repeat": 1,
+      "status": "success",
+      "stats": {
+        "backend": "SciPy Radau; no supplied Jacobian",
+        "nfev": 379,
+        "njev": 17,
+        "nlu": 40,
+        "min_rhs_argument": 0.0003967458733496006,
+        "seconds": 0.02458745799958706
+      },
+      "guard": {
+        "nonnegative": true,
+        "pool": 3.337469337294141e-16
+      },
+      "budget": {
+        "concentration": 0.0013071488424828074,
+        "flux": 0.0027579607600491493
+      },
+      "qualified": true,
+      "runtime_candidate_error": {
+        "concentration": 65188.59023111538,
+        "flux": 137437.6930950182
+      },
+      "runtime_candidate_pass": false,
+      "runtime_score_seconds": 0.0055882500018924475,
+      "seconds": 0.02458745799958706,
+      "audit_plus_scoring_seconds": 0.030175708001479506,
+      "offline_qualification_seconds": 0.002333874988835305
+    },
+    {
+      "key": "audit-0-2-1-0-required",
+      "reference_key": "0-2-1",
+      "model": "teusink",
+      "target": 0.001,
+      "method": "current",
+      "tolerance": 0.0001,
+      "query_mode": "required",
+      "repeat": 1,
+      "status": "success",
+      "stats": {
+        "backend": "SciPy Radau; no supplied Jacobian",
+        "nfev": 92,
+        "njev": 5,
+        "nlu": 16,
+        "min_rhs_argument": 0.000396742425662715,
+        "seconds": 0.006937582977116108
+      },
+      "guard": {
+        "nonnegative": true,
+        "pool": 1.2115026239954575e-16
+      },
+      "budget": {
+        "concentration": 0.023504180541769924,
+        "flux": 0.04224664571575327
+      },
+      "qualified": true,
+      "runtime_candidate_error": {
+        "concentration": 651.8859467765508,
+        "flux": 1374.374401133165
+      },
+      "runtime_candidate_pass": false,
+      "runtime_score_seconds": 0.0021222089999355376,
+      "seconds": 0.006937582977116108,
+      "audit_plus_scoring_seconds": 0.009059791977051646,
+      "offline_qualification_seconds": 0.0008435419877059758
+    },
+    {
+      "key": "audit-0-2-1-0-enhanced",
+      "reference_key": "0-2-1",
+      "model": "teusink",
+      "target": 0.001,
+      "method": "current",
+      "tolerance": 0.0001,
+      "query_mode": "enhanced",
+      "repeat": 1,
+      "status": "success",
+      "stats": {
+        "backend": "SciPy Radau; no supplied Jacobian",
+        "nfev": 92,
+        "njev": 5,
+        "nlu": 16,
+        "min_rhs_argument": 0.000396742425662715,
+        "seconds": 0.006500332965515554
+      },
+      "guard": {
+        "nonnegative": true,
+        "pool": 1.2826752987090783e-16
+      },
+      "budget": {
+        "concentration": 0.023504180541769924,
+        "flux": 0.04224664571575327
+      },
+      "qualified": true,
+      "runtime_candidate_error": {
+        "concentration": 651.8859467765508,
+        "flux": 1374.374401133165
+      },
+      "runtime_candidate_pass": false,
+      "runtime_score_seconds": 0.00559320900356397,
+      "seconds": 0.006500332965515554,
+      "audit_plus_scoring_seconds": 0.012093541969079524,
+      "offline_qualification_seconds": 0.00233129202388227
+    },
+    {
+      "key": "audit-0-2-1-1-enhanced",
+      "reference_key": "0-2-1",
+      "model": "teusink",
+      "target": 0.001,
+      "method": "current",
+      "tolerance": 1e-05,
+      "query_mode": "enhanced",
+      "repeat": 2,
+      "status": "success",
+      "stats": {
+        "backend": "SciPy Radau; no supplied Jacobian",
+        "nfev": 136,
+        "njev": 8,
+        "nlu": 24,
+        "min_rhs_argument": 0.0003967432801589692,
+        "seconds": 0.009898958029225469
+      },
+      "guard": {
+        "nonnegative": true,
+        "pool": 2.0046680862480387e-16
+      },
+      "budget": {
+        "concentration": 0.00167404986320883,
+        "flux": 0.00352421890090777
+      },
+      "qualified": true,
+      "runtime_candidate_error": {
+        "concentration": 651.8855997171203,
+        "flux": 1374.37626369223
+      },
+      "runtime_candidate_pass": false,
+      "runtime_score_seconds": 0.005614791996777058,
+      "seconds": 0.009898958029225469,
+      "audit_plus_scoring_seconds": 0.015513750026002526,
+      "offline_qualification_seconds": 0.0023436250048689544
+    },
+    {
+      "key": "audit-0-2-1-2-required",
+      "reference_key": "0-2-1",
+      "model": "teusink",
+      "target": 1e-05,
+      "method": "current",
+      "tolerance": 1e-06,
+      "query_mode": "required",
+      "repeat": 2,
+      "status": "success",
+      "stats": {
+        "backend": "SciPy Radau; no supplied Jacobian",
+        "nfev": 225,
+        "njev": 11,
+        "nlu": 34,
+        "min_rhs_argument": 0.0003967455883339039,
+        "seconds": 0.01496758300345391
+      },
+      "guard": {
+        "nonnegative": true,
+        "pool": 6.595888308074219e-16
+      },
+      "budget": {
+        "concentration": 0.013288176567114608,
+        "flux": 0.02805165194523116
+      },
+      "qualified": true,
+      "runtime_candidate_error": {
+        "concentration": 65188.58993262714,
+        "flux": 137437.6921386837
+      },
+      "runtime_candidate_pass": false,
+      "runtime_score_seconds": 0.0020753330318257213,
+      "seconds": 0.01496758300345391,
+      "audit_plus_scoring_seconds": 0.01704291603527963,
+      "offline_qualification_seconds": 0.0008114170050248504
+    },
+    {
+      "key": "audit-0-2-1-2-enhanced",
+      "reference_key": "0-2-1",
+      "model": "teusink",
+      "target": 1e-05,
+      "method": "current",
+      "tolerance": 1e-06,
+      "query_mode": "enhanced",
+      "repeat": 2,
+      "status": "success",
+      "stats": {
+        "backend": "SciPy Radau; no supplied Jacobian",
+        "nfev": 225,
+        "njev": 11,
+        "nlu": 34,
+        "min_rhs_argument": 0.0003967455883339039,
+        "seconds": 0.015559167019091547
+      },
+      "guard": {
+        "nonnegative": true,
+        "pool": 6.623074443128053e-16
+      },
+      "budget": {
+        "concentration": 0.01719734591965128,
+        "flux": 0.03625946191477039
+      },
+      "qualified": true,
+      "runtime_candidate_error": {
+        "concentration": 65188.58993262714,
+        "flux": 137437.6921386837
+      },
+      "runtime_candidate_pass": false,
+      "runtime_score_seconds": 0.005963792034890503,
+      "seconds": 0.015559167019091547,
+      "audit_plus_scoring_seconds": 0.02152295905398205,
+      "offline_qualification_seconds": 0.00715133297489956
+    },
+    {
+      "key": "audit-0-2-1-3-required",
+      "reference_key": "0-2-1",
+      "model": "teusink",
+      "target": 1e-05,
+      "method": "current",
+      "tolerance": 1e-07,
+      "query_mode": "required",
+      "repeat": 2,
+      "status": "success",
+      "stats": {
+        "backend": "SciPy Radau; no supplied Jacobian",
+        "nfev": 379,
+        "njev": 17,
+        "nlu": 40,
+        "min_rhs_argument": 0.0003967458733496006,
+        "seconds": 0.07267700001830235
+      },
+      "guard": {
+        "nonnegative": true,
+        "pool": 3.2895260376245934e-16
+      },
+      "budget": {
+        "concentration": 0.0012484531844040396,
+        "flux": 0.002607198459770306
+      },
+      "qualified": true,
+      "runtime_candidate_error": {
+        "concentration": 65188.59023111538,
+        "flux": 137437.6930950182
+      },
+      "runtime_candidate_pass": false,
+      "runtime_score_seconds": 0.0021487500052899122,
+      "seconds": 0.07267700001830235,
+      "audit_plus_scoring_seconds": 0.07482575002359226,
+      "offline_qualification_seconds": 0.0008459580130875111
+    },
+    {
+      "key": "audit-0-2-1-3-enhanced",
+      "reference_key": "0-2-1",
+      "model": "teusink",
+      "target": 1e-05,
+      "method": "current",
+      "tolerance": 1e-07,
+      "query_mode": "enhanced",
+      "repeat": 2,
+      "status": "success",
+      "stats": {
+        "backend": "SciPy Radau; no supplied Jacobian",
+        "nfev": 379,
+        "njev": 17,
+        "nlu": 40,
+        "min_rhs_argument": 0.0003967458733496006,
+        "seconds": 0.024818166974000633
+      },
+      "guard": {
+        "nonnegative": true,
+        "pool": 3.337469337294141e-16
+      },
+      "budget": {
+        "concentration": 0.0013071488424828074,
+        "flux": 0.0027579607600491493
+      },
+      "qualified": true,
+      "runtime_candidate_error": {
+        "concentration": 65188.59023111538,
+        "flux": 137437.6930950182
+      },
+      "runtime_candidate_pass": false,
+      "runtime_score_seconds": 0.005351250001695007,
+      "seconds": 0.024818166974000633,
+      "audit_plus_scoring_seconds": 0.03016941697569564,
+      "offline_qualification_seconds": 0.002208041027188301
+    },
+    {
+      "key": "audit-0-2-1-0-required",
+      "reference_key": "0-2-1",
+      "model": "teusink",
+      "target": 0.001,
+      "method": "current",
+      "tolerance": 0.0001,
+      "query_mode": "required",
+      "repeat": 2,
+      "status": "success",
+      "stats": {
+        "backend": "SciPy Radau; no supplied Jacobian",
+        "nfev": 92,
+        "njev": 5,
+        "nlu": 16,
+        "min_rhs_argument": 0.000396742425662715,
+        "seconds": 0.006405666004866362
+      },
+      "guard": {
+        "nonnegative": true,
+        "pool": 1.2115026239954575e-16
+      },
+      "budget": {
+        "concentration": 0.023504180541769924,
+        "flux": 0.04224664571575327
+      },
+      "qualified": true,
+      "runtime_candidate_error": {
+        "concentration": 651.8859467765508,
+        "flux": 1374.374401133165
+      },
+      "runtime_candidate_pass": false,
+      "runtime_score_seconds": 0.0020054999622516334,
+      "seconds": 0.006405666004866362,
+      "audit_plus_scoring_seconds": 0.008411165967117995,
+      "offline_qualification_seconds": 0.0008007919532246888
+    },
+    {
+      "key": "audit-0-2-1-0-enhanced",
+      "reference_key": "0-2-1",
+      "model": "teusink",
+      "target": 0.001,
+      "method": "current",
+      "tolerance": 0.0001,
+      "query_mode": "enhanced",
+      "repeat": 2,
+      "status": "success",
+      "stats": {
+        "backend": "SciPy Radau; no supplied Jacobian",
+        "nfev": 92,
+        "njev": 5,
+        "nlu": 16,
+        "min_rhs_argument": 0.000396742425662715,
+        "seconds": 0.0064959999872371554
+      },
+      "guard": {
+        "nonnegative": true,
+        "pool": 1.2826752987090783e-16
+      },
+      "budget": {
+        "concentration": 0.023504180541769924,
+        "flux": 0.04224664571575327
+      },
+      "qualified": true,
+      "runtime_candidate_error": {
+        "concentration": 651.8859467765508,
+        "flux": 1374.374401133165
+      },
+      "runtime_candidate_pass": false,
+      "runtime_score_seconds": 0.005333042005077004,
+      "seconds": 0.0064959999872371554,
+      "audit_plus_scoring_seconds": 0.01182904199231416,
+      "offline_qualification_seconds": 0.002213458006735891
+    },
+    {
+      "key": "audit-0-2-1-1-required",
+      "reference_key": "0-2-1",
+      "model": "teusink",
+      "target": 0.001,
+      "method": "current",
+      "tolerance": 1e-05,
+      "query_mode": "required",
+      "repeat": 2,
+      "status": "success",
+      "stats": {
+        "backend": "SciPy Radau; no supplied Jacobian",
+        "nfev": 136,
+        "njev": 8,
+        "nlu": 24,
+        "min_rhs_argument": 0.0003967432801589692,
+        "seconds": 0.009318208030890673
+      },
+      "guard": {
+        "nonnegative": true,
+        "pool": 1.8832569487391324e-16
+      },
+      "budget": {
+        "concentration": 0.001390562580196215,
+        "flux": 0.0025356083378085
+      },
+      "qualified": true,
+      "runtime_candidate_error": {
+        "concentration": 651.8855997171203,
+        "flux": 1374.37626369223
+      },
+      "runtime_candidate_pass": false,
+      "runtime_score_seconds": 0.0019946249667555094,
+      "seconds": 0.009318208030890673,
+      "audit_plus_scoring_seconds": 0.011312832997646183,
+      "offline_qualification_seconds": 0.0007980000227689743
+    }
+  ],
+  "controls": [
+    {
+      "key": "control-0-2-1-ordered-auto-0.0001-required",
+      "reference_key": "0-2-1",
+      "model": "teusink",
+      "method": "ordered-auto",
+      "tolerance": 0.0001,
+      "query_mode": "required",
+      "repeat": -1,
+      "status": "success",
+      "seconds": 0.01319204200990498,
+      "stats": {
+        "nfev": 92,
+        "njev": 5,
+        "nlu": 16,
+        "accepted_steps": 9,
+        "pool_error": 1.97495906752677e-16,
+        "continuous_nonnegative": true,
+        "dense_join_error": 1.881079539202993e-16,
+        "physical_ledger_residual": 2.4350311466860238e-08,
+        "physical_ledger_quadrature": 2.2800289386841432e-18,
+        "seconds": 0.013043334009125829
+      },
+      "guard": {
+        "nonnegative": true,
+        "pool": 2.485846870230525e-16
+      },
+      "targets": {
+        "0.001": {
+          "actual": {
+            "concentration": 0.023504180607544757,
+            "flux": 0.0422466458347717
+          },
+          "passes": false
+        },
+        "1e-05": {
+          "actual": {
+            "concentration": 2.3504180607544756,
+            "flux": 4.22466458347717
+          },
+          "passes": false
+        }
+      }
+    },
+    {
+      "key": "control-0-2-1-ordered-auto-0.0001-enhanced",
+      "reference_key": "0-2-1",
+      "model": "teusink",
+      "method": "ordered-auto",
+      "tolerance": 0.0001,
+      "query_mode": "enhanced",
+      "repeat": -1,
+      "status": "success",
+      "seconds": 0.013004958047531545,
+      "stats": {
+        "nfev": 92,
+        "njev": 5,
+        "nlu": 16,
+        "accepted_steps": 9,
+        "pool_error": 1.97495906752677e-16,
+        "continuous_nonnegative": true,
+        "dense_join_error": 1.881079539202993e-16,
+        "physical_ledger_residual": 2.4350311466860238e-08,
+        "physical_ledger_quadrature": 2.2800289386841432e-18,
+        "seconds": 0.01284566696267575
+      },
+      "guard": {
+        "nonnegative": true,
+        "pool": 2.555953513740494e-16
+      },
+      "targets": {
+        "0.001": {
+          "actual": {
+            "concentration": 0.023504180607544757,
+            "flux": 0.0422466458347717
+          },
+          "passes": false
+        },
+        "1e-05": {
+          "actual": {
+            "concentration": 2.3504180607544756,
+            "flux": 4.22466458347717
+          },
+          "passes": false
+        }
+      }
+    },
+    {
+      "key": "control-0-2-1-ordered-auto-1e-05-required",
+      "reference_key": "0-2-1",
+      "model": "teusink",
+      "method": "ordered-auto",
+      "tolerance": 1e-05,
+      "query_mode": "required",
+      "repeat": -1,
+      "status": "success",
+      "seconds": 0.019195750006474555,
+      "stats": {
+        "nfev": 136,
+        "njev": 8,
+        "nlu": 24,
+        "accepted_steps": 14,
+        "pool_error": 1.97495906752677e-16,
+        "continuous_nonnegative": true,
+        "dense_join_error": 1.881079539202993e-16,
+        "physical_ledger_residual": 3.947936524574578e-10,
+        "physical_ledger_quadrature": 2.2800289386841432e-18,
+        "seconds": 0.01901412504957989
+      },
+      "guard": {
+        "nonnegative": true,
+        "pool": 1.5262569008618852e-16
+      },
+      "targets": {
+        "0.001": {
+          "actual": {
+            "concentration": 0.0013905625849121464,
+            "flux": 0.002535608360941303
+          },
+          "passes": false
+        },
+        "1e-05": {
+          "actual": {
+            "concentration": 0.13905625849121464,
+            "flux": 0.25356083609413027
+          },
+          "passes": false
+        }
+      }
+    },
+    {
+      "key": "control-0-2-1-ordered-auto-1e-05-enhanced",
+      "reference_key": "0-2-1",
+      "model": "teusink",
+      "method": "ordered-auto",
+      "tolerance": 1e-05,
+      "query_mode": "enhanced",
+      "repeat": -1,
+      "status": "success",
+      "seconds": 0.019247874966822565,
+      "stats": {
+        "nfev": 136,
+        "njev": 8,
+        "nlu": 24,
+        "accepted_steps": 14,
+        "pool_error": 1.97495906752677e-16,
+        "continuous_nonnegative": true,
+        "dense_join_error": 1.881079539202993e-16,
+        "physical_ledger_residual": 3.947936524574578e-10,
+        "physical_ledger_quadrature": 2.2800289386841432e-18,
+        "seconds": 0.019040459010284394
+      },
+      "guard": {
+        "nonnegative": true,
+        "pool": 1.877847018423474e-16
+      },
+      "targets": {
+        "0.001": {
+          "actual": {
+            "concentration": 0.0016740498623223539,
+            "flux": 0.003524218899243539
+          },
+          "passes": false
+        },
+        "1e-05": {
+          "actual": {
+            "concentration": 0.16740498623223538,
+            "flux": 0.3524218899243539
+          },
+          "passes": false
+        }
+      }
+    },
+    {
+      "key": "control-0-2-1-ordered-auto-1e-06-required",
+      "reference_key": "0-2-1",
+      "model": "teusink",
+      "method": "ordered-auto",
+      "tolerance": 1e-06,
+      "query_mode": "required",
+      "repeat": -1,
+      "status": "success",
+      "seconds": 0.04097745905164629,
+      "stats": {
+        "nfev": 225,
+        "njev": 11,
+        "nlu": 34,
+        "accepted_steps": 25,
+        "pool_error": 1.97495906752677e-16,
+        "continuous_nonnegative": true,
+        "dense_join_error": 1.7906822977825107e-16,
+        "physical_ledger_residual": 1.732984787466171e-11,
+        "physical_ledger_quadrature": 2.2800289386841432e-18,
+        "seconds": 0.040554999955929816
+      },
+      "guard": {
+        "nonnegative": true,
+        "pool": 3.2673830454828653e-16
+      },
+      "targets": {
+        "0.001": {
+          "actual": {
+            "concentration": 0.0001328817646073744,
+            "flux": 0.00028051651745523515
+          },
+          "passes": true
+        },
+        "1e-05": {
+          "actual": {
+            "concentration": 0.013288176460737442,
+            "flux": 0.02805165174552351
+          },
+          "passes": true
+        }
+      }
+    },
+    {
+      "key": "control-0-2-1-ordered-auto-1e-06-enhanced",
+      "reference_key": "0-2-1",
+      "model": "teusink",
+      "method": "ordered-auto",
+      "tolerance": 1e-06,
+      "query_mode": "enhanced",
+      "repeat": -1,
+      "status": "success",
+      "seconds": 0.05676554195815697,
+      "stats": {
+        "nfev": 225,
+        "njev": 11,
+        "nlu": 34,
+        "accepted_steps": 25,
+        "pool_error": 1.97495906752677e-16,
+        "continuous_nonnegative": true,
+        "dense_join_error": 1.7906822977825107e-16,
+        "physical_ledger_residual": 1.732984787466171e-11,
+        "physical_ledger_quadrature": 2.2800289386841432e-18,
+        "seconds": 0.056032959022559226
+      },
+      "guard": {
+        "nonnegative": true,
+        "pool": 3.2673830454828653e-16
+      },
+      "targets": {
+        "0.001": {
+          "actual": {
+            "concentration": 0.0001719734603489321,
+            "flux": 0.0003625946213112035
+          },
+          "passes": true
+        },
+        "1e-05": {
+          "actual": {
+            "concentration": 0.017197346034893212,
+            "flux": 0.03625946213112034
+          },
+          "passes": true
+        }
+      }
+    },
+    {
+      "key": "control-0-2-1-ordered-auto-1e-07-required",
+      "reference_key": "0-2-1",
+      "model": "teusink",
+      "method": "ordered-auto",
+      "tolerance": 1e-07,
+      "query_mode": "required",
+      "repeat": -1,
+      "status": "success",
+      "seconds": 0.0729481250164099,
+      "stats": {
+        "nfev": 379,
+        "njev": 17,
+        "nlu": 40,
+        "accepted_steps": 44,
+        "pool_error": 1.97495906752677e-16,
+        "continuous_nonnegative": true,
+        "dense_join_error": 1.881079539202993e-16,
+        "physical_ledger_residual": 9.948222265266655e-13,
+        "physical_ledger_quadrature": 4.5600578773682865e-18,
+        "seconds": 0.07243587501579896
+      },
+      "guard": {
+        "nonnegative": true,
+        "pool": 1.699362171091787e-16
+      },
+      "targets": {
+        "0.001": {
+          "actual": {
+            "concentration": 1.248453166674512e-05,
+            "flux": 2.6071985263395225e-05
+          },
+          "passes": true
+        },
+        "1e-05": {
+          "actual": {
+            "concentration": 0.001248453166674512,
+            "flux": 0.002607198526339522
+          },
+          "passes": true
+        }
+      }
+    },
+    {
+      "key": "control-0-2-1-ordered-auto-1e-07-enhanced",
+      "reference_key": "0-2-1",
+      "model": "teusink",
+      "method": "ordered-auto",
+      "tolerance": 1e-07,
+      "query_mode": "enhanced",
+      "repeat": -1,
+      "status": "success",
+      "seconds": 0.0727611249894835,
+      "stats": {
+        "nfev": 379,
+        "njev": 17,
+        "nlu": 40,
+        "accepted_steps": 44,
+        "pool_error": 1.97495906752677e-16,
+        "continuous_nonnegative": true,
+        "dense_join_error": 1.881079539202993e-16,
+        "physical_ledger_residual": 9.948222265266655e-13,
+        "physical_ledger_quadrature": 4.5600578773682865e-18,
+        "seconds": 0.072099499986507
+      },
+      "guard": {
+        "nonnegative": true,
+        "pool": 2.6766786208889383e-16
+      },
+      "targets": {
+        "0.001": {
+          "actual": {
+            "concentration": 1.3071488336180435e-05,
+            "flux": 2.75796084326067e-05
+          },
+          "passes": true
+        },
+        "1e-05": {
+          "actual": {
+            "concentration": 0.0013071488336180437,
+            "flux": 0.00275796084326067
+          },
+          "passes": true
+        }
+      }
+    },
+    {
+      "key": "control-0-2-1-ordered-auto-1e-08-required",
+      "reference_key": "0-2-1",
+      "model": "teusink",
+      "method": "ordered-auto",
+      "tolerance": 1e-08,
+      "query_mode": "required",
+      "repeat": -1,
+      "status": "success",
+      "seconds": 0.11886816599871963,
+      "stats": {
+        "nfev": 626,
+        "njev": 21,
+        "nlu": 54,
+        "accepted_steps": 78,
+        "pool_error": 7.89983627010708e-16,
+        "continuous_nonnegative": true,
+        "dense_join_error": 1.4313949089417173e-16,
+        "physical_ledger_residual": 5.739972853137331e-14,
+        "physical_ledger_quadrature": 6.84008681605243e-18,
+        "seconds": 0.118504790996667
+      },
+      "guard": {
+        "nonnegative": true,
+        "pool": 7.33554126383151e-16
+      },
+      "targets": {
+        "0.001": {
+          "actual": {
+            "concentration": 1.2878622544707217e-06,
+            "flux": 2.711587195937396e-06
+          },
+          "passes": true
+        },
+        "1e-05": {
+          "actual": {
+            "concentration": 0.00012878622544707218,
+            "flux": 0.0002711587195937396
+          },
+          "passes": true
+        }
+      }
+    },
+    {
+      "key": "control-0-2-1-ordered-auto-1e-08-enhanced",
+      "reference_key": "0-2-1",
+      "model": "teusink",
+      "method": "ordered-auto",
+      "tolerance": 1e-08,
+      "query_mode": "enhanced",
+      "repeat": -1,
+      "status": "success",
+      "seconds": 0.090422417037189,
+      "stats": {
+        "nfev": 626,
+        "njev": 21,
+        "nlu": 54,
+        "accepted_steps": 78,
+        "pool_error": 7.89983627010708e-16,
+        "continuous_nonnegative": true,
+        "dense_join_error": 1.4313949089417173e-16,
+        "physical_ledger_residual": 5.739972853137331e-14,
+        "physical_ledger_quadrature": 6.84008681605243e-18,
+        "seconds": 0.08974708302412182
+      },
+      "guard": {
+        "nonnegative": true,
+        "pool": 8.032247626224104e-16
+      },
+      "targets": {
+        "0.001": {
+          "actual": {
+            "concentration": 1.5221904967203484e-06,
+            "flux": 3.206750663445495e-06
+          },
+          "passes": true
+        },
+        "1e-05": {
+          "actual": {
+            "concentration": 0.00015221904967203484,
+            "flux": 0.0003206750663445495
+          },
+          "passes": true
+        }
+      }
+    },
+    {
+      "key": "control-0-2-1-ordered-auto-1e-10-required",
+      "reference_key": "0-2-1",
+      "model": "teusink",
+      "method": "ordered-auto",
+      "tolerance": 1e-10,
+      "query_mode": "required",
+      "repeat": -1,
+      "status": "success",
+      "seconds": 0.2624178749974817,
+      "stats": {
+        "nfev": 1836,
+        "njev": 35,
+        "nlu": 82,
+        "accepted_steps": 244,
+        "pool_error": 9.874795337633851e-16,
+        "continuous_nonnegative": true,
+        "dense_join_error": 1.4313949089417173e-16,
+        "physical_ledger_residual": 8.048502153555026e-16,
+        "physical_ledger_quadrature": 2.2800289386841432e-18,
+        "seconds": 0.2620297080138698
+      },
+      "guard": {
+        "nonnegative": true,
+        "pool": 8.801573775653447e-16
+      },
+      "targets": {
+        "0.001": {
+          "actual": {
+            "concentration": 1.4634379457135702e-08,
+            "flux": 2.8559691696584037e-08
+          },
+          "passes": true
+        },
+        "1e-05": {
+          "actual": {
+            "concentration": 1.4634379457135701e-06,
+            "flux": 2.8559691696584035e-06
+          },
+          "passes": true
+        }
+      }
+    },
+    {
+      "key": "control-0-2-1-ordered-auto-1e-10-enhanced",
+      "reference_key": "0-2-1",
+      "model": "teusink",
+      "method": "ordered-auto",
+      "tolerance": 1e-10,
+      "query_mode": "enhanced",
+      "repeat": -1,
+      "status": "success",
+      "seconds": 0.27328679198399186,
+      "stats": {
+        "nfev": 1836,
+        "njev": 35,
+        "nlu": 82,
+        "accepted_steps": 244,
+        "pool_error": 9.874795337633851e-16,
+        "continuous_nonnegative": true,
+        "dense_join_error": 1.4313949089417173e-16,
+        "physical_ledger_residual": 8.048502153555026e-16,
+        "physical_ledger_quadrature": 2.2800289386841432e-18,
+        "seconds": 0.27231208398006856
+      },
+      "guard": {
+        "nonnegative": true,
+        "pool": 9.786541473667487e-16
+      },
+      "targets": {
+        "0.001": {
+          "actual": {
+            "concentration": 1.4634379457135702e-08,
+            "flux": 2.8559691696584037e-08
+          },
+          "passes": true
+        },
+        "1e-05": {
+          "actual": {
+            "concentration": 1.4634379457135701e-06,
+            "flux": 2.8559691696584035e-06
+          },
+          "passes": true
+        }
+      }
+    },
+    {
+      "key": "control-0-2-1-ordered-whole-0.0001-required",
+      "reference_key": "0-2-1",
+      "model": "teusink",
+      "method": "ordered-whole",
+      "tolerance": 0.0001,
+      "query_mode": "required",
+      "repeat": -1,
+      "status": "failed",
+      "seconds": 0.0010081660002470016,
+      "reason": "Invalid full RHS state"
+    },
+    {
+      "key": "control-0-2-1-ordered-whole-0.0001-enhanced",
+      "reference_key": "0-2-1",
+      "model": "teusink",
+      "method": "ordered-whole",
+      "tolerance": 0.0001,
+      "query_mode": "enhanced",
+      "repeat": -1,
+      "status": "failed",
+      "seconds": 0.0008139170240610838,
+      "reason": "Invalid full RHS state"
+    },
+    {
+      "key": "control-0-2-1-ordered-whole-1e-05-required",
+      "reference_key": "0-2-1",
+      "model": "teusink",
+      "method": "ordered-whole",
+      "tolerance": 1e-05,
+      "query_mode": "required",
+      "repeat": -1,
+      "status": "failed",
+      "seconds": 0.0008835410117171705,
+      "reason": "Invalid full RHS state"
+    },
+    {
+      "key": "control-0-2-1-ordered-whole-1e-05-enhanced",
+      "reference_key": "0-2-1",
+      "model": "teusink",
+      "method": "ordered-whole",
+      "tolerance": 1e-05,
+      "query_mode": "enhanced",
+      "repeat": -1,
+      "status": "failed",
+      "seconds": 0.0008212499669753015,
+      "reason": "Invalid full RHS state"
+    },
+    {
+      "key": "control-0-2-1-ordered-whole-1e-06-required",
+      "reference_key": "0-2-1",
+      "model": "teusink",
+      "method": "ordered-whole",
+      "tolerance": 1e-06,
+      "query_mode": "required",
+      "repeat": -1,
+      "status": "failed",
+      "seconds": 0.0007839580066502094,
+      "reason": "Invalid full RHS state"
+    },
+    {
+      "key": "control-0-2-1-ordered-whole-1e-06-enhanced",
+      "reference_key": "0-2-1",
+      "model": "teusink",
+      "method": "ordered-whole",
+      "tolerance": 1e-06,
+      "query_mode": "enhanced",
+      "repeat": -1,
+      "status": "failed",
+      "seconds": 0.0007929999846965075,
+      "reason": "Invalid full RHS state"
+    },
+    {
+      "key": "control-0-2-1-ordered-whole-1e-07-required",
+      "reference_key": "0-2-1",
+      "model": "teusink",
+      "method": "ordered-whole",
+      "tolerance": 1e-07,
+      "query_mode": "required",
+      "repeat": -1,
+      "status": "failed",
+      "seconds": 0.0009842499857768416,
+      "reason": "Invalid full RHS state"
+    },
+    {
+      "key": "control-0-2-1-ordered-whole-1e-07-enhanced",
+      "reference_key": "0-2-1",
+      "model": "teusink",
+      "method": "ordered-whole",
+      "tolerance": 1e-07,
+      "query_mode": "enhanced",
+      "repeat": -1,
+      "status": "failed",
+      "seconds": 0.0008689580135978758,
+      "reason": "Invalid full RHS state"
+    },
+    {
+      "key": "control-0-2-1-ordered-whole-1e-08-required",
+      "reference_key": "0-2-1",
+      "model": "teusink",
+      "method": "ordered-whole",
+      "tolerance": 1e-08,
+      "query_mode": "required",
+      "repeat": -1,
+      "status": "failed",
+      "seconds": 0.0008448750013485551,
+      "reason": "Invalid full RHS state"
+    },
+    {
+      "key": "control-0-2-1-ordered-whole-1e-08-enhanced",
+      "reference_key": "0-2-1",
+      "model": "teusink",
+      "method": "ordered-whole",
+      "tolerance": 1e-08,
+      "query_mode": "enhanced",
+      "repeat": -1,
+      "status": "failed",
+      "seconds": 0.0007746249902993441,
+      "reason": "Invalid full RHS state"
+    },
+    {
+      "key": "control-0-2-1-ordered-whole-1e-10-required",
+      "reference_key": "0-2-1",
+      "model": "teusink",
+      "method": "ordered-whole",
+      "tolerance": 1e-10,
+      "query_mode": "required",
+      "repeat": -1,
+      "status": "failed",
+      "seconds": 0.0007804590277373791,
+      "reason": "Invalid full RHS state"
+    },
+    {
+      "key": "control-0-2-1-ordered-whole-1e-10-enhanced",
+      "reference_key": "0-2-1",
+      "model": "teusink",
+      "method": "ordered-whole",
+      "tolerance": 1e-10,
+      "query_mode": "enhanced",
+      "repeat": -1,
+      "status": "failed",
+      "seconds": 0.0008030830067582428,
+      "reason": "Invalid full RHS state"
+    },
+    {
+      "key": "control-0-2-1-ordered-auto-0.0001-enhanced",
+      "reference_key": "0-2-1",
+      "model": "teusink",
+      "method": "ordered-auto",
+      "tolerance": 0.0001,
+      "query_mode": "enhanced",
+      "repeat": 0,
+      "status": "success",
+      "seconds": 0.013510791992302984,
+      "stats": {
+        "nfev": 92,
+        "njev": 5,
+        "nlu": 16,
+        "accepted_steps": 9,
+        "pool_error": 1.97495906752677e-16,
+        "continuous_nonnegative": true,
+        "dense_join_error": 1.881079539202993e-16,
+        "physical_ledger_residual": 2.4350311466860238e-08,
+        "physical_ledger_quadrature": 2.2800289386841432e-18,
+        "seconds": 0.013228999974671751
+      },
+      "guard": {
+        "nonnegative": true,
+        "pool": 2.555953513740494e-16
+      },
+      "targets": {
+        "0.001": {
+          "actual": {
+            "concentration": 0.023504180607544757,
+            "flux": 0.0422466458347717
+          },
+          "passes": false
+        },
+        "1e-05": {
+          "actual": {
+            "concentration": 2.3504180607544756,
+            "flux": 4.22466458347717
+          },
+          "passes": false
+        }
+      }
+    },
+    {
+      "key": "control-0-2-1-ordered-auto-1e-05-required",
+      "reference_key": "0-2-1",
+      "model": "teusink",
+      "method": "ordered-auto",
+      "tolerance": 1e-05,
+      "query_mode": "required",
+      "repeat": 0,
+      "status": "success",
+      "seconds": 0.02012158400611952,
+      "stats": {
+        "nfev": 136,
+        "njev": 8,
+        "nlu": 24,
+        "accepted_steps": 14,
+        "pool_error": 1.97495906752677e-16,
+        "continuous_nonnegative": true,
+        "dense_join_error": 1.881079539202993e-16,
+        "physical_ledger_residual": 3.947936524574578e-10,
+        "physical_ledger_quadrature": 2.2800289386841432e-18,
+        "seconds": 0.019917375000659376
+      },
+      "guard": {
+        "nonnegative": true,
+        "pool": 1.5262569008618852e-16
+      },
+      "targets": {
+        "0.001": {
+          "actual": {
+            "concentration": 0.0013905625849121464,
+            "flux": 0.002535608360941303
+          },
+          "passes": false
+        },
+        "1e-05": {
+          "actual": {
+            "concentration": 0.13905625849121464,
+            "flux": 0.25356083609413027
+          },
+          "passes": false
+        }
+      }
+    },
+    {
+      "key": "control-0-2-1-ordered-auto-1e-05-enhanced",
+      "reference_key": "0-2-1",
+      "model": "teusink",
+      "method": "ordered-auto",
+      "tolerance": 1e-05,
+      "query_mode": "enhanced",
+      "repeat": 0,
+      "status": "success",
+      "seconds": 0.019987499981652945,
+      "stats": {
+        "nfev": 136,
+        "njev": 8,
+        "nlu": 24,
+        "accepted_steps": 14,
+        "pool_error": 1.97495906752677e-16,
+        "continuous_nonnegative": true,
+        "dense_join_error": 1.881079539202993e-16,
+        "physical_ledger_residual": 3.947936524574578e-10,
+        "physical_ledger_quadrature": 2.2800289386841432e-18,
+        "seconds": 0.019772250030655414
+      },
+      "guard": {
+        "nonnegative": true,
+        "pool": 1.877847018423474e-16
+      },
+      "targets": {
+        "0.001": {
+          "actual": {
+            "concentration": 0.0016740498623223539,
+            "flux": 0.003524218899243539
+          },
+          "passes": false
+        },
+        "1e-05": {
+          "actual": {
+            "concentration": 0.16740498623223538,
+            "flux": 0.3524218899243539
+          },
+          "passes": false
+        }
+      }
+    },
+    {
+      "key": "control-0-2-1-ordered-auto-1e-06-required",
+      "reference_key": "0-2-1",
+      "model": "teusink",
+      "method": "ordered-auto",
+      "tolerance": 1e-06,
+      "query_mode": "required",
+      "repeat": 0,
+      "status": "success",
+      "seconds": 0.0373840419924818,
+      "stats": {
+        "nfev": 225,
+        "njev": 11,
+        "nlu": 34,
+        "accepted_steps": 25,
+        "pool_error": 1.97495906752677e-16,
+        "continuous_nonnegative": true,
+        "dense_join_error": 1.7906822977825107e-16,
+        "physical_ledger_residual": 1.732984787466171e-11,
+        "physical_ledger_quadrature": 2.2800289386841432e-18,
+        "seconds": 0.037050999992061406
+      },
+      "guard": {
+        "nonnegative": true,
+        "pool": 3.2673830454828653e-16
+      },
+      "targets": {
+        "0.001": {
+          "actual": {
+            "concentration": 0.0001328817646073744,
+            "flux": 0.00028051651745523515
+          },
+          "passes": true
+        },
+        "1e-05": {
+          "actual": {
+            "concentration": 0.013288176460737442,
+            "flux": 0.02805165174552351
+          },
+          "passes": true
+        }
+      }
+    },
+    {
+      "key": "control-0-2-1-ordered-auto-1e-06-enhanced",
+      "reference_key": "0-2-1",
+      "model": "teusink",
+      "method": "ordered-auto",
+      "tolerance": 1e-06,
+      "query_mode": "enhanced",
+      "repeat": 0,
+      "status": "success",
+      "seconds": 0.03415029199095443,
+      "stats": {
+        "nfev": 225,
+        "njev": 11,
+        "nlu": 34,
+        "accepted_steps": 25,
+        "pool_error": 1.97495906752677e-16,
+        "continuous_nonnegative": true,
+        "dense_join_error": 1.7906822977825107e-16,
+        "physical_ledger_residual": 1.732984787466171e-11,
+        "physical_ledger_quadrature": 2.2800289386841432e-18,
+        "seconds": 0.033773208037018776
+      },
+      "guard": {
+        "nonnegative": true,
+        "pool": 3.2673830454828653e-16
+      },
+      "targets": {
+        "0.001": {
+          "actual": {
+            "concentration": 0.0001719734603489321,
+            "flux": 0.0003625946213112035
+          },
+          "passes": true
+        },
+        "1e-05": {
+          "actual": {
+            "concentration": 0.017197346034893212,
+            "flux": 0.03625946213112034
+          },
+          "passes": true
+        }
+      }
+    },
+    {
+      "key": "control-0-2-1-ordered-auto-1e-07-required",
+      "reference_key": "0-2-1",
+      "model": "teusink",
+      "method": "ordered-auto",
+      "tolerance": 1e-07,
+      "query_mode": "required",
+      "repeat": 0,
+      "status": "success",
+      "seconds": 0.06142633402487263,
+      "stats": {
+        "nfev": 379,
+        "njev": 17,
+        "nlu": 40,
+        "accepted_steps": 44,
+        "pool_error": 1.97495906752677e-16,
+        "continuous_nonnegative": true,
+        "dense_join_error": 1.881079539202993e-16,
+        "physical_ledger_residual": 9.948222265266655e-13,
+        "physical_ledger_quadrature": 4.5600578773682865e-18,
+        "seconds": 0.061058416962623596
+      },
+      "guard": {
+        "nonnegative": true,
+        "pool": 1.699362171091787e-16
+      },
+      "targets": {
+        "0.001": {
+          "actual": {
+            "concentration": 1.248453166674512e-05,
+            "flux": 2.6071985263395225e-05
+          },
+          "passes": true
+        },
+        "1e-05": {
+          "actual": {
+            "concentration": 0.001248453166674512,
+            "flux": 0.002607198526339522
+          },
+          "passes": true
+        }
+      }
+    },
+    {
+      "key": "control-0-2-1-ordered-auto-1e-07-enhanced",
+      "reference_key": "0-2-1",
+      "model": "teusink",
+      "method": "ordered-auto",
+      "tolerance": 1e-07,
+      "query_mode": "enhanced",
+      "repeat": 0,
+      "status": "success",
+      "seconds": 0.0579927500220947,
+      "stats": {
+        "nfev": 379,
+        "njev": 17,
+        "nlu": 40,
+        "accepted_steps": 44,
+        "pool_error": 1.97495906752677e-16,
+        "continuous_nonnegative": true,
+        "dense_join_error": 1.881079539202993e-16,
+        "physical_ledger_residual": 9.948222265266655e-13,
+        "physical_ledger_quadrature": 4.5600578773682865e-18,
+        "seconds": 0.05745008302619681
+      },
+      "guard": {
+        "nonnegative": true,
+        "pool": 2.6766786208889383e-16
+      },
+      "targets": {
+        "0.001": {
+          "actual": {
+            "concentration": 1.3071488336180435e-05,
+            "flux": 2.75796084326067e-05
+          },
+          "passes": true
+        },
+        "1e-05": {
+          "actual": {
+            "concentration": 0.0013071488336180437,
+            "flux": 0.00275796084326067
+          },
+          "passes": true
+        }
+      }
+    },
+    {
+      "key": "control-0-2-1-ordered-auto-1e-08-required",
+      "reference_key": "0-2-1",
+      "model": "teusink",
+      "method": "ordered-auto",
+      "tolerance": 1e-08,
+      "query_mode": "required",
+      "repeat": 0,
+      "status": "success",
+      "seconds": 0.09479204198578373,
+      "stats": {
+        "nfev": 626,
+        "njev": 21,
+        "nlu": 54,
+        "accepted_steps": 78,
+        "pool_error": 7.89983627010708e-16,
+        "continuous_nonnegative": true,
+        "dense_join_error": 1.4313949089417173e-16,
+        "physical_ledger_residual": 5.739972853137331e-14,
+        "physical_ledger_quadrature": 6.84008681605243e-18,
+        "seconds": 0.09440129197901115
+      },
+      "guard": {
+        "nonnegative": true,
+        "pool": 7.33554126383151e-16
+      },
+      "targets": {
+        "0.001": {
+          "actual": {
+            "concentration": 1.2878622544707217e-06,
+            "flux": 2.711587195937396e-06
+          },
+          "passes": true
+        },
+        "1e-05": {
+          "actual": {
+            "concentration": 0.00012878622544707218,
+            "flux": 0.0002711587195937396
+          },
+          "passes": true
+        }
+      }
+    },
+    {
+      "key": "control-0-2-1-ordered-auto-1e-08-enhanced",
+      "reference_key": "0-2-1",
+      "model": "teusink",
+      "method": "ordered-auto",
+      "tolerance": 1e-08,
+      "query_mode": "enhanced",
+      "repeat": 0,
+      "status": "success",
+      "seconds": 0.0955707500106655,
+      "stats": {
+        "nfev": 626,
+        "njev": 21,
+        "nlu": 54,
+        "accepted_steps": 78,
+        "pool_error": 7.89983627010708e-16,
+        "continuous_nonnegative": true,
+        "dense_join_error": 1.4313949089417173e-16,
+        "physical_ledger_residual": 5.739972853137331e-14,
+        "physical_ledger_quadrature": 6.84008681605243e-18,
+        "seconds": 0.09481658297590911
+      },
+      "guard": {
+        "nonnegative": true,
+        "pool": 8.032247626224104e-16
+      },
+      "targets": {
+        "0.001": {
+          "actual": {
+            "concentration": 1.5221904967203484e-06,
+            "flux": 3.206750663445495e-06
+          },
+          "passes": true
+        },
+        "1e-05": {
+          "actual": {
+            "concentration": 0.00015221904967203484,
+            "flux": 0.0003206750663445495
+          },
+          "passes": true
+        }
+      }
+    },
+    {
+      "key": "control-0-2-1-ordered-auto-1e-10-required",
+      "reference_key": "0-2-1",
+      "model": "teusink",
+      "method": "ordered-auto",
+      "tolerance": 1e-10,
+      "query_mode": "required",
+      "repeat": 0,
+      "status": "success",
+      "seconds": 0.2752529580029659,
+      "stats": {
+        "nfev": 1836,
+        "njev": 35,
+        "nlu": 82,
+        "accepted_steps": 244,
+        "pool_error": 9.874795337633851e-16,
+        "continuous_nonnegative": true,
+        "dense_join_error": 1.4313949089417173e-16,
+        "physical_ledger_residual": 8.048502153555026e-16,
+        "physical_ledger_quadrature": 2.2800289386841432e-18,
+        "seconds": 0.2747791250003502
+      },
+      "guard": {
+        "nonnegative": true,
+        "pool": 8.801573775653447e-16
+      },
+      "targets": {
+        "0.001": {
+          "actual": {
+            "concentration": 1.4634379457135702e-08,
+            "flux": 2.8559691696584037e-08
+          },
+          "passes": true
+        },
+        "1e-05": {
+          "actual": {
+            "concentration": 1.4634379457135701e-06,
+            "flux": 2.8559691696584035e-06
+          },
+          "passes": true
+        }
+      }
+    },
+    {
+      "key": "control-0-2-1-ordered-auto-1e-10-enhanced",
+      "reference_key": "0-2-1",
+      "model": "teusink",
+      "method": "ordered-auto",
+      "tolerance": 1e-10,
+      "query_mode": "enhanced",
+      "repeat": 0,
+      "status": "success",
+      "seconds": 0.27692770794965327,
+      "stats": {
+        "nfev": 1836,
+        "njev": 35,
+        "nlu": 82,
+        "accepted_steps": 244,
+        "pool_error": 9.874795337633851e-16,
+        "continuous_nonnegative": true,
+        "dense_join_error": 1.4313949089417173e-16,
+        "physical_ledger_residual": 8.048502153555026e-16,
+        "physical_ledger_quadrature": 2.2800289386841432e-18,
+        "seconds": 0.2760014590458013
+      },
+      "guard": {
+        "nonnegative": true,
+        "pool": 9.786541473667487e-16
+      },
+      "targets": {
+        "0.001": {
+          "actual": {
+            "concentration": 1.4634379457135702e-08,
+            "flux": 2.8559691696584037e-08
+          },
+          "passes": true
+        },
+        "1e-05": {
+          "actual": {
+            "concentration": 1.4634379457135701e-06,
+            "flux": 2.8559691696584035e-06
+          },
+          "passes": true
+        }
+      }
+    },
+    {
+      "key": "control-0-2-1-ordered-whole-0.0001-required",
+      "reference_key": "0-2-1",
+      "model": "teusink",
+      "method": "ordered-whole",
+      "tolerance": 0.0001,
+      "query_mode": "required",
+      "repeat": 0,
+      "status": "failed",
+      "seconds": 0.000960292003583163,
+      "reason": "Invalid full RHS state"
+    },
+    {
+      "key": "control-0-2-1-ordered-whole-0.0001-enhanced",
+      "reference_key": "0-2-1",
+      "model": "teusink",
+      "method": "ordered-whole",
+      "tolerance": 0.0001,
+      "query_mode": "enhanced",
+      "repeat": 0,
+      "status": "failed",
+      "seconds": 0.0008117080433294177,
+      "reason": "Invalid full RHS state"
+    },
+    {
+      "key": "control-0-2-1-ordered-whole-1e-05-required",
+      "reference_key": "0-2-1",
+      "model": "teusink",
+      "method": "ordered-whole",
+      "tolerance": 1e-05,
+      "query_mode": "required",
+      "repeat": 0,
+      "status": "failed",
+      "seconds": 0.0007693750085309148,
+      "reason": "Invalid full RHS state"
+    },
+    {
+      "key": "control-0-2-1-ordered-whole-1e-05-enhanced",
+      "reference_key": "0-2-1",
+      "model": "teusink",
+      "method": "ordered-whole",
+      "tolerance": 1e-05,
+      "query_mode": "enhanced",
+      "repeat": 0,
+      "status": "failed",
+      "seconds": 0.000766957993619144,
+      "reason": "Invalid full RHS state"
+    },
+    {
+      "key": "control-0-2-1-ordered-whole-1e-06-required",
+      "reference_key": "0-2-1",
+      "model": "teusink",
+      "method": "ordered-whole",
+      "tolerance": 1e-06,
+      "query_mode": "required",
+      "repeat": 0,
+      "status": "failed",
+      "seconds": 0.0007630420150235295,
+      "reason": "Invalid full RHS state"
+    },
+    {
+      "key": "control-0-2-1-ordered-whole-1e-06-enhanced",
+      "reference_key": "0-2-1",
+      "model": "teusink",
+      "method": "ordered-whole",
+      "tolerance": 1e-06,
+      "query_mode": "enhanced",
+      "repeat": 0,
+      "status": "failed",
+      "seconds": 0.0008546249591745436,
+      "reason": "Invalid full RHS state"
+    },
+    {
+      "key": "control-0-2-1-ordered-whole-1e-07-required",
+      "reference_key": "0-2-1",
+      "model": "teusink",
+      "method": "ordered-whole",
+      "tolerance": 1e-07,
+      "query_mode": "required",
+      "repeat": 0,
+      "status": "failed",
+      "seconds": 0.0008975419914349914,
+      "reason": "Invalid full RHS state"
+    },
+    {
+      "key": "control-0-2-1-ordered-whole-1e-07-enhanced",
+      "reference_key": "0-2-1",
+      "model": "teusink",
+      "method": "ordered-whole",
+      "tolerance": 1e-07,
+      "query_mode": "enhanced",
+      "repeat": 0,
+      "status": "failed",
+      "seconds": 0.0008089590119197965,
+      "reason": "Invalid full RHS state"
+    },
+    {
+      "key": "control-0-2-1-ordered-whole-1e-08-required",
+      "reference_key": "0-2-1",
+      "model": "teusink",
+      "method": "ordered-whole",
+      "tolerance": 1e-08,
+      "query_mode": "required",
+      "repeat": 0,
+      "status": "failed",
+      "seconds": 0.0007834580028429627,
+      "reason": "Invalid full RHS state"
+    },
+    {
+      "key": "control-0-2-1-ordered-whole-1e-08-enhanced",
+      "reference_key": "0-2-1",
+      "model": "teusink",
+      "method": "ordered-whole",
+      "tolerance": 1e-08,
+      "query_mode": "enhanced",
+      "repeat": 0,
+      "status": "failed",
+      "seconds": 0.0007705420139245689,
+      "reason": "Invalid full RHS state"
+    },
+    {
+      "key": "control-0-2-1-ordered-whole-1e-10-required",
+      "reference_key": "0-2-1",
+      "model": "teusink",
+      "method": "ordered-whole",
+      "tolerance": 1e-10,
+      "query_mode": "required",
+      "repeat": 0,
+      "status": "failed",
+      "seconds": 0.0007751249941065907,
+      "reason": "Invalid full RHS state"
+    },
+    {
+      "key": "control-0-2-1-ordered-whole-1e-10-enhanced",
+      "reference_key": "0-2-1",
+      "model": "teusink",
+      "method": "ordered-whole",
+      "tolerance": 1e-10,
+      "query_mode": "enhanced",
+      "repeat": 0,
+      "status": "failed",
+      "seconds": 0.0007562499959021807,
+      "reason": "Invalid full RHS state"
+    },
+    {
+      "key": "control-0-2-1-ordered-auto-0.0001-required",
+      "reference_key": "0-2-1",
+      "model": "teusink",
+      "method": "ordered-auto",
+      "tolerance": 0.0001,
+      "query_mode": "required",
+      "repeat": 0,
+      "status": "success",
+      "seconds": 0.012950583011843264,
+      "stats": {
+        "nfev": 92,
+        "njev": 5,
+        "nlu": 16,
+        "accepted_steps": 9,
+        "pool_error": 1.97495906752677e-16,
+        "continuous_nonnegative": true,
+        "dense_join_error": 1.881079539202993e-16,
+        "physical_ledger_residual": 2.4350311466860238e-08,
+        "physical_ledger_quadrature": 2.2800289386841432e-18,
+        "seconds": 0.01270062499679625
+      },
+      "guard": {
+        "nonnegative": true,
+        "pool": 2.485846870230525e-16
+      },
+      "targets": {
+        "0.001": {
+          "actual": {
+            "concentration": 0.023504180607544757,
+            "flux": 0.0422466458347717
+          },
+          "passes": false
+        },
+        "1e-05": {
+          "actual": {
+            "concentration": 2.3504180607544756,
+            "flux": 4.22466458347717
+          },
+          "passes": false
+        }
+      }
+    },
+    {
+      "key": "control-0-2-1-ordered-auto-1e-05-required",
+      "reference_key": "0-2-1",
+      "model": "teusink",
+      "method": "ordered-auto",
+      "tolerance": 1e-05,
+      "query_mode": "required",
+      "repeat": 1,
+      "status": "success",
+      "seconds": 0.02009591698879376,
+      "stats": {
+        "nfev": 136,
+        "njev": 8,
+        "nlu": 24,
+        "accepted_steps": 14,
+        "pool_error": 1.97495906752677e-16,
+        "continuous_nonnegative": true,
+        "dense_join_error": 1.881079539202993e-16,
+        "physical_ledger_residual": 3.947936524574578e-10,
+        "physical_ledger_quadrature": 2.2800289386841432e-18,
+        "seconds": 0.019896166981197894
+      },
+      "guard": {
+        "nonnegative": true,
+        "pool": 1.5262569008618852e-16
+      },
+      "targets": {
+        "0.001": {
+          "actual": {
+            "concentration": 0.0013905625849121464,
+            "flux": 0.002535608360941303
+          },
+          "passes": false
+        },
+        "1e-05": {
+          "actual": {
+            "concentration": 0.13905625849121464,
+            "flux": 0.25356083609413027
+          },
+          "passes": false
+        }
+      }
+    },
+    {
+      "key": "control-0-2-1-ordered-auto-1e-05-enhanced",
+      "reference_key": "0-2-1",
+      "model": "teusink",
+      "method": "ordered-auto",
+      "tolerance": 1e-05,
+      "query_mode": "enhanced",
+      "repeat": 1,
+      "status": "success",
+      "seconds": 0.021064416971057653,
+      "stats": {
+        "nfev": 136,
+        "njev": 8,
+        "nlu": 24,
+        "accepted_steps": 14,
+        "pool_error": 1.97495906752677e-16,
+        "continuous_nonnegative": true,
+        "dense_join_error": 1.881079539202993e-16,
+        "physical_ledger_residual": 3.947936524574578e-10,
+        "physical_ledger_quadrature": 2.2800289386841432e-18,
+        "seconds": 0.02079395897453651
+      },
+      "guard": {
+        "nonnegative": true,
+        "pool": 1.877847018423474e-16
+      },
+      "targets": {
+        "0.001": {
+          "actual": {
+            "concentration": 0.0016740498623223539,
+            "flux": 0.003524218899243539
+          },
+          "passes": false
+        },
+        "1e-05": {
+          "actual": {
+            "concentration": 0.16740498623223538,
+            "flux": 0.3524218899243539
+          },
+          "passes": false
+        }
+      }
+    },
+    {
+      "key": "control-0-2-1-ordered-auto-1e-06-required",
+      "reference_key": "0-2-1",
+      "model": "teusink",
+      "method": "ordered-auto",
+      "tolerance": 1e-06,
+      "query_mode": "required",
+      "repeat": 1,
+      "status": "success",
+      "seconds": 0.03452433302300051,
+      "stats": {
+        "nfev": 225,
+        "njev": 11,
+        "nlu": 34,
+        "accepted_steps": 25,
+        "pool_error": 1.97495906752677e-16,
+        "continuous_nonnegative": true,
+        "dense_join_error": 1.7906822977825107e-16,
+        "physical_ledger_residual": 1.732984787466171e-11,
+        "physical_ledger_quadrature": 2.2800289386841432e-18,
+        "seconds": 0.03416737500810996
+      },
+      "guard": {
+        "nonnegative": true,
+        "pool": 3.2673830454828653e-16
+      },
+      "targets": {
+        "0.001": {
+          "actual": {
+            "concentration": 0.0001328817646073744,
+            "flux": 0.00028051651745523515
+          },
+          "passes": true
+        },
+        "1e-05": {
+          "actual": {
+            "concentration": 0.013288176460737442,
+            "flux": 0.02805165174552351
+          },
+          "passes": true
+        }
+      }
+    },
+    {
+      "key": "control-0-2-1-ordered-auto-1e-06-enhanced",
+      "reference_key": "0-2-1",
+      "model": "teusink",
+      "method": "ordered-auto",
+      "tolerance": 1e-06,
+      "query_mode": "enhanced",
+      "repeat": 1,
+      "status": "success",
+      "seconds": 0.03395404195180163,
+      "stats": {
+        "nfev": 225,
+        "njev": 11,
+        "nlu": 34,
+        "accepted_steps": 25,
+        "pool_error": 1.97495906752677e-16,
+        "continuous_nonnegative": true,
+        "dense_join_error": 1.7906822977825107e-16,
+        "physical_ledger_residual": 1.732984787466171e-11,
+        "physical_ledger_quadrature": 2.2800289386841432e-18,
+        "seconds": 0.033603916002903134
+      },
+      "guard": {
+        "nonnegative": true,
+        "pool": 3.2673830454828653e-16
+      },
+      "targets": {
+        "0.001": {
+          "actual": {
+            "concentration": 0.0001719734603489321,
+            "flux": 0.0003625946213112035
+          },
+          "passes": true
+        },
+        "1e-05": {
+          "actual": {
+            "concentration": 0.017197346034893212,
+            "flux": 0.03625946213112034
+          },
+          "passes": true
+        }
+      }
+    },
+    {
+      "key": "control-0-2-1-ordered-auto-1e-07-required",
+      "reference_key": "0-2-1",
+      "model": "teusink",
+      "method": "ordered-auto",
+      "tolerance": 1e-07,
+      "query_mode": "required",
+      "repeat": 1,
+      "status": "success",
+      "seconds": 0.05739366699708626,
+      "stats": {
+        "nfev": 379,
+        "njev": 17,
+        "nlu": 40,
+        "accepted_steps": 44,
+        "pool_error": 1.97495906752677e-16,
+        "continuous_nonnegative": true,
+        "dense_join_error": 1.881079539202993e-16,
+        "physical_ledger_residual": 9.948222265266655e-13,
+        "physical_ledger_quadrature": 4.5600578773682865e-18,
+        "seconds": 0.057025665999390185
+      },
+      "guard": {
+        "nonnegative": true,
+        "pool": 1.699362171091787e-16
+      },
+      "targets": {
+        "0.001": {
+          "actual": {
+            "concentration": 1.248453166674512e-05,
+            "flux": 2.6071985263395225e-05
+          },
+          "passes": true
+        },
+        "1e-05": {
+          "actual": {
+            "concentration": 0.001248453166674512,
+            "flux": 0.002607198526339522
+          },
+          "passes": true
+        }
+      }
+    },
+    {
+      "key": "control-0-2-1-ordered-auto-1e-07-enhanced",
+      "reference_key": "0-2-1",
+      "model": "teusink",
+      "method": "ordered-auto",
+      "tolerance": 1e-07,
+      "query_mode": "enhanced",
+      "repeat": 1,
+      "status": "success",
+      "seconds": 0.05780487501760945,
+      "stats": {
+        "nfev": 379,
+        "njev": 17,
+        "nlu": 40,
+        "accepted_steps": 44,
+        "pool_error": 1.97495906752677e-16,
+        "continuous_nonnegative": true,
+        "dense_join_error": 1.881079539202993e-16,
+        "physical_ledger_residual": 9.948222265266655e-13,
+        "physical_ledger_quadrature": 4.5600578773682865e-18,
+        "seconds": 0.0572658340097405
+      },
+      "guard": {
+        "nonnegative": true,
+        "pool": 2.6766786208889383e-16
+      },
+      "targets": {
+        "0.001": {
+          "actual": {
+            "concentration": 1.3071488336180435e-05,
+            "flux": 2.75796084326067e-05
+          },
+          "passes": true
+        },
+        "1e-05": {
+          "actual": {
+            "concentration": 0.0013071488336180437,
+            "flux": 0.00275796084326067
+          },
+          "passes": true
+        }
+      }
+    },
+    {
+      "key": "control-0-2-1-ordered-auto-1e-08-required",
+      "reference_key": "0-2-1",
+      "model": "teusink",
+      "method": "ordered-auto",
+      "tolerance": 1e-08,
+      "query_mode": "required",
+      "repeat": 1,
+      "status": "success",
+      "seconds": 0.09405495802639052,
+      "stats": {
+        "nfev": 626,
+        "njev": 21,
+        "nlu": 54,
+        "accepted_steps": 78,
+        "pool_error": 7.89983627010708e-16,
+        "continuous_nonnegative": true,
+        "dense_join_error": 1.4313949089417173e-16,
+        "physical_ledger_residual": 5.739972853137331e-14,
+        "physical_ledger_quadrature": 6.84008681605243e-18,
+        "seconds": 0.09363179095089436
+      },
+      "guard": {
+        "nonnegative": true,
+        "pool": 7.33554126383151e-16
+      },
+      "targets": {
+        "0.001": {
+          "actual": {
+            "concentration": 1.2878622544707217e-06,
+            "flux": 2.711587195937396e-06
+          },
+          "passes": true
+        },
+        "1e-05": {
+          "actual": {
+            "concentration": 0.00012878622544707218,
+            "flux": 0.0002711587195937396
+          },
+          "passes": true
+        }
+      }
+    },
+    {
+      "key": "control-0-2-1-ordered-auto-1e-08-enhanced",
+      "reference_key": "0-2-1",
+      "model": "teusink",
+      "method": "ordered-auto",
+      "tolerance": 1e-08,
+      "query_mode": "enhanced",
+      "repeat": 1,
+      "status": "success",
+      "seconds": 0.09871366596780717,
+      "stats": {
+        "nfev": 626,
+        "njev": 21,
+        "nlu": 54,
+        "accepted_steps": 78,
+        "pool_error": 7.89983627010708e-16,
+        "continuous_nonnegative": true,
+        "dense_join_error": 1.4313949089417173e-16,
+        "physical_ledger_residual": 5.739972853137331e-14,
+        "physical_ledger_quadrature": 6.84008681605243e-18,
+        "seconds": 0.09797120798612013
+      },
+      "guard": {
+        "nonnegative": true,
+        "pool": 8.032247626224104e-16
+      },
+      "targets": {
+        "0.001": {
+          "actual": {
+            "concentration": 1.5221904967203484e-06,
+            "flux": 3.206750663445495e-06
+          },
+          "passes": true
+        },
+        "1e-05": {
+          "actual": {
+            "concentration": 0.00015221904967203484,
+            "flux": 0.0003206750663445495
+          },
+          "passes": true
+        }
+      }
+    },
+    {
+      "key": "control-0-2-1-ordered-auto-1e-10-required",
+      "reference_key": "0-2-1",
+      "model": "teusink",
+      "method": "ordered-auto",
+      "tolerance": 1e-10,
+      "query_mode": "required",
+      "repeat": 1,
+      "status": "success",
+      "seconds": 0.2899925420060754,
+      "stats": {
+        "nfev": 1836,
+        "njev": 35,
+        "nlu": 82,
+        "accepted_steps": 244,
+        "pool_error": 9.874795337633851e-16,
+        "continuous_nonnegative": true,
+        "dense_join_error": 1.4313949089417173e-16,
+        "physical_ledger_residual": 8.048502153555026e-16,
+        "physical_ledger_quadrature": 2.2800289386841432e-18,
+        "seconds": 0.2895930410013534
+      },
+      "guard": {
+        "nonnegative": true,
+        "pool": 8.801573775653447e-16
+      },
+      "targets": {
+        "0.001": {
+          "actual": {
+            "concentration": 1.4634379457135702e-08,
+            "flux": 2.8559691696584037e-08
+          },
+          "passes": true
+        },
+        "1e-05": {
+          "actual": {
+            "concentration": 1.4634379457135701e-06,
+            "flux": 2.8559691696584035e-06
+          },
+          "passes": true
+        }
+      }
+    },
+    {
+      "key": "control-0-2-1-ordered-auto-1e-10-enhanced",
+      "reference_key": "0-2-1",
+      "model": "teusink",
+      "method": "ordered-auto",
+      "tolerance": 1e-10,
+      "query_mode": "enhanced",
+      "repeat": 1,
+      "status": "success",
+      "seconds": 0.39483725000172853,
+      "stats": {
+        "nfev": 1836,
+        "njev": 35,
+        "nlu": 82,
+        "accepted_steps": 244,
+        "pool_error": 9.874795337633851e-16,
+        "continuous_nonnegative": true,
+        "dense_join_error": 1.4313949089417173e-16,
+        "physical_ledger_residual": 8.048502153555026e-16,
+        "physical_ledger_quadrature": 2.2800289386841432e-18,
+        "seconds": 0.39386658399598673
+      },
+      "guard": {
+        "nonnegative": true,
+        "pool": 9.786541473667487e-16
+      },
+      "targets": {
+        "0.001": {
+          "actual": {
+            "concentration": 1.4634379457135702e-08,
+            "flux": 2.8559691696584037e-08
+          },
+          "passes": true
+        },
+        "1e-05": {
+          "actual": {
+            "concentration": 1.4634379457135701e-06,
+            "flux": 2.8559691696584035e-06
+          },
+          "passes": true
+        }
+      }
+    },
+    {
+      "key": "control-0-2-1-ordered-whole-0.0001-required",
+      "reference_key": "0-2-1",
+      "model": "teusink",
+      "method": "ordered-whole",
+      "tolerance": 0.0001,
+      "query_mode": "required",
+      "repeat": 1,
+      "status": "failed",
+      "seconds": 0.0010313329985365272,
+      "reason": "Invalid full RHS state"
+    },
+    {
+      "key": "control-0-2-1-ordered-whole-0.0001-enhanced",
+      "reference_key": "0-2-1",
+      "model": "teusink",
+      "method": "ordered-whole",
+      "tolerance": 0.0001,
+      "query_mode": "enhanced",
+      "repeat": 1,
+      "status": "failed",
+      "seconds": 0.000831458019092679,
+      "reason": "Invalid full RHS state"
+    },
+    {
+      "key": "control-0-2-1-ordered-whole-1e-05-required",
+      "reference_key": "0-2-1",
+      "model": "teusink",
+      "method": "ordered-whole",
+      "tolerance": 1e-05,
+      "query_mode": "required",
+      "repeat": 1,
+      "status": "failed",
+      "seconds": 0.0009198749903589487,
+      "reason": "Invalid full RHS state"
+    },
+    {
+      "key": "control-0-2-1-ordered-whole-1e-05-enhanced",
+      "reference_key": "0-2-1",
+      "model": "teusink",
+      "method": "ordered-whole",
+      "tolerance": 1e-05,
+      "query_mode": "enhanced",
+      "repeat": 1,
+      "status": "failed",
+      "seconds": 0.0009420419810339808,
+      "reason": "Invalid full RHS state"
+    },
+    {
+      "key": "control-0-2-1-ordered-whole-1e-06-required",
+      "reference_key": "0-2-1",
+      "model": "teusink",
+      "method": "ordered-whole",
+      "tolerance": 1e-06,
+      "query_mode": "required",
+      "repeat": 1,
+      "status": "failed",
+      "seconds": 0.0009209580020979047,
+      "reason": "Invalid full RHS state"
+    },
+    {
+      "key": "control-0-2-1-ordered-whole-1e-06-enhanced",
+      "reference_key": "0-2-1",
+      "model": "teusink",
+      "method": "ordered-whole",
+      "tolerance": 1e-06,
+      "query_mode": "enhanced",
+      "repeat": 1,
+      "status": "failed",
+      "seconds": 0.0009082499891519547,
+      "reason": "Invalid full RHS state"
+    },
+    {
+      "key": "control-0-2-1-ordered-whole-1e-07-required",
+      "reference_key": "0-2-1",
+      "model": "teusink",
+      "method": "ordered-whole",
+      "tolerance": 1e-07,
+      "query_mode": "required",
+      "repeat": 1,
+      "status": "failed",
+      "seconds": 0.0009682090021669865,
+      "reason": "Invalid full RHS state"
+    },
+    {
+      "key": "control-0-2-1-ordered-whole-1e-07-enhanced",
+      "reference_key": "0-2-1",
+      "model": "teusink",
+      "method": "ordered-whole",
+      "tolerance": 1e-07,
+      "query_mode": "enhanced",
+      "repeat": 1,
+      "status": "failed",
+      "seconds": 0.0009592080023139715,
+      "reason": "Invalid full RHS state"
+    },
+    {
+      "key": "control-0-2-1-ordered-whole-1e-08-required",
+      "reference_key": "0-2-1",
+      "model": "teusink",
+      "method": "ordered-whole",
+      "tolerance": 1e-08,
+      "query_mode": "required",
+      "repeat": 1,
+      "status": "failed",
+      "seconds": 0.0009772090124897659,
+      "reason": "Invalid full RHS state"
+    },
+    {
+      "key": "control-0-2-1-ordered-whole-1e-08-enhanced",
+      "reference_key": "0-2-1",
+      "model": "teusink",
+      "method": "ordered-whole",
+      "tolerance": 1e-08,
+      "query_mode": "enhanced",
+      "repeat": 1,
+      "status": "failed",
+      "seconds": 0.0009519580053165555,
+      "reason": "Invalid full RHS state"
+    },
+    {
+      "key": "control-0-2-1-ordered-whole-1e-10-required",
+      "reference_key": "0-2-1",
+      "model": "teusink",
+      "method": "ordered-whole",
+      "tolerance": 1e-10,
+      "query_mode": "required",
+      "repeat": 1,
+      "status": "failed",
+      "seconds": 0.0008179579745046794,
+      "reason": "Invalid full RHS state"
+    },
+    {
+      "key": "control-0-2-1-ordered-whole-1e-10-enhanced",
+      "reference_key": "0-2-1",
+      "model": "teusink",
+      "method": "ordered-whole",
+      "tolerance": 1e-10,
+      "query_mode": "enhanced",
+      "repeat": 1,
+      "status": "failed",
+      "seconds": 0.0009753750055097044,
+      "reason": "Invalid full RHS state"
+    },
+    {
+      "key": "control-0-2-1-ordered-auto-0.0001-required",
+      "reference_key": "0-2-1",
+      "model": "teusink",
+      "method": "ordered-auto",
+      "tolerance": 0.0001,
+      "query_mode": "required",
+      "repeat": 1,
+      "status": "success",
+      "seconds": 0.013301166996825486,
+      "stats": {
+        "nfev": 92,
+        "njev": 5,
+        "nlu": 16,
+        "accepted_steps": 9,
+        "pool_error": 1.97495906752677e-16,
+        "continuous_nonnegative": true,
+        "dense_join_error": 1.881079539202993e-16,
+        "physical_ledger_residual": 2.4350311466860238e-08,
+        "physical_ledger_quadrature": 2.2800289386841432e-18,
+        "seconds": 0.01304495899239555
+      },
+      "guard": {
+        "nonnegative": true,
+        "pool": 2.485846870230525e-16
+      },
+      "targets": {
+        "0.001": {
+          "actual": {
+            "concentration": 0.023504180607544757,
+            "flux": 0.0422466458347717
+          },
+          "passes": false
+        },
+        "1e-05": {
+          "actual": {
+            "concentration": 2.3504180607544756,
+            "flux": 4.22466458347717
+          },
+          "passes": false
+        }
+      }
+    },
+    {
+      "key": "control-0-2-1-ordered-auto-0.0001-enhanced",
+      "reference_key": "0-2-1",
+      "model": "teusink",
+      "method": "ordered-auto",
+      "tolerance": 0.0001,
+      "query_mode": "enhanced",
+      "repeat": 1,
+      "status": "success",
+      "seconds": 0.01291337498696521,
+      "stats": {
+        "nfev": 92,
+        "njev": 5,
+        "nlu": 16,
+        "accepted_steps": 9,
+        "pool_error": 1.97495906752677e-16,
+        "continuous_nonnegative": true,
+        "dense_join_error": 1.881079539202993e-16,
+        "physical_ledger_residual": 2.4350311466860238e-08,
+        "physical_ledger_quadrature": 2.2800289386841432e-18,
+        "seconds": 0.012736999953631312
+      },
+      "guard": {
+        "nonnegative": true,
+        "pool": 2.555953513740494e-16
+      },
+      "targets": {
+        "0.001": {
+          "actual": {
+            "concentration": 0.023504180607544757,
+            "flux": 0.0422466458347717
+          },
+          "passes": false
+        },
+        "1e-05": {
+          "actual": {
+            "concentration": 2.3504180607544756,
+            "flux": 4.22466458347717
+          },
+          "passes": false
+        }
+      }
+    },
+    {
+      "key": "control-0-2-1-ordered-auto-1e-05-enhanced",
+      "reference_key": "0-2-1",
+      "model": "teusink",
+      "method": "ordered-auto",
+      "tolerance": 1e-05,
+      "query_mode": "enhanced",
+      "repeat": 2,
+      "status": "success",
+      "seconds": 0.01959816599264741,
+      "stats": {
+        "nfev": 136,
+        "njev": 8,
+        "nlu": 24,
+        "accepted_steps": 14,
+        "pool_error": 1.97495906752677e-16,
+        "continuous_nonnegative": true,
+        "dense_join_error": 1.881079539202993e-16,
+        "physical_ledger_residual": 3.947936524574578e-10,
+        "physical_ledger_quadrature": 2.2800289386841432e-18,
+        "seconds": 0.019346875022165477
+      },
+      "guard": {
+        "nonnegative": true,
+        "pool": 1.877847018423474e-16
+      },
+      "targets": {
+        "0.001": {
+          "actual": {
+            "concentration": 0.0016740498623223539,
+            "flux": 0.003524218899243539
+          },
+          "passes": false
+        },
+        "1e-05": {
+          "actual": {
+            "concentration": 0.16740498623223538,
+            "flux": 0.3524218899243539
+          },
+          "passes": false
+        }
+      }
+    },
+    {
+      "key": "control-0-2-1-ordered-auto-1e-06-required",
+      "reference_key": "0-2-1",
+      "model": "teusink",
+      "method": "ordered-auto",
+      "tolerance": 1e-06,
+      "query_mode": "required",
+      "repeat": 2,
+      "status": "success",
+      "seconds": 0.032181624963413924,
+      "stats": {
+        "nfev": 225,
+        "njev": 11,
+        "nlu": 34,
+        "accepted_steps": 25,
+        "pool_error": 1.97495906752677e-16,
+        "continuous_nonnegative": true,
+        "dense_join_error": 1.7906822977825107e-16,
+        "physical_ledger_residual": 1.732984787466171e-11,
+        "physical_ledger_quadrature": 2.2800289386841432e-18,
+        "seconds": 0.031909125042147934
+      },
+      "guard": {
+        "nonnegative": true,
+        "pool": 3.2673830454828653e-16
+      },
+      "targets": {
+        "0.001": {
+          "actual": {
+            "concentration": 0.0001328817646073744,
+            "flux": 0.00028051651745523515
+          },
+          "passes": true
+        },
+        "1e-05": {
+          "actual": {
+            "concentration": 0.013288176460737442,
+            "flux": 0.02805165174552351
+          },
+          "passes": true
+        }
+      }
+    },
+    {
+      "key": "control-0-2-1-ordered-auto-1e-06-enhanced",
+      "reference_key": "0-2-1",
+      "model": "teusink",
+      "method": "ordered-auto",
+      "tolerance": 1e-06,
+      "query_mode": "enhanced",
+      "repeat": 2,
+      "status": "success",
+      "seconds": 0.03262854099739343,
+      "stats": {
+        "nfev": 225,
+        "njev": 11,
+        "nlu": 34,
+        "accepted_steps": 25,
+        "pool_error": 1.97495906752677e-16,
+        "continuous_nonnegative": true,
+        "dense_join_error": 1.7906822977825107e-16,
+        "physical_ledger_residual": 1.732984787466171e-11,
+        "physical_ledger_quadrature": 2.2800289386841432e-18,
+        "seconds": 0.03231337503530085
+      },
+      "guard": {
+        "nonnegative": true,
+        "pool": 3.2673830454828653e-16
+      },
+      "targets": {
+        "0.001": {
+          "actual": {
+            "concentration": 0.0001719734603489321,
+            "flux": 0.0003625946213112035
+          },
+          "passes": true
+        },
+        "1e-05": {
+          "actual": {
+            "concentration": 0.017197346034893212,
+            "flux": 0.03625946213112034
+          },
+          "passes": true
+        }
+      }
+    },
+    {
+      "key": "control-0-2-1-ordered-auto-1e-07-required",
+      "reference_key": "0-2-1",
+      "model": "teusink",
+      "method": "ordered-auto",
+      "tolerance": 1e-07,
+      "query_mode": "required",
+      "repeat": 2,
+      "status": "success",
+      "seconds": 0.05475279095117003,
+      "stats": {
+        "nfev": 379,
+        "njev": 17,
+        "nlu": 40,
+        "accepted_steps": 44,
+        "pool_error": 1.97495906752677e-16,
+        "continuous_nonnegative": true,
+        "dense_join_error": 1.881079539202993e-16,
+        "physical_ledger_residual": 9.948222265266655e-13,
+        "physical_ledger_quadrature": 4.5600578773682865e-18,
+        "seconds": 0.05440512503264472
+      },
+      "guard": {
+        "nonnegative": true,
+        "pool": 1.699362171091787e-16
+      },
+      "targets": {
+        "0.001": {
+          "actual": {
+            "concentration": 1.248453166674512e-05,
+            "flux": 2.6071985263395225e-05
+          },
+          "passes": true
+        },
+        "1e-05": {
+          "actual": {
+            "concentration": 0.001248453166674512,
+            "flux": 0.002607198526339522
+          },
+          "passes": true
+        }
+      }
+    },
+    {
+      "key": "control-0-2-1-ordered-auto-1e-07-enhanced",
+      "reference_key": "0-2-1",
+      "model": "teusink",
+      "method": "ordered-auto",
+      "tolerance": 1e-07,
+      "query_mode": "enhanced",
+      "repeat": 2,
+      "status": "success",
+      "seconds": 0.05503241700353101,
+      "stats": {
+        "nfev": 379,
+        "njev": 17,
+        "nlu": 40,
+        "accepted_steps": 44,
+        "pool_error": 1.97495906752677e-16,
+        "continuous_nonnegative": true,
+        "dense_join_error": 1.881079539202993e-16,
+        "physical_ledger_residual": 9.948222265266655e-13,
+        "physical_ledger_quadrature": 4.5600578773682865e-18,
+        "seconds": 0.05447241599904373
+      },
+      "guard": {
+        "nonnegative": true,
+        "pool": 2.6766786208889383e-16
+      },
+      "targets": {
+        "0.001": {
+          "actual": {
+            "concentration": 1.3071488336180435e-05,
+            "flux": 2.75796084326067e-05
+          },
+          "passes": true
+        },
+        "1e-05": {
+          "actual": {
+            "concentration": 0.0013071488336180437,
+            "flux": 0.00275796084326067
+          },
+          "passes": true
+        }
+      }
+    },
+    {
+      "key": "control-0-2-1-ordered-auto-1e-08-required",
+      "reference_key": "0-2-1",
+      "model": "teusink",
+      "method": "ordered-auto",
+      "tolerance": 1e-08,
+      "query_mode": "required",
+      "repeat": 2,
+      "status": "success",
+      "seconds": 0.09114504099125043,
+      "stats": {
+        "nfev": 626,
+        "njev": 21,
+        "nlu": 54,
+        "accepted_steps": 78,
+        "pool_error": 7.89983627010708e-16,
+        "continuous_nonnegative": true,
+        "dense_join_error": 1.4313949089417173e-16,
+        "physical_ledger_residual": 5.739972853137331e-14,
+        "physical_ledger_quadrature": 6.84008681605243e-18,
+        "seconds": 0.09071762498933822
+      },
+      "guard": {
+        "nonnegative": true,
+        "pool": 7.33554126383151e-16
+      },
+      "targets": {
+        "0.001": {
+          "actual": {
+            "concentration": 1.2878622544707217e-06,
+            "flux": 2.711587195937396e-06
+          },
+          "passes": true
+        },
+        "1e-05": {
+          "actual": {
+            "concentration": 0.00012878622544707218,
+            "flux": 0.0002711587195937396
+          },
+          "passes": true
+        }
+      }
+    },
+    {
+      "key": "control-0-2-1-ordered-auto-1e-08-enhanced",
+      "reference_key": "0-2-1",
+      "model": "teusink",
+      "method": "ordered-auto",
+      "tolerance": 1e-08,
+      "query_mode": "enhanced",
+      "repeat": 2,
+      "status": "success",
+      "seconds": 0.09181858302326873,
+      "stats": {
+        "nfev": 626,
+        "njev": 21,
+        "nlu": 54,
+        "accepted_steps": 78,
+        "pool_error": 7.89983627010708e-16,
+        "continuous_nonnegative": true,
+        "dense_join_error": 1.4313949089417173e-16,
+        "physical_ledger_residual": 5.739972853137331e-14,
+        "physical_ledger_quadrature": 6.84008681605243e-18,
+        "seconds": 0.0910870410152711
+      },
+      "guard": {
+        "nonnegative": true,
+        "pool": 8.032247626224104e-16
+      },
+      "targets": {
+        "0.001": {
+          "actual": {
+            "concentration": 1.5221904967203484e-06,
+            "flux": 3.206750663445495e-06
+          },
+          "passes": true
+        },
+        "1e-05": {
+          "actual": {
+            "concentration": 0.00015221904967203484,
+            "flux": 0.0003206750663445495
+          },
+          "passes": true
+        }
+      }
+    },
+    {
+      "key": "control-0-2-1-ordered-auto-1e-10-required",
+      "reference_key": "0-2-1",
+      "model": "teusink",
+      "method": "ordered-auto",
+      "tolerance": 1e-10,
+      "query_mode": "required",
+      "repeat": 2,
+      "status": "success",
+      "seconds": 0.2606587909976952,
+      "stats": {
+        "nfev": 1836,
+        "njev": 35,
+        "nlu": 82,
+        "accepted_steps": 244,
+        "pool_error": 9.874795337633851e-16,
+        "continuous_nonnegative": true,
+        "dense_join_error": 1.4313949089417173e-16,
+        "physical_ledger_residual": 8.048502153555026e-16,
+        "physical_ledger_quadrature": 2.2800289386841432e-18,
+        "seconds": 0.26026499998988584
+      },
+      "guard": {
+        "nonnegative": true,
+        "pool": 8.801573775653447e-16
+      },
+      "targets": {
+        "0.001": {
+          "actual": {
+            "concentration": 1.4634379457135702e-08,
+            "flux": 2.8559691696584037e-08
+          },
+          "passes": true
+        },
+        "1e-05": {
+          "actual": {
+            "concentration": 1.4634379457135701e-06,
+            "flux": 2.8559691696584035e-06
+          },
+          "passes": true
+        }
+      }
+    },
+    {
+      "key": "control-0-2-1-ordered-auto-1e-10-enhanced",
+      "reference_key": "0-2-1",
+      "model": "teusink",
+      "method": "ordered-auto",
+      "tolerance": 1e-10,
+      "query_mode": "enhanced",
+      "repeat": 2,
+      "status": "success",
+      "seconds": 0.26912441704189405,
+      "stats": {
+        "nfev": 1836,
+        "njev": 35,
+        "nlu": 82,
+        "accepted_steps": 244,
+        "pool_error": 9.874795337633851e-16,
+        "continuous_nonnegative": true,
+        "dense_join_error": 1.4313949089417173e-16,
+        "physical_ledger_residual": 8.048502153555026e-16,
+        "physical_ledger_quadrature": 2.2800289386841432e-18,
+        "seconds": 0.26810604199999943
+      },
+      "guard": {
+        "nonnegative": true,
+        "pool": 9.786541473667487e-16
+      },
+      "targets": {
+        "0.001": {
+          "actual": {
+            "concentration": 1.4634379457135702e-08,
+            "flux": 2.8559691696584037e-08
+          },
+          "passes": true
+        },
+        "1e-05": {
+          "actual": {
+            "concentration": 1.4634379457135701e-06,
+            "flux": 2.8559691696584035e-06
+          },
+          "passes": true
+        }
+      }
+    },
+    {
+      "key": "control-0-2-1-ordered-whole-0.0001-required",
+      "reference_key": "0-2-1",
+      "model": "teusink",
+      "method": "ordered-whole",
+      "tolerance": 0.0001,
+      "query_mode": "required",
+      "repeat": 2,
+      "status": "failed",
+      "seconds": 0.0010939170024357736,
+      "reason": "Invalid full RHS state"
+    },
+    {
+      "key": "control-0-2-1-ordered-whole-0.0001-enhanced",
+      "reference_key": "0-2-1",
+      "model": "teusink",
+      "method": "ordered-whole",
+      "tolerance": 0.0001,
+      "query_mode": "enhanced",
+      "repeat": 2,
+      "status": "failed",
+      "seconds": 0.0011381669901311398,
+      "reason": "Invalid full RHS state"
+    },
+    {
+      "key": "control-0-2-1-ordered-whole-1e-05-required",
+      "reference_key": "0-2-1",
+      "model": "teusink",
+      "method": "ordered-whole",
+      "tolerance": 1e-05,
+      "query_mode": "required",
+      "repeat": 2,
+      "status": "failed",
+      "seconds": 0.001119541993830353,
+      "reason": "Invalid full RHS state"
+    },
+    {
+      "key": "control-0-2-1-ordered-whole-1e-05-enhanced",
+      "reference_key": "0-2-1",
+      "model": "teusink",
+      "method": "ordered-whole",
+      "tolerance": 1e-05,
+      "query_mode": "enhanced",
+      "repeat": 2,
+      "status": "failed",
+      "seconds": 0.001126500021200627,
+      "reason": "Invalid full RHS state"
+    },
+    {
+      "key": "control-0-2-1-ordered-whole-1e-06-required",
+      "reference_key": "0-2-1",
+      "model": "teusink",
+      "method": "ordered-whole",
+      "tolerance": 1e-06,
+      "query_mode": "required",
+      "repeat": 2,
+      "status": "failed",
+      "seconds": 0.00103516603121534,
+      "reason": "Invalid full RHS state"
+    },
+    {
+      "key": "control-0-2-1-ordered-whole-1e-06-enhanced",
+      "reference_key": "0-2-1",
+      "model": "teusink",
+      "method": "ordered-whole",
+      "tolerance": 1e-06,
+      "query_mode": "enhanced",
+      "repeat": 2,
+      "status": "failed",
+      "seconds": 0.001135458005592227,
+      "reason": "Invalid full RHS state"
+    },
+    {
+      "key": "control-0-2-1-ordered-whole-1e-07-required",
+      "reference_key": "0-2-1",
+      "model": "teusink",
+      "method": "ordered-whole",
+      "tolerance": 1e-07,
+      "query_mode": "required",
+      "repeat": 2,
+      "status": "failed",
+      "seconds": 0.0009527090005576611,
+      "reason": "Invalid full RHS state"
+    },
+    {
+      "key": "control-0-2-1-ordered-whole-1e-07-enhanced",
+      "reference_key": "0-2-1",
+      "model": "teusink",
+      "method": "ordered-whole",
+      "tolerance": 1e-07,
+      "query_mode": "enhanced",
+      "repeat": 2,
+      "status": "failed",
+      "seconds": 0.0009970419923774898,
+      "reason": "Invalid full RHS state"
+    },
+    {
+      "key": "control-0-2-1-ordered-whole-1e-08-required",
+      "reference_key": "0-2-1",
+      "model": "teusink",
+      "method": "ordered-whole",
+      "tolerance": 1e-08,
+      "query_mode": "required",
+      "repeat": 2,
+      "status": "failed",
+      "seconds": 0.0012890840298496187,
+      "reason": "Invalid full RHS state"
+    },
+    {
+      "key": "control-0-2-1-ordered-whole-1e-08-enhanced",
+      "reference_key": "0-2-1",
+      "model": "teusink",
+      "method": "ordered-whole",
+      "tolerance": 1e-08,
+      "query_mode": "enhanced",
+      "repeat": 2,
+      "status": "failed",
+      "seconds": 0.0012215000460855663,
+      "reason": "Invalid full RHS state"
+    },
+    {
+      "key": "control-0-2-1-ordered-whole-1e-10-required",
+      "reference_key": "0-2-1",
+      "model": "teusink",
+      "method": "ordered-whole",
+      "tolerance": 1e-10,
+      "query_mode": "required",
+      "repeat": 2,
+      "status": "failed",
+      "seconds": 0.0011399580398574471,
+      "reason": "Invalid full RHS state"
+    },
+    {
+      "key": "control-0-2-1-ordered-whole-1e-10-enhanced",
+      "reference_key": "0-2-1",
+      "model": "teusink",
+      "method": "ordered-whole",
+      "tolerance": 1e-10,
+      "query_mode": "enhanced",
+      "repeat": 2,
+      "status": "failed",
+      "seconds": 0.0010298750130459666,
+      "reason": "Invalid full RHS state"
+    },
+    {
+      "key": "control-0-2-1-ordered-auto-0.0001-required",
+      "reference_key": "0-2-1",
+      "model": "teusink",
+      "method": "ordered-auto",
+      "tolerance": 0.0001,
+      "query_mode": "required",
+      "repeat": 2,
+      "status": "success",
+      "seconds": 0.014431999996304512,
+      "stats": {
+        "nfev": 92,
+        "njev": 5,
+        "nlu": 16,
+        "accepted_steps": 9,
+        "pool_error": 1.97495906752677e-16,
+        "continuous_nonnegative": true,
+        "dense_join_error": 1.881079539202993e-16,
+        "physical_ledger_residual": 2.4350311466860238e-08,
+        "physical_ledger_quadrature": 2.2800289386841432e-18,
+        "seconds": 0.014056165993679315
+      },
+      "guard": {
+        "nonnegative": true,
+        "pool": 2.485846870230525e-16
+      },
+      "targets": {
+        "0.001": {
+          "actual": {
+            "concentration": 0.023504180607544757,
+            "flux": 0.0422466458347717
+          },
+          "passes": false
+        },
+        "1e-05": {
+          "actual": {
+            "concentration": 2.3504180607544756,
+            "flux": 4.22466458347717
+          },
+          "passes": false
+        }
+      }
+    },
+    {
+      "key": "control-0-2-1-ordered-auto-0.0001-enhanced",
+      "reference_key": "0-2-1",
+      "model": "teusink",
+      "method": "ordered-auto",
+      "tolerance": 0.0001,
+      "query_mode": "enhanced",
+      "repeat": 2,
+      "status": "success",
+      "seconds": 0.013429459009785205,
+      "stats": {
+        "nfev": 92,
+        "njev": 5,
+        "nlu": 16,
+        "accepted_steps": 9,
+        "pool_error": 1.97495906752677e-16,
+        "continuous_nonnegative": true,
+        "dense_join_error": 1.881079539202993e-16,
+        "physical_ledger_residual": 2.4350311466860238e-08,
+        "physical_ledger_quadrature": 2.2800289386841432e-18,
+        "seconds": 0.013168416044209152
+      },
+      "guard": {
+        "nonnegative": true,
+        "pool": 2.555953513740494e-16
+      },
+      "targets": {
+        "0.001": {
+          "actual": {
+            "concentration": 0.023504180607544757,
+            "flux": 0.0422466458347717
+          },
+          "passes": false
+        },
+        "1e-05": {
+          "actual": {
+            "concentration": 2.3504180607544756,
+            "flux": 4.22466458347717
+          },
+          "passes": false
+        }
+      }
+    },
+    {
+      "key": "control-0-2-1-ordered-auto-1e-05-required",
+      "reference_key": "0-2-1",
+      "model": "teusink",
+      "method": "ordered-auto",
+      "tolerance": 1e-05,
+      "query_mode": "required",
+      "repeat": 2,
+      "status": "success",
+      "seconds": 0.020090582955162972,
+      "stats": {
+        "nfev": 136,
+        "njev": 8,
+        "nlu": 24,
+        "accepted_steps": 14,
+        "pool_error": 1.97495906752677e-16,
+        "continuous_nonnegative": true,
+        "dense_join_error": 1.881079539202993e-16,
+        "physical_ledger_residual": 3.947936524574578e-10,
+        "physical_ledger_quadrature": 2.2800289386841432e-18,
+        "seconds": 0.0198257919983007
+      },
+      "guard": {
+        "nonnegative": true,
+        "pool": 1.5262569008618852e-16
+      },
+      "targets": {
+        "0.001": {
+          "actual": {
+            "concentration": 0.0013905625849121464,
+            "flux": 0.002535608360941303
+          },
+          "passes": false
+        },
+        "1e-05": {
+          "actual": {
+            "concentration": 0.13905625849121464,
+            "flux": 0.25356083609413027
+          },
+          "passes": false
+        }
+      }
+    }
+  ]
+}

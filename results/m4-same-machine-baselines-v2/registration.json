@@ -1,0 +1,251 @@
+{
+  "date": "2026-11-15",
+  "purpose": "Identify the fastest same-machine qualified mature full-system baseline for each frozen model/target.",
+  "scope": "Re-run every historical seven-repeat qualified mature configuration on the original full window and output grid; one warmup and seven formal interleaved repeats per configuration.",
+  "criteria": "Every config is qualified only if all seven local repeats pass original metrics and structural gates; choose the lowest local median among qualified configs.",
+  "configurations": [
+    {
+      "model": "teusink",
+      "target": 0.001,
+      "config": "BDF-0.001",
+      "parameters": {
+        "target": 0.001,
+        "initial_step": 1e-05,
+        "max_step": 0.1,
+        "group_every": 5,
+        "enter": 1.0,
+        "leave": 0.3,
+        "inner_fraction": 0.05,
+        "local_fraction": 0.1,
+        "max_rejections": 4,
+        "max_attempts": 512,
+        "slow_bound_limit": 2.0,
+        "fallback_method": "BDF",
+        "audit_rtol": 1e-11,
+        "fallback_rtol": 1e-11,
+        "estimator_ratio_limit": 2.0,
+        "timeout": 60.0
+      }
+    },
+    {
+      "model": "teusink",
+      "target": 0.001,
+      "config": "Radau-0.001",
+      "parameters": {
+        "target": 0.001,
+        "initial_step": 1e-05,
+        "max_step": 0.1,
+        "group_every": 5,
+        "enter": 1.0,
+        "leave": 0.3,
+        "inner_fraction": 0.05,
+        "local_fraction": 0.1,
+        "max_rejections": 4,
+        "max_attempts": 512,
+        "slow_bound_limit": 2.0,
+        "fallback_method": "Radau",
+        "audit_rtol": 1e-11,
+        "fallback_rtol": 1e-08,
+        "estimator_ratio_limit": 2.0,
+        "timeout": 60.0
+      }
+    },
+    {
+      "model": "teusink",
+      "target": 1e-05,
+      "config": "BDF-1e-05",
+      "parameters": {
+        "target": 1e-05,
+        "initial_step": 1e-05,
+        "max_step": 0.1,
+        "group_every": 5,
+        "enter": 1.0,
+        "leave": 0.3,
+        "inner_fraction": 0.05,
+        "local_fraction": 0.1,
+        "max_rejections": 4,
+        "max_attempts": 512,
+        "slow_bound_limit": 2.0,
+        "fallback_method": "BDF",
+        "audit_rtol": 1e-11,
+        "fallback_rtol": 1e-11,
+        "estimator_ratio_limit": 2.0,
+        "timeout": 60.0
+      }
+    },
+    {
+      "model": "teusink",
+      "target": 1e-05,
+      "config": "Radau-1e-05",
+      "parameters": {
+        "target": 1e-05,
+        "initial_step": 1e-05,
+        "max_step": 0.1,
+        "group_every": 5,
+        "enter": 1.0,
+        "leave": 0.3,
+        "inner_fraction": 0.05,
+        "local_fraction": 0.1,
+        "max_rejections": 4,
+        "max_attempts": 512,
+        "slow_bound_limit": 2.0,
+        "fallback_method": "Radau",
+        "audit_rtol": 1e-11,
+        "fallback_rtol": 1e-08,
+        "estimator_ratio_limit": 2.0,
+        "timeout": 60.0
+      }
+    },
+    {
+      "model": "kecoli",
+      "target": 0.001,
+      "config": "BDF-0.001",
+      "parameters": {
+        "target": 0.001,
+        "initial_step": 1e-05,
+        "max_step": 0.1,
+        "group_every": 5,
+        "enter": 1.0,
+        "leave": 0.3,
+        "inner_fraction": 0.05,
+        "local_fraction": 0.1,
+        "max_rejections": 4,
+        "max_attempts": 512,
+        "slow_bound_limit": 2.0,
+        "fallback_method": "BDF",
+        "audit_rtol": 1e-11,
+        "fallback_rtol": 1e-08,
+        "estimator_ratio_limit": 2.0,
+        "timeout": 60.0
+      }
+    },
+    {
+      "model": "kecoli",
+      "target": 0.001,
+      "config": "CVODE-KLU-0.001",
+      "parameters": {
+        "target": 0.001,
+        "initial_step": 1e-05,
+        "max_step": 0.1,
+        "group_every": 5,
+        "enter": 1.0,
+        "leave": 0.3,
+        "inner_fraction": 0.05,
+        "local_fraction": 0.1,
+        "max_rejections": 4,
+        "max_attempts": 512,
+        "slow_bound_limit": 2.0,
+        "fallback_method": "CVODE-KLU",
+        "audit_rtol": 1e-11,
+        "fallback_rtol": 1e-08,
+        "estimator_ratio_limit": 2.0,
+        "timeout": 60.0
+      }
+    },
+    {
+      "model": "kecoli",
+      "target": 0.001,
+      "config": "Radau-0.001",
+      "parameters": {
+        "target": 0.001,
+        "initial_step": 1e-05,
+        "max_step": 0.1,
+        "group_every": 5,
+        "enter": 1.0,
+        "leave": 0.3,
+        "inner_fraction": 0.05,
+        "local_fraction": 0.1,
+        "max_rejections": 4,
+        "max_attempts": 512,
+        "slow_bound_limit": 2.0,
+        "fallback_method": "Radau",
+        "audit_rtol": 1e-11,
+        "fallback_rtol": 1e-08,
+        "estimator_ratio_limit": 2.0,
+        "timeout": 60.0
+      }
+    },
+    {
+      "model": "kecoli",
+      "target": 1e-05,
+      "config": "BDF-1e-05",
+      "parameters": {
+        "target": 1e-05,
+        "initial_step": 1e-05,
+        "max_step": 0.1,
+        "group_every": 5,
+        "enter": 1.0,
+        "leave": 0.3,
+        "inner_fraction": 0.05,
+        "local_fraction": 0.1,
+        "max_rejections": 4,
+        "max_attempts": 512,
+        "slow_bound_limit": 2.0,
+        "fallback_method": "BDF",
+        "audit_rtol": 1e-11,
+        "fallback_rtol": 1e-08,
+        "estimator_ratio_limit": 2.0,
+        "timeout": 60.0
+      }
+    },
+    {
+      "model": "kecoli",
+      "target": 1e-05,
+      "config": "CVODE-KLU-1e-05",
+      "parameters": {
+        "target": 1e-05,
+        "initial_step": 1e-05,
+        "max_step": 0.1,
+        "group_every": 5,
+        "enter": 1.0,
+        "leave": 0.3,
+        "inner_fraction": 0.05,
+        "local_fraction": 0.1,
+        "max_rejections": 4,
+        "max_attempts": 512,
+        "slow_bound_limit": 2.0,
+        "fallback_method": "CVODE-KLU",
+        "audit_rtol": 1e-11,
+        "fallback_rtol": 1e-08,
+        "estimator_ratio_limit": 2.0,
+        "timeout": 60.0
+      }
+    },
+    {
+      "model": "kecoli",
+      "target": 1e-05,
+      "config": "Radau-1e-05",
+      "parameters": {
+        "target": 1e-05,
+        "initial_step": 1e-05,
+        "max_step": 0.1,
+        "group_every": 5,
+        "enter": 1.0,
+        "leave": 0.3,
+        "inner_fraction": 0.05,
+        "local_fraction": 0.1,
+        "max_rejections": 4,
+        "max_attempts": 512,
+        "slow_bound_limit": 2.0,
+        "fallback_method": "Radau",
+        "audit_rtol": 1e-11,
+        "fallback_rtol": 1e-08,
+        "estimator_ratio_limit": 2.0,
+        "timeout": 60.0
+      }
+    }
+  ],
+  "formal_repeats": 7,
+  "warmups_per_config": 1,
+  "environment": {
+    "python": "3.12.10",
+    "numpy": "2.5.4"
+  },
+  "source_sha256": {
+    "research/m4_same_machine_baselines.py": "f2045e54feca2e215b421bff897e16cc2a1fe17b2783151914054f5717a67641",
+    "metabolism/adaptive.py": "427c67bfba193a79fb6d3d96aecc5ed01efa1a5d3fc7cbc82e525f3cf851db69",
+    "metabolism/m3_continuation.py": "90b539d8f7ce2dae6d574b6285bcd66fcb4b95b3950f96ff81fed6301bd65401",
+    "metabolism/splitting.py": "12ccc9526113e7080d9b56c7763c56a79d37a7fd9c2bacb9b25b2e7f6d1164a3"
+  },
+  "historical_baselines_sha256": "a3b53a728c7738fb520967e3d565df5ba3f9cc524ddf884ebdae1bce53a6a543"
+}

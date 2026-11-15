@@ -2,7 +2,9 @@
 
 面向刚性代谢动力学 ODE 的**自适应快—慢反应算子分裂**研究。
 
-**当前阶段：已完成 M3 的 macOS 续作，M4／PE 仍不准入。** 历史 43 项正确性检查及 273 次正式运行证据保留。新运行时、输出解耦和分区缓存已验证；16 个开发探针、9 个固定分组容差补查及 70 次同机强基线正式重复仍未展示分裂效率前景。真实模型完整窗口成功主要依赖完整系统回退，不能认定分裂加速。M5／M6 未执行。记录日期：2026-11-01 至 2026-11-08（Asia/Shanghai）。
+**当前阶段：M3 已完成审计容差／输出成本研究与固定反应列消融，M4／PE 仍不准入。** 原两真实模型、两正式精度档、完整窗口、至少 50% 反应分裂覆盖、7 次正式重复及相对最快合格成熟基线中位端到端 1.5 倍门槛保持不变。目标继续推进，M5／M6 未执行。最新整理：2026-11-15（Asia/Shanghai）。
+
+**2026-11-15 续进：**在[审计校准与输出成本研究](docs/m3-audit-output-cost.md)及[固定反应列消融](docs/m3-selected-reactions.md)之后，已完成[慢切线耦合](docs/m3-slow-tangent.md)的 96 个候选、48 个完整对照与六项独立数值检查。部分晚期 H=.03 曲线通过局部精度／收支，但仍慢于完整对照；正在独立验证每步重置 BDF 历史的审计资源复用。原门槛和逐候选完整 ODE 审计保留，最新缺口见[进度](docs/progress.md)及[机器状态](results/m4-admission/state.json)。以下保留早期研究过程。
 
 **最新研究：**结合文献完成 24 个大模型局部探针，MRI-GARK 与完整 RHS Hermite 输出明显改善了选定样例的耦合／输出误差；完整窗口效率仍待解决。下一轮建议与失败样例见 [M3 瓶颈研究](docs/m3-research-resolution.md)。
 
@@ -61,6 +63,26 @@
 | [M3 宏步增长与慢历史稳定性](docs/m3-growth-history.md) | 36 条增长路径与 100 个冻结线性配置，定位显式慢历史的稳定性／缩维障碍 |
 | [M3 隐式慢历史](docs/m3-implicit-history.md) | 300 个线性诊断、修正后的 108 个非线性候选，稳定性改善仍被迭代成本抵消 |
 | [M3 SPC-MRI-GARK](docs/m3-spc.md) | 文献系数与阶数、366 条局部记录，完整预测器成本与同优化基方法对照 |
+| [M4 准入与审计职责](docs/m4-admission-audit.md) | 原正式目标、运行时单条审计与离线收紧职责、机器判定的证据边界 |
+| [M3 线性隐式 ROW-SPC](docs/m3-row-spc.md) | ROS34PW2 预测器、三次慢驱动与连续输出 |
+| [M3 缓存与累计误差](docs/m3-cached-row.md) | 共享收支、当前矩阵预条件复用、自生成路径 |
+| [M3 流式累计缺陷](docs/m3-streaming-defect.md) | 跨步误差状态、预算控制与刚性误差输出 |
+| [M3 检查点恢复](docs/m3-checkpoint-recovery.md) | 完整事务恢复和废弃工作成本，两模型开发短窗 |
+| [M3 连续配点修正](docs/m3-collocation-correction.md) | 完整向量修正与成熟基线挑战 |
+| [M3 Rodas 连续驱动](docs/m3-rodas-continuous.md) | 四次连续驱动、阶段代数及物理收支 |
+| [M3 仿射误差归因](docs/m3-affine-attribution.md) | 冻结线性与真实非线性配对、预测器刚性误差 |
+| [M3 预测子步](docs/m3-subcycled-predictor.md) | 陈旧／刷新 Jacobian 的精度与成本 |
+| [M3 MERB 与有理作用](docs/m3-merb-predictor.md) | 少量非线性评价及完整线性预测器的边界 |
+| [M3 受控有理投影](docs/m3-controlled-rational.md) | 扩维、残差、稳定性与负值反例 |
+| [M3 连续余项修正](docs/m3-remainder-curve.md) | 两轮自生成曲线修正、原物理收支和完整预测成本 |
+| [M3 完整审计预算](docs/m3-audit-budget.md) | 双容差完整 ODE 与同优化强基线的剩余成本预算 |
+| [M3 审计容差校准](docs/m3-audit-calibration.md) | 336 对审计、128 条成熟对照、原 .05 开发参考预算 |
+| [M3 原正式档审计重评分](docs/m3-formal-audit-reanalysis.md) | 单条／配对职责、事后正式目标评分及有限值补充核验 |
+| [M3 必需审计输出成本](docs/m3-audit-output-cost.md) | 公共输出／四分点、真实评分、成熟对照及独立后端修正批 |
+| [M3 固定反应列成本](docs/m3-selected-reactions.md) | 保留全部动力学依赖的精确选择求值，192 条公平消融 |
+| [M3 后续方法复核](docs/m3-next-method-review.md) | 完整预测重复工作、选定反应评价及后续慢切线假设 |
+| [M3 慢切线设计](docs/m3-slow-tangent-design.md) | 真实反应分区、经典阶与刚性／覆盖边界、全维隐式成本 |
+| [M3 慢切线验证](docs/m3-slow-tangent.md) | 96 候选、48 完整对照、六项自检及全部前置曲线账本复核 |
 | [BibTeX 文献库](references.bib) | 与综述编号对应的可引用条目 |
 
 ## 运行 M1

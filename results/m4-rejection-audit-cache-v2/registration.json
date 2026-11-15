@@ -1,0 +1,27 @@
+{
+  "date": "2026-11-15",
+  "model": "kecoli",
+  "state_index": 61,
+  "archive_time": 0.00011497569953977356,
+  "window": 1e-06,
+  "retry_fractions": [
+    1.0,
+    0.5,
+    0.25,
+    0.125
+  ],
+  "method": "Radau",
+  "audit_rtol": 1e-10,
+  "truth_rtol": 1e-13,
+  "source_sha256": {
+    "research/m4_rejection_audit_cache.py": "8501875d51b75cd74392520929f91327b56da19f4a5b43e89ef7195505518806",
+    "metabolism/m3_continuation.py": "90b539d8f7ce2dae6d574b6285bcd66fcb4b95b3950f96ff81fed6301bd65401",
+    "metabolism/kecoli.py": "73f46ac5ceebe3242c8dc313fa80fb1588a32c82a58527b305f69fcd0fd4d851",
+    "metabolism/cvode.py": "6733fb499c0262bf87dc2040dd6aec44a91085f1dbe1b12f0056f8eb277e05c2"
+  },
+  "environment": {
+    "python": "3.12.10",
+    "numpy": "2.5.4"
+  },
+  "scope": "Same committed state and nested retry horizons; compares one independent dense full-ODE trajectory with fresh solves. Diagnostic only; not M4 evidence."
+}

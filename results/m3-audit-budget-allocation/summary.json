@@ -1,0 +1,53 @@
+{
+  "summary": [
+    {
+      "local_fraction": 0.1,
+      "mode": "coarse-fine",
+      "successes": 2,
+      "median_seconds": 46.26794702099869,
+      "median_coverage": 0.9999999999999998,
+      "median_global_error": 0.0001050475571253215,
+      "all_audited": true,
+      "all_no_clipping": true
+    },
+    {
+      "local_fraction": 0.1,
+      "mode": "audit-control-only",
+      "successes": 2,
+      "median_seconds": 40.76034714648267,
+      "median_coverage": 0.9999999999999991,
+      "median_global_error": 0.00012072905045418327,
+      "all_audited": true,
+      "all_no_clipping": true
+    },
+    {
+      "local_fraction": 1.0,
+      "mode": "coarse-fine",
+      "successes": 2,
+      "median_seconds": 18.500416666996898,
+      "median_coverage": 1.0000000000000004,
+      "median_global_error": 0.000606649226833725,
+      "all_audited": true,
+      "all_no_clipping": true
+    },
+    {
+      "local_fraction": 1.0,
+      "mode": "audit-control-only",
+      "successes": 2,
+      "median_seconds": 15.362688583001727,
+      "median_coverage": 1.0000000000000013,
+      "median_global_error": 0.0007637400346853777,
+      "all_audited": true,
+      "all_no_clipping": true
+    }
+  ],
+  "M4_admission": false,
+  "interpretation": "Initial-layer-only controller screen. A larger local audit allocation is not qualified unless independent global error and subsequent full-window metrics remain within the original targets.",
+  "source_sha256": {
+    "research/m3_audit_budget_allocation.py": "65ca5e3d5773a4789b26bcc05ed66807816ac4e2f8a081ffd3e60065b6d5af83",
+    "metabolism/continuation.py": "2aa6ca623d7c90335ff5985aee6a5447048f7cd915cfe9534c1db014f7ce5e66",
+    "metabolism/adaptive.py": "427c67bfba193a79fb6d3d96aecc5ed01efa1a5d3fc7cbc82e525f3cf851db69",
+    "metabolism/splitting.py": "12ccc9526113e7080d9b56c7763c56a79d37a7fd9c2bacb9b25b2e7f6d1164a3",
+    "metabolism/m3_continuation.py": "90b539d8f7ce2dae6d574b6285bcd66fcb4b95b3950f96ff81fed6301bd65401"
+  }
+}

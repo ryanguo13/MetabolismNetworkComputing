@@ -1,0 +1,9 @@
+{
+  "date": "2026-11-15",
+  "reason": "write stdout was redirected inside the output directory; after the first manifest snapshot, final printed summary appended to verification.log. Scientific data/source unchanged. Initial manifest preserved; final log hash recomputed.",
+  "initial_manifest_sha256": "441078d80eb7014f08d6711c9a5080ca574d741dbe8ac77960791d101f996fed",
+  "affected_entries": [
+    "results/m3-reusable-audit-corrected/verification.log"
+  ],
+  "initial_snapshot": "write-time-hash-snapshot.json"
+}

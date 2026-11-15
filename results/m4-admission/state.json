@@ -1,0 +1,489 @@
+{
+  "date": "2026-11-15",
+  "scope": "Read-only aggregation of existing M3 continuation evidence; not a future-method certification API",
+  "M4_admission": "not_admitted",
+  "evidence_integrity": "pass",
+  "checks": {
+    "historical_hashes": true,
+    "continuation_hashes": true,
+    "historical_correctness": true,
+    "continuation_checks": true,
+    "all_model_target_selections": true,
+    "teusink_registered_window": true,
+    "kecoli_registered_window": true
+  },
+  "formal_concentration_flux_targets": [
+    0.001,
+    1e-05
+  ],
+  "formal_kecoli_net_flux_target": 0.001,
+  "required_split_coverage": 0.5,
+  "required_median_speedup": 1.5,
+  "combinations": [
+    {
+      "model": "teusink",
+      "target": 0.001,
+      "candidate": {
+        "qualified": false,
+        "checks": {
+          "seven_distinct_formal_repeats": false,
+          "one_config": false,
+          "fixed_parameters": false,
+          "model_target": false,
+          "per_repeat_accuracy": false,
+          "per_repeat_split_coverage_and_audits": false
+        },
+        "median_seconds": null,
+        "iqr_seconds": null,
+        "formal_repeat_ids": []
+      },
+      "fastest_qualified_baseline": {
+        "config": "Radau-0.001",
+        "qualified": true,
+        "checks": {
+          "seven_distinct_formal_repeats": true,
+          "one_config": true,
+          "fixed_parameters": true,
+          "model_target": true,
+          "per_repeat_accuracy": true
+        },
+        "median_seconds": 0.7178068750072271,
+        "iqr_seconds": 0.015589187503792346,
+        "formal_repeat_ids": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ]
+      },
+      "baseline_configurations": [
+        {
+          "config": "BDF-0.001",
+          "qualified": true,
+          "checks": {
+            "seven_distinct_formal_repeats": true,
+            "one_config": true,
+            "fixed_parameters": true,
+            "model_target": true,
+            "per_repeat_accuracy": true
+          },
+          "median_seconds": 1.5448719579726458,
+          "iqr_seconds": 0.13196291646454483,
+          "formal_repeat_ids": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ]
+        },
+        {
+          "config": "Radau-0.001",
+          "qualified": true,
+          "checks": {
+            "seven_distinct_formal_repeats": true,
+            "one_config": true,
+            "fixed_parameters": true,
+            "model_target": true,
+            "per_repeat_accuracy": true
+          },
+          "median_seconds": 0.7178068750072271,
+          "iqr_seconds": 0.015589187503792346,
+          "formal_repeat_ids": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ]
+        }
+      ],
+      "median_speedup": null,
+      "passes": false
+    },
+    {
+      "model": "teusink",
+      "target": 1e-05,
+      "candidate": {
+        "qualified": false,
+        "checks": {
+          "seven_distinct_formal_repeats": false,
+          "one_config": false,
+          "fixed_parameters": false,
+          "model_target": false,
+          "per_repeat_accuracy": false,
+          "per_repeat_split_coverage_and_audits": false
+        },
+        "median_seconds": null,
+        "iqr_seconds": null,
+        "formal_repeat_ids": []
+      },
+      "fastest_qualified_baseline": {
+        "config": "Radau-1e-05",
+        "qualified": true,
+        "checks": {
+          "seven_distinct_formal_repeats": true,
+          "one_config": true,
+          "fixed_parameters": true,
+          "model_target": true,
+          "per_repeat_accuracy": true
+        },
+        "median_seconds": 0.7278831670992076,
+        "iqr_seconds": 0.03055137488991022,
+        "formal_repeat_ids": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ]
+      },
+      "baseline_configurations": [
+        {
+          "config": "BDF-1e-05",
+          "qualified": true,
+          "checks": {
+            "seven_distinct_formal_repeats": true,
+            "one_config": true,
+            "fixed_parameters": true,
+            "model_target": true,
+            "per_repeat_accuracy": true
+          },
+          "median_seconds": 1.5316800000146031,
+          "iqr_seconds": 0.158212520647794,
+          "formal_repeat_ids": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ]
+        },
+        {
+          "config": "Radau-1e-05",
+          "qualified": true,
+          "checks": {
+            "seven_distinct_formal_repeats": true,
+            "one_config": true,
+            "fixed_parameters": true,
+            "model_target": true,
+            "per_repeat_accuracy": true
+          },
+          "median_seconds": 0.7278831670992076,
+          "iqr_seconds": 0.03055137488991022,
+          "formal_repeat_ids": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ]
+        }
+      ],
+      "median_speedup": null,
+      "passes": false
+    },
+    {
+      "model": "kecoli",
+      "target": 0.001,
+      "candidate": {
+        "qualified": false,
+        "checks": {
+          "seven_distinct_formal_repeats": false,
+          "one_config": false,
+          "fixed_parameters": false,
+          "model_target": false,
+          "per_repeat_accuracy": false,
+          "per_repeat_split_coverage_and_audits": false
+        },
+        "median_seconds": null,
+        "iqr_seconds": null,
+        "formal_repeat_ids": []
+      },
+      "fastest_qualified_baseline": {
+        "config": "CVODE-KLU-0.001",
+        "qualified": true,
+        "checks": {
+          "seven_distinct_formal_repeats": true,
+          "one_config": true,
+          "fixed_parameters": true,
+          "model_target": true,
+          "per_repeat_accuracy": true
+        },
+        "median_seconds": 1.4079387921374291,
+        "iqr_seconds": 0.07165524957235903,
+        "formal_repeat_ids": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ]
+      },
+      "baseline_configurations": [
+        {
+          "config": "BDF-0.001",
+          "qualified": true,
+          "checks": {
+            "seven_distinct_formal_repeats": true,
+            "one_config": true,
+            "fixed_parameters": true,
+            "model_target": true,
+            "per_repeat_accuracy": true
+          },
+          "median_seconds": 2.1971512909512967,
+          "iqr_seconds": 0.4725369999650866,
+          "formal_repeat_ids": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ]
+        },
+        {
+          "config": "CVODE-KLU-0.001",
+          "qualified": true,
+          "checks": {
+            "seven_distinct_formal_repeats": true,
+            "one_config": true,
+            "fixed_parameters": true,
+            "model_target": true,
+            "per_repeat_accuracy": true
+          },
+          "median_seconds": 1.4079387921374291,
+          "iqr_seconds": 0.07165524957235903,
+          "formal_repeat_ids": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ]
+        },
+        {
+          "config": "Radau-0.001",
+          "qualified": true,
+          "checks": {
+            "seven_distinct_formal_repeats": true,
+            "one_config": true,
+            "fixed_parameters": true,
+            "model_target": true,
+            "per_repeat_accuracy": true
+          },
+          "median_seconds": 5.7838210829067975,
+          "iqr_seconds": 0.9794597285799682,
+          "formal_repeat_ids": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ]
+        }
+      ],
+      "median_speedup": null,
+      "passes": false
+    },
+    {
+      "model": "kecoli",
+      "target": 1e-05,
+      "candidate": {
+        "qualified": false,
+        "checks": {
+          "seven_distinct_formal_repeats": false,
+          "one_config": false,
+          "fixed_parameters": false,
+          "model_target": false,
+          "per_repeat_accuracy": false,
+          "per_repeat_split_coverage_and_audits": false
+        },
+        "median_seconds": null,
+        "iqr_seconds": null,
+        "formal_repeat_ids": []
+      },
+      "fastest_qualified_baseline": {
+        "config": "CVODE-KLU-1e-05",
+        "qualified": true,
+        "checks": {
+          "seven_distinct_formal_repeats": true,
+          "one_config": true,
+          "fixed_parameters": true,
+          "model_target": true,
+          "per_repeat_accuracy": true
+        },
+        "median_seconds": 1.3920109998434782,
+        "iqr_seconds": 0.20584322954528034,
+        "formal_repeat_ids": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ]
+      },
+      "baseline_configurations": [
+        {
+          "config": "BDF-1e-05",
+          "qualified": true,
+          "checks": {
+            "seven_distinct_formal_repeats": true,
+            "one_config": true,
+            "fixed_parameters": true,
+            "model_target": true,
+            "per_repeat_accuracy": true
+          },
+          "median_seconds": 2.284740500152111,
+          "iqr_seconds": 0.8926031466107816,
+          "formal_repeat_ids": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ]
+        },
+        {
+          "config": "CVODE-KLU-1e-05",
+          "qualified": true,
+          "checks": {
+            "seven_distinct_formal_repeats": true,
+            "one_config": true,
+            "fixed_parameters": true,
+            "model_target": true,
+            "per_repeat_accuracy": true
+          },
+          "median_seconds": 1.3920109998434782,
+          "iqr_seconds": 0.20584322954528034,
+          "formal_repeat_ids": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ]
+        },
+        {
+          "config": "Radau-1e-05",
+          "qualified": true,
+          "checks": {
+            "seven_distinct_formal_repeats": true,
+            "one_config": true,
+            "fixed_parameters": true,
+            "model_target": true,
+            "per_repeat_accuracy": true
+          },
+          "median_seconds": 6.103160290978849,
+          "iqr_seconds": 0.8977400835137814,
+          "formal_repeat_ids": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ]
+        }
+      ],
+      "median_speedup": null,
+      "passes": false
+    }
+  ],
+  "development_studies": [
+    {
+      "path": "results/m3-audit-budget/summary.json",
+      "sha256": "3e01ccd5435cc3b389a61919404fe4790a39715659b70c9754c76190183b4951",
+      "M4_admission": false,
+      "role": "Development evidence; never substitutes for formal trajectory repeats"
+    },
+    {
+      "path": "results/m3-audit-calibration/summary.json",
+      "sha256": "68aab995428db3eb8895478969bf793b1e0ef5027514699054f785a862029b73",
+      "M4_admission": false,
+      "role": "Development evidence; never substitutes for formal trajectory repeats"
+    },
+    {
+      "path": "results/m3-formal-audit-reanalysis/summary.json",
+      "sha256": "a11de18d2c70dc742c800366e011ae993f2558d2695e6c5d533205576e73b542",
+      "M4_admission": false,
+      "role": "Development evidence; never substitutes for formal trajectory repeats"
+    },
+    {
+      "path": "results/m3-audit-finite-validation/summary.json",
+      "sha256": "f1dfa40617d407f1f7f5aa5719d8bb28d6b72d4f335a3fe55803439f79ca65ca",
+      "M4_admission": false,
+      "role": "Development evidence; never substitutes for formal trajectory repeats"
+    },
+    {
+      "path": "results/m3-selected-cost/summary.json",
+      "sha256": "b5804ff601848e8b7c198fa1bfc4a1370ab0668cfdcd8502cb72b0ddf643797d",
+      "M4_admission": false,
+      "role": "Development evidence; never substitutes for formal trajectory repeats"
+    },
+    {
+      "path": "results/m3-audit-output-cost/summary.json",
+      "sha256": "df793b97cabe7ee5ebe7164fdc6b9dc532001a2792126b857455ea6e6d563da9",
+      "M4_admission": false,
+      "role": "Development evidence; never substitutes for formal trajectory repeats"
+    },
+    {
+      "path": "results/m3-audit-output-corrected/summary.json",
+      "sha256": "7a9665f9401ce72351b1234a7e92f56380471af69548ae6718b2472f9b9d76d3",
+      "M4_admission": false,
+      "role": "Development evidence; never substitutes for formal trajectory repeats"
+    },
+    {
+      "path": "results/m3-audit-output-integrity/summary.json",
+      "sha256": "ed711df4a3a14ef7484b66a6de1fca2dd6cae6a89d6342945f7a5d20b248cc37",
+      "M4_admission": false,
+      "role": "Development evidence; never substitutes for formal trajectory repeats"
+    }
+  ],
+  "missing_for_admission": [
+    "Qualifying genuine reaction-split trajectories for every model/target with seven distinct formal repeats and >=1.5 median speedup"
+  ],
+  "audit_policy": "Runtime complete nonlinear ODE audit remains required. Per-step paired solves are not an original hard gate; reliable independent tightening calibration is required.",
+  "inputs_sha256": {
+    "results/m3/acceptance.json": "0ce98c234c49978758802fdfdea24d0907c8934d77f224b7c38d57ab5de91827",
+    "results/m3-continuation/acceptance.json": "225959e752a3d4a09d5a30d4f76a1736ddf86142f95989dc182e772be4071d74",
+    "results/m3-continuation/candidates.json": "8d2dcb054e566dd6fefe5d9ec0345cfc088d963dc15e6a22937bc8fd9d9491d5",
+    "results/m3-continuation/baselines.json": "a3b53a728c7738fb520967e3d565df5ba3f9cc524ddf884ebdae1bce53a6a543"
+  },
+  "source_sha256": {
+    "metabolism/m4_admission.py": "f7bdddf78c4fa2ec0592a891a617151a16dd6ee04b4ba22865d368f483c70ad0",
+    "research/test_m4_admission.py": "b605bafd663fcabc1aa708ed09fe1adf6235bf191c9cb26c93590edf472eb428"
+  },
+  "limitations": [
+    "No ODE rerun or fresh trajectory metrics recomputation.",
+    "Existing acceptance hashes protect previously audited curves; new method output requires its own independent validation.",
+    "Development timing is not pooled with historical formal baselines."
+  ]
+}

@@ -1,0 +1,84 @@
+{
+  "date": "2026-11-15",
+  "prospective": true,
+  "initial_attempt": "results/m3-slow-tangent-initial; serialization implementation failure preserved and excluded",
+  "reference_keys": [
+    "0-3-1",
+    "0-3-2",
+    "0-2-1",
+    "0-2-2",
+    "1-3-1",
+    "1-3-2",
+    "1-2-1",
+    "1-2-2"
+  ],
+  "group_thresholds": {
+    "teusink": [
+      1.0,
+      3.0
+    ],
+    "kecoli": [
+      0.1,
+      1.0
+    ]
+  },
+  "classification_step": 0.001,
+  "sweeps": [
+    0,
+    1,
+    2
+  ],
+  "tolerances": [
+    1e-06,
+    1e-08
+  ],
+  "control_tolerances": [
+    1e-05,
+    1e-06,
+    1e-08
+  ],
+  "control_whole": [
+    false,
+    true
+  ],
+  "hypothesis": "Retain exact nonlinear fast reactions and frozen current slow reaction tangent in one modified IVP. Zero-sweep prediction; one/two cubic slow-remainder corrections at self-generated H/2,H. No full-system nonlinear predictor before fast correction. Test whether stiff linear slow coupling is resolved with fewer slow nonlinear evaluations.",
+  "formula": "zprime=fF(z)+fS(y)+Js*(z-y)+q^2*(A+q*B), Js=Ss*Dvs(y), A=8*Nhalf-Nend,B=2*Nend-8*Nhalf. Reactionwise N=vs(z)-vs(y)-Dvs(y)*(z-y). Current Jacobian fFprime(z)+Js; full implicit vector dimension explicitly retained.",
+  "scope": "96 tangent candidates and48 mature controls across8 known-state intervals. Single exploratory timings, not formal repeats. Preparation/classification separate, all candidate solves/guards/ledgers included. This method is an additive modified-equation diagnostic; reaction_split_coverage=0 pending independently qualified controller and nondegenerate work reduction.",
+  "qualification": "Original formal concentration/one-way1e-3/1e-5 and net1e-3 plus separate .1 local fractions; pools/physical and modified ledgers1e-10, no clipping, all curves/internal states checked. Independent fresh original ODE1e-12/1e-11 pair plus old archived independent truth, both <=.05 development strict units;65/public queries unchanged.",
+  "fairness": "Mature full Radau gets same complete gradient information, ordered factorization and auto/whole first-step. Single timings screen only; missing BDF/CVODE mature options prevent positive results from granting admission. Any baseline faster than a candidate already vetoes cost prospect. Previous complete audits remain required at runtime, fresh reference solve cost shown separately as a nonminimal conservative diagnostic.",
+  "stopping": "Only if both models have nondegenerate local-pass candidates with baseline/candidate>1.5 before audit, then prospective repeated cost and audited own-state paths may be considered. Otherwise retain all failures and do not build a production controller or formal repetitions. No PE.",
+  "source_sha256": {
+    "research/m3_slow_tangent_study.py": "3fbb0f3a8325f1cfa832f9eaf205bb6f91807dfcf07ffdc9568b9193608dbc36",
+    "research/slow_tangent.py": "967b1573efd92f2943ab361ec197c5b19150e8914d46e025f26cd90f8bfe61bb",
+    "research/test_slow_tangent.py": "16c23b6ca8dc47ad0d27690e07b1de462afe46b445185c70128f33453b45aeaa",
+    "research/extrapolated_flow.py": "2e5586c85464c8c49a6a55084ddadcf9cdac681d0459676f4c59397ae1af9d89",
+    "research/inner_dense.py": "e19b0221a27f5fa861c7a0877d64f9e04b638a3fc514326c7968541f13ec133b",
+    "research/fullstep_radau.py": "ec224519a31b512359d1645b4d2211e80b9d436a7cd6e7ff8dfca568d9439f32",
+    "research/ordered_radau.py": "f41f628d6575babc57ddf949706372357f379ad1ca9093f229826572c4a1c423",
+    "research/shared_radau.py": "0174d7d91eb1a3d59d514493a730af52b1e1a1d10b764bb892716c9da666edef",
+    "research/m3_priority.py": "6cc6821a1ac9a811f16d25c20c067b9d0516d1cb3bf60b9d144bdc93adc43856",
+    "research/mri_kernel.py": "e0dae63ea82d025f63f6ed9b78b5d581b92f036df3cddb67d52e9450a40872c3",
+    "research/remainder_curve.py": "fc7a20210d4257987d789f2462e4f8958ce5680bbb6845426857d08e35f9aa1c",
+    "research/m3_formal_audit_reanalysis.py": "3e473a7dd2e8b6e3415eaeb2ad8940c76f35c2416f81712d489073a96e648800",
+    "metabolism/adaptive.py": "427c67bfba193a79fb6d3d96aecc5ed01efa1a5d3fc7cbc82e525f3cf851db69",
+    "metabolism/splitting.py": "12ccc9526113e7080d9b56c7763c56a79d37a7fd9c2bacb9b25b2e7f6d1164a3",
+    "metabolism/sbml.py": "329df467e990958ee5373055020baadfed301dcbe32c0243d6a37b2aae6c5c2a",
+    "metabolism/kecoli.py": "73f46ac5ceebe3242c8dc313fa80fb1588a32c82a58527b305f69fcd0fd4d851",
+    "metabolism/cvode.py": "6733fb499c0262bf87dc2040dd6aec44a91085f1dbe1b12f0056f8eb277e05c2"
+  },
+  "input_sha256": {
+    "results/m3-slow-tangent-initial/registration.json": "e0073a222d3400b1c62472a7f90edf5dd2a9cb192af9165bc7958cee5e953bf1",
+    "results/m3-slow-tangent-initial/initial-source.py": "e4ba121a40a6fe7b5d7ed802f83e7568cd7fce5106f276f5ab522b5824449bc3",
+    "results/m3-slow-tangent-initial/failure.json": "f48af2a8329825856e8655ce420f81bddc71b73343548be867023916770580a4",
+    "results/m3-remainder-curve/manifest.json": "eeb1ff33949353e69f5fe119c9bb28610e59e6e8088c633756f5b3c2e2ca0dc1",
+    "results/m3-remainder-curve/runs.json": "83f9cb769c41685583c1f4ad6d75ada7f11ac4b9b5705fcdb19310fdac98aa38",
+    "results/m3-remainder-curve/reference-0-3-1.npz": "9555bcddb491c0e72699a6b86b4c3306439aaded51039bc66022082bcdb8ba26",
+    "results/m3-remainder-curve/reference-0-3-2.npz": "f8a3d96a746d7133ee01094a02e2a7440aae9f68a59154ca2c1b6e25ae003283",
+    "results/m3-remainder-curve/reference-0-2-1.npz": "02b62b1603d47212235bd0c79a839cebcdff7872249a9a70cbf668c4dfff71c2",
+    "results/m3-remainder-curve/reference-0-2-2.npz": "3796d64dd4f118c563601a18786e2cbb69ba7a4a524a86fecf9bfa92ff2f5870",
+    "results/m3-remainder-curve/reference-1-3-1.npz": "b3c3a2fb6f9e443f6b495a69462bf9a7924178e5760b3aed1212707acd869191",
+    "results/m3-remainder-curve/reference-1-3-2.npz": "74b0cf2a59637165a303b0c87562d2ea9d9e5e8c77c85b1bc23c615a907486df",
+    "results/m3-remainder-curve/reference-1-2-1.npz": "fc3ab6b73da688a2d36a6cd53299ba6df1657b26ac72c5f00fabb2829bccf8e5",
+    "results/m3-remainder-curve/reference-1-2-2.npz": "799ce3b91750cb8bee9b72c01038ed965363e53a37af1be58bacbe8f694fcc08"
+  }
+}

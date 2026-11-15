@@ -1,0 +1,10 @@
+{
+  "registration_sha256": "9a8547fd7443d7e9228e1dab662b2fb987f131b965b889b5792624c6c4f8e136",
+  "runs_sha256": "ba663f8f764cb57712235182147d1a1cd5c654bbc29e2c3215906fd8f8866a4a",
+  "source_sha256": {
+    "research/m4_same_machine_baselines.py": "f2045e54feca2e215b421bff897e16cc2a1fe17b2783151914054f5717a67641",
+    "metabolism/adaptive.py": "427c67bfba193a79fb6d3d96aecc5ed01efa1a5d3fc7cbc82e525f3cf851db69",
+    "metabolism/m3_continuation.py": "90b539d8f7ce2dae6d574b6285bcd66fcb4b95b3950f96ff81fed6301bd65401",
+    "metabolism/splitting.py": "12ccc9526113e7080d9b56c7763c56a79d37a7fd9c2bacb9b25b2e7f6d1164a3"
+  }
+}

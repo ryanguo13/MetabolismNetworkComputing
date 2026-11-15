@@ -1,0 +1,282 @@
+{
+  "date": "2026-11-15",
+  "checks": {
+    "audit_rows_checked": 336,
+    "mature_rows_checked": 128,
+    "audit_budget_indicators_checked": 2520,
+    "timing_quantities_checked": 2148,
+    "stored_arrays_checked": 252,
+    "all_metric_indicators_finite_nonnegative": true,
+    "all_timing_quantities_finite_nonnegative": true,
+    "all_solve_seconds_strictly_positive": true
+  },
+  "comparisons": [
+    {
+      "reference_key": "0-3-1",
+      "model": "teusink",
+      "target": 0.001,
+      "best_single": {
+        "method": "ordered-whole",
+        "tolerance": 1e-05,
+        "qualified": true,
+        "measured_solves": 6,
+        "median_seconds": 0.0009527500078547746,
+        "min_seconds": 0.000868665985763073,
+        "max_seconds": 0.00111774995457381,
+        "max_external_budget": 6.443699825205296e-05,
+        "median_pair_discrepancy_seconds_context": 0.0032944584963843226
+      },
+      "best_pair": {
+        "method": "ordered-whole",
+        "loose_tolerance": 0.0001,
+        "qualified": true,
+        "median_seconds": 0.0019160410156473517,
+        "median_solve_and_discrepancy_seconds": 0.005218458012677729
+      },
+      "best_baseline": {
+        "tolerance": 1e-06,
+        "whole": true,
+        "qualified": true,
+        "median_seconds": 0.002510958001948893,
+        "min_seconds": 0.002461208961904049,
+        "max_seconds": 0.002831124991644174
+      },
+      "single_solve_only_residual_1p5_budget": 0.0007212219934444875,
+      "offline_pair_solve_residual_1p5_budget": -0.0002420690143480897
+    },
+    {
+      "reference_key": "0-3-1",
+      "model": "teusink",
+      "target": 1e-05,
+      "best_single": {
+        "method": "ordered-whole",
+        "tolerance": 1e-05,
+        "qualified": true,
+        "measured_solves": 6,
+        "median_seconds": 0.0009527500078547746,
+        "min_seconds": 0.000868665985763073,
+        "max_seconds": 0.00111774995457381,
+        "max_external_budget": 0.006443699825205295,
+        "median_pair_discrepancy_seconds_context": 0.0032944584963843226
+      },
+      "best_pair": {
+        "method": "ordered-whole",
+        "loose_tolerance": 0.0001,
+        "qualified": true,
+        "median_seconds": 0.0019160410156473517,
+        "median_solve_and_discrepancy_seconds": 0.005218458012677729
+      },
+      "best_baseline": {
+        "tolerance": 1e-06,
+        "whole": true,
+        "qualified": true,
+        "median_seconds": 0.002510958001948893,
+        "min_seconds": 0.002461208961904049,
+        "max_seconds": 0.002831124991644174
+      },
+      "single_solve_only_residual_1p5_budget": 0.0007212219934444875,
+      "offline_pair_solve_residual_1p5_budget": -0.0002420690143480897
+    },
+    {
+      "reference_key": "0-2-1",
+      "model": "teusink",
+      "target": 0.001,
+      "best_single": {
+        "method": "current",
+        "tolerance": 0.0001,
+        "qualified": true,
+        "measured_solves": 3,
+        "median_seconds": 0.006324624991975725,
+        "min_seconds": 0.006117167009506375,
+        "max_seconds": 0.014340207970235497,
+        "max_external_budget": 0.04224664571575327,
+        "median_pair_discrepancy_seconds_context": 0.004569792014081031
+      },
+      "best_pair": {
+        "method": "current",
+        "loose_tolerance": 0.0001,
+        "qualified": true,
+        "median_seconds": 0.015536666964180768,
+        "median_solve_and_discrepancy_seconds": 0.019956250966060907
+      },
+      "best_baseline": {
+        "tolerance": 1e-06,
+        "whole": false,
+        "qualified": true,
+        "median_seconds": 0.03962004202185199,
+        "min_seconds": 0.033714207995217294,
+        "max_seconds": 0.043104249984025955
+      },
+      "single_solve_only_residual_1p5_budget": 0.0200887363559256,
+      "offline_pair_solve_residual_1p5_budget": 0.010876694383720558
+    },
+    {
+      "reference_key": "0-2-1",
+      "model": "teusink",
+      "target": 1e-05,
+      "best_single": {
+        "method": "current",
+        "tolerance": 1e-06,
+        "qualified": true,
+        "measured_solves": 6,
+        "median_seconds": 0.015163937991019338,
+        "min_seconds": 0.014963000023271888,
+        "max_seconds": 0.06128695799270645,
+        "max_external_budget": 0.03625946191477039,
+        "median_pair_discrepancy_seconds_context": 0.0048988125345204026
+      },
+      "best_pair": {
+        "method": "current",
+        "loose_tolerance": 1e-06,
+        "qualified": true,
+        "median_seconds": 0.04471337498398498,
+        "median_solve_and_discrepancy_seconds": 0.04941325000254437
+      },
+      "best_baseline": {
+        "tolerance": 1e-06,
+        "whole": false,
+        "qualified": true,
+        "median_seconds": 0.03962004202185199,
+        "min_seconds": 0.033714207995217294,
+        "max_seconds": 0.043104249984025955
+      },
+      "single_solve_only_residual_1p5_budget": 0.011249423356881987,
+      "offline_pair_solve_residual_1p5_budget": -0.01830001363608365
+    },
+    {
+      "reference_key": "1-3-1",
+      "model": "kecoli",
+      "target": 0.001,
+      "best_single": {
+        "method": "ordered-whole",
+        "tolerance": 1e-06,
+        "qualified": true,
+        "measured_solves": 6,
+        "median_seconds": 0.011924083024496213,
+        "min_seconds": 0.011623499973211437,
+        "max_seconds": 0.013726625009439886,
+        "max_external_budget": 0.002679039017999524,
+        "median_pair_discrepancy_seconds_context": 0.01445610451628454
+      },
+      "best_pair": {
+        "method": "ordered-whole",
+        "loose_tolerance": 1e-05,
+        "qualified": true,
+        "median_seconds": 0.023867040988989174,
+        "median_solve_and_discrepancy_seconds": 0.0380283750128001
+      },
+      "best_baseline": {
+        "tolerance": 1e-06,
+        "whole": true,
+        "qualified": true,
+        "median_seconds": 0.015497084008529782,
+        "min_seconds": 0.015114541980437934,
+        "max_seconds": 0.01727087498875335
+      },
+      "single_solve_only_residual_1p5_budget": -0.0015926936854763572,
+      "offline_pair_solve_residual_1p5_budget": -0.013535651649969319
+    },
+    {
+      "reference_key": "1-3-1",
+      "model": "kecoli",
+      "target": 1e-05,
+      "best_single": {
+        "method": "ordered-auto",
+        "tolerance": 1e-06,
+        "qualified": true,
+        "measured_solves": 6,
+        "median_seconds": 0.02406531199812889,
+        "min_seconds": 0.022880040982272476,
+        "max_seconds": 0.037475124991033226,
+        "max_external_budget": 0.027601349692059816,
+        "median_pair_discrepancy_seconds_context": 0.018973124999320135
+      },
+      "best_pair": {
+        "method": "ordered-auto",
+        "loose_tolerance": 1e-05,
+        "qualified": true,
+        "median_seconds": 0.047097748960368335,
+        "median_solve_and_discrepancy_seconds": 0.08040395803982392
+      },
+      "best_baseline": {
+        "tolerance": 1e-06,
+        "whole": true,
+        "qualified": true,
+        "median_seconds": 0.015497084008529782,
+        "min_seconds": 0.015114541980437934,
+        "max_seconds": 0.01727087498875335
+      },
+      "single_solve_only_residual_1p5_budget": -0.013733922659109036,
+      "offline_pair_solve_residual_1p5_budget": -0.03676635962134848
+    },
+    {
+      "reference_key": "1-2-1",
+      "model": "kecoli",
+      "target": 0.001,
+      "best_single": {
+        "method": "ordered-auto",
+        "tolerance": 1e-06,
+        "qualified": true,
+        "measured_solves": 6,
+        "median_seconds": 0.10653668746817857,
+        "min_seconds": 0.10595183301484212,
+        "max_seconds": 0.1240538340061903,
+        "max_external_budget": 0.02406437297620149,
+        "median_pair_discrepancy_seconds_context": 0.014868437516270205
+      },
+      "best_pair": {
+        "method": "ordered-auto",
+        "loose_tolerance": 1e-06,
+        "qualified": true,
+        "median_seconds": 0.2455007919925265,
+        "median_solve_and_discrepancy_seconds": 0.2609586249454878
+      },
+      "best_baseline": {
+        "tolerance": 1e-06,
+        "whole": false,
+        "qualified": true,
+        "median_seconds": 0.11198099999455735,
+        "min_seconds": 0.11152874998515472,
+        "max_seconds": 0.11844837496755645
+      },
+      "single_solve_only_residual_1p5_budget": -0.031882687471807,
+      "offline_pair_solve_residual_1p5_budget": -0.17084679199615493
+    },
+    {
+      "reference_key": "1-2-1",
+      "model": "kecoli",
+      "target": 1e-05,
+      "best_single": {
+        "method": "ordered-auto",
+        "tolerance": 1e-07,
+        "qualified": true,
+        "measured_solves": 6,
+        "median_seconds": 0.13872277102200314,
+        "min_seconds": 0.13746158295543864,
+        "max_seconds": 0.14267512498190627,
+        "max_external_budget": 0.0412944416386143,
+        "median_pair_discrepancy_seconds_context": 0.015216478990623727
+      },
+      "best_pair": {
+        "method": "ordered-auto",
+        "loose_tolerance": 1e-07,
+        "qualified": true,
+        "median_seconds": 0.3195820419350639,
+        "median_solve_and_discrepancy_seconds": 0.3350526259164326
+      },
+      "best_baseline": {
+        "tolerance": 1e-06,
+        "whole": false,
+        "qualified": true,
+        "median_seconds": 0.11198099999455735,
+        "min_seconds": 0.11152874998515472,
+        "max_seconds": 0.11844837496755645
+      },
+      "single_solve_only_residual_1p5_budget": -0.06406877102563158,
+      "offline_pair_solve_residual_1p5_budget": -0.24492804193869233
+    }
+  ],
+  "M4_admission": false,
+  "scope": "Additive validation of locked calibration and posthoc reanalysis; all finite/positive checks run before ranking. Current stored data pass, so previous local numeric classifications remain unchanged.",
+  "limitations": "Audit curves have only sampled nonnegative/pool guards, not internal RHS/continuous/physical-ledger certification; their times are optimistic cost bounds. Mature controls are optimized Radau only, without CVODE controls. Single solve budgets omit candidate scoring and numerical work. Local known-state posthoc results cannot grant M4."
+}

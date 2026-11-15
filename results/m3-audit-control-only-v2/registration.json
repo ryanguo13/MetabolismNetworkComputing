@@ -1,0 +1,26 @@
+{
+  "date": "2026-11-15",
+  "hypothesis": "Mandatory full-ODE audit error may replace the coarse/fine split estimator as a controller signal, eliminating one coarse split per candidate without reducing audit points or other acceptance guards.",
+  "scope": "Short initial-window development screen only; two models x two targets x original and audit-control-only modes x three interleaved repeats. Not formal M4 evidence.",
+  "protocol": {
+    "repeats": 3,
+    "independent_full_reference": true,
+    "no_clipping": true,
+    "all_attempts_preserved": true,
+    "audit_points": "all requested public points plus quarter/half/three-quarter/end",
+    "candidate_audit": "full original ODE solve from the same committed start for every split attempt",
+    "controls": "same system, tolerances, initial state, public grid and diagnostics; original uses coarse+fine split; variant uses fine split only; both retain complete per-candidate audit"
+  },
+  "source_sha256": {
+    "research/m3_audit_control_only.py": "fd20d4371e2bf46187c15bff54db1d6c77e6a960e1bafb08695f49ab6b99a7cb",
+    "metabolism/continuation.py": "2aa6ca623d7c90335ff5985aee6a5447048f7cd915cfe9534c1db014f7ce5e66",
+    "metabolism/adaptive.py": "427c67bfba193a79fb6d3d96aecc5ed01efa1a5d3fc7cbc82e525f3cf851db69",
+    "metabolism/splitting.py": "12ccc9526113e7080d9b56c7763c56a79d37a7fd9c2bacb9b25b2e7f6d1164a3",
+    "metabolism/m3_continuation.py": "90b539d8f7ce2dae6d574b6285bcd66fcb4b95b3950f96ff81fed6301bd65401",
+    "checks/test_continuation.py": "652d9f6bd2fe0c38b0a523c6d80fd67c6c56b418f3f8529d8a4bafb9ab6b979e"
+  },
+  "environment": {
+    "python": "3.12.10",
+    "numpy": "2.5.4"
+  }
+}

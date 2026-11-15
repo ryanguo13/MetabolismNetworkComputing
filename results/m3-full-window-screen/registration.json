@@ -1,0 +1,40 @@
+{
+  "date": "2026-11-15",
+  "hypothesis": "The locally promising audit-only controller with local_fraction=1.0 may achieve globally acceptable error and useful actual split coverage on the frozen full windows.",
+  "scope": "One candidate and one same-machine full-system control per model x target; original M1 initial states, full windows, public grids and scales. Development screen only; no warmup/seven-repeat formal claim.",
+  "candidate": {
+    "audit_control_only": true,
+    "local_fraction": 1.0,
+    "initial_step": 1e-05,
+    "max_step": {
+      "teusink": 0.1,
+      "kecoli": 0.01
+    },
+    "audit_rtol": 1e-11,
+    "fallback_rtol": 1e-11,
+    "max_attempts": 512,
+    "max_rejections": 16,
+    "timeout": 180.0
+  },
+  "gates": {
+    "full_ode_audit_every_attempt": true,
+    "audit_all_public_and_quarter_points": true,
+    "original_global_accuracy_scored": true,
+    "pools_and_open_ledger": true,
+    "no_clipping": true,
+    "rejected_trial_rollback": true,
+    "real_split_coverage_recomputed": true,
+    "full_cost_includes_setup_classification_split_audit_fallback_output": true
+  },
+  "source_sha256": {
+    "research/m3_full_window_screen.py": "e2d2cfeeee0f6b00c70fc8ca5089e6302f906fa47360a7d8a693ab3be13c1423",
+    "metabolism/continuation.py": "2aa6ca623d7c90335ff5985aee6a5447048f7cd915cfe9534c1db014f7ce5e66",
+    "metabolism/adaptive.py": "427c67bfba193a79fb6d3d96aecc5ed01efa1a5d3fc7cbc82e525f3cf851db69",
+    "metabolism/splitting.py": "12ccc9526113e7080d9b56c7763c56a79d37a7fd9c2bacb9b25b2e7f6d1164a3",
+    "metabolism/m3_continuation.py": "90b539d8f7ce2dae6d574b6285bcd66fcb4b95b3950f96ff81fed6301bd65401"
+  },
+  "environment": {
+    "python": "3.12.10",
+    "numpy": "2.5.4"
+  }
+}
