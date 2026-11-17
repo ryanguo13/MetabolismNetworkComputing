@@ -1,0 +1,34 @@
+{
+  "scope": "One real state, eight fixed intervals; short-window screen only.",
+  "candidate_wall_seconds": {
+    "predictor_only_linear_slow": 0.07324883399996907,
+    "quadratic_slow_remainder_corrected": 0.06671083299443126
+  },
+  "independent_audit_batch_wall_seconds": 6.312393816187978e-05,
+  "independent_audit_batch_wall_seconds_by_method": {
+    "predictor_only_linear_slow": 5.2540970500558615e-05,
+    "quadratic_slow_remainder_corrected": 1.0582967661321163e-05
+  },
+  "predictor_individual_audit_sum_seconds": 0,
+  "all_candidate_generation_wall_seconds": 0.13995966699440032,
+  "candidate_and_audit_wall_seconds_predictor_only": 0.07330137497046962,
+  "candidate_and_audit_wall_seconds_by_method": {
+    "predictor_only_linear_slow": 0.07330137497046962,
+    "quadratic_slow_remainder_corrected": 0.06672141596209258
+  },
+  "candidate_and_audit_wall_seconds_both_methods": 0.1400227909325622,
+  "budget_seconds": {
+    "target_1e3": 0.9386258614249527,
+    "target_1e5": 0.9280073332289854
+  },
+  "predictor_budget_ratio": {
+    "target_1e3": 0.07809434832659401,
+    "target_1e5": 0.0789879264374116
+  },
+  "audit_failures": [],
+  "step_results": [],
+  "predictor_candidate_complete": false,
+  "all_correctness_gates_pass": false,
+  "M4_admission": false,
+  "interpretation": "Short-window cost evidence only; no full-window, seven-repeat, or admission claim."
+}

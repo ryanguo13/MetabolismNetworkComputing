@@ -1,0 +1,4132 @@
+{
+  "rows": [
+    {
+      "state_index": 0,
+      "state_time": 0.0,
+      "step": 1.25e-09,
+      "method": "DOP853",
+      "repeat": -1,
+      "warmup": true,
+      "status": "success",
+      "seconds": 0.0026468340074643493,
+      "counts": {
+        "accepted_steps": 3003,
+        "nfev": 17,
+        "njev": 0,
+        "nlu": 0,
+        "min_internal_state": 0.0,
+        "internal_states_checked": true,
+        "observed_rhs_calls": 17,
+        "min_rhs_argument": 0.0
+      },
+      "metrics": {
+        "0.001": {
+          "concentration_error": 3.383323925956526e-06,
+          "flux_error": 3.41562842908641e-06,
+          "net_flux_error": 0.004179132586581824,
+          "pool_error": 3.989863994746656e-17,
+          "finite": true,
+          "nonnegative": true,
+          "passes": true
+        },
+        "1e-05": {
+          "concentration_error": 0.00033833239259565255,
+          "flux_error": 0.000341562842908641,
+          "net_flux_error": 0.004179132586581824,
+          "pool_error": 3.989863994746656e-17,
+          "finite": true,
+          "nonnegative": true,
+          "passes": true
+        }
+      },
+      "npz": "DOP853-state-0-h-1.25e-09-rep--1.npz"
+    },
+    {
+      "state_index": 0,
+      "state_time": 0.0,
+      "step": 1.25e-09,
+      "method": "BDF",
+      "repeat": -1,
+      "warmup": true,
+      "status": "success",
+      "seconds": 0.08855508296983317,
+      "counts": {
+        "accepted_steps": 3003,
+        "nfev": 12,
+        "njev": 1,
+        "nlu": 3,
+        "min_internal_state": 0.0,
+        "internal_states_checked": true,
+        "observed_rhs_calls": 12,
+        "min_rhs_argument": 0.0
+      },
+      "metrics": {
+        "0.001": {
+          "concentration_error": 4.965035259799757e-05,
+          "flux_error": 5.006746020346251e-05,
+          "net_flux_error": 0.06133799526595809,
+          "pool_error": 3.989863994746656e-17,
+          "finite": true,
+          "nonnegative": true,
+          "passes": true
+        },
+        "1e-05": {
+          "concentration_error": 0.004965035259799756,
+          "flux_error": 0.005006746020346251,
+          "net_flux_error": 0.06133799526595809,
+          "pool_error": 3.989863994746656e-17,
+          "finite": true,
+          "nonnegative": true,
+          "passes": true
+        }
+      },
+      "npz": "BDF-state-0-h-1.25e-09-rep--1.npz"
+    },
+    {
+      "state_index": 0,
+      "state_time": 0.0,
+      "step": 1.25e-09,
+      "method": "CVODE-KLU",
+      "repeat": -1,
+      "warmup": true,
+      "status": "success",
+      "seconds": 0.16115358303068206,
+      "counts": {
+        "accepted_steps": 4,
+        "nfev": 7,
+        "njev": 1,
+        "linear_solver_setups": 4,
+        "error_test_failures": 0,
+        "nonlinear_iterations": 4,
+        "nonlinear_convergence_failures": 0,
+        "rhs_seconds": 0.0013838769518770278,
+        "jacobian_seconds": 0.0011966670281253755,
+        "min_rhs_argument": 0.0,
+        "observed_rhs_calls": 7,
+        "linear_solver": "SUNDIALS 6.4.1 KLU sparse CSC, default COLAMD ordering",
+        "internal_states_checked": false,
+        "min_internal_state": null
+      },
+      "metrics": {
+        "0.001": {
+          "concentration_error": 3.997204579607983e-05,
+          "flux_error": 4.089899260839562e-05,
+          "net_flux_error": 0.04951016159615944,
+          "pool_error": 7.979727989493311e-17,
+          "finite": true,
+          "nonnegative": true,
+          "passes": true
+        },
+        "1e-05": {
+          "concentration_error": 0.003997204579607982,
+          "flux_error": 0.004089899260839561,
+          "net_flux_error": 0.04951016159615944,
+          "pool_error": 7.979727989493311e-17,
+          "finite": true,
+          "nonnegative": true,
+          "passes": true
+        }
+      },
+      "npz": "CVODE-KLU-state-0-h-1.25e-09-rep--1.npz"
+    },
+    {
+      "state_index": 0,
+      "state_time": 0.0,
+      "step": 2.0702068244140594e-09,
+      "method": "DOP853",
+      "repeat": -1,
+      "warmup": true,
+      "status": "success",
+      "seconds": 0.003456417005509138,
+      "counts": {
+        "accepted_steps": 3003,
+        "nfev": 17,
+        "njev": 0,
+        "nlu": 0,
+        "min_internal_state": 0.0,
+        "internal_states_checked": true,
+        "observed_rhs_calls": 17,
+        "min_rhs_argument": 0.0
+      },
+      "metrics": {
+        "0.001": {
+          "concentration_error": 0.0014814620403159583,
+          "flux_error": 0.0014956073513063613,
+          "net_flux_error": 1.8299224528742317,
+          "pool_error": 2.7755575615628907e-17,
+          "finite": true,
+          "nonnegative": true,
+          "passes": false
+        },
+        "1e-05": {
+          "concentration_error": 0.14814620403159579,
+          "flux_error": 0.14956073513063614,
+          "net_flux_error": 1.8299224528742317,
+          "pool_error": 2.7755575615628907e-17,
+          "finite": true,
+          "nonnegative": true,
+          "passes": false
+        }
+      },
+      "npz": "DOP853-state-0-h-2.0702068244140594e-09-rep--1.npz"
+    },
+    {
+      "state_index": 0,
+      "state_time": 0.0,
+      "step": 2.0702068244140594e-09,
+      "method": "BDF",
+      "repeat": -1,
+      "warmup": true,
+      "status": "success",
+      "seconds": 0.08351716696051881,
+      "counts": {
+        "accepted_steps": 3003,
+        "nfev": 14,
+        "njev": 1,
+        "nlu": 3,
+        "min_internal_state": 0.0,
+        "internal_states_checked": true,
+        "observed_rhs_calls": 14,
+        "min_rhs_argument": 0.0
+      },
+      "metrics": {
+        "0.001": {
+          "concentration_error": 5.8412105158161885e-05,
+          "flux_error": 5.898709312511606e-05,
+          "net_flux_error": 0.07216067533555695,
+          "pool_error": 1.4571677198205177e-16,
+          "finite": true,
+          "nonnegative": true,
+          "passes": true
+        },
+        "1e-05": {
+          "concentration_error": 0.005841210515816188,
+          "flux_error": 0.005898709312511605,
+          "net_flux_error": 0.07216067533555695,
+          "pool_error": 1.4571677198205177e-16,
+          "finite": true,
+          "nonnegative": true,
+          "passes": true
+        }
+      },
+      "npz": "BDF-state-0-h-2.0702068244140594e-09-rep--1.npz"
+    },
+    {
+      "state_index": 0,
+      "state_time": 0.0,
+      "step": 2.0702068244140594e-09,
+      "method": "CVODE-KLU",
+      "repeat": -1,
+      "warmup": true,
+      "status": "success",
+      "seconds": 0.11134679103270173,
+      "counts": {
+        "accepted_steps": 5,
+        "nfev": 9,
+        "njev": 1,
+        "linear_solver_setups": 4,
+        "error_test_failures": 0,
+        "nonlinear_iterations": 6,
+        "nonlinear_convergence_failures": 0,
+        "rhs_seconds": 0.001972458092495799,
+        "jacobian_seconds": 0.0010712909861467779,
+        "min_rhs_argument": 0.0,
+        "observed_rhs_calls": 9,
+        "linear_solver": "SUNDIALS 6.4.1 KLU sparse CSC, default COLAMD ordering",
+        "internal_states_checked": false,
+        "min_internal_state": null
+      },
+      "metrics": {
+        "0.001": {
+          "concentration_error": 6.405540567160983e-05,
+          "flux_error": 6.497293397027728e-05,
+          "net_flux_error": 0.0793211704201314,
+          "pool_error": 6.071532165918824e-17,
+          "finite": true,
+          "nonnegative": true,
+          "passes": true
+        },
+        "1e-05": {
+          "concentration_error": 0.006405540567160982,
+          "flux_error": 0.006497293397027728,
+          "net_flux_error": 0.0793211704201314,
+          "pool_error": 6.071532165918824e-17,
+          "finite": true,
+          "nonnegative": true,
+          "passes": true
+        }
+      },
+      "npz": "CVODE-KLU-state-0-h-2.0702068244140594e-09-rep--1.npz"
+    },
+    {
+      "state_index": 0,
+      "state_time": 0.0,
+      "step": 2.0702082944319767e-09,
+      "method": "DOP853",
+      "repeat": -1,
+      "warmup": true,
+      "status": "success",
+      "seconds": 0.0028177500353194773,
+      "counts": {
+        "accepted_steps": 3003,
+        "nfev": 17,
+        "njev": 0,
+        "nlu": 0,
+        "min_internal_state": 0.0,
+        "internal_states_checked": true,
+        "observed_rhs_calls": 17,
+        "min_rhs_argument": 0.0
+      },
+      "metrics": {
+        "0.001": {
+          "concentration_error": 0.001481498524075067,
+          "flux_error": 0.0014956441834587293,
+          "net_flux_error": 1.829967517364297,
+          "pool_error": 3.989863994746656e-17,
+          "finite": true,
+          "nonnegative": true,
+          "passes": false
+        },
+        "1e-05": {
+          "concentration_error": 0.14814985240750667,
+          "flux_error": 0.14956441834587295,
+          "net_flux_error": 1.829967517364297,
+          "pool_error": 3.989863994746656e-17,
+          "finite": true,
+          "nonnegative": true,
+          "passes": false
+        }
+      },
+      "npz": "DOP853-state-0-h-2.0702082944319767e-09-rep--1.npz"
+    },
+    {
+      "state_index": 0,
+      "state_time": 0.0,
+      "step": 2.0702082944319767e-09,
+      "method": "BDF",
+      "repeat": -1,
+      "warmup": true,
+      "status": "success",
+      "seconds": 0.07064558297861367,
+      "counts": {
+        "accepted_steps": 3003,
+        "nfev": 14,
+        "njev": 1,
+        "nlu": 3,
+        "min_internal_state": 0.0,
+        "internal_states_checked": true,
+        "observed_rhs_calls": 14,
+        "min_rhs_argument": 0.0
+      },
+      "metrics": {
+        "0.001": {
+          "concentration_error": 5.841205924887252e-05,
+          "flux_error": 5.898704516658433e-05,
+          "net_flux_error": 0.07216061113541083,
+          "pool_error": 5.5511151231257815e-17,
+          "finite": true,
+          "nonnegative": true,
+          "passes": true
+        },
+        "1e-05": {
+          "concentration_error": 0.005841205924887251,
+          "flux_error": 0.0058987045166584325,
+          "net_flux_error": 0.07216061113541083,
+          "pool_error": 5.5511151231257815e-17,
+          "finite": true,
+          "nonnegative": true,
+          "passes": true
+        }
+      },
+      "npz": "BDF-state-0-h-2.0702082944319767e-09-rep--1.npz"
+    },
+    {
+      "state_index": 0,
+      "state_time": 0.0,
+      "step": 2.0702082944319767e-09,
+      "method": "CVODE-KLU",
+      "repeat": -1,
+      "warmup": true,
+      "status": "success",
+      "seconds": 0.1037425419781357,
+      "counts": {
+        "accepted_steps": 5,
+        "nfev": 9,
+        "njev": 1,
+        "linear_solver_setups": 4,
+        "error_test_failures": 0,
+        "nonlinear_iterations": 6,
+        "nonlinear_convergence_failures": 0,
+        "rhs_seconds": 0.0015172509592957795,
+        "jacobian_seconds": 0.0009202919900417328,
+        "min_rhs_argument": 0.0,
+        "observed_rhs_calls": 9,
+        "linear_solver": "SUNDIALS 6.4.1 KLU sparse CSC, default COLAMD ordering",
+        "internal_states_checked": false,
+        "min_internal_state": null
+      },
+      "metrics": {
+        "0.001": {
+          "concentration_error": 6.405541273457743e-05,
+          "flux_error": 6.497293785452615e-05,
+          "net_flux_error": 0.0793211824576588,
+          "pool_error": 4.3368086899420165e-17,
+          "finite": true,
+          "nonnegative": true,
+          "passes": true
+        },
+        "1e-05": {
+          "concentration_error": 0.0064055412734577415,
+          "flux_error": 0.006497293785452615,
+          "net_flux_error": 0.0793211824576588,
+          "pool_error": 4.3368086899420165e-17,
+          "finite": true,
+          "nonnegative": true,
+          "passes": true
+        }
+      },
+      "npz": "CVODE-KLU-state-0-h-2.0702082944319767e-09-rep--1.npz"
+    },
+    {
+      "state_index": 0,
+      "state_time": 0.0,
+      "step": 2.070209316649743e-09,
+      "method": "DOP853",
+      "repeat": -1,
+      "warmup": true,
+      "status": "success",
+      "seconds": 0.0024364999844692647,
+      "counts": {
+        "accepted_steps": 3003,
+        "nfev": 17,
+        "njev": 0,
+        "nlu": 0,
+        "min_internal_state": 0.0,
+        "internal_states_checked": true,
+        "observed_rhs_calls": 17,
+        "min_rhs_argument": 0.0
+      },
+      "metrics": {
+        "0.001": {
+          "concentration_error": 0.0014815122403581352,
+          "flux_error": 0.0014956580303947995,
+          "net_flux_error": 1.829984458177854,
+          "pool_error": 3.989863994746656e-17,
+          "finite": true,
+          "nonnegative": true,
+          "passes": false
+        },
+        "1e-05": {
+          "concentration_error": 0.1481512240358135,
+          "flux_error": 0.14956580303947994,
+          "net_flux_error": 1.829984458177854,
+          "pool_error": 3.989863994746656e-17,
+          "finite": true,
+          "nonnegative": true,
+          "passes": false
+        }
+      },
+      "npz": "DOP853-state-0-h-2.0702093166497431e-09-rep--1.npz"
+    },
+    {
+      "state_index": 0,
+      "state_time": 0.0,
+      "step": 2.070209316649743e-09,
+      "method": "BDF",
+      "repeat": -1,
+      "warmup": true,
+      "status": "success",
+      "seconds": 0.06798370799515396,
+      "counts": {
+        "accepted_steps": 3003,
+        "nfev": 14,
+        "njev": 1,
+        "nlu": 3,
+        "min_internal_state": 0.0,
+        "internal_states_checked": true,
+        "observed_rhs_calls": 14,
+        "min_rhs_argument": 0.0
+      },
+      "metrics": {
+        "0.001": {
+          "concentration_error": 5.841203099700214e-05,
+          "flux_error": 5.8987023367251726e-05,
+          "net_flux_error": 0.07216058304784691,
+          "pool_error": 8.153200337090992e-17,
+          "finite": true,
+          "nonnegative": true,
+          "passes": true
+        },
+        "1e-05": {
+          "concentration_error": 0.005841203099700213,
+          "flux_error": 0.0058987023367251725,
+          "net_flux_error": 0.07216058304784691,
+          "pool_error": 8.153200337090992e-17,
+          "finite": true,
+          "nonnegative": true,
+          "passes": true
+        }
+      },
+      "npz": "BDF-state-0-h-2.0702093166497431e-09-rep--1.npz"
+    },
+    {
+      "state_index": 0,
+      "state_time": 0.0,
+      "step": 2.070209316649743e-09,
+      "method": "CVODE-KLU",
+      "repeat": -1,
+      "warmup": true,
+      "status": "success",
+      "seconds": 0.1039335000095889,
+      "counts": {
+        "accepted_steps": 5,
+        "nfev": 9,
+        "njev": 1,
+        "linear_solver_setups": 4,
+        "error_test_failures": 0,
+        "nonlinear_iterations": 6,
+        "nonlinear_convergence_failures": 0,
+        "rhs_seconds": 0.0014424191322177649,
+        "jacobian_seconds": 0.0009152920101769269,
+        "min_rhs_argument": 0.0,
+        "observed_rhs_calls": 9,
+        "linear_solver": "SUNDIALS 6.4.1 KLU sparse CSC, default COLAMD ordering",
+        "internal_states_checked": false,
+        "min_internal_state": null
+      },
+      "metrics": {
+        "0.001": {
+          "concentration_error": 6.405543039199641e-05,
+          "flux_error": 6.497295339152164e-05,
+          "net_flux_error": 0.07932119850769533,
+          "pool_error": 6.591949208711866e-17,
+          "finite": true,
+          "nonnegative": true,
+          "passes": true
+        },
+        "1e-05": {
+          "concentration_error": 0.00640554303919964,
+          "flux_error": 0.006497295339152163,
+          "net_flux_error": 0.07932119850769533,
+          "pool_error": 6.591949208711866e-17,
+          "finite": true,
+          "nonnegative": true,
+          "passes": true
+        }
+      },
+      "npz": "CVODE-KLU-state-0-h-2.0702093166497431e-09-rep--1.npz"
+    },
+    {
+      "state_index": 61,
+      "state_time": 0.00011497569953977356,
+      "step": 1.25e-09,
+      "method": "DOP853",
+      "repeat": -1,
+      "warmup": true,
+      "status": "success",
+      "seconds": 0.0022808340145274997,
+      "counts": {
+        "accepted_steps": 3003,
+        "nfev": 17,
+        "njev": 0,
+        "nlu": 0,
+        "min_internal_state": 0.0,
+        "internal_states_checked": true,
+        "observed_rhs_calls": 17,
+        "min_rhs_argument": 0.0
+      },
+      "metrics": {
+        "0.001": {
+          "concentration_error": 7.981153381634858e-10,
+          "flux_error": 8.001552671597565e-10,
+          "net_flux_error": 9.83064737426187e-07,
+          "pool_error": 4.1633363423443333e-17,
+          "finite": true,
+          "nonnegative": true,
+          "passes": true
+        },
+        "1e-05": {
+          "concentration_error": 7.981153381634857e-08,
+          "flux_error": 8.001552671597565e-08,
+          "net_flux_error": 9.83064737426187e-07,
+          "pool_error": 4.1633363423443333e-17,
+          "finite": true,
+          "nonnegative": true,
+          "passes": true
+        }
+      },
+      "npz": "DOP853-state-61-h-1.25e-09-rep--1.npz"
+    },
+    {
+      "state_index": 61,
+      "state_time": 0.00011497569953977356,
+      "step": 1.25e-09,
+      "method": "BDF",
+      "repeat": -1,
+      "warmup": true,
+      "status": "success",
+      "seconds": 0.021454458008520305,
+      "counts": {
+        "accepted_steps": 3003,
+        "nfev": 4,
+        "njev": 1,
+        "nlu": 1,
+        "min_internal_state": 0.0,
+        "internal_states_checked": true,
+        "observed_rhs_calls": 4,
+        "min_rhs_argument": 0.0
+      },
+      "metrics": {
+        "0.001": {
+          "concentration_error": 2.568797715436317e-08,
+          "flux_error": 2.5687592589971577e-08,
+          "net_flux_error": 7.978212483092634e-08,
+          "pool_error": 6.41847686111418e-17,
+          "finite": true,
+          "nonnegative": true,
+          "passes": true
+        },
+        "1e-05": {
+          "concentration_error": 2.5687977154363166e-06,
+          "flux_error": 2.5687592589971574e-06,
+          "net_flux_error": 7.978212483092634e-08,
+          "pool_error": 6.41847686111418e-17,
+          "finite": true,
+          "nonnegative": true,
+          "passes": true
+        }
+      },
+      "npz": "BDF-state-61-h-1.25e-09-rep--1.npz"
+    },
+    {
+      "state_index": 61,
+      "state_time": 0.00011497569953977356,
+      "step": 1.25e-09,
+      "method": "CVODE-KLU",
+      "repeat": -1,
+      "warmup": true,
+      "status": "success",
+      "seconds": 0.07685316703282297,
+      "counts": {
+        "accepted_steps": 3,
+        "nfev": 6,
+        "njev": 1,
+        "linear_solver_setups": 3,
+        "error_test_failures": 0,
+        "nonlinear_iterations": 3,
+        "nonlinear_convergence_failures": 0,
+        "rhs_seconds": 0.0008785409736447036,
+        "jacobian_seconds": 0.0008583750459365547,
+        "min_rhs_argument": 0.0,
+        "observed_rhs_calls": 6,
+        "linear_solver": "SUNDIALS 6.4.1 KLU sparse CSC, default COLAMD ordering",
+        "internal_states_checked": false,
+        "min_internal_state": null
+      },
+      "metrics": {
+        "0.001": {
+          "concentration_error": 8.166207937372052e-08,
+          "flux_error": 8.166216766964106e-08,
+          "net_flux_error": 1.1749530196184709e-07,
+          "pool_error": 6.938893903907222e-17,
+          "finite": true,
+          "nonnegative": true,
+          "passes": true
+        },
+        "1e-05": {
+          "concentration_error": 8.166207937372051e-06,
+          "flux_error": 8.166216766964105e-06,
+          "net_flux_error": 1.1749530196184709e-07,
+          "pool_error": 6.938893903907222e-17,
+          "finite": true,
+          "nonnegative": true,
+          "passes": true
+        }
+      },
+      "npz": "CVODE-KLU-state-61-h-1.25e-09-rep--1.npz"
+    },
+    {
+      "state_index": 61,
+      "state_time": 0.00011497569953977356,
+      "step": 2.0702068244140594e-09,
+      "method": "DOP853",
+      "repeat": -1,
+      "warmup": true,
+      "status": "success",
+      "seconds": 0.0025704160216264427,
+      "counts": {
+        "accepted_steps": 3003,
+        "nfev": 17,
+        "njev": 0,
+        "nlu": 0,
+        "min_internal_state": 0.0,
+        "internal_states_checked": true,
+        "observed_rhs_calls": 17,
+        "min_rhs_argument": 0.0
+      },
+      "metrics": {
+        "0.001": {
+          "concentration_error": 4.025891528789264e-10,
+          "flux_error": 4.056455832015755e-10,
+          "net_flux_error": 4.975511324116211e-07,
+          "pool_error": 3.469446951953611e-17,
+          "finite": true,
+          "nonnegative": true,
+          "passes": true
+        },
+        "1e-05": {
+          "concentration_error": 4.025891528789264e-08,
+          "flux_error": 4.056455832015754e-08,
+          "net_flux_error": 4.975511324116211e-07,
+          "pool_error": 3.469446951953611e-17,
+          "finite": true,
+          "nonnegative": true,
+          "passes": true
+        }
+      },
+      "npz": "DOP853-state-61-h-2.0702068244140594e-09-rep--1.npz"
+    },
+    {
+      "state_index": 61,
+      "state_time": 0.00011497569953977356,
+      "step": 2.0702068244140594e-09,
+      "method": "BDF",
+      "repeat": -1,
+      "warmup": true,
+      "status": "success",
+      "seconds": 0.022331333020702004,
+      "counts": {
+        "accepted_steps": 3003,
+        "nfev": 4,
+        "njev": 1,
+        "nlu": 1,
+        "min_internal_state": 0.0,
+        "internal_states_checked": true,
+        "observed_rhs_calls": 4,
+        "min_rhs_argument": 0.0
+      },
+      "metrics": {
+        "0.001": {
+          "concentration_error": 7.045784000489245e-08,
+          "flux_error": 7.04578622326619e-08,
+          "net_flux_error": 1.0106107162313215e-07,
+          "pool_error": 5.898059818321139e-17,
+          "finite": true,
+          "nonnegative": true,
+          "passes": true
+        },
+        "1e-05": {
+          "concentration_error": 7.045784000489244e-06,
+          "flux_error": 7.045786223266189e-06,
+          "net_flux_error": 1.0106107162313215e-07,
+          "pool_error": 5.898059818321139e-17,
+          "finite": true,
+          "nonnegative": true,
+          "passes": true
+        }
+      },
+      "npz": "BDF-state-61-h-2.0702068244140594e-09-rep--1.npz"
+    },
+    {
+      "state_index": 61,
+      "state_time": 0.00011497569953977356,
+      "step": 2.0702068244140594e-09,
+      "method": "CVODE-KLU",
+      "repeat": -1,
+      "warmup": true,
+      "status": "success",
+      "seconds": 0.07752641598926857,
+      "counts": {
+        "accepted_steps": 3,
+        "nfev": 6,
+        "njev": 1,
+        "linear_solver_setups": 3,
+        "error_test_failures": 0,
+        "nonlinear_iterations": 3,
+        "nonlinear_convergence_failures": 0,
+        "rhs_seconds": 0.0009989580721594393,
+        "jacobian_seconds": 0.0009108340018428862,
+        "min_rhs_argument": 0.0,
+        "observed_rhs_calls": 6,
+        "linear_solver": "SUNDIALS 6.4.1 KLU sparse CSC, default COLAMD ordering",
+        "internal_states_checked": false,
+        "min_internal_state": null
+      },
+      "metrics": {
+        "0.001": {
+          "concentration_error": 2.2398845746223252e-07,
+          "flux_error": 2.2398837170421427e-07,
+          "net_flux_error": 3.216953364003627e-07,
+          "pool_error": 1.231653667943532e-16,
+          "finite": true,
+          "nonnegative": true,
+          "passes": true
+        },
+        "1e-05": {
+          "concentration_error": 2.239884574622325e-05,
+          "flux_error": 2.2398837170421424e-05,
+          "net_flux_error": 3.216953364003627e-07,
+          "pool_error": 1.231653667943532e-16,
+          "finite": true,
+          "nonnegative": true,
+          "passes": true
+        }
+      },
+      "npz": "CVODE-KLU-state-61-h-2.0702068244140594e-09-rep--1.npz"
+    },
+    {
+      "state_index": 61,
+      "state_time": 0.00011497569953977356,
+      "step": 2.0702082944319767e-09,
+      "method": "DOP853",
+      "repeat": -1,
+      "warmup": true,
+      "status": "success",
+      "seconds": 0.0023813750012777746,
+      "counts": {
+        "accepted_steps": 3003,
+        "nfev": 17,
+        "njev": 0,
+        "nlu": 0,
+        "min_internal_state": 0.0,
+        "internal_states_checked": true,
+        "observed_rhs_calls": 17,
+        "min_rhs_argument": 0.0
+      },
+      "metrics": {
+        "0.001": {
+          "concentration_error": 2.212827747315222e-08,
+          "flux_error": 2.221790353472722e-08,
+          "net_flux_error": 2.734524973697741e-05,
+          "pool_error": 3.469446951953611e-17,
+          "finite": true,
+          "nonnegative": true,
+          "passes": true
+        },
+        "1e-05": {
+          "concentration_error": 2.212827747315222e-06,
+          "flux_error": 2.221790353472722e-06,
+          "net_flux_error": 2.734524973697741e-05,
+          "pool_error": 3.469446951953611e-17,
+          "finite": true,
+          "nonnegative": true,
+          "passes": true
+        }
+      },
+      "npz": "DOP853-state-61-h-2.0702082944319767e-09-rep--1.npz"
+    },
+    {
+      "state_index": 61,
+      "state_time": 0.00011497569953977356,
+      "step": 2.0702082944319767e-09,
+      "method": "BDF",
+      "repeat": -1,
+      "warmup": true,
+      "status": "success",
+      "seconds": 0.022309333959128708,
+      "counts": {
+        "accepted_steps": 3003,
+        "nfev": 4,
+        "njev": 1,
+        "nlu": 1,
+        "min_internal_state": 0.0,
+        "internal_states_checked": true,
+        "observed_rhs_calls": 4,
+        "min_rhs_argument": 0.0
+      },
+      "metrics": {
+        "0.001": {
+          "concentration_error": 7.045784000489245e-08,
+          "flux_error": 7.04578622326619e-08,
+          "net_flux_error": 1.0124997082242772e-07,
+          "pool_error": 5.551115123125778e-17,
+          "finite": true,
+          "nonnegative": true,
+          "passes": true
+        },
+        "1e-05": {
+          "concentration_error": 7.045784000489244e-06,
+          "flux_error": 7.045786223266189e-06,
+          "net_flux_error": 1.0124997082242772e-07,
+          "pool_error": 5.551115123125778e-17,
+          "finite": true,
+          "nonnegative": true,
+          "passes": true
+        }
+      },
+      "npz": "BDF-state-61-h-2.0702082944319767e-09-rep--1.npz"
+    },
+    {
+      "state_index": 61,
+      "state_time": 0.00011497569953977356,
+      "step": 2.0702082944319767e-09,
+      "method": "CVODE-KLU",
+      "repeat": -1,
+      "warmup": true,
+      "status": "success",
+      "seconds": 0.07980083301663399,
+      "counts": {
+        "accepted_steps": 3,
+        "nfev": 6,
+        "njev": 1,
+        "linear_solver_setups": 3,
+        "error_test_failures": 0,
+        "nonlinear_iterations": 3,
+        "nonlinear_convergence_failures": 0,
+        "rhs_seconds": 0.0010622510453686118,
+        "jacobian_seconds": 0.0010294999810867012,
+        "min_rhs_argument": 0.0,
+        "observed_rhs_calls": 6,
+        "linear_solver": "SUNDIALS 6.4.1 KLU sparse CSC, default COLAMD ordering",
+        "internal_states_checked": false,
+        "min_internal_state": null
+      },
+      "metrics": {
+        "0.001": {
+          "concentration_error": 2.2398845746223252e-07,
+          "flux_error": 2.2398837170421427e-07,
+          "net_flux_error": 3.216953364003627e-07,
+          "pool_error": 8.673617379884028e-17,
+          "finite": true,
+          "nonnegative": true,
+          "passes": true
+        },
+        "1e-05": {
+          "concentration_error": 2.239884574622325e-05,
+          "flux_error": 2.2398837170421424e-05,
+          "net_flux_error": 3.216953364003627e-07,
+          "pool_error": 8.673617379884028e-17,
+          "finite": true,
+          "nonnegative": true,
+          "passes": true
+        }
+      },
+      "npz": "CVODE-KLU-state-61-h-2.0702082944319767e-09-rep--1.npz"
+    },
+    {
+      "state_index": 61,
+      "state_time": 0.00011497569953977356,
+      "step": 2.070209316649743e-09,
+      "method": "DOP853",
+      "repeat": -1,
+      "warmup": true,
+      "status": "success",
+      "seconds": 0.0027318329666741192,
+      "counts": {
+        "accepted_steps": 3003,
+        "nfev": 17,
+        "njev": 0,
+        "nlu": 0,
+        "min_internal_state": 0.0,
+        "internal_states_checked": true,
+        "observed_rhs_calls": 17,
+        "min_rhs_argument": 0.0
+      },
+      "metrics": {
+        "0.001": {
+          "concentration_error": 6.783980374389629e-09,
+          "flux_error": 6.812972517467053e-09,
+          "net_flux_error": 8.382131577482876e-06,
+          "pool_error": 5.030698080332736e-17,
+          "finite": true,
+          "nonnegative": true,
+          "passes": true
+        },
+        "1e-05": {
+          "concentration_error": 6.783980374389628e-07,
+          "flux_error": 6.812972517467052e-07,
+          "net_flux_error": 8.382131577482876e-06,
+          "pool_error": 5.030698080332736e-17,
+          "finite": true,
+          "nonnegative": true,
+          "passes": true
+        }
+      },
+      "npz": "DOP853-state-61-h-2.0702093166497431e-09-rep--1.npz"
+    },
+    {
+      "state_index": 61,
+      "state_time": 0.00011497569953977356,
+      "step": 2.070209316649743e-09,
+      "method": "BDF",
+      "repeat": -1,
+      "warmup": true,
+      "status": "success",
+      "seconds": 0.022537291049957275,
+      "counts": {
+        "accepted_steps": 3003,
+        "nfev": 4,
+        "njev": 1,
+        "nlu": 1,
+        "min_internal_state": 0.0,
+        "internal_states_checked": true,
+        "observed_rhs_calls": 4,
+        "min_rhs_argument": 0.0
+      },
+      "metrics": {
+        "0.001": {
+          "concentration_error": 7.045891033727388e-08,
+          "flux_error": 7.045882043889101e-08,
+          "net_flux_error": 1.0124997082242772e-07,
+          "pool_error": 4.8572257327350556e-17,
+          "finite": true,
+          "nonnegative": true,
+          "passes": true
+        },
+        "1e-05": {
+          "concentration_error": 7.045891033727387e-06,
+          "flux_error": 7.045882043889099e-06,
+          "net_flux_error": 1.0124997082242772e-07,
+          "pool_error": 4.8572257327350556e-17,
+          "finite": true,
+          "nonnegative": true,
+          "passes": true
+        }
+      },
+      "npz": "BDF-state-61-h-2.0702093166497431e-09-rep--1.npz"
+    },
+    {
+      "state_index": 61,
+      "state_time": 0.00011497569953977356,
+      "step": 2.070209316649743e-09,
+      "method": "CVODE-KLU",
+      "repeat": -1,
+      "warmup": true,
+      "status": "success",
+      "seconds": 0.08027362497523427,
+      "counts": {
+        "accepted_steps": 3,
+        "nfev": 6,
+        "njev": 1,
+        "linear_solver_setups": 3,
+        "error_test_failures": 0,
+        "nonlinear_iterations": 3,
+        "nonlinear_convergence_failures": 0,
+        "rhs_seconds": 0.0009766659350134432,
+        "jacobian_seconds": 0.0009327919688075781,
+        "min_rhs_argument": 0.0,
+        "observed_rhs_calls": 6,
+        "linear_solver": "SUNDIALS 6.4.1 KLU sparse CSC, default COLAMD ordering",
+        "internal_states_checked": false,
+        "min_internal_state": null
+      },
+      "metrics": {
+        "0.001": {
+          "concentration_error": 2.239905981269954e-07,
+          "flux_error": 2.2399028811667248e-07,
+          "net_flux_error": 3.218842355996583e-07,
+          "pool_error": 7.632783294297945e-17,
+          "finite": true,
+          "nonnegative": true,
+          "passes": true
+        },
+        "1e-05": {
+          "concentration_error": 2.2399059812699536e-05,
+          "flux_error": 2.2399028811667245e-05,
+          "net_flux_error": 3.218842355996583e-07,
+          "pool_error": 7.632783294297945e-17,
+          "finite": true,
+          "nonnegative": true,
+          "passes": true
+        }
+      },
+      "npz": "CVODE-KLU-state-61-h-2.0702093166497431e-09-rep--1.npz"
+    },
+    {
+      "state_index": 0,
+      "state_time": 0.0,
+      "step": 1.25e-09,
+      "method": "DOP853",
+      "repeat": 0,
+      "warmup": false,
+      "status": "success",
+      "seconds": 0.002304166031535715,
+      "counts": {
+        "accepted_steps": 3003,
+        "nfev": 17,
+        "njev": 0,
+        "nlu": 0,
+        "min_internal_state": 0.0,
+        "internal_states_checked": true,
+        "observed_rhs_calls": 17,
+        "min_rhs_argument": 0.0
+      },
+      "metrics": {
+        "0.001": {
+          "concentration_error": 3.383323925956526e-06,
+          "flux_error": 3.41562842908641e-06,
+          "net_flux_error": 0.004179132586581824,
+          "pool_error": 3.989863994746656e-17,
+          "finite": true,
+          "nonnegative": true,
+          "passes": true
+        },
+        "1e-05": {
+          "concentration_error": 0.00033833239259565255,
+          "flux_error": 0.000341562842908641,
+          "net_flux_error": 0.004179132586581824,
+          "pool_error": 3.989863994746656e-17,
+          "finite": true,
+          "nonnegative": true,
+          "passes": true
+        }
+      },
+      "npz": "DOP853-state-0-h-1.25e-09-rep-0.npz"
+    },
+    {
+      "state_index": 0,
+      "state_time": 0.0,
+      "step": 1.25e-09,
+      "method": "BDF",
+      "repeat": 0,
+      "warmup": false,
+      "status": "success",
+      "seconds": 0.06839008297538385,
+      "counts": {
+        "accepted_steps": 3003,
+        "nfev": 12,
+        "njev": 1,
+        "nlu": 3,
+        "min_internal_state": 0.0,
+        "internal_states_checked": true,
+        "observed_rhs_calls": 12,
+        "min_rhs_argument": 0.0
+      },
+      "metrics": {
+        "0.001": {
+          "concentration_error": 4.965035259799757e-05,
+          "flux_error": 5.006746020346251e-05,
+          "net_flux_error": 0.06133799526595809,
+          "pool_error": 3.989863994746656e-17,
+          "finite": true,
+          "nonnegative": true,
+          "passes": true
+        },
+        "1e-05": {
+          "concentration_error": 0.004965035259799756,
+          "flux_error": 0.005006746020346251,
+          "net_flux_error": 0.06133799526595809,
+          "pool_error": 3.989863994746656e-17,
+          "finite": true,
+          "nonnegative": true,
+          "passes": true
+        }
+      },
+      "npz": "BDF-state-0-h-1.25e-09-rep-0.npz"
+    },
+    {
+      "state_index": 0,
+      "state_time": 0.0,
+      "step": 1.25e-09,
+      "method": "CVODE-KLU",
+      "repeat": 0,
+      "warmup": false,
+      "status": "success",
+      "seconds": 0.10305891698226333,
+      "counts": {
+        "accepted_steps": 4,
+        "nfev": 7,
+        "njev": 1,
+        "linear_solver_setups": 4,
+        "error_test_failures": 0,
+        "nonlinear_iterations": 4,
+        "nonlinear_convergence_failures": 0,
+        "rhs_seconds": 0.0011470829485915601,
+        "jacobian_seconds": 0.0009763330454006791,
+        "min_rhs_argument": 0.0,
+        "observed_rhs_calls": 7,
+        "linear_solver": "SUNDIALS 6.4.1 KLU sparse CSC, default COLAMD ordering",
+        "internal_states_checked": false,
+        "min_internal_state": null
+      },
+      "metrics": {
+        "0.001": {
+          "concentration_error": 3.997204579607983e-05,
+          "flux_error": 4.089899260839562e-05,
+          "net_flux_error": 0.04951016159615944,
+          "pool_error": 7.979727989493311e-17,
+          "finite": true,
+          "nonnegative": true,
+          "passes": true
+        },
+        "1e-05": {
+          "concentration_error": 0.003997204579607982,
+          "flux_error": 0.004089899260839561,
+          "net_flux_error": 0.04951016159615944,
+          "pool_error": 7.979727989493311e-17,
+          "finite": true,
+          "nonnegative": true,
+          "passes": true
+        }
+      },
+      "npz": "CVODE-KLU-state-0-h-1.25e-09-rep-0.npz"
+    },
+    {
+      "state_index": 0,
+      "state_time": 0.0,
+      "step": 2.0702068244140594e-09,
+      "method": "DOP853",
+      "repeat": 0,
+      "warmup": false,
+      "status": "success",
+      "seconds": 0.002475833985954523,
+      "counts": {
+        "accepted_steps": 3003,
+        "nfev": 17,
+        "njev": 0,
+        "nlu": 0,
+        "min_internal_state": 0.0,
+        "internal_states_checked": true,
+        "observed_rhs_calls": 17,
+        "min_rhs_argument": 0.0
+      },
+      "metrics": {
+        "0.001": {
+          "concentration_error": 0.0014814620403159583,
+          "flux_error": 0.0014956073513063613,
+          "net_flux_error": 1.8299224528742317,
+          "pool_error": 2.7755575615628907e-17,
+          "finite": true,
+          "nonnegative": true,
+          "passes": false
+        },
+        "1e-05": {
+          "concentration_error": 0.14814620403159579,
+          "flux_error": 0.14956073513063614,
+          "net_flux_error": 1.8299224528742317,
+          "pool_error": 2.7755575615628907e-17,
+          "finite": true,
+          "nonnegative": true,
+          "passes": false
+        }
+      },
+      "npz": "DOP853-state-0-h-2.0702068244140594e-09-rep-0.npz"
+    },
+    {
+      "state_index": 0,
+      "state_time": 0.0,
+      "step": 2.0702068244140594e-09,
+      "method": "BDF",
+      "repeat": 0,
+      "warmup": false,
+      "status": "success",
+      "seconds": 0.06812283303588629,
+      "counts": {
+        "accepted_steps": 3003,
+        "nfev": 14,
+        "njev": 1,
+        "nlu": 3,
+        "min_internal_state": 0.0,
+        "internal_states_checked": true,
+        "observed_rhs_calls": 14,
+        "min_rhs_argument": 0.0
+      },
+      "metrics": {
+        "0.001": {
+          "concentration_error": 5.8412105158161885e-05,
+          "flux_error": 5.898709312511606e-05,
+          "net_flux_error": 0.07216067533555695,
+          "pool_error": 1.4571677198205177e-16,
+          "finite": true,
+          "nonnegative": true,
+          "passes": true
+        },
+        "1e-05": {
+          "concentration_error": 0.005841210515816188,
+          "flux_error": 0.005898709312511605,
+          "net_flux_error": 0.07216067533555695,
+          "pool_error": 1.4571677198205177e-16,
+          "finite": true,
+          "nonnegative": true,
+          "passes": true
+        }
+      },
+      "npz": "BDF-state-0-h-2.0702068244140594e-09-rep-0.npz"
+    },
+    {
+      "state_index": 0,
+      "state_time": 0.0,
+      "step": 2.0702068244140594e-09,
+      "method": "CVODE-KLU",
+      "repeat": 0,
+      "warmup": false,
+      "status": "success",
+      "seconds": 0.10338724998291582,
+      "counts": {
+        "accepted_steps": 5,
+        "nfev": 9,
+        "njev": 1,
+        "linear_solver_setups": 4,
+        "error_test_failures": 0,
+        "nonlinear_iterations": 6,
+        "nonlinear_convergence_failures": 0,
+        "rhs_seconds": 0.0015217499458231032,
+        "jacobian_seconds": 0.0009111660183407366,
+        "min_rhs_argument": 0.0,
+        "observed_rhs_calls": 9,
+        "linear_solver": "SUNDIALS 6.4.1 KLU sparse CSC, default COLAMD ordering",
+        "internal_states_checked": false,
+        "min_internal_state": null
+      },
+      "metrics": {
+        "0.001": {
+          "concentration_error": 6.405540567160983e-05,
+          "flux_error": 6.497293397027728e-05,
+          "net_flux_error": 0.0793211704201314,
+          "pool_error": 6.071532165918824e-17,
+          "finite": true,
+          "nonnegative": true,
+          "passes": true
+        },
+        "1e-05": {
+          "concentration_error": 0.006405540567160982,
+          "flux_error": 0.006497293397027728,
+          "net_flux_error": 0.0793211704201314,
+          "pool_error": 6.071532165918824e-17,
+          "finite": true,
+          "nonnegative": true,
+          "passes": true
+        }
+      },
+      "npz": "CVODE-KLU-state-0-h-2.0702068244140594e-09-rep-0.npz"
+    },
+    {
+      "state_index": 0,
+      "state_time": 0.0,
+      "step": 2.0702082944319767e-09,
+      "method": "DOP853",
+      "repeat": 0,
+      "warmup": false,
+      "status": "success",
+      "seconds": 0.0024852919741533697,
+      "counts": {
+        "accepted_steps": 3003,
+        "nfev": 17,
+        "njev": 0,
+        "nlu": 0,
+        "min_internal_state": 0.0,
+        "internal_states_checked": true,
+        "observed_rhs_calls": 17,
+        "min_rhs_argument": 0.0
+      },
+      "metrics": {
+        "0.001": {
+          "concentration_error": 0.001481498524075067,
+          "flux_error": 0.0014956441834587293,
+          "net_flux_error": 1.829967517364297,
+          "pool_error": 3.989863994746656e-17,
+          "finite": true,
+          "nonnegative": true,
+          "passes": false
+        },
+        "1e-05": {
+          "concentration_error": 0.14814985240750667,
+          "flux_error": 0.14956441834587295,
+          "net_flux_error": 1.829967517364297,
+          "pool_error": 3.989863994746656e-17,
+          "finite": true,
+          "nonnegative": true,
+          "passes": false
+        }
+      },
+      "npz": "DOP853-state-0-h-2.0702082944319767e-09-rep-0.npz"
+    },
+    {
+      "state_index": 0,
+      "state_time": 0.0,
+      "step": 2.0702082944319767e-09,
+      "method": "BDF",
+      "repeat": 0,
+      "warmup": false,
+      "status": "success",
+      "seconds": 0.06841295800404623,
+      "counts": {
+        "accepted_steps": 3003,
+        "nfev": 14,
+        "njev": 1,
+        "nlu": 3,
+        "min_internal_state": 0.0,
+        "internal_states_checked": true,
+        "observed_rhs_calls": 14,
+        "min_rhs_argument": 0.0
+      },
+      "metrics": {
+        "0.001": {
+          "concentration_error": 5.841205924887252e-05,
+          "flux_error": 5.898704516658433e-05,
+          "net_flux_error": 0.07216061113541083,
+          "pool_error": 5.5511151231257815e-17,
+          "finite": true,
+          "nonnegative": true,
+          "passes": true
+        },
+        "1e-05": {
+          "concentration_error": 0.005841205924887251,
+          "flux_error": 0.0058987045166584325,
+          "net_flux_error": 0.07216061113541083,
+          "pool_error": 5.5511151231257815e-17,
+          "finite": true,
+          "nonnegative": true,
+          "passes": true
+        }
+      },
+      "npz": "BDF-state-0-h-2.0702082944319767e-09-rep-0.npz"
+    },
+    {
+      "state_index": 0,
+      "state_time": 0.0,
+      "step": 2.0702082944319767e-09,
+      "method": "CVODE-KLU",
+      "repeat": 0,
+      "warmup": false,
+      "status": "success",
+      "seconds": 0.10733837494626641,
+      "counts": {
+        "accepted_steps": 5,
+        "nfev": 9,
+        "njev": 1,
+        "linear_solver_setups": 4,
+        "error_test_failures": 0,
+        "nonlinear_iterations": 6,
+        "nonlinear_convergence_failures": 0,
+        "rhs_seconds": 0.0016421680920757353,
+        "jacobian_seconds": 0.0009108330123126507,
+        "min_rhs_argument": 0.0,
+        "observed_rhs_calls": 9,
+        "linear_solver": "SUNDIALS 6.4.1 KLU sparse CSC, default COLAMD ordering",
+        "internal_states_checked": false,
+        "min_internal_state": null
+      },
+      "metrics": {
+        "0.001": {
+          "concentration_error": 6.405541273457743e-05,
+          "flux_error": 6.497293785452615e-05,
+          "net_flux_error": 0.0793211824576588,
+          "pool_error": 4.3368086899420165e-17,
+          "finite": true,
+          "nonnegative": true,
+          "passes": true
+        },
+        "1e-05": {
+          "concentration_error": 0.0064055412734577415,
+          "flux_error": 0.006497293785452615,
+          "net_flux_error": 0.0793211824576588,
+          "pool_error": 4.3368086899420165e-17,
+          "finite": true,
+          "nonnegative": true,
+          "passes": true
+        }
+      },
+      "npz": "CVODE-KLU-state-0-h-2.0702082944319767e-09-rep-0.npz"
+    },
+    {
+      "state_index": 0,
+      "state_time": 0.0,
+      "step": 2.070209316649743e-09,
+      "method": "DOP853",
+      "repeat": 0,
+      "warmup": false,
+      "status": "success",
+      "seconds": 0.002690791036002338,
+      "counts": {
+        "accepted_steps": 3003,
+        "nfev": 17,
+        "njev": 0,
+        "nlu": 0,
+        "min_internal_state": 0.0,
+        "internal_states_checked": true,
+        "observed_rhs_calls": 17,
+        "min_rhs_argument": 0.0
+      },
+      "metrics": {
+        "0.001": {
+          "concentration_error": 0.0014815122403581352,
+          "flux_error": 0.0014956580303947995,
+          "net_flux_error": 1.829984458177854,
+          "pool_error": 3.989863994746656e-17,
+          "finite": true,
+          "nonnegative": true,
+          "passes": false
+        },
+        "1e-05": {
+          "concentration_error": 0.1481512240358135,
+          "flux_error": 0.14956580303947994,
+          "net_flux_error": 1.829984458177854,
+          "pool_error": 3.989863994746656e-17,
+          "finite": true,
+          "nonnegative": true,
+          "passes": false
+        }
+      },
+      "npz": "DOP853-state-0-h-2.0702093166497431e-09-rep-0.npz"
+    },
+    {
+      "state_index": 0,
+      "state_time": 0.0,
+      "step": 2.070209316649743e-09,
+      "method": "BDF",
+      "repeat": 0,
+      "warmup": false,
+      "status": "success",
+      "seconds": 0.06528974999673665,
+      "counts": {
+        "accepted_steps": 3003,
+        "nfev": 14,
+        "njev": 1,
+        "nlu": 3,
+        "min_internal_state": 0.0,
+        "internal_states_checked": true,
+        "observed_rhs_calls": 14,
+        "min_rhs_argument": 0.0
+      },
+      "metrics": {
+        "0.001": {
+          "concentration_error": 5.841203099700214e-05,
+          "flux_error": 5.8987023367251726e-05,
+          "net_flux_error": 0.07216058304784691,
+          "pool_error": 8.153200337090992e-17,
+          "finite": true,
+          "nonnegative": true,
+          "passes": true
+        },
+        "1e-05": {
+          "concentration_error": 0.005841203099700213,
+          "flux_error": 0.0058987023367251725,
+          "net_flux_error": 0.07216058304784691,
+          "pool_error": 8.153200337090992e-17,
+          "finite": true,
+          "nonnegative": true,
+          "passes": true
+        }
+      },
+      "npz": "BDF-state-0-h-2.0702093166497431e-09-rep-0.npz"
+    },
+    {
+      "state_index": 0,
+      "state_time": 0.0,
+      "step": 2.070209316649743e-09,
+      "method": "CVODE-KLU",
+      "repeat": 0,
+      "warmup": false,
+      "status": "success",
+      "seconds": 0.10259108303580433,
+      "counts": {
+        "accepted_steps": 5,
+        "nfev": 9,
+        "njev": 1,
+        "linear_solver_setups": 4,
+        "error_test_failures": 0,
+        "nonlinear_iterations": 6,
+        "nonlinear_convergence_failures": 0,
+        "rhs_seconds": 0.0016219189274124801,
+        "jacobian_seconds": 0.0009727079886943102,
+        "min_rhs_argument": 0.0,
+        "observed_rhs_calls": 9,
+        "linear_solver": "SUNDIALS 6.4.1 KLU sparse CSC, default COLAMD ordering",
+        "internal_states_checked": false,
+        "min_internal_state": null
+      },
+      "metrics": {
+        "0.001": {
+          "concentration_error": 6.405543039199641e-05,
+          "flux_error": 6.497295339152164e-05,
+          "net_flux_error": 0.07932119850769533,
+          "pool_error": 6.591949208711866e-17,
+          "finite": true,
+          "nonnegative": true,
+          "passes": true
+        },
+        "1e-05": {
+          "concentration_error": 0.00640554303919964,
+          "flux_error": 0.006497295339152163,
+          "net_flux_error": 0.07932119850769533,
+          "pool_error": 6.591949208711866e-17,
+          "finite": true,
+          "nonnegative": true,
+          "passes": true
+        }
+      },
+      "npz": "CVODE-KLU-state-0-h-2.0702093166497431e-09-rep-0.npz"
+    },
+    {
+      "state_index": 61,
+      "state_time": 0.00011497569953977356,
+      "step": 1.25e-09,
+      "method": "DOP853",
+      "repeat": 0,
+      "warmup": false,
+      "status": "success",
+      "seconds": 0.0024709580466151237,
+      "counts": {
+        "accepted_steps": 3003,
+        "nfev": 17,
+        "njev": 0,
+        "nlu": 0,
+        "min_internal_state": 0.0,
+        "internal_states_checked": true,
+        "observed_rhs_calls": 17,
+        "min_rhs_argument": 0.0
+      },
+      "metrics": {
+        "0.001": {
+          "concentration_error": 7.981153381634858e-10,
+          "flux_error": 8.001552671597565e-10,
+          "net_flux_error": 9.83064737426187e-07,
+          "pool_error": 4.1633363423443333e-17,
+          "finite": true,
+          "nonnegative": true,
+          "passes": true
+        },
+        "1e-05": {
+          "concentration_error": 7.981153381634857e-08,
+          "flux_error": 8.001552671597565e-08,
+          "net_flux_error": 9.83064737426187e-07,
+          "pool_error": 4.1633363423443333e-17,
+          "finite": true,
+          "nonnegative": true,
+          "passes": true
+        }
+      },
+      "npz": "DOP853-state-61-h-1.25e-09-rep-0.npz"
+    },
+    {
+      "state_index": 61,
+      "state_time": 0.00011497569953977356,
+      "step": 1.25e-09,
+      "method": "BDF",
+      "repeat": 0,
+      "warmup": false,
+      "status": "success",
+      "seconds": 0.022116041043773293,
+      "counts": {
+        "accepted_steps": 3003,
+        "nfev": 4,
+        "njev": 1,
+        "nlu": 1,
+        "min_internal_state": 0.0,
+        "internal_states_checked": true,
+        "observed_rhs_calls": 4,
+        "min_rhs_argument": 0.0
+      },
+      "metrics": {
+        "0.001": {
+          "concentration_error": 2.568797715436317e-08,
+          "flux_error": 2.5687592589971577e-08,
+          "net_flux_error": 7.978212483092634e-08,
+          "pool_error": 6.41847686111418e-17,
+          "finite": true,
+          "nonnegative": true,
+          "passes": true
+        },
+        "1e-05": {
+          "concentration_error": 2.5687977154363166e-06,
+          "flux_error": 2.5687592589971574e-06,
+          "net_flux_error": 7.978212483092634e-08,
+          "pool_error": 6.41847686111418e-17,
+          "finite": true,
+          "nonnegative": true,
+          "passes": true
+        }
+      },
+      "npz": "BDF-state-61-h-1.25e-09-rep-0.npz"
+    },
+    {
+      "state_index": 61,
+      "state_time": 0.00011497569953977356,
+      "step": 1.25e-09,
+      "method": "CVODE-KLU",
+      "repeat": 0,
+      "warmup": false,
+      "status": "success",
+      "seconds": 0.07910945801995695,
+      "counts": {
+        "accepted_steps": 3,
+        "nfev": 6,
+        "njev": 1,
+        "linear_solver_setups": 3,
+        "error_test_failures": 0,
+        "nonlinear_iterations": 3,
+        "nonlinear_convergence_failures": 0,
+        "rhs_seconds": 0.0009152509737759829,
+        "jacobian_seconds": 0.0009005839820019901,
+        "min_rhs_argument": 0.0,
+        "observed_rhs_calls": 6,
+        "linear_solver": "SUNDIALS 6.4.1 KLU sparse CSC, default COLAMD ordering",
+        "internal_states_checked": false,
+        "min_internal_state": null
+      },
+      "metrics": {
+        "0.001": {
+          "concentration_error": 8.166207937372052e-08,
+          "flux_error": 8.166216766964106e-08,
+          "net_flux_error": 1.1749530196184709e-07,
+          "pool_error": 6.938893903907222e-17,
+          "finite": true,
+          "nonnegative": true,
+          "passes": true
+        },
+        "1e-05": {
+          "concentration_error": 8.166207937372051e-06,
+          "flux_error": 8.166216766964105e-06,
+          "net_flux_error": 1.1749530196184709e-07,
+          "pool_error": 6.938893903907222e-17,
+          "finite": true,
+          "nonnegative": true,
+          "passes": true
+        }
+      },
+      "npz": "CVODE-KLU-state-61-h-1.25e-09-rep-0.npz"
+    },
+    {
+      "state_index": 61,
+      "state_time": 0.00011497569953977356,
+      "step": 2.0702068244140594e-09,
+      "method": "DOP853",
+      "repeat": 0,
+      "warmup": false,
+      "status": "success",
+      "seconds": 0.002453083056025207,
+      "counts": {
+        "accepted_steps": 3003,
+        "nfev": 17,
+        "njev": 0,
+        "nlu": 0,
+        "min_internal_state": 0.0,
+        "internal_states_checked": true,
+        "observed_rhs_calls": 17,
+        "min_rhs_argument": 0.0
+      },
+      "metrics": {
+        "0.001": {
+          "concentration_error": 4.025891528789264e-10,
+          "flux_error": 4.056455832015755e-10,
+          "net_flux_error": 4.975511324116211e-07,
+          "pool_error": 3.469446951953611e-17,
+          "finite": true,
+          "nonnegative": true,
+          "passes": true
+        },
+        "1e-05": {
+          "concentration_error": 4.025891528789264e-08,
+          "flux_error": 4.056455832015754e-08,
+          "net_flux_error": 4.975511324116211e-07,
+          "pool_error": 3.469446951953611e-17,
+          "finite": true,
+          "nonnegative": true,
+          "passes": true
+        }
+      },
+      "npz": "DOP853-state-61-h-2.0702068244140594e-09-rep-0.npz"
+    },
+    {
+      "state_index": 61,
+      "state_time": 0.00011497569953977356,
+      "step": 2.0702068244140594e-09,
+      "method": "BDF",
+      "repeat": 0,
+      "warmup": false,
+      "status": "success",
+      "seconds": 0.022701332985889167,
+      "counts": {
+        "accepted_steps": 3003,
+        "nfev": 4,
+        "njev": 1,
+        "nlu": 1,
+        "min_internal_state": 0.0,
+        "internal_states_checked": true,
+        "observed_rhs_calls": 4,
+        "min_rhs_argument": 0.0
+      },
+      "metrics": {
+        "0.001": {
+          "concentration_error": 7.045784000489245e-08,
+          "flux_error": 7.04578622326619e-08,
+          "net_flux_error": 1.0106107162313215e-07,
+          "pool_error": 5.898059818321139e-17,
+          "finite": true,
+          "nonnegative": true,
+          "passes": true
+        },
+        "1e-05": {
+          "concentration_error": 7.045784000489244e-06,
+          "flux_error": 7.045786223266189e-06,
+          "net_flux_error": 1.0106107162313215e-07,
+          "pool_error": 5.898059818321139e-17,
+          "finite": true,
+          "nonnegative": true,
+          "passes": true
+        }
+      },
+      "npz": "BDF-state-61-h-2.0702068244140594e-09-rep-0.npz"
+    },
+    {
+      "state_index": 61,
+      "state_time": 0.00011497569953977356,
+      "step": 2.0702068244140594e-09,
+      "method": "CVODE-KLU",
+      "repeat": 0,
+      "warmup": false,
+      "status": "success",
+      "seconds": 0.0789986249874346,
+      "counts": {
+        "accepted_steps": 3,
+        "nfev": 6,
+        "njev": 1,
+        "linear_solver_setups": 3,
+        "error_test_failures": 0,
+        "nonlinear_iterations": 3,
+        "nonlinear_convergence_failures": 0,
+        "rhs_seconds": 0.0009688331047073007,
+        "jacobian_seconds": 0.000992166984360665,
+        "min_rhs_argument": 0.0,
+        "observed_rhs_calls": 6,
+        "linear_solver": "SUNDIALS 6.4.1 KLU sparse CSC, default COLAMD ordering",
+        "internal_states_checked": false,
+        "min_internal_state": null
+      },
+      "metrics": {
+        "0.001": {
+          "concentration_error": 2.2398845746223252e-07,
+          "flux_error": 2.2398837170421427e-07,
+          "net_flux_error": 3.216953364003627e-07,
+          "pool_error": 1.231653667943532e-16,
+          "finite": true,
+          "nonnegative": true,
+          "passes": true
+        },
+        "1e-05": {
+          "concentration_error": 2.239884574622325e-05,
+          "flux_error": 2.2398837170421424e-05,
+          "net_flux_error": 3.216953364003627e-07,
+          "pool_error": 1.231653667943532e-16,
+          "finite": true,
+          "nonnegative": true,
+          "passes": true
+        }
+      },
+      "npz": "CVODE-KLU-state-61-h-2.0702068244140594e-09-rep-0.npz"
+    },
+    {
+      "state_index": 61,
+      "state_time": 0.00011497569953977356,
+      "step": 2.0702082944319767e-09,
+      "method": "DOP853",
+      "repeat": 0,
+      "warmup": false,
+      "status": "success",
+      "seconds": 0.002480166032910347,
+      "counts": {
+        "accepted_steps": 3003,
+        "nfev": 17,
+        "njev": 0,
+        "nlu": 0,
+        "min_internal_state": 0.0,
+        "internal_states_checked": true,
+        "observed_rhs_calls": 17,
+        "min_rhs_argument": 0.0
+      },
+      "metrics": {
+        "0.001": {
+          "concentration_error": 2.212827747315222e-08,
+          "flux_error": 2.221790353472722e-08,
+          "net_flux_error": 2.734524973697741e-05,
+          "pool_error": 3.469446951953611e-17,
+          "finite": true,
+          "nonnegative": true,
+          "passes": true
+        },
+        "1e-05": {
+          "concentration_error": 2.212827747315222e-06,
+          "flux_error": 2.221790353472722e-06,
+          "net_flux_error": 2.734524973697741e-05,
+          "pool_error": 3.469446951953611e-17,
+          "finite": true,
+          "nonnegative": true,
+          "passes": true
+        }
+      },
+      "npz": "DOP853-state-61-h-2.0702082944319767e-09-rep-0.npz"
+    },
+    {
+      "state_index": 61,
+      "state_time": 0.00011497569953977356,
+      "step": 2.0702082944319767e-09,
+      "method": "BDF",
+      "repeat": 0,
+      "warmup": false,
+      "status": "success",
+      "seconds": 0.021935457945801318,
+      "counts": {
+        "accepted_steps": 3003,
+        "nfev": 4,
+        "njev": 1,
+        "nlu": 1,
+        "min_internal_state": 0.0,
+        "internal_states_checked": true,
+        "observed_rhs_calls": 4,
+        "min_rhs_argument": 0.0
+      },
+      "metrics": {
+        "0.001": {
+          "concentration_error": 7.045784000489245e-08,
+          "flux_error": 7.04578622326619e-08,
+          "net_flux_error": 1.0124997082242772e-07,
+          "pool_error": 5.551115123125778e-17,
+          "finite": true,
+          "nonnegative": true,
+          "passes": true
+        },
+        "1e-05": {
+          "concentration_error": 7.045784000489244e-06,
+          "flux_error": 7.045786223266189e-06,
+          "net_flux_error": 1.0124997082242772e-07,
+          "pool_error": 5.551115123125778e-17,
+          "finite": true,
+          "nonnegative": true,
+          "passes": true
+        }
+      },
+      "npz": "BDF-state-61-h-2.0702082944319767e-09-rep-0.npz"
+    },
+    {
+      "state_index": 61,
+      "state_time": 0.00011497569953977356,
+      "step": 2.0702082944319767e-09,
+      "method": "CVODE-KLU",
+      "repeat": 0,
+      "warmup": false,
+      "status": "success",
+      "seconds": 0.07995666697388515,
+      "counts": {
+        "accepted_steps": 3,
+        "nfev": 6,
+        "njev": 1,
+        "linear_solver_setups": 3,
+        "error_test_failures": 0,
+        "nonlinear_iterations": 3,
+        "nonlinear_convergence_failures": 0,
+        "rhs_seconds": 0.0009662910015322268,
+        "jacobian_seconds": 0.0008932920172810555,
+        "min_rhs_argument": 0.0,
+        "observed_rhs_calls": 6,
+        "linear_solver": "SUNDIALS 6.4.1 KLU sparse CSC, default COLAMD ordering",
+        "internal_states_checked": false,
+        "min_internal_state": null
+      },
+      "metrics": {
+        "0.001": {
+          "concentration_error": 2.2398845746223252e-07,
+          "flux_error": 2.2398837170421427e-07,
+          "net_flux_error": 3.216953364003627e-07,
+          "pool_error": 8.673617379884028e-17,
+          "finite": true,
+          "nonnegative": true,
+          "passes": true
+        },
+        "1e-05": {
+          "concentration_error": 2.239884574622325e-05,
+          "flux_error": 2.2398837170421424e-05,
+          "net_flux_error": 3.216953364003627e-07,
+          "pool_error": 8.673617379884028e-17,
+          "finite": true,
+          "nonnegative": true,
+          "passes": true
+        }
+      },
+      "npz": "CVODE-KLU-state-61-h-2.0702082944319767e-09-rep-0.npz"
+    },
+    {
+      "state_index": 61,
+      "state_time": 0.00011497569953977356,
+      "step": 2.070209316649743e-09,
+      "method": "DOP853",
+      "repeat": 0,
+      "warmup": false,
+      "status": "success",
+      "seconds": 0.0024949160288088024,
+      "counts": {
+        "accepted_steps": 3003,
+        "nfev": 17,
+        "njev": 0,
+        "nlu": 0,
+        "min_internal_state": 0.0,
+        "internal_states_checked": true,
+        "observed_rhs_calls": 17,
+        "min_rhs_argument": 0.0
+      },
+      "metrics": {
+        "0.001": {
+          "concentration_error": 6.783980374389629e-09,
+          "flux_error": 6.812972517467053e-09,
+          "net_flux_error": 8.382131577482876e-06,
+          "pool_error": 5.030698080332736e-17,
+          "finite": true,
+          "nonnegative": true,
+          "passes": true
+        },
+        "1e-05": {
+          "concentration_error": 6.783980374389628e-07,
+          "flux_error": 6.812972517467052e-07,
+          "net_flux_error": 8.382131577482876e-06,
+          "pool_error": 5.030698080332736e-17,
+          "finite": true,
+          "nonnegative": true,
+          "passes": true
+        }
+      },
+      "npz": "DOP853-state-61-h-2.0702093166497431e-09-rep-0.npz"
+    },
+    {
+      "state_index": 61,
+      "state_time": 0.00011497569953977356,
+      "step": 2.070209316649743e-09,
+      "method": "BDF",
+      "repeat": 0,
+      "warmup": false,
+      "status": "success",
+      "seconds": 0.022445666952989995,
+      "counts": {
+        "accepted_steps": 3003,
+        "nfev": 4,
+        "njev": 1,
+        "nlu": 1,
+        "min_internal_state": 0.0,
+        "internal_states_checked": true,
+        "observed_rhs_calls": 4,
+        "min_rhs_argument": 0.0
+      },
+      "metrics": {
+        "0.001": {
+          "concentration_error": 7.045891033727388e-08,
+          "flux_error": 7.045882043889101e-08,
+          "net_flux_error": 1.0124997082242772e-07,
+          "pool_error": 4.8572257327350556e-17,
+          "finite": true,
+          "nonnegative": true,
+          "passes": true
+        },
+        "1e-05": {
+          "concentration_error": 7.045891033727387e-06,
+          "flux_error": 7.045882043889099e-06,
+          "net_flux_error": 1.0124997082242772e-07,
+          "pool_error": 4.8572257327350556e-17,
+          "finite": true,
+          "nonnegative": true,
+          "passes": true
+        }
+      },
+      "npz": "BDF-state-61-h-2.0702093166497431e-09-rep-0.npz"
+    },
+    {
+      "state_index": 61,
+      "state_time": 0.00011497569953977356,
+      "step": 2.070209316649743e-09,
+      "method": "CVODE-KLU",
+      "repeat": 0,
+      "warmup": false,
+      "status": "success",
+      "seconds": 0.1256801660056226,
+      "counts": {
+        "accepted_steps": 3,
+        "nfev": 6,
+        "njev": 1,
+        "linear_solver_setups": 3,
+        "error_test_failures": 0,
+        "nonlinear_iterations": 3,
+        "nonlinear_convergence_failures": 0,
+        "rhs_seconds": 0.0015417929971590638,
+        "jacobian_seconds": 0.0011151660000905395,
+        "min_rhs_argument": 0.0,
+        "observed_rhs_calls": 6,
+        "linear_solver": "SUNDIALS 6.4.1 KLU sparse CSC, default COLAMD ordering",
+        "internal_states_checked": false,
+        "min_internal_state": null
+      },
+      "metrics": {
+        "0.001": {
+          "concentration_error": 2.239905981269954e-07,
+          "flux_error": 2.2399028811667248e-07,
+          "net_flux_error": 3.218842355996583e-07,
+          "pool_error": 7.632783294297945e-17,
+          "finite": true,
+          "nonnegative": true,
+          "passes": true
+        },
+        "1e-05": {
+          "concentration_error": 2.2399059812699536e-05,
+          "flux_error": 2.2399028811667245e-05,
+          "net_flux_error": 3.218842355996583e-07,
+          "pool_error": 7.632783294297945e-17,
+          "finite": true,
+          "nonnegative": true,
+          "passes": true
+        }
+      },
+      "npz": "CVODE-KLU-state-61-h-2.0702093166497431e-09-rep-0.npz"
+    },
+    {
+      "state_index": 0,
+      "state_time": 0.0,
+      "step": 1.25e-09,
+      "method": "BDF",
+      "repeat": 1,
+      "warmup": false,
+      "status": "success",
+      "seconds": 0.06942841701675206,
+      "counts": {
+        "accepted_steps": 3003,
+        "nfev": 12,
+        "njev": 1,
+        "nlu": 3,
+        "min_internal_state": 0.0,
+        "internal_states_checked": true,
+        "observed_rhs_calls": 12,
+        "min_rhs_argument": 0.0
+      },
+      "metrics": {
+        "0.001": {
+          "concentration_error": 4.965035259799757e-05,
+          "flux_error": 5.006746020346251e-05,
+          "net_flux_error": 0.06133799526595809,
+          "pool_error": 3.989863994746656e-17,
+          "finite": true,
+          "nonnegative": true,
+          "passes": true
+        },
+        "1e-05": {
+          "concentration_error": 0.004965035259799756,
+          "flux_error": 0.005006746020346251,
+          "net_flux_error": 0.06133799526595809,
+          "pool_error": 3.989863994746656e-17,
+          "finite": true,
+          "nonnegative": true,
+          "passes": true
+        }
+      },
+      "npz": "BDF-state-0-h-1.25e-09-rep-1.npz"
+    },
+    {
+      "state_index": 0,
+      "state_time": 0.0,
+      "step": 1.25e-09,
+      "method": "CVODE-KLU",
+      "repeat": 1,
+      "warmup": false,
+      "status": "success",
+      "seconds": 0.17708529095398262,
+      "counts": {
+        "accepted_steps": 4,
+        "nfev": 7,
+        "njev": 1,
+        "linear_solver_setups": 4,
+        "error_test_failures": 0,
+        "nonlinear_iterations": 4,
+        "nonlinear_convergence_failures": 0,
+        "rhs_seconds": 0.0012626249226741493,
+        "jacobian_seconds": 0.0011986659956164658,
+        "min_rhs_argument": 0.0,
+        "observed_rhs_calls": 7,
+        "linear_solver": "SUNDIALS 6.4.1 KLU sparse CSC, default COLAMD ordering",
+        "internal_states_checked": false,
+        "min_internal_state": null
+      },
+      "metrics": {
+        "0.001": {
+          "concentration_error": 3.997204579607983e-05,
+          "flux_error": 4.089899260839562e-05,
+          "net_flux_error": 0.04951016159615944,
+          "pool_error": 7.979727989493311e-17,
+          "finite": true,
+          "nonnegative": true,
+          "passes": true
+        },
+        "1e-05": {
+          "concentration_error": 0.003997204579607982,
+          "flux_error": 0.004089899260839561,
+          "net_flux_error": 0.04951016159615944,
+          "pool_error": 7.979727989493311e-17,
+          "finite": true,
+          "nonnegative": true,
+          "passes": true
+        }
+      },
+      "npz": "CVODE-KLU-state-0-h-1.25e-09-rep-1.npz"
+    },
+    {
+      "state_index": 0,
+      "state_time": 0.0,
+      "step": 2.0702068244140594e-09,
+      "method": "DOP853",
+      "repeat": 1,
+      "warmup": false,
+      "status": "success",
+      "seconds": 0.002274374943226576,
+      "counts": {
+        "accepted_steps": 3003,
+        "nfev": 17,
+        "njev": 0,
+        "nlu": 0,
+        "min_internal_state": 0.0,
+        "internal_states_checked": true,
+        "observed_rhs_calls": 17,
+        "min_rhs_argument": 0.0
+      },
+      "metrics": {
+        "0.001": {
+          "concentration_error": 0.0014814620403159583,
+          "flux_error": 0.0014956073513063613,
+          "net_flux_error": 1.8299224528742317,
+          "pool_error": 2.7755575615628907e-17,
+          "finite": true,
+          "nonnegative": true,
+          "passes": false
+        },
+        "1e-05": {
+          "concentration_error": 0.14814620403159579,
+          "flux_error": 0.14956073513063614,
+          "net_flux_error": 1.8299224528742317,
+          "pool_error": 2.7755575615628907e-17,
+          "finite": true,
+          "nonnegative": true,
+          "passes": false
+        }
+      },
+      "npz": "DOP853-state-0-h-2.0702068244140594e-09-rep-1.npz"
+    },
+    {
+      "state_index": 0,
+      "state_time": 0.0,
+      "step": 2.0702068244140594e-09,
+      "method": "BDF",
+      "repeat": 1,
+      "warmup": false,
+      "status": "success",
+      "seconds": 0.0645639169961214,
+      "counts": {
+        "accepted_steps": 3003,
+        "nfev": 14,
+        "njev": 1,
+        "nlu": 3,
+        "min_internal_state": 0.0,
+        "internal_states_checked": true,
+        "observed_rhs_calls": 14,
+        "min_rhs_argument": 0.0
+      },
+      "metrics": {
+        "0.001": {
+          "concentration_error": 5.8412105158161885e-05,
+          "flux_error": 5.898709312511606e-05,
+          "net_flux_error": 0.07216067533555695,
+          "pool_error": 1.4571677198205177e-16,
+          "finite": true,
+          "nonnegative": true,
+          "passes": true
+        },
+        "1e-05": {
+          "concentration_error": 0.005841210515816188,
+          "flux_error": 0.005898709312511605,
+          "net_flux_error": 0.07216067533555695,
+          "pool_error": 1.4571677198205177e-16,
+          "finite": true,
+          "nonnegative": true,
+          "passes": true
+        }
+      },
+      "npz": "BDF-state-0-h-2.0702068244140594e-09-rep-1.npz"
+    },
+    {
+      "state_index": 0,
+      "state_time": 0.0,
+      "step": 2.0702068244140594e-09,
+      "method": "CVODE-KLU",
+      "repeat": 1,
+      "warmup": false,
+      "status": "success",
+      "seconds": 0.09795258397934958,
+      "counts": {
+        "accepted_steps": 5,
+        "nfev": 9,
+        "njev": 1,
+        "linear_solver_setups": 4,
+        "error_test_failures": 0,
+        "nonlinear_iterations": 6,
+        "nonlinear_convergence_failures": 0,
+        "rhs_seconds": 0.0014292909763753414,
+        "jacobian_seconds": 0.0009422499570064247,
+        "min_rhs_argument": 0.0,
+        "observed_rhs_calls": 9,
+        "linear_solver": "SUNDIALS 6.4.1 KLU sparse CSC, default COLAMD ordering",
+        "internal_states_checked": false,
+        "min_internal_state": null
+      },
+      "metrics": {
+        "0.001": {
+          "concentration_error": 6.405540567160983e-05,
+          "flux_error": 6.497293397027728e-05,
+          "net_flux_error": 0.0793211704201314,
+          "pool_error": 6.071532165918824e-17,
+          "finite": true,
+          "nonnegative": true,
+          "passes": true
+        },
+        "1e-05": {
+          "concentration_error": 0.006405540567160982,
+          "flux_error": 0.006497293397027728,
+          "net_flux_error": 0.0793211704201314,
+          "pool_error": 6.071532165918824e-17,
+          "finite": true,
+          "nonnegative": true,
+          "passes": true
+        }
+      },
+      "npz": "CVODE-KLU-state-0-h-2.0702068244140594e-09-rep-1.npz"
+    },
+    {
+      "state_index": 0,
+      "state_time": 0.0,
+      "step": 2.0702082944319767e-09,
+      "method": "DOP853",
+      "repeat": 1,
+      "warmup": false,
+      "status": "success",
+      "seconds": 0.002182499971240759,
+      "counts": {
+        "accepted_steps": 3003,
+        "nfev": 17,
+        "njev": 0,
+        "nlu": 0,
+        "min_internal_state": 0.0,
+        "internal_states_checked": true,
+        "observed_rhs_calls": 17,
+        "min_rhs_argument": 0.0
+      },
+      "metrics": {
+        "0.001": {
+          "concentration_error": 0.001481498524075067,
+          "flux_error": 0.0014956441834587293,
+          "net_flux_error": 1.829967517364297,
+          "pool_error": 3.989863994746656e-17,
+          "finite": true,
+          "nonnegative": true,
+          "passes": false
+        },
+        "1e-05": {
+          "concentration_error": 0.14814985240750667,
+          "flux_error": 0.14956441834587295,
+          "net_flux_error": 1.829967517364297,
+          "pool_error": 3.989863994746656e-17,
+          "finite": true,
+          "nonnegative": true,
+          "passes": false
+        }
+      },
+      "npz": "DOP853-state-0-h-2.0702082944319767e-09-rep-1.npz"
+    },
+    {
+      "state_index": 0,
+      "state_time": 0.0,
+      "step": 2.0702082944319767e-09,
+      "method": "BDF",
+      "repeat": 1,
+      "warmup": false,
+      "status": "success",
+      "seconds": 0.06928062497172505,
+      "counts": {
+        "accepted_steps": 3003,
+        "nfev": 14,
+        "njev": 1,
+        "nlu": 3,
+        "min_internal_state": 0.0,
+        "internal_states_checked": true,
+        "observed_rhs_calls": 14,
+        "min_rhs_argument": 0.0
+      },
+      "metrics": {
+        "0.001": {
+          "concentration_error": 5.841205924887252e-05,
+          "flux_error": 5.898704516658433e-05,
+          "net_flux_error": 0.07216061113541083,
+          "pool_error": 5.5511151231257815e-17,
+          "finite": true,
+          "nonnegative": true,
+          "passes": true
+        },
+        "1e-05": {
+          "concentration_error": 0.005841205924887251,
+          "flux_error": 0.0058987045166584325,
+          "net_flux_error": 0.07216061113541083,
+          "pool_error": 5.5511151231257815e-17,
+          "finite": true,
+          "nonnegative": true,
+          "passes": true
+        }
+      },
+      "npz": "BDF-state-0-h-2.0702082944319767e-09-rep-1.npz"
+    },
+    {
+      "state_index": 0,
+      "state_time": 0.0,
+      "step": 2.0702082944319767e-09,
+      "method": "CVODE-KLU",
+      "repeat": 1,
+      "warmup": false,
+      "status": "success",
+      "seconds": 0.10225883300881833,
+      "counts": {
+        "accepted_steps": 5,
+        "nfev": 9,
+        "njev": 1,
+        "linear_solver_setups": 4,
+        "error_test_failures": 0,
+        "nonlinear_iterations": 6,
+        "nonlinear_convergence_failures": 0,
+        "rhs_seconds": 0.0014811239088885486,
+        "jacobian_seconds": 0.0009489580406807363,
+        "min_rhs_argument": 0.0,
+        "observed_rhs_calls": 9,
+        "linear_solver": "SUNDIALS 6.4.1 KLU sparse CSC, default COLAMD ordering",
+        "internal_states_checked": false,
+        "min_internal_state": null
+      },
+      "metrics": {
+        "0.001": {
+          "concentration_error": 6.405541273457743e-05,
+          "flux_error": 6.497293785452615e-05,
+          "net_flux_error": 0.0793211824576588,
+          "pool_error": 4.3368086899420165e-17,
+          "finite": true,
+          "nonnegative": true,
+          "passes": true
+        },
+        "1e-05": {
+          "concentration_error": 0.0064055412734577415,
+          "flux_error": 0.006497293785452615,
+          "net_flux_error": 0.0793211824576588,
+          "pool_error": 4.3368086899420165e-17,
+          "finite": true,
+          "nonnegative": true,
+          "passes": true
+        }
+      },
+      "npz": "CVODE-KLU-state-0-h-2.0702082944319767e-09-rep-1.npz"
+    },
+    {
+      "state_index": 0,
+      "state_time": 0.0,
+      "step": 2.070209316649743e-09,
+      "method": "DOP853",
+      "repeat": 1,
+      "warmup": false,
+      "status": "success",
+      "seconds": 0.0025078330072574317,
+      "counts": {
+        "accepted_steps": 3003,
+        "nfev": 17,
+        "njev": 0,
+        "nlu": 0,
+        "min_internal_state": 0.0,
+        "internal_states_checked": true,
+        "observed_rhs_calls": 17,
+        "min_rhs_argument": 0.0
+      },
+      "metrics": {
+        "0.001": {
+          "concentration_error": 0.0014815122403581352,
+          "flux_error": 0.0014956580303947995,
+          "net_flux_error": 1.829984458177854,
+          "pool_error": 3.989863994746656e-17,
+          "finite": true,
+          "nonnegative": true,
+          "passes": false
+        },
+        "1e-05": {
+          "concentration_error": 0.1481512240358135,
+          "flux_error": 0.14956580303947994,
+          "net_flux_error": 1.829984458177854,
+          "pool_error": 3.989863994746656e-17,
+          "finite": true,
+          "nonnegative": true,
+          "passes": false
+        }
+      },
+      "npz": "DOP853-state-0-h-2.0702093166497431e-09-rep-1.npz"
+    },
+    {
+      "state_index": 0,
+      "state_time": 0.0,
+      "step": 2.070209316649743e-09,
+      "method": "BDF",
+      "repeat": 1,
+      "warmup": false,
+      "status": "success",
+      "seconds": 0.06912629102589563,
+      "counts": {
+        "accepted_steps": 3003,
+        "nfev": 14,
+        "njev": 1,
+        "nlu": 3,
+        "min_internal_state": 0.0,
+        "internal_states_checked": true,
+        "observed_rhs_calls": 14,
+        "min_rhs_argument": 0.0
+      },
+      "metrics": {
+        "0.001": {
+          "concentration_error": 5.841203099700214e-05,
+          "flux_error": 5.8987023367251726e-05,
+          "net_flux_error": 0.07216058304784691,
+          "pool_error": 8.153200337090992e-17,
+          "finite": true,
+          "nonnegative": true,
+          "passes": true
+        },
+        "1e-05": {
+          "concentration_error": 0.005841203099700213,
+          "flux_error": 0.0058987023367251725,
+          "net_flux_error": 0.07216058304784691,
+          "pool_error": 8.153200337090992e-17,
+          "finite": true,
+          "nonnegative": true,
+          "passes": true
+        }
+      },
+      "npz": "BDF-state-0-h-2.0702093166497431e-09-rep-1.npz"
+    },
+    {
+      "state_index": 0,
+      "state_time": 0.0,
+      "step": 2.070209316649743e-09,
+      "method": "CVODE-KLU",
+      "repeat": 1,
+      "warmup": false,
+      "status": "success",
+      "seconds": 0.10221879201708362,
+      "counts": {
+        "accepted_steps": 5,
+        "nfev": 9,
+        "njev": 1,
+        "linear_solver_setups": 4,
+        "error_test_failures": 0,
+        "nonlinear_iterations": 6,
+        "nonlinear_convergence_failures": 0,
+        "rhs_seconds": 0.0015451671206392348,
+        "jacobian_seconds": 0.0009926249622367322,
+        "min_rhs_argument": 0.0,
+        "observed_rhs_calls": 9,
+        "linear_solver": "SUNDIALS 6.4.1 KLU sparse CSC, default COLAMD ordering",
+        "internal_states_checked": false,
+        "min_internal_state": null
+      },
+      "metrics": {
+        "0.001": {
+          "concentration_error": 6.405543039199641e-05,
+          "flux_error": 6.497295339152164e-05,
+          "net_flux_error": 0.07932119850769533,
+          "pool_error": 6.591949208711866e-17,
+          "finite": true,
+          "nonnegative": true,
+          "passes": true
+        },
+        "1e-05": {
+          "concentration_error": 0.00640554303919964,
+          "flux_error": 0.006497295339152163,
+          "net_flux_error": 0.07932119850769533,
+          "pool_error": 6.591949208711866e-17,
+          "finite": true,
+          "nonnegative": true,
+          "passes": true
+        }
+      },
+      "npz": "CVODE-KLU-state-0-h-2.0702093166497431e-09-rep-1.npz"
+    },
+    {
+      "state_index": 61,
+      "state_time": 0.00011497569953977356,
+      "step": 1.25e-09,
+      "method": "DOP853",
+      "repeat": 1,
+      "warmup": false,
+      "status": "success",
+      "seconds": 0.0022798750433139503,
+      "counts": {
+        "accepted_steps": 3003,
+        "nfev": 17,
+        "njev": 0,
+        "nlu": 0,
+        "min_internal_state": 0.0,
+        "internal_states_checked": true,
+        "observed_rhs_calls": 17,
+        "min_rhs_argument": 0.0
+      },
+      "metrics": {
+        "0.001": {
+          "concentration_error": 7.981153381634858e-10,
+          "flux_error": 8.001552671597565e-10,
+          "net_flux_error": 9.83064737426187e-07,
+          "pool_error": 4.1633363423443333e-17,
+          "finite": true,
+          "nonnegative": true,
+          "passes": true
+        },
+        "1e-05": {
+          "concentration_error": 7.981153381634857e-08,
+          "flux_error": 8.001552671597565e-08,
+          "net_flux_error": 9.83064737426187e-07,
+          "pool_error": 4.1633363423443333e-17,
+          "finite": true,
+          "nonnegative": true,
+          "passes": true
+        }
+      },
+      "npz": "DOP853-state-61-h-1.25e-09-rep-1.npz"
+    },
+    {
+      "state_index": 61,
+      "state_time": 0.00011497569953977356,
+      "step": 1.25e-09,
+      "method": "BDF",
+      "repeat": 1,
+      "warmup": false,
+      "status": "success",
+      "seconds": 0.027984250045847148,
+      "counts": {
+        "accepted_steps": 3003,
+        "nfev": 4,
+        "njev": 1,
+        "nlu": 1,
+        "min_internal_state": 0.0,
+        "internal_states_checked": true,
+        "observed_rhs_calls": 4,
+        "min_rhs_argument": 0.0
+      },
+      "metrics": {
+        "0.001": {
+          "concentration_error": 2.568797715436317e-08,
+          "flux_error": 2.5687592589971577e-08,
+          "net_flux_error": 7.978212483092634e-08,
+          "pool_error": 6.41847686111418e-17,
+          "finite": true,
+          "nonnegative": true,
+          "passes": true
+        },
+        "1e-05": {
+          "concentration_error": 2.5687977154363166e-06,
+          "flux_error": 2.5687592589971574e-06,
+          "net_flux_error": 7.978212483092634e-08,
+          "pool_error": 6.41847686111418e-17,
+          "finite": true,
+          "nonnegative": true,
+          "passes": true
+        }
+      },
+      "npz": "BDF-state-61-h-1.25e-09-rep-1.npz"
+    },
+    {
+      "state_index": 61,
+      "state_time": 0.00011497569953977356,
+      "step": 1.25e-09,
+      "method": "CVODE-KLU",
+      "repeat": 1,
+      "warmup": false,
+      "status": "success",
+      "seconds": 0.10012841603020206,
+      "counts": {
+        "accepted_steps": 3,
+        "nfev": 6,
+        "njev": 1,
+        "linear_solver_setups": 3,
+        "error_test_failures": 0,
+        "nonlinear_iterations": 3,
+        "nonlinear_convergence_failures": 0,
+        "rhs_seconds": 0.0017752080457285047,
+        "jacobian_seconds": 0.0009908339707180858,
+        "min_rhs_argument": 0.0,
+        "observed_rhs_calls": 6,
+        "linear_solver": "SUNDIALS 6.4.1 KLU sparse CSC, default COLAMD ordering",
+        "internal_states_checked": false,
+        "min_internal_state": null
+      },
+      "metrics": {
+        "0.001": {
+          "concentration_error": 8.166207937372052e-08,
+          "flux_error": 8.166216766964106e-08,
+          "net_flux_error": 1.1749530196184709e-07,
+          "pool_error": 6.938893903907222e-17,
+          "finite": true,
+          "nonnegative": true,
+          "passes": true
+        },
+        "1e-05": {
+          "concentration_error": 8.166207937372051e-06,
+          "flux_error": 8.166216766964105e-06,
+          "net_flux_error": 1.1749530196184709e-07,
+          "pool_error": 6.938893903907222e-17,
+          "finite": true,
+          "nonnegative": true,
+          "passes": true
+        }
+      },
+      "npz": "CVODE-KLU-state-61-h-1.25e-09-rep-1.npz"
+    },
+    {
+      "state_index": 61,
+      "state_time": 0.00011497569953977356,
+      "step": 2.0702068244140594e-09,
+      "method": "DOP853",
+      "repeat": 1,
+      "warmup": false,
+      "status": "success",
+      "seconds": 0.0026246659690514207,
+      "counts": {
+        "accepted_steps": 3003,
+        "nfev": 17,
+        "njev": 0,
+        "nlu": 0,
+        "min_internal_state": 0.0,
+        "internal_states_checked": true,
+        "observed_rhs_calls": 17,
+        "min_rhs_argument": 0.0
+      },
+      "metrics": {
+        "0.001": {
+          "concentration_error": 4.025891528789264e-10,
+          "flux_error": 4.056455832015755e-10,
+          "net_flux_error": 4.975511324116211e-07,
+          "pool_error": 3.469446951953611e-17,
+          "finite": true,
+          "nonnegative": true,
+          "passes": true
+        },
+        "1e-05": {
+          "concentration_error": 4.025891528789264e-08,
+          "flux_error": 4.056455832015754e-08,
+          "net_flux_error": 4.975511324116211e-07,
+          "pool_error": 3.469446951953611e-17,
+          "finite": true,
+          "nonnegative": true,
+          "passes": true
+        }
+      },
+      "npz": "DOP853-state-61-h-2.0702068244140594e-09-rep-1.npz"
+    },
+    {
+      "state_index": 61,
+      "state_time": 0.00011497569953977356,
+      "step": 2.0702068244140594e-09,
+      "method": "BDF",
+      "repeat": 1,
+      "warmup": false,
+      "status": "success",
+      "seconds": 0.02218845795141533,
+      "counts": {
+        "accepted_steps": 3003,
+        "nfev": 4,
+        "njev": 1,
+        "nlu": 1,
+        "min_internal_state": 0.0,
+        "internal_states_checked": true,
+        "observed_rhs_calls": 4,
+        "min_rhs_argument": 0.0
+      },
+      "metrics": {
+        "0.001": {
+          "concentration_error": 7.045784000489245e-08,
+          "flux_error": 7.04578622326619e-08,
+          "net_flux_error": 1.0106107162313215e-07,
+          "pool_error": 5.898059818321139e-17,
+          "finite": true,
+          "nonnegative": true,
+          "passes": true
+        },
+        "1e-05": {
+          "concentration_error": 7.045784000489244e-06,
+          "flux_error": 7.045786223266189e-06,
+          "net_flux_error": 1.0106107162313215e-07,
+          "pool_error": 5.898059818321139e-17,
+          "finite": true,
+          "nonnegative": true,
+          "passes": true
+        }
+      },
+      "npz": "BDF-state-61-h-2.0702068244140594e-09-rep-1.npz"
+    },
+    {
+      "state_index": 61,
+      "state_time": 0.00011497569953977356,
+      "step": 2.0702068244140594e-09,
+      "method": "CVODE-KLU",
+      "repeat": 1,
+      "warmup": false,
+      "status": "success",
+      "seconds": 0.08363425004063174,
+      "counts": {
+        "accepted_steps": 3,
+        "nfev": 6,
+        "njev": 1,
+        "linear_solver_setups": 3,
+        "error_test_failures": 0,
+        "nonlinear_iterations": 3,
+        "nonlinear_convergence_failures": 0,
+        "rhs_seconds": 0.0009726660209707916,
+        "jacobian_seconds": 0.0009241669904440641,
+        "min_rhs_argument": 0.0,
+        "observed_rhs_calls": 6,
+        "linear_solver": "SUNDIALS 6.4.1 KLU sparse CSC, default COLAMD ordering",
+        "internal_states_checked": false,
+        "min_internal_state": null
+      },
+      "metrics": {
+        "0.001": {
+          "concentration_error": 2.2398845746223252e-07,
+          "flux_error": 2.2398837170421427e-07,
+          "net_flux_error": 3.216953364003627e-07,
+          "pool_error": 1.231653667943532e-16,
+          "finite": true,
+          "nonnegative": true,
+          "passes": true
+        },
+        "1e-05": {
+          "concentration_error": 2.239884574622325e-05,
+          "flux_error": 2.2398837170421424e-05,
+          "net_flux_error": 3.216953364003627e-07,
+          "pool_error": 1.231653667943532e-16,
+          "finite": true,
+          "nonnegative": true,
+          "passes": true
+        }
+      },
+      "npz": "CVODE-KLU-state-61-h-2.0702068244140594e-09-rep-1.npz"
+    },
+    {
+      "state_index": 61,
+      "state_time": 0.00011497569953977356,
+      "step": 2.0702082944319767e-09,
+      "method": "DOP853",
+      "repeat": 1,
+      "warmup": false,
+      "status": "success",
+      "seconds": 0.0023038340150378644,
+      "counts": {
+        "accepted_steps": 3003,
+        "nfev": 17,
+        "njev": 0,
+        "nlu": 0,
+        "min_internal_state": 0.0,
+        "internal_states_checked": true,
+        "observed_rhs_calls": 17,
+        "min_rhs_argument": 0.0
+      },
+      "metrics": {
+        "0.001": {
+          "concentration_error": 2.212827747315222e-08,
+          "flux_error": 2.221790353472722e-08,
+          "net_flux_error": 2.734524973697741e-05,
+          "pool_error": 3.469446951953611e-17,
+          "finite": true,
+          "nonnegative": true,
+          "passes": true
+        },
+        "1e-05": {
+          "concentration_error": 2.212827747315222e-06,
+          "flux_error": 2.221790353472722e-06,
+          "net_flux_error": 2.734524973697741e-05,
+          "pool_error": 3.469446951953611e-17,
+          "finite": true,
+          "nonnegative": true,
+          "passes": true
+        }
+      },
+      "npz": "DOP853-state-61-h-2.0702082944319767e-09-rep-1.npz"
+    },
+    {
+      "state_index": 61,
+      "state_time": 0.00011497569953977356,
+      "step": 2.0702082944319767e-09,
+      "method": "BDF",
+      "repeat": 1,
+      "warmup": false,
+      "status": "success",
+      "seconds": 0.02200583298690617,
+      "counts": {
+        "accepted_steps": 3003,
+        "nfev": 4,
+        "njev": 1,
+        "nlu": 1,
+        "min_internal_state": 0.0,
+        "internal_states_checked": true,
+        "observed_rhs_calls": 4,
+        "min_rhs_argument": 0.0
+      },
+      "metrics": {
+        "0.001": {
+          "concentration_error": 7.045784000489245e-08,
+          "flux_error": 7.04578622326619e-08,
+          "net_flux_error": 1.0124997082242772e-07,
+          "pool_error": 5.551115123125778e-17,
+          "finite": true,
+          "nonnegative": true,
+          "passes": true
+        },
+        "1e-05": {
+          "concentration_error": 7.045784000489244e-06,
+          "flux_error": 7.045786223266189e-06,
+          "net_flux_error": 1.0124997082242772e-07,
+          "pool_error": 5.551115123125778e-17,
+          "finite": true,
+          "nonnegative": true,
+          "passes": true
+        }
+      },
+      "npz": "BDF-state-61-h-2.0702082944319767e-09-rep-1.npz"
+    },
+    {
+      "state_index": 61,
+      "state_time": 0.00011497569953977356,
+      "step": 2.0702082944319767e-09,
+      "method": "CVODE-KLU",
+      "repeat": 1,
+      "warmup": false,
+      "status": "success",
+      "seconds": 0.08130216598510742,
+      "counts": {
+        "accepted_steps": 3,
+        "nfev": 6,
+        "njev": 1,
+        "linear_solver_setups": 3,
+        "error_test_failures": 0,
+        "nonlinear_iterations": 3,
+        "nonlinear_convergence_failures": 0,
+        "rhs_seconds": 0.0009602499776519835,
+        "jacobian_seconds": 0.0009009160567075014,
+        "min_rhs_argument": 0.0,
+        "observed_rhs_calls": 6,
+        "linear_solver": "SUNDIALS 6.4.1 KLU sparse CSC, default COLAMD ordering",
+        "internal_states_checked": false,
+        "min_internal_state": null
+      },
+      "metrics": {
+        "0.001": {
+          "concentration_error": 2.2398845746223252e-07,
+          "flux_error": 2.2398837170421427e-07,
+          "net_flux_error": 3.216953364003627e-07,
+          "pool_error": 8.673617379884028e-17,
+          "finite": true,
+          "nonnegative": true,
+          "passes": true
+        },
+        "1e-05": {
+          "concentration_error": 2.239884574622325e-05,
+          "flux_error": 2.2398837170421424e-05,
+          "net_flux_error": 3.216953364003627e-07,
+          "pool_error": 8.673617379884028e-17,
+          "finite": true,
+          "nonnegative": true,
+          "passes": true
+        }
+      },
+      "npz": "CVODE-KLU-state-61-h-2.0702082944319767e-09-rep-1.npz"
+    },
+    {
+      "state_index": 61,
+      "state_time": 0.00011497569953977356,
+      "step": 2.070209316649743e-09,
+      "method": "DOP853",
+      "repeat": 1,
+      "warmup": false,
+      "status": "success",
+      "seconds": 0.0023372500436380506,
+      "counts": {
+        "accepted_steps": 3003,
+        "nfev": 17,
+        "njev": 0,
+        "nlu": 0,
+        "min_internal_state": 0.0,
+        "internal_states_checked": true,
+        "observed_rhs_calls": 17,
+        "min_rhs_argument": 0.0
+      },
+      "metrics": {
+        "0.001": {
+          "concentration_error": 6.783980374389629e-09,
+          "flux_error": 6.812972517467053e-09,
+          "net_flux_error": 8.382131577482876e-06,
+          "pool_error": 5.030698080332736e-17,
+          "finite": true,
+          "nonnegative": true,
+          "passes": true
+        },
+        "1e-05": {
+          "concentration_error": 6.783980374389628e-07,
+          "flux_error": 6.812972517467052e-07,
+          "net_flux_error": 8.382131577482876e-06,
+          "pool_error": 5.030698080332736e-17,
+          "finite": true,
+          "nonnegative": true,
+          "passes": true
+        }
+      },
+      "npz": "DOP853-state-61-h-2.0702093166497431e-09-rep-1.npz"
+    },
+    {
+      "state_index": 61,
+      "state_time": 0.00011497569953977356,
+      "step": 2.070209316649743e-09,
+      "method": "BDF",
+      "repeat": 1,
+      "warmup": false,
+      "status": "success",
+      "seconds": 0.021973625000100583,
+      "counts": {
+        "accepted_steps": 3003,
+        "nfev": 4,
+        "njev": 1,
+        "nlu": 1,
+        "min_internal_state": 0.0,
+        "internal_states_checked": true,
+        "observed_rhs_calls": 4,
+        "min_rhs_argument": 0.0
+      },
+      "metrics": {
+        "0.001": {
+          "concentration_error": 7.045891033727388e-08,
+          "flux_error": 7.045882043889101e-08,
+          "net_flux_error": 1.0124997082242772e-07,
+          "pool_error": 4.8572257327350556e-17,
+          "finite": true,
+          "nonnegative": true,
+          "passes": true
+        },
+        "1e-05": {
+          "concentration_error": 7.045891033727387e-06,
+          "flux_error": 7.045882043889099e-06,
+          "net_flux_error": 1.0124997082242772e-07,
+          "pool_error": 4.8572257327350556e-17,
+          "finite": true,
+          "nonnegative": true,
+          "passes": true
+        }
+      },
+      "npz": "BDF-state-61-h-2.0702093166497431e-09-rep-1.npz"
+    },
+    {
+      "state_index": 61,
+      "state_time": 0.00011497569953977356,
+      "step": 2.070209316649743e-09,
+      "method": "CVODE-KLU",
+      "repeat": 1,
+      "warmup": false,
+      "status": "success",
+      "seconds": 0.07517583400476724,
+      "counts": {
+        "accepted_steps": 3,
+        "nfev": 6,
+        "njev": 1,
+        "linear_solver_setups": 3,
+        "error_test_failures": 0,
+        "nonlinear_iterations": 3,
+        "nonlinear_convergence_failures": 0,
+        "rhs_seconds": 0.0008986269822344184,
+        "jacobian_seconds": 0.0008671660325489938,
+        "min_rhs_argument": 0.0,
+        "observed_rhs_calls": 6,
+        "linear_solver": "SUNDIALS 6.4.1 KLU sparse CSC, default COLAMD ordering",
+        "internal_states_checked": false,
+        "min_internal_state": null
+      },
+      "metrics": {
+        "0.001": {
+          "concentration_error": 2.239905981269954e-07,
+          "flux_error": 2.2399028811667248e-07,
+          "net_flux_error": 3.218842355996583e-07,
+          "pool_error": 7.632783294297945e-17,
+          "finite": true,
+          "nonnegative": true,
+          "passes": true
+        },
+        "1e-05": {
+          "concentration_error": 2.2399059812699536e-05,
+          "flux_error": 2.2399028811667245e-05,
+          "net_flux_error": 3.218842355996583e-07,
+          "pool_error": 7.632783294297945e-17,
+          "finite": true,
+          "nonnegative": true,
+          "passes": true
+        }
+      },
+      "npz": "CVODE-KLU-state-61-h-2.0702093166497431e-09-rep-1.npz"
+    },
+    {
+      "state_index": 0,
+      "state_time": 0.0,
+      "step": 1.25e-09,
+      "method": "DOP853",
+      "repeat": 1,
+      "warmup": false,
+      "status": "success",
+      "seconds": 0.0023931670002639294,
+      "counts": {
+        "accepted_steps": 3003,
+        "nfev": 17,
+        "njev": 0,
+        "nlu": 0,
+        "min_internal_state": 0.0,
+        "internal_states_checked": true,
+        "observed_rhs_calls": 17,
+        "min_rhs_argument": 0.0
+      },
+      "metrics": {
+        "0.001": {
+          "concentration_error": 3.383323925956526e-06,
+          "flux_error": 3.41562842908641e-06,
+          "net_flux_error": 0.004179132586581824,
+          "pool_error": 3.989863994746656e-17,
+          "finite": true,
+          "nonnegative": true,
+          "passes": true
+        },
+        "1e-05": {
+          "concentration_error": 0.00033833239259565255,
+          "flux_error": 0.000341562842908641,
+          "net_flux_error": 0.004179132586581824,
+          "pool_error": 3.989863994746656e-17,
+          "finite": true,
+          "nonnegative": true,
+          "passes": true
+        }
+      },
+      "npz": "DOP853-state-0-h-1.25e-09-rep-1.npz"
+    },
+    {
+      "state_index": 0,
+      "state_time": 0.0,
+      "step": 1.25e-09,
+      "method": "CVODE-KLU",
+      "repeat": 2,
+      "warmup": false,
+      "status": "success",
+      "seconds": 0.09807583299698308,
+      "counts": {
+        "accepted_steps": 4,
+        "nfev": 7,
+        "njev": 1,
+        "linear_solver_setups": 4,
+        "error_test_failures": 0,
+        "nonlinear_iterations": 4,
+        "nonlinear_convergence_failures": 0,
+        "rhs_seconds": 0.0010927090188488364,
+        "jacobian_seconds": 0.0009297920041717589,
+        "min_rhs_argument": 0.0,
+        "observed_rhs_calls": 7,
+        "linear_solver": "SUNDIALS 6.4.1 KLU sparse CSC, default COLAMD ordering",
+        "internal_states_checked": false,
+        "min_internal_state": null
+      },
+      "metrics": {
+        "0.001": {
+          "concentration_error": 3.997204579607983e-05,
+          "flux_error": 4.089899260839562e-05,
+          "net_flux_error": 0.04951016159615944,
+          "pool_error": 7.979727989493311e-17,
+          "finite": true,
+          "nonnegative": true,
+          "passes": true
+        },
+        "1e-05": {
+          "concentration_error": 0.003997204579607982,
+          "flux_error": 0.004089899260839561,
+          "net_flux_error": 0.04951016159615944,
+          "pool_error": 7.979727989493311e-17,
+          "finite": true,
+          "nonnegative": true,
+          "passes": true
+        }
+      },
+      "npz": "CVODE-KLU-state-0-h-1.25e-09-rep-2.npz"
+    },
+    {
+      "state_index": 0,
+      "state_time": 0.0,
+      "step": 2.0702068244140594e-09,
+      "method": "DOP853",
+      "repeat": 2,
+      "warmup": false,
+      "status": "success",
+      "seconds": 0.00222958397353068,
+      "counts": {
+        "accepted_steps": 3003,
+        "nfev": 17,
+        "njev": 0,
+        "nlu": 0,
+        "min_internal_state": 0.0,
+        "internal_states_checked": true,
+        "observed_rhs_calls": 17,
+        "min_rhs_argument": 0.0
+      },
+      "metrics": {
+        "0.001": {
+          "concentration_error": 0.0014814620403159583,
+          "flux_error": 0.0014956073513063613,
+          "net_flux_error": 1.8299224528742317,
+          "pool_error": 2.7755575615628907e-17,
+          "finite": true,
+          "nonnegative": true,
+          "passes": false
+        },
+        "1e-05": {
+          "concentration_error": 0.14814620403159579,
+          "flux_error": 0.14956073513063614,
+          "net_flux_error": 1.8299224528742317,
+          "pool_error": 2.7755575615628907e-17,
+          "finite": true,
+          "nonnegative": true,
+          "passes": false
+        }
+      },
+      "npz": "DOP853-state-0-h-2.0702068244140594e-09-rep-2.npz"
+    },
+    {
+      "state_index": 0,
+      "state_time": 0.0,
+      "step": 2.0702068244140594e-09,
+      "method": "BDF",
+      "repeat": 2,
+      "warmup": false,
+      "status": "success",
+      "seconds": 0.06926062499405816,
+      "counts": {
+        "accepted_steps": 3003,
+        "nfev": 14,
+        "njev": 1,
+        "nlu": 3,
+        "min_internal_state": 0.0,
+        "internal_states_checked": true,
+        "observed_rhs_calls": 14,
+        "min_rhs_argument": 0.0
+      },
+      "metrics": {
+        "0.001": {
+          "concentration_error": 5.8412105158161885e-05,
+          "flux_error": 5.898709312511606e-05,
+          "net_flux_error": 0.07216067533555695,
+          "pool_error": 1.4571677198205177e-16,
+          "finite": true,
+          "nonnegative": true,
+          "passes": true
+        },
+        "1e-05": {
+          "concentration_error": 0.005841210515816188,
+          "flux_error": 0.005898709312511605,
+          "net_flux_error": 0.07216067533555695,
+          "pool_error": 1.4571677198205177e-16,
+          "finite": true,
+          "nonnegative": true,
+          "passes": true
+        }
+      },
+      "npz": "BDF-state-0-h-2.0702068244140594e-09-rep-2.npz"
+    },
+    {
+      "state_index": 0,
+      "state_time": 0.0,
+      "step": 2.0702068244140594e-09,
+      "method": "CVODE-KLU",
+      "repeat": 2,
+      "warmup": false,
+      "status": "success",
+      "seconds": 0.10232895804801956,
+      "counts": {
+        "accepted_steps": 5,
+        "nfev": 9,
+        "njev": 1,
+        "linear_solver_setups": 4,
+        "error_test_failures": 0,
+        "nonlinear_iterations": 6,
+        "nonlinear_convergence_failures": 0,
+        "rhs_seconds": 0.0015819179243408144,
+        "jacobian_seconds": 0.000977958959992975,
+        "min_rhs_argument": 0.0,
+        "observed_rhs_calls": 9,
+        "linear_solver": "SUNDIALS 6.4.1 KLU sparse CSC, default COLAMD ordering",
+        "internal_states_checked": false,
+        "min_internal_state": null
+      },
+      "metrics": {
+        "0.001": {
+          "concentration_error": 6.405540567160983e-05,
+          "flux_error": 6.497293397027728e-05,
+          "net_flux_error": 0.0793211704201314,
+          "pool_error": 6.071532165918824e-17,
+          "finite": true,
+          "nonnegative": true,
+          "passes": true
+        },
+        "1e-05": {
+          "concentration_error": 0.006405540567160982,
+          "flux_error": 0.006497293397027728,
+          "net_flux_error": 0.0793211704201314,
+          "pool_error": 6.071532165918824e-17,
+          "finite": true,
+          "nonnegative": true,
+          "passes": true
+        }
+      },
+      "npz": "CVODE-KLU-state-0-h-2.0702068244140594e-09-rep-2.npz"
+    },
+    {
+      "state_index": 0,
+      "state_time": 0.0,
+      "step": 2.0702082944319767e-09,
+      "method": "DOP853",
+      "repeat": 2,
+      "warmup": false,
+      "status": "success",
+      "seconds": 0.002412582980468869,
+      "counts": {
+        "accepted_steps": 3003,
+        "nfev": 17,
+        "njev": 0,
+        "nlu": 0,
+        "min_internal_state": 0.0,
+        "internal_states_checked": true,
+        "observed_rhs_calls": 17,
+        "min_rhs_argument": 0.0
+      },
+      "metrics": {
+        "0.001": {
+          "concentration_error": 0.001481498524075067,
+          "flux_error": 0.0014956441834587293,
+          "net_flux_error": 1.829967517364297,
+          "pool_error": 3.989863994746656e-17,
+          "finite": true,
+          "nonnegative": true,
+          "passes": false
+        },
+        "1e-05": {
+          "concentration_error": 0.14814985240750667,
+          "flux_error": 0.14956441834587295,
+          "net_flux_error": 1.829967517364297,
+          "pool_error": 3.989863994746656e-17,
+          "finite": true,
+          "nonnegative": true,
+          "passes": false
+        }
+      },
+      "npz": "DOP853-state-0-h-2.0702082944319767e-09-rep-2.npz"
+    },
+    {
+      "state_index": 0,
+      "state_time": 0.0,
+      "step": 2.0702082944319767e-09,
+      "method": "BDF",
+      "repeat": 2,
+      "warmup": false,
+      "status": "success",
+      "seconds": 0.06865979201393202,
+      "counts": {
+        "accepted_steps": 3003,
+        "nfev": 14,
+        "njev": 1,
+        "nlu": 3,
+        "min_internal_state": 0.0,
+        "internal_states_checked": true,
+        "observed_rhs_calls": 14,
+        "min_rhs_argument": 0.0
+      },
+      "metrics": {
+        "0.001": {
+          "concentration_error": 5.841205924887252e-05,
+          "flux_error": 5.898704516658433e-05,
+          "net_flux_error": 0.07216061113541083,
+          "pool_error": 5.5511151231257815e-17,
+          "finite": true,
+          "nonnegative": true,
+          "passes": true
+        },
+        "1e-05": {
+          "concentration_error": 0.005841205924887251,
+          "flux_error": 0.0058987045166584325,
+          "net_flux_error": 0.07216061113541083,
+          "pool_error": 5.5511151231257815e-17,
+          "finite": true,
+          "nonnegative": true,
+          "passes": true
+        }
+      },
+      "npz": "BDF-state-0-h-2.0702082944319767e-09-rep-2.npz"
+    },
+    {
+      "state_index": 0,
+      "state_time": 0.0,
+      "step": 2.0702082944319767e-09,
+      "method": "CVODE-KLU",
+      "repeat": 2,
+      "warmup": false,
+      "status": "success",
+      "seconds": 0.10637912503443658,
+      "counts": {
+        "accepted_steps": 5,
+        "nfev": 9,
+        "njev": 1,
+        "linear_solver_setups": 4,
+        "error_test_failures": 0,
+        "nonlinear_iterations": 6,
+        "nonlinear_convergence_failures": 0,
+        "rhs_seconds": 0.001543707970995456,
+        "jacobian_seconds": 0.001030457962770015,
+        "min_rhs_argument": 0.0,
+        "observed_rhs_calls": 9,
+        "linear_solver": "SUNDIALS 6.4.1 KLU sparse CSC, default COLAMD ordering",
+        "internal_states_checked": false,
+        "min_internal_state": null
+      },
+      "metrics": {
+        "0.001": {
+          "concentration_error": 6.405541273457743e-05,
+          "flux_error": 6.497293785452615e-05,
+          "net_flux_error": 0.0793211824576588,
+          "pool_error": 4.3368086899420165e-17,
+          "finite": true,
+          "nonnegative": true,
+          "passes": true
+        },
+        "1e-05": {
+          "concentration_error": 0.0064055412734577415,
+          "flux_error": 0.006497293785452615,
+          "net_flux_error": 0.0793211824576588,
+          "pool_error": 4.3368086899420165e-17,
+          "finite": true,
+          "nonnegative": true,
+          "passes": true
+        }
+      },
+      "npz": "CVODE-KLU-state-0-h-2.0702082944319767e-09-rep-2.npz"
+    },
+    {
+      "state_index": 0,
+      "state_time": 0.0,
+      "step": 2.070209316649743e-09,
+      "method": "DOP853",
+      "repeat": 2,
+      "warmup": false,
+      "status": "success",
+      "seconds": 0.002532250015065074,
+      "counts": {
+        "accepted_steps": 3003,
+        "nfev": 17,
+        "njev": 0,
+        "nlu": 0,
+        "min_internal_state": 0.0,
+        "internal_states_checked": true,
+        "observed_rhs_calls": 17,
+        "min_rhs_argument": 0.0
+      },
+      "metrics": {
+        "0.001": {
+          "concentration_error": 0.0014815122403581352,
+          "flux_error": 0.0014956580303947995,
+          "net_flux_error": 1.829984458177854,
+          "pool_error": 3.989863994746656e-17,
+          "finite": true,
+          "nonnegative": true,
+          "passes": false
+        },
+        "1e-05": {
+          "concentration_error": 0.1481512240358135,
+          "flux_error": 0.14956580303947994,
+          "net_flux_error": 1.829984458177854,
+          "pool_error": 3.989863994746656e-17,
+          "finite": true,
+          "nonnegative": true,
+          "passes": false
+        }
+      },
+      "npz": "DOP853-state-0-h-2.0702093166497431e-09-rep-2.npz"
+    },
+    {
+      "state_index": 0,
+      "state_time": 0.0,
+      "step": 2.070209316649743e-09,
+      "method": "BDF",
+      "repeat": 2,
+      "warmup": false,
+      "status": "success",
+      "seconds": 0.06803199998103082,
+      "counts": {
+        "accepted_steps": 3003,
+        "nfev": 14,
+        "njev": 1,
+        "nlu": 3,
+        "min_internal_state": 0.0,
+        "internal_states_checked": true,
+        "observed_rhs_calls": 14,
+        "min_rhs_argument": 0.0
+      },
+      "metrics": {
+        "0.001": {
+          "concentration_error": 5.841203099700214e-05,
+          "flux_error": 5.8987023367251726e-05,
+          "net_flux_error": 0.07216058304784691,
+          "pool_error": 8.153200337090992e-17,
+          "finite": true,
+          "nonnegative": true,
+          "passes": true
+        },
+        "1e-05": {
+          "concentration_error": 0.005841203099700213,
+          "flux_error": 0.0058987023367251725,
+          "net_flux_error": 0.07216058304784691,
+          "pool_error": 8.153200337090992e-17,
+          "finite": true,
+          "nonnegative": true,
+          "passes": true
+        }
+      },
+      "npz": "BDF-state-0-h-2.0702093166497431e-09-rep-2.npz"
+    },
+    {
+      "state_index": 0,
+      "state_time": 0.0,
+      "step": 2.070209316649743e-09,
+      "method": "CVODE-KLU",
+      "repeat": 2,
+      "warmup": false,
+      "status": "success",
+      "seconds": 0.10292816598666832,
+      "counts": {
+        "accepted_steps": 5,
+        "nfev": 9,
+        "njev": 1,
+        "linear_solver_setups": 4,
+        "error_test_failures": 0,
+        "nonlinear_iterations": 6,
+        "nonlinear_convergence_failures": 0,
+        "rhs_seconds": 0.0016111661097966135,
+        "jacobian_seconds": 0.001033417007420212,
+        "min_rhs_argument": 0.0,
+        "observed_rhs_calls": 9,
+        "linear_solver": "SUNDIALS 6.4.1 KLU sparse CSC, default COLAMD ordering",
+        "internal_states_checked": false,
+        "min_internal_state": null
+      },
+      "metrics": {
+        "0.001": {
+          "concentration_error": 6.405543039199641e-05,
+          "flux_error": 6.497295339152164e-05,
+          "net_flux_error": 0.07932119850769533,
+          "pool_error": 6.591949208711866e-17,
+          "finite": true,
+          "nonnegative": true,
+          "passes": true
+        },
+        "1e-05": {
+          "concentration_error": 0.00640554303919964,
+          "flux_error": 0.006497295339152163,
+          "net_flux_error": 0.07932119850769533,
+          "pool_error": 6.591949208711866e-17,
+          "finite": true,
+          "nonnegative": true,
+          "passes": true
+        }
+      },
+      "npz": "CVODE-KLU-state-0-h-2.0702093166497431e-09-rep-2.npz"
+    },
+    {
+      "state_index": 61,
+      "state_time": 0.00011497569953977356,
+      "step": 1.25e-09,
+      "method": "DOP853",
+      "repeat": 2,
+      "warmup": false,
+      "status": "success",
+      "seconds": 0.0025519580231048167,
+      "counts": {
+        "accepted_steps": 3003,
+        "nfev": 17,
+        "njev": 0,
+        "nlu": 0,
+        "min_internal_state": 0.0,
+        "internal_states_checked": true,
+        "observed_rhs_calls": 17,
+        "min_rhs_argument": 0.0
+      },
+      "metrics": {
+        "0.001": {
+          "concentration_error": 7.981153381634858e-10,
+          "flux_error": 8.001552671597565e-10,
+          "net_flux_error": 9.83064737426187e-07,
+          "pool_error": 4.1633363423443333e-17,
+          "finite": true,
+          "nonnegative": true,
+          "passes": true
+        },
+        "1e-05": {
+          "concentration_error": 7.981153381634857e-08,
+          "flux_error": 8.001552671597565e-08,
+          "net_flux_error": 9.83064737426187e-07,
+          "pool_error": 4.1633363423443333e-17,
+          "finite": true,
+          "nonnegative": true,
+          "passes": true
+        }
+      },
+      "npz": "DOP853-state-61-h-1.25e-09-rep-2.npz"
+    },
+    {
+      "state_index": 61,
+      "state_time": 0.00011497569953977356,
+      "step": 1.25e-09,
+      "method": "BDF",
+      "repeat": 2,
+      "warmup": false,
+      "status": "success",
+      "seconds": 0.027664958965033293,
+      "counts": {
+        "accepted_steps": 3003,
+        "nfev": 4,
+        "njev": 1,
+        "nlu": 1,
+        "min_internal_state": 0.0,
+        "internal_states_checked": true,
+        "observed_rhs_calls": 4,
+        "min_rhs_argument": 0.0
+      },
+      "metrics": {
+        "0.001": {
+          "concentration_error": 2.568797715436317e-08,
+          "flux_error": 2.5687592589971577e-08,
+          "net_flux_error": 7.978212483092634e-08,
+          "pool_error": 6.41847686111418e-17,
+          "finite": true,
+          "nonnegative": true,
+          "passes": true
+        },
+        "1e-05": {
+          "concentration_error": 2.5687977154363166e-06,
+          "flux_error": 2.5687592589971574e-06,
+          "net_flux_error": 7.978212483092634e-08,
+          "pool_error": 6.41847686111418e-17,
+          "finite": true,
+          "nonnegative": true,
+          "passes": true
+        }
+      },
+      "npz": "BDF-state-61-h-1.25e-09-rep-2.npz"
+    },
+    {
+      "state_index": 61,
+      "state_time": 0.00011497569953977356,
+      "step": 1.25e-09,
+      "method": "CVODE-KLU",
+      "repeat": 2,
+      "warmup": false,
+      "status": "success",
+      "seconds": 0.0848900830023922,
+      "counts": {
+        "accepted_steps": 3,
+        "nfev": 6,
+        "njev": 1,
+        "linear_solver_setups": 3,
+        "error_test_failures": 0,
+        "nonlinear_iterations": 3,
+        "nonlinear_convergence_failures": 0,
+        "rhs_seconds": 0.0009478330030106008,
+        "jacobian_seconds": 0.000926624983549118,
+        "min_rhs_argument": 0.0,
+        "observed_rhs_calls": 6,
+        "linear_solver": "SUNDIALS 6.4.1 KLU sparse CSC, default COLAMD ordering",
+        "internal_states_checked": false,
+        "min_internal_state": null
+      },
+      "metrics": {
+        "0.001": {
+          "concentration_error": 8.166207937372052e-08,
+          "flux_error": 8.166216766964106e-08,
+          "net_flux_error": 1.1749530196184709e-07,
+          "pool_error": 6.938893903907222e-17,
+          "finite": true,
+          "nonnegative": true,
+          "passes": true
+        },
+        "1e-05": {
+          "concentration_error": 8.166207937372051e-06,
+          "flux_error": 8.166216766964105e-06,
+          "net_flux_error": 1.1749530196184709e-07,
+          "pool_error": 6.938893903907222e-17,
+          "finite": true,
+          "nonnegative": true,
+          "passes": true
+        }
+      },
+      "npz": "CVODE-KLU-state-61-h-1.25e-09-rep-2.npz"
+    },
+    {
+      "state_index": 61,
+      "state_time": 0.00011497569953977356,
+      "step": 2.0702068244140594e-09,
+      "method": "DOP853",
+      "repeat": 2,
+      "warmup": false,
+      "status": "success",
+      "seconds": 0.002342584019061178,
+      "counts": {
+        "accepted_steps": 3003,
+        "nfev": 17,
+        "njev": 0,
+        "nlu": 0,
+        "min_internal_state": 0.0,
+        "internal_states_checked": true,
+        "observed_rhs_calls": 17,
+        "min_rhs_argument": 0.0
+      },
+      "metrics": {
+        "0.001": {
+          "concentration_error": 4.025891528789264e-10,
+          "flux_error": 4.056455832015755e-10,
+          "net_flux_error": 4.975511324116211e-07,
+          "pool_error": 3.469446951953611e-17,
+          "finite": true,
+          "nonnegative": true,
+          "passes": true
+        },
+        "1e-05": {
+          "concentration_error": 4.025891528789264e-08,
+          "flux_error": 4.056455832015754e-08,
+          "net_flux_error": 4.975511324116211e-07,
+          "pool_error": 3.469446951953611e-17,
+          "finite": true,
+          "nonnegative": true,
+          "passes": true
+        }
+      },
+      "npz": "DOP853-state-61-h-2.0702068244140594e-09-rep-2.npz"
+    },
+    {
+      "state_index": 61,
+      "state_time": 0.00011497569953977356,
+      "step": 2.0702068244140594e-09,
+      "method": "BDF",
+      "repeat": 2,
+      "warmup": false,
+      "status": "success",
+      "seconds": 0.026520334009546787,
+      "counts": {
+        "accepted_steps": 3003,
+        "nfev": 4,
+        "njev": 1,
+        "nlu": 1,
+        "min_internal_state": 0.0,
+        "internal_states_checked": true,
+        "observed_rhs_calls": 4,
+        "min_rhs_argument": 0.0
+      },
+      "metrics": {
+        "0.001": {
+          "concentration_error": 7.045784000489245e-08,
+          "flux_error": 7.04578622326619e-08,
+          "net_flux_error": 1.0106107162313215e-07,
+          "pool_error": 5.898059818321139e-17,
+          "finite": true,
+          "nonnegative": true,
+          "passes": true
+        },
+        "1e-05": {
+          "concentration_error": 7.045784000489244e-06,
+          "flux_error": 7.045786223266189e-06,
+          "net_flux_error": 1.0106107162313215e-07,
+          "pool_error": 5.898059818321139e-17,
+          "finite": true,
+          "nonnegative": true,
+          "passes": true
+        }
+      },
+      "npz": "BDF-state-61-h-2.0702068244140594e-09-rep-2.npz"
+    },
+    {
+      "state_index": 61,
+      "state_time": 0.00011497569953977356,
+      "step": 2.0702068244140594e-09,
+      "method": "CVODE-KLU",
+      "repeat": 2,
+      "warmup": false,
+      "status": "success",
+      "seconds": 0.07516354200197384,
+      "counts": {
+        "accepted_steps": 3,
+        "nfev": 6,
+        "njev": 1,
+        "linear_solver_setups": 3,
+        "error_test_failures": 0,
+        "nonlinear_iterations": 3,
+        "nonlinear_convergence_failures": 0,
+        "rhs_seconds": 0.0009363350109197199,
+        "jacobian_seconds": 0.0009917080169543624,
+        "min_rhs_argument": 0.0,
+        "observed_rhs_calls": 6,
+        "linear_solver": "SUNDIALS 6.4.1 KLU sparse CSC, default COLAMD ordering",
+        "internal_states_checked": false,
+        "min_internal_state": null
+      },
+      "metrics": {
+        "0.001": {
+          "concentration_error": 2.2398845746223252e-07,
+          "flux_error": 2.2398837170421427e-07,
+          "net_flux_error": 3.216953364003627e-07,
+          "pool_error": 1.231653667943532e-16,
+          "finite": true,
+          "nonnegative": true,
+          "passes": true
+        },
+        "1e-05": {
+          "concentration_error": 2.239884574622325e-05,
+          "flux_error": 2.2398837170421424e-05,
+          "net_flux_error": 3.216953364003627e-07,
+          "pool_error": 1.231653667943532e-16,
+          "finite": true,
+          "nonnegative": true,
+          "passes": true
+        }
+      },
+      "npz": "CVODE-KLU-state-61-h-2.0702068244140594e-09-rep-2.npz"
+    },
+    {
+      "state_index": 61,
+      "state_time": 0.00011497569953977356,
+      "step": 2.0702082944319767e-09,
+      "method": "DOP853",
+      "repeat": 2,
+      "warmup": false,
+      "status": "success",
+      "seconds": 0.002433333022054285,
+      "counts": {
+        "accepted_steps": 3003,
+        "nfev": 17,
+        "njev": 0,
+        "nlu": 0,
+        "min_internal_state": 0.0,
+        "internal_states_checked": true,
+        "observed_rhs_calls": 17,
+        "min_rhs_argument": 0.0
+      },
+      "metrics": {
+        "0.001": {
+          "concentration_error": 2.212827747315222e-08,
+          "flux_error": 2.221790353472722e-08,
+          "net_flux_error": 2.734524973697741e-05,
+          "pool_error": 3.469446951953611e-17,
+          "finite": true,
+          "nonnegative": true,
+          "passes": true
+        },
+        "1e-05": {
+          "concentration_error": 2.212827747315222e-06,
+          "flux_error": 2.221790353472722e-06,
+          "net_flux_error": 2.734524973697741e-05,
+          "pool_error": 3.469446951953611e-17,
+          "finite": true,
+          "nonnegative": true,
+          "passes": true
+        }
+      },
+      "npz": "DOP853-state-61-h-2.0702082944319767e-09-rep-2.npz"
+    },
+    {
+      "state_index": 61,
+      "state_time": 0.00011497569953977356,
+      "step": 2.0702082944319767e-09,
+      "method": "BDF",
+      "repeat": 2,
+      "warmup": false,
+      "status": "success",
+      "seconds": 0.021252790989819914,
+      "counts": {
+        "accepted_steps": 3003,
+        "nfev": 4,
+        "njev": 1,
+        "nlu": 1,
+        "min_internal_state": 0.0,
+        "internal_states_checked": true,
+        "observed_rhs_calls": 4,
+        "min_rhs_argument": 0.0
+      },
+      "metrics": {
+        "0.001": {
+          "concentration_error": 7.045784000489245e-08,
+          "flux_error": 7.04578622326619e-08,
+          "net_flux_error": 1.0124997082242772e-07,
+          "pool_error": 5.551115123125778e-17,
+          "finite": true,
+          "nonnegative": true,
+          "passes": true
+        },
+        "1e-05": {
+          "concentration_error": 7.045784000489244e-06,
+          "flux_error": 7.045786223266189e-06,
+          "net_flux_error": 1.0124997082242772e-07,
+          "pool_error": 5.551115123125778e-17,
+          "finite": true,
+          "nonnegative": true,
+          "passes": true
+        }
+      },
+      "npz": "BDF-state-61-h-2.0702082944319767e-09-rep-2.npz"
+    },
+    {
+      "state_index": 61,
+      "state_time": 0.00011497569953977356,
+      "step": 2.0702082944319767e-09,
+      "method": "CVODE-KLU",
+      "repeat": 2,
+      "warmup": false,
+      "status": "success",
+      "seconds": 0.07488500000908971,
+      "counts": {
+        "accepted_steps": 3,
+        "nfev": 6,
+        "njev": 1,
+        "linear_solver_setups": 3,
+        "error_test_failures": 0,
+        "nonlinear_iterations": 3,
+        "nonlinear_convergence_failures": 0,
+        "rhs_seconds": 0.000886040972545743,
+        "jacobian_seconds": 0.0008719160105101764,
+        "min_rhs_argument": 0.0,
+        "observed_rhs_calls": 6,
+        "linear_solver": "SUNDIALS 6.4.1 KLU sparse CSC, default COLAMD ordering",
+        "internal_states_checked": false,
+        "min_internal_state": null
+      },
+      "metrics": {
+        "0.001": {
+          "concentration_error": 2.2398845746223252e-07,
+          "flux_error": 2.2398837170421427e-07,
+          "net_flux_error": 3.216953364003627e-07,
+          "pool_error": 8.673617379884028e-17,
+          "finite": true,
+          "nonnegative": true,
+          "passes": true
+        },
+        "1e-05": {
+          "concentration_error": 2.239884574622325e-05,
+          "flux_error": 2.2398837170421424e-05,
+          "net_flux_error": 3.216953364003627e-07,
+          "pool_error": 8.673617379884028e-17,
+          "finite": true,
+          "nonnegative": true,
+          "passes": true
+        }
+      },
+      "npz": "CVODE-KLU-state-61-h-2.0702082944319767e-09-rep-2.npz"
+    },
+    {
+      "state_index": 61,
+      "state_time": 0.00011497569953977356,
+      "step": 2.070209316649743e-09,
+      "method": "DOP853",
+      "repeat": 2,
+      "warmup": false,
+      "status": "success",
+      "seconds": 0.002293792029377073,
+      "counts": {
+        "accepted_steps": 3003,
+        "nfev": 17,
+        "njev": 0,
+        "nlu": 0,
+        "min_internal_state": 0.0,
+        "internal_states_checked": true,
+        "observed_rhs_calls": 17,
+        "min_rhs_argument": 0.0
+      },
+      "metrics": {
+        "0.001": {
+          "concentration_error": 6.783980374389629e-09,
+          "flux_error": 6.812972517467053e-09,
+          "net_flux_error": 8.382131577482876e-06,
+          "pool_error": 5.030698080332736e-17,
+          "finite": true,
+          "nonnegative": true,
+          "passes": true
+        },
+        "1e-05": {
+          "concentration_error": 6.783980374389628e-07,
+          "flux_error": 6.812972517467052e-07,
+          "net_flux_error": 8.382131577482876e-06,
+          "pool_error": 5.030698080332736e-17,
+          "finite": true,
+          "nonnegative": true,
+          "passes": true
+        }
+      },
+      "npz": "DOP853-state-61-h-2.0702093166497431e-09-rep-2.npz"
+    },
+    {
+      "state_index": 61,
+      "state_time": 0.00011497569953977356,
+      "step": 2.070209316649743e-09,
+      "method": "BDF",
+      "repeat": 2,
+      "warmup": false,
+      "status": "success",
+      "seconds": 0.02113049995386973,
+      "counts": {
+        "accepted_steps": 3003,
+        "nfev": 4,
+        "njev": 1,
+        "nlu": 1,
+        "min_internal_state": 0.0,
+        "internal_states_checked": true,
+        "observed_rhs_calls": 4,
+        "min_rhs_argument": 0.0
+      },
+      "metrics": {
+        "0.001": {
+          "concentration_error": 7.045891033727388e-08,
+          "flux_error": 7.045882043889101e-08,
+          "net_flux_error": 1.0124997082242772e-07,
+          "pool_error": 4.8572257327350556e-17,
+          "finite": true,
+          "nonnegative": true,
+          "passes": true
+        },
+        "1e-05": {
+          "concentration_error": 7.045891033727387e-06,
+          "flux_error": 7.045882043889099e-06,
+          "net_flux_error": 1.0124997082242772e-07,
+          "pool_error": 4.8572257327350556e-17,
+          "finite": true,
+          "nonnegative": true,
+          "passes": true
+        }
+      },
+      "npz": "BDF-state-61-h-2.0702093166497431e-09-rep-2.npz"
+    },
+    {
+      "state_index": 61,
+      "state_time": 0.00011497569953977356,
+      "step": 2.070209316649743e-09,
+      "method": "CVODE-KLU",
+      "repeat": 2,
+      "warmup": false,
+      "status": "success",
+      "seconds": 0.07569520804099739,
+      "counts": {
+        "accepted_steps": 3,
+        "nfev": 6,
+        "njev": 1,
+        "linear_solver_setups": 3,
+        "error_test_failures": 0,
+        "nonlinear_iterations": 3,
+        "nonlinear_convergence_failures": 0,
+        "rhs_seconds": 0.0009108739905059338,
+        "jacobian_seconds": 0.0008813749882392585,
+        "min_rhs_argument": 0.0,
+        "observed_rhs_calls": 6,
+        "linear_solver": "SUNDIALS 6.4.1 KLU sparse CSC, default COLAMD ordering",
+        "internal_states_checked": false,
+        "min_internal_state": null
+      },
+      "metrics": {
+        "0.001": {
+          "concentration_error": 2.239905981269954e-07,
+          "flux_error": 2.2399028811667248e-07,
+          "net_flux_error": 3.218842355996583e-07,
+          "pool_error": 7.632783294297945e-17,
+          "finite": true,
+          "nonnegative": true,
+          "passes": true
+        },
+        "1e-05": {
+          "concentration_error": 2.2399059812699536e-05,
+          "flux_error": 2.2399028811667245e-05,
+          "net_flux_error": 3.218842355996583e-07,
+          "pool_error": 7.632783294297945e-17,
+          "finite": true,
+          "nonnegative": true,
+          "passes": true
+        }
+      },
+      "npz": "CVODE-KLU-state-61-h-2.0702093166497431e-09-rep-2.npz"
+    },
+    {
+      "state_index": 0,
+      "state_time": 0.0,
+      "step": 1.25e-09,
+      "method": "DOP853",
+      "repeat": 2,
+      "warmup": false,
+      "status": "success",
+      "seconds": 0.002554750011768192,
+      "counts": {
+        "accepted_steps": 3003,
+        "nfev": 17,
+        "njev": 0,
+        "nlu": 0,
+        "min_internal_state": 0.0,
+        "internal_states_checked": true,
+        "observed_rhs_calls": 17,
+        "min_rhs_argument": 0.0
+      },
+      "metrics": {
+        "0.001": {
+          "concentration_error": 3.383323925956526e-06,
+          "flux_error": 3.41562842908641e-06,
+          "net_flux_error": 0.004179132586581824,
+          "pool_error": 3.989863994746656e-17,
+          "finite": true,
+          "nonnegative": true,
+          "passes": true
+        },
+        "1e-05": {
+          "concentration_error": 0.00033833239259565255,
+          "flux_error": 0.000341562842908641,
+          "net_flux_error": 0.004179132586581824,
+          "pool_error": 3.989863994746656e-17,
+          "finite": true,
+          "nonnegative": true,
+          "passes": true
+        }
+      },
+      "npz": "DOP853-state-0-h-1.25e-09-rep-2.npz"
+    },
+    {
+      "state_index": 0,
+      "state_time": 0.0,
+      "step": 1.25e-09,
+      "method": "BDF",
+      "repeat": 2,
+      "warmup": false,
+      "status": "success",
+      "seconds": 0.06577845895662904,
+      "counts": {
+        "accepted_steps": 3003,
+        "nfev": 12,
+        "njev": 1,
+        "nlu": 3,
+        "min_internal_state": 0.0,
+        "internal_states_checked": true,
+        "observed_rhs_calls": 12,
+        "min_rhs_argument": 0.0
+      },
+      "metrics": {
+        "0.001": {
+          "concentration_error": 4.965035259799757e-05,
+          "flux_error": 5.006746020346251e-05,
+          "net_flux_error": 0.06133799526595809,
+          "pool_error": 3.989863994746656e-17,
+          "finite": true,
+          "nonnegative": true,
+          "passes": true
+        },
+        "1e-05": {
+          "concentration_error": 0.004965035259799756,
+          "flux_error": 0.005006746020346251,
+          "net_flux_error": 0.06133799526595809,
+          "pool_error": 3.989863994746656e-17,
+          "finite": true,
+          "nonnegative": true,
+          "passes": true
+        }
+      },
+      "npz": "BDF-state-0-h-1.25e-09-rep-2.npz"
+    }
+  ]
+}

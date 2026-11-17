@@ -1,0 +1,35 @@
+{
+  "date": "2026-11-15",
+  "hypothesis": "Kecoli accepted macro steps are pinned by slow_bound_limit=2 rather than audited splitting error; a higher bound limit may increase genuine reaction-split coverage.",
+  "scope": "One Kecoli 1e-3 run per slow_bound_limit on the original public grid prefix <=1e-6. Development screen only; no full-window, seven-repeat or speedup claim.",
+  "model": "kecoli",
+  "target": 0.001,
+  "prefix_end": 1e-06,
+  "slow_bound_limits": [
+    2.0,
+    4.0,
+    8.0
+  ],
+  "gates": {
+    "accepted_steps_full_ode_audited": true,
+    "executed_split_trials_full_ode_audited": true,
+    "preaudit_controller_rejections_recorded": true,
+    "all_attempts_preserved": true,
+    "no_clipping": true,
+    "rejected_trial_rollback": true,
+    "original_metrics_recomputed": true,
+    "costs_include_split_and_audit": true
+  },
+  "artifact_schema": "npz: times, values, reference, flux_reference, scale, y0",
+  "source_sha256": {
+    "research/m4_kecoli_slow_bound_screen.py": "1e47a184a827ca2f4f9727dd8650d3bbfe3861bad7d80e9bdfdb56758131352a",
+    "metabolism/continuation.py": "ea4eb549ed85c9a95edd9cc741b21d16c3ee56b8f1739e8c95636b51d7987a45",
+    "metabolism/adaptive.py": "427c67bfba193a79fb6d3d96aecc5ed01efa1a5d3fc7cbc82e525f3cf851db69",
+    "metabolism/splitting.py": "8091ae6663b248fb949d726a81688db246622b7ee9595f31e5f0ece7fd1438bb",
+    "metabolism/m3_continuation.py": "90b539d8f7ce2dae6d574b6285bcd66fcb4b95b3950f96ff81fed6301bd65401"
+  },
+  "environment": {
+    "python": "3.12.10",
+    "numpy": "2.5.4"
+  }
+}

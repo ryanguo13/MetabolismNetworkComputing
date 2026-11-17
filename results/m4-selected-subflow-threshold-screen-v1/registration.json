@@ -1,0 +1,41 @@
+{
+  "audit_method": "BDF",
+  "audit_rtol": 1e-09,
+  "date": "2026-11-16",
+  "enters": [
+    0.001,
+    0.0003,
+    0.0001
+  ],
+  "environment": {
+    "numpy": "2.5.4",
+    "python": "3.12.10"
+  },
+  "horizon": 1e-06,
+  "model": "k-ecoli457",
+  "reference_path": "results/m1-completion/kecoli-reference.npz",
+  "reference_sha256": "2351ef24ff471d0bffd54bc30270183363eb592bb838f6f972aae90544c3e172",
+  "repeats": [
+    -1,
+    0,
+    1
+  ],
+  "scope": "Local controller optimization screen; no full-window or M4 qualification.",
+  "semantics": {
+    "accepted_steps_independently_audited": true,
+    "complete_nonlinear_rhs": true,
+    "exact_subflow_column_evaluation": true,
+    "full_audit_every_attempt": true,
+    "no_clipping": true
+  },
+  "source_sha256": {
+    "metabolism/adaptive.py": "427c67bfba193a79fb6d3d96aecc5ed01efa1a5d3fc7cbc82e525f3cf851db69",
+    "metabolism/continuation.py": "ea4eb549ed85c9a95edd9cc741b21d16c3ee56b8f1739e8c95636b51d7987a45",
+    "metabolism/kecoli.py": "3b1cbea4fb876b0a967804c428090482b043e220364d78aa94e37a413f41bd1f",
+    "metabolism/m3_continuation.py": "90b539d8f7ce2dae6d574b6285bcd66fcb4b95b3950f96ff81fed6301bd65401",
+    "metabolism/splitting.py": "2c8e90fb05f79bc3f6bb49eb3ffb943f6eca5a83277307f34af01b0b60737409",
+    "research/m4_selected_subflow_threshold_screen.py": "ba799f7944d197797217c4e450fe70efcc07cd0f06c63dc1f821860573f56798"
+  },
+  "state_index": 61,
+  "target": 0.001
+}

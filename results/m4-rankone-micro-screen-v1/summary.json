@@ -1,0 +1,64 @@
+{
+  "model": "k-ecoli457",
+  "M4_admission": false,
+  "status": "stopped_negative",
+  "scope": "One archived early-state local rank-one probe; no full-window or formal-repeat claim.",
+  "parity": {
+    "selected_groups": 49,
+    "reversible_pairs_checked": 49,
+    "exact_stoich_checks": true
+  },
+  "projection": [
+    {
+      "h": 1e-10,
+      "repeats": 2,
+      "candidate_split_median": 0.22370572900399566,
+      "audit_median": 0.00283368700183928,
+      "one_step_total_lower_bound": 0.22653941600583494,
+      "fixed_split_median": 0.0069555620138999075,
+      "projected_steps_for_full_window": 10000000000,
+      "projected_full_window_seconds": 2265394160.058349,
+      "budget_1e3": 0.6947447780209283,
+      "budget_1e5": 0.6937213886606818,
+      "target_1e3_pass": true,
+      "target_1e5_pass": true
+    },
+    {
+      "h": 1e-09,
+      "repeats": 2,
+      "candidate_split_median": 0.2957759999844711,
+      "audit_median": 0.005056521011283621,
+      "one_step_total_lower_bound": 0.30083252099575475,
+      "fixed_split_median": 0.009652395499870181,
+      "projected_steps_for_full_window": 1000000000,
+      "projected_full_window_seconds": 300832520.9957547,
+      "budget_1e3": 0.6947447780209283,
+      "budget_1e5": 0.6937213886606818,
+      "target_1e3_pass": true,
+      "target_1e5_pass": true
+    },
+    {
+      "h": 1e-08,
+      "repeats": 2,
+      "candidate_split_median": 0.406608083518222,
+      "audit_median": 0.01572504101204686,
+      "one_step_total_lower_bound": 0.42233312453026883,
+      "fixed_split_median": 0.04178356201737188,
+      "projected_steps_for_full_window": 100000000,
+      "projected_full_window_seconds": 42233312.45302688,
+      "budget_1e3": 0.6947447780209283,
+      "budget_1e5": 0.6937213886606818,
+      "target_1e3_pass": false,
+      "target_1e5_pass": false
+    }
+  ],
+  "runs": 6,
+  "stopping_reason": "Scalar pair composition is far too expensive per accepted step and loses formal accuracy at H=1e-8; fixed-H full-window projection is infeasible even where H passes.",
+  "source_sha256": {
+    "research/m4_rankone_micro_screen.py": "fc90278f99bb09422f0f92e14d70cf844f926ccf9272ca1c60fbf421157f137a",
+    "metabolism/kecoli.py": "73f46ac5ceebe3242c8dc313fa80fb1588a32c82a58527b305f69fcd0fd4d851",
+    "metabolism/splitting.py": "8091ae6663b248fb949d726a81688db246622b7ee9595f31e5f0ece7fd1438bb",
+    "metabolism/m3_continuation.py": "90b539d8f7ce2dae6d574b6285bcd66fcb4b95b3950f96ff81fed6301bd65401",
+    "metabolism/adaptive.py": "427c67bfba193a79fb6d3d96aecc5ed01efa1a5d3fc7cbc82e525f3cf851db69"
+  }
+}

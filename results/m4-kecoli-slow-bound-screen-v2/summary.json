@@ -1,0 +1,79 @@
+{
+  "summary": [
+    {
+      "slow_bound_limit": 2.0,
+      "status": "success",
+      "seconds": 22.068684249999933,
+      "accuracy_pass": true,
+      "split_coverage": 0.9999999999999992,
+      "accepted_full_system_fraction": 0.0,
+      "attempts": 171,
+      "accepted_steps": 87,
+      "rejected_steps": 84,
+      "first_accepted_h": 1e-08,
+      "unique_accepted_h": [
+        9.87450130889136e-09,
+        9.874501308891413e-09,
+        1e-08
+      ],
+      "max_slow_scaled_norm_times_h": 2.271235360060781,
+      "full_calls": 87,
+      "executed_split_trials_audited": true,
+      "all_attempts_recorded": true,
+      "preaudit_controller_rejections": 84
+    },
+    {
+      "slow_bound_limit": 4.0,
+      "status": "success",
+      "seconds": 11.359893708024174,
+      "accuracy_pass": true,
+      "split_coverage": 0.9999999999999994,
+      "accepted_full_system_fraction": 0.0,
+      "attempts": 83,
+      "accepted_steps": 44,
+      "rejected_steps": 39,
+      "first_accepted_h": 1e-08,
+      "unique_accepted_h": [
+        1e-08,
+        2e-08,
+        2.9749002617782942e-08
+      ],
+      "max_slow_scaled_norm_times_h": 4.542470719372779,
+      "full_calls": 44,
+      "executed_split_trials_audited": true,
+      "all_attempts_recorded": true,
+      "preaudit_controller_rejections": 39
+    },
+    {
+      "slow_bound_limit": 8.0,
+      "status": "success",
+      "seconds": 28.73138554103207,
+      "accuracy_pass": true,
+      "split_coverage": 0.9999999999999994,
+      "accepted_full_system_fraction": 0.0,
+      "attempts": 83,
+      "accepted_steps": 44,
+      "rejected_steps": 39,
+      "first_accepted_h": 1e-08,
+      "unique_accepted_h": [
+        1e-08,
+        2e-08,
+        2.9749002617782942e-08
+      ],
+      "max_slow_scaled_norm_times_h": 4.542470719372779,
+      "full_calls": 83,
+      "executed_split_trials_audited": true,
+      "all_attempts_recorded": true,
+      "preaudit_controller_rejections": 0
+    }
+  ],
+  "M4_admission": false,
+  "interpretation": "Bounded Kecoli controller screen only; no full-window, seven-repeat or formal speedup claim.",
+  "source_sha256": {
+    "research/m4_kecoli_slow_bound_screen.py": "69d0de539011dd20131e47ecfdd293850c5ce5318f5781f9d7eefbbdf657acf1",
+    "metabolism/continuation.py": "ea4eb549ed85c9a95edd9cc741b21d16c3ee56b8f1739e8c95636b51d7987a45",
+    "metabolism/adaptive.py": "427c67bfba193a79fb6d3d96aecc5ed01efa1a5d3fc7cbc82e525f3cf851db69",
+    "metabolism/splitting.py": "8091ae6663b248fb949d726a81688db246622b7ee9595f31e5f0ece7fd1438bb",
+    "metabolism/m3_continuation.py": "90b539d8f7ce2dae6d574b6285bcd66fcb4b95b3950f96ff81fed6301bd65401"
+  }
+}

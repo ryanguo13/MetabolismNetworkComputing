@@ -7,7 +7,9 @@ qualified on the registered output grid. No full-ODE audit state is committed
 as a split result. Original M1–M3 implementations and evidence stay unchanged.
 """
 
+import hashlib
 import time
+from concurrent.futures import ThreadPoolExecutor
 from dataclasses import dataclass
 from types import SimpleNamespace
 
@@ -26,6 +28,16 @@ class ContinuationConfig(AdaptiveConfig):
     classification_step_floor: float = 0.
     growth_safety: float = .9
     rejection_audit_cache: bool = False
+    split_substeps: int = 1
+    # Fail-closed pre-audit filter.  A candidate can be rejected cheaply, but
+    # every candidate that is accepted still passes the independent full ODE
+    # audit below.
+    shadow_first: bool = False
+    shadow_limit: float = 1.0
+    # Run candidate generation and its independent full-ODE audit concurrently
+    # from the same committed state.  Disabled by default; incompatible with
+    # cache/shadow modes because those modes change audit scheduling semantics.
+    overlap_audit: bool = False
 
 
 class MacroSplit(AdaptiveSplit):
@@ -50,7 +62,11 @@ class MacroSplit(AdaptiveSplit):
                 or (c.rejection_audit_cache and self.system.time_dependent)
                 or not np.isfinite(c.startup_end) or not 0 <= c.classification_step_floor
                 or not np.isfinite(c.growth_safety) or not .5 <= c.growth_safety <= 2.
-                or not grid[0] <= c.startup_end <= grid[-1]):
+                or not isinstance(c.split_substeps, int) or isinstance(c.split_substeps, bool)
+                or c.split_substeps < 1 or not grid[0] <= c.startup_end <= grid[-1]
+                or not isinstance(c.shadow_first, bool) or not np.isfinite(c.shadow_limit)
+                or c.shadow_limit <= 0 or not isinstance(c.overlap_audit, bool)
+                or (c.overlap_audit and (c.rejection_audit_cache or c.shadow_first))):
             raise ValueError('Invalid continuation grid, state or configuration')
         start = time.perf_counter()
         initial = state.copy()
@@ -64,6 +80,8 @@ class MacroSplit(AdaptiveSplit):
                      nfev=0, njev=0, nlu=0, native_linear_setups=0,
                      coarse_split_calls=0, fine_split_calls=0,
                      audit_calls=0, audit_solver_calls=0, audit_cache_hits=0,
+                     shadow_rejections=0, shadow_seconds=0.,
+                     overlap_trials=0, overlap_seconds=0.,
                      ledger_increment=0., ledger_quadrature_difference=0.,
                      max_pool_error=0., min_rhs_argument=float(state.min()),
                      min_output=float(state.min()), clipping_count=0, projection_count=0)
@@ -228,6 +246,18 @@ class MacroSplit(AdaptiveSplit):
                 bound = h * self.screen.slow_bound(gradient, proposed)
                 stats['classification_seconds'] += time.perf_counter() - tick
                 if bound > c.slow_bound_limit:
+                    # This is a pre-trial controller rejection: preserve it in
+                    # the attempt ledger, but do not claim a full ODE audit.
+                    stats['attempts'].append(dict(
+                        time=t, h=h, classification_step=classification_h,
+                        groups=proposed.tolist(), output_count=0,
+                        slow_scaled_norm_times_h=bound, status='rejected',
+                        reason='coupled_slow_norm_bound',
+                        rollback_verified=True,
+                        full_ode_audit=False,
+                    ))
+                    stats['rollback_checks'] += 1
+                    stats['rejected_steps'] += 1
                     h *= .5
                     rejections += 1
                     if rejections >= c.max_rejections:
@@ -252,27 +282,147 @@ class MacroSplit(AdaptiveSplit):
                              slow_scaled_norm_times_h=bound, status='pending')
                 before = (state.copy(), t, index, stats['ledger_increment'], groups.copy())
                 tick = time.perf_counter()
+                overlap_timing_recorded = False
                 try:
                     partition.timeout = max(.001, c.timeout - (tick - start))
-                    if not c.audit_control_only:
-                        _, coarse, cs = partition.integrate(state, t, t + h, 1)
+                    def split_trial():
+                        split_tick = time.perf_counter()
+                        coarse_trial = None
+                        coarse_stats = None
+                        if not c.audit_control_only:
+                            _, coarse_trial, coarse_stats = partition.integrate(
+                                state, t, t + h, 1, substeps=c.split_substeps)
+                        _, fine_trial, fine_stats = partition.integrate(
+                            state, t, t + h, 2, substeps=c.split_substeps)
+                        return (coarse_trial, fine_trial, coarse_stats, fine_stats,
+                                time.perf_counter() - split_tick)
+
+                    def audit_trial():
+                        audit_tick = time.perf_counter()
+                        reference_trial = audited_reference(state.copy(), t, t + h, query)
+                        return reference_trial, time.perf_counter() - audit_tick
+
+                    if c.overlap_audit:
+                        def capture_trial(function):
+                            trial_tick = time.perf_counter()
+                            try:
+                                return function(), time.perf_counter() - trial_tick, None
+                            except BaseException as exc:
+                                return None, time.perf_counter() - trial_tick, exc
+
+                        overlap_tick = time.perf_counter()
+                        with ThreadPoolExecutor(max_workers=2, thread_name_prefix='m4-audit') as pool:
+                            split_future = pool.submit(capture_trial, split_trial)
+                            audit_future = pool.submit(capture_trial, audit_trial)
+                            split_result, split_elapsed, split_error = split_future.result()
+                            audit_result, audit_elapsed, audit_error = audit_future.result()
+                        stats['split_seconds'] += split_elapsed
+                        stats['audit_seconds'] += audit_elapsed
+                        stats['overlap_trials'] += 1
+                        stats['overlap_seconds'] += max(
+                            0., split_elapsed + audit_elapsed
+                            - (time.perf_counter() - overlap_tick))
+                        overlap_timing_recorded = True
+                        if split_result is not None and (split_error is not None or audit_error is not None):
+                            coarse, fine, cs, fs, _ = split_result
+                            if cs is not None:
+                                stats['coarse_split_calls'] += 1
+                                for key in ('nfev', 'njev', 'nlu'):
+                                    stats[key] += cs[key]
+                            stats['fine_split_calls'] += 1
+                            for key in ('nfev', 'njev', 'nlu'):
+                                stats[key] += fs[key]
+                        if audit_error is not None:
+                            if isinstance(split_error, SplitFailure):
+                                for key in ('nfev', 'njev', 'nlu'):
+                                    stats[key] += split_error.stats.get(key, 0)
+                            trial.update(status='failed', full_ode_audit=False,
+                                         split_completed=split_error is None,
+                                         split_failure=None if split_error is None else str(split_error),
+                                         audit_failure=str(audit_error),
+                                         audit_status='failed',
+                                         audit_start_time=float(t), audit_end_time=float(t + h),
+                                         audit_method=c.audit_method, audit_rtol=float(c.audit_rtol),
+                                         audit_start_state_sha256=hashlib.sha256(
+                                             np.ascontiguousarray(state, dtype=np.float64).tobytes()
+                                         ).hexdigest(),
+                                         rollback_verified=True)
+                            stats['rollback_checks'] += 1
+                            stats['attempts'].append(trial)
+                            raise audit_error
+                        if split_error is not None:
+                            trial.update(full_ode_audit=True, audit_status='completed',
+                                         split_failure=str(split_error))
+                            trial.update(
+                                audit_start_time=float(t), audit_end_time=float(t + h),
+                                audit_method=c.audit_method, audit_rtol=float(c.audit_rtol),
+                                audit_start_state_sha256=hashlib.sha256(
+                                    np.ascontiguousarray(state, dtype=np.float64).tobytes()
+                                ).hexdigest())
+                            raise split_error
+                        coarse, fine, cs, fs, split_elapsed = split_result
+                        reference, _ = audit_result
+                        trial.update(full_ode_audit=True, audit_status='completed')
+                    else:
+                        coarse, fine, cs, fs, split_elapsed = split_trial()
+                        reference, audit_elapsed = None, 0.
+                    if cs is not None:
                         stats['coarse_split_calls'] += 1
                         for key in ('nfev', 'njev', 'nlu'):
                             stats[key] += cs[key]
-                    _, fine, fs = partition.integrate(state, t, t + h, 2)
                     stats['fine_split_calls'] += 1
                     for key in ('nfev', 'njev', 'nlu'):
                         stats[key] += fs[key]
-                    stats['split_seconds'] += time.perf_counter() - tick
-                    for counts in ((cs, fs) if not c.audit_control_only else (fs,)):
+                    if not overlap_timing_recorded:
+                        stats['split_seconds'] += split_elapsed
+                        stats['audit_seconds'] += audit_elapsed
+                    for counts in ((cs, fs) if cs is not None else (fs,)):
                         stats['min_rhs_argument'] = min(stats['min_rhs_argument'], counts['min_rhs_argument'])
                     # Convex interpolation is checked, never used as a substitute
                     # for an independently calibrated splitting dense extension.
                     values = np.vstack([np.interp(query, [t, t+h/2, t+h], row) for row in fine])
                     check(values)
-                    tick = time.perf_counter()
-                    reference = audited_reference(state, t, t+h, query)
-                    stats['audit_seconds'] += time.perf_counter() - tick
+                    # Use the already-computed coarse/fine pair as a fail-closed
+                    # shadow filter.  A shadow rejection never commits state and
+                    # never claims an audit; only shadow-pass trials reach the
+                    # independent nonlinear ODE audit and can be accepted.
+                    if c.shadow_first and not c.audit_control_only:
+                        shadow_tick = time.perf_counter()
+                        shadow_estimate = normalized_error(
+                            fine[:, -1] - (fine[:, -1] - coarse[:, -1]) / 3,
+                            fine[:, -1], self.scale, c.local_fraction * c.target)[1]
+                        stats['shadow_seconds'] += time.perf_counter() - shadow_tick
+                        trial['shadow_estimate_max'] = shadow_estimate
+                        if shadow_estimate > c.shadow_limit:
+                            trial['status'] = 'rejected'
+                            trial['reason'] = 'shadow_estimate_budget'
+                            trial['full_ode_audit'] = False
+                            stats['shadow_rejections'] += 1
+                            stats['rejected_steps'] += 1
+                            rejections += 1
+                            stats['rollback_checks'] += 1
+                            # No mutable committed state has been touched yet.
+                            trial['rollback_verified'] = True
+                            h *= .5
+                            partition = None
+                            stats['attempts'].append(trial)
+                            if rejections >= c.max_rejections:
+                                commit_full(grid[-1], 'shadow_estimate_budget')
+                                break
+                            continue
+                    if not c.overlap_audit:
+                        reference, audit_elapsed = audit_trial()
+                    stats['audit_seconds'] += audit_elapsed
+                    trial.update(
+                        full_ode_audit=True,
+                        audit_start_time=float(t),
+                        audit_end_time=float(t + h),
+                        audit_method=c.audit_method,
+                        audit_rtol=float(c.audit_rtol),
+                        audit_start_state_sha256=hashlib.sha256(
+                            np.ascontiguousarray(state, dtype=np.float64).tobytes()
+                        ).hexdigest(),
+                    )
                     conc, flux, net = observable_error(values, reference)
                     if c.audit_control_only:
                         estimate = 0.
@@ -305,7 +455,8 @@ class MacroSplit(AdaptiveSplit):
                     else:
                         trial['reason'] = 'audited_error_or_estimator_budget'
                 except SplitFailure as exc:
-                    stats['split_seconds'] += time.perf_counter() - tick
+                    if not overlap_timing_recorded:
+                        stats['split_seconds'] += time.perf_counter() - tick
                     for key in ('nfev', 'njev', 'nlu'):
                         stats[key] += exc.stats.get(key, 0)
                     trial['reason'] = str(exc)

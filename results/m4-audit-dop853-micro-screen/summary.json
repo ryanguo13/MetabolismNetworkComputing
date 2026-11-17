@@ -1,0 +1,1243 @@
+{
+  "scope": "Audit-backend micro-screen on actual accepted Kecoli step-size quantiles; not a trajectory or M4 qualification.",
+  "summary": [
+    {
+      "state_index": 0,
+      "step": 1.25e-09,
+      "method": "DOP853",
+      "repeats": 3,
+      "seconds": [
+        0.002304166031535715,
+        0.0023931670002639294,
+        0.002554750011768192
+      ],
+      "median_seconds": 0.0023931670002639294,
+      "all_targets_pass": true,
+      "counts": [
+        {
+          "accepted_steps": 3003,
+          "nfev": 17,
+          "njev": 0,
+          "nlu": 0,
+          "min_internal_state": 0.0,
+          "internal_states_checked": true,
+          "observed_rhs_calls": 17,
+          "min_rhs_argument": 0.0
+        },
+        {
+          "accepted_steps": 3003,
+          "nfev": 17,
+          "njev": 0,
+          "nlu": 0,
+          "min_internal_state": 0.0,
+          "internal_states_checked": true,
+          "observed_rhs_calls": 17,
+          "min_rhs_argument": 0.0
+        },
+        {
+          "accepted_steps": 3003,
+          "nfev": 17,
+          "njev": 0,
+          "nlu": 0,
+          "min_internal_state": 0.0,
+          "internal_states_checked": true,
+          "observed_rhs_calls": 17,
+          "min_rhs_argument": 0.0
+        }
+      ]
+    },
+    {
+      "state_index": 0,
+      "step": 1.25e-09,
+      "method": "BDF",
+      "repeats": 3,
+      "seconds": [
+        0.06839008297538385,
+        0.06942841701675206,
+        0.06577845895662904
+      ],
+      "median_seconds": 0.06839008297538385,
+      "all_targets_pass": true,
+      "counts": [
+        {
+          "accepted_steps": 3003,
+          "nfev": 12,
+          "njev": 1,
+          "nlu": 3,
+          "min_internal_state": 0.0,
+          "internal_states_checked": true,
+          "observed_rhs_calls": 12,
+          "min_rhs_argument": 0.0
+        },
+        {
+          "accepted_steps": 3003,
+          "nfev": 12,
+          "njev": 1,
+          "nlu": 3,
+          "min_internal_state": 0.0,
+          "internal_states_checked": true,
+          "observed_rhs_calls": 12,
+          "min_rhs_argument": 0.0
+        },
+        {
+          "accepted_steps": 3003,
+          "nfev": 12,
+          "njev": 1,
+          "nlu": 3,
+          "min_internal_state": 0.0,
+          "internal_states_checked": true,
+          "observed_rhs_calls": 12,
+          "min_rhs_argument": 0.0
+        }
+      ]
+    },
+    {
+      "state_index": 0,
+      "step": 1.25e-09,
+      "method": "CVODE-KLU",
+      "repeats": 3,
+      "seconds": [
+        0.10305891698226333,
+        0.17708529095398262,
+        0.09807583299698308
+      ],
+      "median_seconds": 0.10305891698226333,
+      "all_targets_pass": true,
+      "counts": [
+        {
+          "accepted_steps": 4,
+          "nfev": 7,
+          "njev": 1,
+          "linear_solver_setups": 4,
+          "error_test_failures": 0,
+          "nonlinear_iterations": 4,
+          "nonlinear_convergence_failures": 0,
+          "rhs_seconds": 0.0011470829485915601,
+          "jacobian_seconds": 0.0009763330454006791,
+          "min_rhs_argument": 0.0,
+          "observed_rhs_calls": 7,
+          "linear_solver": "SUNDIALS 6.4.1 KLU sparse CSC, default COLAMD ordering",
+          "internal_states_checked": false,
+          "min_internal_state": null
+        },
+        {
+          "accepted_steps": 4,
+          "nfev": 7,
+          "njev": 1,
+          "linear_solver_setups": 4,
+          "error_test_failures": 0,
+          "nonlinear_iterations": 4,
+          "nonlinear_convergence_failures": 0,
+          "rhs_seconds": 0.0012626249226741493,
+          "jacobian_seconds": 0.0011986659956164658,
+          "min_rhs_argument": 0.0,
+          "observed_rhs_calls": 7,
+          "linear_solver": "SUNDIALS 6.4.1 KLU sparse CSC, default COLAMD ordering",
+          "internal_states_checked": false,
+          "min_internal_state": null
+        },
+        {
+          "accepted_steps": 4,
+          "nfev": 7,
+          "njev": 1,
+          "linear_solver_setups": 4,
+          "error_test_failures": 0,
+          "nonlinear_iterations": 4,
+          "nonlinear_convergence_failures": 0,
+          "rhs_seconds": 0.0010927090188488364,
+          "jacobian_seconds": 0.0009297920041717589,
+          "min_rhs_argument": 0.0,
+          "observed_rhs_calls": 7,
+          "linear_solver": "SUNDIALS 6.4.1 KLU sparse CSC, default COLAMD ordering",
+          "internal_states_checked": false,
+          "min_internal_state": null
+        }
+      ]
+    },
+    {
+      "state_index": 0,
+      "step": 2.0702068244140594e-09,
+      "method": "DOP853",
+      "repeats": 3,
+      "seconds": [
+        0.002475833985954523,
+        0.002274374943226576,
+        0.00222958397353068
+      ],
+      "median_seconds": 0.002274374943226576,
+      "all_targets_pass": false,
+      "counts": [
+        {
+          "accepted_steps": 3003,
+          "nfev": 17,
+          "njev": 0,
+          "nlu": 0,
+          "min_internal_state": 0.0,
+          "internal_states_checked": true,
+          "observed_rhs_calls": 17,
+          "min_rhs_argument": 0.0
+        },
+        {
+          "accepted_steps": 3003,
+          "nfev": 17,
+          "njev": 0,
+          "nlu": 0,
+          "min_internal_state": 0.0,
+          "internal_states_checked": true,
+          "observed_rhs_calls": 17,
+          "min_rhs_argument": 0.0
+        },
+        {
+          "accepted_steps": 3003,
+          "nfev": 17,
+          "njev": 0,
+          "nlu": 0,
+          "min_internal_state": 0.0,
+          "internal_states_checked": true,
+          "observed_rhs_calls": 17,
+          "min_rhs_argument": 0.0
+        }
+      ]
+    },
+    {
+      "state_index": 0,
+      "step": 2.0702068244140594e-09,
+      "method": "BDF",
+      "repeats": 3,
+      "seconds": [
+        0.06812283303588629,
+        0.0645639169961214,
+        0.06926062499405816
+      ],
+      "median_seconds": 0.06812283303588629,
+      "all_targets_pass": true,
+      "counts": [
+        {
+          "accepted_steps": 3003,
+          "nfev": 14,
+          "njev": 1,
+          "nlu": 3,
+          "min_internal_state": 0.0,
+          "internal_states_checked": true,
+          "observed_rhs_calls": 14,
+          "min_rhs_argument": 0.0
+        },
+        {
+          "accepted_steps": 3003,
+          "nfev": 14,
+          "njev": 1,
+          "nlu": 3,
+          "min_internal_state": 0.0,
+          "internal_states_checked": true,
+          "observed_rhs_calls": 14,
+          "min_rhs_argument": 0.0
+        },
+        {
+          "accepted_steps": 3003,
+          "nfev": 14,
+          "njev": 1,
+          "nlu": 3,
+          "min_internal_state": 0.0,
+          "internal_states_checked": true,
+          "observed_rhs_calls": 14,
+          "min_rhs_argument": 0.0
+        }
+      ]
+    },
+    {
+      "state_index": 0,
+      "step": 2.0702068244140594e-09,
+      "method": "CVODE-KLU",
+      "repeats": 3,
+      "seconds": [
+        0.10338724998291582,
+        0.09795258397934958,
+        0.10232895804801956
+      ],
+      "median_seconds": 0.10232895804801956,
+      "all_targets_pass": true,
+      "counts": [
+        {
+          "accepted_steps": 5,
+          "nfev": 9,
+          "njev": 1,
+          "linear_solver_setups": 4,
+          "error_test_failures": 0,
+          "nonlinear_iterations": 6,
+          "nonlinear_convergence_failures": 0,
+          "rhs_seconds": 0.0015217499458231032,
+          "jacobian_seconds": 0.0009111660183407366,
+          "min_rhs_argument": 0.0,
+          "observed_rhs_calls": 9,
+          "linear_solver": "SUNDIALS 6.4.1 KLU sparse CSC, default COLAMD ordering",
+          "internal_states_checked": false,
+          "min_internal_state": null
+        },
+        {
+          "accepted_steps": 5,
+          "nfev": 9,
+          "njev": 1,
+          "linear_solver_setups": 4,
+          "error_test_failures": 0,
+          "nonlinear_iterations": 6,
+          "nonlinear_convergence_failures": 0,
+          "rhs_seconds": 0.0014292909763753414,
+          "jacobian_seconds": 0.0009422499570064247,
+          "min_rhs_argument": 0.0,
+          "observed_rhs_calls": 9,
+          "linear_solver": "SUNDIALS 6.4.1 KLU sparse CSC, default COLAMD ordering",
+          "internal_states_checked": false,
+          "min_internal_state": null
+        },
+        {
+          "accepted_steps": 5,
+          "nfev": 9,
+          "njev": 1,
+          "linear_solver_setups": 4,
+          "error_test_failures": 0,
+          "nonlinear_iterations": 6,
+          "nonlinear_convergence_failures": 0,
+          "rhs_seconds": 0.0015819179243408144,
+          "jacobian_seconds": 0.000977958959992975,
+          "min_rhs_argument": 0.0,
+          "observed_rhs_calls": 9,
+          "linear_solver": "SUNDIALS 6.4.1 KLU sparse CSC, default COLAMD ordering",
+          "internal_states_checked": false,
+          "min_internal_state": null
+        }
+      ]
+    },
+    {
+      "state_index": 0,
+      "step": 2.0702082944319767e-09,
+      "method": "DOP853",
+      "repeats": 3,
+      "seconds": [
+        0.0024852919741533697,
+        0.002182499971240759,
+        0.002412582980468869
+      ],
+      "median_seconds": 0.002412582980468869,
+      "all_targets_pass": false,
+      "counts": [
+        {
+          "accepted_steps": 3003,
+          "nfev": 17,
+          "njev": 0,
+          "nlu": 0,
+          "min_internal_state": 0.0,
+          "internal_states_checked": true,
+          "observed_rhs_calls": 17,
+          "min_rhs_argument": 0.0
+        },
+        {
+          "accepted_steps": 3003,
+          "nfev": 17,
+          "njev": 0,
+          "nlu": 0,
+          "min_internal_state": 0.0,
+          "internal_states_checked": true,
+          "observed_rhs_calls": 17,
+          "min_rhs_argument": 0.0
+        },
+        {
+          "accepted_steps": 3003,
+          "nfev": 17,
+          "njev": 0,
+          "nlu": 0,
+          "min_internal_state": 0.0,
+          "internal_states_checked": true,
+          "observed_rhs_calls": 17,
+          "min_rhs_argument": 0.0
+        }
+      ]
+    },
+    {
+      "state_index": 0,
+      "step": 2.0702082944319767e-09,
+      "method": "BDF",
+      "repeats": 3,
+      "seconds": [
+        0.06841295800404623,
+        0.06928062497172505,
+        0.06865979201393202
+      ],
+      "median_seconds": 0.06865979201393202,
+      "all_targets_pass": true,
+      "counts": [
+        {
+          "accepted_steps": 3003,
+          "nfev": 14,
+          "njev": 1,
+          "nlu": 3,
+          "min_internal_state": 0.0,
+          "internal_states_checked": true,
+          "observed_rhs_calls": 14,
+          "min_rhs_argument": 0.0
+        },
+        {
+          "accepted_steps": 3003,
+          "nfev": 14,
+          "njev": 1,
+          "nlu": 3,
+          "min_internal_state": 0.0,
+          "internal_states_checked": true,
+          "observed_rhs_calls": 14,
+          "min_rhs_argument": 0.0
+        },
+        {
+          "accepted_steps": 3003,
+          "nfev": 14,
+          "njev": 1,
+          "nlu": 3,
+          "min_internal_state": 0.0,
+          "internal_states_checked": true,
+          "observed_rhs_calls": 14,
+          "min_rhs_argument": 0.0
+        }
+      ]
+    },
+    {
+      "state_index": 0,
+      "step": 2.0702082944319767e-09,
+      "method": "CVODE-KLU",
+      "repeats": 3,
+      "seconds": [
+        0.10733837494626641,
+        0.10225883300881833,
+        0.10637912503443658
+      ],
+      "median_seconds": 0.10637912503443658,
+      "all_targets_pass": true,
+      "counts": [
+        {
+          "accepted_steps": 5,
+          "nfev": 9,
+          "njev": 1,
+          "linear_solver_setups": 4,
+          "error_test_failures": 0,
+          "nonlinear_iterations": 6,
+          "nonlinear_convergence_failures": 0,
+          "rhs_seconds": 0.0016421680920757353,
+          "jacobian_seconds": 0.0009108330123126507,
+          "min_rhs_argument": 0.0,
+          "observed_rhs_calls": 9,
+          "linear_solver": "SUNDIALS 6.4.1 KLU sparse CSC, default COLAMD ordering",
+          "internal_states_checked": false,
+          "min_internal_state": null
+        },
+        {
+          "accepted_steps": 5,
+          "nfev": 9,
+          "njev": 1,
+          "linear_solver_setups": 4,
+          "error_test_failures": 0,
+          "nonlinear_iterations": 6,
+          "nonlinear_convergence_failures": 0,
+          "rhs_seconds": 0.0014811239088885486,
+          "jacobian_seconds": 0.0009489580406807363,
+          "min_rhs_argument": 0.0,
+          "observed_rhs_calls": 9,
+          "linear_solver": "SUNDIALS 6.4.1 KLU sparse CSC, default COLAMD ordering",
+          "internal_states_checked": false,
+          "min_internal_state": null
+        },
+        {
+          "accepted_steps": 5,
+          "nfev": 9,
+          "njev": 1,
+          "linear_solver_setups": 4,
+          "error_test_failures": 0,
+          "nonlinear_iterations": 6,
+          "nonlinear_convergence_failures": 0,
+          "rhs_seconds": 0.001543707970995456,
+          "jacobian_seconds": 0.001030457962770015,
+          "min_rhs_argument": 0.0,
+          "observed_rhs_calls": 9,
+          "linear_solver": "SUNDIALS 6.4.1 KLU sparse CSC, default COLAMD ordering",
+          "internal_states_checked": false,
+          "min_internal_state": null
+        }
+      ]
+    },
+    {
+      "state_index": 0,
+      "step": 2.070209316649743e-09,
+      "method": "DOP853",
+      "repeats": 3,
+      "seconds": [
+        0.002690791036002338,
+        0.0025078330072574317,
+        0.002532250015065074
+      ],
+      "median_seconds": 0.002532250015065074,
+      "all_targets_pass": false,
+      "counts": [
+        {
+          "accepted_steps": 3003,
+          "nfev": 17,
+          "njev": 0,
+          "nlu": 0,
+          "min_internal_state": 0.0,
+          "internal_states_checked": true,
+          "observed_rhs_calls": 17,
+          "min_rhs_argument": 0.0
+        },
+        {
+          "accepted_steps": 3003,
+          "nfev": 17,
+          "njev": 0,
+          "nlu": 0,
+          "min_internal_state": 0.0,
+          "internal_states_checked": true,
+          "observed_rhs_calls": 17,
+          "min_rhs_argument": 0.0
+        },
+        {
+          "accepted_steps": 3003,
+          "nfev": 17,
+          "njev": 0,
+          "nlu": 0,
+          "min_internal_state": 0.0,
+          "internal_states_checked": true,
+          "observed_rhs_calls": 17,
+          "min_rhs_argument": 0.0
+        }
+      ]
+    },
+    {
+      "state_index": 0,
+      "step": 2.070209316649743e-09,
+      "method": "BDF",
+      "repeats": 3,
+      "seconds": [
+        0.06528974999673665,
+        0.06912629102589563,
+        0.06803199998103082
+      ],
+      "median_seconds": 0.06803199998103082,
+      "all_targets_pass": true,
+      "counts": [
+        {
+          "accepted_steps": 3003,
+          "nfev": 14,
+          "njev": 1,
+          "nlu": 3,
+          "min_internal_state": 0.0,
+          "internal_states_checked": true,
+          "observed_rhs_calls": 14,
+          "min_rhs_argument": 0.0
+        },
+        {
+          "accepted_steps": 3003,
+          "nfev": 14,
+          "njev": 1,
+          "nlu": 3,
+          "min_internal_state": 0.0,
+          "internal_states_checked": true,
+          "observed_rhs_calls": 14,
+          "min_rhs_argument": 0.0
+        },
+        {
+          "accepted_steps": 3003,
+          "nfev": 14,
+          "njev": 1,
+          "nlu": 3,
+          "min_internal_state": 0.0,
+          "internal_states_checked": true,
+          "observed_rhs_calls": 14,
+          "min_rhs_argument": 0.0
+        }
+      ]
+    },
+    {
+      "state_index": 0,
+      "step": 2.070209316649743e-09,
+      "method": "CVODE-KLU",
+      "repeats": 3,
+      "seconds": [
+        0.10259108303580433,
+        0.10221879201708362,
+        0.10292816598666832
+      ],
+      "median_seconds": 0.10259108303580433,
+      "all_targets_pass": true,
+      "counts": [
+        {
+          "accepted_steps": 5,
+          "nfev": 9,
+          "njev": 1,
+          "linear_solver_setups": 4,
+          "error_test_failures": 0,
+          "nonlinear_iterations": 6,
+          "nonlinear_convergence_failures": 0,
+          "rhs_seconds": 0.0016219189274124801,
+          "jacobian_seconds": 0.0009727079886943102,
+          "min_rhs_argument": 0.0,
+          "observed_rhs_calls": 9,
+          "linear_solver": "SUNDIALS 6.4.1 KLU sparse CSC, default COLAMD ordering",
+          "internal_states_checked": false,
+          "min_internal_state": null
+        },
+        {
+          "accepted_steps": 5,
+          "nfev": 9,
+          "njev": 1,
+          "linear_solver_setups": 4,
+          "error_test_failures": 0,
+          "nonlinear_iterations": 6,
+          "nonlinear_convergence_failures": 0,
+          "rhs_seconds": 0.0015451671206392348,
+          "jacobian_seconds": 0.0009926249622367322,
+          "min_rhs_argument": 0.0,
+          "observed_rhs_calls": 9,
+          "linear_solver": "SUNDIALS 6.4.1 KLU sparse CSC, default COLAMD ordering",
+          "internal_states_checked": false,
+          "min_internal_state": null
+        },
+        {
+          "accepted_steps": 5,
+          "nfev": 9,
+          "njev": 1,
+          "linear_solver_setups": 4,
+          "error_test_failures": 0,
+          "nonlinear_iterations": 6,
+          "nonlinear_convergence_failures": 0,
+          "rhs_seconds": 0.0016111661097966135,
+          "jacobian_seconds": 0.001033417007420212,
+          "min_rhs_argument": 0.0,
+          "observed_rhs_calls": 9,
+          "linear_solver": "SUNDIALS 6.4.1 KLU sparse CSC, default COLAMD ordering",
+          "internal_states_checked": false,
+          "min_internal_state": null
+        }
+      ]
+    },
+    {
+      "state_index": 61,
+      "step": 1.25e-09,
+      "method": "DOP853",
+      "repeats": 3,
+      "seconds": [
+        0.0024709580466151237,
+        0.0022798750433139503,
+        0.0025519580231048167
+      ],
+      "median_seconds": 0.0024709580466151237,
+      "all_targets_pass": true,
+      "counts": [
+        {
+          "accepted_steps": 3003,
+          "nfev": 17,
+          "njev": 0,
+          "nlu": 0,
+          "min_internal_state": 0.0,
+          "internal_states_checked": true,
+          "observed_rhs_calls": 17,
+          "min_rhs_argument": 0.0
+        },
+        {
+          "accepted_steps": 3003,
+          "nfev": 17,
+          "njev": 0,
+          "nlu": 0,
+          "min_internal_state": 0.0,
+          "internal_states_checked": true,
+          "observed_rhs_calls": 17,
+          "min_rhs_argument": 0.0
+        },
+        {
+          "accepted_steps": 3003,
+          "nfev": 17,
+          "njev": 0,
+          "nlu": 0,
+          "min_internal_state": 0.0,
+          "internal_states_checked": true,
+          "observed_rhs_calls": 17,
+          "min_rhs_argument": 0.0
+        }
+      ]
+    },
+    {
+      "state_index": 61,
+      "step": 1.25e-09,
+      "method": "BDF",
+      "repeats": 3,
+      "seconds": [
+        0.022116041043773293,
+        0.027984250045847148,
+        0.027664958965033293
+      ],
+      "median_seconds": 0.027664958965033293,
+      "all_targets_pass": true,
+      "counts": [
+        {
+          "accepted_steps": 3003,
+          "nfev": 4,
+          "njev": 1,
+          "nlu": 1,
+          "min_internal_state": 0.0,
+          "internal_states_checked": true,
+          "observed_rhs_calls": 4,
+          "min_rhs_argument": 0.0
+        },
+        {
+          "accepted_steps": 3003,
+          "nfev": 4,
+          "njev": 1,
+          "nlu": 1,
+          "min_internal_state": 0.0,
+          "internal_states_checked": true,
+          "observed_rhs_calls": 4,
+          "min_rhs_argument": 0.0
+        },
+        {
+          "accepted_steps": 3003,
+          "nfev": 4,
+          "njev": 1,
+          "nlu": 1,
+          "min_internal_state": 0.0,
+          "internal_states_checked": true,
+          "observed_rhs_calls": 4,
+          "min_rhs_argument": 0.0
+        }
+      ]
+    },
+    {
+      "state_index": 61,
+      "step": 1.25e-09,
+      "method": "CVODE-KLU",
+      "repeats": 3,
+      "seconds": [
+        0.07910945801995695,
+        0.10012841603020206,
+        0.0848900830023922
+      ],
+      "median_seconds": 0.0848900830023922,
+      "all_targets_pass": true,
+      "counts": [
+        {
+          "accepted_steps": 3,
+          "nfev": 6,
+          "njev": 1,
+          "linear_solver_setups": 3,
+          "error_test_failures": 0,
+          "nonlinear_iterations": 3,
+          "nonlinear_convergence_failures": 0,
+          "rhs_seconds": 0.0009152509737759829,
+          "jacobian_seconds": 0.0009005839820019901,
+          "min_rhs_argument": 0.0,
+          "observed_rhs_calls": 6,
+          "linear_solver": "SUNDIALS 6.4.1 KLU sparse CSC, default COLAMD ordering",
+          "internal_states_checked": false,
+          "min_internal_state": null
+        },
+        {
+          "accepted_steps": 3,
+          "nfev": 6,
+          "njev": 1,
+          "linear_solver_setups": 3,
+          "error_test_failures": 0,
+          "nonlinear_iterations": 3,
+          "nonlinear_convergence_failures": 0,
+          "rhs_seconds": 0.0017752080457285047,
+          "jacobian_seconds": 0.0009908339707180858,
+          "min_rhs_argument": 0.0,
+          "observed_rhs_calls": 6,
+          "linear_solver": "SUNDIALS 6.4.1 KLU sparse CSC, default COLAMD ordering",
+          "internal_states_checked": false,
+          "min_internal_state": null
+        },
+        {
+          "accepted_steps": 3,
+          "nfev": 6,
+          "njev": 1,
+          "linear_solver_setups": 3,
+          "error_test_failures": 0,
+          "nonlinear_iterations": 3,
+          "nonlinear_convergence_failures": 0,
+          "rhs_seconds": 0.0009478330030106008,
+          "jacobian_seconds": 0.000926624983549118,
+          "min_rhs_argument": 0.0,
+          "observed_rhs_calls": 6,
+          "linear_solver": "SUNDIALS 6.4.1 KLU sparse CSC, default COLAMD ordering",
+          "internal_states_checked": false,
+          "min_internal_state": null
+        }
+      ]
+    },
+    {
+      "state_index": 61,
+      "step": 2.0702068244140594e-09,
+      "method": "DOP853",
+      "repeats": 3,
+      "seconds": [
+        0.002453083056025207,
+        0.0026246659690514207,
+        0.002342584019061178
+      ],
+      "median_seconds": 0.002453083056025207,
+      "all_targets_pass": true,
+      "counts": [
+        {
+          "accepted_steps": 3003,
+          "nfev": 17,
+          "njev": 0,
+          "nlu": 0,
+          "min_internal_state": 0.0,
+          "internal_states_checked": true,
+          "observed_rhs_calls": 17,
+          "min_rhs_argument": 0.0
+        },
+        {
+          "accepted_steps": 3003,
+          "nfev": 17,
+          "njev": 0,
+          "nlu": 0,
+          "min_internal_state": 0.0,
+          "internal_states_checked": true,
+          "observed_rhs_calls": 17,
+          "min_rhs_argument": 0.0
+        },
+        {
+          "accepted_steps": 3003,
+          "nfev": 17,
+          "njev": 0,
+          "nlu": 0,
+          "min_internal_state": 0.0,
+          "internal_states_checked": true,
+          "observed_rhs_calls": 17,
+          "min_rhs_argument": 0.0
+        }
+      ]
+    },
+    {
+      "state_index": 61,
+      "step": 2.0702068244140594e-09,
+      "method": "BDF",
+      "repeats": 3,
+      "seconds": [
+        0.022701332985889167,
+        0.02218845795141533,
+        0.026520334009546787
+      ],
+      "median_seconds": 0.022701332985889167,
+      "all_targets_pass": true,
+      "counts": [
+        {
+          "accepted_steps": 3003,
+          "nfev": 4,
+          "njev": 1,
+          "nlu": 1,
+          "min_internal_state": 0.0,
+          "internal_states_checked": true,
+          "observed_rhs_calls": 4,
+          "min_rhs_argument": 0.0
+        },
+        {
+          "accepted_steps": 3003,
+          "nfev": 4,
+          "njev": 1,
+          "nlu": 1,
+          "min_internal_state": 0.0,
+          "internal_states_checked": true,
+          "observed_rhs_calls": 4,
+          "min_rhs_argument": 0.0
+        },
+        {
+          "accepted_steps": 3003,
+          "nfev": 4,
+          "njev": 1,
+          "nlu": 1,
+          "min_internal_state": 0.0,
+          "internal_states_checked": true,
+          "observed_rhs_calls": 4,
+          "min_rhs_argument": 0.0
+        }
+      ]
+    },
+    {
+      "state_index": 61,
+      "step": 2.0702068244140594e-09,
+      "method": "CVODE-KLU",
+      "repeats": 3,
+      "seconds": [
+        0.0789986249874346,
+        0.08363425004063174,
+        0.07516354200197384
+      ],
+      "median_seconds": 0.0789986249874346,
+      "all_targets_pass": true,
+      "counts": [
+        {
+          "accepted_steps": 3,
+          "nfev": 6,
+          "njev": 1,
+          "linear_solver_setups": 3,
+          "error_test_failures": 0,
+          "nonlinear_iterations": 3,
+          "nonlinear_convergence_failures": 0,
+          "rhs_seconds": 0.0009688331047073007,
+          "jacobian_seconds": 0.000992166984360665,
+          "min_rhs_argument": 0.0,
+          "observed_rhs_calls": 6,
+          "linear_solver": "SUNDIALS 6.4.1 KLU sparse CSC, default COLAMD ordering",
+          "internal_states_checked": false,
+          "min_internal_state": null
+        },
+        {
+          "accepted_steps": 3,
+          "nfev": 6,
+          "njev": 1,
+          "linear_solver_setups": 3,
+          "error_test_failures": 0,
+          "nonlinear_iterations": 3,
+          "nonlinear_convergence_failures": 0,
+          "rhs_seconds": 0.0009726660209707916,
+          "jacobian_seconds": 0.0009241669904440641,
+          "min_rhs_argument": 0.0,
+          "observed_rhs_calls": 6,
+          "linear_solver": "SUNDIALS 6.4.1 KLU sparse CSC, default COLAMD ordering",
+          "internal_states_checked": false,
+          "min_internal_state": null
+        },
+        {
+          "accepted_steps": 3,
+          "nfev": 6,
+          "njev": 1,
+          "linear_solver_setups": 3,
+          "error_test_failures": 0,
+          "nonlinear_iterations": 3,
+          "nonlinear_convergence_failures": 0,
+          "rhs_seconds": 0.0009363350109197199,
+          "jacobian_seconds": 0.0009917080169543624,
+          "min_rhs_argument": 0.0,
+          "observed_rhs_calls": 6,
+          "linear_solver": "SUNDIALS 6.4.1 KLU sparse CSC, default COLAMD ordering",
+          "internal_states_checked": false,
+          "min_internal_state": null
+        }
+      ]
+    },
+    {
+      "state_index": 61,
+      "step": 2.0702082944319767e-09,
+      "method": "DOP853",
+      "repeats": 3,
+      "seconds": [
+        0.002480166032910347,
+        0.0023038340150378644,
+        0.002433333022054285
+      ],
+      "median_seconds": 0.002433333022054285,
+      "all_targets_pass": true,
+      "counts": [
+        {
+          "accepted_steps": 3003,
+          "nfev": 17,
+          "njev": 0,
+          "nlu": 0,
+          "min_internal_state": 0.0,
+          "internal_states_checked": true,
+          "observed_rhs_calls": 17,
+          "min_rhs_argument": 0.0
+        },
+        {
+          "accepted_steps": 3003,
+          "nfev": 17,
+          "njev": 0,
+          "nlu": 0,
+          "min_internal_state": 0.0,
+          "internal_states_checked": true,
+          "observed_rhs_calls": 17,
+          "min_rhs_argument": 0.0
+        },
+        {
+          "accepted_steps": 3003,
+          "nfev": 17,
+          "njev": 0,
+          "nlu": 0,
+          "min_internal_state": 0.0,
+          "internal_states_checked": true,
+          "observed_rhs_calls": 17,
+          "min_rhs_argument": 0.0
+        }
+      ]
+    },
+    {
+      "state_index": 61,
+      "step": 2.0702082944319767e-09,
+      "method": "BDF",
+      "repeats": 3,
+      "seconds": [
+        0.021935457945801318,
+        0.02200583298690617,
+        0.021252790989819914
+      ],
+      "median_seconds": 0.021935457945801318,
+      "all_targets_pass": true,
+      "counts": [
+        {
+          "accepted_steps": 3003,
+          "nfev": 4,
+          "njev": 1,
+          "nlu": 1,
+          "min_internal_state": 0.0,
+          "internal_states_checked": true,
+          "observed_rhs_calls": 4,
+          "min_rhs_argument": 0.0
+        },
+        {
+          "accepted_steps": 3003,
+          "nfev": 4,
+          "njev": 1,
+          "nlu": 1,
+          "min_internal_state": 0.0,
+          "internal_states_checked": true,
+          "observed_rhs_calls": 4,
+          "min_rhs_argument": 0.0
+        },
+        {
+          "accepted_steps": 3003,
+          "nfev": 4,
+          "njev": 1,
+          "nlu": 1,
+          "min_internal_state": 0.0,
+          "internal_states_checked": true,
+          "observed_rhs_calls": 4,
+          "min_rhs_argument": 0.0
+        }
+      ]
+    },
+    {
+      "state_index": 61,
+      "step": 2.0702082944319767e-09,
+      "method": "CVODE-KLU",
+      "repeats": 3,
+      "seconds": [
+        0.07995666697388515,
+        0.08130216598510742,
+        0.07488500000908971
+      ],
+      "median_seconds": 0.07995666697388515,
+      "all_targets_pass": true,
+      "counts": [
+        {
+          "accepted_steps": 3,
+          "nfev": 6,
+          "njev": 1,
+          "linear_solver_setups": 3,
+          "error_test_failures": 0,
+          "nonlinear_iterations": 3,
+          "nonlinear_convergence_failures": 0,
+          "rhs_seconds": 0.0009662910015322268,
+          "jacobian_seconds": 0.0008932920172810555,
+          "min_rhs_argument": 0.0,
+          "observed_rhs_calls": 6,
+          "linear_solver": "SUNDIALS 6.4.1 KLU sparse CSC, default COLAMD ordering",
+          "internal_states_checked": false,
+          "min_internal_state": null
+        },
+        {
+          "accepted_steps": 3,
+          "nfev": 6,
+          "njev": 1,
+          "linear_solver_setups": 3,
+          "error_test_failures": 0,
+          "nonlinear_iterations": 3,
+          "nonlinear_convergence_failures": 0,
+          "rhs_seconds": 0.0009602499776519835,
+          "jacobian_seconds": 0.0009009160567075014,
+          "min_rhs_argument": 0.0,
+          "observed_rhs_calls": 6,
+          "linear_solver": "SUNDIALS 6.4.1 KLU sparse CSC, default COLAMD ordering",
+          "internal_states_checked": false,
+          "min_internal_state": null
+        },
+        {
+          "accepted_steps": 3,
+          "nfev": 6,
+          "njev": 1,
+          "linear_solver_setups": 3,
+          "error_test_failures": 0,
+          "nonlinear_iterations": 3,
+          "nonlinear_convergence_failures": 0,
+          "rhs_seconds": 0.000886040972545743,
+          "jacobian_seconds": 0.0008719160105101764,
+          "min_rhs_argument": 0.0,
+          "observed_rhs_calls": 6,
+          "linear_solver": "SUNDIALS 6.4.1 KLU sparse CSC, default COLAMD ordering",
+          "internal_states_checked": false,
+          "min_internal_state": null
+        }
+      ]
+    },
+    {
+      "state_index": 61,
+      "step": 2.070209316649743e-09,
+      "method": "DOP853",
+      "repeats": 3,
+      "seconds": [
+        0.0024949160288088024,
+        0.0023372500436380506,
+        0.002293792029377073
+      ],
+      "median_seconds": 0.0023372500436380506,
+      "all_targets_pass": true,
+      "counts": [
+        {
+          "accepted_steps": 3003,
+          "nfev": 17,
+          "njev": 0,
+          "nlu": 0,
+          "min_internal_state": 0.0,
+          "internal_states_checked": true,
+          "observed_rhs_calls": 17,
+          "min_rhs_argument": 0.0
+        },
+        {
+          "accepted_steps": 3003,
+          "nfev": 17,
+          "njev": 0,
+          "nlu": 0,
+          "min_internal_state": 0.0,
+          "internal_states_checked": true,
+          "observed_rhs_calls": 17,
+          "min_rhs_argument": 0.0
+        },
+        {
+          "accepted_steps": 3003,
+          "nfev": 17,
+          "njev": 0,
+          "nlu": 0,
+          "min_internal_state": 0.0,
+          "internal_states_checked": true,
+          "observed_rhs_calls": 17,
+          "min_rhs_argument": 0.0
+        }
+      ]
+    },
+    {
+      "state_index": 61,
+      "step": 2.070209316649743e-09,
+      "method": "BDF",
+      "repeats": 3,
+      "seconds": [
+        0.022445666952989995,
+        0.021973625000100583,
+        0.02113049995386973
+      ],
+      "median_seconds": 0.021973625000100583,
+      "all_targets_pass": true,
+      "counts": [
+        {
+          "accepted_steps": 3003,
+          "nfev": 4,
+          "njev": 1,
+          "nlu": 1,
+          "min_internal_state": 0.0,
+          "internal_states_checked": true,
+          "observed_rhs_calls": 4,
+          "min_rhs_argument": 0.0
+        },
+        {
+          "accepted_steps": 3003,
+          "nfev": 4,
+          "njev": 1,
+          "nlu": 1,
+          "min_internal_state": 0.0,
+          "internal_states_checked": true,
+          "observed_rhs_calls": 4,
+          "min_rhs_argument": 0.0
+        },
+        {
+          "accepted_steps": 3003,
+          "nfev": 4,
+          "njev": 1,
+          "nlu": 1,
+          "min_internal_state": 0.0,
+          "internal_states_checked": true,
+          "observed_rhs_calls": 4,
+          "min_rhs_argument": 0.0
+        }
+      ]
+    },
+    {
+      "state_index": 61,
+      "step": 2.070209316649743e-09,
+      "method": "CVODE-KLU",
+      "repeats": 3,
+      "seconds": [
+        0.1256801660056226,
+        0.07517583400476724,
+        0.07569520804099739
+      ],
+      "median_seconds": 0.07569520804099739,
+      "all_targets_pass": true,
+      "counts": [
+        {
+          "accepted_steps": 3,
+          "nfev": 6,
+          "njev": 1,
+          "linear_solver_setups": 3,
+          "error_test_failures": 0,
+          "nonlinear_iterations": 3,
+          "nonlinear_convergence_failures": 0,
+          "rhs_seconds": 0.0015417929971590638,
+          "jacobian_seconds": 0.0011151660000905395,
+          "min_rhs_argument": 0.0,
+          "observed_rhs_calls": 6,
+          "linear_solver": "SUNDIALS 6.4.1 KLU sparse CSC, default COLAMD ordering",
+          "internal_states_checked": false,
+          "min_internal_state": null
+        },
+        {
+          "accepted_steps": 3,
+          "nfev": 6,
+          "njev": 1,
+          "linear_solver_setups": 3,
+          "error_test_failures": 0,
+          "nonlinear_iterations": 3,
+          "nonlinear_convergence_failures": 0,
+          "rhs_seconds": 0.0008986269822344184,
+          "jacobian_seconds": 0.0008671660325489938,
+          "min_rhs_argument": 0.0,
+          "observed_rhs_calls": 6,
+          "linear_solver": "SUNDIALS 6.4.1 KLU sparse CSC, default COLAMD ordering",
+          "internal_states_checked": false,
+          "min_internal_state": null
+        },
+        {
+          "accepted_steps": 3,
+          "nfev": 6,
+          "njev": 1,
+          "linear_solver_setups": 3,
+          "error_test_failures": 0,
+          "nonlinear_iterations": 3,
+          "nonlinear_convergence_failures": 0,
+          "rhs_seconds": 0.0009108739905059338,
+          "jacobian_seconds": 0.0008813749882392585,
+          "min_rhs_argument": 0.0,
+          "observed_rhs_calls": 6,
+          "linear_solver": "SUNDIALS 6.4.1 KLU sparse CSC, default COLAMD ordering",
+          "internal_states_checked": false,
+          "min_internal_state": null
+        }
+      ]
+    }
+  ],
+  "fastest_qualified_implicit_median": 0.021935457945801318,
+  "DOP853_speedup_vs_fastest_implicit": null,
+  "candidate_non_audit_seconds": 5.6105502475984395,
+  "projected_candidate_seconds_lower_bound": 5.6105502475984395,
+  "baseline_over_1_5": {
+    "0.001": 0.3025356389892598,
+    "1e-05": 0.31676201433098566
+  },
+  "local_baselines": {
+    "0.001": 0.4538034584838897,
+    "1e-05": 0.47514302149647847
+  },
+  "M4_admission": false,
+  "interpretation": "Audit backend calibration only. The projected lower bound excludes audit solves entirely and is compared with same-window baseline/1.5; no formal trajectory claim."
+}

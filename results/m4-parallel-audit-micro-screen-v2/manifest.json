@@ -1,0 +1,17 @@
+{
+  "results/m4-parallel-audit-micro-screen-v2/registration.json": "19c6262b133dc29e40a8bf325d6b26d694ffaf7467556f245b0cbe05c4290f86",
+  "results/m4-parallel-audit-micro-screen-v2/candidate-runs.json": "eafd2978ef78006d8410119cf657dd57909a380efd265a4333a1380a7dad5ad4",
+  "results/m4-parallel-audit-micro-screen-v2/candidate-metrics.json": "d5e5614a3a10854f921b03511ec2564fbbaaec22a0a49dc72f7b2a1c8eaabfb2",
+  "results/m4-parallel-audit-micro-screen-v2/candidate-states.npz": "38c487f7f1d7e25fde3ac48d41322942623fc2b2b91cad6fa0a04e027fc2e71f",
+  "results/m4-parallel-audit-micro-screen-v2/baseline.json": "272d7a87ff630b6381803477f6b6bde4b4858a92a5517a656ac679669aa18001",
+  "results/m4-parallel-audit-micro-screen-v2/runs.json": "d0f6dedd2c3fbad85b2b11b640589f4c693fccf927afda55843b733eb8a30544",
+  "results/m4-parallel-audit-micro-screen-v2/summary.json": "c460b58a09de7831ed1c115b2372e2455127ff2fe8cfa826202012f6b19bb33e",
+  "results/m4-parallel-audit-micro-screen-v2/audit-00.npz": "a70cce19dca8ec2f95f1eccdec80c8e8db8832779a4a7e6735d086d7c731429c",
+  "results/m4-parallel-audit-micro-screen-v2/audit-01.npz": "e155d9608ed065576424daccdf7e4451623373e67a5172aacc67ece8427bbc53",
+  "results/m4-parallel-audit-micro-screen-v2/audit-02.npz": "342d73bca7dcf21775a47fffff24bd68183328f648f9165c9fe126dd0ee2c0a2",
+  "results/m4-parallel-audit-micro-screen-v2/audit-03.npz": "8e00439d6d74f448847dbb5dca8df714cd6e9b79bff184dbf007f6606b3ceda0",
+  "results/m4-parallel-audit-micro-screen-v2/audit-04.npz": "add80de9f1e45d83df1fc86d4a2de7a52e0b42816846f76b4fe8e6d59c3dd336",
+  "results/m4-parallel-audit-micro-screen-v2/audit-05.npz": "979bfcb1e3d2503967ebdfd9625a7a74152c99c58cb54e0d763a83fdf97c1f6f",
+  "results/m4-parallel-audit-micro-screen-v2/audit-06.npz": "386a1b72c64b5e665ea548e5d7c29bdfbf3878677f57f628a6284589e642b26a",
+  "results/m4-parallel-audit-micro-screen-v2/audit-07.npz": "f85fb2caa23c1a6451492a11ae8157f33ca2c1e0a31e12a45aa1668516dde133"
+}

@@ -14,7 +14,7 @@ import numpy as np
 from scipy.integrate import BDF, Radau
 from scipy.sparse import csc_matrix, csr_matrix
 
-from .splitting import FixedSplit, SplitFailure
+from .splitting import FixedSplit, SplitFailure, validate_partition
 
 
 def select_groups(kappa, h, previous, enter=1., leave=.3):
@@ -127,8 +127,11 @@ class AdaptiveSplit:
                 or c.slow_bound_limit <= 0 or c.estimator_ratio_limit <= 1 or c.fallback_method not in ('BDF', 'Radau', 'CVODE-KLU')):
             raise ValueError('Invalid adaptive configuration')
         self.fixed = None if fixed_groups is None else np.asarray(fixed_groups, dtype=int)
-        # Reuse M2 validation, preserving its saved implementation verbatim.
-        FixedSplit(system, [] if self.fixed is None else self.fixed, self.scale)
+        # Validate only dimensions and indices here.  Building both complete
+        # sparse subflow matrices is deferred until a partition is actually
+        # integrated; this avoids paying that cost once during construction and
+        # again for the first trial.
+        validate_partition(system, [] if self.fixed is None else self.fixed, self.scale)
         self.screen = GroupScreen(system, self.scale)
         self.flux_scale = None if flux_scale is None else np.asarray(flux_scale)
         self.net_map, self.net_scale = net_map, None if net_scale is None else np.asarray(net_scale)

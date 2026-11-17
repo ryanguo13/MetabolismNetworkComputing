@@ -1,0 +1,366 @@
+{
+  "rows": [
+    {
+      "method": "BDF",
+      "repeat": 0,
+      "seconds": 1.5705590409925207,
+      "per_task_seconds": [
+        0.1826826250180602,
+        0.18428929202491418,
+        0.18210458400426432,
+        0.1903894169954583,
+        0.20995491597568616,
+        0.18317383294925094,
+        0.1842501669889316,
+        0.253496624995023
+      ],
+      "outputs_sha256": [
+        "74bc7003a865fc8b1732c10e6678027c68724affc9137fe66611e71eea0b90a0",
+        "d5674d246c9ddc7335691bfcf3753c674f1cad969070b7ff2358f20119b9d1b7",
+        "51e67d2d233e867de665768295c0edbfe618a3299600e83f7ff8144f074a8be9",
+        "cb77ddddcd6106b3e4a9b986a69055c048417073b8742d1a038767d545ce8133",
+        "47c81cd2236d88d188ec008391de08397f59a57cfa3686bff30b38cbfb490e8b",
+        "5006d1c6325d989d100d9c362dd8c55265c33ecf136f47c125a6afa780e99576",
+        "160c909a792ee29bc0262439317edcc80f482aca9eb73e25a81ccdaf9617e71c",
+        "dfa036f753edb58c3bca398cea9b0368b2883575faff0642719d7866998f9946"
+      ],
+      "internal_states_checked": true,
+      "nfev": 336,
+      "nlu": 64
+    },
+    {
+      "method": "BDF",
+      "repeat": 1,
+      "seconds": 1.4157450000056997,
+      "per_task_seconds": [
+        0.1843929580063559,
+        0.1768237089854665,
+        0.1731677909847349,
+        0.1724915829836391,
+        0.1743830829509534,
+        0.18557370803318918,
+        0.17502804205287248,
+        0.17345441604265943
+      ],
+      "outputs_sha256": [
+        "74bc7003a865fc8b1732c10e6678027c68724affc9137fe66611e71eea0b90a0",
+        "d5674d246c9ddc7335691bfcf3753c674f1cad969070b7ff2358f20119b9d1b7",
+        "51e67d2d233e867de665768295c0edbfe618a3299600e83f7ff8144f074a8be9",
+        "cb77ddddcd6106b3e4a9b986a69055c048417073b8742d1a038767d545ce8133",
+        "47c81cd2236d88d188ec008391de08397f59a57cfa3686bff30b38cbfb490e8b",
+        "5006d1c6325d989d100d9c362dd8c55265c33ecf136f47c125a6afa780e99576",
+        "160c909a792ee29bc0262439317edcc80f482aca9eb73e25a81ccdaf9617e71c",
+        "dfa036f753edb58c3bca398cea9b0368b2883575faff0642719d7866998f9946"
+      ],
+      "internal_states_checked": true,
+      "nfev": 336,
+      "nlu": 64
+    },
+    {
+      "method": "BDF",
+      "repeat": 2,
+      "seconds": 1.416873249982018,
+      "per_task_seconds": [
+        0.17470924998633564,
+        0.17629845900228247,
+        0.17604545800713822,
+        0.17512645799433812,
+        0.1777191250002943,
+        0.18112504202872515,
+        0.17716045898851007,
+        0.17829570802859962
+      ],
+      "outputs_sha256": [
+        "74bc7003a865fc8b1732c10e6678027c68724affc9137fe66611e71eea0b90a0",
+        "d5674d246c9ddc7335691bfcf3753c674f1cad969070b7ff2358f20119b9d1b7",
+        "51e67d2d233e867de665768295c0edbfe618a3299600e83f7ff8144f074a8be9",
+        "cb77ddddcd6106b3e4a9b986a69055c048417073b8742d1a038767d545ce8133",
+        "47c81cd2236d88d188ec008391de08397f59a57cfa3686bff30b38cbfb490e8b",
+        "5006d1c6325d989d100d9c362dd8c55265c33ecf136f47c125a6afa780e99576",
+        "160c909a792ee29bc0262439317edcc80f482aca9eb73e25a81ccdaf9617e71c",
+        "dfa036f753edb58c3bca398cea9b0368b2883575faff0642719d7866998f9946"
+      ],
+      "internal_states_checked": true,
+      "nfev": 336,
+      "nlu": 64
+    },
+    {
+      "method": "Radau",
+      "repeat": 0,
+      "seconds": 2.8503869170090184,
+      "per_task_seconds": [
+        0.3209699169965461,
+        0.2974349170108326,
+        0.32159216597210616,
+        0.38712212501559407,
+        0.41955516702728346,
+        0.36073762498563156,
+        0.3932946669519879,
+        0.34933516703313217
+      ],
+      "outputs_sha256": [
+        "f1ea05d58d419f49f509bce62ee9f0300b14aa6f26a065d0a39385118c4f6c37",
+        "e2b8fd7018103e9677877482f4c2146d8d0f54e7b7323e4d68d7a5f15ea937b2",
+        "5cee3ed9341902906842e54af42eef0f30deb69cd0fc246b408aa9dde441325c",
+        "32e9d31e3cf04441745b7cf2557f9b8970e4a307e36fa963749437cb907be361",
+        "e782bd7f765504a26ce94a8f2a17b83f3da2bf2172e60b7d7a0de4cc94ed2da9",
+        "097b3a29ad59f8e42fd907e06e19576855d7466aabde6f6fb23b6627e709bdeb",
+        "870749b6d60553d8722b0b136209ea03e92d966c87cb0f041ed58e8f5aef7577",
+        "f902252e73bdf27856c1066d28df4e921a16bd55eafdd19933248a34cd1bd8cb"
+      ],
+      "internal_states_checked": true,
+      "nfev": 184,
+      "nlu": 48
+    },
+    {
+      "method": "Radau",
+      "repeat": 1,
+      "seconds": 2.6470771249732934,
+      "per_task_seconds": [
+        0.3372370410361327,
+        0.3852316659758799,
+        0.3278112090192735,
+        0.3907772080274299,
+        0.33718345896340907,
+        0.27169087500078604,
+        0.2728305829805322,
+        0.31908683403162286
+      ],
+      "outputs_sha256": [
+        "f1ea05d58d419f49f509bce62ee9f0300b14aa6f26a065d0a39385118c4f6c37",
+        "e2b8fd7018103e9677877482f4c2146d8d0f54e7b7323e4d68d7a5f15ea937b2",
+        "5cee3ed9341902906842e54af42eef0f30deb69cd0fc246b408aa9dde441325c",
+        "32e9d31e3cf04441745b7cf2557f9b8970e4a307e36fa963749437cb907be361",
+        "e782bd7f765504a26ce94a8f2a17b83f3da2bf2172e60b7d7a0de4cc94ed2da9",
+        "097b3a29ad59f8e42fd907e06e19576855d7466aabde6f6fb23b6627e709bdeb",
+        "870749b6d60553d8722b0b136209ea03e92d966c87cb0f041ed58e8f5aef7577",
+        "f902252e73bdf27856c1066d28df4e921a16bd55eafdd19933248a34cd1bd8cb"
+      ],
+      "internal_states_checked": true,
+      "nfev": 184,
+      "nlu": 48
+    },
+    {
+      "method": "Radau",
+      "repeat": 2,
+      "seconds": 2.5994195410166867,
+      "per_task_seconds": [
+        0.34672079200390726,
+        0.34477533301105723,
+        0.32849429198540747,
+        0.31079687498277053,
+        0.3116905000060797,
+        0.27961450000293553,
+        0.332081291009672,
+        0.34490391600411385
+      ],
+      "outputs_sha256": [
+        "f1ea05d58d419f49f509bce62ee9f0300b14aa6f26a065d0a39385118c4f6c37",
+        "e2b8fd7018103e9677877482f4c2146d8d0f54e7b7323e4d68d7a5f15ea937b2",
+        "5cee3ed9341902906842e54af42eef0f30deb69cd0fc246b408aa9dde441325c",
+        "32e9d31e3cf04441745b7cf2557f9b8970e4a307e36fa963749437cb907be361",
+        "e782bd7f765504a26ce94a8f2a17b83f3da2bf2172e60b7d7a0de4cc94ed2da9",
+        "097b3a29ad59f8e42fd907e06e19576855d7466aabde6f6fb23b6627e709bdeb",
+        "870749b6d60553d8722b0b136209ea03e92d966c87cb0f041ed58e8f5aef7577",
+        "f902252e73bdf27856c1066d28df4e921a16bd55eafdd19933248a34cd1bd8cb"
+      ],
+      "internal_states_checked": true,
+      "nfev": 184,
+      "nlu": 48
+    }
+  ],
+  "comparisons": [
+    {
+      "index": 0,
+      "max_abs": 3.827911321252486e-10,
+      "metrics": {
+        "0.001": {
+          "concentration_error": 8.889392720145004e-06,
+          "flux_error": 6.490668952862723e-06,
+          "net_flux_error": 8.435789449360765e-05,
+          "pool_error": 1.8034185256254861e-13,
+          "finite": true,
+          "nonnegative": true,
+          "passes": true
+        },
+        "1e-05": {
+          "concentration_error": 0.0008889392720145004,
+          "flux_error": 0.0006490668952862722,
+          "net_flux_error": 8.435789449360765e-05,
+          "pool_error": 1.8034185256254861e-13,
+          "finite": true,
+          "nonnegative": true,
+          "passes": true
+        }
+      }
+    },
+    {
+      "index": 1,
+      "max_abs": 4.260736208294702e-10,
+      "metrics": {
+        "0.001": {
+          "concentration_error": 9.691037569916556e-06,
+          "flux_error": 6.288828328321614e-06,
+          "net_flux_error": 8.280650455693901e-05,
+          "pool_error": 5.927697568908199e-13,
+          "finite": true,
+          "nonnegative": true,
+          "passes": true
+        },
+        "1e-05": {
+          "concentration_error": 0.0009691037569916556,
+          "flux_error": 0.0006288828328321614,
+          "net_flux_error": 8.280650455693901e-05,
+          "pool_error": 5.927697568908199e-13,
+          "finite": true,
+          "nonnegative": true,
+          "passes": true
+        }
+      }
+    },
+    {
+      "index": 2,
+      "max_abs": 4.6245896001551046e-10,
+      "metrics": {
+        "0.001": {
+          "concentration_error": 1.0291806330406016e-05,
+          "flux_error": 6.0788354101179e-06,
+          "net_flux_error": 8.216658137615773e-05,
+          "pool_error": 5.462991170546153e-14,
+          "finite": true,
+          "nonnegative": true,
+          "passes": true
+        },
+        "1e-05": {
+          "concentration_error": 0.0010291806330406015,
+          "flux_error": 0.0006078835410117899,
+          "net_flux_error": 8.216658137615773e-05,
+          "pool_error": 5.462991170546153e-14,
+          "finite": true,
+          "nonnegative": true,
+          "passes": true
+        }
+      }
+    },
+    {
+      "index": 3,
+      "max_abs": 4.957789734305607e-10,
+      "metrics": {
+        "0.001": {
+          "concentration_error": 1.0810491123287402e-05,
+          "flux_error": 5.983612958029833e-06,
+          "net_flux_error": 8.355905428535994e-05,
+          "pool_error": 1.2791157022462565e-13,
+          "finite": true,
+          "nonnegative": true,
+          "passes": true
+        },
+        "1e-05": {
+          "concentration_error": 0.0010810491123287402,
+          "flux_error": 0.0005983612958029832,
+          "net_flux_error": 8.355905428535994e-05,
+          "pool_error": 1.2791157022462565e-13,
+          "finite": true,
+          "nonnegative": true,
+          "passes": true
+        }
+      }
+    },
+    {
+      "index": 4,
+      "max_abs": 5.262354996204976e-10,
+      "metrics": {
+        "0.001": {
+          "concentration_error": 1.1255754130842915e-05,
+          "flux_error": 5.8571541516649436e-06,
+          "net_flux_error": 8.451502732882601e-05,
+          "pool_error": 1.4147190363633637e-13,
+          "finite": true,
+          "nonnegative": true,
+          "passes": true
+        },
+        "1e-05": {
+          "concentration_error": 0.0011255754130842914,
+          "flux_error": 0.0005857154151664943,
+          "net_flux_error": 8.451502732882601e-05,
+          "pool_error": 1.4147190363633637e-13,
+          "finite": true,
+          "nonnegative": true,
+          "passes": true
+        }
+      }
+    },
+    {
+      "index": 5,
+      "max_abs": 5.536662239791212e-10,
+      "metrics": {
+        "0.001": {
+          "concentration_error": 1.1619814999021422e-05,
+          "flux_error": 5.699803087949169e-06,
+          "net_flux_error": 8.500109211030762e-05,
+          "pool_error": 3.2381909653711415e-13,
+          "finite": true,
+          "nonnegative": true,
+          "passes": true
+        },
+        "1e-05": {
+          "concentration_error": 0.0011619814999021421,
+          "flux_error": 0.0005699803087949168,
+          "net_flux_error": 8.500109211030762e-05,
+          "pool_error": 3.2381909653711415e-13,
+          "finite": true,
+          "nonnegative": true,
+          "passes": true
+        }
+      }
+    },
+    {
+      "index": 6,
+      "max_abs": 5.783700185446605e-10,
+      "metrics": {
+        "0.001": {
+          "concentration_error": 1.1912746287555434e-05,
+          "flux_error": 5.521114828742586e-06,
+          "net_flux_error": 8.510843712120383e-05,
+          "pool_error": 2.4976982287983027e-13,
+          "finite": true,
+          "nonnegative": true,
+          "passes": true
+        },
+        "1e-05": {
+          "concentration_error": 0.0011912746287555433,
+          "flux_error": 0.0005521114828742585,
+          "net_flux_error": 8.510843712120383e-05,
+          "pool_error": 2.4976982287983027e-13,
+          "finite": true,
+          "nonnegative": true,
+          "passes": true
+        }
+      }
+    },
+    {
+      "index": 7,
+      "max_abs": 6.004474695231465e-10,
+      "metrics": {
+        "0.001": {
+          "concentration_error": 1.2135342189572308e-05,
+          "flux_error": 5.324482552064862e-06,
+          "net_flux_error": 8.485239736307127e-05,
+          "pool_error": 4.130853645256666e-13,
+          "finite": true,
+          "nonnegative": true,
+          "passes": true
+        },
+        "1e-05": {
+          "concentration_error": 0.0012135342189572307,
+          "flux_error": 0.0005324482552064861,
+          "net_flux_error": 8.485239736307127e-05,
+          "pool_error": 4.130853645256666e-13,
+          "finite": true,
+          "nonnegative": true,
+          "passes": true
+        }
+      }
+    }
+  ]
+}

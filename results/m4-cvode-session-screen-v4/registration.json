@@ -1,0 +1,29 @@
+{
+  "date": "2026-11-16",
+  "model": "k-ecoli457",
+  "state_index": 61,
+  "horizon": 1e-06,
+  "repeats": [
+    0,
+    1,
+    2
+  ],
+  "rtol": 1e-09,
+  "semantics": {
+    "complete_nonlinear_rhs": true,
+    "complete_analytic_jacobian": true,
+    "independent_origin_reinit": true,
+    "requested_outputs_checked": true,
+    "no_clipping": true,
+    "no_projection": true
+  },
+  "source_sha256": {
+    "research/cvode_session_probe.py": "7b54e4e44d829fdc962e459eeb43155cd6de83c6b25c167e7906c7b11a12cce9",
+    "metabolism/cvode.py": "6733fb499c0262bf87dc2040dd6aec44a91085f1dbe1b12f0056f8eb277e05c2",
+    "metabolism/kecoli.py": "3b1cbea4fb876b0a967804c428090482b043e220364d78aa94e37a413f41bd1f"
+  },
+  "environment": {
+    "python": "3.12.10",
+    "numpy": "2.5.4"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "model": "k-ecoli457",
+  "state_index": 61,
+  "fast_groups": 49,
+  "fast_columns": 98,
+  "fast_reaction_fraction": 0.018705859896926896,
+  "summary": [
+    {
+      "h": 1e-06,
+      "repeats": 0,
+      "median_seconds": null,
+      "all_targets_pass": false
+    },
+    {
+      "h": 3e-06,
+      "repeats": 0,
+      "median_seconds": null,
+      "all_targets_pass": false
+    },
+    {
+      "h": 1e-05,
+      "repeats": 0,
+      "median_seconds": null,
+      "all_targets_pass": false
+    },
+    {
+      "h": 3e-05,
+      "repeats": 0,
+      "median_seconds": null,
+      "all_targets_pass": false
+    }
+  ],
+  "M4_admission": false,
+  "interpretation": "Development-only joint extent-coordinate probe; no full-window or formal-repeat claim."
+}

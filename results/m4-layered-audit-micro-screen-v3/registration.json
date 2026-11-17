@@ -1,0 +1,35 @@
+{
+  "date": "2026-11-15",
+  "scope": "Retrospective shadow-first audit scheduling screen; no M4 qualification.",
+  "source_subsets": {
+    "development": "results/m3-shadow-fast/development.json",
+    "new_states": "results/m3-shadow-fast/new-states.json",
+    "stress": "results/m3-shadow-stress/runs.json"
+  },
+  "targets": [
+    "0.0001",
+    "1e-06"
+  ],
+  "calibration_subset": "development",
+  "held_out_subsets": [
+    "new_states",
+    "stress"
+  ],
+  "safety_factor": 1.1,
+  "policy": "Calibrate max shadow-to-audit effectivity on development rows; skip full audit only when safety_factor*calibrated_bound*shadow_score <= 1.",
+  "frozen_semantics": {
+    "independent_full_audit_remains_required_for_M4": true,
+    "no_clipping_or_projection": true,
+    "source_audits_are_independent_full_nonlinear": true,
+    "this_screen_cannot_promote_a_candidate": true
+  },
+  "source_sha256": {
+    "results/m3-shadow-fast/development.json": "7537e64fad313c2435226eb2817418a58819c735b113a407609b10fe22542f3a",
+    "results/m3-shadow-fast/new-states.json": "569070bc5e0eba18c77c7c8d4f59c123496be3782ab1de4ecdb67f0e92c7e21e",
+    "results/m3-shadow-stress/runs.json": "15c73ac755b6ace040096ddbe4ebc0b5fb22b3151d48fe957526e483c0b41c73"
+  },
+  "environment": {
+    "python": "3.12.10",
+    "numpy": "2.5.4"
+  }
+}

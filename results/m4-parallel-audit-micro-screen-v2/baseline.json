@@ -1,0 +1,11 @@
+{
+  "method": "AdaptiveSplit-fixed-all",
+  "target": 1e-05,
+  "repeats": 3,
+  "seconds": [
+    0.6364654169883579,
+    0.6154236249858513,
+    0.6393999999854714
+  ],
+  "median_seconds": 0.6364654169883579
+}

@@ -1,0 +1,60 @@
+{
+  "rows": [
+    {
+      "h": 1e-06,
+      "repeat": 0,
+      "status": "failed",
+      "seconds": 0.035805792023893446,
+      "reason": "FloatingPointError: invalid reduced fast RHS state"
+    },
+    {
+      "h": 1e-06,
+      "repeat": 1,
+      "status": "failed",
+      "seconds": 0.019683958031237125,
+      "reason": "FloatingPointError: invalid reduced fast RHS state"
+    },
+    {
+      "h": 3e-06,
+      "repeat": 0,
+      "status": "failed",
+      "seconds": 0.02752279199194163,
+      "reason": "FloatingPointError: invalid reduced fast RHS state"
+    },
+    {
+      "h": 3e-06,
+      "repeat": 1,
+      "status": "failed",
+      "seconds": 0.026961041963659227,
+      "reason": "FloatingPointError: invalid reduced fast RHS state"
+    },
+    {
+      "h": 1e-05,
+      "repeat": 0,
+      "status": "failed",
+      "seconds": 0.030594374984502792,
+      "reason": "FloatingPointError: invalid reduced-split slow RHS state"
+    },
+    {
+      "h": 1e-05,
+      "repeat": 1,
+      "status": "failed",
+      "seconds": 0.030393540975637734,
+      "reason": "FloatingPointError: invalid reduced-split slow RHS state"
+    },
+    {
+      "h": 3e-05,
+      "repeat": 0,
+      "status": "failed",
+      "seconds": 0.044159292010590434,
+      "reason": "FloatingPointError: invalid reduced-split slow RHS state"
+    },
+    {
+      "h": 3e-05,
+      "repeat": 1,
+      "status": "failed",
+      "seconds": 0.044230083003640175,
+      "reason": "FloatingPointError: invalid reduced-split slow RHS state"
+    }
+  ]
+}

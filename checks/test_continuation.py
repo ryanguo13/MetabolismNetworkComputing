@@ -2,6 +2,7 @@
 
 import unittest
 from types import SimpleNamespace
+from unittest.mock import patch
 
 import numpy as np
 from scipy.linalg import expm
@@ -39,6 +40,124 @@ class ContinuationChecks(unittest.TestCase):
         np.testing.assert_array_equal(values[:, -1], fine[:, -1])
         self.assertTrue(np.all(values >= 0))
         np.testing.assert_allclose(values.sum(axis=0), 1., atol=1e-13)
+
+    def test_split_substeps_are_explicit_and_preserve_audit_contract(self):
+        system, matrix, _ = linear_chain(1.)
+        times = np.array([0., .001])
+        config = ContinuationConfig(target=1e-3, initial_step=.001, max_step=.001,
+                                    slow_bound_limit=1e6, split_substeps=2,
+                                    audit_control_only=True)
+        values, stats = MacroSplit(system, np.ones(3), config, fixed_groups=[0],
+                                   pools=np.ones((1, 3))).integrate(times)
+        reference = np.column_stack([expm(matrix*t) @ system.y0 for t in times])
+        self.assertEqual(stats['fine_split_calls'], 1)
+        self.assertEqual(stats['attempts'][0]['status'], 'accepted')
+        self.assertLess(np.max(abs(values - reference)), 1e-3)
+        with self.assertRaises(ValueError):
+            MacroSplit(system, np.ones(3), ContinuationConfig(split_substeps=0),
+                       fixed_groups=[0]).integrate(times)
+
+    def test_slow_bound_rejection_is_retained_before_audit(self):
+        system, matrix, _ = linear_chain(100.)
+        config = ContinuationConfig(target=1e-3, initial_step=.001, max_step=.001,
+                                    slow_bound_limit=1e-30, max_rejections=2,
+                                    audit_control_only=True)
+        values, stats = MacroSplit(system, np.ones(3), config, fixed_groups=[0],
+                                   pools=np.ones((1, 3))).integrate([0., 1e-3])
+        self.assertGreaterEqual(len(stats['attempts']), 1)
+        self.assertEqual(stats['rejected_steps'], len(stats['attempts']))
+        self.assertTrue(all(a['status'] == 'rejected' for a in stats['attempts']))
+        self.assertTrue(all(a['reason'] == 'coupled_slow_norm_bound'
+                            for a in stats['attempts']))
+        self.assertTrue(all(a['rollback_verified'] is True for a in stats['attempts']))
+        self.assertTrue(all(a['full_ode_audit'] is False for a in stats['attempts']))
+        self.assertGreaterEqual(len(stats['full_intervals']), 1)
+        self.assertTrue(np.isfinite(values).all())
+
+    def test_shadow_first_is_fail_closed_and_explicitly_audited(self):
+        system, matrix, _ = linear_chain(100.)
+        times = np.array([0., 1e-6])
+        rejecting = ContinuationConfig(
+            target=1e-5, initial_step=1e-6, max_step=1e-6,
+            slow_bound_limit=1e6, max_rejections=1, max_attempts=8,
+            shadow_first=True, shadow_limit=1e-30, audit_method='BDF',
+            audit_rtol=1e-10)
+        values, stats = MacroSplit(system, np.ones(3), rejecting, fixed_groups=[0],
+                                   pools=np.ones((1, 3))).integrate(times)
+        shadow_trials = [a for a in stats['attempts'] if a.get('reason') == 'shadow_estimate_budget']
+        self.assertTrue(shadow_trials)
+        self.assertTrue(all(a['full_ode_audit'] is False for a in shadow_trials))
+        self.assertEqual(stats['shadow_rejections'], len(shadow_trials))
+        self.assertTrue(np.isfinite(values).all())
+
+        accepting = ContinuationConfig(
+            target=1e-5, initial_step=1e-6, max_step=1e-6,
+            slow_bound_limit=1e6, max_rejections=1, max_attempts=8,
+            shadow_first=True, shadow_limit=1e6, audit_method='BDF',
+            audit_rtol=1e-10)
+        _, accepted_stats = MacroSplit(system, np.ones(3), accepting, fixed_groups=[0],
+                                       pools=np.ones((1, 3))).integrate(times)
+        accepted_trials = [a for a in accepted_stats['attempts'] if a['status'] == 'accepted']
+        self.assertTrue(accepted_trials)
+        self.assertTrue(all(a['full_ode_audit'] is True for a in accepted_trials))
+
+    def test_overlap_audit_preserves_output_and_audit_contract(self):
+        system, _, _ = linear_chain(1.)
+        times = np.array([0., .001])
+        common = dict(target=1e-3, initial_step=.001, max_step=.001,
+                      slow_bound_limit=1e6, max_rejections=4, max_attempts=8,
+                      audit_method='BDF', audit_rtol=1e-10)
+        sequential, sequential_stats = MacroSplit(
+            system, np.ones(3), ContinuationConfig(**common), fixed_groups=[0],
+            pools=np.ones((1, 3))).integrate(times)
+        overlapped, overlap_stats = MacroSplit(
+            system, np.ones(3), ContinuationConfig(**common, overlap_audit=True),
+            fixed_groups=[0], pools=np.ones((1, 3))).integrate(times)
+        np.testing.assert_allclose(overlapped, sequential, rtol=1e-12, atol=1e-14)
+        self.assertEqual(overlap_stats['overlap_trials'], len(overlap_stats['attempts']))
+        self.assertEqual(overlap_stats['full_calls'], len(overlap_stats['attempts']))
+        self.assertTrue(all(a['full_ode_audit'] is True for a in overlap_stats['attempts']))
+        self.assertEqual(overlap_stats['accepted_steps'], sequential_stats['accepted_steps'])
+        with self.assertRaises(ValueError):
+            MacroSplit(system, np.ones(3), ContinuationConfig(
+                overlap_audit=True, shadow_first=True), fixed_groups=[0]).integrate(times)
+
+    def test_overlap_accounts_for_split_failure_after_audit_finishes(self):
+        system, _, _ = linear_chain(1.)
+        config = ContinuationConfig(target=1e-3, initial_step=.001, max_step=.001,
+                                    slow_bound_limit=1e6, max_rejections=1, max_attempts=4,
+                                    overlap_audit=True, audit_method='BDF', audit_rtol=1e-10)
+        failure = SplitFailure('injected split failure', {'nfev': 2, 'njev': 0, 'nlu': 1})
+        with patch.object(FixedSplit, 'integrate', side_effect=failure):
+            _, stats = MacroSplit(system, np.ones(3), config, fixed_groups=[0],
+                                  pools=np.ones((1, 3))).integrate([0., .001])
+        self.assertEqual(stats['overlap_trials'], 1)
+        self.assertEqual(stats['audit_calls'], 1)
+        self.assertGreater(stats['audit_seconds'], 0.)
+        self.assertGreater(stats['split_seconds'], 0.)
+        self.assertGreaterEqual(stats['nfev'], 2)
+        self.assertTrue(stats['attempts'][0]['full_ode_audit'])
+        self.assertTrue(stats['attempts'][0]['rollback_verified'])
+
+    def test_overlap_records_failed_audit_and_preserves_rollback(self):
+        system, _, _ = linear_chain(1.)
+        config = ContinuationConfig(target=1e-3, initial_step=.001, max_step=.001,
+                                    slow_bound_limit=1e6, max_rejections=1, max_attempts=4,
+                                    overlap_audit=True, audit_method='BDF', audit_rtol=1e-10)
+        with patch('metabolism.continuation.solve_ivp', side_effect=RuntimeError('injected audit failure')):
+            with self.assertRaises(SplitFailure) as caught:
+                MacroSplit(system, np.ones(3), config, fixed_groups=[0],
+                           pools=np.ones((1, 3))).integrate([0., .001])
+        stats = caught.exception.stats
+        self.assertEqual(stats['overlap_trials'], 1)
+        self.assertEqual(stats['audit_calls'], 1)
+        self.assertGreater(stats['audit_seconds'], 0.)
+        self.assertGreater(stats['split_seconds'], 0.)
+        self.assertEqual(stats['rollback_checks'], 1)
+        self.assertEqual(len(stats['attempts']), 1)
+        self.assertFalse(stats['attempts'][0]['full_ode_audit'])
+        self.assertEqual(stats['attempts'][0]['audit_status'], 'failed')
+        self.assertTrue(stats['attempts'][0]['rollback_verified'])
 
     def test_audited_interpolation_rejects_hidden_initial_layer(self):
         system, matrix, _ = linear_chain(100.)

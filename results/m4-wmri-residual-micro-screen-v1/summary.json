@@ -1,0 +1,2326 @@
+{
+  "scope": "Multi-state local screen for W-MRI plus quadratic slow nonlinear remainder; no full-window or M4 claim.",
+  "summary": [
+    {
+      "state_index": 61,
+      "state_time": 0.00011497569953977356,
+      "h": 3e-05,
+      "repeats": 2,
+      "median_seconds": 0.3451518959773239,
+      "total_seconds": [
+        0.3502810419886373,
+        0.34002274996601045
+      ],
+      "all_targets_pass": true,
+      "metrics": {
+        "0.001": [
+          {
+            "concentration_error": 0.0018993800102356526,
+            "flux_error": 0.002538202715983322,
+            "net_flux_error": 0.004442442631041866,
+            "pool_error": 4.786969431957995e-15,
+            "finite": true,
+            "nonnegative": true,
+            "passes": true
+          },
+          {
+            "concentration_error": 0.0018993800102356526,
+            "flux_error": 0.002538202715983322,
+            "net_flux_error": 0.004442442631041866,
+            "pool_error": 4.786969431957995e-15,
+            "finite": true,
+            "nonnegative": true,
+            "passes": true
+          }
+        ],
+        "1e-05": [
+          {
+            "concentration_error": 0.18993800102356523,
+            "flux_error": 0.25382027159833215,
+            "net_flux_error": 0.004442442631041866,
+            "pool_error": 4.786969431957995e-15,
+            "finite": true,
+            "nonnegative": true,
+            "passes": true
+          },
+          {
+            "concentration_error": 0.18993800102356523,
+            "flux_error": 0.25382027159833215,
+            "net_flux_error": 0.004442442631041866,
+            "pool_error": 4.786969431957995e-15,
+            "finite": true,
+            "nonnegative": true,
+            "passes": true
+          }
+        ]
+      }
+    },
+    {
+      "state_index": 61,
+      "state_time": 0.00011497569953977356,
+      "h": 0.0001,
+      "repeats": 2,
+      "median_seconds": 0.47698002052493393,
+      "total_seconds": [
+        0.47559679101686925,
+        0.4783632500329986
+      ],
+      "all_targets_pass": false,
+      "metrics": {
+        "0.001": [
+          {
+            "concentration_error": 0.12344252862082503,
+            "flux_error": 0.12344252855227936,
+            "net_flux_error": 0.23462039342033394,
+            "pool_error": 8.001412032943015e-15,
+            "finite": true,
+            "nonnegative": true,
+            "passes": true
+          },
+          {
+            "concentration_error": 0.12344252862082503,
+            "flux_error": 0.12344252855227936,
+            "net_flux_error": 0.23462039342033394,
+            "pool_error": 8.001412032943015e-15,
+            "finite": true,
+            "nonnegative": true,
+            "passes": true
+          }
+        ],
+        "1e-05": [
+          {
+            "concentration_error": 12.3442528620825,
+            "flux_error": 12.344252855227936,
+            "net_flux_error": 0.23462039342033394,
+            "pool_error": 8.001412032943015e-15,
+            "finite": true,
+            "nonnegative": true,
+            "passes": false
+          },
+          {
+            "concentration_error": 12.3442528620825,
+            "flux_error": 12.344252855227936,
+            "net_flux_error": 0.23462039342033394,
+            "pool_error": 8.001412032943015e-15,
+            "finite": true,
+            "nonnegative": true,
+            "passes": false
+          }
+        ]
+      }
+    },
+    {
+      "state_index": 61,
+      "state_time": 0.00011497569953977356,
+      "h": 0.0003,
+      "repeats": 2,
+      "median_seconds": 0.8527674374927301,
+      "total_seconds": [
+        0.8491314169950783,
+        0.8564034579903819
+      ],
+      "all_targets_pass": false,
+      "metrics": {
+        "0.001": [
+          {
+            "concentration_error": 0.5486618901773331,
+            "flux_error": 0.6009111299371487,
+            "net_flux_error": 1.1353274462063032,
+            "pool_error": 1.5307199952019333e-14,
+            "finite": true,
+            "nonnegative": true,
+            "passes": false
+          },
+          {
+            "concentration_error": 0.5486618901773331,
+            "flux_error": 0.6009111299371487,
+            "net_flux_error": 1.1353274462063032,
+            "pool_error": 1.5307199952019333e-14,
+            "finite": true,
+            "nonnegative": true,
+            "passes": false
+          }
+        ],
+        "1e-05": [
+          {
+            "concentration_error": 54.8661890177333,
+            "flux_error": 60.09111299371486,
+            "net_flux_error": 1.1353274462063032,
+            "pool_error": 1.5307199952019333e-14,
+            "finite": true,
+            "nonnegative": true,
+            "passes": false
+          },
+          {
+            "concentration_error": 54.8661890177333,
+            "flux_error": 60.09111299371486,
+            "net_flux_error": 1.1353274462063032,
+            "pool_error": 1.5307199952019333e-14,
+            "finite": true,
+            "nonnegative": true,
+            "passes": false
+          }
+        ]
+      }
+    },
+    {
+      "state_index": 61,
+      "state_time": 0.00011497569953977356,
+      "h": 0.001,
+      "repeats": 2,
+      "median_seconds": 1.5246081250079442,
+      "total_seconds": [
+        1.62213829200482,
+        1.4270779580110684
+      ],
+      "all_targets_pass": false,
+      "metrics": {
+        "0.001": [
+          {
+            "concentration_error": 15.576719091701987,
+            "flux_error": 17.9384160754025,
+            "net_flux_error": 73.58199063223198,
+            "pool_error": 4.517306667617401e-14,
+            "finite": true,
+            "nonnegative": true,
+            "passes": false
+          },
+          {
+            "concentration_error": 15.576719091701987,
+            "flux_error": 17.9384160754025,
+            "net_flux_error": 73.58199063223198,
+            "pool_error": 4.517306667617401e-14,
+            "finite": true,
+            "nonnegative": true,
+            "passes": false
+          }
+        ],
+        "1e-05": [
+          {
+            "concentration_error": 1557.6719091701984,
+            "flux_error": 1793.8416075402497,
+            "net_flux_error": 73.58199063223198,
+            "pool_error": 4.517306667617401e-14,
+            "finite": true,
+            "nonnegative": true,
+            "passes": false
+          },
+          {
+            "concentration_error": 1557.6719091701984,
+            "flux_error": 1793.8416075402497,
+            "net_flux_error": 73.58199063223198,
+            "pool_error": 4.517306667617401e-14,
+            "finite": true,
+            "nonnegative": true,
+            "passes": false
+          }
+        ]
+      }
+    },
+    {
+      "state_index": 61,
+      "state_time": 0.00011497569953977356,
+      "h": 0.003,
+      "repeats": 2,
+      "median_seconds": 2.3788004999805707,
+      "total_seconds": [
+        2.388722291972954,
+        2.3688787079881877
+      ],
+      "all_targets_pass": false,
+      "metrics": {
+        "0.001": [
+          {
+            "concentration_error": 76.76309361508063,
+            "flux_error": 86.7066344278623,
+            "net_flux_error": 236.13347877563578,
+            "pool_error": 8.672923490493637e-14,
+            "finite": true,
+            "nonnegative": true,
+            "passes": false
+          },
+          {
+            "concentration_error": 76.76309361508063,
+            "flux_error": 86.7066344278623,
+            "net_flux_error": 236.13347877563578,
+            "pool_error": 8.672923490493637e-14,
+            "finite": true,
+            "nonnegative": true,
+            "passes": false
+          }
+        ],
+        "1e-05": [
+          {
+            "concentration_error": 7676.3093615080625,
+            "flux_error": 8670.663442786228,
+            "net_flux_error": 236.13347877563578,
+            "pool_error": 8.672923490493637e-14,
+            "finite": true,
+            "nonnegative": true,
+            "passes": false
+          },
+          {
+            "concentration_error": 7676.3093615080625,
+            "flux_error": 8670.663442786228,
+            "net_flux_error": 236.13347877563578,
+            "pool_error": 8.672923490493637e-14,
+            "finite": true,
+            "nonnegative": true,
+            "passes": false
+          }
+        ]
+      }
+    },
+    {
+      "state_index": 61,
+      "state_time": 0.00011497569953977356,
+      "h": 0.01,
+      "repeats": 2,
+      "median_seconds": 3.647215375007363,
+      "total_seconds": [
+        3.6807996669667773,
+        3.6136310830479488
+      ],
+      "all_targets_pass": false,
+      "metrics": {
+        "0.001": [
+          {
+            "concentration_error": 93.75904717125091,
+            "flux_error": 93.75904670927444,
+            "net_flux_error": 673.8616008541654,
+            "pool_error": 3.095154341159476e-13,
+            "finite": true,
+            "nonnegative": true,
+            "passes": false
+          },
+          {
+            "concentration_error": 93.75904717125091,
+            "flux_error": 93.75904670927444,
+            "net_flux_error": 673.8616008541654,
+            "pool_error": 3.095154341159476e-13,
+            "finite": true,
+            "nonnegative": true,
+            "passes": false
+          }
+        ],
+        "1e-05": [
+          {
+            "concentration_error": 9375.904717125091,
+            "flux_error": 9375.904670927443,
+            "net_flux_error": 673.8616008541654,
+            "pool_error": 3.095154341159476e-13,
+            "finite": true,
+            "nonnegative": true,
+            "passes": false
+          },
+          {
+            "concentration_error": 9375.904717125091,
+            "flux_error": 9375.904670927443,
+            "net_flux_error": 673.8616008541654,
+            "pool_error": 3.095154341159476e-13,
+            "finite": true,
+            "nonnegative": true,
+            "passes": false
+          }
+        ]
+      }
+    },
+    {
+      "state_index": 61,
+      "state_time": 0.00011497569953977356,
+      "h": 0.03,
+      "repeats": 2,
+      "median_seconds": 4.664997500483878,
+      "total_seconds": [
+        4.803822666988708,
+        4.526172333979048
+      ],
+      "all_targets_pass": false,
+      "metrics": {
+        "0.001": [
+          {
+            "concentration_error": 26.06163568413712,
+            "flux_error": 31.899826630555264,
+            "net_flux_error": 473.724959250345,
+            "pool_error": 5.113279591406612e-13,
+            "finite": true,
+            "nonnegative": true,
+            "passes": false
+          },
+          {
+            "concentration_error": 26.06163568413712,
+            "flux_error": 31.899826630555264,
+            "net_flux_error": 473.724959250345,
+            "pool_error": 5.113279591406612e-13,
+            "finite": true,
+            "nonnegative": true,
+            "passes": false
+          }
+        ],
+        "1e-05": [
+          {
+            "concentration_error": 2606.163568413712,
+            "flux_error": 3189.982663055526,
+            "net_flux_error": 473.724959250345,
+            "pool_error": 5.113279591406612e-13,
+            "finite": true,
+            "nonnegative": true,
+            "passes": false
+          },
+          {
+            "concentration_error": 2606.163568413712,
+            "flux_error": 3189.982663055526,
+            "net_flux_error": 473.724959250345,
+            "pool_error": 5.113279591406612e-13,
+            "finite": true,
+            "nonnegative": true,
+            "passes": false
+          }
+        ]
+      }
+    },
+    {
+      "state_index": 80,
+      "state_time": 0.009545484566618327,
+      "h": 3e-05,
+      "repeats": 2,
+      "median_seconds": 0.1896337709913496,
+      "total_seconds": [
+        0.19061679200967774,
+        0.18865074997302145
+      ],
+      "all_targets_pass": true,
+      "metrics": {
+        "0.001": [
+          {
+            "concentration_error": 2.2556028848073925e-09,
+            "flux_error": 2.7570730303979234e-09,
+            "net_flux_error": 2.5296192134379907e-07,
+            "pool_error": 9.943434964299042e-15,
+            "finite": true,
+            "nonnegative": true,
+            "passes": true
+          },
+          {
+            "concentration_error": 2.2556028848073925e-09,
+            "flux_error": 2.7570730303979234e-09,
+            "net_flux_error": 2.5296192134379907e-07,
+            "pool_error": 9.943434964299042e-15,
+            "finite": true,
+            "nonnegative": true,
+            "passes": true
+          }
+        ],
+        "1e-05": [
+          {
+            "concentration_error": 2.255602884807392e-07,
+            "flux_error": 2.7570730303979227e-07,
+            "net_flux_error": 2.5296192134379907e-07,
+            "pool_error": 9.943434964299042e-15,
+            "finite": true,
+            "nonnegative": true,
+            "passes": true
+          },
+          {
+            "concentration_error": 2.255602884807392e-07,
+            "flux_error": 2.7570730303979227e-07,
+            "net_flux_error": 2.5296192134379907e-07,
+            "pool_error": 9.943434964299042e-15,
+            "finite": true,
+            "nonnegative": true,
+            "passes": true
+          }
+        ]
+      }
+    },
+    {
+      "state_index": 80,
+      "state_time": 0.009545484566618327,
+      "h": 0.0001,
+      "repeats": 2,
+      "median_seconds": 0.18671497897594236,
+      "total_seconds": [
+        0.1866977079771459,
+        0.1867322499747388
+      ],
+      "all_targets_pass": true,
+      "metrics": {
+        "0.001": [
+          {
+            "concentration_error": 9.80469079444402e-08,
+            "flux_error": 9.804520692543356e-08,
+            "net_flux_error": 6.044917637629406e-06,
+            "pool_error": 1.3534312559571028e-14,
+            "finite": true,
+            "nonnegative": true,
+            "passes": true
+          },
+          {
+            "concentration_error": 9.80469079444402e-08,
+            "flux_error": 9.804520692543356e-08,
+            "net_flux_error": 6.044917637629406e-06,
+            "pool_error": 1.3534312559571028e-14,
+            "finite": true,
+            "nonnegative": true,
+            "passes": true
+          }
+        ],
+        "1e-05": [
+          {
+            "concentration_error": 9.804690794444018e-06,
+            "flux_error": 9.804520692543354e-06,
+            "net_flux_error": 6.044917637629406e-06,
+            "pool_error": 1.3534312559571028e-14,
+            "finite": true,
+            "nonnegative": true,
+            "passes": true
+          },
+          {
+            "concentration_error": 9.804690794444018e-06,
+            "flux_error": 9.804520692543354e-06,
+            "net_flux_error": 6.044917637629406e-06,
+            "pool_error": 1.3534312559571028e-14,
+            "finite": true,
+            "nonnegative": true,
+            "passes": true
+          }
+        ]
+      }
+    },
+    {
+      "state_index": 80,
+      "state_time": 0.009545484566618327,
+      "h": 0.0003,
+      "repeats": 2,
+      "median_seconds": 0.36076812449027784,
+      "total_seconds": [
+        0.32003366597928107,
+        0.4015025830012746
+      ],
+      "all_targets_pass": true,
+      "metrics": {
+        "0.001": [
+          {
+            "concentration_error": 7.70369095739489e-06,
+            "flux_error": 7.703692071200961e-06,
+            "net_flux_error": 0.00017240687729247803,
+            "pool_error": 1.1297473373472737e-13,
+            "finite": true,
+            "nonnegative": true,
+            "passes": true
+          },
+          {
+            "concentration_error": 7.70369095739489e-06,
+            "flux_error": 7.703692071200961e-06,
+            "net_flux_error": 0.00017240687729247803,
+            "pool_error": 1.1297473373472737e-13,
+            "finite": true,
+            "nonnegative": true,
+            "passes": true
+          }
+        ],
+        "1e-05": [
+          {
+            "concentration_error": 0.0007703690957394891,
+            "flux_error": 0.000770369207120096,
+            "net_flux_error": 0.00017240687729247803,
+            "pool_error": 1.1297473373472737e-13,
+            "finite": true,
+            "nonnegative": true,
+            "passes": true
+          },
+          {
+            "concentration_error": 0.0007703690957394891,
+            "flux_error": 0.000770369207120096,
+            "net_flux_error": 0.00017240687729247803,
+            "pool_error": 1.1297473373472737e-13,
+            "finite": true,
+            "nonnegative": true,
+            "passes": true
+          }
+        ]
+      }
+    },
+    {
+      "state_index": 80,
+      "state_time": 0.009545484566618327,
+      "h": 0.001,
+      "repeats": 2,
+      "median_seconds": 0.32224354150821455,
+      "total_seconds": [
+        0.36281270801555365,
+        0.28167437500087544
+      ],
+      "all_targets_pass": true,
+      "metrics": {
+        "0.001": [
+          {
+            "concentration_error": 0.0009048916718544755,
+            "flux_error": 0.0009048916723359135,
+            "net_flux_error": 0.019815720185929264,
+            "pool_error": 1.4727542102521673e-13,
+            "finite": true,
+            "nonnegative": true,
+            "passes": true
+          },
+          {
+            "concentration_error": 0.0009048916718544755,
+            "flux_error": 0.0009048916723359135,
+            "net_flux_error": 0.019815720185929264,
+            "pool_error": 1.4727542102521673e-13,
+            "finite": true,
+            "nonnegative": true,
+            "passes": true
+          }
+        ],
+        "1e-05": [
+          {
+            "concentration_error": 0.09048916718544754,
+            "flux_error": 0.09048916723359134,
+            "net_flux_error": 0.019815720185929264,
+            "pool_error": 1.4727542102521673e-13,
+            "finite": true,
+            "nonnegative": true,
+            "passes": true
+          },
+          {
+            "concentration_error": 0.09048916718544754,
+            "flux_error": 0.09048916723359134,
+            "net_flux_error": 0.019815720185929264,
+            "pool_error": 1.4727542102521673e-13,
+            "finite": true,
+            "nonnegative": true,
+            "passes": true
+          }
+        ]
+      }
+    },
+    {
+      "state_index": 80,
+      "state_time": 0.009545484566618327,
+      "h": 0.003,
+      "repeats": 2,
+      "median_seconds": 0.5390680209966376,
+      "total_seconds": [
+        0.5423406669870019,
+        0.5357953750062734
+      ],
+      "all_targets_pass": true,
+      "metrics": {
+        "0.001": [
+          {
+            "concentration_error": 0.005845085385086119,
+            "flux_error": 0.009661405484515478,
+            "net_flux_error": 0.15287317719737306,
+            "pool_error": 4.3523344650520036e-13,
+            "finite": true,
+            "nonnegative": true,
+            "passes": true
+          },
+          {
+            "concentration_error": 0.005845085385086119,
+            "flux_error": 0.009661405484515478,
+            "net_flux_error": 0.15287317719737306,
+            "pool_error": 4.3523344650520036e-13,
+            "finite": true,
+            "nonnegative": true,
+            "passes": true
+          }
+        ],
+        "1e-05": [
+          {
+            "concentration_error": 0.584508538508612,
+            "flux_error": 0.9661405484515476,
+            "net_flux_error": 0.15287317719737306,
+            "pool_error": 4.3523344650520036e-13,
+            "finite": true,
+            "nonnegative": true,
+            "passes": true
+          },
+          {
+            "concentration_error": 0.584508538508612,
+            "flux_error": 0.9661405484515476,
+            "net_flux_error": 0.15287317719737306,
+            "pool_error": 4.3523344650520036e-13,
+            "finite": true,
+            "nonnegative": true,
+            "passes": true
+          }
+        ]
+      }
+    },
+    {
+      "state_index": 80,
+      "state_time": 0.009545484566618327,
+      "h": 0.01,
+      "repeats": 2,
+      "median_seconds": 1.018671062483918,
+      "total_seconds": [
+        1.0300022499868646,
+        1.0073398749809712
+      ],
+      "all_targets_pass": false,
+      "metrics": {
+        "0.001": [
+          {
+            "concentration_error": 0.13199651907199494,
+            "flux_error": 0.15404400590661096,
+            "net_flux_error": 0.7977116907926277,
+            "pool_error": 1.0520456034113207e-12,
+            "finite": true,
+            "nonnegative": true,
+            "passes": true
+          },
+          {
+            "concentration_error": 0.13199651907199494,
+            "flux_error": 0.15404400590661096,
+            "net_flux_error": 0.7977116907926277,
+            "pool_error": 1.0520456034113207e-12,
+            "finite": true,
+            "nonnegative": true,
+            "passes": true
+          }
+        ],
+        "1e-05": [
+          {
+            "concentration_error": 13.199651907199495,
+            "flux_error": 15.404400590661094,
+            "net_flux_error": 0.7977116907926277,
+            "pool_error": 1.0520456034113207e-12,
+            "finite": true,
+            "nonnegative": true,
+            "passes": false
+          },
+          {
+            "concentration_error": 13.199651907199495,
+            "flux_error": 15.404400590661094,
+            "net_flux_error": 0.7977116907926277,
+            "pool_error": 1.0520456034113207e-12,
+            "finite": true,
+            "nonnegative": true,
+            "passes": false
+          }
+        ]
+      }
+    },
+    {
+      "state_index": 80,
+      "state_time": 0.009545484566618327,
+      "h": 0.03,
+      "repeats": 2,
+      "median_seconds": 1.7807273750077002,
+      "total_seconds": [
+        1.7318535840022378,
+        1.8296011660131626
+      ],
+      "all_targets_pass": false,
+      "metrics": {
+        "0.001": [
+          {
+            "concentration_error": 1.1269972384811797,
+            "flux_error": 1.245619233146328,
+            "net_flux_error": 4.061530325092171,
+            "pool_error": 3.1358379434798196e-12,
+            "finite": true,
+            "nonnegative": true,
+            "passes": false
+          },
+          {
+            "concentration_error": 1.1269972384811797,
+            "flux_error": 1.245619233146328,
+            "net_flux_error": 4.061530325092171,
+            "pool_error": 3.1358379434798196e-12,
+            "finite": true,
+            "nonnegative": true,
+            "passes": false
+          }
+        ],
+        "1e-05": [
+          {
+            "concentration_error": 112.69972384811797,
+            "flux_error": 124.56192331463279,
+            "net_flux_error": 4.061530325092171,
+            "pool_error": 3.1358379434798196e-12,
+            "finite": true,
+            "nonnegative": true,
+            "passes": false
+          },
+          {
+            "concentration_error": 112.69972384811797,
+            "flux_error": 124.56192331463279,
+            "net_flux_error": 4.061530325092171,
+            "pool_error": 3.1358379434798196e-12,
+            "finite": true,
+            "nonnegative": true,
+            "passes": false
+          }
+        ]
+      }
+    },
+    {
+      "state_index": 100,
+      "state_time": 0.1,
+      "h": 3e-05,
+      "repeats": 2,
+      "median_seconds": 0.1937428334786091,
+      "total_seconds": [
+        0.19374766701366752,
+        0.19373799994355068
+      ],
+      "all_targets_pass": true,
+      "metrics": {
+        "0.001": [
+          {
+            "concentration_error": 1.4411746881517515e-09,
+            "flux_error": 2.435101916870728e-09,
+            "net_flux_error": 8.827520091173925e-08,
+            "pool_error": 7.15573433840432e-15,
+            "finite": true,
+            "nonnegative": true,
+            "passes": true
+          },
+          {
+            "concentration_error": 1.4411746881517515e-09,
+            "flux_error": 2.435101916870728e-09,
+            "net_flux_error": 8.827520091173925e-08,
+            "pool_error": 7.15573433840432e-15,
+            "finite": true,
+            "nonnegative": true,
+            "passes": true
+          }
+        ],
+        "1e-05": [
+          {
+            "concentration_error": 1.4411746881517513e-07,
+            "flux_error": 2.435101916870728e-07,
+            "net_flux_error": 8.827520091173925e-08,
+            "pool_error": 7.15573433840432e-15,
+            "finite": true,
+            "nonnegative": true,
+            "passes": true
+          },
+          {
+            "concentration_error": 1.4411746881517513e-07,
+            "flux_error": 2.435101916870728e-07,
+            "net_flux_error": 8.827520091173925e-08,
+            "pool_error": 7.15573433840432e-15,
+            "finite": true,
+            "nonnegative": true,
+            "passes": true
+          }
+        ]
+      }
+    },
+    {
+      "state_index": 100,
+      "state_time": 0.1,
+      "h": 0.0001,
+      "repeats": 2,
+      "median_seconds": 0.24925870800507255,
+      "total_seconds": [
+        0.24938454100629315,
+        0.24913287500385195
+      ],
+      "all_targets_pass": true,
+      "metrics": {
+        "0.001": [
+          {
+            "concentration_error": 1.2300651146920222e-09,
+            "flux_error": 2.4319759837296875e-09,
+            "net_flux_error": 2.81400910968383e-07,
+            "pool_error": 8.58948329129915e-15,
+            "finite": true,
+            "nonnegative": true,
+            "passes": true
+          },
+          {
+            "concentration_error": 1.2300651146920222e-09,
+            "flux_error": 2.4319759837296875e-09,
+            "net_flux_error": 2.81400910968383e-07,
+            "pool_error": 8.58948329129915e-15,
+            "finite": true,
+            "nonnegative": true,
+            "passes": true
+          }
+        ],
+        "1e-05": [
+          {
+            "concentration_error": 1.230065114692022e-07,
+            "flux_error": 2.431975983729687e-07,
+            "net_flux_error": 2.81400910968383e-07,
+            "pool_error": 8.58948329129915e-15,
+            "finite": true,
+            "nonnegative": true,
+            "passes": true
+          },
+          {
+            "concentration_error": 1.230065114692022e-07,
+            "flux_error": 2.431975983729687e-07,
+            "net_flux_error": 2.81400910968383e-07,
+            "pool_error": 8.58948329129915e-15,
+            "finite": true,
+            "nonnegative": true,
+            "passes": true
+          }
+        ]
+      }
+    },
+    {
+      "state_index": 100,
+      "state_time": 0.1,
+      "h": 0.0003,
+      "repeats": 2,
+      "median_seconds": 0.5859059169888496,
+      "total_seconds": [
+        0.5838997089886107,
+        0.5879121249890886
+      ],
+      "all_targets_pass": true,
+      "metrics": {
+        "0.001": [
+          {
+            "concentration_error": 4.388875537607105e-08,
+            "flux_error": 4.013104466583938e-08,
+            "net_flux_error": 1.3963609543731276e-07,
+            "pool_error": 7.055207112971464e-14,
+            "finite": true,
+            "nonnegative": true,
+            "passes": true
+          },
+          {
+            "concentration_error": 4.388875537607105e-08,
+            "flux_error": 4.013104466583938e-08,
+            "net_flux_error": 1.3963609543731276e-07,
+            "pool_error": 7.055207112971464e-14,
+            "finite": true,
+            "nonnegative": true,
+            "passes": true
+          }
+        ],
+        "1e-05": [
+          {
+            "concentration_error": 4.388875537607104e-06,
+            "flux_error": 4.013104466583937e-06,
+            "net_flux_error": 1.3963609543731276e-07,
+            "pool_error": 7.055207112971464e-14,
+            "finite": true,
+            "nonnegative": true,
+            "passes": true
+          },
+          {
+            "concentration_error": 4.388875537607104e-06,
+            "flux_error": 4.013104466583937e-06,
+            "net_flux_error": 1.3963609543731276e-07,
+            "pool_error": 7.055207112971464e-14,
+            "finite": true,
+            "nonnegative": true,
+            "passes": true
+          }
+        ]
+      }
+    },
+    {
+      "state_index": 100,
+      "state_time": 0.1,
+      "h": 0.001,
+      "repeats": 2,
+      "median_seconds": 0.3157868960115593,
+      "total_seconds": [
+        0.31352000002516434,
+        0.31805379199795425
+      ],
+      "all_targets_pass": true,
+      "metrics": {
+        "0.001": [
+          {
+            "concentration_error": 3.4207924557139554e-06,
+            "flux_error": 3.84471601491519e-06,
+            "net_flux_error": 9.040463212674184e-06,
+            "pool_error": 1.8034185256254861e-13,
+            "finite": true,
+            "nonnegative": true,
+            "passes": true
+          },
+          {
+            "concentration_error": 3.4207924557139554e-06,
+            "flux_error": 3.84471601491519e-06,
+            "net_flux_error": 9.040463212674184e-06,
+            "pool_error": 1.8034185256254861e-13,
+            "finite": true,
+            "nonnegative": true,
+            "passes": true
+          }
+        ],
+        "1e-05": [
+          {
+            "concentration_error": 0.00034207924557139554,
+            "flux_error": 0.0003844716014915189,
+            "net_flux_error": 9.040463212674184e-06,
+            "pool_error": 1.8034185256254861e-13,
+            "finite": true,
+            "nonnegative": true,
+            "passes": true
+          },
+          {
+            "concentration_error": 0.00034207924557139554,
+            "flux_error": 0.0003844716014915189,
+            "net_flux_error": 9.040463212674184e-06,
+            "pool_error": 1.8034185256254861e-13,
+            "finite": true,
+            "nonnegative": true,
+            "passes": true
+          }
+        ]
+      }
+    },
+    {
+      "state_index": 100,
+      "state_time": 0.1,
+      "h": 0.003,
+      "repeats": 2,
+      "median_seconds": 0.5934151250112336,
+      "total_seconds": [
+        0.6068077920353971,
+        0.5800224579870701
+      ],
+      "all_targets_pass": true,
+      "metrics": {
+        "0.001": [
+          {
+            "concentration_error": 0.00014515675100538664,
+            "flux_error": 0.00016324014313081895,
+            "net_flux_error": 0.00018929241335837723,
+            "pool_error": 7.656228082075768e-13,
+            "finite": true,
+            "nonnegative": true,
+            "passes": true
+          },
+          {
+            "concentration_error": 0.00014515675100538664,
+            "flux_error": 0.00016324014313081895,
+            "net_flux_error": 0.00018929241335837723,
+            "pool_error": 7.656228082075768e-13,
+            "finite": true,
+            "nonnegative": true,
+            "passes": true
+          }
+        ],
+        "1e-05": [
+          {
+            "concentration_error": 0.014515675100538663,
+            "flux_error": 0.016324014313081895,
+            "net_flux_error": 0.00018929241335837723,
+            "pool_error": 7.656228082075768e-13,
+            "finite": true,
+            "nonnegative": true,
+            "passes": true
+          },
+          {
+            "concentration_error": 0.014515675100538663,
+            "flux_error": 0.016324014313081895,
+            "net_flux_error": 0.00018929241335837723,
+            "pool_error": 7.656228082075768e-13,
+            "finite": true,
+            "nonnegative": true,
+            "passes": true
+          }
+        ]
+      }
+    },
+    {
+      "state_index": 100,
+      "state_time": 0.1,
+      "h": 0.01,
+      "repeats": 2,
+      "median_seconds": 0.5738285839906894,
+      "total_seconds": [
+        0.5879439589916728,
+        0.5597132089897059
+      ],
+      "all_targets_pass": true,
+      "metrics": {
+        "0.001": [
+          {
+            "concentration_error": 0.0033114685538814794,
+            "flux_error": 0.003927964393756433,
+            "net_flux_error": 0.013869644944912914,
+            "pool_error": 1.2425459966491898e-12,
+            "finite": true,
+            "nonnegative": true,
+            "passes": true
+          },
+          {
+            "concentration_error": 0.0033114685538814794,
+            "flux_error": 0.003927964393756433,
+            "net_flux_error": 0.013869644944912914,
+            "pool_error": 1.2425459966491898e-12,
+            "finite": true,
+            "nonnegative": true,
+            "passes": true
+          }
+        ],
+        "1e-05": [
+          {
+            "concentration_error": 0.3311468553881479,
+            "flux_error": 0.39279643937564324,
+            "net_flux_error": 0.013869644944912914,
+            "pool_error": 1.2425459966491898e-12,
+            "finite": true,
+            "nonnegative": true,
+            "passes": true
+          },
+          {
+            "concentration_error": 0.3311468553881479,
+            "flux_error": 0.39279643937564324,
+            "net_flux_error": 0.013869644944912914,
+            "pool_error": 1.2425459966491898e-12,
+            "finite": true,
+            "nonnegative": true,
+            "passes": true
+          }
+        ]
+      }
+    },
+    {
+      "state_index": 100,
+      "state_time": 0.1,
+      "h": 0.03,
+      "repeats": 2,
+      "median_seconds": 0.9440993539756164,
+      "total_seconds": [
+        0.9432444580015726,
+        0.9449542499496602
+      ],
+      "all_targets_pass": false,
+      "metrics": {
+        "0.001": [
+          {
+            "concentration_error": 0.05447365326044558,
+            "flux_error": 0.036130473873977276,
+            "net_flux_error": 0.4677353770979308,
+            "pool_error": 3.473016145505432e-12,
+            "finite": true,
+            "nonnegative": true,
+            "passes": true
+          },
+          {
+            "concentration_error": 0.05447365326044558,
+            "flux_error": 0.036130473873977276,
+            "net_flux_error": 0.4677353770979308,
+            "pool_error": 3.473016145505432e-12,
+            "finite": true,
+            "nonnegative": true,
+            "passes": true
+          }
+        ],
+        "1e-05": [
+          {
+            "concentration_error": 5.447365326044558,
+            "flux_error": 3.6130473873977267,
+            "net_flux_error": 0.4677353770979308,
+            "pool_error": 3.473016145505432e-12,
+            "finite": true,
+            "nonnegative": true,
+            "passes": false
+          },
+          {
+            "concentration_error": 5.447365326044558,
+            "flux_error": 3.6130473873977267,
+            "net_flux_error": 0.4677353770979308,
+            "pool_error": 3.473016145505432e-12,
+            "finite": true,
+            "nonnegative": true,
+            "passes": false
+          }
+        ]
+      }
+    },
+    {
+      "state_index": 120,
+      "state_time": 0.26,
+      "h": 3e-05,
+      "repeats": 2,
+      "median_seconds": 0.18867729150224477,
+      "total_seconds": [
+        0.18942341703223065,
+        0.1879311659722589
+      ],
+      "all_targets_pass": true,
+      "metrics": {
+        "0.001": [
+          {
+            "concentration_error": 5.54889299714113e-10,
+            "flux_error": 7.189646224393677e-10,
+            "net_flux_error": 8.025018264703568e-08,
+            "pool_error": 3.573530360512219e-15,
+            "finite": true,
+            "nonnegative": true,
+            "passes": true
+          },
+          {
+            "concentration_error": 5.54889299714113e-10,
+            "flux_error": 7.189646224393677e-10,
+            "net_flux_error": 8.025018264703568e-08,
+            "pool_error": 3.573530360512219e-15,
+            "finite": true,
+            "nonnegative": true,
+            "passes": true
+          }
+        ],
+        "1e-05": [
+          {
+            "concentration_error": 5.548892997141129e-08,
+            "flux_error": 7.189646224393676e-08,
+            "net_flux_error": 8.025018264703568e-08,
+            "pool_error": 3.573530360512219e-15,
+            "finite": true,
+            "nonnegative": true,
+            "passes": true
+          },
+          {
+            "concentration_error": 5.548892997141129e-08,
+            "flux_error": 7.189646224393676e-08,
+            "net_flux_error": 8.025018264703568e-08,
+            "pool_error": 3.573530360512219e-15,
+            "finite": true,
+            "nonnegative": true,
+            "passes": true
+          }
+        ]
+      }
+    },
+    {
+      "state_index": 120,
+      "state_time": 0.26,
+      "h": 0.0001,
+      "repeats": 2,
+      "median_seconds": 0.1880996460095048,
+      "total_seconds": [
+        0.18735324998851866,
+        0.18884604203049093
+      ],
+      "all_targets_pass": true,
+      "metrics": {
+        "0.001": [
+          {
+            "concentration_error": 9.771615666806926e-09,
+            "flux_error": 1.6086051943795595e-08,
+            "net_flux_error": 1.6451287442642315e-07,
+            "pool_error": 4.637523004502592e-14,
+            "finite": true,
+            "nonnegative": true,
+            "passes": true
+          },
+          {
+            "concentration_error": 9.771615666806926e-09,
+            "flux_error": 1.6086051943795595e-08,
+            "net_flux_error": 1.6451287442642315e-07,
+            "pool_error": 4.637523004502592e-14,
+            "finite": true,
+            "nonnegative": true,
+            "passes": true
+          }
+        ],
+        "1e-05": [
+          {
+            "concentration_error": 9.771615666806925e-07,
+            "flux_error": 1.608605194379559e-06,
+            "net_flux_error": 1.6451287442642315e-07,
+            "pool_error": 4.637523004502592e-14,
+            "finite": true,
+            "nonnegative": true,
+            "passes": true
+          },
+          {
+            "concentration_error": 9.771615666806925e-07,
+            "flux_error": 1.608605194379559e-06,
+            "net_flux_error": 1.6451287442642315e-07,
+            "pool_error": 4.637523004502592e-14,
+            "finite": true,
+            "nonnegative": true,
+            "passes": true
+          }
+        ]
+      }
+    },
+    {
+      "state_index": 120,
+      "state_time": 0.26,
+      "h": 0.0003,
+      "repeats": 2,
+      "median_seconds": 0.2540730830223765,
+      "total_seconds": [
+        0.2521815830259584,
+        0.25596458301879466
+      ],
+      "all_targets_pass": true,
+      "metrics": {
+        "0.001": [
+          {
+            "concentration_error": 1.8129512079719852e-09,
+            "flux_error": 3.1571924724511367e-09,
+            "net_flux_error": 9.630021917644281e-08,
+            "pool_error": 6.791442408449192e-15,
+            "finite": true,
+            "nonnegative": true,
+            "passes": true
+          },
+          {
+            "concentration_error": 1.8129512079719852e-09,
+            "flux_error": 3.1571924724511367e-09,
+            "net_flux_error": 9.630021917644281e-08,
+            "pool_error": 6.791442408449192e-15,
+            "finite": true,
+            "nonnegative": true,
+            "passes": true
+          }
+        ],
+        "1e-05": [
+          {
+            "concentration_error": 1.812951207971985e-07,
+            "flux_error": 3.157192472451136e-07,
+            "net_flux_error": 9.630021917644281e-08,
+            "pool_error": 6.791442408449192e-15,
+            "finite": true,
+            "nonnegative": true,
+            "passes": true
+          },
+          {
+            "concentration_error": 1.812951207971985e-07,
+            "flux_error": 3.157192472451136e-07,
+            "net_flux_error": 9.630021917644281e-08,
+            "pool_error": 6.791442408449192e-15,
+            "finite": true,
+            "nonnegative": true,
+            "passes": true
+          }
+        ]
+      }
+    },
+    {
+      "state_index": 120,
+      "state_time": 0.26,
+      "h": 0.001,
+      "repeats": 2,
+      "median_seconds": 0.2627058125217445,
+      "total_seconds": [
+        0.260963166016154,
+        0.26444845902733505
+      ],
+      "all_targets_pass": true,
+      "metrics": {
+        "0.001": [
+          {
+            "concentration_error": 1.6313000695659703e-07,
+            "flux_error": 1.7994403338680612e-07,
+            "net_flux_error": 4.1255187080744975e-07,
+            "pool_error": 3.034031359483432e-13,
+            "finite": true,
+            "nonnegative": true,
+            "passes": true
+          },
+          {
+            "concentration_error": 1.6313000695659703e-07,
+            "flux_error": 1.7994403338680612e-07,
+            "net_flux_error": 4.1255187080744975e-07,
+            "pool_error": 3.034031359483432e-13,
+            "finite": true,
+            "nonnegative": true,
+            "passes": true
+          }
+        ],
+        "1e-05": [
+          {
+            "concentration_error": 1.6313000695659704e-05,
+            "flux_error": 1.7994403338680608e-05,
+            "net_flux_error": 4.1255187080744975e-07,
+            "pool_error": 3.034031359483432e-13,
+            "finite": true,
+            "nonnegative": true,
+            "passes": true
+          },
+          {
+            "concentration_error": 1.6313000695659704e-05,
+            "flux_error": 1.7994403338680608e-05,
+            "net_flux_error": 4.1255187080744975e-07,
+            "pool_error": 3.034031359483432e-13,
+            "finite": true,
+            "nonnegative": true,
+            "passes": true
+          }
+        ]
+      }
+    },
+    {
+      "state_index": 120,
+      "state_time": 0.26,
+      "h": 0.003,
+      "repeats": 2,
+      "median_seconds": 1.0942069375014398,
+      "total_seconds": [
+        1.113662416988518,
+        1.0747514580143616
+      ],
+      "all_targets_pass": true,
+      "metrics": {
+        "0.001": [
+          {
+            "concentration_error": 4.571266097200661e-06,
+            "flux_error": 5.0168622388099784e-06,
+            "net_flux_error": 2.4177999994286273e-05,
+            "pool_error": 1.173072056159795e-13,
+            "finite": true,
+            "nonnegative": true,
+            "passes": true
+          },
+          {
+            "concentration_error": 4.571266097200661e-06,
+            "flux_error": 5.0168622388099784e-06,
+            "net_flux_error": 2.4177999994286273e-05,
+            "pool_error": 1.173072056159795e-13,
+            "finite": true,
+            "nonnegative": true,
+            "passes": true
+          }
+        ],
+        "1e-05": [
+          {
+            "concentration_error": 0.0004571266097200661,
+            "flux_error": 0.0005016862238809977,
+            "net_flux_error": 2.4177999994286273e-05,
+            "pool_error": 1.173072056159795e-13,
+            "finite": true,
+            "nonnegative": true,
+            "passes": true
+          },
+          {
+            "concentration_error": 0.0004571266097200661,
+            "flux_error": 0.0005016862238809977,
+            "net_flux_error": 2.4177999994286273e-05,
+            "pool_error": 1.173072056159795e-13,
+            "finite": true,
+            "nonnegative": true,
+            "passes": true
+          }
+        ]
+      }
+    },
+    {
+      "state_index": 120,
+      "state_time": 0.26,
+      "h": 0.01,
+      "repeats": 2,
+      "median_seconds": 1.52446314599365,
+      "total_seconds": [
+        1.5183174170088023,
+        1.5306088749784976
+      ],
+      "all_targets_pass": true,
+      "metrics": {
+        "0.001": [
+          {
+            "concentration_error": 6.295403391727697e-05,
+            "flux_error": 6.295403257837463e-05,
+            "net_flux_error": 0.0009524800330317342,
+            "pool_error": 8.469527162935355e-13,
+            "finite": true,
+            "nonnegative": true,
+            "passes": true
+          },
+          {
+            "concentration_error": 6.295403391727697e-05,
+            "flux_error": 6.295403257837463e-05,
+            "net_flux_error": 0.0009524800330317342,
+            "pool_error": 8.469527162935355e-13,
+            "finite": true,
+            "nonnegative": true,
+            "passes": true
+          }
+        ],
+        "1e-05": [
+          {
+            "concentration_error": 0.006295403391727695,
+            "flux_error": 0.006295403257837462,
+            "net_flux_error": 0.0009524800330317342,
+            "pool_error": 8.469527162935355e-13,
+            "finite": true,
+            "nonnegative": true,
+            "passes": true
+          },
+          {
+            "concentration_error": 0.006295403391727695,
+            "flux_error": 0.006295403257837462,
+            "net_flux_error": 0.0009524800330317342,
+            "pool_error": 8.469527162935355e-13,
+            "finite": true,
+            "nonnegative": true,
+            "passes": true
+          }
+        ]
+      }
+    },
+    {
+      "state_index": 120,
+      "state_time": 0.26,
+      "h": 0.03,
+      "repeats": 2,
+      "median_seconds": 1.3678109165048227,
+      "total_seconds": [
+        1.4206375409848988,
+        1.3149842920247465
+      ],
+      "all_targets_pass": true,
+      "metrics": {
+        "0.001": [
+          {
+            "concentration_error": 0.007721175487338676,
+            "flux_error": 0.007391688296144052,
+            "net_flux_error": 0.11710489525519802,
+            "pool_error": 1.124359806647933e-11,
+            "finite": true,
+            "nonnegative": true,
+            "passes": true
+          },
+          {
+            "concentration_error": 0.007721175487338676,
+            "flux_error": 0.007391688296144052,
+            "net_flux_error": 0.11710489525519802,
+            "pool_error": 1.124359806647933e-11,
+            "finite": true,
+            "nonnegative": true,
+            "passes": true
+          }
+        ],
+        "1e-05": [
+          {
+            "concentration_error": 0.7721175487338675,
+            "flux_error": 0.7391688296144052,
+            "net_flux_error": 0.11710489525519802,
+            "pool_error": 1.124359806647933e-11,
+            "finite": true,
+            "nonnegative": true,
+            "passes": true
+          },
+          {
+            "concentration_error": 0.7721175487338675,
+            "flux_error": 0.7391688296144052,
+            "net_flux_error": 0.11710489525519802,
+            "pool_error": 1.124359806647933e-11,
+            "finite": true,
+            "nonnegative": true,
+            "passes": true
+          }
+        ]
+      }
+    },
+    {
+      "state_index": 150,
+      "state_time": 0.53,
+      "h": 3e-05,
+      "repeats": 2,
+      "median_seconds": 0.1995565415127203,
+      "total_seconds": [
+        0.19905012502567843,
+        0.20006295799976215
+      ],
+      "all_targets_pass": true,
+      "metrics": {
+        "0.001": [
+          {
+            "concentration_error": 9.429061738480118e-10,
+            "flux_error": 1.863056152060275e-09,
+            "net_flux_error": 4.012509132351784e-08,
+            "pool_error": 2.0487084251286064e-15,
+            "finite": true,
+            "nonnegative": true,
+            "passes": true
+          },
+          {
+            "concentration_error": 9.429061738480118e-10,
+            "flux_error": 1.863056152060275e-09,
+            "net_flux_error": 4.012509132351784e-08,
+            "pool_error": 2.0487084251286064e-15,
+            "finite": true,
+            "nonnegative": true,
+            "passes": true
+          }
+        ],
+        "1e-05": [
+          {
+            "concentration_error": 9.429061738480119e-08,
+            "flux_error": 1.8630561520602743e-07,
+            "net_flux_error": 4.012509132351784e-08,
+            "pool_error": 2.0487084251286064e-15,
+            "finite": true,
+            "nonnegative": true,
+            "passes": true
+          },
+          {
+            "concentration_error": 9.429061738480119e-08,
+            "flux_error": 1.8630561520602743e-07,
+            "net_flux_error": 4.012509132351784e-08,
+            "pool_error": 2.0487084251286064e-15,
+            "finite": true,
+            "nonnegative": true,
+            "passes": true
+          }
+        ]
+      }
+    },
+    {
+      "state_index": 150,
+      "state_time": 0.53,
+      "h": 0.0001,
+      "repeats": 2,
+      "median_seconds": 0.19002914600423537,
+      "total_seconds": [
+        0.1915744169964455,
+        0.18848387501202524
+      ],
+      "all_targets_pass": true,
+      "metrics": {
+        "0.001": [
+          {
+            "concentration_error": 2.2293237878295244e-09,
+            "flux_error": 3.419770856298558e-09,
+            "net_flux_error": 5.216261872057319e-08,
+            "pool_error": 3.139068865953827e-14,
+            "finite": true,
+            "nonnegative": true,
+            "passes": true
+          },
+          {
+            "concentration_error": 2.2293237878295244e-09,
+            "flux_error": 3.419770856298558e-09,
+            "net_flux_error": 5.216261872057319e-08,
+            "pool_error": 3.139068865953827e-14,
+            "finite": true,
+            "nonnegative": true,
+            "passes": true
+          }
+        ],
+        "1e-05": [
+          {
+            "concentration_error": 2.229323787829524e-07,
+            "flux_error": 3.419770856298557e-07,
+            "net_flux_error": 5.216261872057319e-08,
+            "pool_error": 3.139068865953827e-14,
+            "finite": true,
+            "nonnegative": true,
+            "passes": true
+          },
+          {
+            "concentration_error": 2.229323787829524e-07,
+            "flux_error": 3.419770856298557e-07,
+            "net_flux_error": 5.216261872057319e-08,
+            "pool_error": 3.139068865953827e-14,
+            "finite": true,
+            "nonnegative": true,
+            "passes": true
+          }
+        ]
+      }
+    },
+    {
+      "state_index": 150,
+      "state_time": 0.53,
+      "h": 0.0003,
+      "repeats": 2,
+      "median_seconds": 0.7071209794667084,
+      "total_seconds": [
+        0.7054146669688635,
+        0.7088272919645533
+      ],
+      "all_targets_pass": true,
+      "metrics": {
+        "0.001": [
+          {
+            "concentration_error": 2.977134931848289e-09,
+            "flux_error": 2.977002373549586e-09,
+            "net_flux_error": 2.1190866675784808e-07,
+            "pool_error": 5.497338695370494e-14,
+            "finite": true,
+            "nonnegative": true,
+            "passes": true
+          },
+          {
+            "concentration_error": 2.977134931848289e-09,
+            "flux_error": 2.977002373549586e-09,
+            "net_flux_error": 2.1190866675784808e-07,
+            "pool_error": 5.497338695370494e-14,
+            "finite": true,
+            "nonnegative": true,
+            "passes": true
+          }
+        ],
+        "1e-05": [
+          {
+            "concentration_error": 2.977134931848289e-07,
+            "flux_error": 2.9770023735495856e-07,
+            "net_flux_error": 2.1190866675784808e-07,
+            "pool_error": 5.497338695370494e-14,
+            "finite": true,
+            "nonnegative": true,
+            "passes": true
+          },
+          {
+            "concentration_error": 2.977134931848289e-07,
+            "flux_error": 2.9770023735495856e-07,
+            "net_flux_error": 2.1190866675784808e-07,
+            "pool_error": 5.497338695370494e-14,
+            "finite": true,
+            "nonnegative": true,
+            "passes": true
+          }
+        ]
+      }
+    },
+    {
+      "state_index": 150,
+      "state_time": 0.53,
+      "h": 0.001,
+      "repeats": 2,
+      "median_seconds": 2.023682250524871,
+      "total_seconds": [
+        2.0177628340316005,
+        2.0296016670181416
+      ],
+      "all_targets_pass": true,
+      "metrics": {
+        "0.001": [
+          {
+            "concentration_error": 1.7949943332702578e-08,
+            "flux_error": 2.802711654257118e-08,
+            "net_flux_error": 1.595642496618527e-07,
+            "pool_error": 1.9647478088913292e-13,
+            "finite": true,
+            "nonnegative": true,
+            "passes": true
+          },
+          {
+            "concentration_error": 1.7949943332702578e-08,
+            "flux_error": 2.802711654257118e-08,
+            "net_flux_error": 1.595642496618527e-07,
+            "pool_error": 1.9647478088913292e-13,
+            "finite": true,
+            "nonnegative": true,
+            "passes": true
+          }
+        ],
+        "1e-05": [
+          {
+            "concentration_error": 1.7949943332702576e-06,
+            "flux_error": 2.8027116542571173e-06,
+            "net_flux_error": 1.595642496618527e-07,
+            "pool_error": 1.9647478088913292e-13,
+            "finite": true,
+            "nonnegative": true,
+            "passes": true
+          },
+          {
+            "concentration_error": 1.7949943332702576e-06,
+            "flux_error": 2.8027116542571173e-06,
+            "net_flux_error": 1.595642496618527e-07,
+            "pool_error": 1.9647478088913292e-13,
+            "finite": true,
+            "nonnegative": true,
+            "passes": true
+          }
+        ]
+      }
+    },
+    {
+      "state_index": 150,
+      "state_time": 0.53,
+      "h": 0.003,
+      "repeats": 2,
+      "median_seconds": 2.314668395498302,
+      "total_seconds": [
+        2.3531565829762258,
+        2.276180208020378
+      ],
+      "all_targets_pass": true,
+      "metrics": {
+        "0.001": [
+          {
+            "concentration_error": 3.4353298731793534e-07,
+            "flux_error": 1.3690180487844927e-06,
+            "net_flux_error": 1.974251548778403e-06,
+            "pool_error": 1.0300675243324328e-12,
+            "finite": true,
+            "nonnegative": true,
+            "passes": true
+          },
+          {
+            "concentration_error": 3.4353298731793534e-07,
+            "flux_error": 1.3690180487844927e-06,
+            "net_flux_error": 1.974251548778403e-06,
+            "pool_error": 1.0300675243324328e-12,
+            "finite": true,
+            "nonnegative": true,
+            "passes": true
+          }
+        ],
+        "1e-05": [
+          {
+            "concentration_error": 3.435329873179353e-05,
+            "flux_error": 0.00013690180487844925,
+            "net_flux_error": 1.974251548778403e-06,
+            "pool_error": 1.0300675243324328e-12,
+            "finite": true,
+            "nonnegative": true,
+            "passes": true
+          },
+          {
+            "concentration_error": 3.435329873179353e-05,
+            "flux_error": 0.00013690180487844925,
+            "net_flux_error": 1.974251548778403e-06,
+            "pool_error": 1.0300675243324328e-12,
+            "finite": true,
+            "nonnegative": true,
+            "passes": true
+          }
+        ]
+      }
+    },
+    {
+      "state_index": 150,
+      "state_time": 0.53,
+      "h": 0.01,
+      "repeats": 2,
+      "median_seconds": 0.8641058955399785,
+      "total_seconds": [
+        0.8445330000249669,
+        0.8836787910549901
+      ],
+      "all_targets_pass": true,
+      "metrics": {
+        "0.001": [
+          {
+            "concentration_error": 9.885226798636979e-06,
+            "flux_error": 4.150684670762868e-05,
+            "net_flux_error": 0.00015210504334825837,
+            "pool_error": 4.496559374844716e-13,
+            "finite": true,
+            "nonnegative": true,
+            "passes": true
+          },
+          {
+            "concentration_error": 9.885226798636979e-06,
+            "flux_error": 4.150684670762868e-05,
+            "net_flux_error": 0.00015210504334825837,
+            "pool_error": 4.496559374844716e-13,
+            "finite": true,
+            "nonnegative": true,
+            "passes": true
+          }
+        ],
+        "1e-05": [
+          {
+            "concentration_error": 0.0009885226798636976,
+            "flux_error": 0.004150684670762867,
+            "net_flux_error": 0.00015210504334825837,
+            "pool_error": 4.496559374844716e-13,
+            "finite": true,
+            "nonnegative": true,
+            "passes": true
+          },
+          {
+            "concentration_error": 0.0009885226798636976,
+            "flux_error": 0.004150684670762867,
+            "net_flux_error": 0.00015210504334825837,
+            "pool_error": 4.496559374844716e-13,
+            "finite": true,
+            "nonnegative": true,
+            "passes": true
+          }
+        ]
+      }
+    },
+    {
+      "state_index": 150,
+      "state_time": 0.53,
+      "h": 0.03,
+      "repeats": 2,
+      "median_seconds": 8.338445395987947,
+      "total_seconds": [
+        8.335595249955077,
+        8.341295542020816
+      ],
+      "all_targets_pass": true,
+      "metrics": {
+        "0.001": [
+          {
+            "concentration_error": 0.0008523798153365536,
+            "flux_error": 0.0009745516286237321,
+            "net_flux_error": 0.007337733060522623,
+            "pool_error": 2.477581508009138e-12,
+            "finite": true,
+            "nonnegative": true,
+            "passes": true
+          },
+          {
+            "concentration_error": 0.0008523798153365536,
+            "flux_error": 0.0009745516286237321,
+            "net_flux_error": 0.007337733060522623,
+            "pool_error": 2.477581508009138e-12,
+            "finite": true,
+            "nonnegative": true,
+            "passes": true
+          }
+        ],
+        "1e-05": [
+          {
+            "concentration_error": 0.08523798153365535,
+            "flux_error": 0.0974551628623732,
+            "net_flux_error": 0.007337733060522623,
+            "pool_error": 2.477581508009138e-12,
+            "finite": true,
+            "nonnegative": true,
+            "passes": true
+          },
+          {
+            "concentration_error": 0.08523798153365535,
+            "flux_error": 0.0974551628623732,
+            "net_flux_error": 0.007337733060522623,
+            "pool_error": 2.477581508009138e-12,
+            "finite": true,
+            "nonnegative": true,
+            "passes": true
+          }
+        ]
+      }
+    },
+    {
+      "state_index": 190,
+      "state_time": 0.91,
+      "h": 3e-05,
+      "repeats": 2,
+      "median_seconds": 0.2578779165050946,
+      "total_seconds": [
+        0.2802699999883771,
+        0.23548583302181214
+      ],
+      "all_targets_pass": true,
+      "metrics": {
+        "0.001": [
+          {
+            "concentration_error": 6.049544996883187e-10,
+            "flux_error": 9.909208057099111e-10,
+            "net_flux_error": 4.012509132351784e-08,
+            "pool_error": 2.7720881146109314e-15,
+            "finite": true,
+            "nonnegative": true,
+            "passes": true
+          },
+          {
+            "concentration_error": 6.049544996883187e-10,
+            "flux_error": 9.909208057099111e-10,
+            "net_flux_error": 4.012509132351784e-08,
+            "pool_error": 2.7720881146109314e-15,
+            "finite": true,
+            "nonnegative": true,
+            "passes": true
+          }
+        ],
+        "1e-05": [
+          {
+            "concentration_error": 6.049544996883185e-08,
+            "flux_error": 9.90920805709911e-08,
+            "net_flux_error": 4.012509132351784e-08,
+            "pool_error": 2.7720881146109314e-15,
+            "finite": true,
+            "nonnegative": true,
+            "passes": true
+          },
+          {
+            "concentration_error": 6.049544996883185e-08,
+            "flux_error": 9.90920805709911e-08,
+            "net_flux_error": 4.012509132351784e-08,
+            "pool_error": 2.7720881146109314e-15,
+            "finite": true,
+            "nonnegative": true,
+            "passes": true
+          }
+        ]
+      }
+    },
+    {
+      "state_index": 190,
+      "state_time": 0.91,
+      "h": 0.0001,
+      "repeats": 2,
+      "median_seconds": 0.18932322898763232,
+      "total_seconds": [
+        0.18996599997626618,
+        0.18868045799899846
+      ],
+      "all_targets_pass": true,
+      "metrics": {
+        "0.001": [
+          {
+            "concentration_error": 2.6909906534538768e-09,
+            "flux_error": 4.4450769265599174e-09,
+            "net_flux_error": 1.1636276483820173e-07,
+            "pool_error": 2.995867443011939e-14,
+            "finite": true,
+            "nonnegative": true,
+            "passes": true
+          },
+          {
+            "concentration_error": 2.6909906534538768e-09,
+            "flux_error": 4.4450769265599174e-09,
+            "net_flux_error": 1.1636276483820173e-07,
+            "pool_error": 2.995867443011939e-14,
+            "finite": true,
+            "nonnegative": true,
+            "passes": true
+          }
+        ],
+        "1e-05": [
+          {
+            "concentration_error": 2.6909906534538763e-07,
+            "flux_error": 4.4450769265599165e-07,
+            "net_flux_error": 1.1636276483820173e-07,
+            "pool_error": 2.995867443011939e-14,
+            "finite": true,
+            "nonnegative": true,
+            "passes": true
+          },
+          {
+            "concentration_error": 2.6909906534538763e-07,
+            "flux_error": 4.4450769265599165e-07,
+            "net_flux_error": 1.1636276483820173e-07,
+            "pool_error": 2.995867443011939e-14,
+            "finite": true,
+            "nonnegative": true,
+            "passes": true
+          }
+        ]
+      }
+    },
+    {
+      "state_index": 190,
+      "state_time": 0.91,
+      "h": 0.0003,
+      "repeats": 2,
+      "median_seconds": 0.9229819790052716,
+      "total_seconds": [
+        0.9178318330086768,
+        0.9281321250018664
+      ],
+      "all_targets_pass": true,
+      "metrics": {
+        "0.001": [
+          {
+            "concentration_error": 3.4419824982266407e-09,
+            "flux_error": 5.123404418165755e-09,
+            "net_flux_error": 1.4127244450523206e-07,
+            "pool_error": 2.7108523759089505e-14,
+            "finite": true,
+            "nonnegative": true,
+            "passes": true
+          },
+          {
+            "concentration_error": 3.4419824982266407e-09,
+            "flux_error": 5.123404418165755e-09,
+            "net_flux_error": 1.4127244450523206e-07,
+            "pool_error": 2.7108523759089505e-14,
+            "finite": true,
+            "nonnegative": true,
+            "passes": true
+          }
+        ],
+        "1e-05": [
+          {
+            "concentration_error": 3.44198249822664e-07,
+            "flux_error": 5.123404418165754e-07,
+            "net_flux_error": 1.4127244450523206e-07,
+            "pool_error": 2.7108523759089505e-14,
+            "finite": true,
+            "nonnegative": true,
+            "passes": true
+          },
+          {
+            "concentration_error": 3.44198249822664e-07,
+            "flux_error": 5.123404418165754e-07,
+            "net_flux_error": 1.4127244450523206e-07,
+            "pool_error": 2.7108523759089505e-14,
+            "finite": true,
+            "nonnegative": true,
+            "passes": true
+          }
+        ]
+      }
+    },
+    {
+      "state_index": 190,
+      "state_time": 0.91,
+      "h": 0.001,
+      "repeats": 2,
+      "median_seconds": 1.0778862504812423,
+      "total_seconds": [
+        1.161812792008277,
+        0.9939597089542076
+      ],
+      "all_targets_pass": true,
+      "metrics": {
+        "0.001": [
+          {
+            "concentration_error": 4.502530317680231e-08,
+            "flux_error": 6.619476019467849e-08,
+            "net_flux_error": 1.8760060731225533e-07,
+            "pool_error": 4.459956709501601e-13,
+            "finite": true,
+            "nonnegative": true,
+            "passes": true
+          },
+          {
+            "concentration_error": 4.502530317680231e-08,
+            "flux_error": 6.619476019467849e-08,
+            "net_flux_error": 1.8760060731225533e-07,
+            "pool_error": 4.459956709501601e-13,
+            "finite": true,
+            "nonnegative": true,
+            "passes": true
+          }
+        ],
+        "1e-05": [
+          {
+            "concentration_error": 4.50253031768023e-06,
+            "flux_error": 6.619476019467847e-06,
+            "net_flux_error": 1.8760060731225533e-07,
+            "pool_error": 4.459956709501601e-13,
+            "finite": true,
+            "nonnegative": true,
+            "passes": true
+          },
+          {
+            "concentration_error": 4.50253031768023e-06,
+            "flux_error": 6.619476019467847e-06,
+            "net_flux_error": 1.8760060731225533e-07,
+            "pool_error": 4.459956709501601e-13,
+            "finite": true,
+            "nonnegative": true,
+            "passes": true
+          }
+        ]
+      }
+    },
+    {
+      "state_index": 190,
+      "state_time": 0.91,
+      "h": 0.003,
+      "repeats": 2,
+      "median_seconds": 5.7824822914844844,
+      "total_seconds": [
+        5.779697125020903,
+        5.785267457948066
+      ],
+      "all_targets_pass": true,
+      "metrics": {
+        "0.001": [
+          {
+            "concentration_error": 9.203002141701611e-07,
+            "flux_error": 4.255001435985795e-06,
+            "net_flux_error": 4.676356904809771e-06,
+            "pool_error": 9.993741945102363e-14,
+            "finite": true,
+            "nonnegative": true,
+            "passes": true
+          },
+          {
+            "concentration_error": 9.203002141701611e-07,
+            "flux_error": 4.255001435985795e-06,
+            "net_flux_error": 4.676356904809771e-06,
+            "pool_error": 9.993741945102363e-14,
+            "finite": true,
+            "nonnegative": true,
+            "passes": true
+          }
+        ],
+        "1e-05": [
+          {
+            "concentration_error": 9.203002141701611e-05,
+            "flux_error": 0.00042550014359857936,
+            "net_flux_error": 4.676356904809771e-06,
+            "pool_error": 9.993741945102363e-14,
+            "finite": true,
+            "nonnegative": true,
+            "passes": true
+          },
+          {
+            "concentration_error": 9.203002141701611e-05,
+            "flux_error": 0.00042550014359857936,
+            "net_flux_error": 4.676356904809771e-06,
+            "pool_error": 9.993741945102363e-14,
+            "finite": true,
+            "nonnegative": true,
+            "passes": true
+          }
+        ]
+      }
+    },
+    {
+      "state_index": 190,
+      "state_time": 0.91,
+      "h": 0.01,
+      "repeats": 2,
+      "median_seconds": 17.10592252050992,
+      "total_seconds": [
+        17.057046166039072,
+        17.15479887498077
+      ],
+      "all_targets_pass": true,
+      "metrics": {
+        "0.001": [
+          {
+            "concentration_error": 2.909690294873877e-05,
+            "flux_error": 0.00020466166978191659,
+            "net_flux_error": 0.0005184422594409237,
+            "pool_error": 2.1660676724488633e-12,
+            "finite": true,
+            "nonnegative": true,
+            "passes": true
+          },
+          {
+            "concentration_error": 2.909690294873877e-05,
+            "flux_error": 0.00020466166978191659,
+            "net_flux_error": 0.0005184422594409237,
+            "pool_error": 2.1660676724488633e-12,
+            "finite": true,
+            "nonnegative": true,
+            "passes": true
+          }
+        ],
+        "1e-05": [
+          {
+            "concentration_error": 0.0029096902948738766,
+            "flux_error": 0.020466166978191654,
+            "net_flux_error": 0.0005184422594409237,
+            "pool_error": 2.1660676724488633e-12,
+            "finite": true,
+            "nonnegative": true,
+            "passes": true
+          },
+          {
+            "concentration_error": 0.0029096902948738766,
+            "flux_error": 0.020466166978191654,
+            "net_flux_error": 0.0005184422594409237,
+            "pool_error": 2.1660676724488633e-12,
+            "finite": true,
+            "nonnegative": true,
+            "passes": true
+          }
+        ]
+      }
+    },
+    {
+      "state_index": 190,
+      "state_time": 0.91,
+      "h": 0.03,
+      "repeats": 2,
+      "median_seconds": 18.900423874991247,
+      "total_seconds": [
+        18.838022999989334,
+        18.96282474999316
+      ],
+      "all_targets_pass": true,
+      "metrics": {
+        "0.001": [
+          {
+            "concentration_error": 0.0011673306248687729,
+            "flux_error": 0.007659039714608279,
+            "net_flux_error": 0.01848410917072272,
+            "pool_error": 1.0588691382040747e-12,
+            "finite": true,
+            "nonnegative": true,
+            "passes": true
+          },
+          {
+            "concentration_error": 0.0011673306248687729,
+            "flux_error": 0.007659039714608279,
+            "net_flux_error": 0.01848410917072272,
+            "pool_error": 1.0588691382040747e-12,
+            "finite": true,
+            "nonnegative": true,
+            "passes": true
+          }
+        ],
+        "1e-05": [
+          {
+            "concentration_error": 0.1167330624868773,
+            "flux_error": 0.7659039714608278,
+            "net_flux_error": 0.01848410917072272,
+            "pool_error": 1.0588691382040747e-12,
+            "finite": true,
+            "nonnegative": true,
+            "passes": true
+          },
+          {
+            "concentration_error": 0.1167330624868773,
+            "flux_error": 0.7659039714608278,
+            "net_flux_error": 0.01848410917072272,
+            "pool_error": 1.0588691382040747e-12,
+            "finite": true,
+            "nonnegative": true,
+            "passes": true
+          }
+        ]
+      }
+    }
+  ],
+  "M4_admission": false,
+  "interpretation": "Quadratic slow-remainder forcing improves local order and may enlarge later macro steps; this screen does not establish adaptive full-window cost or seven-repeat admission.",
+  "groups": [
+    85,
+    199,
+    257,
+    258,
+    334,
+    588,
+    745,
+    2016,
+    2017,
+    2364,
+    2365,
+    2366,
+    2367,
+    2368,
+    2372,
+    2375,
+    2378,
+    2380,
+    2382,
+    2384,
+    2386,
+    2388,
+    2389,
+    2391,
+    2392,
+    2393,
+    2396,
+    2397,
+    2398,
+    2401,
+    2402,
+    2403,
+    2404,
+    2405,
+    2406,
+    2407,
+    2411,
+    2416,
+    2423,
+    2425,
+    2429,
+    2435,
+    2453,
+    2458,
+    2479,
+    2505,
+    2528,
+    2631,
+    2632
+  ]
+}

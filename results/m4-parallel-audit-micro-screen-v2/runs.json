@@ -1,0 +1,147 @@
+{
+  "rows": [
+    {
+      "kind": "sequential",
+      "workers": 1,
+      "seconds": 1.6787054580054246,
+      "per_task_seconds": [
+        0.19967029098188505,
+        0.2096220410312526,
+        0.21457558299880475,
+        0.20039020798867568,
+        0.21350370801519603,
+        0.20657737500732765,
+        0.2103155410150066,
+        0.2238134159706533
+      ],
+      "outputs_sha256": [
+        "f468a4a2e764ee52b909e64bbd6b4b549ea36940ab75120d858e06d9ebae309e",
+        "a5abb7c71ad3c9db214196f8add23434a39a4d4912a32cce7cbdabf5e33331b8",
+        "5e9ade8bde136610d4739faeec59d6996db862630c9fef1e915a6e03112d5f9d",
+        "d250af9ed7b9f9a411211b1417ed91da700746974b821f89154f7291588695b8",
+        "17c185fbdc01287f3d00910eebf9b0660dec8604c27a31f7c9f3ea15ef2fe212",
+        "c42804946210e8092a11472574440578b82d06354f1225d393fc9e1e7b0a905a",
+        "d8710b4d3eeb387b7907fe945b076df539d83ca357f76292efdb47df71b05df3",
+        "07aab02437320d41f0fecc3d9b8367cec698bed2ccf7b19c3d7cd18fb3850727"
+      ],
+      "internal_states_checked": true
+    },
+    {
+      "kind": "threads",
+      "workers": 2,
+      "seconds": 0.8957362090004608,
+      "per_task_seconds": [
+        0.24545920797390863,
+        0.2345221660216339,
+        0.23605245898943394,
+        0.23458841704996303,
+        0.19598845799919218,
+        0.19676879199687392,
+        0.2187162499758415,
+        0.2183842499507591
+      ],
+      "outputs_sha256": [
+        "f468a4a2e764ee52b909e64bbd6b4b549ea36940ab75120d858e06d9ebae309e",
+        "a5abb7c71ad3c9db214196f8add23434a39a4d4912a32cce7cbdabf5e33331b8",
+        "5e9ade8bde136610d4739faeec59d6996db862630c9fef1e915a6e03112d5f9d",
+        "d250af9ed7b9f9a411211b1417ed91da700746974b821f89154f7291588695b8",
+        "17c185fbdc01287f3d00910eebf9b0660dec8604c27a31f7c9f3ea15ef2fe212",
+        "c42804946210e8092a11472574440578b82d06354f1225d393fc9e1e7b0a905a",
+        "d8710b4d3eeb387b7907fe945b076df539d83ca357f76292efdb47df71b05df3",
+        "07aab02437320d41f0fecc3d9b8367cec698bed2ccf7b19c3d7cd18fb3850727"
+      ],
+      "max_abs_difference_vs_sequential": 0.0,
+      "internal_states_checked": true,
+      "independent_task_count": 8
+    },
+    {
+      "kind": "processes",
+      "workers": 2,
+      "seconds": 0.9418284579878673,
+      "per_task_seconds": [
+        0.21755250002024695,
+        0.22305616701487452,
+        0.28286333300638944,
+        0.2821319170179777,
+        0.21099841699469835,
+        0.21058212500065565,
+        0.2031103750341572,
+        0.20440716698067263
+      ],
+      "outputs_sha256": [
+        "f468a4a2e764ee52b909e64bbd6b4b549ea36940ab75120d858e06d9ebae309e",
+        "a5abb7c71ad3c9db214196f8add23434a39a4d4912a32cce7cbdabf5e33331b8",
+        "5e9ade8bde136610d4739faeec59d6996db862630c9fef1e915a6e03112d5f9d",
+        "d250af9ed7b9f9a411211b1417ed91da700746974b821f89154f7291588695b8",
+        "17c185fbdc01287f3d00910eebf9b0660dec8604c27a31f7c9f3ea15ef2fe212",
+        "c42804946210e8092a11472574440578b82d06354f1225d393fc9e1e7b0a905a",
+        "d8710b4d3eeb387b7907fe945b076df539d83ca357f76292efdb47df71b05df3",
+        "07aab02437320d41f0fecc3d9b8367cec698bed2ccf7b19c3d7cd18fb3850727"
+      ],
+      "max_abs_difference_vs_sequential": 0.0,
+      "internal_states_checked": true,
+      "independent_task_count": 8
+    },
+    {
+      "kind": "threads",
+      "workers": 4,
+      "seconds": 0.5353289169725031,
+      "per_task_seconds": [
+        0.24012079101521522,
+        0.25662158301565796,
+        0.30658837500959635,
+        0.27857170801144093,
+        0.2450380409718491,
+        0.23895387502852827,
+        0.2436546660028398,
+        0.22772212501149625
+      ],
+      "outputs_sha256": [
+        "f468a4a2e764ee52b909e64bbd6b4b549ea36940ab75120d858e06d9ebae309e",
+        "a5abb7c71ad3c9db214196f8add23434a39a4d4912a32cce7cbdabf5e33331b8",
+        "5e9ade8bde136610d4739faeec59d6996db862630c9fef1e915a6e03112d5f9d",
+        "d250af9ed7b9f9a411211b1417ed91da700746974b821f89154f7291588695b8",
+        "17c185fbdc01287f3d00910eebf9b0660dec8604c27a31f7c9f3ea15ef2fe212",
+        "c42804946210e8092a11472574440578b82d06354f1225d393fc9e1e7b0a905a",
+        "d8710b4d3eeb387b7907fe945b076df539d83ca357f76292efdb47df71b05df3",
+        "07aab02437320d41f0fecc3d9b8367cec698bed2ccf7b19c3d7cd18fb3850727"
+      ],
+      "max_abs_difference_vs_sequential": 0.0,
+      "internal_states_checked": true,
+      "independent_task_count": 8
+    },
+    {
+      "kind": "processes",
+      "workers": 4,
+      "seconds": 0.5129837499698624,
+      "per_task_seconds": [
+        0.24762845900841057,
+        0.25463112496072426,
+        0.24422141700051725,
+        0.24201758299022913,
+        0.23571437504142523,
+        0.22176987503189594,
+        0.2527657499886118,
+        0.2284097500378266
+      ],
+      "outputs_sha256": [
+        "f468a4a2e764ee52b909e64bbd6b4b549ea36940ab75120d858e06d9ebae309e",
+        "a5abb7c71ad3c9db214196f8add23434a39a4d4912a32cce7cbdabf5e33331b8",
+        "5e9ade8bde136610d4739faeec59d6996db862630c9fef1e915a6e03112d5f9d",
+        "d250af9ed7b9f9a411211b1417ed91da700746974b821f89154f7291588695b8",
+        "17c185fbdc01287f3d00910eebf9b0660dec8604c27a31f7c9f3ea15ef2fe212",
+        "c42804946210e8092a11472574440578b82d06354f1225d393fc9e1e7b0a905a",
+        "d8710b4d3eeb387b7907fe945b076df539d83ca357f76292efdb47df71b05df3",
+        "07aab02437320d41f0fecc3d9b8367cec698bed2ccf7b19c3d7cd18fb3850727"
+      ],
+      "max_abs_difference_vs_sequential": 0.0,
+      "internal_states_checked": true,
+      "independent_task_count": 8
+    }
+  ],
+  "pending_commit": {
+    "all_audits_completed": true,
+    "all_audits_independent": true,
+    "rollback_on_failure": "No committed candidate state is exposed before audit completion"
+  }
+}

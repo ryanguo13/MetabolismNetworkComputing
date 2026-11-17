@@ -1,0 +1,73 @@
+{
+  "summary": [
+    {
+      "slow_bound_limit": 2.0,
+      "status": "success",
+      "seconds": 21.51036912499694,
+      "accuracy_pass": true,
+      "split_coverage": 0.9999999999999992,
+      "accepted_full_system_fraction": 0.0,
+      "attempts": 87,
+      "accepted_steps": 87,
+      "rejected_steps": 0,
+      "first_accepted_h": 1e-08,
+      "unique_accepted_h": [
+        9.87450130889136e-09,
+        9.874501308891413e-09,
+        1e-08
+      ],
+      "max_slow_scaled_norm_times_h": 1.1356176800303905,
+      "full_calls": 87,
+      "every_attempt_audited": true
+    },
+    {
+      "slow_bound_limit": 4.0,
+      "status": "success",
+      "seconds": 11.016832540975884,
+      "accuracy_pass": true,
+      "split_coverage": 0.9999999999999994,
+      "accepted_full_system_fraction": 0.0,
+      "attempts": 44,
+      "accepted_steps": 44,
+      "rejected_steps": 0,
+      "first_accepted_h": 1e-08,
+      "unique_accepted_h": [
+        1e-08,
+        2e-08,
+        2.9749002617782942e-08
+      ],
+      "max_slow_scaled_norm_times_h": 3.378349333755499,
+      "full_calls": 44,
+      "every_attempt_audited": true
+    },
+    {
+      "slow_bound_limit": 8.0,
+      "status": "success",
+      "seconds": 23.714807707990985,
+      "accuracy_pass": true,
+      "split_coverage": 0.9999999999999994,
+      "accepted_full_system_fraction": 0.0,
+      "attempts": 83,
+      "accepted_steps": 44,
+      "rejected_steps": 39,
+      "first_accepted_h": 1e-08,
+      "unique_accepted_h": [
+        1e-08,
+        2e-08,
+        2.9749002617782942e-08
+      ],
+      "max_slow_scaled_norm_times_h": 4.542470719372779,
+      "full_calls": 83,
+      "every_attempt_audited": true
+    }
+  ],
+  "M4_admission": false,
+  "interpretation": "Bounded Kecoli controller screen only; no full-window, seven-repeat or formal speedup claim.",
+  "source_sha256": {
+    "research/m4_kecoli_slow_bound_screen.py": "ddd24a336cbde4dcb714ae1337a096a724d0e8efc1ebab8e5be9f6f1b86c1ff9",
+    "metabolism/continuation.py": "ce28b598cfee990fff7c09b3acaff68de2158e3ffbf605a9d7955007d404234c",
+    "metabolism/adaptive.py": "427c67bfba193a79fb6d3d96aecc5ed01efa1a5d3fc7cbc82e525f3cf851db69",
+    "metabolism/splitting.py": "8091ae6663b248fb949d726a81688db246622b7ee9595f31e5f0ece7fd1438bb",
+    "metabolism/m3_continuation.py": "90b539d8f7ce2dae6d574b6285bcd66fcb4b95b3950f96ff81fed6301bd65401"
+  }
+}

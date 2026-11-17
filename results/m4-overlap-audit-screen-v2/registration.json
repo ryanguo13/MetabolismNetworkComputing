@@ -1,0 +1,39 @@
+{
+  "date": "2026-11-16",
+  "environment": {
+    "numpy": "2.5.4",
+    "python": "3.12.10"
+  },
+  "horizons": {
+    "kecoli": 1e-06,
+    "teusink": 1e-05
+  },
+  "hypothesis": "Concurrent candidate generation and independent complete ODE audit reduce wall time when both CPU kernels overlap.",
+  "repeats": [
+    0,
+    1,
+    2
+  ],
+  "scope": "Short-prefix overlap screen; no full-window, seven-repeat, or M4 qualification.",
+  "semantics": {
+    "candidate_and_audit_same_committed_state": true,
+    "commit_after_both_complete": true,
+    "full_ode_audit_every_trial": true,
+    "no_audit_cache": true,
+    "no_clipping": true,
+    "rollback": true
+  },
+  "source_sha256": {
+    "metabolism/adaptive.py": "be51c516d8126618d15cc8975e420e603e5dd378672b37c4ece09fcbbd335f44",
+    "metabolism/continuation.py": "60896fd524a2867f042129f02d606f51c10b2fc8313bd6985b4400921f2ce89d",
+    "metabolism/kecoli.py": "3b1cbea4fb876b0a967804c428090482b043e220364d78aa94e37a413f41bd1f",
+    "metabolism/m3_continuation.py": "90b539d8f7ce2dae6d574b6285bcd66fcb4b95b3950f96ff81fed6301bd65401",
+    "metabolism/splitting.py": "aa6ca459b5c22b7c7d1818cdc61496b2563a99c4e785861fd73cfe2e2d836fd8",
+    "research/m4_overlap_audit_screen.py": "9ceee29e98578f90b954b60cf02757868798a26439dde70820bdedcb786c8400"
+  },
+  "state_indices": {
+    "kecoli": 61,
+    "teusink": 1
+  },
+  "warmups": 1
+}

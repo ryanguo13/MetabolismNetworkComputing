@@ -1,0 +1,283 @@
+{
+  "scope": "Bounded single-state W-MRI slow-tangent micro-screen; full-state implicit stage and independent full-ODE Radau audit. No trajectory or M4 qualification.",
+  "formula": "z'=f_F(z)+f_S(y)+J_S(y)(z-y), J_S=S_S Dv_S(y)",
+  "affine_formula_check": {
+    "max_abs_error": 5.551115123125783e-16,
+    "passed": true,
+    "dimension": 3,
+    "h": 0.7,
+    "expected": "expm((A_F+A_S)H)y0"
+  },
+  "sparse_structure": {
+    "fast_jacobian_nnz": 389,
+    "slow_jacobian_nnz": 16215,
+    "full_state_dimension": 3003
+  },
+  "summary": [
+    {
+      "h": 1e-06,
+      "repeats": 3,
+      "candidate_seconds": [
+        0.06821341603063047,
+        0.06430674996227026,
+        0.062913166009821
+      ],
+      "audit_seconds": [
+        0.06474275002256036,
+        0.06395475001772866,
+        0.06061891600256786
+      ],
+      "total_seconds": [
+        0.13303529197582975,
+        0.1283211670233868,
+        0.12357599998358637
+      ],
+      "median_total_seconds": 0.1283211670233868,
+      "all_targets_pass": true,
+      "metrics": {
+        "0.001": [
+          {
+            "concentration_error": 1.0131629442497473e-05,
+            "flux_error": 1.013162935992536e-05,
+            "net_flux_error": 7.858756379954641e-05,
+            "pool_error": 4.2067044292437533e-16,
+            "finite": true,
+            "nonnegative": true,
+            "passes": true
+          },
+          {
+            "concentration_error": 1.0131629442497473e-05,
+            "flux_error": 1.013162935992536e-05,
+            "net_flux_error": 7.858756379954641e-05,
+            "pool_error": 4.2067044292437533e-16,
+            "finite": true,
+            "nonnegative": true,
+            "passes": true
+          },
+          {
+            "concentration_error": 1.0131629442497473e-05,
+            "flux_error": 1.013162935992536e-05,
+            "net_flux_error": 7.858756379954641e-05,
+            "pool_error": 4.2067044292437533e-16,
+            "finite": true,
+            "nonnegative": true,
+            "passes": true
+          }
+        ],
+        "1e-05": [
+          {
+            "concentration_error": 0.0010131629442497474,
+            "flux_error": 0.001013162935992536,
+            "net_flux_error": 7.858756379954641e-05,
+            "pool_error": 4.2067044292437533e-16,
+            "finite": true,
+            "nonnegative": true,
+            "passes": true
+          },
+          {
+            "concentration_error": 0.0010131629442497474,
+            "flux_error": 0.001013162935992536,
+            "net_flux_error": 7.858756379954641e-05,
+            "pool_error": 4.2067044292437533e-16,
+            "finite": true,
+            "nonnegative": true,
+            "passes": true
+          },
+          {
+            "concentration_error": 0.0010131629442497474,
+            "flux_error": 0.001013162935992536,
+            "net_flux_error": 7.858756379954641e-05,
+            "pool_error": 4.2067044292437533e-16,
+            "finite": true,
+            "nonnegative": true,
+            "passes": true
+          }
+        ]
+      },
+      "speedup_vs_baseline_over_1_5": {
+        "0.001": 2.3587408461341646,
+        "1e-05": 2.469657803630719
+      }
+    },
+    {
+      "h": 1e-05,
+      "repeats": 3,
+      "candidate_seconds": [
+        0.19606299995211884,
+        0.20139245799509808,
+        0.2103315420099534
+      ],
+      "audit_seconds": [
+        0.20953083300264552,
+        0.14552541699958965,
+        0.14689974999055266
+      ],
+      "total_seconds": [
+        0.4056337919901125,
+        0.3469673750223592,
+        0.35728300001937896
+      ],
+      "median_total_seconds": 0.35728300001937896,
+      "all_targets_pass": true,
+      "metrics": {
+        "0.001": [
+          {
+            "concentration_error": 0.006567029243495822,
+            "flux_error": 0.006567029242903606,
+            "net_flux_error": 0.05187825877064727,
+            "pool_error": 2.8067825841304715e-15,
+            "finite": true,
+            "nonnegative": true,
+            "passes": true
+          },
+          {
+            "concentration_error": 0.006567029243495822,
+            "flux_error": 0.006567029242903606,
+            "net_flux_error": 0.05187825877064727,
+            "pool_error": 2.8067825841304715e-15,
+            "finite": true,
+            "nonnegative": true,
+            "passes": true
+          },
+          {
+            "concentration_error": 0.006567029243495822,
+            "flux_error": 0.006567029242903606,
+            "net_flux_error": 0.05187825877064727,
+            "pool_error": 2.8067825841304715e-15,
+            "finite": true,
+            "nonnegative": true,
+            "passes": true
+          }
+        ],
+        "1e-05": [
+          {
+            "concentration_error": 0.6567029243495821,
+            "flux_error": 0.6567029242903606,
+            "net_flux_error": 0.05187825877064727,
+            "pool_error": 2.8067825841304715e-15,
+            "finite": true,
+            "nonnegative": true,
+            "passes": true
+          },
+          {
+            "concentration_error": 0.6567029243495821,
+            "flux_error": 0.6567029242903606,
+            "net_flux_error": 0.05187825877064727,
+            "pool_error": 2.8067825841304715e-15,
+            "finite": true,
+            "nonnegative": true,
+            "passes": true
+          },
+          {
+            "concentration_error": 0.6567029243495821,
+            "flux_error": 0.6567029242903606,
+            "net_flux_error": 0.05187825877064727,
+            "pool_error": 2.8067825841304715e-15,
+            "finite": true,
+            "nonnegative": true,
+            "passes": true
+          }
+        ]
+      },
+      "speedup_vs_baseline_over_1_5": {
+        "0.001": 0.8468900842785945,
+        "1e-05": 0.8867140741145849
+      }
+    },
+    {
+      "h": 3e-05,
+      "repeats": 3,
+      "candidate_seconds": [
+        0.14217762497719377,
+        0.14132241701008752,
+        0.14787158300168812
+      ],
+      "audit_seconds": [
+        0.23201733297901228,
+        0.24940083298133686,
+        0.25491095799952745
+      ],
+      "total_seconds": [
+        0.3742554999771528,
+        0.39076904201647267,
+        0.4028362500248477
+      ],
+      "median_total_seconds": 0.39076904201647267,
+      "all_targets_pass": false,
+      "metrics": {
+        "0.001": [
+          {
+            "concentration_error": 0.08808561276863387,
+            "flux_error": 0.08808561276325233,
+            "net_flux_error": 0.7748670979027164,
+            "pool_error": 2.344478777782653e-15,
+            "finite": true,
+            "nonnegative": true,
+            "passes": true
+          },
+          {
+            "concentration_error": 0.08808561276863387,
+            "flux_error": 0.08808561276325233,
+            "net_flux_error": 0.7748670979027164,
+            "pool_error": 2.344478777782653e-15,
+            "finite": true,
+            "nonnegative": true,
+            "passes": true
+          },
+          {
+            "concentration_error": 0.08808561276863387,
+            "flux_error": 0.08808561276325233,
+            "net_flux_error": 0.7748670979027164,
+            "pool_error": 2.344478777782653e-15,
+            "finite": true,
+            "nonnegative": true,
+            "passes": true
+          }
+        ],
+        "1e-05": [
+          {
+            "concentration_error": 8.808561276863387,
+            "flux_error": 8.808561276325232,
+            "net_flux_error": 0.7748670979027164,
+            "pool_error": 2.344478777782653e-15,
+            "finite": true,
+            "nonnegative": true,
+            "passes": false
+          },
+          {
+            "concentration_error": 8.808561276863387,
+            "flux_error": 8.808561276325232,
+            "net_flux_error": 0.7748670979027164,
+            "pool_error": 2.344478777782653e-15,
+            "finite": true,
+            "nonnegative": true,
+            "passes": false
+          },
+          {
+            "concentration_error": 8.808561276863387,
+            "flux_error": 8.808561276325232,
+            "net_flux_error": 0.7748670979027164,
+            "pool_error": 2.344478777782653e-15,
+            "finite": true,
+            "nonnegative": true,
+            "passes": false
+          }
+        ]
+      },
+      "speedup_vs_baseline_over_1_5": {
+        "0.001": 0.7742964847776523,
+        "1e-05": 0.810706847718783
+      }
+    }
+  ],
+  "M4_admission": false,
+  "interpretation": "The slow tangent is mathematically exact for frozen affine systems, but a real nonlinear stage must integrate all state coordinates because J_S couples inactive coordinates. This micro-screen records whether the larger step offsets its full-state solve plus mandatory audit cost; it does not establish full-window or seven-repeat admission.",
+  "baseline_over_1_5": {
+    "0.001": 0.3025356389892598,
+    "1e-05": 0.31676201433098566
+  },
+  "local_baselines": {
+    "0.001": 0.4538034584838897,
+    "1e-05": 0.47514302149647847
+  }
+}

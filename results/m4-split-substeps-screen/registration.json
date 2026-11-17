@@ -1,0 +1,31 @@
+{
+  "date": "2026-11-15",
+  "hypothesis": "Internal repeated Strang substeps reduce local splitting error enough to increase accepted reaction-split coverage on a short prefix without changing the frozen audit or correctness gates.",
+  "scope": "One bounded short-prefix run for each model, target and substep count; original M1 initial state, public scales and prefix of the registered grid. Development screen only; no full-window, seven-repeat or speedup claim.",
+  "prefix_end": 0.0001,
+  "substeps": [
+    1,
+    2,
+    4
+  ],
+  "gates": {
+    "full_ode_audit_every_attempt": true,
+    "all_attempts_preserved": true,
+    "no_clipping": true,
+    "rejected_trial_rollback": true,
+    "original_metrics_recomputed": true,
+    "split_coverage_recomputed": true,
+    "costs_include_split_and_audit": true
+  },
+  "source_sha256": {
+    "research/m4_split_substeps_screen.py": "5103b851a774d485b30f32acc44d82d25d110a3b13dc9033bb703ede07425418",
+    "metabolism/continuation.py": "ce28b598cfee990fff7c09b3acaff68de2158e3ffbf605a9d7955007d404234c",
+    "metabolism/adaptive.py": "427c67bfba193a79fb6d3d96aecc5ed01efa1a5d3fc7cbc82e525f3cf851db69",
+    "metabolism/splitting.py": "8091ae6663b248fb949d726a81688db246622b7ee9595f31e5f0ece7fd1438bb",
+    "metabolism/m3_continuation.py": "90b539d8f7ce2dae6d574b6285bcd66fcb4b95b3950f96ff81fed6301bd65401"
+  },
+  "environment": {
+    "python": "3.12.10",
+    "numpy": "2.5.4"
+  }
+}

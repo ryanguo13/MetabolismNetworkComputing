@@ -1,0 +1,64 @@
+{
+  "runs": [
+    {
+      "model": "teusink",
+      "target": 0.001,
+      "substeps": 1,
+      "prefix_end": 0.0001,
+      "status": "failed",
+      "seconds": 4.67581904103281,
+      "reason": "operands could not be broadcast together with shapes (14,109) (14,640) ",
+      "stats": null
+    },
+    {
+      "model": "teusink",
+      "target": 0.001,
+      "substeps": 2,
+      "prefix_end": 0.0001,
+      "status": "failed",
+      "seconds": 2.13961937505519,
+      "reason": "operands could not be broadcast together with shapes (14,109) (14,640) ",
+      "stats": null
+    },
+    {
+      "model": "teusink",
+      "target": 0.001,
+      "substeps": 4,
+      "prefix_end": 0.0001,
+      "status": "failed",
+      "seconds": 2.594389082980342,
+      "reason": "operands could not be broadcast together with shapes (14,109) (14,640) ",
+      "stats": null
+    },
+    {
+      "model": "teusink",
+      "target": 1e-05,
+      "substeps": 1,
+      "prefix_end": 0.0001,
+      "status": "failed",
+      "seconds": 7.569414916972164,
+      "reason": "operands could not be broadcast together with shapes (14,109) (14,640) ",
+      "stats": null
+    },
+    {
+      "model": "teusink",
+      "target": 1e-05,
+      "substeps": 2,
+      "prefix_end": 0.0001,
+      "status": "failed",
+      "seconds": 8.847907458955888,
+      "reason": "operands could not be broadcast together with shapes (14,109) (14,640) ",
+      "stats": null
+    },
+    {
+      "model": "teusink",
+      "target": 1e-05,
+      "substeps": 4,
+      "prefix_end": 0.0001,
+      "status": "failed",
+      "seconds": 10.295053542009555,
+      "reason": "operands could not be broadcast together with shapes (14,109) (14,640) ",
+      "stats": null
+    }
+  ]
+}

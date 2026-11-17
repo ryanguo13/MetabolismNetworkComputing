@@ -21,6 +21,10 @@ class ReactionSystem:
     dependencies: object
     flux_jacobian: object = None
     time_dependent: bool = False
+    # Optional exact column evaluators preserve full-state dependencies while
+    # avoiding rates for reactions unused by a subflow.
+    flux_subset: object = None
+    flux_jacobian_subset: object = None
 
     @classmethod
     def from_sbml(cls, model):
@@ -33,7 +37,8 @@ class ReactionSystem:
         ids = model.data['network_data']['rxn_f_bInd_rxnInd'].astype(int)
         return cls(model.S, model.flux, model.y0,
                    [np.flatnonzero(ids == g) for g in np.unique(ids)],
-                   model.dependency, model.flux_jacobian)
+                   model.dependency, model.flux_jacobian, False,
+                   model.flux_subset, model.flux_jacobian_subset)
 
 
 class SplitFailure(RuntimeError):
@@ -42,6 +47,31 @@ class SplitFailure(RuntimeError):
     def __init__(self, message, stats):
         super().__init__(message)
         self.stats = stats
+
+
+def validate_partition(system, fast_groups, scale):
+    """Validate reaction partition inputs without building subflow matrices."""
+    if system.time_dependent:
+        raise ValueError('Autonomous flows only; time-dependent models are excluded')
+    raw_S = csc_matrix(system.S)
+    groups = [np.asarray(group) for group in system.groups]
+    if (not groups or any(group.ndim != 1 or not len(group)
+                          or group.dtype.kind not in 'iu' for group in groups)
+            or not np.array_equal(np.sort(np.concatenate(groups)),
+                                  np.arange(raw_S.shape[1]))):
+        raise ValueError('Complete reaction groups must partition every column exactly once')
+    scale = np.asarray(scale, dtype=float)
+    if (raw_S.shape[0] != len(system.y0) or scale.shape != system.y0.shape
+            or not np.isfinite(scale).all() or np.any(scale <= 0)):
+        raise ValueError('Invalid dimensions, species scales or tolerance')
+    chosen = np.asarray(fast_groups)
+    if chosen.size == 0:
+        chosen = np.array([], dtype=int)
+    if (chosen.ndim != 1 or chosen.dtype.kind not in 'iu'
+            or len(np.unique(chosen)) != len(chosen)
+            or np.any(chosen < 0) or np.any(chosen >= len(groups))):
+        raise ValueError('Invalid fast group indices')
+    return raw_S, groups, chosen
 
 
 def compose_step(fast, slow, y, h, method):
@@ -56,25 +86,34 @@ def compose_step(fast, slow, y, h, method):
 class FixedSplit:
     def __init__(self, system, fast_groups, scale, rtol=1e-10,
                  ledger_weights=None, pools=None, timeout=120):
-        if system.time_dependent:
-            raise ValueError('Autonomous flows only; time-dependent models are excluded')
         self.system = system
-        self.S = csc_matrix(system.S)
+        raw_S, groups, chosen = validate_partition(system, fast_groups, scale)
+        group_signature = tuple((group.dtype.str, group.shape, group.tobytes()) for group in groups)
+        # Partition geometry is independent of the selected fast groups.  The
+        # continuation controller can rebuild many partitions, so retain only
+        # immutable sparse metadata on the system object and reuse it.  This
+        # avoids repeatedly converting the full dependency matrix and slicing
+        # every reaction group while preserving the exact matrices below.
+        metadata = getattr(system, '_fixed_split_metadata', None)
+        if (metadata is None or metadata[0] != id(system.S)
+                or metadata[1] != id(system.dependencies)
+                or metadata[6] != group_signature):
+            base_S = raw_S
+            base_dependencies = csc_matrix(system.dependencies)
+            group_columns = tuple(np.asarray(group, dtype=int) for group in groups)
+            group_active = tuple(
+                np.flatnonzero(np.asarray(abs(base_S[:, columns]).sum(axis=1)).ravel())
+                for columns in group_columns)
+            metadata = (id(system.S), id(system.dependencies), base_S, base_dependencies,
+                        group_columns, group_active, group_signature)
+            try:
+                system._fixed_split_metadata = metadata
+            except AttributeError:
+                pass
+        _, _, self.S, dependencies, group_columns, group_active, _ = metadata
         self.scale = np.asarray(scale, dtype=float)
-        if (self.S.shape[0] != len(system.y0) or self.scale.shape != system.y0.shape
-                or not np.isfinite(self.scale).all() or np.any(self.scale <= 0)
-                or not np.isfinite(rtol) or rtol <= 0):
+        if not np.isfinite(rtol) or rtol <= 0:
             raise ValueError('Invalid dimensions, species scales or tolerance')
-        groups = [np.asarray(g) for g in system.groups]
-        if (not groups or any(g.ndim != 1 or not len(g) or g.dtype.kind not in 'iu' for g in groups)
-                or not np.array_equal(np.sort(np.concatenate(groups)), np.arange(self.S.shape[1]))):
-            raise ValueError('Complete reaction groups must partition every column exactly once')
-        chosen = np.asarray(fast_groups)
-        if chosen.size == 0:
-            chosen = np.array([], dtype=int)
-        if (chosen.ndim != 1 or chosen.dtype.kind not in 'iu' or len(np.unique(chosen)) != len(chosen)
-                or np.any(chosen < 0) or np.any(chosen >= len(groups))):
-            raise ValueError('Invalid fast group indices')
         self.fast_groups = chosen.copy()
         self.rtol, self.timeout = rtol, timeout
         self.weights = None if ledger_weights is None else np.asarray(ledger_weights, dtype=float)
@@ -85,22 +124,25 @@ class FixedSplit:
             raise ValueError('Invalid open-ledger weights')
         self.parts = {}
         for name, selected in [('fast', chosen), ('slow', np.setdiff1d(np.arange(len(groups)), chosen))]:
-            columns = np.concatenate([groups[i] for i in selected]) if len(selected) else np.array([], dtype=int)
-            active = np.flatnonzero(np.asarray(abs(self.S[:, columns]).sum(axis=1)).ravel())
+            columns = np.concatenate([group_columns[i] for i in selected]) if len(selected) else np.array([], dtype=int)
+            active = (np.unique(np.concatenate([group_active[i] for i in selected]))
+                      if len(selected) else np.array([], dtype=int))
             submatrix = self.S[active][:, columns].tocsc()
-            dependency = csc_matrix(system.dependencies)[columns][:, active]
+            dependency = dependencies[columns][:, active]
             sparsity = (abs(submatrix) @ dependency).astype(bool).tocsc()
             self.parts[name] = (columns, active, submatrix, sparsity)
 
-    def integrate(self, y0, start, end, steps, method='Strang'):
+    def integrate(self, y0, start, end, steps, method='Strang', substeps=1):
         if (method not in ('Lie', 'Strang') or not isinstance(steps, (int, np.integer)) or steps < 1
+                or not isinstance(substeps, (int, np.integer)) or isinstance(substeps, bool) or substeps < 1
                 or not np.isfinite([start, end]).all() or end <= start):
             raise ValueError('Invalid method, interval or fixed step count')
         y0 = np.asarray(y0, dtype=float)
         if y0.shape != self.scale.shape:
             raise ValueError('Invalid initial state dimension')
         before = time.perf_counter()
-        stats = {'method': method, 'macro_steps_completed': 0, 'subflow_calls': 0,
+        stats = {'method': method, 'macro_steps_completed': 0, 'internal_substeps': int(substeps),
+                 'subflow_calls': 0,
                  'nfev': 0, 'njev': 0, 'nlu': 0, 'accepted_substeps': 0,
                  'rhs_calls_including_fd': 0, 'fast_seconds': 0., 'slow_seconds': 0.,
                  'rhs_seconds': 0., 'jacobian_seconds': 0., 'ledger_seconds': 0.,
@@ -141,12 +183,21 @@ class FixedSplit:
                 stats['significant_negative_rhs_components'] = int(np.count_nonzero(minima < -1e-12 * self.scale))
                 check(full, f'{name} RHS argument (including Newton/FD probes)')
                 stamp = time.perf_counter()
-                result = submatrix @ self.system.flux(0., full)[columns]
+                if self.system.flux_subset is None:
+                    rates = self.system.flux(0., full)[columns]
+                else:
+                    rates = self.system.flux_subset(0., full, columns)
+                result = submatrix @ rates
                 stats['rhs_seconds'] += time.perf_counter() - stamp
                 return result
             def jac(t, z):
                 stamp = time.perf_counter()
-                value = submatrix @ self.system.flux_jacobian(0., expand(z))[columns][:, active]
+                full = expand(z)
+                if self.system.flux_jacobian_subset is None:
+                    gradient = self.system.flux_jacobian(0., full)[columns]
+                else:
+                    gradient = self.system.flux_jacobian_subset(0., full, columns)
+                value = submatrix @ gradient[:, active]
                 stats['jacobian_seconds'] += time.perf_counter() - stamp
                 return value.tocsc()
             options = {}
@@ -203,10 +254,15 @@ class FixedSplit:
         states[:, 0] = y0
         try:
             for i, h in enumerate(np.diff(times)):
-                states[:, i + 1] = compose_step(lambda y, d: flow(y, d, 'fast'),
-                                               lambda y, d: flow(y, d, 'slow'), states[:, i], h, method)
+                current = states[:, i]
+                inner_h = h / substeps
+                for _ in range(substeps):
+                    current = compose_step(lambda y, d: flow(y, d, 'fast'),
+                                           lambda y, d: flow(y, d, 'slow'), current, inner_h, method)
+                    check(current, 'macro substep endpoint')
+                states[:, i + 1] = current
                 stats['macro_steps_completed'] += 1
-                stats['min_macro_state'] = min(stats['min_macro_state'], float(states[:, i + 1].min()))
+                stats['min_macro_state'] = min(stats['min_macro_state'], float(current.min()))
             if self.weights is not None:
                 stats['ledger_residual'] = float(self.weights @ (states[:, -1] - y0) - stats['ledger_increment'])
             return times, states, stats

@@ -1,0 +1,149 @@
+{
+  "scope": "Short-window audit scheduling screen; no full-window or M4 qualification.",
+  "candidate_seconds": 1.159286416019313,
+  "sequential_audit_seconds": 1.7484660830232315,
+  "runs": [
+    {
+      "kind": "sequential",
+      "workers": 1,
+      "seconds": 1.7484660830232315,
+      "per_task_seconds": [
+        0.2117215420003049,
+        0.21693887503352016,
+        0.23538533301325515,
+        0.21037116699153557,
+        0.22525587503332645,
+        0.2043136249994859,
+        0.21691733301850036,
+        0.2273392920033075
+      ],
+      "outputs_sha256": [
+        "f468a4a2e764ee52b909e64bbd6b4b549ea36940ab75120d858e06d9ebae309e",
+        "a5abb7c71ad3c9db214196f8add23434a39a4d4912a32cce7cbdabf5e33331b8",
+        "5e9ade8bde136610d4739faeec59d6996db862630c9fef1e915a6e03112d5f9d",
+        "d250af9ed7b9f9a411211b1417ed91da700746974b821f89154f7291588695b8",
+        "17c185fbdc01287f3d00910eebf9b0660dec8604c27a31f7c9f3ea15ef2fe212",
+        "c42804946210e8092a11472574440578b82d06354f1225d393fc9e1e7b0a905a",
+        "d8710b4d3eeb387b7907fe945b076df539d83ca357f76292efdb47df71b05df3",
+        "07aab02437320d41f0fecc3d9b8367cec698bed2ccf7b19c3d7cd18fb3850727"
+      ],
+      "internal_states_checked": true
+    },
+    {
+      "kind": "threads",
+      "workers": 2,
+      "seconds": 1.15777958300896,
+      "per_task_seconds": [
+        0.43759562500054017,
+        0.41957912500947714,
+        0.25634312501642853,
+        0.24955733300885186,
+        0.23324145894730464,
+        0.23450941703049466,
+        0.23703904100693762,
+        0.23529045894974843
+      ],
+      "outputs_sha256": [
+        "f468a4a2e764ee52b909e64bbd6b4b549ea36940ab75120d858e06d9ebae309e",
+        "a5abb7c71ad3c9db214196f8add23434a39a4d4912a32cce7cbdabf5e33331b8",
+        "5e9ade8bde136610d4739faeec59d6996db862630c9fef1e915a6e03112d5f9d",
+        "d250af9ed7b9f9a411211b1417ed91da700746974b821f89154f7291588695b8",
+        "17c185fbdc01287f3d00910eebf9b0660dec8604c27a31f7c9f3ea15ef2fe212",
+        "c42804946210e8092a11472574440578b82d06354f1225d393fc9e1e7b0a905a",
+        "d8710b4d3eeb387b7907fe945b076df539d83ca357f76292efdb47df71b05df3",
+        "07aab02437320d41f0fecc3d9b8367cec698bed2ccf7b19c3d7cd18fb3850727"
+      ],
+      "max_abs_difference_vs_sequential": 0.0,
+      "internal_states_checked": true,
+      "independent_task_count": 8
+    },
+    {
+      "kind": "processes",
+      "workers": 2,
+      "seconds": 0.8877863750094548,
+      "per_task_seconds": [
+        0.21096362499520183,
+        0.20938412501709536,
+        0.22603345796233043,
+        0.22663870896212757,
+        0.209099417028483,
+        0.20798362500499934,
+        0.23020241601625457,
+        0.22742670797742903
+      ],
+      "outputs_sha256": [
+        "f468a4a2e764ee52b909e64bbd6b4b549ea36940ab75120d858e06d9ebae309e",
+        "a5abb7c71ad3c9db214196f8add23434a39a4d4912a32cce7cbdabf5e33331b8",
+        "5e9ade8bde136610d4739faeec59d6996db862630c9fef1e915a6e03112d5f9d",
+        "d250af9ed7b9f9a411211b1417ed91da700746974b821f89154f7291588695b8",
+        "17c185fbdc01287f3d00910eebf9b0660dec8604c27a31f7c9f3ea15ef2fe212",
+        "c42804946210e8092a11472574440578b82d06354f1225d393fc9e1e7b0a905a",
+        "d8710b4d3eeb387b7907fe945b076df539d83ca357f76292efdb47df71b05df3",
+        "07aab02437320d41f0fecc3d9b8367cec698bed2ccf7b19c3d7cd18fb3850727"
+      ],
+      "max_abs_difference_vs_sequential": 0.0,
+      "internal_states_checked": true,
+      "independent_task_count": 8
+    },
+    {
+      "kind": "threads",
+      "workers": 4,
+      "seconds": 0.7336365830269642,
+      "per_task_seconds": [
+        0.3806756669655442,
+        0.4353132920223288,
+        0.3615297499927692,
+        0.39841195894405246,
+        0.3407034589909017,
+        0.31567783397622406,
+        0.3107283340068534,
+        0.29723558301338926
+      ],
+      "outputs_sha256": [
+        "f468a4a2e764ee52b909e64bbd6b4b549ea36940ab75120d858e06d9ebae309e",
+        "a5abb7c71ad3c9db214196f8add23434a39a4d4912a32cce7cbdabf5e33331b8",
+        "5e9ade8bde136610d4739faeec59d6996db862630c9fef1e915a6e03112d5f9d",
+        "d250af9ed7b9f9a411211b1417ed91da700746974b821f89154f7291588695b8",
+        "17c185fbdc01287f3d00910eebf9b0660dec8604c27a31f7c9f3ea15ef2fe212",
+        "c42804946210e8092a11472574440578b82d06354f1225d393fc9e1e7b0a905a",
+        "d8710b4d3eeb387b7907fe945b076df539d83ca357f76292efdb47df71b05df3",
+        "07aab02437320d41f0fecc3d9b8367cec698bed2ccf7b19c3d7cd18fb3850727"
+      ],
+      "max_abs_difference_vs_sequential": 0.0,
+      "internal_states_checked": true,
+      "independent_task_count": 8
+    },
+    {
+      "kind": "processes",
+      "workers": 4,
+      "seconds": 0.7412735829711892,
+      "per_task_seconds": [
+        0.3543755420250818,
+        0.3325475840247236,
+        0.34226225002203137,
+        0.3396537499502301,
+        0.380037542025093,
+        0.36034179205307737,
+        0.3649173330049962,
+        0.3596921660355292
+      ],
+      "outputs_sha256": [
+        "f468a4a2e764ee52b909e64bbd6b4b549ea36940ab75120d858e06d9ebae309e",
+        "a5abb7c71ad3c9db214196f8add23434a39a4d4912a32cce7cbdabf5e33331b8",
+        "5e9ade8bde136610d4739faeec59d6996db862630c9fef1e915a6e03112d5f9d",
+        "d250af9ed7b9f9a411211b1417ed91da700746974b821f89154f7291588695b8",
+        "17c185fbdc01287f3d00910eebf9b0660dec8604c27a31f7c9f3ea15ef2fe212",
+        "c42804946210e8092a11472574440578b82d06354f1225d393fc9e1e7b0a905a",
+        "d8710b4d3eeb387b7907fe945b076df539d83ca357f76292efdb47df71b05df3",
+        "07aab02437320d41f0fecc3d9b8367cec698bed2ccf7b19c3d7cd18fb3850727"
+      ],
+      "max_abs_difference_vs_sequential": 0.0,
+      "internal_states_checked": true,
+      "independent_task_count": 8
+    }
+  ],
+  "fastest_parallel_speedup": 2.383286389303419,
+  "max_parallel_difference": 0.0,
+  "M4_admission": false,
+  "interpretation": "Parallel audits preserve independent full nonlinear solves and can reduce audit wall time only after candidate states are generated; this does not reduce candidate work, accepted-step count, or the frozen M4 evidence requirements."
+}

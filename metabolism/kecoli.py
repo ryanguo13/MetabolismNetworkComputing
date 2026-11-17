@@ -84,6 +84,12 @@ class KEcoliModel:
         with np.errstate(invalid="raise", over="raise", divide="raise"):
             return self.k * np.power(y[self.indices[0]], self.orders[0]) * np.power(y[self.indices[1]], self.orders[1])
 
+    def flux_subset(self, t, y, columns):
+        columns = np.asarray(columns, dtype=int)
+        with np.errstate(invalid="raise", over="raise", divide="raise"):
+            return (self.k[columns] * np.power(y[self.indices[0, columns]], self.orders[0, columns])
+                    * np.power(y[self.indices[1, columns]], self.orders[1, columns]))
+
     def rhs(self, t, y):
         return self.S @ self.flux(t, y)
 
@@ -102,6 +108,21 @@ class KEcoliModel:
         cols = np.concatenate([v[1] for v in values])
         vals = np.concatenate([v[2] for v in values])
         return csr_matrix((vals, (rows, cols)), shape=self.dependency.shape)
+
+    def flux_jacobian_subset(self, t, y, columns):
+        columns = np.asarray(columns, dtype=int)
+        rows, cols, vals = [], [], []
+        for slot in range(2):
+            active = self.orders[slot, columns] > 0
+            selected = columns[active]
+            first = self.indices[slot, selected]
+            second = self.indices[1 - slot, selected]
+            exponents = self.orders[slot, selected]
+            with np.errstate(invalid="raise", over="raise", divide="raise"):
+                grad = (self.k[selected] * exponents * np.power(y[first], exponents - 1)
+                        * np.power(y[second], self.orders[1 - slot, selected]))
+            rows.extend(np.flatnonzero(active)); cols.extend(first); vals.extend(grad)
+        return csr_matrix((vals, (rows, cols)), shape=(len(columns), len(self.species)))
 
     def jacobian(self, t, y):
         return (self.S @ self.flux_jacobian(t, y)).tocsc()

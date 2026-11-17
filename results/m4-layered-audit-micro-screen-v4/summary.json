@@ -1,0 +1,70 @@
+{
+  "scope": "Retrospective shadow-first audit scheduling screen; no M4 qualification.",
+  "targets": {
+    "0.0001": {
+      "calibration_rows": 62,
+      "held_out_rows": 130,
+      "calibrated_max_effectivity": 5.548853829605036,
+      "calibrated_bound": 6.103739212565539,
+      "full_audits": 130,
+      "skipped_full_audits": 109,
+      "skip_fraction": 0.8384615384615385,
+      "suspicious_full_audits": 21,
+      "shadow_reject_fraction": 0.16153846153846155,
+      "empirical_false_accepts": 0,
+      "empirical_false_rejects": 7,
+      "actual_passes": 116,
+      "policy_accepts": 116,
+      "empirical_recall": 1.0,
+      "all_skipped_rows_pass": true,
+      "full_audit_seconds": 51.65411195647903,
+      "layered_seconds": 21.00418000179343,
+      "layered_over_full": 0.40663132529488494,
+      "audit_wall_time_reduction": 0.593368674705115,
+      "fail_closed": {
+        "rule": "shadow bound above threshold rejects without full audit; shadow-pass rows still receive full audit",
+        "full_audits": 109,
+        "rejected_without_audit": 21,
+        "rejected_rows_that_would_have_passed": 7,
+        "accepted_after_full_audit": 109,
+        "empirical_recall": 0.9396551724137931,
+        "shadow_plus_remaining_audit_seconds": 37.46569704217836,
+        "cost_over_all_full_audits": 0.7253187717900357
+      }
+    },
+    "1e-06": {
+      "calibration_rows": 62,
+      "held_out_rows": 130,
+      "calibrated_max_effectivity": 4.804322760494133,
+      "calibrated_bound": 5.284755036543547,
+      "full_audits": 130,
+      "skipped_full_audits": 96,
+      "skip_fraction": 0.7384615384615385,
+      "suspicious_full_audits": 34,
+      "shadow_reject_fraction": 0.26153846153846155,
+      "empirical_false_accepts": 0,
+      "empirical_false_rejects": 16,
+      "actual_passes": 112,
+      "policy_accepts": 112,
+      "empirical_recall": 1.0,
+      "all_skipped_rows_pass": true,
+      "full_audit_seconds": 51.65411195647903,
+      "layered_seconds": 24.99413287639618,
+      "layered_over_full": 0.4838749894191364,
+      "audit_wall_time_reduction": 0.5161250105808636,
+      "fail_closed": {
+        "rule": "shadow bound above threshold rejects without full audit; shadow-pass rows still receive full audit",
+        "full_audits": 96,
+        "rejected_without_audit": 34,
+        "rejected_rows_that_would_have_passed": 16,
+        "accepted_after_full_audit": 96,
+        "empirical_recall": 0.8571428571428571,
+        "shadow_plus_remaining_audit_seconds": 33.47574416757561,
+        "cost_over_all_full_audits": 0.6480751076657841
+      }
+    }
+  },
+  "M4_admission": false,
+  "evidence_integrity": "pass",
+  "interpretation": "Held-out rows show no empirical false accept under the calibrated shadow bound, but the bound is data-derived rather than a mathematical certificate. It cannot replace the frozen independent full-ODE audit for M4 admission."
+}

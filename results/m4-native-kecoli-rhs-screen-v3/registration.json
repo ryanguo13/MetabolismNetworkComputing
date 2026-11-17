@@ -1,0 +1,18 @@
+{
+  "date": "2026-11-15",
+  "source": "research/m4_native_kecoli_rhs_screen.py",
+  "command": [
+    "clang",
+    "-O3",
+    "-fPIC",
+    "-dynamiclib",
+    "-isysroot",
+    "/Library/Developer/CommandLineTools/SDKs/MacOSX26.5.sdk",
+    "-o",
+    "/Users/guojunhua/Documents/MetabolismNetworkComputing/results/m4-native-kecoli-rhs-screen-v3/libkecoli_rhs.dylib",
+    "/Users/guojunhua/Documents/MetabolismNetworkComputing/results/m4-native-kecoli-rhs-screen-v3/kecoli_rhs.c"
+  ],
+  "compiler": "clang -O3 -fPIC -dynamiclib -isysroot MacOSX26.5.sdk",
+  "correctness": "Python flux and S@y parity at five archived valid states",
+  "stopping": "No solver integration or M4 route unless native kernel speed leaves a plausible positive audited budget"
+}

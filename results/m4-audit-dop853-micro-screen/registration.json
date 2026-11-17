@@ -1,0 +1,75 @@
+{
+  "date": "2026-11-15",
+  "model": "k-ecoli457",
+  "scope": "Audit-backend micro-screen on actual accepted Kecoli step-size quantiles; not a trajectory or M4 qualification.",
+  "source_candidate": "results/m4-growth-factor-screen-v3, target=1e-3, growth_safety=0.9, repeat=0",
+  "state_indices": [
+    0,
+    61
+  ],
+  "state_times": [
+    0.0,
+    0.00011497569953977356
+  ],
+  "accepted_step_quantiles": {
+    "0.0": 1.25e-09,
+    "0.5": 2.0702068244140594e-09,
+    "0.9": 2.0702082944319767e-09,
+    "1.0": 2.070209316649743e-09
+  },
+  "step_sizes": [
+    1.25e-09,
+    2.0702068244140594e-09,
+    2.0702082944319767e-09,
+    2.070209316649743e-09
+  ],
+  "targets": [
+    0.001,
+    1e-05
+  ],
+  "net_flux_target": 0.001,
+  "methods": [
+    "DOP853",
+    "BDF",
+    "CVODE-KLU"
+  ],
+  "repeats": [
+    0,
+    1,
+    2
+  ],
+  "warmups": 1,
+  "audit_rtol": 1e-09,
+  "external_error_budget": 0.05,
+  "truth": {
+    "method": "Radau",
+    "rtol": 1e-13
+  },
+  "checks": {
+    "full_nonlinear_rhs": true,
+    "every_requested_query": true,
+    "DOP853_and_BDF_internal_states_and_rhs_domain": true,
+    "CVODE_rhs_domain_and_outputs_checked": true,
+    "nonnegative_outputs": true,
+    "pools": true,
+    "concentration_flux_and_net_flux_against_tightened_truth": true
+  },
+  "stop_rule": "Do not advance unless every DOP853 state/step/target case qualifies and the measured audit plus existing non-audit candidate work has positive end-to-end margin against baseline/1.5.",
+  "candidate_non_audit_seconds": 5.6105502475984395,
+  "local_baselines": {
+    "0.001": 0.4538034584838897,
+    "1e-05": 0.47514302149647847
+  },
+  "source_sha256": {
+    "research/m4_audit_dop853_micro_screen.py": "a6a9f813a809aac2e2a159464d424721508f86ac643beced9d397141e4170f3e",
+    "metabolism/cvode.py": "6733fb499c0262bf87dc2040dd6aec44a91085f1dbe1b12f0056f8eb277e05c2",
+    "metabolism/kecoli.py": "73f46ac5ceebe3242c8dc313fa80fb1588a32c82a58527b305f69fcd0fd4d851",
+    "metabolism/m3_continuation.py": "90b539d8f7ce2dae6d574b6285bcd66fcb4b95b3950f96ff81fed6301bd65401",
+    "results/m4-growth-factor-screen-v3/registration.json": "bdf3727d9010ccf77777afe2e4b83737ba53da4dc59eaabc6452531a1bbbc77b",
+    "results/m4-growth-factor-screen-v3/runs.json": "a4f0c16e2f597939090fa61ebd97d69368157c0e3f33e2ef33d13a0e740eb83c"
+  },
+  "environment": {
+    "python": "3.12.10",
+    "numpy": "2.5.4"
+  }
+}

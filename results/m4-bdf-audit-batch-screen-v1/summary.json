@@ -1,0 +1,207 @@
+{
+  "scope": "Short-window independent audit backend batch screen",
+  "candidate_seconds": 1.9244160419912077,
+  "median_seconds": {
+    "BDF": 1.416873249982018,
+    "Radau": 2.6470771249732934
+  },
+  "speedup_radau_over_bdf": 1.8682525942295038,
+  "comparisons": [
+    {
+      "index": 0,
+      "max_abs": 3.827911321252486e-10,
+      "metrics": {
+        "0.001": {
+          "concentration_error": 8.889392720145004e-06,
+          "flux_error": 6.490668952862723e-06,
+          "net_flux_error": 8.435789449360765e-05,
+          "pool_error": 1.8034185256254861e-13,
+          "finite": true,
+          "nonnegative": true,
+          "passes": true
+        },
+        "1e-05": {
+          "concentration_error": 0.0008889392720145004,
+          "flux_error": 0.0006490668952862722,
+          "net_flux_error": 8.435789449360765e-05,
+          "pool_error": 1.8034185256254861e-13,
+          "finite": true,
+          "nonnegative": true,
+          "passes": true
+        }
+      }
+    },
+    {
+      "index": 1,
+      "max_abs": 4.260736208294702e-10,
+      "metrics": {
+        "0.001": {
+          "concentration_error": 9.691037569916556e-06,
+          "flux_error": 6.288828328321614e-06,
+          "net_flux_error": 8.280650455693901e-05,
+          "pool_error": 5.927697568908199e-13,
+          "finite": true,
+          "nonnegative": true,
+          "passes": true
+        },
+        "1e-05": {
+          "concentration_error": 0.0009691037569916556,
+          "flux_error": 0.0006288828328321614,
+          "net_flux_error": 8.280650455693901e-05,
+          "pool_error": 5.927697568908199e-13,
+          "finite": true,
+          "nonnegative": true,
+          "passes": true
+        }
+      }
+    },
+    {
+      "index": 2,
+      "max_abs": 4.6245896001551046e-10,
+      "metrics": {
+        "0.001": {
+          "concentration_error": 1.0291806330406016e-05,
+          "flux_error": 6.0788354101179e-06,
+          "net_flux_error": 8.216658137615773e-05,
+          "pool_error": 5.462991170546153e-14,
+          "finite": true,
+          "nonnegative": true,
+          "passes": true
+        },
+        "1e-05": {
+          "concentration_error": 0.0010291806330406015,
+          "flux_error": 0.0006078835410117899,
+          "net_flux_error": 8.216658137615773e-05,
+          "pool_error": 5.462991170546153e-14,
+          "finite": true,
+          "nonnegative": true,
+          "passes": true
+        }
+      }
+    },
+    {
+      "index": 3,
+      "max_abs": 4.957789734305607e-10,
+      "metrics": {
+        "0.001": {
+          "concentration_error": 1.0810491123287402e-05,
+          "flux_error": 5.983612958029833e-06,
+          "net_flux_error": 8.355905428535994e-05,
+          "pool_error": 1.2791157022462565e-13,
+          "finite": true,
+          "nonnegative": true,
+          "passes": true
+        },
+        "1e-05": {
+          "concentration_error": 0.0010810491123287402,
+          "flux_error": 0.0005983612958029832,
+          "net_flux_error": 8.355905428535994e-05,
+          "pool_error": 1.2791157022462565e-13,
+          "finite": true,
+          "nonnegative": true,
+          "passes": true
+        }
+      }
+    },
+    {
+      "index": 4,
+      "max_abs": 5.262354996204976e-10,
+      "metrics": {
+        "0.001": {
+          "concentration_error": 1.1255754130842915e-05,
+          "flux_error": 5.8571541516649436e-06,
+          "net_flux_error": 8.451502732882601e-05,
+          "pool_error": 1.4147190363633637e-13,
+          "finite": true,
+          "nonnegative": true,
+          "passes": true
+        },
+        "1e-05": {
+          "concentration_error": 0.0011255754130842914,
+          "flux_error": 0.0005857154151664943,
+          "net_flux_error": 8.451502732882601e-05,
+          "pool_error": 1.4147190363633637e-13,
+          "finite": true,
+          "nonnegative": true,
+          "passes": true
+        }
+      }
+    },
+    {
+      "index": 5,
+      "max_abs": 5.536662239791212e-10,
+      "metrics": {
+        "0.001": {
+          "concentration_error": 1.1619814999021422e-05,
+          "flux_error": 5.699803087949169e-06,
+          "net_flux_error": 8.500109211030762e-05,
+          "pool_error": 3.2381909653711415e-13,
+          "finite": true,
+          "nonnegative": true,
+          "passes": true
+        },
+        "1e-05": {
+          "concentration_error": 0.0011619814999021421,
+          "flux_error": 0.0005699803087949168,
+          "net_flux_error": 8.500109211030762e-05,
+          "pool_error": 3.2381909653711415e-13,
+          "finite": true,
+          "nonnegative": true,
+          "passes": true
+        }
+      }
+    },
+    {
+      "index": 6,
+      "max_abs": 5.783700185446605e-10,
+      "metrics": {
+        "0.001": {
+          "concentration_error": 1.1912746287555434e-05,
+          "flux_error": 5.521114828742586e-06,
+          "net_flux_error": 8.510843712120383e-05,
+          "pool_error": 2.4976982287983027e-13,
+          "finite": true,
+          "nonnegative": true,
+          "passes": true
+        },
+        "1e-05": {
+          "concentration_error": 0.0011912746287555433,
+          "flux_error": 0.0005521114828742585,
+          "net_flux_error": 8.510843712120383e-05,
+          "pool_error": 2.4976982287983027e-13,
+          "finite": true,
+          "nonnegative": true,
+          "passes": true
+        }
+      }
+    },
+    {
+      "index": 7,
+      "max_abs": 6.004474695231465e-10,
+      "metrics": {
+        "0.001": {
+          "concentration_error": 1.2135342189572308e-05,
+          "flux_error": 5.324482552064862e-06,
+          "net_flux_error": 8.485239736307127e-05,
+          "pool_error": 4.130853645256666e-13,
+          "finite": true,
+          "nonnegative": true,
+          "passes": true
+        },
+        "1e-05": {
+          "concentration_error": 0.0012135342189572307,
+          "flux_error": 0.0005324482552064861,
+          "net_flux_error": 8.485239736307127e-05,
+          "pool_error": 4.130853645256666e-13,
+          "finite": true,
+          "nonnegative": true,
+          "passes": true
+        }
+      }
+    }
+  ],
+  "all_bdf_targets_pass": true,
+  "max_bdf_vs_tight_radau": 6.004474695231465e-10,
+  "M4_admission": false,
+  "interpretation": "Backend-only evidence; independent full audits retained."
+}

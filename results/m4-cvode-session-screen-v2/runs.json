@@ -1,0 +1,28 @@
+{
+  "rows": [
+    {
+      "kind": "cold",
+      "repeat": -1,
+      "seconds": 0.142941374971997,
+      "stats": {
+        "accepted_steps": 7,
+        "nfev": 14,
+        "njev": 1,
+        "linear_solver_setups": 6,
+        "error_test_failures": 1,
+        "nonlinear_iterations": 11,
+        "nonlinear_convergence_failures": 0,
+        "rhs_seconds": 0.00186012196354568,
+        "jacobian_seconds": 0.0010060410131700337,
+        "min_rhs_argument": 0.0,
+        "observed_rhs_calls": 14,
+        "linear_solver": "SUNDIALS 6.4.1 KLU sparse CSC, default COLAMD ordering"
+      },
+      "output_sha256": "e5c49ee73f4a5593a5626e3675468d680e88b87123db838a8030af2d66645c86",
+      "values_shape": [
+        3003,
+        5
+      ]
+    }
+  ]
+}

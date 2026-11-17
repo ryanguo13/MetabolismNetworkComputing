@@ -1,0 +1,30 @@
+{
+  "date": "2026-11-16",
+  "model": "k-ecoli457",
+  "state_index": 100,
+  "h": 0.001,
+  "steps": 8,
+  "audit_rtol": 1e-11,
+  "methods": [
+    "BDF",
+    "Radau"
+  ],
+  "repeats": 3,
+  "semantics": {
+    "independent_full_nonlinear_audit": true,
+    "internal_states_checked": true,
+    "no_clipping": true,
+    "candidate_generation_sequential": true
+  },
+  "scope": "Short-window audit backend batch screen; no full-window or M4 qualification.",
+  "source_sha256": {
+    "research/m4_bdf_audit_batch_screen.py": "813cc7bee900a52761430ce125dc9dd12908221fb2a0e05a1753e6f62c15bb8b",
+    "metabolism/kecoli.py": "3b1cbea4fb876b0a967804c428090482b043e220364d78aa94e37a413f41bd1f",
+    "metabolism/splitting.py": "aa6ca459b5c22b7c7d1818cdc61496b2563a99c4e785861fd73cfe2e2d836fd8",
+    "results/m4-growth-factor-screen-v3/runs.json": "a4f0c16e2f597939090fa61ebd97d69368157c0e3f33e2ef33d13a0e740eb83c"
+  },
+  "environment": {
+    "python": "3.10.14",
+    "numpy": "2.2.5"
+  }
+}

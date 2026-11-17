@@ -1,0 +1,42 @@
+{
+  "scope": "Retrospective shadow-first audit scheduling screen; no M4 qualification.",
+  "targets": {
+    "0.0001": {
+      "calibration_rows": 62,
+      "held_out_rows": 130,
+      "calibrated_max_effectivity": 5.548853829605036,
+      "calibrated_bound": 6.103739212565539,
+      "full_audits": 130,
+      "skipped_full_audits": 109,
+      "skip_fraction": 0.8384615384615385,
+      "empirical_false_accepts": 0,
+      "empirical_false_rejects": 7,
+      "actual_passes": 116,
+      "all_skipped_rows_pass": true,
+      "full_audit_seconds": 51.65411195647903,
+      "layered_seconds": 21.00418000179343,
+      "layered_over_full": 0.40663132529488494,
+      "audit_wall_time_reduction": 0.593368674705115
+    },
+    "1e-06": {
+      "calibration_rows": 62,
+      "held_out_rows": 130,
+      "calibrated_max_effectivity": 4.804322760494133,
+      "calibrated_bound": 5.284755036543547,
+      "full_audits": 130,
+      "skipped_full_audits": 96,
+      "skip_fraction": 0.7384615384615385,
+      "empirical_false_accepts": 0,
+      "empirical_false_rejects": 16,
+      "actual_passes": 112,
+      "all_skipped_rows_pass": true,
+      "full_audit_seconds": 51.65411195647903,
+      "layered_seconds": 24.99413287639618,
+      "layered_over_full": 0.4838749894191364,
+      "audit_wall_time_reduction": 0.5161250105808636
+    }
+  },
+  "M4_admission": false,
+  "evidence_integrity": "pass",
+  "interpretation": "Held-out rows show no empirical false accept under the calibrated shadow bound, but the bound is data-derived rather than a mathematical certificate. It cannot replace the frozen independent full-ODE audit for M4 admission."
+}

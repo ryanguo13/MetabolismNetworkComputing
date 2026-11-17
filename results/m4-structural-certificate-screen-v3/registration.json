@@ -1,0 +1,21 @@
+{
+  "date": "2026-11-15",
+  "scope": "Structural error certificate screen; no audit replacement or M4 qualification.",
+  "hypotheses": [
+    "A proven Lipschitz residual bound certifies trajectory error on a closed linear toy system.",
+    "Conservation pools alone cannot bound concentration error in the pool-preserving nullspace.",
+    "Sampled k-ecoli Jacobian norms are diagnostics only because they do not enclose the exact trajectory."
+  ],
+  "model": "k-ecoli457",
+  "source_sha256": {
+    "research/m4_structural_certificate_screen.py": "bc96c4480090489dd1c56362cffd9010f821487ccb85db85fa87693f5495b340",
+    "metabolism/kecoli.py": "73f46ac5ceebe3242c8dc313fa80fb1588a32c82a58527b305f69fcd0fd4d851",
+    "metabolism/m3_continuation.py": "90b539d8f7ce2dae6d574b6285bcd66fcb4b95b3950f96ff81fed6301bd65401"
+  },
+  "gates": {
+    "full_audit_retained": true,
+    "no_clipping": true,
+    "no_empirical_bound_claims": true,
+    "M4_admission": false
+  }
+}

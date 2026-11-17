@@ -1,0 +1,70 @@
+{
+  "scope": "Structural error certificate screen; no audit replacement or M4 qualification.",
+  "toy": {
+    "exact_solution": [
+      0.6703200460356392,
+      0.2968214140846852,
+      0.032858539879675595
+    ],
+    "certificate": {
+      "L": 2.933521991644854,
+      "residual_sup": 0.3471238652193995,
+      "certificate": 0.09443366498000864,
+      "exact": true
+    },
+    "max_node_error": 0.0,
+    "node_error_covered": true,
+    "wrong_curve_pool_error": 2.7755575615628914e-17,
+    "wrong_curve_state_error": 0.3674234614174767,
+    "certificate_covers_exact": true,
+    "conservation_alone_controls_state_error": false
+  },
+  "real_kecoli": [
+    {
+      "state_index": 61,
+      "h": 0.0001,
+      "source": "state-61-h-0.0001-rep-0.npz",
+      "residual_sup_scaled": 868.2800782635792,
+      "sampled_local_L": 3264788367.2088504,
+      "sampled_bound_is_certified": false,
+      "actual_concentration_error_1e5": 12.344252862082504,
+      "candidate_pool_drift": 1.6002824065886045e-14,
+      "audit_pool_drift": 4.8433479449272454e-15
+    },
+    {
+      "state_index": 61,
+      "h": 0.003,
+      "source": "state-61-h-0.0030000000000000001-rep-0.npz",
+      "residual_sup_scaled": 27548.186975746543,
+      "sampled_local_L": 3264788367.2088504,
+      "sampled_bound_is_certified": false,
+      "actual_concentration_error_1e5": 7676.309361508064,
+      "candidate_pool_drift": 1.734584698098729e-13,
+      "audit_pool_drift": 6.904719851430485e-14
+    },
+    {
+      "state_index": 100,
+      "h": 0.001,
+      "source": "state-100-h-0.001-rep-0.npz",
+      "residual_sup_scaled": 0.19139663698127893,
+      "sampled_local_L": 3265007127.4242034,
+      "sampled_bound_is_certified": false,
+      "actual_concentration_error_1e5": 0.0003420792455713956,
+      "candidate_pool_drift": 3.6068370512509773e-13,
+      "audit_pool_drift": 1.2455834974556268e-13
+    },
+    {
+      "state_index": 150,
+      "h": 0.03,
+      "source": "state-150-h-0.029999999999999999-rep-0.npz",
+      "residual_sup_scaled": 6.921747091497596,
+      "sampled_local_L": 3273363110.5232263,
+      "sampled_bound_is_certified": false,
+      "actual_concentration_error_1e5": 0.08523798153365536,
+      "candidate_pool_drift": 4.9551630160182825e-12,
+      "audit_pool_drift": 3.876850229733719e-12
+    }
+  ],
+  "M4_admission": false,
+  "conclusion": "The linear residual certificate is mathematically valid only when its Lipschitz constant is proven on a domain enclosing the exact solution. Conservation and sampled local Jacobian data do not provide that enclosure for k-ecoli; they cannot replace independent full ODE audits."
+}

@@ -1,0 +1,36 @@
+{
+  "model": "k-ecoli457",
+  "state_index": 61,
+  "horizon": 1e-06,
+  "repeats": 3,
+  "formal": [
+    {
+      "repeat": 0,
+      "cold_seconds": 0.14300095796352252,
+      "session_seconds": 0.1418292080052197,
+      "speedup": 1.0082616971129086,
+      "identical_output": true
+    },
+    {
+      "repeat": 1,
+      "cold_seconds": 0.14341654197778553,
+      "session_seconds": 0.14455291698686779,
+      "speedup": 0.9921386919560711,
+      "identical_output": true
+    },
+    {
+      "repeat": 2,
+      "cold_seconds": 0.1511781660374254,
+      "session_seconds": 0.14913412503665313,
+      "speedup": 1.013706058222891,
+      "identical_output": true
+    }
+  ],
+  "median_cold": 0.14341654197778553,
+  "median_session": 0.14455291698686779,
+  "median_speedup": 1.0082616971129086,
+  "all_outputs_identical": true,
+  "M4_admission": false,
+  "evidence_integrity": "pass",
+  "interpretation": "Persistent CVODE/KLU structures are reused only with CVodeReInit; each row still starts from the candidate state and integrates the complete nonlinear ODE."
+}

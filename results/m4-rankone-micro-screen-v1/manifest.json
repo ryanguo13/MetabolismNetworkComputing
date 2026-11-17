@@ -1,0 +1,11 @@
+{
+  "results/m4-rankone-micro-screen-v1/summary.json": "2204bdf4a74e600f037cd137f0f8cf11155e12715c8c5193d5dc2761ee714991",
+  "results/m4-rankone-micro-screen-v1/registration.json": "3e8c6d76b6058d4103f449c7fe9148b04a87166c5810eef23394cd12783ffc29",
+  "results/m4-rankone-micro-screen-v1/run-h-1e-09-r1.npz": "43e17b33af2a2ec6cf72a643f04463f68267eeba9194a8590d98522843c828cf",
+  "results/m4-rankone-micro-screen-v1/run-h-1e-09-r0.npz": "43e17b33af2a2ec6cf72a643f04463f68267eeba9194a8590d98522843c828cf",
+  "results/m4-rankone-micro-screen-v1/run-h-1e-10-r1.npz": "c3a69e5184b47b87f410b3f727ef32c4b2d2ea7c0e52deb48dee1e8a0bedeb29",
+  "results/m4-rankone-micro-screen-v1/run-h-1e-10-r0.npz": "c3a69e5184b47b87f410b3f727ef32c4b2d2ea7c0e52deb48dee1e8a0bedeb29",
+  "results/m4-rankone-micro-screen-v1/runs.json": "1d48f4065b8cd9609dfe90e8e170fd97b39cdd34e1a26f949dd07369b69e0651",
+  "results/m4-rankone-micro-screen-v1/run-h-1e-08-r0.npz": "6d427066845e3980b5e77b092622618d2479d8997a8d3266ef79dfcc999f13a1",
+  "results/m4-rankone-micro-screen-v1/run-h-1e-08-r1.npz": "6d427066845e3980b5e77b092622618d2479d8997a8d3266ef79dfcc999f13a1"
+}

@@ -68,6 +68,18 @@ class SplittingChecks(unittest.TestCase):
         self.assertEqual(stats['subflow_calls'], 48)
         self.assertLess(stats['max_substep_invariant_error'], 2e-14)
 
+    def test_internal_strang_substeps_match_finer_macro_grid(self):
+        system = chain()
+        split = FixedSplit(system, [0], np.ones(3), rtol=1e-11, pools=np.ones((1, 3)))
+        _, subcycled, sub_stats = split.integrate(system.y0, 0., 1., 4, substeps=3)
+        _, refined, refined_stats = split.integrate(system.y0, 0., 1., 12)
+        np.testing.assert_allclose(subcycled[:, -1], refined[:, -1], atol=2e-12, rtol=2e-11)
+        self.assertEqual(sub_stats['internal_substeps'], 3)
+        self.assertEqual(sub_stats['macro_steps_completed'], 4)
+        self.assertEqual(sub_stats['subflow_calls'], refined_stats['subflow_calls'])
+        with self.assertRaisesRegex(ValueError, 'fixed step count'):
+            split.integrate(system.y0, 0., 1., 1, substeps=0)
+
     def test_full_modifier_dependency_survives_coordinate_reduction(self):
         # C regulates A->B although this subflow cannot update C.
         system = ReactionSystem(csc_matrix([[-1.], [1.], [0.]]),

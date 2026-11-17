@@ -1,0 +1,60 @@
+{
+  "rows": [
+    {
+      "h": 1e-06,
+      "repeat": 0,
+      "status": "failed",
+      "seconds": 0.24542370898416266,
+      "reason": "FloatingPointError: invalid reduced fast RHS state"
+    },
+    {
+      "h": 1e-06,
+      "repeat": 1,
+      "status": "failed",
+      "seconds": 0.24337558296974748,
+      "reason": "FloatingPointError: invalid reduced fast RHS state"
+    },
+    {
+      "h": 3e-06,
+      "repeat": 0,
+      "status": "failed",
+      "seconds": 0.001729791983962059,
+      "reason": "FloatingPointError: invalid reduced fast RHS state"
+    },
+    {
+      "h": 3e-06,
+      "repeat": 1,
+      "status": "failed",
+      "seconds": 0.0016378749860450625,
+      "reason": "FloatingPointError: invalid reduced fast RHS state"
+    },
+    {
+      "h": 1e-05,
+      "repeat": 0,
+      "status": "failed",
+      "seconds": 0.0012073750258423388,
+      "reason": "FloatingPointError: invalid reduced fast RHS state"
+    },
+    {
+      "h": 1e-05,
+      "repeat": 1,
+      "status": "failed",
+      "seconds": 0.001222333055920899,
+      "reason": "FloatingPointError: invalid reduced fast RHS state"
+    },
+    {
+      "h": 3e-05,
+      "repeat": 0,
+      "status": "failed",
+      "seconds": 0.0011107089812867343,
+      "reason": "FloatingPointError: invalid reduced fast RHS state"
+    },
+    {
+      "h": 3e-05,
+      "repeat": 1,
+      "status": "failed",
+      "seconds": 0.0010883749928325415,
+      "reason": "FloatingPointError: invalid reduced fast RHS state"
+    }
+  ]
+}

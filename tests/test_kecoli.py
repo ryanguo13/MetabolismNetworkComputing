@@ -45,6 +45,25 @@ class KEcoliChecks(unittest.TestCase):
         analytic = model.jacobian(0, y) @ direction
         self.assertLess(np.max(abs(numerical - analytic) / np.maximum(1, abs(analytic))), 2e-6)
 
+    def test_exact_subset_rate_and_jacobian_parity(self):
+        model = self.model
+        columns = np.array([0, 7, 31, 120, 456, 1024, 3000, 5238])
+        y = np.maximum(model.y0, .01)
+        np.testing.assert_array_equal(model.flux_subset(0., y, columns), model.flux(0., y)[columns])
+        full = model.flux_jacobian(0., y).toarray()[columns]
+        subset = model.flux_jacobian_subset(0., y, columns).toarray()
+        np.testing.assert_array_equal(subset, full)
+
+    def test_reaction_system_exposes_exact_subset_evaluators(self):
+        from metabolism.splitting import ReactionSystem
+        system = ReactionSystem.from_kecoli(self.model)
+        self.assertIsNotNone(system.flux_subset)
+        self.assertIsNotNone(system.flux_jacobian_subset)
+        columns = np.array([2, 9, 77])
+        y = np.maximum(self.model.y0, .01)
+        np.testing.assert_array_equal(system.flux_subset(0., y, columns),
+                                      self.model.flux_subset(0., y, columns))
+
 
 if __name__ == '__main__':
     unittest.main()

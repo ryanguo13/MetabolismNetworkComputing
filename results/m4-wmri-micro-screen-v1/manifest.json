@@ -1,0 +1,14 @@
+{
+  "results/m4-wmri-micro-screen-v1/registration.json": "663e54f3f284897fe1c54e1f2eda3ccd114dc3edc0c03113b3cd304d08cb55db",
+  "results/m4-wmri-micro-screen-v1/runs.json": "c2b82264039542032ade48f131a1ef0ebf1715f9081cedea8f8473662bcd9e9f",
+  "results/m4-wmri-micro-screen-v1/summary.json": "f90df19b83774a6302759d692025365ad656faab263690aa9c2f89bbd6410225",
+  "results/m4-wmri-micro-screen-v1/wmri-h-9.9999999999999995e-07-rep-0.npz": "23539d660f2086ef61557bf41fd93ac3d9601f6191f935022322bf90852f0e3c",
+  "results/m4-wmri-micro-screen-v1/wmri-h-9.9999999999999995e-07-rep-1.npz": "23539d660f2086ef61557bf41fd93ac3d9601f6191f935022322bf90852f0e3c",
+  "results/m4-wmri-micro-screen-v1/wmri-h-9.9999999999999995e-07-rep-2.npz": "23539d660f2086ef61557bf41fd93ac3d9601f6191f935022322bf90852f0e3c",
+  "results/m4-wmri-micro-screen-v1/wmri-h-1.0000000000000001e-05-rep-0.npz": "4476e01613a49e5e185c6cb851a0ffb8b7f8c97dbdd75495bc91821a5b136b8a",
+  "results/m4-wmri-micro-screen-v1/wmri-h-1.0000000000000001e-05-rep-1.npz": "4476e01613a49e5e185c6cb851a0ffb8b7f8c97dbdd75495bc91821a5b136b8a",
+  "results/m4-wmri-micro-screen-v1/wmri-h-1.0000000000000001e-05-rep-2.npz": "4476e01613a49e5e185c6cb851a0ffb8b7f8c97dbdd75495bc91821a5b136b8a",
+  "results/m4-wmri-micro-screen-v1/wmri-h-3.0000000000000001e-05-rep-0.npz": "a44b8dd8eccb1dc83da3901f525c2cb186bee94abf9407cd2c8abf07775598cb",
+  "results/m4-wmri-micro-screen-v1/wmri-h-3.0000000000000001e-05-rep-1.npz": "a44b8dd8eccb1dc83da3901f525c2cb186bee94abf9407cd2c8abf07775598cb",
+  "results/m4-wmri-micro-screen-v1/wmri-h-3.0000000000000001e-05-rep-2.npz": "a44b8dd8eccb1dc83da3901f525c2cb186bee94abf9407cd2c8abf07775598cb"
+}

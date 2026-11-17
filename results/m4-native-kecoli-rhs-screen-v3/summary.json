@@ -1,0 +1,68 @@
+{
+  "scope": "Generated C RHS bound only; no solver or M4 qualification",
+  "model": "k-ecoli457",
+  "states": 5,
+  "calls": 200,
+  "repeats": 5,
+  "compile_seconds": 0.11201716697541997,
+  "rows": [
+    {
+      "state_index": 0,
+      "python_median": 0.013688208011444658,
+      "native_median": 0.013721333991270512,
+      "speedup": 0.997585804714984,
+      "max_flux_abs": 0.0,
+      "max_rhs_abs": 0.0
+    },
+    {
+      "state_index": 1,
+      "python_median": 0.013114416971802711,
+      "native_median": 0.013574749988038093,
+      "speedup": 0.9660890243547011,
+      "max_flux_abs": 0.0,
+      "max_rhs_abs": 0.0
+    },
+    {
+      "state_index": 2,
+      "python_median": 0.014505583036225289,
+      "native_median": 0.014597791014239192,
+      "speedup": 0.9936834293679119,
+      "max_flux_abs": 0.0,
+      "max_rhs_abs": 0.0
+    },
+    {
+      "state_index": 3,
+      "python_median": 0.0162348750163801,
+      "native_median": 0.017275125021114945,
+      "speedup": 0.9397833588200738,
+      "max_flux_abs": 0.0,
+      "max_rhs_abs": 0.0
+    },
+    {
+      "state_index": 4,
+      "python_median": 0.016786249994765967,
+      "native_median": 0.01748708396917209,
+      "speedup": 0.9599227649594626,
+      "max_flux_abs": 0.0,
+      "max_rhs_abs": 0.0
+    }
+  ],
+  "M4_admission": false,
+  "environment": {
+    "platform": "macOS-26.6.2-arm64-arm-64bit",
+    "python": "3.12.10",
+    "compiler": [
+      "clang",
+      "-O3",
+      "-fPIC",
+      "-dynamiclib",
+      "-isysroot",
+      "/Library/Developer/CommandLineTools/SDKs/MacOSX26.5.sdk",
+      "-o",
+      "/Users/guojunhua/Documents/MetabolismNetworkComputing/results/m4-native-kecoli-rhs-screen-v3/libkecoli_rhs.dylib",
+      "/Users/guojunhua/Documents/MetabolismNetworkComputing/results/m4-native-kecoli-rhs-screen-v3/kecoli_rhs.c"
+    ],
+    "clang_stderr": ""
+  },
+  "source_sha256": "6ab7e535d879633cb9f8f915327b4ce527317a71abeab14ea01926e158230a6f"
+}

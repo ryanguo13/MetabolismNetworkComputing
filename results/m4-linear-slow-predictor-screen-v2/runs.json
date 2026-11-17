@@ -1,0 +1,107 @@
+{
+  "methods": [
+    {
+      "name": "predictor_only_linear_slow",
+      "complete": false,
+      "candidate_wall_seconds": 0.004657500016037375,
+      "attempts": [
+        {
+          "method": "predictor_only_linear_slow",
+          "index": 0,
+          "status": "failed",
+          "start_state_sha256": "8392ea1cf31fb01fcede6d7de381ebce7f9b9412ebdc069825823440a4ed4fa9",
+          "reason": "invalid equivalence probe; no clipping",
+          "candidate_seconds": null
+        },
+        {
+          "method": "predictor_only_linear_slow",
+          "index": 1,
+          "status": "not_run_after_failure"
+        },
+        {
+          "method": "predictor_only_linear_slow",
+          "index": 2,
+          "status": "not_run_after_failure"
+        },
+        {
+          "method": "predictor_only_linear_slow",
+          "index": 3,
+          "status": "not_run_after_failure"
+        },
+        {
+          "method": "predictor_only_linear_slow",
+          "index": 4,
+          "status": "not_run_after_failure"
+        },
+        {
+          "method": "predictor_only_linear_slow",
+          "index": 5,
+          "status": "not_run_after_failure"
+        },
+        {
+          "method": "predictor_only_linear_slow",
+          "index": 6,
+          "status": "not_run_after_failure"
+        },
+        {
+          "method": "predictor_only_linear_slow",
+          "index": 7,
+          "status": "not_run_after_failure"
+        }
+      ]
+    },
+    {
+      "name": "quadratic_slow_remainder_corrected",
+      "complete": false,
+      "candidate_wall_seconds": 0.004072084033396095,
+      "attempts": [
+        {
+          "method": "quadratic_slow_remainder_corrected",
+          "index": 0,
+          "status": "failed",
+          "start_state_sha256": "8392ea1cf31fb01fcede6d7de381ebce7f9b9412ebdc069825823440a4ed4fa9",
+          "reason": "invalid equivalence probe; no clipping",
+          "candidate_seconds": null
+        },
+        {
+          "method": "quadratic_slow_remainder_corrected",
+          "index": 1,
+          "status": "not_run_after_failure"
+        },
+        {
+          "method": "quadratic_slow_remainder_corrected",
+          "index": 2,
+          "status": "not_run_after_failure"
+        },
+        {
+          "method": "quadratic_slow_remainder_corrected",
+          "index": 3,
+          "status": "not_run_after_failure"
+        },
+        {
+          "method": "quadratic_slow_remainder_corrected",
+          "index": 4,
+          "status": "not_run_after_failure"
+        },
+        {
+          "method": "quadratic_slow_remainder_corrected",
+          "index": 5,
+          "status": "not_run_after_failure"
+        },
+        {
+          "method": "quadratic_slow_remainder_corrected",
+          "index": 6,
+          "status": "not_run_after_failure"
+        },
+        {
+          "method": "quadratic_slow_remainder_corrected",
+          "index": 7,
+          "status": "not_run_after_failure"
+        }
+      ]
+    }
+  ],
+  "audits": [],
+  "audit_failures": [],
+  "step_results": []
+}

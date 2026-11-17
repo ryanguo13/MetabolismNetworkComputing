@@ -1,0 +1,4540 @@
+{
+  "rows": [
+    {
+      "model": "kecoli",
+      "state_index": 61,
+      "state_time": 0.00011497569953977356,
+      "h": 3e-05,
+      "repeat": 0,
+      "status": "success",
+      "seconds": 0.3502810419886373,
+      "candidate_stats": {
+        "predictor": {
+          "seconds": 0.06815537496004254,
+          "nfev": 9,
+          "njev": 1,
+          "nlu": 2
+        },
+        "corrector": {
+          "seconds": 0.06269870803225785,
+          "nfev": 9,
+          "njev": 1,
+          "nlu": 2
+        },
+        "remainder_norm": 0.07222393167096541,
+        "slow_jacobian_nnz": 16215,
+        "fast_jacobian_nnz": 389
+      },
+      "audit_stats": {
+        "seconds": 0.2160807080217637,
+        "nfev": 83,
+        "njev": 2,
+        "nlu": 6
+      },
+      "metrics": {
+        "0.001": {
+          "concentration_error": 0.0018993800102356526,
+          "flux_error": 0.002538202715983322,
+          "net_flux_error": 0.004442442631041866,
+          "pool_error": 4.786969431957995e-15,
+          "finite": true,
+          "nonnegative": true,
+          "passes": true
+        },
+        "1e-05": {
+          "concentration_error": 0.18993800102356523,
+          "flux_error": 0.25382027159833215,
+          "net_flux_error": 0.004442442631041866,
+          "pool_error": 4.786969431957995e-15,
+          "finite": true,
+          "nonnegative": true,
+          "passes": true
+        }
+      },
+      "npz_file": "state-61-h-3.0000000000000001e-05-rep-0.npz",
+      "npz_sha256": "dafd0bbc0b0dca991b73923861ba3878cb29d5534f07a19310b6fd062faf1241"
+    },
+    {
+      "model": "kecoli",
+      "state_index": 61,
+      "state_time": 0.00011497569953977356,
+      "h": 3e-05,
+      "repeat": 1,
+      "status": "success",
+      "seconds": 0.34002274996601045,
+      "candidate_stats": {
+        "predictor": {
+          "seconds": 0.06165787496138364,
+          "nfev": 9,
+          "njev": 1,
+          "nlu": 2
+        },
+        "corrector": {
+          "seconds": 0.06258862500544637,
+          "nfev": 9,
+          "njev": 1,
+          "nlu": 2
+        },
+        "remainder_norm": 0.07222393167096541,
+        "slow_jacobian_nnz": 16215,
+        "fast_jacobian_nnz": 389
+      },
+      "audit_stats": {
+        "seconds": 0.21355804201448336,
+        "nfev": 83,
+        "njev": 2,
+        "nlu": 6
+      },
+      "metrics": {
+        "0.001": {
+          "concentration_error": 0.0018993800102356526,
+          "flux_error": 0.002538202715983322,
+          "net_flux_error": 0.004442442631041866,
+          "pool_error": 4.786969431957995e-15,
+          "finite": true,
+          "nonnegative": true,
+          "passes": true
+        },
+        "1e-05": {
+          "concentration_error": 0.18993800102356523,
+          "flux_error": 0.25382027159833215,
+          "net_flux_error": 0.004442442631041866,
+          "pool_error": 4.786969431957995e-15,
+          "finite": true,
+          "nonnegative": true,
+          "passes": true
+        }
+      },
+      "npz_file": "state-61-h-3.0000000000000001e-05-rep-1.npz",
+      "npz_sha256": "dafd0bbc0b0dca991b73923861ba3878cb29d5534f07a19310b6fd062faf1241"
+    },
+    {
+      "model": "kecoli",
+      "state_index": 61,
+      "state_time": 0.00011497569953977356,
+      "h": 0.0001,
+      "repeat": 0,
+      "status": "success",
+      "seconds": 0.47559679101686925,
+      "candidate_stats": {
+        "predictor": {
+          "seconds": 0.06301970803178847,
+          "nfev": 9,
+          "njev": 1,
+          "nlu": 2
+        },
+        "corrector": {
+          "seconds": 0.0648818330373615,
+          "nfev": 9,
+          "njev": 1,
+          "nlu": 2
+        },
+        "remainder_norm": 0.691609469795452,
+        "slow_jacobian_nnz": 16215,
+        "fast_jacobian_nnz": 389
+      },
+      "audit_stats": {
+        "seconds": 0.34551933396141976,
+        "nfev": 199,
+        "njev": 2,
+        "nlu": 8
+      },
+      "metrics": {
+        "0.001": {
+          "concentration_error": 0.12344252862082503,
+          "flux_error": 0.12344252855227936,
+          "net_flux_error": 0.23462039342033394,
+          "pool_error": 8.001412032943015e-15,
+          "finite": true,
+          "nonnegative": true,
+          "passes": true
+        },
+        "1e-05": {
+          "concentration_error": 12.3442528620825,
+          "flux_error": 12.344252855227936,
+          "net_flux_error": 0.23462039342033394,
+          "pool_error": 8.001412032943015e-15,
+          "finite": true,
+          "nonnegative": true,
+          "passes": false
+        }
+      },
+      "npz_file": "state-61-h-0.0001-rep-0.npz",
+      "npz_sha256": "43e9dc44789af2d511d569ce2c6174472a21807a10f7d7d9ed107586aba33c1c"
+    },
+    {
+      "model": "kecoli",
+      "state_index": 61,
+      "state_time": 0.00011497569953977356,
+      "h": 0.0001,
+      "repeat": 1,
+      "status": "success",
+      "seconds": 0.4783632500329986,
+      "candidate_stats": {
+        "predictor": {
+          "seconds": 0.06578137498581782,
+          "nfev": 9,
+          "njev": 1,
+          "nlu": 2
+        },
+        "corrector": {
+          "seconds": 0.06533800001488999,
+          "nfev": 9,
+          "njev": 1,
+          "nlu": 2
+        },
+        "remainder_norm": 0.691609469795452,
+        "slow_jacobian_nnz": 16215,
+        "fast_jacobian_nnz": 389
+      },
+      "audit_stats": {
+        "seconds": 0.3449863329879008,
+        "nfev": 199,
+        "njev": 2,
+        "nlu": 8
+      },
+      "metrics": {
+        "0.001": {
+          "concentration_error": 0.12344252862082503,
+          "flux_error": 0.12344252855227936,
+          "net_flux_error": 0.23462039342033394,
+          "pool_error": 8.001412032943015e-15,
+          "finite": true,
+          "nonnegative": true,
+          "passes": true
+        },
+        "1e-05": {
+          "concentration_error": 12.3442528620825,
+          "flux_error": 12.344252855227936,
+          "net_flux_error": 0.23462039342033394,
+          "pool_error": 8.001412032943015e-15,
+          "finite": true,
+          "nonnegative": true,
+          "passes": false
+        }
+      },
+      "npz_file": "state-61-h-0.0001-rep-1.npz",
+      "npz_sha256": "43e9dc44789af2d511d569ce2c6174472a21807a10f7d7d9ed107586aba33c1c"
+    },
+    {
+      "model": "kecoli",
+      "state_index": 61,
+      "state_time": 0.00011497569953977356,
+      "h": 0.0003,
+      "repeat": 0,
+      "status": "success",
+      "seconds": 0.8491314169950783,
+      "candidate_stats": {
+        "predictor": {
+          "seconds": 0.0654729999951087,
+          "nfev": 9,
+          "njev": 1,
+          "nlu": 2
+        },
+        "corrector": {
+          "seconds": 0.13870912505080923,
+          "nfev": 45,
+          "njev": 2,
+          "nlu": 4
+        },
+        "remainder_norm": 4.195357791521758,
+        "slow_jacobian_nnz": 16215,
+        "fast_jacobian_nnz": 389
+      },
+      "audit_stats": {
+        "seconds": 0.6426461249939166,
+        "nfev": 430,
+        "njev": 2,
+        "nlu": 14
+      },
+      "metrics": {
+        "0.001": {
+          "concentration_error": 0.5486618901773331,
+          "flux_error": 0.6009111299371487,
+          "net_flux_error": 1.1353274462063032,
+          "pool_error": 1.5307199952019333e-14,
+          "finite": true,
+          "nonnegative": true,
+          "passes": false
+        },
+        "1e-05": {
+          "concentration_error": 54.8661890177333,
+          "flux_error": 60.09111299371486,
+          "net_flux_error": 1.1353274462063032,
+          "pool_error": 1.5307199952019333e-14,
+          "finite": true,
+          "nonnegative": true,
+          "passes": false
+        }
+      },
+      "npz_file": "state-61-h-0.00029999999999999997-rep-0.npz",
+      "npz_sha256": "3a3550ab688230993ff8c6e1b55705192e37c589953bbc14b4a3552470ebb3bc"
+    },
+    {
+      "model": "kecoli",
+      "state_index": 61,
+      "state_time": 0.00011497569953977356,
+      "h": 0.0003,
+      "repeat": 1,
+      "status": "success",
+      "seconds": 0.8564034579903819,
+      "candidate_stats": {
+        "predictor": {
+          "seconds": 0.06462591700255871,
+          "nfev": 9,
+          "njev": 1,
+          "nlu": 2
+        },
+        "corrector": {
+          "seconds": 0.1427767080022022,
+          "nfev": 45,
+          "njev": 2,
+          "nlu": 4
+        },
+        "remainder_norm": 4.195357791521758,
+        "slow_jacobian_nnz": 16215,
+        "fast_jacobian_nnz": 389
+      },
+      "audit_stats": {
+        "seconds": 0.6468464590143412,
+        "nfev": 430,
+        "njev": 2,
+        "nlu": 14
+      },
+      "metrics": {
+        "0.001": {
+          "concentration_error": 0.5486618901773331,
+          "flux_error": 0.6009111299371487,
+          "net_flux_error": 1.1353274462063032,
+          "pool_error": 1.5307199952019333e-14,
+          "finite": true,
+          "nonnegative": true,
+          "passes": false
+        },
+        "1e-05": {
+          "concentration_error": 54.8661890177333,
+          "flux_error": 60.09111299371486,
+          "net_flux_error": 1.1353274462063032,
+          "pool_error": 1.5307199952019333e-14,
+          "finite": true,
+          "nonnegative": true,
+          "passes": false
+        }
+      },
+      "npz_file": "state-61-h-0.00029999999999999997-rep-1.npz",
+      "npz_sha256": "3a3550ab688230993ff8c6e1b55705192e37c589953bbc14b4a3552470ebb3bc"
+    },
+    {
+      "model": "kecoli",
+      "state_index": 61,
+      "state_time": 0.00011497569953977356,
+      "h": 0.001,
+      "repeat": 0,
+      "status": "success",
+      "seconds": 1.62213829200482,
+      "candidate_stats": {
+        "predictor": {
+          "seconds": 0.06828341702930629,
+          "nfev": 9,
+          "njev": 1,
+          "nlu": 2
+        },
+        "corrector": {
+          "seconds": 0.40582037495914847,
+          "nfev": 68,
+          "njev": 1,
+          "nlu": 10
+        },
+        "remainder_norm": 14.518022543885593,
+        "slow_jacobian_nnz": 16215,
+        "fast_jacobian_nnz": 389
+      },
+      "audit_stats": {
+        "seconds": 1.1456037500174716,
+        "nfev": 941,
+        "njev": 2,
+        "nlu": 20
+      },
+      "metrics": {
+        "0.001": {
+          "concentration_error": 15.576719091701987,
+          "flux_error": 17.9384160754025,
+          "net_flux_error": 73.58199063223198,
+          "pool_error": 4.517306667617401e-14,
+          "finite": true,
+          "nonnegative": true,
+          "passes": false
+        },
+        "1e-05": {
+          "concentration_error": 1557.6719091701984,
+          "flux_error": 1793.8416075402497,
+          "net_flux_error": 73.58199063223198,
+          "pool_error": 4.517306667617401e-14,
+          "finite": true,
+          "nonnegative": true,
+          "passes": false
+        }
+      },
+      "npz_file": "state-61-h-0.001-rep-0.npz",
+      "npz_sha256": "daef50d70db8bdd0bacd90492fb03279ca8bc739feddee6d37b05399033f6c9f"
+    },
+    {
+      "model": "kecoli",
+      "state_index": 61,
+      "state_time": 0.00011497569953977356,
+      "h": 0.001,
+      "repeat": 1,
+      "status": "success",
+      "seconds": 1.4270779580110684,
+      "candidate_stats": {
+        "predictor": {
+          "seconds": 0.062227832968346775,
+          "nfev": 9,
+          "njev": 1,
+          "nlu": 2
+        },
+        "corrector": {
+          "seconds": 0.32962745800614357,
+          "nfev": 68,
+          "njev": 1,
+          "nlu": 10
+        },
+        "remainder_norm": 14.518022543885593,
+        "slow_jacobian_nnz": 16215,
+        "fast_jacobian_nnz": 389
+      },
+      "audit_stats": {
+        "seconds": 1.0329832920106128,
+        "nfev": 941,
+        "njev": 2,
+        "nlu": 20
+      },
+      "metrics": {
+        "0.001": {
+          "concentration_error": 15.576719091701987,
+          "flux_error": 17.9384160754025,
+          "net_flux_error": 73.58199063223198,
+          "pool_error": 4.517306667617401e-14,
+          "finite": true,
+          "nonnegative": true,
+          "passes": false
+        },
+        "1e-05": {
+          "concentration_error": 1557.6719091701984,
+          "flux_error": 1793.8416075402497,
+          "net_flux_error": 73.58199063223198,
+          "pool_error": 4.517306667617401e-14,
+          "finite": true,
+          "nonnegative": true,
+          "passes": false
+        }
+      },
+      "npz_file": "state-61-h-0.001-rep-1.npz",
+      "npz_sha256": "daef50d70db8bdd0bacd90492fb03279ca8bc739feddee6d37b05399033f6c9f"
+    },
+    {
+      "model": "kecoli",
+      "state_index": 61,
+      "state_time": 0.00011497569953977356,
+      "h": 0.003,
+      "repeat": 0,
+      "status": "success",
+      "seconds": 2.388722291972954,
+      "candidate_stats": {
+        "predictor": {
+          "seconds": 0.13212383299833164,
+          "nfev": 23,
+          "njev": 1,
+          "nlu": 4
+        },
+        "corrector": {
+          "seconds": 0.5318069579661824,
+          "nfev": 110,
+          "njev": 1,
+          "nlu": 16
+        },
+        "remainder_norm": 16.576023683511437,
+        "slow_jacobian_nnz": 16215,
+        "fast_jacobian_nnz": 389
+      },
+      "audit_stats": {
+        "seconds": 1.722475124988705,
+        "nfev": 1711,
+        "njev": 2,
+        "nlu": 30
+      },
+      "metrics": {
+        "0.001": {
+          "concentration_error": 76.76309361508063,
+          "flux_error": 86.7066344278623,
+          "net_flux_error": 236.13347877563578,
+          "pool_error": 8.672923490493637e-14,
+          "finite": true,
+          "nonnegative": true,
+          "passes": false
+        },
+        "1e-05": {
+          "concentration_error": 7676.3093615080625,
+          "flux_error": 8670.663442786228,
+          "net_flux_error": 236.13347877563578,
+          "pool_error": 8.672923490493637e-14,
+          "finite": true,
+          "nonnegative": true,
+          "passes": false
+        }
+      },
+      "npz_file": "state-61-h-0.0030000000000000001-rep-0.npz",
+      "npz_sha256": "5b2acc1796f26780a00c0156363d5dea507210967d94e9477dd74935fde73d73"
+    },
+    {
+      "model": "kecoli",
+      "state_index": 61,
+      "state_time": 0.00011497569953977356,
+      "h": 0.003,
+      "repeat": 1,
+      "status": "success",
+      "seconds": 2.3688787079881877,
+      "candidate_stats": {
+        "predictor": {
+          "seconds": 0.1267729999963194,
+          "nfev": 23,
+          "njev": 1,
+          "nlu": 4
+        },
+        "corrector": {
+          "seconds": 0.5121749169775285,
+          "nfev": 110,
+          "njev": 1,
+          "nlu": 16
+        },
+        "remainder_norm": 16.576023683511437,
+        "slow_jacobian_nnz": 16215,
+        "fast_jacobian_nnz": 389
+      },
+      "audit_stats": {
+        "seconds": 1.7276548749650829,
+        "nfev": 1711,
+        "njev": 2,
+        "nlu": 30
+      },
+      "metrics": {
+        "0.001": {
+          "concentration_error": 76.76309361508063,
+          "flux_error": 86.7066344278623,
+          "net_flux_error": 236.13347877563578,
+          "pool_error": 8.672923490493637e-14,
+          "finite": true,
+          "nonnegative": true,
+          "passes": false
+        },
+        "1e-05": {
+          "concentration_error": 7676.3093615080625,
+          "flux_error": 8670.663442786228,
+          "net_flux_error": 236.13347877563578,
+          "pool_error": 8.672923490493637e-14,
+          "finite": true,
+          "nonnegative": true,
+          "passes": false
+        }
+      },
+      "npz_file": "state-61-h-0.0030000000000000001-rep-1.npz",
+      "npz_sha256": "5b2acc1796f26780a00c0156363d5dea507210967d94e9477dd74935fde73d73"
+    },
+    {
+      "model": "kecoli",
+      "state_index": 61,
+      "state_time": 0.00011497569953977356,
+      "h": 0.01,
+      "repeat": 0,
+      "status": "success",
+      "seconds": 3.6807996669667773,
+      "candidate_stats": {
+        "predictor": {
+          "seconds": 0.25471808400470763,
+          "nfev": 37,
+          "njev": 1,
+          "nlu": 8
+        },
+        "corrector": {
+          "seconds": 0.8858315420220606,
+          "nfev": 165,
+          "njev": 2,
+          "nlu": 28
+        },
+        "remainder_norm": 12.576391141273291,
+        "slow_jacobian_nnz": 16215,
+        "fast_jacobian_nnz": 389
+      },
+      "audit_stats": {
+        "seconds": 2.538059708022047,
+        "nfev": 2488,
+        "njev": 2,
+        "nlu": 44
+      },
+      "metrics": {
+        "0.001": {
+          "concentration_error": 93.75904717125091,
+          "flux_error": 93.75904670927444,
+          "net_flux_error": 673.8616008541654,
+          "pool_error": 3.095154341159476e-13,
+          "finite": true,
+          "nonnegative": true,
+          "passes": false
+        },
+        "1e-05": {
+          "concentration_error": 9375.904717125091,
+          "flux_error": 9375.904670927443,
+          "net_flux_error": 673.8616008541654,
+          "pool_error": 3.095154341159476e-13,
+          "finite": true,
+          "nonnegative": true,
+          "passes": false
+        }
+      },
+      "npz_file": "state-61-h-0.01-rep-0.npz",
+      "npz_sha256": "1350195b5cca9b23e0c14a132bb32f02838abbede1b02ccb7334e51bdb75ed7e"
+    },
+    {
+      "model": "kecoli",
+      "state_index": 61,
+      "state_time": 0.00011497569953977356,
+      "h": 0.01,
+      "repeat": 1,
+      "status": "success",
+      "seconds": 3.6136310830479488,
+      "candidate_stats": {
+        "predictor": {
+          "seconds": 0.2556047079851851,
+          "nfev": 37,
+          "njev": 1,
+          "nlu": 8
+        },
+        "corrector": {
+          "seconds": 0.8994520419510081,
+          "nfev": 165,
+          "njev": 2,
+          "nlu": 28
+        },
+        "remainder_norm": 12.576391141273291,
+        "slow_jacobian_nnz": 16215,
+        "fast_jacobian_nnz": 389
+      },
+      "audit_stats": {
+        "seconds": 2.456352250010241,
+        "nfev": 2488,
+        "njev": 2,
+        "nlu": 44
+      },
+      "metrics": {
+        "0.001": {
+          "concentration_error": 93.75904717125091,
+          "flux_error": 93.75904670927444,
+          "net_flux_error": 673.8616008541654,
+          "pool_error": 3.095154341159476e-13,
+          "finite": true,
+          "nonnegative": true,
+          "passes": false
+        },
+        "1e-05": {
+          "concentration_error": 9375.904717125091,
+          "flux_error": 9375.904670927443,
+          "net_flux_error": 673.8616008541654,
+          "pool_error": 3.095154341159476e-13,
+          "finite": true,
+          "nonnegative": true,
+          "passes": false
+        }
+      },
+      "npz_file": "state-61-h-0.01-rep-1.npz",
+      "npz_sha256": "1350195b5cca9b23e0c14a132bb32f02838abbede1b02ccb7334e51bdb75ed7e"
+    },
+    {
+      "model": "kecoli",
+      "state_index": 61,
+      "state_time": 0.00011497569953977356,
+      "h": 0.03,
+      "repeat": 0,
+      "status": "success",
+      "seconds": 4.803822666988708,
+      "candidate_stats": {
+        "predictor": {
+          "seconds": 0.3315042919712141,
+          "nfev": 44,
+          "njev": 1,
+          "nlu": 10
+        },
+        "corrector": {
+          "seconds": 1.1970603339723311,
+          "nfev": 201,
+          "njev": 1,
+          "nlu": 34
+        },
+        "remainder_norm": 9.122987544010392,
+        "slow_jacobian_nnz": 16215,
+        "fast_jacobian_nnz": 389
+      },
+      "audit_stats": {
+        "seconds": 3.273087499954272,
+        "nfev": 3216,
+        "njev": 2,
+        "nlu": 54
+      },
+      "metrics": {
+        "0.001": {
+          "concentration_error": 26.06163568413712,
+          "flux_error": 31.899826630555264,
+          "net_flux_error": 473.724959250345,
+          "pool_error": 5.113279591406612e-13,
+          "finite": true,
+          "nonnegative": true,
+          "passes": false
+        },
+        "1e-05": {
+          "concentration_error": 2606.163568413712,
+          "flux_error": 3189.982663055526,
+          "net_flux_error": 473.724959250345,
+          "pool_error": 5.113279591406612e-13,
+          "finite": true,
+          "nonnegative": true,
+          "passes": false
+        }
+      },
+      "npz_file": "state-61-h-0.029999999999999999-rep-0.npz",
+      "npz_sha256": "14f6d2eae81ed8b201d88f0e8ab6e86ebd79869910b6412bfef81a186e9c429b"
+    },
+    {
+      "model": "kecoli",
+      "state_index": 61,
+      "state_time": 0.00011497569953977356,
+      "h": 0.03,
+      "repeat": 1,
+      "status": "success",
+      "seconds": 4.526172333979048,
+      "candidate_stats": {
+        "predictor": {
+          "seconds": 0.3364890420343727,
+          "nfev": 44,
+          "njev": 1,
+          "nlu": 10
+        },
+        "corrector": {
+          "seconds": 1.1100677089998499,
+          "nfev": 201,
+          "njev": 1,
+          "nlu": 34
+        },
+        "remainder_norm": 9.122987544010392,
+        "slow_jacobian_nnz": 16215,
+        "fast_jacobian_nnz": 389
+      },
+      "audit_stats": {
+        "seconds": 3.0773925840039738,
+        "nfev": 3216,
+        "njev": 2,
+        "nlu": 54
+      },
+      "metrics": {
+        "0.001": {
+          "concentration_error": 26.06163568413712,
+          "flux_error": 31.899826630555264,
+          "net_flux_error": 473.724959250345,
+          "pool_error": 5.113279591406612e-13,
+          "finite": true,
+          "nonnegative": true,
+          "passes": false
+        },
+        "1e-05": {
+          "concentration_error": 2606.163568413712,
+          "flux_error": 3189.982663055526,
+          "net_flux_error": 473.724959250345,
+          "pool_error": 5.113279591406612e-13,
+          "finite": true,
+          "nonnegative": true,
+          "passes": false
+        }
+      },
+      "npz_file": "state-61-h-0.029999999999999999-rep-1.npz",
+      "npz_sha256": "14f6d2eae81ed8b201d88f0e8ab6e86ebd79869910b6412bfef81a186e9c429b"
+    },
+    {
+      "model": "kecoli",
+      "state_index": 80,
+      "state_time": 0.009545484566618327,
+      "h": 3e-05,
+      "repeat": 0,
+      "status": "success",
+      "seconds": 0.19061679200967774,
+      "candidate_stats": {
+        "predictor": {
+          "seconds": 0.06349358300212771,
+          "nfev": 9,
+          "njev": 1,
+          "nlu": 2
+        },
+        "corrector": {
+          "seconds": 0.06186016695573926,
+          "nfev": 9,
+          "njev": 1,
+          "nlu": 2
+        },
+        "remainder_norm": 1.654063847238152e-05,
+        "slow_jacobian_nnz": 16215,
+        "fast_jacobian_nnz": 389
+      },
+      "audit_stats": {
+        "seconds": 0.06303750001825392,
+        "nfev": 9,
+        "njev": 1,
+        "nlu": 2
+      },
+      "metrics": {
+        "0.001": {
+          "concentration_error": 2.2556028848073925e-09,
+          "flux_error": 2.7570730303979234e-09,
+          "net_flux_error": 2.5296192134379907e-07,
+          "pool_error": 9.943434964299042e-15,
+          "finite": true,
+          "nonnegative": true,
+          "passes": true
+        },
+        "1e-05": {
+          "concentration_error": 2.255602884807392e-07,
+          "flux_error": 2.7570730303979227e-07,
+          "net_flux_error": 2.5296192134379907e-07,
+          "pool_error": 9.943434964299042e-15,
+          "finite": true,
+          "nonnegative": true,
+          "passes": true
+        }
+      },
+      "npz_file": "state-80-h-3.0000000000000001e-05-rep-0.npz",
+      "npz_sha256": "984e690d019e509028b1641f365600f3f5ef0eb05871ee36d0cc8a43fb33fc4e"
+    },
+    {
+      "model": "kecoli",
+      "state_index": 80,
+      "state_time": 0.009545484566618327,
+      "h": 3e-05,
+      "repeat": 1,
+      "status": "success",
+      "seconds": 0.18865074997302145,
+      "candidate_stats": {
+        "predictor": {
+          "seconds": 0.06214004196226597,
+          "nfev": 9,
+          "njev": 1,
+          "nlu": 2
+        },
+        "corrector": {
+          "seconds": 0.06211041600909084,
+          "nfev": 9,
+          "njev": 1,
+          "nlu": 2
+        },
+        "remainder_norm": 1.654063847238152e-05,
+        "slow_jacobian_nnz": 16215,
+        "fast_jacobian_nnz": 389
+      },
+      "audit_stats": {
+        "seconds": 0.062270957976579666,
+        "nfev": 9,
+        "njev": 1,
+        "nlu": 2
+      },
+      "metrics": {
+        "0.001": {
+          "concentration_error": 2.2556028848073925e-09,
+          "flux_error": 2.7570730303979234e-09,
+          "net_flux_error": 2.5296192134379907e-07,
+          "pool_error": 9.943434964299042e-15,
+          "finite": true,
+          "nonnegative": true,
+          "passes": true
+        },
+        "1e-05": {
+          "concentration_error": 2.255602884807392e-07,
+          "flux_error": 2.7570730303979227e-07,
+          "net_flux_error": 2.5296192134379907e-07,
+          "pool_error": 9.943434964299042e-15,
+          "finite": true,
+          "nonnegative": true,
+          "passes": true
+        }
+      },
+      "npz_file": "state-80-h-3.0000000000000001e-05-rep-1.npz",
+      "npz_sha256": "984e690d019e509028b1641f365600f3f5ef0eb05871ee36d0cc8a43fb33fc4e"
+    },
+    {
+      "model": "kecoli",
+      "state_index": 80,
+      "state_time": 0.009545484566618327,
+      "h": 0.0001,
+      "repeat": 0,
+      "status": "success",
+      "seconds": 0.1866977079771459,
+      "candidate_stats": {
+        "predictor": {
+          "seconds": 0.06115120800677687,
+          "nfev": 9,
+          "njev": 1,
+          "nlu": 2
+        },
+        "corrector": {
+          "seconds": 0.0621017079683952,
+          "nfev": 9,
+          "njev": 1,
+          "nlu": 2
+        },
+        "remainder_norm": 0.0001818527316243823,
+        "slow_jacobian_nnz": 16215,
+        "fast_jacobian_nnz": 389
+      },
+      "audit_stats": {
+        "seconds": 0.06132195802638307,
+        "nfev": 9,
+        "njev": 1,
+        "nlu": 2
+      },
+      "metrics": {
+        "0.001": {
+          "concentration_error": 9.80469079444402e-08,
+          "flux_error": 9.804520692543356e-08,
+          "net_flux_error": 6.044917637629406e-06,
+          "pool_error": 1.3534312559571028e-14,
+          "finite": true,
+          "nonnegative": true,
+          "passes": true
+        },
+        "1e-05": {
+          "concentration_error": 9.804690794444018e-06,
+          "flux_error": 9.804520692543354e-06,
+          "net_flux_error": 6.044917637629406e-06,
+          "pool_error": 1.3534312559571028e-14,
+          "finite": true,
+          "nonnegative": true,
+          "passes": true
+        }
+      },
+      "npz_file": "state-80-h-0.0001-rep-0.npz",
+      "npz_sha256": "0379df2118cc00fe1c1382d3ea540f72253d6d4de2a0f04da081607a6552777f"
+    },
+    {
+      "model": "kecoli",
+      "state_index": 80,
+      "state_time": 0.009545484566618327,
+      "h": 0.0001,
+      "repeat": 1,
+      "status": "success",
+      "seconds": 0.1867322499747388,
+      "candidate_stats": {
+        "predictor": {
+          "seconds": 0.06154454196803272,
+          "nfev": 9,
+          "njev": 1,
+          "nlu": 2
+        },
+        "corrector": {
+          "seconds": 0.0618947499897331,
+          "nfev": 9,
+          "njev": 1,
+          "nlu": 2
+        },
+        "remainder_norm": 0.0001818527316243823,
+        "slow_jacobian_nnz": 16215,
+        "fast_jacobian_nnz": 389
+      },
+      "audit_stats": {
+        "seconds": 0.06117841700324789,
+        "nfev": 9,
+        "njev": 1,
+        "nlu": 2
+      },
+      "metrics": {
+        "0.001": {
+          "concentration_error": 9.80469079444402e-08,
+          "flux_error": 9.804520692543356e-08,
+          "net_flux_error": 6.044917637629406e-06,
+          "pool_error": 1.3534312559571028e-14,
+          "finite": true,
+          "nonnegative": true,
+          "passes": true
+        },
+        "1e-05": {
+          "concentration_error": 9.804690794444018e-06,
+          "flux_error": 9.804520692543354e-06,
+          "net_flux_error": 6.044917637629406e-06,
+          "pool_error": 1.3534312559571028e-14,
+          "finite": true,
+          "nonnegative": true,
+          "passes": true
+        }
+      },
+      "npz_file": "state-80-h-0.0001-rep-1.npz",
+      "npz_sha256": "0379df2118cc00fe1c1382d3ea540f72253d6d4de2a0f04da081607a6552777f"
+    },
+    {
+      "model": "kecoli",
+      "state_index": 80,
+      "state_time": 0.009545484566618327,
+      "h": 0.0003,
+      "repeat": 0,
+      "status": "success",
+      "seconds": 0.32003366597928107,
+      "candidate_stats": {
+        "predictor": {
+          "seconds": 0.06239316699793562,
+          "nfev": 9,
+          "njev": 1,
+          "nlu": 2
+        },
+        "corrector": {
+          "seconds": 0.06215966696618125,
+          "nfev": 9,
+          "njev": 1,
+          "nlu": 2
+        },
+        "remainder_norm": 0.0015884882923432875,
+        "slow_jacobian_nnz": 16215,
+        "fast_jacobian_nnz": 389
+      },
+      "audit_stats": {
+        "seconds": 0.19334541697753593,
+        "nfev": 38,
+        "njev": 2,
+        "nlu": 6
+      },
+      "metrics": {
+        "0.001": {
+          "concentration_error": 7.70369095739489e-06,
+          "flux_error": 7.703692071200961e-06,
+          "net_flux_error": 0.00017240687729247803,
+          "pool_error": 1.1297473373472737e-13,
+          "finite": true,
+          "nonnegative": true,
+          "passes": true
+        },
+        "1e-05": {
+          "concentration_error": 0.0007703690957394891,
+          "flux_error": 0.000770369207120096,
+          "net_flux_error": 0.00017240687729247803,
+          "pool_error": 1.1297473373472737e-13,
+          "finite": true,
+          "nonnegative": true,
+          "passes": true
+        }
+      },
+      "npz_file": "state-80-h-0.00029999999999999997-rep-0.npz",
+      "npz_sha256": "0b0d87908b88b224a40739acd7a5230edf9c376a9ddd343b61744e70d6b9d915"
+    },
+    {
+      "model": "kecoli",
+      "state_index": 80,
+      "state_time": 0.009545484566618327,
+      "h": 0.0003,
+      "repeat": 1,
+      "status": "success",
+      "seconds": 0.4015025830012746,
+      "candidate_stats": {
+        "predictor": {
+          "seconds": 0.06582600000547245,
+          "nfev": 9,
+          "njev": 1,
+          "nlu": 2
+        },
+        "corrector": {
+          "seconds": 0.06454529101029038,
+          "nfev": 9,
+          "njev": 1,
+          "nlu": 2
+        },
+        "remainder_norm": 0.0015884882923432875,
+        "slow_jacobian_nnz": 16215,
+        "fast_jacobian_nnz": 389
+      },
+      "audit_stats": {
+        "seconds": 0.2688062919769436,
+        "nfev": 38,
+        "njev": 2,
+        "nlu": 6
+      },
+      "metrics": {
+        "0.001": {
+          "concentration_error": 7.70369095739489e-06,
+          "flux_error": 7.703692071200961e-06,
+          "net_flux_error": 0.00017240687729247803,
+          "pool_error": 1.1297473373472737e-13,
+          "finite": true,
+          "nonnegative": true,
+          "passes": true
+        },
+        "1e-05": {
+          "concentration_error": 0.0007703690957394891,
+          "flux_error": 0.000770369207120096,
+          "net_flux_error": 0.00017240687729247803,
+          "pool_error": 1.1297473373472737e-13,
+          "finite": true,
+          "nonnegative": true,
+          "passes": true
+        }
+      },
+      "npz_file": "state-80-h-0.00029999999999999997-rep-1.npz",
+      "npz_sha256": "0b0d87908b88b224a40739acd7a5230edf9c376a9ddd343b61744e70d6b9d915"
+    },
+    {
+      "model": "kecoli",
+      "state_index": 80,
+      "state_time": 0.009545484566618327,
+      "h": 0.001,
+      "repeat": 0,
+      "status": "success",
+      "seconds": 0.36281270801555365,
+      "candidate_stats": {
+        "predictor": {
+          "seconds": 0.0645682499743998,
+          "nfev": 9,
+          "njev": 1,
+          "nlu": 2
+        },
+        "corrector": {
+          "seconds": 0.06563595903571695,
+          "nfev": 9,
+          "njev": 1,
+          "nlu": 2
+        },
+        "remainder_norm": 0.01595225354971591,
+        "slow_jacobian_nnz": 16215,
+        "fast_jacobian_nnz": 389
+      },
+      "audit_stats": {
+        "seconds": 0.23041041695978492,
+        "nfev": 78,
+        "njev": 2,
+        "nlu": 4
+      },
+      "metrics": {
+        "0.001": {
+          "concentration_error": 0.0009048916718544755,
+          "flux_error": 0.0009048916723359135,
+          "net_flux_error": 0.019815720185929264,
+          "pool_error": 1.4727542102521673e-13,
+          "finite": true,
+          "nonnegative": true,
+          "passes": true
+        },
+        "1e-05": {
+          "concentration_error": 0.09048916718544754,
+          "flux_error": 0.09048916723359134,
+          "net_flux_error": 0.019815720185929264,
+          "pool_error": 1.4727542102521673e-13,
+          "finite": true,
+          "nonnegative": true,
+          "passes": true
+        }
+      },
+      "npz_file": "state-80-h-0.001-rep-0.npz",
+      "npz_sha256": "fcc9fb512101e48586896595eaa42a8d0e34417747e4a80d43b2ca31bf8f324a"
+    },
+    {
+      "model": "kecoli",
+      "state_index": 80,
+      "state_time": 0.009545484566618327,
+      "h": 0.001,
+      "repeat": 1,
+      "status": "success",
+      "seconds": 0.28167437500087544,
+      "candidate_stats": {
+        "predictor": {
+          "seconds": 0.06266891700215638,
+          "nfev": 9,
+          "njev": 1,
+          "nlu": 2
+        },
+        "corrector": {
+          "seconds": 0.06278404203476384,
+          "nfev": 9,
+          "njev": 1,
+          "nlu": 2
+        },
+        "remainder_norm": 0.01595225354971591,
+        "slow_jacobian_nnz": 16215,
+        "fast_jacobian_nnz": 389
+      },
+      "audit_stats": {
+        "seconds": 0.1539983749971725,
+        "nfev": 78,
+        "njev": 2,
+        "nlu": 4
+      },
+      "metrics": {
+        "0.001": {
+          "concentration_error": 0.0009048916718544755,
+          "flux_error": 0.0009048916723359135,
+          "net_flux_error": 0.019815720185929264,
+          "pool_error": 1.4727542102521673e-13,
+          "finite": true,
+          "nonnegative": true,
+          "passes": true
+        },
+        "1e-05": {
+          "concentration_error": 0.09048916718544754,
+          "flux_error": 0.09048916723359134,
+          "net_flux_error": 0.019815720185929264,
+          "pool_error": 1.4727542102521673e-13,
+          "finite": true,
+          "nonnegative": true,
+          "passes": true
+        }
+      },
+      "npz_file": "state-80-h-0.001-rep-1.npz",
+      "npz_sha256": "fcc9fb512101e48586896595eaa42a8d0e34417747e4a80d43b2ca31bf8f324a"
+    },
+    {
+      "model": "kecoli",
+      "state_index": 80,
+      "state_time": 0.009545484566618327,
+      "h": 0.003,
+      "repeat": 0,
+      "status": "success",
+      "seconds": 0.5423406669870019,
+      "candidate_stats": {
+        "predictor": {
+          "seconds": 0.06986695801606402,
+          "nfev": 9,
+          "njev": 1,
+          "nlu": 2
+        },
+        "corrector": {
+          "seconds": 0.13027383398730308,
+          "nfev": 16,
+          "njev": 1,
+          "nlu": 4
+        },
+        "remainder_norm": 0.1104904619597793,
+        "slow_jacobian_nnz": 16215,
+        "fast_jacobian_nnz": 389
+      },
+      "audit_stats": {
+        "seconds": 0.3395486249937676,
+        "nfev": 192,
+        "njev": 2,
+        "nlu": 8
+      },
+      "metrics": {
+        "0.001": {
+          "concentration_error": 0.005845085385086119,
+          "flux_error": 0.009661405484515478,
+          "net_flux_error": 0.15287317719737306,
+          "pool_error": 4.3523344650520036e-13,
+          "finite": true,
+          "nonnegative": true,
+          "passes": true
+        },
+        "1e-05": {
+          "concentration_error": 0.584508538508612,
+          "flux_error": 0.9661405484515476,
+          "net_flux_error": 0.15287317719737306,
+          "pool_error": 4.3523344650520036e-13,
+          "finite": true,
+          "nonnegative": true,
+          "passes": true
+        }
+      },
+      "npz_file": "state-80-h-0.0030000000000000001-rep-0.npz",
+      "npz_sha256": "ad792ba8a5c85184ff08c86329819d462274493b40085f259420877f8bf7c0e6"
+    },
+    {
+      "model": "kecoli",
+      "state_index": 80,
+      "state_time": 0.009545484566618327,
+      "h": 0.003,
+      "repeat": 1,
+      "status": "success",
+      "seconds": 0.5357953750062734,
+      "candidate_stats": {
+        "predictor": {
+          "seconds": 0.07800633303122595,
+          "nfev": 9,
+          "njev": 1,
+          "nlu": 2
+        },
+        "corrector": {
+          "seconds": 0.1333725830190815,
+          "nfev": 16,
+          "njev": 1,
+          "nlu": 4
+        },
+        "remainder_norm": 0.1104904619597793,
+        "slow_jacobian_nnz": 16215,
+        "fast_jacobian_nnz": 389
+      },
+      "audit_stats": {
+        "seconds": 0.3221310839871876,
+        "nfev": 192,
+        "njev": 2,
+        "nlu": 8
+      },
+      "metrics": {
+        "0.001": {
+          "concentration_error": 0.005845085385086119,
+          "flux_error": 0.009661405484515478,
+          "net_flux_error": 0.15287317719737306,
+          "pool_error": 4.3523344650520036e-13,
+          "finite": true,
+          "nonnegative": true,
+          "passes": true
+        },
+        "1e-05": {
+          "concentration_error": 0.584508538508612,
+          "flux_error": 0.9661405484515476,
+          "net_flux_error": 0.15287317719737306,
+          "pool_error": 4.3523344650520036e-13,
+          "finite": true,
+          "nonnegative": true,
+          "passes": true
+        }
+      },
+      "npz_file": "state-80-h-0.0030000000000000001-rep-1.npz",
+      "npz_sha256": "ad792ba8a5c85184ff08c86329819d462274493b40085f259420877f8bf7c0e6"
+    },
+    {
+      "model": "kecoli",
+      "state_index": 80,
+      "state_time": 0.009545484566618327,
+      "h": 0.01,
+      "repeat": 0,
+      "status": "success",
+      "seconds": 1.0300022499868646,
+      "candidate_stats": {
+        "predictor": {
+          "seconds": 0.14300908299628645,
+          "nfev": 16,
+          "njev": 1,
+          "nlu": 4
+        },
+        "corrector": {
+          "seconds": 0.2675545000238344,
+          "nfev": 43,
+          "njev": 2,
+          "nlu": 8
+        },
+        "remainder_norm": 0.6295659262610891,
+        "slow_jacobian_nnz": 16215,
+        "fast_jacobian_nnz": 389
+      },
+      "audit_stats": {
+        "seconds": 0.6172140419948846,
+        "nfev": 477,
+        "njev": 2,
+        "nlu": 12
+      },
+      "metrics": {
+        "0.001": {
+          "concentration_error": 0.13199651907199494,
+          "flux_error": 0.15404400590661096,
+          "net_flux_error": 0.7977116907926277,
+          "pool_error": 1.0520456034113207e-12,
+          "finite": true,
+          "nonnegative": true,
+          "passes": true
+        },
+        "1e-05": {
+          "concentration_error": 13.199651907199495,
+          "flux_error": 15.404400590661094,
+          "net_flux_error": 0.7977116907926277,
+          "pool_error": 1.0520456034113207e-12,
+          "finite": true,
+          "nonnegative": true,
+          "passes": false
+        }
+      },
+      "npz_file": "state-80-h-0.01-rep-0.npz",
+      "npz_sha256": "f1bb0bfb723665fce85fb36d212124ff74c11387d2125c8bad02d25bd6c38cdf"
+    },
+    {
+      "model": "kecoli",
+      "state_index": 80,
+      "state_time": 0.009545484566618327,
+      "h": 0.01,
+      "repeat": 1,
+      "status": "success",
+      "seconds": 1.0073398749809712,
+      "candidate_stats": {
+        "predictor": {
+          "seconds": 0.13800829200772569,
+          "nfev": 16,
+          "njev": 1,
+          "nlu": 4
+        },
+        "corrector": {
+          "seconds": 0.27397829096298665,
+          "nfev": 43,
+          "njev": 2,
+          "nlu": 8
+        },
+        "remainder_norm": 0.6295659262610891,
+        "slow_jacobian_nnz": 16215,
+        "fast_jacobian_nnz": 389
+      },
+      "audit_stats": {
+        "seconds": 0.5929658749955706,
+        "nfev": 477,
+        "njev": 2,
+        "nlu": 12
+      },
+      "metrics": {
+        "0.001": {
+          "concentration_error": 0.13199651907199494,
+          "flux_error": 0.15404400590661096,
+          "net_flux_error": 0.7977116907926277,
+          "pool_error": 1.0520456034113207e-12,
+          "finite": true,
+          "nonnegative": true,
+          "passes": true
+        },
+        "1e-05": {
+          "concentration_error": 13.199651907199495,
+          "flux_error": 15.404400590661094,
+          "net_flux_error": 0.7977116907926277,
+          "pool_error": 1.0520456034113207e-12,
+          "finite": true,
+          "nonnegative": true,
+          "passes": false
+        }
+      },
+      "npz_file": "state-80-h-0.01-rep-1.npz",
+      "npz_sha256": "f1bb0bfb723665fce85fb36d212124ff74c11387d2125c8bad02d25bd6c38cdf"
+    },
+    {
+      "model": "kecoli",
+      "state_index": 80,
+      "state_time": 0.009545484566618327,
+      "h": 0.03,
+      "repeat": 0,
+      "status": "success",
+      "seconds": 1.7318535840022378,
+      "candidate_stats": {
+        "predictor": {
+          "seconds": 0.23551104200305417,
+          "nfev": 23,
+          "njev": 1,
+          "nlu": 6
+        },
+        "corrector": {
+          "seconds": 0.4262250409810804,
+          "nfev": 65,
+          "njev": 1,
+          "nlu": 12
+        },
+        "remainder_norm": 2.193640954825249,
+        "slow_jacobian_nnz": 16215,
+        "fast_jacobian_nnz": 389
+      },
+      "audit_stats": {
+        "seconds": 1.0678793329861946,
+        "nfev": 981,
+        "njev": 2,
+        "nlu": 18
+      },
+      "metrics": {
+        "0.001": {
+          "concentration_error": 1.1269972384811797,
+          "flux_error": 1.245619233146328,
+          "net_flux_error": 4.061530325092171,
+          "pool_error": 3.1358379434798196e-12,
+          "finite": true,
+          "nonnegative": true,
+          "passes": false
+        },
+        "1e-05": {
+          "concentration_error": 112.69972384811797,
+          "flux_error": 124.56192331463279,
+          "net_flux_error": 4.061530325092171,
+          "pool_error": 3.1358379434798196e-12,
+          "finite": true,
+          "nonnegative": true,
+          "passes": false
+        }
+      },
+      "npz_file": "state-80-h-0.029999999999999999-rep-0.npz",
+      "npz_sha256": "170a5a311df3cd86dbb485671e29d05cb3da4bd0945f9960c2f71607a76bf1a5"
+    },
+    {
+      "model": "kecoli",
+      "state_index": 80,
+      "state_time": 0.009545484566618327,
+      "h": 0.03,
+      "repeat": 1,
+      "status": "success",
+      "seconds": 1.8296011660131626,
+      "candidate_stats": {
+        "predictor": {
+          "seconds": 0.23580124997533858,
+          "nfev": 23,
+          "njev": 1,
+          "nlu": 6
+        },
+        "corrector": {
+          "seconds": 0.5399378330330364,
+          "nfev": 65,
+          "njev": 1,
+          "nlu": 12
+        },
+        "remainder_norm": 2.193640954825249,
+        "slow_jacobian_nnz": 16215,
+        "fast_jacobian_nnz": 389
+      },
+      "audit_stats": {
+        "seconds": 1.0514783340040594,
+        "nfev": 981,
+        "njev": 2,
+        "nlu": 18
+      },
+      "metrics": {
+        "0.001": {
+          "concentration_error": 1.1269972384811797,
+          "flux_error": 1.245619233146328,
+          "net_flux_error": 4.061530325092171,
+          "pool_error": 3.1358379434798196e-12,
+          "finite": true,
+          "nonnegative": true,
+          "passes": false
+        },
+        "1e-05": {
+          "concentration_error": 112.69972384811797,
+          "flux_error": 124.56192331463279,
+          "net_flux_error": 4.061530325092171,
+          "pool_error": 3.1358379434798196e-12,
+          "finite": true,
+          "nonnegative": true,
+          "passes": false
+        }
+      },
+      "npz_file": "state-80-h-0.029999999999999999-rep-1.npz",
+      "npz_sha256": "170a5a311df3cd86dbb485671e29d05cb3da4bd0945f9960c2f71607a76bf1a5"
+    },
+    {
+      "model": "kecoli",
+      "state_index": 100,
+      "state_time": 0.1,
+      "h": 3e-05,
+      "repeat": 0,
+      "status": "success",
+      "seconds": 0.19374766701366752,
+      "candidate_stats": {
+        "predictor": {
+          "seconds": 0.062211541982833296,
+          "nfev": 9,
+          "njev": 1,
+          "nlu": 2
+        },
+        "corrector": {
+          "seconds": 0.0640693330205977,
+          "nfev": 9,
+          "njev": 1,
+          "nlu": 2
+        },
+        "remainder_norm": 1.2888930877288402e-07,
+        "slow_jacobian_nnz": 16215,
+        "fast_jacobian_nnz": 389
+      },
+      "audit_stats": {
+        "seconds": 0.06526758300606161,
+        "nfev": 9,
+        "njev": 1,
+        "nlu": 2
+      },
+      "metrics": {
+        "0.001": {
+          "concentration_error": 1.4411746881517515e-09,
+          "flux_error": 2.435101916870728e-09,
+          "net_flux_error": 8.827520091173925e-08,
+          "pool_error": 7.15573433840432e-15,
+          "finite": true,
+          "nonnegative": true,
+          "passes": true
+        },
+        "1e-05": {
+          "concentration_error": 1.4411746881517513e-07,
+          "flux_error": 2.435101916870728e-07,
+          "net_flux_error": 8.827520091173925e-08,
+          "pool_error": 7.15573433840432e-15,
+          "finite": true,
+          "nonnegative": true,
+          "passes": true
+        }
+      },
+      "npz_file": "state-100-h-3.0000000000000001e-05-rep-0.npz",
+      "npz_sha256": "b97a77f0cb5d712f9ecc035cccac1d4925e7056c51451960291c4ac4304516f5"
+    },
+    {
+      "model": "kecoli",
+      "state_index": 100,
+      "state_time": 0.1,
+      "h": 3e-05,
+      "repeat": 1,
+      "status": "success",
+      "seconds": 0.19373799994355068,
+      "candidate_stats": {
+        "predictor": {
+          "seconds": 0.0648520840331912,
+          "nfev": 9,
+          "njev": 1,
+          "nlu": 2
+        },
+        "corrector": {
+          "seconds": 0.064071667031385,
+          "nfev": 9,
+          "njev": 1,
+          "nlu": 2
+        },
+        "remainder_norm": 1.2888930877288402e-07,
+        "slow_jacobian_nnz": 16215,
+        "fast_jacobian_nnz": 389
+      },
+      "audit_stats": {
+        "seconds": 0.06267695903079584,
+        "nfev": 9,
+        "njev": 1,
+        "nlu": 2
+      },
+      "metrics": {
+        "0.001": {
+          "concentration_error": 1.4411746881517515e-09,
+          "flux_error": 2.435101916870728e-09,
+          "net_flux_error": 8.827520091173925e-08,
+          "pool_error": 7.15573433840432e-15,
+          "finite": true,
+          "nonnegative": true,
+          "passes": true
+        },
+        "1e-05": {
+          "concentration_error": 1.4411746881517513e-07,
+          "flux_error": 2.435101916870728e-07,
+          "net_flux_error": 8.827520091173925e-08,
+          "pool_error": 7.15573433840432e-15,
+          "finite": true,
+          "nonnegative": true,
+          "passes": true
+        }
+      },
+      "npz_file": "state-100-h-3.0000000000000001e-05-rep-1.npz",
+      "npz_sha256": "b97a77f0cb5d712f9ecc035cccac1d4925e7056c51451960291c4ac4304516f5"
+    },
+    {
+      "model": "kecoli",
+      "state_index": 100,
+      "state_time": 0.1,
+      "h": 0.0001,
+      "repeat": 0,
+      "status": "success",
+      "seconds": 0.24938454100629315,
+      "candidate_stats": {
+        "predictor": {
+          "seconds": 0.06221699999878183,
+          "nfev": 9,
+          "njev": 1,
+          "nlu": 2
+        },
+        "corrector": {
+          "seconds": 0.062134499952662736,
+          "nfev": 9,
+          "njev": 1,
+          "nlu": 2
+        },
+        "remainder_norm": 1.4309273841290018e-06,
+        "slow_jacobian_nnz": 16215,
+        "fast_jacobian_nnz": 389
+      },
+      "audit_stats": {
+        "seconds": 0.12278525001602247,
+        "nfev": 16,
+        "njev": 1,
+        "nlu": 4
+      },
+      "metrics": {
+        "0.001": {
+          "concentration_error": 1.2300651146920222e-09,
+          "flux_error": 2.4319759837296875e-09,
+          "net_flux_error": 2.81400910968383e-07,
+          "pool_error": 8.58948329129915e-15,
+          "finite": true,
+          "nonnegative": true,
+          "passes": true
+        },
+        "1e-05": {
+          "concentration_error": 1.230065114692022e-07,
+          "flux_error": 2.431975983729687e-07,
+          "net_flux_error": 2.81400910968383e-07,
+          "pool_error": 8.58948329129915e-15,
+          "finite": true,
+          "nonnegative": true,
+          "passes": true
+        }
+      },
+      "npz_file": "state-100-h-0.0001-rep-0.npz",
+      "npz_sha256": "d1804b8efaeeb312feae267c90405563deada6ad0df84590f1f7b193e8ae6781"
+    },
+    {
+      "model": "kecoli",
+      "state_index": 100,
+      "state_time": 0.1,
+      "h": 0.0001,
+      "repeat": 1,
+      "status": "success",
+      "seconds": 0.24913287500385195,
+      "candidate_stats": {
+        "predictor": {
+          "seconds": 0.061684667016379535,
+          "nfev": 9,
+          "njev": 1,
+          "nlu": 2
+        },
+        "corrector": {
+          "seconds": 0.0621633330010809,
+          "nfev": 9,
+          "njev": 1,
+          "nlu": 2
+        },
+        "remainder_norm": 1.4309273841290018e-06,
+        "slow_jacobian_nnz": 16215,
+        "fast_jacobian_nnz": 389
+      },
+      "audit_stats": {
+        "seconds": 0.12302420800551772,
+        "nfev": 16,
+        "njev": 1,
+        "nlu": 4
+      },
+      "metrics": {
+        "0.001": {
+          "concentration_error": 1.2300651146920222e-09,
+          "flux_error": 2.4319759837296875e-09,
+          "net_flux_error": 2.81400910968383e-07,
+          "pool_error": 8.58948329129915e-15,
+          "finite": true,
+          "nonnegative": true,
+          "passes": true
+        },
+        "1e-05": {
+          "concentration_error": 1.230065114692022e-07,
+          "flux_error": 2.431975983729687e-07,
+          "net_flux_error": 2.81400910968383e-07,
+          "pool_error": 8.58948329129915e-15,
+          "finite": true,
+          "nonnegative": true,
+          "passes": true
+        }
+      },
+      "npz_file": "state-100-h-0.0001-rep-1.npz",
+      "npz_sha256": "d1804b8efaeeb312feae267c90405563deada6ad0df84590f1f7b193e8ae6781"
+    },
+    {
+      "model": "kecoli",
+      "state_index": 100,
+      "state_time": 0.1,
+      "h": 0.0003,
+      "repeat": 0,
+      "status": "success",
+      "seconds": 0.5838997089886107,
+      "candidate_stats": {
+        "predictor": {
+          "seconds": 0.06280945800244808,
+          "nfev": 9,
+          "njev": 1,
+          "nlu": 2
+        },
+        "corrector": {
+          "seconds": 0.06241825001779944,
+          "nfev": 9,
+          "njev": 1,
+          "nlu": 2
+        },
+        "remainder_norm": 1.2847813601189723e-05,
+        "slow_jacobian_nnz": 16215,
+        "fast_jacobian_nnz": 389
+      },
+      "audit_stats": {
+        "seconds": 0.45646591600961983,
+        "nfev": 66,
+        "njev": 3,
+        "nlu": 14
+      },
+      "metrics": {
+        "0.001": {
+          "concentration_error": 4.388875537607105e-08,
+          "flux_error": 4.013104466583938e-08,
+          "net_flux_error": 1.3963609543731276e-07,
+          "pool_error": 7.055207112971464e-14,
+          "finite": true,
+          "nonnegative": true,
+          "passes": true
+        },
+        "1e-05": {
+          "concentration_error": 4.388875537607104e-06,
+          "flux_error": 4.013104466583937e-06,
+          "net_flux_error": 1.3963609543731276e-07,
+          "pool_error": 7.055207112971464e-14,
+          "finite": true,
+          "nonnegative": true,
+          "passes": true
+        }
+      },
+      "npz_file": "state-100-h-0.00029999999999999997-rep-0.npz",
+      "npz_sha256": "e76e24e06454b141681d27cad67590ce2ba52034b06c5c43ecc4a3b312224650"
+    },
+    {
+      "model": "kecoli",
+      "state_index": 100,
+      "state_time": 0.1,
+      "h": 0.0003,
+      "repeat": 1,
+      "status": "success",
+      "seconds": 0.5879121249890886,
+      "candidate_stats": {
+        "predictor": {
+          "seconds": 0.06614116701530293,
+          "nfev": 9,
+          "njev": 1,
+          "nlu": 2
+        },
+        "corrector": {
+          "seconds": 0.06719316600356251,
+          "nfev": 9,
+          "njev": 1,
+          "nlu": 2
+        },
+        "remainder_norm": 1.2847813601189723e-05,
+        "slow_jacobian_nnz": 16215,
+        "fast_jacobian_nnz": 389
+      },
+      "audit_stats": {
+        "seconds": 0.4522636670153588,
+        "nfev": 66,
+        "njev": 3,
+        "nlu": 14
+      },
+      "metrics": {
+        "0.001": {
+          "concentration_error": 4.388875537607105e-08,
+          "flux_error": 4.013104466583938e-08,
+          "net_flux_error": 1.3963609543731276e-07,
+          "pool_error": 7.055207112971464e-14,
+          "finite": true,
+          "nonnegative": true,
+          "passes": true
+        },
+        "1e-05": {
+          "concentration_error": 4.388875537607104e-06,
+          "flux_error": 4.013104466583937e-06,
+          "net_flux_error": 1.3963609543731276e-07,
+          "pool_error": 7.055207112971464e-14,
+          "finite": true,
+          "nonnegative": true,
+          "passes": true
+        }
+      },
+      "npz_file": "state-100-h-0.00029999999999999997-rep-1.npz",
+      "npz_sha256": "e76e24e06454b141681d27cad67590ce2ba52034b06c5c43ecc4a3b312224650"
+    },
+    {
+      "model": "kecoli",
+      "state_index": 100,
+      "state_time": 0.1,
+      "h": 0.001,
+      "repeat": 0,
+      "status": "success",
+      "seconds": 0.31352000002516434,
+      "candidate_stats": {
+        "predictor": {
+          "seconds": 0.06420241697924212,
+          "nfev": 9,
+          "njev": 1,
+          "nlu": 2
+        },
+        "corrector": {
+          "seconds": 0.06292483303695917,
+          "nfev": 9,
+          "njev": 1,
+          "nlu": 2
+        },
+        "remainder_norm": 0.00014157165168933737,
+        "slow_jacobian_nnz": 16215,
+        "fast_jacobian_nnz": 389
+      },
+      "audit_stats": {
+        "seconds": 0.1840762920328416,
+        "nfev": 23,
+        "njev": 1,
+        "nlu": 6
+      },
+      "metrics": {
+        "0.001": {
+          "concentration_error": 3.4207924557139554e-06,
+          "flux_error": 3.84471601491519e-06,
+          "net_flux_error": 9.040463212674184e-06,
+          "pool_error": 1.8034185256254861e-13,
+          "finite": true,
+          "nonnegative": true,
+          "passes": true
+        },
+        "1e-05": {
+          "concentration_error": 0.00034207924557139554,
+          "flux_error": 0.0003844716014915189,
+          "net_flux_error": 9.040463212674184e-06,
+          "pool_error": 1.8034185256254861e-13,
+          "finite": true,
+          "nonnegative": true,
+          "passes": true
+        }
+      },
+      "npz_file": "state-100-h-0.001-rep-0.npz",
+      "npz_sha256": "70b506b1f30b396463b8afad615b1b861dee6de32fc47a050e87409912907376"
+    },
+    {
+      "model": "kecoli",
+      "state_index": 100,
+      "state_time": 0.1,
+      "h": 0.001,
+      "repeat": 1,
+      "status": "success",
+      "seconds": 0.31805379199795425,
+      "candidate_stats": {
+        "predictor": {
+          "seconds": 0.06194833299377933,
+          "nfev": 9,
+          "njev": 1,
+          "nlu": 2
+        },
+        "corrector": {
+          "seconds": 0.06380179099505767,
+          "nfev": 9,
+          "njev": 1,
+          "nlu": 2
+        },
+        "remainder_norm": 0.00014157165168933737,
+        "slow_jacobian_nnz": 16215,
+        "fast_jacobian_nnz": 389
+      },
+      "audit_stats": {
+        "seconds": 0.19005666702287272,
+        "nfev": 23,
+        "njev": 1,
+        "nlu": 6
+      },
+      "metrics": {
+        "0.001": {
+          "concentration_error": 3.4207924557139554e-06,
+          "flux_error": 3.84471601491519e-06,
+          "net_flux_error": 9.040463212674184e-06,
+          "pool_error": 1.8034185256254861e-13,
+          "finite": true,
+          "nonnegative": true,
+          "passes": true
+        },
+        "1e-05": {
+          "concentration_error": 0.00034207924557139554,
+          "flux_error": 0.0003844716014915189,
+          "net_flux_error": 9.040463212674184e-06,
+          "pool_error": 1.8034185256254861e-13,
+          "finite": true,
+          "nonnegative": true,
+          "passes": true
+        }
+      },
+      "npz_file": "state-100-h-0.001-rep-1.npz",
+      "npz_sha256": "70b506b1f30b396463b8afad615b1b861dee6de32fc47a050e87409912907376"
+    },
+    {
+      "model": "kecoli",
+      "state_index": 100,
+      "state_time": 0.1,
+      "h": 0.003,
+      "repeat": 0,
+      "status": "success",
+      "seconds": 0.6068077920353971,
+      "candidate_stats": {
+        "predictor": {
+          "seconds": 0.06975283299107105,
+          "nfev": 9,
+          "njev": 1,
+          "nlu": 2
+        },
+        "corrector": {
+          "seconds": 0.13121862499974668,
+          "nfev": 16,
+          "njev": 1,
+          "nlu": 4
+        },
+        "remainder_norm": 0.0012444428130626757,
+        "slow_jacobian_nnz": 16215,
+        "fast_jacobian_nnz": 389
+      },
+      "audit_stats": {
+        "seconds": 0.40350137499626726,
+        "nfev": 68,
+        "njev": 3,
+        "nlu": 12
+      },
+      "metrics": {
+        "0.001": {
+          "concentration_error": 0.00014515675100538664,
+          "flux_error": 0.00016324014313081895,
+          "net_flux_error": 0.00018929241335837723,
+          "pool_error": 7.656228082075768e-13,
+          "finite": true,
+          "nonnegative": true,
+          "passes": true
+        },
+        "1e-05": {
+          "concentration_error": 0.014515675100538663,
+          "flux_error": 0.016324014313081895,
+          "net_flux_error": 0.00018929241335837723,
+          "pool_error": 7.656228082075768e-13,
+          "finite": true,
+          "nonnegative": true,
+          "passes": true
+        }
+      },
+      "npz_file": "state-100-h-0.0030000000000000001-rep-0.npz",
+      "npz_sha256": "42c27e25cb892adeeafccd8d1747d3a43320d2f9c7a34b4111c0ae9bf728d92e"
+    },
+    {
+      "model": "kecoli",
+      "state_index": 100,
+      "state_time": 0.1,
+      "h": 0.003,
+      "repeat": 1,
+      "status": "success",
+      "seconds": 0.5800224579870701,
+      "candidate_stats": {
+        "predictor": {
+          "seconds": 0.06691716704517603,
+          "nfev": 9,
+          "njev": 1,
+          "nlu": 2
+        },
+        "corrector": {
+          "seconds": 0.12410408398136497,
+          "nfev": 16,
+          "njev": 1,
+          "nlu": 4
+        },
+        "remainder_norm": 0.0012444428130626757,
+        "slow_jacobian_nnz": 16215,
+        "fast_jacobian_nnz": 389
+      },
+      "audit_stats": {
+        "seconds": 0.38680849998490885,
+        "nfev": 68,
+        "njev": 3,
+        "nlu": 12
+      },
+      "metrics": {
+        "0.001": {
+          "concentration_error": 0.00014515675100538664,
+          "flux_error": 0.00016324014313081895,
+          "net_flux_error": 0.00018929241335837723,
+          "pool_error": 7.656228082075768e-13,
+          "finite": true,
+          "nonnegative": true,
+          "passes": true
+        },
+        "1e-05": {
+          "concentration_error": 0.014515675100538663,
+          "flux_error": 0.016324014313081895,
+          "net_flux_error": 0.00018929241335837723,
+          "pool_error": 7.656228082075768e-13,
+          "finite": true,
+          "nonnegative": true,
+          "passes": true
+        }
+      },
+      "npz_file": "state-100-h-0.0030000000000000001-rep-1.npz",
+      "npz_sha256": "42c27e25cb892adeeafccd8d1747d3a43320d2f9c7a34b4111c0ae9bf728d92e"
+    },
+    {
+      "model": "kecoli",
+      "state_index": 100,
+      "state_time": 0.1,
+      "h": 0.01,
+      "repeat": 0,
+      "status": "success",
+      "seconds": 0.5879439589916728,
+      "candidate_stats": {
+        "predictor": {
+          "seconds": 0.13796404202003032,
+          "nfev": 16,
+          "njev": 1,
+          "nlu": 4
+        },
+        "corrector": {
+          "seconds": 0.1387192080146633,
+          "nfev": 16,
+          "njev": 1,
+          "nlu": 4
+        },
+        "remainder_norm": 0.012762811171393705,
+        "slow_jacobian_nnz": 16215,
+        "fast_jacobian_nnz": 389
+      },
+      "audit_stats": {
+        "seconds": 0.3088512079557404,
+        "nfev": 122,
+        "njev": 2,
+        "nlu": 8
+      },
+      "metrics": {
+        "0.001": {
+          "concentration_error": 0.0033114685538814794,
+          "flux_error": 0.003927964393756433,
+          "net_flux_error": 0.013869644944912914,
+          "pool_error": 1.2425459966491898e-12,
+          "finite": true,
+          "nonnegative": true,
+          "passes": true
+        },
+        "1e-05": {
+          "concentration_error": 0.3311468553881479,
+          "flux_error": 0.39279643937564324,
+          "net_flux_error": 0.013869644944912914,
+          "pool_error": 1.2425459966491898e-12,
+          "finite": true,
+          "nonnegative": true,
+          "passes": true
+        }
+      },
+      "npz_file": "state-100-h-0.01-rep-0.npz",
+      "npz_sha256": "8b0916e765d939fae3505e2d8306a39f13c6775f75be2830933d71ad4c18ec17"
+    },
+    {
+      "model": "kecoli",
+      "state_index": 100,
+      "state_time": 0.1,
+      "h": 0.01,
+      "repeat": 1,
+      "status": "success",
+      "seconds": 0.5597132089897059,
+      "candidate_stats": {
+        "predictor": {
+          "seconds": 0.13254558300832286,
+          "nfev": 16,
+          "njev": 1,
+          "nlu": 4
+        },
+        "corrector": {
+          "seconds": 0.13263895898126066,
+          "nfev": 16,
+          "njev": 1,
+          "nlu": 4
+        },
+        "remainder_norm": 0.012762811171393705,
+        "slow_jacobian_nnz": 16215,
+        "fast_jacobian_nnz": 389
+      },
+      "audit_stats": {
+        "seconds": 0.2922607499640435,
+        "nfev": 122,
+        "njev": 2,
+        "nlu": 8
+      },
+      "metrics": {
+        "0.001": {
+          "concentration_error": 0.0033114685538814794,
+          "flux_error": 0.003927964393756433,
+          "net_flux_error": 0.013869644944912914,
+          "pool_error": 1.2425459966491898e-12,
+          "finite": true,
+          "nonnegative": true,
+          "passes": true
+        },
+        "1e-05": {
+          "concentration_error": 0.3311468553881479,
+          "flux_error": 0.39279643937564324,
+          "net_flux_error": 0.013869644944912914,
+          "pool_error": 1.2425459966491898e-12,
+          "finite": true,
+          "nonnegative": true,
+          "passes": true
+        }
+      },
+      "npz_file": "state-100-h-0.01-rep-1.npz",
+      "npz_sha256": "8b0916e765d939fae3505e2d8306a39f13c6775f75be2830933d71ad4c18ec17"
+    },
+    {
+      "model": "kecoli",
+      "state_index": 100,
+      "state_time": 0.1,
+      "h": 0.03,
+      "repeat": 0,
+      "status": "success",
+      "seconds": 0.9432444580015726,
+      "candidate_stats": {
+        "predictor": {
+          "seconds": 0.17172662500524893,
+          "nfev": 16,
+          "njev": 1,
+          "nlu": 4
+        },
+        "corrector": {
+          "seconds": 0.3165714999777265,
+          "nfev": 36,
+          "njev": 2,
+          "nlu": 8
+        },
+        "remainder_norm": 0.09742243162402692,
+        "slow_jacobian_nnz": 16215,
+        "fast_jacobian_nnz": 389
+      },
+      "audit_stats": {
+        "seconds": 0.45276966696837917,
+        "nfev": 324,
+        "njev": 3,
+        "nlu": 10
+      },
+      "metrics": {
+        "0.001": {
+          "concentration_error": 0.05447365326044558,
+          "flux_error": 0.036130473873977276,
+          "net_flux_error": 0.4677353770979308,
+          "pool_error": 3.473016145505432e-12,
+          "finite": true,
+          "nonnegative": true,
+          "passes": true
+        },
+        "1e-05": {
+          "concentration_error": 5.447365326044558,
+          "flux_error": 3.6130473873977267,
+          "net_flux_error": 0.4677353770979308,
+          "pool_error": 3.473016145505432e-12,
+          "finite": true,
+          "nonnegative": true,
+          "passes": false
+        }
+      },
+      "npz_file": "state-100-h-0.029999999999999999-rep-0.npz",
+      "npz_sha256": "f573f85a66674e3eb896c958cd0b3c0a2617e39571d85abe599cbb0c7d9613ac"
+    },
+    {
+      "model": "kecoli",
+      "state_index": 100,
+      "state_time": 0.1,
+      "h": 0.03,
+      "repeat": 1,
+      "status": "success",
+      "seconds": 0.9449542499496602,
+      "candidate_stats": {
+        "predictor": {
+          "seconds": 0.16503670800011605,
+          "nfev": 16,
+          "njev": 1,
+          "nlu": 4
+        },
+        "corrector": {
+          "seconds": 0.30759120895527303,
+          "nfev": 36,
+          "njev": 2,
+          "nlu": 8
+        },
+        "remainder_norm": 0.09742243162402692,
+        "slow_jacobian_nnz": 16215,
+        "fast_jacobian_nnz": 389
+      },
+      "audit_stats": {
+        "seconds": 0.4699514160165563,
+        "nfev": 324,
+        "njev": 3,
+        "nlu": 10
+      },
+      "metrics": {
+        "0.001": {
+          "concentration_error": 0.05447365326044558,
+          "flux_error": 0.036130473873977276,
+          "net_flux_error": 0.4677353770979308,
+          "pool_error": 3.473016145505432e-12,
+          "finite": true,
+          "nonnegative": true,
+          "passes": true
+        },
+        "1e-05": {
+          "concentration_error": 5.447365326044558,
+          "flux_error": 3.6130473873977267,
+          "net_flux_error": 0.4677353770979308,
+          "pool_error": 3.473016145505432e-12,
+          "finite": true,
+          "nonnegative": true,
+          "passes": false
+        }
+      },
+      "npz_file": "state-100-h-0.029999999999999999-rep-1.npz",
+      "npz_sha256": "f573f85a66674e3eb896c958cd0b3c0a2617e39571d85abe599cbb0c7d9613ac"
+    },
+    {
+      "model": "kecoli",
+      "state_index": 120,
+      "state_time": 0.26,
+      "h": 3e-05,
+      "repeat": 0,
+      "status": "success",
+      "seconds": 0.18942341703223065,
+      "candidate_stats": {
+        "predictor": {
+          "seconds": 0.06285416701575741,
+          "nfev": 9,
+          "njev": 1,
+          "nlu": 2
+        },
+        "corrector": {
+          "seconds": 0.062495000020135194,
+          "nfev": 9,
+          "njev": 1,
+          "nlu": 2
+        },
+        "remainder_norm": 6.483838190635659e-09,
+        "slow_jacobian_nnz": 16215,
+        "fast_jacobian_nnz": 389
+      },
+      "audit_stats": {
+        "seconds": 0.061800000024959445,
+        "nfev": 9,
+        "njev": 1,
+        "nlu": 2
+      },
+      "metrics": {
+        "0.001": {
+          "concentration_error": 5.54889299714113e-10,
+          "flux_error": 7.189646224393677e-10,
+          "net_flux_error": 8.025018264703568e-08,
+          "pool_error": 3.573530360512219e-15,
+          "finite": true,
+          "nonnegative": true,
+          "passes": true
+        },
+        "1e-05": {
+          "concentration_error": 5.548892997141129e-08,
+          "flux_error": 7.189646224393676e-08,
+          "net_flux_error": 8.025018264703568e-08,
+          "pool_error": 3.573530360512219e-15,
+          "finite": true,
+          "nonnegative": true,
+          "passes": true
+        }
+      },
+      "npz_file": "state-120-h-3.0000000000000001e-05-rep-0.npz",
+      "npz_sha256": "aecd1ad925290ab237f3722c4fe6d8ac5d24f68247928605dcbca7d536164ee0"
+    },
+    {
+      "model": "kecoli",
+      "state_index": 120,
+      "state_time": 0.26,
+      "h": 3e-05,
+      "repeat": 1,
+      "status": "success",
+      "seconds": 0.1879311659722589,
+      "candidate_stats": {
+        "predictor": {
+          "seconds": 0.06196204200387001,
+          "nfev": 9,
+          "njev": 1,
+          "nlu": 2
+        },
+        "corrector": {
+          "seconds": 0.06202370801474899,
+          "nfev": 9,
+          "njev": 1,
+          "nlu": 2
+        },
+        "remainder_norm": 6.483838190635659e-09,
+        "slow_jacobian_nnz": 16215,
+        "fast_jacobian_nnz": 389
+      },
+      "audit_stats": {
+        "seconds": 0.061826499993912876,
+        "nfev": 9,
+        "njev": 1,
+        "nlu": 2
+      },
+      "metrics": {
+        "0.001": {
+          "concentration_error": 5.54889299714113e-10,
+          "flux_error": 7.189646224393677e-10,
+          "net_flux_error": 8.025018264703568e-08,
+          "pool_error": 3.573530360512219e-15,
+          "finite": true,
+          "nonnegative": true,
+          "passes": true
+        },
+        "1e-05": {
+          "concentration_error": 5.548892997141129e-08,
+          "flux_error": 7.189646224393676e-08,
+          "net_flux_error": 8.025018264703568e-08,
+          "pool_error": 3.573530360512219e-15,
+          "finite": true,
+          "nonnegative": true,
+          "passes": true
+        }
+      },
+      "npz_file": "state-120-h-3.0000000000000001e-05-rep-1.npz",
+      "npz_sha256": "aecd1ad925290ab237f3722c4fe6d8ac5d24f68247928605dcbca7d536164ee0"
+    },
+    {
+      "model": "kecoli",
+      "state_index": 120,
+      "state_time": 0.26,
+      "h": 0.0001,
+      "repeat": 0,
+      "status": "success",
+      "seconds": 0.18735324998851866,
+      "candidate_stats": {
+        "predictor": {
+          "seconds": 0.061812292027752846,
+          "nfev": 9,
+          "njev": 1,
+          "nlu": 2
+        },
+        "corrector": {
+          "seconds": 0.06182791700121015,
+          "nfev": 9,
+          "njev": 1,
+          "nlu": 2
+        },
+        "remainder_norm": 7.196613800258779e-08,
+        "slow_jacobian_nnz": 16215,
+        "fast_jacobian_nnz": 389
+      },
+      "audit_stats": {
+        "seconds": 0.061552916013170034,
+        "nfev": 9,
+        "njev": 1,
+        "nlu": 2
+      },
+      "metrics": {
+        "0.001": {
+          "concentration_error": 9.771615666806926e-09,
+          "flux_error": 1.6086051943795595e-08,
+          "net_flux_error": 1.6451287442642315e-07,
+          "pool_error": 4.637523004502592e-14,
+          "finite": true,
+          "nonnegative": true,
+          "passes": true
+        },
+        "1e-05": {
+          "concentration_error": 9.771615666806925e-07,
+          "flux_error": 1.608605194379559e-06,
+          "net_flux_error": 1.6451287442642315e-07,
+          "pool_error": 4.637523004502592e-14,
+          "finite": true,
+          "nonnegative": true,
+          "passes": true
+        }
+      },
+      "npz_file": "state-120-h-0.0001-rep-0.npz",
+      "npz_sha256": "53350f2c4640a5800963ab5f360cc3635dde0622756eb9e2840dab12c30dbe79"
+    },
+    {
+      "model": "kecoli",
+      "state_index": 120,
+      "state_time": 0.26,
+      "h": 0.0001,
+      "repeat": 1,
+      "status": "success",
+      "seconds": 0.18884604203049093,
+      "candidate_stats": {
+        "predictor": {
+          "seconds": 0.062193250050768256,
+          "nfev": 9,
+          "njev": 1,
+          "nlu": 2
+        },
+        "corrector": {
+          "seconds": 0.06234050000784919,
+          "nfev": 9,
+          "njev": 1,
+          "nlu": 2
+        },
+        "remainder_norm": 7.196613800258779e-08,
+        "slow_jacobian_nnz": 16215,
+        "fast_jacobian_nnz": 389
+      },
+      "audit_stats": {
+        "seconds": 0.06216349999886006,
+        "nfev": 9,
+        "njev": 1,
+        "nlu": 2
+      },
+      "metrics": {
+        "0.001": {
+          "concentration_error": 9.771615666806926e-09,
+          "flux_error": 1.6086051943795595e-08,
+          "net_flux_error": 1.6451287442642315e-07,
+          "pool_error": 4.637523004502592e-14,
+          "finite": true,
+          "nonnegative": true,
+          "passes": true
+        },
+        "1e-05": {
+          "concentration_error": 9.771615666806925e-07,
+          "flux_error": 1.608605194379559e-06,
+          "net_flux_error": 1.6451287442642315e-07,
+          "pool_error": 4.637523004502592e-14,
+          "finite": true,
+          "nonnegative": true,
+          "passes": true
+        }
+      },
+      "npz_file": "state-120-h-0.0001-rep-1.npz",
+      "npz_sha256": "53350f2c4640a5800963ab5f360cc3635dde0622756eb9e2840dab12c30dbe79"
+    },
+    {
+      "model": "kecoli",
+      "state_index": 120,
+      "state_time": 0.26,
+      "h": 0.0003,
+      "repeat": 0,
+      "status": "success",
+      "seconds": 0.2521815830259584,
+      "candidate_stats": {
+        "predictor": {
+          "seconds": 0.06337495899060741,
+          "nfev": 9,
+          "njev": 1,
+          "nlu": 2
+        },
+        "corrector": {
+          "seconds": 0.06235666701104492,
+          "nfev": 9,
+          "njev": 1,
+          "nlu": 2
+        },
+        "remainder_norm": 6.460724557161572e-07,
+        "slow_jacobian_nnz": 16215,
+        "fast_jacobian_nnz": 389
+      },
+      "audit_stats": {
+        "seconds": 0.12428150000050664,
+        "nfev": 16,
+        "njev": 1,
+        "nlu": 4
+      },
+      "metrics": {
+        "0.001": {
+          "concentration_error": 1.8129512079719852e-09,
+          "flux_error": 3.1571924724511367e-09,
+          "net_flux_error": 9.630021917644281e-08,
+          "pool_error": 6.791442408449192e-15,
+          "finite": true,
+          "nonnegative": true,
+          "passes": true
+        },
+        "1e-05": {
+          "concentration_error": 1.812951207971985e-07,
+          "flux_error": 3.157192472451136e-07,
+          "net_flux_error": 9.630021917644281e-08,
+          "pool_error": 6.791442408449192e-15,
+          "finite": true,
+          "nonnegative": true,
+          "passes": true
+        }
+      },
+      "npz_file": "state-120-h-0.00029999999999999997-rep-0.npz",
+      "npz_sha256": "8d61fbb39b902668dbf1920f26242d4d5392a8d5de613750d3953ca875b608f7"
+    },
+    {
+      "model": "kecoli",
+      "state_index": 120,
+      "state_time": 0.26,
+      "h": 0.0003,
+      "repeat": 1,
+      "status": "success",
+      "seconds": 0.25596458301879466,
+      "candidate_stats": {
+        "predictor": {
+          "seconds": 0.06194220797624439,
+          "nfev": 9,
+          "njev": 1,
+          "nlu": 2
+        },
+        "corrector": {
+          "seconds": 0.06492049997905269,
+          "nfev": 9,
+          "njev": 1,
+          "nlu": 2
+        },
+        "remainder_norm": 6.460724557161572e-07,
+        "slow_jacobian_nnz": 16215,
+        "fast_jacobian_nnz": 389
+      },
+      "audit_stats": {
+        "seconds": 0.12685441598296165,
+        "nfev": 16,
+        "njev": 1,
+        "nlu": 4
+      },
+      "metrics": {
+        "0.001": {
+          "concentration_error": 1.8129512079719852e-09,
+          "flux_error": 3.1571924724511367e-09,
+          "net_flux_error": 9.630021917644281e-08,
+          "pool_error": 6.791442408449192e-15,
+          "finite": true,
+          "nonnegative": true,
+          "passes": true
+        },
+        "1e-05": {
+          "concentration_error": 1.812951207971985e-07,
+          "flux_error": 3.157192472451136e-07,
+          "net_flux_error": 9.630021917644281e-08,
+          "pool_error": 6.791442408449192e-15,
+          "finite": true,
+          "nonnegative": true,
+          "passes": true
+        }
+      },
+      "npz_file": "state-120-h-0.00029999999999999997-rep-1.npz",
+      "npz_sha256": "8d61fbb39b902668dbf1920f26242d4d5392a8d5de613750d3953ca875b608f7"
+    },
+    {
+      "model": "kecoli",
+      "state_index": 120,
+      "state_time": 0.26,
+      "h": 0.001,
+      "repeat": 0,
+      "status": "success",
+      "seconds": 0.260963166016154,
+      "candidate_stats": {
+        "predictor": {
+          "seconds": 0.06544224999379367,
+          "nfev": 9,
+          "njev": 1,
+          "nlu": 2
+        },
+        "corrector": {
+          "seconds": 0.0642995829693973,
+          "nfev": 9,
+          "njev": 1,
+          "nlu": 2
+        },
+        "remainder_norm": 7.116367944253127e-06,
+        "slow_jacobian_nnz": 16215,
+        "fast_jacobian_nnz": 389
+      },
+      "audit_stats": {
+        "seconds": 0.12901416700333357,
+        "nfev": 16,
+        "njev": 1,
+        "nlu": 4
+      },
+      "metrics": {
+        "0.001": {
+          "concentration_error": 1.6313000695659703e-07,
+          "flux_error": 1.7994403338680612e-07,
+          "net_flux_error": 4.1255187080744975e-07,
+          "pool_error": 3.034031359483432e-13,
+          "finite": true,
+          "nonnegative": true,
+          "passes": true
+        },
+        "1e-05": {
+          "concentration_error": 1.6313000695659704e-05,
+          "flux_error": 1.7994403338680608e-05,
+          "net_flux_error": 4.1255187080744975e-07,
+          "pool_error": 3.034031359483432e-13,
+          "finite": true,
+          "nonnegative": true,
+          "passes": true
+        }
+      },
+      "npz_file": "state-120-h-0.001-rep-0.npz",
+      "npz_sha256": "3a591bf9ff97eb98a9c2440755ef38f4c4ce3fed2764b5eb844f53b03e7e1373"
+    },
+    {
+      "model": "kecoli",
+      "state_index": 120,
+      "state_time": 0.26,
+      "h": 0.001,
+      "repeat": 1,
+      "status": "success",
+      "seconds": 0.26444845902733505,
+      "candidate_stats": {
+        "predictor": {
+          "seconds": 0.06557687500026077,
+          "nfev": 9,
+          "njev": 1,
+          "nlu": 2
+        },
+        "corrector": {
+          "seconds": 0.06552658398868516,
+          "nfev": 9,
+          "njev": 1,
+          "nlu": 2
+        },
+        "remainder_norm": 7.116367944253127e-06,
+        "slow_jacobian_nnz": 16215,
+        "fast_jacobian_nnz": 389
+      },
+      "audit_stats": {
+        "seconds": 0.1311767500010319,
+        "nfev": 16,
+        "njev": 1,
+        "nlu": 4
+      },
+      "metrics": {
+        "0.001": {
+          "concentration_error": 1.6313000695659703e-07,
+          "flux_error": 1.7994403338680612e-07,
+          "net_flux_error": 4.1255187080744975e-07,
+          "pool_error": 3.034031359483432e-13,
+          "finite": true,
+          "nonnegative": true,
+          "passes": true
+        },
+        "1e-05": {
+          "concentration_error": 1.6313000695659704e-05,
+          "flux_error": 1.7994403338680608e-05,
+          "net_flux_error": 4.1255187080744975e-07,
+          "pool_error": 3.034031359483432e-13,
+          "finite": true,
+          "nonnegative": true,
+          "passes": true
+        }
+      },
+      "npz_file": "state-120-h-0.001-rep-1.npz",
+      "npz_sha256": "3a591bf9ff97eb98a9c2440755ef38f4c4ce3fed2764b5eb844f53b03e7e1373"
+    },
+    {
+      "model": "kecoli",
+      "state_index": 120,
+      "state_time": 0.26,
+      "h": 0.003,
+      "repeat": 0,
+      "status": "success",
+      "seconds": 1.113662416988518,
+      "candidate_stats": {
+        "predictor": {
+          "seconds": 0.06661483296193182,
+          "nfev": 9,
+          "njev": 1,
+          "nlu": 2
+        },
+        "corrector": {
+          "seconds": 0.06717174994992092,
+          "nfev": 9,
+          "njev": 1,
+          "nlu": 2
+        },
+        "remainder_norm": 6.249742815468023e-05,
+        "slow_jacobian_nnz": 16215,
+        "fast_jacobian_nnz": 389
+      },
+      "audit_stats": {
+        "seconds": 0.9777296659885906,
+        "nfev": 132,
+        "njev": 3,
+        "nlu": 30
+      },
+      "metrics": {
+        "0.001": {
+          "concentration_error": 4.571266097200661e-06,
+          "flux_error": 5.0168622388099784e-06,
+          "net_flux_error": 2.4177999994286273e-05,
+          "pool_error": 1.173072056159795e-13,
+          "finite": true,
+          "nonnegative": true,
+          "passes": true
+        },
+        "1e-05": {
+          "concentration_error": 0.0004571266097200661,
+          "flux_error": 0.0005016862238809977,
+          "net_flux_error": 2.4177999994286273e-05,
+          "pool_error": 1.173072056159795e-13,
+          "finite": true,
+          "nonnegative": true,
+          "passes": true
+        }
+      },
+      "npz_file": "state-120-h-0.0030000000000000001-rep-0.npz",
+      "npz_sha256": "e5d4e13b0de21a53462b2e96939f38cf5b5ab3af1cc870aa4b6f6f012d216b0e"
+    },
+    {
+      "model": "kecoli",
+      "state_index": 120,
+      "state_time": 0.26,
+      "h": 0.003,
+      "repeat": 1,
+      "status": "success",
+      "seconds": 1.0747514580143616,
+      "candidate_stats": {
+        "predictor": {
+          "seconds": 0.06692987499991432,
+          "nfev": 9,
+          "njev": 1,
+          "nlu": 2
+        },
+        "corrector": {
+          "seconds": 0.06716199999209493,
+          "nfev": 9,
+          "njev": 1,
+          "nlu": 2
+        },
+        "remainder_norm": 6.249742815468023e-05,
+        "slow_jacobian_nnz": 16215,
+        "fast_jacobian_nnz": 389
+      },
+      "audit_stats": {
+        "seconds": 0.938492207962554,
+        "nfev": 132,
+        "njev": 3,
+        "nlu": 30
+      },
+      "metrics": {
+        "0.001": {
+          "concentration_error": 4.571266097200661e-06,
+          "flux_error": 5.0168622388099784e-06,
+          "net_flux_error": 2.4177999994286273e-05,
+          "pool_error": 1.173072056159795e-13,
+          "finite": true,
+          "nonnegative": true,
+          "passes": true
+        },
+        "1e-05": {
+          "concentration_error": 0.0004571266097200661,
+          "flux_error": 0.0005016862238809977,
+          "net_flux_error": 2.4177999994286273e-05,
+          "pool_error": 1.173072056159795e-13,
+          "finite": true,
+          "nonnegative": true,
+          "passes": true
+        }
+      },
+      "npz_file": "state-120-h-0.0030000000000000001-rep-1.npz",
+      "npz_sha256": "e5d4e13b0de21a53462b2e96939f38cf5b5ab3af1cc870aa4b6f6f012d216b0e"
+    },
+    {
+      "model": "kecoli",
+      "state_index": 120,
+      "state_time": 0.26,
+      "h": 0.01,
+      "repeat": 0,
+      "status": "success",
+      "seconds": 1.5183174170088023,
+      "candidate_stats": {
+        "predictor": {
+          "seconds": 0.07462075003422797,
+          "nfev": 9,
+          "njev": 1,
+          "nlu": 2
+        },
+        "corrector": {
+          "seconds": 0.14040491596097127,
+          "nfev": 16,
+          "njev": 1,
+          "nlu": 4
+        },
+        "remainder_norm": 0.0006403297088210056,
+        "slow_jacobian_nnz": 16215,
+        "fast_jacobian_nnz": 389
+      },
+      "audit_stats": {
+        "seconds": 1.301068790955469,
+        "nfev": 202,
+        "njev": 5,
+        "nlu": 40
+      },
+      "metrics": {
+        "0.001": {
+          "concentration_error": 6.295403391727697e-05,
+          "flux_error": 6.295403257837463e-05,
+          "net_flux_error": 0.0009524800330317342,
+          "pool_error": 8.469527162935355e-13,
+          "finite": true,
+          "nonnegative": true,
+          "passes": true
+        },
+        "1e-05": {
+          "concentration_error": 0.006295403391727695,
+          "flux_error": 0.006295403257837462,
+          "net_flux_error": 0.0009524800330317342,
+          "pool_error": 8.469527162935355e-13,
+          "finite": true,
+          "nonnegative": true,
+          "passes": true
+        }
+      },
+      "npz_file": "state-120-h-0.01-rep-0.npz",
+      "npz_sha256": "14fb5c22cc0447f9269abf9770a64cd889b1bd72d468e0fc2b8c6ca3153210fa"
+    },
+    {
+      "model": "kecoli",
+      "state_index": 120,
+      "state_time": 0.26,
+      "h": 0.01,
+      "repeat": 1,
+      "status": "success",
+      "seconds": 1.5306088749784976,
+      "candidate_stats": {
+        "predictor": {
+          "seconds": 0.07699887501075864,
+          "nfev": 9,
+          "njev": 1,
+          "nlu": 2
+        },
+        "corrector": {
+          "seconds": 0.15199254202889279,
+          "nfev": 16,
+          "njev": 1,
+          "nlu": 4
+        },
+        "remainder_norm": 0.0006403297088210056,
+        "slow_jacobian_nnz": 16215,
+        "fast_jacobian_nnz": 389
+      },
+      "audit_stats": {
+        "seconds": 1.2993609169498086,
+        "nfev": 202,
+        "njev": 5,
+        "nlu": 40
+      },
+      "metrics": {
+        "0.001": {
+          "concentration_error": 6.295403391727697e-05,
+          "flux_error": 6.295403257837463e-05,
+          "net_flux_error": 0.0009524800330317342,
+          "pool_error": 8.469527162935355e-13,
+          "finite": true,
+          "nonnegative": true,
+          "passes": true
+        },
+        "1e-05": {
+          "concentration_error": 0.006295403391727695,
+          "flux_error": 0.006295403257837462,
+          "net_flux_error": 0.0009524800330317342,
+          "pool_error": 8.469527162935355e-13,
+          "finite": true,
+          "nonnegative": true,
+          "passes": true
+        }
+      },
+      "npz_file": "state-120-h-0.01-rep-1.npz",
+      "npz_sha256": "14fb5c22cc0447f9269abf9770a64cd889b1bd72d468e0fc2b8c6ca3153210fa"
+    },
+    {
+      "model": "kecoli",
+      "state_index": 120,
+      "state_time": 0.26,
+      "h": 0.03,
+      "repeat": 0,
+      "status": "success",
+      "seconds": 1.4206375409848988,
+      "candidate_stats": {
+        "predictor": {
+          "seconds": 0.2197290000040084,
+          "nfev": 16,
+          "njev": 1,
+          "nlu": 4
+        },
+        "corrector": {
+          "seconds": 0.30224749998888,
+          "nfev": 29,
+          "njev": 2,
+          "nlu": 6
+        },
+        "remainder_norm": 0.004783139205564389,
+        "slow_jacobian_nnz": 16215,
+        "fast_jacobian_nnz": 389
+      },
+      "audit_stats": {
+        "seconds": 0.89600608299952,
+        "nfev": 243,
+        "njev": 3,
+        "nlu": 26
+      },
+      "metrics": {
+        "0.001": {
+          "concentration_error": 0.007721175487338676,
+          "flux_error": 0.007391688296144052,
+          "net_flux_error": 0.11710489525519802,
+          "pool_error": 1.124359806647933e-11,
+          "finite": true,
+          "nonnegative": true,
+          "passes": true
+        },
+        "1e-05": {
+          "concentration_error": 0.7721175487338675,
+          "flux_error": 0.7391688296144052,
+          "net_flux_error": 0.11710489525519802,
+          "pool_error": 1.124359806647933e-11,
+          "finite": true,
+          "nonnegative": true,
+          "passes": true
+        }
+      },
+      "npz_file": "state-120-h-0.029999999999999999-rep-0.npz",
+      "npz_sha256": "50e0662e07b0e8d286ba04471e834f887a187964edbe069c2f1a1b8680feb3de"
+    },
+    {
+      "model": "kecoli",
+      "state_index": 120,
+      "state_time": 0.26,
+      "h": 0.03,
+      "repeat": 1,
+      "status": "success",
+      "seconds": 1.3149842920247465,
+      "candidate_stats": {
+        "predictor": {
+          "seconds": 0.17197954200673848,
+          "nfev": 16,
+          "njev": 1,
+          "nlu": 4
+        },
+        "corrector": {
+          "seconds": 0.2575884169782512,
+          "nfev": 29,
+          "njev": 2,
+          "nlu": 6
+        },
+        "remainder_norm": 0.004783139205564389,
+        "slow_jacobian_nnz": 16215,
+        "fast_jacobian_nnz": 389
+      },
+      "audit_stats": {
+        "seconds": 0.8831920829834417,
+        "nfev": 243,
+        "njev": 3,
+        "nlu": 26
+      },
+      "metrics": {
+        "0.001": {
+          "concentration_error": 0.007721175487338676,
+          "flux_error": 0.007391688296144052,
+          "net_flux_error": 0.11710489525519802,
+          "pool_error": 1.124359806647933e-11,
+          "finite": true,
+          "nonnegative": true,
+          "passes": true
+        },
+        "1e-05": {
+          "concentration_error": 0.7721175487338675,
+          "flux_error": 0.7391688296144052,
+          "net_flux_error": 0.11710489525519802,
+          "pool_error": 1.124359806647933e-11,
+          "finite": true,
+          "nonnegative": true,
+          "passes": true
+        }
+      },
+      "npz_file": "state-120-h-0.029999999999999999-rep-1.npz",
+      "npz_sha256": "50e0662e07b0e8d286ba04471e834f887a187964edbe069c2f1a1b8680feb3de"
+    },
+    {
+      "model": "kecoli",
+      "state_index": 150,
+      "state_time": 0.53,
+      "h": 3e-05,
+      "repeat": 0,
+      "status": "success",
+      "seconds": 0.19905012502567843,
+      "candidate_stats": {
+        "predictor": {
+          "seconds": 0.06618645903654397,
+          "nfev": 9,
+          "njev": 1,
+          "nlu": 2
+        },
+        "corrector": {
+          "seconds": 0.06449550000252202,
+          "nfev": 9,
+          "njev": 1,
+          "nlu": 2
+        },
+        "remainder_norm": 5.759577676518671e-09,
+        "slow_jacobian_nnz": 16215,
+        "fast_jacobian_nnz": 389
+      },
+      "audit_stats": {
+        "seconds": 0.06608170899562538,
+        "nfev": 9,
+        "njev": 1,
+        "nlu": 2
+      },
+      "metrics": {
+        "0.001": {
+          "concentration_error": 9.429061738480118e-10,
+          "flux_error": 1.863056152060275e-09,
+          "net_flux_error": 4.012509132351784e-08,
+          "pool_error": 2.0487084251286064e-15,
+          "finite": true,
+          "nonnegative": true,
+          "passes": true
+        },
+        "1e-05": {
+          "concentration_error": 9.429061738480119e-08,
+          "flux_error": 1.8630561520602743e-07,
+          "net_flux_error": 4.012509132351784e-08,
+          "pool_error": 2.0487084251286064e-15,
+          "finite": true,
+          "nonnegative": true,
+          "passes": true
+        }
+      },
+      "npz_file": "state-150-h-3.0000000000000001e-05-rep-0.npz",
+      "npz_sha256": "da3deead6fc95b7f84a536015aee76c62d6a8a6da3f09c8756302ff8fc3e4381"
+    },
+    {
+      "model": "kecoli",
+      "state_index": 150,
+      "state_time": 0.53,
+      "h": 3e-05,
+      "repeat": 1,
+      "status": "success",
+      "seconds": 0.20006295799976215,
+      "candidate_stats": {
+        "predictor": {
+          "seconds": 0.06539358396548778,
+          "nfev": 9,
+          "njev": 1,
+          "nlu": 2
+        },
+        "corrector": {
+          "seconds": 0.06731370801571757,
+          "nfev": 9,
+          "njev": 1,
+          "nlu": 2
+        },
+        "remainder_norm": 5.759577676518671e-09,
+        "slow_jacobian_nnz": 16215,
+        "fast_jacobian_nnz": 389
+      },
+      "audit_stats": {
+        "seconds": 0.0651628749910742,
+        "nfev": 9,
+        "njev": 1,
+        "nlu": 2
+      },
+      "metrics": {
+        "0.001": {
+          "concentration_error": 9.429061738480118e-10,
+          "flux_error": 1.863056152060275e-09,
+          "net_flux_error": 4.012509132351784e-08,
+          "pool_error": 2.0487084251286064e-15,
+          "finite": true,
+          "nonnegative": true,
+          "passes": true
+        },
+        "1e-05": {
+          "concentration_error": 9.429061738480119e-08,
+          "flux_error": 1.8630561520602743e-07,
+          "net_flux_error": 4.012509132351784e-08,
+          "pool_error": 2.0487084251286064e-15,
+          "finite": true,
+          "nonnegative": true,
+          "passes": true
+        }
+      },
+      "npz_file": "state-150-h-3.0000000000000001e-05-rep-1.npz",
+      "npz_sha256": "da3deead6fc95b7f84a536015aee76c62d6a8a6da3f09c8756302ff8fc3e4381"
+    },
+    {
+      "model": "kecoli",
+      "state_index": 150,
+      "state_time": 0.53,
+      "h": 0.0001,
+      "repeat": 0,
+      "status": "success",
+      "seconds": 0.1915744169964455,
+      "candidate_stats": {
+        "predictor": {
+          "seconds": 0.06497295800363645,
+          "nfev": 9,
+          "njev": 1,
+          "nlu": 2
+        },
+        "corrector": {
+          "seconds": 0.06230291700921953,
+          "nfev": 9,
+          "njev": 1,
+          "nlu": 2
+        },
+        "remainder_norm": 6.402371759317812e-08,
+        "slow_jacobian_nnz": 16215,
+        "fast_jacobian_nnz": 389
+      },
+      "audit_stats": {
+        "seconds": 0.062147832999471575,
+        "nfev": 9,
+        "njev": 1,
+        "nlu": 2
+      },
+      "metrics": {
+        "0.001": {
+          "concentration_error": 2.2293237878295244e-09,
+          "flux_error": 3.419770856298558e-09,
+          "net_flux_error": 5.216261872057319e-08,
+          "pool_error": 3.139068865953827e-14,
+          "finite": true,
+          "nonnegative": true,
+          "passes": true
+        },
+        "1e-05": {
+          "concentration_error": 2.229323787829524e-07,
+          "flux_error": 3.419770856298557e-07,
+          "net_flux_error": 5.216261872057319e-08,
+          "pool_error": 3.139068865953827e-14,
+          "finite": true,
+          "nonnegative": true,
+          "passes": true
+        }
+      },
+      "npz_file": "state-150-h-0.0001-rep-0.npz",
+      "npz_sha256": "6d016f081dae1f887a2c7f67dc1c32817b73ff6d5de0ccbc13b36110320d4ecf"
+    },
+    {
+      "model": "kecoli",
+      "state_index": 150,
+      "state_time": 0.53,
+      "h": 0.0001,
+      "repeat": 1,
+      "status": "success",
+      "seconds": 0.18848387501202524,
+      "candidate_stats": {
+        "predictor": {
+          "seconds": 0.061947832989972085,
+          "nfev": 9,
+          "njev": 1,
+          "nlu": 2
+        },
+        "corrector": {
+          "seconds": 0.06261491699842736,
+          "nfev": 9,
+          "njev": 1,
+          "nlu": 2
+        },
+        "remainder_norm": 6.402371759317812e-08,
+        "slow_jacobian_nnz": 16215,
+        "fast_jacobian_nnz": 389
+      },
+      "audit_stats": {
+        "seconds": 0.061764084035530686,
+        "nfev": 9,
+        "njev": 1,
+        "nlu": 2
+      },
+      "metrics": {
+        "0.001": {
+          "concentration_error": 2.2293237878295244e-09,
+          "flux_error": 3.419770856298558e-09,
+          "net_flux_error": 5.216261872057319e-08,
+          "pool_error": 3.139068865953827e-14,
+          "finite": true,
+          "nonnegative": true,
+          "passes": true
+        },
+        "1e-05": {
+          "concentration_error": 2.229323787829524e-07,
+          "flux_error": 3.419770856298557e-07,
+          "net_flux_error": 5.216261872057319e-08,
+          "pool_error": 3.139068865953827e-14,
+          "finite": true,
+          "nonnegative": true,
+          "passes": true
+        }
+      },
+      "npz_file": "state-150-h-0.0001-rep-1.npz",
+      "npz_sha256": "6d016f081dae1f887a2c7f67dc1c32817b73ff6d5de0ccbc13b36110320d4ecf"
+    },
+    {
+      "model": "kecoli",
+      "state_index": 150,
+      "state_time": 0.53,
+      "h": 0.0003,
+      "repeat": 0,
+      "status": "success",
+      "seconds": 0.7054146669688635,
+      "candidate_stats": {
+        "predictor": {
+          "seconds": 0.0634429999627173,
+          "nfev": 9,
+          "njev": 1,
+          "nlu": 2
+        },
+        "corrector": {
+          "seconds": 0.06300820800242946,
+          "nfev": 9,
+          "njev": 1,
+          "nlu": 2
+        },
+        "remainder_norm": 5.766834534353012e-07,
+        "slow_jacobian_nnz": 16215,
+        "fast_jacobian_nnz": 389
+      },
+      "audit_stats": {
+        "seconds": 0.5767912919982336,
+        "nfev": 80,
+        "njev": 3,
+        "nlu": 18
+      },
+      "metrics": {
+        "0.001": {
+          "concentration_error": 2.977134931848289e-09,
+          "flux_error": 2.977002373549586e-09,
+          "net_flux_error": 2.1190866675784808e-07,
+          "pool_error": 5.497338695370494e-14,
+          "finite": true,
+          "nonnegative": true,
+          "passes": true
+        },
+        "1e-05": {
+          "concentration_error": 2.977134931848289e-07,
+          "flux_error": 2.9770023735495856e-07,
+          "net_flux_error": 2.1190866675784808e-07,
+          "pool_error": 5.497338695370494e-14,
+          "finite": true,
+          "nonnegative": true,
+          "passes": true
+        }
+      },
+      "npz_file": "state-150-h-0.00029999999999999997-rep-0.npz",
+      "npz_sha256": "44b440b17982676bc03203bad35e0603756b37fccda1006d947aa99a5aa45c2c"
+    },
+    {
+      "model": "kecoli",
+      "state_index": 150,
+      "state_time": 0.53,
+      "h": 0.0003,
+      "repeat": 1,
+      "status": "success",
+      "seconds": 0.7088272919645533,
+      "candidate_stats": {
+        "predictor": {
+          "seconds": 0.06464829196920618,
+          "nfev": 9,
+          "njev": 1,
+          "nlu": 2
+        },
+        "corrector": {
+          "seconds": 0.07239604200003669,
+          "nfev": 9,
+          "njev": 1,
+          "nlu": 2
+        },
+        "remainder_norm": 5.766834534353012e-07,
+        "slow_jacobian_nnz": 16215,
+        "fast_jacobian_nnz": 389
+      },
+      "audit_stats": {
+        "seconds": 0.5695690409629606,
+        "nfev": 80,
+        "njev": 3,
+        "nlu": 18
+      },
+      "metrics": {
+        "0.001": {
+          "concentration_error": 2.977134931848289e-09,
+          "flux_error": 2.977002373549586e-09,
+          "net_flux_error": 2.1190866675784808e-07,
+          "pool_error": 5.497338695370494e-14,
+          "finite": true,
+          "nonnegative": true,
+          "passes": true
+        },
+        "1e-05": {
+          "concentration_error": 2.977134931848289e-07,
+          "flux_error": 2.9770023735495856e-07,
+          "net_flux_error": 2.1190866675784808e-07,
+          "pool_error": 5.497338695370494e-14,
+          "finite": true,
+          "nonnegative": true,
+          "passes": true
+        }
+      },
+      "npz_file": "state-150-h-0.00029999999999999997-rep-1.npz",
+      "npz_sha256": "44b440b17982676bc03203bad35e0603756b37fccda1006d947aa99a5aa45c2c"
+    },
+    {
+      "model": "kecoli",
+      "state_index": 150,
+      "state_time": 0.53,
+      "h": 0.001,
+      "repeat": 0,
+      "status": "success",
+      "seconds": 2.0177628340316005,
+      "candidate_stats": {
+        "predictor": {
+          "seconds": 0.062127667013555765,
+          "nfev": 9,
+          "njev": 1,
+          "nlu": 2
+        },
+        "corrector": {
+          "seconds": 0.06301095796516165,
+          "nfev": 9,
+          "njev": 1,
+          "nlu": 2
+        },
+        "remainder_norm": 6.425562400024507e-06,
+        "slow_jacobian_nnz": 16215,
+        "fast_jacobian_nnz": 389
+      },
+      "audit_stats": {
+        "seconds": 1.890461041009985,
+        "nfev": 245,
+        "njev": 5,
+        "nlu": 60
+      },
+      "metrics": {
+        "0.001": {
+          "concentration_error": 1.7949943332702578e-08,
+          "flux_error": 2.802711654257118e-08,
+          "net_flux_error": 1.595642496618527e-07,
+          "pool_error": 1.9647478088913292e-13,
+          "finite": true,
+          "nonnegative": true,
+          "passes": true
+        },
+        "1e-05": {
+          "concentration_error": 1.7949943332702576e-06,
+          "flux_error": 2.8027116542571173e-06,
+          "net_flux_error": 1.595642496618527e-07,
+          "pool_error": 1.9647478088913292e-13,
+          "finite": true,
+          "nonnegative": true,
+          "passes": true
+        }
+      },
+      "npz_file": "state-150-h-0.001-rep-0.npz",
+      "npz_sha256": "c9542310813b10da549f3a1998653d3a2712fe15ae619133c10620ef3a2638be"
+    },
+    {
+      "model": "kecoli",
+      "state_index": 150,
+      "state_time": 0.53,
+      "h": 0.001,
+      "repeat": 1,
+      "status": "success",
+      "seconds": 2.0296016670181416,
+      "candidate_stats": {
+        "predictor": {
+          "seconds": 0.06428333296207711,
+          "nfev": 9,
+          "njev": 1,
+          "nlu": 2
+        },
+        "corrector": {
+          "seconds": 0.06493495794711635,
+          "nfev": 9,
+          "njev": 1,
+          "nlu": 2
+        },
+        "remainder_norm": 6.425562400024507e-06,
+        "slow_jacobian_nnz": 16215,
+        "fast_jacobian_nnz": 389
+      },
+      "audit_stats": {
+        "seconds": 1.8980556669994257,
+        "nfev": 245,
+        "njev": 5,
+        "nlu": 60
+      },
+      "metrics": {
+        "0.001": {
+          "concentration_error": 1.7949943332702578e-08,
+          "flux_error": 2.802711654257118e-08,
+          "net_flux_error": 1.595642496618527e-07,
+          "pool_error": 1.9647478088913292e-13,
+          "finite": true,
+          "nonnegative": true,
+          "passes": true
+        },
+        "1e-05": {
+          "concentration_error": 1.7949943332702576e-06,
+          "flux_error": 2.8027116542571173e-06,
+          "net_flux_error": 1.595642496618527e-07,
+          "pool_error": 1.9647478088913292e-13,
+          "finite": true,
+          "nonnegative": true,
+          "passes": true
+        }
+      },
+      "npz_file": "state-150-h-0.001-rep-1.npz",
+      "npz_sha256": "c9542310813b10da549f3a1998653d3a2712fe15ae619133c10620ef3a2638be"
+    },
+    {
+      "model": "kecoli",
+      "state_index": 150,
+      "state_time": 0.53,
+      "h": 0.003,
+      "repeat": 0,
+      "status": "success",
+      "seconds": 2.3531565829762258,
+      "candidate_stats": {
+        "predictor": {
+          "seconds": 0.06837037502555177,
+          "nfev": 9,
+          "njev": 1,
+          "nlu": 2
+        },
+        "corrector": {
+          "seconds": 0.12593133299378678,
+          "nfev": 16,
+          "njev": 1,
+          "nlu": 4
+        },
+        "remainder_norm": 5.8293646029329484e-05,
+        "slow_jacobian_nnz": 16215,
+        "fast_jacobian_nnz": 389
+      },
+      "audit_stats": {
+        "seconds": 2.1567071670433506,
+        "nfev": 263,
+        "njev": 6,
+        "nlu": 66
+      },
+      "metrics": {
+        "0.001": {
+          "concentration_error": 3.4353298731793534e-07,
+          "flux_error": 1.3690180487844927e-06,
+          "net_flux_error": 1.974251548778403e-06,
+          "pool_error": 1.0300675243324328e-12,
+          "finite": true,
+          "nonnegative": true,
+          "passes": true
+        },
+        "1e-05": {
+          "concentration_error": 3.435329873179353e-05,
+          "flux_error": 0.00013690180487844925,
+          "net_flux_error": 1.974251548778403e-06,
+          "pool_error": 1.0300675243324328e-12,
+          "finite": true,
+          "nonnegative": true,
+          "passes": true
+        }
+      },
+      "npz_file": "state-150-h-0.0030000000000000001-rep-0.npz",
+      "npz_sha256": "f2906cadc90e9e5e21c89059ef8ebef37d578ad4c04af7230f719570aa08a4f6"
+    },
+    {
+      "model": "kecoli",
+      "state_index": 150,
+      "state_time": 0.53,
+      "h": 0.003,
+      "repeat": 1,
+      "status": "success",
+      "seconds": 2.276180208020378,
+      "candidate_stats": {
+        "predictor": {
+          "seconds": 0.06700129102682695,
+          "nfev": 9,
+          "njev": 1,
+          "nlu": 2
+        },
+        "corrector": {
+          "seconds": 0.1247586669633165,
+          "nfev": 16,
+          "njev": 1,
+          "nlu": 4
+        },
+        "remainder_norm": 5.8293646029329484e-05,
+        "slow_jacobian_nnz": 16215,
+        "fast_jacobian_nnz": 389
+      },
+      "audit_stats": {
+        "seconds": 2.082270833023358,
+        "nfev": 263,
+        "njev": 6,
+        "nlu": 66
+      },
+      "metrics": {
+        "0.001": {
+          "concentration_error": 3.4353298731793534e-07,
+          "flux_error": 1.3690180487844927e-06,
+          "net_flux_error": 1.974251548778403e-06,
+          "pool_error": 1.0300675243324328e-12,
+          "finite": true,
+          "nonnegative": true,
+          "passes": true
+        },
+        "1e-05": {
+          "concentration_error": 3.435329873179353e-05,
+          "flux_error": 0.00013690180487844925,
+          "net_flux_error": 1.974251548778403e-06,
+          "pool_error": 1.0300675243324328e-12,
+          "finite": true,
+          "nonnegative": true,
+          "passes": true
+        }
+      },
+      "npz_file": "state-150-h-0.0030000000000000001-rep-1.npz",
+      "npz_sha256": "f2906cadc90e9e5e21c89059ef8ebef37d578ad4c04af7230f719570aa08a4f6"
+    },
+    {
+      "model": "kecoli",
+      "state_index": 150,
+      "state_time": 0.53,
+      "h": 0.01,
+      "repeat": 0,
+      "status": "success",
+      "seconds": 0.8445330000249669,
+      "candidate_stats": {
+        "predictor": {
+          "seconds": 0.07231074996525422,
+          "nfev": 9,
+          "njev": 1,
+          "nlu": 2
+        },
+        "corrector": {
+          "seconds": 0.1310003329999745,
+          "nfev": 16,
+          "njev": 1,
+          "nlu": 4
+        },
+        "remainder_norm": 0.0006660321253834436,
+        "slow_jacobian_nnz": 16215,
+        "fast_jacobian_nnz": 389
+      },
+      "audit_stats": {
+        "seconds": 0.6390482920105569,
+        "nfev": 92,
+        "njev": 5,
+        "nlu": 20
+      },
+      "metrics": {
+        "0.001": {
+          "concentration_error": 9.885226798636979e-06,
+          "flux_error": 4.150684670762868e-05,
+          "net_flux_error": 0.00015210504334825837,
+          "pool_error": 4.496559374844716e-13,
+          "finite": true,
+          "nonnegative": true,
+          "passes": true
+        },
+        "1e-05": {
+          "concentration_error": 0.0009885226798636976,
+          "flux_error": 0.004150684670762867,
+          "net_flux_error": 0.00015210504334825837,
+          "pool_error": 4.496559374844716e-13,
+          "finite": true,
+          "nonnegative": true,
+          "passes": true
+        }
+      },
+      "npz_file": "state-150-h-0.01-rep-0.npz",
+      "npz_sha256": "b058ddb2f510ce418e8b4df767635e8f2f9232e3ac6c20bfa8159447f1b70357"
+    },
+    {
+      "model": "kecoli",
+      "state_index": 150,
+      "state_time": 0.53,
+      "h": 0.01,
+      "repeat": 1,
+      "status": "success",
+      "seconds": 0.8836787910549901,
+      "candidate_stats": {
+        "predictor": {
+          "seconds": 0.07342362502822652,
+          "nfev": 9,
+          "njev": 1,
+          "nlu": 2
+        },
+        "corrector": {
+          "seconds": 0.13215791602851823,
+          "nfev": 16,
+          "njev": 1,
+          "nlu": 4
+        },
+        "remainder_norm": 0.0006660321253834436,
+        "slow_jacobian_nnz": 16215,
+        "fast_jacobian_nnz": 389
+      },
+      "audit_stats": {
+        "seconds": 0.6759460830362514,
+        "nfev": 92,
+        "njev": 5,
+        "nlu": 20
+      },
+      "metrics": {
+        "0.001": {
+          "concentration_error": 9.885226798636979e-06,
+          "flux_error": 4.150684670762868e-05,
+          "net_flux_error": 0.00015210504334825837,
+          "pool_error": 4.496559374844716e-13,
+          "finite": true,
+          "nonnegative": true,
+          "passes": true
+        },
+        "1e-05": {
+          "concentration_error": 0.0009885226798636976,
+          "flux_error": 0.004150684670762867,
+          "net_flux_error": 0.00015210504334825837,
+          "pool_error": 4.496559374844716e-13,
+          "finite": true,
+          "nonnegative": true,
+          "passes": true
+        }
+      },
+      "npz_file": "state-150-h-0.01-rep-1.npz",
+      "npz_sha256": "b058ddb2f510ce418e8b4df767635e8f2f9232e3ac6c20bfa8159447f1b70357"
+    },
+    {
+      "model": "kecoli",
+      "state_index": 150,
+      "state_time": 0.53,
+      "h": 0.03,
+      "repeat": 0,
+      "status": "success",
+      "seconds": 8.335595249955077,
+      "candidate_stats": {
+        "predictor": {
+          "seconds": 0.17243612499441952,
+          "nfev": 16,
+          "njev": 1,
+          "nlu": 4
+        },
+        "corrector": {
+          "seconds": 0.22524008300388232,
+          "nfev": 23,
+          "njev": 1,
+          "nlu": 6
+        },
+        "remainder_norm": 0.006487433889239325,
+        "slow_jacobian_nnz": 16215,
+        "fast_jacobian_nnz": 389
+      },
+      "audit_stats": {
+        "seconds": 7.935616792005021,
+        "nfev": 1105,
+        "njev": 26,
+        "nlu": 248
+      },
+      "metrics": {
+        "0.001": {
+          "concentration_error": 0.0008523798153365536,
+          "flux_error": 0.0009745516286237321,
+          "net_flux_error": 0.007337733060522623,
+          "pool_error": 2.477581508009138e-12,
+          "finite": true,
+          "nonnegative": true,
+          "passes": true
+        },
+        "1e-05": {
+          "concentration_error": 0.08523798153365535,
+          "flux_error": 0.0974551628623732,
+          "net_flux_error": 0.007337733060522623,
+          "pool_error": 2.477581508009138e-12,
+          "finite": true,
+          "nonnegative": true,
+          "passes": true
+        }
+      },
+      "npz_file": "state-150-h-0.029999999999999999-rep-0.npz",
+      "npz_sha256": "3f659449737f632c71ca77938c85bcfba91adac81a5f2f4f3618f4069da17c91"
+    },
+    {
+      "model": "kecoli",
+      "state_index": 150,
+      "state_time": 0.53,
+      "h": 0.03,
+      "repeat": 1,
+      "status": "success",
+      "seconds": 8.341295542020816,
+      "candidate_stats": {
+        "predictor": {
+          "seconds": 0.16510979196755216,
+          "nfev": 16,
+          "njev": 1,
+          "nlu": 4
+        },
+        "corrector": {
+          "seconds": 0.22639220801647753,
+          "nfev": 23,
+          "njev": 1,
+          "nlu": 6
+        },
+        "remainder_norm": 0.006487433889239325,
+        "slow_jacobian_nnz": 16215,
+        "fast_jacobian_nnz": 389
+      },
+      "audit_stats": {
+        "seconds": 7.947414792026393,
+        "nfev": 1105,
+        "njev": 26,
+        "nlu": 248
+      },
+      "metrics": {
+        "0.001": {
+          "concentration_error": 0.0008523798153365536,
+          "flux_error": 0.0009745516286237321,
+          "net_flux_error": 0.007337733060522623,
+          "pool_error": 2.477581508009138e-12,
+          "finite": true,
+          "nonnegative": true,
+          "passes": true
+        },
+        "1e-05": {
+          "concentration_error": 0.08523798153365535,
+          "flux_error": 0.0974551628623732,
+          "net_flux_error": 0.007337733060522623,
+          "pool_error": 2.477581508009138e-12,
+          "finite": true,
+          "nonnegative": true,
+          "passes": true
+        }
+      },
+      "npz_file": "state-150-h-0.029999999999999999-rep-1.npz",
+      "npz_sha256": "3f659449737f632c71ca77938c85bcfba91adac81a5f2f4f3618f4069da17c91"
+    },
+    {
+      "model": "kecoli",
+      "state_index": 190,
+      "state_time": 0.91,
+      "h": 3e-05,
+      "repeat": 0,
+      "status": "success",
+      "seconds": 0.2802699999883771,
+      "candidate_stats": {
+        "predictor": {
+          "seconds": 0.09029491699766368,
+          "nfev": 9,
+          "njev": 1,
+          "nlu": 2
+        },
+        "corrector": {
+          "seconds": 0.09616470796754584,
+          "nfev": 9,
+          "njev": 1,
+          "nlu": 2
+        },
+        "remainder_norm": 3.5598334718967726e-08,
+        "slow_jacobian_nnz": 16215,
+        "fast_jacobian_nnz": 389
+      },
+      "audit_stats": {
+        "seconds": 0.09133800002746284,
+        "nfev": 9,
+        "njev": 1,
+        "nlu": 2
+      },
+      "metrics": {
+        "0.001": {
+          "concentration_error": 6.049544996883187e-10,
+          "flux_error": 9.909208057099111e-10,
+          "net_flux_error": 4.012509132351784e-08,
+          "pool_error": 2.7720881146109314e-15,
+          "finite": true,
+          "nonnegative": true,
+          "passes": true
+        },
+        "1e-05": {
+          "concentration_error": 6.049544996883185e-08,
+          "flux_error": 9.90920805709911e-08,
+          "net_flux_error": 4.012509132351784e-08,
+          "pool_error": 2.7720881146109314e-15,
+          "finite": true,
+          "nonnegative": true,
+          "passes": true
+        }
+      },
+      "npz_file": "state-190-h-3.0000000000000001e-05-rep-0.npz",
+      "npz_sha256": "d8ab0a29d372d56f4391fde43897e85718419f592d870e883de4016b33c225e5"
+    },
+    {
+      "model": "kecoli",
+      "state_index": 190,
+      "state_time": 0.91,
+      "h": 3e-05,
+      "repeat": 1,
+      "status": "success",
+      "seconds": 0.23548583302181214,
+      "candidate_stats": {
+        "predictor": {
+          "seconds": 0.09865149995312095,
+          "nfev": 9,
+          "njev": 1,
+          "nlu": 2
+        },
+        "corrector": {
+          "seconds": 0.0706886249827221,
+          "nfev": 9,
+          "njev": 1,
+          "nlu": 2
+        },
+        "remainder_norm": 3.5598334718967726e-08,
+        "slow_jacobian_nnz": 16215,
+        "fast_jacobian_nnz": 389
+      },
+      "audit_stats": {
+        "seconds": 0.06358137499773875,
+        "nfev": 9,
+        "njev": 1,
+        "nlu": 2
+      },
+      "metrics": {
+        "0.001": {
+          "concentration_error": 6.049544996883187e-10,
+          "flux_error": 9.909208057099111e-10,
+          "net_flux_error": 4.012509132351784e-08,
+          "pool_error": 2.7720881146109314e-15,
+          "finite": true,
+          "nonnegative": true,
+          "passes": true
+        },
+        "1e-05": {
+          "concentration_error": 6.049544996883185e-08,
+          "flux_error": 9.90920805709911e-08,
+          "net_flux_error": 4.012509132351784e-08,
+          "pool_error": 2.7720881146109314e-15,
+          "finite": true,
+          "nonnegative": true,
+          "passes": true
+        }
+      },
+      "npz_file": "state-190-h-3.0000000000000001e-05-rep-1.npz",
+      "npz_sha256": "d8ab0a29d372d56f4391fde43897e85718419f592d870e883de4016b33c225e5"
+    },
+    {
+      "model": "kecoli",
+      "state_index": 190,
+      "state_time": 0.91,
+      "h": 0.0001,
+      "repeat": 0,
+      "status": "success",
+      "seconds": 0.18996599997626618,
+      "candidate_stats": {
+        "predictor": {
+          "seconds": 0.06259420799324289,
+          "nfev": 9,
+          "njev": 1,
+          "nlu": 2
+        },
+        "corrector": {
+          "seconds": 0.06288649997441098,
+          "nfev": 9,
+          "njev": 1,
+          "nlu": 2
+        },
+        "remainder_norm": 3.955773248279946e-07,
+        "slow_jacobian_nnz": 16215,
+        "fast_jacobian_nnz": 389
+      },
+      "audit_stats": {
+        "seconds": 0.06220145901897922,
+        "nfev": 9,
+        "njev": 1,
+        "nlu": 2
+      },
+      "metrics": {
+        "0.001": {
+          "concentration_error": 2.6909906534538768e-09,
+          "flux_error": 4.4450769265599174e-09,
+          "net_flux_error": 1.1636276483820173e-07,
+          "pool_error": 2.995867443011939e-14,
+          "finite": true,
+          "nonnegative": true,
+          "passes": true
+        },
+        "1e-05": {
+          "concentration_error": 2.6909906534538763e-07,
+          "flux_error": 4.4450769265599165e-07,
+          "net_flux_error": 1.1636276483820173e-07,
+          "pool_error": 2.995867443011939e-14,
+          "finite": true,
+          "nonnegative": true,
+          "passes": true
+        }
+      },
+      "npz_file": "state-190-h-0.0001-rep-0.npz",
+      "npz_sha256": "7ddc7ad6ac655f3d9b0f55ee4176ff2f47f1fb5c411a0456a7e5239bb81183dc"
+    },
+    {
+      "model": "kecoli",
+      "state_index": 190,
+      "state_time": 0.91,
+      "h": 0.0001,
+      "repeat": 1,
+      "status": "success",
+      "seconds": 0.18868045799899846,
+      "candidate_stats": {
+        "predictor": {
+          "seconds": 0.0630665419739671,
+          "nfev": 9,
+          "njev": 1,
+          "nlu": 2
+        },
+        "corrector": {
+          "seconds": 0.06205474998569116,
+          "nfev": 9,
+          "njev": 1,
+          "nlu": 2
+        },
+        "remainder_norm": 3.955773248279946e-07,
+        "slow_jacobian_nnz": 16215,
+        "fast_jacobian_nnz": 389
+      },
+      "audit_stats": {
+        "seconds": 0.06143116601742804,
+        "nfev": 9,
+        "njev": 1,
+        "nlu": 2
+      },
+      "metrics": {
+        "0.001": {
+          "concentration_error": 2.6909906534538768e-09,
+          "flux_error": 4.4450769265599174e-09,
+          "net_flux_error": 1.1636276483820173e-07,
+          "pool_error": 2.995867443011939e-14,
+          "finite": true,
+          "nonnegative": true,
+          "passes": true
+        },
+        "1e-05": {
+          "concentration_error": 2.6909906534538763e-07,
+          "flux_error": 4.4450769265599165e-07,
+          "net_flux_error": 1.1636276483820173e-07,
+          "pool_error": 2.995867443011939e-14,
+          "finite": true,
+          "nonnegative": true,
+          "passes": true
+        }
+      },
+      "npz_file": "state-190-h-0.0001-rep-1.npz",
+      "npz_sha256": "7ddc7ad6ac655f3d9b0f55ee4176ff2f47f1fb5c411a0456a7e5239bb81183dc"
+    },
+    {
+      "model": "kecoli",
+      "state_index": 190,
+      "state_time": 0.91,
+      "h": 0.0003,
+      "repeat": 0,
+      "status": "success",
+      "seconds": 0.9178318330086768,
+      "candidate_stats": {
+        "predictor": {
+          "seconds": 0.06313429196598008,
+          "nfev": 9,
+          "njev": 1,
+          "nlu": 2
+        },
+        "corrector": {
+          "seconds": 0.062027957988902926,
+          "nfev": 9,
+          "njev": 1,
+          "nlu": 2
+        },
+        "remainder_norm": 3.5612109286442767e-06,
+        "slow_jacobian_nnz": 16215,
+        "fast_jacobian_nnz": 389
+      },
+      "audit_stats": {
+        "seconds": 0.7903591670328751,
+        "nfev": 101,
+        "njev": 3,
+        "nlu": 24
+      },
+      "metrics": {
+        "0.001": {
+          "concentration_error": 3.4419824982266407e-09,
+          "flux_error": 5.123404418165755e-09,
+          "net_flux_error": 1.4127244450523206e-07,
+          "pool_error": 2.7108523759089505e-14,
+          "finite": true,
+          "nonnegative": true,
+          "passes": true
+        },
+        "1e-05": {
+          "concentration_error": 3.44198249822664e-07,
+          "flux_error": 5.123404418165754e-07,
+          "net_flux_error": 1.4127244450523206e-07,
+          "pool_error": 2.7108523759089505e-14,
+          "finite": true,
+          "nonnegative": true,
+          "passes": true
+        }
+      },
+      "npz_file": "state-190-h-0.00029999999999999997-rep-0.npz",
+      "npz_sha256": "d76bb5bb635a75afc877fea20ea52b36d56f9f336363bf9650561d995a93fd40"
+    },
+    {
+      "model": "kecoli",
+      "state_index": 190,
+      "state_time": 0.91,
+      "h": 0.0003,
+      "repeat": 1,
+      "status": "success",
+      "seconds": 0.9281321250018664,
+      "candidate_stats": {
+        "predictor": {
+          "seconds": 0.06577958399429917,
+          "nfev": 9,
+          "njev": 1,
+          "nlu": 2
+        },
+        "corrector": {
+          "seconds": 0.06602904200553894,
+          "nfev": 9,
+          "njev": 1,
+          "nlu": 2
+        },
+        "remainder_norm": 3.5612109286442767e-06,
+        "slow_jacobian_nnz": 16215,
+        "fast_jacobian_nnz": 389
+      },
+      "audit_stats": {
+        "seconds": 0.7940221669850871,
+        "nfev": 101,
+        "njev": 3,
+        "nlu": 24
+      },
+      "metrics": {
+        "0.001": {
+          "concentration_error": 3.4419824982266407e-09,
+          "flux_error": 5.123404418165755e-09,
+          "net_flux_error": 1.4127244450523206e-07,
+          "pool_error": 2.7108523759089505e-14,
+          "finite": true,
+          "nonnegative": true,
+          "passes": true
+        },
+        "1e-05": {
+          "concentration_error": 3.44198249822664e-07,
+          "flux_error": 5.123404418165754e-07,
+          "net_flux_error": 1.4127244450523206e-07,
+          "pool_error": 2.7108523759089505e-14,
+          "finite": true,
+          "nonnegative": true,
+          "passes": true
+        }
+      },
+      "npz_file": "state-190-h-0.00029999999999999997-rep-1.npz",
+      "npz_sha256": "d76bb5bb635a75afc877fea20ea52b36d56f9f336363bf9650561d995a93fd40"
+    },
+    {
+      "model": "kecoli",
+      "state_index": 190,
+      "state_time": 0.91,
+      "h": 0.001,
+      "repeat": 0,
+      "status": "success",
+      "seconds": 1.161812792008277,
+      "candidate_stats": {
+        "predictor": {
+          "seconds": 0.06290537503082305,
+          "nfev": 9,
+          "njev": 1,
+          "nlu": 2
+        },
+        "corrector": {
+          "seconds": 0.06287987501127645,
+          "nfev": 9,
+          "njev": 1,
+          "nlu": 2
+        },
+        "remainder_norm": 3.960798169599174e-05,
+        "slow_jacobian_nnz": 16215,
+        "fast_jacobian_nnz": 389
+      },
+      "audit_stats": {
+        "seconds": 1.033871249994263,
+        "nfev": 106,
+        "njev": 3,
+        "nlu": 28
+      },
+      "metrics": {
+        "0.001": {
+          "concentration_error": 4.502530317680231e-08,
+          "flux_error": 6.619476019467849e-08,
+          "net_flux_error": 1.8760060731225533e-07,
+          "pool_error": 4.459956709501601e-13,
+          "finite": true,
+          "nonnegative": true,
+          "passes": true
+        },
+        "1e-05": {
+          "concentration_error": 4.50253031768023e-06,
+          "flux_error": 6.619476019467847e-06,
+          "net_flux_error": 1.8760060731225533e-07,
+          "pool_error": 4.459956709501601e-13,
+          "finite": true,
+          "nonnegative": true,
+          "passes": true
+        }
+      },
+      "npz_file": "state-190-h-0.001-rep-0.npz",
+      "npz_sha256": "64434c5e8bed5fbce6fd6deb559fd02528c6f9b837fe4a41b9699f77b89084f2"
+    },
+    {
+      "model": "kecoli",
+      "state_index": 190,
+      "state_time": 0.91,
+      "h": 0.001,
+      "repeat": 1,
+      "status": "success",
+      "seconds": 0.9939597089542076,
+      "candidate_stats": {
+        "predictor": {
+          "seconds": 0.06258808303391561,
+          "nfev": 9,
+          "njev": 1,
+          "nlu": 2
+        },
+        "corrector": {
+          "seconds": 0.06293195800390095,
+          "nfev": 9,
+          "njev": 1,
+          "nlu": 2
+        },
+        "remainder_norm": 3.960798169599174e-05,
+        "slow_jacobian_nnz": 16215,
+        "fast_jacobian_nnz": 389
+      },
+      "audit_stats": {
+        "seconds": 0.8662963749957271,
+        "nfev": 106,
+        "njev": 3,
+        "nlu": 28
+      },
+      "metrics": {
+        "0.001": {
+          "concentration_error": 4.502530317680231e-08,
+          "flux_error": 6.619476019467849e-08,
+          "net_flux_error": 1.8760060731225533e-07,
+          "pool_error": 4.459956709501601e-13,
+          "finite": true,
+          "nonnegative": true,
+          "passes": true
+        },
+        "1e-05": {
+          "concentration_error": 4.50253031768023e-06,
+          "flux_error": 6.619476019467847e-06,
+          "net_flux_error": 1.8760060731225533e-07,
+          "pool_error": 4.459956709501601e-13,
+          "finite": true,
+          "nonnegative": true,
+          "passes": true
+        }
+      },
+      "npz_file": "state-190-h-0.001-rep-1.npz",
+      "npz_sha256": "64434c5e8bed5fbce6fd6deb559fd02528c6f9b837fe4a41b9699f77b89084f2"
+    },
+    {
+      "model": "kecoli",
+      "state_index": 190,
+      "state_time": 0.91,
+      "h": 0.003,
+      "repeat": 0,
+      "status": "success",
+      "seconds": 5.779697125020903,
+      "candidate_stats": {
+        "predictor": {
+          "seconds": 0.06885204202262685,
+          "nfev": 9,
+          "njev": 1,
+          "nlu": 2
+        },
+        "corrector": {
+          "seconds": 0.13947033300064504,
+          "nfev": 16,
+          "njev": 1,
+          "nlu": 4
+        },
+        "remainder_norm": 0.000357476840122667,
+        "slow_jacobian_nnz": 16215,
+        "fast_jacobian_nnz": 389
+      },
+      "audit_stats": {
+        "seconds": 5.569015499961097,
+        "nfev": 728,
+        "njev": 17,
+        "nlu": 174
+      },
+      "metrics": {
+        "0.001": {
+          "concentration_error": 9.203002141701611e-07,
+          "flux_error": 4.255001435985795e-06,
+          "net_flux_error": 4.676356904809771e-06,
+          "pool_error": 9.993741945102363e-14,
+          "finite": true,
+          "nonnegative": true,
+          "passes": true
+        },
+        "1e-05": {
+          "concentration_error": 9.203002141701611e-05,
+          "flux_error": 0.00042550014359857936,
+          "net_flux_error": 4.676356904809771e-06,
+          "pool_error": 9.993741945102363e-14,
+          "finite": true,
+          "nonnegative": true,
+          "passes": true
+        }
+      },
+      "npz_file": "state-190-h-0.0030000000000000001-rep-0.npz",
+      "npz_sha256": "b03c3702d94b80050586309f5558ef63928349a5d3018ea2b683e96eab5b672e"
+    },
+    {
+      "model": "kecoli",
+      "state_index": 190,
+      "state_time": 0.91,
+      "h": 0.003,
+      "repeat": 1,
+      "status": "success",
+      "seconds": 5.785267457948066,
+      "candidate_stats": {
+        "predictor": {
+          "seconds": 0.06819608400110155,
+          "nfev": 9,
+          "njev": 1,
+          "nlu": 2
+        },
+        "corrector": {
+          "seconds": 0.1255376249901019,
+          "nfev": 16,
+          "njev": 1,
+          "nlu": 4
+        },
+        "remainder_norm": 0.000357476840122667,
+        "slow_jacobian_nnz": 16215,
+        "fast_jacobian_nnz": 389
+      },
+      "audit_stats": {
+        "seconds": 5.589246167044621,
+        "nfev": 728,
+        "njev": 17,
+        "nlu": 174
+      },
+      "metrics": {
+        "0.001": {
+          "concentration_error": 9.203002141701611e-07,
+          "flux_error": 4.255001435985795e-06,
+          "net_flux_error": 4.676356904809771e-06,
+          "pool_error": 9.993741945102363e-14,
+          "finite": true,
+          "nonnegative": true,
+          "passes": true
+        },
+        "1e-05": {
+          "concentration_error": 9.203002141701611e-05,
+          "flux_error": 0.00042550014359857936,
+          "net_flux_error": 4.676356904809771e-06,
+          "pool_error": 9.993741945102363e-14,
+          "finite": true,
+          "nonnegative": true,
+          "passes": true
+        }
+      },
+      "npz_file": "state-190-h-0.0030000000000000001-rep-1.npz",
+      "npz_sha256": "b03c3702d94b80050586309f5558ef63928349a5d3018ea2b683e96eab5b672e"
+    },
+    {
+      "model": "kecoli",
+      "state_index": 190,
+      "state_time": 0.91,
+      "h": 0.01,
+      "repeat": 0,
+      "status": "success",
+      "seconds": 17.057046166039072,
+      "candidate_stats": {
+        "predictor": {
+          "seconds": 0.07322708301944658,
+          "nfev": 9,
+          "njev": 1,
+          "nlu": 2
+        },
+        "corrector": {
+          "seconds": 0.1325173329678364,
+          "nfev": 16,
+          "njev": 1,
+          "nlu": 4
+        },
+        "remainder_norm": 0.00401167953136216,
+        "slow_jacobian_nnz": 16215,
+        "fast_jacobian_nnz": 389
+      },
+      "audit_stats": {
+        "seconds": 16.849058874999173,
+        "nfev": 2284,
+        "njev": 49,
+        "nlu": 538
+      },
+      "metrics": {
+        "0.001": {
+          "concentration_error": 2.909690294873877e-05,
+          "flux_error": 0.00020466166978191659,
+          "net_flux_error": 0.0005184422594409237,
+          "pool_error": 2.1660676724488633e-12,
+          "finite": true,
+          "nonnegative": true,
+          "passes": true
+        },
+        "1e-05": {
+          "concentration_error": 0.0029096902948738766,
+          "flux_error": 0.020466166978191654,
+          "net_flux_error": 0.0005184422594409237,
+          "pool_error": 2.1660676724488633e-12,
+          "finite": true,
+          "nonnegative": true,
+          "passes": true
+        }
+      },
+      "npz_file": "state-190-h-0.01-rep-0.npz",
+      "npz_sha256": "e6de873c7dbbddfe15308f988110d1c377cbe743151259da08a46595be34104d"
+    },
+    {
+      "model": "kecoli",
+      "state_index": 190,
+      "state_time": 0.91,
+      "h": 0.01,
+      "repeat": 1,
+      "status": "success",
+      "seconds": 17.15479887498077,
+      "candidate_stats": {
+        "predictor": {
+          "seconds": 0.07317129196599126,
+          "nfev": 9,
+          "njev": 1,
+          "nlu": 2
+        },
+        "corrector": {
+          "seconds": 0.13179929100442678,
+          "nfev": 16,
+          "njev": 1,
+          "nlu": 4
+        },
+        "remainder_norm": 0.00401167953136216,
+        "slow_jacobian_nnz": 16215,
+        "fast_jacobian_nnz": 389
+      },
+      "audit_stats": {
+        "seconds": 16.94757970899809,
+        "nfev": 2284,
+        "njev": 49,
+        "nlu": 538
+      },
+      "metrics": {
+        "0.001": {
+          "concentration_error": 2.909690294873877e-05,
+          "flux_error": 0.00020466166978191659,
+          "net_flux_error": 0.0005184422594409237,
+          "pool_error": 2.1660676724488633e-12,
+          "finite": true,
+          "nonnegative": true,
+          "passes": true
+        },
+        "1e-05": {
+          "concentration_error": 0.0029096902948738766,
+          "flux_error": 0.020466166978191654,
+          "net_flux_error": 0.0005184422594409237,
+          "pool_error": 2.1660676724488633e-12,
+          "finite": true,
+          "nonnegative": true,
+          "passes": true
+        }
+      },
+      "npz_file": "state-190-h-0.01-rep-1.npz",
+      "npz_sha256": "e6de873c7dbbddfe15308f988110d1c377cbe743151259da08a46595be34104d"
+    },
+    {
+      "model": "kecoli",
+      "state_index": 190,
+      "state_time": 0.91,
+      "h": 0.03,
+      "repeat": 0,
+      "status": "success",
+      "seconds": 18.838022999989334,
+      "candidate_stats": {
+        "predictor": {
+          "seconds": 0.1655175419873558,
+          "nfev": 16,
+          "njev": 1,
+          "nlu": 4
+        },
+        "corrector": {
+          "seconds": 0.2244800420012325,
+          "nfev": 23,
+          "njev": 1,
+          "nlu": 6
+        },
+        "remainder_norm": 0.03715685521521025,
+        "slow_jacobian_nnz": 16215,
+        "fast_jacobian_nnz": 389
+      },
+      "audit_stats": {
+        "seconds": 18.445883625012357,
+        "nfev": 2362,
+        "njev": 42,
+        "nlu": 588
+      },
+      "metrics": {
+        "0.001": {
+          "concentration_error": 0.0011673306248687729,
+          "flux_error": 0.007659039714608279,
+          "net_flux_error": 0.01848410917072272,
+          "pool_error": 1.0588691382040747e-12,
+          "finite": true,
+          "nonnegative": true,
+          "passes": true
+        },
+        "1e-05": {
+          "concentration_error": 0.1167330624868773,
+          "flux_error": 0.7659039714608278,
+          "net_flux_error": 0.01848410917072272,
+          "pool_error": 1.0588691382040747e-12,
+          "finite": true,
+          "nonnegative": true,
+          "passes": true
+        }
+      },
+      "npz_file": "state-190-h-0.029999999999999999-rep-0.npz",
+      "npz_sha256": "36d08ca8168fe018ce1ce3ad7df29067a5b58ab871fdd972a1dd7c67eacdf07e"
+    },
+    {
+      "model": "kecoli",
+      "state_index": 190,
+      "state_time": 0.91,
+      "h": 0.03,
+      "repeat": 1,
+      "status": "success",
+      "seconds": 18.96282474999316,
+      "candidate_stats": {
+        "predictor": {
+          "seconds": 0.16698525001993403,
+          "nfev": 16,
+          "njev": 1,
+          "nlu": 4
+        },
+        "corrector": {
+          "seconds": 0.2276562909828499,
+          "nfev": 23,
+          "njev": 1,
+          "nlu": 6
+        },
+        "remainder_norm": 0.03715685521521025,
+        "slow_jacobian_nnz": 16215,
+        "fast_jacobian_nnz": 389
+      },
+      "audit_stats": {
+        "seconds": 18.56557270803023,
+        "nfev": 2362,
+        "njev": 42,
+        "nlu": 588
+      },
+      "metrics": {
+        "0.001": {
+          "concentration_error": 0.0011673306248687729,
+          "flux_error": 0.007659039714608279,
+          "net_flux_error": 0.01848410917072272,
+          "pool_error": 1.0588691382040747e-12,
+          "finite": true,
+          "nonnegative": true,
+          "passes": true
+        },
+        "1e-05": {
+          "concentration_error": 0.1167330624868773,
+          "flux_error": 0.7659039714608278,
+          "net_flux_error": 0.01848410917072272,
+          "pool_error": 1.0588691382040747e-12,
+          "finite": true,
+          "nonnegative": true,
+          "passes": true
+        }
+      },
+      "npz_file": "state-190-h-0.029999999999999999-rep-1.npz",
+      "npz_sha256": "36d08ca8168fe018ce1ce3ad7df29067a5b58ab871fdd972a1dd7c67eacdf07e"
+    }
+  ]
+}

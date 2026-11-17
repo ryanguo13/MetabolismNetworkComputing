@@ -1,0 +1,27 @@
+{
+  "date": "2026-11-15",
+  "source": "results/m4-growth-safety-screen-v2/runs.json",
+  "scope": "Offline fail-closed shadow-bound replay; no M4 qualification.",
+  "thresholds": [
+    0.01,
+    0.03,
+    0.05,
+    0.07,
+    0.1
+  ],
+  "shadow": "slow_scaled_norm_times_h recorded by the existing controller",
+  "policy": "shadow above threshold rejects without full audit; shadow-pass attempts retain full audit and commit only on audit pass",
+  "gates": {
+    "accepted_attempts_still_full_audited": true,
+    "no_clipping": true,
+    "coverage_recomputed": true,
+    "no_historical_state_change": true
+  },
+  "source_sha256": {
+    "results/m4-growth-safety-screen-v2/runs.json": "2cb1324c4d6de67d718e3cd10daa95f7ea43f642b280fde8e899a17edb5ab48a"
+  },
+  "environment": {
+    "python": "3.12.10",
+    "numpy": "2.5.4"
+  }
+}
