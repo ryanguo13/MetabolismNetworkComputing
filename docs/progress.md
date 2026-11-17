@@ -3,6 +3,12 @@
 最后更新：2026-11-18（Asia/Shanghai）
 当前阶段：**M4 仍未准入。SUNDIALS 7.9 ExtSTS 通过接口与标量方程验证，但因强刚性标量精度门需要 2,147–21,480 个宏步而停止真实模型筛查；当前没有候选满足审计后正预算。M4 两模型、两正式精度档、完整窗口、至少 50% 真实反应分裂覆盖、7 次正式重复及中位端到端 1.5 倍门槛保持不变。PE/M5/M6 未启动。**
 
+## 2026-11-18：CVODE runtime 对照停止
+
+- [x] 完成两个已安装运行时的有界对照：项目 SUNDIALS 6.4.1 与 Homebrew MPI-enabled SUNDIALS 7.9.0，k-ecoli457 状态 0/61、`H=1e-6`，四个查询点、CVODE-BDF/KLU `rtol=1e-11`；每个状态/后端 1 次预热和 7 次交错测量。参考文件、起点状态、运行库、源码和输出均登记哈希；32 行记录及 43 项 manifest 独立复核无失配，所有局部浓度、通量、净通量、池漂移与非负性检查通过。完整原始证据见 `results/m4-cvode-runtime-screen-v1/`。
+- [x] 两个后端输出逐位一致。状态 0 的 7.9.0 中位仅快 `1.013x`（0.3946 s vs 0.3998 s）；状态 61 慢至 `0.987x`（0.1953 s vs 0.1927 s）。7.9.0 的 MPI 初始化另需约 0.148 s，模型/真值准备约 2.86 s；这些启动成本不含在求解中位数里。此配置差异对照没有候选生成或全窗审计收益证据，停止，不扩展到候选轨迹、全窗口或正式重复。
+- [x] `uv run python -m metabolism.m4_admission` 仍报告 `M4_admission=not_admitted`、`evidence_integrity=fail`。该局部运行时筛查不补足冻结哈希、完整窗口、分裂覆盖或候选端到端加速硬门；不改变原 acceptance 语义。相关回归检查 23 项通过。
+
 ## 2026-11-18：历史来源核验与下一候选停止门
 
 - [x] 新增只读审计 `research/audit_m4_source_history.py`，结果保存在 `results/m4-source-history-audit/summary.json`。对两份 M3 acceptance 的 61 个登记文件逐一比较当前工作树，并仅对失配项查询可达 Git 历史；56 个当前匹配，5 个源码失配均找到登记 SHA-256 的精确版本。

@@ -1,0 +1,144 @@
+{
+  "date": "2026-11-18",
+  "model": "kecoli457",
+  "state_indices": [
+    0,
+    61
+  ],
+  "state_times": [
+    0.0,
+    0.00011497569953977356
+  ],
+  "interval": 1e-06,
+  "query_fractions": [
+    0.25,
+    0.5,
+    0.75,
+    1.0
+  ],
+  "method": "CVODE-BDF/KLU",
+  "rtol": 1e-11,
+  "repeats": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+  ],
+  "warmups": 1,
+  "targets": [
+    0.001,
+    1e-05
+  ],
+  "backends": {
+    "6.4.1": "/Users/guojunhua/Documents/MetabolismNetworkComputing/.runtime/sundials-6.4.1/lib",
+    "7.9.0": "/opt/homebrew/opt/sundials/lib"
+  },
+  "reference": {
+    "path": "results/m1-completion/kecoli-reference.npz",
+    "sha256": "2351ef24ff471d0bffd54bc30270183363eb592bb838f6f972aae90544c3e172"
+  },
+  "runtime_library_sha256": {
+    "6.4.1": {
+      "sundials_cvode": "3582277e56d1ca5803fdc126e06bef08daef00f98568d70bcab372b98c27d6da",
+      "sundials_nvecserial": "5ba14ebc76983747df0cfe3cb2255d3a7149326331d3fd3f3c0ec45938a91eb4",
+      "sundials_sunmatrixsparse": "72de03a21771518b63b61436410efab12e41678fb6276c989fb7c32adeafdc13",
+      "sundials_sunlinsolklu": "11c51c0c7a6af82140c1a430fb1308193745219acfba7128ca9f779724ed2ced"
+    },
+    "7.9.0": {
+      "sundials_cvode": "43afded8f6a063190a921f1e9561872ce2d8a0d4dd23aeae39bcb9b22eb484e8",
+      "sundials_nvecserial": "8ff65a5e590b4de0333b931700c1fdf3fcc2a479abe59779a4a07174d6d3a678",
+      "sundials_sunmatrixsparse": "ba84aa67d6baf10db1ba24e12405415578a17a5e73204ceeade48148e22dfc05",
+      "sundials_sunlinsolklu": "0782f9692c3d10ba4c7f5c4dcee7609e15a241d135f7096e7f001c7b6be93522"
+    }
+  },
+  "mpi_shim": {
+    "source": "research/m4_cvode_runtime_mpi.c",
+    "source_sha256": "2b014e5f8455188a13e78c7809d2f2b267ed8622703cb0cd52835302db3238ec",
+    "binary_sha256": "e48584298525d61b3d6fc3874d471a0d1c7e97f15774ccb33ab818da070316de",
+    "init_finalize_outside_solve_timing": true,
+    "mpi_root": "/opt/homebrew/opt/open-mpi"
+  },
+  "comparison": "Same Python RHS/Jacobian and ctypes binding; each version runs in its own long-lived subprocess with an explicit runtime library map. Each solve creates a fresh CVODE/KLU audit instance. Requests are interleaved by state and repeat.",
+  "truth": {
+    "method": "SciPy Radau",
+    "rtol": 1e-13,
+    "atol": "max(concentration_scale*1e-15, 1e-18)"
+  },
+  "gates": {
+    "complete_original_nonlinear_rhs": true,
+    "concentration_flux_and_net_flux": true,
+    "external_error_budget": 0.05,
+    "nonnegative_sampled_outputs": true,
+    "pools": 1e-10,
+    "no_clipping": true
+  },
+  "limitation": "Two k-ecoli457 states and one 1e-6 interval only. Backend timing is not a candidate trajectory, a full-window audit cost, or M4 qualification.",
+  "source_sha256": {
+    "research/m4_cvode_runtime_screen.py": "af4b58087796c0d4ed7b5d726f57915b70dc7fab2783806cbc359369f70b1921",
+    "research/m4_audit_backend_screen.py": "4e8c7fc2eedb58baa9849a66c418e2e679d5e410e34be26462ed73f3d66bc349",
+    "research/m4_cvode_runtime_mpi.c": "2b014e5f8455188a13e78c7809d2f2b267ed8622703cb0cd52835302db3238ec",
+    "metabolism/cvode.py": "6733fb499c0262bf87dc2040dd6aec44a91085f1dbe1b12f0056f8eb277e05c2",
+    "metabolism/kecoli.py": "3b1cbea4fb876b0a967804c428090482b043e220364d78aa94e37a413f41bd1f",
+    "metabolism/m3_continuation.py": "90b539d8f7ce2dae6d574b6285bcd66fcb4b95b3950f96ff81fed6301bd65401"
+  },
+  "environment": {
+    "platform": "macOS-26.6.2-arm64-arm-64bit",
+    "python": "3.12.10",
+    "numpy": "2.5.4"
+  },
+  "initial_state_sha256": {
+    "0": "aabe217cfb18126bf8330b1fab3a6c3059fa59d440efa5a54a36355317e2a7a0",
+    "61": "a758ff47026aa50e8b50af9b07b5cd3e69b746c3413365864f2c5831a5b76de7"
+  },
+  "worker_startup": {
+    "6.4.1": {
+      "kind": "ready",
+      "version": "6.4.1",
+      "reference_path": "results/m1-completion/kecoli-reference.npz",
+      "reference_sha256": "2351ef24ff471d0bffd54bc30270183363eb592bb838f6f972aae90544c3e172",
+      "state_indices": [
+        0,
+        61
+      ],
+      "state_times": {
+        "0": 0.0,
+        "61": 0.00011497569953977356
+      },
+      "initial_state_sha256": {
+        "0": "aabe217cfb18126bf8330b1fab3a6c3059fa59d440efa5a54a36355317e2a7a0",
+        "61": "a758ff47026aa50e8b50af9b07b5cd3e69b746c3413365864f2c5831a5b76de7"
+      },
+      "mpi_init_seconds": 0.0,
+      "model_and_truth_prep_seconds": 2.818239208019804,
+      "parent_startup_to_ready_seconds": 3.1129380419733934
+    },
+    "7.9.0": {
+      "kind": "ready",
+      "version": "7.9.0",
+      "reference_path": "results/m1-completion/kecoli-reference.npz",
+      "reference_sha256": "2351ef24ff471d0bffd54bc30270183363eb592bb838f6f972aae90544c3e172",
+      "state_indices": [
+        0,
+        61
+      ],
+      "state_times": {
+        "0": 0.0,
+        "61": 0.00011497569953977356
+      },
+      "initial_state_sha256": {
+        "0": "aabe217cfb18126bf8330b1fab3a6c3059fa59d440efa5a54a36355317e2a7a0",
+        "61": "a758ff47026aa50e8b50af9b07b5cd3e69b746c3413365864f2c5831a5b76de7"
+      },
+      "mpi_init_seconds": 0.1483170830179006,
+      "model_and_truth_prep_seconds": 2.862295083992649,
+      "parent_startup_to_ready_seconds": 4.1420089160092175
+    }
+  },
+  "build": {
+    "compiler": "Apple clang via cc",
+    "sdk_root": "/Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk"
+  }
+}

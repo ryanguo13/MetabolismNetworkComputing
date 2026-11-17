@@ -1,0 +1,68 @@
+{
+  "results": [
+    {
+      "state_index": 0,
+      "measured_repeats": {
+        "6.4.1": 7,
+        "7.9.0": 7
+      },
+      "all_accuracy_repeats_pass": {
+        "6.4.1": true,
+        "7.9.0": true
+      },
+      "median_seconds": {
+        "6.4.1": 0.39981345797423273,
+        "7.9.0": 0.3946148339891806
+      },
+      "speedup_7_9_over_6_4": 1.013173919318995,
+      "max_errors": {
+        "6.4.1": {
+          "concentration": 4.375044251529234e-05,
+          "flux": 4.375044786374574e-05,
+          "net_flux": 5.444072078046592e-05,
+          "pool_error": 3.7470027081099023e-16
+        },
+        "7.9.0": {
+          "concentration": 4.375044251529234e-05,
+          "flux": 4.375044786374574e-05,
+          "net_flux": 5.444072078046592e-05,
+          "pool_error": 3.7470027081099023e-16
+        }
+      },
+      "max_cross_backend_abs_difference": 0.0
+    },
+    {
+      "state_index": 61,
+      "measured_repeats": {
+        "6.4.1": 7,
+        "7.9.0": 7
+      },
+      "all_accuracy_repeats_pass": {
+        "6.4.1": true,
+        "7.9.0": true
+      },
+      "median_seconds": {
+        "6.4.1": 0.19267925003077835,
+        "7.9.0": 0.19528345798607916
+      },
+      "speedup_7_9_over_6_4": 0.9866644723410907,
+      "max_errors": {
+        "6.4.1": {
+          "concentration": 2.7729673633577676e-05,
+          "flux": 2.7729673795138612e-05,
+          "net_flux": 4.133626431915791e-07,
+          "pool_error": 2.2898349882893834e-16
+        },
+        "7.9.0": {
+          "concentration": 2.7729673633577676e-05,
+          "flux": 2.7729673795138612e-05,
+          "net_flux": 4.133626431915791e-07,
+          "pool_error": 2.2898349882893834e-16
+        }
+      },
+      "max_cross_backend_abs_difference": 0.0
+    }
+  ],
+  "registration": "registration.json",
+  "decision": "Runtime-only evidence. A faster backend may justify a separate candidate-plus-audit budget screen, but cannot qualify a candidate or M4."
+}
