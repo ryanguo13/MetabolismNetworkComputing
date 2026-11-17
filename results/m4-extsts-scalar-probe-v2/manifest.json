@@ -1,0 +1,7 @@
+{
+  "registration.json": "89fb2fe54c15dd731523bd2c5211faaeb204296ce84e2fcca9c80ae048835e61",
+  "runs.json": "6bf699195d6342ef3247249ac10221386db45badc76ded354a657db03142733f",
+  "summary.json": "46530ce49c5562a312ed764258cfb887414d0fa8ea0e479157e688f1df800cd9",
+  "scalar-runs.npz": "69d331db72625d6dc4bde93a73698b8451f7d767ede51b82341c199e576c1222",
+  "research/m4_extsts_scalar_probe.py": "c1b57e2fb4d764378dac40c96df26b12b2f5dd4e192d0f0202bd613147881d69"
+}

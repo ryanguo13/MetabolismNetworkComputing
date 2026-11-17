@@ -32,3 +32,9 @@ The W-MRI residual screen reached a locally correct early k-ecoli state only at 
 No remaining screened mechanism has a positive audit-aware cost budget. Starting a seven-repeat full-window campaign would therefore violate the registered stopping rule and consume compute without a credible path to M4. The correct result for this session is a reproducible negative conclusion: retain all existing NPZs, manifests, ledgers, fingerprints, and failed screens; keep `M4_admission` as `not_admitted`; do not start PE, M5, or M6.
 
 Validation performed during this audit: `uv run python -m unittest checks.test_continuation research.test_m4_admission_audit` passed (`18` tests).
+
+## 2026-11-18 Follow-up Provenance Check
+
+An append-only check in `research/audit_m4_source_history.py` compared the 61 paths registered by the two M3 acceptance records with the current worktree. Fifty-six still match. All five mismatched source files have an exact SHA-256 match in reachable Git history: `metabolism/adaptive.py` at commit `78d873600b235bed260a87599f9a257cfb35bf32`; `checks/test_continuation.py`, `metabolism/continuation.py`, `scripts/run-macos.sh`, and `scripts/setup-macos.sh` at `0516865c2da8e09373c7e620885f8edb2e8f2bd5`. The machine-readable result is `results/m4-source-history-audit/summary.json`.
+
+This establishes that the registered source versions remain traceable in Git. It does not reproduce their historical execution environments, make the current worktree match those versions, or change the gatekeeper result. M4 remains `not_admitted`.

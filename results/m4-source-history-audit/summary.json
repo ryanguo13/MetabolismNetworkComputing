@@ -1,0 +1,74 @@
+{
+  "scope": "Registered M3 source provenance only; does not reproduce old runs or alter admission",
+  "registrations": [
+    "results/m3/acceptance.json",
+    "results/m3-continuation/acceptance.json"
+  ],
+  "registered_files": 61,
+  "current_worktree_matches": 56,
+  "current_worktree_mismatches": 5,
+  "all_mismatched_sources_found_in_reachable_git_history": true,
+  "historical_sources": [
+    {
+      "registration": "results/m3/acceptance.json",
+      "path": "metabolism/adaptive.py",
+      "registered_sha256": "427c67bfba193a79fb6d3d96aecc5ed01efa1a5d3fc7cbc82e525f3cf851db69",
+      "current_sha256": "be51c516d8126618d15cc8975e420e603e5dd378672b37c4ece09fcbbd335f44",
+      "current_match": false,
+      "historical_match": {
+        "commit": "78d873600b235bed260a87599f9a257cfb35bf32",
+        "committed_at": "2026-11-04T00:27:02+08:00",
+        "subject": "feat: audit adaptive splitting and M3 continuation limits"
+      }
+    },
+    {
+      "registration": "results/m3-continuation/acceptance.json",
+      "path": "checks/test_continuation.py",
+      "registered_sha256": "f65453d9834e8eb38463bdb39497a391e0273efb4d5c197533643fead7e5af52",
+      "current_sha256": "233fde8920c27505511490c59a6bf6c376fa36069c0e8d7a6b4a9f856dd6d49e",
+      "current_match": false,
+      "historical_match": {
+        "commit": "0516865c2da8e09373c7e620885f8edb2e8f2bd5",
+        "committed_at": "2026-11-07T15:17:30+08:00",
+        "subject": "feat: validate macOS M3 continuation and strong baselines"
+      }
+    },
+    {
+      "registration": "results/m3-continuation/acceptance.json",
+      "path": "metabolism/continuation.py",
+      "registered_sha256": "5ab80a104e33f8a37160fb4ab113de62d00e5a4b60afc4d30517e78d5e98f210",
+      "current_sha256": "1022a35a2332061b2a297405a4181bf0439f579d400a58f4cfcd66a87a1fb96c",
+      "current_match": false,
+      "historical_match": {
+        "commit": "0516865c2da8e09373c7e620885f8edb2e8f2bd5",
+        "committed_at": "2026-11-07T15:17:30+08:00",
+        "subject": "feat: validate macOS M3 continuation and strong baselines"
+      }
+    },
+    {
+      "registration": "results/m3-continuation/acceptance.json",
+      "path": "scripts/run-macos.sh",
+      "registered_sha256": "269f1fbf63366932a827d4e712450f2b3f02e43e8d23eb475eeb7732dd3a2dfe",
+      "current_sha256": "436936cf51d6c2736de6dfa44dc293f8430e88eeb75260e9abc207c48d2b509d",
+      "current_match": false,
+      "historical_match": {
+        "commit": "0516865c2da8e09373c7e620885f8edb2e8f2bd5",
+        "committed_at": "2026-11-07T15:17:30+08:00",
+        "subject": "feat: validate macOS M3 continuation and strong baselines"
+      }
+    },
+    {
+      "registration": "results/m3-continuation/acceptance.json",
+      "path": "scripts/setup-macos.sh",
+      "registered_sha256": "1da5b4782d451abd921fe794332f15e3585180e6c47a2a988c19994744b7550a",
+      "current_sha256": "08320a1720398e82edcd369c6e43bc3c99d91ecdec43913f83e768f945012df9",
+      "current_match": false,
+      "historical_match": {
+        "commit": "0516865c2da8e09373c7e620885f8edb2e8f2bd5",
+        "committed_at": "2026-11-07T15:17:30+08:00",
+        "subject": "feat: validate macOS M3 continuation and strong baselines"
+      }
+    }
+  ],
+  "interpretation": "All registered source versions were found in reachable Git history; current-source mismatch remains and historical execution is not reproduced."
+}

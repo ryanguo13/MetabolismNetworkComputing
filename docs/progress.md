@@ -1,7 +1,23 @@
 # 项目进度
 
-最后更新：2026-11-16（Asia/Shanghai）
-当前阶段：**M4 仍未准入；新的算法原型筛查暂停，等待能改变候选与完整审计成本下界的外部证据或新公式。两模型、两正式精度档、完整窗口、至少 50% 真实反应分裂覆盖、7 次正式重复及中位端到端 1.5 倍门槛均必须同时满足。没有正审计成本预算的路线不进入正式窗口；M5／M6 未启动。**
+最后更新：2026-11-18（Asia/Shanghai）
+当前阶段：**M4 仍未准入。SUNDIALS 7.9 ExtSTS 通过接口与标量方程验证，但因强刚性标量精度门需要 2,147–21,480 个宏步而停止真实模型筛查；当前没有候选满足审计后正预算。M4 两模型、两正式精度档、完整窗口、至少 50% 真实反应分裂覆盖、7 次正式重复及中位端到端 1.5 倍门槛保持不变。PE/M5/M6 未启动。**
+
+## 2026-11-18：历史来源核验与下一候选停止门
+
+- [x] 新增只读审计 `research/audit_m4_source_history.py`，结果保存在 `results/m4-source-history-audit/summary.json`。对两份 M3 acceptance 的 61 个登记文件逐一比较当前工作树，并仅对失配项查询可达 Git 历史；56 个当前匹配，5 个源码失配均找到登记 SHA-256 的精确版本。
+- [x] 5 个历史源码版本落在两个已提交快照：`metabolism/adaptive.py` 对应 `78d873600b235bed260a87599f9a257cfb35bf32`；`checks/test_continuation.py`、`metabolism/continuation.py`、`scripts/run-macos.sh`、`scripts/setup-macos.sh` 对应 `0516865c2da8e09373c7e620885f8edb2e8f2bd5`。这确认历史源文件可追溯，不等于在旧环境重跑或证明当前源码产生了旧结果；M4 原 admission checker 和硬门未改。
+- [x] Patankar/MPRK 只在特定 PDS、权重及 M-matrix 条件下提供相应正性／守恒结论；现有代谢子流不满足可直接套用的证明前提。统一反应进度 `y⁺=y+Sξ` 可代数保留线性池，但不能单独保证多底物反应的非负性。仓库已有 reduced-extent v4 的 8 次局部候选尝试均因 RHS 状态变负而失败；不重复推进同一映射。
+- [x] 检查跨独立审计复用 KLU 符号分析的省项：已验证的 SUNDIALS 6.4.1 路径在 KLU 初始化后重新触发符号分析；公开 [`SUNLinSol_KLUReInit` API](https://sundials.readthedocs.io/en/v7.9.0/sunlinsol/SUNLinSol_links.html) 是矩阵重新分解入口，而本地 6.4.1 初始化会重置 `first_factorize`。因此没有继续用私有 ABI 绕开独立求解器重置；若未来有可支持的持久稀疏分解 API，再重新筛查。
+- [ ] 当前状态仍为 `M4_admission=not_admitted`、当前工作树源指纹 `evidence_integrity=fail`；历史源版本可追溯不消除旧登记与当前源码不同的事实。完整窗口、50% 真实分裂覆盖、7 次正式重复和 1.5 倍中位端到端加速门均未满足。
+
+## 2026-11-17：ExtSTS 标量正确性与成本筛查停止
+
+- [x] 在隔离环境 `uv run --with sundials4py==7.9.0` 中创建 SUNDIALS 7.9 `MRIStepCreateExtSTS` 探针；项目依赖、6.4.1 CVODE 运行时和正式基线均未改变。
+- [x] 固定宏步 `h=1e-2,1e-3,1e-4` 对 `y'=-1000.1y` 的误差分别为 `1.82e4, 0.956, 4.73e-3`；固定大步虽返回成功但不满足精度。
+- [x] 自适应档 `rtol/atol=1e-8/1e-12,1e-10/1e-14,1e-12/1e-16` 的相对误差分别为 `1.758e-3,1.744e-5,1.693e-7`，对应 214、2,147、21,480 次接受宏步。达到 `1e-3` 标量门需要比最宽档更多的宏步，进一步收紧呈约 10 倍步数增长。
+- [x] 原始可复查产物与源码：`research/m4_extsts_scalar_probe.py`、`results/m4-extsts-scalar-probe-v1/`、`results/m4-extsts-scalar-probe-v2/`；两结果包含登记、逐行记录、NPZ、manifest 与运行环境。
+- [x] 停止决定：接口和标量求解正确性已验证，但误差控制成本表现不支持进入真实模型局部筛查；不启动完整窗口或七次正式重复，M4 准入状态不变。该结果只排除此 ExtSTS 配置/映射，不代表所有 MRI/STS 公式不可能。
 
 ## 2026-11-16：线性慢预测器预算与宏步筛查停止
 

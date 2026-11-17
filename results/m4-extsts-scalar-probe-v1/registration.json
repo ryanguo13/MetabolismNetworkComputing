@@ -1,0 +1,21 @@
+{
+  "equation": "y' = -1000*y - 0.1*y",
+  "initial_value": 1.0,
+  "interval": [
+    0.0,
+    0.01
+  ],
+  "exact_solution": "exp(-1000.1*t)",
+  "tolerances": {
+    "rtol": 1e-08,
+    "atol": 1e-12
+  },
+  "fixed_step_checks": [
+    0.01,
+    0.001,
+    0.0001
+  ],
+  "adaptive_initial_and_max_step": 0.01,
+  "acceptance": "adaptive endpoint relative error <= 1e-3 and successful return",
+  "method": "SUNDIALS ARKODE MRIStep ExtSTS with RKC2 and power dominant-eigenvalue estimate"
+}

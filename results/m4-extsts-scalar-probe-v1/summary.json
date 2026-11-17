@@ -1,0 +1,54 @@
+{
+  "status": "fail",
+  "adaptive": {
+    "step_size": null,
+    "flag": 0,
+    "reached_time": 0.01,
+    "value": 4.5434272138924005e-05,
+    "expected": 4.535455252512243e-05,
+    "relative_error": 0.001757698166185583,
+    "accepted_steps": 214,
+    "attempts": 217
+  },
+  "fixed_step_rows": [
+    {
+      "step_size": 0.01,
+      "flag": 0,
+      "reached_time": 0.01,
+      "value": 0.8246833781612097,
+      "expected": 4.535455252512243e-05,
+      "relative_error": 18182.03416629252,
+      "accepted_steps": 1,
+      "attempts": 1
+    },
+    {
+      "step_size": 0.001,
+      "flag": 0,
+      "reached_time": 0.01,
+      "value": 8.869941214531543e-05,
+      "expected": 4.535455252512243e-05,
+      "relative_error": 0.9556892793988822,
+      "accepted_steps": 10,
+      "attempts": 10
+    },
+    {
+      "step_size": 0.0001,
+      "flag": 0,
+      "reached_time": 0.01,
+      "value": 4.5569278901048236e-05,
+      "expected": 4.535455252512243e-05,
+      "relative_error": 0.004734395203367225,
+      "accepted_steps": 101,
+      "attempts": 101
+    }
+  ],
+  "environment": {
+    "python": "3.12.10",
+    "sundials4py": "7.9.0",
+    "platform": "macOS-26.6.2-arm64-arm-64bit"
+  },
+  "limitations": [
+    "Scalar correctness only; no reaction network, positivity or ledger test.",
+    "No performance comparison or M4 admission evidence."
+  ]
+}
