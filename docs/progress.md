@@ -9,6 +9,11 @@
 - [x] 两个后端输出逐位一致。状态 0 的 7.9.0 中位仅快 `1.013x`（0.3946 s vs 0.3998 s）；状态 61 慢至 `0.987x`（0.1953 s vs 0.1927 s）。7.9.0 的 MPI 初始化另需约 0.148 s，模型/真值准备约 2.86 s；这些启动成本不含在求解中位数里。此配置差异对照没有候选生成或全窗审计收益证据，停止，不扩展到候选轨迹、全窗口或正式重复。
 - [x] `uv run python -m metabolism.m4_admission` 仍报告 `M4_admission=not_admitted`、`evidence_integrity=fail`。该局部运行时筛查不补足冻结哈希、完整窗口、分裂覆盖或候选端到端加速硬门；不改变原 acceptance 语义。相关回归检查 23 项通过。
 
+## 2026-11-18：登记源码快照完整性复核
+
+- [x] 在一次性 detached worktree `0516865c2da8e09373c7e620885f8edb2e8f2bd5` 中直接核对两份 M3 acceptance 的 61 项源码 SHA-256，39 + 22 项全部匹配；使用当前只读 gatekeeper 对该历史根目录评估时，`historical_hashes`、`continuation_hashes` 及其余登记完整性检查均为 true，`evidence_integrity=pass`。这是源码快照对登记的验证，不是历史运行环境复现。
+- [x] 同一评估下四个 M4 候选组合仍均 `qualified=false`、速度比为空，`M4_admission=not_admitted`。当前活动工作树的 gatekeeper 仍为 `evidence_integrity=fail`，因为当前源码并非历史登记版本；不得把历史快照 PASS 移记为当前源码 PASS，也不得修改 acceptance 哈希来掩盖差异。
+
 ## 2026-11-18：历史来源核验与下一候选停止门
 
 - [x] 新增只读审计 `research/audit_m4_source_history.py`，结果保存在 `results/m4-source-history-audit/summary.json`。对两份 M3 acceptance 的 61 个登记文件逐一比较当前工作树，并仅对失配项查询可达 Git 历史；56 个当前匹配，5 个源码失配均找到登记 SHA-256 的精确版本。
