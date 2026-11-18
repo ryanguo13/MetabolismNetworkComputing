@@ -3,6 +3,12 @@
 最后更新：2026-11-18（Asia/Shanghai）
 当前阶段：**M4 仍未准入。SUNDIALS 7.9 ExtSTS 通过接口与标量方程验证，但因强刚性标量精度门需要 2,147–21,480 个宏步而停止真实模型筛查；当前没有候选满足审计后正预算。M4 两模型、两正式精度档、完整窗口、至少 50% 真实反应分裂覆盖、7 次正式重复及中位端到端 1.5 倍门槛保持不变。PE/M5/M6 未启动。**
 
+## 2026-11-18：KLU 跨独立审计符号分析复用停止
+
+- [x] 独立核对 SUNDIALS 6.4.1 源码调用链：CVodeReInit 重置 CVODE 步历史；下一次 CVode 初始化线性求解器，KLU Initialize 设置 first_factorize=1，首次 Setup 再调用 klu_analyze。SUNLinSol_KLUReInit 的 FULL 与 PARTIAL 两种模式均释放 symbolic/numeric factors；连续单次求解内的后续 setup 才能保留 symbolic 并尝试 numeric refactor。
+- [x] 独立审阅确认 [KLU 复用审计](../.aris/workbench/outputs/engineer/M4_KLU_REUSE.md) 的 NO-GO 与源码一致。该机制不能通过已检查的受支持 6.4.1 API 避免独立完整审计的符号分析；直接保存/恢复 KLU 内部指针不属于受支持复用方式，因此不做计时探针。
+- [x] 结论与 fresh gatekeeper：该路径不产生新的正审计后预算依据；`uv run python -m metabolism.m4_admission` 仍为 `M4_admission=not_admitted`、`evidence_integrity=fail`，四个模型/精度组合均无合格候选。`uv run python -m unittest research.test_m4_admission` 的 4 项检查通过。不启动完整窗口或七次正式重复。详见 [M4 Final Stop Audit](m4-final-stop-audit.md)。
+
 ## 2026-11-18：CVODE runtime 对照停止
 
 - [x] 完成两个已安装运行时的有界对照：项目 SUNDIALS 6.4.1 与 Homebrew MPI-enabled SUNDIALS 7.9.0，k-ecoli457 状态 0/61、`H=1e-6`，四个查询点、CVODE-BDF/KLU `rtol=1e-11`；每个状态/后端 1 次预热和 7 次交错测量。参考文件、起点状态、运行库、源码和输出均登记哈希；32 行记录及 43 项 manifest 独立复核无失配，所有局部浓度、通量、净通量、池漂移与非负性检查通过。完整原始证据见 `results/m4-cvode-runtime-screen-v1/`。
